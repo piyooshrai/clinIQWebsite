@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patient Flow Software for Addiction Medicine Clinics | clinIQ</title>
+  <meta name="description" content="Real-time patient tracking built for MAT clinics. Know where every patient is — intake, urine collection, injection, observation — without asking.">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Patient Flow Software for Addiction Medicine Clinics | clinIQ">
+  <meta property="og:description" content="Real-time patient tracking built for MAT clinics. Stop asking where patients are.">
+  <meta property="og:type" content="website">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --black: #0d0d0c;
+      --white: #ffffff;
+      --cream: #f5f3ef;
+      --teal: #0d9488;
+      --teal-light: #14b8a6;
+      --text-primary: #0d0d0c;
+      --text-secondary: #52524e;
+      --text-tertiary: #7a7a75;
+      --text-inverse: #ffffff;
+      --text-inverse-secondary: rgba(255, 255, 255, 0.7);
+      --border-light: rgba(0, 0, 0, 0.08);
+      --border-dark: rgba(255, 255, 255, 0.1);
+      --font-display: 'Instrument Serif', Georgia, serif;
+      --font-body: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+      font-family: var(--font-body);
+      font-size: 1rem;
+      line-height: 1.5;
+      color: var(--text-primary);
+      background: var(--white);
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    @media (min-width: 768px) {
+      .container { padding: 0 2.5rem; }
+    }
+
+    /* Navigation */
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      padding: 1rem 0;
+      background: rgba(13, 13, 12, 0.95);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border-dark);
+    }
+
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+    }
+
+    .nav-logo {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      color: var(--white);
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: none;
+      gap: 2rem;
+    }
+
+    @media (min-width: 1024px) {
+      .nav-links { display: flex; }
+    }
+
+    .nav-link {
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--text-inverse-secondary);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+
+    .nav-link:hover {
+      color: var(--white);
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 1rem 2rem;
+      font-family: var(--font-body);
+      font-size: 0.875rem;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 100px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .btn-sm {
+      padding: 0.75rem 1.5rem;
+      font-size: 0.8125rem;
+    }
+
+    .btn-lg {
+      padding: 1.25rem 2.5rem;
+      font-size: 1rem;
+    }
+
+    .btn-primary {
+      background: var(--teal);
+      color: var(--white);
+      box-shadow: 0 2px 8px rgba(13, 148, 136, 0.3);
+    }
+
+    .btn-primary:hover {
+      background: var(--teal-light);
+      box-shadow: 0 4px 16px rgba(13, 148, 136, 0.4);
+      transform: translateY(-2px);
+    }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--white);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .btn-ghost:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .btn-icon {
+      width: 16px;
+      height: 16px;
+      transition: transform 0.15s;
+    }
+
+    .btn:hover .btn-icon {
+      transform: translateX(3px);
+    }
+
+    /* Hero */
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 8rem 0 6rem;
+      background: var(--black);
+      overflow: hidden;
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+    }
+
+    .hero-orb {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(100px);
+    }
+
+    .hero-orb--teal {
+      width: 700px;
+      height: 700px;
+      top: -300px;
+      right: 5%;
+      background: radial-gradient(circle, rgba(13, 148, 136, 0.25) 0%, transparent 70%);
+    }
+
+    .hero-orb--blue {
+      width: 500px;
+      height: 500px;
+      bottom: -200px;
+      left: 10%;
+      background: radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, transparent 70%);
+    }
+
+    .hero-grain {
+      position: absolute;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+      opacity: 0.03;
+    }
+
+    .hero-content {
+      position: relative;
+      max-width: 800px;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      margin-bottom: 1.5rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--teal-light);
+      background: rgba(13, 148, 136, 0.12);
+      border: 1px solid rgba(13, 148, 136, 0.25);
+      border-radius: 100px;
+    }
+
+    .hero-title {
+      font-family: var(--font-display);
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      font-weight: 400;
+      line-height: 1.1;
+      color: var(--white);
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-title em {
+      font-style: italic;
+      color: var(--teal-light);
+    }
+
+    .hero-subtitle {
+      font-size: clamp(1.125rem, 2vw, 1.25rem);
+      line-height: 1.6;
+      color: var(--text-inverse-secondary);
+      max-width: 600px;
+      margin-bottom: 2.5rem;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    /* Marquee */
+    .marquee {
+      overflow: hidden;
+      padding: 1rem 0;
+      background: var(--cream);
+      border-bottom: 1px solid var(--border-light);
+    }
+
+    .marquee-track {
+      display: flex;
+      width: max-content;
+      animation: marquee 40s linear infinite;
+    }
+
+    .marquee-content {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      padding-right: 2rem;
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      white-space: nowrap;
+    }
+
+    .marquee-dot {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--teal);
+      flex-shrink: 0;
+    }
+
+    @keyframes marquee {
+      from { transform: translateX(0); }
+      to { transform: translateX(-50%); }
+    }
+
+    /* Problem Section */
+    .problem {
+      padding: 6rem 0;
+      background: var(--white);
+    }
+
+    .problem-grid {
+      display: grid;
+      gap: 4rem;
+      align-items: center;
+    }
+
+    @media (min-width: 1024px) {
+      .problem-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .problem-content {
+      max-width: 540px;
+    }
+
+    .section-label {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 1rem;
+    }
+
+    .section-title {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 4vw, 2.75rem);
+      font-weight: 400;
+      line-height: 1.15;
+      margin-bottom: 1.5rem;
+    }
+
+    .section-desc {
+      font-size: 1.125rem;
+      line-height: 1.7;
+      color: var(--text-secondary);
+      margin-bottom: 2rem;
+    }
+
+    .pain-list {
+      list-style: none;
+    }
+
+    .pain-list li {
+      position: relative;
+      padding-left: 2rem;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      color: var(--text-secondary);
+    }
+
+    .pain-list li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.5rem;
+      width: 8px;
+      height: 8px;
+      background: var(--teal);
+      border-radius: 50%;
+    }
+
+    .problem-visual {
+      position: relative;
+      background: var(--cream);
+      border-radius: 16px;
+      padding: 2rem;
+      min-height: 400px;
+    }
+
+    .mockup-placeholder {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      min-height: 350px;
+      background: var(--white);
+      border: 1px solid var(--border-light);
+      border-radius: 12px;
+      font-size: 0.875rem;
+      color: var(--text-tertiary);
+    }
+
+    /* Features Grid */
+    .features {
+      padding: 6rem 0;
+      background: var(--cream);
+    }
+
+    .features-header {
+      max-width: 600px;
+      margin-bottom: 4rem;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    @media (min-width: 768px) {
+      .feature-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .feature-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .feature-card {
+      padding: 2rem;
+      background: var(--white);
+      border: 1px solid transparent;
+      border-radius: 16px;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .feature-card:hover {
+      border-color: var(--teal);
+      box-shadow: 0 8px 40px rgba(13, 148, 136, 0.1);
+      transform: translateY(-4px);
+    }
+
+    .feature-icon {
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+      background: var(--cream);
+      border-radius: 12px;
+      color: var(--teal);
+    }
+
+    .feature-icon svg {
+      width: 24px;
+      height: 24px;
+    }
+
+    .feature-title {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .feature-desc {
+      font-size: 0.9375rem;
+      line-height: 1.6;
+      color: var(--text-secondary);
+    }
+
+    /* Workflow Section */
+    .workflow {
+      padding: 6rem 0;
+      background: var(--white);
+    }
+
+    .workflow-header {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 4rem;
+    }
+
+    .workflow-stages {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+
+    .stage {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.25rem;
+      background: var(--cream);
+      border-radius: 100px;
+      font-size: 0.875rem;
+      font-weight: 500;
+    }
+
+    .stage-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+
+    .stage-dot--intake { background: #f59e0b; }
+    .stage-dot--urine { background: #8b5cf6; }
+    .stage-dot--ma { background: #3b82f6; }
+    .stage-dot--provider { background: var(--teal); }
+    .stage-dot--injection { background: #ec4899; }
+    .stage-dot--observation { background: #6366f1; }
+    .stage-dot--checkout { background: #22c55e; }
+
+    .stage-arrow {
+      color: var(--text-tertiary);
+      font-size: 1.25rem;
+    }
+
+    /* Stats */
+    .stats {
+      padding: 5rem 0;
+      background: var(--black);
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+    }
+
+    @media (min-width: 768px) {
+      .stats-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    .stat {
+      text-align: center;
+    }
+
+    .stat-number {
+      display: block;
+      font-family: var(--font-display);
+      font-size: clamp(2.5rem, 5vw, 3.5rem);
+      color: var(--teal-light);
+      line-height: 1;
+      margin-bottom: 0.5rem;
+    }
+
+    .stat-label {
+      font-size: 0.875rem;
+      color: var(--text-inverse-secondary);
+    }
+
+    /* Testimonial */
+    .testimonial {
+      padding: 6rem 0;
+      background: var(--cream);
+    }
+
+    .testimonial-quote {
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .testimonial-quote p {
+      font-family: var(--font-display);
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      font-style: italic;
+      line-height: 1.4;
+      color: var(--text-primary);
+      margin-bottom: 2rem;
+    }
+
+    .testimonial-author {
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+
+    .testimonial-role {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      margin-top: 0.25rem;
+    }
+
+    /* CTA */
+    .cta {
+      padding: 8rem 0;
+      background: var(--white);
+    }
+
+    .cta-content {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .cta-title {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 4vw, 3rem);
+      margin-bottom: 1rem;
+    }
+
+    .cta-desc {
+      font-size: 1.125rem;
+      color: var(--text-secondary);
+      margin-bottom: 2rem;
+    }
+
+    .cta-note {
+      display: block;
+      margin-top: 1rem;
+      font-size: 0.875rem;
+      color: var(--text-tertiary);
+    }
+
+    /* Footer */
+    .footer {
+      padding: 5rem 0 3rem;
+      background: var(--black);
+    }
+
+    .footer-grid {
+      display: grid;
+      gap: 3rem;
+      margin-bottom: 4rem;
+    }
+
+    @media (min-width: 768px) {
+      .footer-grid {
+        grid-template-columns: 1.5fr 3fr;
+      }
+    }
+
+    .footer-brand {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      color: var(--white);
+      margin-bottom: 1rem;
+    }
+
+    .footer-tagline {
+      font-size: 0.875rem;
+      color: var(--text-inverse-secondary);
+    }
+
+    .footer-links {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+    }
+
+    @media (min-width: 768px) {
+      .footer-links {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    .footer-heading {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-inverse-secondary);
+      margin-bottom: 1rem;
+    }
+
+    .footer-col ul {
+      list-style: none;
+    }
+
+    .footer-col li {
+      margin-bottom: 0.75rem;
+    }
+
+    .footer-col a {
+      font-size: 0.875rem;
+      color: var(--text-inverse-secondary);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+
+    .footer-col a:hover {
+      color: var(--white);
+    }
+
+    .footer-bottom {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 1rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border-dark);
+      font-size: 0.75rem;
+      color: var(--text-inverse-secondary);
+    }
+
+    /* Reveal Animation */
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="nav">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">clinIQ</a>
+      
+      <div class="nav-links">
+        <a href="/features" class="nav-link">Features</a>
+        <a href="/specialties" class="nav-link">Specialties</a>
+        <a href="/pricing" class="nav-link">Pricing</a>
+        <a href="/resources" class="nav-link">Resources</a>
+      </div>
+      
+      <div class="nav-actions">
+        <a href="/login" class="nav-link">Log in</a>
+        <a href="/demo" class="btn btn-primary btn-sm">Get Demo</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-bg">
+    <div class="hero-orb hero-orb--teal"></div>
+    <div class="hero-orb hero-orb--blue"></div>
+    <div class="hero-grain"></div>
+  </div>
+  
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-badge">For Addiction Medicine Clinics</div>
+      <h1 class="hero-title">
+        Your patients are waiting.<br>
+        <em>You shouldn't be guessing.</em>
+      </h1>
+      <p class="hero-subtitle">
+        clinIQ gives your MAT clinic real-time visibility into every patient — from intake through observation. No more walking the halls. No more "who's next?" No more chaos.
+      </p>
+      <div class="hero-actions">
+        <a href="/demo" class="btn btn-primary btn-lg">
+          See It In Action
+          <svg class="btn-icon" viewBox="0 0 20 20" fill="none">
+            <path d="M4 10h12m-4-4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <a href="/features/patient-flow" class="btn btn-ghost btn-lg">How It Works</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Marquee -->
+<div class="marquee">
+  <div class="marquee-track">
+    <div class="marquee-content">
+      <span>Real-time patient tracking</span>
+      <span class="marquee-dot"></span>
+      <span>Built for complex workflows</span>
+      <span class="marquee-dot"></span>
+      <span>Works with any EHR</span>
+      <span class="marquee-dot"></span>
+      <span>Implementation in days</span>
+      <span class="marquee-dot"></span>
+      <span>Real-time patient tracking</span>
+      <span class="marquee-dot"></span>
+      <span>Built for complex workflows</span>
+      <span class="marquee-dot"></span>
+      <span>Works with any EHR</span>
+      <span class="marquee-dot"></span>
+      <span>Implementation in days</span>
+      <span class="marquee-dot"></span>
+    </div>
+  </div>
+</div>
+
+<!-- Problem Section -->
+<section class="problem">
+  <div class="container">
+    <div class="problem-grid">
+      <div class="problem-content reveal">
+        <span class="section-label">The Reality</span>
+        <h2 class="section-title">MAT clinics aren't like other practices.</h2>
+        <p class="section-desc">
+          You've got scheduled patients, walk-ins in crisis, urine collection that can't wait, and injection timing that matters. Generic patient management wasn't built for this.
+        </p>
+        <ul class="pain-list">
+          <li>Patients cycling through intake, urine collection, vitals, provider, injection, and observation — in different orders</li>
+          <li>Walk-in volume that spikes without warning</li>
+          <li>Injection timing (Sublocade, Vivitrol) that requires precise scheduling</li>
+          <li>Staff constantly interrupted to report patient status</li>
+          <li>No visibility into bottlenecks until the lobby is overflowing</li>
+        </ul>
+      </div>
+      <div class="problem-visual reveal">
+        <div class="mockup-placeholder">
+          [Queue View Screenshot]
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Workflow Section -->
+<section class="workflow">
+  <div class="container">
+    <div class="workflow-header reveal">
+      <span class="section-label">Your Workflow</span>
+      <h2 class="section-title">Every stage. Every patient. One screen.</h2>
+      <p class="section-desc">
+        Track patients through your actual workflow — not some generic template that doesn't fit.
+      </p>
+    </div>
+    
+    <div class="workflow-stages reveal">
+      <div class="stage">
+        <span class="stage-dot stage-dot--intake"></span>
+        Intake
+      </div>
+      <span class="stage-arrow">→</span>
+      <div class="stage">
+        <span class="stage-dot stage-dot--urine"></span>
+        Urine Collection
+      </div>
+      <span class="stage-arrow">→</span>
+      <div class="stage">
+        <span class="stage-dot stage-dot--ma"></span>
+        With MA
+      </div>
+      <span class="stage-arrow">→</span>
+      <div class="stage">
+        <span class="stage-dot stage-dot--provider"></span>
+        With Provider
+      </div>
+      <span class="stage-arrow">→</span>
+      <div class="stage">
+        <span class="stage-dot stage-dot--injection"></span>
+        Injection
+      </div>
+      <span class="stage-arrow">→</span>
+      <div class="stage">
+        <span class="stage-dot stage-dot--observation"></span>
+        Observation
+      </div>
+      <span class="stage-arrow">→</span>
+      <div class="stage">
+        <span class="stage-dot stage-dot--checkout"></span>
+        Checkout
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Features -->
+<section class="features">
+  <div class="container">
+    <div class="features-header reveal">
+      <span class="section-label">What You Get</span>
+      <h2 class="section-title">Everything you need. Nothing you don't.</h2>
+    </div>
+    
+    <div class="feature-grid">
+      <div class="feature-card reveal">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2"/>
+            <path d="M3 9h18M9 21V9"/>
+          </svg>
+        </div>
+        <h3 class="feature-title">Real-Time Queue</h3>
+        <p class="feature-desc">See every patient's status instantly. Know who's waiting, who's in progress, and who's ready for discharge — without asking anyone.</p>
+      </div>
+      
+      <div class="feature-card reveal">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+            <circle cx="9" cy="7" r="4"/>
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+          </svg>
+        </div>
+        <h3 class="feature-title">Provider View</h3>
+        <p class="feature-desc">Each provider sees their own patient list. Who's ready, who's in the injection room, who needs observation monitoring.</p>
+      </div>
+      
+      <div class="feature-card reveal">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="3" width="20" height="14" rx="2"/>
+            <path d="M8 21h8M12 17v4"/>
+          </svg>
+        </div>
+        <h3 class="feature-title">LobbyView Display</h3>
+        <p class="feature-desc">Patient-facing screen shows their place in queue — HIPAA-safe, no names. Reduces "how much longer?" questions by 80%.</p>
+      </div>
+      
+      <div class="feature-card reveal">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+          </svg>
+        </div>
+        <h3 class="feature-title">Self Check-In</h3>
+        <p class="feature-desc">Kiosk, tablet, or phone. No app download required. Patients confirm their arrival, update information, and you know they're here.</p>
+      </div>
+      
+      <div class="feature-card reveal">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
+            <path d="m9 12 2 2 4-4"/>
+          </svg>
+        </div>
+        <h3 class="feature-title">Bottleneck Alerts</h3>
+        <p class="feature-desc">Automatic alerts when patients wait too long at any stage. Catch problems before the lobby overflows.</p>
+      </div>
+      
+      <div class="feature-card reveal">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12V7H5a2 2 0 0 1 0-4h14v4"/>
+            <path d="M3 5v14a2 2 0 0 0 2 2h16v-5"/>
+            <path d="M18 12a2 2 0 0 0 0 4h4v-4Z"/>
+          </svg>
+        </div>
+        <h3 class="feature-title">RTM Billing</h3>
+        <p class="feature-desc">You're already monitoring patients. CPT 98975-98981 lets you bill for it. Average $120-150/patient/month you're leaving on the table.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Stats -->
+<section class="stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat reveal">
+        <span class="stat-number">30%</span>
+        <span class="stat-label">Faster check-in</span>
+      </div>
+      <div class="stat reveal">
+        <span class="stat-number">25%</span>
+        <span class="stat-label">Shorter wait times</span>
+      </div>
+      <div class="stat reveal">
+        <span class="stat-number">80%</span>
+        <span class="stat-label">Fewer "how long?" questions</span>
+      </div>
+      <div class="stat reveal">
+        <span class="stat-number">$150</span>
+        <span class="stat-label">RTM revenue/patient/month</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonial -->
+<section class="testimonial">
+  <div class="container">
+    <blockquote class="testimonial-quote reveal">
+      <p>"Our front desk used to get interrupted constantly — 'Where is this patient?' 'Who's ready?' Now everyone just looks at the screen. We've reduced chaos without adding staff."</p>
+      <footer>
+        <cite class="testimonial-author">Dr. Rachel Torres</cite>
+        <p class="testimonial-role">Medical Director, Mountain West Recovery</p>
+      </footer>
+    </blockquote>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <div class="container">
+    <div class="cta-content reveal">
+      <h2 class="cta-title">See clinIQ for MAT clinics.</h2>
+      <p class="cta-desc">15-minute walkthrough. We'll configure it for your workflow. No pressure, no 47-slide deck.</p>
+      <a href="/demo" class="btn btn-primary btn-lg">Schedule Demo</a>
+      <span class="cta-note">No credit card required</span>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">clinIQ</div>
+        <p class="footer-tagline">Clinic operations that just work.</p>
+      </div>
+      
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4 class="footer-heading">Product</h4>
+          <ul>
+            <li><a href="/features/patient-flow">Patient Flow</a></li>
+            <li><a href="/features/check-in">Check-In</a></li>
+            <li><a href="/features/scheduling">Scheduling</a></li>
+            <li><a href="/features/rtm">RTM Billing</a></li>
+            <li><a href="/features/pre-auth">Pre-Authorization</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h4 class="footer-heading">Specialties</h4>
+          <ul>
+            <li><a href="/specialties/addiction-medicine">Addiction Medicine</a></li>
+            <li><a href="/specialties/pain-management">Pain Management</a></li>
+            <li><a href="/specialties/psychiatry">Psychiatry</a></li>
+            <li><a href="/specialties/urgent-care">Urgent Care</a></li>
+            <li><a href="/specialties/physical-therapy">Physical Therapy</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h4 class="footer-heading">Resources</h4>
+          <ul>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/resources">Guides</a></li>
+            <li><a href="/roi-calculator">ROI Calculator</a></li>
+            <li><a href="/support">Support</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h4 class="footer-heading">Company</h4>
+          <ul>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/privacy">Privacy</a></li>
+            <li><a href="/terms">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2025 The Algorithm LLC. All rights reserved.</p>
+      <p>Built following HIPAA guidelines.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Reveal on scroll
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+  reveals.forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>

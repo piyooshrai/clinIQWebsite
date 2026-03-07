@@ -1,0 +1,1465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clinIQ — Clinic Operations Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Söhne:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: 'Söhne';
+            src: local('Söhne'), local('SF Pro Display'), local('Inter');
+            font-weight: 400 600;
+        }
+
+        :root {
+            --white: #ffffff;
+            --off-white: #fafafa;
+            --cream: #f5f3ef;
+            --gray-100: #e8e6e1;
+            --gray-200: #d4d1c9;
+            --gray-400: #9c9a93;
+            --gray-600: #6b6a65;
+            --gray-800: #3d3c39;
+            --gray-900: #1d1c1a;
+            --black: #0d0d0c;
+            --blue: #2563eb;
+            --blue-deep: #1e40af;
+            --teal: #0d9488;
+            --teal-light: #14b8a6;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Söhne', 'SF Pro Display', 'Inter', -apple-system, sans-serif;
+            color: var(--gray-900);
+            background: var(--black);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+        }
+
+        /* Grain overlay */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+            opacity: 0.03;
+            pointer-events: none;
+            z-index: 10000;
+        }
+
+        /* ==================== NAVIGATION ==================== */
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 24px 48px;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .nav.scrolled {
+            background: rgba(13, 13, 12, 0.9);
+            backdrop-filter: blur(24px);
+            padding: 16px 48px;
+        }
+
+        .nav-container {
+            max-width: 1440px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: baseline;
+            text-decoration: none;
+            transition: transform 0.3s;
+        }
+
+        .logo:hover {
+            transform: scale(1.02);
+        }
+
+        .logo-clin {
+            font-family: 'Instrument Serif', Georgia, serif;
+            font-size: 32px;
+            color: var(--white);
+            letter-spacing: -1px;
+        }
+
+        .logo-iq {
+            font-family: 'Instrument Serif', Georgia, serif;
+            font-size: 32px;
+            color: var(--teal-light);
+            letter-spacing: -1px;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 48px;
+        }
+
+        .nav-link {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--gray-400);
+            text-decoration: none;
+            letter-spacing: 0.02em;
+            transition: color 0.3s;
+            position: relative;
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 1px;
+            background: var(--teal-light);
+            transition: width 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .nav-link:hover {
+            color: var(--white);
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        .nav-cta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 0.02em;
+            text-decoration: none;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-ghost {
+            padding: 12px 20px;
+            background: transparent;
+            color: var(--gray-400);
+            border-radius: 8px;
+        }
+
+        .btn-ghost:hover {
+            color: var(--white);
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .btn-primary {
+            padding: 14px 28px;
+            background: var(--white);
+            color: var(--black);
+            border-radius: 100px;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 32px rgba(255, 255, 255, 0.15);
+        }
+
+        /* ==================== HERO ==================== */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 160px 48px 120px;
+            background: var(--black);
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Animated gradient orbs */
+        .hero-orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(120px);
+            opacity: 0.5;
+            animation: float 20s ease-in-out infinite;
+        }
+
+        .hero-orb-1 {
+            width: 600px;
+            height: 600px;
+            background: linear-gradient(135deg, #0d9488 0%, #0891b2 100%);
+            top: -200px;
+            right: -100px;
+            animation-delay: 0s;
+        }
+
+        .hero-orb-2 {
+            width: 400px;
+            height: 400px;
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+            bottom: -100px;
+            left: 10%;
+            animation-delay: -5s;
+        }
+
+        .hero-orb-3 {
+            width: 300px;
+            height: 300px;
+            background: linear-gradient(135deg, #14b8a6 0%, #06b6d4 100%);
+            top: 40%;
+            left: -100px;
+            animation-delay: -10s;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            25% { transform: translate(30px, -30px) scale(1.05); }
+            50% { transform: translate(-20px, 20px) scale(0.95); }
+            75% { transform: translate(20px, 10px) scale(1.02); }
+        }
+
+        .hero-container {
+            max-width: 1440px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 32px;
+        }
+
+        .hero-label-line {
+            width: 48px;
+            height: 1px;
+            background: linear-gradient(90deg, var(--teal-light) 0%, transparent 100%);
+        }
+
+        .hero-label-text {
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--teal-light);
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+        }
+
+        .hero-title {
+            font-family: 'Instrument Serif', Georgia, serif;
+            font-size: clamp(56px, 10vw, 120px);
+            line-height: 0.95;
+            color: var(--white);
+            margin-bottom: 40px;
+            letter-spacing: -0.03em;
+            max-width: 1100px;
+        }
+
+        .hero-title-line {
+            display: block;
+            overflow: hidden;
+        }
+
+        .hero-title-word {
+            display: inline-block;
+            animation: slideUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+            opacity: 0;
+            transform: translateY(100%);
+        }
+
+        .hero-title-line:nth-child(1) .hero-title-word { animation-delay: 0.1s; }
+        .hero-title-line:nth-child(2) .hero-title-word { animation-delay: 0.2s; }
+        .hero-title-line:nth-child(3) .hero-title-word { animation-delay: 0.3s; }
+
+        @keyframes slideUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero-title em {
+            font-style: italic;
+            color: var(--teal-light);
+        }
+
+        .hero-description {
+            font-size: 20px;
+            color: var(--gray-400);
+            margin-bottom: 48px;
+            max-width: 540px;
+            line-height: 1.7;
+            animation: fadeIn 1s 0.5s both;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .hero-cta {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            animation: fadeIn 1s 0.7s both;
+        }
+
+        .btn-hero {
+            padding: 20px 40px;
+            font-size: 16px;
+            font-weight: 500;
+            border-radius: 100px;
+        }
+
+        .btn-hero-primary {
+            background: var(--white);
+            color: var(--black);
+        }
+
+        .btn-hero-primary:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 16px 48px rgba(255, 255, 255, 0.2);
+        }
+
+        .btn-hero-secondary {
+            background: transparent;
+            color: var(--white);
+            border: 1px solid var(--gray-600);
+        }
+
+        .btn-hero-secondary:hover {
+            border-color: var(--white);
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .hero-visual {
+            position: absolute;
+            right: 48px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 45%;
+            max-width: 700px;
+            animation: fadeIn 1.2s 0.4s both;
+        }
+
+        .hero-dashboard {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 24px;
+            padding: 24px;
+            backdrop-filter: blur(40px);
+            box-shadow: 
+                0 32px 64px rgba(0, 0, 0, 0.4),
+                inset 0 1px 0 rgba(255, 255, 255, 0.05);
+        }
+
+        .dashboard-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 20px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .dashboard-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+
+        .dashboard-dot-red { background: #ef4444; }
+        .dashboard-dot-yellow { background: #f59e0b; }
+        .dashboard-dot-green { background: #22c55e; }
+
+        .dashboard-stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 12px;
+            padding: 16px;
+        }
+
+        .stat-value {
+            font-family: 'Instrument Serif', Georgia, serif;
+            font-size: 28px;
+            color: var(--white);
+            margin-bottom: 4px;
+        }
+
+        .stat-value.teal { color: var(--teal-light); }
+        .stat-value.blue { color: #60a5fa; }
+
+        .stat-label {
+            font-size: 11px;
+            color: var(--gray-400);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .dashboard-queue {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 16px;
+            padding: 16px;
+        }
+
+        .queue-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .queue-title {
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--white);
+        }
+
+        .queue-live {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 11px;
+            color: var(--teal-light);
+        }
+
+        .queue-live-dot {
+            width: 6px;
+            height: 6px;
+            background: var(--teal-light);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+
+        .queue-items {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .queue-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 16px;
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.04);
+        }
+
+        .queue-patient {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .queue-avatar {
+            width: 32px;
+            height: 32px;
+            background: linear-gradient(135deg, var(--teal) 0%, var(--blue) 100%);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--white);
+        }
+
+        .queue-name {
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--white);
+        }
+
+        .queue-dept {
+            font-size: 11px;
+            color: var(--gray-400);
+        }
+
+        .queue-status {
+            padding: 6px 12px;
+            border-radius: 100px;
+            font-size: 11px;
+            font-weight: 500;
+        }
+
+        .queue-status.provider {
+            background: rgba(34, 197, 94, 0.15);
+            color: #4ade80;
+        }
+
+        .queue-status.waiting {
+            background: rgba(245, 158, 11, 0.15);
+            color: #fbbf24;
+        }
+
+        .queue-status.intake {
+            background: rgba(96, 165, 250, 0.15);
+            color: #60a5fa;
+        }
+
+        /* ==================== SCROLL INDICATOR ==================== */
+        .scroll-indicator {
+            position: absolute;
+            bottom: 48px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+            animation: fadeIn 1s 1.2s both;
+        }
+
+        .scroll-text {
+            font-size: 11px;
+            color: var(--gray-600);
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+        }
+
+        .scroll-line {
+            width: 1px;
+            height: 48px;
+            background: linear-gradient(180deg, var(--gray-600) 0%, transparent 100%);
+            position: relative;
+        }
+
+        .scroll-line::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 16px;
+            background: var(--teal-light);
+            animation: scrollDown 2s infinite;
+        }
+
+        @keyframes scrollDown {
+            0% { top: 0; opacity: 1; }
+            100% { top: 100%; opacity: 0; }
+        }
+
+        /* ==================== MARQUEE ==================== */
+        .marquee-section {
+            background: var(--gray-900);
+            padding: 32px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            overflow: hidden;
+        }
+
+        .marquee {
+            display: flex;
+            animation: marquee 30s linear infinite;
+        }
+
+        .marquee-content {
+            display: flex;
+            align-items: center;
+            gap: 64px;
+            padding-right: 64px;
+        }
+
+        @keyframes marquee {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+
+        .marquee-item {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--gray-400);
+            white-space: nowrap;
+            letter-spacing: 0.02em;
+        }
+
+        .marquee-divider {
+            width: 4px;
+            height: 4px;
+            background: var(--gray-600);
+            border-radius: 50%;
+        }
+
+        /* ==================== FEATURES ==================== */
+        .features {
+            padding: 160px 48px;
+            background: var(--cream);
+            position: relative;
+        }
+
+        .features-container {
+            max-width: 1440px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            margin-bottom: 96px;
+        }
+
+        .section-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .section-label-line {
+            width: 32px;
+            height: 1px;
+            background: var(--gray-900);
+        }
+
+        .section-label-text {
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--gray-600);
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+        }
+
+        .section-title {
+            font-family: 'Instrument Serif', Georgia, serif;
+            font-size: clamp(40px, 6vw, 72px);
+            color: var(--gray-900);
+            letter-spacing: -0.03em;
+            line-height: 1.05;
+            max-width: 800px;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .feature-card {
+            background: var(--white);
+            border-radius: 24px;
+            padding: 48px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+            border: 1px solid var(--gray-100);
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--teal) 0%, var(--blue) 100%);
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 32px 64px rgba(0, 0, 0, 0.08);
+        }
+
+        .feature-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .feature-number {
+            font-family: 'Instrument Serif', Georgia, serif;
+            font-size: 64px;
+            color: var(--gray-100);
+            line-height: 1;
+            margin-bottom: 32px;
+            transition: color 0.5s;
+        }
+
+        .feature-card:hover .feature-number {
+            color: var(--teal);
+        }
+
+        .feature-title {
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--gray-900);
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
+        }
+
+        .feature-description {
+            font-size: 16px;
+            color: var(--gray-600);
+            line-height: 1.7;
+        }
+
+        /* ==================== STATS SECTION ==================== */
+        .stats-section {
+            padding: 160px 48px;
+            background: var(--black);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .stats-section::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(13, 148, 136, 0.15) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .stats-container {
+            max-width: 1440px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 48px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-family: 'Instrument Serif', Georgia, serif;
+            font-size: clamp(48px, 8vw, 96px);
+            color: var(--white);
+            line-height: 1;
+            margin-bottom: 16px;
+            letter-spacing: -0.03em;
+        }
+
+        .stat-number span {
+            color: var(--teal-light);
+        }
+
+        .stat-text {
+            font-size: 16px;
+            color: var(--gray-400);
+            max-width: 200px;
+            margin: 0 auto;
+            line-height: 1.5;
+        }
+
+        /* ==================== TESTIMONIAL ==================== */
+        .testimonial-section {
+            padding: 160px 48px;
+            background: var(--white);
+        }
+
+        .testimonial-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .testimonial-quote {
+            font-family: 'Instrument Serif', Georgia, serif;
+            font-size: clamp(32px, 5vw, 56px);
+            color: var(--gray-900);
+            line-height: 1.3;
+            letter-spacing: -0.02em;
+            margin-bottom: 48px;
+        }
+
+        .testimonial-quote em {
+            font-style: italic;
+            color: var(--teal);
+        }
+
+        .testimonial-author {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .testimonial-avatar {
+            width: 64px;
+            height: 64px;
+            background: linear-gradient(135deg, var(--gray-900) 0%, var(--gray-800) 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Instrument Serif', Georgia, serif;
+            font-size: 24px;
+            color: var(--white);
+            margin-bottom: 16px;
+        }
+
+        .testimonial-name {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--gray-900);
+        }
+
+        .testimonial-role {
+            font-size: 15px;
+            color: var(--gray-600);
+        }
+
+        /* ==================== CTA ==================== */
+        .cta-section {
+            padding: 200px 48px;
+            background: linear-gradient(180deg, var(--gray-900) 0%, var(--black) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, transparent 0%, var(--gray-600) 50%, transparent 100%);
+        }
+
+        .cta-orb {
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            filter: blur(150px);
+            opacity: 0.3;
+        }
+
+        .cta-orb-1 {
+            background: var(--teal);
+            top: -200px;
+            left: -200px;
+        }
+
+        .cta-orb-2 {
+            background: var(--blue);
+            bottom: -200px;
+            right: -200px;
+        }
+
+        .cta-container {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-title {
+            font-family: 'Instrument Serif', Georgia, serif;
+            font-size: clamp(48px, 8vw, 88px);
+            color: var(--white);
+            line-height: 1.05;
+            letter-spacing: -0.03em;
+            margin-bottom: 32px;
+        }
+
+        .cta-title em {
+            font-style: italic;
+            color: var(--teal-light);
+        }
+
+        .cta-description {
+            font-size: 20px;
+            color: var(--gray-400);
+            margin-bottom: 48px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.7;
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+        }
+
+        /* ==================== FOOTER ==================== */
+        .footer {
+            padding: 80px 48px 40px;
+            background: var(--black);
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .footer-container {
+            max-width: 1440px;
+            margin: 0 auto;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr repeat(4, 1fr);
+            gap: 64px;
+            margin-bottom: 80px;
+        }
+
+        .footer-brand p {
+            font-size: 15px;
+            color: var(--gray-400);
+            line-height: 1.7;
+            max-width: 280px;
+            margin-top: 20px;
+        }
+
+        .footer-column h4 {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--gray-400);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 24px;
+        }
+
+        .footer-links {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .footer-links a {
+            font-size: 15px;
+            color: var(--gray-400);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: var(--white);
+        }
+
+        .footer-bottom {
+            padding-top: 40px;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-copyright {
+            font-size: 14px;
+            color: var(--gray-600);
+        }
+
+        .footer-legal {
+            display: flex;
+            gap: 32px;
+        }
+
+        .footer-legal a {
+            font-size: 14px;
+            color: var(--gray-600);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-legal a:hover {
+            color: var(--gray-400);
+        }
+
+        /* ==================== RESPONSIVE ==================== */
+        @media (max-width: 1200px) {
+            .hero-visual {
+                display: none;
+            }
+
+            .hero-title {
+                max-width: 100%;
+            }
+        }
+
+        @media (max-width: 1024px) {
+            .features-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 64px;
+            }
+
+            .footer-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .footer-brand {
+                grid-column: span 3;
+                margin-bottom: 24px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav {
+                padding: 16px 24px;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .hero {
+                padding: 140px 24px 100px;
+            }
+
+            .features {
+                padding: 100px 24px;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-section {
+                padding: 100px 24px;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 48px;
+            }
+
+            .testimonial-section {
+                padding: 100px 24px;
+            }
+
+            .cta-section {
+                padding: 120px 24px;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .footer {
+                padding: 60px 24px 30px;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 40px;
+            }
+
+            .footer-brand {
+                grid-column: span 2;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                gap: 24px;
+                text-align: center;
+            }
+
+            .footer-legal {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="/" class="logo">
+                <span class="logo-clin">clin</span><span class="logo-iq">IQ</span>
+            </a>
+            <div class="nav-links">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#specialties" class="nav-link">Specialties</a>
+                <a href="#integrations" class="nav-link">Integrations</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+            </div>
+            <div class="nav-cta">
+                <a href="/login" class="btn btn-ghost">Sign In</a>
+                <a href="/demo" class="btn btn-primary">Request Demo</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-orb hero-orb-1"></div>
+        <div class="hero-orb hero-orb-2"></div>
+        <div class="hero-orb hero-orb-3"></div>
+
+        <div class="hero-container">
+            <div class="hero-label">
+                <span class="hero-label-line"></span>
+                <span class="hero-label-text">Clinic Operations Platform</span>
+            </div>
+
+            <h1 class="hero-title">
+                <span class="hero-title-line"><span class="hero-title-word">Patient flow</span></span>
+                <span class="hero-title-line"><span class="hero-title-word">that <em>actually</em></span></span>
+                <span class="hero-title-line"><span class="hero-title-word">works.</span></span>
+            </h1>
+
+            <p class="hero-description">
+                From check-in to checkout. Real-time visibility. Zero chaos. 
+                Built for clinics that refuse to settle for broken workflows.
+            </p>
+
+            <div class="hero-cta">
+                <a href="/demo" class="btn btn-hero btn-hero-primary">Request Demo</a>
+                <a href="/features" class="btn btn-hero btn-hero-secondary">See How It Works</a>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="hero-dashboard">
+                <div class="dashboard-header">
+                    <span class="dashboard-dot dashboard-dot-red"></span>
+                    <span class="dashboard-dot dashboard-dot-yellow"></span>
+                    <span class="dashboard-dot dashboard-dot-green"></span>
+                </div>
+                <div class="dashboard-stats">
+                    <div class="stat-card">
+                        <div class="stat-value teal">12</div>
+                        <div class="stat-label">In Clinic</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">4</div>
+                        <div class="stat-label">Waiting</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value blue">8</div>
+                        <div class="stat-label">Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">11m</div>
+                        <div class="stat-label">Avg Wait</div>
+                    </div>
+                </div>
+                <div class="dashboard-queue">
+                    <div class="queue-header">
+                        <span class="queue-title">Patient Queue</span>
+                        <span class="queue-live">
+                            <span class="queue-live-dot"></span>
+                            Live
+                        </span>
+                    </div>
+                    <div class="queue-items">
+                        <div class="queue-item">
+                            <div class="queue-patient">
+                                <div class="queue-avatar">ET</div>
+                                <div>
+                                    <div class="queue-name">E. Til</div>
+                                    <div class="queue-dept">General</div>
+                                </div>
+                            </div>
+                            <span class="queue-status provider">With Provider</span>
+                        </div>
+                        <div class="queue-item">
+                            <div class="queue-patient">
+                                <div class="queue-avatar">KJ</div>
+                                <div>
+                                    <div class="queue-name">K. Joh</div>
+                                    <div class="queue-dept">Addiction</div>
+                                </div>
+                            </div>
+                            <span class="queue-status intake">Intake</span>
+                        </div>
+                        <div class="queue-item">
+                            <div class="queue-patient">
+                                <div class="queue-avatar">RG</div>
+                                <div>
+                                    <div class="queue-name">R. Gar</div>
+                                    <div class="queue-dept">Urine</div>
+                                </div>
+                            </div>
+                            <span class="queue-status waiting">Waiting</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span class="scroll-text">Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Marquee -->
+    <section class="marquee-section">
+        <div class="marquee">
+            <div class="marquee-content">
+                <span class="marquee-item">Addiction Medicine</span>
+                <span class="marquee-divider"></span>
+                <span class="marquee-item">Psychiatry</span>
+                <span class="marquee-divider"></span>
+                <span class="marquee-item">Pain Management</span>
+                <span class="marquee-divider"></span>
+                <span class="marquee-item">Orthopedics</span>
+                <span class="marquee-divider"></span>
+                <span class="marquee-item">Physical Therapy</span>
+                <span class="marquee-divider"></span>
+                <span class="marquee-item">Infusion Centers</span>
+                <span class="marquee-divider"></span>
+                <span class="marquee-item">Urgent Care</span>
+                <span class="marquee-divider"></span>
+                <span class="marquee-item">Behavioral Health</span>
+                <span class="marquee-divider"></span>
+            </div>
+            <div class="marquee-content">
+                <span class="marquee-item">Addiction Medicine</span>
+                <span class="marquee-divider"></span>
+                <span class="marquee-item">Psychiatry</span>
+                <span class="marquee-divider"></span>
+                <span class="marquee-item">Pain Management</span>
+                <span class="marquee-divider"></span>
+                <span class="marquee-item">Orthopedics</span>
+                <span class="marquee-divider"></span>
+                <span class="marquee-item">Physical Therapy</span>
+                <span class="marquee-divider"></span>
+                <span class="marquee-item">Infusion Centers</span>
+                <span class="marquee-divider"></span>
+                <span class="marquee-item">Urgent Care</span>
+                <span class="marquee-divider"></span>
+                <span class="marquee-item">Behavioral Health</span>
+                <span class="marquee-divider"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features" id="features">
+        <div class="features-container">
+            <div class="section-header">
+                <div class="section-label">
+                    <span class="section-label-line"></span>
+                    <span class="section-label-text">Capabilities</span>
+                </div>
+                <h2 class="section-title">Everything your clinic needs. Nothing it doesn't.</h2>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-number">01</div>
+                    <h3 class="feature-title">Patient Check-In</h3>
+                    <p class="feature-description">
+                        Kiosk, tablet, or phone. No app downloads. Patients get a queue number and estimated wait instantly.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-number">02</div>
+                    <h3 class="feature-title">Real-Time Flow</h3>
+                    <p class="feature-description">
+                        See every patient's stage. Queue view, provider view, room status. Bottleneck alerts before they happen.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-number">03</div>
+                    <h3 class="feature-title">RTM Billing</h3>
+                    <p class="feature-description">
+                        Remote Therapeutic Monitoring built in. CPT 98975-98981 tracking. $120-150 per patient monthly.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-number">04</div>
+                    <h3 class="feature-title">Pre-Authorization</h3>
+                    <p class="feature-description">
+                        Smart PA forms with auto-suggest. Document upload, case tracking. Fewer denials, faster approvals.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-number">05</div>
+                    <h3 class="feature-title">Scheduling</h3>
+                    <p class="feature-description">
+                        Multi-provider, multi-location. Online booking, automated reminders, intelligent waitlist management.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-number">06</div>
+                    <h3 class="feature-title">Analytics</h3>
+                    <p class="feature-description">
+                        Wait times, throughput, utilization. Daily, weekly, monthly. Identify problems before patients do.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats-section">
+        <div class="stats-container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">30<span>%</span></div>
+                    <p class="stat-text">Faster patient check-in on average</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">25<span>%</span></div>
+                    <p class="stat-text">Reduction in patient wait times</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number"><span>$</span>150</div>
+                    <p class="stat-text">Average RTM revenue per patient monthly</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">1<span>wk</span></div>
+                    <p class="stat-text">From signup to fully operational</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section class="testimonial-section">
+        <div class="testimonial-container">
+            <p class="testimonial-quote">
+                "We went from chaos to <em>complete control</em> in a week. Should have done this years ago."
+            </p>
+            <div class="testimonial-author">
+                <div class="testimonial-avatar">JH</div>
+                <span class="testimonial-name">Dr. James Harrison</span>
+                <span class="testimonial-role">Medical Director, Valley Pain Management</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="cta-orb cta-orb-1"></div>
+        <div class="cta-orb cta-orb-2"></div>
+        <div class="cta-container">
+            <h2 class="cta-title">Ready to fix your <em>patient flow?</em></h2>
+            <p class="cta-description">
+                See clinIQ configured for your clinic. We'll walk through your workflow and show you exactly how it works.
+            </p>
+            <div class="cta-buttons">
+                <a href="/demo" class="btn btn-hero btn-hero-primary">Request Demo</a>
+                <a href="/contact" class="btn btn-hero btn-hero-secondary">Contact Sales</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="logo">
+                        <span class="logo-clin">clin</span><span class="logo-iq">IQ</span>
+                    </a>
+                    <p>Clinic operations platform. Patient flow, check-in, scheduling, RTM, and pre-authorization. Built to work with your EHR.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Product</h4>
+                    <ul class="footer-links">
+                        <li><a href="/features/patient-flow">Patient Flow</a></li>
+                        <li><a href="/features/check-in">Check-In</a></li>
+                        <li><a href="/features/rtm">RTM Billing</a></li>
+                        <li><a href="/features/pre-auth">Pre-Auth</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Specialties</h4>
+                    <ul class="footer-links">
+                        <li><a href="/specialties/addiction">Addiction Medicine</a></li>
+                        <li><a href="/specialties/psychiatry">Psychiatry</a></li>
+                        <li><a href="/specialties/pain">Pain Management</a></li>
+                        <li><a href="/specialties/ortho">Orthopedics</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Integrations</h4>
+                    <ul class="footer-links">
+                        <li><a href="/integrations/ritten">Ritten</a></li>
+                        <li><a href="/integrations/ecw">eClinicalWorks</a></li>
+                        <li><a href="/integrations/athena">Athena</a></li>
+                        <li><a href="/integrations">All Integrations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/pricing">Pricing</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright">2025 The Algorithm LLC. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="/privacy">Privacy</a>
+                    <a href="/terms">Terms</a>
+                    <a href="/security">Security</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Nav scroll effect
+        const nav = document.getElementById('nav');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
