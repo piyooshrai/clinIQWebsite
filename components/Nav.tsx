@@ -4,45 +4,134 @@ import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import styles from './Nav.module.css'
 
-const NAV_ITEMS = [
+// ─── Types ────────────────────────────────────────────────────────────────────
+
+interface NavLink {
+  label: string
+  href: string
+  desc?: string
+}
+
+interface NavGroup {
+  heading: string
+  links: NavLink[]
+  viewAll?: NavLink
+}
+
+interface NavSection {
+  label: string
+  flat?: NavLink[]       // simple grid of links (Features, Compare)
+  grouped?: NavGroup[]   // categorised groups (Specialties, Locations, Resources)
+}
+
+// ─── Data ─────────────────────────────────────────────────────────────────────
+
+const NAV_SECTIONS: NavSection[] = [
   {
     label: 'Features',
-    items: [
-      { label: 'Patient Flow', href: '/features/patient-flow', desc: 'Real-time queue tracking' },
-      { label: 'Check-In', href: '/features/check-in', desc: 'Digital intake & verification' },
-      { label: 'RTM Billing', href: '/features/rtm', desc: 'CPT 98975–98981 automation' },
-      { label: 'Pre-Auth', href: '/features/pre-auth', desc: 'Payer approval workflows' },
-      { label: 'Scheduling', href: '/features/scheduling', desc: 'Multi-provider calendar' },
-      { label: 'Analytics', href: '/features/analytics', desc: 'Bottleneck detection' },
+    flat: [
+      { label: 'Patient Flow',      href: '/features/patient-flow', desc: 'Real-time queue tracking' },
+      { label: 'Check-In',          href: '/features/check-in',     desc: 'Digital intake & verification' },
+      { label: 'Scheduling',        href: '/features/scheduling',   desc: 'Multi-provider calendar' },
+      { label: 'RTM Billing',       href: '/features/rtm',          desc: 'CPT 98975–98981 automation' },
+      { label: 'Pre-Authorization', href: '/features/pre-auth',     desc: 'Payer approval workflows' },
+      { label: 'Analytics',         href: '/features/analytics',    desc: 'Bottleneck detection' },
+      { label: 'LobbyView',         href: '/features/lobbyview',    desc: 'Patient-facing wait display' },
     ],
   },
   {
     label: 'Specialties',
-    items: [
-      { label: 'Urgent Care', href: '/specialties/urgent-care', desc: 'Cut LWBS, crush wait times' },
-      { label: 'Addiction Medicine', href: '/specialties/addiction-medicine', desc: 'MAT protocol workflows' },
-      { label: 'Psychiatry', href: '/specialties/psychiatry', desc: 'No-show reduction & RTM' },
-      { label: 'Behavioral Health', href: '/specialties/behavioral-health', desc: 'Therapeutic flow management' },
+    grouped: [
+      {
+        heading: 'Behavioral Health',
+        links: [
+          { label: 'Addiction Medicine', href: '/specialties/addiction-medicine', desc: 'MAT protocol workflows' },
+          { label: 'Psychiatry',         href: '/specialties/psychiatry',         desc: 'No-show reduction & RTM' },
+          { label: 'Behavioral Health',  href: '/specialties/behavioral-health',  desc: 'Therapeutic flow management' },
+        ],
+        viewAll: { label: 'View all specialties →', href: '/specialties' },
+      },
+      {
+        heading: 'Pain & Rehabilitation',
+        links: [
+          { label: 'Pain Management',  href: '/specialties/pain-management',  desc: 'High-volume procedure flow' },
+          { label: 'Physical Therapy', href: '/specialties/physical-therapy', desc: 'Multi-patient room tracking' },
+          { label: 'Chiropractic',     href: '/specialties/chiropractic',     desc: 'High-volume intake' },
+        ],
+      },
+      {
+        heading: 'Surgery & Procedures',
+        links: [
+          { label: 'Orthopedic Surgery', href: '/specialties/orthopedic-surgery', desc: 'Pre-op & post-op flow' },
+          { label: 'Spine Surgery',      href: '/specialties/spine-surgery',      desc: 'Conservative care tracking' },
+          { label: 'General Surgery',    href: '/specialties/general-surgery',    desc: 'OR-clinic coordination' },
+        ],
+      },
+      {
+        heading: 'Primary & Specialty Care',
+        links: [
+          { label: 'Primary Care', href: '/specialties/primary-care', desc: 'Same-day demand management' },
+          { label: 'Cardiology',   href: '/specialties/cardiology',   desc: 'Echo & device coordination' },
+          { label: 'Urgent Care',  href: '/specialties/urgent-care',  desc: 'Cut LWBS, crush wait times' },
+        ],
+      },
     ],
   },
   {
     label: 'Compare',
-    items: [
-      { label: 'vs Phreesia', href: '/compare/phreesia', desc: 'Track beyond check-in' },
-      { label: 'vs Clearwave', href: '/compare/clearwave', desc: 'Full operations vs check-in' },
-      { label: 'vs Spreadsheets', href: '/compare/spreadsheets', desc: 'Real-time vs manual' },
+    flat: [
+      { label: 'vs Phreesia',      href: '/compare/phreesia',      desc: 'Track beyond check-in' },
+      { label: 'vs Clearwave',     href: '/compare/clearwave',     desc: 'Full operations vs check-in' },
+      { label: 'vs Tebra',         href: '/compare/tebra',         desc: 'Real-time vs static' },
+      { label: 'vs SimplePractice',href: '/compare/simplepractice', desc: 'Clinical ops vs notes' },
+      { label: 'vs athenahealth',  href: '/compare/athenahealth',  desc: 'Flow layer vs EHR' },
+      { label: 'View all →',       href: '/compare',               desc: 'All comparisons' },
     ],
   },
   {
     label: 'Locations',
-    items: [
-      { label: 'United States', href: '/locations/united-states', desc: 'Insurance & prior auth' },
-      { label: 'UAE', href: '/locations/uae', desc: 'NABIDH, medical tourism' },
-      { label: 'United Kingdom', href: '/locations/united-kingdom', desc: 'Private practice efficiency' },
-      { label: 'Saudi Arabia', href: '/locations/saudi-arabia', desc: 'Vision 2030 digitalization' },
+    grouped: [
+      {
+        heading: 'North America',
+        links: [
+          { label: 'United States', href: '/locations/united-states', desc: 'Insurance & prior auth' },
+          { label: 'Canada',        href: '/locations/canada',        desc: 'Provincial billing workflows' },
+        ],
+        viewAll: { label: 'View all locations →', href: '/locations' },
+      },
+      {
+        heading: 'Middle East',
+        links: [
+          { label: 'UAE',          href: '/locations/uae',          desc: 'NABIDH, medical tourism' },
+          { label: 'Saudi Arabia', href: '/locations/saudi-arabia', desc: 'Vision 2030 digitalization' },
+          { label: 'Qatar',        href: '/locations/qatar',        desc: 'Hamad Health workflows' },
+        ],
+      },
+      {
+        heading: 'Europe',
+        links: [
+          { label: 'United Kingdom', href: '/locations/united-kingdom', desc: 'Private practice efficiency' },
+        ],
+      },
+    ],
+  },
+  {
+    label: 'Resources',
+    grouped: [
+      {
+        heading: 'Learn',
+        links: [
+          { label: 'Blog',                   href: '/blog',                                  desc: 'Insights & best practices' },
+          { label: 'ROI Calculator',         href: '/resources/roi-calculator',             desc: 'See your savings' },
+          { label: 'RTM Implementation Guide', href: '/resources/rtm-implementation-guide', desc: 'Step-by-step RTM setup' },
+        ],
+        viewAll: { label: 'All Resources →', href: '/resources' },
+      },
     ],
   },
 ]
+
+// ─── Icons ────────────────────────────────────────────────────────────────────
 
 function ChevronIcon({ open }: { open?: boolean }) {
   return (
@@ -73,6 +162,108 @@ function XIcon() {
   )
 }
 
+// ─── Dropdown content ─────────────────────────────────────────────────────────
+
+function FlatDropdown({ links }: { links: NavLink[] }) {
+  return (
+    <div className={styles.dropdownInner}>
+      {links.map((link) => (
+        <Link key={link.href} href={link.href} className={styles.dropdownLink}>
+          <span className={styles.dropdownLabel}>{link.label}</span>
+          {link.desc && <span className={styles.dropdownDesc}>{link.desc}</span>}
+        </Link>
+      ))}
+    </div>
+  )
+}
+
+function GroupedDropdown({ groups }: { groups: NavGroup[] }) {
+  return (
+    <div className={styles.groupedInner}>
+      {groups.map((group) => (
+        <div key={group.heading} className={styles.group}>
+          <div className={styles.groupHeading}>{group.heading}</div>
+          {group.links.map((link) => (
+            <Link key={link.href} href={link.href} className={styles.dropdownLink}>
+              <span className={styles.dropdownLabel}>{link.label}</span>
+              {link.desc && <span className={styles.dropdownDesc}>{link.desc}</span>}
+            </Link>
+          ))}
+          {group.viewAll && (
+            <Link href={group.viewAll.href} className={styles.viewAll}>
+              {group.viewAll.label}
+            </Link>
+          )}
+        </div>
+      ))}
+    </div>
+  )
+}
+
+// ─── Mobile grouped content ───────────────────────────────────────────────────
+
+function MobileGroupLinks({
+  section,
+  isOpen,
+  onClose,
+}: {
+  section: NavSection
+  isOpen: boolean
+  onClose: () => void
+}) {
+  if (!isOpen) return null
+
+  if (section.flat) {
+    return (
+      <div className={styles.mobileGroupLinks}>
+        {section.flat.map((link) => (
+          <Link
+            key={link.href}
+            href={link.href}
+            className={styles.mobileGroupLink}
+            onClick={onClose}
+          >
+            <span className={styles.mobileLinkLabel}>{link.label}</span>
+            {link.desc && <span className={styles.mobileLinkDesc}>{link.desc}</span>}
+          </Link>
+        ))}
+      </div>
+    )
+  }
+
+  if (section.grouped) {
+    return (
+      <div className={styles.mobileGroupLinks}>
+        {section.grouped.map((group) => (
+          <div key={group.heading} className={styles.mobileCategory}>
+            <div className={styles.mobileCategoryHeading}>{group.heading}</div>
+            {group.links.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={styles.mobileGroupLink}
+                onClick={onClose}
+              >
+                <span className={styles.mobileLinkLabel}>{link.label}</span>
+                {link.desc && <span className={styles.mobileLinkDesc}>{link.desc}</span>}
+              </Link>
+            ))}
+            {group.viewAll && (
+              <Link href={group.viewAll.href} className={styles.mobileViewAll} onClick={onClose}>
+                {group.viewAll.label}
+              </Link>
+            )}
+          </div>
+        ))}
+      </div>
+    )
+  }
+
+  return null
+}
+
+// ─── Main component ───────────────────────────────────────────────────────────
+
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -102,30 +293,21 @@ export default function Nav() {
             <span className={styles.logoIq}>IQ</span>
           </Link>
 
-          {/* Desktop nav with dropdowns */}
+          {/* Desktop nav */}
           <div className={styles.links}>
-            {NAV_ITEMS.map((item) => (
-              <div key={item.label} className={styles.navItem}>
+            {NAV_SECTIONS.map((section) => (
+              <div key={section.label} className={styles.navItem}>
                 <button className={styles.navTrigger} type="button" aria-haspopup="true">
-                  {item.label}
+                  {section.label}
                   <ChevronIcon />
                 </button>
 
-                <div className={styles.dropdown}>
-                  <div className={styles.dropdownInner}>
-                    {item.items.map((link) => (
-                      <Link key={link.href} href={link.href} className={styles.dropdownLink}>
-                        <span className={styles.dropdownLabel}>{link.label}</span>
-                        <span className={styles.dropdownDesc}>{link.desc}</span>
-                      </Link>
-                    ))}
-                  </div>
+                <div className={`${styles.dropdown} ${section.grouped ? styles.dropdownWide : ''}`}>
+                  {section.flat && <FlatDropdown links={section.flat} />}
+                  {section.grouped && <GroupedDropdown groups={section.grouped} />}
                 </div>
               </div>
             ))}
-
-            <Link href="/blog" className={styles.link}>Blog</Link>
-            <Link href="/resources" className={styles.link}>Resources</Link>
           </div>
 
           <div className={styles.cta}>
@@ -144,45 +326,29 @@ export default function Nav() {
         </div>
       </nav>
 
-      {/* Mobile accordion menu */}
+      {/* Mobile accordion */}
       <div
         className={`${styles.mobileMenu} ${mobileOpen ? styles.mobileMenuOpen : ''}`}
         aria-hidden={!mobileOpen}
       >
         <div className={styles.mobileScroll}>
-          {NAV_ITEMS.map((item) => {
-            const isOpen = openSection === item.label
+          {NAV_SECTIONS.map((section) => {
+            const isOpen = openSection === section.label
             return (
-              <div key={item.label} className={styles.mobileGroup}>
+              <div key={section.label} className={styles.mobileGroup}>
                 <button
                   className={styles.mobileGroupToggle}
                   type="button"
-                  onClick={() => toggleSection(item.label)}
+                  onClick={() => toggleSection(section.label)}
                   aria-expanded={isOpen}
                 >
-                  {item.label}
+                  {section.label}
                   <ChevronIcon open={isOpen} />
                 </button>
-
-                <div className={`${styles.mobileGroupLinks} ${isOpen ? styles.mobileGroupLinksOpen : ''}`}>
-                  {item.items.map((link) => (
-                    <Link
-                      key={link.href}
-                      href={link.href}
-                      className={styles.mobileGroupLink}
-                      onClick={closeMobile}
-                    >
-                      <span className={styles.mobileLinkLabel}>{link.label}</span>
-                      <span className={styles.mobileLinkDesc}>{link.desc}</span>
-                    </Link>
-                  ))}
-                </div>
+                <MobileGroupLinks section={section} isOpen={isOpen} onClose={closeMobile} />
               </div>
             )
           })}
-
-          <Link href="/blog" className={styles.mobileGroupToggle} onClick={closeMobile}>Blog</Link>
-          <Link href="/resources" className={styles.mobileGroupToggle} onClick={closeMobile}>Resources</Link>
 
           <div className={styles.mobileActions}>
             <Link href="/demo" className="btn-inner btn-inner-lg btn-inner-primary" onClick={closeMobile}>
