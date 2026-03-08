@@ -46,6 +46,16 @@ export default function FooterInner() {
             </div>
 
             <div className={styles.footerCol}>
+              <h4 className={styles.footerHeading}>Locations</h4>
+              <ul>
+                <li><Link href="/locations/united-states">United States</Link></li>
+                <li><Link href="/locations/uae">UAE</Link></li>
+                <li><Link href="/locations/united-kingdom">United Kingdom</Link></li>
+                <li><Link href="/locations/saudi-arabia">Saudi Arabia</Link></li>
+              </ul>
+            </div>
+
+            <div className={styles.footerCol}>
               <h4 className={styles.footerHeading}>Company</h4>
               <ul>
                 <li><Link href="/blog">Blog</Link></li>
