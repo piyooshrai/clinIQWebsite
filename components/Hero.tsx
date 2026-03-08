@@ -21,21 +21,18 @@ export default function Hero() {
 
           <h1 className={styles.title}>
             <span className={styles.titleLine}>
-              <span className={styles.titleWord}>Patient flow</span>
+              <span className={styles.titleWord}>Your clinic,</span>
             </span>
             <span className={styles.titleLine}>
               <span className={styles.titleWord}>
-                that <em className={styles.titleEm}>actually</em>
+                finally <em className={styles.titleEm}>under control.</em>
               </span>
-            </span>
-            <span className={styles.titleLine}>
-              <span className={styles.titleWord}>works.</span>
             </span>
           </h1>
 
           <p className={styles.description}>
-            From check-in to checkout. Real-time visibility. Zero chaos.
-            Built for clinics that refuse to settle for broken workflows.
+            Real-time patient flow. Automated check-in. RTM billing. Pre-auth.
+            Everything your front desk, providers, and admin need — in one place.
           </p>
 
           <div className={styles.ctaRow}>

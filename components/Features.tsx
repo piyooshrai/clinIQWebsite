@@ -6,42 +6,42 @@ const FEATURES = [
     number: '01',
     title: 'Patient Check-In',
     description:
-      'Kiosk, tablet, or phone. No app downloads. Patients get a queue number and estimated wait instantly.',
+      'Kiosk, tablet, or phone — no app downloads required. Patients check in, get a queue position, and see their estimated wait. Your front desk stops fielding "how much longer?" all day.',
     href: '/features/check-in',
   },
   {
     number: '02',
-    title: 'Real-Time Flow',
+    title: 'Real-Time Patient Flow',
     description:
-      "See every patient's stage. Queue view, provider view, room status. Bottleneck alerts before they happen.",
+      "See every patient's exact stage — waiting, intake, with provider, pending discharge. Room status, provider load, bottleneck alerts. Know what's wrong before patients start leaving.",
     href: '/features/patient-flow',
   },
   {
     number: '03',
     title: 'RTM Billing',
     description:
-      'Remote Therapeutic Monitoring built in. CPT 98975–98981 tracking. $120–150 per patient monthly.',
+      'Remote Therapeutic Monitoring built in. Automatic CPT 98975–98981 tracking and compliance alerts. Clinics adding $120–$150 per qualifying patient per month with zero extra charting.',
     href: '/features/rtm',
   },
   {
     number: '04',
     title: 'Pre-Authorization',
     description:
-      'Smart PA forms with auto-suggest. Document upload, case tracking. Fewer denials, faster approvals.',
+      'Smart PA forms that auto-populate from the patient record. Document upload, payer-specific rules, case status tracking. Fewer denials, fewer callbacks, faster treatment starts.',
     href: '/features/pre-auth',
   },
   {
     number: '05',
     title: 'Scheduling',
     description:
-      'Multi-provider, multi-location. Online booking, automated reminders, intelligent waitlist management.',
+      'Multi-provider, multi-location scheduling with online patient booking and automated reminders. Intelligent waitlist fills cancellations automatically — no manual follow-up calls.',
     href: '/features/scheduling',
   },
   {
     number: '06',
     title: 'Analytics',
     description:
-      'Wait times, throughput, utilization. Daily, weekly, monthly. Identify problems before patients do.',
+      'Wait times, throughput, provider utilization, no-show rates — daily, weekly, monthly. Surface the patterns your EHR never shows you. Fix problems before they compound.',
     href: '/features/analytics',
   },
 ]
@@ -56,7 +56,7 @@ export default function Features() {
             <span className={styles.labelText}>Capabilities</span>
           </div>
           <h2 className={styles.title}>
-            Everything your clinic needs. Nothing it doesn&apos;t.
+            Six tools. One platform. Every patient, start to finish.
           </h2>
         </div>
 
