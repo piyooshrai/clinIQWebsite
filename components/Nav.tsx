@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import styles from './Nav.module.css'
+import LanguageSwitcher from './LanguageSwitcher'
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -311,6 +312,7 @@ export default function Nav() {
           </div>
 
           <div className={styles.cta}>
+            <LanguageSwitcher />
             <Link href="/login" className={`${styles.btnGhost} ${styles.desktopOnly}`}>Sign In</Link>
             <Link href="/demo" className={`${styles.btnPrimary} ${styles.desktopOnly}`}>Request Demo</Link>
             <button
@@ -355,6 +357,7 @@ export default function Nav() {
               Request Demo
             </Link>
             <Link href="/login" className={styles.mobileLogin} onClick={closeMobile}>Sign In</Link>
+            <LanguageSwitcher />
           </div>
         </div>
       </div>
