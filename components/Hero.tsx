@@ -43,6 +43,11 @@ export default function Hero() {
             Request Demo
           </Link>
           <Link href="/features" className={`${styles.btnBase} ${styles.btnSecondary}`}>
+        <div className={styles.heroCta}>
+          <Link href="/demo" className="btn btn-hero btn-hero-primary">
+            Request Demo
+          </Link>
+          <Link href="/features" className="btn btn-hero btn-hero-secondary">
             See How It Works
           </Link>
         </div>
@@ -60,6 +65,17 @@ export default function Hero() {
           <div className={styles.dashStats}>
             <div className={styles.statCard}>
               <div className={`${styles.statValue} ${styles.teal}`}>12</div>
+      <div className={styles.heroVisual}>
+        <div className={styles.heroDashboard}>
+          <div className={styles.dashboardHeader}>
+            <span className={`${styles.dashboardDot} ${styles.dashboardDotRed}`} />
+            <span className={`${styles.dashboardDot} ${styles.dashboardDotYellow}`} />
+            <span className={`${styles.dashboardDot} ${styles.dashboardDotGreen}`} />
+          </div>
+
+          <div className={styles.dashboardStats}>
+            <div className={styles.statCard}>
+              <div className={`${styles.statValue} ${styles.statValueTeal}`}>12</div>
               <div className={styles.statLabel}>In Clinic</div>
             </div>
             <div className={styles.statCard}>
@@ -68,6 +84,7 @@ export default function Hero() {
             </div>
             <div className={styles.statCard}>
               <div className={`${styles.statValue} ${styles.blue}`}>8</div>
+              <div className={`${styles.statValue} ${styles.statValueBlue}`}>8</div>
               <div className={styles.statLabel}>Completed</div>
             </div>
             <div className={styles.statCard}>
@@ -81,6 +98,11 @@ export default function Hero() {
               <span className={styles.queueTitle}>Patient Queue</span>
               <span className={styles.queueLive}>
                 <span className={styles.liveDot} />
+          <div className={styles.dashboardQueue}>
+            <div className={styles.queueHeader}>
+              <span className={styles.queueTitle}>Patient Queue</span>
+              <span className={styles.queueLive}>
+                <span className={styles.queueLiveDot} />
                 Live
               </span>
             </div>
