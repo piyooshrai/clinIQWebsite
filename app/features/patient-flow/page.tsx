@@ -7,26 +7,30 @@ import FeatureHowItWorks from '@/components/FeatureHowItWorks';
 import FeatureCTA from '@/components/FeatureCTA';
 
 export const metadata: Metadata = {
-  title: 'Patient Flow — clinIQ',
-  description: 'Real-time visibility into every patient, every room, every provider.',
+  title: 'Patient Flow Software — clinIQ',
+  description: 'Real-time visibility into every patient, every room, every provider. No more huddles. No more radio silence.',
 };
 
 const painPoints = [
   {
-    heading: 'Constant interruptions',
-    body: "Staff stop what they're doing every few minutes to answer \"who's next?\" No one should have to ask.",
+    heading: '"Who\'s next?" huddles waste 30+ minutes daily',
+    body: 'Every morning and midday, staff stop working to figure out what\'s happening. That time adds up — fast.',
   },
   {
-    heading: 'No visibility across rooms',
-    body: "Providers don't know if their next patient is ready. Rooms sit empty. Time gets wasted.",
+    heading: 'Providers interrupt front desk for status updates',
+    body: 'When providers don\'t know who\'s ready, they walk up to ask. Every interruption costs the front desk 3-5 minutes of focus.',
   },
   {
-    heading: 'Staff drowning in coordination',
-    body: "Every handoff is a verbal message, a sticky note, or a text. It breaks down constantly.",
+    heading: 'No visibility into bottlenecks until the lobby overflows',
+    body: 'You find out there\'s a problem when patients start complaining — not with enough time to fix it.',
   },
   {
-    heading: "Patients wondering if they're forgotten",
-    body: "Patients wait with no idea where they are in the process. That silence breeds anxiety and complaints.",
+    heading: 'Whiteboards and spreadsheets out of date the moment they\'re written',
+    body: 'By the time someone updates the board, three things have already changed. Static tools don\'t work in dynamic environments.',
+  },
+  {
+    heading: 'Staff can\'t answer "how much longer?" without walking the hall',
+    body: 'Patients ask. Staff have to physically investigate. Neither party is happy with that answer.',
   },
 ];
 
@@ -36,16 +40,16 @@ const steps: [
   { title: string; body: string },
 ] = [
   {
-    title: 'Patient checks in',
-    body: "Kiosk, tablet, or phone — patient arrives and confirms. They're instantly in the system.",
+    title: 'Patient checks in → appears on queue instantly',
+    body: 'The moment a patient arrives, every authorized staff member sees them on the live queue — no manual entry required.',
   },
   {
-    title: 'Status updates in real-time',
-    body: 'As the patient moves through intake, exam, and checkout, every status change is reflected immediately.',
+    title: 'Staff updates status with one tap → everyone sees it',
+    body: 'Move a patient from waiting to vitals to provider with a single tap. The whole team stays in sync automatically.',
   },
   {
-    title: 'Everyone sees the queue',
-    body: "Providers, front desk, and back office all work from the same live view. No guessing. No lag.",
+    title: 'Bottleneck alerts fire before problems escalate',
+    body: 'Set thresholds for wait times and room occupancy. Get notified early enough to actually do something about it.',
   },
 ];
 
@@ -56,14 +60,14 @@ export default function PatientFlowPage() {
       <main>
         <FeatureHero
           badge="Patient Flow"
-          title={<>Stop asking &ldquo;who&rsquo;s next?&rdquo; Start knowing.</>}
-          subtitle="Real-time visibility into every patient, every room, every provider."
+          title={<>Stop asking &ldquo;who&rsquo;s next?&rdquo; <em>Start knowing.</em></>}
+          subtitle="Real-time visibility into every patient, every room, every provider. No more huddles. No more radio silence."
         />
         <FeatureProblem points={painPoints} />
         <FeatureHowItWorks steps={steps} />
         <FeatureCTA
-          title={<>Flow that <em>actually flows.</em></>}
-          description="See clinIQ's patient flow dashboard configured for your clinic. We'll walk through every screen."
+          title={<>See your clinic <em>in real time.</em></>}
+          description="Get a live demo with your clinic's layout and see exactly how patient flow visibility changes how you operate."
         />
       </main>
       <FooterInner />
