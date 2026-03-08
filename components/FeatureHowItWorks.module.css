@@ -1,10 +1,14 @@
+/* How It Works — 3-step section on dark background
+   Styled to match template .stats dark section tonality */
+
 .section {
-  padding: 120px 48px;
+  padding: 6rem 0;
   background: var(--black);
   position: relative;
   overflow: hidden;
 }
 
+/* Subtle radial glow behind steps */
 .section::before {
   content: '';
   position: absolute;
@@ -18,115 +22,102 @@
 }
 
 .container {
-  max-width: 1440px;
-  margin: 0 auto;
   position: relative;
   z-index: 1;
 }
 
 .header {
-  margin-bottom: 80px;
+  margin-bottom: 4rem;
 }
 
-.label {
-  display: inline-flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 24px;
-}
-
-.labelLine {
-  width: 48px;
-  height: 1px;
-  background: linear-gradient(90deg, var(--teal-light) 0%, transparent 100%);
-}
-
-.labelText {
-  font-size: 13px;
-  font-weight: 500;
-  color: var(--teal-light);
+/* Section label — matches template .section-label */
+.sectionLabel {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  letter-spacing: 0.15em;
+  color: var(--teal-light);
+  margin-bottom: 1rem;
 }
 
-.title {
-  font-family: 'Instrument Serif', Georgia, serif;
-  font-size: clamp(36px, 5vw, 56px);
+.sectionTitle {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 400;
+  line-height: 1.15;
   color: var(--white);
-  letter-spacing: -0.03em;
-  line-height: 1.1;
 }
 
+/* Three-column step grid */
 .steps {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
+  grid-template-columns: 1fr;
+  gap: 3rem;
   position: relative;
 }
 
-/* Connector line between steps */
-.steps::before {
-  content: '';
-  position: absolute;
-  top: 40px;
-  left: calc(100% / 6);
-  right: calc(100% / 6);
-  height: 1px;
-  background: linear-gradient(90deg, transparent 0%, var(--gray-800) 20%, var(--gray-800) 80%, transparent 100%);
+@media (min-width: 768px) {
+  .steps {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+  }
+
+  /* Connector line between step circles */
+  .steps::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: calc(100% / 6);
+    right: calc(100% / 6);
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0.08) 20%,
+      rgba(255, 255, 255, 0.08) 80%,
+      transparent 100%
+    );
+  }
 }
 
 .step {
   position: relative;
 }
 
-.stepNumber {
+/* Numbered circle */
+.stepCircle {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--border-dark);
   background: rgba(255, 255, 255, 0.03);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
   position: relative;
   z-index: 1;
 }
 
 .stepNum {
-  font-family: 'Instrument Serif', Georgia, serif;
-  font-size: 28px;
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  font-weight: 400;
   color: var(--teal-light);
   line-height: 1;
 }
 
 .stepTitle {
-  font-size: 22px;
-  font-weight: 600;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 400;
   color: var(--white);
-  margin-bottom: 12px;
-  letter-spacing: -0.02em;
+  margin-bottom: 0.75rem;
 }
 
 .stepBody {
-  font-size: 16px;
-  color: var(--gray-400);
+  font-size: 0.9375rem;
   line-height: 1.7;
-}
-
-@media (max-width: 1024px) {
-  .steps::before {
-    display: none;
-  }
-}
-
-@media (max-width: 768px) {
-  .section {
-    padding: 80px 24px;
-  }
-
-  .steps {
-    grid-template-columns: 1fr;
-    gap: 48px;
-  }
+  color: var(--text-inverse-secondary);
 }

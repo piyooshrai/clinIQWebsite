@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
-import Nav from '@/components/Nav';
-import Footer from '@/components/Footer';
+import NavInner from '@/components/NavInner';
+import FooterInner from '@/components/FooterInner';
 import FeatureHero from '@/components/FeatureHero';
 import FeatureProblem from '@/components/FeatureProblem';
 import FeatureHowItWorks from '@/components/FeatureHowItWorks';
@@ -14,19 +14,19 @@ export const metadata: Metadata = {
 const painPoints = [
   {
     heading: 'Leaving money on the table',
-    body: 'If you\'re seeing patients for chronic conditions, you\'re likely eligible for RTM billing — and not collecting it.',
+    body: "If you're seeing patients for chronic conditions, you're likely eligible for RTM billing — and not collecting it.",
   },
   {
     heading: 'Manual tracking is unsustainable',
-    body: 'Spreadsheets and memory don\'t cut it for compliance. One audit and the whole house of cards falls.',
+    body: "Spreadsheets and memory don't cut it for compliance. One audit and the whole house of cards falls.",
   },
   {
     heading: 'Missed billing windows',
-    body: 'RTM codes have monthly thresholds. Without automated tracking, you miss them and the revenue disappears.',
+    body: "RTM codes have monthly thresholds. Without automated tracking, you miss them and the revenue disappears.",
   },
   {
     heading: 'No visibility into eligible patients',
-    body: 'You don\'t know which patients qualify, who\'s been enrolled, or what\'s been billed. That uncertainty is costly.',
+    body: "You don't know which patients qualify, who's been enrolled, or what's been billed. That uncertainty is costly.",
   },
 ];
 
@@ -52,7 +52,7 @@ const steps: [
 export default function RTMPage() {
   return (
     <>
-      <Nav />
+      <NavInner />
       <main>
         <FeatureHero
           badge="RTM Billing"
@@ -66,7 +66,7 @@ export default function RTMPage() {
           description="See how clinIQ RTM billing integrates with your patient roster and existing EHR billing workflow."
         />
       </main>
-      <Footer />
+      <FooterInner />
     </>
   );
 }

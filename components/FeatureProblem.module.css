@@ -1,105 +1,89 @@
-.section {
-  padding: 120px 48px;
-  background: var(--cream);
-}
+/* Feature problem section — from cliniq-page-template.html .problem */
 
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
+.section {
+  padding: 6rem 0;
+  background: var(--white);
 }
 
 .header {
-  margin-bottom: 72px;
+  margin-bottom: 3rem;
 }
 
-.label {
-  display: inline-flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 24px;
-}
-
-.labelLine {
-  width: 32px;
-  height: 1px;
-  background: var(--gray-900);
-}
-
-.labelText {
-  font-size: 12px;
-  font-weight: 500;
-  color: var(--gray-600);
+.sectionLabel {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  letter-spacing: 0.15em;
+  color: var(--teal);
+  margin-bottom: 1rem;
 }
 
-.title {
-  font-family: 'Instrument Serif', Georgia, serif;
-  font-size: clamp(36px, 5vw, 56px);
-  color: var(--gray-900);
-  letter-spacing: -0.03em;
-  line-height: 1.1;
-  max-width: 640px;
+.sectionTitle {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 400;
+  line-height: 1.15;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
 }
 
+.sectionDesc {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  max-width: 600px;
+}
+
+/* Pain points grid */
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
 }
 
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Each pain point card */
 .card {
-  background: var(--white);
-  border: 1px solid var(--gray-100);
-  border-radius: 20px;
-  padding: 40px;
+  padding: 2rem;
+  background: var(--cream);
+  border: 1px solid var(--border-light);
+  border-radius: 16px;
   display: flex;
-  gap: 24px;
+  gap: 1.25rem;
   align-items: flex-start;
-  transition: box-shadow 0.3s;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .card:hover {
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.06);
+  border-color: rgba(13, 148, 136, 0.2);
+  box-shadow: 0 8px 32px rgba(13, 148, 136, 0.06);
 }
 
-.iconWrap {
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
-  background: linear-gradient(135deg, rgba(13, 148, 136, 0.12) 0%, rgba(37, 99, 235, 0.12) 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* Teal dot — matches template .pain-list li::before */
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--teal);
   flex-shrink: 0;
-}
-
-.iconWrap svg {
-  width: 18px;
-  height: 18px;
-  stroke: var(--teal);
+  margin-top: 0.5rem;
 }
 
 .cardContent h3 {
-  font-size: 17px;
+  font-size: 1rem;
   font-weight: 600;
-  color: var(--gray-900);
-  margin-bottom: 8px;
-  letter-spacing: -0.01em;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
 }
 
 .cardContent p {
-  font-size: 15px;
-  color: var(--gray-600);
+  font-size: 0.9375rem;
   line-height: 1.65;
-}
-
-@media (max-width: 768px) {
-  .section {
-    padding: 80px 24px;
-  }
-
-  .grid {
-    grid-template-columns: 1fr;
-  }
+  color: var(--text-secondary);
 }
