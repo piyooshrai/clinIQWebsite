@@ -51,8 +51,10 @@
   gap: 24px;
 }
 
-/* Card */
+/* Card — also used as <Link> so reset link styles */
 .card {
+  display: block;
+  text-decoration: none;
   background: var(--white);
   border-radius: 24px;
   padding: 48px;
