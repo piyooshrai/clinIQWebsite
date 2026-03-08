@@ -1,6 +1,6 @@
-import styles from './Marquee.module.css';
+import styles from './Marquee.module.css'
 
-const specialties = [
+const SPECIALTIES = [
   'Addiction Medicine',
   'Psychiatry',
   'Pain Management',
@@ -9,28 +9,29 @@ const specialties = [
   'Infusion Centers',
   'Urgent Care',
   'Behavioral Health',
-];
+]
 
-function MarqueeTrack({ prefix }: { prefix: string }) {
+function MarqueeContent() {
   return (
-    <div className={styles.marqueeContent}>
-      {specialties.map((specialty, i) => (
-        <span key={`${prefix}-item-${i}`} className={styles.marqueeItem}>
-          {specialty}
-        </span>
+    <div className={styles.content} aria-hidden="true">
+      {SPECIALTIES.map((name, i) => (
+        <>
+          <span key={`item-${i}`} className={styles.item}>{name}</span>
+          <span key={`div-${i}`} className={styles.divider} />
+        </>
       ))}
     </div>
-  );
+  )
 }
 
 export default function Marquee() {
   return (
-    <section className={styles.marqueeSection}>
-      <div className={styles.marquee}>
-        {/* Duplicate content for seamless loop */}
-        <MarqueeTrack prefix="a" />
-        <MarqueeTrack prefix="b" />
+    <section className={styles.section} aria-label="Specialties served">
+      <div className={styles.track}>
+        {/* Duplicated for seamless loop */}
+        <MarqueeContent />
+        <MarqueeContent />
       </div>
     </section>
-  );
+  )
 }
