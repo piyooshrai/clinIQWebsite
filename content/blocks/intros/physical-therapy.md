@@ -1,0 +1,1 @@
+Your therapists are juggling four patients at once across warm-up, manual, and exercise areas. Documentation happens after hours. Insurance caps are running out. And nobody knows which patient needs attention next.

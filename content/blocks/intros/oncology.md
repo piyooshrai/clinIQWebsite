@@ -1,0 +1,1 @@
+Multi-step visits where every delay compounds. Labs before chemo, vitals before the chair, and patients who are already exhausted before they arrive. You can't rush cancer care, but you can stop wasting their time.

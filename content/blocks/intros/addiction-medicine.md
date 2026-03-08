@@ -1,0 +1,1 @@
+MAT clinics live in controlled chaos. Patients cycling through intake, urine collection, provider visits, and injection observation — while your front desk juggles benefit verification and the constant "who's next?" That's before the first crisis of the day.

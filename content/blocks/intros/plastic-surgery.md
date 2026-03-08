@@ -1,0 +1,1 @@
+Consultations that are sales conversations. Financing that needs to close before surgery gets scheduled. Photography protocols for every patient. And a mix of cosmetic and reconstructive that doesn't fit one workflow.

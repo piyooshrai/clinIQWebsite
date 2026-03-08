@@ -1,0 +1,1 @@
+Thirty-minute visits that take sixty. Caregivers who need to be in the room. Medication reconciliation that's a detective case. And transportation issues that mean your 2pm shows up at 3:30 or not at all.

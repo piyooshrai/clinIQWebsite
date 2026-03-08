@@ -1,0 +1,1 @@
+Another prior auth denied. Another patient waiting for an injection while you fight with reviewers who've never touched a fluoroscope. And that's just the morning — you've still got a full procedure schedule and a waiting room that's about to boil over.

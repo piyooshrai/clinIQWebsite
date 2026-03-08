@@ -1,0 +1,1 @@
+Sick kids in the waiting room with well kids. Vaccine schedules that change yearly. Parents who need reassurance and kids who won't cooperate. And a front desk fielding "is this an emergency?" calls every ten minutes.

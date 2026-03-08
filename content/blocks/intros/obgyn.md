@@ -1,0 +1,1 @@
+OB patients and GYN patients with completely different needs competing for the same ultrasound room. Surgical scheduling that requires OR coordination. And postpartum follow-up that falls through the cracks when everyone's focused on deliveries.

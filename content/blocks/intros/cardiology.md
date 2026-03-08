@@ -1,0 +1,1 @@
+EKGs stacking up, stress tests running behind, and device interrogations wedged between clinic patients. Your MA is doing triage in the hallway while the echo tech asks when their next patient is coming.

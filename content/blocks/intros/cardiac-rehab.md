@@ -1,0 +1,1 @@
+ECG monitoring during exercise for patients who'd rather be anywhere else. Phase progression tracking. Dietary counseling that should happen but never fits. And outcomes documentation for accreditation.

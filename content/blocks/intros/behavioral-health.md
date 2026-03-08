@@ -1,0 +1,1 @@
+One call-out and the entire schedule collapses. Therapists double-booked, intake coordinators fielding crisis calls, and patients who need privacy forced to check in at a public desk. Your EHR tracks charts, not chaos.

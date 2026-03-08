@@ -1,0 +1,1 @@
+Cycle-dependent scheduling where a 24-hour delay changes everything. Patients who've been trying for years and need things to work perfectly. Monitoring visits that cluster on the same three days. And emotional stakes higher than any other specialty.

@@ -1,0 +1,1 @@
+Endoscopy days are a sprint. Prep compliance failures, scope turnover pressure, and pathology results that need follow-up before they get lost. Meanwhile, clinic patients stack up while you're in the procedure suite.

@@ -1,0 +1,1 @@
+Door-to-door time is the only metric that matters, but you can't manage what you can't see. Triage backlog, patients leaving without being seen, and zero visibility into who's actually next. The whiteboard stopped being accurate two hours ago.

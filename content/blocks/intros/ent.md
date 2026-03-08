@@ -1,0 +1,1 @@
+Hearing tests backing up the schedule. In-office procedures that need their own room. Sleep study referrals that go nowhere. And a waiting room full of patients with sinus infections who all showed up this morning.

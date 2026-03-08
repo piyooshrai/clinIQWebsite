@@ -1,0 +1,1 @@
+Pre-op workups scattered across three systems. OR block time you'll lose if you don't fill it. Post-op follow-up competing with new consults. And a scheduler who's the only person who knows how any of it actually works.
