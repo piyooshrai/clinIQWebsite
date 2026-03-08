@@ -1,0 +1,1 @@
+High-volume, low-reimbursement, and documentation requirements designed for someone with more time than you have. Maintenance patients every week, acute patients squeezed in between, and a schedule that looks nothing like reality by noon.

@@ -1,0 +1,1 @@
+Pediatric OT is chaos in a sensory room. Kids who need structure in an environment that's anything but, parents who need updates, and documentation that takes longer than the session. Your schedule says 45 minutes but reality says otherwise.

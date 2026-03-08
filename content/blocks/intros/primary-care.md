@@ -1,0 +1,1 @@
+Same-day access that isn't. Chronic care management checkboxes that don't fit the visit. Referrals sent into the void. And a 15-minute slot for a patient with six problems and three medication questions.

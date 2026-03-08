@@ -1,0 +1,1 @@
+Biologic infusions booked around prior auth approvals that come at the last minute. Flare visits squeezed into a schedule that was full yesterday. And documentation requirements that assume you have a dedicated scribe.

@@ -1,0 +1,1 @@
+Cystoscopy suite scheduling, prostate biopsy coordination, and a specimen collection workflow that hasn't been updated since the Clinton administration. Your highest-volume days are your lowest-margin days.

@@ -1,0 +1,1 @@
+Three shifts, sixty chairs, and every no-show means lost revenue you can't recover. Transport issues, fluid management, and patients who've been doing this three times a week for years. They know when things aren't running right.

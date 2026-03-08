@@ -1,0 +1,1 @@
+Your patients have five specialists, twelve medications, and a hospital discharge summary that contradicts all of it. You're the quarterback for a team that doesn't communicate, and today's schedule is already behind.

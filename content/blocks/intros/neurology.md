@@ -1,0 +1,1 @@
+Complex patients with complex visits. EMGs that run long, EEG scheduling conflicts, and MS infusion patients who need hours, not minutes. Your schedule template assumes simple cases. You don't have simple cases.

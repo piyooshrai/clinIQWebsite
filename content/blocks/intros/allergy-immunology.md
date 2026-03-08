@@ -1,0 +1,1 @@
+Shot clinic is high-volume, low-margin, and one anaphylaxis protocol away from a very bad day. Skin testing rooms backed up, serum inventory tracked on paper, and patients waiting 30 minutes post-injection with nothing to do but complain.

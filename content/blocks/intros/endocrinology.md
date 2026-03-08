@@ -1,0 +1,1 @@
+Fasting labs that require morning slots, CGM downloads that crash your workflow, and diabetes education that should happen but there's no time. Your diabetic patients need an hour. You have fifteen minutes.

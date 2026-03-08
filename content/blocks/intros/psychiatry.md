@@ -1,0 +1,1 @@
+The waiting room is a pressure cooker. Patients anxious about being seen in a psych office, new patients who won't show, and your front desk exposed to whatever walks through the door. Meanwhile, you're drowning in documentation after every session.
