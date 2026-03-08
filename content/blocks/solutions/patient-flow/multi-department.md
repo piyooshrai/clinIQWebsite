@@ -1,0 +1,1 @@
+Patients move between departments without getting lost in the system. Intake hands off to MA, MA hands off to provider, provider hands off to checkout. Each handoff is visible. Nothing falls through the cracks.

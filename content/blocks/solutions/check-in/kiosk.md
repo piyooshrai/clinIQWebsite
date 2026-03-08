@@ -1,0 +1,1 @@
+Tablet-based check-in that patients actually use. Confirm appointment, update information, sign forms. Queue number assigned automatically. Estimated wait displayed immediately. No app download. No account creation. Just tap and done.

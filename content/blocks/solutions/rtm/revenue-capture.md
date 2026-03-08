@@ -1,0 +1,1 @@
+Remote Therapeutic Monitoring revenue you're already leaving on the table. Patients you're already monitoring between visits. Check-ins you're already doing. Now billable. CPT 98975-98981. $120-150 per enrolled patient monthly.

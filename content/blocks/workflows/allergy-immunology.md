@@ -1,0 +1,3 @@
+CHECK-IN → VITALS → SKIN TESTING (20-30 min) → WAITING/OBSERVATION (15-20 min) → WITH PROVIDER (15-20 min) → ALLERGY SHOTS → OBSERVATION (30 min) → CHECKOUT
+
+Shot-only visits: CHECK-IN → INJECTION → OBSERVATION (30 min) → CHECKOUT. High volume, low margin, high liability.

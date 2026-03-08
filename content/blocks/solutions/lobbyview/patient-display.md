@@ -1,0 +1,1 @@
+HIPAA-safe patient display for your waiting room. Queue numbers, not names. Current position, estimated wait. Patients know where they stand without asking. Staff reclaims time spent answering "how much longer?"
