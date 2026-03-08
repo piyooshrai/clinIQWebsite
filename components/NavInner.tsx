@@ -11,10 +11,10 @@ export default function NavInner() {
           </Link>
 
           <div className={styles.navLinks}>
-            <Link href="/features" className={styles.navLink}>Features</Link>
-            <Link href="/specialties" className={styles.navLink}>Specialties</Link>
-            <Link href="/pricing" className={styles.navLink}>Pricing</Link>
-            <Link href="/resources" className={styles.navLink}>Resources</Link>
+            <Link href="/features/patient-flow" className={styles.navLink}>Features</Link>
+            <Link href="/specialties/urgent-care" className={styles.navLink}>Specialties</Link>
+            <Link href="/compare/phreesia" className={styles.navLink}>Compare</Link>
+            <Link href="/blog" className={styles.navLink}>Blog</Link>
           </div>
 
           <div className={styles.navActions}>

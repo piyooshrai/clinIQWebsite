@@ -19,40 +19,39 @@ export default function FooterInner() {
               <ul>
                 <li><Link href="/features/patient-flow">Patient Flow</Link></li>
                 <li><Link href="/features/check-in">Check-In</Link></li>
-                <li><Link href="/features/scheduling">Scheduling</Link></li>
                 <li><Link href="/features/rtm">RTM Billing</Link></li>
-                <li><Link href="/features/pre-auth">Pre-Authorization</Link></li>
+                <li><Link href="/features/pre-auth">Pre-Auth</Link></li>
+                <li><Link href="/features/scheduling">Scheduling</Link></li>
+                <li><Link href="/features/analytics">Analytics</Link></li>
               </ul>
             </div>
 
             <div className={styles.footerCol}>
               <h4 className={styles.footerHeading}>Specialties</h4>
               <ul>
-                <li><Link href="/specialties/addiction-medicine">Addiction Medicine</Link></li>
-                <li><Link href="/specialties/pain-management">Pain Management</Link></li>
-                <li><Link href="/specialties/psychiatry">Psychiatry</Link></li>
                 <li><Link href="/specialties/urgent-care">Urgent Care</Link></li>
-                <li><Link href="/specialties/physical-therapy">Physical Therapy</Link></li>
+                <li><Link href="/specialties/addiction-medicine">Addiction Medicine</Link></li>
+                <li><Link href="/specialties/psychiatry">Psychiatry</Link></li>
+                <li><Link href="/specialties/behavioral-health">Behavioral Health</Link></li>
               </ul>
             </div>
 
             <div className={styles.footerCol}>
-              <h4 className={styles.footerHeading}>Resources</h4>
+              <h4 className={styles.footerHeading}>Compare</h4>
               <ul>
-                <li><Link href="/blog">Blog</Link></li>
-                <li><Link href="/resources">Guides</Link></li>
-                <li><Link href="/roi-calculator">ROI Calculator</Link></li>
-                <li><Link href="/support">Support</Link></li>
+                <li><Link href="/compare/phreesia">vs Phreesia</Link></li>
+                <li><Link href="/compare/clearwave">vs Clearwave</Link></li>
+                <li><Link href="/compare/spreadsheets">vs Spreadsheets</Link></li>
               </ul>
             </div>
 
             <div className={styles.footerCol}>
               <h4 className={styles.footerHeading}>Company</h4>
               <ul>
+                <li><Link href="/blog">Blog</Link></li>
                 <li><Link href="/about">About</Link></li>
                 <li><Link href="/contact">Contact</Link></li>
-                <li><Link href="/privacy">Privacy</Link></li>
-                <li><Link href="/terms">Terms</Link></li>
+                <li><Link href="/pricing">Pricing</Link></li>
               </ul>
             </div>
           </div>
