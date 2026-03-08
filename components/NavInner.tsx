@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import styles from './NavInner.module.css'
+import LanguageSwitcher from './LanguageSwitcher'
 
 const NAV_ITEMS = [
   {
@@ -122,6 +123,7 @@ export default function NavInner() {
             </div>
 
             <div className={styles.navActions}>
+              <LanguageSwitcher variant="inner" />
               <Link href="/login" className={`${styles.loginLink} ${styles.desktopOnly}`}>Log in</Link>
               <Link href="/demo" className={`btn-inner btn-inner-sm btn-inner-primary ${styles.desktopOnly}`}>
                 Get Demo
@@ -192,6 +194,7 @@ export default function NavInner() {
             <Link href="/login" className={styles.mobileLogin} onClick={closeMobile}>
               Log in
             </Link>
+            <LanguageSwitcher variant="inner" />
           </div>
         </div>
       </div>
