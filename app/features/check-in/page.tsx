@@ -7,26 +7,30 @@ import FeatureHowItWorks from '@/components/FeatureHowItWorks';
 import FeatureCTA from '@/components/FeatureCTA';
 
 export const metadata: Metadata = {
-  title: 'Patient Check-In — clinIQ',
-  description: "Kiosk, tablet, or phone. No app download. Patients confirm arrival, you know they're here.",
+  title: 'Patient Check-In Software — clinIQ',
+  description: "Kiosk, tablet, or phone. No app download. Patients confirm arrival, update info, and you know they're here.",
 };
 
 const painPoints = [
   {
-    heading: 'Phones ringing while patients wait',
-    body: "Your front desk is juggling incoming calls and a waiting room at the same time. Something always slips.",
+    heading: 'Phones ringing while patients wait at the window',
+    body: "Front desk staff can't do two things at once. Every ringing phone means a patient standing there, getting impatient.",
   },
   {
-    heading: 'Manual paperwork on arrival',
-    body: "Clipboards, handwriting, re-entering data into your EHR. Every minute of that is a minute wasted.",
+    heading: 'Digital intake forms that don\'t sync with your EHR',
+    body: "Patients fill out forms online, then fill them out again on paper. Broken integrations destroy the point of going digital.",
   },
   {
-    heading: 'Patients repeating their information',
-    body: "\"Didn't I fill this out last time?\" Yes, they did. A modern check-in system shouldn't require that.",
+    heading: 'Patients repeating information they already gave online',
+    body: '"Didn\'t I already fill this out?" Yes. And your staff is about to ask you to fill it out again. It shouldn\'t work this way.',
   },
   {
-    heading: 'No confirmation the patient actually arrived',
-    body: "A scheduled appointment doesn't mean the patient is here. Without check-in, you're just guessing.",
+    heading: 'Front desk doing data entry instead of patient care',
+    body: "Manually transcribing intake forms is not what your staff was hired for. It's error-prone, slow, and demoralizing.",
+  },
+  {
+    heading: 'Paper forms still floating around in 2026',
+    body: 'Clipboards, pens, illegible handwriting, lost forms. Every paper touchpoint is a compliance and efficiency problem waiting to happen.',
   },
 ];
 
@@ -36,16 +40,16 @@ const steps: [
   { title: string; body: string },
 ] = [
   {
-    title: 'Patient arrives',
-    body: "They walk up to a kiosk, tap their phone, or use a tablet. No app download. No account needed.",
+    title: 'Patient arrives → checks in on any device',
+    body: 'Kiosk in the lobby, tablet handed to them, or a link on their phone. No app download. No account creation. Just check in.',
   },
   {
-    title: 'Checks in on any device',
-    body: "They confirm their details, sign any required forms, and complete intake — all in under two minutes.",
+    title: 'Data syncs to EHR bi-directionally',
+    body: 'Confirmed demographics, updated insurance, completed forms — all written back to eClinicalWorks, Athena, or your EHR automatically.',
   },
   {
-    title: 'Queue number assigned, staff notified',
-    body: "The patient gets a number and an estimated wait. Staff see the arrival instantly on their dashboard.",
+    title: 'Queue number assigned, staff notified, patient seated',
+    body: "The front desk sees the arrival instantly. The patient gets a confirmation. No one has to ask if they're checked in.",
   },
 ];
 
@@ -56,14 +60,14 @@ export default function CheckInPage() {
       <main>
         <FeatureHero
           badge="Check-In"
-          title="Check-in that doesn't need your front desk"
-          subtitle="Kiosk, tablet, or phone. No app download. Patients confirm arrival, you know they're here."
+          title={<>Check-in that doesn&rsquo;t need <em>your front desk.</em></>}
+          subtitle="Kiosk, tablet, or phone. No app download. Patients confirm arrival, update info, and you know they're here."
         />
         <FeatureProblem points={painPoints} />
         <FeatureHowItWorks steps={steps} />
         <FeatureCTA
-          title={<>Check-in that <em>just works.</em></>}
-          description="See how clinIQ check-in fits into your existing lobby and EHR setup. Takes less than a week to go live."
+          title={<>Free your front desk <em>to actually care.</em></>}
+          description="See how clinIQ check-in integrates with your EHR and reduces front desk workload from day one."
         />
       </main>
       <FooterInner />

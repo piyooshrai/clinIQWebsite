@@ -7,26 +7,30 @@ import FeatureHowItWorks from '@/components/FeatureHowItWorks';
 import FeatureCTA from '@/components/FeatureCTA';
 
 export const metadata: Metadata = {
-  title: 'Analytics — clinIQ',
-  description: 'Wait times, throughput, utilization. Daily, weekly, monthly.',
+  title: 'Clinic Analytics Software — clinIQ',
+  description: 'Wait times, throughput, utilization. Daily, weekly, monthly. Identify problems before patients do.',
 };
 
 const painPoints = [
   {
-    heading: 'Running on gut instinct',
-    body: "Without data, every operational decision is a guess. You improve things based on complaints, not evidence.",
+    heading: 'No data to justify the spend on patient flow software',
+    body: 'Leadership wants ROI. Without before-and-after metrics, you can\'t prove value — and budgets get cut even when things are working.',
   },
   {
-    heading: "Can't prove ROI to stakeholders",
-    body: "Leadership wants numbers. If you can't show what's improved and by how much, budgets get cut.",
+    heading: 'Gut decisions without evidence',
+    body: 'Every operational change is a guess. You think something helped, but you don\'t actually know. Data replaces instinct with certainty.',
   },
   {
-    heading: 'Surprised by bottlenecks',
-    body: "Problems surface when patients complain, not before. By then the damage is done.",
+    heading: 'Can\'t identify which provider or step causes delays',
+    body: 'You know wait times are long, but you don\'t know where the bottleneck is. Fixing the wrong thing wastes time and creates new problems.',
   },
   {
-    heading: 'No view across providers or locations',
-    body: "Even if one provider's numbers are available, comparing across your whole operation is nearly impossible.",
+    heading: 'Surprised by bottlenecks after the fact',
+    body: 'You find out something went wrong when a patient complains or a provider is still there at 7pm. Reactive is expensive.',
+  },
+  {
+    heading: 'Reporting to leadership with incomplete information',
+    body: 'Monthly ops reports built from memory and gut feel don\'t inspire confidence. Real dashboards change how leadership sees your operation.',
   },
 ];
 
@@ -36,16 +40,16 @@ const steps: [
   { title: string; body: string },
 ] = [
   {
-    title: 'Data captured automatically',
-    body: "Every check-in, status change, and handoff is timestamped. No manual data entry. No gaps.",
+    title: 'Data captured automatically from patient flow',
+    body: 'Every check-in, status change, and handoff is timestamped. No manual data entry, no gaps, no retrospective guessing.',
   },
   {
     title: 'Dashboards update in real-time',
-    body: "Wait times, throughput, and utilization are visible live — broken down by provider, room, or location.",
+    body: 'Wait times, throughput, and utilization broken down by provider, room, and location — visible live and in daily, weekly, and monthly views.',
   },
   {
-    title: 'Alerts flag problems early',
-    body: "Set thresholds and get notified before a long wait becomes a patient complaint or a bottleneck blows up your day.",
+    title: 'Alerts flag anomalies before they become crises',
+    body: 'Set thresholds and get notified when something is trending wrong — early enough to adjust staffing, redirect patients, or call in backup.',
   },
 ];
 
@@ -57,7 +61,7 @@ export default function AnalyticsPage() {
         <FeatureHero
           badge="Analytics"
           title={<>See where time goes. <em>Fix what&rsquo;s broken.</em></>}
-          subtitle="Wait times, throughput, utilization. Daily, weekly, monthly."
+          subtitle="Wait times, throughput, utilization. Daily, weekly, monthly. Identify problems before patients do."
         />
         <FeatureProblem points={painPoints} />
         <FeatureHowItWorks steps={steps} />

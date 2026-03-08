@@ -7,26 +7,30 @@ import FeatureHowItWorks from '@/components/FeatureHowItWorks';
 import FeatureCTA from '@/components/FeatureCTA';
 
 export const metadata: Metadata = {
-  title: 'RTM Billing — clinIQ',
-  description: 'CPT 98975-98981. Average $120-150 per patient monthly. Built into your workflow.',
+  title: 'RTM Billing Software — clinIQ',
+  description: 'CPT 98975–98981. Average $120–150 per patient monthly. Automated tracking and documentation for remote therapeutic monitoring.',
 };
 
 const painPoints = [
   {
-    heading: 'Leaving money on the table',
-    body: "If you're seeing patients for chronic conditions, you're likely eligible for RTM billing — and not collecting it.",
+    heading: 'Leaving $120–150 per patient per month on the table',
+    body: "Most clinics already do the monitoring work. They just don't have a system to document it in a way that gets reimbursed.",
   },
   {
-    heading: 'Manual tracking is unsustainable',
-    body: "Spreadsheets and memory don't cut it for compliance. One audit and the whole house of cards falls.",
+    heading: 'RTM billing confusion across CPT codes',
+    body: 'Which codes can be billed together? What are the time thresholds? What documentation does each payer require? Getting it wrong means denials.',
   },
   {
-    heading: 'Missed billing windows',
-    body: "RTM codes have monthly thresholds. Without automated tracking, you miss them and the revenue disappears.",
+    heading: 'Manual tracking in spreadsheets',
+    body: "Someone has to remember to log each patient's monitoring minutes. Spreadsheets get out of date, entries get missed, revenue is lost.",
   },
   {
-    heading: 'No visibility into eligible patients',
-    body: "You don't know which patients qualify, who's been enrolled, or what's been billed. That uncertainty is costly.",
+    heading: "Documentation doesn't meet payer requirements",
+    body: "Even when monitoring happens, if the documentation doesn't meet payer standards, the claim gets denied. Compliance is non-negotiable.",
+  },
+  {
+    heading: "Staff don't know which patients qualify",
+    body: 'Without a clear enrollment workflow, RTM-eligible patients slip through unidentified. Revenue opportunity missed, every single month.',
   },
 ];
 
@@ -36,16 +40,16 @@ const steps: [
   { title: string; body: string },
 ] = [
   {
-    title: 'Patient enrolled',
-    body: 'Flag eligible patients at check-in or during scheduling. Consent is captured digitally in seconds.',
+    title: 'Patient enrolled with qualifying diagnosis',
+    body: 'clinIQ flags RTM-eligible patients and walks staff through enrollment — consent, qualifying codes, and device assignment.',
   },
   {
-    title: 'Monitoring logged automatically',
-    body: 'clinIQ tracks time, interactions, and thresholds required for CPT 98975-98981 without manual entry.',
+    title: 'Monitoring logged automatically during visits',
+    body: 'Every interaction is timestamped and attributed to the right CPT code. No manual tracking. No missed minutes.',
   },
   {
-    title: 'Bill generated monthly',
-    body: 'At the end of each billing period, completed RTM claims are ready to submit. Average $120-150 per patient.',
+    title: 'Monthly bill generated with compliant documentation',
+    body: 'At month end, clinIQ produces claim-ready documentation for 98975–98981 that meets payer requirements and survives audit.',
   },
 ];
 
@@ -56,14 +60,14 @@ export default function RTMPage() {
       <main>
         <FeatureHero
           badge="RTM Billing"
-          title={<>You&rsquo;re already monitoring patients. Now <em>get paid for it.</em></>}
-          subtitle="CPT 98975-98981. Average $120-150 per patient monthly."
+          title={<>You&rsquo;re already monitoring patients. <em>Now get paid for it.</em></>}
+          subtitle="CPT 98975–98981. Average $120–150 per patient monthly. Automated tracking and documentation."
         />
         <FeatureProblem points={painPoints} />
         <FeatureHowItWorks steps={steps} />
         <FeatureCTA
-          title={<>Revenue you&rsquo;re <em>already earning.</em></>}
-          description="See how clinIQ RTM billing integrates with your patient roster and existing EHR billing workflow."
+          title={<>Start capturing RTM revenue <em>this month.</em></>}
+          description="See how clinIQ identifies eligible patients and generates compliant RTM documentation without adding staff workload."
         />
       </main>
       <FooterInner />
