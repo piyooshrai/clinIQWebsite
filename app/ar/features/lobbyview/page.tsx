@@ -5,9 +5,9 @@ import FeatureHero from '@/components/FeatureHero'
 import FeatureCTA from '@/components/FeatureCTA'
 
 export const metadata: Metadata = {
-  title: 'عرض قاعة الانتظار | clinIQ',
+  title: 'شاشة عرض قاعة الانتظار للمرضى | clinIQ',
   description:
-    'شاشة عرض ذكية لقاعة انتظار عيادتك. تُعلم المرضى بموقعهم في الصف وتقدير وقت انتظارهم — فيقل قلقهم وتنخفض الضغوط على موظفي الاستقبال.',
+    'شاشة تُظهر للمرضى موقعهم في قائمة الانتظار ووقت الانتظار المتوقع. قلل القلق وخفف الانسحابات.',
   alternates: {
     canonical: '/ar/features/lobbyview',
     languages: { en: '/features/lobbyview' },
@@ -21,12 +21,12 @@ export default function LobbyViewArabicPage() {
       <main>
         <FeatureHero
           badge="عرض قاعة الانتظار"
-          title={<>مرضاك يعرفون موقفهم.<br />طاقمك يتنفس.</>}
-          subtitle="شاشة عرض في قاعة الانتظار تُظهر للمريض موقعه في الصف وتقدير وقت انتظاره — بلغته. النتيجة: أسئلة أقل لمكتب الاستقبال، مرضى أهدأ، وطاقم يعمل بتركيز أعلى."
+          title={<>مرضاك <em>يستحقون الوضوح.</em></>}
+          subtitle="الانتظار دون معلومات هو أسوأ تجربة في العيادة. LobbyView يُعلم مريضك بموقعه في الطابور ووقت الانتظار المتوقع."
         />
         <FeatureCTA
-          title={<>هل تريد قاعة انتظار أكثر هدوءاً؟</>}
-          description="جلسة استعراضية مدتها 15 دقيقة. سنعرض عليك كيف يعمل LobbyView في عيادات مشابهة لعيادتك."
+          title={<>احوِّل قاعة الانتظار إلى <em>تجربة إيجابية.</em></>}
+          description="شاهد LobbyView وهو يعمل في عيادتك — إعداد يستغرق ساعات لا أسابيع."
         />
       </main>
       <FooterInner />
