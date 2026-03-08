@@ -158,6 +158,82 @@ export default function RtmImplementationMistakesPage() {
             revenue from it. The ones that implement it casually generate enough to see the potential,
             not enough to justify the effort. The difference is entirely in execution.
           </p>
+
+          <h2>The Organizational Setup Required Before Billing</h2>
+          <p>
+            Many practices rush to start billing RTM before they have the organizational infrastructure
+            in place to support it. This produces a period of billing that later requires correction
+            &mdash; reprocessing claims, retroactively updating documentation, and sometimes issuing
+            refunds for codes that were billed without proper support. The setup work before the first
+            claim is submitted is not overhead &mdash; it is the foundation that makes all subsequent
+            billing defensible.
+          </p>
+          <p>
+            The minimum organizational setup for an RTM program includes: a written RTM consent form
+            that has been reviewed for accuracy and compliance; a defined monitoring program for each
+            eligible diagnosis category with a documented monitoring plan template; an assigned staff
+            member or team responsible for monitoring data review and time tracking; a defined billing
+            workflow with clear triggers for each code in the series; and a method for tracking 16-day
+            compliance per patient in real time.
+          </p>
+          <p>
+            Practices that try to build these elements retroactively &mdash; after billing has started
+            &mdash; consistently find that some of the initial claims are not properly supported and
+            face a choice between proactive correction and audit risk. The practices with the cleanest
+            RTM billing histories are those that spent two to four weeks on program design before
+            enrolling the first patient.
+          </p>
+
+          <h2>The Documentation Template Problem</h2>
+          <p>
+            RTM programs that rely on free-text documentation for data review notes produce inconsistent
+            records that are difficult to audit and time-consuming to review. When clinical staff write
+            RTM review notes in free text, the notes vary dramatically in content, specificity, and
+            defensibility. Some notes are comprehensive clinical narratives. Others are minimal notations
+            that do not demonstrate meaningful data review.
+          </p>
+          <p>
+            Structured documentation templates for RTM review notes solve this problem by ensuring that
+            every note covers the required elements: what data was reviewed, for what period, what it
+            showed clinically, and what action was taken or not taken based on that data. Templates
+            do not need to be long or complicated. A well-designed RTM review note template might
+            have five fields that take 2 to 3 minutes to complete and consistently produce a
+            defensible, clinically meaningful record.
+          </p>
+          <p>
+            The time investment in designing documentation templates before the program launches is
+            repaid many times over in the consistency and quality of the records they produce. A
+            practice with 60 RTM patients and a good template generates 60 consistent, auditable
+            review notes per month. The same practice without a template generates 60 records of
+            wildly varying quality, some of which will not support the associated billing in an audit.
+          </p>
+
+          <h2>Monitoring Patient Dropout and Re-Engagement</h2>
+          <p>
+            Patient dropout from RTM programs is a revenue leak that practices frequently miss because
+            it is gradual rather than sudden. A patient does not announce that they are no longer
+            participating in RTM &mdash; they simply stop logging data as consistently as they did
+            initially. The practice that is not actively monitoring per-patient data transmission will
+            not notice the dropout until the end of the month, when the 16-day threshold has already
+            been missed and the device supply code cannot be billed.
+          </p>
+          <p>
+            Re-engagement is far more effective than replacement. A patient who was engaged and drifted
+            has already made a commitment to the program and is generally recoverable with a simple
+            outreach: a check-in call, a message noting that the practice noticed they haven&rsquo;t
+            logged in a while and asking if they need support. Most patients who drift from RTM
+            compliance respond positively to this kind of personal outreach and return to consistent
+            logging. The patient who would have ended the month at 9 days logged often reaches 16 days
+            logged after a mid-month re-engagement call.
+          </p>
+          <p>
+            Tracking re-engagement rate &mdash; the percentage of patients who were trending below
+            the 16-day threshold and recovered to compliance after outreach &mdash; is a useful
+            operational metric for RTM programs. A re-engagement rate above 60 percent means the
+            outreach process is working. Below 40 percent suggests either the outreach is happening
+            too late (when there are too few days remaining to reach the threshold) or the monitoring
+            technology is creating friction that outreach alone cannot resolve.
+          </p>
         </BlogContent>
         <BlogCTA
           ctaLabel="Fix Your RTM Program"

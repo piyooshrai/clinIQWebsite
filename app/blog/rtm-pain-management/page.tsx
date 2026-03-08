@@ -166,6 +166,78 @@ export default function RtmPainManagementPage() {
             dataset and expand based on patient engagement rather than starting with an ambitious
             monitoring program that patients find burdensome and stop using.
           </p>
+
+          <h2>Post-Procedure Monitoring: A High-Value Application</h2>
+          <p>
+            Post-procedure monitoring is one of the highest-value RTM applications in pain management
+            because the clinical need is acute, the monitoring period is time-bounded, and the data
+            has direct clinical utility. A patient who has just received a spinal injection or nerve
+            block is in a period of active clinical assessment: is the procedure working? Is the pain
+            response following the expected trajectory? Are there early signs of complications or
+            unexpected side effects?
+          </p>
+          <p>
+            In a traditional outpatient model, these questions are answered at the two-week or
+            four-week post-procedure follow-up appointment. RTM answers them continuously. Daily
+            pain scores in the first two weeks after a procedure provide a trajectory that the
+            treating provider can evaluate without waiting for the follow-up visit. A patient whose
+            pain scores are dropping steadily after an injection is on expected trajectory. A patient
+            whose pain scores are unchanged or worsening after 10 days may need an earlier follow-up,
+            a different approach, or clinical communication before the scheduled visit.
+          </p>
+          <p>
+            Post-procedure RTM monitoring is also time-limited in a way that makes the enrollment
+            conversation easier. Many patients who might hesitate to commit to an ongoing monitoring
+            program are comfortable with a 30 to 60 day post-procedure monitoring window. The
+            enrollment is framed as temporary &mdash; &ldquo;while you&rsquo;re recovering from the
+            injection, we want to track your progress closely&rdquo; &mdash; which reduces the
+            friction around the monitoring commitment. Practices that use this framing for
+            post-procedure patients often find that patients who initially enrolled for a finite
+            monitoring period choose to continue monitoring on an ongoing basis once they experience
+            the benefit.
+          </p>
+
+          <h2>Integrating RTM with the Pain Management Visit</h2>
+          <p>
+            Pain management RTM is most clinically valuable when the monitoring data is incorporated
+            into the in-office visit rather than managed as a separate administrative function. When a
+            provider reviews a patient&rsquo;s 30-day pain score trend before entering the exam room,
+            the visit starts from a position of informed context rather than patient self-report recall.
+            The provider already knows whether the past month has been better, worse, or similar to
+            the prior period. The visit can focus on clinical decision-making rather than on establishing
+            the clinical picture.
+          </p>
+          <p>
+            This integration requires that the RTM monitoring data be accessible in or alongside the
+            EHR at the point of care &mdash; not in a separate system that providers have to log into
+            independently. The practices with the highest provider adoption of RTM data review are those
+            where the monitoring trend is presented automatically in the pre-visit summary, not those
+            where the provider has to take an additional step to access it.
+          </p>
+
+          <h2>Controlled Substance Management and RTM Documentation</h2>
+          <p>
+            Pain management practices that prescribe controlled substances have an additional
+            documentation benefit from RTM beyond the billing revenue. Medication adherence monitoring
+            data &mdash; patient-reported medication taking, side effect reports, and any divergence
+            from the prescribed regimen &mdash; creates a documented record of between-visit oversight
+            that supports the practice&rsquo;s controlled substance management policies.
+          </p>
+          <p>
+            As scrutiny of opioid and controlled substance prescribing has increased, practices benefit
+            from documented evidence that they are actively monitoring patient response to and adherence
+            with controlled medications between office visits. RTM monitoring data that shows a patient
+            is reporting consistent, appropriate use &mdash; or that flags anomalies for clinical
+            follow-up &mdash; is a record of clinical oversight that a traditional visit-only practice
+            cannot produce.
+          </p>
+          <p>
+            This documentation value is separate from the RTM billing value but compounds it. A practice
+            that uses RTM for post-procedure monitoring of pain response and medication adherence is
+            simultaneously generating billable RTM revenue, improving clinical decision-making, and
+            building a documented record of ongoing patient oversight that supports its controlled
+            substance management program. The same investment serves three distinct practice needs.
+          </p>
         </BlogContent>
         <BlogCTA
           ctaLabel="Build Your Pain Management RTM Program"

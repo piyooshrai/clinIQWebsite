@@ -117,6 +117,106 @@ export default function RTMRevenuePage() {
           <p>
             The biggest implementation risk is inconsistent documentation. Time logs must be specific — start time, end time, type of activity. &ldquo;20 minutes of RTM&rdquo; without timestamps doesn&rsquo;t hold up to audit.
           </p>
+
+          <h2>Payer Coverage in 2026</h2>
+          <p>
+            Medicare covers the full RTM code set under the Medicare Physician Fee Schedule, with
+            reimbursement rates that are geographically adjusted but generally run $19 for 98975
+            (setup, one-time), $45 to $55 for the device supply codes (98976, 98977), approximately
+            $48 to $62 for 98980 (first 20 minutes treatment management), and approximately $38 to $45
+            for 98981 (each additional 20 minutes). The combination of 98977 and 98980 generates
+            the baseline monthly RTM revenue of $100 to $130 per patient under Medicare, with 98981
+            adding another $38 to $45 in months where additional management time is documented.
+          </p>
+          <p>
+            Commercial payer coverage has expanded substantially since RTM codes were introduced in
+            2022. Major payers with published RTM coverage policies as of 2026 include Aetna,
+            UnitedHealthcare, Cigna, and most regional Blue Cross Blue Shield plans. Coverage specifics
+            &mdash; prior authorization requirements, covered diagnoses, covered provider types &mdash;
+            vary at the plan level and should be verified before enrolling commercial patients.
+            Practices in states with strong BCBS market penetration should check their specific
+            BCBS plan&rsquo;s policy, as coverage can differ significantly between states under
+            the same BCBS brand.
+          </p>
+          <p>
+            A small but growing number of Medicaid managed care plans cover RTM, particularly in
+            states that have adopted value-based care programs. Medicaid coverage for RTM is the
+            most variable of the three payer categories and requires direct verification with each
+            managed care plan. It is worth checking annually, as Medicaid RTM coverage has been
+            expanding consistently since 2023.
+          </p>
+
+          <h2>Who Can Bill RTM</h2>
+          <p>
+            An important and often misunderstood aspect of RTM billing is the range of provider types
+            that can bill under their own NPI. Unlike some remote monitoring codes that are restricted
+            to physicians and advanced practice providers, the RTM code set can be billed by:
+          </p>
+          <ul>
+            <li>Physicians and non-physician practitioners (NPs, PAs) under the standard supervision requirements</li>
+            <li>Physical therapists billing under their own NPI for musculoskeletal RTM (CPT 98977)</li>
+            <li>Occupational therapists billing under their own NPI for musculoskeletal RTM</li>
+            <li>Speech-language pathologists billing under their own NPI for applicable RTM services</li>
+            <li>Licensed clinical social workers and other behavioral health providers for CPT 98978</li>
+          </ul>
+          <p>
+            This is a significant expansion of billable provider types compared to RPM, which is largely
+            restricted to physician billing. Physical therapy and occupational therapy practices are
+            among the biggest beneficiaries of RTM because they have large panels of musculoskeletal
+            patients and can bill independently without physician oversight for the clinical management
+            component.
+          </p>
+
+          <h2>The 16-Day Compliance Requirement in Practice</h2>
+          <p>
+            The 16-day data collection threshold &mdash; patients must transmit monitoring data on at
+            least 16 of the 30 days in the billing period &mdash; is the most frequently cited source
+            of RTM billing problems. In theory, it is a straightforward compliance requirement. In
+            practice, maintaining 16-day thresholds across a panel of 30 to 100 patients requires
+            active monitoring and patient engagement.
+          </p>
+          <p>
+            Patient engagement with monitoring tools follows a predictable curve: high in the first
+            week or two, tapering in weeks three and four as the novelty wears off. A patient who
+            logs daily in week one and every other day in week two may reach day 20 with only 11
+            to 12 days of data logged &mdash; well short of the 16-day threshold. Without an
+            active re-engagement effort, that patient does not generate billable 98977 revenue for
+            the month.
+          </p>
+          <p>
+            Practices that build patient engagement workflows &mdash; a check-in message when a
+            patient falls behind on logging, a brief reminder call when a patient is on track to
+            miss the threshold &mdash; maintain 16-day compliance rates of 85 to 90 percent across
+            their enrolled panels. Practices that do not typically see compliance rates of 60 to 70
+            percent, losing 30 to 40 percent of potential device supply revenue to patients who were
+            enrolled but not meeting the threshold.
+          </p>
+
+          <h2>RTM as a Clinical Quality Improvement Tool</h2>
+          <p>
+            The financial case for RTM is compelling, but practices that implement it primarily as
+            a billing optimization tend to have lower patient engagement and higher dropout rates than
+            practices that lead with the clinical value. The practices with the strongest RTM programs
+            are those where the clinical team genuinely uses the monitoring data to manage patients
+            between visits &mdash; catching trends early, reaching out when data signals concern,
+            and adjusting treatment plans based on between-visit information rather than waiting
+            for the next scheduled appointment.
+          </p>
+          <p>
+            When patients perceive that their monitoring data is actually being read and responded to
+            &mdash; that a staff member notices when their pain scores increase and follows up &mdash;
+            their engagement with the monitoring program is substantially higher than when they
+            perceive it as a passive data collection exercise. The clinical engagement is what sustains
+            the enrollment retention that makes RTM revenue consistent over months and years rather
+            than declining as patients disengage.
+          </p>
+          <p>
+            The practices that run RTM well are running a better clinical program alongside a better
+            billing program. The financial and clinical outcomes reinforce each other. Better between-visit
+            data leads to better clinical decisions, which leads to better patient outcomes, which leads
+            to more engaged patients who maintain their monitoring and generate consistent RTM revenue.
+            The billing opportunity and the clinical opportunity are the same opportunity.
+          </p>
         </BlogContent>
         <BlogCTA
           ctaLabel="Calculate your RTM opportunity"

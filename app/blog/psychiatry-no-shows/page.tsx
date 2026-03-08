@@ -102,6 +102,101 @@ export default function PsychiatryNoShowsPage() {
           <p>
             Waitlist backfill doesn&rsquo;t eliminate the no-show problem — it converts it from a revenue loss into a scheduling efficiency.
           </p>
+
+          <h2>The Role of Engagement Between Scheduling and the First Visit</h2>
+          <p>
+            In most outpatient practices, the period between when a new patient schedules and when
+            they arrive for their first visit is an operational dead zone. The patient has booked an
+            appointment, confirmation was sent, and the practice assumes they will show up. In
+            psychiatry, that assumption fails at a rate of 20 to 30 percent.
+          </p>
+          <p>
+            Practices that fill this gap with structured engagement significantly outperform those
+            that do not. Engagement in the pre-visit period does not have to be extensive &mdash;
+            it should not feel intrusive &mdash; but it should exist. A welcome message the day
+            after scheduling that includes practical information about the first visit (what to bring,
+            what to expect, how to contact the office) signals that the practice is attentive and
+            that the patient relationship has already begun. A brief questionnaire asking the patient
+            to describe their primary concerns in their own words gives the treating clinician useful
+            pre-visit context and gives the patient a sense of having already started to communicate
+            with their care team.
+          </p>
+          <p>
+            Both of these pre-visit touchpoints also have a secondary function: they identify patients
+            who are disengaging. A patient who does not open the welcome email or does not submit the
+            pre-visit questionnaire is a patient who is at higher risk of not showing up. That signal,
+            visible to the scheduling team, is an opportunity for proactive outreach &mdash; a human
+            call to confirm the appointment and answer any concerns &mdash; that can recover a patient
+            who would otherwise become a no-show.
+          </p>
+
+          <h2>Structural vs. Behavioral No-Shows</h2>
+          <p>
+            Not all psychiatric no-shows are driven by the same underlying causes, and the right
+            intervention depends on understanding which type of no-show you are trying to prevent.
+          </p>
+          <p>
+            Behavioral no-shows are driven by the psychological factors specific to psychiatry:
+            stigma, first-visit anxiety, ambivalence about engaging with mental health care, or
+            the resolution of the acute crisis that motivated the original scheduling. These
+            no-shows respond to engagement-based interventions &mdash; warm confirmation calls,
+            pre-visit questionnaires, provider-specific introduction messages, and reminder content
+            that normalizes the first visit.
+          </p>
+          <p>
+            Structural no-shows are driven by logistical barriers: transportation, childcare, work
+            scheduling conflicts, confusion about the appointment location or requirements, or the
+            discovery that the practice does not accept their insurance after all. These no-shows
+            respond to information-based interventions &mdash; clear pre-visit instructions,
+            insurance verification before the visit, and telehealth alternatives for patients who
+            cannot easily make an in-person appointment.
+          </p>
+          <p>
+            Practices that conflate these two categories often implement the wrong intervention.
+            A practice that sends more reminder texts to a patient who no-showed because they could
+            not figure out where to park is not addressing the actual problem. Understanding your
+            no-show population requires asking patients who cancel or no-show why they did not
+            come, and categorizing the responses to find the most common fixable causes.
+          </p>
+
+          <h2>Telehealth as a No-Show Reduction Tool</h2>
+          <p>
+            Psychiatric practices that offer telehealth for new patient intake appointments have
+            lower new patient no-show rates than practices that require in-person first visits.
+            The evidence for this is consistent across practice types and patient demographics: when
+            the structural barrier of coming to a physical location is removed, the subset of patients
+            who would have no-showed due to logistical friction shows up.
+          </p>
+          <p>
+            Offering telehealth for intake does not mean all patients will choose it &mdash; and many
+            providers prefer in-person intake for clinical reasons, particularly for initial mental
+            status assessment. But offering the option, and making it easy to access, captures a
+            meaningful subset of would-be no-shows. A practice that books a patient who lives 45
+            minutes away, works daytime hours, and has limited childcare access for an in-person
+            9:00 AM intake appointment has scheduled a no-show. Offering that same patient a 6:00
+            PM telehealth option converts a predicted no-show into an attended appointment.
+          </p>
+
+          <h2>What an Effective No-Show Protocol Looks Like</h2>
+          <p>
+            The practices with the lowest new patient no-show rates in psychiatry typically share
+            several protocol elements that are not separately remarkable but are effective in
+            combination:
+          </p>
+          <ul>
+            <li>New patient appointments are booked with a live or warm handoff, not a generic confirmation email, wherever possible.</li>
+            <li>A welcome communication goes out within 24 hours of booking, including practical logistics, what to expect at the first visit, and a direct contact number for questions.</li>
+            <li>A pre-visit questionnaire is sent one week before the appointment and completion is tracked. Non-completers receive a personal outreach call.</li>
+            <li>Reminders are sent at one week, three days, and 24 hours, each with an easy option to confirm, reschedule, or cancel. The cancel option is included intentionally &mdash; a patient who cancels can be replaced. A patient who no-shows cannot.</li>
+            <li>Cancellations trigger immediate waitlist outreach so the slot does not go empty.</li>
+            <li>A card-on-file or deposit policy for new patients is in place, communicated at booking, and enforced consistently.</li>
+          </ul>
+          <p>
+            No single element of this protocol is transformative on its own. Together, they produce
+            a new patient no-show rate in the 8 to 12 percent range &mdash; well below the 20 to 30
+            percent that many psychiatric practices accept as normal. The practices that run protocols
+            like this do not have unusually compliant patient populations. They have better systems.
+          </p>
         </BlogContent>
         <BlogCTA
           ctaLabel="See clinIQ for psychiatry practices"

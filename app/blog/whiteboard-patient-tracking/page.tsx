@@ -139,6 +139,97 @@ export default function WhiteboardPatientTrackingPage() {
             patient flow on a tool that is always behind reality and visible to people who shouldn&rsquo;t
             see it. That is a problem worth solving.
           </p>
+
+          <h2>What HIPAA Actually Requires</h2>
+          <p>
+            The HIPAA Privacy Rule requires covered entities to implement reasonable safeguards to
+            protect the privacy of protected health information from incidental disclosures. The
+            relevant guidance acknowledges that clinical settings sometimes have operational needs
+            that require displaying patient information &mdash; but requires that the display be
+            limited to what is necessary and that reasonable steps be taken to limit incidental
+            access.
+          </p>
+          <p>
+            A whiteboard displaying patient full names, room numbers, and chief complaints in a
+            hallway accessible to patients, visitors, and vendors does not meet the &ldquo;reasonable
+            safeguards&rdquo; standard when the same function can be achieved by a digital display
+            that shows only patient initials or appointment IDs, visible only to authenticated staff
+            screens. The whiteboard may have been accepted practice a decade ago, but the availability
+            of better alternatives has raised the standard for what constitutes a reasonable safeguard.
+          </p>
+          <p>
+            Beyond the PHI exposure, there is a second HIPAA risk in whiteboards that practices often
+            overlook: the whiteboard itself may contain information about patients&rsquo; sensitive
+            conditions. A whiteboard that shows &ldquo;Room 4 &mdash; HIV f/u&rdquo; or &ldquo;Room 6
+            &mdash; psychiatric eval&rdquo; is disclosing condition-specific health information that
+            is subject to heightened privacy protection. Even a quick glance from someone passing through
+            the hallway constitutes an incidental disclosure that a reasonable practice should be designed
+            to prevent.
+          </p>
+
+          <h2>The Handwriting Problem</h2>
+          <p>
+            Whiteboard-based tracking has a practical problem beyond the HIPAA exposure: it is only as
+            reliable as the person who most recently updated it. In a busy clinic, whiteboard updates
+            happen inconsistently. The medical assistant who just roomed a patient may not walk back to
+            update the board if there are two more patients waiting to be checked in. The provider who
+            discharged a patient may leave the note on the board accurate for 5 minutes before she needs
+            to be in the next room.
+          </p>
+          <p>
+            As a result, whiteboard data quality degrades in direct proportion to clinic volume &mdash;
+            the busiest periods, when accurate status information is most needed, are precisely the periods
+            when the whiteboard is most out of date. Staff who have been in the practice long enough
+            have learned this and mentally discount the whiteboard by varying amounts depending on how
+            busy the day is. The whiteboard stops being a source of truth and becomes a rough
+            approximation that still requires verbal confirmation for anything important &mdash; exactly
+            the status-huddle problem that the whiteboard was supposed to solve.
+          </p>
+
+          <h2>Transitioning From Whiteboard to Digital: What to Expect</h2>
+          <p>
+            Practices that have made the transition from whiteboard to digital patient tracking
+            consistently report an initial adjustment period of one to two weeks, during which
+            staff fall back to the whiteboard out of habit when things get busy. This is normal and
+            manageable. The key is that the whiteboard should be physically removed or turned off
+            once the digital system is in place &mdash; not left as a fallback option. A fallback
+            option will be used, which splits the information between two systems and defeats the
+            purpose of either.
+          </p>
+          <p>
+            After the adjustment period, practices typically report faster information access (because
+            the status is visible on a screen without requiring someone to walk to the board), more
+            consistent updates (because the digital update is integrated into the workflow step itself
+            rather than requiring a separate trip to the board), and less conflict over who updated
+            what when (because digital logs are timestamped and attributable).
+          </p>
+          <p>
+            The practices most likely to have a smooth transition are those that integrate the digital
+            status update into the existing workflow steps. If a medical assistant is already required
+            to document vitals in the EHR, the status update to &ldquo;vitals complete&rdquo; should
+            happen as part of that documentation step, not as an additional action. The more the digital
+            update is embedded in what staff are already doing, the less it feels like an extra burden
+            and the more consistently it happens.
+          </p>
+
+          <h2>Role-Based Views and Clinical Context</h2>
+          <p>
+            One advantage of digital patient tracking over whiteboards that goes beyond the HIPAA and
+            data quality improvements is the ability to show different views to different roles. A
+            provider&rsquo;s view of the queue might emphasize which rooms are ready, the reason for
+            each visit, and flag any patients who have been waiting beyond a threshold. A medical
+            assistant&rsquo;s view might prioritize which patients need to be roomed next and which
+            rooms are available. A front desk coordinator&rsquo;s view might show check-in status,
+            insurance flags, and estimated wait times.
+          </p>
+          <p>
+            The whiteboard shows the same information to everyone who can see it, which means it either
+            includes more information than most roles need (creating the privacy risk) or less than some
+            roles need (forcing them to look elsewhere). Role-appropriate digital views solve both
+            problems simultaneously: clinical staff see what they need, administrative staff see what
+            they need, and patients and visitors see nothing at all. This is how a coordination layer
+            should work in a healthcare setting in 2026.
+          </p>
         </BlogContent>
         <BlogCTA
           ctaLabel="Replace Your Whiteboard"

@@ -181,6 +181,78 @@ export default function Cpt98977MusculoskeletalPage() {
             monthly billing trigger for the RTM code set are the operational components that make
             consistent, compliant RTM billing achievable at scale.
           </p>
+
+          <h2>Physical Therapy and Occupational Therapy Billing Under 98977</h2>
+          <p>
+            Physical therapists and occupational therapists occupy a particularly advantageous
+            position in the RTM billing landscape. They can bill CPT 98977 under their own NPI
+            without requiring physician oversight for the billing itself, their patient panels
+            are nearly 100 percent musculoskeletal in composition, and the home exercise monitoring
+            that is central to PT and OT treatment is exactly the type of data that 98977 is designed
+            to cover.
+          </p>
+          <p>
+            For a physical therapy practice, the RTM monitoring program is a natural extension of
+            the home exercise program (HEP) that patients are already assigned. When patients log
+            their HEP completion, pain response, and functional outcomes through an app rather than
+            reporting verbally at the next visit, the practice gains clinical data that improves
+            care and generates billable RTM revenue simultaneously. The monitoring is not an
+            addition to the treatment &mdash; it is a digitized version of what a well-run PT
+            practice is already trying to accomplish with paper HEP logs.
+          </p>
+          <p>
+            Occupational therapy practices managing patients with hand injuries, post-surgical upper
+            extremity rehabilitation, or work hardening programs similarly find that RTM monitoring
+            maps directly onto their existing clinical monitoring goals. Activity logs, grip strength
+            self-reporting, pain and fatigue tracking, and ADL completion rates are all natural fits
+            for OT RTM monitoring programs.
+          </p>
+
+          <h2>Orthopedic Practices and Episode-Based RTM</h2>
+          <p>
+            Orthopedic surgery practices have an opportunity to deploy RTM in episode-based monitoring
+            programs tied to surgical procedures. A patient undergoing total knee replacement generates
+            a time-bounded monitoring need: the practice wants to know how the rehabilitation is
+            progressing, whether pain is following the expected post-surgical trajectory, and whether
+            any complications are developing between post-op visits.
+          </p>
+          <p>
+            A 60 to 90 day post-surgical RTM program enrolled at discharge or the first post-op visit
+            generates 2 to 3 months of 98977 billing per patient. For an orthopedic practice performing
+            200 arthroplasties per year, enrolling 60 percent of patients in post-surgical RTM generates
+            120 enrolled patients at any given time in various stages of the monitoring period. At
+            $110 per patient per month baseline revenue, that is $13,200 in monthly RTM revenue from
+            a program that also improves post-surgical outcome tracking and enables earlier identification
+            of patients who are not recovering on expected trajectory.
+          </p>
+          <p>
+            Sports medicine practices with high volumes of ACL reconstruction, rotator cuff repair,
+            and other athletic injury management can apply the same episode-based model. The key
+            is framing RTM as part of the post-surgical or post-injury management protocol, not as
+            a separate program the patient has to opt into independently. When RTM enrollment is
+            presented as standard of care for the procedure type, enrollment rates are substantially
+            higher than when it is presented as an optional add-on.
+          </p>
+
+          <h2>When 98977 Cannot Be Billed</h2>
+          <p>
+            Understanding when 98977 does not apply prevents compliance problems and claim denials.
+            The most common scenarios where 98977 is not billable despite superficially qualifying
+            circumstances:
+          </p>
+          <ul>
+            <li><strong>Patient enrolled but not using the device:</strong> A patient who consented to RTM but has not transmitted data on at least 16 days in the billing period does not meet the data threshold. The device supply code is not billable for that month, regardless of enrollment status.</li>
+            <li><strong>Data collected but not reviewed:</strong> If monitoring data was transmitted but there is no documentation that clinical staff reviewed it, the claim lacks the review element required to support 98977 billing.</li>
+            <li><strong>Diagnosis not supported in the record:</strong> A musculoskeletal diagnosis must be actively documented as a current diagnosis under treatment. Billing 98977 for a patient whose musculoskeletal condition resolved but who remains enrolled in the monitoring program is not supported.</li>
+            <li><strong>Program paused due to acute illness or hospitalization:</strong> A patient who is hospitalized during a monitoring period and unable to use the device may not generate sufficient data days for that billing month. Billing should reflect actual compliance, not projected compliance.</li>
+          </ul>
+          <p>
+            Practices that track these exclusion scenarios systematically &mdash; rather than billing
+            98977 by default for all enrolled patients at month end &mdash; maintain cleaner claim
+            records and lower audit risk. The monthly billing process for 98977 should include a
+            review of per-patient compliance before the claim is submitted, not an assumption that
+            all enrolled patients are billable.
+          </p>
         </BlogContent>
         <BlogCTA
           ctaLabel="Build Your RTM Billing Workflow"

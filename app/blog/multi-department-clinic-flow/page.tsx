@@ -146,6 +146,97 @@ export default function MultiDepartmentClinicFlowPage() {
             as a single coordinated entity rather than three or four semi-independent departments
             that happen to share a building.
           </p>
+
+          <h2>The Infusion Suite Coordination Challenge</h2>
+          <p>
+            Infusion suites present a specific version of the multi-department coordination problem
+            that deserves separate attention. Infusion appointments are long, semi-predictable in
+            duration, and depend on pre-visit preparation steps &mdash; lab results, medication
+            preparation by pharmacy, nursing assessment &mdash; each of which has its own timeline
+            and can cause cascading delays if not coordinated.
+          </p>
+          <p>
+            When an infusion patient arrives and the pharmacy has not yet completed medication
+            preparation, the patient occupies a chair and nursing staff attention without beginning
+            treatment. When lab results required before infusion are not back by the time the patient
+            arrives, the appointment is delayed at the patient&rsquo;s expense. These delays are
+            especially costly in infusion because the chair time is high-value &mdash; each infusion
+            chair is a revenue-generating asset, and idle chair time due to coordination failures is
+            directly measurable as lost revenue.
+          </p>
+          <p>
+            A unified status view that includes pre-infusion preparation steps &mdash; lab order
+            status, pharmacy preparation status, nursing pre-assessment completion &mdash; alongside
+            infusion chair occupancy gives coordinators the ability to sequence patients into chairs
+            based on readiness, not arrival order. The patient whose medication is prepared and whose
+            labs are back should be in a chair. The patient who arrived first but whose preparation
+            is not complete should wait &mdash; and someone should be reaching out to pharmacy or
+            lab to determine the delay.
+          </p>
+
+          <h2>Measuring the Coordination Gap</h2>
+          <p>
+            Multi-department clinics rarely measure their coordination gap explicitly, which means
+            they rarely know its true cost. The coordination gap can be measured as the difference
+            between a patient&rsquo;s scheduled appointment duration and their actual time in
+            the facility, minus the medically necessary clinical time. The portion of a patient&rsquo;s
+            visit that exceeds the clinical necessity threshold is the coordination overhead.
+          </p>
+          <p>
+            For a multi-department clinic, this number is typically 20 to 40 minutes per patient who
+            transitions between departments. A patient scheduled for a 90-minute encounter that includes
+            a provider visit, lab draw, and imaging review may spend 140 minutes in the facility &mdash;
+            50 minutes more than planned, most of which occurred while waiting between departments for
+            handoffs that were never communicated. Multiplied across 30 patients per day who make
+            departmental transitions, that coordination overhead totals 25 hours of patient waiting
+            time per day. This is time your patients spend in your building that generates no clinical
+            value and leaves them frustrated.
+          </p>
+
+          <h2>Patient Experience in Multi-Department Settings</h2>
+          <p>
+            Patients who feel lost in a multi-department clinic have a qualitatively different negative
+            experience from patients who simply wait too long in one place. The feeling of being lost
+            &mdash; directed to a second location, left to navigate independently, uncertain whether
+            they were expected &mdash; triggers a sense of institutional indifference that is more
+            damaging to patient loyalty than a straightforward wait would be.
+          </p>
+          <p>
+            Patients who know what is happening, even when they are waiting, report meaningfully better
+            experiences. A patient who is told &ldquo;The lab will call your name within 10 minutes.
+            When they&rsquo;re done, come back to the third-floor desk and let them know you&rsquo;re
+            finished&rdquo; has a clear expectation and a clear next action. A patient who is told
+            &ldquo;Go to lab and then come back&rdquo; has neither, and if lab takes 35 minutes and
+            they cannot find their way back, they arrive at the clinic desk disoriented and already
+            frustrated.
+          </p>
+          <p>
+            The communication improvements that make multi-department flow work are often the same
+            ones that improve patient satisfaction scores most visibly. Providing patients with a
+            clear map of their visit when they arrive &mdash; what departments they will visit, in
+            what order, and what they should do at each transition &mdash; transforms the patient&rsquo;s
+            experience from a bewildering maze into a structured journey. It is a simple intervention
+            that most multi-department clinics have not made, and the satisfaction impact is immediate.
+          </p>
+
+          <h2>When to Add Coordination Staff vs. Better Systems</h2>
+          <p>
+            Multi-department clinics frequently respond to coordination failures by hiring a patient
+            escort or coordinator role &mdash; a staff member whose job is to physically accompany
+            patients between departments or track their status by phone. This approach works but is
+            expensive: a full-time coordinator adds $40,000 to $60,000 per year in fully-loaded labor
+            cost and covers coordination during their hours only.
+          </p>
+          <p>
+            A system-based coordination approach &mdash; where status updates propagate automatically
+            and are visible to all departments simultaneously &mdash; covers every patient at every
+            hour without adding headcount. For multi-department clinics that are not yet at the
+            volume that justifies a dedicated coordinator role, system-based coordination is the
+            practical alternative. For clinics large enough to justify the coordinator role, the
+            system-based approach makes that coordinator dramatically more effective by giving them
+            a real-time view of every transition rather than requiring them to seek information
+            through phone calls and physical checks.
+          </p>
         </BlogContent>
         <BlogCTA
           ctaLabel="Unify Your Clinic Departments"

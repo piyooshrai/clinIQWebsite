@@ -169,6 +169,86 @@ export default function RtmBehavioralHealthPage() {
             already doing, paid by Medicare and a growing list of commercial payers. The question is
             not whether behavioral health RTM makes sense. It is whether you are set up to capture it.
           </p>
+
+          <h2>Building the Between-Session Clinical Relationship</h2>
+          <p>
+            One of the most underappreciated clinical effects of behavioral health RTM is what it does
+            to the therapeutic relationship between sessions. Traditional outpatient behavioral health
+            operates on a session-to-session model where the clinical relationship exists primarily in
+            the therapy room. The patient leaves, and until the next session, the clinician has no
+            window into how the patient is doing.
+          </p>
+          <p>
+            RTM changes this. When a patient logs their mood daily, completes brief weekly symptom
+            check-ins, and knows that their clinician is reviewing this data between sessions, the
+            therapeutic relationship extends into the between-session period. For many patients, this
+            changes their experience of the treatment: they feel supported continuously rather than
+            supported for 50 minutes per week. The act of logging &mdash; which is brief and simple
+            &mdash; itself has therapeutic value for some patients because it creates a daily reflective
+            practice and a sense of being held accountable by a care relationship.
+          </p>
+          <p>
+            This therapeutic effect is most pronounced for patients with depression and anxiety, where
+            the between-session period often features the most significant symptom variation. A depressed
+            patient who has a difficult week between sessions carries that experience into the next
+            session with more or less detail depending on how well they recall it. A patient whose PHQ-2
+            scores were logged daily arrives at the session with a clinical record that neither party
+            has to reconstruct from memory.
+          </p>
+
+          <h2>Enrollment and Patient Acceptance</h2>
+          <p>
+            Behavioral health patients present specific enrollment challenges compared to musculoskeletal
+            or respiratory RTM populations. Privacy concerns are heightened: patients in behavioral health
+            treatment are often sensitive about data related to their mental health being stored digitally.
+            Technology engagement varies more widely than in other patient populations. And some patients
+            in behavioral health treatment have conditions &mdash; OCD, paranoia, health anxiety &mdash;
+            that can interact poorly with frequent self-monitoring if not framed carefully.
+          </p>
+          <p>
+            Successful behavioral health RTM enrollment addresses these concerns directly. The enrollment
+            conversation should explicitly cover how data is stored and who has access to it. The monitoring
+            tool should be as simple and non-intrusive as possible &mdash; a 30-second daily check-in is
+            far more likely to be sustained than a 10-minute questionnaire. For patients with health anxiety
+            or rumination tendencies, the clinician should discuss whether regular self-monitoring is likely
+            to be therapeutic or counter-therapeutic for that individual before enrolling them.
+          </p>
+          <p>
+            The practices with the highest behavioral health RTM enrollment rates present it as an
+            extension of the therapeutic work rather than a monitoring requirement. Framing the
+            daily mood log as &ldquo;part of our treatment approach, so I can see how your week is
+            going and we can talk about patterns in our sessions&rdquo; positions it clinically rather
+            than administratively. Patients who see their monitoring as part of their treatment are
+            more engaged than patients who see it as data collection for the practice&rsquo;s records.
+          </p>
+
+          <h2>Crisis Detection and Early Intervention</h2>
+          <p>
+            Perhaps the most clinically significant capability of behavioral health RTM is early crisis
+            detection. In traditional outpatient behavioral health, a patient who is deteriorating
+            between sessions may not be detected until the next scheduled appointment &mdash; which
+            could be one, two, or four weeks away depending on the treatment plan and scheduling
+            availability. A patient who is moving toward a crisis has an average of days, not weeks,
+            between early warning signs and acute decompensation.
+          </p>
+          <p>
+            RTM monitoring that includes validated symptom scales &mdash; PHQ-9 scores trending
+            upward over two weeks, GAD-7 scores spiking, or patient-reported item responses
+            indicating passive suicidal ideation &mdash; creates an early warning system that a
+            clinician monitoring the data can act on before crisis escalates. A clinician who sees
+            a patient&rsquo;s PHQ-9 move from 8 to 14 to 19 over three weeks has clinical information
+            that warrants an urgent outreach &mdash; an earlier appointment, a medication review
+            discussion, or a safety check-in call. Without the monitoring data, that clinician would
+            not know anything had changed until the patient arrived in crisis.
+          </p>
+          <p>
+            Any practice implementing behavioral health RTM should have a defined escalation protocol
+            for monitoring data that crosses clinical thresholds. The protocol should specify what
+            scores or patterns trigger review, who reviews them, what the response options are, and
+            how the response is documented. Without this protocol, RTM data that contains a crisis
+            signal may be reviewed days later or reviewed without a defined response pathway &mdash;
+            creating both a patient safety risk and a liability exposure.
+          </p>
         </BlogContent>
         <BlogCTA
           ctaLabel="Start Your BH RTM Program"
