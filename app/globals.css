@@ -1,11 +1,8 @@
-/* ==================== FONT FACE ==================== */
-@font-face {
-  font-family: 'Söhne';
-  src: local('Söhne'), local('SF Pro Display'), local('Inter');
-  font-weight: 400 600;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-/* ==================== CSS VARIABLES / DESIGN TOKENS ==================== */
+/* ===== CSS TOKENS ===== */
 :root {
   --white: #ffffff;
   --off-white: #fafafa;
@@ -23,13 +20,13 @@
   --teal-light: #14b8a6;
 }
 
-/* ==================== RESET & BASE ==================== */
+/* ===== BASE ===== */
 *,
 *::before,
 *::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 html {
@@ -37,7 +34,7 @@ html {
 }
 
 body {
-  font-family: 'Söhne', 'SF Pro Display', 'Inter', -apple-system, sans-serif;
+  font-family: var(--font-sans), 'SF Pro Display', 'Inter', -apple-system, sans-serif;
   color: var(--gray-900);
   background: var(--black);
   line-height: 1.6;
@@ -45,7 +42,7 @@ body {
   overflow-x: hidden;
 }
 
-/* ==================== GRAIN OVERLAY ==================== */
+/* Grain overlay */
 body::before {
   content: '';
   position: fixed;
@@ -59,12 +56,12 @@ body::before {
   z-index: 10000;
 }
 
-/* ==================== GLOBAL ANIMATIONS ==================== */
+/* ===== GLOBAL KEYFRAMES ===== */
 @keyframes float {
   0%, 100% { transform: translate(0, 0) scale(1); }
-  25% { transform: translate(30px, -30px) scale(1.05); }
-  50% { transform: translate(-20px, 20px) scale(0.95); }
-  75% { transform: translate(20px, 10px) scale(1.02); }
+  25%       { transform: translate(30px, -30px) scale(1.05); }
+  50%       { transform: translate(-20px, 20px) scale(0.95); }
+  75%       { transform: translate(20px, 10px) scale(1.02); }
 }
 
 @keyframes slideUp {
@@ -74,89 +71,22 @@ body::before {
   }
 }
 
-@keyframes fadeIn {
+@keyframes fadeInUp {
   from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
-@keyframes marquee {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
-}
-
-@keyframes pulse {
+@keyframes blink {
   0%, 100% { opacity: 1; }
-  50% { opacity: 0.4; }
+  50%       { opacity: 0.4; }
 }
 
 @keyframes scrollDown {
-  0% { top: 0; opacity: 1; }
+  0%   { top: 0;    opacity: 1; }
   100% { top: 100%; opacity: 0; }
 }
 
-/* ==================== SHARED BUTTON STYLES ==================== */
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-  cursor: pointer;
-  border: none;
-  font-family: inherit;
-}
-
-.btn-ghost {
-  padding: 12px 20px;
-  background: transparent;
-  color: var(--gray-400);
-  border-radius: 8px;
-}
-
-.btn-ghost:hover {
-  color: var(--white);
-  background: rgba(255, 255, 255, 0.05);
-}
-
-.btn-primary {
-  padding: 14px 28px;
-  background: var(--white);
-  color: var(--black);
-  border-radius: 100px;
-}
-
-.btn-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 32px rgba(255, 255, 255, 0.15);
-}
-
-.btn-hero {
-  padding: 20px 40px;
-  font-size: 16px;
-  font-weight: 500;
-  border-radius: 100px;
-}
-
-.btn-hero-primary {
-  background: var(--white);
-  color: var(--black);
-}
-
-.btn-hero-primary:hover {
-  transform: translateY(-3px) scale(1.02);
-  box-shadow: 0 16px 48px rgba(255, 255, 255, 0.2);
-}
-
-.btn-hero-secondary {
-  background: transparent;
-  color: var(--white);
-  border: 1px solid var(--gray-600);
-}
-
-.btn-hero-secondary:hover {
-  border-color: var(--white);
-  background: rgba(255, 255, 255, 0.05);
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }

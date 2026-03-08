@@ -1,6 +1,6 @@
-import styles from './Features.module.css';
+import styles from './Features.module.css'
 
-const features = [
+const FEATURES = [
   {
     number: '01',
     title: 'Patient Check-In',
@@ -17,7 +17,7 @@ const features = [
     number: '03',
     title: 'RTM Billing',
     description:
-      'Remote Therapeutic Monitoring built in. CPT 98975-98981 tracking. $120-150 per patient monthly.',
+      'Remote Therapeutic Monitoring built in. CPT 98975–98981 tracking. $120–150 per patient monthly.',
   },
   {
     number: '04',
@@ -37,32 +37,32 @@ const features = [
     description:
       'Wait times, throughput, utilization. Daily, weekly, monthly. Identify problems before patients do.',
   },
-];
+]
 
 export default function Features() {
   return (
-    <section className={styles.features} id="features">
-      <div className={styles.featuresContainer}>
-        <div className={styles.sectionHeader}>
-          <div className={styles.sectionLabel}>
-            <span className={styles.sectionLabelLine} />
-            <span className={styles.sectionLabelText}>Capabilities</span>
+    <section className={styles.section} id="features">
+      <div className={styles.container}>
+        <div className={styles.header}>
+          <div className={styles.label}>
+            <span className={styles.labelLine} />
+            <span className={styles.labelText}>Capabilities</span>
           </div>
-          <h2 className={styles.sectionTitle}>
+          <h2 className={styles.title}>
             Everything your clinic needs. Nothing it doesn&apos;t.
           </h2>
         </div>
 
-        <div className={styles.featuresGrid}>
-          {features.map((feature) => (
-            <div key={feature.number} className={styles.featureCard}>
-              <div className={styles.featureNumber}>{feature.number}</div>
-              <h3 className={styles.featureTitle}>{feature.title}</h3>
-              <p className={styles.featureDescription}>{feature.description}</p>
+        <div className={styles.grid}>
+          {FEATURES.map((f) => (
+            <div key={f.number} className={styles.card}>
+              <div className={styles.number}>{f.number}</div>
+              <h3 className={styles.cardTitle}>{f.title}</h3>
+              <p className={styles.cardDesc}>{f.description}</p>
             </div>
           ))}
         </div>
       </div>
     </section>
-  );
+  )
 }

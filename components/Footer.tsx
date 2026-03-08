@@ -1,79 +1,88 @@
-import Link from 'next/link';
-import styles from './Footer.module.css';
+import Link from 'next/link'
+import styles from './Footer.module.css'
+
+const COLUMNS = [
+  {
+    heading: 'Product',
+    links: [
+      { label: 'Patient Flow',  href: '/features/patient-flow' },
+      { label: 'Check-In',      href: '/features/check-in' },
+      { label: 'RTM Billing',   href: '/features/rtm' },
+      { label: 'Pre-Auth',      href: '/features/pre-auth' },
+    ],
+  },
+  {
+    heading: 'Specialties',
+    links: [
+      { label: 'Addiction Medicine', href: '/specialties/addiction' },
+      { label: 'Psychiatry',         href: '/specialties/psychiatry' },
+      { label: 'Pain Management',    href: '/specialties/pain' },
+      { label: 'Orthopedics',        href: '/specialties/ortho' },
+    ],
+  },
+  {
+    heading: 'Integrations',
+    links: [
+      { label: 'Ritten',           href: '/integrations/ritten' },
+      { label: 'eClinicalWorks',   href: '/integrations/ecw' },
+      { label: 'Athena',           href: '/integrations/athena' },
+      { label: 'All Integrations', href: '/integrations' },
+    ],
+  },
+  {
+    heading: 'Company',
+    links: [
+      { label: 'About',   href: '/about' },
+      { label: 'Pricing', href: '/pricing' },
+      { label: 'Contact', href: '/contact' },
+      { label: 'Blog',    href: '/blog' },
+    ],
+  },
+]
 
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-      <div className={styles.footerContainer}>
-        <div className={styles.footerGrid}>
-          {/* Brand column */}
-          <div className={styles.footerBrand}>
+      <div className={styles.container}>
+        <div className={styles.grid}>
+          {/* Brand */}
+          <div className={styles.brand}>
             <Link href="/" className={styles.logo}>
               <span className={styles.logoClin}>clin</span>
               <span className={styles.logoIq}>IQ</span>
             </Link>
-            <p>
-              Clinic operations platform. Patient flow, check-in, scheduling, RTM,
-              and pre-authorization. Built to work with your EHR.
+            <p className={styles.brandDesc}>
+              Clinic operations platform. Patient flow, check-in, scheduling,
+              RTM, and pre-authorization. Built to work with your EHR.
             </p>
           </div>
 
-          {/* Product column */}
-          <div className={styles.footerColumn}>
-            <h4>Product</h4>
-            <ul className={styles.footerLinks}>
-              <li><Link href="/features/patient-flow">Patient Flow</Link></li>
-              <li><Link href="/features/check-in">Check-In</Link></li>
-              <li><Link href="/features/rtm">RTM Billing</Link></li>
-              <li><Link href="/features/pre-auth">Pre-Auth</Link></li>
-            </ul>
-          </div>
-
-          {/* Specialties column */}
-          <div className={styles.footerColumn}>
-            <h4>Specialties</h4>
-            <ul className={styles.footerLinks}>
-              <li><Link href="/specialties/addiction">Addiction Medicine</Link></li>
-              <li><Link href="/specialties/psychiatry">Psychiatry</Link></li>
-              <li><Link href="/specialties/pain">Pain Management</Link></li>
-              <li><Link href="/specialties/ortho">Orthopedics</Link></li>
-            </ul>
-          </div>
-
-          {/* Integrations column */}
-          <div className={styles.footerColumn}>
-            <h4>Integrations</h4>
-            <ul className={styles.footerLinks}>
-              <li><Link href="/integrations/ritten">Ritten</Link></li>
-              <li><Link href="/integrations/ecw">eClinicalWorks</Link></li>
-              <li><Link href="/integrations/athena">Athena</Link></li>
-              <li><Link href="/integrations">All Integrations</Link></li>
-            </ul>
-          </div>
-
-          {/* Company column */}
-          <div className={styles.footerColumn}>
-            <h4>Company</h4>
-            <ul className={styles.footerLinks}>
-              <li><Link href="/about">About</Link></li>
-              <li><Link href="/pricing">Pricing</Link></li>
-              <li><Link href="/contact">Contact</Link></li>
-              <li><Link href="/blog">Blog</Link></li>
-            </ul>
-          </div>
+          {/* Link columns */}
+          {COLUMNS.map((col) => (
+            <div key={col.heading} className={styles.column}>
+              <h4>{col.heading}</h4>
+              <ul className={styles.links}>
+                {col.links.map((l) => (
+                  <li key={l.href}>
+                    <Link href={l.href}>{l.label}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
 
-        <div className={styles.footerBottom}>
-          <p className={styles.footerCopyright}>
+        <div className={styles.bottom}>
+          <p className={styles.copyright}>
             &copy; 2025 The Algorithm LLC. All rights reserved.
           </p>
-          <div className={styles.footerLegal}>
+          <nav className={styles.legal} aria-label="Legal links">
             <Link href="/privacy">Privacy</Link>
             <Link href="/terms">Terms</Link>
             <Link href="/security">Security</Link>
-          </div>
+          </nav>
         </div>
       </div>
     </footer>
-  );
+  )
 }
