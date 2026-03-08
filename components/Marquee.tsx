@@ -1,24 +1,33 @@
+import { Fragment } from 'react'
 import styles from './Marquee.module.css'
 
 const SPECIALTIES = [
   'Addiction Medicine',
   'Psychiatry',
   'Pain Management',
-  'Orthopedics',
+  'Orthopedic Surgery',
   'Physical Therapy',
-  'Infusion Centers',
   'Urgent Care',
   'Behavioral Health',
+  'Cardiology',
+  'Dermatology',
+  'Primary Care',
+  'Chiropractic',
+  'Neurology',
+  'Pediatrics',
+  'Ophthalmology',
+  'Spine Surgery',
+  'OB-GYN',
 ]
 
 function MarqueeContent() {
   return (
     <div className={styles.content} aria-hidden="true">
       {SPECIALTIES.map((name, i) => (
-        <>
-          <span key={`item-${i}`} className={styles.item}>{name}</span>
-          <span key={`div-${i}`} className={styles.divider} />
-        </>
+        <Fragment key={i}>
+          <span className={styles.item}>{name}</span>
+          <span className={styles.divider} />
+        </Fragment>
       ))}
     </div>
   )
