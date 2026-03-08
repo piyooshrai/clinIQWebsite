@@ -216,7 +216,7 @@ function MobileGroupLinks({
 
   if (section.flat) {
     return (
-      <div className={styles.mobileGroupLinks}>
+      <div className={`${styles.mobileGroupLinks} ${styles.mobileGroupLinksOpen}`}>
         {section.flat.map((link) => (
           <Link
             key={link.href}
@@ -234,7 +234,7 @@ function MobileGroupLinks({
 
   if (section.grouped) {
     return (
-      <div className={styles.mobileGroupLinks}>
+      <div className={`${styles.mobileGroupLinks} ${styles.mobileGroupLinksOpen}`}>
         {section.grouped.map((group) => (
           <div key={group.heading} className={styles.mobileCategory}>
             <div className={styles.mobileCategoryHeading}>{group.heading}</div>
