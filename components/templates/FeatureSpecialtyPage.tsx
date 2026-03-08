@@ -1,43 +1,36 @@
+import Link from 'next/link'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
-import FeatureHero from '@/components/FeatureHero'
-import SpecialtyPain from '@/components/SpecialtyPain'
-import FeatureHowItWorks from '@/components/FeatureHowItWorks'
-import FeatureCTA from '@/components/FeatureCTA'
 import styles from './FeatureSpecialtyPage.module.css'
 
 export interface FeatureSpecialtyPageProps {
-  feature: string
-  specialty: string
-  badge: string
-  title: string
-  subtitle: string
-  painHeading: string
-  painIntro: string
-  painPoints: string[]
-  solutionBlock?: string
-  howItWorksSteps: [{ title: string; body: string }, { title: string; body: string }, { title: string; body: string }]
-  ctaTitle?: string
-  ctaDescription?: string
   featureSlug: string
+  featureName: string
   specialtySlug: string
+  specialtyName: string
+  h1: string
+  problemStatement: string
+  solutionStatement: string
+  ctaLabel?: string
+}
+
+function ArrowIcon() {
+  return (
+    <svg className={styles.btnIcon} viewBox="0 0 20 20" fill="none" aria-hidden="true">
+      <path d="M4 10h12m-4-4l4 4-4 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  )
 }
 
 export default function FeatureSpecialtyPage({
-  feature,
-  specialty,
-  badge,
-  title,
-  subtitle,
-  painHeading,
-  painIntro,
-  painPoints,
-  solutionBlock,
-  howItWorksSteps,
-  ctaTitle,
-  ctaDescription,
   featureSlug,
+  featureName,
   specialtySlug,
+  specialtyName,
+  h1,
+  problemStatement,
+  solutionStatement,
+  ctaLabel = 'Book a Demo',
 }: FeatureSpecialtyPageProps) {
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
@@ -45,45 +38,25 @@ export default function FeatureSpecialtyPage({
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniq.com' },
       { '@type': 'ListItem', position: 2, name: 'Features', item: 'https://cliniq.com/features' },
-      {
-        '@type': 'ListItem',
-        position: 3,
-        name: feature,
-        item: `https://cliniq.com/features/${featureSlug}`,
-      },
-      {
-        '@type': 'ListItem',
-        position: 4,
-        name: specialty,
-        item: `https://cliniq.com/features/${featureSlug}/${specialtySlug}`,
-      },
+      { '@type': 'ListItem', position: 3, name: featureName, item: `https://cliniq.com/features/${featureSlug}` },
+      { '@type': 'ListItem', position: 4, name: specialtyName, item: `https://cliniq.com/features/${featureSlug}/${specialtySlug}` },
     ],
   }
 
   const serviceSchema = {
     '@context': 'https://schema.org',
     '@type': 'Service',
-    name: `${feature} for ${specialty} — clinIQ`,
-    description: subtitle,
-    provider: {
-      '@type': 'Organization',
-      name: 'clinIQ',
-      url: 'https://cliniq.com',
-    },
+    name: `${featureName} for ${specialtyName} — clinIQ`,
+    description: h1,
+    provider: { '@type': 'Organization', name: 'clinIQ', url: 'https://cliniq.com' },
     serviceType: 'Healthcare Software',
     areaServed: 'US',
   }
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <NavInner />
       <main>
         <div className={styles.breadcrumbBar}>
@@ -93,26 +66,80 @@ export default function FeatureSpecialtyPage({
               <span aria-hidden="true">/</span>
               <a href="/features">Features</a>
               <span aria-hidden="true">/</span>
-              <a href={`/features/${featureSlug}`}>{feature}</a>
+              <a href={`/features/${featureSlug}`}>{featureName}</a>
               <span aria-hidden="true">/</span>
-              <span aria-current="page">{specialty}</span>
+              <span aria-current="page">{specialtyName}</span>
             </nav>
           </div>
         </div>
-        <FeatureHero badge={badge} title={title} subtitle={subtitle} />
-        <SpecialtyPain heading={painHeading} intro={painIntro} points={painPoints} />
-        {solutionBlock && (
-          <div className={styles.solutionSection}>
-            <div className="container">
-              <div
-                className={styles.solutionContent}
-                dangerouslySetInnerHTML={{ __html: solutionBlock }}
-              />
+
+        <section className={styles.hero}>
+          <div className={styles.heroBg}>
+            <div className={styles.heroOrbTeal} />
+            <div className={styles.heroOrbBlue} />
+            <div className={styles.heroGrain} />
+          </div>
+          <div className="container">
+            <div className={styles.heroContent}>
+              <div className={styles.badges}>
+                <span className={styles.badge}>{featureName}</span>
+                <span className={styles.badgeSep} aria-hidden="true">×</span>
+                <span className={styles.badge}>{specialtyName}</span>
+              </div>
+              <h1 className={styles.heroTitle}>{h1}</h1>
+              <div className={styles.heroActions}>
+                <Link href="/demo" className={styles.btnPrimary}>
+                  Book a Demo <ArrowIcon />
+                </Link>
+                <Link href={`/features/${featureSlug}`} className={styles.btnGhost}>
+                  About {featureName}
+                </Link>
+              </div>
             </div>
           </div>
-        )}
-        <FeatureHowItWorks steps={howItWorksSteps} />
-        <FeatureCTA title={ctaTitle} description={ctaDescription} />
+        </section>
+
+        <section className={styles.problem}>
+          <div className="container">
+            <div className={styles.twoCol}>
+              <div className={styles.colLabel}>
+                <span className={styles.sectionTag}>The Problem</span>
+              </div>
+              <div className={styles.colContent}>
+                <p className={styles.statement}>{problemStatement}</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className={styles.solution}>
+          <div className="container">
+            <div className={styles.twoCol}>
+              <div className={styles.colLabel}>
+                <span className={styles.sectionTag}>The Solution</span>
+              </div>
+              <div className={styles.colContent}>
+                <p className={styles.statement}>{solutionStatement}</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className={styles.cta}>
+          <div className="container">
+            <div className={styles.ctaInner}>
+              <h2 className={styles.ctaTitle}>
+                See {featureName} for {specialtyName} in action.
+              </h2>
+              <p className={styles.ctaBody}>
+                15-minute demo. We&apos;ll configure it for your {specialtyName.toLowerCase()} workflow. No pitch deck, no pressure.
+              </p>
+              <Link href="/demo" className={styles.ctaBtn}>
+                {ctaLabel} <ArrowIcon />
+              </Link>
+            </div>
+          </div>
+        </section>
       </main>
       <FooterInner />
     </>
