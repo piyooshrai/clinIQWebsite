@@ -58,7 +58,7 @@ export default function FooterInner() {
         </div>
 
         <div className={styles.footerBottom}>
-          <p>&copy; 2025 The Algorithm LLC. All rights reserved.</p>
+          <p>&copy; 2026 The Algorithm LLC. All rights reserved.</p>
           <p>Built following HIPAA guidelines.</p>
         </div>
       </div>
