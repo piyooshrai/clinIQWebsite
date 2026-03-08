@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
-import Nav from '@/components/Nav';
-import Footer from '@/components/Footer';
+import NavInner from '@/components/NavInner';
+import FooterInner from '@/components/FooterInner';
 import FeatureHero from '@/components/FeatureHero';
 import FeatureProblem from '@/components/FeatureProblem';
 import FeatureHowItWorks from '@/components/FeatureHowItWorks';
@@ -14,19 +14,19 @@ export const metadata: Metadata = {
 const painPoints = [
   {
     heading: 'Constant interruptions',
-    body: 'Staff stop what they\'re doing every few minutes to answer "who\'s next?" No one should have to ask.',
+    body: "Staff stop what they're doing every few minutes to answer \"who's next?\" No one should have to ask.",
   },
   {
     heading: 'No visibility across rooms',
-    body: 'Providers don\'t know if their next patient is ready. Rooms sit empty. Time gets wasted.',
+    body: "Providers don't know if their next patient is ready. Rooms sit empty. Time gets wasted.",
   },
   {
     heading: 'Staff drowning in coordination',
-    body: 'Every handoff is a verbal message, a sticky note, or a text. It breaks down constantly.',
+    body: "Every handoff is a verbal message, a sticky note, or a text. It breaks down constantly.",
   },
   {
-    heading: 'Patients wondering if they\'re forgotten',
-    body: 'Patients wait with no idea where they are in the process. That silence breeds anxiety and complaints.',
+    heading: "Patients wondering if they're forgotten",
+    body: "Patients wait with no idea where they are in the process. That silence breeds anxiety and complaints.",
   },
 ];
 
@@ -37,7 +37,7 @@ const steps: [
 ] = [
   {
     title: 'Patient checks in',
-    body: 'Kiosk, tablet, or phone — patient arrives and confirms. They\'re instantly in the system.',
+    body: "Kiosk, tablet, or phone — patient arrives and confirms. They're instantly in the system.",
   },
   {
     title: 'Status updates in real-time',
@@ -45,14 +45,14 @@ const steps: [
   },
   {
     title: 'Everyone sees the queue',
-    body: 'Providers, front desk, and back office all work from the same live view. No guessing. No lag.',
+    body: "Providers, front desk, and back office all work from the same live view. No guessing. No lag.",
   },
 ];
 
 export default function PatientFlowPage() {
   return (
     <>
-      <Nav />
+      <NavInner />
       <main>
         <FeatureHero
           badge="Patient Flow"
@@ -66,7 +66,7 @@ export default function PatientFlowPage() {
           description="See clinIQ's patient flow dashboard configured for your clinic. We'll walk through every screen."
         />
       </main>
-      <Footer />
+      <FooterInner />
     </>
   );
 }
