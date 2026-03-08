@@ -1,0 +1,135 @@
+.section {
+  padding: 96px 0;
+}
+
+.section.dark {
+  background: var(--black);
+}
+
+.section.teal {
+  background: var(--teal);
+}
+
+.section.cream {
+  background: var(--cream);
+}
+
+.inner {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.headline {
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 16px;
+}
+
+.section.dark .headline,
+.section.teal .headline {
+  color: var(--white);
+}
+
+.section.cream .headline {
+  color: var(--black);
+}
+
+.body {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  margin-bottom: 36px;
+}
+
+.section.dark .body,
+.section.teal .body {
+  color: var(--text-inverse-secondary);
+}
+
+.section.cream .body {
+  color: var(--text-secondary);
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.btnPrimary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.15s, opacity 0.15s;
+}
+
+.section.dark .btnPrimary,
+.section.teal .btnPrimary {
+  background: var(--white);
+  color: var(--black);
+}
+
+.section.dark .btnPrimary:hover,
+.section.teal .btnPrimary:hover {
+  opacity: 0.9;
+}
+
+.section.cream .btnPrimary {
+  background: var(--teal);
+  color: var(--white);
+}
+
+.section.cream .btnPrimary:hover {
+  opacity: 0.9;
+}
+
+.btnSecondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.section.dark .btnSecondary,
+.section.teal .btnSecondary {
+  background: transparent;
+  border: 1.5px solid rgba(255, 255, 255, 0.35);
+  color: var(--white);
+}
+
+.section.dark .btnSecondary:hover,
+.section.teal .btnSecondary:hover {
+  border-color: rgba(255, 255, 255, 0.65);
+}
+
+.section.cream .btnSecondary {
+  background: transparent;
+  border: 1.5px solid var(--border-light);
+  color: var(--text-primary);
+}
+
+.section.cream .btnSecondary:hover {
+  border-color: var(--teal);
+}
+
+.btnIcon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}

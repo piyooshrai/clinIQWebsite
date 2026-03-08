@@ -1,0 +1,1 @@
+"MAT patients need discretion. They need speed. They don't need to stand at a public counter explaining their medication. clinIQ fixed our check-in completely." — Dr. Carlos Mendez, Addiction Medicine

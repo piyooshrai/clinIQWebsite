@@ -1,0 +1,1 @@
+"Three shifts, sixty chairs, and I used to manage it all from memory and a whiteboard. clinIQ replaced both. Our no-show rate dropped 20% in the first quarter." — Robert Adkins, Administrator, Dialysis Center
