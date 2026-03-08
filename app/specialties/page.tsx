@@ -1,19 +1,8 @@
-import type { Metadata } from 'next'
+'use client'
+
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
 import s from './specialty-full.module.css'
-
-export const metadata: Metadata = {
-  title: 'clinIQ by Specialty — Clinic Operations Built for How Your Practice Actually Works',
-  description:
-    'clinIQ is built for the operational reality of each specialty — not a generic one-size-fits-all platform. Find your specialty and see what real clinic flow looks like.',
-  openGraph: {
-    title: 'clinIQ by Specialty — Clinic Operations Built for How Your Practice Actually Works',
-    description:
-      'Specialty-specific clinic operations for urgent care, primary care, orthopedics, cardiology, behavioral health, and 13 more specialties.',
-    type: 'website',
-  },
-}
 
 const specialties = [
   {
