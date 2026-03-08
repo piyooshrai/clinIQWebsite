@@ -1,0 +1,105 @@
+.section {
+  padding: 5rem 0 6rem;
+  background: var(--cream);
+}
+
+/* Prose container — 720px max-width, centered */
+.prose {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* ---- Headings ---- */
+.prose :global(h2) {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--text-primary);
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.prose :global(h3) {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: var(--text-primary);
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+/* ---- Paragraphs ---- */
+.prose :global(p) {
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  margin-bottom: 1.25rem;
+}
+
+/* ---- Lists ---- */
+.prose :global(ul) {
+  margin-bottom: 1.25rem;
+  padding-left: 0;
+  list-style: none;
+}
+
+.prose :global(ul li) {
+  position: relative;
+  padding-left: 1.5rem;
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  margin-bottom: 0.625rem;
+}
+
+.prose :global(ul li)::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--teal);
+  flex-shrink: 0;
+}
+
+.prose :global(ol) {
+  margin-bottom: 1.25rem;
+  padding-left: 1.5rem;
+}
+
+.prose :global(ol li) {
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  margin-bottom: 0.625rem;
+}
+
+/* ---- Strong / callouts ---- */
+.prose :global(strong) {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+/* ---- Callout box ---- */
+.prose :global(.callout) {
+  padding: 1.5rem 1.75rem;
+  background: var(--white);
+  border: 1px solid var(--border-light);
+  border-left: 3px solid var(--teal);
+  border-radius: 0 12px 12px 0;
+  margin: 2rem 0;
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: var(--text-secondary);
+}
+
+/* ---- Divider ---- */
+.prose :global(hr) {
+  border: none;
+  border-top: 1px solid var(--border-light);
+  margin: 3rem 0;
+}
