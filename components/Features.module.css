@@ -1,0 +1,125 @@
+.features {
+  padding: 160px 48px;
+  background: var(--cream);
+  position: relative;
+}
+
+.featuresContainer {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.sectionHeader {
+  margin-bottom: 96px;
+}
+
+.sectionLabel {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.sectionLabelLine {
+  width: 32px;
+  height: 1px;
+  background: var(--gray-900);
+}
+
+.sectionLabelText {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--gray-600);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+
+.sectionTitle {
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-size: clamp(40px, 6vw, 72px);
+  color: var(--gray-900);
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  max-width: 800px;
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.featureCard {
+  background: var(--white);
+  border-radius: 24px;
+  padding: 48px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  border: 1px solid var(--gray-100);
+}
+
+.featureCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--teal) 0%, var(--blue) 100%);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.featureCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 32px 64px rgba(0, 0, 0, 0.08);
+}
+
+.featureCard:hover::before {
+  transform: scaleX(1);
+}
+
+.featureNumber {
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-size: 64px;
+  color: var(--gray-100);
+  line-height: 1;
+  margin-bottom: 32px;
+  transition: color 0.5s;
+}
+
+.featureCard:hover .featureNumber {
+  color: var(--teal);
+}
+
+.featureTitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--gray-900);
+  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+}
+
+.featureDescription {
+  font-size: 16px;
+  color: var(--gray-600);
+  line-height: 1.7;
+}
+
+@media (max-width: 1024px) {
+  .featuresGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .features {
+    padding: 100px 24px;
+  }
+
+  .featuresGrid {
+    grid-template-columns: 1fr;
+  }
+}
