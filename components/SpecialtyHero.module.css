@@ -1,0 +1,106 @@
+/* Specialty page hero — mirrors FeatureHero with specialty badge variant */
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 8rem 0 6rem;
+  background: var(--black);
+  overflow: hidden;
+}
+
+.heroBg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.heroOrbTeal {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  top: -300px;
+  right: 5%;
+  border-radius: 50%;
+  filter: blur(100px);
+  background: radial-gradient(circle, rgba(13, 148, 136, 0.25) 0%, transparent 70%);
+}
+
+.heroOrbBlue {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  bottom: -200px;
+  left: 10%;
+  border-radius: 50%;
+  filter: blur(100px);
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, transparent 70%);
+}
+
+.heroGrain {
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  opacity: 0.03;
+}
+
+.heroContent {
+  position: relative;
+  max-width: 800px;
+}
+
+/* Specialty badge — slightly warm teal tint to distinguish from feature badge */
+.heroBadge {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--teal-light);
+  background: rgba(13, 148, 136, 0.12);
+  border: 1px solid rgba(13, 148, 136, 0.3);
+  border-radius: 100px;
+}
+
+.heroTitle {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 400;
+  line-height: 1.1;
+  color: var(--white);
+  margin-bottom: 1.5rem;
+}
+
+.heroTitle em {
+  font-style: italic;
+  color: var(--teal-light);
+}
+
+.heroSubtitle {
+  font-size: clamp(1.125rem, 2vw, 1.25rem);
+  line-height: 1.6;
+  color: var(--text-inverse-secondary);
+  max-width: 640px;
+  margin-bottom: 2.5rem;
+}
+
+.heroActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.btnIcon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  transition: transform 0.15s;
+}
+
+.heroActions a:hover .btnIcon {
+  transform: translateX(3px);
+}
