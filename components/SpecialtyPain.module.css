@@ -1,0 +1,81 @@
+/* The Reality section — cream background, narrative + bullet points */
+
+.section {
+  padding: 6rem 0;
+  background: var(--cream);
+}
+
+.header {
+  max-width: 720px;
+  margin-bottom: 3rem;
+}
+
+.sectionLabel {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin-bottom: 1rem;
+}
+
+.sectionTitle {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 400;
+  line-height: 1.15;
+  color: var(--text-primary);
+  margin-bottom: 1.25rem;
+}
+
+.sectionIntro {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+/* Pain points list */
+.painList {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .painList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.painItem {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 1.5rem;
+  background: var(--white);
+  border: 1px solid var(--border-light);
+  border-radius: 12px;
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+
+.painItem:hover {
+  border-color: rgba(13, 148, 136, 0.2);
+  box-shadow: 0 6px 24px rgba(13, 148, 136, 0.06);
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--teal);
+  flex-shrink: 0;
+  margin-top: 0.45rem;
+}
+
+.painItem p {
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
