@@ -118,6 +118,7 @@ export default function NavInner() {
               ))}
 
               <Link href="/blog" className={styles.navLink}>Blog</Link>
+              <Link href="/resources" className={styles.navLink}>Resources</Link>
             </div>
 
             <div className={styles.navActions}>
@@ -178,6 +179,10 @@ export default function NavInner() {
 
           <Link href="/blog" className={styles.mobileGroupToggle} onClick={closeMobile}>
             Blog
+          </Link>
+
+          <Link href="/resources" className={styles.mobileGroupToggle} onClick={closeMobile}>
+            Resources
           </Link>
 
           <div className={styles.mobileActions}>
