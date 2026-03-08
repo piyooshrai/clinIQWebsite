@@ -135,6 +135,75 @@ export default function WhoIsNextPage() {
             afternoon flattens out. And the front desk &mdash; freed from serving as a human queue
             database &mdash; can actually focus on the patients standing in front of them.
           </p>
+
+          <h2>Provider-Level Impact</h2>
+          <p>
+            The &ldquo;who&rsquo;s next?&rdquo; problem has a provider-specific dimension that practice
+            managers often overlook. Providers whose support staff have poor queue visibility operate with
+            longer inter-visit gaps. When a provider completes a visit and has to wait 3 to 5 minutes while
+            an MA figures out who should be next, those minutes accumulate across the day. A provider who
+            sees 24 patients per day with an average of 4 minutes of inter-visit coordination delay has
+            lost 96 minutes &mdash; nearly 2 hours &mdash; to a process problem.
+          </p>
+          <p>
+            At a provider&rsquo;s billing rate, that two hours represents significant lost revenue. For a
+            primary care provider billing $200 to $300 per established patient visit, 96 minutes of
+            recoverable time is worth 2 to 3 additional visits per day &mdash; $400 to $900 in daily
+            revenue that evaporates into coordination overhead. When that provider&rsquo;s schedule could
+            accommodate 26 patients per day instead of 24, the annual revenue difference compounds to
+            $50,000 to $100,000 depending on specialty and payer mix.
+          </p>
+          <p>
+            Providers feel this time loss acutely, even if they can&rsquo;t quantify it. The experience
+            of standing in a hallway waiting for information is one of the most common sources of provider
+            dissatisfaction in outpatient settings. Solving the &ldquo;who&rsquo;s next?&rdquo; problem is
+            a provider retention intervention as much as it is a revenue recovery intervention.
+          </p>
+
+          <h2>The Training Trap</h2>
+          <p>
+            Practices that try to solve the &ldquo;who&rsquo;s next?&rdquo; problem through staff
+            training are solving the wrong problem. Training staff to communicate better, update the
+            whiteboard more consistently, or maintain a tighter paper log does not address the underlying
+            issue: information that is not in a shared, visible system will always be communicated
+            inconsistently, fall behind under load, and require extraction through human-to-human
+            conversations.
+          </p>
+          <p>
+            This does not mean training is irrelevant. It means training cannot substitute for system
+            design. A practice with a well-designed queue visibility system and minimal training will
+            outperform a practice with extensive training and no queue system, because the system
+            removes the possibility of the information gap rather than trying to train people to
+            overcome a structural design flaw.
+          </p>
+          <p>
+            The metric to watch is simple: after implementing a queue visibility system, track how many
+            times per hour staff walk to the front desk to ask about patient status. In clinics where the
+            system is properly implemented and staff trust it, that number should approach zero within
+            two weeks. If it does not, the issue is either that the system is not being kept current
+            (a workflow enforcement problem) or that the display is not accessible where staff are
+            standing when they need it (a hardware placement problem). Both are solvable.
+          </p>
+
+          <h2>What the Data Says About Recovered Time</h2>
+          <p>
+            Practices that implement real-time queue visibility and measure the impact consistently find
+            that the time savings exceed initial estimates. A common finding:
+          </p>
+          <ul>
+            <li>Front desk staff report 40 to 60 percent fewer status-check interruptions within the first month of implementation.</li>
+            <li>Medical assistants report being able to initiate the next rooming within 30 to 60 seconds of a room clearing, versus 3 to 5 minutes in a manual system.</li>
+            <li>Provider inter-visit gaps decrease by 2 to 4 minutes on average, translating directly into recovered appointment capacity.</li>
+            <li>End-of-day overtime decreases, because the schedule compression that accumulated from morning coordination delays stops building by early afternoon.</li>
+          </ul>
+          <p>
+            These improvements compound over the course of a week, month, and year. The practice that runs
+            tighter, faster, and with less coordination friction on every day is not just more efficient on
+            each individual day &mdash; it is building a structural capacity advantage that allows it to
+            serve more patients, generate more revenue, and employ staff whose days feel productive rather
+            than chaotic. The &ldquo;who&rsquo;s next?&rdquo; problem is a small problem with a large
+            shadow. Solving it is worth the implementation effort many times over.
+          </p>
         </BlogContent>
         <BlogCTA
           ctaLabel="See How clinIQ Solves This"

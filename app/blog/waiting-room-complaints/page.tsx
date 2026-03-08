@@ -147,6 +147,92 @@ export default function WaitingRoomComplaintsPage() {
             The bottom line: your waiting room problem is almost certainly not your wait times. It is
             your communication. Fix the information gap, and the complaints follow.
           </p>
+
+          <h2>The Fairness Perception Problem</h2>
+          <p>
+            One of the most potent sources of waiting-room frustration is perceived unfairness. A patient
+            who has been waiting 20 minutes watches another patient who arrived later get called back first.
+            From their perspective, this is injustice. They do not know that the later-arriving patient was
+            a scheduled follow-up while they are a walk-in, or that the later-arriving patient has a
+            condition that required faster attention, or that the sequencing reflects a clinical decision
+            made by the triage nurse. All they see is someone jumping the line.
+          </p>
+          <p>
+            The solution is not to change the clinical sequencing &mdash; which should always reflect
+            clinical priority and appointment type &mdash; but to communicate the logic. A simple message
+            on a lobby display or from the front desk coordinator: &ldquo;We see patients in order of
+            appointment type and clinical urgency. If you have questions about your place in the queue,
+            please let us know.&rdquo; This does not resolve the frustration entirely, but it removes
+            the ambiguity that lets the frustration become a grievance narrative. A patient who understands
+            the system may disagree with it but is far less likely to feel personally ignored or disrespected.
+          </p>
+          <p>
+            Transparency about sequencing is especially important in urgent care settings, where walk-in
+            patients of different acuity levels are mixing in the same waiting room. A triage system that
+            is visible and legible to patients &mdash; even at a high level, without disclosing other
+            patients&rsquo; health information &mdash; produces dramatically fewer &ldquo;I was here
+            before them&rdquo; complaints.
+          </p>
+
+          <h2>Scripts That Work and Scripts That Backfire</h2>
+          <p>
+            The words staff use in the waiting room have measurable effects on patient satisfaction.
+            Some common front desk responses actively worsen the situation:
+          </p>
+          <ul>
+            <li><strong>&ldquo;I don&rsquo;t know how long it will be.&rdquo;</strong> This is honest but unhelpful. It confirms the patient&rsquo;s worst fear &mdash; that nobody is managing their wait.</li>
+            <li><strong>&ldquo;It shouldn&rsquo;t be much longer.&rdquo;</strong> This creates an expectation that, when not met, compounds frustration. If &ldquo;much longer&rdquo; turns out to be 25 minutes, the patient now feels misled.</li>
+            <li><strong>&ldquo;We&rsquo;re very busy today.&rdquo;</strong> This shifts the framing to the clinic&rsquo;s problem, not the patient&rsquo;s experience. It can read as an excuse rather than an explanation.</li>
+          </ul>
+          <p>
+            Scripts that consistently produce better outcomes:
+          </p>
+          <ul>
+            <li><strong>&ldquo;You&rsquo;re third in the queue. Based on current pace, it should be about 15 to 20 minutes.&rdquo;</strong> Specific, honest, anchored to real information.</li>
+            <li><strong>&ldquo;We&rsquo;re running about 10 minutes behind schedule today. I wanted to let you know so you can plan.&rdquo;</strong> Proactive, respectful of the patient&rsquo;s time, treats them as an adult.</li>
+            <li><strong>&ldquo;If anything changes with your wait, I&rsquo;ll come find you.&rdquo;</strong> This creates a commitment that, when kept, dramatically improves trust. If it is not kept, it worsens the situation.</li>
+          </ul>
+
+          <h2>Proactive Communication vs. Reactive Apology</h2>
+          <p>
+            The practice of proactively informing patients about delays before they become visibly
+            frustrated has a significant effect on how those delays are received. A patient informed
+            at the 10-minute mark that there is a 20-minute backup ahead of them has 20 minutes to
+            adjust their expectations, make a phone call, or simply relax with that information.
+            A patient who waits 30 minutes with no communication and then receives an apology is in
+            a different emotional state entirely.
+          </p>
+          <p>
+            The goal is to reach patients with delay information before they reach a threshold of
+            visible frustration &mdash; which most practices observe begins around the 15 to 20
+            minute wait mark for scheduled appointments and around 10 minutes for urgent care walk-ins.
+            Proactive communication before those thresholds converts a potentially negative experience
+            into a neutral or even positive one. The patient who was told about the delay and managed
+            their time accordingly often reports higher satisfaction than a patient who waited the same
+            amount of time without warning.
+          </p>
+
+          <h2>The Online Review Connection</h2>
+          <p>
+            Waiting-room communication has a direct and measurable connection to online review outcomes.
+            Analysis of one-star reviews for medical practices consistently finds two themes in the top
+            three complaint categories: long wait times, and feeling ignored or disrespected by staff.
+            Both of these map to the information and communication gap, not to actual clinical quality.
+          </p>
+          <p>
+            A practice that addresses its communication failures in the waiting room will see its online
+            review profile improve within 60 to 90 days, even without any change in actual wait times.
+            The patients who previously left a one-star review because they felt ignored for 45 minutes
+            will no longer feel ignored &mdash; not because the wait is shorter, but because they were
+            treated as a person with information needs rather than a body occupying a seat.
+          </p>
+          <p>
+            Online reviews have outsized acquisition effects in healthcare. A practice moving from 3.8
+            to 4.3 stars on Google typically sees a measurable increase in new patient inquiries, because
+            patients selecting a new provider heavily weight review scores and recent review content.
+            The ROI on fixing your waiting-room communication is not just the patient satisfaction
+            improvement &mdash; it is the new patient acquisition that follows from a better public reputation.
+          </p>
         </BlogContent>
         <BlogCTA
           ctaLabel="Show Patients Where They Stand"

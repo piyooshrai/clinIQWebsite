@@ -164,6 +164,66 @@ export default function RtmPatientEnrollmentPage() {
             That conversation can be scripted, trained, measured, and improved &mdash; and the
             revenue impact of improving it compounds every month.
           </p>
+
+          <h2>Handling Specific Patient Objections</h2>
+          <p>
+            Preparing clinical staff with responses to specific objections is more effective than
+            general training on the importance of enrollment. Patients who decline RTM almost always
+            give one of a small number of reasons, and each has a specific effective response:
+          </p>
+          <ul>
+            <li><strong>&ldquo;I&rsquo;m not good with technology.&rdquo;</strong> Response: &ldquo;Let me show you right now &mdash; it&rsquo;s just this one button here. Most of our patients in their 70s and 80s use it every day.&rdquo; A live demonstration at the point of enrollment converts a large percentage of technology-anxious patients.</li>
+            <li><strong>&ldquo;Is there a cost to me?&rdquo;</strong> Response: &ldquo;This is covered by your insurance. There&rsquo;s no additional cost to you.&rdquo; Cost concern is the easiest objection to address when coverage is confirmed in advance. If coverage has not been confirmed, this becomes a harder conversation.</li>
+            <li><strong>&ldquo;What will you do with my data?&rdquo;</strong> Response: &ldquo;Only your care team sees it &mdash; it stays in your medical record, the same way your office visit notes do. It&rsquo;s never shared with insurance companies or anyone else without your consent.&rdquo; Addressing the surveillance anxiety directly and specifically is more effective than general reassurances about privacy.</li>
+            <li><strong>&ldquo;I don&rsquo;t have time for another thing to do every day.&rdquo;</strong> Response: &ldquo;It&rsquo;s less than a minute &mdash; usually 30 to 45 seconds. You can do it first thing in the morning while your coffee is brewing.&rdquo; Concretizing the time commitment with a relatable comparison defuses the objection more effectively than abstract assurances about brevity.</li>
+          </ul>
+
+          <h2>The Impact of Provider Belief on Enrollment</h2>
+          <p>
+            Provider belief in the value of RTM is the single strongest predictor of enrollment rate
+            at the provider level. Providers who genuinely find the monitoring data useful &mdash;
+            who look at their patients&rsquo; between-visit trends before appointments and use that
+            information to guide clinical decisions &mdash; present RTM to patients differently than
+            providers who view it primarily as a billing optimization.
+          </p>
+          <p>
+            Patients are sensitive to this difference. A provider who says &ldquo;I find this really
+            useful for understanding how you&rsquo;re doing between visits &mdash; I reviewed your
+            pain scores this morning before coming in, and I wanted to ask about this trend I noticed&rdquo;
+            is demonstrating the clinical value of RTM in real time. That demonstration is more
+            persuasive to a patient considering enrollment than any scripted enrollment conversation.
+          </p>
+          <p>
+            Practices that want to improve provider-level enrollment rates should focus first on
+            provider data engagement. When providers are actively using RTM data in patient care,
+            their enrollment conversations become authentic rather than administrative, and their
+            enrollment rates reflect that authenticity. The operational investment in making monitoring
+            data easily accessible and clinically meaningful at the point of care pays dividends in
+            enrollment rates that a scripting-only approach cannot achieve.
+          </p>
+
+          <h2>Re-Enrolling Patients Who Declined or Dropped Out</h2>
+          <p>
+            Not every patient who is offered RTM will enroll, and some who enroll will stop
+            participating before the practice formally discontinues their enrollment. Both groups
+            represent future enrollment opportunities if they are tracked and periodically re-approached.
+          </p>
+          <p>
+            A patient who declined RTM six months ago may have different circumstances today: a
+            new diagnosis, a recent procedure, a change in their condition that makes between-visit
+            monitoring more relevant to them. A patient who enrolled but stopped logging may be
+            ready to re-engage after a conversation about what they found burdensome in the prior
+            program. Re-enrollment conversations are often easier than initial enrollment conversations
+            because the patient already knows what RTM is and has some relationship with the concept.
+          </p>
+          <p>
+            Tracking declined and lapsed patients as a sub-segment of the eligible population &mdash;
+            with a quarterly review to identify candidates for re-approach &mdash; is a low-effort
+            enrollment expansion strategy that most practices with mature RTM programs could implement
+            with minimal additional workflow. The marginal revenue from converting even a small
+            percentage of this group annually compounds over time into a meaningful enrollment
+            base expansion.
+          </p>
         </BlogContent>
         <BlogCTA
           ctaLabel="Improve Your RTM Enrollment Rate"

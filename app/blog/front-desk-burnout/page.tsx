@@ -109,6 +109,93 @@ export default function FrontDeskBurnoutPage() {
           <p>
             The intervention isn&rsquo;t making the front desk stronger. It&rsquo;s making the role possible.
           </p>
+
+          <h2>What the Turnover Is Actually Costing You</h2>
+          <p>
+            Front desk turnover is one of the most underestimated costs in outpatient practice management.
+            The direct replacement costs &mdash; recruiting, background check, onboarding, training &mdash;
+            typically run $3,000 to $5,000 per position. But the indirect costs are larger: the productivity
+            gap during the vacancy, the knowledge loss when an experienced employee leaves, the increased
+            error rate from an undertrained replacement, and the effect on team morale when the cycle
+            repeats. A practice that turns over its front desk coordinator role twice per year is spending
+            $10,000 to $15,000 annually just on the replacement costs, not counting the operational impact.
+          </p>
+          <p>
+            More significant is the patient-facing cost. Front desk staff are the first and last person
+            most patients interact with at every visit. Experienced front desk coordinators know patient
+            names, remember preferences, handle difficult conversations gracefully, and project confidence
+            that calms anxious patients. When that person leaves and is replaced by someone in their second
+            week of training, patients notice. Phone calls are handled less smoothly. Check-in takes longer.
+            The warm, efficient feeling that retains patients gets replaced by a transactional, uncertain one.
+          </p>
+
+          <h2>The Role Design Problem</h2>
+          <p>
+            Most front desk coordinator job descriptions in outpatient medicine are a list of tasks that
+            would be unreasonable to ask of any single person. Answer incoming calls. Process check-ins.
+            Verify insurance. Collect copays. Coordinate with the clinical team. Manage the schedule.
+            Handle patient concerns. Maintain the waiting room environment. Be simultaneously available
+            to everyone at all times.
+          </p>
+          <p>
+            When the role is designed this way, the person hired into it is guaranteed to fail at some
+            part of it every day. And failing at part of a job, repeatedly, regardless of how hard you
+            work, is exhausting in a specific way that drives burnout faster than any amount of hard work
+            would. The issue is not the difficulty of the individual tasks &mdash; it is the structural
+            impossibility of doing all of them well simultaneously without systemic support.
+          </p>
+          <p>
+            The fix requires looking at each of the impossible tasks and asking whether it belongs on a
+            person or on a system. Some of the answer is obvious. Appointment reminders should not be a
+            phone call that a front desk coordinator makes individually &mdash; they should be automated
+            messages that go out without human involvement. Insurance eligibility checks should happen
+            automatically against the appointment schedule, not at the check-in window when the patient
+            is standing there. Status updates should propagate through a queue system, not through a
+            person serving as a human router.
+          </p>
+
+          <h2>What Changes When the System Works</h2>
+          <p>
+            When practices successfully offload the coordination overhead from the front desk role, the
+            change is measurable in ways that show up in retention data. Consider what the role looks
+            like when the tracking burden is removed:
+          </p>
+          <ul>
+            <li>The front desk coordinator is checking patients in and having a real interaction with each one, rather than processing a form while fielding three other requests.</li>
+            <li>When a provider asks about wait times, the answer is visible on a screen &mdash; the front desk coordinator does not have to search their memory or scan a paper list.</li>
+            <li>When a patient asks how long the wait will be, the front desk coordinator can give an honest estimate because the queue is visible, rather than giving a vague answer that will be wrong.</li>
+            <li>When a bottleneck forms in the clinical area, an alert surfaces it on someone&rsquo;s screen &mdash; the front desk coordinator did not cause the problem and is not blamed for not catching it.</li>
+          </ul>
+          <p>
+            This is not a utopian scenario. It is a description of what outpatient practices that have
+            implemented real-time queue visibility report as the day-to-day experience of their front desk
+            staff. The role does not become easy. It becomes possible &mdash; which is all it needs to be
+            to dramatically reduce the motivation to quit.
+          </p>
+
+          <h2>Reducing the Hostile Interaction Load</h2>
+          <p>
+            One of the most corrosive elements of the front desk job in high-volume practices is the
+            volume of hostile patient interactions. Patients who have been waiting 45 minutes with no
+            information about why are primed to be frustrated. Patients who receive a bill they didn&rsquo;t
+            expect because their insurance situation wasn&rsquo;t communicated clearly are angry. Patients
+            who feel ignored because nobody acknowledged them since they sat down are curt and difficult.
+          </p>
+          <p>
+            The front desk coordinator absorbs all of this, daily. And much of it originates not from
+            anything the front desk coordinator did wrong, but from upstream operational failures &mdash;
+            poor wait time communication, insurance verification errors caught at the worst possible moment,
+            queue management that left a patient invisible. When you fix the upstream operations, the hostile
+            interaction load at the front desk drops substantially. The front desk coordinator stops
+            apologizing for problems they did not cause, and starts having positive interactions with the
+            patients they came to work with.
+          </p>
+          <p>
+            Front desk turnover is structural, not personal. The same role design produces the same
+            outcomes regardless of who fills it. The practices that have solved their turnover problem
+            are the ones that changed the role, not the ones that kept looking for someone who could
+            somehow handle the impossible version of it.
+          </p>
         </BlogContent>
         <BlogCTA
           ctaLabel="Give your front desk their sanity back"

@@ -149,6 +149,94 @@ export default function ProcedureDayChaosPage() {
             lets you run them faster, with fewer errors, and with a staff that ends the day
             exhausted from the work rather than from the chaos of not knowing what was happening.
           </p>
+
+          <h2>Consent and Documentation on Procedure Days</h2>
+          <p>
+            Consent is one of the most time-consuming and frustrating pre-op bottlenecks on procedure days
+            when it is handled at the facility rather than in advance. A patient who arrives for a procedure
+            and has not yet reviewed or signed their consent forms requires a consent conversation that, by
+            regulation, cannot be rushed. In a high-volume procedure day, one un-consented patient can
+            delay the sequence by 15 to 30 minutes, depending on the complexity of the procedure and the
+            patient&rsquo;s questions.
+          </p>
+          <p>
+            Practices that shift consent collection to the pre-procedure visit or send consent documents
+            digitally for review and signature before procedure day eliminate this bottleneck entirely.
+            A patient who arrives having already reviewed the consent document, watched the associated
+            patient education video, and had their questions answered at the pre-procedure visit is ready
+            to sign immediately &mdash; the pre-op consent step takes two minutes instead of fifteen.
+            The clinical validity of the consent is, if anything, stronger when the patient has had time
+            to review it at their own pace rather than reading it for the first time under procedure day
+            time pressure.
+          </p>
+
+          <h2>Anesthesia and Sedation Coordination</h2>
+          <p>
+            For procedures involving sedation or anesthesia &mdash; whether moderate sedation administered
+            by the procedure team or anesthesia from a separate provider &mdash; procedure day coordination
+            has an additional dependency: the anesthesia team&rsquo;s readiness must align with the
+            pre-op readiness of each patient. When pre-op and anesthesia are not in real-time
+            communication, the procedure room can sit idle waiting for anesthesia to finish pre-op
+            assessment, or pre-op can have a patient ready well before anesthesia is available.
+          </p>
+          <p>
+            The coordination requirement is the same as for other procedural handoffs: shared, real-time
+            status. When the anesthesia provider can see that patient 4 is pre-op complete and awaiting
+            assessment, they can sequence their pre-op visits accordingly rather than working through a
+            paper list without knowing which patients are actually ready. When the procedure team can see
+            that anesthesia assessment is complete for patient 3, they can begin room preparation without
+            a phone call to confirm.
+          </p>
+
+          <h2>Managing Cancellations on Procedure Day</h2>
+          <p>
+            Same-day procedure cancellations &mdash; due to patient NPO violations, late-breaking
+            contraindications, or patient no-shows &mdash; create schedule gaps that procedure day
+            coordinators have to manage in real time. A cancelled procedure slot is a revenue loss
+            that may or may not be recoverable depending on whether another patient can be moved into
+            the slot on short notice.
+          </p>
+          <p>
+            Clinics that maintain an active procedure day waitlist &mdash; patients who have an
+            upcoming procedure scheduled and would be willing to come in sooner if a slot opens
+            &mdash; recover more of these cancellation losses than those that leave the gap unfilled.
+            The waitlist only works if it is actively maintained and if the outreach process when a
+            slot opens is fast enough to fill it before the procedure day has moved past the slot
+            time. Automated outreach to waitlisted patients within minutes of a cancellation, with a
+            self-scheduling link, is far more effective than manual calls down a list.
+          </p>
+          <p>
+            The broader principle for procedure day cancellation management is the same as for regular
+            schedule management: having good information quickly is what makes recovery possible.
+            A coordinator who knows a procedure slot has opened 30 minutes before that slot time can
+            potentially fill it. A coordinator who doesn&rsquo;t find out until 5 minutes before cannot.
+          </p>
+
+          <h2>Staff Experience on Procedure Days</h2>
+          <p>
+            The staff experience on procedure days is worth considering separately from the patient
+            experience, because the two are directly linked. Clinical staff who spend procedure days
+            in a state of chronic uncertainty &mdash; not knowing whether the next patient is ready,
+            not knowing what is happening in other areas, managing by phone call and physical walk-through
+            &mdash; end the day exhausted in a way that is specific to coordination stress rather than
+            clinical intensity.
+          </p>
+          <p>
+            Clinical work is demanding. Coordination overhead on top of clinical work is depleting.
+            Nurses and medical assistants who work procedure days in well-coordinated environments
+            report that the work is intense but manageable &mdash; they know what is happening, they
+            can anticipate what is coming, and they feel competent because they have the information
+            they need to do their jobs well. In poorly-coordinated environments, those same clinicians
+            report feeling constantly behind, frequently at fault for problems they could not have
+            anticipated, and progressively burned out across the procedure day.
+          </p>
+          <p>
+            Procedure day coordination improvements are simultaneously a patient experience improvement,
+            a revenue optimization, and a staff retention intervention. The investment in a shared
+            real-time status system for procedure days addresses all three simultaneously &mdash; which
+            makes it among the highest-leverage operational improvements available to practices that
+            run significant procedure volume.
+          </p>
         </BlogContent>
         <BlogCTA
           ctaLabel="Bring Order to Procedure Days"

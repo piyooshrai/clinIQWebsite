@@ -143,6 +143,86 @@ export default function StaffShortageWorkflowPage() {
             effect &mdash; more capacity, lower turnover, less recruiting cost &mdash; is how
             practices navigate the staffing crisis without adding headcount they cannot find.
           </p>
+
+          <h2>Triage and Task Prioritization Under Lean Staffing</h2>
+          <p>
+            When a practice is running lean &mdash; one fewer MA than budgeted, or a front desk coordinator
+            position unfilled for six weeks &mdash; the question is not just how to maintain throughput
+            but which tasks to prioritize when not everything can happen at the same time. Lean staffing
+            forces triage of administrative tasks the same way a busy ED triages patients.
+          </p>
+          <p>
+            The tasks that most directly affect patient experience and revenue should never be deferred:
+            patient check-in, rooming, and provider support. The tasks that can tolerate delay without
+            immediate consequence &mdash; some documentation, end-of-day reconciliation, non-urgent
+            callbacks &mdash; are candidates for compression or batching during lean periods. The problem
+            is that without visibility into what is actually happening in the clinic at any moment, the
+            person managing triage of tasks has no reliable information about where the pressure is.
+            They are making decisions based on perception and past experience rather than current data.
+          </p>
+          <p>
+            Real-time queue visibility solves this at the operational level: when the person managing
+            task priorities can see exactly where the patient flow bottleneck is right now, they can
+            direct available staff to that specific pressure point rather than distributing effort
+            across all tasks equally or routing by habit. One extra person rooming when rooming is the
+            bottleneck is worth far more than that same person doing documentation when rooming is
+            the bottleneck.
+          </p>
+
+          <h2>The Specific Tasks Worth Automating First</h2>
+          <p>
+            Not all automation investments have equal return in a lean staffing environment. The tasks
+            worth automating first are the ones that consume significant staff time, happen repeatedly
+            throughout the day, and do not require clinical judgment:
+          </p>
+          <ul>
+            <li><strong>Appointment reminders:</strong> Manual reminder calls at scale consume hours of staff time per day. Automated text and email reminders with confirmation links eliminate this almost entirely, with better engagement rates than phone calls.</li>
+            <li><strong>Insurance eligibility verification:</strong> Real-time batch eligibility verification run against the appointment schedule the evening before eliminates the need for manual verification checks at check-in for most patients.</li>
+            <li><strong>Patient intake data entry:</strong> Digital check-in that flows directly into the EHR removes the transcription step that adds 3 to 5 minutes per patient in paper-based workflows.</li>
+            <li><strong>Wait time communication:</strong> Lobby displays and automated wait time notifications remove the patient-driven interruptions to front desk staff that happen when patients have no information about their status.</li>
+            <li><strong>Recall and recall reminder workflows:</strong> Automated recall outreach for patients due for follow-up removes a task that most practices either assign to a staff member full-time or simply do not do consistently.</li>
+          </ul>
+          <p>
+            Each of these automations returns staff time that can be reinvested in direct patient care.
+            The aggregate effect of implementing three or four simultaneously can recover the equivalent
+            of 0.5 to 1.0 FTE in productive capacity &mdash; not through adding staff, but through
+            removing the overhead that was consuming the staff already present.
+          </p>
+
+          <h2>Cross-Training as a Staffing Resilience Strategy</h2>
+          <p>
+            In lean staffing environments, cross-training &mdash; ensuring that multiple staff members can
+            cover each critical function &mdash; becomes an operational necessity rather than a nice-to-have.
+            A practice where only one person knows how to process insurance exceptions, or where only the
+            senior MA knows how to handle a specific rooming workflow, is fragile. When that person is
+            absent, the function degrades or fails.
+          </p>
+          <p>
+            Cross-training is more achievable when the underlying workflows are documented and systematized
+            rather than residing in institutional memory. A practice with a clear, visible digital workflow
+            &mdash; where the queue system, the check-in process, and the room status tracking are all
+            system-driven rather than person-driven &mdash; can bring a cross-trained staff member up to
+            speed on a backup function in an hour rather than a week. The system is the documentation. The
+            person only needs to understand how to interact with it.
+          </p>
+
+          <h2>The ROI of Workflow Investment in a Constrained Market</h2>
+          <p>
+            Investing in workflow optimization when staffing budgets are constrained can feel counterintuitive:
+            it requires spending money at a time when the instinct is to cut costs. But the math typically
+            supports it strongly. A workflow investment that returns 0.5 FTE in capacity has a payback
+            period measured in weeks, not years, because the alternative &mdash; either leaving the position
+            unfilled or paying agency staffing rates to cover it &mdash; costs significantly more per month
+            than the workflow tool.
+          </p>
+          <p>
+            Agency staffing for clinical roles typically runs 40 to 70 percent higher than direct employment
+            cost. A practice paying $3,500 per week in agency fees to cover a medical assistant vacancy is
+            spending $14,000 per month on a gap that a workflow optimization investment of $500 to $2,000
+            per month might substantially close. The practices that survive healthcare staffing shortages
+            intact are the ones that make this math explicitly and invest in workflow before the capacity
+            crisis becomes a care quality crisis.
+          </p>
         </BlogContent>
         <BlogCTA
           ctaLabel="Multiply Your Team&rsquo;s Capacity"

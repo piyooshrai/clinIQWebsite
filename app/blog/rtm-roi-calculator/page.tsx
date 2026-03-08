@@ -57,6 +57,77 @@ export default function RtmRoiCalculatorPage() {
           <p>Practices that try to launch RTM for their entire eligible panel simultaneously typically underperform compared to practices that phase the rollout. A phased approach starts with 20 to 30 patients &mdash; ideally the most engaged and tech-comfortable subset of the eligible panel &mdash; and uses the first 60 days to validate the workflow, identify documentation gaps, and confirm billing processes are functioning correctly. After validating with the initial cohort, enrollment expands in waves of 20 to 30 patients per month until the target enrollment rate is reached.</p>
           <p>The phased approach produces better outcomes because the practice enters the high-volume enrollment phase with a workflow that has already been tested and refined. A practice that enrolls 80 patients in month one with an untested workflow spends months one through three fixing process problems while those patients generate inconsistent data and documentation. A practice that enrolls 25 patients and refines the workflow before scaling has a consistent, auditable program by the time it reaches scale.</p>
           <p>Run your own numbers. The inputs are your active panel size, your eligibility estimate, a realistic enrollment rate, and the reimbursement rate for your payer mix. Whatever number you arrive at, it represents revenue your practice is currently generating zero dollars from. The investment to capture it is a software subscription and a part-time coordinator role. That math works at almost any practice size with a qualifying patient population.</p>
+
+          <h2>Sensitivity Analysis: What Drives the Number Up or Down</h2>
+          <p>
+            The per-patient monthly reimbursement rate is relatively stable and outside the practice&rsquo;s
+            control &mdash; it is set by Medicare and commercial payer contracts. The two variables that
+            most dramatically affect total RTM revenue and are fully within the practice&rsquo;s control
+            are enrollment rate and 16-day compliance rate. Understanding how these variables interact
+            illuminates where to focus operational attention.
+          </p>
+          <p>
+            Consider a practice with 200 eligible patients and a $130 per patient per month blended
+            reimbursement rate. At 30 percent enrollment and 70 percent monthly compliance, the
+            practice has 60 enrolled patients, of whom 42 are generating billable revenue in any
+            given month: $5,460 per month, $65,520 per year. At 50 percent enrollment and 85 percent
+            compliance, the practice has 100 enrolled patients, of whom 85 are billing monthly:
+            $11,050 per month, $132,600 per year. The difference between 30 percent enrollment and
+            50 percent enrollment, combined with improved compliance, is $67,000 per year in additional
+            annual revenue &mdash; from the same patient population, with the same reimbursement rates.
+          </p>
+          <p>
+            This sensitivity analysis makes the operational investment priorities clear. Every percentage
+            point of enrollment improvement at this scale adds approximately $2,600 in annual revenue.
+            Every percentage point of compliance improvement adds approximately $1,300 in annual revenue.
+            The enrollment improvement is twice as valuable as the compliance improvement, which should
+            guide where the practice invests its operational attention first.
+          </p>
+
+          <h2>The Startup Period vs. Steady State</h2>
+          <p>
+            RTM revenue in the first three months of a program launch is not representative of steady-state
+            revenue. The startup period involves building the enrolled panel from zero, which means monthly
+            revenue grows as enrollment grows rather than arriving at full run-rate immediately. Practices
+            that evaluate RTM ROI at the end of month two are typically disappointed because they are
+            measuring the startup ramp, not the program at scale.
+          </p>
+          <p>
+            A more useful evaluation framework looks at months six through twelve, when enrollment should
+            be approaching the target rate and monthly billing has reached a consistent pattern. The
+            revenue profile of a well-implemented RTM program looks like a ramp followed by a plateau:
+            months one through four are the ramp, month five is approximately half-run-rate, and months
+            six through twelve represent the program operating at or near its designed capacity.
+          </p>
+          <p>
+            Practices that set their ROI expectations based on the full-program steady state rather than
+            the early-ramp period are less likely to abandon RTM programs before they reach scale. A
+            program that is generating $2,500 per month at month two and $9,000 per month at month eight
+            is not underperforming at month two &mdash; it is on the expected trajectory. The practices
+            that cancel RTM programs in month three because &ldquo;the revenue isn&rsquo;t there&rdquo;
+            are abandoning programs that would have paid back the investment many times over if allowed
+            to reach scale.
+          </p>
+
+          <h2>How to Present RTM ROI to Practice Leadership</h2>
+          <p>
+            Practice managers and operations directors proposing RTM programs to physicians, medical
+            directors, or practice administrators need a clear financial presentation that answers
+            the questions leadership actually asks. The most common questions:
+          </p>
+          <ul>
+            <li><strong>&ldquo;What does it cost to run this program?&rdquo;</strong> Platform cost plus staffing cost. For most practices, the monthly operating cost of an RTM program at scale runs $1,500 to $4,000 &mdash; platform subscription plus 10 to 20 hours of coordinator time per month.</li>
+            <li><strong>&ldquo;What is the payback period?&rdquo;</strong> For a practice with 60 enrolled patients at $130/month average, revenue of $7,800/month against operating cost of $2,500/month produces net revenue of $5,300/month. Initial setup investment of $3,000 to $5,000 is recovered in less than one month of operation.</li>
+            <li><strong>&ldquo;What is the compliance and audit risk?&rdquo;</strong> With proper documentation workflows, RTM is a low-audit-risk billing category. The risk is concentrated in programs that bill without confirming eligibility thresholds &mdash; a workflow problem, not an inherent program risk.</li>
+            <li><strong>&ldquo;What clinical benefit are we providing?&rdquo;</strong> Between-visit monitoring that catches deterioration earlier, improves treatment adherence, and gives providers better information at each visit. RTM programs in physical therapy, pain management, and behavioral health have published outcome data showing measurable improvements in patient-reported outcomes compared to visit-only care.</li>
+          </ul>
+          <p>
+            The financial case for RTM is straightforward when presented correctly. The challenge in
+            most practices is not convincing leadership that RTM is financially viable &mdash; it is
+            ensuring that the program is implemented well enough to actually hit the revenue projections.
+            That implementation quality is the variable that determines whether RTM becomes a
+            significant revenue stream or a modest one.
+          </p>
         </BlogContent>
         <BlogCTA
           ctaLabel="Calculate Your RTM Revenue Potential"

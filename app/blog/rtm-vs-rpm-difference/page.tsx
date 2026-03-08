@@ -169,6 +169,75 @@ export default function RtmVsRpmDifferencePage() {
             are you monitoring, and why? Physiologic data points to RPM. Therapeutic data points
             to RTM.
           </p>
+
+          <h2>Can a Practice Bill Both RTM and RPM?</h2>
+          <p>
+            Yes, with important caveats. A practice can legitimately bill both RTM and RPM for the
+            same patient if the two monitoring programs address distinct clinical needs with distinct
+            monitoring data. A patient with hypertension and a chronic musculoskeletal condition might
+            have their blood pressure monitored under RPM (99454) while their physical therapy
+            adherence and pain response are monitored under RTM (98977). The two programs are
+            clinically and documentationally separate.
+          </p>
+          <p>
+            What practices cannot do is bill RPM and RTM for overlapping clinical services for the
+            same patient in the same period. If a practice is providing general health monitoring
+            that could be characterized as either physiologic or therapeutic and bills both code sets
+            for the same monitoring activity, that is a billing error with audit risk. The programs
+            must address different clinical conditions or different monitoring objectives with
+            separately documented consent, monitoring plans, and review records.
+          </p>
+          <p>
+            In practice, dual RTM/RPM billing is most common in primary care and internal medicine
+            practices with broad patient panels. These practices may have patients who are both
+            managing chronic conditions requiring physiologic monitoring (hypertension, diabetes)
+            and recovering from or managing conditions requiring therapeutic monitoring
+            (post-surgical rehabilitation, chronic musculoskeletal pain). For each patient, the
+            appropriate program depends on what is actually being monitored and why.
+          </p>
+
+          <h2>Reimbursement Comparison</h2>
+          <p>
+            RTM and RPM reimbursement rates are broadly comparable under Medicare, with some variation
+            by code. For 2026, the comparable code pairs are:
+          </p>
+          <ul>
+            <li>Setup: RTM 98975 (~$19) vs. RPM 99453 (~$18 to $20)</li>
+            <li>Device supply: RTM 98977 (~$48 to $55/month) vs. RPM 99454 (~$55 to $65/month)</li>
+            <li>Treatment management, first 20 min: RTM 98980 (~$48 to $62/month) vs. RPM 99457 (~$50 to $65/month)</li>
+            <li>Treatment management, additional 20 min: RTM 98981 (~$38 to $45) vs. RPM 99458 (~$38 to $45)</li>
+          </ul>
+          <p>
+            The monthly combined revenue per patient is comparable between the two programs at
+            roughly $100 to $130 per patient per month for the baseline two-code combination.
+            The difference in commercial payer coverage &mdash; where RPM coverage is more
+            consistently established than RTM coverage for some payer-specialty combinations
+            &mdash; can produce different effective blended rates depending on a practice&rsquo;s
+            payer mix. Practices that have a high proportion of commercial patients should verify
+            RTM coverage with each commercial payer before comparing the revenue opportunity.
+          </p>
+
+          <h2>The Supervision Requirement Difference</h2>
+          <p>
+            One practically significant difference between RTM and RPM is the supervision model
+            for clinical staff time. For RPM (99457, 99458), the service must be provided by
+            the billing practitioner or by clinical staff under direct or general physician supervision,
+            and the physician must personally interact with the patient during the billing month.
+            For RTM (98980, 98981), there is no requirement that the billing practitioner personally
+            interact with the patient in every billing month &mdash; clinical staff can perform
+            monitoring and management services under general supervision without requiring a monthly
+            physician-patient interaction.
+          </p>
+          <p>
+            This distinction matters significantly for high-volume RTM programs where the monitoring
+            work is largely performed by clinical staff. Under RTM, a medical assistant or care
+            coordinator can review monitoring data, document the review, interact with the patient
+            as needed, and that time counts toward the 98980 threshold under general physician
+            supervision &mdash; without requiring the physician to be present for each interaction.
+            This is more operationally flexible than the RPM supervision model and is one reason
+            that RTM is better suited to large panel monitoring programs in therapy and pain
+            management settings.
+          </p>
         </BlogContent>
         <BlogCTA
           ctaLabel="Start Your RTM Program"

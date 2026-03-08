@@ -140,6 +140,102 @@ export default function CheckInBottleneckPage() {
             just an operational improvement &mdash; it is a statement to patients about the kind of
             practice you run. One that respects their time from the moment they walk in the door.
           </p>
+
+          <h2>The Hidden Cost of Slow Check-In</h2>
+          <p>
+            The downstream cost of a slow check-in process extends well beyond the check-in desk.
+            When patients are still entering the queue 12 minutes after their scheduled appointment
+            time, the entire morning schedule shifts. The provider who expected a patient to be
+            roomed by 9:05 is now waiting until 9:18. The 9:15 appointment patient arrives and
+            joins a queue that is already behind. By 10:00 AM, a clinic with a 20-patient morning
+            block may be running 30 to 40 minutes behind &mdash; entirely because of what happened
+            in the first 30 minutes at the check-in window.
+          </p>
+          <p>
+            The revenue implications are real. A provider who loses two billable appointment slots
+            per morning due to schedule compression caused by check-in delays loses approximately
+            $200 to $600 per day in revenue depending on specialty and payer mix. Across 250 working
+            days per year, that is $50,000 to $150,000 in lost annual revenue from a problem that
+            is entirely solvable. The cost of implementing digital check-in is typically recovered
+            in the first month of operation through recovered appointment throughput alone.
+          </p>
+
+          <h2>What Good Check-In Looks Like at Scale</h2>
+          <p>
+            High-volume practices &mdash; those seeing 60 or more patients per day &mdash; have
+            the most to gain from check-in optimization because the throughput pressure is highest.
+            A check-in process that takes 8 minutes per patient is manageable when you see 15
+            patients. When you see 60, that same process creates structural congestion that the
+            rest of the day has to absorb.
+          </p>
+          <p>
+            In high-volume practices that have converted to digital check-in, the following
+            patterns are consistent:
+          </p>
+          <ul>
+            <li>Average check-in window interaction drops from 6 to 10 minutes to 60 to 90 seconds for patients who completed pre-visit check-in from home.</li>
+            <li>New patient paperwork completion time drops by 5 to 7 minutes because fields are pre-populated from prior records rather than re-entered from a paper form.</li>
+            <li>Insurance verification errors are caught before the patient arrives rather than at the counter, eliminating the awkward mid-check-in coverage conversation.</li>
+            <li>Queue entry happens at check-in completion, not when a staff member manually processes the paper form 5 to 10 minutes later.</li>
+          </ul>
+          <p>
+            These are not marginal improvements. For a practice seeing 60 patients per day, reducing
+            the average check-in interaction from 7 minutes to 90 seconds recovers over 5 hours of
+            combined staff and patient time daily. That recovered time goes directly back into clinical
+            capacity.
+          </p>
+
+          <h2>Addressing the No-Show Gap</h2>
+          <p>
+            Pre-visit digital check-in has an underappreciated effect on no-show rates. When a patient
+            completes their check-in forms 24 to 48 hours before their appointment, they are actively
+            re-engaging with the appointment. The act of completing the pre-visit workflow reinforces
+            their commitment to the visit. Practices that implement pre-visit digital check-in typically
+            report a 5 to 10 percent reduction in no-show rates &mdash; not because the check-in
+            process is more convenient, but because it creates an additional touchpoint that reconnects
+            the patient to the appointment before the day arrives.
+          </p>
+          <p>
+            For practices running 15 to 20 percent no-show rates, a 5 percent improvement translates
+            directly to recovered revenue. At an average visit value of $150 to $250, reducing no-shows
+            by even one or two per day adds $30,000 to $50,000 per year in recovered revenue. The
+            check-in workflow improvement and the no-show reduction come from the same investment.
+          </p>
+
+          <h2>What to Look for in a Digital Check-In Implementation</h2>
+          <p>
+            Not all digital check-in systems are created equal. The implementation details determine
+            whether the system achieves its potential or creates a new set of frustrations:
+          </p>
+          <ul>
+            <li><strong>Mobile-first design:</strong> If patients cannot complete check-in on a smartphone without zooming and scrolling, most will not complete it pre-visit. Over 80 percent of patients who receive pre-visit check-in links open them on mobile devices.</li>
+            <li><strong>EHR integration:</strong> Data entered in the digital check-in system should flow directly into the EHR without a staff transcription step. Systems that require manual data transfer eliminate the efficiency gain entirely.</li>
+            <li><strong>Automatic queue entry:</strong> The system should add the patient to the live queue the moment they confirm arrival &mdash; not when a staff member processes their check-in. Queue entry at the point of patient confirmation is what enables sub-90-second physical check-in.</li>
+            <li><strong>Fallback flow for non-pre-checkers:</strong> A meaningful percentage of patients will always arrive without completing pre-visit check-in. The kiosk or tablet flow for in-clinic check-in should be short enough to complete in 3 to 4 minutes, not a full paper form translated to a screen.</li>
+            <li><strong>Insurance verification integration:</strong> Real-time eligibility verification that runs at the moment of check-in confirmation eliminates the manual verification step and flags coverage issues before the patient reaches the counter.</li>
+          </ul>
+
+          <h2>The Patient Experience Argument</h2>
+          <p>
+            Beyond the operational efficiency case, there is a patient experience case for digital
+            check-in that matters for patient retention and referrals. Patients increasingly benchmark
+            their healthcare experience against their consumer experience. A check-in process that
+            requires them to fill out the same paper form they have filled out at every prior visit,
+            wait for a staff member to process it, and then sit in a waiting room with no information
+            about their wait is a poor experience by 2026 consumer standards.
+          </p>
+          <p>
+            Practices that have moved to digital check-in consistently report that patients mention
+            the check-in experience positively in satisfaction surveys &mdash; not because the
+            technology is impressive, but because it communicates that the practice respects their
+            time. In a competitive patient acquisition environment where patients choose providers
+            partly on the basis of experience quality, this is not a trivial advantage.
+          </p>
+          <p>
+            The check-in process is the first operational touchpoint of every visit. It sets the tone
+            for everything that follows. Practices that optimize it gain not just efficiency and revenue
+            recovery, but a measurably better patient relationship from the first moment of the encounter.
+          </p>
         </BlogContent>
         <BlogCTA
           ctaLabel="Streamline Your Check-In Process"

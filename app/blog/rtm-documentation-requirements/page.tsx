@@ -171,6 +171,77 @@ export default function RtmDocumentationRequirementsPage() {
             &mdash; templates, workflow automation, time tracking, audit trail retention &mdash;
             is small relative to the claims it protects.
           </p>
+
+          <h2>The Audit Process for RTM Claims</h2>
+          <p>
+            Understanding how RTM claims are audited helps practices build documentation that survives
+            scrutiny. RTM audits can be triggered by several mechanisms: statistical outlier analysis
+            (a practice billing RTM at significantly higher rates than peers), targeted review based
+            on whistleblower complaints, routine post-payment review by Medicare administrative
+            contractors, or as part of a broader billing audit triggered by another compliance issue.
+          </p>
+          <p>
+            In a targeted RTM audit, the reviewer will typically request medical records for a random
+            or statistical sample of billed claims. They will look for: the signed patient consent form
+            predating the first claim date, the monitoring plan, evidence of device supply, the data
+            transmission record showing 16-day compliance, the clinical review notes for each billing
+            period, and the time documentation supporting each 98980 or 98981 claim. The absence of
+            any of these elements for a given claim is grounds for recoupment of that claim, plus
+            potential extrapolation to the full audit period if the deficiency is systematic.
+          </p>
+          <p>
+            The extrapolation risk is the most financially significant aspect of RTM audits. If an
+            auditor reviews a sample of 30 claims and finds that 40 percent lack adequate 16-day
+            documentation, they may apply that error rate to the full population of RTM claims
+            submitted in the audit period &mdash; which could represent thousands of dollars in
+            recoupment on claims the practice never even reviewed. Building 16-day documentation
+            into the standard billing workflow for every claim, every month, is the protection
+            against this extrapolation risk.
+          </p>
+
+          <h2>Same-Day Service Documentation Considerations</h2>
+          <p>
+            RTM services can be billed in the same month as in-office evaluation and management visits,
+            but the documentation must clearly delineate what occurred in the office visit versus what
+            occurred as part of RTM services. A payer reviewing a claim may scrutinize months where
+            RTM management time is billed alongside E&amp;M visits to confirm that the RTM documentation
+            reflects work that is separate from and additive to the in-person visit.
+          </p>
+          <p>
+            The clearest documentation approach is to maintain separate time logs for in-person visit
+            activity and RTM activity. If a provider spends 15 minutes during an office visit reviewing
+            a patient&rsquo;s RTM data and discussing it with the patient, that time contributes to
+            the E&amp;M visit complexity &mdash; it does not also count toward the RTM 20-minute
+            threshold. The RTM time must be documented separately, reflecting work that occurred
+            outside of in-person appointments: asynchronous data review, clinical decision-making
+            based on monitoring data, and patient outreach initiated as a result of reviewing
+            monitoring data between visits.
+          </p>
+
+          <h2>Staff Documentation Responsibilities</h2>
+          <p>
+            In most RTM programs, clinical staff rather than physicians perform the majority of
+            the monitoring data review and patient engagement work that supports 98980 billing.
+            The documentation for this staff-performed work has the same evidentiary requirements
+            as physician documentation, but the format can be adapted to the clinical staff role.
+          </p>
+          <p>
+            A medical assistant or clinical coordinator performing RTM data review should document:
+            their name and role, the date and time of the review, the specific data reviewed, a
+            clinical observation (what did the data show?), and any action taken &mdash; including
+            &ldquo;no action indicated, data within expected range.&rdquo; This documentation should
+            be in the medical record, not in a separate administrative system that is not retained
+            as part of the patient file.
+          </p>
+          <p>
+            When a physician or NP reviews and signs off on monitoring data &mdash; as required by
+            the supervision model for 98980 billing &mdash; that review should also be documented.
+            The documentation does not need to be extensive: a brief attestation that the physician
+            reviewed the monitoring summary and the staff notes, with any clinical additions or
+            changes to the management plan, satisfies the supervision documentation requirement.
+            Practices that document staff review but not physician review are documenting only half
+            of the required supervision chain.
+          </p>
         </BlogContent>
         <BlogCTA
           ctaLabel="Build Audit-Safe RTM Documentation"
