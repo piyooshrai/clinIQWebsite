@@ -1,0 +1,150 @@
+.section {
+  padding: 6rem 0;
+  background: var(--white);
+}
+
+.header {
+  margin-bottom: 3rem;
+}
+
+.sectionLabel {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin-bottom: 0.875rem;
+}
+
+.sectionTitle {
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+  font-weight: 400;
+  line-height: 1.15;
+  color: var(--text-primary);
+}
+
+/* Scrollable wrapper for mobile */
+.tableWrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid var(--border-light);
+  border-radius: 16px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+/* Header */
+.theadRow {
+  border-bottom: 1px solid var(--border-light);
+}
+
+.thFeature {
+  padding: 1.25rem 1.5rem;
+  text-align: left;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+  background: var(--cream);
+  width: 30%;
+}
+
+.thCliniq {
+  padding: 1.25rem 1.5rem;
+  text-align: left;
+  background: rgba(13, 148, 136, 0.06);
+  border-left: 2px solid rgba(13, 148, 136, 0.3);
+  width: 35%;
+}
+
+.cliniqLabel {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--teal);
+  letter-spacing: 0;
+}
+
+.thCompetitor {
+  padding: 1.25rem 1.5rem;
+  text-align: left;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--cream);
+  width: 35%;
+}
+
+/* Rows */
+.rowEven td {
+  background: var(--white);
+}
+
+.rowOdd td {
+  background: var(--cream);
+}
+
+.table tbody tr {
+  border-top: 1px solid var(--border-light);
+}
+
+.tdFeature {
+  padding: 1.125rem 1.5rem;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  vertical-align: top;
+}
+
+.tdCliniq {
+  padding: 1.125rem 1.5rem;
+  vertical-align: top;
+  background: rgba(13, 148, 136, 0.04) !important;
+  border-left: 2px solid rgba(13, 148, 136, 0.2);
+}
+
+.tdCompetitor {
+  padding: 1.125rem 1.5rem;
+  vertical-align: top;
+}
+
+.cellInner {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+  font-size: 0.9375rem;
+  line-height: 1.55;
+}
+
+.tdCliniq .cellInner {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.tdCompetitor .cellInner {
+  color: var(--text-secondary);
+}
+
+/* Icons */
+.iconCheck {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  margin-top: 0.2rem;
+  color: var(--teal);
+}
+
+.iconX {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  margin-top: 0.2rem;
+  color: var(--text-tertiary);
+}
