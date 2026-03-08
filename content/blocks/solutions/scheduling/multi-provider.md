@@ -1,0 +1,1 @@
+Schedules that work across providers, locations, and visit types. Dr. Smith does procedures Tuesdays, clinic Thursdays. Different templates, same system. No more schedule conflicts. No more manual coordination.

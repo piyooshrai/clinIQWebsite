@@ -1,0 +1,35 @@
+.breadcrumbBar {
+  background: var(--cream);
+  border-bottom: 1px solid var(--border-light);
+  padding: 12px 0;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  flex-wrap: wrap;
+}
+
+.breadcrumb a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.breadcrumb a:hover {
+  color: var(--teal);
+}
+
+.breadcrumb span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.breadcrumb [aria-current='page'] {
+  color: var(--text-primary);
+  font-weight: 500;
+}

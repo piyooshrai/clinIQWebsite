@@ -1,0 +1,1 @@
+"Chemo days are hard enough for our patients. Every minute of unnecessary waiting is a minute we could have given back. clinIQ helped us give back time." — Angela Richardson, Nurse Coordinator, Oncology

@@ -1,0 +1,1 @@
+Real-time patient tracking changes everything. See every patient's current stage — intake, waiting, with provider, observation. Color-coded status at a glance. Bottleneck alerts fire before the waiting room explodes. Your front desk stops fielding "how much longer?" because patients already know.

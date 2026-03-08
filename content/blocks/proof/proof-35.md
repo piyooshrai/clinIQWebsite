@@ -1,0 +1,1 @@
+"We run stress tests, device checks, and clinic all on the same day. clinIQ is the first system that handles all three without us managing three spreadsheets." — Patricia Nguyen, Practice Administrator, Cardiology

@@ -1,0 +1,1 @@
+QR code check-in from the parking lot. Patients scan, confirm, check in from their phone. They're in the queue before they walk through the door. No congregating at the front desk. No shared touchscreens.
