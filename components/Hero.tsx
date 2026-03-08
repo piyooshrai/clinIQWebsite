@@ -1,39 +1,48 @@
-import Link from 'next/link';
-import styles from './Hero.module.css';
+'use client'
+
+import Link from 'next/link'
+import styles from './Hero.module.css'
 
 export default function Hero() {
   return (
     <section className={styles.hero}>
-      {/* Animated gradient orbs */}
-      <div className={`${styles.heroOrb} ${styles.heroOrb1}`} />
-      <div className={`${styles.heroOrb} ${styles.heroOrb2}`} />
-      <div className={`${styles.heroOrb} ${styles.heroOrb3}`} />
+      {/* Gradient orbs */}
+      <div className={`${styles.orb} ${styles.orb1}`} aria-hidden="true" />
+      <div className={`${styles.orb} ${styles.orb2}`} aria-hidden="true" />
+      <div className={`${styles.orb} ${styles.orb3}`} aria-hidden="true" />
 
-      <div className={styles.heroContainer}>
-        <div className={styles.heroLabel}>
-          <span className={styles.heroLabelLine} />
-          <span className={styles.heroLabelText}>Clinic Operations Platform</span>
+      <div className={styles.container}>
+        {/* Label */}
+        <div className={styles.label}>
+          <span className={styles.labelLine} />
+          <span className={styles.labelText}>Clinic Operations Platform</span>
         </div>
 
-        <h1 className={styles.heroTitle}>
-          <span className={styles.heroTitleLine}>
-            <span className={styles.heroTitleWord}>Patient flow</span>
+        {/* Title */}
+        <h1 className={styles.title}>
+          <span className={styles.titleLine}>
+            <span className={styles.titleWord}>Patient flow</span>
           </span>
-          <span className={styles.heroTitleLine}>
-            <span className={styles.heroTitleWord}>
-              that <em>actually</em>
+          <span className={styles.titleLine}>
+            <span className={styles.titleWord}>
+              that <em className={styles.titleEm}>actually</em>
             </span>
           </span>
-          <span className={styles.heroTitleLine}>
-            <span className={styles.heroTitleWord}>works.</span>
+          <span className={styles.titleLine}>
+            <span className={styles.titleWord}>works.</span>
           </span>
         </h1>
 
-        <p className={styles.heroDescription}>
+        <p className={styles.description}>
           From check-in to checkout. Real-time visibility. Zero chaos.
           Built for clinics that refuse to settle for broken workflows.
         </p>
 
+        <div className={styles.ctaRow}>
+          <Link href="/demo" className={`${styles.btnBase} ${styles.btnPrimary}`}>
+            Request Demo
+          </Link>
+          <Link href="/features" className={`${styles.btnBase} ${styles.btnSecondary}`}>
         <div className={styles.heroCta}>
           <Link href="/demo" className="btn btn-hero btn-hero-primary">
             Request Demo
@@ -45,6 +54,17 @@ export default function Hero() {
       </div>
 
       {/* Dashboard visual */}
+      <div className={styles.visual} aria-hidden="true">
+        <div className={styles.dashboard}>
+          <div className={styles.dashHeader}>
+            <span className={`${styles.dot} ${styles.dotRed}`} />
+            <span className={`${styles.dot} ${styles.dotYellow}`} />
+            <span className={`${styles.dot} ${styles.dotGreen}`} />
+          </div>
+
+          <div className={styles.dashStats}>
+            <div className={styles.statCard}>
+              <div className={`${styles.statValue} ${styles.teal}`}>12</div>
       <div className={styles.heroVisual}>
         <div className={styles.heroDashboard}>
           <div className={styles.dashboardHeader}>
@@ -63,6 +83,7 @@ export default function Hero() {
               <div className={styles.statLabel}>Waiting</div>
             </div>
             <div className={styles.statCard}>
+              <div className={`${styles.statValue} ${styles.blue}`}>8</div>
               <div className={`${styles.statValue} ${styles.statValueBlue}`}>8</div>
               <div className={styles.statLabel}>Completed</div>
             </div>
@@ -72,6 +93,11 @@ export default function Hero() {
             </div>
           </div>
 
+          <div className={styles.queue}>
+            <div className={styles.queueHeader}>
+              <span className={styles.queueTitle}>Patient Queue</span>
+              <span className={styles.queueLive}>
+                <span className={styles.liveDot} />
           <div className={styles.dashboardQueue}>
             <div className={styles.queueHeader}>
               <span className={styles.queueTitle}>Patient Queue</span>
@@ -84,39 +110,39 @@ export default function Hero() {
             <div className={styles.queueItems}>
               <div className={styles.queueItem}>
                 <div className={styles.queuePatient}>
-                  <div className={styles.queueAvatar}>ET</div>
+                  <div className={styles.avatar}>ET</div>
                   <div>
-                    <div className={styles.queueName}>E. Til</div>
-                    <div className={styles.queueDept}>General</div>
+                    <div className={styles.patientName}>E. Til</div>
+                    <div className={styles.patientDept}>General</div>
                   </div>
                 </div>
-                <span className={`${styles.queueStatus} ${styles.queueStatusProvider}`}>
+                <span className={`${styles.statusBadge} ${styles.statusProvider}`}>
                   With Provider
                 </span>
               </div>
 
               <div className={styles.queueItem}>
                 <div className={styles.queuePatient}>
-                  <div className={styles.queueAvatar}>KJ</div>
+                  <div className={styles.avatar}>KJ</div>
                   <div>
-                    <div className={styles.queueName}>K. Joh</div>
-                    <div className={styles.queueDept}>Addiction</div>
+                    <div className={styles.patientName}>K. Joh</div>
+                    <div className={styles.patientDept}>Addiction</div>
                   </div>
                 </div>
-                <span className={`${styles.queueStatus} ${styles.queueStatusIntake}`}>
+                <span className={`${styles.statusBadge} ${styles.statusIntake}`}>
                   Intake
                 </span>
               </div>
 
               <div className={styles.queueItem}>
                 <div className={styles.queuePatient}>
-                  <div className={styles.queueAvatar}>RG</div>
+                  <div className={styles.avatar}>RG</div>
                   <div>
-                    <div className={styles.queueName}>R. Gar</div>
-                    <div className={styles.queueDept}>Urine</div>
+                    <div className={styles.patientName}>R. Gar</div>
+                    <div className={styles.patientDept}>Urine</div>
                   </div>
                 </div>
-                <span className={`${styles.queueStatus} ${styles.queueStatusWaiting}`}>
+                <span className={`${styles.statusBadge} ${styles.statusWaiting}`}>
                   Waiting
                 </span>
               </div>
@@ -126,10 +152,10 @@ export default function Hero() {
       </div>
 
       {/* Scroll indicator */}
-      <div className={styles.scrollIndicator}>
+      <div className={styles.scrollIndicator} aria-hidden="true">
         <span className={styles.scrollText}>Scroll</span>
         <div className={styles.scrollLine} />
       </div>
     </section>
-  );
+  )
 }

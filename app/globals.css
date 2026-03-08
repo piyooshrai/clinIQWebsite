@@ -1,12 +1,10 @@
-/* ==================== FONT FACE ==================== */
-@font-face {
-  font-family: 'Söhne';
-  src: local('Söhne'), local('SF Pro Display'), local('Inter');
-  font-weight: 400 600;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* ==================== CSS VARIABLES ==================== */
 /* Homepage design tokens (cliniq-homepage-v2.html) */
+/* ===== CSS TOKENS ===== */
 :root {
   --white: #ffffff;
   --off-white: #fafafa;
@@ -35,13 +33,13 @@
   --font-body: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
-/* ==================== RESET & BASE ==================== */
+/* ===== BASE ===== */
 *,
 *::before,
 *::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 html {
@@ -51,7 +49,7 @@ html {
 
 /* Homepage body — dark background, Söhne font */
 body {
-  font-family: 'Söhne', 'SF Pro Display', 'Inter', -apple-system, sans-serif;
+  font-family: var(--font-sans), 'SF Pro Display', 'Inter', -apple-system, sans-serif;
   color: var(--gray-900);
   background: var(--black);
   line-height: 1.6;
@@ -60,6 +58,7 @@ body {
 }
 
 /* ==================== GRAIN OVERLAY (Homepage) ==================== */
+/* Grain overlay */
 body::before {
   content: '';
   position: fixed;
@@ -95,11 +94,12 @@ body::before {
 }
 
 /* ==================== GLOBAL ANIMATIONS ==================== */
+/* ===== GLOBAL KEYFRAMES ===== */
 @keyframes float {
   0%, 100% { transform: translate(0, 0) scale(1); }
-  25% { transform: translate(30px, -30px) scale(1.05); }
-  50% { transform: translate(-20px, 20px) scale(0.95); }
-  75% { transform: translate(20px, 10px) scale(1.02); }
+  25%       { transform: translate(30px, -30px) scale(1.05); }
+  50%       { transform: translate(-20px, 20px) scale(0.95); }
+  75%       { transform: translate(20px, 10px) scale(1.02); }
 }
 
 @keyframes slideUp {
@@ -109,7 +109,7 @@ body::before {
   }
 }
 
-@keyframes fadeIn {
+@keyframes fadeInUp {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
@@ -117,15 +117,16 @@ body::before {
 @keyframes marquee {
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
-@keyframes pulse {
+@keyframes blink {
   0%, 100% { opacity: 1; }
-  50% { opacity: 0.4; }
+  50%       { opacity: 0.4; }
 }
 
 @keyframes scrollDown {
-  0% { top: 0; opacity: 1; }
+  0%   { top: 0;    opacity: 1; }
   100% { top: 100%; opacity: 0; }
 }
 
@@ -204,6 +205,9 @@ body::before {
 .btn-hero-secondary:hover {
   border-color: var(--white);
   background: rgba(255, 255, 255, 0.05);
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
 
 /* ==================== INNER PAGE BUTTONS ==================== */
