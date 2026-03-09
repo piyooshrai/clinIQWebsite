@@ -17,9 +17,9 @@ interface SpecialtyData {
   name: string
   meta: { title: string; description: string }
   hero: { h1: string; subhead: string }
-  sections: SpecialtySection[]
-  workflow: { stages: string[]; note: string }
-  features: string[]
+  sections: readonly SpecialtySection[]
+  workflow: { stages: readonly string[]; note: string }
+  features: readonly string[]
   pricing: {
     show: boolean
     starter: string
@@ -27,7 +27,7 @@ interface SpecialtyData {
     implementation: string
     integration: string
   }
-  faqs: { q: string; a: string }[]
+  faqs: readonly { q: string; a: string }[]
   cta: {
     headline: string
     subhead: string
@@ -35,7 +35,7 @@ interface SpecialtyData {
     secondaryButton: { label: string; href: string }
   }
   proof: {
-    stats: { value: string; label: string }[]
+    stats: readonly { value: string; label: string }[]
     testimonial: { quote: string; attribution: string; location: string }
   }
   resource: { title: string; description: string; href: string }
