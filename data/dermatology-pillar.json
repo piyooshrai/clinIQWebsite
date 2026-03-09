@@ -1,0 +1,155 @@
+{
+  "slug": "dermatology",
+  "name": "Dermatology",
+  "pageType": "pillar",
+  "wordCount": 3000,
+  "meta": {
+    "title": "Dermatology Practice Software | Mohs Efficiency & Biopsy Tracking | clinIQ",
+    "description": "Complete guide to dermatology practice operations. 25% faster Mohs throughput. Zero biopsy results lost. Cosmetic flow separation. Biologic authorization tracking.",
+    "keywords": ["dermatology practice software", "Mohs surgery efficiency", "dermatology biopsy tracking", "dermatology practice management", "biologic authorization dermatology"]
+  },
+  "hero": {
+    "h1": "Dermatology Practice Software",
+    "subhead": "Your Mohs days run on stage turnover — 25% faster is one more case. Your biopsies need tracking from specimen to patient notification. Your cosmetic patients need a different experience than medical patients. clinIQ optimizes Mohs efficiency, tracks every biopsy, and separates cosmetic flow.",
+    "stats": [
+      { "value": "25%", "label": "faster Mohs throughput" },
+      { "value": "Zero", "label": "biopsy results lost" },
+      { "value": "100%", "label": "cosmetic flow separation" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "derm-practice-challenges", "title": "The Dermatology Practice Challenge" },
+    { "id": "mohs-efficiency", "title": "Mohs Surgery Efficiency" },
+    { "id": "biopsy-tracking", "title": "Biopsy Result Tracking" },
+    { "id": "cosmetic-flow", "title": "Cosmetic vs Medical Flow" },
+    { "id": "biologic-auth", "title": "Biologic Authorization" },
+    { "id": "patient-flow", "title": "High-Volume Patient Flow" },
+    { "id": "implementation", "title": "Implementation & ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "derm-practice-challenges",
+      "h2": "The Dermatology Practice Challenge",
+      "content": "Dermatology practices are operationally complex: high-volume medical visits, procedure-heavy Mohs days, cosmetic services, and pathology tracking all run simultaneously.\n\nMohs efficiency: Mohs surgery revenue depends on stage turnover. Time between excision and slide review is time the patient waits and the surgeon isn't operating. Faster turnover = more cases per day.\n\nBiopsy tracking: Dermatology sends hundreds of biopsies monthly. Each needs result tracking, patient notification, and appropriate follow-up. Biopsies that fall through cracks create liability and harm patients.\n\nCosmetic vs medical: Cosmetic patients expect a boutique experience. Medical patients expect efficient care. Running both through the same flow satisfies neither.\n\nBiologic authorization: Psoriasis and eczema biologics require prior auth, ongoing monitoring, and renewal tracking. Patients lose access when auths expire.\n\nHigh volume: Dermatology runs more patients per day than most specialties — 40-60 patients isn't unusual. Flow efficiency matters more.\n\nThis guide covers systems that address each challenge."
+    },
+    {
+      "id": "mohs-efficiency",
+      "h2": "Mohs Surgery Efficiency: 25% Faster Throughput",
+      "content": "Mohs surgery is a multi-stage process:\n\n1. Excision: Surgeon removes visible tumor plus margin\n2. Processing: Tissue processed and slides prepared (15-30 minutes)\n3. Slide review: Surgeon examines slides under microscope\n4. Decision: Clear margins → proceed to repair. Positive margins → return to step 1.\n\nMost Mohs cases require 1-2 stages. Complex cases may require 3-4.\n\nThe efficiency opportunity is in the gaps:\n\n- Time between excision completion and slide delivery\n- Time between slide delivery and surgeon review\n- Time between surgeon decision and patient communication\n- Time between clearance and repair initiation\n\n**The throughput math:**\n\nAverage Mohs day: 8 patients, 1.5 stages average = 12 stages.\n\nIf average stage turnaround is 45 minutes, total stage time: 9 hours.\n\nIf average stage turnaround is 35 minutes, total stage time: 7 hours.\n\n2 hours saved = capacity for 2-3 additional patients.\n\nAt $1,500-2,500 per Mohs case, that's $3,000-7,500/day additional capacity.\n\n**What clinIQ does for Mohs:**\n\nStage tracking: Excision complete → In processing → Slides ready → Under review → Decision made. Every stage visible.\n\nTime alerts: 'Stage 1 in processing for 35 minutes (expected: 25).' Delays surface immediately.\n\nPatient status: Which patients are waiting for slides? Which are cleared and ready for repair? Which are returning for additional stage?\n\nRepair queue: Cleared patients queued for repair. Repair room availability visible. Surgeon transitions efficiently.\n\nHistotech visibility: If using in-house histotechs, their workload and progress is visible. Bottlenecks identified early."
+    },
+    {
+      "id": "biopsy-tracking",
+      "h2": "Biopsy Result Tracking: Zero Lost Results",
+      "content": "A busy dermatology practice sends 200-400 biopsies monthly to pathology. Each biopsy needs:\n\n- Specimen logged and sent\n- Result received\n- Result reviewed by provider\n- Patient notified\n- Follow-up scheduled (if indicated)\n\nWithout systematic tracking, biopsies fall through cracks:\n\n'Did we get the path results on Mr. Johnson's mole biopsy?'\n'I think so... let me check... actually I'm not sure.'\n\nMeanwhile, Mr. Johnson has melanoma and hasn't been told.\n\n**The liability math:**\n\nMissed melanoma diagnosis is one of the most common and costly dermatology malpractice claims. Average settlement: $500,000+. \n\nSystematic biopsy tracking isn't just operational efficiency — it's risk management.\n\n**What clinIQ does for biopsy tracking:**\n\nSpecimen pipeline: Every biopsy tracked from collection through patient notification.\n\n- Biopsy performed (date, site, clinical description)\n- Specimen sent to lab\n- Result received from lab\n- Result reviewed by provider\n- Patient notified\n- Follow-up scheduled (if needed)\n\nAging alerts: 'Biopsy performed 12 days ago, result not received.' Problems surface before patients call.\n\nResult review queue: Which path results are waiting for physician review? Color-coded by urgency (dysplastic nevus vs squamous cell vs melanoma).\n\nPatient notification documentation: Notification method, date, staff member. Audit trail.\n\n**The unexpected result protocol:**\n\nSome results require urgent action (melanoma, aggressive SCC). clinIQ can flag specific diagnoses for immediate escalation rather than routine review queue."
+    },
+    {
+      "id": "cosmetic-flow",
+      "h2": "Cosmetic vs Medical Flow",
+      "content": "Dermatology practices often run medical and cosmetic services. The patient expectations are completely different.\n\nMedical patients: Efficient care, minimal wait, clinical environment.\n\nCosmetic patients: Boutique experience, personalized attention, spa-like environment.\n\nRunning both through the same waiting room, same check-in process, and same flow satisfies neither.\n\n**The separation challenge:**\n\nCosmetic patients shouldn't wait with medical patients (different expectations, different privacy needs).\n\nCosmetic consults shouldn't be rushed like medical visits.\n\nCosmetic tracking (conversion, treatments completed, rebooking) differs from medical tracking.\n\n**What clinIQ does for cosmetic flow:**\n\nSeparate workflows: Medical visits and cosmetic visits run different flows. Different stages, different timing, different metrics.\n\nCosmetic check-in: Private check-in for cosmetic patients. No medical waiting room.\n\nConsult-to-treatment tracking: Cosmetic consultation → treatment scheduled → treatment completed → follow-up scheduled. Conversion tracking.\n\nInjectable tracking: Units used, treatment areas, before/after photos, rebooking intervals.\n\nMembership/package management: For practices with cosmetic memberships or treatment packages, tracking remaining services.\n\n**The revenue opportunity:**\n\nCosmetic dermatology is high-margin but competitive. Patient experience differentiates. A practice that treats cosmetic patients like VIPs wins."
+    },
+    {
+      "id": "biologic-auth",
+      "h2": "Biologic Authorization for Psoriasis and Eczema",
+      "content": "Biologics for psoriasis (Humira, Cosentyx, Taltz, Skyrizi, etc.) and eczema (Dupixent) require prior authorization and ongoing management.\n\n**The authorization burden:**\n\nInitial auth: Step therapy documentation (failed topicals, phototherapy, conventional systemics), diagnosis confirmation, severity assessment.\n\nOngoing auth: Annual renewals. Continued medical necessity. Response documentation.\n\n**What goes wrong:**\n\nAuth expires, patient doesn't know, shows up for injection, can't be treated.\n\nRenewal submitted late, gap in coverage, patient misses doses.\n\nPatient transfers from another practice, auth history unknown, starts from scratch.\n\n**What clinIQ does for biologic auth:**\n\nAuth status per patient: Current biologic, auth status, expiration date, doses/refills remaining.\n\nExpiration alerts: 'Dupixent auth expires in 30 days. Patient due for injection in 2 weeks. Renewal needed.'\n\nStep therapy documentation: Prior medication trials documented with dates, duration, and failure reasons. Ready for auth requests.\n\nDose tracking: For injectables administered in-office, dose tracking for billing and inventory.\n\n**Prior biologic failure:**\n\nPatients switching biologics need documentation of prior biologic failure. clinIQ tracks:\n- Prior biologic and duration of use\n- Response (partial, none, loss of efficacy)\n- Reason for discontinuation\n- Washout period if applicable\n\nThis documentation supports authorization for the next biologic."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "High-Volume Patient Flow",
+      "content": "Dermatology runs high volume — 40-60 patients per day per provider isn't unusual. At this volume, flow efficiency determines whether the practice runs smoothly or descends into chaos.\n\n**The high-volume challenge:**\n\nWaiting room fills quickly if flow isn't efficient.\n\nProviders run behind if room turnover is slow.\n\nStaff gets overwhelmed if they can't see what's happening.\n\n**Visit type variation:**\n\n- Routine skin check: 10-15 minutes\n- Acne follow-up: 10 minutes\n- New patient comprehensive: 30 minutes\n- Procedure (excision, biopsy): 15-30 minutes\n- Mohs: Separate workflow\n- Cosmetic consult: 30-45 minutes\n- Injectable treatment: 15-30 minutes\n\nThe schedule template must account for this variation.\n\n**What clinIQ does for high-volume flow:**\n\nRoom status visibility: Every room — occupied, ready, turnover. Staff sees availability instantly.\n\nQueue by provider: Each provider sees their queue. Who's waiting? Who's ready? No asking.\n\nWait time alerts: Patient waiting 15+ minutes? Alert before they complain.\n\nCheckout queue: Patients ready for checkout. Prevent bottleneck at front desk.\n\n**The MA workflow:**\n\nIn high-volume derm, MAs move fast. Room patient, take vitals, get history, prepare for provider, turn over room for next patient.\n\nclinIQ supports this workflow:\n- MA sees their patient queue\n- Room readiness visible\n- History capture streamlined\n- Provider notified when patient ready"
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI Timeline",
+      "content": "Dermatology implementation covers Mohs efficiency, biopsy tracking, cosmetic flow, and general patient flow.\n\n**Week 1: Configuration**\n\nWe configure for your practice: visit types, room setup, Mohs workflow (if applicable), biopsy tracking, cosmetic vs medical separation.\n\n**Week 2: Training and Go-Live**\n\nFront desk learns check-in and flow. MAs learn room management. Providers learn their queue. Mohs team learns stage tracking. Cosmetic staff learns their workflow.\n\nGo-live with support.\n\n**Week 3 and Beyond**\n\nBiopsy tracking active. Patient flow visible. Mohs efficiency improving.\n\n**ROI Timeline:**\n\nMonth 1: Patient flow improvements immediate. Biopsy tracking active.\n\nMonth 3: Mohs throughput improvement measurable. Biopsy tracking preventing lost results. Cosmetic flow improving patient experience.\n\nMonth 6: Full optimization. Mohs efficiency at new baseline. Zero lost biopsies. Cosmetic conversion improving.\n\n**ROI Math:**\n\nMohs throughput: 1 additional case/Mohs day × 50 Mohs days/year × $2,000/case = $100,000/year\n\nBiopsy tracking: Risk mitigation (hard to quantify, but one prevented malpractice claim = $500,000+)\n\nCosmetic conversion: 10% improvement in conversion × cosmetic revenue = variable\n\nPatient flow: Reduced wait times, improved satisfaction, better reviews, more referrals\n\n**Investment:**\n\nProfessional: $499/month\n\nImplementation: $750 one-time"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do you track Mohs stages?",
+      "a": "Every stage tracked from excision through slide review through decision. Time at each stage visible. Delays surface immediately. Patient status always known."
+    },
+    {
+      "q": "How does biopsy tracking work?",
+      "a": "Every biopsy tracked from collection through patient notification. Pipeline shows status. Aging alerts surface biopsies waiting for results or review. Notification documented."
+    },
+    {
+      "q": "Can we separate cosmetic and medical flows?",
+      "a": "Yes. Different check-in processes, different waiting areas (if you have them), different stage progressions, different metrics. Each population gets appropriate experience."
+    },
+    {
+      "q": "What about biologic authorizations?",
+      "a": "Auth status per patient per drug. Expiration alerts. Step therapy documentation. Prior biologic failure tracking. Prevents gaps in treatment."
+    },
+    {
+      "q": "Does this work with pathology labs?",
+      "a": "We track biopsy status regardless of lab. If your lab has electronic interfaces, we can integrate for automatic result receipt. Otherwise, manual result entry with tracking."
+    },
+    {
+      "q": "How do you handle high volume?",
+      "a": "Built for high volume. Room status visibility, queue management, wait time tracking. 40-60 patients/day/provider runs smoothly."
+    },
+    {
+      "q": "What about photography for cosmetic?",
+      "a": "Before/after photo tracking by patient and treatment. Photos attached to patient record. Consent documented."
+    },
+    {
+      "q": "Can MAs update room status?",
+      "a": "Yes. Simple status updates from any device. Room status changes propagate immediately to all views."
+    }
+  ],
+  "cta": {
+    "headline": "See Mohs efficiency and biopsy tracking",
+    "subhead": "15-minute demo. Mohs stage tracking, biopsy pipeline, cosmetic flow, high-volume patient management.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "See Derm Workflow", "href": "/resources/dermatology-workflow" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "25%", "label": "faster Mohs throughput" },
+      { "value": "Zero", "label": "lost biopsy results" },
+      { "value": "$100K+", "label": "annual Mohs capacity recovered" }
+    ],
+    "testimonial": {
+      "quote": "We added two Mohs cases per week just from better stage tracking. And we haven't had a lost biopsy result since implementation.",
+      "attribution": "Practice Administrator",
+      "practice": "Dermatology practice, 3 dermatologists + Mohs surgeon",
+      "location": "Florida"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "blog",
+      "title": "Mohs Surgery Efficiency: Stage Tracking That Works",
+      "href": "/blog/mohs-surgery-efficiency",
+      "description": "How to track stages, reduce turnover time, and add cases per day."
+    },
+    {
+      "type": "blog",
+      "title": "Dermatology Biopsy Tracking: Preventing Lost Results",
+      "href": "/blog/dermatology-biopsy-tracking",
+      "description": "Systems that ensure every biopsy is tracked from collection to patient notification."
+    },
+    {
+      "type": "blog",
+      "title": "Cosmetic vs Medical Dermatology: Separating Flows",
+      "href": "/blog/cosmetic-medical-dermatology-flow",
+      "description": "How to run boutique cosmetic experience alongside efficient medical care."
+    },
+    {
+      "type": "resource",
+      "title": "Dermatology Workflow Guide",
+      "href": "/resources/dermatology-workflow",
+      "description": "Best practices for high-volume dermatology patient flow."
+    }
+  ],
+  "schema": {
+    "type": "SoftwareApplication",
+    "applicationCategory": "Medical Practice Management Software",
+    "operatingSystem": "Web-based",
+    "offers": {
+      "price": "499",
+      "priceCurrency": "USD"
+    }
+  }
+}
