@@ -1294,6 +1294,6 @@ const specialties = [
       "href": "/resources/ccm-rtm-primary-care-guide"
     }
   }
-] as const
+]
 
 export default specialties
