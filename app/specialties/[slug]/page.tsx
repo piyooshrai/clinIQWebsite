@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import specialties10 from '@/data/specialties-10-value-first'
 import specialties20 from '@/data/specialties-20-value-first'
 import painManagementPillar from '@/data/pain-management-pillar.json'
+import spineSurgeryPillar from '@/data/spine-surgery-pillar.json'
 import { getSpecialtyPageData, getAllSpecialtyParams } from '@/lib/feature-specialty-data'
 import JsonSpecialtyPage from '@/components/templates/JsonSpecialtyPage'
 import PillarSpecialtyPage from '@/components/templates/PillarSpecialtyPage'
@@ -10,6 +11,7 @@ import SpecialtyPage from '@/components/templates/SpecialtyPage'
 // Pillar pages keyed by slug — checked before JSON specialties
 const pillarPages: Record<string, typeof painManagementPillar> = {
   'pain-management': painManagementPillar,
+  'spine-surgery': spineSurgeryPillar,
 }
 
 // Filter out slugs handled by pillar pages to avoid duplicate routing
