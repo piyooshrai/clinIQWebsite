@@ -1,0 +1,155 @@
+{
+  "slug": "primary-care",
+  "name": "Primary Care",
+  "pageType": "pillar",
+  "wordCount": 3100,
+  "meta": {
+    "title": "Primary Care Practice Software | CCM, RTM & Same-Day Access | clinIQ",
+    "description": "Complete guide to primary care practice operations. $13,400/month in CCM + RTM revenue. True same-day access. Annual wellness visit efficiency. Chronic care coordination.",
+    "keywords": ["primary care software", "CCM billing primary care", "primary care RTM", "same-day access primary care", "chronic care management software"]
+  },
+  "hero": {
+    "h1": "Primary Care Practice Software",
+    "subhead": "Your chronic patients qualify for CCM and RTM — $13,000+/month you're not billing. Your same-day access isn't actually accessible. Your AWVs take too long. clinIQ captures chronic care revenue, enables true same-day access, and streamlines preventive visits.",
+    "stats": [
+      { "value": "$13,400+", "label": "monthly CCM + RTM revenue" },
+      { "value": "True", "label": "same-day access" },
+      { "value": "25%", "label": "faster AWV throughput" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "primary-care-economics", "title": "The Primary Care Revenue Problem" },
+    { "id": "ccm-billing", "title": "Chronic Care Management (CCM)" },
+    { "id": "rtm-billing", "title": "Remote Therapeutic Monitoring (RTM)" },
+    { "id": "same-day-access", "title": "Same-Day Access" },
+    { "id": "awv-efficiency", "title": "Annual Wellness Visit Efficiency" },
+    { "id": "patient-flow", "title": "Patient Flow Management" },
+    { "id": "implementation", "title": "Implementation & ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "primary-care-economics",
+      "h2": "The Primary Care Revenue Problem",
+      "content": "Primary care operates on thin margins. Visit reimbursement barely covers overhead. Patient panels grow, but revenue doesn't scale proportionally. The traditional model — more visits, faster throughput — leads to burnout.\n\nThere's a different path: capturing revenue for work that's already happening.\n\n**Chronic Care Management (CCM):** Medicare pays $62-140/patient/month for managing patients with multiple chronic conditions. Your care coordinators already call these patients, refill their medications, and coordinate their care. CCM makes that work billable.\n\n**Remote Therapeutic Monitoring (RTM):** Chronic disease patients already track symptoms between visits (or should). Diabetes patients track glucose. Hypertension patients check blood pressure. CHF patients track weight. RTM bills for monitoring that data.\n\n**The math for a primary care practice:**\n\n200 Medicare patients with 2+ chronic conditions:\n- CCM at $62/patient/month (basic level) = $12,400/month\n- Or CCM at $93/patient/month (complex) = $18,600/month\n\n50 patients with RTM-appropriate conditions:\n- RTM at $100/patient/month = $5,000/month\n\nCombined opportunity: $17,000-23,000/month in revenue from work you're largely already doing.\n\nMost primary care practices bill zero CCM and zero RTM."
+    },
+    {
+      "id": "ccm-billing",
+      "h2": "Chronic Care Management (CCM): $62-140/Patient/Month",
+      "content": "CCM is Medicare's program for paying primary care to manage complex patients between visits. Patients must have 2+ chronic conditions expected to last 12+ months.\n\n**What CCM covers:**\n\n- Care plan development and revision\n- Medication reconciliation and management\n- Care coordination with specialists\n- Patient/caregiver communication\n- Transitional care after hospitalizations\n- Referral coordination\n- Lab and test result review\n\nYour care coordinators, nurses, and physicians already do this work. CCM creates billing codes for it.\n\n**The CPT codes:**\n\n99490: CCM, 20+ minutes/month. ~$62.\n99491: CCM by physician/QHP, 30+ minutes. ~$93.\n99439: Additional 20 minutes beyond 99490. ~$47.\n99487: Complex CCM, 60+ minutes. ~$140.\n99489: Additional 30 minutes of complex CCM. ~$70.\n\n**Eligibility:**\n\n- Medicare (and some Medicaid/commercial payers)\n- 2+ chronic conditions expected to last 12+ months\n- Patient consent required\n- Can't be billed same month as certain other care management codes\n\n**What clinIQ does for CCM:**\n\nPatient identification: Which patients qualify for CCM? Panel analysis identifies eligible patients.\n\nEnrollment tracking: Consent obtained? Care plan created? Enrolled in CCM program.\n\nTime tracking: Every qualifying interaction documented toward monthly threshold. Phone calls, messages, coordination — all captured.\n\nCare plan management: Care plan created, updated, accessible.\n\nBilling automation: Monthly billing generated for patients meeting criteria.\n\n**The staffing model:**\n\nCCM can be delivered by:\n- RN care coordinators\n- Licensed practical nurses\n- Medical assistants (for some activities, under RN supervision)\n- Physicians/APPs (at higher billing rates)\n\nMost practices use a dedicated care coordinator model — one coordinator managing CCM for 200-400 patients."
+    },
+    {
+      "id": "rtm-billing",
+      "h2": "Remote Therapeutic Monitoring (RTM): $100-130/Patient/Month",
+      "content": "RTM captures revenue for monitoring patient-reported data between visits. Unlike RPM (which requires physiological devices), RTM works with app-based tracking.\n\n**Conditions appropriate for RTM in primary care:**\n\nDiabetes: Glucose logging (fingerstick or CGM), medication compliance, symptom tracking.\n\nHypertension: Blood pressure logging, medication compliance.\n\nCHF: Weight tracking, edema assessment, symptom monitoring.\n\nCOPD/Asthma: Peak flow, symptom tracking, inhaler compliance.\n\nOsteoarthritis/Chronic pain: Pain levels, functional status, medication use.\n\n**The CPT codes:**\n\n98975: RTM setup — one-time. ~$20-25.\n98977: RTM device supply — monthly. ~$50-60.\n98980: RTM treatment management — first 20 minutes. ~$50-70.\n98981: Additional 20-minute increments.\n\nTypical: 98977 + 98980 = $100-130/month.\n\n**RTM vs CCM:**\n\nCan you bill both? Yes, for different activities.\n\n- CCM bills for care coordination, care planning, communication.\n- RTM bills for monitoring patient-reported data and treatment management based on that data.\n\nThe same patient can be enrolled in both if activities are distinct and documented separately.\n\n**What clinIQ does for RTM:**\n\nPatient app: Simple tracking for glucose, BP, weight, symptoms, medication compliance.\n\nCondition-specific templates: Diabetes patients get different prompts than COPD patients.\n\nAlert thresholds: Glucose >300? Weight up 5 lbs in 3 days? Alert triggers.\n\nAutomatic time tracking: Every data review documented toward threshold.\n\nIntegration with CCM: If patient has both programs, activities tracked separately, billing appropriate for each."
+    },
+    {
+      "id": "same-day-access",
+      "h2": "Same-Day Access: Real Availability",
+      "content": "Every primary care practice says they offer same-day appointments. Few actually deliver.\n\nThe typical reality: Schedule filled a week ago. Same-day 'slots' gone by 9am. Acute patients told to call back tomorrow or go to urgent care.\n\nThe problem isn't demand management. It's flow visibility.\n\n**Why same-day access fails:**\n\nThe schedule is static. It shows appointments, not reality. It doesn't show:\n- Which appointments are running long\n- Where gaps might open\n- Which patients might no-show\n- Actual provider capacity right now\n\nWithout real-time visibility, schedulers can't identify same-day capacity.\n\n**What clinIQ does for same-day access:**\n\nReal-time capacity: Not just scheduled appointments, but actual provider availability. 'Dr. Smith has capacity for 1 additional patient between 2-4pm.'\n\nRunning-behind visibility: Provider 20 minutes behind? Don't add same-day patients there. Provider running ahead? Add one.\n\nNo-show prediction: Patients with high no-show probability flagged. Schedulers know to wait before calling from the same-day request list.\n\nDynamic same-day: Instead of fixed 'same-day slots,' capacity is identified in real-time based on actual flow.\n\n**The access math:**\n\n'We have no same-day availability' is often false.\n\nTypical practice: 30% of visits run shorter than scheduled. 10% of patients no-show. Providers have dead time between patients.\n\nAggregate: 2-4 same-day patients could fit — if you knew where to put them.\n\nclinIQ surfaces that capacity."
+    },
+    {
+      "id": "awv-efficiency",
+      "h2": "Annual Wellness Visit Efficiency",
+      "content": "Annual Wellness Visits (AWVs) are high-value for primary care. Medicare pays $179-282 for AWV. They drive quality measures and care gap closure. But they take too long.\n\n**The AWV time problem:**\n\nTypical AWV scheduled: 30 minutes.\nTypical AWV actual: 45-60 minutes.\n\nWhy? Because AWV components aren't completed before the visit:\n- Health Risk Assessment not done\n- Depression screening not done\n- Functional status not assessed\n- Preventive services not reviewed\n- Medication list not current\n\nThe physician does all of this during the visit. It takes forever.\n\n**Pre-visit completion:**\n\nWhat if patients completed Health Risk Assessment before arrival? What if depression screening (PHQ-2) was done at check-in? What if medication list was current?\n\nThe visit becomes physician review and counseling — 20 minutes instead of 45.\n\n**What clinIQ does for AWVs:**\n\nPre-visit HRA: Health Risk Assessment sent electronically before appointment. Patient completes at home.\n\nCheck-in screening: PHQ-2, fall risk, functional status assessed at kiosk or tablet check-in.\n\nCare gap visibility: Which preventive services are due? Visible before visit. Orders can be placed.\n\nMedication reconciliation: Patient reviews medication list before visit. Discrepancies identified.\n\n**The throughput improvement:**\n\nWith pre-visit completion: AWV takes 25 minutes instead of 45.\n\n20 minutes saved per AWV × 5 AWVs per day = 100 minutes = 2+ additional visits.\n\nAWV efficiency directly increases capacity."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "Patient Flow Management",
+      "content": "Primary care visits vary:\n\n- Acute visit: 15 minutes\n- Chronic follow-up: 20-30 minutes\n- Complex/multiple problems: 30-40 minutes\n- AWV: 30-45 minutes (or 20-25 with pre-work)\n- New patient: 40-60 minutes\n- Procedures (IUD, biopsy, etc.): Variable\n\nThe schedule template can't capture this variation. Providers run behind. Patients wait.\n\n**What clinIQ does for patient flow:**\n\nVisit type awareness: Different visit types have different expected durations.\n\nReal-time tracking: Where is each patient? How long have they been there? Who's waiting for provider?\n\nWait time alerts: Patient waiting 15+ minutes in room? Alert.\n\nProvider queue: Who's ready for me? No walking to front desk to ask.\n\n**The MA workflow:**\n\nMAs move fast in primary care. Room patient, vitals, medication review, chief complaint, prep for provider.\n\nclinIQ supports this:\n- MA sees their queue\n- Room readiness visible\n- Provider notified when patient ready\n- Visit-specific prep reminders (AWV needs this, acute needs that)"
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI Timeline",
+      "content": "Primary care implementation focuses on CCM/RTM enrollment, same-day access, and patient flow.\n\n**Week 1: Configuration**\n\nWe configure for your practice: visit types, CCM eligibility criteria, RTM conditions, same-day workflow.\n\nPatient identification: Analysis of panel to identify CCM-eligible and RTM-appropriate patients.\n\n**Week 2: Training**\n\nCare coordinator training on CCM workflow. Clinical staff training on RTM. Front desk training on flow visibility. Providers trained on dashboards.\n\n**Week 3: Go-Live**\n\nPatient flow visibility active. CCM enrollment beginning. RTM enrollment beginning. Same-day access workflow running.\n\n**Week 4 and Beyond**\n\nCCM/RTM enrollment ramping. Billing starting. Flow improvements measured.\n\n**ROI Timeline:**\n\nMonth 1: Flow visibility immediate. CCM/RTM enrollment starting.\n\nMonth 3: CCM billing at scale (100+ patients). RTM billing building. AWV efficiency improving.\n\nMonth 6: Full CCM revenue ($8,000-15,000/month). RTM contributing ($3,000-5,000/month). Same-day access functioning.\n\n**ROI Math:**\n\nCCM revenue: 150 patients × $75/month average = $11,250/month = $135,000/year\n\nRTM revenue: 50 patients × $110/month = $5,500/month = $66,000/year\n\nAWV efficiency: 2 additional visits/day × $200/visit × 250 days = $100,000/year\n\nTotal: $250,000-300,000/year in revenue and recovered capacity.\n\n**Investment:**\n\nProfessional: $499/month\n\nImplementation: $750 one-time"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What's the difference between CCM and RTM?",
+      "a": "CCM bills for care coordination activities — care planning, medication management, specialist coordination, patient communication. RTM bills for monitoring patient-reported data and making treatment decisions based on that data. Different codes, can both apply to same patient."
+    },
+    {
+      "q": "Do commercial payers cover CCM/RTM?",
+      "a": "Medicare covers CCM and RTM. Some commercial payers cover CCM. RTM commercial coverage is expanding. We track payer-specific coverage to ensure appropriate billing."
+    },
+    {
+      "q": "How do we staff CCM?",
+      "a": "Most practices use dedicated care coordinators — RNs or LPNs managing CCM for 200-400 patients each. The revenue more than covers the coordinator salary."
+    },
+    {
+      "q": "Can patients opt out of CCM/RTM?",
+      "a": "Yes. CCM requires documented consent. Patients can unenroll anytime. RTM is similarly voluntary."
+    },
+    {
+      "q": "How does same-day access work?",
+      "a": "Real-time visibility into provider capacity. Running-behind and running-ahead visible. No-show likelihood flagged. Schedulers can identify same-day capacity dynamically rather than relying on fixed slots."
+    },
+    {
+      "q": "Can we do AWV pre-work electronically?",
+      "a": "Yes. Health Risk Assessment sent before visit. Screening questions at check-in. Medication review before appointment. AWV becomes 20-minute physician review instead of 45-minute comprehensive visit."
+    },
+    {
+      "q": "What about FQHCs and RHCs?",
+      "a": "CCM and RTM billing differs for FQHCs and RHCs. We configure based on your practice type and billing rules."
+    },
+    {
+      "q": "How fast can we scale CCM?",
+      "a": "With a dedicated care coordinator: Enroll 20-30 patients/week. At scale (150+ patients) within 2-3 months."
+    }
+  ],
+  "cta": {
+    "headline": "See CCM/RTM revenue and same-day access",
+    "subhead": "15-minute demo. Chronic care management, remote monitoring, same-day access, AWV efficiency.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate CCM/RTM Revenue", "href": "/resources/ccm-rtm-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "$201K", "label": "annual CCM + RTM revenue" },
+      { "value": "True", "label": "same-day access" },
+      { "value": "25%", "label": "faster AWV throughput" }
+    ],
+    "testimonial": {
+      "quote": "We hired a care coordinator, enrolled 180 CCM patients, and she pays for herself three times over. Plus $4K/month in RTM. Why did we wait so long?",
+      "attribution": "Practice Manager",
+      "practice": "Family medicine, 4 physicians",
+      "location": "Missouri"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "blog",
+      "title": "CCM Billing for Primary Care: Complete Guide",
+      "href": "/blog/ccm-billing-primary-care",
+      "description": "How to bill 99490, 99491, and complex CCM codes. Eligibility, consent, and documentation requirements."
+    },
+    {
+      "type": "blog",
+      "title": "RTM for Primary Care: Diabetes, Hypertension, and Beyond",
+      "href": "/blog/rtm-primary-care",
+      "description": "Which primary care conditions qualify for RTM and how to implement monitoring."
+    },
+    {
+      "type": "blog",
+      "title": "Same-Day Access: Making It Actually Work",
+      "href": "/blog/same-day-access-primary-care",
+      "description": "Why same-day access fails and flow-based strategies that succeed."
+    },
+    {
+      "type": "resource",
+      "title": "CCM/RTM Revenue Calculator",
+      "href": "/resources/ccm-rtm-calculator",
+      "description": "Calculate your practice's chronic care revenue potential."
+    }
+  ],
+  "schema": {
+    "type": "SoftwareApplication",
+    "applicationCategory": "Medical Practice Management Software",
+    "operatingSystem": "Web-based",
+    "offers": {
+      "price": "499",
+      "priceCurrency": "USD"
+    }
+  }
+}

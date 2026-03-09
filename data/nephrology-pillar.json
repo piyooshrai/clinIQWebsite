@@ -1,0 +1,127 @@
+{
+  "slug": "nephrology",
+  "name": "Nephrology",
+  "pageType": "pillar",
+  "wordCount": 2800,
+  "meta": {
+    "title": "Nephrology Practice Software | CKD RTM & Dialysis Coordination | clinIQ",
+    "description": "Complete guide to nephrology practice operations. $9,100/month in CKD RTM. CKD progression tracking. Dialysis access coordination. Transplant workup management.",
+    "keywords": ["nephrology practice software", "CKD RTM billing", "nephrology practice management", "dialysis coordination software", "CKD progression tracking"]
+  },
+  "hero": {
+    "h1": "Nephrology Practice Software",
+    "subhead": "Your CKD patients already monitor symptoms and fluid balance — that's billable RTM. Your dialysis access planning needs coordination. Your transplant workups need tracking. clinIQ captures CKD RTM revenue and coordinates nephrology operations.",
+    "stats": [
+      { "value": "$9,100+", "label": "monthly CKD RTM revenue" },
+      { "value": "100%", "label": "CKD progression visibility" },
+      { "value": "Zero", "label": "lost transplant workups" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "neph-challenges", "title": "The Nephrology Practice Challenge" },
+    { "id": "ckd-rtm", "title": "CKD RTM Billing" },
+    { "id": "ckd-tracking", "title": "CKD Progression Tracking" },
+    { "id": "dialysis-access", "title": "Dialysis Access Coordination" },
+    { "id": "transplant-workup", "title": "Transplant Workup Management" },
+    { "id": "implementation", "title": "Implementation & ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "neph-challenges",
+      "h2": "The Nephrology Practice Challenge",
+      "content": "Nephrology manages progressive chronic disease that requires systematic tracking and timely intervention.\n\n**The CKD monitoring opportunity:**\n\nCKD patients should track: fluid intake, weight, blood pressure, symptoms (fatigue, swelling, appetite), medication compliance. This data informs management and identifies progression.\n\n70 CKD patients × $130/month = $9,100/month = $109,200/year in RTM revenue.\n\n**The progression tracking problem:**\n\neGFR trajectories predict outcomes. Patients progressing faster need intervention. But tracking eGFR over time, identifying acceleration, and planning for dialysis access requires organized data.\n\n**The dialysis access timing:**\n\nAccess should be placed when eGFR reaches 15-20. Wait too long, and patients start dialysis with catheters. Place too early, and access complications occur before use.\n\nTiming requires knowing trajectory, not just current eGFR.\n\n**The transplant workup burden:**\n\nTransplant workups involve dozens of tests and consultations over months. Without tracking, items fall through cracks, workups stall, and transplant listing is delayed."
+    },
+    {
+      "id": "ckd-rtm",
+      "h2": "CKD RTM Billing: $130/Patient/Month",
+      "content": "CKD is ideal for RTM. Between-visit monitoring directly impacts outcomes.\n\n**What CKD patients track:**\n\nFluid and weight:\n- Daily weight (fluid retention indicator)\n- Fluid intake\n- Lower extremity edema\n\nBlood pressure:\n- Home BP readings\n- Medication compliance\n\nSymptoms:\n- Fatigue and energy level\n- Appetite and nausea\n- Shortness of breath\n- Pruritus\n- Sleep quality\n\nMedication compliance:\n- Phosphate binders\n- ESA (if applicable)\n- Antihypertensives\n\n**The CPT codes:**\n\n98975: RTM setup — one-time. ~$20-25.\n98977: RTM device supply. ~$50-60/month.\n98980: RTM treatment management — first 20 minutes. ~$50-70/month.\n98981: Additional 20-minute increments.\n\n**What clinIQ does for CKD RTM:**\n\nCKD-specific templates: Weight, BP, symptoms relevant to kidney disease.\n\nAlert thresholds: Weight gain >5 lbs in week? BP consistently elevated? Worsening fatigue? Alerts trigger.\n\nCorrelation with labs: RTM symptoms contextualized with recent labs (eGFR, potassium, hemoglobin).\n\nPre-visit summary: RTM data available when patient arrives for appointment."
+    },
+    {
+      "id": "ckd-tracking",
+      "h2": "CKD Progression Tracking",
+      "content": "CKD management requires knowing not just where the patient is, but where they're going.\n\n**eGFR trajectory:**\n\n- Is eGFR stable, slowly declining, or rapidly declining?\n- At current rate, when will patient reach ESRD?\n- Is progression accelerating?\n\n**What clinIQ does:**\n\neGFR trend visualization: All historical eGFR values plotted over time.\n\nProjection: At current trajectory, estimated time to eGFR <15.\n\nAcceleration detection: Rate of decline increasing → alert.\n\nCKD stage tracking: Current stage, time at stage, stage transitions.\n\n**Lab integration:**\n\nCKD labs (BMP, phosphorus, PTH, hemoglobin, urinalysis) tracked with abnormal values flagged.\n\nAnemia management: Hemoglobin trends, ESA dosing, iron studies.\n\nMineral bone disease: Calcium, phosphorus, PTH trends."
+    },
+    {
+      "id": "dialysis-access",
+      "h2": "Dialysis Access Coordination",
+      "content": "Timely dialysis access placement prevents catheter starts and associated complications.\n\n**The access timeline:**\n\n- eGFR 20-25: Begin access discussion\n- eGFR 15-20: Access placement (fistula needs maturation time)\n- eGFR <10-15: Dialysis initiation\n\nFistulas need 3-6 months to mature. Grafts need 2-4 weeks. Timing matters.\n\n**What clinIQ does:**\n\nAccess planning timeline: Based on eGFR trajectory, recommended access planning milestones.\n\nSurgery scheduling: Vascular surgery referral, access creation, maturation tracking.\n\nAccess maturation: Fistula/graft tracking through maturation and first use.\n\nCatheter avoidance: Track percentage of patients starting dialysis with permanent access vs catheter."
+    },
+    {
+      "id": "transplant-workup",
+      "h2": "Transplant Workup Management",
+      "content": "Transplant workups are complex, multi-month processes.\n\n**Typical workup components:**\n\nCardiac: Stress test, echo, possible cath\nPulmonary: CXR, PFTs, possible sleep study\nGI: Colonoscopy (if indicated)\nDental: Dental clearance\nInfectious: TB test, hepatitis serologies, HIV, CMV, EBV\nMalignancy: Age-appropriate cancer screening\nPsychosocial: Social work evaluation, financial counseling\n\n**The tracking problem:**\n\n25+ items across 4-6 months. Any one item falling through cracks delays listing. Patients get frustrated. Transplant centers get frustrated.\n\n**What clinIQ does:**\n\nWorkup checklist: Every required item tracked with status (not started, ordered, scheduled, completed, reviewed).\n\nAging alerts: 'Cardiac stress test ordered 3 weeks ago, not scheduled.' Items stuck in the pipeline surface.\n\nCompletion visibility: What's done? What's pending? At a glance.\n\nTransplant center coordination: Required documentation tracked. Ready for submission when complete."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI Timeline",
+      "content": "**Week 1: Configuration**\n\nCKD RTM templates, progression tracking, dialysis access timeline, transplant workup checklist configured.\n\n**Week 2: Training and Go-Live**\n\nStaff trained on RTM workflow, progression dashboards, workup tracking.\n\n**ROI Timeline:**\n\nMonth 1: CKD progression visibility immediate. RTM enrollment starting.\n\nMonth 3: RTM billing at scale. Workup tracking preventing delays.\n\nMonth 6: Full RTM revenue. Access planning optimized.\n\n**ROI Math:**\n\nRTM revenue: 70 patients × $130/month = $9,100/month = $109,200/year\n\nCatheter avoidance: Better access timing reduces catheter starts, improves outcomes\n\nWorkup efficiency: Faster transplant listing improves patient outcomes\n\n**Investment:**\n\nProfessional: $499/month\n\nImplementation: $750 one-time"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which CKD stages qualify for RTM?",
+      "a": "Any CKD stage where between-visit monitoring informs management — typically stage 3 and above, though earlier stages with active management may qualify."
+    },
+    {
+      "q": "How do you track eGFR progression?",
+      "a": "All eGFR values plotted over time. Trajectory calculated. Projection to ESRD. Acceleration detected."
+    },
+    {
+      "q": "Does this work for dialysis patients?",
+      "a": "Yes. HD and PD patients can be monitored between treatments. Symptom tracking, BP, fluid management."
+    },
+    {
+      "q": "How do you coordinate transplant workups?",
+      "a": "Checklist of all required items with status tracking. Aging alerts for stuck items. Completion visibility."
+    }
+  ],
+  "cta": {
+    "headline": "See CKD RTM and progression tracking",
+    "subhead": "15-minute demo. CKD RTM, progression visualization, access coordination, transplant workup.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate CKD RTM Revenue", "href": "/resources/rtm-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "$109K", "label": "annual CKD RTM revenue" },
+      { "value": "100%", "label": "progression visibility" },
+      { "value": "Zero", "label": "lost workup items" }
+    ],
+    "testimonial": {
+      "quote": "We lost track of transplant workups constantly. Now every item is visible. Patients get listed faster.",
+      "attribution": "Nephrologist",
+      "practice": "Nephrology practice, 4 physicians",
+      "location": "Florida"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "blog",
+      "title": "CKD RTM Billing: Complete Guide",
+      "href": "/blog/ckd-rtm-billing",
+      "description": "How to bill RTM for CKD patients at each stage."
+    },
+    {
+      "type": "blog",
+      "title": "eGFR Trajectory: Predicting ESRD and Planning Access",
+      "href": "/blog/egfr-trajectory-tracking",
+      "description": "Using progression data to time dialysis access and transplant workup."
+    },
+    {
+      "type": "blog",
+      "title": "Transplant Workup Management: Preventing Delays",
+      "href": "/blog/transplant-workup-tracking",
+      "description": "Tracking the dozens of items required for transplant listing."
+    }
+  ],
+  "schema": {
+    "type": "SoftwareApplication",
+    "applicationCategory": "Medical Practice Management Software",
+    "operatingSystem": "Web-based",
+    "offers": {
+      "price": "499",
+      "priceCurrency": "USD"
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "slug": "gastroenterology",
+  "name": "Gastroenterology",
+  "pageType": "pillar",
+  "wordCount": 3100,
+  "meta": {
+    "title": "Gastroenterology Practice Software | Endoscopy Efficiency & IBD RTM | clinIQ",
+    "description": "Complete guide to GI practice operations. 20% higher endoscopy throughput. IBD RTM billing. Biologic authorization tracking. Prep compliance visibility.",
+    "keywords": ["gastroenterology software", "GI practice management", "endoscopy scheduling software", "IBD RTM billing", "colonoscopy efficiency"]
+  },
+  "hero": {
+    "h1": "Gastroenterology Practice Software",
+    "subhead": "Your endoscopy suite drives revenue — 20% more throughput is $400K/year. Your IBD patients need monitoring between infusions — that's RTM. Your prep failures waste capacity — that's preventable. clinIQ optimizes endoscopy efficiency, captures IBD RTM, and improves prep compliance.",
+    "stats": [
+      { "value": "20%", "label": "higher endoscopy throughput" },
+      { "value": "$7,800+", "label": "monthly IBD RTM revenue" },
+      { "value": "50%", "label": "fewer prep failures" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "gi-practice-economics", "title": "Gastroenterology Practice Economics" },
+    { "id": "endoscopy-efficiency", "title": "Endoscopy Efficiency" },
+    { "id": "ibd-rtm", "title": "IBD RTM Billing" },
+    { "id": "biologic-auth", "title": "Biologic Authorization" },
+    { "id": "prep-compliance", "title": "Prep Compliance" },
+    { "id": "patient-flow", "title": "Clinic Patient Flow" },
+    { "id": "implementation", "title": "Implementation & ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "gi-practice-economics",
+      "h2": "Gastroenterology Practice Economics",
+      "content": "GI practices generate revenue from two sources: clinic visits and procedures. Procedures — especially colonoscopy and EGD — drive the majority of revenue.\n\nThe average screening colonoscopy generates $1,500-2,500 (professional fee + facility, if physician-owned ASC). A practice doing 20 scopes/day generates $30,000-50,000/day.\n\n**The throughput opportunity:**\n\nMost GI practices run endoscopy suites at 70-80% efficiency. Dead time between cases, late starts, cancellations, and prep failures waste capacity.\n\n20% improvement in throughput = 4 additional cases/day = $6,000-10,000/day = $1.5-2.5 million/year.\n\n**The chronic disease opportunity:**\n\nIBD patients (Crohn's, ulcerative colitis) on biologic therapy need between-visit monitoring. Symptom tracking, medication compliance, flare detection. This qualifies for RTM.\n\n60 IBD patients × $130/month = $7,800/month = $93,600/year.\n\n**The prep failure problem:**\n\nInadequate prep rates run 15-25%. Each prep failure is a wasted slot — the scope still takes time, but needs to be repeated. That's 3-5 wasted procedures/day in a busy practice."
+    },
+    {
+      "id": "endoscopy-efficiency",
+      "h2": "Endoscopy Efficiency: 20% More Throughput",
+      "content": "Endoscopy suite efficiency depends on:\n\n1. Room turnover: Time from one patient out to next patient in\n2. First case on-time: Whether the 7:30 AM case starts at 7:30 AM\n3. Pre-procedure readiness: Consent, labs, NPO status confirmed\n4. Procedure efficiency: Actual procedure time vs allocated time\n5. Recovery flow: Patients moving through recovery without bottleneck\n\n**Where time gets wasted:**\n\nRoom ready but next patient not in pre-op. Pre-op ready but consent not signed. Consent signed but anesthesia hasn't cleared. Anesthesia cleared but room not turned over.\n\nWithout visibility, these gaps compound. By afternoon, you're running 45 minutes behind.\n\n**What clinIQ does for endoscopy efficiency:**\n\nRoom status visibility: Each room — in procedure, turnover, ready. Recovery bays — occupied, ready for next patient.\n\nPre-procedure checklist: Consent, NPO, labs, driver arranged — status visible before patient comes to pre-op.\n\nPatient pipeline: Where is each patient? Pre-op, in procedure, recovery, ready for discharge.\n\nTurnover tracking: Case end → room ready → next patient in. Every turnover timestamped.\n\nFirst case on-time: 7:30 AM case actually starts at 7:30 AM. Delays tracked, causes identified.\n\n**The throughput math:**\n\n10 cases/day at 80% efficiency = 8 billable procedures\n10 cases/day at 100% efficiency = 10 billable procedures\n\n2 additional procedures × $2,000 = $4,000/day = $1,000,000/year\n\nActual efficiency gains of 15-20% are achievable with visibility."
+    },
+    {
+      "id": "ibd-rtm",
+      "h2": "IBD RTM Billing: $130/Patient/Month",
+      "content": "Inflammatory bowel disease patients — Crohn's disease and ulcerative colitis — require ongoing monitoring between visits.\n\n**What IBD patients track:**\n\nSymptom activity:\n- Stool frequency (number of BMs/day)\n- Stool consistency and urgency\n- Abdominal pain\n- Rectal bleeding (UC) or fistula symptoms (Crohn's)\n- Fatigue and general wellbeing\n\nMedication compliance:\n- Biologic injection/infusion adherence\n- Oral medication compliance (mesalamine, immunomodulators)\n- Steroid use (concerning if increasing)\n\nQuality of life:\n- Work/school attendance\n- Social activities\n- Food tolerances\n\n**The CPT codes:**\n\n98975: RTM setup — one-time. ~$20-25.\n98977: RTM device supply. ~$50-60/month.\n98980: RTM treatment management — first 20 minutes. ~$50-70/month.\n98981: Additional 20-minute increments.\n\nTypical: $120-150/patient/month.\n\n**What clinIQ does for IBD RTM:**\n\nIBD-specific templates: Stool frequency, urgency, bleeding, pain — the questions that matter for IBD.\n\nFlare detection: Symptom frequency increasing? PRN steroid use? Early flare signs trigger alerts.\n\nDisease activity scoring: Simple scoring that tracks improvement or worsening over time.\n\nPre-infusion assessment: For patients on infusions, pre-visit symptom check informs whether to proceed or assess for flare.\n\n**The clinical value:**\n\nIBD flares that progress can require hospitalization ($15,000-30,000), surgery, or permanent bowel loss. Early detection and intervention prevents these outcomes.\n\nRTM revenue ($1,500/patient/year) plus prevented hospitalization (even one) = significant value."
+    },
+    {
+      "id": "biologic-auth",
+      "h2": "Biologic Authorization",
+      "content": "IBD biologics (Humira, Remicade, Entyvio, Stelara, Skyrizi, etc.) require prior authorization.\n\n**The authorization burden:**\n\nInitial auth:\n- Documented IBD diagnosis with objective evidence (scope, imaging, labs)\n- Failure of conventional therapy (steroids, immunomodulators)\n- Disease severity documentation\n\nOngoing auth:\n- Annual or semi-annual renewals\n- Response documentation\n- Labs (TB, hepatitis) current\n\n**What clinIQ does for biologic auth:**\n\nAuth status per patient: Current biologic, auth status, expiration, doses/infusions remaining.\n\nExpiration alerts: 'Entyvio auth expires in 21 days. Patient due for infusion next week.'\n\nPrior medication documentation: Steroids, mesalamine, immunomodulators — trials documented with dates and outcomes.\n\nLab tracking: TB, hepatitis, CBC, CMP — required labs tracked with dates.\n\n**Switching biologics:**\n\nPatients who fail one biologic need documentation to switch to another:\n- Primary non-response vs secondary loss of response\n- Prior biologic duration and reason for discontinuation\n- Washout period (if required by new drug)\n\nclinIQ tracks this history to support authorization for next-line agents."
+    },
+    {
+      "id": "prep-compliance",
+      "h2": "Prep Compliance",
+      "content": "Inadequate bowel prep is the single biggest waste of endoscopy capacity. National inadequate prep rates run 15-25%. Each inadequate prep means:\n\n- The procedure slot is partially wasted (scope happens but needs repeat)\n- Patient undergoes another prep\n- Another slot is used for repeat procedure\n- Adenoma detection rate suffers\n\n**Why prep fails:**\n\nPatient didn't understand instructions. Patient didn't finish the prep. Patient ate the day before. Patient took incomplete prep (didn't do second dose). Patient has baseline constipation that wasn't addressed.\n\n**What clinIQ does for prep compliance:**\n\nPre-procedure reminders:\n- Day -7: Diet modification reminder\n- Day -3: Clear liquids reminder, prep pickup reminder\n- Day -1 AM: First prep dose reminder\n- Day -1 PM: Second prep dose reminder\n- Day 0: NPO reminder, arrival time\n\nInteractive confirmation: Patients confirm they've completed each step. No confirmation? Staff outreach.\n\nHigh-risk identification: Patients with history of inadequate prep flagged for extended prep or intervention.\n\n**The math:**\n\n20 scopes/day × 20% inadequate prep = 4 wasted procedures/day\n\nReducing to 10% = 2 fewer wasted procedures/day = ~$4,000/day saved = $1,000,000/year\n\nPrep compliance intervention is one of the highest-ROI improvements in GI."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "Clinic Patient Flow",
+      "content": "GI clinic visits vary:\n\n- New patient consultation: 30-45 minutes\n- Follow-up: 15-20 minutes\n- IBD check: 20-30 minutes\n- Pre-procedure: 15-20 minutes\n- Post-procedure: 10-15 minutes\n- Results visit: 15-20 minutes\n\nThe schedule template often doesn't match reality.\n\n**What clinIQ does for clinic flow:**\n\nVisit type awareness: Different visit types have different expected durations.\n\nQueue visibility: Who's waiting? Who's with MA? Who's ready for provider?\n\nProcedure results integration: When patient comes for results visit, path/scope findings visible.\n\nIBD patient flagging: IBD patients may need more time. Pre-visit symptom data (from RTM) informs whether routine follow-up or flare management.\n\n**The mixed workflow:**\n\nGI providers often split time between clinic and procedures. Schedule visibility for both is essential.\n\nclinIQ shows: 'Morning: Clinic until 11am. Procedures 11am-3pm. Clinic 3-5pm.' Provider knows what's coming."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI Timeline",
+      "content": "GI implementation covers endoscopy efficiency, IBD RTM, and prep compliance.\n\n**Week 1: Configuration**\n\nWe map your workflows: procedure suite, clinic, recovery, authorization.\n\nEndoscopy tracking configured: Room status, patient pipeline, turnover metrics.\n\nRTM templates configured: IBD, chronic GI conditions.\n\nPrep reminders configured: Multi-day reminder sequence.\n\n**Week 2: Training**\n\nEndoscopy staff learns room and patient tracking. Clinic staff learns flow. Coordinators learn auth tracking. All staff learn prep reminder system.\n\n**Week 3: Go-Live**\n\nEndoscopy visibility active. Prep reminders running. RTM enrollment starting. Clinic flow live.\n\n**ROI Timeline:**\n\nMonth 1: Prep compliance improving immediately. Endoscopy visibility active.\n\nMonth 3: Measurable throughput improvement. RTM billing at scale. Prep failure rate down.\n\nMonth 6: Full optimization. 15-20% throughput improvement. $6,000-8,000/month RTM. Prep compliance at new baseline.\n\n**ROI Math:**\n\nThroughput improvement: 2 additional procedures/day × $2,000 × 250 days = $1,000,000/year (capacity)\n\nPrep compliance: 10% reduction in failures × 4 recovered procedures/day × $500/wasted slot × 250 days = $500,000/year\n\nRTM revenue: 60 patients × $130/month = $7,800/month = $93,600/year\n\nTotal: $1.5 million+ annual impact.\n\n**Investment:**\n\nProfessional: $499/month\n\nImplementation: $750 one-time"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do you improve endoscopy throughput?",
+      "a": "Room status visibility, patient pipeline tracking, turnover measurement, first-case on-time improvement. You see where time is wasted and can address specific bottlenecks."
+    },
+    {
+      "q": "Which GI conditions qualify for RTM?",
+      "a": "IBD (Crohn's, UC) is the primary RTM opportunity. Chronic conditions like GERD, IBS, and chronic liver disease may also qualify depending on monitoring requirements."
+    },
+    {
+      "q": "How do prep reminders work?",
+      "a": "Multi-day text/email sequence: diet modification, prep pickup, first dose, second dose, NPO, arrival. Patients confirm completion. No confirmation triggers outreach."
+    },
+    {
+      "q": "Can you track biologic authorizations?",
+      "a": "Yes. Auth status per patient per drug. Expiration alerts. Prior biologic trial documentation. Lab tracking for required screenings."
+    },
+    {
+      "q": "What about ASC vs hospital-based endoscopy?",
+      "a": "Works for both. ASC integration may be simpler (you control the environment). Hospital-based requires coordination with facility systems."
+    },
+    {
+      "q": "How do you identify high-risk prep patients?",
+      "a": "History of inadequate prep, baseline constipation, certain medications, prior incomplete procedures. These patients flagged for extended prep or intervention."
+    },
+    {
+      "q": "Does this work with procedure scheduling systems?",
+      "a": "We integrate with major scheduling systems. Specific integration scope depends on your systems."
+    },
+    {
+      "q": "How fast can we see ROI?",
+      "a": "Prep compliance improvement and endoscopy visibility are immediate. RTM revenue builds over 2-3 months as patients enroll."
+    }
+  ],
+  "cta": {
+    "headline": "See endoscopy efficiency and IBD RTM",
+    "subhead": "15-minute demo. Endoscopy throughput, prep compliance, IBD RTM, biologic authorization.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate GI ROI", "href": "/resources/gi-roi-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "18%", "label": "endoscopy throughput improvement" },
+      { "value": "52%", "label": "fewer prep failures" },
+      { "value": "$94K", "label": "annual IBD RTM revenue" }
+    ],
+    "testimonial": {
+      "quote": "We were wasting 4-5 procedures a day to bad preps. The reminder system cut that in half. And the IBD RTM is paying for itself many times over.",
+      "attribution": "Practice Administrator",
+      "practice": "GI practice, 5 gastroenterologists",
+      "location": "Texas"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "blog",
+      "title": "Endoscopy Suite Efficiency: Throughput Optimization",
+      "href": "/blog/endoscopy-suite-efficiency",
+      "description": "Where time gets wasted and how to recover it for more procedures per day."
+    },
+    {
+      "type": "blog",
+      "title": "IBD RTM Billing: Crohn's and Ulcerative Colitis",
+      "href": "/blog/ibd-rtm-billing",
+      "description": "How to bill RTM for IBD patients. Symptom tracking and flare detection."
+    },
+    {
+      "type": "blog",
+      "title": "Bowel Prep Compliance: Reducing Inadequate Preps",
+      "href": "/blog/bowel-prep-compliance",
+      "description": "Reminder systems and interventions that improve prep quality."
+    },
+    {
+      "type": "resource",
+      "title": "GI Practice ROI Calculator",
+      "href": "/resources/gi-roi-calculator",
+      "description": "Calculate potential revenue from throughput improvement, prep compliance, and RTM."
+    }
+  ],
+  "schema": {
+    "type": "SoftwareApplication",
+    "applicationCategory": "Medical Practice Management Software",
+    "operatingSystem": "Web-based",
+    "offers": {
+      "price": "499",
+      "priceCurrency": "USD"
+    }
+  }
+}
