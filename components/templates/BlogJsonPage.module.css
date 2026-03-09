@@ -1,0 +1,331 @@
+/* ── BACK LINK ───────────────────────────────────── */
+.backBar {
+  background: var(--cream, #f5f3ef);
+  border-bottom: 1px solid var(--border-light, #e8e5e0);
+  padding: 0.75rem 0;
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--teal);
+  text-decoration: none;
+  transition: gap 0.15s;
+}
+
+.backLink:hover {
+  gap: 0.625rem;
+}
+
+.backArrow {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+/* ── TWO-COLUMN LAYOUT ───────────────────────────── */
+.layout {
+  padding: 4rem 0 6rem;
+  background: var(--white);
+}
+
+.layoutInner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 4rem;
+  align-items: start;
+}
+
+@media (max-width: 1023px) {
+  .layoutInner {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .layoutInner {
+    padding: 0 2.5rem;
+  }
+}
+
+/* ── PROSE (main content) ────────────────────────── */
+.prose {
+  max-width: 720px;
+  min-width: 0;
+}
+
+.sectionH2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  font-weight: 400;
+  color: var(--text-primary);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin: 2.5rem 0 1rem;
+}
+
+.sectionH2:first-child {
+  margin-top: 0;
+}
+
+.bodyP {
+  font-size: 1.0625rem;
+  line-height: 1.85;
+  color: var(--text-secondary);
+  margin-bottom: 1.25rem;
+}
+
+.bodyP:last-child {
+  margin-bottom: 0;
+}
+
+.bodyList {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.bodyList li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.875rem;
+  padding: 0.75rem 1rem;
+  background: var(--cream, #f5f3ef);
+  border-radius: 8px;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.bodyList li::before {
+  content: '';
+  display: block;
+  width: 6px;
+  min-width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--teal);
+  margin-top: 0.5em;
+  flex-shrink: 0;
+}
+
+.bodyOL {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  counter-reset: body-ol;
+}
+
+.bodyOL li {
+  counter-increment: body-ol;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.875rem;
+  padding: 0.75rem 1rem;
+  background: var(--cream, #f5f3ef);
+  border-radius: 8px;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.bodyOL li::before {
+  content: counter(body-ol);
+  display: block;
+  min-width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: var(--teal);
+  color: var(--white);
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 0.1em;
+}
+
+.bodyBlock {
+  margin-bottom: 1.5rem;
+}
+
+.bodyBlockHeader {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.bodyBlockText {
+  font-size: 1.0625rem;
+  line-height: 1.85;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.inlineLink {
+  color: var(--teal);
+  text-decoration: underline;
+  text-decoration-color: rgba(13, 148, 136, 0.4);
+  text-underline-offset: 3px;
+  font-weight: 500;
+}
+
+.inlineLink:hover {
+  text-decoration-color: var(--teal);
+}
+
+/* ── CALLOUT BOX ─────────────────────────────────── */
+.callout {
+  margin-top: 3rem;
+  padding: 1.75rem 2rem;
+  background: rgba(13, 148, 136, 0.05);
+  border: 1px solid rgba(13, 148, 136, 0.2);
+  border-radius: 16px;
+}
+
+.calloutTitle {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.calloutDesc {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin-bottom: 1.25rem;
+}
+
+.calloutBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.625rem 1.25rem;
+  background: var(--teal);
+  color: var(--white);
+  text-decoration: none;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background 0.15s;
+}
+
+.calloutBtn:hover {
+  background: var(--teal-light);
+}
+
+/* ── SIDEBAR ─────────────────────────────────────── */
+.sidebar {
+  position: sticky;
+  top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media (max-width: 1023px) {
+  .sidebar {
+    position: static;
+  }
+}
+
+.pillarCard {
+  padding: 1.5rem;
+  background: var(--black);
+  border-radius: 16px;
+  text-decoration: none;
+  display: block;
+  transition: opacity 0.15s;
+}
+
+.pillarCard:hover {
+  opacity: 0.9;
+}
+
+.pillarCardLabel {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--teal-light);
+  display: block;
+  margin-bottom: 0.625rem;
+}
+
+.pillarCardTitle {
+  font-family: var(--font-display);
+  font-size: 1.0625rem;
+  font-weight: 400;
+  color: var(--white);
+  line-height: 1.35;
+  margin-bottom: 0.5rem;
+}
+
+.pillarCardDesc {
+  font-size: 0.875rem;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0 0 1rem;
+}
+
+.pillarCardArrow {
+  font-size: 0.875rem;
+  color: var(--teal-light);
+}
+
+.relatedPosts {
+  padding: 1.5rem;
+  background: var(--cream, #f5f3ef);
+  border-radius: 16px;
+  border: 1px solid var(--border-light, #e8e5e0);
+}
+
+.relatedPostsLabel {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.relatedPostList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.relatedPostLink {
+  display: block;
+  font-size: 0.9375rem;
+  line-height: 1.45;
+  color: var(--text-primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.15s;
+}
+
+.relatedPostLink:hover {
+  color: var(--teal);
+}
