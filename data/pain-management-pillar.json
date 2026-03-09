@@ -1,0 +1,161 @@
+{
+  "slug": "pain-management",
+  "name": "Pain Management",
+  "pageType": "pillar",
+  "wordCount": 3200,
+  "meta": {
+    "title": "Pain Management Practice Software | RTM, Prior Auth & Patient Flow | clinIQ",
+    "description": "Complete guide to pain management clinic operations. RTM billing ($12K/month), prior auth automation, procedure room turnover, controlled substance compliance. Used by interventional pain practices nationwide.",
+    "keywords": ["pain management software", "interventional pain practice management", "pain clinic RTM billing", "pain management prior authorization", "chronic pain patient flow"]
+  },
+  "hero": {
+    "h1": "Pain Management Practice Software",
+    "subhead": "RTM billing. Prior auth automation. Procedure room efficiency. Controlled substance compliance. Everything interventional pain practices need to capture revenue, reduce administrative burden, and stay compliant.",
+    "stats": [
+      { "value": "$12K+", "label": "monthly RTM revenue (100 patients)" },
+      { "value": "56 min", "label": "recovered per procedure day" },
+      { "value": "90%+", "label": "first-time prior auth approval" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "pain-practice-challenges", "title": "The Pain Practice Revenue Problem" },
+    { "id": "rtm-billing", "title": "RTM Billing for Chronic Pain" },
+    { "id": "prior-auth", "title": "Prior Authorization & LOMN" },
+    { "id": "procedure-efficiency", "title": "Procedure Room Efficiency" },
+    { "id": "patient-flow", "title": "Patient Flow Management" },
+    { "id": "compliance", "title": "Controlled Substance Compliance" },
+    { "id": "implementation", "title": "Implementation & ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "pain-practice-challenges",
+      "h2": "The Pain Management Revenue Problem",
+      "content": "Interventional pain practices face a unique operational challenge: high clinical complexity, heavy regulatory burden, and reimbursement that doesn't match the work involved.\n\nThe average pain management physician spends 45% of their day on administrative tasks. Prior authorizations for injections take 20-30 minutes each. Controlled substance compliance — PDMP checks, urine drug screens, treatment agreements — adds another layer. Meanwhile, procedure room utilization rarely exceeds 70% because of turnover inefficiencies nobody is measuring.\n\nThe result: practices leave $150,000-300,000 per year on the table through a combination of unbilled RTM, denied procedures, and lost procedure slots.\n\nThis guide covers the operational systems that capture that revenue."
+    },
+    {
+      "id": "rtm-billing",
+      "h2": "RTM Billing for Chronic Pain: $120-150 Per Patient Per Month",
+      "content": "Remote Therapeutic Monitoring (RTM) is the single largest untapped revenue opportunity for pain practices. Unlike Remote Patient Monitoring (RPM), which requires physiological devices, RTM covers non-physiological data — exactly what pain practices already collect.\n\n**What qualifies as RTM for pain management:**\n\nPain scores and functional status reporting. Medication adherence tracking. Activity limitations. Sleep quality. Response to treatment changes. Your chronic pain patients already report this information between visits — through calls, portal messages, or at check-in. RTM makes it billable.\n\n**The CPT codes:**\n\n• 98975: RTM device supply and setup (one-time per episode)\n• 98977: RTM device supply with scheduled recordings (monthly)\n• 98980: RTM treatment management, first 20 minutes (monthly)\n• 98981: RTM treatment management, each additional 20 minutes\n\nMost pain practices bill 98977 + 98980 monthly, yielding $120-150 per patient depending on payer mix.\n\n**The math for a typical practice:**\n\n100 chronic pain patients enrolled in RTM × $120/month = $12,000/month = $144,000/year\n\nThat's revenue for work your clinical team is already doing. The challenge is documentation and time tracking — which is where most practices fail to capture RTM.\n\n**What clinIQ does for RTM:**\n\nPatient-facing app for pain scores, medication logging, and functional status. No hardware required — patients use their phones. Every interaction timestamped toward the 20-minute billing threshold. Provider dashboard showing who's enrolled, who's billable this month, and who needs clinical attention. Clean documentation that survives payer audits.\n\n**Common RTM objections and reality:**\n\n*'Our patients won't use an app.'* Reality: Chronic pain patients are highly engaged. They want to communicate between visits. Enrollment rates above 70% are typical with proper onboarding.\n\n*'We don't have time to review the data.'* Reality: You're already reviewing it — through calls and portal messages. RTM structures and documents what you're doing.\n\n*'Payers will deny it.'* Reality: Medicare and most commercial payers cover RTM. Denial rates below 5% with proper documentation.\n\n**Related: [RTM Billing for Pain Management: Complete CPT Code Guide](/blog/rtm-billing-pain-management-cpt-codes)**"
+    },
+    {
+      "id": "prior-auth",
+      "h2": "Prior Authorization & Letter of Medical Necessity",
+      "content": "Prior authorization is the administrative tax on interventional pain. Epidural steroid injections, facet joint injections, radiofrequency ablation, spinal cord stimulator trials — every procedure requires auth, and every auth requires documentation.\n\n**The prior auth burden in pain management:**\n\nThe average pain practice submits 50-100 prior auth requests per month. Each request takes 15-30 minutes to prepare and submit. Denial rates run 15-25% on first submission. Appeals take another 30-60 minutes and delay patient care by weeks.\n\nThe total administrative cost: 25-50 hours per month of staff time, plus lost revenue from denials that aren't appealed and authorizations that expire before scheduling.\n\n**Why pain management auths get denied:**\n\n1. Insufficient conservative care documentation — payer claims patient hasn't tried enough non-interventional treatment\n2. Missing imaging correlation — MRI findings don't match requested injection level\n3. Step therapy requirements — payer requires ESI before RFA, or medial branch blocks before RFA\n4. Incomplete clinical documentation — diagnosis codes don't support medical necessity\n\n**Letter of Medical Necessity (LOMN) for pain procedures:**\n\nEvery denied auth and many initial requests require a Letter of Medical Necessity. The typical LOMN process:\n\n1. Pull patient chart and review history\n2. Document conservative care (PT, medications, prior injections)\n3. Summarize imaging findings\n4. Explain medical necessity for requested procedure\n5. Write the letter (or dictate and have staff transcribe)\n6. Review, sign, submit\n\nTime: 20-45 minutes per letter. For a busy practice, that's 10-20 hours per month on LOMN alone.\n\n**What clinIQ does for prior auth:**\n\nAuth status tracking for every patient, every procedure. Pending, submitted, approved, denied, appealed — visible without calling the payer. Expiration alerts before you lose the auth. LOMN templates for common pain procedures — epidural, facet, RFA, SCS, trigger point — auto-populated from patient chart. Conservative care history pulled automatically. Provider reviews, edits, signs. Five minutes instead of thirty.\n\n**The LOMN template library:**\n\nclinIQ includes LOMN templates for:\n• Cervical, thoracic, and lumbar epidural steroid injections\n• Facet joint injections and medial branch blocks\n• Radiofrequency ablation (cervical and lumbar)\n• Spinal cord stimulator trial and permanent implant\n• Sacroiliac joint injections\n• Trigger point injections\n• Peripheral nerve blocks\n\nEach template includes payer-specific language for major insurers. Conservative care documentation, imaging findings, and prior procedure history auto-populate from the patient record.\n\n**Related: [Pain Management Prior Auth: Avoiding Common Denial Reasons](/blog/pain-management-prior-auth-denials)**"
+    },
+    {
+      "id": "procedure-efficiency",
+      "h2": "Procedure Room Efficiency: Recovering Lost Revenue",
+      "content": "Interventional pain is a procedure-driven specialty. Revenue correlates directly with procedure volume. Yet most practices have no visibility into what limits their volume.\n\n**The procedure day math:**\n\nTypical pain practice procedure day: 7am-12pm, 8-10 injection slots.\n\nAt 15-minute turnover between cases:\n8 procedures × 15 minutes = 120 minutes of turnover time\n\nAt 8-minute turnover:\n8 procedures × 8 minutes = 64 minutes of turnover time\n\nDifference: 56 minutes — enough for one additional procedure.\n\nAt $800-1,500 per injection, that's $800-1,500 per procedure day. Over 200 procedure days per year: $160,000-300,000 in recoverable revenue.\n\n**Where turnover time goes:**\n\n• Room cleaning and setup: 3-5 minutes (irreducible)\n• Patient positioning and prep: 3-5 minutes (reducible with better flow)\n• Waiting for next patient: 5-10 minutes (reducible with visibility)\n• Provider waiting for information: 2-5 minutes (eliminable with systems)\n\nThe biggest waste isn't in the room — it's in the gaps. The room is ready, but the next patient isn't in pre-op. Or the patient is in pre-op, but consent isn't signed. Or consent is signed, but the provider doesn't know the patient is ready.\n\n**What clinIQ does for procedure efficiency:**\n\nReal-time room status visible to everyone: occupied, turnover, ready. Pre-op checklist visibility: patient checked in, consent signed, IV placed, patient in pre-op. Turnover timer that starts automatically when patient exits and stops when next patient enters. Bottleneck detection: 'Room 2 ready for 8 minutes, next patient still in waiting room.'\n\n**Measuring what matters:**\n\nclinIQ tracks:\n• Average turnover time by room, by day, by MA\n• First case on-time start rate\n• Cases per procedure day\n• Cancellation and no-show rates\n• Pre-op bottleneck frequency\n\nYou can't improve what you don't measure. Most practices have never measured turnover time because they had no way to capture it.\n\n**Related: [Procedure Room Turnover: Benchmarks for Pain Management](/blog/procedure-room-turnover-pain-management)**"
+    },
+    {
+      "id": "patient-flow",
+      "h2": "Patient Flow Management for Pain Clinics",
+      "content": "Pain management visits are operationally complex. A 'routine follow-up' actually involves:\n\n• Check-in and insurance verification\n• Vital signs\n• Urine drug screen collection\n• MA interview (pain scores, medication review, functional status)\n• PDMP check\n• Provider assessment\n• Treatment planning\n• Prescription handling\n• Checkout and scheduling\n\nThat's 30-45 minutes for a visit the schedule calls 15-20 minutes. When the schedule doesn't match reality, waiting rooms fill, patients complain, and providers run behind all day.\n\n**The visibility problem:**\n\nIn most pain practices, nobody knows where patients are. The front desk knows who checked in. The MA knows who they roomed. The provider knows who they're seeing. Nobody has the full picture.\n\nResult: MAs walk the hall asking 'is my patient ready?' Providers walk to the front desk asking 'who's next?' Patients sit in rooms waiting while staff searches for them.\n\n**What clinIQ does for patient flow:**\n\nStage-based tracking from check-in through checkout. Every patient's current stage visible on a shared board. Queue visibility for each role — MA sees their patients, provider sees theirs, front desk sees everyone.\n\nWait time tracking with alerts. Patient checked in 20 minutes ago, still in waiting room? Alert. Patient in room for 15 minutes, MA not assigned? Alert.\n\nThe board doesn't require manual updates. Check-in happens through kiosk or staff. Rooming updates when MA marks vitals complete. Stage transitions flow automatically based on workflow configuration.\n\n**Clinic vs procedure day workflows:**\n\nPain practices run two different operations: clinic days (office visits, medication management, new patient evaluations) and procedure days (injections, implants, trials). The workflows are different.\n\nclinIQ supports both. Clinic day stages: Check-in → Vitals → UDS → MA → Provider → Checkout. Procedure day stages: Check-in → Pre-op → Procedure Room → Recovery → Discharge. Same system, different configurations."
+    },
+    {
+      "id": "compliance",
+      "h2": "Controlled Substance Compliance",
+      "content": "Pain management operates under scrutiny that other specialties don't face. DEA registration, state medical board oversight, PDMP requirements, urine drug screen protocols, treatment agreement compliance. The administrative burden is substantial.\n\nclinIQ doesn't replace your PDMP portal — that's state-mandated and must be accessed directly. What clinIQ does is track that compliance steps happened and surface gaps before they become problems.\n\n**Compliance tracking in clinIQ:**\n\n• Treatment agreement status: signed, expired, needs renewal\n• UDS status: ordered, collected, resulted, reviewed\n• PDMP check: documented as completed (actual check happens in state portal)\n• Pill count: scheduled, completed, documented\n• Prescription monitoring: controlled substance prescriptions logged\n\n**Workflow integration:**\n\nCompliance checks appear as stage requirements. Before the provider stage, the system verifies: UDS collected? Treatment agreement current? PDMP check documented? If something is missing, it surfaces — before the encounter, not after.\n\n**Audit trail:**\n\nEvery compliance event timestamped and attributed. When the DEA or medical board asks 'how do you ensure PDMP checks happen?' you have a documented workflow with audit trail, not 'we tell everyone to do it.'"
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI Timeline",
+      "content": "Most practice management implementations take 3-6 months and require workflow redesign. clinIQ is different — it's an operational layer that works with your existing EHR and workflows.\n\n**Week 1: Discovery and Configuration**\n\nWe map your current workflows — clinic days, procedure days, check-in process, MA workflow, provider preferences. clinIQ is configured to match how you actually work, not how a consultant thinks you should work.\n\n**Week 2: Training and Parallel Testing**\n\nStaff training by role. Front desk learns check-in. MAs learn the patient flow board. Providers learn their dashboard and RTM review. Most staff are comfortable within 1-2 hours. We run parallel to your existing process for validation.\n\n**Week 3: Go-Live with Support**\n\nLive operation with clinIQ team available for questions and adjustments. Real-time monitoring to identify issues. Configuration tweaks based on actual usage.\n\n**Week 4: Optimization**\n\nRTM enrollment ramping. Turnover tracking producing data. Prior auth visibility active. First billing cycle for RTM.\n\n**ROI timeline:**\n\nMonth 1: RTM billing begins, first procedure slots recovered. Most practices see positive ROI in month 1.\n\nMonth 3: Full RTM enrollment, turnover optimization producing measurable gains, prior auth efficiency documented.\n\nMonth 6: Steady state operations, $10,000-20,000/month in combined RTM revenue and recovered procedure capacity.\n\n**Investment:**\n\n• Starter: $249/month — Check-in, patient flow, basic analytics\n• Professional: $499/month — Full suite including RTM, prior auth, analytics\n• Implementation: $750 one-time\n• EHR Integration: Custom quote based on EHR and scope"
+    },
+    {
+      "id": "integration",
+      "h2": "EHR Integration",
+      "content": "clinIQ integrates with — not replaces — your EHR. Your EHR remains the clinical record. clinIQ handles operations: patient flow, RTM documentation, prior auth tracking.\n\n**Current integrations:**\n\n• eClinicalWorks: Bidirectional patient data, appointment sync, documentation push\n• Athenahealth: Patient demographics, scheduling, clinical summary\n• Allscripts: Patient data, appointment integration\n• Custom integration available for other EHRs via HL7/FHIR\n\n**What flows between systems:**\n\nFrom EHR to clinIQ: Patient demographics, appointment schedule, relevant clinical data for LOMN generation.\n\nFrom clinIQ to EHR: RTM documentation, prior auth status, patient flow timestamps (where EHR supports).\n\n**Standalone operation:**\n\nclinIQ can operate standalone without EHR integration for practices that want flow visibility without integration complexity. RTM and prior auth features work independently."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How much RTM revenue can we actually capture?",
+      "a": "Most pain practices see $100-150 per enrolled patient per month (CPT 98977 + 98980). With 100 chronic pain patients enrolled, that's $10,000-15,000/month. The clinical work is already happening — clinIQ captures it as billable RTM with proper documentation and time tracking."
+    },
+    {
+      "q": "Does clinIQ generate letters of medical necessity?",
+      "a": "Yes. LOMN templates for epidural, facet, RFA, SCS, trigger point, and other common pain procedures. Templates auto-populate from patient data — conservative care history, imaging findings, prior procedures, diagnosis codes. Provider reviews, edits, and signs. Five minutes instead of thirty."
+    },
+    {
+      "q": "How do you track prior auth status?",
+      "a": "Every auth request tracked from submission to decision. Status updates logged (pending, info requested, approved, denied, appealed). Expiration alerts trigger before authorization lapses. No more calling payers to check status — it's in the system."
+    },
+    {
+      "q": "Does this replace our EHR?",
+      "a": "No. clinIQ is an operations layer. Your EHR handles clinical documentation. We handle patient flow, RTM billing, and prior auth visibility. We integrate with major EHRs — we don't replace them."
+    },
+    {
+      "q": "How do you handle PDMP compliance?",
+      "a": "clinIQ doesn't replace your PDMP portal — that's state-mandated. We track that the PDMP check was completed and document it as part of the visit workflow. Same for UDS, treatment agreements, and pill counts. The system ensures compliance steps happen and creates an audit trail."
+    },
+    {
+      "q": "What's the implementation timeline?",
+      "a": "Two weeks from contract to go-live. Week 1: workflow mapping and configuration. Week 2: training and parallel testing. Week 3: live with support. No six-month implementations. No workflow redesign consultants."
+    },
+    {
+      "q": "How long until we see ROI?",
+      "a": "Most practices see positive ROI in month one. One recovered procedure slot per week covers Professional pricing. RTM billing on 50 patients covers it twice over. By month 3, the system is generating $10,000-20,000/month in combined revenue recovery."
+    },
+    {
+      "q": "Do you work with ASCs or hospital-based practices?",
+      "a": "Yes. Configuration differs based on setting — office-based, ASC, or hospital outpatient. Procedure tracking, patient flow, and RTM work across settings. Prior auth requirements may differ by facility type."
+    }
+  ],
+  "cta": {
+    "headline": "See the revenue you're missing",
+    "subhead": "15-minute demo. We'll show you RTM revenue, procedure room recovery, and prior auth tracking configured for your pain practice.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate Your RTM Revenue", "href": "/resources/rtm-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "$144K", "label": "annual RTM revenue (100 patients)" },
+      { "value": "$160K+", "label": "annual procedure capacity recovered" },
+      { "value": "2 weeks", "label": "implementation timeline" }
+    ],
+    "testimonial": {
+      "quote": "We were leaving $15,000 a month on the table between unbilled RTM and lost procedure slots. clinIQ paid for itself in week one.",
+      "attribution": "Medical Director",
+      "practice": "Interventional Pain Practice, 3 physicians",
+      "location": "Colorado"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "blog",
+      "title": "RTM Billing for Pain Management: Complete CPT Code Guide",
+      "href": "/blog/rtm-billing-pain-management-cpt-codes",
+      "description": "Step-by-step guide to billing CPT 98975, 98977, 98980, and 98981 for chronic pain patients."
+    },
+    {
+      "type": "blog",
+      "title": "Pain Management Prior Auth: Avoiding Common Denial Reasons",
+      "href": "/blog/pain-management-prior-auth-denials",
+      "description": "The top 5 denial reasons for pain procedures and how to prevent them."
+    },
+    {
+      "type": "blog",
+      "title": "Procedure Room Turnover: Benchmarks for Pain Management",
+      "href": "/blog/procedure-room-turnover-pain-management",
+      "description": "What's normal turnover time? How do top practices achieve 8-minute turns?"
+    },
+    {
+      "type": "resource",
+      "title": "RTM Revenue Calculator",
+      "href": "/resources/rtm-calculator",
+      "description": "Calculate your practice's RTM revenue potential based on patient volume and payer mix."
+    }
+  ],
+  "schema": {
+    "type": "SoftwareApplication",
+    "applicationCategory": "Medical Practice Management Software",
+    "operatingSystem": "Web-based",
+    "offers": {
+      "price": "249",
+      "priceCurrency": "USD",
+      "priceValidUntil": "2026-12-31"
+    }
+  }
+}
