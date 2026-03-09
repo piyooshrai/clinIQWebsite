@@ -83,30 +83,24 @@ export default function OphthalmologyPage() {
         {/* ── MARQUEE ── */}
         <div className={s.marquee} aria-hidden="true">
           <div className={s.marqueeTrack}>
-            {[
-              'Dilation wait time tracking',
-              'Imaging machine utilization board',
-              'Variable visit length support',
-              'Multi-tech coordination',
-              'Transparent wait time display',
-              'Dilation-to-provider handoff automation',
-              'Imaging bottleneck detection',
-              'Real-time flow across all rooms',
-              'Dilation wait time tracking',
-              'Imaging machine utilization board',
-              'Variable visit length support',
-              'Multi-tech coordination',
-              'Transparent wait time display',
-              'Dilation-to-provider handoff automation',
-              'Imaging bottleneck detection',
-              'Real-time flow across all rooms',
-            ].reduce<React.ReactNode[]>((acc, item, i) => {
-              if (i > 0) acc.push(<span key={`dot-${i}`} className={s.marqueeDot} />)
-              acc.push(<span key={item + i}>{item}</span>)
-              return acc
-            }, []).map((node, i) => (
-              <span key={i}>{node}</span>
-            ))}
+            {(() => {
+              const items = [
+                'Dilation wait time tracking',
+                'Imaging machine utilization board',
+                'Variable visit length support',
+                'Multi-tech coordination',
+                'Transparent wait time display',
+                'Dilation-to-provider handoff automation',
+                'Imaging bottleneck detection',
+                'Real-time flow across all rooms',
+              ]
+              return [...items, ...items].map((item, i) => (
+                <span key={i} className={s.marqueeContent}>
+                  {item}
+                  {i < items.length * 2 - 1 && <span className={s.marqueeDot}>·</span>}
+                </span>
+              ))
+            })()}
           </div>
         </div>
 
