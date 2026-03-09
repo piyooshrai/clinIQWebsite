@@ -19,6 +19,10 @@ import oncologyPillar from '@/data/oncology-pillar.json'
 import obgynPillar from '@/data/obgyn-pillar.json'
 import pediatricsPillar from '@/data/pediatrics-pillar.json'
 import entPillar from '@/data/ent-pillar.json'
+import ophthalmologyPillar from '@/data/ophthalmology-pillar.json'
+import podiatryPillar from '@/data/podiatry-pillar.json'
+import oralSurgeryPillar from '@/data/oral-surgery-pillar.json'
+import infusionCentersPillar from '@/data/infusion-centers-pillar.json'
 import { getSpecialtyPageData, getAllSpecialtyParams } from '@/lib/feature-specialty-data'
 import JsonSpecialtyPage from '@/components/templates/JsonSpecialtyPage'
 import PillarSpecialtyPage, { type PillarData } from '@/components/templates/PillarSpecialtyPage'
@@ -45,6 +49,10 @@ const pillarPages: Record<string, PillarData> = {
   'obgyn': obgynPillar as unknown as PillarData,
   'pediatrics': pediatricsPillar as unknown as PillarData,
   'ent': entPillar as unknown as PillarData,
+  'ophthalmology': ophthalmologyPillar as unknown as PillarData,
+  'podiatry': podiatryPillar as unknown as PillarData,
+  'oral-surgery': oralSurgeryPillar as unknown as PillarData,
+  'infusion-centers': infusionCentersPillar as unknown as PillarData,
 }
 
 // Filter out slugs handled by pillar pages to avoid duplicate routing

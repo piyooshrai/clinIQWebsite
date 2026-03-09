@@ -1,0 +1,122 @@
+{
+  "slug": "podiatry",
+  "name": "Podiatry",
+  "pageType": "pillar",
+  "wordCount": 2600,
+  "meta": {
+    "title": "Podiatry Practice Software | Diabetic Foot RTM & Wound Tracking | clinIQ",
+    "description": "Complete guide to podiatry practice operations. $7,800/month in diabetic foot RTM. Wound healing tracking. DME coordination. Surgical authorization.",
+    "keywords": ["podiatry practice software", "diabetic foot RTM", "podiatry practice management", "wound tracking software", "podiatry DME coordination"]
+  },
+  "hero": {
+    "h1": "Podiatry Practice Software",
+    "subhead": "Your diabetic foot patients need monitoring between visits — that's billable RTM. Your wounds need healing progression tracking. Your DME needs coordination. clinIQ captures podiatric RTM, tracks wound healing, and coordinates diabetic foot care.",
+    "stats": [
+      { "value": "$7,800+", "label": "monthly diabetic RTM" },
+      { "value": "100%", "label": "wound progression tracking" },
+      { "value": "Zero", "label": "DME coordination gaps" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "podiatry-challenges", "title": "The Podiatry Practice Challenge" },
+    { "id": "diabetic-rtm", "title": "Diabetic Foot RTM" },
+    { "id": "wound-tracking", "title": "Wound Healing Tracking" },
+    { "id": "dme-coordination", "title": "DME Coordination" },
+    { "id": "surgical-auth", "title": "Surgical Authorization" },
+    { "id": "implementation", "title": "Implementation & ROI" }
+  ],
+  "sections": [
+    {
+      "id": "podiatry-challenges",
+      "h2": "The Podiatry Practice Challenge",
+      "content": "Podiatry practices manage chronic conditions (diabetic foot, wounds) while performing high-volume procedures.\n\n**The diabetic foot opportunity:**\n\nDiabetic patients should monitor: daily foot inspections, new wounds or changes, pain or numbness, temperature differences. This monitoring prevents amputations.\n\n60 diabetic foot patients × $130/month = $7,800/month in RTM.\n\n**The wound tracking problem:**\n\nWounds heal over weeks to months. Progress must be documented: size, depth, drainage, tissue type. Without systematic tracking, healing stalls go unnoticed.\n\n**The DME coordination:**\n\nDiabetic shoes, custom orthotics, offloading devices — DME requires fitting, ordering, and delivery coordination."
+    },
+    {
+      "id": "diabetic-rtm",
+      "h2": "Diabetic Foot RTM: $130/Patient/Month",
+      "content": "Diabetic foot patients benefit from between-visit monitoring.\n\n**What patients track:**\n\n- Daily foot inspection (any new wounds, redness, swelling)\n- Pain or numbness changes\n- Temperature differences between feet\n- Compliance with offloading\n- Blood glucose (for correlation)\n\n**What clinIQ does:**\n\nDiabetic foot templates: Appropriate monitoring questions.\n\nAlert thresholds: New wound? Temperature asymmetry? Immediate alerts.\n\nPhoto submission: Patients can submit foot photos for review.\n\nCompliance tracking: Offloading device use, shoe wear, activity modification."
+    },
+    {
+      "id": "wound-tracking",
+      "h2": "Wound Healing Tracking",
+      "content": "Wound documentation is critical for outcomes and billing.\n\n**What clinIQ tracks:**\n\nWound measurements: Length, width, depth at each visit.\n\nHealing progression: Size reduction over time graphed.\n\nTissue characteristics: Granulation, slough, necrosis percentages.\n\nTreatment applied: Debridement, dressings, advanced therapies.\n\n**The clinical value:**\n\nWounds that aren't improving need treatment escalation. Systematic tracking identifies stalled wounds early."
+    },
+    {
+      "id": "dme-coordination",
+      "h2": "DME Coordination",
+      "content": "Podiatric DME includes:\n\n- Diabetic shoes and inserts (Medicare DMEPOS)\n- Custom orthotics\n- Offloading devices (CAM boots, total contact casts)\n- Compression stockings\n\n**What clinIQ does:**\n\nDME pipeline: Order → fitting → authorization → delivery → follow-up.\n\nDiabetic shoe program: Eligibility verification, fitting, ordering.\n\nOrthotic tracking: Mold/scan → fabrication → fitting → adjustment."
+    },
+    {
+      "id": "surgical-auth",
+      "h2": "Surgical Authorization",
+      "content": "Podiatric surgery (bunionectomy, hammertoe, reconstructive) often requires prior authorization.\n\n**What clinIQ does:**\n\nAuth tracking: Status per patient per procedure.\n\nConservative care documentation: Prior treatment documented for auth support.\n\nPre-op coordination: Labs, clearance, imaging tracked."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI Timeline",
+      "content": "**Week 1-2: Configuration and Training**\n\nDiabetic RTM, wound tracking, DME coordination configured.\n\n**ROI Math:**\n\nRTM revenue: 60 patients × $130/month = $7,800/month = $93,600/year\n\nWound tracking: Better outcomes, justified billing.\n\nDME coordination: Improved compliance and revenue capture.\n\n**Investment:**\n\nProfessional: $499/month\n\nImplementation: $750 one-time"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is diabetic foot RTM billable?",
+      "a": "Yes. Diabetic foot monitoring qualifies for RTM codes 98977 and 98980."
+    },
+    {
+      "q": "How do you track wound measurements?",
+      "a": "Length, width, depth entered at each visit. Healing progression graphed over time."
+    },
+    {
+      "q": "Does this work with diabetic shoe programs?",
+      "a": "Yes. Eligibility, fitting, ordering, and delivery tracked."
+    }
+  ],
+  "cta": {
+    "headline": "See diabetic RTM and wound tracking",
+    "subhead": "15-minute demo. Diabetic foot RTM, wound progression, DME coordination.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate Diabetic RTM Revenue", "href": "/resources/rtm-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "$94K", "label": "annual diabetic RTM" },
+      { "value": "100%", "label": "wound tracking" },
+      { "value": "Zero", "label": "DME gaps" }
+    ],
+    "testimonial": {
+      "quote": "We caught three pre-ulcerative lesions from patient photos. Three prevented amputations.",
+      "attribution": "Podiatrist",
+      "practice": "Podiatry practice, 2 physicians",
+      "location": "Nevada"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "blog",
+      "title": "Diabetic Foot RTM: Prevention Through Monitoring",
+      "href": "/blog/diabetic-foot-rtm",
+      "description": "Using RTM to prevent diabetic foot complications."
+    },
+    {
+      "type": "blog",
+      "title": "Wound Tracking: Documentation for Outcomes",
+      "href": "/blog/podiatry-wound-tracking",
+      "description": "Systematic wound measurement and healing progression."
+    },
+    {
+      "type": "blog",
+      "title": "Podiatric DME Coordination",
+      "href": "/blog/podiatric-dme-coordination",
+      "description": "Managing diabetic shoes, orthotics, and offloading devices."
+    }
+  ],
+  "schema": {
+    "type": "SoftwareApplication",
+    "applicationCategory": "Medical Practice Management Software",
+    "operatingSystem": "Web-based",
+    "offers": {
+      "price": "499",
+      "priceCurrency": "USD"
+    }
+  }
+}
