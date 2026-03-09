@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import specialtiesData from '@/data/specialties.json'
+import specialtiesData from '@/data/specialties-10-value-first.json'
 import { getSpecialtyPageData, getAllSpecialtyParams } from '@/lib/feature-specialty-data'
 import JsonSpecialtyPage from '@/components/templates/JsonSpecialtyPage'
 import SpecialtyPage from '@/components/templates/SpecialtyPage'
