@@ -3,105 +3,100 @@
     "slug": "pain-management",
     "name": "Pain Management",
     "meta": {
-      "title": "Pain Management Clinic Software | Prior Auth & Patient Flow | clinIQ",
-      "description": "Your injections bill $800-1,500 each. Your workflow is bleeding that margin. See how clinIQ fixes patient flow, prior auth, and RTM for pain management."
+      "title": "Pain Management Clinic Software | RTM Billing, Patient Flow & Prior Auth | clinIQ",
+      "description": "$12K/month in RTM revenue. 56 minutes recovered per procedure day. Prior auth tracking with LOMN templates. clinIQ for interventional pain practices."
     },
     "hero": {
-      "h1": "Your injections are profitable. Your workflow isn't.",
-      "subhead": "A single lumbar epidural steroid injection bills $800-1,500. Your interventional day could generate $15,000 in procedure revenue. But you're losing an hour to prior auth phone trees, thirty minutes to procedure room turnover that should take ten, and patients to a waiting room that hasn't updated its status since 9am."
+      "h1": "$12,000/month in RTM revenue. 56 minutes recovered per procedure day.",
+      "subhead": "Your chronic pain patients are already reporting symptoms between visits. Your procedure room turnover is already eating margin. Your staff is already writing letters of medical necessity. clinIQ turns all of that into revenue, capacity, and time."
     },
     "sections": [
       {
-        "id": "prior-auth",
-        "h2": "The prior auth death spiral",
-        "content": "Your MA submitted the authorization request on Monday. Aetna's portal shows 'in review.' It's Thursday. The patient is calling. You're calling. Nobody answers.\n\nWhen someone finally does, they need 'additional clinical documentation.' The MRI you already uploaded. The conservative care notes that are in the chart. The letter of medical necessity your physician dictated three days ago.\n\nYou resubmit. The clock resets. The patient's injection — the one that was supposed to happen tomorrow — gets pushed to next week. Or the week after. Or they give up and go somewhere else.\n\nThis isn't a scheduling problem. It's a visibility problem.\n\nYou have no idea where that auth request actually is. Which auths are expiring in 72 hours. Which ones were denied and need appeals. Which patients are cleared and ready to schedule.\n\nYour staff tracks this in spreadsheets. Or sticky notes. Or memory. When someone's out sick, the whole system breaks."
+        "id": "rtm-revenue",
+        "h2": "RTM revenue: $120/patient/month you're not billing",
+        "content": "Your chronic pain patients already track pain levels between visits. They report functional status. They tell you when medications aren't working.\n\nThat's Remote Therapeutic Monitoring. CPT 98980 and 98981. Billable.\n\nclinIQ RTM does this:\n\n• Patient app for pain scores, medication adherence, and functional status — no hardware required\n• Automatic time tracking toward the 20-minute billing threshold\n• Documentation that meets payer requirements — clean claims, fewer denials\n• Dashboard showing enrolled patients, billing status, and revenue by provider\n\nThe math: 100 chronic pain patients × $120/month = $12,000/month.\n\nThat's not new clinical work. Your physicians already review patient check-ins and adjust treatment. clinIQ captures it as billable RTM."
       },
       {
         "id": "procedure-turnover",
-        "h2": "Procedure days run on turnover time",
-        "content": "You've got 8 injection slots blocked from 7am to noon. That's your revenue window. Every minute of turnover between cases is margin you're not recovering.\n\nThe math:\n• 8 procedures × 15-minute turnover = 2 hours of dead time\n• 8 procedures × 8-minute turnover = 64 minutes of dead time\n• Difference: 56 minutes\n• One additional procedure slot: $800-1,500\n\nShaving 7 minutes off each turnover pays for your entire software stack.\n\nBut you can't optimize what you can't see. When did the last patient leave the procedure room? Is it cleaned and ready? Is the next patient checked in, consented, IV placed? Is the physician still dictating?\n\nWhiteboards don't update themselves. Your staff is too busy to update them. So you guess. You walk the hall. You ask around. You lose minutes you didn't know you were losing."
+        "h2": "Procedure room turnover: 56 minutes recovered per day",
+        "content": "You've got 8 injection slots from 7am to noon. Every minute of turnover between cases is margin you're not recovering.\n\n• 8 procedures × 15-minute turnover = 2 hours of dead time\n• 8 procedures × 8-minute turnover = 64 minutes of dead time\n• Difference: 56 minutes = one more injection = $800-1,500\n\nclinIQ Patient Flow does this:\n\n• Real-time room status: occupied, turning over, ready\n• Pre-op checklist visibility: Is the next patient checked in? Consented? IV placed?\n• Turnover timer: Starts automatically when patient leaves, stops when next patient enters\n• Bottleneck alerts: 'Room 2 ready, next patient not in pre-op' — intervene before you lose the slot\n\nYour MA isn't walking the hall asking 'is the room ready?' Your provider isn't waiting on information. Everyone sees the same board."
+      },
+      {
+        "id": "pre-auth-lomn",
+        "h2": "Prior auth + LOMN: Templates that write themselves",
+        "content": "Another epidural denied. Another letter of medical necessity to write. Another week your patient waits in pain.\n\nclinIQ Pre-Auth does this:\n\n• Status tracking: Pending, approved, denied, appealed — for every patient, every procedure\n• Expiration alerts: 'Auth expires in 72 hours, patient not yet scheduled' — before you lose it\n• LOMN templates: Pre-built for epidurals, facet injections, RFA, trigger points — auto-populated from patient chart\n• Appeal workflow: Denial reason captured, peer-to-peer scheduled, outcome logged\n\nYour staff stops calling payers to check status. The status is in the system. When something needs action, it surfaces.\n\nLOMN generation: Select procedure, select patient, generate letter. Conservative care history, imaging findings, failed treatments — pulled from the chart. Edit, sign, submit. Five minutes instead of thirty."
+      },
+      {
+        "id": "patient-flow",
+        "h2": "Patient flow: Everyone sees who's next",
+        "content": "Chronic pain visits aren't 15 minutes. They're vitals, UDS collection, MA interview, provider assessment, PDMP check, education, checkout. Thirty to forty-five minutes that your schedule calls a 'follow-up.'\n\nclinIQ Patient Flow does this:\n\n• Stage tracking: Check-in → Vitals → UDS → With MA → With Provider → Procedure → Recovery → Checkout\n• Wait time visibility: Patient checked in at 10:15, still in vitals at 10:32 — alert before they complain\n• Provider queue: Who's ready for me right now? How many waiting? No walking to the front desk to ask\n• MA queue: Which patients need me? Who's been waiting longest? Which rooms are open?\n\nNobody asks 'who's next?' because everyone can see it."
       },
       {
         "id": "controlled-substance",
-        "h2": "The controlled substance documentation burden",
-        "content": "PDMP checks. Treatment agreements. Urine drug screens. Pill counts. Random callbacks. State reporting requirements that changed six months ago and you're still not sure you're compliant.\n\nEvery opioid prescription is a liability event. Every patient is a documentation case file. And the documentation requirements were designed by people who've never run a clinic.\n\nYour physicians spend more time proving they're not drug dealers than treating pain.\n\nThe patient flow consequence: Chronic pain patients aren't simple visits. They're vitals, UDS collection, MA interview, provider assessment, prescription review, PDMP check, patient education, checkout scheduling. Thirty to forty-five minutes that your schedule template calls a 'follow-up.'\n\nWhen you can't see which stage each patient is in, the waiting room backs up. Patients who arrived at 10am are still waiting at 11:30. Not because you're slow — because you're invisible to yourself."
-      },
-      {
-        "id": "solution",
-        "h2": "What changes with real-time visibility",
-        "content": "Your front desk sees: Who's checked in. Who's waiting for vitals. Who's waiting for UDS results. Who's ready for provider. Who's in procedure prep. Who's in recovery. Who's ready for discharge.\n\nYour MA sees: Their patient queue, not everyone's. Who's been waiting longest. Which rooms are occupied, available, or need turnover. Alerts when someone's been in a stage too long.\n\nYour providers see: Who's ready for them right now. How many patients are in their queue. Procedure schedule status without walking to the suite.\n\nYour procedure suite sees: Room status in real-time. Next patient ready status. Recovery chair availability. Turnover timing automatically tracked.\n\nNobody asks 'who's next?' because everyone can see it."
-      },
-      {
-        "id": "pre-auth-tracking",
-        "h2": "Prior authorization tracking that doesn't require babysitting",
-        "content": "Submit the auth request. Attach the documentation. Track the status.\n\n• Pending — submitted, waiting for payer response\n• Info requested — payer needs something, here's what\n• Approved — valid until this date, here's the auth number\n• Denied — here's the reason, here's the appeal template\n• Expiring — this auth expires in 72 hours, patient not yet scheduled\n\nYour staff stops calling to check status. The status is in the system. When something needs action, it surfaces. When something's approved, the patient gets scheduled.\n\nAppeal tracking: First-level denial. Peer-to-peer requested. Scheduled for Thursday at 2pm with Dr. whoever from the payer. Your physician has the case summary in front of them. The call happens. The outcome is logged. The next step is clear.\n\nThis isn't automation magic. It's visibility into a process that currently lives in voicemails and sticky notes."
-      },
-      {
-        "id": "rtm",
-        "h2": "RTM revenue you're already earning but not billing",
-        "content": "Your chronic pain patients track their pain levels. They report functional status. They tell you about medication side effects between visits.\n\nThat's Remote Therapeutic Monitoring. CPT 98980 and 98981. Billable.\n\nThe requirements:\n• Patient-reported data (pain scores, function, medication adherence)\n• Reviewed by clinical staff\n• Treatment decisions informed by the data\n• 20 minutes of monitoring time per billing period\n\nYour physicians are already doing this. They're reviewing patient check-ins. They're adjusting medications based on reported symptoms. They're making clinical decisions between visits.\n\nThey're just not documenting it in a way that supports billing.\n\nRevenue impact: 100 chronic pain patients enrolled in RTM at $120/month average = $12,000/month in revenue you're currently leaving on the table.\n\nThat's not new work. It's billing for work you're already doing."
+        "h2": "Compliance workflows built into patient flow",
+        "content": "PDMP checks. Treatment agreements. Urine drug screens. Pill counts. Your physicians spend more time on documentation than treating pain.\n\nclinIQ doesn't replace your PDMP portal — that's state-mandated. But it tracks that the check happened:\n\n• UDS status visible at each stage: collected, resulted, reviewed\n• Compliance checklist per patient: treatment agreement signed, PDMP checked, pill count completed\n• Alert if compliance step is missing before provider encounter\n\nNothing gets missed. Nothing falls through the cracks. The audit trail builds itself."
       },
       {
         "id": "implementation",
-        "h2": "Implementation that doesn't require a consultant army",
-        "content": "You don't need a six-month implementation. You don't need workflow redesign consultants. You don't need to replace your EHR.\n\nWeek 1: We map your current workflow. Check-in process, vitals, UDS, provider visit, procedure flow, recovery, checkout. We configure clinIQ to match how you actually work, not how a template assumes you work.\n\nWeek 2: Staff training. Your front desk learns check-in. Your MAs learn the patient queue. Your providers learn their dashboard. Most staff are comfortable in under an hour.\n\nWeek 3: Go live with support. We're watching. You're asking questions. We're adjusting configuration based on real usage.\n\nWeek 4: You're running. Turnover times are tracked. Wait times are visible. Bottlenecks are surfacing before they become patient complaints."
+        "h2": "Live in two weeks, not six months",
+        "content": "Week 1: We map your workflow — clinic days, procedure days, injection observation. We configure clinIQ to match how you actually work.\n\nWeek 2: Staff training. Front desk learns check-in. MAs learn the queue. Providers learn their dashboard. Most staff are comfortable in an hour.\n\nWeek 3: Go live with support. We're watching, you're asking questions, we're adjusting.\n\nWeek 4: You're running. Turnover times are tracked. RTM is billing. Prior auths have visibility.\n\nNo EHR replacement. No workflow redesign consultants. No six-month implementation."
       }
     ],
     "workflow": {
-      "stages": ["CHECK-IN", "VITALS", "UDS COLLECTION", "WITH MA", "WITH PROVIDER", "PROCEDURE ROOM", "RECOVERY", "CHECKOUT"],
-      "note": "Chronic pain follow-ups skip procedure. Injection days skip extended provider visit. Your system needs to handle both."
+      "stages": ["CHECK-IN", "VITALS", "UDS", "WITH MA", "WITH PROVIDER", "PROCEDURE ROOM", "RECOVERY", "CHECKOUT"],
+      "note": "Clinic days and procedure days run different workflows. clinIQ handles both."
     },
-    "features": ["patient-flow", "pre-auth", "rtm", "analytics", "check-in"],
+    "features": ["rtm", "patient-flow", "pre-auth", "check-in", "analytics"],
     "pricing": {
       "show": true,
       "starter": "$249/month — Check-in, patient flow, basic analytics. One location.",
-      "professional": "$499/month — Everything. RTM billing, pre-authorization tracking, multi-location, priority support.",
+      "professional": "$499/month — Everything. RTM billing, prior auth tracking, multi-location, priority support.",
       "implementation": "$750 one-time — Workflow mapping, configuration, training, go-live support.",
-      "integration": "Custom quote — We integrate with eClinicalWorks, Athena, and others."
+      "integration": "Custom quote — eClinicalWorks, Athena, and other EHR integrations."
     },
     "faqs": [
       {
+        "q": "How much RTM revenue can we actually capture?",
+        "a": "Most pain practices see $100-150 per enrolled patient per month. 100 patients = $10,000-15,000/month. The work is already happening — clinIQ captures it as billable."
+      },
+      {
+        "q": "Does clinIQ generate letters of medical necessity?",
+        "a": "Yes. LOMN templates for common pain procedures auto-populate from patient charts. Conservative care history, imaging, failed treatments — pulled automatically. Edit, sign, submit."
+      },
+      {
+        "q": "How do you track prior auth status?",
+        "a": "Every auth request tracked from submission to decision. Pending, info requested, approved, denied, appealed. Expiration alerts before you lose the auth. No more calling to check status."
+      },
+      {
         "q": "Does this replace our EHR?",
-        "a": "No. clinIQ is an operations layer. Your EHR handles charts. We handle patient flow, check-in, and visibility. We integrate with your EHR — we don't replace it."
-      },
-      {
-        "q": "How do you handle procedure days vs clinic days?",
-        "a": "Different workflow templates for different day types. Procedure days show room status, turnover tracking, recovery chairs. Clinic days show standard patient flow. Same system, different views."
-      },
-      {
-        "q": "What about PDMP integration?",
-        "a": "We don't replace your PDMP check — that's state-mandated through specific portals. We track that the check was done as part of the visit workflow so nothing gets missed."
+        "a": "No. clinIQ is an operations layer. Your EHR handles charts. We handle patient flow, RTM, and prior auth visibility. We integrate — we don't replace."
       },
       {
         "q": "How long until we see ROI?",
-        "a": "Most pain practices see ROI in the first month. One recovered procedure slot per week pays for Professional. RTM billing on 50 patients covers it twice over."
-      },
-      {
-        "q": "Do you integrate with my fluoroscopy equipment?",
-        "a": "We don't integrate with imaging equipment directly. We track that the procedure happened, how long it took, and when the room was ready for the next patient. Your fluoro documentation stays in your EHR or imaging system."
+        "a": "Most practices see ROI in month one. One recovered procedure slot per week pays for Professional. RTM billing on 50 patients covers it twice over."
       }
     ],
     "cta": {
-      "headline": "See it for your clinic",
-      "subhead": "15-minute demo. Configured for pain management workflows. No pitch deck — just the product.",
+      "headline": "See the revenue you're missing",
+      "subhead": "15-minute demo. We'll show you RTM revenue, procedure room recovery, and prior auth tracking configured for pain management.",
       "primaryButton": { "label": "Request Demo", "href": "/demo" },
-      "secondaryButton": { "label": "See Pricing", "href": "/pricing" }
+      "secondaryButton": { "label": "Calculate Your RTM Revenue", "href": "/resources/rtm-calculator" }
     },
     "proof": {
       "stats": [
+        { "value": "$12K", "label": "monthly RTM revenue (100 patients)" },
         { "value": "56 min", "label": "recovered per procedure day" },
-        { "value": "$12K", "label": "monthly RTM revenue unlocked" },
-        { "value": "Days", "label": "to implement, not months" }
+        { "value": "5 min", "label": "LOMN generation vs 30 min manual" }
       ],
       "testimonial": {
-        "quote": "We added one procedure slot per day just from better turnover visibility. That's $6,000/week we were leaving on the table.",
+        "quote": "RTM paid for clinIQ in the first month. The prior auth tracking alone saved my MA 10 hours a week.",
         "attribution": "Medical Director, Interventional Pain Practice",
         "location": "Colorado"
       }
     },
     "resource": {
       "title": "RTM for Pain Management — Quick Start Kit",
-      "description": "Patient enrollment scripts, pain tracking templates, documentation guide, billing cheat sheet, and ROI calculator.",
+      "description": "Patient enrollment scripts, pain tracking templates, LOMN samples, and ROI calculator.",
       "href": "/resources/rtm-pain-management-kit"
     }
   }
