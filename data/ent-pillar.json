@@ -1,0 +1,123 @@
+{
+  "slug": "ent",
+  "name": "ENT / Otolaryngology",
+  "pageType": "pillar",
+  "wordCount": 2700,
+  "meta": {
+    "title": "ENT Practice Software | Audiology Coordination & In-Office Procedures | clinIQ",
+    "description": "Complete guide to ENT practice operations. Audiology and imaging coordination. In-office procedure optimization. Allergy program management. Hearing aid tracking.",
+    "keywords": ["ENT practice software", "otolaryngology practice management", "audiology coordination software", "ENT procedure scheduling", "allergy practice management"]
+  },
+  "hero": {
+    "h1": "ENT Practice Software",
+    "subhead": "Your audiology testing needs coordination. Your in-office procedures need efficiency. Your allergy program needs management. clinIQ coordinates ENT testing, optimizes procedures, and manages complex service lines.",
+    "stats": [
+      { "value": "25%", "label": "procedure efficiency gain" },
+      { "value": "50%", "label": "faster test-to-visit" },
+      { "value": "100%", "label": "allergy program visibility" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "ent-challenges", "title": "The ENT Practice Challenge" },
+    { "id": "audiology-coordination", "title": "Audiology Coordination" },
+    { "id": "procedure-optimization", "title": "In-Office Procedure Optimization" },
+    { "id": "allergy-program", "title": "Allergy Program Management" },
+    { "id": "surgical-coordination", "title": "Surgical Coordination" },
+    { "id": "implementation", "title": "Implementation & ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "ent-challenges",
+      "h2": "The ENT Practice Challenge",
+      "content": "ENT practices run multiple service lines simultaneously: clinic visits, audiology, in-office procedures, surgical scheduling, and often allergy services.\n\n**The testing coordination problem:**\n\nAudiograms, tympanometry, vestibular testing, CT sinuses, flexible laryngoscopy — testing generates significant volume. Results need to be available before clinical visits.\n\n**The procedure efficiency opportunity:**\n\nENT performs many in-office procedures: tube placement, balloon sinuplasty, in-office laryngoscopy, biopsies, allergy injections. Each requires room setup, equipment, and provider time.\n\n**The allergy service complexity:**\n\nAllergy testing, immunotherapy mixing, injection scheduling, reaction monitoring — allergy programs have their own operational requirements.\n\n**The surgical coordination:**\n\nENT surgery spans outpatient (tubes, tonsils, septoplasty) to complex (sinus surgery, head and neck oncology). Each has different authorization requirements."
+    },
+    {
+      "id": "audiology-coordination",
+      "h2": "Audiology Coordination",
+      "content": "Audiology testing is core to ENT practice but often poorly coordinated with physician visits.\n\n**What clinIQ does:**\n\nTest tracking pipeline: Audiogram ordered → scheduled → completed → reviewed → available for visit.\n\nPre-visit integration: When patient arrives for ENT visit, audiology results visible and reviewed.\n\nHearing aid coordination: For patients proceeding to hearing aids — fitting, adjustment, follow-up tracked.\n\nVestibular testing: VNG, rotary chair, VEMP — ordered and tracked through completion.\n\n**The efficiency gain:**\n\nENT sees patient, audiogram not done or not available, visit is partially wasted. With coordination, every ENT visit has necessary audiology data."
+    },
+    {
+      "id": "procedure-optimization",
+      "h2": "In-Office Procedure Optimization",
+      "content": "ENT performs high volumes of in-office procedures:\n\n- Flexible laryngoscopy\n- Nasal endoscopy\n- Ear procedures (tube placement, wax removal, biopsies)\n- Balloon sinuplasty\n- In-office excisions\n- Allergy testing\n\n**What clinIQ does:**\n\nProcedure room visibility: Room available, occupied, turnover. Equipment status.\n\nProcedure scheduling: Duration-appropriate scheduling. Balloon sinuplasty needs different time than cerumen removal.\n\nEquipment tracking: Scopes, procedure trays, specialized equipment — availability confirmed.\n\nConsent and preparation: Pre-procedure requirements verified before scheduling."
+    },
+    {
+      "id": "allergy-program",
+      "h2": "Allergy Program Management",
+      "content": "ENT allergy programs involve testing, immunotherapy, and ongoing injection management.\n\n**Allergy testing:**\n- Skin prick testing scheduling\n- Results documentation\n- Immunotherapy formulation\n\n**Injection program:**\n- Injection scheduling (weekly, biweekly, monthly)\n- Dose tracking and escalation\n- Reaction documentation\n- Vial expiration tracking\n\n**What clinIQ does:**\n\nInjection scheduling: Patient injection schedule visible. Missed injections flagged.\n\nDose tracking: Current dose, escalation protocol, next dose.\n\nVial management: Vial expiration tracking. Remix scheduling.\n\nReaction documentation: Post-injection monitoring documented."
+    },
+    {
+      "id": "surgical-coordination",
+      "h2": "Surgical Coordination",
+      "content": "ENT surgery ranges from quick outpatient procedures to complex oncologic resections.\n\n**What clinIQ does:**\n\nPre-op coordination: Labs, clearance, imaging, consent — tracked per case.\n\nAuthorization tracking: Sinus surgery, septoplasty, tonsillectomy — auth status visible.\n\nPost-op tracking: Post-operative visits scheduled and tracked."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI Timeline",
+      "content": "**Week 1-2: Configuration and Training**\n\nAudiology coordination, procedure scheduling, allergy program configured. Staff trained.\n\n**ROI Timeline:**\n\nMonth 1: Testing coordination immediate. Procedure visibility active.\n\nMonth 3: Measurable efficiency improvements. Allergy program organized.\n\n**ROI Math:**\n\nProcedure efficiency: 1-2 additional procedures/day × revenue = significant annual impact\n\nAllergy program: Systematic management improves retention and compliance\n\n**Investment:**\n\nProfessional: $499/month\n\nImplementation: $750 one-time"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does this work with audiology practices?",
+      "a": "Yes. Whether audiology is in-house or referred, testing coordination applies."
+    },
+    {
+      "q": "How do you track allergy injections?",
+      "a": "Injection schedule per patient. Dose escalation protocol. Vial expiration. Reaction documentation."
+    },
+    {
+      "q": "What about hearing aid programs?",
+      "a": "Hearing aid fitting, adjustment, and follow-up appointments tracked."
+    }
+  ],
+  "cta": {
+    "headline": "See ENT testing coordination and procedure optimization",
+    "subhead": "15-minute demo. Audiology coordination, procedure scheduling, allergy program, surgical tracking.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "See ENT Workflow", "href": "/resources/ent-workflow" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "25%", "label": "procedure efficiency" },
+      { "value": "50%", "label": "faster test coordination" },
+      { "value": "100%", "label": "allergy program visibility" }
+    ],
+    "testimonial": {
+      "quote": "Patients used to arrive for ENT visits without their audiograms. Now everything is coordinated.",
+      "attribution": "ENT Practice Manager",
+      "practice": "ENT practice, 3 physicians",
+      "location": "Colorado"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "blog",
+      "title": "ENT Audiology Coordination",
+      "href": "/blog/ent-audiology-coordination",
+      "description": "Coordinating audiology testing with physician visits."
+    },
+    {
+      "type": "blog",
+      "title": "In-Office ENT Procedures: Efficiency Guide",
+      "href": "/blog/ent-procedure-efficiency",
+      "description": "Optimizing in-office ENT procedure throughput."
+    },
+    {
+      "type": "blog",
+      "title": "ENT Allergy Program Management",
+      "href": "/blog/ent-allergy-program",
+      "description": "Managing testing, immunotherapy, and injection programs."
+    }
+  ],
+  "schema": {
+    "type": "SoftwareApplication",
+    "applicationCategory": "Medical Practice Management Software",
+    "operatingSystem": "Web-based",
+    "offers": {
+      "price": "499",
+      "priceCurrency": "USD"
+    }
+  }
+}

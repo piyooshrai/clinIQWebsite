@@ -18,6 +18,7 @@ import nephrologyPillar from '@/data/nephrology-pillar.json'
 import oncologyPillar from '@/data/oncology-pillar.json'
 import obgynPillar from '@/data/obgyn-pillar.json'
 import pediatricsPillar from '@/data/pediatrics-pillar.json'
+import entPillar from '@/data/ent-pillar.json'
 import { getSpecialtyPageData, getAllSpecialtyParams } from '@/lib/feature-specialty-data'
 import JsonSpecialtyPage from '@/components/templates/JsonSpecialtyPage'
 import PillarSpecialtyPage, { type PillarData } from '@/components/templates/PillarSpecialtyPage'
@@ -43,6 +44,7 @@ const pillarPages: Record<string, PillarData> = {
   'oncology': oncologyPillar as unknown as PillarData,
   'obgyn': obgynPillar as unknown as PillarData,
   'pediatrics': pediatricsPillar as unknown as PillarData,
+  'ent': entPillar as unknown as PillarData,
 }
 
 // Filter out slugs handled by pillar pages to avoid duplicate routing
