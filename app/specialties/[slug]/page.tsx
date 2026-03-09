@@ -7,7 +7,7 @@ import SpecialtyPage from '@/components/templates/SpecialtyPage'
 type JsonSpecialty = (typeof specialtiesData)[number]
 
 export function generateStaticParams() {
-  const jsonSlugs = new Set(specialtiesData.map((s) => s.slug))
+  const jsonSlugs = new Set<string>(specialtiesData.map((s) => s.slug))
   const generatedSlugs = getAllSpecialtyParams()
     .map((p) => p.specialtySlug)
     .filter((slug) => !jsonSlugs.has(slug))
