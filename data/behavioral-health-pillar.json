@@ -1,0 +1,148 @@
+{
+  "slug": "behavioral-health",
+  "name": "Behavioral Health",
+  "pageType": "pillar",
+  "wordCount": 2800,
+  "meta": {
+    "title": "Behavioral Health Practice Software | ABA Scheduling, Crisis Flow & RTM | clinIQ",
+    "description": "Complete guide to behavioral health practice operations. ABA block scheduling. Crisis walk-in flow. Variable session length management. Behavioral health RTM billing.",
+    "keywords": ["behavioral health software", "ABA scheduling software", "behavioral health practice management", "crisis walk-in management", "behavioral health RTM"]
+  },
+  "hero": {
+    "h1": "Behavioral Health Practice Software",
+    "subhead": "Behavioral health runs on variable sessions, mixed modalities, and a patient population that sometimes needs to be seen today. ABA blocks look different from therapy hours. Crisis walk-ins can't wait. clinIQ manages the operational complexity of behavioral health without adding to it.",
+    "stats": [
+      { "value": "Zero", "label": "crisis patients left waiting" },
+      { "value": "100%", "label": "ABA schedule visibility" },
+      { "value": "$7,800+", "label": "monthly behavioral health RTM" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "bh-challenges", "title": "The Behavioral Health Challenge" },
+    { "id": "aba-scheduling", "title": "ABA Block Scheduling" },
+    { "id": "crisis-flow", "title": "Crisis Walk-In Flow" },
+    { "id": "variable-sessions", "title": "Variable Session Management" },
+    { "id": "bh-rtm", "title": "Behavioral Health RTM" },
+    { "id": "privacy", "title": "Privacy and Confidentiality" },
+    { "id": "implementation", "title": "Implementation & ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "bh-challenges",
+      "h2": "The Behavioral Health Challenge",
+      "content": "Behavioral health practices face operational challenges that most practice management software wasn't designed for.\n\n**The scheduling complexity:**\n\nBehavioral health isn't 15-minute or 30-minute slots. Sessions are 45 minutes, 50 minutes, 90 minutes. Groups are 60-90 minutes with 6-12 participants. ABA sessions are 2-4 hours. The scheduling grid doesn't map to standard appointment blocks.\n\n**The ABA complexity:**\n\nApplied Behavior Analysis practices add another layer: RBT schedules, supervision requirements, session notes per behavior technician, and authorization tracking by client for authorized hours.\n\n**The crisis reality:**\n\nPatients in behavioral health sometimes arrive in crisis. They need to be seen — not scheduled for two weeks from now. Practices without crisis walk-in protocols either turn patients away or disrupt the entire day's schedule.\n\n**The privacy requirements:**\n\nBehavioral health has heightened privacy expectations beyond standard HIPAA. Patients in a lobby shouldn't hear other patients' names. Providers shouldn't discuss cases within earshot of others. The check-in and flow experience matters."
+    },
+    {
+      "id": "aba-scheduling",
+      "h2": "ABA Block Scheduling",
+      "content": "ABA practices schedule differently from traditional behavioral health — clients have authorized hours per week, sessions are 2-4+ hours, and multiple RBTs work with multiple clients simultaneously.\n\n**The ABA scheduling challenge:**\n\nClient A has 20 authorized hours/week. Client B has 15. Client C has 10. Each needs their hours spread across the week based on school schedule, parent availability, and RBT assignments.\n\nEach RBT can work with multiple clients in a day but has their own schedule and supervision requirements.\n\n**What clinIQ does:**\n\nAuthorized hours tracking: Hours authorized per client, hours scheduled, hours completed, hours remaining. Running out of authorized hours before authorization expires → alert.\n\nRBT scheduling: Each RBT's weekly schedule across clients. Who's assigned where? Who has availability?\n\nSupervision tracking: BCBA supervision requirements per RBT. Supervision sessions scheduled and documented.\n\nSession notes compliance: ABA requires detailed session notes per RBT per session. Missing notes flagged.\n\n**The billing connection:**\n\nABA bills by the hour (97153, 97155, etc.). Hours billed must match hours documented. Discrepancies between scheduled, completed, and billed create audit risk.\n\nclinIQ tracks this alignment — scheduled hours, completed hours, documented hours, billed hours — surfacing gaps before they become billing problems."
+    },
+    {
+      "id": "crisis-flow",
+      "h2": "Crisis Walk-In Flow",
+      "content": "Crisis presentations are a clinical and operational reality in behavioral health. A patient calling in acute distress needs to be seen today — the system needs to support that without breaking everything else.\n\n**The crisis failure mode:**\n\nWithout a crisis protocol:\n- Receptionist receives distressed call\n- Tries to find an opening in schedule\n- Nothing available\n- Refers patient to ED\n- Clinical escalation that wasn't necessary\n\nOr:\n- Patient arrives in crisis\n- Squeezed into schedule\n- Other patients wait\n- No documentation of crisis presentation\n- Clinical and liability risk\n\n**What clinIQ does:**\n\nCrisis queue: Separate from the regular schedule. Crisis patients tracked independently.\n\nOn-call visibility: Which providers have crisis capacity today? Who's on call?\n\nCrisis documentation: Crisis presentation, risk assessment, intervention, and disposition all documented in the crisis workflow — not crammed into a routine note.\n\nEscalation tracking: If crisis patient needs higher level of care (IOP, inpatient), referral and disposition documented.\n\n**The warm handoff:**\n\nFor practices that receive crisis referrals from EDs or other providers, warm handoff protocol documented — who referred, what happened before arrival, disposition planned."
+    },
+    {
+      "id": "variable-sessions",
+      "h2": "Variable Session Management",
+      "content": "Behavioral health sessions vary in length, modality, and provider mix — in ways that don't fit into standard scheduling templates.\n\n**The session complexity:**\n\nIndividual therapy: 45-50 minutes or 90 minutes (CPT codes differ)\n\nCouple/family therapy: 50 or 90 minutes (different codes again)\n\nGroup therapy: 60-90 minutes, multiple participants billing separately\n\nPsychiatric medication management: 15-30 minutes\n\nPsychological testing: Multi-hour sessions, sometimes across multiple days\n\nABA: 2-4+ hours\n\n**What clinIQ does:**\n\nSession type templates: Each session type has its default length and associated codes. When a session is scheduled, the right time block is used automatically.\n\nGroup enrollment: Group sessions show all enrolled members. Attendance tracked per session. Individual group notes generated.\n\nTime-based code compliance: For time-based codes (90837, 90847, etc.), actual session length documented to support the code billed.\n\n**Provider type tracking:**\n\nLicensed therapists, licensed counselors, social workers, and supervised clinicians have different billing rules. Supervised clinician billing requires supervisor co-signature. clinIQ tracks these requirements."
+    },
+    {
+      "id": "bh-rtm",
+      "h2": "Behavioral Health RTM",
+      "content": "Between-visit monitoring for behavioral health patients is now billable as RTM — and it provides genuine clinical value.\n\n**What behavioral health patients track:**\n\nDepression and anxiety:\n- PHQ-9 / GAD-7 scores\n- Daily mood ratings\n- Sleep quality\n- Activity levels\n- Medication compliance\n\nBipolar disorder:\n- Mood stability\n- Sleep patterns (sleep disruption is a critical early warning)\n- Medication compliance\n- Activity and energy levels\n\nSUD / addiction:\n- Craving intensity\n- Triggers encountered\n- Sober days\n- Meeting attendance\n- Medication compliance (for MAT patients)\n\nEating disorders:\n- Meal compliance\n- Compensatory behaviors\n- Mood around eating\n- Weight trends (in appropriate cases)\n\n**The CPT codes:**\n\n98975: RTM setup. ~$20-25 one-time.\n98977: RTM device supply. ~$50-60/month.\n98980: RTM treatment management, first 20 min. ~$50-70/month.\n98981: Additional increments.\n\nTypical: $120-150/patient/month.\n\n**What clinIQ does for behavioral health RTM:**\n\nCondition-specific templates: Depression patients get PHQ-9 tracking. Bipolar patients get mood and sleep. SUD patients get craving and compliance tracking.\n\nCrisis signals: PHQ-9 score elevates, patient reports passive SI → alert to clinician for same-day outreach.\n\nPre-session prep: RTM data visible before each session. 'Patient has had 4 nights of poor sleep this week, mood rating declining.' Provider walks in prepared.\n\nTreatment response: Is PHQ-9 improving? Is mood stability increasing? Objective tracking of treatment response."
+    },
+    {
+      "id": "privacy",
+      "h2": "Privacy and Confidentiality",
+      "content": "Behavioral health patients have reasonable expectations of privacy that go beyond basic HIPAA compliance.\n\n**The lobby problem:**\n\nA patient checking in for therapy shouldn't announce their diagnosis or their provider's name in a shared waiting room. Name-calling across a lobby, sign-in sheets, and visible schedules all create privacy concerns.\n\n**What clinIQ does:**\n\nDiscreet check-in: Patients check in without verbal announcement. Front desk acknowledges electronically.\n\nWaiting room privacy: No name-calling. Patient receives notification when provider is ready.\n\nLimited information display: What's visible on public-facing displays is limited and appropriate.\n\n**42 CFR Part 2:**\n\nFor practices treating substance use disorders, 42 CFR Part 2 imposes requirements stricter than standard HIPAA. clinIQ supports Part 2 documentation requirements including consent for disclosure."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI Timeline",
+      "content": "Behavioral health implementation covers session scheduling, ABA workflows (if applicable), crisis flow, and RTM.\n\n**Week 1: Configuration**\n\nSession types configured. ABA client/RBT structure loaded (if applicable). Crisis workflow. RTM templates for active diagnoses.\n\n**Week 2: Training**\n\nTherapists learn RTM and crisis workflow. Front desk learns privacy-forward check-in. ABA team learns authorized hours tracking.\n\n**Week 3: Go-Live**\n\nRTM enrollment beginning. Crisis flow active. ABA scheduling running.\n\n**ROI Timeline:**\n\nMonth 1: Crisis flow improvement immediate. Privacy improvements at check-in.\n\nMonth 3: RTM billing at scale. ABA authorization tracking preventing gaps.\n\nMonth 6: Full RTM revenue. Supervision compliance documented.\n\n**ROI Math:**\n\nRTM revenue: 60 patients × $130/month = $7,800/month = $93,600/year\n\nABA authorization gaps prevented: 2 per month × $500/session × 10 sessions = $10,000/month\n\n**Investment:**\n\nProfessional: $499/month\n\nImplementation: $750 one-time"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do you handle ABA authorized hours tracking?",
+      "a": "Authorized hours per client tracked against scheduled and completed hours. Alerts when running low before authorization expires. Ensures clients receive their authorized hours without exceeding."
+    },
+    {
+      "q": "Is behavioral health RTM billable?",
+      "a": "Yes. RTM codes (98975, 98977, 98980) apply to behavioral health conditions. PHQ-9 tracking, mood monitoring, medication compliance qualify."
+    },
+    {
+      "q": "How does group therapy billing work?",
+      "a": "Group sessions show all enrolled participants. Attendance marked per session. Each member billed individually. Session notes generated with group and individual components."
+    },
+    {
+      "q": "What about supervised clinicians?",
+      "a": "Supervised clinicians tracked separately. Their sessions require supervisor co-signature before billing. Supervision sessions scheduled and documented for licensing compliance."
+    },
+    {
+      "q": "How do you handle 42 CFR Part 2 requirements?",
+      "a": "Part 2 consent tracking for SUD patients. Consent for disclosure documented. More restrictive information sharing rules enforced for covered records."
+    },
+    {
+      "q": "Can the crisis queue integrate with the regular schedule?",
+      "a": "Crisis queue is separate from the regular schedule. When a crisis patient is seen, it's documented as a crisis visit, not overlaid on the regular schedule. Providers with crisis capacity are visible separately."
+    },
+    {
+      "q": "How do teletherapy sessions work?",
+      "a": "Teletherapy sessions tracked same as in-person with appropriate modifiers. Place of service and telehealth documentation requirements handled per payer."
+    }
+  ],
+  "cta": {
+    "headline": "See ABA scheduling, crisis flow, and behavioral health RTM",
+    "subhead": "15-minute demo. ABA block scheduling, crisis walk-in, variable sessions, RTM billing.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate BH RTM Revenue", "href": "/resources/rtm-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "$94K", "label": "annual behavioral health RTM" },
+      { "value": "100%", "label": "ABA authorized hours tracked" },
+      { "value": "Zero", "label": "crisis patients without protocol" }
+    ],
+    "testimonial": {
+      "quote": "Our ABA practice had no visibility into authorized hours until they were almost gone. Now we see every client's hours in real time and have never had an authorization gap.",
+      "attribution": "ABA Practice Director",
+      "practice": "Behavioral health and ABA, 12 providers",
+      "location": "Texas"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "blog",
+      "title": "ABA Scheduling: Authorized Hours and RBT Coordination",
+      "href": "/blog/aba-scheduling",
+      "description": "Managing ABA client hours, RBT assignments, and supervision requirements."
+    },
+    {
+      "type": "blog",
+      "title": "Behavioral Health RTM: Depression, Anxiety, and Mood Tracking",
+      "href": "/blog/behavioral-health-rtm",
+      "description": "Billing RTM for behavioral health conditions. PHQ-9 tracking and crisis detection."
+    },
+    {
+      "type": "blog",
+      "title": "Crisis Walk-In Flow: Protocols for Behavioral Health Practices",
+      "href": "/blog/crisis-walkin-flow",
+      "description": "Managing crisis presentations without disrupting scheduled care."
+    },
+    {
+      "type": "resource",
+      "title": "Behavioral Health RTM Calculator",
+      "href": "/resources/rtm-calculator",
+      "description": "Calculate your practice's behavioral health RTM revenue potential."
+    }
+  ],
+  "schema": {
+    "type": "SoftwareApplication",
+    "applicationCategory": "Medical Practice Management Software",
+    "operatingSystem": "Web-based",
+    "offers": { "price": "499", "priceCurrency": "USD" }
+  }
+}

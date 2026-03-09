@@ -1,0 +1,141 @@
+{
+  "slug": "chiropractic",
+  "name": "Chiropractic",
+  "pageType": "pillar",
+  "wordCount": 2900,
+  "meta": {
+    "title": "Chiropractic Practice Software | Musculoskeletal RTM & Visit Cap Tracking | clinIQ",
+    "description": "Complete guide to chiropractic practice operations. $8,450/month in musculoskeletal RTM. Visit cap and authorization tracking. High-volume patient flow. Outcome documentation.",
+    "keywords": ["chiropractic software", "chiropractic practice management", "chiropractic RTM billing", "chiropractic authorization tracking", "chiropractic patient flow"]
+  },
+  "hero": {
+    "h1": "Chiropractic Practice Software",
+    "subhead": "Your patients already track pain and function between visits — that's billable musculoskeletal RTM. Your visit caps need tracking before they're exceeded. Your high-volume flow needs visibility. clinIQ captures chiropractic RTM, tracks authorizations, and optimizes patient flow.",
+    "stats": [
+      { "value": "$8,450+", "label": "monthly musculoskeletal RTM" },
+      { "value": "Zero", "label": "visit cap surprises" },
+      { "value": "25%", "label": "faster patient throughput" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "chiro-challenges", "title": "The Chiropractic Practice Challenge" },
+    { "id": "musculoskeletal-rtm", "title": "Musculoskeletal RTM Billing" },
+    { "id": "visit-cap-tracking", "title": "Visit Cap and Authorization Tracking" },
+    { "id": "high-volume-flow", "title": "High-Volume Patient Flow" },
+    { "id": "outcome-documentation", "title": "Outcome Documentation" },
+    { "id": "pi-case-management", "title": "Personal Injury Case Management" },
+    { "id": "implementation", "title": "Implementation & ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "chiro-challenges",
+      "h2": "The Chiropractic Practice Challenge",
+      "content": "Chiropractic practices run high patient volumes with frequent visits and tight payer constraints.\n\n**The RTM opportunity:**\n\nChiropractic patients should track between visits: pain levels, functional status, home exercise compliance, activity modifications. This monitoring informs treatment and qualifies for musculoskeletal RTM.\n\n65 patients × $130/month = $8,450/month = $101,400/year in RTM revenue.\n\n**The visit cap problem:**\n\nMost payers limit chiropractic visits — 20, 30, or 60 per year. Medicare has specific requirements. Hit the cap without knowing it, and visits are denied. Patients are frustrated. Revenue is lost.\n\n**The high-volume challenge:**\n\nChiropractic practices see 40-80+ patients per day. Efficient flow is essential. Without visibility, the schedule bogs down, waits extend, and patients leave dissatisfied.\n\n**The documentation burden:**\n\nPayers scrutinize chiropractic documentation. Medical necessity, outcome measures, treatment plans — all must be documented to support billing and avoid audits."
+    },
+    {
+      "id": "musculoskeletal-rtm",
+      "h2": "Musculoskeletal RTM Billing: $130/Patient/Month",
+      "content": "Musculoskeletal RTM is designed for conditions chiropractors treat daily.\n\n**What chiropractic patients track:**\n\nPain levels:\n- Daily or weekly pain ratings\n- Pain with specific activities\n- Pain at rest vs with movement\n\nFunctional status:\n- ADL limitations\n- Work capacity\n- Activity tolerance\n\nHome exercise compliance:\n- Prescribed exercises completed\n- Stretching routine compliance\n- Ergonomic modifications\n\nSymptom patterns:\n- Flare-ups and triggers\n- Response to treatment\n- Sleep quality (often affected by MSK conditions)\n\n**The CPT codes:**\n\n98975: RTM setup — one-time. ~$20-25.\n98977: RTM device supply (musculoskeletal). ~$50-60/month.\n98980: RTM treatment management — first 20 minutes. ~$50-70/month.\n98981: Additional 20-minute increments.\n\nTypical: $120-140/patient/month.\n\n**What clinIQ does for chiropractic RTM:**\n\nMSK-specific templates: Pain tracking, functional status, exercise compliance — appropriate for chiropractic conditions.\n\nTreatment response tracking: Is the patient improving? Plateauing? Worsening? Data informs treatment decisions.\n\nAutomatic time tracking: Data review documented toward billing threshold.\n\nPre-visit summary: RTM data visible when patient arrives."
+    },
+    {
+      "id": "visit-cap-tracking",
+      "h2": "Visit Cap and Authorization Tracking",
+      "content": "Chiropractic visits are heavily managed by payers.\n\n**Common visit limits:**\n\n- Medicare: No strict cap, but medical necessity required for each visit\n- Commercial payers: Often 20-30 visits per year\n- Some plans: 12-15 visits per condition\n- Workers' comp: Varies by state and payer\n\n**What clinIQ does:**\n\nVisit tracking per patient: Visits used, visits remaining, limit source.\n\nExpiration tracking: Annual limits reset on what date? Plan year vs calendar year.\n\nAuthorization status: For payers requiring auth, status tracked.\n\nScheduling integration: Can't schedule visit 31 of a 30-visit limit without warning.\n\n**The prevention value:**\n\nOne denied visit = $50-75 lost revenue plus patient frustration.\n\nTen patients hitting caps unexpectedly = $500-750/month lost.\n\nVisibility prevents these losses."
+    },
+    {
+      "id": "high-volume-flow",
+      "h2": "High-Volume Patient Flow",
+      "content": "Chiropractic visits are short — 10-20 minutes typically. Volume is high. Flow efficiency matters enormously.\n\n**The visibility problem:**\n\nWho's in the waiting room? Who's in the adjustment room? Who's on therapies? Who's ready for the chiropractor? Without visibility, the practice feels chaotic.\n\n**What clinIQ does:**\n\nPatient status board: Every patient visible with current status.\n\nWaiting room queue: Who's waiting, how long, appointment type.\n\nTreatment area visibility: Which treatment areas are occupied, available.\n\nChiropractor queue: Who's ready for adjustment. No asking \"who's next?\"\n\nTherapy tracking: If you use modalities (e-stim, ultrasound, traction), therapy status visible.\n\n**The throughput math:**\n\n2 minutes saved per patient × 60 patients = 2 hours recovered.\n\nThat's 6-8 additional patients per day capacity."
+    },
+    {
+      "id": "outcome-documentation",
+      "h2": "Outcome Documentation",
+      "content": "Payers and auditors scrutinize chiropractic documentation. Outcomes justify continued treatment.\n\n**Standard outcome measures:**\n\n- Numeric Pain Rating Scale (NPRS)\n- Oswestry Disability Index (ODI) — low back\n- Neck Disability Index (NDI) — cervical\n- Patient-Specific Functional Scale (PSFS)\n- RAND-36/SF-36 for general health\n\n**What clinIQ does:**\n\nAutomated administration: Outcome measures sent electronically at intake and periodic intervals.\n\nScore calculation: Automatic scoring and trending.\n\nProgress visualization: Improvement over time graphed.\n\nDocumentation support: Outcome data supports medical necessity for continued treatment.\n\n**The audit protection:**\n\nObjective outcome measures demonstrate treatment effectiveness. When audited, this documentation justifies billing."
+    },
+    {
+      "id": "pi-case-management",
+      "h2": "Personal Injury Case Management",
+      "content": "Many chiropractic practices handle personal injury cases, which have different requirements.\n\n**PI case tracking:**\n\n- Attorney information and communication\n- Lien status\n- Treatment documentation for legal purposes\n- Maximum medical improvement determination\n\n**What clinIQ does:**\n\nPI case flagging: PI patients identified separately from insurance patients.\n\nAttorney communication log: All attorney contact documented.\n\nTreatment summary generation: Documentation formatted for legal use.\n\nLien tracking: Lien amounts and status tracked."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI Timeline",
+      "content": "Chiropractic implementation focuses on RTM, visit tracking, and high-volume flow.\n\n**Week 1: Configuration**\n\nRTM templates, visit cap tracking, patient flow, outcome measures configured.\n\n**Week 2: Training and Go-Live**\n\nFront desk learns check-in and flow. CAs learn patient status updates. Chiropractor learns RTM dashboard.\n\n**ROI Timeline:**\n\nMonth 1: Patient flow improvements immediate. RTM enrollment starting.\n\nMonth 3: RTM billing at scale. Visit cap tracking preventing denials.\n\nMonth 6: Full RTM revenue. Outcome documentation supporting billing.\n\n**ROI Math:**\n\nRTM revenue: 65 patients × $130/month = $8,450/month = $101,400/year\n\nVisit cap prevention: 10 prevented denials/month × $60 = $600/month = $7,200/year\n\nFlow efficiency: 5 additional patients/day × $50 × 250 days = $62,500/year\n\nTotal: $150,000+/year impact.\n\n**Investment:**\n\nProfessional: $499/month\n\nImplementation: $750 one-time"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is musculoskeletal RTM billable for chiropractic?",
+      "a": "Yes. CPT 98975, 98977, 98980 cover musculoskeletal RTM. Pain tracking, functional status, home exercise compliance all qualify. Medicare and most commercial payers cover these codes."
+    },
+    {
+      "q": "How do you track visit caps?",
+      "a": "Visits used, visits remaining, plan limits — visible per patient. Alerts when approaching or exceeding limits. Scheduling warns before booking past the cap."
+    },
+    {
+      "q": "Does this work with high patient volumes?",
+      "a": "Built for high volume. Patient status visibility, queue management, therapy tracking. 60-80+ patients/day runs smoothly."
+    },
+    {
+      "q": "What outcome measures are supported?",
+      "a": "NPRS, ODI, NDI, PSFS, and other standard chiropractic outcome measures. Administered electronically, scored automatically."
+    },
+    {
+      "q": "Can you handle PI cases?",
+      "a": "Yes. PI patients flagged separately. Attorney communication logged. Documentation formatted for legal purposes."
+    },
+    {
+      "q": "What about Medicare requirements?",
+      "a": "Medicare-specific documentation requirements supported. Medical necessity documentation, PART requirements, outcome tracking."
+    }
+  ],
+  "cta": {
+    "headline": "See chiropractic RTM and visit cap tracking",
+    "subhead": "15-minute demo. Musculoskeletal RTM, visit tracking, high-volume flow, outcome documentation.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate Chiropractic RTM Revenue", "href": "/resources/rtm-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "$101K", "label": "annual musculoskeletal RTM" },
+      { "value": "Zero", "label": "visit cap surprises" },
+      { "value": "25%", "label": "faster throughput" }
+    ],
+    "testimonial": {
+      "quote": "We were getting blindsided by visit caps constantly. Now we see them coming and plan accordingly. Plus the RTM is $8K/month we weren't billing.",
+      "attribution": "Chiropractor",
+      "practice": "Chiropractic practice, 2 chiropractors",
+      "location": "Colorado"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "blog",
+      "title": "Chiropractic RTM Billing: Complete Guide",
+      "href": "/blog/chiropractic-rtm-billing",
+      "description": "How to bill musculoskeletal RTM for chiropractic patients."
+    },
+    {
+      "type": "blog",
+      "title": "Visit Cap Tracking: Preventing Denied Visits",
+      "href": "/blog/chiropractic-visit-cap-tracking",
+      "description": "Managing payer visit limits before they're exceeded."
+    },
+    {
+      "type": "blog",
+      "title": "High-Volume Chiropractic Patient Flow",
+      "href": "/blog/chiropractic-patient-flow",
+      "description": "Managing 60+ patients per day efficiently."
+    }
+  ],
+  "schema": {
+    "type": "SoftwareApplication",
+    "applicationCategory": "Medical Practice Management Software",
+    "operatingSystem": "Web-based",
+    "offers": {
+      "price": "499",
+      "priceCurrency": "USD"
+    }
+  }
+}
