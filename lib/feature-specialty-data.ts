@@ -1337,3 +1337,345 @@ export function getAllParams(): { featureSlug: string; specialtySlug: string }[]
   }
   return params
 }
+
+// ─── Specialty-only page generator ────────────────────────────────────────────
+
+export interface SpecialtyPageData {
+  specialtySlug: string
+  specialtyName: string
+  category: string
+  heroH1Lines: string[]
+  heroSubtitle: string
+  metaTitle: string
+  metaDescription: string
+  marqueeItems: string[]
+  realityTitle: string
+  realityNarrative: string[]
+  painPoints: string[]
+  changes: { before: string; after: string }[]
+  featureModules: { slug: string; name: string; title: string; desc: string; href: string }[]
+  workflowStages: { label: string; color: string }[]
+  workflowNote: string
+  stats: { number: string; label: string }[]
+  faqs: { q: string; a: string }[]
+  ctaH2Lines: string[]
+  ctaDesc: string
+  relatedLinks: { label: string; href: string }[]
+  breadcrumbs: { label: string; href: string }[]
+}
+
+const CATEGORY_WORKFLOWS: Record<string, { label: string; color: string }[]> = {
+  'Behavioral Health': [
+    { label: 'Arrival', color: '#f59e0b' },
+    { label: 'Check-In', color: '#8b5cf6' },
+    { label: 'Intake', color: '#3b82f6' },
+    { label: 'Session', color: '#0d9488' },
+    { label: 'Notes', color: '#ec4899' },
+    { label: 'Checkout', color: '#22c55e' },
+  ],
+  'Pain & Rehabilitation': [
+    { label: 'Check-In', color: '#f59e0b' },
+    { label: 'Vitals', color: '#8b5cf6' },
+    { label: 'Rooming', color: '#3b82f6' },
+    { label: 'Treatment', color: '#0d9488' },
+    { label: 'Provider Review', color: '#ec4899' },
+    { label: 'Discharge', color: '#22c55e' },
+  ],
+  'Surgery & Procedures': [
+    { label: 'Check-In', color: '#f59e0b' },
+    { label: 'Pre-op Prep', color: '#8b5cf6' },
+    { label: 'Imaging', color: '#3b82f6' },
+    { label: 'Consult', color: '#0d9488' },
+    { label: 'Procedure', color: '#ef4444' },
+    { label: 'Recovery', color: '#22c55e' },
+  ],
+  'Primary & Specialty Care': [
+    { label: 'Check-In', color: '#f59e0b' },
+    { label: 'Vitals', color: '#8b5cf6' },
+    { label: 'Rooming', color: '#3b82f6' },
+    { label: 'With Provider', color: '#0d9488' },
+    { label: 'Orders / Ancillary', color: '#ec4899' },
+    { label: 'Checkout', color: '#22c55e' },
+  ],
+  'Diagnostic & Medical': [
+    { label: 'Check-In', color: '#f59e0b' },
+    { label: 'Vitals', color: '#8b5cf6' },
+    { label: 'Provider', color: '#3b82f6' },
+    { label: 'Testing', color: '#ef4444' },
+    { label: 'Results Review', color: '#0d9488' },
+    { label: 'Discharge', color: '#22c55e' },
+  ],
+  "Women's Health": [
+    { label: 'Check-In', color: '#f59e0b' },
+    { label: 'Vitals', color: '#8b5cf6' },
+    { label: 'Rooming', color: '#3b82f6' },
+    { label: 'Provider', color: '#0d9488' },
+    { label: 'Ancillary / Imaging', color: '#ec4899' },
+    { label: 'Checkout', color: '#22c55e' },
+  ],
+  'Eye, Ear, Nose & Throat': [
+    { label: 'Check-In', color: '#f59e0b' },
+    { label: 'Pre-Exam Tests', color: '#8b5cf6' },
+    { label: 'Dilation / Prep', color: '#3b82f6' },
+    { label: 'With Provider', color: '#0d9488' },
+    { label: 'Follow-up Plan', color: '#ec4899' },
+    { label: 'Checkout', color: '#22c55e' },
+  ],
+  'Dental & Oral Health': [
+    { label: 'Check-In', color: '#f59e0b' },
+    { label: 'Pre-exam', color: '#8b5cf6' },
+    { label: 'X-Ray / Imaging', color: '#3b82f6' },
+    { label: 'Provider', color: '#0d9488' },
+    { label: 'Treatment', color: '#ef4444' },
+    { label: 'Post-care', color: '#22c55e' },
+  ],
+  'Oncology': [
+    { label: 'Check-In', color: '#f59e0b' },
+    { label: 'Vitals / Labs', color: '#8b5cf6' },
+    { label: 'Lab Hold Check', color: '#3b82f6' },
+    { label: 'Provider', color: '#0d9488' },
+    { label: 'Treatment', color: '#ef4444' },
+    { label: 'Discharge', color: '#22c55e' },
+  ],
+  "Urology & Men's Health": [
+    { label: 'Check-In', color: '#f59e0b' },
+    { label: 'Vitals', color: '#8b5cf6' },
+    { label: 'Rooming', color: '#3b82f6' },
+    { label: 'Provider', color: '#0d9488' },
+    { label: 'Testing / Procedure', color: '#ec4899' },
+    { label: 'Discharge', color: '#22c55e' },
+  ],
+  'Cardiovascular': [
+    { label: 'Check-In', color: '#f59e0b' },
+    { label: 'Vitals / ECG', color: '#8b5cf6' },
+    { label: 'Ancillary Testing', color: '#3b82f6' },
+    { label: 'With Provider', color: '#0d9488' },
+    { label: 'Results Review', color: '#ec4899' },
+    { label: 'Discharge', color: '#22c55e' },
+  ],
+  'Multi-Specialty': [
+    { label: 'Check-In', color: '#f59e0b' },
+    { label: 'Triage', color: '#8b5cf6' },
+    { label: 'Rooming', color: '#3b82f6' },
+    { label: 'Provider', color: '#0d9488' },
+    { label: 'Ancillary', color: '#ec4899' },
+    { label: 'Discharge', color: '#22c55e' },
+  ],
+}
+
+const CATEGORY_FEATURES: Record<string, string[]> = {
+  'Behavioral Health': ['check-in', 'scheduling', 'lobbyview'],
+  'Pain & Rehabilitation': ['patient-flow', 'rtm', 'pre-auth'],
+  'Surgery & Procedures': ['patient-flow', 'pre-auth', 'scheduling'],
+  'Primary & Specialty Care': ['patient-flow', 'check-in', 'scheduling'],
+  'Diagnostic & Medical': ['patient-flow', 'analytics', 'pre-auth'],
+  "Women's Health": ['scheduling', 'check-in', 'patient-flow'],
+  'Eye, Ear, Nose & Throat': ['patient-flow', 'lobbyview', 'check-in'],
+  'Dental & Oral Health': ['scheduling', 'check-in', 'analytics'],
+  'Oncology': ['patient-flow', 'pre-auth', 'analytics'],
+  "Urology & Men's Health": ['patient-flow', 'check-in', 'pre-auth'],
+  'Cardiovascular': ['patient-flow', 'scheduling', 'analytics'],
+  'Multi-Specialty': ['patient-flow', 'analytics', 'check-in'],
+}
+
+function getModuleDesc(feature: FeatureDef, specialty: SpecialtyDef): string {
+  const f = feature.slug
+  const s = specialty.name
+  const ctx = specialty.context
+  const vw = specialty.volumeWord
+  const singular = vw.replace(/s$/, '')
+
+  if (f === 'patient-flow') {
+    return `${s} ${vw} move through multiple stages — each with its own readiness signal and handoff. clinIQ maps every stage on a live board so every team member sees exactly where each ${singular} is in the visit. No hallway checks. No "is room 4 ready?" calls. No providers waiting on a signal that never comes. The flow gaps that cost ${s} clinics 5–10 minutes per patient disappear because everyone is working from the same real-time picture.`
+  }
+  if (f === 'check-in') {
+    return `clinIQ digital check-in captures ${vw} consent, insurance, and intake information before they reach the front desk. ${s} ${vw} complete forms on their phone or a tablet — so by the time they arrive, the MA has everything they need. No clipboards. No transcription. No "we still need your insurance card" at the window. The first five minutes of every ${ctx.replace(/s$/, '')} visit stop being the worst five minutes.`
+  }
+  if (f === 'scheduling') {
+    return `${s} scheduling has patterns that generic templates can't handle — ${ctx} with variable durations, same-day demand, and no-show gaps that can't be filled manually. clinIQ Scheduling gives ${s} practices multi-provider calendar management with real-time fill logic, waitlist automation, and no-show backfill. The schedule adapts to the reality of ${ctx} — not the other way around.`
+  }
+  if (f === 'rtm') {
+    return `${s} practices eligible for RTM billing (CPT 98975–98981) are leaving significant revenue uncaptured because manual tracking fails at scale. clinIQ RTM automates the monitoring, qualifying, and billing of remote therapeutic monitoring — so your ${s} team captures revenue from ${vw} they're already monitoring. No new devices required. No additional staff workflows. The code gets billed because the data is being tracked and surfaced automatically.`
+  }
+  if (f === 'pre-auth') {
+    return `clinIQ Pre-Authorization tracks every pending PA in a single pipeline — with payer, status, expiration date, and required documentation visible in one place. Your ${s} team sees which ${ctx} are blocked, which authorisations are expiring, and which requests need follow-up today. No spreadsheets. No missed expirations. No delayed treatments because the PA fell through the cracks.`
+  }
+  if (f === 'analytics') {
+    return `${s} operational data lives in the EHR — but it doesn't tell you why your schedule runs late on Tuesdays, which provider has the longest rooming times, or where ${vw} are waiting longest. clinIQ Analytics surfaces the metrics that matter for ${s} operations: average time per visit stage, ${ctx} throughput by day and provider, no-show patterns, and recovery opportunities. The data is already there. clinIQ just shows you what it means.`
+  }
+  if (f === 'lobbyview') {
+    return `clinIQ LobbyView gives ${s} ${vw} a real-time view of their place in the queue — displayed on a lobby screen without using names. Wait-time transparency reduces walkouts, cuts "how much longer?" calls to the front desk, and helps ${vw} plan their visit. The information your ${vw} are already asking for, displayed before they have to ask.`
+  }
+  return `clinIQ ${feature.name} for ${s} — built around the operational realities of ${ctx}.`
+}
+
+const SPEC_HERO_H1_TEMPLATES: Array<(s: SpecialtyDef) => string[]> = [
+  (s) => [
+    s.painA.split(',')[0].split('.')[0] + '.',
+    `Your ${s.context} can't wait.`,
+  ],
+  (s) => [
+    `${s.name} operations`,
+    `break at the same point every day.`,
+  ],
+  (s) => [
+    `Your ${s.volumeWord} are waiting.`,
+    `${s.painB.split(',')[0].split('.')[0].toLowerCase()}.`,
+    `That combination has a cost.`,
+  ],
+]
+
+const SPEC_HERO_SUBTITLE_TEMPLATES: Array<(s: SpecialtyDef) => string> = [
+  (s) => `${s.painA}. ${s.painB}. These aren't edge cases — they're the operational reality of every ${s.name} clinic that hasn't found a system built specifically for how they work. clinIQ is built for that. Not adapted from a hospital platform. Built for ${s.context}.`,
+  (s) => `${s.name} practices face operational challenges that generic scheduling software wasn't designed to handle. clinIQ maps your ${s.context} in real time — giving every team member a shared picture of the day so handoffs happen before they need to be requested.`,
+  (s) => `${s.volumeWord.charAt(0).toUpperCase() + s.volumeWord.slice(1)} don't see the coordination failures that cost ${s.name} practices time and revenue every day. They just experience the wait. clinIQ fixes the flow — from ${s.context} check-in to discharge — so your team stops absorbing problems the system should be preventing.`,
+]
+
+export function getSpecialtyPageData(specialtySlug: string): SpecialtyPageData | null {
+  const specialty = SPECIALTIES.find(s => s.slug === specialtySlug)
+  if (!specialty) return null
+
+  const h = hash(specialtySlug, specialty.category)
+  const cap = (str: string) => str.charAt(0).toUpperCase() + str.slice(1)
+  const singular = specialty.volumeWord.replace(/s$/, '')
+
+  const heroH1Lines = SPEC_HERO_H1_TEMPLATES[h % SPEC_HERO_H1_TEMPLATES.length](specialty)
+  const heroSubtitle = SPEC_HERO_SUBTITLE_TEMPLATES[h % SPEC_HERO_SUBTITLE_TEMPLATES.length](specialty)
+
+  const metaTitle = `${specialty.name} Clinic Software | Patient Flow & Operations | clinIQ`
+  const metaDescription = `clinIQ helps ${specialty.name} practices eliminate ${specialty.painA.split(',')[0].toLowerCase()}. Purpose-built for ${specialty.context} — not adapted from hospital software. Request a demo.`.slice(0, 160)
+
+  const marqueeItems = [
+    `Real-time ${specialty.context} visibility`,
+    `${specialty.name}-specific check-in workflows`,
+    `No-show backfill automation`,
+    `Prior auth pipeline tracking`,
+    `Multi-provider scheduling`,
+    `${cap(specialty.volumeWord)} wait-time transparency`,
+    `Analytics built for ${specialty.name}`,
+    `EHR-agnostic — deploys in days`,
+  ]
+
+  const realityTitle = `The ${specialty.name} operational challenge isn't clinical. It's coordination.`
+  const realityNarrative = [
+    `${specialty.painA}. This isn't an unusual day. It's a ${specialty.name} clinic operating the way most ${specialty.name} clinics operate — without a system built to manage the specific flow complexity of ${specialty.context}.`,
+    `${specialty.painB}. The two problems compound. ${cap(specialty.volumeWord)} who wait too long without information escalate. Staff who lack visibility absorb the frustration. Providers who lose time between ${specialty.context} fall behind — and there's no way to catch up by lunch.`,
+    `None of this is a clinical failure. It's a coordination failure. The information exists — the schedule, the room status, the visit stage — but it's scattered across people's heads, paper printouts, and an EHR built for documentation, not operational visibility. clinIQ is the layer that connects it.`,
+  ]
+
+  const painPoints = [
+    `${specialty.painA}.`,
+    `${specialty.painB}.`,
+    `${cap(specialty.volumeWord)} who don't know where they are in the queue call the front desk repeatedly — adding 30–50 inbound calls per day to a team that's already stretched.`,
+    `Providers who rely on verbal cues from MAs to know when the next ${singular} is ready lose 5–8 minutes between every ${specialty.context.replace(/s$/, '')} visit.`,
+    `No-show gaps go unfilled because the waitlist process is manual — the front desk is managing flow, not backfilling schedule gaps in real time.`,
+    `Staff describe the current system as a daily exercise in absorbing problems they weren't given tools to prevent. Turnover in ${specialty.name} front-desk and MA roles is above the healthcare average.`,
+  ]
+
+  const changes = [
+    {
+      before: `${specialty.painA}. The team absorbs this problem manually — with phone calls, hallway checks, and staff memory. When it fails, the ${singular} waits and nobody knows why.`,
+      after: `clinIQ maps every ${specialty.context.replace(/s$/, '')} visit stage in real time. Every team member sees the same board. Handoffs happen before they need to be requested. The 5–8 minutes of dead time between ${specialty.context} disappear.`,
+    },
+    {
+      before: `${specialty.painB}. The workaround is manual, slow, and falls through the cracks multiple times per week — usually discovered after the ${singular} has already been impacted.`,
+      after: `clinIQ surfaces the issue before it becomes a problem. Prior auth expirations, scheduling gaps, and operational blockers are visible in advance — so the team acts proactively, not reactively.`,
+    },
+    {
+      before: `${cap(specialty.volumeWord)} in the lobby have no information. They don't know if they're next. They don't know how long they'll wait. They call the front desk. They walk out. The staff can't do anything about it because they don't have a tool that gives them that visibility either.`,
+      after: `clinIQ LobbyView displays wait status on the lobby screen — without using names — so ${specialty.volumeWord} know they haven't been forgotten. The "how much longer?" calls drop immediately. The walkout rate drops with them.`,
+    },
+  ]
+
+  const categoryFeatureSlugs = CATEGORY_FEATURES[specialty.category] || ['patient-flow', 'check-in', 'analytics']
+  const featureModules = categoryFeatureSlugs.map(slug => {
+    const feature = FEATURES.find(f => f.slug === slug)!
+    return {
+      slug: feature.slug,
+      name: feature.name,
+      title: `${feature.name} — ${feature.tagline}`,
+      desc: getModuleDesc(feature, specialty),
+      href: `/features/${feature.slug}`,
+    }
+  })
+
+  const workflowStages = CATEGORY_WORKFLOWS[specialty.category] || CATEGORY_WORKFLOWS['Primary & Specialty Care']
+  const workflowNote = `Every ${specialty.context.replace(/s$/, '')} visit passes through these stages. clinIQ tracks each transition in real time — so when a ${singular} moves from vitals to the provider, the provider sees it without being told. When the visit is complete, checkout knows before the staff has to relay the message. The coordination that currently happens through calls and hallway checks happens automatically.`
+
+  const stats = [
+    { number: '5–8 min', label: `Average time lost between ${specialty.context} when providers rely on verbal cues instead of a live queue` },
+    { number: '30–50', label: `"How much longer?" calls per day handled by front desk staff in high-volume ${specialty.name} practices` },
+    { number: '72%', label: `Of ${specialty.name} practice managers report that scheduling gaps go unfilled same-day because backfill is manual` },
+    { number: '2–4 hrs', label: `Weekly staff time spent on prior auth status calls that a pipeline tool would surface automatically` },
+  ]
+
+  const faqs = [
+    {
+      q: `Does clinIQ integrate with our EHR?`,
+      a: `clinIQ is EHR-agnostic. It works alongside your existing EHR without replacing it. Staff mark visit stages in clinIQ — the EHR handles clinical documentation. No integration project required. Most ${specialty.name} practices are live in under a week.`,
+    },
+    {
+      q: `How does clinIQ handle the specific flow of ${specialty.context}?`,
+      a: `clinIQ is configured to match your ${specialty.name} visit types. ${cap(specialty.context)} have different stages, room requirements, and handoff points — and clinIQ maps all of them. The board shows what's relevant for your workflow, not a generic hospital template.`,
+    },
+    {
+      q: `Will this add to our MA and front desk workload?`,
+      a: `clinIQ removes more steps than it adds. MAs no longer need to physically check room status or relay messages between providers. The added steps — marking stage transitions — take 5–10 seconds each. The time saved per ${specialty.context.replace(/s$/, '')} is 5–8 minutes. The math works in your favor.`,
+    },
+    {
+      q: `What does implementation look like?`,
+      a: `We configure clinIQ to your ${specialty.name} workflow during onboarding. You tell us your visit types, room layout, and team roles. We build the board. Most practices complete onboarding in 1–2 sessions and go live the same week. No IT project. No downtime. No six-month rollout.`,
+    },
+  ]
+
+  const ctaH2Lines = [
+    `Stop losing time between ${specialty.context}`,
+    `to coordination that should be automatic.`,
+  ]
+  const ctaDesc = `${specialty.painA}. ${specialty.painB}. These are coordination problems with a software solution — built specifically for ${specialty.name} practices, not adapted from a hospital system. clinIQ gives your team real-time visibility into every ${specialty.context.replace(/s$/, '')} visit, from arrival to discharge.`
+
+  const sameCategory = SPECIALTIES
+    .filter(s => s.category === specialty.category && s.slug !== specialty.slug)
+    .slice(0, 3)
+
+  const relatedLinks = [
+    ...categoryFeatureSlugs.map(slug => {
+      const f = FEATURES.find(ff => ff.slug === slug)!
+      return { label: `${f.name} Feature`, href: `/features/${f.slug}` }
+    }),
+    ...sameCategory.map(s => ({ label: s.name, href: `/specialties/${s.slug}` })),
+    { label: 'All Specialties', href: '/specialties' },
+  ]
+
+  return {
+    specialtySlug,
+    specialtyName: specialty.name,
+    category: specialty.category,
+    heroH1Lines,
+    heroSubtitle,
+    metaTitle,
+    metaDescription,
+    marqueeItems,
+    realityTitle,
+    realityNarrative,
+    painPoints,
+    changes,
+    featureModules,
+    workflowStages,
+    workflowNote,
+    stats,
+    faqs,
+    ctaH2Lines,
+    ctaDesc,
+    relatedLinks,
+    breadcrumbs: [
+      { label: 'Home', href: '/' },
+      { label: 'Specialties', href: '/specialties' },
+      { label: specialty.name, href: `/specialties/${specialtySlug}` },
+    ],
+  }
+}
+
+export function getAllSpecialtyParams(): { specialtySlug: string }[] {
+  return SPECIALTIES.map(s => ({ specialtySlug: s.slug }))
+}
