@@ -5,6 +5,7 @@ import painManagementPillar from '@/data/pain-management-pillar.json'
 import spineSurgeryPillar from '@/data/spine-surgery-pillar.json'
 import neurologyPillar from '@/data/neurology-pillar.json'
 import addictionMedicinePillar from '@/data/addiction-medicine-pillar.json'
+import urgentCarePillar from '@/data/urgent-care-pillar.json'
 import { getSpecialtyPageData, getAllSpecialtyParams } from '@/lib/feature-specialty-data'
 import JsonSpecialtyPage from '@/components/templates/JsonSpecialtyPage'
 import PillarSpecialtyPage, { type PillarData } from '@/components/templates/PillarSpecialtyPage'
@@ -17,6 +18,7 @@ const pillarPages: Record<string, PillarData> = {
   'spine-surgery': spineSurgeryPillar as unknown as PillarData,
   'neurology': neurologyPillar as unknown as PillarData,
   'addiction-medicine': addictionMedicinePillar as unknown as PillarData,
+  'urgent-care': urgentCarePillar as unknown as PillarData,
 }
 
 // Filter out slugs handled by pillar pages to avoid duplicate routing
