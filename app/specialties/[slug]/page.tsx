@@ -57,7 +57,7 @@ const pillarPages: Record<string, PillarData> = {
   'endocrinology': endocrinologyPillar as unknown as PillarData,
   'nephrology': nephrologyPillar as unknown as PillarData,
   'oncology': oncologyPillar as unknown as PillarData,
-  'obgyn': obgynPillar as unknown as PillarData,
+  'ob-gyn': obgynPillar as unknown as PillarData,
   'pediatrics': pediatricsPillar as unknown as PillarData,
   'ent': entPillar as unknown as PillarData,
   'ophthalmology': ophthalmologyPillar as unknown as PillarData,
