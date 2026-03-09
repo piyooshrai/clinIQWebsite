@@ -21,7 +21,7 @@ const specialties = [
     tagline: 'Sick walk-ins, vaccine clinic flow, and well-visit recalls without the lobby chaos.',
   },
   {
-    slug: 'ob-gyn',
+    slug: 'obgyn',
     name: 'OB-GYN',
     tagline: 'Prenatal sequencing, call volume reduction, and split OB/GYN scheduling.',
   },
@@ -90,7 +90,97 @@ const specialties = [
     name: 'Neurology',
     tagline: 'Referral pipeline visibility, EEG/EMG sequencing, and chronic disease follow-up.',
   },
+  {
+    slug: 'allergy',
+    name: 'Allergy & Immunology',
+    tagline: 'Injection program management, vial tracking, biologic authorization, and RTM.',
+  },
+  {
+    slug: 'rheumatology',
+    name: 'Rheumatology',
+    tagline: 'Disease activity tracking, biologic authorization, infusion coordination, and RTM.',
+  },
+  {
+    slug: 'endocrinology',
+    name: 'Endocrinology',
+    tagline: 'CGM RTM billing, medication authorization, and chronic disease recall.',
+  },
+  {
+    slug: 'gastroenterology',
+    name: 'Gastroenterology',
+    tagline: 'Procedure prep coordination, biologic authorization, and scope scheduling.',
+  },
+  {
+    slug: 'pulmonology',
+    name: 'Pulmonology',
+    tagline: 'Spirometry tracking, CPAP compliance, biologic authorization, and RTM.',
+  },
+  {
+    slug: 'nephrology',
+    name: 'Nephrology',
+    tagline: 'Dialysis coordination, CKD progression tracking, and transplant pipeline.',
+  },
+  {
+    slug: 'oncology',
+    name: 'Oncology',
+    tagline: 'Infusion scheduling, prior auth, and chemotherapy protocol coordination.',
+  },
+  {
+    slug: 'neurosurgery',
+    name: 'Neurosurgery',
+    tagline: 'Complex case coordination, LOMN generation, and post-operative RTM.',
+  },
+  {
+    slug: 'sports-medicine',
+    name: 'Sports Medicine',
+    tagline: 'Injury RTM billing, return-to-play tracking, and concussion management.',
+  },
+  {
+    slug: 'plastic-surgery',
+    name: 'Plastic Surgery',
+    tagline: 'Cosmetic patient experience, reconstructive coordination, and photography management.',
+  },
+  {
+    slug: 'vascular-surgery',
+    name: 'Vascular Surgery',
+    tagline: 'Wound and limb salvage RTM, vascular lab coordination, and graft surveillance.',
+  },
+  {
+    slug: 'wound-care',
+    name: 'Wound Care',
+    tagline: 'Wound measurement tracking, HBO coordination, and healing rate analytics.',
+  },
+  {
+    slug: 'ent',
+    name: 'ENT',
+    tagline: 'Audiology coordination, allergy injection management, and surgical scheduling.',
+  },
+  {
+    slug: 'ophthalmology',
+    name: 'Ophthalmology',
+    tagline: 'Dilation-aware patient tracking, timed alerts, and OCT coordination.',
+  },
+  {
+    slug: 'podiatry',
+    name: 'Podiatry',
+    tagline: 'Diabetic foot care tracking, wound documentation, and surgical coordination.',
+  },
+  {
+    slug: 'oral-surgery',
+    name: 'Oral Surgery',
+    tagline: 'Surgical case coordination, medical clearance, and post-op monitoring.',
+  },
+  {
+    slug: 'infusion-centers',
+    name: 'Infusion Centers',
+    tagline: 'Chair utilization, prior authorization tracking, and drug preparation coordination.',
+  },
 ]
+
+// Deduplicate by slug (ophthalmology appeared twice in original)
+const uniqueSpecialties = specialties.filter(
+  (spec, idx, arr) => arr.findIndex((s) => s.slug === spec.slug) === idx
+)
 
 const schemaData = {
   breadcrumb: {
@@ -118,83 +208,35 @@ export default function SpecialtiesIndex() {
             <div className={`${s.heroOrb} ${s.heroOrbBlue}`} />
             <div className={s.heroGrain} />
           </div>
-          <div className={s.heroContent}>
-            <span className={s.badge}>Specialties</span>
-            <h1 className={s.heroTitle}>
-              Built for how your specialty{' '}
-              <em>actually works.</em>
-            </h1>
-            <p className={s.heroSubtitle}>
-              Every specialty has its own operational reality — its own patient flow, its own
-              scheduling complexity, its own failure modes. clinIQ is built for each of them
-              specifically. Find yours below.
-            </p>
+          <div className={s.container}>
+            <div className={s.heroContent}>
+              <span className={s.badge}>Specialties</span>
+              <h1 className={s.heroTitle}>
+                Built for how your specialty{' '}
+                <em>actually works.</em>
+              </h1>
+              <p className={s.heroSubtitle}>
+                Every specialty has its own operational reality — its own patient flow, its own
+                scheduling complexity, its own failure modes. clinIQ is built for each of them
+                specifically. Find yours below.
+              </p>
+            </div>
           </div>
         </section>
 
-        <section style={{ background: 'var(--cream, #f5f3ef)', padding: '5rem 1.5rem' }}>
-          <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
-            <div
-              style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
-                gap: '1.5rem',
-              }}
-            >
-              {specialties.map((spec) => (
+        <section className={s.specialtiesSection}>
+          <div className={s.container}>
+            <p className={s.specialtiesCount}>{uniqueSpecialties.length} specialties</p>
+            <div className={s.specialtiesGrid}>
+              {uniqueSpecialties.map((spec) => (
                 <a
                   key={spec.slug}
                   href={`/specialties/${spec.slug}`}
-                  style={{
-                    display: 'block',
-                    background: '#fff',
-                    border: '1px solid #e5e5e5',
-                    borderRadius: '12px',
-                    padding: '1.75rem',
-                    textDecoration: 'none',
-                    color: 'inherit',
-                    transition: 'border-color 0.15s, box-shadow 0.15s',
-                  }}
-                  onMouseEnter={(e) => {
-                    ;(e.currentTarget as HTMLAnchorElement).style.borderColor = '#0d9488'
-                    ;(e.currentTarget as HTMLAnchorElement).style.boxShadow =
-                      '0 4px 20px rgba(13,148,136,0.12)'
-                  }}
-                  onMouseLeave={(e) => {
-                    ;(e.currentTarget as HTMLAnchorElement).style.borderColor = '#e5e5e5'
-                    ;(e.currentTarget as HTMLAnchorElement).style.boxShadow = 'none'
-                  }}
+                  className={s.specialtyCard}
                 >
-                  <div
-                    style={{
-                      fontFamily: "'Instrument Serif', Georgia, serif",
-                      fontSize: '1.25rem',
-                      fontWeight: 400,
-                      color: '#0d0d0c',
-                      marginBottom: '0.5rem',
-                    }}
-                  >
-                    {spec.name}
-                  </div>
-                  <div
-                    style={{
-                      fontSize: '0.875rem',
-                      color: '#555',
-                      lineHeight: 1.5,
-                      marginBottom: '1rem',
-                    }}
-                  >
-                    {spec.tagline}
-                  </div>
-                  <div
-                    style={{
-                      fontSize: '0.875rem',
-                      color: '#0d9488',
-                      fontWeight: 500,
-                    }}
-                  >
-                    Learn more →
-                  </div>
+                  <div className={s.specialtyName}>{spec.name}</div>
+                  <div className={s.specialtyTagline}>{spec.tagline}</div>
+                  <div className={s.specialtyLearn}>Learn more →</div>
                 </a>
               ))}
             </div>
