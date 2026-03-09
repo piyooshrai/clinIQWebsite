@@ -6,25 +6,61 @@
   "meta": {
     "title": "Nephrology Practice Software | CKD RTM & Dialysis Coordination | clinIQ",
     "description": "Complete guide to nephrology practice operations. $9,100/month in CKD RTM. CKD progression tracking. Dialysis access coordination. Transplant workup management.",
-    "keywords": ["nephrology practice software", "CKD RTM billing", "nephrology practice management", "dialysis coordination software", "CKD progression tracking"]
+    "keywords": [
+      "nephrology practice software",
+      "CKD RTM billing",
+      "nephrology practice management",
+      "dialysis coordination software",
+      "CKD progression tracking"
+    ]
   },
   "hero": {
     "h1": "Nephrology Practice Software",
     "subhead": "Your CKD patients already monitor symptoms and fluid balance — that's billable RTM. Your dialysis access planning needs coordination. Your transplant workups need tracking. clinIQ captures CKD RTM revenue and coordinates nephrology operations.",
     "stats": [
-      { "value": "$9,100+", "label": "monthly CKD RTM revenue" },
-      { "value": "100%", "label": "CKD progression visibility" },
-      { "value": "Zero", "label": "lost transplant workups" }
+      {
+        "value": "$9,100+",
+        "label": "monthly CKD RTM revenue"
+      },
+      {
+        "value": "100%",
+        "label": "CKD progression visibility"
+      },
+      {
+        "value": "Zero",
+        "label": "lost transplant workups"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "neph-challenges", "title": "The Nephrology Practice Challenge" },
-    { "id": "ckd-rtm", "title": "CKD RTM Billing" },
-    { "id": "ckd-tracking", "title": "CKD Progression Tracking" },
-    { "id": "dialysis-access", "title": "Dialysis Access Coordination" },
-    { "id": "transplant-workup", "title": "Transplant Workup Management" },
-    { "id": "implementation", "title": "Implementation & ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "neph-challenges",
+      "title": "The Nephrology Practice Challenge"
+    },
+    {
+      "id": "ckd-rtm",
+      "title": "CKD RTM Billing"
+    },
+    {
+      "id": "ckd-tracking",
+      "title": "CKD Progression Tracking"
+    },
+    {
+      "id": "dialysis-access",
+      "title": "Dialysis Access Coordination"
+    },
+    {
+      "id": "transplant-workup",
+      "title": "Transplant Workup Management"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -79,14 +115,29 @@
   "cta": {
     "headline": "See CKD RTM and progression tracking",
     "subhead": "15-minute demo. CKD RTM, progression visualization, access coordination, transplant workup.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate CKD RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate CKD RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$109K", "label": "annual CKD RTM revenue" },
-      { "value": "100%", "label": "progression visibility" },
-      { "value": "Zero", "label": "lost workup items" }
+      {
+        "value": "$109K",
+        "label": "annual CKD RTM revenue"
+      },
+      {
+        "value": "100%",
+        "label": "progression visibility"
+      },
+      {
+        "value": "Zero",
+        "label": "lost workup items"
+      }
     ],
     "testimonial": {
       "quote": "We lost track of transplant workups constantly. Now every item is visible. Patients get listed faster.",
@@ -123,5 +174,6 @@
       "price": "499",
       "priceCurrency": "USD"
     }
-  }
+  },
+  "publishDate": "2025-07-16"
 }

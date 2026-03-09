@@ -6,25 +6,61 @@
   "meta": {
     "title": "Pediatric Practice Software | Well-Child Efficiency & Same-Day Sick | clinIQ",
     "description": "Complete guide to pediatric practice operations. Well-child visit optimization. Same-day sick access. Vaccine administration tracking. Behavioral health screening.",
-    "keywords": ["pediatric practice software", "pediatric practice management", "well-child visit efficiency", "pediatric scheduling software", "vaccine administration tracking"]
+    "keywords": [
+      "pediatric practice software",
+      "pediatric practice management",
+      "well-child visit efficiency",
+      "pediatric scheduling software",
+      "vaccine administration tracking"
+    ]
   },
   "hero": {
     "h1": "Pediatric Practice Software",
     "subhead": "Your well-child visits take too long. Your sick visits can't get same-day access. Your vaccine tracking is fragmented. clinIQ optimizes well-child efficiency, enables true same-day sick access, and streamlines vaccine administration.",
     "stats": [
-      { "value": "30%", "label": "faster well-child throughput" },
-      { "value": "True", "label": "same-day sick access" },
-      { "value": "100%", "label": "vaccine tracking" }
+      {
+        "value": "30%",
+        "label": "faster well-child throughput"
+      },
+      {
+        "value": "True",
+        "label": "same-day sick access"
+      },
+      {
+        "value": "100%",
+        "label": "vaccine tracking"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "peds-challenges", "title": "The Pediatric Practice Challenge" },
-    { "id": "wellchild-efficiency", "title": "Well-Child Visit Efficiency" },
-    { "id": "sameday-sick", "title": "Same-Day Sick Access" },
-    { "id": "vaccine-tracking", "title": "Vaccine Administration Tracking" },
-    { "id": "behavioral-screening", "title": "Behavioral Health Screening" },
-    { "id": "implementation", "title": "Implementation & ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "peds-challenges",
+      "title": "The Pediatric Practice Challenge"
+    },
+    {
+      "id": "wellchild-efficiency",
+      "title": "Well-Child Visit Efficiency"
+    },
+    {
+      "id": "sameday-sick",
+      "title": "Same-Day Sick Access"
+    },
+    {
+      "id": "vaccine-tracking",
+      "title": "Vaccine Administration Tracking"
+    },
+    {
+      "id": "behavioral-screening",
+      "title": "Behavioral Health Screening"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -79,14 +115,29 @@
   "cta": {
     "headline": "See well-child efficiency and same-day access",
     "subhead": "15-minute demo. Well-child optimization, same-day sick access, vaccine tracking, screening.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "See Pediatric Workflow", "href": "/resources/pediatric-workflow" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "See Pediatric Workflow",
+      "href": "/resources/pediatric-workflow"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "30%", "label": "faster well-child visits" },
-      { "value": "100%", "label": "same-day sick access" },
-      { "value": "$75K", "label": "annual additional revenue" }
+      {
+        "value": "30%",
+        "label": "faster well-child visits"
+      },
+      {
+        "value": "100%",
+        "label": "same-day sick access"
+      },
+      {
+        "value": "$75K",
+        "label": "annual additional revenue"
+      }
     ],
     "testimonial": {
       "quote": "Pre-visit questionnaires changed everything. Parents arrive prepared. Visits actually fit in the schedule.",
@@ -123,5 +174,6 @@
       "price": "499",
       "priceCurrency": "USD"
     }
-  }
+  },
+  "publishDate": "2025-08-24"
 }

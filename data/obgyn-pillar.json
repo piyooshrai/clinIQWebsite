@@ -6,25 +6,61 @@
   "meta": {
     "title": "OB/GYN Practice Software | Prenatal RTM & Patient Flow Optimization | clinIQ",
     "description": "Complete guide to OB/GYN practice operations. $7,800/month in prenatal/postpartum RTM. Mixed OB and GYN scheduling. Ultrasound coordination. Labor triage visibility.",
-    "keywords": ["obgyn practice software", "prenatal RTM billing", "obgyn practice management", "prenatal monitoring software", "obgyn patient flow"]
+    "keywords": [
+      "obgyn practice software",
+      "prenatal RTM billing",
+      "obgyn practice management",
+      "prenatal monitoring software",
+      "obgyn patient flow"
+    ]
   },
   "hero": {
     "h1": "OB/GYN Practice Software",
     "subhead": "Your prenatal patients already report symptoms between visits — that's billable RTM. Your mixed OB/GYN schedule needs optimization. Your ultrasounds need coordination. clinIQ captures prenatal RTM, manages complex scheduling, and coordinates obstetric care.",
     "stats": [
-      { "value": "$7,800+", "label": "monthly prenatal RTM" },
-      { "value": "25%", "label": "scheduling efficiency gain" },
-      { "value": "100%", "label": "prenatal coordination" }
+      {
+        "value": "$7,800+",
+        "label": "monthly prenatal RTM"
+      },
+      {
+        "value": "25%",
+        "label": "scheduling efficiency gain"
+      },
+      {
+        "value": "100%",
+        "label": "prenatal coordination"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "obgyn-challenges", "title": "The OB/GYN Practice Challenge" },
-    { "id": "prenatal-rtm", "title": "Prenatal RTM Billing" },
-    { "id": "mixed-scheduling", "title": "Mixed OB/GYN Scheduling" },
-    { "id": "ultrasound-coordination", "title": "Ultrasound Coordination" },
-    { "id": "postpartum-care", "title": "Postpartum Care Coordination" },
-    { "id": "implementation", "title": "Implementation & ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "obgyn-challenges",
+      "title": "The OB/GYN Practice Challenge"
+    },
+    {
+      "id": "prenatal-rtm",
+      "title": "Prenatal RTM Billing"
+    },
+    {
+      "id": "mixed-scheduling",
+      "title": "Mixed OB/GYN Scheduling"
+    },
+    {
+      "id": "ultrasound-coordination",
+      "title": "Ultrasound Coordination"
+    },
+    {
+      "id": "postpartum-care",
+      "title": "Postpartum Care Coordination"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -79,14 +115,29 @@
   "cta": {
     "headline": "See prenatal RTM and OB scheduling",
     "subhead": "15-minute demo. Prenatal monitoring, mixed scheduling, US coordination, postpartum care.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Prenatal RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Prenatal RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$7,800", "label": "monthly prenatal RTM" },
-      { "value": "25%", "label": "scheduling efficiency" },
-      { "value": "100%", "label": "postpartum connection" }
+      {
+        "value": "$7,800",
+        "label": "monthly prenatal RTM"
+      },
+      {
+        "value": "25%",
+        "label": "scheduling efficiency"
+      },
+      {
+        "value": "100%",
+        "label": "postpartum connection"
+      }
     ],
     "testimonial": {
       "quote": "We caught two cases of developing preeclampsia from home BP monitoring. Both avoided emergency interventions.",
@@ -123,5 +174,6 @@
       "price": "499",
       "priceCurrency": "USD"
     }
-  }
+  },
+  "publishDate": "2025-08-11"
 }

@@ -6,26 +6,65 @@
   "meta": {
     "title": "Gastroenterology Practice Software | Endoscopy Efficiency & IBD RTM | clinIQ",
     "description": "Complete guide to GI practice operations. 20% higher endoscopy throughput. IBD RTM billing. Biologic authorization tracking. Prep compliance visibility.",
-    "keywords": ["gastroenterology software", "GI practice management", "endoscopy scheduling software", "IBD RTM billing", "colonoscopy efficiency"]
+    "keywords": [
+      "gastroenterology software",
+      "GI practice management",
+      "endoscopy scheduling software",
+      "IBD RTM billing",
+      "colonoscopy efficiency"
+    ]
   },
   "hero": {
     "h1": "Gastroenterology Practice Software",
     "subhead": "Your endoscopy suite drives revenue — 20% more throughput is $400K/year. Your IBD patients need monitoring between infusions — that's RTM. Your prep failures waste capacity — that's preventable. clinIQ optimizes endoscopy efficiency, captures IBD RTM, and improves prep compliance.",
     "stats": [
-      { "value": "20%", "label": "higher endoscopy throughput" },
-      { "value": "$7,800+", "label": "monthly IBD RTM revenue" },
-      { "value": "50%", "label": "fewer prep failures" }
+      {
+        "value": "20%",
+        "label": "higher endoscopy throughput"
+      },
+      {
+        "value": "$7,800+",
+        "label": "monthly IBD RTM revenue"
+      },
+      {
+        "value": "50%",
+        "label": "fewer prep failures"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "gi-practice-economics", "title": "Gastroenterology Practice Economics" },
-    { "id": "endoscopy-efficiency", "title": "Endoscopy Efficiency" },
-    { "id": "ibd-rtm", "title": "IBD RTM Billing" },
-    { "id": "biologic-auth", "title": "Biologic Authorization" },
-    { "id": "prep-compliance", "title": "Prep Compliance" },
-    { "id": "patient-flow", "title": "Clinic Patient Flow" },
-    { "id": "implementation", "title": "Implementation & ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "gi-practice-economics",
+      "title": "Gastroenterology Practice Economics"
+    },
+    {
+      "id": "endoscopy-efficiency",
+      "title": "Endoscopy Efficiency"
+    },
+    {
+      "id": "ibd-rtm",
+      "title": "IBD RTM Billing"
+    },
+    {
+      "id": "biologic-auth",
+      "title": "Biologic Authorization"
+    },
+    {
+      "id": "prep-compliance",
+      "title": "Prep Compliance"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Clinic Patient Flow"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -101,14 +140,29 @@
   "cta": {
     "headline": "See endoscopy efficiency and IBD RTM",
     "subhead": "15-minute demo. Endoscopy throughput, prep compliance, IBD RTM, biologic authorization.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate GI ROI", "href": "/resources/gi-roi-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate GI ROI",
+      "href": "/resources/gi-roi-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "18%", "label": "endoscopy throughput improvement" },
-      { "value": "52%", "label": "fewer prep failures" },
-      { "value": "$94K", "label": "annual IBD RTM revenue" }
+      {
+        "value": "18%",
+        "label": "endoscopy throughput improvement"
+      },
+      {
+        "value": "52%",
+        "label": "fewer prep failures"
+      },
+      {
+        "value": "$94K",
+        "label": "annual IBD RTM revenue"
+      }
     ],
     "testimonial": {
       "quote": "We were wasting 4-5 procedures a day to bad preps. The reminder system cut that in half. And the IBD RTM is paying for itself many times over.",
@@ -151,5 +205,6 @@
       "price": "499",
       "priceCurrency": "USD"
     }
-  }
+  },
+  "publishDate": "2025-06-20"
 }

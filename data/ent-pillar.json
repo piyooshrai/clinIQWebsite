@@ -6,25 +6,61 @@
   "meta": {
     "title": "ENT Practice Software | Audiology Coordination & In-Office Procedures | clinIQ",
     "description": "Complete guide to ENT practice operations. Audiology and imaging coordination. In-office procedure optimization. Allergy program management. Hearing aid tracking.",
-    "keywords": ["ENT practice software", "otolaryngology practice management", "audiology coordination software", "ENT procedure scheduling", "allergy practice management"]
+    "keywords": [
+      "ENT practice software",
+      "otolaryngology practice management",
+      "audiology coordination software",
+      "ENT procedure scheduling",
+      "allergy practice management"
+    ]
   },
   "hero": {
     "h1": "ENT Practice Software",
     "subhead": "Your audiology testing needs coordination. Your in-office procedures need efficiency. Your allergy program needs management. clinIQ coordinates ENT testing, optimizes procedures, and manages complex service lines.",
     "stats": [
-      { "value": "25%", "label": "procedure efficiency gain" },
-      { "value": "50%", "label": "faster test-to-visit" },
-      { "value": "100%", "label": "allergy program visibility" }
+      {
+        "value": "25%",
+        "label": "procedure efficiency gain"
+      },
+      {
+        "value": "50%",
+        "label": "faster test-to-visit"
+      },
+      {
+        "value": "100%",
+        "label": "allergy program visibility"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "ent-challenges", "title": "The ENT Practice Challenge" },
-    { "id": "audiology-coordination", "title": "Audiology Coordination" },
-    { "id": "procedure-optimization", "title": "In-Office Procedure Optimization" },
-    { "id": "allergy-program", "title": "Allergy Program Management" },
-    { "id": "surgical-coordination", "title": "Surgical Coordination" },
-    { "id": "implementation", "title": "Implementation & ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "ent-challenges",
+      "title": "The ENT Practice Challenge"
+    },
+    {
+      "id": "audiology-coordination",
+      "title": "Audiology Coordination"
+    },
+    {
+      "id": "procedure-optimization",
+      "title": "In-Office Procedure Optimization"
+    },
+    {
+      "id": "allergy-program",
+      "title": "Allergy Program Management"
+    },
+    {
+      "id": "surgical-coordination",
+      "title": "Surgical Coordination"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -75,14 +111,29 @@
   "cta": {
     "headline": "See ENT testing coordination and procedure optimization",
     "subhead": "15-minute demo. Audiology coordination, procedure scheduling, allergy program, surgical tracking.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "See ENT Workflow", "href": "/resources/ent-workflow" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "See ENT Workflow",
+      "href": "/resources/ent-workflow"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "25%", "label": "procedure efficiency" },
-      { "value": "50%", "label": "faster test coordination" },
-      { "value": "100%", "label": "allergy program visibility" }
+      {
+        "value": "25%",
+        "label": "procedure efficiency"
+      },
+      {
+        "value": "50%",
+        "label": "faster test coordination"
+      },
+      {
+        "value": "100%",
+        "label": "allergy program visibility"
+      }
     ],
     "testimonial": {
       "quote": "Patients used to arrive for ENT visits without their audiograms. Now everything is coordinated.",
@@ -119,5 +170,6 @@
       "price": "499",
       "priceCurrency": "USD"
     }
-  }
+  },
+  "publishDate": "2025-09-06"
 }

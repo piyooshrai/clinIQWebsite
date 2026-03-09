@@ -34,6 +34,7 @@ import woundCarePillar from '@/data/wound-care-pillar.json'
 import generalSurgeryPillar from '@/data/general-surgery-pillar.json'
 import chiropracticPillar from '@/data/chiropractic-pillar.json'
 import behavioralHealthPillar from '@/data/behavioral-health-pillar.json'
+import allergyImmunologyPillar from '@/data/allergy-immunology-pillar.json'
 import { getSpecialtyPageData, getAllSpecialtyParams } from '@/lib/feature-specialty-data'
 import JsonSpecialtyPage from '@/components/templates/JsonSpecialtyPage'
 import PillarSpecialtyPage, { type PillarData } from '@/components/templates/PillarSpecialtyPage'
@@ -75,6 +76,7 @@ const pillarPages: Record<string, PillarData> = {
   'general-surgery': generalSurgeryPillar as unknown as PillarData,
   'chiropractic': chiropracticPillar as unknown as PillarData,
   'behavioral-health': behavioralHealthPillar as unknown as PillarData,
+  'allergy-immunology': allergyImmunologyPillar as unknown as PillarData,
 }
 
 // Filter out slugs handled by pillar pages to avoid duplicate routing
@@ -103,11 +105,19 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const pillar = pillarPages[params.slug]
   if (pillar) {
+    const pillarWithDate = pillar as unknown as { publishDate?: string }
     return {
       title: pillar.meta.title,
       description: pillar.meta.description,
       keywords: pillar.meta.keywords ? [...pillar.meta.keywords] : undefined,
-      openGraph: { title: pillar.meta.title, description: pillar.meta.description, type: 'website' },
+      openGraph: {
+        title: pillar.meta.title,
+        description: pillar.meta.description,
+        type: 'article',
+        ...(pillarWithDate.publishDate
+          ? { publishedTime: pillarWithDate.publishDate }
+          : {}),
+      },
     }
   }
   const jsonData = specialtiesData.find((s) => s.slug === params.slug) as JsonSpecialty | undefined

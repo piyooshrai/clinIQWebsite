@@ -6,26 +6,65 @@
   "meta": {
     "title": "Psychiatry Practice Software | Behavioral RTM & No-Show Reduction | clinIQ",
     "description": "Complete guide to psychiatry practice operations. $9,000/month in behavioral RTM. 25% no-show reduction. Private check-in. Session time visibility. Prior auth for medications.",
-    "keywords": ["psychiatry practice software", "behavioral health RTM", "psychiatry no-show reduction", "mental health practice management", "psychiatric medication prior auth"]
+    "keywords": [
+      "psychiatry practice software",
+      "behavioral health RTM",
+      "psychiatry no-show reduction",
+      "mental health practice management",
+      "psychiatric medication prior auth"
+    ]
   },
   "hero": {
     "h1": "Psychiatry Practice Software",
     "subhead": "Your patients already report symptoms between visits — that's billable behavioral RTM. Your no-show rate already costs you $500/day. Your check-in process already needs to protect privacy. clinIQ captures the revenue, reduces no-shows, and treats patients with dignity.",
     "stats": [
-      { "value": "$9,000+", "label": "monthly behavioral RTM revenue" },
-      { "value": "25%", "label": "no-show reduction" },
-      { "value": "100%", "label": "private check-in" }
+      {
+        "value": "$9,000+",
+        "label": "monthly behavioral RTM revenue"
+      },
+      {
+        "value": "25%",
+        "label": "no-show reduction"
+      },
+      {
+        "value": "100%",
+        "label": "private check-in"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "psychiatry-challenges", "title": "The Psychiatry Practice Challenge" },
-    { "id": "behavioral-rtm", "title": "Behavioral RTM Billing" },
-    { "id": "no-show-reduction", "title": "No-Show Reduction" },
-    { "id": "private-checkin", "title": "Private Check-In" },
-    { "id": "session-visibility", "title": "Session Time Visibility" },
-    { "id": "medication-auth", "title": "Medication Prior Authorization" },
-    { "id": "implementation", "title": "Implementation & ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "psychiatry-challenges",
+      "title": "The Psychiatry Practice Challenge"
+    },
+    {
+      "id": "behavioral-rtm",
+      "title": "Behavioral RTM Billing"
+    },
+    {
+      "id": "no-show-reduction",
+      "title": "No-Show Reduction"
+    },
+    {
+      "id": "private-checkin",
+      "title": "Private Check-In"
+    },
+    {
+      "id": "session-visibility",
+      "title": "Session Time Visibility"
+    },
+    {
+      "id": "medication-auth",
+      "title": "Medication Prior Authorization"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -101,14 +140,29 @@
   "cta": {
     "headline": "See behavioral RTM and private check-in",
     "subhead": "15-minute demo. Behavioral RTM, no-show reduction, private check-in, session visibility.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Behavioral RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Behavioral RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$108K", "label": "annual behavioral RTM revenue" },
-      { "value": "23%", "label": "no-show reduction" },
-      { "value": "100%", "label": "private check-in" }
+      {
+        "value": "$108K",
+        "label": "annual behavioral RTM revenue"
+      },
+      {
+        "value": "23%",
+        "label": "no-show reduction"
+      },
+      {
+        "value": "100%",
+        "label": "private check-in"
+      }
     ],
     "testimonial": {
       "quote": "Our patients were mortified by traditional check-in. Now they check in from their phones and wait in their cars. Satisfaction scores went up, and we're billing $8K/month in RTM.",
@@ -151,5 +205,6 @@
       "price": "499",
       "priceCurrency": "USD"
     }
-  }
+  },
+  "publishDate": "2025-03-21"
 }

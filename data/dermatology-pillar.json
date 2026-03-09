@@ -6,26 +6,65 @@
   "meta": {
     "title": "Dermatology Practice Software | Mohs Efficiency & Biopsy Tracking | clinIQ",
     "description": "Complete guide to dermatology practice operations. 25% faster Mohs throughput. Zero biopsy results lost. Cosmetic flow separation. Biologic authorization tracking.",
-    "keywords": ["dermatology practice software", "Mohs surgery efficiency", "dermatology biopsy tracking", "dermatology practice management", "biologic authorization dermatology"]
+    "keywords": [
+      "dermatology practice software",
+      "Mohs surgery efficiency",
+      "dermatology biopsy tracking",
+      "dermatology practice management",
+      "biologic authorization dermatology"
+    ]
   },
   "hero": {
     "h1": "Dermatology Practice Software",
     "subhead": "Your Mohs days run on stage turnover — 25% faster is one more case. Your biopsies need tracking from specimen to patient notification. Your cosmetic patients need a different experience than medical patients. clinIQ optimizes Mohs efficiency, tracks every biopsy, and separates cosmetic flow.",
     "stats": [
-      { "value": "25%", "label": "faster Mohs throughput" },
-      { "value": "Zero", "label": "biopsy results lost" },
-      { "value": "100%", "label": "cosmetic flow separation" }
+      {
+        "value": "25%",
+        "label": "faster Mohs throughput"
+      },
+      {
+        "value": "Zero",
+        "label": "biopsy results lost"
+      },
+      {
+        "value": "100%",
+        "label": "cosmetic flow separation"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "derm-practice-challenges", "title": "The Dermatology Practice Challenge" },
-    { "id": "mohs-efficiency", "title": "Mohs Surgery Efficiency" },
-    { "id": "biopsy-tracking", "title": "Biopsy Result Tracking" },
-    { "id": "cosmetic-flow", "title": "Cosmetic vs Medical Flow" },
-    { "id": "biologic-auth", "title": "Biologic Authorization" },
-    { "id": "patient-flow", "title": "High-Volume Patient Flow" },
-    { "id": "implementation", "title": "Implementation & ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "derm-practice-challenges",
+      "title": "The Dermatology Practice Challenge"
+    },
+    {
+      "id": "mohs-efficiency",
+      "title": "Mohs Surgery Efficiency"
+    },
+    {
+      "id": "biopsy-tracking",
+      "title": "Biopsy Result Tracking"
+    },
+    {
+      "id": "cosmetic-flow",
+      "title": "Cosmetic vs Medical Flow"
+    },
+    {
+      "id": "biologic-auth",
+      "title": "Biologic Authorization"
+    },
+    {
+      "id": "patient-flow",
+      "title": "High-Volume Patient Flow"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -101,14 +140,29 @@
   "cta": {
     "headline": "See Mohs efficiency and biopsy tracking",
     "subhead": "15-minute demo. Mohs stage tracking, biopsy pipeline, cosmetic flow, high-volume patient management.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "See Derm Workflow", "href": "/resources/dermatology-workflow" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "See Derm Workflow",
+      "href": "/resources/dermatology-workflow"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "25%", "label": "faster Mohs throughput" },
-      { "value": "Zero", "label": "lost biopsy results" },
-      { "value": "$100K+", "label": "annual Mohs capacity recovered" }
+      {
+        "value": "25%",
+        "label": "faster Mohs throughput"
+      },
+      {
+        "value": "Zero",
+        "label": "lost biopsy results"
+      },
+      {
+        "value": "$100K+",
+        "label": "annual Mohs capacity recovered"
+      }
     ],
     "testimonial": {
       "quote": "We added two Mohs cases per week just from better stage tracking. And we haven't had a lost biopsy result since implementation.",
@@ -151,5 +205,6 @@
       "price": "499",
       "priceCurrency": "USD"
     }
-  }
+  },
+  "publishDate": "2025-04-16"
 }

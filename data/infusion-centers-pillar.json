@@ -6,25 +6,61 @@
   "meta": {
     "title": "Infusion Center Software | Chair Utilization & Drug Waste Prevention | clinIQ",
     "description": "Complete guide to infusion center operations. 15-20% higher chair utilization. Zero drug waste from no-shows. Prior auth tracking. Nurse load balancing. RTM for chronic infusion patients.",
-    "keywords": ["infusion center software", "infusion chair scheduling", "infusion drug waste prevention", "infusion center management", "biologic infusion scheduling"]
+    "keywords": [
+      "infusion center software",
+      "infusion chair scheduling",
+      "infusion drug waste prevention",
+      "infusion center management",
+      "biologic infusion scheduling"
+    ]
   },
   "hero": {
     "h1": "Infusion Center Software",
     "subhead": "Your chairs drive revenue. Empty chairs are lost money. No-shows waste expensive drugs. Nurse pileups cause overtime. clinIQ optimizes chair utilization, prevents drug waste by syncing prep with arrival, and balances nursing load across the day.",
     "stats": [
-      { "value": "15-20%", "label": "chair utilization improvement" },
-      { "value": "$0", "label": "drug waste from no-shows" },
-      { "value": "Even", "label": "nurse load distribution" }
+      {
+        "value": "15-20%",
+        "label": "chair utilization improvement"
+      },
+      {
+        "value": "$0",
+        "label": "drug waste from no-shows"
+      },
+      {
+        "value": "Even",
+        "label": "nurse load distribution"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "infusion-economics", "title": "Infusion Center Economics" },
-    { "id": "chair-utilization", "title": "Chair Utilization Optimization" },
-    { "id": "drug-waste", "title": "Drug Waste Prevention" },
-    { "id": "nurse-load", "title": "Nurse Load Balancing" },
-    { "id": "auth-tracking", "title": "Authorization Tracking" },
-    { "id": "patient-rtm", "title": "RTM for Infusion Patients" },
-    { "id": "implementation", "title": "Implementation & ROI" }
+    {
+      "id": "infusion-economics",
+      "title": "Infusion Center Economics"
+    },
+    {
+      "id": "chair-utilization",
+      "title": "Chair Utilization Optimization"
+    },
+    {
+      "id": "drug-waste",
+      "title": "Drug Waste Prevention"
+    },
+    {
+      "id": "nurse-load",
+      "title": "Nurse Load Balancing"
+    },
+    {
+      "id": "auth-tracking",
+      "title": "Authorization Tracking"
+    },
+    {
+      "id": "patient-rtm",
+      "title": "RTM for Infusion Patients"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    }
   ],
   "sections": [
     {
@@ -80,14 +116,29 @@
   "cta": {
     "headline": "See chair utilization and drug waste prevention",
     "subhead": "15-minute demo. Chair scheduling, pharmacy coordination, nurse load balancing, authorization tracking.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Infusion ROI", "href": "/resources/infusion-roi-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Infusion ROI",
+      "href": "/resources/infusion-roi-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "18%", "label": "chair utilization improvement" },
-      { "value": "$380K", "label": "annual drug waste prevented" },
-      { "value": "Zero", "label": "expired authorization surprises" }
+      {
+        "value": "18%",
+        "label": "chair utilization improvement"
+      },
+      {
+        "value": "$380K",
+        "label": "annual drug waste prevented"
+      },
+      {
+        "value": "Zero",
+        "label": "expired authorization surprises"
+      }
     ],
     "testimonial": {
       "quote": "We were running at 70% utilization and wasting 3-4 Remicade doses per week. Now we're at 86% utilization and haven't wasted a dose in three months.",
@@ -124,5 +175,6 @@
       "price": "499",
       "priceCurrency": "USD"
     }
-  }
+  },
+  "publishDate": "2025-03-08"
 }

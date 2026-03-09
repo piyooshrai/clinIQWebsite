@@ -6,26 +6,65 @@
   "meta": {
     "title": "Orthopedic Surgery Practice Software | OR Efficiency & Post-Op RTM | clinIQ",
     "description": "Complete guide to orthopedic surgery practice operations. $250K/year in OR capacity recovered. LOMN templates for joints and spine. Post-op RTM billing. Pre-op coordination.",
-    "keywords": ["orthopedic surgery software", "orthopedic prior authorization", "orthopedic LOMN", "orthopedic surgery practice management", "post-op RTM orthopedics"]
+    "keywords": [
+      "orthopedic surgery software",
+      "orthopedic prior authorization",
+      "orthopedic LOMN",
+      "orthopedic surgery practice management",
+      "post-op RTM orthopedics"
+    ]
   },
   "hero": {
     "h1": "Orthopedic Surgery Practice Software",
     "subhead": "8 minutes off OR turnover equals $250K/year recovered. Your joint and spine authorizations need LOMN templates that get approved. Your post-op patients need monitoring that's billable. clinIQ optimizes OR efficiency, automates surgical documentation, and captures post-op RTM.",
     "stats": [
-      { "value": "$250K+", "label": "annual OR capacity recovered" },
-      { "value": "5 min", "label": "LOMN generation vs 30 min" },
-      { "value": "$12K+", "label": "monthly post-op RTM revenue" }
+      {
+        "value": "$250K+",
+        "label": "annual OR capacity recovered"
+      },
+      {
+        "value": "5 min",
+        "label": "LOMN generation vs 30 min"
+      },
+      {
+        "value": "$12K+",
+        "label": "monthly post-op RTM revenue"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "ortho-practice-economics", "title": "Orthopedic Surgery Economics" },
-    { "id": "or-efficiency", "title": "OR Turnover and Efficiency" },
-    { "id": "surgical-auth", "title": "Surgical Prior Authorization" },
-    { "id": "lomn-generation", "title": "LOMN Generation" },
-    { "id": "preop-coordination", "title": "Pre-Op Coordination" },
-    { "id": "postop-rtm", "title": "Post-Op RTM Billing" },
-    { "id": "implementation", "title": "Implementation & ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "ortho-practice-economics",
+      "title": "Orthopedic Surgery Economics"
+    },
+    {
+      "id": "or-efficiency",
+      "title": "OR Turnover and Efficiency"
+    },
+    {
+      "id": "surgical-auth",
+      "title": "Surgical Prior Authorization"
+    },
+    {
+      "id": "lomn-generation",
+      "title": "LOMN Generation"
+    },
+    {
+      "id": "preop-coordination",
+      "title": "Pre-Op Coordination"
+    },
+    {
+      "id": "postop-rtm",
+      "title": "Post-Op RTM Billing"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -101,14 +140,29 @@
   "cta": {
     "headline": "See OR efficiency and LOMN generation",
     "subhead": "15-minute demo. OR turnover, surgical authorization, LOMN templates, post-op RTM.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "See LOMN Templates", "href": "/resources/ortho-lomn-templates" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "See LOMN Templates",
+      "href": "/resources/ortho-lomn-templates"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$250K", "label": "annual OR capacity recovered" },
-      { "value": "90%+", "label": "first-submission approval rate" },
-      { "value": "$57K", "label": "annual post-op RTM revenue" }
+      {
+        "value": "$250K",
+        "label": "annual OR capacity recovered"
+      },
+      {
+        "value": "90%+",
+        "label": "first-submission approval rate"
+      },
+      {
+        "value": "$57K",
+        "label": "annual post-op RTM revenue"
+      }
     ],
     "testimonial": {
       "quote": "Our coordinators were spending 20 hours a week on authorizations. LOMN generation alone saved 10 hours. And we've added 8 cases this year that would have been denied.",
@@ -151,5 +205,6 @@
       "price": "499",
       "priceCurrency": "USD"
     }
-  }
+  },
+  "publishDate": "2025-04-03"
 }

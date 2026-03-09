@@ -6,26 +6,65 @@
   "meta": {
     "title": "Allergy Practice Software | Immunotherapy Tracking & Biologic Authorization | clinIQ",
     "description": "Complete guide to allergy and immunology practice operations. Injection program management. Vial tracking. Biologic authorization for severe asthma and urticaria. Allergy RTM billing.",
-    "keywords": ["allergy practice software", "immunotherapy tracking software", "allergy injection management", "allergy practice management", "biologic authorization allergy"]
+    "keywords": [
+      "allergy practice software",
+      "immunotherapy tracking software",
+      "allergy injection management",
+      "allergy practice management",
+      "biologic authorization allergy"
+    ]
   },
   "hero": {
     "h1": "Allergy & Immunology Practice Software",
     "subhead": "Your injection program runs hundreds of patients on escalating schedules — that needs systematic tracking. Your severe asthma and urticaria patients qualify for biologics that need authorization. Your allergic patients can be monitored between visits with RTM. clinIQ manages immunotherapy, coordinates biologics, and captures RTM revenue.",
     "stats": [
-      { "value": "100%", "label": "injection schedule compliance" },
-      { "value": "Zero", "label": "expired vials administered" },
-      { "value": "$7,800+", "label": "monthly allergy RTM" }
+      {
+        "value": "100%",
+        "label": "injection schedule compliance"
+      },
+      {
+        "value": "Zero",
+        "label": "expired vials administered"
+      },
+      {
+        "value": "$7,800+",
+        "label": "monthly allergy RTM"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "allergy-challenges", "title": "The Allergy Practice Challenge" },
-    { "id": "injection-management", "title": "Injection Program Management" },
-    { "id": "vial-tracking", "title": "Vial Tracking" },
-    { "id": "biologic-auth", "title": "Biologic Authorization" },
-    { "id": "allergy-rtm", "title": "Allergy RTM Billing" },
-    { "id": "patient-flow", "title": "Patient Flow" },
-    { "id": "implementation", "title": "Implementation & ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "allergy-challenges",
+      "title": "The Allergy Practice Challenge"
+    },
+    {
+      "id": "injection-management",
+      "title": "Injection Program Management"
+    },
+    {
+      "id": "vial-tracking",
+      "title": "Vial Tracking"
+    },
+    {
+      "id": "biologic-auth",
+      "title": "Biologic Authorization"
+    },
+    {
+      "id": "allergy-rtm",
+      "title": "Allergy RTM Billing"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Patient Flow"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -101,14 +140,29 @@
   "cta": {
     "headline": "See injection program management and allergy RTM",
     "subhead": "15-minute demo. Injection tracking, vial management, biologic authorization, RTM billing.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Allergy RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Allergy RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$94K", "label": "annual allergy RTM revenue" },
-      { "value": "Zero", "label": "expired vials administered" },
-      { "value": "100%", "label": "injection protocol compliance" }
+      {
+        "value": "$94K",
+        "label": "annual allergy RTM revenue"
+      },
+      {
+        "value": "Zero",
+        "label": "expired vials administered"
+      },
+      {
+        "value": "100%",
+        "label": "injection protocol compliance"
+      }
     ],
     "testimonial": {
       "quote": "We had no system for tracking vial expiration. We were occasionally catching expired vials after the fact. Now every vial is tracked and we get alerts 2 weeks out.",
@@ -151,5 +205,6 @@
       "price": "499",
       "priceCurrency": "USD"
     }
-  }
+  },
+  "publishDate": "2025-10-28"
 }

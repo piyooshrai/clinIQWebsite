@@ -1,1 +1,161 @@
-{"slug":"wound-care","name":"Wound Care","pageType":"pillar","wordCount":2700,"meta":{"title":"Wound Care Center Software | Healing Progression & HBO Coordination | clinIQ","description":"Complete guide to wound care center operations. Wound measurement tracking. HBO treatment coordination. Advanced therapy authorization. Healing rate analytics.","keywords":["wound care software","wound center management","HBO coordination","wound healing tracking","advanced wound care"]},"hero":{"h1":"Wound Care Center Software","subhead":"Your wounds need systematic measurement and tracking. Your HBO treatments need coordination. Your advanced therapies need authorization. clinIQ tracks wound healing, coordinates hyperbaric oxygen, and manages advanced wound care.","stats":[{"value":"100%","label":"wound healing visibility"},{"value":"30%","label":"faster HBO coordination"},{"value":"Zero","label":"missed treatment sessions"}]},"tableOfContents":[{"id":"wound-challenges","title":"The Wound Care Center Challenge"},{"id":"wound-tracking","title":"Wound Measurement Tracking"},{"id":"hbo-coordination","title":"HBO Treatment Coordination"},{"id":"advanced-therapy","title":"Advanced Therapy Authorization"},{"id":"healing-analytics","title":"Healing Rate Analytics"},{"id":"implementation","title":"Implementation & ROI"}],"sections":[{"id":"wound-challenges","h2":"The Wound Care Center Challenge","content":"Wound care centers manage complex chronic wounds requiring systematic measurement, multiple treatment modalities, and long-term follow-up.\n\n**The measurement documentation burden:**\n\nEvery wound measured at every visit. Length, width, depth, undermining, tissue types, drainage. Documentation is intensive but essential for outcomes and billing.\n\n**The HBO coordination:**\n\nHyperbaric oxygen therapy requires chamber scheduling, dive protocols, and treatment tracking across 20-40 session courses."},{"id":"wound-tracking","h2":"Wound Measurement Tracking","content":"**What clinIQ tracks:**\n\nDimensions: Length, width, depth, area, volume calculated.\n\nTissue characteristics: Granulation, slough, eschar, epithelialization percentages.\n\nWound bed: Drainage amount and type, odor, periwound condition.\n\nPhotography: Wound photos with measurement overlay.\n\n**Healing progression:**\n\nSize over time graphed. Healing rate calculated. Stalled wounds flagged for treatment escalation."},{"id":"hbo-coordination","h2":"HBO Treatment Coordination","content":"Hyperbaric oxygen therapy involves 20-40+ treatments.\n\n**What clinIQ does:**\n\nTreatment course tracking: Treatments completed, treatments remaining, protocol compliance.\n\nChamber scheduling: Dive schedule coordination.\n\nPre-dive checklist: Blood glucose, medications, contraindication screening.\n\nOutcome documentation: Response to HBO documented."},{"id":"advanced-therapy","h2":"Advanced Therapy Authorization","content":"Advanced wound therapies (cellular/tissue products, NPWT, growth factors) require authorization.\n\n**What clinIQ does:**\n\nAuth tracking: Status per patient per therapy.\n\nTreatment failure documentation: Prior treatment documented for step therapy.\n\nApplication tracking: Product applied, response documented."},{"id":"healing-analytics","h2":"Healing Rate Analytics","content":"Wound care outcomes depend on systematic tracking.\n\n**What clinIQ provides:**\n\nHealing rate: Percent area reduction over time.\n\nBenchmarking: Expected vs actual healing rate.\n\nOutcome reporting: Healing rates by wound type, by etiology, by treatment."},{"id":"implementation","h2":"Implementation and ROI Timeline","content":"**Week 1-2:** Wound tracking, HBO coordination, advanced therapy management configured.\n\n**ROI:** Improved healing rates. Better authorization outcomes. Enhanced billing capture.\n\n**Investment:** Professional $499/month. Implementation $750 one-time."}],"faqs":[{"q":"How do you track wound measurements?","a":"Dimensions at every visit with healing progression graphed. Stalled wounds flagged."},{"q":"Does this coordinate HBO?","a":"Yes. Treatment course tracking, chamber scheduling, pre-dive checklists."}],"cta":{"headline":"See wound tracking and HBO coordination","subhead":"15-minute demo. Wound measurement, healing analytics, HBO coordination, advanced therapy.","primaryButton":{"label":"Request Demo","href":"/demo"},"secondaryButton":{"label":"See Wound Care Workflow","href":"/resources/wound-care-workflow"}},"proof":{"stats":[{"value":"100%","label":"healing visibility"},{"value":"30%","label":"faster HBO coordination"},{"value":"22%","label":"improved healing rates"}],"testimonial":{"quote":"We identify stalled wounds weeks earlier now. Treatment escalation happens before healing fails.","attribution":"Wound Care Director","practice":"Hospital-based wound center","location":"Michigan"}},"relatedContent":[{"type":"blog","title":"Wound Measurement: Systematic Documentation","href":"/blog/wound-measurement-tracking","description":"Best practices for wound measurement and healing progression."},{"type":"blog","title":"HBO Coordination: Chamber to Outcomes","href":"/blog/hbo-coordination","description":"Managing hyperbaric oxygen therapy programs."}],"schema":{"type":"SoftwareApplication","applicationCategory":"Medical Practice Management Software","operatingSystem":"Web-based","offers":{"price":"499","priceCurrency":"USD"}}}
+{
+  "slug": "wound-care",
+  "name": "Wound Care",
+  "pageType": "pillar",
+  "wordCount": 2700,
+  "meta": {
+    "title": "Wound Care Center Software | Healing Progression & HBO Coordination | clinIQ",
+    "description": "Complete guide to wound care center operations. Wound measurement tracking. HBO treatment coordination. Advanced therapy authorization. Healing rate analytics.",
+    "keywords": [
+      "wound care software",
+      "wound center management",
+      "HBO coordination",
+      "wound healing tracking",
+      "advanced wound care"
+    ]
+  },
+  "hero": {
+    "h1": "Wound Care Center Software",
+    "subhead": "Your wounds need systematic measurement and tracking. Your HBO treatments need coordination. Your advanced therapies need authorization. clinIQ tracks wound healing, coordinates hyperbaric oxygen, and manages advanced wound care.",
+    "stats": [
+      {
+        "value": "100%",
+        "label": "wound healing visibility"
+      },
+      {
+        "value": "30%",
+        "label": "faster HBO coordination"
+      },
+      {
+        "value": "Zero",
+        "label": "missed treatment sessions"
+      }
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "wound-challenges",
+      "title": "The Wound Care Center Challenge"
+    },
+    {
+      "id": "wound-tracking",
+      "title": "Wound Measurement Tracking"
+    },
+    {
+      "id": "hbo-coordination",
+      "title": "HBO Treatment Coordination"
+    },
+    {
+      "id": "advanced-therapy",
+      "title": "Advanced Therapy Authorization"
+    },
+    {
+      "id": "healing-analytics",
+      "title": "Healing Rate Analytics"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    }
+  ],
+  "sections": [
+    {
+      "id": "wound-challenges",
+      "h2": "The Wound Care Center Challenge",
+      "content": "Wound care centers manage complex chronic wounds requiring systematic measurement, multiple treatment modalities, and long-term follow-up.\n\n**The measurement documentation burden:**\n\nEvery wound measured at every visit. Length, width, depth, undermining, tissue types, drainage. Documentation is intensive but essential for outcomes and billing.\n\n**The HBO coordination:**\n\nHyperbaric oxygen therapy requires chamber scheduling, dive protocols, and treatment tracking across 20-40 session courses."
+    },
+    {
+      "id": "wound-tracking",
+      "h2": "Wound Measurement Tracking",
+      "content": "**What clinIQ tracks:**\n\nDimensions: Length, width, depth, area, volume calculated.\n\nTissue characteristics: Granulation, slough, eschar, epithelialization percentages.\n\nWound bed: Drainage amount and type, odor, periwound condition.\n\nPhotography: Wound photos with measurement overlay.\n\n**Healing progression:**\n\nSize over time graphed. Healing rate calculated. Stalled wounds flagged for treatment escalation."
+    },
+    {
+      "id": "hbo-coordination",
+      "h2": "HBO Treatment Coordination",
+      "content": "Hyperbaric oxygen therapy involves 20-40+ treatments.\n\n**What clinIQ does:**\n\nTreatment course tracking: Treatments completed, treatments remaining, protocol compliance.\n\nChamber scheduling: Dive schedule coordination.\n\nPre-dive checklist: Blood glucose, medications, contraindication screening.\n\nOutcome documentation: Response to HBO documented."
+    },
+    {
+      "id": "advanced-therapy",
+      "h2": "Advanced Therapy Authorization",
+      "content": "Advanced wound therapies (cellular/tissue products, NPWT, growth factors) require authorization.\n\n**What clinIQ does:**\n\nAuth tracking: Status per patient per therapy.\n\nTreatment failure documentation: Prior treatment documented for step therapy.\n\nApplication tracking: Product applied, response documented."
+    },
+    {
+      "id": "healing-analytics",
+      "h2": "Healing Rate Analytics",
+      "content": "Wound care outcomes depend on systematic tracking.\n\n**What clinIQ provides:**\n\nHealing rate: Percent area reduction over time.\n\nBenchmarking: Expected vs actual healing rate.\n\nOutcome reporting: Healing rates by wound type, by etiology, by treatment."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI Timeline",
+      "content": "**Week 1-2:** Wound tracking, HBO coordination, advanced therapy management configured.\n\n**ROI:** Improved healing rates. Better authorization outcomes. Enhanced billing capture.\n\n**Investment:** Professional $499/month. Implementation $750 one-time."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do you track wound measurements?",
+      "a": "Dimensions at every visit with healing progression graphed. Stalled wounds flagged."
+    },
+    {
+      "q": "Does this coordinate HBO?",
+      "a": "Yes. Treatment course tracking, chamber scheduling, pre-dive checklists."
+    }
+  ],
+  "cta": {
+    "headline": "See wound tracking and HBO coordination",
+    "subhead": "15-minute demo. Wound measurement, healing analytics, HBO coordination, advanced therapy.",
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "See Wound Care Workflow",
+      "href": "/resources/wound-care-workflow"
+    }
+  },
+  "proof": {
+    "stats": [
+      {
+        "value": "100%",
+        "label": "healing visibility"
+      },
+      {
+        "value": "30%",
+        "label": "faster HBO coordination"
+      },
+      {
+        "value": "22%",
+        "label": "improved healing rates"
+      }
+    ],
+    "testimonial": {
+      "quote": "We identify stalled wounds weeks earlier now. Treatment escalation happens before healing fails.",
+      "attribution": "Wound Care Director",
+      "practice": "Hospital-based wound center",
+      "location": "Michigan"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "blog",
+      "title": "Wound Measurement: Systematic Documentation",
+      "href": "/blog/wound-measurement-tracking",
+      "description": "Best practices for wound measurement and healing progression."
+    },
+    {
+      "type": "blog",
+      "title": "HBO Coordination: Chamber to Outcomes",
+      "href": "/blog/hbo-coordination",
+      "description": "Managing hyperbaric oxygen therapy programs."
+    }
+  ],
+  "schema": {
+    "type": "SoftwareApplication",
+    "applicationCategory": "Medical Practice Management Software",
+    "operatingSystem": "Web-based",
+    "offers": {
+      "price": "499",
+      "priceCurrency": "USD"
+    }
+  },
+  "publishDate": "2026-01-14"
+}

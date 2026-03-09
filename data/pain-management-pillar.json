@@ -6,26 +6,65 @@
   "meta": {
     "title": "Pain Management Practice Software | RTM, Prior Auth & Patient Flow | clinIQ",
     "description": "Complete guide to pain management clinic operations. RTM billing ($12K/month), prior auth automation, procedure room turnover, controlled substance compliance. Used by interventional pain practices nationwide.",
-    "keywords": ["pain management software", "interventional pain practice management", "pain clinic RTM billing", "pain management prior authorization", "chronic pain patient flow"]
+    "keywords": [
+      "pain management software",
+      "interventional pain practice management",
+      "pain clinic RTM billing",
+      "pain management prior authorization",
+      "chronic pain patient flow"
+    ]
   },
   "hero": {
     "h1": "Pain Management Practice Software",
     "subhead": "RTM billing. Prior auth automation. Procedure room efficiency. Controlled substance compliance. Everything interventional pain practices need to capture revenue, reduce administrative burden, and stay compliant.",
     "stats": [
-      { "value": "$12K+", "label": "monthly RTM revenue (100 patients)" },
-      { "value": "56 min", "label": "recovered per procedure day" },
-      { "value": "90%+", "label": "first-time prior auth approval" }
+      {
+        "value": "$12K+",
+        "label": "monthly RTM revenue (100 patients)"
+      },
+      {
+        "value": "56 min",
+        "label": "recovered per procedure day"
+      },
+      {
+        "value": "90%+",
+        "label": "first-time prior auth approval"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "pain-practice-challenges", "title": "The Pain Practice Revenue Problem" },
-    { "id": "rtm-billing", "title": "RTM Billing for Chronic Pain" },
-    { "id": "prior-auth", "title": "Prior Authorization & LOMN" },
-    { "id": "procedure-efficiency", "title": "Procedure Room Efficiency" },
-    { "id": "patient-flow", "title": "Patient Flow Management" },
-    { "id": "compliance", "title": "Controlled Substance Compliance" },
-    { "id": "implementation", "title": "Implementation & ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "pain-practice-challenges",
+      "title": "The Pain Practice Revenue Problem"
+    },
+    {
+      "id": "rtm-billing",
+      "title": "RTM Billing for Chronic Pain"
+    },
+    {
+      "id": "prior-auth",
+      "title": "Prior Authorization & LOMN"
+    },
+    {
+      "id": "procedure-efficiency",
+      "title": "Procedure Room Efficiency"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Patient Flow Management"
+    },
+    {
+      "id": "compliance",
+      "title": "Controlled Substance Compliance"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -106,14 +145,29 @@
   "cta": {
     "headline": "See the revenue you're missing",
     "subhead": "15-minute demo. We'll show you RTM revenue, procedure room recovery, and prior auth tracking configured for your pain practice.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Your RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Your RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$144K", "label": "annual RTM revenue (100 patients)" },
-      { "value": "$160K+", "label": "annual procedure capacity recovered" },
-      { "value": "2 weeks", "label": "implementation timeline" }
+      {
+        "value": "$144K",
+        "label": "annual RTM revenue (100 patients)"
+      },
+      {
+        "value": "$160K+",
+        "label": "annual procedure capacity recovered"
+      },
+      {
+        "value": "2 weeks",
+        "label": "implementation timeline"
+      }
     ],
     "testimonial": {
       "quote": "We were leaving $15,000 a month on the table between unbilled RTM and lost procedure slots. clinIQ paid for itself in week one.",
@@ -157,5 +211,6 @@
       "priceCurrency": "USD",
       "priceValidUntil": "2026-12-31"
     }
-  }
+  },
+  "publishDate": "2025-01-15"
 }

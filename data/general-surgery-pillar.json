@@ -6,26 +6,65 @@
   "meta": {
     "title": "General Surgery Practice Software | OR Efficiency & Post-Op RTM | clinIQ",
     "description": "Complete guide to general surgery practice operations. OR turnover optimization. Surgical LOMN generation. Post-op RTM billing. Pre-op coordination.",
-    "keywords": ["general surgery software", "general surgery practice management", "surgical LOMN", "post-op RTM", "OR efficiency"]
+    "keywords": [
+      "general surgery software",
+      "general surgery practice management",
+      "surgical LOMN",
+      "post-op RTM",
+      "OR efficiency"
+    ]
   },
   "hero": {
     "h1": "General Surgery Practice Software",
     "subhead": "Your OR efficiency drives revenue — 15 minutes off turnover is $200K/year recovered. Your surgical authorizations need systematic LOMN generation. Your post-op patients need monitoring that's billable. clinIQ optimizes OR efficiency, automates authorization, and captures post-op RTM.",
     "stats": [
-      { "value": "$200K+", "label": "annual OR capacity recovered" },
-      { "value": "5 min", "label": "LOMN generation vs 30 min" },
-      { "value": "$9,100+", "label": "monthly post-op RTM revenue" }
+      {
+        "value": "$200K+",
+        "label": "annual OR capacity recovered"
+      },
+      {
+        "value": "5 min",
+        "label": "LOMN generation vs 30 min"
+      },
+      {
+        "value": "$9,100+",
+        "label": "monthly post-op RTM revenue"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "general-surgery-challenges", "title": "The General Surgery Practice Challenge" },
-    { "id": "or-efficiency", "title": "OR Turnover and Efficiency" },
-    { "id": "surgical-auth", "title": "Surgical Authorization" },
-    { "id": "lomn-generation", "title": "LOMN Generation" },
-    { "id": "preop-coordination", "title": "Pre-Op Coordination" },
-    { "id": "postop-rtm", "title": "Post-Op RTM Billing" },
-    { "id": "implementation", "title": "Implementation & ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "general-surgery-challenges",
+      "title": "The General Surgery Practice Challenge"
+    },
+    {
+      "id": "or-efficiency",
+      "title": "OR Turnover and Efficiency"
+    },
+    {
+      "id": "surgical-auth",
+      "title": "Surgical Authorization"
+    },
+    {
+      "id": "lomn-generation",
+      "title": "LOMN Generation"
+    },
+    {
+      "id": "preop-coordination",
+      "title": "Pre-Op Coordination"
+    },
+    {
+      "id": "postop-rtm",
+      "title": "Post-Op RTM Billing"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -93,14 +132,29 @@
   "cta": {
     "headline": "See OR efficiency and LOMN generation",
     "subhead": "15-minute demo. OR turnover, surgical authorization, LOMN templates, post-op RTM.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "See LOMN Templates", "href": "/resources/general-surgery-lomn" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "See LOMN Templates",
+      "href": "/resources/general-surgery-lomn"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$200K", "label": "annual OR capacity recovered" },
-      { "value": "90%+", "label": "first-submission approval rate" },
-      { "value": "$73K", "label": "annual post-op RTM revenue" }
+      {
+        "value": "$200K",
+        "label": "annual OR capacity recovered"
+      },
+      {
+        "value": "90%+",
+        "label": "first-submission approval rate"
+      },
+      {
+        "value": "$73K",
+        "label": "annual post-op RTM revenue"
+      }
     ],
     "testimonial": {
       "quote": "OR turnover visibility changed everything. We see where time goes and can actually fix it. Plus the post-op RTM is pure incremental revenue.",
@@ -137,5 +191,6 @@
       "price": "499",
       "priceCurrency": "USD"
     }
-  }
+  },
+  "publishDate": "2026-01-27"
 }

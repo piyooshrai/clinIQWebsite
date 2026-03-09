@@ -6,24 +6,56 @@
   "meta": {
     "title": "Oral Surgery Practice Software | Surgical Coordination & Referral Management | clinIQ",
     "description": "Complete guide to oral surgery practice operations. Referral tracking. IV sedation coordination. Implant case management. High-volume surgical flow.",
-    "keywords": ["oral surgery software", "oral surgery practice management", "dental implant coordination", "oral surgery referral tracking"]
+    "keywords": [
+      "oral surgery software",
+      "oral surgery practice management",
+      "dental implant coordination",
+      "oral surgery referral tracking"
+    ]
   },
   "hero": {
     "h1": "Oral Surgery Practice Software",
     "subhead": "Your referrals need systematic tracking. Your IV sedation cases need coordination. Your implant cases need management. clinIQ tracks referrals, coordinates sedation, and manages surgical workflows.",
     "stats": [
-      { "value": "100%", "label": "referral visibility" },
-      { "value": "25%", "label": "case efficiency gain" },
-      { "value": "Zero", "label": "scheduling gaps" }
+      {
+        "value": "100%",
+        "label": "referral visibility"
+      },
+      {
+        "value": "25%",
+        "label": "case efficiency gain"
+      },
+      {
+        "value": "Zero",
+        "label": "scheduling gaps"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "os-challenges", "title": "The Oral Surgery Challenge" },
-    { "id": "referral-tracking", "title": "Referral Tracking" },
-    { "id": "sedation-coord", "title": "IV Sedation Coordination" },
-    { "id": "implant-management", "title": "Implant Case Management" },
-    { "id": "surgical-flow", "title": "High-Volume Surgical Flow" },
-    { "id": "implementation", "title": "Implementation & ROI" }
+    {
+      "id": "os-challenges",
+      "title": "The Oral Surgery Challenge"
+    },
+    {
+      "id": "referral-tracking",
+      "title": "Referral Tracking"
+    },
+    {
+      "id": "sedation-coord",
+      "title": "IV Sedation Coordination"
+    },
+    {
+      "id": "implant-management",
+      "title": "Implant Case Management"
+    },
+    {
+      "id": "surgical-flow",
+      "title": "High-Volume Surgical Flow"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    }
   ],
   "sections": [
     {
@@ -70,14 +102,29 @@
   "cta": {
     "headline": "See referral tracking and surgical coordination",
     "subhead": "15-minute demo. Referral management, sedation coordination, implant tracking, surgical flow.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "See Oral Surgery Workflow", "href": "/resources/oral-surgery-workflow" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "See Oral Surgery Workflow",
+      "href": "/resources/oral-surgery-workflow"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "100%", "label": "referral visibility" },
-      { "value": "25%", "label": "efficiency gain" },
-      { "value": "Zero", "label": "sedation issues" }
+      {
+        "value": "100%",
+        "label": "referral visibility"
+      },
+      {
+        "value": "25%",
+        "label": "efficiency gain"
+      },
+      {
+        "value": "Zero",
+        "label": "sedation issues"
+      }
     ],
     "testimonial": {
       "quote": "Referring dentists love getting consult notes same day. Referrals are up 20%.",
@@ -108,5 +155,6 @@
       "price": "499",
       "priceCurrency": "USD"
     }
-  }
+  },
+  "publishDate": "2025-10-15"
 }

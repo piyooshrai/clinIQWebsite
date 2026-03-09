@@ -6,26 +6,65 @@
   "meta": {
     "title": "Primary Care Practice Software | CCM, RTM & Same-Day Access | clinIQ",
     "description": "Complete guide to primary care practice operations. $13,400/month in CCM + RTM revenue. True same-day access. Annual wellness visit efficiency. Chronic care coordination.",
-    "keywords": ["primary care software", "CCM billing primary care", "primary care RTM", "same-day access primary care", "chronic care management software"]
+    "keywords": [
+      "primary care software",
+      "CCM billing primary care",
+      "primary care RTM",
+      "same-day access primary care",
+      "chronic care management software"
+    ]
   },
   "hero": {
     "h1": "Primary Care Practice Software",
     "subhead": "Your chronic patients qualify for CCM and RTM — $13,000+/month you're not billing. Your same-day access isn't actually accessible. Your AWVs take too long. clinIQ captures chronic care revenue, enables true same-day access, and streamlines preventive visits.",
     "stats": [
-      { "value": "$13,400+", "label": "monthly CCM + RTM revenue" },
-      { "value": "True", "label": "same-day access" },
-      { "value": "25%", "label": "faster AWV throughput" }
+      {
+        "value": "$13,400+",
+        "label": "monthly CCM + RTM revenue"
+      },
+      {
+        "value": "True",
+        "label": "same-day access"
+      },
+      {
+        "value": "25%",
+        "label": "faster AWV throughput"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "primary-care-economics", "title": "The Primary Care Revenue Problem" },
-    { "id": "ccm-billing", "title": "Chronic Care Management (CCM)" },
-    { "id": "rtm-billing", "title": "Remote Therapeutic Monitoring (RTM)" },
-    { "id": "same-day-access", "title": "Same-Day Access" },
-    { "id": "awv-efficiency", "title": "Annual Wellness Visit Efficiency" },
-    { "id": "patient-flow", "title": "Patient Flow Management" },
-    { "id": "implementation", "title": "Implementation & ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "primary-care-economics",
+      "title": "The Primary Care Revenue Problem"
+    },
+    {
+      "id": "ccm-billing",
+      "title": "Chronic Care Management (CCM)"
+    },
+    {
+      "id": "rtm-billing",
+      "title": "Remote Therapeutic Monitoring (RTM)"
+    },
+    {
+      "id": "same-day-access",
+      "title": "Same-Day Access"
+    },
+    {
+      "id": "awv-efficiency",
+      "title": "Annual Wellness Visit Efficiency"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Patient Flow Management"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -101,14 +140,29 @@
   "cta": {
     "headline": "See CCM/RTM revenue and same-day access",
     "subhead": "15-minute demo. Chronic care management, remote monitoring, same-day access, AWV efficiency.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate CCM/RTM Revenue", "href": "/resources/ccm-rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate CCM/RTM Revenue",
+      "href": "/resources/ccm-rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$201K", "label": "annual CCM + RTM revenue" },
-      { "value": "True", "label": "same-day access" },
-      { "value": "25%", "label": "faster AWV throughput" }
+      {
+        "value": "$201K",
+        "label": "annual CCM + RTM revenue"
+      },
+      {
+        "value": "True",
+        "label": "same-day access"
+      },
+      {
+        "value": "25%",
+        "label": "faster AWV throughput"
+      }
     ],
     "testimonial": {
       "quote": "We hired a care coordinator, enrolled 180 CCM patients, and she pays for herself three times over. Plus $4K/month in RTM. Why did we wait so long?",
@@ -151,5 +205,6 @@
       "price": "499",
       "priceCurrency": "USD"
     }
-  }
+  },
+  "publishDate": "2025-05-12"
 }

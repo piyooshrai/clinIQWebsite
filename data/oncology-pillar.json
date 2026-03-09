@@ -6,25 +6,61 @@
   "meta": {
     "title": "Oncology Practice Software | Symptom RTM & Treatment Coordination | clinIQ",
     "description": "Complete guide to oncology practice operations. $10,400/month in oncology RTM. Treatment toxicity monitoring. Infusion chair optimization. Clinical trial eligibility tracking.",
-    "keywords": ["oncology practice software", "oncology RTM billing", "chemotherapy symptom monitoring", "oncology practice management", "infusion chair scheduling"]
+    "keywords": [
+      "oncology practice software",
+      "oncology RTM billing",
+      "chemotherapy symptom monitoring",
+      "oncology practice management",
+      "infusion chair scheduling"
+    ]
   },
   "hero": {
     "h1": "Oncology Practice Software",
     "subhead": "Your cancer patients report symptoms between treatments — that's billable RTM. Your infusion suite needs optimization. Your treatment toxicities need monitoring. clinIQ captures oncology RTM revenue, optimizes infusion operations, and monitors treatment response.",
     "stats": [
-      { "value": "$10,400+", "label": "monthly oncology RTM" },
-      { "value": "20%", "label": "infusion efficiency improvement" },
-      { "value": "100%", "label": "toxicity visibility" }
+      {
+        "value": "$10,400+",
+        "label": "monthly oncology RTM"
+      },
+      {
+        "value": "20%",
+        "label": "infusion efficiency improvement"
+      },
+      {
+        "value": "100%",
+        "label": "toxicity visibility"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "onc-challenges", "title": "The Oncology Practice Challenge" },
-    { "id": "oncology-rtm", "title": "Oncology RTM Billing" },
-    { "id": "toxicity-monitoring", "title": "Toxicity Monitoring" },
-    { "id": "infusion-optimization", "title": "Infusion Suite Optimization" },
-    { "id": "treatment-coordination", "title": "Treatment Coordination" },
-    { "id": "implementation", "title": "Implementation & ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "onc-challenges",
+      "title": "The Oncology Practice Challenge"
+    },
+    {
+      "id": "oncology-rtm",
+      "title": "Oncology RTM Billing"
+    },
+    {
+      "id": "toxicity-monitoring",
+      "title": "Toxicity Monitoring"
+    },
+    {
+      "id": "infusion-optimization",
+      "title": "Infusion Suite Optimization"
+    },
+    {
+      "id": "treatment-coordination",
+      "title": "Treatment Coordination"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -79,14 +115,29 @@
   "cta": {
     "headline": "See oncology RTM and toxicity monitoring",
     "subhead": "15-minute demo. Symptom monitoring, toxicity detection, infusion optimization, treatment coordination.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Oncology RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Oncology RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$125K", "label": "annual oncology RTM" },
-      { "value": "20%", "label": "infusion efficiency gain" },
-      { "value": "Zero", "label": "missed urgent toxicities" }
+      {
+        "value": "$125K",
+        "label": "annual oncology RTM"
+      },
+      {
+        "value": "20%",
+        "label": "infusion efficiency gain"
+      },
+      {
+        "value": "Zero",
+        "label": "missed urgent toxicities"
+      }
     ],
     "testimonial": {
       "quote": "We caught febrile neutropenia early three times last month from patient-reported temps. That's three prevented hospitalizations.",
@@ -123,5 +174,6 @@
       "price": "499",
       "priceCurrency": "USD"
     }
-  }
+  },
+  "publishDate": "2025-07-29"
 }

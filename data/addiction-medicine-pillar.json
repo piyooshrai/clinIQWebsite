@@ -6,26 +6,65 @@
   "meta": {
     "title": "Addiction Medicine Practice Software | MAT Management & Behavioral RTM | clinIQ",
     "description": "Complete guide to addiction medicine practice operations. $7,500/month in behavioral RTM. Sublocade and Vivitrol injection scheduling. PDMP compliance tracking. Private, stigma-free check-in.",
-    "keywords": ["addiction medicine software", "MAT practice management", "Suboxone clinic software", "behavioral health RTM", "addiction treatment practice management"]
+    "keywords": [
+      "addiction medicine software",
+      "MAT practice management",
+      "Suboxone clinic software",
+      "behavioral health RTM",
+      "addiction treatment practice management"
+    ]
   },
   "hero": {
     "h1": "Addiction Medicine Practice Software",
     "subhead": "Your MAT patients need monitoring between visits — that's billable RTM. Your injection patients need scheduling that doesn't miss doses. Your compliance workflows need documentation that survives audits. And your patients need a check-in process that doesn't broadcast their diagnosis to the waiting room.",
     "stats": [
-      { "value": "$7,500+", "label": "monthly behavioral RTM revenue" },
-      { "value": "Zero", "label": "missed Sublocade/Vivitrol doses" },
-      { "value": "100%", "label": "PDMP compliance documentation" }
+      {
+        "value": "$7,500+",
+        "label": "monthly behavioral RTM revenue"
+      },
+      {
+        "value": "Zero",
+        "label": "missed Sublocade/Vivitrol doses"
+      },
+      {
+        "value": "100%",
+        "label": "PDMP compliance documentation"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "addiction-practice-challenges", "title": "The Addiction Medicine Practice Challenge" },
-    { "id": "behavioral-rtm", "title": "Behavioral RTM for MAT Patients" },
-    { "id": "injection-scheduling", "title": "Sublocade and Vivitrol Scheduling" },
-    { "id": "compliance-tracking", "title": "PDMP and Compliance Documentation" },
-    { "id": "private-checkin", "title": "Private, Stigma-Free Check-In" },
-    { "id": "patient-flow", "title": "Patient Flow Management" },
-    { "id": "implementation", "title": "Implementation & ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "addiction-practice-challenges",
+      "title": "The Addiction Medicine Practice Challenge"
+    },
+    {
+      "id": "behavioral-rtm",
+      "title": "Behavioral RTM for MAT Patients"
+    },
+    {
+      "id": "injection-scheduling",
+      "title": "Sublocade and Vivitrol Scheduling"
+    },
+    {
+      "id": "compliance-tracking",
+      "title": "PDMP and Compliance Documentation"
+    },
+    {
+      "id": "private-checkin",
+      "title": "Private, Stigma-Free Check-In"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Patient Flow Management"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -101,14 +140,29 @@
   "cta": {
     "headline": "See behavioral RTM and injection tracking",
     "subhead": "15-minute demo. RTM for addiction recovery, injection scheduling, compliance documentation, private check-in.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Behavioral RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Behavioral RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$90K", "label": "annual behavioral RTM revenue" },
-      { "value": "Zero", "label": "missed injection doses" },
-      { "value": "100%", "label": "compliance documentation rate" }
+      {
+        "value": "$90K",
+        "label": "annual behavioral RTM revenue"
+      },
+      {
+        "value": "Zero",
+        "label": "missed injection doses"
+      },
+      {
+        "value": "100%",
+        "label": "compliance documentation rate"
+      }
     ],
     "testimonial": {
       "quote": "We lost patients because injections got missed. Nobody was tracking due dates systematically. Now every injection patient is visible. Zero missed doses in six months.",
@@ -151,5 +205,6 @@
       "price": "499",
       "priceCurrency": "USD"
     }
-  }
+  },
+  "publishDate": "2025-01-28"
 }

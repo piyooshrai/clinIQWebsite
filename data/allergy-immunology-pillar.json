@@ -1,0 +1,119 @@
+{
+  "slug": "allergy-immunology",
+  "name": "Allergy & Immunology",
+  "pageType": "pillar",
+  "wordCount": 2600,
+  "publishDate": "2025-11-01",
+  "meta": {
+    "title": "Allergy Practice Software | Immunotherapy Management & Testing Coordination | clinIQ",
+    "description": "Complete guide to allergy practice operations. Immunotherapy vial tracking. Injection scheduling. Allergy testing coordination. Biologic authorization for severe asthma.",
+    "keywords": [
+      "allergy practice software",
+      "immunotherapy management",
+      "allergy injection scheduling",
+      "allergy practice management"
+    ]
+  },
+  "hero": {
+    "h1": "Allergy & Immunology Practice Software",
+    "subhead": "Your immunotherapy program needs systematic management. Your injection scheduling needs coordination. Your allergy testing needs tracking. clinIQ manages immunotherapy programs, schedules injections, and coordinates allergy care.",
+    "stats": [
+      { "value": "100%", "label": "immunotherapy visibility" },
+      { "value": "Zero", "label": "missed injection doses" },
+      { "value": "25%", "label": "faster testing workflow" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "allergy-challenges", "title": "The Allergy Practice Challenge" },
+    { "id": "immunotherapy", "title": "Immunotherapy Management" },
+    { "id": "injection-scheduling", "title": "Injection Scheduling" },
+    { "id": "testing-coordination", "title": "Allergy Testing Coordination" },
+    { "id": "biologic-auth", "title": "Biologic Authorization" },
+    { "id": "implementation", "title": "Implementation & ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "allergy-challenges",
+      "h2": "The Allergy Practice Challenge",
+      "content": "Allergy practices run complex immunotherapy programs while coordinating testing and managing severe disease patients on biologics.\n\n**The immunotherapy management burden:**\n\nHundreds of patients on immunotherapy. Each with custom vials. Escalation protocols. Expiration dates. Reaction monitoring. Without systems, management is overwhelming.\n\n**The injection scheduling complexity:**\n\nWeekly injections during build-up. Monthly during maintenance. Different patients on different schedules. Missed injections require protocol restarts."
+    },
+    {
+      "id": "immunotherapy",
+      "h2": "Immunotherapy Management",
+      "content": "Immunotherapy programs require systematic tracking:\n\n**Vial management:**\n\n• Patient-specific vials\n• Mixing dates and expiration\n• Concentration tracking\n• Remix scheduling\n\n**What clinIQ does:**\n\nVial inventory: Every patient's vials tracked with mixing date and expiration.\n\nRemix alerts: Vial expiring in 2 weeks → alert to remix.\n\nConcentration tracking: Current concentration, escalation protocol position.\n\nReaction documentation: Post-injection monitoring documented."
+    },
+    {
+      "id": "injection-scheduling",
+      "h2": "Injection Scheduling",
+      "content": "**What clinIQ does:**\n\nInjection schedule: Every patient's injection schedule visible.\n\nMissed injection tracking: Patient missed injection → protocol implications flagged.\n\nAppointment reminders: Automated reminders for upcoming injections.\n\nWait time compliance: 30-minute post-injection wait tracked and documented."
+    },
+    {
+      "id": "testing-coordination",
+      "h2": "Allergy Testing Coordination",
+      "content": "Skin prick testing, intradermal testing, patch testing — each requires scheduling, supplies, and result documentation.\n\n**What clinIQ does:**\n\nTesting scheduling: Room and supply coordination.\n\nResult documentation: Standardized result entry.\n\nInterpretation: Results inform immunotherapy formulation."
+    },
+    {
+      "id": "biologic-auth",
+      "h2": "Biologic Authorization",
+      "content": "Severe asthma biologics (Xolair, Nucala, Fasenra, Dupixent, Tezspire) require authorization.\n\n**What clinIQ does:**\n\nAuth tracking: Status per patient per drug.\n\nStep therapy documentation: Prior treatment failures documented.\n\nInjection scheduling: In-office biologic injections coordinated."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI Timeline",
+      "content": "**Week 1-2:** Immunotherapy program, injection scheduling, testing workflow configured.\n\n**ROI:** Immunotherapy compliance improves. Vial waste decreases. Testing efficiency gains.\n\n**Investment:** Professional $499/month. Implementation $750 one-time."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do you track immunotherapy vials?",
+      "a": "Every patient's vials tracked with mixing date, expiration, and concentration. Remix alerts prevent expiration."
+    },
+    {
+      "q": "How does injection scheduling work?",
+      "a": "Patient injection schedules visible. Missed injections flagged with protocol implications."
+    }
+  ],
+  "cta": {
+    "headline": "See immunotherapy management and injection scheduling",
+    "subhead": "15-minute demo. Vial tracking, injection scheduling, testing coordination, biologic authorization.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "See Allergy Workflow", "href": "/resources/allergy-workflow" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "100%", "label": "immunotherapy visibility" },
+      { "value": "Zero", "label": "expired vials" },
+      { "value": "Zero", "label": "missed injections" }
+    ],
+    "testimonial": {
+      "quote": "We eliminated vial expiration waste and improved injection compliance. The system pays for itself.",
+      "attribution": "Allergist",
+      "practice": "Allergy practice, 2 physicians",
+      "location": "Washington"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "blog",
+      "title": "Immunotherapy Management: Vials, Schedules, Compliance",
+      "href": "/blog/immunotherapy-management",
+      "description": "Systematic approaches to allergy immunotherapy programs."
+    },
+    {
+      "type": "blog",
+      "title": "Allergy Injection Scheduling",
+      "href": "/blog/allergy-injection-scheduling",
+      "description": "Coordinating injection schedules across hundreds of patients."
+    }
+  ],
+  "schema": {
+    "type": "SoftwareApplication",
+    "applicationCategory": "Medical Practice Management Software",
+    "operatingSystem": "Web-based",
+    "offers": {
+      "price": "499",
+      "priceCurrency": "USD"
+    }
+  }
+}

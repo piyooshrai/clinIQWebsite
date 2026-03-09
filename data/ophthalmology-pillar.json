@@ -6,24 +6,57 @@
   "meta": {
     "title": "Ophthalmology Practice Software | Surgical Volume & Testing Coordination | clinIQ",
     "description": "Complete guide to ophthalmology practice operations. Cataract surgery coordination. OCT and visual field tracking. Injection scheduling. High-volume patient flow.",
-    "keywords": ["ophthalmology practice software", "cataract surgery scheduling", "ophthalmology practice management", "OCT tracking software", "retina injection scheduling"]
+    "keywords": [
+      "ophthalmology practice software",
+      "cataract surgery scheduling",
+      "ophthalmology practice management",
+      "OCT tracking software",
+      "retina injection scheduling"
+    ]
   },
   "hero": {
     "h1": "Ophthalmology Practice Software",
     "subhead": "Your cataract volume needs surgical coordination. Your diagnostic testing needs tracking. Your retina injections need scheduling. clinIQ coordinates ophthalmic surgery, tracks testing, and manages injection programs.",
     "stats": [
-      { "value": "20%", "label": "higher surgical volume" },
-      { "value": "100%", "label": "testing coordination" },
-      { "value": "Zero", "label": "missed injection appointments" }
+      {
+        "value": "20%",
+        "label": "higher surgical volume"
+      },
+      {
+        "value": "100%",
+        "label": "testing coordination"
+      },
+      {
+        "value": "Zero",
+        "label": "missed injection appointments"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "ophtho-challenges", "title": "The Ophthalmology Practice Challenge" },
-    { "id": "cataract-coordination", "title": "Cataract Surgery Coordination" },
-    { "id": "testing-tracking", "title": "Diagnostic Testing Tracking" },
-    { "id": "injection-scheduling", "title": "Retina Injection Scheduling" },
-    { "id": "patient-flow", "title": "High-Volume Patient Flow" },
-    { "id": "implementation", "title": "Implementation & ROI" }
+    {
+      "id": "ophtho-challenges",
+      "title": "The Ophthalmology Practice Challenge"
+    },
+    {
+      "id": "cataract-coordination",
+      "title": "Cataract Surgery Coordination"
+    },
+    {
+      "id": "testing-tracking",
+      "title": "Diagnostic Testing Tracking"
+    },
+    {
+      "id": "injection-scheduling",
+      "title": "Retina Injection Scheduling"
+    },
+    {
+      "id": "patient-flow",
+      "title": "High-Volume Patient Flow"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    }
   ],
   "sections": [
     {
@@ -74,14 +107,29 @@
   "cta": {
     "headline": "See ophthalmic surgical coordination and flow",
     "subhead": "15-minute demo. Cataract coordination, testing tracking, injection scheduling, high-volume flow.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "See Ophthalmology Workflow", "href": "/resources/ophthalmology-workflow" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "See Ophthalmology Workflow",
+      "href": "/resources/ophthalmology-workflow"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "20%", "label": "surgical volume increase" },
-      { "value": "100%", "label": "testing coordination" },
-      { "value": "Zero", "label": "missed injections" }
+      {
+        "value": "20%",
+        "label": "surgical volume increase"
+      },
+      {
+        "value": "100%",
+        "label": "testing coordination"
+      },
+      {
+        "value": "Zero",
+        "label": "missed injections"
+      }
     ],
     "testimonial": {
       "quote": "We increased cataract volume 15% just from better pre-op coordination. No additional staff.",
@@ -118,5 +166,6 @@
       "price": "499",
       "priceCurrency": "USD"
     }
-  }
+  },
+  "publishDate": "2025-09-19"
 }

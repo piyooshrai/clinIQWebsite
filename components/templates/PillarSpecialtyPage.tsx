@@ -28,6 +28,7 @@ interface RelatedItem {
 export interface PillarData {
   slug: string
   name: string
+  publishDate?: string
   meta: { title: string; description: string; keywords?: readonly string[] }
   hero: {
     h1: string
@@ -138,12 +139,30 @@ export default function PillarSpecialtyPage({ data }: { data: PillarData }) {
     schema?: { type: string; applicationCategory: string }
   }
 
+  const articleSchema = data.publishDate
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: data.meta.title,
+        description: data.meta.description,
+        datePublished: data.publishDate,
+        author: { '@type': 'Organization', name: 'clinIQ' },
+        publisher: { '@type': 'Organization', name: 'clinIQ', url: 'https://cliniq.com' },
+      }
+    : null
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
+      {articleSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
+      )}
       {softwareSchema.schema && (
         <script
           type="application/ld+json"

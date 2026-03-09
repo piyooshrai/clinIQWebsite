@@ -6,24 +6,57 @@
   "meta": {
     "title": "Podiatry Practice Software | Diabetic Foot RTM & Wound Tracking | clinIQ",
     "description": "Complete guide to podiatry practice operations. $7,800/month in diabetic foot RTM. Wound healing tracking. DME coordination. Surgical authorization.",
-    "keywords": ["podiatry practice software", "diabetic foot RTM", "podiatry practice management", "wound tracking software", "podiatry DME coordination"]
+    "keywords": [
+      "podiatry practice software",
+      "diabetic foot RTM",
+      "podiatry practice management",
+      "wound tracking software",
+      "podiatry DME coordination"
+    ]
   },
   "hero": {
     "h1": "Podiatry Practice Software",
     "subhead": "Your diabetic foot patients need monitoring between visits — that's billable RTM. Your wounds need healing progression tracking. Your DME needs coordination. clinIQ captures podiatric RTM, tracks wound healing, and coordinates diabetic foot care.",
     "stats": [
-      { "value": "$7,800+", "label": "monthly diabetic RTM" },
-      { "value": "100%", "label": "wound progression tracking" },
-      { "value": "Zero", "label": "DME coordination gaps" }
+      {
+        "value": "$7,800+",
+        "label": "monthly diabetic RTM"
+      },
+      {
+        "value": "100%",
+        "label": "wound progression tracking"
+      },
+      {
+        "value": "Zero",
+        "label": "DME coordination gaps"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "podiatry-challenges", "title": "The Podiatry Practice Challenge" },
-    { "id": "diabetic-rtm", "title": "Diabetic Foot RTM" },
-    { "id": "wound-tracking", "title": "Wound Healing Tracking" },
-    { "id": "dme-coordination", "title": "DME Coordination" },
-    { "id": "surgical-auth", "title": "Surgical Authorization" },
-    { "id": "implementation", "title": "Implementation & ROI" }
+    {
+      "id": "podiatry-challenges",
+      "title": "The Podiatry Practice Challenge"
+    },
+    {
+      "id": "diabetic-rtm",
+      "title": "Diabetic Foot RTM"
+    },
+    {
+      "id": "wound-tracking",
+      "title": "Wound Healing Tracking"
+    },
+    {
+      "id": "dme-coordination",
+      "title": "DME Coordination"
+    },
+    {
+      "id": "surgical-auth",
+      "title": "Surgical Authorization"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    }
   ],
   "sections": [
     {
@@ -74,14 +107,29 @@
   "cta": {
     "headline": "See diabetic RTM and wound tracking",
     "subhead": "15-minute demo. Diabetic foot RTM, wound progression, DME coordination.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Diabetic RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Diabetic RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$94K", "label": "annual diabetic RTM" },
-      { "value": "100%", "label": "wound tracking" },
-      { "value": "Zero", "label": "DME gaps" }
+      {
+        "value": "$94K",
+        "label": "annual diabetic RTM"
+      },
+      {
+        "value": "100%",
+        "label": "wound tracking"
+      },
+      {
+        "value": "Zero",
+        "label": "DME gaps"
+      }
     ],
     "testimonial": {
       "quote": "We caught three pre-ulcerative lesions from patient photos. Three prevented amputations.",
@@ -118,5 +166,6 @@
       "price": "499",
       "priceCurrency": "USD"
     }
-  }
+  },
+  "publishDate": "2025-10-02"
 }

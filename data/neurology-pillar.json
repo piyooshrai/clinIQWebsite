@@ -6,26 +6,66 @@
   "meta": {
     "title": "Neurology Practice Software | EMG/EEG Coordination, Infusion Management & Prior Auth | clinIQ",
     "description": "Complete guide to neurology practice operations. Coordinate EMG and EEG scheduling automatically. Manage MS and IVIG infusions. Automate prior auth for CGRP inhibitors and DMTs. Bill RTM for chronic neurology patients.",
-    "keywords": ["neurology practice software", "neurology prior authorization", "MS infusion management", "EMG EEG scheduling", "neurology practice management", "CGRP inhibitor prior auth"]
+    "keywords": [
+      "neurology practice software",
+      "neurology prior authorization",
+      "MS infusion management",
+      "EMG EEG scheduling",
+      "neurology practice management",
+      "CGRP inhibitor prior auth"
+    ]
   },
   "hero": {
     "h1": "Neurology Practice Software",
     "subhead": "Neurology practices lose revenue in three places: ancillary testing that never gets scheduled, infusion suites sitting half-full while coordinators chase authorizations, and chronic patients slipping between visits. clinIQ closes every gap — from EMG coordination to MS infusion to post-visit RTM billing.",
     "stats": [
-      { "value": "85%+", "label": "first-submission approval for neuro prior auths" },
-      { "value": "$18K", "label": "monthly infusion revenue recovered per suite" },
-      { "value": "4 hrs", "label": "per week saved on EMG/EEG coordination" }
+      {
+        "value": "85%+",
+        "label": "first-submission approval for neuro prior auths"
+      },
+      {
+        "value": "$18K",
+        "label": "monthly infusion revenue recovered per suite"
+      },
+      {
+        "value": "4 hrs",
+        "label": "per week saved on EMG/EEG coordination"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "neurology-revenue-problem", "title": "The Neurology Revenue Problem" },
-    { "id": "emg-eeg-scheduling", "title": "EMG and EEG Scheduling Coordination" },
-    { "id": "infusion-suite-management", "title": "Infusion Suite Management" },
-    { "id": "prior-auth-neurology", "title": "Prior Auth for High-Cost Neuro Medications" },
-    { "id": "seizure-urgent-access", "title": "Seizure Disorder and Urgent Access" },
-    { "id": "rtm-chronic-neurology", "title": "RTM Billing for Chronic Neurology Patients" },
-    { "id": "implementation", "title": "Implementation & ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "neurology-revenue-problem",
+      "title": "The Neurology Revenue Problem"
+    },
+    {
+      "id": "emg-eeg-scheduling",
+      "title": "EMG and EEG Scheduling Coordination"
+    },
+    {
+      "id": "infusion-suite-management",
+      "title": "Infusion Suite Management"
+    },
+    {
+      "id": "prior-auth-neurology",
+      "title": "Prior Auth for High-Cost Neuro Medications"
+    },
+    {
+      "id": "seizure-urgent-access",
+      "title": "Seizure Disorder and Urgent Access"
+    },
+    {
+      "id": "rtm-chronic-neurology",
+      "title": "RTM Billing for Chronic Neurology Patients"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -100,9 +140,18 @@
   ],
   "proof": {
     "stats": [
-      { "value": "86%", "label": "first-submission CGRP approval rate" },
-      { "value": "$11K", "label": "monthly RTM revenue at 100 patients" },
-      { "value": "3.8 hrs", "label": "weekly EMG/EEG coordination time saved" }
+      {
+        "value": "86%",
+        "label": "first-submission CGRP approval rate"
+      },
+      {
+        "value": "$11K",
+        "label": "monthly RTM revenue at 100 patients"
+      },
+      {
+        "value": "3.8 hrs",
+        "label": "weekly EMG/EEG coordination time saved"
+      }
     ],
     "testimonial": {
       "quote": "We were spending 12–15 hours a week chasing EMG results, re-submitting CGRP authorizations, and manually tracking our Tysabri patients' JC virus labs. clinIQ automated all of it. Our coordinator now spends that time enrolling patients in RTM, which added $10,000 a month in revenue we weren't capturing before.",
@@ -114,8 +163,14 @@
   "cta": {
     "headline": "Stop losing neurology revenue to coordination gaps",
     "subhead": "See how clinIQ closes the EMG/EEG coordination gap, fills your infusion suite, and adds RTM revenue — without adding staff.",
-    "primaryButton": { "label": "Book a demo", "href": "/demo" },
-    "secondaryButton": { "label": "See RTM revenue calculator", "href": "/rtm-calculator" }
+    "primaryButton": {
+      "label": "Book a demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "See RTM revenue calculator",
+      "href": "/rtm-calculator"
+    }
   },
   "relatedContent": [
     {
@@ -142,5 +197,6 @@
       "href": "/specialties/spine-surgery",
       "description": "Conservative care tracking, LOMN generation, and OR efficiency for spine practices."
     }
-  ]
+  ],
+  "publishDate": "2025-06-07"
 }
