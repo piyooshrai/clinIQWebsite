@@ -1,0 +1,155 @@
+{
+  "slug": "allergy",
+  "name": "Allergy & Immunology",
+  "pageType": "pillar",
+  "wordCount": 2900,
+  "meta": {
+    "title": "Allergy Practice Software | Immunotherapy Tracking & Biologic Authorization | clinIQ",
+    "description": "Complete guide to allergy and immunology practice operations. Injection program management. Vial tracking. Biologic authorization for severe asthma and urticaria. Allergy RTM billing.",
+    "keywords": ["allergy practice software", "immunotherapy tracking software", "allergy injection management", "allergy practice management", "biologic authorization allergy"]
+  },
+  "hero": {
+    "h1": "Allergy & Immunology Practice Software",
+    "subhead": "Your injection program runs hundreds of patients on escalating schedules — that needs systematic tracking. Your severe asthma and urticaria patients qualify for biologics that need authorization. Your allergic patients can be monitored between visits with RTM. clinIQ manages immunotherapy, coordinates biologics, and captures RTM revenue.",
+    "stats": [
+      { "value": "100%", "label": "injection schedule compliance" },
+      { "value": "Zero", "label": "expired vials administered" },
+      { "value": "$7,800+", "label": "monthly allergy RTM" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "allergy-challenges", "title": "The Allergy Practice Challenge" },
+    { "id": "injection-management", "title": "Injection Program Management" },
+    { "id": "vial-tracking", "title": "Vial Tracking" },
+    { "id": "biologic-auth", "title": "Biologic Authorization" },
+    { "id": "allergy-rtm", "title": "Allergy RTM Billing" },
+    { "id": "patient-flow", "title": "Patient Flow" },
+    { "id": "implementation", "title": "Implementation & ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "allergy-challenges",
+      "h2": "The Allergy Practice Challenge",
+      "content": "Allergy and immunology practices run a unique operational model: a large volume of injection patients cycling through on individualized schedules, combined with clinic visits for diagnosis and management.\n\n**The injection volume:**\n\nA busy allergy practice might manage 500-1,000 patients on allergen immunotherapy. Each has an individual schedule — weekly during build-up, monthly during maintenance. Each has an individual vial set. Each gets 30 minutes of post-injection observation.\n\nCoordinating this volume without systematic tracking leads to:\n- Missed escalation points\n- Patients staying on incorrect doses\n- Vials expiring before use\n- Observation time errors\n- Reaction documentation gaps\n\n**The biologic opportunity:**\n\nSevere asthma, chronic urticaria, eosinophilic esophagitis, and food allergy prevention (peanut OIT) now have biologic therapies. These require prior authorization, patient monitoring, and ongoing management.\n\n**The RTM opportunity:**\n\nAllergic patients track symptoms between visits — asthma symptoms, rhinitis severity, hive episodes, food reactions. This monitoring is billable as RTM."
+    },
+    {
+      "id": "injection-management",
+      "h2": "Injection Program Management",
+      "content": "Allergen immunotherapy is the core operational challenge of allergy practice.\n\n**The escalation protocol:**\n\nImmunotheray follows a build-up phase (weekly injections, increasing doses) followed by maintenance (monthly injections at maximum dose). Each patient progresses at their own rate based on reactions.\n\n**What clinIQ does:**\n\nPatient injection record: Current dose, vial set, last injection date, next scheduled, escalation status.\n\nDose verification: Before injection, system confirms: correct patient, correct vial, correct dose per protocol.\n\nReaction documentation: Any local or systemic reaction documented with dose, timing, and outcome. Reactions influence next dose.\n\nEscalation tracking: Which patients are in build-up vs maintenance? Which are due for dose increase?\n\nMissed injection management: Patient missed 4 weeks — protocol requires dose reduction. Automatic flag with recommended adjustment.\n\n**The observation workflow:**\n\nPatients wait 20-30 minutes post-injection for reaction observation. Who's waiting? Since when? Who's cleared?\n\nclinIQ tracks observation start and elapsed time. Staff see who needs to be checked and when they're ready for discharge.\n\n**The reaction protocol:**\n\nSystemic reaction → epinephrine → observation extension → dose hold → physician review. Every step documented."
+    },
+    {
+      "id": "vial-tracking",
+      "h2": "Vial Tracking",
+      "content": "Each immunotherapy patient has their own vial set — typically 2-4 vials at different concentrations, mixed specifically for their allergen sensitivities.\n\n**Vial lifecycle:**\n\n- Mixing: Vial mixed with patient-specific allergen concentrations\n- Expiration: Most vials expire within 3-6 months\n- Doses remaining: Track doses used, doses remaining\n- Replacement: Order replacement vials before current set runs out\n\n**What clinIQ does:**\n\nVial inventory: Every patient's vial set, mix date, expiration, doses remaining.\n\nExpiration alerts: Vial expires in 14 days, still 8 doses remaining — alert to patient and staff to schedule more frequent visits or order new mix.\n\nReplacement scheduling: When doses run low, trigger for new vial order.\n\nLot documentation: Vial lot numbers documented for each injection (required for adverse event reporting).\n\n**The expiration problem:**\n\nExpired vials are a patient safety issue and a waste issue. A vial set for a non-compliant patient might expire with many doses remaining — that's allergen extract cost wasted and a billing opportunity lost."
+    },
+    {
+      "id": "biologic-auth",
+      "h2": "Biologic Authorization",
+      "content": "Allergy biologics require prior authorization with specific documentation requirements.\n\n**Severe asthma biologics:**\n\n- Nucala (mepolizumab): Eosinophilic asthma, eosinophil count required\n- Fasenra (benralizumab): Eosinophilic asthma\n- Dupixent (dupilumab): Type 2 asthma, also approved for other conditions\n- Tezspire (tezepelumab): Severe asthma regardless of phenotype\n- Xolair (omalizumab): Allergic asthma, IgE levels required\n\n**Chronic urticaria:**\n\n- Xolair (omalizumab): Chronic idiopathic urticaria — requires documented failure of antihistamines\n\n**What clinIQ does:**\n\nAuth status per patient per drug: Current authorization, start date, expiration, doses/injections remaining.\n\nExpiration alerts: 'Xolair auth expires in 21 days. Next injection scheduled next week.'\n\nPhenotype documentation: Eosinophil counts, IgE levels, pulmonary function — labs tracked for authorization support.\n\nStep therapy documentation: Prior medication trials (antihistamines, ICS, LABA) documented with dates and outcomes.\n\nIn-office vs home administration: Some biologics are given in-office (Nucala, Fasenra, Xolair). Others can be home-administered (Dupixent). Tracking differs.\n\n**The in-office injection workflow:**\n\nFor in-office biologic injections: Auth verified → patient arrived → injection given → observation → discharge. Separate from immunotherapy injection workflow but same observation requirement."
+    },
+    {
+      "id": "allergy-rtm",
+      "h2": "Allergy RTM Billing: $130/Patient/Month",
+      "content": "Allergic patients monitor symptoms between visits — and that monitoring is now billable.\n\n**What allergy patients track:**\n\nAsthma:\n- Symptom days per week\n- Nighttime awakenings\n- Rescue inhaler use\n- Activity limitation\n- Controller medication compliance\n\nAllergic rhinitis:\n- Daily symptom severity (sneezing, congestion, itching)\n- Medication use\n- Trigger exposure\n- Impact on sleep and daily function\n\nChronic urticaria:\n- Hive frequency and severity\n- Angioedema episodes\n- UAS7 (Urticaria Activity Score) tracking\n- Medication use and compliance\n\nFood allergy:\n- Accidental exposure incidents\n- Symptom tracking\n- Avoidance compliance\n\n**The CPT codes:**\n\n98975: RTM setup — one-time. ~$20-25.\n98977: RTM device supply. ~$50-60/month.\n98980: RTM treatment management — first 20 minutes. ~$50-70/month.\n98981: Additional 20-minute increments.\n\nTypical: $120-150/patient/month.\n\n**What clinIQ does for allergy RTM:**\n\nCondition-specific templates: Asthma patients get asthma questions. Urticaria patients get UAS7 tracking.\n\nFlare detection: Symptom frequency increasing? Rescue inhaler use up? Urticaria activity score rising? Alerts trigger.\n\nPre-visit data: Symptom trends available when patient arrives for allergy visit.\n\nAutomatic time tracking: Every data review documented toward 20-minute threshold."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "Patient Flow",
+      "content": "Allergy practices have a unique patient flow challenge: injection patients and clinic visit patients sharing the same space.\n\n**The two patient streams:**\n\nInjection patients: Check in, get injection, observe 30 minutes, leave. No physician needed unless reaction.\n\nClinic patients: New consultations, follow-ups, challenge procedures. Physician required.\n\n**What clinIQ does:**\n\nSeparate queues: Injection patients and clinic patients managed separately. Nurses see injection queue. Physicians see clinic queue.\n\nObservation room visibility: Who's in observation, how long, when ready for discharge.\n\nChallenge procedure tracking: Oral food challenges and drug challenges require extended observation with specific protocols.\n\n**Challenge procedures:**\n\nOral food challenges (OFC) and drug challenges are half-day or full-day procedures. Multiple staff, multiple doses, extended observation. clinIQ tracks challenge protocol steps and dose timing."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI Timeline",
+      "content": "Allergy implementation covers injection program, vial tracking, and RTM.\n\n**Week 1: Configuration**\n\nInjection program configured: escalation protocols, observation requirements, reaction documentation.\n\nVial tracking configured: current patient vials loaded, expiration tracking active.\n\nRTM templates: asthma, rhinitis, urticaria condition templates.\n\n**Week 2: Training**\n\nInjection nurses learn patient queue, dose verification, observation tracking. Front desk learns patient flow. Providers learn biologic auth and RTM dashboard.\n\n**Week 3: Go-Live**\n\nInjection tracking active. Vial expiration alerts running. RTM enrollment starting.\n\n**ROI Timeline:**\n\nMonth 1: Injection compliance immediate. Vial expiration alerts preventing waste.\n\nMonth 3: RTM billing building. Biologic auth organized.\n\nMonth 6: Full RTM revenue. Injection program fully optimized.\n\n**ROI Math:**\n\nRTM revenue: 60 patients × $130/month = $7,800/month = $93,600/year\n\nVial waste prevention: Expired vials typically cost $200-500 each. Systematic tracking prevents significant waste.\n\nInjection efficiency: Systematic dose management prevents errors and adverse events.\n\n**Investment:**\n\nProfessional: $499/month\n\nImplementation: $750 one-time"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do you handle missed injection appointments?",
+      "a": "Elapsed time since last injection tracked per patient. When gap exceeds protocol threshold, dose reduction flag triggered with recommended adjustment per your protocol."
+    },
+    {
+      "q": "Can you track multiple vials per patient?",
+      "a": "Yes. Patients typically have 2-4 vials at different concentrations. Each tracked separately with doses, expiration, and lot number."
+    },
+    {
+      "q": "How does observation tracking work?",
+      "a": "Injection documented → observation timer starts → elapsed time visible → staff alerted when patient is ready for discharge."
+    },
+    {
+      "q": "Which biologic drugs do you track authorizations for?",
+      "a": "All major allergy/immunology biologics: Xolair, Nucala, Fasenra, Dupixent, Tezspire. Auth status, doses remaining, expiration alerts."
+    },
+    {
+      "q": "What allergy conditions qualify for RTM?",
+      "a": "Asthma, allergic rhinitis, chronic urticaria, and food allergy can all qualify. Condition-specific monitoring templates for each."
+    },
+    {
+      "q": "How do you handle oral food challenges?",
+      "a": "Challenge procedure workflow with dose tracking, timing, and reaction documentation per your challenge protocol."
+    },
+    {
+      "q": "Can we bill RTM for immunotherapy patients?",
+      "a": "Yes. Immunotherapy patients who also have active symptom monitoring between visits can be enrolled in RTM."
+    },
+    {
+      "q": "Does this work for sublingual immunotherapy (SLIT)?",
+      "a": "Yes. SLIT patients on home drops or tablets can be monitored for compliance and symptoms through the RTM program."
+    }
+  ],
+  "cta": {
+    "headline": "See injection program management and allergy RTM",
+    "subhead": "15-minute demo. Injection tracking, vial management, biologic authorization, RTM billing.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate Allergy RTM Revenue", "href": "/resources/rtm-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "$94K", "label": "annual allergy RTM revenue" },
+      { "value": "Zero", "label": "expired vials administered" },
+      { "value": "100%", "label": "injection protocol compliance" }
+    ],
+    "testimonial": {
+      "quote": "We had no system for tracking vial expiration. We were occasionally catching expired vials after the fact. Now every vial is tracked and we get alerts 2 weeks out.",
+      "attribution": "Allergy Practice Manager",
+      "practice": "Allergy & immunology practice, 3 allergists",
+      "location": "Georgia"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "blog",
+      "title": "Allergen Immunotherapy: Managing High-Volume Injection Programs",
+      "href": "/blog/immunotherapy-injection-management",
+      "description": "Systematic tracking for escalation, vials, and observation."
+    },
+    {
+      "type": "blog",
+      "title": "Allergy RTM Billing: Asthma, Rhinitis, and Urticaria",
+      "href": "/blog/allergy-rtm-billing",
+      "description": "How to bill RTM for allergic conditions between visits."
+    },
+    {
+      "type": "blog",
+      "title": "Biologic Authorization for Severe Asthma and Urticaria",
+      "href": "/blog/allergy-biologic-authorization",
+      "description": "Navigating prior auth for Xolair, Nucala, Dupixent, and other allergy biologics."
+    },
+    {
+      "type": "resource",
+      "title": "Allergy RTM Calculator",
+      "href": "/resources/rtm-calculator",
+      "description": "Calculate your practice's allergy RTM revenue potential."
+    }
+  ],
+  "schema": {
+    "type": "SoftwareApplication",
+    "applicationCategory": "Medical Practice Management Software",
+    "operatingSystem": "Web-based",
+    "offers": {
+      "price": "499",
+      "priceCurrency": "USD"
+    }
+  }
+}

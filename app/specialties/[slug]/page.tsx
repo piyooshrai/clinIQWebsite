@@ -19,6 +19,18 @@ import oncologyPillar from '@/data/oncology-pillar.json'
 import obgynPillar from '@/data/obgyn-pillar.json'
 import pediatricsPillar from '@/data/pediatrics-pillar.json'
 import entPillar from '@/data/ent-pillar.json'
+import ophthalmologyPillar from '@/data/ophthalmology-pillar.json'
+import podiatryPillar from '@/data/podiatry-pillar.json'
+import oralSurgeryPillar from '@/data/oral-surgery-pillar.json'
+import infusionCentersPillar from '@/data/infusion-centers-pillar.json'
+import allergyPillar from '@/data/allergy-pillar.json'
+import neurosurgeryPillar from '@/data/neurosurgery-pillar.json'
+import sportsMedicinePillar from '@/data/sports-medicine-pillar.json'
+import physicalTherapyPillar from '@/data/physical-therapy-pillar.json'
+import plasticSurgeryPillar from '@/data/plastic-surgery-pillar.json'
+import rheumatologyPillar from '@/data/rheumatology-pillar.json'
+import vascularSurgeryPillar from '@/data/vascular-surgery-pillar.json'
+import woundCarePillar from '@/data/wound-care-pillar.json'
 import { getSpecialtyPageData, getAllSpecialtyParams } from '@/lib/feature-specialty-data'
 import JsonSpecialtyPage from '@/components/templates/JsonSpecialtyPage'
 import PillarSpecialtyPage, { type PillarData } from '@/components/templates/PillarSpecialtyPage'
@@ -45,6 +57,18 @@ const pillarPages: Record<string, PillarData> = {
   'obgyn': obgynPillar as unknown as PillarData,
   'pediatrics': pediatricsPillar as unknown as PillarData,
   'ent': entPillar as unknown as PillarData,
+  'ophthalmology': ophthalmologyPillar as unknown as PillarData,
+  'podiatry': podiatryPillar as unknown as PillarData,
+  'oral-surgery': oralSurgeryPillar as unknown as PillarData,
+  'infusion-centers': infusionCentersPillar as unknown as PillarData,
+  'allergy': allergyPillar as unknown as PillarData,
+  'neurosurgery': neurosurgeryPillar as unknown as PillarData,
+  'sports-medicine': sportsMedicinePillar as unknown as PillarData,
+  'physical-therapy': physicalTherapyPillar as unknown as PillarData,
+  'plastic-surgery': plasticSurgeryPillar as unknown as PillarData,
+  'rheumatology': rheumatologyPillar as unknown as PillarData,
+  'vascular-surgery': vascularSurgeryPillar as unknown as PillarData,
+  'wound-care': woundCarePillar as unknown as PillarData,
 }
 
 // Filter out slugs handled by pillar pages to avoid duplicate routing

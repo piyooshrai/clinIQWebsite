@@ -1,0 +1,122 @@
+{
+  "slug": "ophthalmology",
+  "name": "Ophthalmology",
+  "pageType": "pillar",
+  "wordCount": 2700,
+  "meta": {
+    "title": "Ophthalmology Practice Software | Surgical Volume & Testing Coordination | clinIQ",
+    "description": "Complete guide to ophthalmology practice operations. Cataract surgery coordination. OCT and visual field tracking. Injection scheduling. High-volume patient flow.",
+    "keywords": ["ophthalmology practice software", "cataract surgery scheduling", "ophthalmology practice management", "OCT tracking software", "retina injection scheduling"]
+  },
+  "hero": {
+    "h1": "Ophthalmology Practice Software",
+    "subhead": "Your cataract volume needs surgical coordination. Your diagnostic testing needs tracking. Your retina injections need scheduling. clinIQ coordinates ophthalmic surgery, tracks testing, and manages injection programs.",
+    "stats": [
+      { "value": "20%", "label": "higher surgical volume" },
+      { "value": "100%", "label": "testing coordination" },
+      { "value": "Zero", "label": "missed injection appointments" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "ophtho-challenges", "title": "The Ophthalmology Practice Challenge" },
+    { "id": "cataract-coordination", "title": "Cataract Surgery Coordination" },
+    { "id": "testing-tracking", "title": "Diagnostic Testing Tracking" },
+    { "id": "injection-scheduling", "title": "Retina Injection Scheduling" },
+    { "id": "patient-flow", "title": "High-Volume Patient Flow" },
+    { "id": "implementation", "title": "Implementation & ROI" }
+  ],
+  "sections": [
+    {
+      "id": "ophtho-challenges",
+      "h2": "The Ophthalmology Practice Challenge",
+      "content": "Ophthalmology runs extremely high patient volumes with significant testing and procedural components.\n\n**The surgical coordination challenge:**\n\nCataract surgery is high-volume. IOL selection, biometry, pre-op coordination, surgical scheduling — each case requires multiple steps. Multiplied by 20-40 cases/week, coordination is essential.\n\n**The testing volume:**\n\nOCT, visual fields, fundus photography, topography, biometry — ophthalmology generates massive testing volume. Results must be available when patients are seen.\n\n**The injection program:**\n\nRetina practices manage hundreds of patients on anti-VEGF injections. Monthly or every-8-week schedules. Missed injections mean vision loss."
+    },
+    {
+      "id": "cataract-coordination",
+      "h2": "Cataract Surgery Coordination",
+      "content": "Cataract surgery requires multi-step coordination:\n\n**Pre-operative:**\n- Biometry and IOL selection\n- Medical clearance\n- Pre-op measurements\n- Patient education\n- Surgical consent\n\n**What clinIQ does:**\n\nSurgical pipeline: Every cataract patient tracked from surgical decision through surgery day.\n\nPre-op checklist: Biometry, IOL selection, clearance, consent — status visible.\n\nOR scheduling: Case coordination with ASC or hospital.\n\nPost-op tracking: Day-1, week-1, month-1 visits scheduled and tracked."
+    },
+    {
+      "id": "testing-tracking",
+      "h2": "Diagnostic Testing Tracking",
+      "content": "Ophthalmology testing volume is substantial:\n\n- OCT (macula, RNFL, anterior segment)\n- Visual fields (Humphrey, Goldmann)\n- Fundus photography\n- Fluorescein angiography\n- Topography and tomography\n- A-scan and B-scan ultrasonography\n\n**What clinIQ does:**\n\nTest ordering and tracking: Every test tracked from order to completion.\n\nPre-visit completion: Tests completed before provider visit. No waiting during appointment.\n\nTechnician workflow: Tech sees testing queue. Patients move efficiently through testing stations.\n\nResult availability: Results available in chart when provider sees patient."
+    },
+    {
+      "id": "injection-scheduling",
+      "h2": "Retina Injection Scheduling",
+      "content": "Anti-VEGF injection programs require systematic scheduling:\n\n**Drugs and schedules:**\n- Eylea: Every 4-8 weeks\n- Lucentis: Every 4 weeks\n- Avastin: Every 4 weeks\n- Vabysmo: Every 8-16 weeks\n\n**What clinIQ does:**\n\nInjection pipeline: Every injection patient visible with last injection, next due, scheduling status.\n\nProactive scheduling: Patient due in 2 weeks, not scheduled → alert.\n\nAuthorization tracking: Prior auth status for each drug.\n\nBilateral coordination: If both eyes need injection, coordinated scheduling."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "High-Volume Patient Flow",
+      "content": "Ophthalmology sees 40-80+ patients per day per provider. Flow efficiency is critical.\n\n**What clinIQ does:**\n\nTesting station visibility: Which patients are at which testing station? Who's done?\n\nProvider queue: Who's ready for the doctor? Who's still in testing?\n\nRoom turnover: Exam room status visible. Minimize wait between patients.\n\nDilation tracking: Patient dilated at 10:15, ready for exam at 10:45."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI Timeline",
+      "content": "**Week 1-2: Configuration and Training**\n\nSurgical coordination, testing tracking, injection scheduling configured.\n\n**ROI Math:**\n\nSurgical volume: Better coordination enables higher volume.\n\nInjection compliance: Fewer missed injections = better outcomes and retained revenue.\n\nTesting efficiency: Faster testing = more patients seen.\n\n**Investment:**\n\nProfessional: $499/month\n\nImplementation: $750 one-time"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do you handle high patient volumes?",
+      "a": "Testing station tracking, provider queue visibility, room status. Built for 40-80+ patients/day."
+    },
+    {
+      "q": "Does this work with ASCs?",
+      "a": "Yes. Surgical coordination tracks pre-op requirements regardless of surgery location."
+    },
+    {
+      "q": "How do you track injections?",
+      "a": "Every injection patient visible with schedule, auth status, and due date. Alerts for patients due but not scheduled."
+    }
+  ],
+  "cta": {
+    "headline": "See ophthalmic surgical coordination and flow",
+    "subhead": "15-minute demo. Cataract coordination, testing tracking, injection scheduling, high-volume flow.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "See Ophthalmology Workflow", "href": "/resources/ophthalmology-workflow" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "20%", "label": "surgical volume increase" },
+      { "value": "100%", "label": "testing coordination" },
+      { "value": "Zero", "label": "missed injections" }
+    ],
+    "testimonial": {
+      "quote": "We increased cataract volume 15% just from better pre-op coordination. No additional staff.",
+      "attribution": "Ophthalmologist",
+      "practice": "Ophthalmology practice, 4 physicians",
+      "location": "Arizona"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "blog",
+      "title": "Cataract Surgery Coordination: Pre-Op to Post-Op",
+      "href": "/blog/cataract-surgery-coordination",
+      "description": "Managing high-volume cataract surgery coordination."
+    },
+    {
+      "type": "blog",
+      "title": "Retina Injection Programs: Scheduling and Compliance",
+      "href": "/blog/retina-injection-scheduling",
+      "description": "Ensuring injection compliance for anti-VEGF therapy."
+    },
+    {
+      "type": "blog",
+      "title": "High-Volume Ophthalmology Patient Flow",
+      "href": "/blog/ophthalmology-patient-flow",
+      "description": "Managing 40-80+ patients per day efficiently."
+    }
+  ],
+  "schema": {
+    "type": "SoftwareApplication",
+    "applicationCategory": "Medical Practice Management Software",
+    "operatingSystem": "Web-based",
+    "offers": {
+      "price": "499",
+      "priceCurrency": "USD"
+    }
+  }
+}

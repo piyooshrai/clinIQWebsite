@@ -1,0 +1,112 @@
+{
+  "slug": "oral-surgery",
+  "name": "Oral Surgery",
+  "pageType": "pillar",
+  "wordCount": 2500,
+  "meta": {
+    "title": "Oral Surgery Practice Software | Surgical Coordination & Referral Management | clinIQ",
+    "description": "Complete guide to oral surgery practice operations. Referral tracking. IV sedation coordination. Implant case management. High-volume surgical flow.",
+    "keywords": ["oral surgery software", "oral surgery practice management", "dental implant coordination", "oral surgery referral tracking"]
+  },
+  "hero": {
+    "h1": "Oral Surgery Practice Software",
+    "subhead": "Your referrals need systematic tracking. Your IV sedation cases need coordination. Your implant cases need management. clinIQ tracks referrals, coordinates sedation, and manages surgical workflows.",
+    "stats": [
+      { "value": "100%", "label": "referral visibility" },
+      { "value": "25%", "label": "case efficiency gain" },
+      { "value": "Zero", "label": "scheduling gaps" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "os-challenges", "title": "The Oral Surgery Challenge" },
+    { "id": "referral-tracking", "title": "Referral Tracking" },
+    { "id": "sedation-coord", "title": "IV Sedation Coordination" },
+    { "id": "implant-management", "title": "Implant Case Management" },
+    { "id": "surgical-flow", "title": "High-Volume Surgical Flow" },
+    { "id": "implementation", "title": "Implementation & ROI" }
+  ],
+  "sections": [
+    {
+      "id": "os-challenges",
+      "h2": "The Oral Surgery Challenge",
+      "content": "Oral surgery practices run high-volume surgical operations with significant referral relationships.\n\n**The referral relationship:**\n\nGeneral dentists refer extractions, implants, wisdom teeth. Maintaining these relationships requires communication and tracking.\n\n**The sedation coordination:**\n\nIV sedation cases require pre-op evaluation, NPO instructions, escort arrangements, monitoring, and recovery."
+    },
+    {
+      "id": "referral-tracking",
+      "h2": "Referral Tracking",
+      "content": "**What clinIQ does:**\n\nReferral source tracking: Which dentists refer? Volume by referrer.\n\nReferral communication: Consult notes back to referring dentist.\n\nRelationship management: Track referral patterns, identify opportunities."
+    },
+    {
+      "id": "sedation-coord",
+      "h2": "IV Sedation Coordination",
+      "content": "IV sedation adds complexity to oral surgery cases.\n\n**What clinIQ does:**\n\nPre-op checklist: Medical history, NPO instructions, escort confirmed.\n\nRecovery tracking: Post-procedure monitoring documented.\n\nDischarge criteria: Standard discharge criteria met before release."
+    },
+    {
+      "id": "implant-management",
+      "h2": "Implant Case Management",
+      "content": "Dental implant cases involve multiple stages.\n\n**What clinIQ does:**\n\nCase tracking: Consultation → planning → surgery → healing → restoration referral.\n\nImaging coordination: CBCT scheduling and review.\n\nRestoration coordination: Communication with restorative dentist."
+    },
+    {
+      "id": "surgical-flow",
+      "h2": "High-Volume Surgical Flow",
+      "content": "Oral surgery is high-volume.\n\n**What clinIQ does:**\n\nRoom visibility: Which rooms available, occupied, turnover.\n\nProvider queue: Who's ready for surgeon.\n\nCase mix: Wisdom teeth vs implants vs extractions — different times."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI Timeline",
+      "content": "**Week 1-2:** Referral tracking, sedation coordination, implant management configured.\n\n**ROI:** Referral relationships strengthened. Efficiency gains.\n\n**Investment:** Professional $499/month. Implementation $750 one-time."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do you track referrals?",
+      "a": "Referral source per patient. Volume by referrer. Communication back to referrer."
+    },
+    {
+      "q": "Does this handle IV sedation?",
+      "a": "Yes. Pre-op checklist, recovery tracking, discharge criteria."
+    }
+  ],
+  "cta": {
+    "headline": "See referral tracking and surgical coordination",
+    "subhead": "15-minute demo. Referral management, sedation coordination, implant tracking, surgical flow.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "See Oral Surgery Workflow", "href": "/resources/oral-surgery-workflow" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "100%", "label": "referral visibility" },
+      { "value": "25%", "label": "efficiency gain" },
+      { "value": "Zero", "label": "sedation issues" }
+    ],
+    "testimonial": {
+      "quote": "Referring dentists love getting consult notes same day. Referrals are up 20%.",
+      "attribution": "Oral Surgeon",
+      "practice": "Oral surgery practice, 2 surgeons",
+      "location": "Texas"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "blog",
+      "title": "Oral Surgery Referral Management",
+      "href": "/blog/oral-surgery-referrals",
+      "description": "Tracking and strengthening dental referral relationships."
+    },
+    {
+      "type": "blog",
+      "title": "IV Sedation Coordination",
+      "href": "/blog/oral-surgery-sedation",
+      "description": "Managing IV sedation cases safely and efficiently."
+    }
+  ],
+  "schema": {
+    "type": "SoftwareApplication",
+    "applicationCategory": "Medical Practice Management Software",
+    "operatingSystem": "Web-based",
+    "offers": {
+      "price": "499",
+      "priceCurrency": "USD"
+    }
+  }
+}
