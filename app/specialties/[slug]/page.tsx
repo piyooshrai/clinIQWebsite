@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import specialtiesData from '@/data/specialties-10-value-first.json'
+import specialtiesData from '@/data/specialties-10-value-first'
 import { getSpecialtyPageData, getAllSpecialtyParams } from '@/lib/feature-specialty-data'
 import JsonSpecialtyPage from '@/components/templates/JsonSpecialtyPage'
 import SpecialtyPage from '@/components/templates/SpecialtyPage'
@@ -7,7 +7,7 @@ import SpecialtyPage from '@/components/templates/SpecialtyPage'
 type JsonSpecialty = (typeof specialtiesData)[number]
 
 export function generateStaticParams() {
-  const jsonSlugs = new Set(specialtiesData.map((s) => s.slug))
+  const jsonSlugs = new Set<string>(specialtiesData.map((s) => s.slug))
   const generatedSlugs = getAllSpecialtyParams()
     .map((p) => p.specialtySlug)
     .filter((slug) => !jsonSlugs.has(slug))
