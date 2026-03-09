@@ -1,0 +1,155 @@
+{
+  "slug": "orthopedic-surgery",
+  "name": "Orthopedic Surgery",
+  "pageType": "pillar",
+  "wordCount": 3200,
+  "meta": {
+    "title": "Orthopedic Surgery Practice Software | OR Efficiency & Post-Op RTM | clinIQ",
+    "description": "Complete guide to orthopedic surgery practice operations. $250K/year in OR capacity recovered. LOMN templates for joints and spine. Post-op RTM billing. Pre-op coordination.",
+    "keywords": ["orthopedic surgery software", "orthopedic prior authorization", "orthopedic LOMN", "orthopedic surgery practice management", "post-op RTM orthopedics"]
+  },
+  "hero": {
+    "h1": "Orthopedic Surgery Practice Software",
+    "subhead": "8 minutes off OR turnover equals $250K/year recovered. Your joint and spine authorizations need LOMN templates that get approved. Your post-op patients need monitoring that's billable. clinIQ optimizes OR efficiency, automates surgical documentation, and captures post-op RTM.",
+    "stats": [
+      { "value": "$250K+", "label": "annual OR capacity recovered" },
+      { "value": "5 min", "label": "LOMN generation vs 30 min" },
+      { "value": "$12K+", "label": "monthly post-op RTM revenue" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "ortho-practice-economics", "title": "Orthopedic Surgery Economics" },
+    { "id": "or-efficiency", "title": "OR Turnover and Efficiency" },
+    { "id": "surgical-auth", "title": "Surgical Prior Authorization" },
+    { "id": "lomn-generation", "title": "LOMN Generation" },
+    { "id": "preop-coordination", "title": "Pre-Op Coordination" },
+    { "id": "postop-rtm", "title": "Post-Op RTM Billing" },
+    { "id": "implementation", "title": "Implementation & ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "ortho-practice-economics",
+      "h2": "Orthopedic Surgery Economics",
+      "content": "Orthopedic surgery practices generate revenue from two streams: clinic visits and surgical procedures. Surgery drives the majority of revenue — a total knee generates $20,000-40,000. A rotator cuff repair generates $10,000-20,000. Clinic visits generate $150-300.\n\nThe leverage point is surgical volume. More surgeries = more revenue. What limits surgical volume?\n\nOR capacity: You have X hours of OR time per week. How many cases fit in those hours depends on case duration and turnover time.\n\nAuthorization delays: Complex surgeries require prior auth. Denials delay cases by weeks. Staff time spent on auth is time not spent on other work.\n\nPre-op failures: Patients show up for surgery without complete clearance, labs, or imaging. Case delayed or canceled.\n\nThe operational systems that address these constraints directly impact revenue.\n\n**The turnover math:**\n\nAssume a surgeon does 3 total knees per OR day. Each case takes 90 minutes. Turnover between cases averages 30 minutes.\n\n3 cases × 90 minutes = 270 minutes of surgical time\n2 turnovers × 30 minutes = 60 minutes of turnover time\nTotal: 330 minutes (5.5 hours)\n\nIf turnover drops to 20 minutes:\n3 cases × 90 minutes = 270 minutes\n2 turnovers × 20 minutes = 40 minutes\nTotal: 310 minutes (5.2 hours)\n\nTime saved: 20 minutes per OR day. Over 150 OR days per year: 50 hours of recovered OR capacity.\n\nOr: Add a fourth case some days. At $25,000/case, even 10 additional cases per year = $250,000."
+    },
+    {
+      "id": "or-efficiency",
+      "h2": "OR Turnover and Efficiency",
+      "content": "Orthopedic surgery turnover time includes:\n\nRoom cleanup and prep: 8-12 minutes (relatively fixed)\nEquipment setup: 5-10 minutes (implant trays, specific instruments)\nPatient positioning: 5-10 minutes (depends on case type)\nAnesthesia induction: 10-15 minutes\nWaiting for next patient: Variable (0-20 minutes)\n\nThe highly variable component is 'waiting for next patient.' When OR is ready but the next patient isn't in pre-op, or isn't cleared, or implants aren't confirmed — time is wasted.\n\n**What clinIQ does for OR efficiency:**\n\nOR status visibility: Current case status, estimated time remaining, room ready/not ready.\n\nPre-op sync: Is the next patient in pre-op? Consent signed? Anesthesia cleared? Implants confirmed? Visible to OR team before they need to ask.\n\nTurnover tracking: Case end → room ready → next patient in. Every turnover timestamped. Analytics identify patterns.\n\nFirst case on-time starts: The 7:30 AM case starts at 7:30 AM. Delays tracked. Causes identified.\n\n**The implant coordination problem:**\n\nOrthopedic cases require specific implants. Total knee needs the right size trials and implants. Spine needs the right hardware. If implants aren't in the room, the case waits.\n\nclinIQ tracks implant confirmation as part of the pre-op checklist:\n- Implants ordered: Yes/No\n- Implants received at facility: Yes/No\n- Implants in OR: Yes/No\n\nNo day-of-surgery discoveries that hardware isn't available."
+    },
+    {
+      "id": "surgical-auth",
+      "h2": "Surgical Prior Authorization",
+      "content": "Orthopedic surgeries frequently require prior authorization:\n\n- Total joint replacement (knee, hip, shoulder)\n- Spine surgery (fusion, decompression, disc replacement)\n- Rotator cuff repair\n- ACL reconstruction\n- Carpal tunnel release (some payers)\n- Arthroscopy (varies by payer and indication)\n\nDenial rates on first submission run 15-30% for major orthopedic procedures. Common reasons:\n\n**Insufficient conservative care:** Payer claims patient hasn't tried enough non-surgical treatment. PT, injections, bracing, medications — documentation is incomplete.\n\n**Imaging doesn't support:** X-ray or MRI findings don't match clinical presentation or don't meet severity threshold.\n\n**Step therapy not completed:** Payer requires injections before surgery, or PT before injections before surgery.\n\n**Medical necessity unclear:** Clinical documentation doesn't explain why surgery is needed now.\n\n**What clinIQ does for surgical auth:**\n\nAuth tracking: Every surgical case tracked from scheduling through authorization. Pending, submitted, approved, denied, appealed.\n\nExpiration alerts: Auth expires in X days, surgery not yet scheduled.\n\nConservative care documentation: Tracks PT visits, injection dates, medication trials — ready for LOMN.\n\nDenial management: Denial reason captured, appeal initiated, peer-to-peer scheduled."
+    },
+    {
+      "id": "lomn-generation",
+      "h2": "LOMN Generation: 5 Minutes Instead of 30",
+      "content": "Letter of Medical Necessity is required for most orthopedic surgical authorizations, especially joint replacement and spine surgery.\n\nThe manual LOMN process:\n1. Pull patient chart\n2. Review surgical indication\n3. Document failed conservative care (PT notes, injection records, med trials)\n4. Summarize imaging findings\n5. Write letter explaining medical necessity\n6. Surgeon reviews and signs\n7. Submit with auth request\n\nTime: 20-40 minutes per letter. For a surgeon doing 15 surgical cases per month: 5-10 hours/month on LOMN alone.\n\n**What clinIQ does for LOMN:**\n\nProcedure-specific templates: Total knee, total hip, rotator cuff, ACL, spine fusion, carpal tunnel — each has a template.\n\nAuto-population: Patient demographics, diagnosis codes, imaging findings, conservative care timeline — pulled from documented data.\n\nSurgeon workflow: Template loads populated. Surgeon reviews, edits clinical judgment sections, signs.\n\nTime: 5 minutes instead of 30.\n\n**The template library includes:**\n\nJoint replacement: Total knee arthroplasty, total hip arthroplasty, total shoulder arthroplasty, unicompartmental knee, revision arthroplasty\n\nSports medicine: ACL reconstruction, meniscus repair, rotator cuff repair, labral repair, ligament reconstruction\n\nSpine: Lumbar fusion, cervical fusion, laminectomy, discectomy, disc replacement\n\nHand/upper extremity: Carpal tunnel release, trigger finger release, Dupuytren's release, distal radius fixation\n\nFoot/ankle: Bunionectomy, ankle fusion, ankle replacement, Achilles repair\n\nEach template includes payer-specific language for major insurers."
+    },
+    {
+      "id": "preop-coordination",
+      "h2": "Pre-Op Coordination",
+      "content": "Orthopedic surgical patients need extensive pre-op preparation:\n\nMedical clearance: Cardiac clearance for patients with heart disease. Pulmonary clearance for COPD. Diabetes optimization.\n\nLabs: CBC, CMP, coagulation studies, type and screen. Timing requirements vary by payer.\n\nImaging: Current imaging (X-ray within 3-6 months, MRI if applicable).\n\nPrior authorization: Approved, auth number, valid through date.\n\nImplants: Templated, ordered, received at facility.\n\nPre-op education: Joint class, therapy expectations, recovery planning.\n\nAnesthesia: Pre-op anesthesia evaluation, especially for patients with comorbidities.\n\n**What goes wrong without tracking:**\n\nPatient arrives for surgery. Medical clearance letter missing. Surgery postponed.\n\nPatient arrives. Labs expired (done 35 days ago, payer requires within 30 days). Surgery postponed.\n\nPatient arrives. Implants were never confirmed. Rep scrambles or surgery postponed.\n\n**What clinIQ does:**\n\nPre-op checklist: Every item tracked with status and responsible party.\n\nTimeline visibility: Surgery in 10 days, 4 items incomplete. Visible to coordinators.\n\nAutomated alerts: 'Medical clearance not received, surgery in 5 days.' 'Labs will expire before surgery date.'\n\nDay-of verification: All items confirmed complete before patient arrives at facility."
+    },
+    {
+      "id": "postop-rtm",
+      "h2": "Post-Op RTM Billing: $100-130/Patient/Month",
+      "content": "Post-surgical orthopedic patients have extended recoveries:\n\n- Total joint: 6-12 weeks of recovery and PT\n- Rotator cuff: 12-16 weeks\n- ACL: 6-9 months\n- Spine fusion: 6-12 weeks\n\nDuring recovery, patients should track: pain levels, range of motion progress, PT compliance, wound healing, activity restrictions, red flag symptoms.\n\nThis is Remote Therapeutic Monitoring. CPT 98980, 98981.\n\n**What post-op orthopedic patients track:**\n\nPain: Daily pain levels during recovery. Trend toward improvement.\n\nFunction: Range of motion, weight bearing, activity tolerance. Milestones achieved.\n\nPT compliance: Home exercises completed. Therapy attendance.\n\nWound: Incision status, signs of infection, drainage.\n\nMedication: Pain medication use and weaning progress.\n\nRed flags: Fever, calf pain (DVT concern), excessive swelling, wound issues.\n\n**The billing:**\n\nCPT 98980: RTM treatment management, first 20 minutes. ~$50-70/month.\nCPT 98981: Additional 20-minute increments.\n\nWith device supply codes: $100-130/patient/month.\n\nTypical post-op monitoring period: 3 months.\n\n**The math:**\n\n40 surgical patients/month × $120/month × 3 months = $14,400/quarter = $57,600/year.\n\nPlus ongoing monitoring for patients with chronic conditions or complications.\n\n**What clinIQ does:**\n\nPost-op patient app: Recovery tracking specific to procedure type. Knee replacement patients get different tracking than ACL patients.\n\nMilestone monitoring: Expected vs actual recovery progress. Falling behind milestones triggers outreach.\n\nAlert thresholds: Red flag symptoms trigger immediate alerts.\n\nProvider dashboard: Who's recovering normally? Who needs attention? Who needs to come in?\n\nAutomatic time tracking: Documentation of review time toward billing threshold."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI Timeline",
+      "content": "Orthopedic surgery implementation covers surgical coordination, authorization, and post-op monitoring.\n\n**Week 1: Configuration**\n\nWe map your workflow: surgical scheduling, pre-op coordination, OR integration, post-op follow-up.\n\nLOMN templates configured for your common procedures. Pre-op checklist configured for your facility requirements.\n\n**Week 2: Training**\n\nSurgical coordinators learn auth tracking and LOMN generation. Pre-op staff learn checklist management. Clinic staff learn post-op RTM enrollment.\n\n**Week 3: Go-Live**\n\nLive operation with support. LOMN generation active. Pre-op tracking running. RTM enrollment beginning.\n\n**Week 4 and Beyond**\n\nLOMN time savings immediate. Pre-op coordination improving. RTM revenue building.\n\n**ROI Timeline:**\n\nMonth 1: LOMN time savings immediate (10+ hours/month recovered). Pre-op visibility active.\n\nMonth 3: Authorization approval rates improving. Pre-op cancellations decreasing. RTM billing at scale.\n\nMonth 6: Full optimization. OR turnover data driving improvement. Post-op RTM generating steady revenue.\n\n**ROI Math:**\n\nLOMN time savings: 10 hours/month × $50/hour staff cost = $500/month = $6,000/year\n\nOr more importantly: Staff time redirected to higher-value work.\n\nPre-op cancellation prevention: 2 prevented cancellations/month × $20,000/case = $40,000/month = $480,000/year potential.\n\nConservatively: Even 2 additional cases/year = $40,000-80,000.\n\nPost-op RTM: $50,000-75,000/year.\n\nOR turnover improvement: Variable based on current state, potentially $100,000-300,000/year.\n\n**Investment:**\n\nProfessional: $499/month\n\nImplementation: $750 one-time\n\nEHR/OR integration: Custom quote based on systems"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do you track OR turnover?",
+      "a": "Case end, room ready, next patient in — each timestamped. Turnover duration calculated automatically. Analytics by surgeon, by case type, by day. Identifies where time is lost."
+    },
+    {
+      "q": "What LOMN templates do you have?",
+      "a": "Total knee, total hip, total shoulder, rotator cuff, ACL, meniscus, spine fusion, laminectomy, carpal tunnel, and more. Each includes payer-specific language for major insurers. Custom templates can be added."
+    },
+    {
+      "q": "How does conservative care documentation work?",
+      "a": "PT visits, injection dates, medication trials logged throughout the patient's non-surgical care. When surgery is indicated, the complete conservative care timeline is available for the LOMN."
+    },
+    {
+      "q": "Can you track implant confirmation?",
+      "a": "Yes. Implants ordered, implants received at facility, implants confirmed in OR — tracked as part of pre-op checklist. No day-of surprises."
+    },
+    {
+      "q": "Is post-op monitoring billable as RTM?",
+      "a": "Yes. CPT 98980/98981. Pain tracking, functional recovery, PT compliance, wound monitoring — reviewed by your team. Billable monthly during recovery period."
+    },
+    {
+      "q": "Does this work with surgery centers (ASCs)?",
+      "a": "Yes. Pre-op coordination and authorization tracking work regardless of where surgery is performed. OR turnover tracking requires integration with the surgical facility."
+    },
+    {
+      "q": "What about revision surgery authorization?",
+      "a": "Revision cases often have more stringent auth requirements. LOMN templates for revision include documentation of prior surgery, reason for revision, and failure of prior implant."
+    },
+    {
+      "q": "How fast is LOMN generation?",
+      "a": "5 minutes for a complete LOMN versus 20-40 minutes manual. Template loads populated, surgeon reviews and edits, signs electronically."
+    }
+  ],
+  "cta": {
+    "headline": "See OR efficiency and LOMN generation",
+    "subhead": "15-minute demo. OR turnover, surgical authorization, LOMN templates, post-op RTM.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "See LOMN Templates", "href": "/resources/ortho-lomn-templates" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "$250K", "label": "annual OR capacity recovered" },
+      { "value": "90%+", "label": "first-submission approval rate" },
+      { "value": "$57K", "label": "annual post-op RTM revenue" }
+    ],
+    "testimonial": {
+      "quote": "Our coordinators were spending 20 hours a week on authorizations. LOMN generation alone saved 10 hours. And we've added 8 cases this year that would have been denied.",
+      "attribution": "Practice Administrator",
+      "practice": "Orthopedic surgery group, 4 surgeons",
+      "location": "Texas"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "blog",
+      "title": "Orthopedic Surgery Authorization: Getting Joints and Spine Approved",
+      "href": "/blog/orthopedic-surgery-authorization",
+      "description": "Common denial reasons for joint replacement and spine surgery, and how to prevent them."
+    },
+    {
+      "type": "blog",
+      "title": "OR Turnover in Orthopedics: Benchmarks and Optimization",
+      "href": "/blog/or-turnover-orthopedics",
+      "description": "What's achievable? Where does time go? How do top practices optimize turnover?"
+    },
+    {
+      "type": "blog",
+      "title": "Post-Op RTM for Orthopedic Surgery: Billing During Recovery",
+      "href": "/blog/postop-rtm-orthopedics",
+      "description": "How to bill CPT 98980 for post-surgical orthopedic patients."
+    },
+    {
+      "type": "resource",
+      "title": "Orthopedic LOMN Template Library",
+      "href": "/resources/ortho-lomn-templates",
+      "description": "Download LOMN templates for joint replacement, sports medicine, and spine procedures."
+    }
+  ],
+  "schema": {
+    "type": "SoftwareApplication",
+    "applicationCategory": "Medical Practice Management Software",
+    "operatingSystem": "Web-based",
+    "offers": {
+      "price": "499",
+      "priceCurrency": "USD"
+    }
+  }
+}
