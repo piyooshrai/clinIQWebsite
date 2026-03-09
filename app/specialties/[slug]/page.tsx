@@ -44,7 +44,7 @@ export async function generateMetadata({
     return {
       title: pillar.meta.title,
       description: pillar.meta.description,
-      keywords: pillar.meta.keywords,
+      keywords: pillar.meta.keywords ? [...pillar.meta.keywords] : undefined,
       openGraph: { title: pillar.meta.title, description: pillar.meta.description, type: 'website' },
     }
   }
