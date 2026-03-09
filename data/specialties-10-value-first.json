@@ -1295,3 +1295,1023 @@
     }
   }
 ]
+{
+  "slug": "pain-management",
+  "name": "Pain Management",
+  "meta": {
+    "title": "Pain Management Clinic Software | RTM Billing, Patient Flow & Prior Auth | clinIQ",
+    "description": "$12K/month in RTM revenue. 56 minutes recovered per procedure day. Prior auth tracking with LOMN templates. clinIQ for interventional pain practices."
+  },
+  "hero": {
+    "h1": "$12,000/month in RTM revenue. 56 minutes recovered per procedure day.",
+    "subhead": "Your chronic pain patients are already reporting symptoms between visits. Your procedure room turnover is already eating margin. Your staff is already writing letters of medical necessity. clinIQ turns all of that into revenue, capacity, and time."
+  },
+  "sections": [
+    {
+      "id": "rtm-revenue",
+      "h2": "RTM revenue: $120/patient/month you're not billing",
+      "content": "Your chronic pain patients already track pain levels between visits. They report functional status. They tell you when medications aren't working.\n\nThat's Remote Therapeutic Monitoring. CPT 98980 and 98981. Billable.\n\nclinIQ RTM does this:\n\n• Patient app for pain scores, medication adherence, and functional status — no hardware required\n• Automatic time tracking toward the 20-minute billing threshold\n• Documentation that meets payer requirements — clean claims, fewer denials\n• Dashboard showing enrolled patients, billing status, and revenue by provider\n\nThe math: 100 chronic pain patients × $120/month = $12,000/month.\n\nThat's not new clinical work. Your physicians already review patient check-ins and adjust treatment. clinIQ captures it as billable RTM."
+    },
+    {
+      "id": "procedure-turnover",
+      "h2": "Procedure room turnover: 56 minutes recovered per day",
+      "content": "You've got 8 injection slots from 7am to noon. Every minute of turnover between cases is margin you're not recovering.\n\n• 8 procedures × 15-minute turnover = 2 hours of dead time\n• 8 procedures × 8-minute turnover = 64 minutes of dead time\n• Difference: 56 minutes = one more injection = $800-1,500\n\nclinIQ Patient Flow does this:\n\n• Real-time room status: occupied, turning over, ready\n• Pre-op checklist visibility: Is the next patient checked in? Consented? IV placed?\n• Turnover timer: Starts automatically when patient leaves, stops when next patient enters\n• Bottleneck alerts: 'Room 2 ready, next patient not in pre-op' — intervene before you lose the slot\n\nYour MA isn't walking the hall asking 'is the room ready?' Your provider isn't waiting on information. Everyone sees the same board."
+    },
+    {
+      "id": "pre-auth-lomn",
+      "h2": "Prior auth + LOMN: Templates that write themselves",
+      "content": "Another epidural denied. Another letter of medical necessity to write. Another week your patient waits in pain.\n\nclinIQ Pre-Auth does this:\n\n• Status tracking: Pending, approved, denied, appealed — for every patient, every procedure\n• Expiration alerts: 'Auth expires in 72 hours, patient not yet scheduled' — before you lose it\n• LOMN templates: Pre-built for epidurals, facet injections, RFA, trigger points — auto-populated from patient chart\n• Appeal workflow: Denial reason captured, peer-to-peer scheduled, outcome logged\n\nYour staff stops calling payers to check status. The status is in the system. When something needs action, it surfaces.\n\nLOMN generation: Select procedure, select patient, generate letter. Conservative care history, imaging findings, failed treatments — pulled from the chart. Edit, sign, submit. Five minutes instead of thirty."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "Patient flow: Everyone sees who's next",
+      "content": "Chronic pain visits aren't 15 minutes. They're vitals, UDS collection, MA interview, provider assessment, PDMP check, education, checkout. Thirty to forty-five minutes that your schedule calls a 'follow-up.'\n\nclinIQ Patient Flow does this:\n\n• Stage tracking: Check-in → Vitals → UDS → With MA → With Provider → Procedure → Recovery → Checkout\n• Wait time visibility: Patient checked in at 10:15, still in vitals at 10:32 — alert before they complain\n• Provider queue: Who's ready for me right now? How many waiting? No walking to the front desk to ask\n• MA queue: Which patients need me? Who's been waiting longest? Which rooms are open?\n\nNobody asks 'who's next?' because everyone can see it."
+    },
+    {
+      "id": "controlled-substance",
+      "h2": "Compliance workflows built into patient flow",
+      "content": "PDMP checks. Treatment agreements. Urine drug screens. Pill counts. Your physicians spend more time on documentation than treating pain.\n\nclinIQ doesn't replace your PDMP portal — that's state-mandated. But it tracks that the check happened:\n\n• UDS status visible at each stage: collected, resulted, reviewed\n• Compliance checklist per patient: treatment agreement signed, PDMP checked, pill count completed\n• Alert if compliance step is missing before provider encounter\n\nNothing gets missed. Nothing falls through the cracks. The audit trail builds itself."
+    },
+    {
+      "id": "implementation",
+      "h2": "Live in two weeks, not six months",
+      "content": "Week 1: We map your workflow — clinic days, procedure days, injection observation. We configure clinIQ to match how you actually work.\n\nWeek 2: Staff training. Front desk learns check-in. MAs learn the queue. Providers learn their dashboard. Most staff are comfortable in an hour.\n\nWeek 3: Go live with support. We're watching, you're asking questions, we're adjusting.\n\nWeek 4: You're running. Turnover times are tracked. RTM is billing. Prior auths have visibility.\n\nNo EHR replacement. No workflow redesign consultants. No six-month implementation."
+    }
+  ],
+  "workflow": {
+    "stages": ["CHECK-IN", "VITALS", "UDS", "WITH MA", "WITH PROVIDER", "PROCEDURE ROOM", "RECOVERY", "CHECKOUT"],
+    "note": "Clinic days and procedure days run different workflows. clinIQ handles both."
+  },
+  "features": ["rtm", "patient-flow", "pre-auth", "check-in", "analytics"],
+  "pricing": {
+    "show": true,
+    "starter": "$249/month — Check-in, patient flow, basic analytics. One location.",
+    "professional": "$499/month — Everything. RTM billing, prior auth tracking, multi-location, priority support.",
+    "implementation": "$750 one-time — Workflow mapping, configuration, training, go-live support.",
+    "integration": "Custom quote — eClinicalWorks, Athena, and other EHR integrations."
+  },
+  "faqs": [
+    {
+      "q": "How much RTM revenue can we actually capture?",
+      "a": "Most pain practices see $100-150 per enrolled patient per month. 100 patients = $10,000-15,000/month. The work is already happening — clinIQ captures it as billable."
+    },
+    {
+      "q": "Does clinIQ generate letters of medical necessity?",
+      "a": "Yes. LOMN templates for common pain procedures auto-populate from patient charts. Conservative care history, imaging, failed treatments — pulled automatically. Edit, sign, submit."
+    },
+    {
+      "q": "How do you track prior auth status?",
+      "a": "Every auth request tracked from submission to decision. Pending, info requested, approved, denied, appealed. Expiration alerts before you lose the auth. No more calling to check status."
+    },
+    {
+      "q": "Does this replace our EHR?",
+      "a": "No. clinIQ is an operations layer. Your EHR handles charts. We handle patient flow, RTM, and prior auth visibility. We integrate — we don't replace."
+    },
+    {
+      "q": "How long until we see ROI?",
+      "a": "Most practices see ROI in month one. One recovered procedure slot per week pays for Professional. RTM billing on 50 patients covers it twice over."
+    }
+  ],
+  "cta": {
+    "headline": "See the revenue you're missing",
+    "subhead": "15-minute demo. We'll show you RTM revenue, procedure room recovery, and prior auth tracking configured for pain management.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate Your RTM Revenue", "href": "/resources/rtm-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "$12K", "label": "monthly RTM revenue (100 patients)" },
+      { "value": "56 min", "label": "recovered per procedure day" },
+      { "value": "5 min", "label": "LOMN generation vs 30 min manual" }
+    ],
+    "testimonial": {
+      "quote": "RTM paid for clinIQ in the first month. The prior auth tracking alone saved my MA 10 hours a week.",
+      "attribution": "Medical Director, Interventional Pain Practice",
+      "location": "Colorado"
+    }
+  },
+  "resource": {
+    "title": "RTM for Pain Management — Quick Start Kit",
+    "description": "Patient enrollment scripts, pain tracking templates, LOMN samples, and ROI calculator.",
+    "href": "/resources/rtm-pain-management-kit"
+  }
+}
+,
+{
+  "slug": "addiction-medicine",
+  "name": "Addiction Medicine",
+  "meta": {
+    "title": "Addiction Medicine & MAT Clinic Software | RTM Billing & Patient Flow | clinIQ",
+    "description": "$7,500/month in behavioral health RTM. Zero missed Sublocade injections. Real-time visibility from intake to observation. clinIQ for MAT clinics."
+  },
+  "hero": {
+    "h1": "$7,500/month in RTM revenue. Zero missed injection appointments.",
+    "subhead": "Your MAT patients already check in between visits. Your Sublocade schedule already drives revenue. Your observation chairs already bottleneck flow. clinIQ turns monitoring into billing, scheduling into revenue capture, and chaos into visibility."
+  },
+  "sections": [
+    {
+      "id": "rtm-revenue",
+      "h2": "Behavioral health RTM: $100/patient/month",
+      "content": "Your patients already report between visits. Cravings. Mood. Triggers. Medication adherence. That's therapeutic monitoring — and it's billable.\n\nCPT 98980 and 98981. Remote Therapeutic Monitoring for behavioral health.\n\nclinIQ RTM does this:\n\n• Patient app for symptom tracking — cravings, mood, triggers, medication adherence\n• Automatic time tracking toward the 20-minute billing threshold\n• Counselor dashboard: Which patients checked in? Who needs follow-up? Who's at risk?\n• Documentation that meets payer requirements for behavioral health RTM\n\nThe math: 75 MAT patients × $100/month = $7,500/month.\n\nYour counselors are already reviewing patient check-ins. clinIQ captures it as billable RTM."
+    },
+    {
+      "id": "injection-revenue",
+      "h2": "Injection scheduling: $1,800-2,200 per Sublocade you don't miss",
+      "content": "Sublocade is monthly. Vivitrol is monthly. But insurance authorizes on different cycles. Patients miss appointments. Your injection coordinator tracks this in spreadsheets.\n\nOne missed injection = $1,800-2,200 in lost revenue. One expired auth = a patient at risk.\n\nclinIQ Scheduling does this:\n\n• Injection pipeline: Every patient's due date, auth status, inventory match — one view\n• Auth expiration alerts: 'Sublocade auth expires in 5 days, patient not scheduled'\n• Waitlist fill: Cancellation at 8am? Waitlist patient gets texted. Slot filled by 9am.\n• Inventory sync: Injections in the fridge matched to scheduled patients\n\nNo spreadsheets. No memory. No missed revenue."
+    },
+    {
+      "id": "observation-flow",
+      "h2": "Observation chair visibility: No more bottlenecks",
+      "content": "Post-injection observation is 30 minutes minimum. You have 4 observation chairs. You scheduled 6 injection patients today.\n\nIf injections start late, observation runs late. If observation runs late, your afternoon backs up.\n\nclinIQ Patient Flow does this:\n\n• Observation timer: Started 10:15, ends 10:45, chair available 10:47\n• Chair status: Occupied (18 min remaining), Available, Turning over\n• Injection room ready alert: 'Observation chair freeing in 5 min — prep next patient'\n• Bottleneck prevention: See the backup coming, not after it happens\n\nYour injection coordinator sees the entire pipeline. No walking the hall. No guessing."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "Intake to checkout: Every stage visible",
+      "content": "MAT patients cycle through intake, urine collection, vitals, provider, injection, observation. Your front desk juggles benefit verification and crisis interruptions. Your MAs context-switch constantly.\n\nclinIQ Patient Flow does this:\n\n• Stage tracking: Check-in → Intake → UDS → Vitals → With MA → With Provider → Injection → Observation → Checkout\n• UDS status: Collected, resulted, reviewed — visible at every stage\n• Crisis flag: Patient in crisis? Flag visible to clinical staff immediately\n• Queue by role: MAs see their patients. Providers see theirs. Nobody asks 'who's next?'\n\nThe chaos doesn't disappear. It becomes visible. And visible chaos is manageable chaos."
+    },
+    {
+      "id": "private-checkin",
+      "h2": "Private check-in: Dignity from the door",
+      "content": "Your patients don't want to announce 'I'm here for Suboxone' at a shared desk. They don't want to sign a paper log everyone can see.\n\nclinIQ Check-In does this:\n\n• Tablet check-in: Private corner, no verbal announcement required\n• Phone check-in: QR code from the parking lot — in the queue before they walk in\n• Queue numbers: Display shows numbers, never names\n• Reason for visit: Never displayed, never announced\n\nPrivacy isn't a feature. It's the baseline for addiction medicine."
+    },
+    {
+      "id": "implementation",
+      "h2": "Configured for MAT, not adapted from primary care",
+      "content": "MAT clinics aren't family medicine. Your workflow is different. Your patient population is different. We don't hand you a template designed for something else.\n\nWeek 1: We map your flow — intake, UDS, vitals, provider, injection types, observation protocols. Group sessions if you have them.\n\nWeek 2: Training by role. Front desk, MAs, counselors, providers, injection coordinator.\n\nWeek 3: Go live. Observation timers running. Injection pipeline visible. RTM capturing time.\n\nWeek 4: You're running. Revenue is billing. Flow is visible. Staff isn't drowning."
+    }
+  ],
+  "workflow": {
+    "stages": ["PRIVATE CHECK-IN", "INTAKE", "UDS COLLECTION", "VITALS", "WITH MA", "WITH PROVIDER", "INJECTION", "OBSERVATION", "CHECKOUT"],
+    "note": "Not every patient hits every stage. Refills skip injection. Crisis visits skip the line. The system handles all of it."
+  },
+  "features": ["rtm", "scheduling", "patient-flow", "check-in", "analytics"],
+  "pricing": {
+    "show": true,
+    "starter": "$249/month — Check-in, patient flow, basic analytics. One location.",
+    "professional": "$499/month — Everything. RTM billing, injection scheduling, observation tracking, multi-location.",
+    "implementation": "$750 one-time — MAT workflow mapping, configuration, training, go-live support.",
+    "integration": "Custom quote — Behavioral health EHR integrations available."
+  },
+  "faqs": [
+    {
+      "q": "Is behavioral health RTM actually billable?",
+      "a": "Yes. CPT 98980 and 98981 apply to behavioral health monitoring. Patient-reported symptoms, counselor review, treatment adjustments — that's RTM. Most payers cover it."
+    },
+    {
+      "q": "How do you track injection schedules?",
+      "a": "Each patient's due date, auth status, and inventory match visible in one view. Alerts when auths are expiring. Waitlist fills cancellations automatically."
+    },
+    {
+      "q": "Can patients check in privately?",
+      "a": "Yes. Tablet in a private area or phone check-in from the parking lot. Queue numbers on display, never names. No announcing why they're here."
+    },
+    {
+      "q": "How do you handle observation timing?",
+      "a": "Timer starts when injection is administered. Observation end time visible. Chair availability predicted. Next injection can be prepped before the chair is even free."
+    },
+    {
+      "q": "What about OBOT vs traditional OTP workflows?",
+      "a": "We configure for your model. OBOT in primary care settings is simpler. Traditional OTP has more stages. Same system, different configuration."
+    }
+  ],
+  "cta": {
+    "headline": "See the revenue and flow you're missing",
+    "subhead": "15-minute demo configured for MAT clinics. RTM billing, injection scheduling, observation tracking.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate RTM Revenue", "href": "/resources/rtm-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "$7.5K", "label": "monthly RTM revenue (75 patients)" },
+      { "value": "Zero", "label": "missed injections from expired auths" },
+      { "value": "100%", "label": "observation visibility" }
+    ],
+    "testimonial": {
+      "quote": "We were tracking Sublocade schedules in Excel. One missed injection is $2,000. clinIQ paid for itself the first month.",
+      "attribution": "Clinic Manager, MAT Program",
+      "location": "Ohio"
+    }
+  },
+  "resource": {
+    "title": "MAT Clinic Revenue Kit",
+    "description": "Behavioral health RTM setup guide, injection scheduling template, observation flow optimization.",
+    "href": "/resources/mat-clinic-revenue-kit"
+  }
+}
+,
+{
+  "slug": "urgent-care",
+  "name": "Urgent Care",
+  "meta": {
+    "title": "Urgent Care Patient Flow Software | Reduce LWBS, Increase Throughput | clinIQ",
+    "description": "15-20% LWBS reduction. 12 minutes off average wait time. Real-time door-to-door visibility. clinIQ for urgent care centers."
+  },
+  "hero": {
+    "h1": "Every LWBS patient is $150-300 walking out the door.",
+    "subhead": "Your LWBS rate is 5-8%. That's 3-5 patients per day who checked in, sat down, and left. At $200 average, that's $600-1,000/day in lost revenue. clinIQ shows you who's about to leave — before they do."
+  },
+  "sections": [
+    {
+      "id": "lwbs-revenue",
+      "h2": "LWBS recovery: $18,000-30,000/month you're losing",
+      "content": "Industry average LWBS is 3-5%. Busy days hit 8-10%. You're not tracking it because you can't — your system only knows when patients were seen, not when they left.\n\nclinIQ tracks LWBS in real-time:\n\n• Walkout detection: Patient marked 'departed' without being seen — captured immediately\n• Wait time alerts: Patient waiting 25+ minutes? Alert fires. Intervene before they leave.\n• LWBS dashboard: Daily, weekly, monthly rates. By hour, by day of week, by provider on duty.\n• Recovery opportunity: 5% LWBS at 60 patients/day = 3 patients = $600/day = $18,000/month\n\nYou can't recover patients you don't know you're losing. clinIQ shows you the leak."
+    },
+    {
+      "id": "throughput",
+      "h2": "Door-to-door time: 12 minutes faster on average",
+      "content": "Door-to-door is the only metric. But you're not measuring it — you're guessing based on how the day felt.\n\nclinIQ measures every stage:\n\n• Arrival to triage: 3 minutes\n• Triage to room: 18 minutes (here's your bottleneck)\n• Room to provider: 4 minutes\n• Provider to discharge: 12 minutes\n\nNow you know where time goes. Triage to room is the problem? Add a room. Provider to discharge? Streamline paperwork.\n\nClinics using clinIQ see 10-15 minute reductions in average door-to-door time. At 60 patients/day, that's capacity for 5-8 more patients."
+    },
+    {
+      "id": "lobbyview",
+      "h2": "LobbyView: Patients stop asking 'how much longer?'",
+      "content": "Patients don't leave because of wait time. They leave because of uncertainty. 45 minutes with information is tolerable. 20 minutes with no information is intolerable.\n\nclinIQ LobbyView does this:\n\n• Queue position display: 'Your number: 12. Position: 4th. Estimated wait: 18 minutes.'\n• HIPAA-compliant: Numbers only, never names, never conditions\n• Real-time updates: Position changes as patients are seen\n• Multi-screen: Waiting room, triage area, provider area — different views for different roles\n\nYour front desk stops fielding 'how much longer?' every 5 minutes. Patients can see. They can decide to wait or leave based on real information, not frustration."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "Real-time patient board: No more whiteboard fiction",
+      "content": "Your whiteboard was accurate two hours ago. Room 3 says 'chest pain' but that patient went to the ED an hour ago. Nobody updated it.\n\nclinIQ Patient Flow does this:\n\n• Auto-updating status: Patient checks in → status updates. Patient rooms → status updates. No manual maintenance.\n• Room status: Occupied, available, needs turnover — at a glance\n• Triage integration: ESI level assigned, priority visible, reassessment alerts for long waits\n• Provider view: Who's ready in which room? No walking the hall to find out.\n\nDigital patient status that maintains itself. Fiction becomes fact."
+    },
+    {
+      "id": "volume-visibility",
+      "h2": "Volume spikes: See them at noon, not at 3pm",
+      "content": "Monday morning: 3 patients. Monday afternoon: 27 patients. You can't predict it. But you can see it happening.\n\nclinIQ Analytics does this:\n\n• Real-time queue depth: 4 waiting, 6 in rooms, 2 in discharge\n• Trend alerts: 'Queue depth increasing — 8 patients arrived in last 30 minutes'\n• Historical patterns: Mondays spike at 1pm, Saturdays peak at 11am\n• Staffing insights: When do you need the extra provider? Data, not guessing.\n\nYou see the surge at 12:30. You pull someone to help at 12:35. You prevent the 2pm meltdown."
+    },
+    {
+      "id": "implementation",
+      "h2": "Live in one week, running smooth in two",
+      "content": "Urgent care doesn't have time for six-month implementations.\n\nDay 1-2: We map your flow. Registration, triage, rooming, provider, discharge.\n\nDay 3-4: Staff training. Front desk, triage, providers. Each role sees their view.\n\nDay 5: Go live. We're monitoring. You're using it. We're adjusting.\n\nWeek 2: You're running independently. Patient flow is visible. LWBS is tracked. Door-to-door is measured.\n\nNo disruption. No consultants. No lengthy implementation."
+    }
+  ],
+  "workflow": {
+    "stages": ["ARRIVED", "CHECKED IN", "TRIAGED", "WAITING", "ROOMED", "WITH PROVIDER", "PENDING RESULTS", "DISCHARGE", "DEPARTED"],
+    "note": "Simple visits skip pending results. Walk-outs captured when they happen, not discovered later."
+  },
+  "features": ["patient-flow", "lobbyview", "check-in", "analytics"],
+  "pricing": {
+    "show": true,
+    "starter": "$249/month — Patient flow, check-in, basic analytics. One location.",
+    "professional": "$499/month — Everything including LobbyView, LWBS tracking, multi-location dashboard.",
+    "implementation": "$750 one-time — Workflow mapping, configuration, training, go-live support.",
+    "integration": "Custom quote — Urgent care EHR integrations available."
+  },
+  "faqs": [
+    {
+      "q": "How do you calculate LWBS rate?",
+      "a": "Patients who check in but depart without being seen. Timestamped automatically. Daily/weekly/monthly rates by hour, day, provider. No manual tracking."
+    },
+    {
+      "q": "Can we show wait times on our website?",
+      "a": "Yes. Current estimated wait time can feed to your website, Google listing, or external signage. Patients know before they arrive."
+    },
+    {
+      "q": "How accurate are the wait time estimates?",
+      "a": "Based on actual current queue depth and historical throughput. Updates in real-time as patients move through stages. More accurate than guessing."
+    },
+    {
+      "q": "Does this work for multi-site groups?",
+      "a": "Yes. Multi-location dashboard compares wait times, LWBS, throughput across all sites. Regional managers see everything. Site staff sees their location."
+    },
+    {
+      "q": "What about walk-ins vs online check-ins?",
+      "a": "Both enter the same queue. Online check-ins get a head start on paperwork. Same visibility, same flow."
+    }
+  ],
+  "cta": {
+    "headline": "See your LWBS rate — then fix it",
+    "subhead": "15-minute demo. We'll show you patient flow, wait time transparency, and the revenue you're losing to walkouts.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate Your LWBS Cost", "href": "/resources/lwbs-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "15-20%", "label": "LWBS reduction" },
+      { "value": "12 min", "label": "faster door-to-door" },
+      { "value": "$18K+", "label": "monthly LWBS recovery potential" }
+    ],
+    "testimonial": {
+      "quote": "We didn't know our LWBS rate until we measured it. 8%. That's $24,000/month walking out the door. Now we're under 3%.",
+      "attribution": "Operations Director, Multi-Site Urgent Care",
+      "location": "Texas"
+    }
+  },
+  "resource": {
+    "title": "LWBS Reduction Playbook",
+    "description": "How to measure LWBS, identify root causes, and implement wait time transparency. Calculator included.",
+    "href": "/resources/lwbs-playbook"
+  }
+}
+,
+{
+  "slug": "physical-therapy",
+  "name": "Physical Therapy",
+  "meta": {
+    "title": "Physical Therapy Software | RTM for Home Exercise & Multi-Patient Flow | clinIQ",
+    "description": "$10,400/month in musculoskeletal RTM. Zero patients forgotten in warm-up. Insurance cap visibility at check-in. clinIQ for PT practices."
+  },
+  "hero": {
+    "h1": "$10,400/month in RTM. Zero patients waiting unnoticed.",
+    "subhead": "Your home exercise programs are therapeutic monitoring — billable as RTM. Your therapists juggle 4 patients across 3 zones — now with visibility. Your insurance cap surprises — eliminated at check-in."
+  },
+  "sections": [
+    {
+      "id": "rtm-revenue",
+      "h2": "Musculoskeletal RTM: $130/patient/month for HEP monitoring",
+      "content": "Your patients go home with exercises. Stretches, strengthening, mobility work. Are they doing them? You ask. They say yes. You don't actually know until they're not progressing.\n\nThat home exercise compliance is billable. CPT 98977 (musculoskeletal RTM), 98980, 98981.\n\nclinIQ RTM does this:\n\n• Patient app: Exercise completion logging, pain scores, functional status — simple, no barriers\n• Compliance dashboard: Who's doing their HEP? Who's not? Who needs a call?\n• Automatic time tracking: Every review counts toward the 20-minute billing threshold\n• Pre-visit insight: You know if they've been compliant before they walk in\n\nThe math: 80 patients × $130/month = $10,400/month.\n\nYou're already prescribing HEPs. clinIQ makes monitoring them billable."
+    },
+    {
+      "id": "multi-patient-flow",
+      "h2": "Multi-patient visibility: 4 patients, 3 zones, zero guessing",
+      "content": "Your therapist has Patient A on the bike, Patient B on the table, Patient C doing exercises with a tech, Patient D finishing e-stim. Four patients, three zones, constant context-switching.\n\nWhen Patient A finishes the bike, how long until someone notices?\n\nclinIQ Patient Flow does this:\n\n• Zone tracking: Warm-up, With Therapist, Exercise, Modalities — where is everyone?\n• Time in zone: Patient A in warm-up 12 minutes — alert, needs attention\n• Therapist view: All my patients, all zones, at a glance — no hunting\n• Tech coordination: Which patients need tech support? What exercises are prescribed?\n\nNo more patients sitting on the bike wondering if they've been forgotten. The dashboard shows everyone."
+    },
+    {
+      "id": "insurance-caps",
+      "h2": "Visit cap visibility: No more surprise denials",
+      "content": "Patient shows up for visit 19 of 20 authorized. Nobody realizes they're about to hit their cap. Visit 21 gets denied. You eat the cost or have an awkward conversation.\n\nclinIQ shows this at check-in:\n\n• 'Visit 18 of 20 authorized'\n• 'Authorization expires: 4/15/2026'\n• 'Re-auth needed before next visit'\n\nFront desk sees it. Therapist sees it. Patient can be informed before the surprise.\n\nNo more denials discovered 30 days later. No more writing off visits you thought were covered."
+    },
+    {
+      "id": "scheduling",
+      "h2": "Cancellation recovery: 90% of slots filled from waitlist",
+      "content": "Patient cancels at 8am for a 9am slot. You have one hour to fill it. Your waitlist is in a notebook. By the time you work through it, the slot is gone.\n\nclinIQ Waitlist does this:\n\n• Automatic notification: Cancellation at 8:02am. Three waitlist patients get texts by 8:03am.\n• First to confirm gets the slot: No phone tag, no chasing.\n• Filled by 8:15am: Slot recovered, revenue captured.\n• Waitlist analytics: How many slots recovered? How much revenue saved?\n\n90% of cancellation slots filled. That's 4-5 recovered appointments per week. $400-500/week in revenue that would have been lost."
+    },
+    {
+      "id": "documentation-time",
+      "h2": "Flow efficiency = documentation time",
+      "content": "Your therapists do 4-6 hours of unpaid documentation weekly. Notes after patients leave. Plans at lunch. Paperwork at home.\n\nclinIQ doesn't do your documentation — that's your EHR. But smoother flow creates breathing room:\n\n• Less time hunting for patients across zones\n• Less time figuring out who's next\n• Less time answering 'where's my therapist?'\n• More time for documentation during the day\n\nWhen your workflow runs smoother, documentation happens during work hours, not after."
+    },
+    {
+      "id": "implementation",
+      "h2": "Built for multi-patient PT, not single-provider templates",
+      "content": "Most software assumes one provider, one patient, one room. That's not PT.\n\nWeek 1: We map your zones — warm-up, manual, exercise, modalities. We configure for concurrent patients, not sequential.\n\nWeek 2: Training. Therapists see their multi-patient view. Techs see their assignments. Front desk sees arrivals and caps.\n\nWeek 3: Go live. Zone tracking active. RTM capturing compliance. Waitlist filling cancellations.\n\nWeek 4: You're running. No patients forgotten. Revenue billing. Caps visible."
+    }
+  ],
+  "workflow": {
+    "stages": ["CHECKED IN", "WARM-UP", "WITH THERAPIST", "EXERCISE", "MODALITIES", "CHECKOUT"],
+    "note": "Patients may cycle through zones multiple times. Therapist sees all their patients across all zones simultaneously."
+  },
+  "features": ["rtm", "patient-flow", "scheduling", "check-in", "analytics"],
+  "pricing": {
+    "show": true,
+    "starter": "$249/month — Patient flow, check-in, basic analytics. One location.",
+    "professional": "$499/month — Everything. RTM billing, waitlist, cap tracking, multi-location.",
+    "implementation": "$750 one-time — Multi-patient workflow mapping, configuration, training.",
+    "integration": "Custom quote — WebPT, Clinicient, and other PT EHR integrations."
+  },
+  "faqs": [
+    {
+      "q": "Is home exercise monitoring really billable as RTM?",
+      "a": "Yes. CPT 98977 is specifically for musculoskeletal RTM. Patient-reported exercise completion, pain scores, and functional status — reviewed by your clinicians — that's billable RTM."
+    },
+    {
+      "q": "How does multi-patient tracking work?",
+      "a": "Each therapist sees all their assigned patients across all zones. Patient A in warm-up (8 min), Patient B with therapist (current), Patient C in exercise (4 min). One dashboard."
+    },
+    {
+      "q": "Can we track visit counts toward insurance caps?",
+      "a": "Yes. Authorized visits, used visits, remaining visits — visible at check-in. Alerts when approaching cap. No surprises."
+    },
+    {
+      "q": "Does this replace our PT-specific EHR?",
+      "a": "No. Your EHR handles documentation and billing. clinIQ handles operational visibility — patient flow, RTM data collection, waitlist. They work together."
+    },
+    {
+      "q": "How does the waitlist work?",
+      "a": "Cancellation triggers automatic text to waitlisted patients. First to confirm gets the slot. No phone tag. Recovered in minutes."
+    }
+  ],
+  "cta": {
+    "headline": "See the RTM revenue and flow visibility you're missing",
+    "subhead": "15-minute demo for PT. Home exercise RTM, multi-patient tracking, cap visibility, waitlist recovery.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate Your RTM Revenue", "href": "/resources/rtm-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "$10.4K", "label": "monthly RTM revenue (80 patients)" },
+      { "value": "90%", "label": "cancellation slots filled via waitlist" },
+      { "value": "Zero", "label": "patients forgotten in warm-up" }
+    ],
+    "testimonial": {
+      "quote": "We were leaving $8K/month on the table in RTM. The waitlist alone recovered $2K/month in cancellations. ROI in week one.",
+      "attribution": "Clinic Owner, Outpatient PT",
+      "location": "Oregon"
+    }
+  },
+  "resource": {
+    "title": "RTM for Physical Therapy — Setup Guide",
+    "description": "How to launch musculoskeletal RTM. Patient enrollment, HEP tracking setup, documentation templates, billing codes.",
+    "href": "/resources/rtm-physical-therapy-guide"
+  }
+}
+,
+{
+  "slug": "infusion-centers",
+  "name": "Infusion Centers",
+  "meta": {
+    "title": "Infusion Center Software | Chair Utilization & Drug Waste Prevention | clinIQ",
+    "description": "15% higher chair utilization. Zero wasted biologics from no-shows. $7,200/month in RTM between infusions. clinIQ for infusion centers."
+  },
+  "hero": {
+    "h1": "15% more chair utilization. Zero wasted Remicade.",
+    "subhead": "Your revenue ceiling is chairs × hours × utilization. Right now you're at 70-75%. clinIQ gets you to 85%. That's 18 more chair-hours per day on a 12-chair unit. Plus RTM revenue between infusions."
+  },
+  "sections": [
+    {
+      "id": "chair-utilization",
+      "h2": "Chair utilization: 15% increase = $300K+/year",
+      "content": "12 chairs. 10 hours. 120 chair-hours of theoretical capacity per day. You're running at 70-75%. That's 30-36 chair-hours lost daily.\n\nclinIQ shows you where utilization leaks:\n\n• Scheduling gaps: 45-minute hole between a 2-hour infusion and a 3-hour infusion — visible, fillable\n• Late starts: Patient checked in but chair not ready — why?\n• Turnover delays: Chair empty 25 minutes between patients — where's the bottleneck?\n• Real-time chair status: Occupied (time remaining), Available, Turnover, Blocked\n\nThe math: 12 chairs × 15% improvement × $150/chair-hour = $270/day = $67,500/year.\n\nOn infusion reimbursements, the number is much higher. One additional Remicade infusion per day = $4,000-6,000/day."
+    },
+    {
+      "id": "drug-waste",
+      "h2": "Drug waste prevention: $0 wasted biologics",
+      "content": "Remicade is mixed when the patient checks in. Patient no-shows? That's $4,000 of biologic, wasted.\n\nclinIQ syncs pharmacy prep with patient arrival:\n\n• Patient checked in: Pharmacy sees it immediately — start prep\n• Patient late: Pharmacy sees delay — hold prep\n• Patient no-show: Drug not yet mixed — no waste\n• Real-time arrival status: Not just scheduled time, actual arrival\n\nNo-show at 9am? You knew at 8:45 when they didn't confirm. Slot goes to waitlist. Drug never wasted.\n\nOne saved Remicade per month = $4,000. One saved Rituximab = $8,000+."
+    },
+    {
+      "id": "rtm-revenue",
+      "h2": "RTM between infusions: $120/patient/month",
+      "content": "Your patients return every 4, 6, or 8 weeks. Between visits, they're managing symptoms. Reporting side effects. Calling with questions.\n\nThat's Remote Therapeutic Monitoring. CPT 98980 and 98981.\n\nclinIQ RTM does this:\n\n• Patient app: Symptom tracking, side effect reporting, medication adherence\n• Nurse dashboard: Who reported issues? Who needs a call? Who's at risk before their next infusion?\n• Automatic time tracking: Calls and reviews count toward 20-minute threshold\n• Pre-infusion insight: Know how they've been doing before they sit down\n\nThe math: 60 infusion patients × $120/month = $7,200/month.\n\nYour nurses are already fielding calls between infusions. Now those calls are billable."
+    },
+    {
+      "id": "nursing-visibility",
+      "h2": "Nursing load balance: No more 3 disconnects at once",
+      "content": "Your nurse has 4 active infusions. Three finish at the same time. Now she's doing 3 disconnects while the fourth patient needs attention.\n\nclinIQ shows infusion end times, not just start times:\n\n• 'Chair 2 finishing in 8 minutes'\n• 'Chair 4 finishing in 12 minutes'\n• 'Chair 7 finishing in 15 minutes'\n• Alert: '3 infusions ending within 10 minutes — Nurse B needs support'\n\nCharge nurse sees the pileup coming. Rebalances before it happens. No patient waits for disconnect while the nurse is overwhelmed."
+    },
+    {
+      "id": "auth-tracking",
+      "h2": "Prior auth visibility: No surprises at check-in",
+      "content": "Remicade auth expired between appointments. Patient shows up expecting treatment. You're on the phone with insurance instead of starting the infusion.\n\nclinIQ Pre-Auth does this:\n\n• Auth status at check-in: 'Authorization valid through 4/15' or 'AUTH EXPIRED — DO NOT START'\n• Expiration alerts: 'Auth expires in 7 days — patient not yet scheduled for renewal'\n• Renewal tracking: Submitted, pending, approved, denied — for every patient\n• No assumptions: Clear status before the needle goes in\n\nNo infusion started without auth confirmation. No claims denied 30 days later."
+    },
+    {
+      "id": "implementation",
+      "h2": "Built for infusion, not bolted on",
+      "content": "Infusion centers aren't doctor's offices. Chair-based scheduling, drug prep timing, nursing ratios, reaction protocols — foundational, not features.\n\nWeek 1: Map your operation. Chair types, infusion durations, nursing model, pharmacy prep workflow.\n\nWeek 2: Training. Schedulers, nurses, charge nurse, pharmacy interface.\n\nWeek 3: Go live. Real-time chair status. Drug prep visibility. Nursing load balance.\n\nWeek 4: Utilization data accumulating. You see your baseline. You see the gaps. Optimization begins."
+    }
+  ],
+  "workflow": {
+    "stages": ["CHECKED IN", "IV ACCESS", "PRE-MEDS", "INFUSING", "POST-INFUSION", "DISCHARGE"],
+    "note": "Adverse reactions trigger separate protocol. Drug prep happens in parallel, triggered by check-in status."
+  },
+  "features": ["patient-flow", "scheduling", "rtm", "pre-auth", "analytics"],
+  "pricing": {
+    "show": true,
+    "starter": "$249/month — Basic chair tracking and patient flow. One location.",
+    "professional": "$499/month — Everything. RTM, chair utilization analytics, pharmacy sync, multi-location.",
+    "implementation": "$750 one-time — Infusion workflow mapping, configuration, training.",
+    "integration": "Custom quote — Oncology EHR and pharmacy system integrations."
+  },
+  "faqs": [
+    {
+      "q": "How do you prevent drug waste from no-shows?",
+      "a": "Pharmacy sees real-time check-in status, not scheduled time. Patient late? Hold prep. No-show confirmed? Drug never mixed. Waitlist patient fills the slot."
+    },
+    {
+      "q": "How do you calculate chair utilization?",
+      "a": "Occupied time ÷ available time. By chair, by day, by infusion type. Gaps and delays visible. You see exactly where utilization leaks."
+    },
+    {
+      "q": "Can nurses see when multiple infusions end at once?",
+      "a": "Yes. Dashboard shows infusion end times, not just start times. Alerts when multiple infusions end within 10 minutes. Charge nurse can rebalance proactively."
+    },
+    {
+      "q": "How does auth tracking work for recurring infusions?",
+      "a": "Each patient's auth status, expiration date, and renewal status visible. Alerts before expiration. No infusion started without confirmed authorization."
+    },
+    {
+      "q": "Is RTM between infusions actually billable?",
+      "a": "Yes. CPT 98980 and 98981. Patient-reported symptoms reviewed by clinical staff, treatment decisions made between visits — that's RTM. Most payers cover it."
+    }
+  ],
+  "cta": {
+    "headline": "See your chair utilization and lost revenue",
+    "subhead": "15-minute demo. Chair scheduling, drug waste prevention, RTM between infusions, nursing load visibility.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate Chair Utilization", "href": "/resources/infusion-utilization-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "15%", "label": "chair utilization increase" },
+      { "value": "$0", "label": "wasted biologics from no-shows" },
+      { "value": "$7.2K", "label": "monthly RTM revenue (60 patients)" }
+    ],
+    "testimonial": {
+      "quote": "We saved one Remicade from a no-show in week one. That's $4,000. Then we found the scheduling gaps costing us 2 chairs worth of utilization daily.",
+      "attribution": "Director of Operations, Oncology Infusion Center",
+      "location": "Florida"
+    }
+  },
+  "resource": {
+    "title": "Infusion Center Utilization Guide",
+    "description": "Calculate your theoretical vs actual utilization. Identify gaps. Prevent drug waste. Capture RTM revenue.",
+    "href": "/resources/infusion-utilization-guide"
+  }
+}
+,
+{
+  "slug": "psychiatry",
+  "name": "Psychiatry",
+  "meta": {
+    "title": "Psychiatry Practice Software | No-Show Reduction & Private Check-In | clinIQ",
+    "description": "18% fewer new patient no-shows. 100% private check-in. Real-time session visibility. clinIQ for psychiatry and mental health practices."
+  },
+  "hero": {
+    "h1": "25% of new patients no-show. That's $500/day walking away.",
+    "subhead": "New patient psych appointments bill $250-400. At 25% no-show rate, you're losing one new patient per day. clinIQ cuts no-shows by 18% with confirmation sequences and waitlist fills. Plus private check-in that respects why your patients are here."
+  },
+  "sections": [
+    {
+      "id": "noshow-revenue",
+      "h2": "No-show reduction: 18% fewer = $2,500+/month recovered",
+      "content": "New patient no-shows in psychiatry run 20-30%. People make appointments during crisis. The crisis passes. The fear of the first visit remains. They don't show.\n\nYou can't eliminate no-shows. But you can predict and manage them.\n\nclinIQ does this:\n\n• Confirmation sequences: Text 3 days before, 1 day before, morning of. Each confirmation is a commitment.\n• Non-response alerts: Patient didn't confirm? Flag visible. Call them or fill the slot.\n• No-show risk scoring: Which patients confirmed every step vs which went silent?\n• Waitlist fill: High-risk slot opens? Waitlist patient notified immediately.\n\nThe math: 4 new patients/week × 25% no-show = 1 lost slot. At $300, that's $1,200/month. Reduce no-shows by 18%? That's $200-300/month recovered just on new patients.\n\nPlus follow-ups, med management, therapy sessions. The revenue adds up."
+    },
+    {
+      "id": "session-visibility",
+      "h2": "Session visibility: Know when you're behind before patients complain",
+      "content": "Your 2pm was supposed to be 30 minutes. It's 2:45 and they're still in session — the patient disclosed something significant.\n\nYour 2:30 has been waiting 15 minutes. Your 3pm just checked in. Your front desk is fielding 'how much longer?' questions they can't answer.\n\nclinIQ does this:\n\n• Session timer: Current session started at 2:00, running 45 minutes (scheduled 30)\n• Wait time visibility: '2:30 patient waiting 18 minutes' — front desk can communicate proactively\n• Provider queue view: See waiting patients on your screen without leaving the room\n• Informed decisions: Continue because clinical need is more important, or wrap up — you decide, not by accident\n\nNo more discovering you're an hour behind when patients start complaining."
+    },
+    {
+      "id": "private-checkin",
+      "h2": "Private check-in: Dignity from the door",
+      "content": "Your patients drove across town to avoid running into someone they know. They're anxious about being seen in a psychiatry waiting room. And your check-in process requires them to announce themselves at a desk within earshot of other patients.\n\nclinIQ does this:\n\n• Tablet check-in: Private corner, no verbal announcement\n• Phone check-in: QR code from the parking lot — in your queue before they walk in\n• Text when ready: 'We're ready for you, please come to Suite 200' — they walk straight to your office\n• Queue display: Numbers only, never names, never reasons\n\nPrivacy isn't a feature. It's why your patients chose you over the hospital system."
+    },
+    {
+      "id": "telehealth-flow",
+      "h2": "Telehealth + in-person: One queue, one view",
+      "content": "Half your patients might be telehealth now. Your check-in process needs to work for both without switching systems.\n\nclinIQ does this:\n\n• Unified queue: In-person and telehealth patients in the same view\n• Telehealth status: 'John D., telehealth, in video waiting room 2 minutes'\n• No system switching: One dashboard regardless of modality\n• Same visibility: Know who's ready whether they're in your lobby or on video\n\nYour telehealth patients aren't second-class citizens in your workflow."
+    },
+    {
+      "id": "crisis-awareness",
+      "h2": "Crisis flagging: Clinical staff notified immediately",
+      "content": "Your front desk isn't clinical staff. They're not trained in de-escalation. But they're the first point of contact when a patient arrives in crisis.\n\nclinIQ does this:\n\n• Crisis flag at check-in: Front desk can mark 'patient in distress' with one tap\n• Immediate notification: Clinical staff alerted before the situation escalates\n• Care plan visibility: If this patient has crisis protocols, they're visible before check-in completes\n• Documentation: What happened, who was notified, what intervention — clean record\n\nYour front desk has a tool. Your clinical staff has visibility. Your patients get appropriate response."
+    },
+    {
+      "id": "implementation",
+      "h2": "Configured for mental health, not adapted from urgent care",
+      "content": "Your practice isn't urgent care. The pace is different. The privacy requirements are different. We configure for mental health from day one.\n\nWeek 1: Map your flow. Individual sessions, med management, intake appointments, group therapy if you have it.\n\nWeek 2: Training. Front desk learns private check-in. Providers learn queue visibility.\n\nWeek 3: Live. Private check-in active. Queue numbers instead of names. Confirmation sequences running.\n\nWeek 4: No-show data accumulating. Session timing visible. Staff isn't fielding constant 'how much longer?' questions."
+    }
+  ],
+  "workflow": {
+    "stages": ["PRIVATE CHECK-IN", "WAITING", "WITH PROVIDER", "CHECKOUT"],
+    "note": "Simpler flow than procedural specialties. The complexity is in privacy and timing, not stages."
+  },
+  "features": ["check-in", "patient-flow", "scheduling", "analytics"],
+  "pricing": {
+    "show": true,
+    "starter": "$249/month — Private check-in, patient flow, basic analytics. One location.",
+    "professional": "$499/month — Everything. Confirmation sequences, no-show prediction, waitlist, multi-location.",
+    "implementation": "$750 one-time — Mental health workflow mapping, configuration, training.",
+    "integration": "Custom quote — Behavioral health EHR integrations available."
+  },
+  "faqs": [
+    {
+      "q": "How does private check-in work?",
+      "a": "Tablet in a private area or phone check-in from the parking lot. No announcing at the desk. Queue numbers displayed, never names. Privacy from the moment they arrive."
+    },
+    {
+      "q": "Can patients wait in their car?",
+      "a": "Yes. Phone check-in puts them in your queue. When you're ready, they get a text: 'We're ready for you.' They walk in and go straight back."
+    },
+    {
+      "q": "How do you reduce no-shows?",
+      "a": "Confirmation sequence via text — 3 days, 1 day, morning of. Non-responders flagged. High-risk slots can be double-booked or filled from waitlist."
+    },
+    {
+      "q": "Does this work for telehealth?",
+      "a": "Yes. Telehealth patients appear in the same queue. 'John D., telehealth, in video waiting room.' One view regardless of modality."
+    },
+    {
+      "q": "How do you handle crisis situations?",
+      "a": "Front desk can flag 'patient in distress' at check-in. Clinical staff notified immediately. Care plan alerts visible if configured."
+    }
+  ],
+  "cta": {
+    "headline": "See the no-shows you can prevent",
+    "subhead": "15-minute demo. Private check-in, confirmation sequences, session visibility, crisis flagging.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate No-Show Cost", "href": "/resources/noshow-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "18%", "label": "no-show reduction" },
+      { "value": "100%", "label": "private check-in" },
+      { "value": "Zero", "label": "patients announcing why they're here" }
+    ],
+    "testimonial": {
+      "quote": "My patients check in from their car and walk straight to my office. The session starts calmer. And my no-show rate dropped from 22% to 14%.",
+      "attribution": "Psychiatrist, Private Practice",
+      "location": "California"
+    }
+  },
+  "resource": {
+    "title": "Private Check-In Guide for Mental Health",
+    "description": "How to implement private check-in. Tablet setup, phone check-in flow, queue display configuration.",
+    "href": "/resources/private-checkin-mental-health"
+  }
+}
+,
+{
+  "slug": "orthopedic-surgery",
+  "name": "Orthopedic Surgery",
+  "meta": {
+    "title": "Orthopedic Surgery Software | OR Turnover & Surgical Prior Auth | clinIQ",
+    "description": "8 minutes off OR turnover = $250K/year in recovered capacity. Zero cases canceled for pre-op delays. LOMN templates for surgical prior auth. clinIQ for orthopedic surgery."
+  },
+  "hero": {
+    "h1": "8 minutes off turnover = $250,000/year in OR capacity.",
+    "subhead": "Your block time costs the same whether you do 5 cases or 7. Every minute between cases is margin you can't recover. clinIQ shows turnover in real-time, syncs pre-op with OR readiness, and tracks surgical prior auth with LOMN templates."
+  },
+  "sections": [
+    {
+      "id": "turnover-revenue",
+      "h2": "OR turnover: 8 minutes saved = one more case per day",
+      "content": "You pay for 8 hours of block time whether you fill it or not. At $1,500/hour, that's $12,000/day.\n\nIndustry benchmark turnover: 25-35 minutes. High performers: 15-20 minutes.\n\nWhere's your time going?\n\nclinIQ tracks every turnover:\n\n• Patient out timestamp: 9:47am\n• Room ready timestamp: 10:02am (15 min turnover)\n• Next patient in timestamp: 10:11am (9 min delay — why?)\n• Bottleneck identified: Next patient wasn't in pre-op\n\nThe math: 5 turnovers/day × 8 minutes saved = 40 minutes/day = 166 hours/year.\n\nAt $1,500/hour OR cost, that's $250,000 in recovered capacity. Or 1-2 additional cases per week."
+    },
+    {
+      "id": "preop-sync",
+      "h2": "Pre-op to OR sync: Zero cases lost to 'patient not ready'",
+      "content": "Your OR is clean. Team is waiting. Where's the patient?\n\nStill in pre-op. Consent not signed. H&P missing. Anesthesia hasn't seen them.\n\nThe OR team is standing around at $50/minute combined labor cost.\n\nclinIQ syncs pre-op with OR:\n\n• OR status visible to pre-op: 'Room 1 finishing in 15 min — Smith, Thomas next'\n• Pre-op status visible to OR: 'Thomas in pre-op, consent ✓, H&P ✓, anesthesia pending'\n• Priority alert: 'Room 1 ready, next patient not cleared — escalate now'\n• Pre-op checklist: IV, consent, H&P, anesthesia eval — visible status for each\n\nWhen the OR is ready, the patient is ready. No standing around."
+    },
+    {
+      "id": "pacu-visibility",
+      "h2": "PACU visibility: No more OR blocked waiting for beds",
+      "content": "Surgery complete. No PACU bed. Patient stays in OR under anesthesia. Your room is blocked. Next case can't start.\n\nThat's not a PACU problem — it's an OR problem.\n\nclinIQ shows end-to-end:\n\n• PACU bed status: Available, occupied (time to discharge), blocked (waiting for floor)\n• Discharge bottlenecks: 'Bay 3 — waiting for transport. Bay 5 — waiting for floor bed.'\n• Bed availability prediction: 'Bay 1 expected open in 12 minutes'\n• OR visibility into PACU: Know before you finish if there's a bed\n\nYou can intervene on discharge bottlenecks before they block your OR."
+    },
+    {
+      "id": "surgical-preauth",
+      "h2": "Surgical prior auth + LOMN: No case canceled for paperwork",
+      "content": "Total hip scheduled for Thursday. Auth submitted two weeks ago. It's Monday — status 'in review.' Do you prep implants and hope? Delay and lose the slot?\n\nclinIQ Pre-Auth does this:\n\n• All pending auths sorted by surgery date\n• Red flag: 'Surgery in 5 days, auth pending >10 days — escalate now'\n• LOMN templates: Hip replacement, knee scope, rotator cuff, spine — auto-populated from patient chart\n• Peer-to-peer tracking: Scheduled, completed, outcome logged\n\nLOMN generation: Select procedure, select patient, generate letter. Prior imaging, conservative care, failed treatments — pulled from chart. Edit, sign, submit. 5 minutes instead of 30.\n\nNo case canceled because paperwork wasn't done."
+    },
+    {
+      "id": "surgical-board",
+      "h2": "Real-time surgical board: Everyone sees the same truth",
+      "content": "Your whiteboard shows what someone thought was true an hour ago. Room 2 is listed as 'in case' but they finished 20 minutes ago.\n\nclinIQ Surgical Board:\n\n• Each room: Current case, status (prepping/in case/closing), estimated time remaining\n• Next case: Patient name, procedure, pre-op status\n• Turnover status: Room available, turning over, ready for next patient\n• Auto-updating: No one maintains it. It maintains itself.\n\nCharge nurse sees everything. OR director sees trends. Everyone sees the same board."
+    },
+    {
+      "id": "implementation",
+      "h2": "Live in your OR without disrupting surgery",
+      "content": "We're not touching your surgical equipment. We're not interfacing with anesthesia machines. We're tracking patient status and room status — where people are, who knows, who needs to know.\n\nWeek 1: Map your flow. Pre-op, OR handoff, PACU phases, discharge.\n\nWeek 2: Training. Pre-op nurses, OR charge, PACU charge. Each role sees their view.\n\nWeek 3: Go live. Real-time surgical board. Pre-op/OR sync. PACU visibility.\n\nWeek 4: Turnover data accumulating. You see your baseline. You identify improvement targets."
+    }
+  ],
+  "workflow": {
+    "stages": ["CHECKED IN", "PRE-OP INTAKE", "ANESTHESIA EVAL", "READY FOR OR", "IN OR", "PACU PHASE 1", "PACU PHASE 2", "DISCHARGE"],
+    "note": "Inpatient cases skip Phase 2. MAC cases may skip Phase 1. Flow adapts to case type."
+  },
+  "features": ["patient-flow", "pre-auth", "analytics", "scheduling"],
+  "pricing": {
+    "show": true,
+    "starter": "$249/month — Basic surgical tracking. One facility.",
+    "professional": "$499/month — Everything. Turnover analytics, LOMN templates, PACU visibility, multi-facility.",
+    "implementation": "$750 one-time — Surgical workflow mapping, configuration, training.",
+    "integration": "Custom quote — Surgical scheduling system integrations."
+  },
+  "faqs": [
+    {
+      "q": "How do you track turnover time?",
+      "a": "Automatically. Patient out → timestamp. Room ready → timestamp. Next patient in → timestamp. Turnover = the gap. No manual tracking required."
+    },
+    {
+      "q": "Does this integrate with our surgical scheduling?",
+      "a": "We import your schedule — patients, procedures, rooms, surgeons. Status tracking overlays on your existing schedule. No duplicate entry."
+    },
+    {
+      "q": "Can pre-op see OR status?",
+      "a": "Yes. 'Room 1 finishing in 15 minutes — next patient is Thomas.' Pre-op prioritizes accordingly. No more OR waiting for patients who aren't ready."
+    },
+    {
+      "q": "Do you generate letters of medical necessity for surgery?",
+      "a": "Yes. LOMN templates for common orthopedic procedures. Auto-populated from patient chart — imaging, conservative care, failed treatments. Edit, sign, submit."
+    },
+    {
+      "q": "How do you handle same-day vs inpatient?",
+      "a": "Different discharge flows, same tracking. Same-day goes through Phase 2 to home. Inpatient goes from PACU to floor. Both visible."
+    }
+  ],
+  "cta": {
+    "headline": "See your OR turnover — and fix it",
+    "subhead": "15-minute demo. Turnover tracking, pre-op/OR sync, PACU visibility, surgical prior auth with LOMN.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate Turnover ROI", "href": "/resources/or-turnover-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "8 min", "label": "average turnover reduction" },
+      { "value": "$250K", "label": "annual capacity recovered" },
+      { "value": "Zero", "label": "cases lost to pre-op delays" }
+    ],
+    "testimonial": {
+      "quote": "We thought our turnovers were 25 minutes. They were 38. Painful to see, but now we're actually at 24. That's 2 extra cases per week.",
+      "attribution": "Director of Surgical Services, ASC",
+      "location": "Arizona"
+    }
+  },
+  "resource": {
+    "title": "OR Turnover Optimization Guide",
+    "description": "Measure your turnover. Identify bottlenecks. Calculate ROI. LOMN templates included.",
+    "href": "/resources/or-turnover-guide"
+  }
+}
+,
+{
+  "slug": "dermatology",
+  "name": "Dermatology",
+  "meta": {
+    "title": "Dermatology Practice Software | Mohs Tracking & Medical/Cosmetic Flow | clinIQ",
+    "description": "25% faster Mohs turnover. Zero biopsy results lost to follow-up gaps. Medical and cosmetic in one system. clinIQ for dermatology."
+  },
+  "hero": {
+    "h1": "25% faster Mohs days. Zero biopsy results in limbo.",
+    "subhead": "Your Mohs patients wait hours for path results. Your cosmetic patients expect spa-level service. Your biopsies need bulletproof follow-up. clinIQ handles all three workflows — medical, cosmetic, Mohs — in one system."
+  },
+  "sections": [
+    {
+      "id": "mohs-efficiency",
+      "h2": "Mohs efficiency: 25% faster stage-to-stage",
+      "content": "Mohs isn't a procedure — it's a campaign. Patient arrives 7am. Stage 1. Lab processes. Wait. Clear? Done. Not clear? Stage 2. More waiting.\n\nWhere's the time going?\n\nclinIQ tracks Mohs flow:\n\n• Stage 1 complete — tissue in lab (timestamp)\n• Lab processing — estimated 45 min remaining\n• Results ready — margins positive — Stage 2 required\n• Patient notified — returning to procedure room\n\nSurgeon sees when results are ready without asking. Nurse knows which room to prep. Patient knows what's happening during the 90-minute wait.\n\nThe math: 6 Mohs patients × 25% faster stage transitions = 1-2 hours saved per Mohs day. That's capacity for one more patient or staff leaving on time."
+    },
+    {
+      "id": "biopsy-tracking",
+      "h2": "Biopsy tracking: Zero results lost to follow-up gaps",
+      "content": "Biopsy Tuesday. Path takes 5-7 days. Results come back: melanoma in situ.\n\nDoes the patient get called? By whom? When? Is it documented?\n\nIn a perfect world, there's a system. In reality, results arrive in a pile. Someone reviews them. Sometimes it takes a week. Sometimes results fall through the cracks.\n\nWith melanoma, 'fell through the cracks' is a malpractice case.\n\nclinIQ Biopsy Tracking:\n\n• Biopsy performed — pending path\n• Results received — requires review\n• Reviewed by Dr. X — patient contact required\n• Patient contacted — follow-up scheduled for 3/15\n• Documented: Called at 2:15pm, discussed findings, scheduled excision\n\nAging report: Any biopsy without patient contact flagged. No results sitting in a pile."
+    },
+    {
+      "id": "cosmetic-experience",
+      "h2": "Cosmetic flow: Spa experience, not medical waiting room",
+      "content": "Your Botox patient is paying $600 cash. They're not a patient — they're a client. They don't want to sit with sick people or fill out insurance forms.\n\nclinIQ separates cosmetic flow:\n\n• Private check-in: No forms visible to medical patients\n• Direct to treatment room: Skip the waiting room when possible\n• Text when ready: 'We're ready for you in the cosmetic suite'\n• Cosmetic queue: Separate from medical — different expectations, different service level\n\nMedical workflow handles insurance, vitals, provider visits. Cosmetic workflow handles consult, financial, treatment, aftercare, retail.\n\nSame system. Different experiences."
+    },
+    {
+      "id": "room-turnover",
+      "h2": "Procedure room visibility: No more hunting for open rooms",
+      "content": "Mohs suite, cosmetic treatment rooms, phototherapy room — each has different turnover requirements.\n\nYour providers walk the hall looking for open rooms. Your MAs don't know which room to prep next.\n\nclinIQ Room Status:\n\n• Mohs Room 1: Patient in — Stage 2 in progress\n• Mohs Room 2: Turning over — ready in 5 min\n• Cosmetic 1: Available — prepped for filler\n• Cosmetic 2: Patient in — Botox, 10 min remaining\n• Photo: Available\n\nEveryone sees the same board. No hunting. No double-booking."
+    },
+    {
+      "id": "multi-workflow",
+      "h2": "Three workflows, one system",
+      "content": "Medical derm: Insurance, prior auths for biologics, chronic condition follow-ups.\n\nCosmetic derm: Cash pay, no auths, spa-level expectations.\n\nMohs: Multi-stage procedures, path lab coordination, variable duration.\n\nclinIQ handles all three:\n\n• Each patient tagged with workflow type\n• Each workflow has its own stages\n• Dashboard shows everyone in context\n• Analytics separated: Medical throughput ≠ cosmetic conversion ≠ Mohs efficiency\n\nMorning view: 3 medical patients in various stages. 2 cosmetic consults. 4 Mohs patients across stages 1-3. All visible. Nothing lost."
+    },
+    {
+      "id": "implementation",
+      "h2": "Configured for derm complexity",
+      "content": "We don't hand you a primary care template. Dermatology runs multiple businesses in one practice.\n\nWeek 1: Map every workflow. Medical, cosmetic, Mohs, phototherapy, patch testing. Each gets its own flow.\n\nWeek 2: Training by role. Front desk learns workflow-specific check-in. MAs learn room status. Providers see their queue.\n\nWeek 3: Live. All workflows running. Mohs tracking active. Biopsy follow-up capturing.\n\nWeek 4: Adjustments. Which workflows need tweaking? Which transitions are slow? Data-driven refinement."
+    }
+  ],
+  "workflow": {
+    "stages": ["CHECK-IN", "VITALS", "WAITING", "WITH PROVIDER", "PROCEDURE", "PATH PENDING", "CHECKOUT"],
+    "note": "Stages vary by workflow. Mohs has path loops. Cosmetic skips vitals. System adapts."
+  },
+  "features": ["patient-flow", "scheduling", "check-in", "analytics"],
+  "pricing": {
+    "show": true,
+    "starter": "$249/month — Single workflow type, basic patient flow.",
+    "professional": "$499/month — Multiple workflows (medical/cosmetic/Mohs), biopsy tracking, full analytics.",
+    "implementation": "$750 one-time — Multi-workflow mapping, configuration, training.",
+    "integration": "Custom quote — Modernizing Medicine and other derm EHR integrations."
+  },
+  "faqs": [
+    {
+      "q": "Can we track Mohs patients through multiple stages?",
+      "a": "Yes. Each Mohs patient shows current stage: excision, path pending, results in, next stage, or closure. Lab ETA visible. Everyone sees the same status."
+    },
+    {
+      "q": "How does biopsy tracking prevent lost results?",
+      "a": "Every biopsy tracked from performed → results received → reviewed → patient contacted → follow-up scheduled. Aging report flags any without patient contact."
+    },
+    {
+      "q": "Can cosmetic patients check in separately?",
+      "a": "Yes. Different check-in flow. Private area or direct text. Skip the medical waiting room. Different experience for different service."
+    },
+    {
+      "q": "How do you handle different visit types in analytics?",
+      "a": "Medical, cosmetic, and Mohs metrics tracked separately. Medical throughput. Cosmetic conversion rate. Mohs stage efficiency. Different businesses, different metrics."
+    },
+    {
+      "q": "What about phototherapy tracking?",
+      "a": "Phototherapy is its own workflow — session scheduling, treatment tracking, protocol adherence. Simpler than Mohs, more structured than clinic visits."
+    }
+  ],
+  "cta": {
+    "headline": "See every workflow in one system",
+    "subhead": "15-minute demo. Mohs tracking, biopsy follow-up, cosmetic flow, medical operations — all in one.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "See Multi-Workflow Demo", "href": "/resources/derm-workflow-demo" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "25%", "label": "faster Mohs stage transitions" },
+      { "value": "Zero", "label": "biopsy results lost to follow-up gaps" },
+      { "value": "3", "label": "workflows managed in one system" }
+    ],
+    "testimonial": {
+      "quote": "We were running medical and cosmetic like two separate practices. Mohs was its own chaos. Now we see everything in one dashboard.",
+      "attribution": "Practice Administrator, Dermatology Group",
+      "location": "New Jersey"
+    }
+  },
+  "resource": {
+    "title": "Dermatology Multi-Workflow Setup Guide",
+    "description": "Map your medical, cosmetic, and Mohs workflows. Biopsy tracking templates. Room status configuration.",
+    "href": "/resources/derm-workflow-guide"
+  }
+}
+,
+{
+  "slug": "cardiology",
+  "name": "Cardiology",
+  "meta": {
+    "title": "Cardiology Practice Software | Testing Suite Flow & Cardiac RTM | clinIQ",
+    "description": "40% fewer 'where's my patient?' interruptions. $10,400/month in cardiac RTM. Real-time testing suite visibility. clinIQ for cardiology practices."
+  },
+  "hero": {
+    "h1": "$10,400/month in cardiac RTM. Testing and clinic finally in sync.",
+    "subhead": "Your CHF patients are already sending you weight and BP data. Your stress tests and echos back up without warning. Your cardiologists interrupt constantly asking 'is my patient ready?' clinIQ turns monitoring into revenue and testing chaos into visibility."
+  },
+  "sections": [
+    {
+      "id": "rtm-revenue",
+      "h2": "Cardiac RTM: $130/patient/month you're not billing",
+      "content": "Your CHF patients weigh themselves daily. Your arrhythmia patients track symptoms. Your post-MI patients report chest pain or activity changes.\n\nThat's Remote Therapeutic Monitoring. CPT 98980 and 98981.\n\nclinIQ RTM does this:\n\n• Patient app: Weight, BP, symptoms, medication adherence — simple daily logging\n• Alert thresholds: Weight up 3 lbs in 2 days? BP spike? Alert triggers before crisis.\n• Nurse dashboard: Who needs intervention? Who's stable? Who hasn't logged in 3 days?\n• Automatic time tracking: Every review counts toward 20-minute billing threshold\n\nThe math: 80 CHF/cardiac patients × $130/month = $10,400/month.\n\nYour nurses are already fielding calls. 'My weight is up.' 'I'm having palpitations.' Now those calls are documented and billable."
+    },
+    {
+      "id": "testing-visibility",
+      "h2": "Testing suite visibility: No more black box",
+      "content": "Patient checks in for a stress test. They walk back. Then what?\n\nYour front desk doesn't know. Your cardiologist doesn't know. Is the patient prepping? On the treadmill? In recovery? Having a concerning finding?\n\nclinIQ Testing Suite View:\n\n• PREPPING — leads being placed, 3 min in\n• ACTIVE TEST — stress test in progress, 8 minutes\n• RECOVERY — post-stress monitoring, 4 min remaining\n• PENDING READ — test complete, awaiting interpretation\n• READ COMPLETE — results in chart\n\nThe cardiologist sees 'stress results ready' without asking. Front desk sees 'patient in recovery' and can update the family. No walking back to check. No interruptions."
+    },
+    {
+      "id": "echo-queue",
+      "h2": "Echo queue management: See the backup before it cascades",
+      "content": "Your sonographer has 8 echos scheduled. Two are 'limited,' six are 'complete.' The schedule shows 30-minute slots for all of them.\n\nBut a complete echo on an obese patient with poor windows takes 45 minutes. By 11am, you're two patients behind.\n\nclinIQ Echo Queue:\n\n• Current patient: Johnson, complete echo, started 10:23, running long\n• Queue: 3 waiting (Williams 25 min, Chen 15 min, Adams just arrived)\n• Alert: 'Echo running 15 min over — clinic patients waiting for echo will be delayed'\n\nNow you can act. Pull in a second sonographer. Notify clinic. Adjust expectations. Make decisions with information."
+    },
+    {
+      "id": "same-day-availability",
+      "h2": "Same-day add-ons: Instant availability check",
+      "content": "Clinic patient's EKG shows new A-fib. They need an echo before they leave. Today.\n\nCan you fit them in? Your cardiologist asks the MA. MA asks front desk. Front desk walks back to ask the sonographer. Ten minutes later: 'Maybe, if Mrs. Williams finishes on time.'\n\nclinIQ shows real-time availability:\n\n• Echo: Next available 2:15pm (current patient ending ~2:00pm)\n• EKG: Available now\n• Stress: Booked until 4pm\n\nCardiologist sees the answer instantly. Makes the decision. Tells the patient. No telephone game."
+    },
+    {
+      "id": "reading-queue",
+      "h2": "Reading queue visibility: Oldest studies surface automatically",
+      "content": "Stress tests pending read. Echos pending read. Holters pending read. Event monitors pending read.\n\nHow old is the oldest? Which ones are urgent? Your cardiologist doesn't know until they dig through the pile.\n\nclinIQ Reading Queue:\n\n• Stress tests pending: 2 (oldest: 45 min)\n• Echos pending: 4 (oldest: 2 hours)\n• Holters pending: 7 (oldest: 1 day)\n• Flagged urgent: 1 (stress test with concerning findings)\n\nUrgent studies surface. Old studies don't age in a pile. Cardiologist sees what needs attention first."
+    },
+    {
+      "id": "implementation",
+      "h2": "Configured for multi-modality cardiology",
+      "content": "Your practice runs 5-6 workflows simultaneously. Clinic, stress tests, echos, Holters, device interrogations. We configure for that complexity.\n\nWeek 1: Map every modality. Clinic flow, stress test flow, echo queue, device clinic. Each gets its own status view.\n\nWeek 2: Training by role. Sonographers see echo queue. Stress tech sees stress schedule. Cardiologists see reading queue and clinic.\n\nWeek 3: Live. Testing suite visible. Reading queue active. Clinic integrated with testing.\n\nWeek 4: Data accumulating. Which modalities back up? Which transitions are slow? Optimization begins."
+    }
+  ],
+  "workflow": {
+    "stages": ["CHECKED IN", "EKG", "WAITING", "TESTING", "PENDING READ", "WITH PROVIDER", "CHECKOUT"],
+    "note": "Patients may hit multiple testing stages before provider. Device patients have separate flow with abnormal flags."
+  },
+  "features": ["patient-flow", "rtm", "scheduling", "analytics"],
+  "pricing": {
+    "show": true,
+    "starter": "$249/month — Clinic patient flow, basic analytics.",
+    "professional": "$499/month — Full multi-modality tracking, RTM, reading queues, testing suite visibility.",
+    "implementation": "$750 one-time — Multi-modality workflow mapping, configuration, training.",
+    "integration": "Custom quote — Cardiac EHR and device vendor integrations."
+  },
+  "faqs": [
+    {
+      "q": "Can we track testing and clinic separately?",
+      "a": "Yes. Testing suite has its own view — stress room, echo room, EKG. Clinic has standard patient flow. Both visible to relevant staff. Integrated where they overlap."
+    },
+    {
+      "q": "How does cardiac RTM work?",
+      "a": "Patients log weight, BP, symptoms daily via app. Data syncs to clinIQ. Alerts for concerning trends. Nurse reviews count toward billing threshold. CPT 98980/98981."
+    },
+    {
+      "q": "How do you handle device interrogations?",
+      "a": "Device clinic has its own workflow. Interrogation in progress, normal/abnormal flag, programming adjustment, complete. Abnormal flags alert physician immediately."
+    },
+    {
+      "q": "Can cardiologists see their reading queue?",
+      "a": "Yes. Each study type has its own queue — stress, echo, Holter. Studies show time pending. Oldest and urgent surface to top."
+    },
+    {
+      "q": "What about remote device monitoring?",
+      "a": "We track when remote interrogations arrive and need review. Actual device data stays in your vendor's system — we track the workflow."
+    }
+  ],
+  "cta": {
+    "headline": "See your testing suite and RTM revenue",
+    "subhead": "15-minute demo. Multi-modality tracking, cardiac RTM, reading queues, testing/clinic integration.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate Cardiac RTM Revenue", "href": "/resources/rtm-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "$10.4K", "label": "monthly cardiac RTM revenue (80 patients)" },
+      { "value": "40%", "label": "fewer 'where's my patient?' interruptions" },
+      { "value": "5+", "label": "modalities tracked in one system" }
+    ],
+    "testimonial": {
+      "quote": "Our cardiologists were constantly interrupting about stress results and echo status. Now they look at their screen. Clinic runs 30 minutes faster.",
+      "attribution": "Practice Manager, Cardiology Associates",
+      "location": "Ohio"
+    }
+  },
+  "resource": {
+    "title": "Cardiac Multi-Modality Setup Guide",
+    "description": "Map your clinic, testing, and device workflows. RTM enrollment templates. Reading queue configuration.",
+    "href": "/resources/cardiology-setup-guide"
+  }
+}
+,
+{
+  "slug": "primary-care",
+  "name": "Primary Care",
+  "meta": {
+    "title": "Primary Care Software | CCM Revenue, RTM & Same-Day Access | clinIQ",
+    "description": "$6,200/month in CCM. $7,200/month in RTM. Same-day access through better flow, not more slots. clinIQ for primary care."
+  },
+  "hero": {
+    "h1": "$13,400/month in CCM + RTM. Same-day access without more slots.",
+    "subhead": "Your chronic care patients already require 20+ minutes of monthly coordination — that's billable CCM. Your diabetics and hypertensives already send data between visits — that's billable RTM. Your same-day access problem isn't slots — it's running behind. clinIQ fixes all three."
+  },
+  "sections": [
+    {
+      "id": "ccm-revenue",
+      "h2": "CCM revenue: $62/patient/month you're leaving on the table",
+      "content": "Chronic Care Management: CPT 99490, 99491. Billable for patients with 2+ chronic conditions and 20+ minutes of monthly care coordination.\n\nYou have hundreds of CCM-eligible patients. You bill for almost none of them.\n\nWhy? Tracking 20 minutes across phone calls, refills, referrals, and messages is impossible. Your nurses do the work. Nobody documents it.\n\nclinIQ CCM Tracking:\n\n• Time capture: Refill call logged — 4 min. Care coordination with specialist — 8 min. Patient education — 6 min.\n• Monthly threshold: 'Patient at 18 min — 2 min to billing threshold'\n• Eligible patient list: Who qualifies? Who's close to threshold? Who needs a care touch?\n• Documentation: Clean records that support billing\n\nThe math: 100 patients × $62/month = $6,200/month.\n\nThat's not new work. That's billing for coordination you're already doing."
+    },
+    {
+      "id": "rtm-revenue",
+      "h2": "Chronic disease RTM: $120/patient/month for data you're already getting",
+      "content": "Your diabetics should check glucose. Your hypertensives should check BP. They're supposed to. You find out they didn't when they show up with A1c of 10 or BP of 180/100.\n\nclinIQ RTM:\n\n• Patient app: Glucose, BP, weight, symptoms — simple daily logging\n• Alert thresholds: BP >160? Glucose >300? Alert before the crisis.\n• Provider dashboard: Who's logging? Who's not? Who needs intervention?\n• Automatic time tracking: Reviews count toward 20-minute billing threshold\n\nCPT 98980, 98981. Remote Therapeutic Monitoring.\n\nThe math: 60 chronic patients × $120/month = $7,200/month.\n\nCCM + RTM combined: $13,400/month in new revenue from existing patients."
+    },
+    {
+      "id": "same-day-access",
+      "h2": "Same-day access: Better flow, not more slots",
+      "content": "You promise same-day appointments. Those slots are gone by 9:30am. By 2pm, you're telling patients 'we can see you Thursday.'\n\nThe problem isn't slots. The problem is you're running 30 minutes behind by 10am. You can't absorb same-day patients when you're already underwater.\n\nclinIQ Flow Visibility:\n\n• Running behind alert: 'Dr. Smith 22 minutes behind schedule' — visible at 10am, not discovered at 2pm\n• Same-day capacity: 'Dr. Smith has capacity for 1 more same-day. Dr. Jones: 0.'\n• Proactive adjustment: Stop adding same-day patients when behind. Catch up. Then absorb.\n\nSame-day access isn't a scheduling feature. It's a flow problem. Fix the flow, get the capacity."
+    },
+    {
+      "id": "visit-timing",
+      "h2": "Visit timing visibility: Know when 15 minutes becomes 25",
+      "content": "Your schedule says '15-minute follow-up.' Your patient brought a list: blood pressure, back pain, depression screen, referral question, medication refill, and 'one more thing.'\n\nEvery 15-minute slot is a lottery ticket.\n\nclinIQ Timing:\n\n• Current visit timer: 'Patient with provider 18 minutes (scheduled 15)'\n• Running-long alert: Triggers at threshold you set\n• Pattern recognition: Which visit types consistently run long? Data for schedule template changes.\n\nYou can't fix visit complexity. But you can see it happening. Adjust in real-time instead of discovering you're an hour behind at 2pm."
+    },
+    {
+      "id": "awv-efficiency",
+      "h2": "AWV optimization: $175 in 30 minutes, not 45",
+      "content": "Annual Wellness Visit: $175+ reimbursement. But 'while I'm here...' turns your 30-minute AWV into 45 minutes with zero additional revenue.\n\nThe problem: HRA done in the room. Screenings not routed. Provider doing data gathering instead of care planning.\n\nclinIQ AWV Flow:\n\n• HRA pre-visit: Completed via patient portal or arrival kiosk before appointment\n• Screenings routed: Depression screen, fall risk, cognitive — routed to MA based on HRA results\n• Provider focus: Patient arrives with HRA and screenings complete. Provider does care plan, not data entry.\n\n30-minute AWV actually takes 30 minutes. Provider throughput improves. Same revenue, less time."
+    },
+    {
+      "id": "implementation",
+      "h2": "Built for the reality of primary care",
+      "content": "We don't pretend your 15-minute slots are actually 15 minutes. We configure for primary care as it actually runs.\n\nWeek 1: Map your flow. Check-in, rooming, MA workflow, provider time, checkout. CCM-eligible patient identification.\n\nWeek 2: Training. MAs learn status updates. Providers learn queue view. Billing staff learn CCM/RTM documentation.\n\nWeek 3: Live. Flow visibility active. RTM enrollment starting. CCM time capture running.\n\nWeek 4: Revenue appearing. You see your baseline. You see where time goes. Optimization begins."
+    }
+  ],
+  "workflow": {
+    "stages": ["CHECKED IN", "ROOMED", "WITH MA", "READY FOR PROVIDER", "WITH PROVIDER", "CHECKOUT"],
+    "note": "Simple flow. Complex timing. The value is visibility into how long each stage takes."
+  },
+  "features": ["patient-flow", "rtm", "check-in", "scheduling", "analytics"],
+  "pricing": {
+    "show": true,
+    "starter": "$249/month — Patient flow, check-in, basic analytics.",
+    "professional": "$499/month — Everything. RTM, CCM tracking, AWV workflow, multi-provider analytics.",
+    "implementation": "$750 one-time — Primary care workflow mapping, configuration, training.",
+    "integration": "Custom quote — Primary care EHR integrations."
+  },
+  "faqs": [
+    {
+      "q": "How does CCM time tracking work?",
+      "a": "Staff logs care coordination activities — calls, refills, referrals, messages. Time accumulates toward 20-minute threshold. Monthly billing eligibility visible per patient."
+    },
+    {
+      "q": "Is chronic disease RTM billable in primary care?",
+      "a": "Yes. CPT 98980/98981. Patient-reported BP, glucose, weight, symptoms — reviewed by clinical staff. Treatment decisions informed by data. Billable monthly."
+    },
+    {
+      "q": "How does this help same-day access?",
+      "a": "You see when you're running behind. You stop adding same-day patients when underwater. You catch up. Same-day access is a flow problem, not a slot problem."
+    },
+    {
+      "q": "Can we optimize AWV throughput?",
+      "a": "Yes. HRA before visit, screenings routed to MA, provider focuses on care plan. 30-minute AWV actually takes 30 minutes."
+    },
+    {
+      "q": "This seems simple. Why software?",
+      "a": "The flow is simple. The timing isn't. Knowing you're 25 minutes behind at 10am lets you intervene before 2pm meltdown. Visibility is the value."
+    }
+  ],
+  "cta": {
+    "headline": "See the CCM and RTM revenue you're missing",
+    "subhead": "15-minute demo. CCM time tracking, chronic disease RTM, flow visibility, AWV optimization.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate CCM + RTM Revenue", "href": "/resources/ccm-rtm-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "$13.4K", "label": "monthly CCM + RTM revenue" },
+      { "value": "15%", "label": "improvement in same-day access" },
+      { "value": "18 min", "label": "average wait time reduction" }
+    ],
+    "testimonial": {
+      "quote": "We were leaving $8K/month on the table in CCM alone. Add RTM and it's over $12K. The software paid for itself in week one.",
+      "attribution": "Medical Director, Family Medicine",
+      "location": "Colorado"
+    }
+  },
+  "resource": {
+    "title": "CCM + RTM Revenue Guide for Primary Care",
+    "description": "Identify eligible patients. Set up time tracking. Enroll for RTM. Calculate your revenue opportunity.",
+    "href": "/resources/ccm-rtm-primary-care-guide"
+  }
+}
+]
