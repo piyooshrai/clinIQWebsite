@@ -1,0 +1,155 @@
+{
+  "slug": "urgent-care",
+  "name": "Urgent Care",
+  "pageType": "pillar",
+  "wordCount": 3000,
+  "meta": {
+    "title": "Urgent Care Software | Door-to-Door Time & LWBS Reduction | clinIQ",
+    "description": "Complete guide to urgent care operations. Reduce door-to-door time by 20%. Cut LWBS rate in half. Real-time patient flow visibility. Wait time communication that keeps patients.",
+    "keywords": ["urgent care software", "urgent care patient flow", "LWBS reduction", "door to door time urgent care", "urgent care wait time management"]
+  },
+  "hero": {
+    "h1": "Urgent Care Software",
+    "subhead": "Every patient who leaves without being seen is $150-300 walking out your door. Every minute of door-to-door time beyond 60 minutes increases LWBS risk. clinIQ gives you real-time visibility into patient flow, wait times, and bottlenecks — so you can intervene before patients leave.",
+    "stats": [
+      { "value": "50%", "label": "reduction in LWBS rate" },
+      { "value": "20%", "label": "faster door-to-door time" },
+      { "value": "Real-time", "label": "wait time visibility" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "urgent-care-economics", "title": "The Urgent Care Economics Problem" },
+    { "id": "lwbs-reduction", "title": "LWBS Reduction Strategies" },
+    { "id": "door-to-door", "title": "Door-to-Door Time Optimization" },
+    { "id": "wait-time-communication", "title": "Wait Time Communication" },
+    { "id": "patient-flow", "title": "Real-Time Patient Flow" },
+    { "id": "provider-efficiency", "title": "Provider Efficiency" },
+    { "id": "implementation", "title": "Implementation & ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "urgent-care-economics",
+      "h2": "The Urgent Care Economics Problem",
+      "content": "Urgent care economics are simple: more patients seen equals more revenue. The average urgent care visit generates $150-200 in revenue. A center seeing 50 patients per day generates $7,500-10,000 daily. Seeing 60 patients generates $9,000-12,000.\n\nThe constraint isn't usually demand — most urgent cares have more patients wanting to be seen than they can handle efficiently. The constraint is throughput.\n\nWhere patients get lost:\n\nLWBS (Left Without Being Seen): National LWBS rates run 2-5% for urgent care. At 50 patients/day with a 4% LWBS rate, you're losing 2 patients daily — $300-400/day, $100,000+ annually.\n\nDoor-to-door time: The longer patients wait, the more likely they leave. At 45-minute average, LWBS is minimal. At 90-minute average, LWBS spikes. Every minute matters.\n\nBottlenecks: Triage backs up. Rooms sit empty while patients wait in lobby. Provider finishes but patient isn't discharged for 20 minutes. Nobody sees the bottleneck until the waiting room is full.\n\nThe fix isn't working faster — it's seeing the flow. When you can see where patients are, how long they've been there, and where the bottleneck is forming, you can intervene. Without visibility, you're reacting to problems after they've cost you patients."
+    },
+    {
+      "id": "lwbs-reduction",
+      "h2": "LWBS Reduction: Keep Patients Until They're Seen",
+      "content": "Patients leave without being seen for one reason: they decide the wait isn't worth it. That decision happens when:\n\nWait time is too long relative to perceived urgency. A patient with a minor complaint won't wait 2 hours. A patient with a concerning symptom will.\n\nWait time is unknown. Uncertainty amplifies dissatisfaction. 'I don't know how long this will take' feels worse than 'It'll be about 45 minutes.'\n\nWait time communication is poor. Patient was told 30 minutes, it's been 60, and nobody has updated them.\n\n**LWBS reduction strategies:**\n\n1. Visible wait time estimation: Know how long patients will actually wait. Display it. Update it. Don't promise 20 minutes when you're running 60.\n\n2. Proactive communication: When waits extend, communicate before patients get frustrated. 'We're running about 15 minutes behind our estimate' preserves trust.\n\n3. Triage-based priority: Patients with higher acuity are seen first. Patients with lower acuity who've been waiting longest get escalated. The system balances urgency and fairness.\n\n4. Early intervention for long-wait patients: Patient has been waiting 45 minutes? Flag for check-in: 'Still doing okay? We appreciate your patience.' Acknowledgment reduces walkouts.\n\n5. Queue transparency: Some urgent cares show anonymized queue position: 'You are #4 in line.' Certainty reduces frustration.\n\n**What clinIQ does for LWBS:**\n\nWait time tracking: Every patient's wait time visible from check-in. Color-coded alerts: green (<30 min), yellow (30-60 min), red (>60 min).\n\nLWBS prediction: Patients at high risk of leaving (long wait, low acuity, no recent communication) flagged for proactive outreach.\n\nLWBS documentation: When patients do leave, time of departure, wait duration, and any staff interaction documented. This data identifies patterns.\n\nLWBS analytics: LWBS rate by hour, by day, by provider. When does LWBS spike? What predicts it? Data drives improvement."
+    },
+    {
+      "id": "door-to-door",
+      "h2": "Door-to-Door Time Optimization",
+      "content": "Door-to-door time — from patient arrival to patient departure — is the core efficiency metric for urgent care. Faster door-to-door means more patients seen, lower LWBS, and better patient satisfaction.\n\n**Where time goes in a typical urgent care visit:**\n\nWaiting for triage: 5-15 minutes\nTriage: 5-10 minutes\nWaiting for room: 10-30 minutes\nIn room waiting for provider: 5-20 minutes\nProvider encounter: 10-20 minutes\nWaiting for discharge: 5-15 minutes\nDischarge/checkout: 5-10 minutes\n\nTotal: 45-120 minutes, depending on efficiency and volume.\n\n**Where time gets wasted:**\n\nRoom available but patient not called: Room 3 is empty and clean. Patient is in lobby waiting. Nobody connected the two. Room sits empty for 10 minutes.\n\nProvider ready but patient not in room: Provider finished with last patient. Next patient hasn't been roomed yet. Provider waits.\n\nPatient ready for discharge but not discharged: Provider completed encounter. Orders placed. But discharge instructions, prescriptions, and checkout take another 15 minutes while patient waits.\n\nTriage bottleneck: Three patients arrive at once. Triage can handle one at a time. Two wait while the third is triaged, even if rooms are available.\n\n**What clinIQ does for door-to-door time:**\n\nStage visibility: Every patient's current stage visible: Waiting → Triage → Waiting for Room → In Room → With Provider → Discharge Pending → Discharged.\n\nTime-at-stage tracking: Patient has been 'Waiting for Room' for 12 minutes. Room 2 has been 'Ready' for 8 minutes. Mismatch visible — intervention possible.\n\nBottleneck detection: 'Triage backed up: 4 patients waiting' appears when triage falls behind. 'Discharge backed up: 3 patients waiting' appears when that's the bottleneck.\n\nRoom status: Available, Occupied, Turnover. Staff can see which rooms are ready without walking the hall.\n\nProvider queue: Provider sees who's ready for them — no asking 'who's next?' or waiting for someone to tell them."
+    },
+    {
+      "id": "wait-time-communication",
+      "h2": "Wait Time Communication",
+      "content": "Patients accept reasonable waits when they're communicated clearly. They don't accept uncertainty.\n\n**The communication problem:**\n\n'It'll be about 20 minutes' → 45 minutes later, patient is furious.\n\nNo communication at all → patient has no idea what to expect.\n\n'We're really busy today' → meaningless information that doesn't help.\n\n**What good wait time communication looks like:**\n\nAt arrival: 'Current wait time is approximately 35-45 minutes. We'll keep you updated.'\n\nDuring wait: 'We're running about 10 minutes behind our initial estimate. Thank you for your patience.'\n\nWhen ready: 'We're ready for you now.'\n\nIf plans change: 'A higher-acuity patient just arrived, so we need to see them first. We expect about 15 more minutes for you.'\n\n**What clinIQ does for wait time communication:**\n\nAccurate estimation: Wait time estimates based on current volume, staffing, and average visit duration — not guesses.\n\nPatient notification: Text updates to patients: 'You're next' or 'We're running about 15 minutes behind.'\n\nLobby display (optional): Anonymized queue display showing approximate wait time for newly arriving patients.\n\nStaff visibility: Staff can see estimated wait time for every patient and communicate proactively.\n\n**The accuracy problem:**\n\nWait time estimation is hard because urgent care is unpredictable. A complex patient extends times. A rush of arrivals backs up triage. Estimates must update dynamically.\n\nclinIQ's estimation accounts for:\n- Current patients in queue\n- Average visit duration by chief complaint\n- Current staffing level\n- Time of day patterns\n- Real-time adjustments as conditions change\n\nEstimates aren't perfect, but they're better than guesses — and they update automatically."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "Real-Time Patient Flow",
+      "content": "The core of urgent care operations is patient flow: moving patients through the visit efficiently without sacrificing quality.\n\n**The visibility problem:**\n\nWho's in the waiting room? How long have they been there? Who's in a room? What stage of their visit? Which rooms are available? Which providers are with patients? Which are ready for the next?\n\nIn most urgent cares, nobody has this complete picture. The front desk knows arrivals. The MA knows who they've roomed. The provider knows their current patient. Each person has partial information.\n\nResult: Coordination by shouting. 'Is Room 2 ready?' 'Who's next?' 'Did the patient in Room 4 leave?' Inefficiency compounds.\n\n**What clinIQ does for patient flow:**\n\nSingle-screen visibility: Every patient, every stage, every room, every provider — one view.\n\nWaiting room queue: Who's waiting, how long, acuity level, any special needs.\n\nRoom status: Which rooms available, occupied, or in turnover. No walking the hall to check.\n\nProvider status: Which provider is with a patient, which is ready for next, which is documenting.\n\nDischarge queue: Who's waiting for discharge, how long.\n\n**Role-specific views:**\n\nFront desk: Arrivals, waiting room, estimated wait times, LWBS risks.\n\nTriage: Patients waiting for triage, patients triaged but not roomed.\n\nMA: Patients to room, patients ready for provider, rooms status.\n\nProvider: Patients ready, patients in progress, patients to discharge.\n\nAll views update in real-time. No refreshing. No asking for updates."
+    },
+    {
+      "id": "provider-efficiency",
+      "h2": "Provider Efficiency",
+      "content": "Provider throughput determines urgent care capacity. A provider seeing 2.5 patients per hour handles 20 patients in an 8-hour shift. A provider seeing 3 patients per hour handles 24. That's 4 additional patients — $600-800/day.\n\n**What slows providers down:**\n\nHunting for information: 'Is my next patient ready?' 'What room are they in?' 'Did the x-ray come back?'\n\nWaiting for patients: Provider is ready but patient hasn't been roomed. Or patient is roomed but MA hasn't finished intake.\n\nDischarge bottleneck: Provider completes encounter but discharge process takes 15+ minutes.\n\nDocumentation burden: Charting takes as long as the encounter.\n\n**What clinIQ does for provider efficiency:**\n\nProvider queue: Provider sees their queue — who's ready, who's in progress, who needs results, who's ready for discharge. No hunting.\n\nRoom readiness: 'Room 3: Patient ready, vitals complete, chief complaint: ankle injury.' Provider knows exactly what they're walking into.\n\nResult integration: Lab and imaging results display when available. No switching systems to check.\n\nHandoff clarity: When patient is ready for discharge, it's visible to discharge staff immediately. No provider flagging down staff.\n\n**The throughput math:**\n\n10 minutes saved per patient × 20 patients = 200 minutes = 3+ additional patients.\n\n3 additional patients × $175 = $525/day additional revenue.\n\n$525/day × 300 operating days = $157,500/year per provider."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI Timeline",
+      "content": "Urgent care implementation is fast because the workflows are standardized. Patient arrives, gets triaged, gets roomed, sees provider, gets discharged. The stages are consistent.\n\n**Week 1: Configuration**\n\nWe configure clinIQ for your workflow: stages, room setup, provider assignments, discharge process. Check-in method configured (kiosk, front desk, or both).\n\n**Week 2: Training and Go-Live**\n\nStaff training by role — typically 1-2 hours. Front desk, triage, MAs, providers each learn their view. Go-live with clinIQ team on-site or virtual.\n\n**Week 3 and Beyond**\n\nReal-time flow visibility active. Wait time communication enabled. LWBS tracking running.\n\n**ROI Timeline:**\n\nWeek 1 post-launch: Staff adjusting to new visibility. Early bottleneck identification.\n\nMonth 1: Wait time communication improving patient satisfaction. Early LWBS reduction visible.\n\nMonth 3: Door-to-door time reduction measurable. LWBS rate at new baseline. Throughput improvement visible.\n\n**ROI Math:**\n\nLWBS reduction: 4% LWBS rate to 2% = 1 additional patient/day retained × $175 = $175/day = $52,500/year.\n\nThroughput improvement: 2 additional patients/day × $175 = $350/day = $105,000/year.\n\nCombined conservative estimate: $100,000-150,000/year additional revenue.\n\n**Investment:**\n\nProfessional: $499/month — Full suite including patient flow, wait time management, analytics\n\nImplementation: $750 one-time — Configuration, training, go-live support\n\nMulti-site: Volume pricing available for urgent care groups"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do you estimate wait times?",
+      "a": "Algorithm considers current queue depth, average visit duration by complaint type, current staffing, and real-time conditions. Estimates update dynamically as conditions change. Not perfect, but much better than staff guesses."
+    },
+    {
+      "q": "Can patients receive text updates about their wait?",
+      "a": "Yes. Patients can receive automated texts: 'You're next,' 'We're running about X minutes behind,' etc. Reduces uncertainty without requiring staff to manually update each patient."
+    },
+    {
+      "q": "How do you identify LWBS risk?",
+      "a": "Factors include: wait duration, acuity level, recent communication (or lack thereof), time of day, and patient-specific patterns if available. High-risk patients flagged for proactive staff check-in."
+    },
+    {
+      "q": "Does this work with our existing check-in process?",
+      "a": "Yes. Works with front desk check-in, kiosk check-in, or hybrid. Can also support online arrival (patient checks in from parking lot before entering)."
+    },
+    {
+      "q": "What about multi-site urgent care groups?",
+      "a": "Multi-site dashboard shows all locations. Site comparison metrics. Volume pricing for groups. Regional management visibility into all sites."
+    },
+    {
+      "q": "How do providers see their queue?",
+      "a": "Provider view shows patients ready for them, patients in progress, patients awaiting results or discharge. No asking 'who's next?' — it's visible."
+    },
+    {
+      "q": "What about occupational health and employer services?",
+      "a": "If you do drug screens, DOT physicals, or employer services, those can be tracked as separate visit types with different workflows."
+    },
+    {
+      "q": "How fast is implementation?",
+      "a": "Two weeks typical. Week 1: configuration. Week 2: training and go-live. Urgent care workflows are standardized, so implementation is fast."
+    }
+  ],
+  "cta": {
+    "headline": "See patient flow in real-time",
+    "subhead": "15-minute demo. Patient flow visibility, wait time management, LWBS reduction, provider efficiency.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "See ROI Calculator", "href": "/resources/urgent-care-roi" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "52%", "label": "LWBS reduction" },
+      { "value": "18 min", "label": "faster door-to-door" },
+      { "value": "$127K", "label": "annual revenue recovery" }
+    ],
+    "testimonial": {
+      "quote": "We were running blind. Patients waited in the lobby while rooms sat empty because nobody knew. Now everyone sees the same board. LWBS dropped from 5% to 2.4%.",
+      "attribution": "Operations Director",
+      "practice": "Multi-site urgent care group, 4 locations",
+      "location": "Colorado"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "blog",
+      "title": "LWBS Reduction: Why Patients Leave and How to Keep Them",
+      "href": "/blog/lwbs-reduction-urgent-care",
+      "description": "Data on why urgent care patients leave without being seen and intervention strategies that work."
+    },
+    {
+      "type": "blog",
+      "title": "Door-to-Door Time: Benchmarks and Optimization",
+      "href": "/blog/door-to-door-time-urgent-care",
+      "description": "What's a good door-to-door time? Where does time get wasted? How do top urgent cares improve?"
+    },
+    {
+      "type": "blog",
+      "title": "Wait Time Communication: Scripts That Keep Patients",
+      "href": "/blog/wait-time-communication-urgent-care",
+      "description": "What to say, when to say it, and how to communicate delays without losing patients."
+    },
+    {
+      "type": "resource",
+      "title": "Urgent Care ROI Calculator",
+      "href": "/resources/urgent-care-roi",
+      "description": "Calculate potential revenue recovery from LWBS reduction and throughput improvement."
+    }
+  ],
+  "schema": {
+    "type": "SoftwareApplication",
+    "applicationCategory": "Medical Practice Management Software",
+    "operatingSystem": "Web-based",
+    "offers": {
+      "price": "499",
+      "priceCurrency": "USD"
+    }
+  }
+}
