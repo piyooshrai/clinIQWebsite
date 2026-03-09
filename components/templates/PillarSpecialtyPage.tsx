@@ -25,7 +25,7 @@ interface RelatedItem {
   description: string
 }
 
-interface PillarData {
+export interface PillarData {
   slug: string
   name: string
   meta: { title: string; description: string }
