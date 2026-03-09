@@ -1,0 +1,127 @@
+{
+  "slug": "obgyn",
+  "name": "OB/GYN",
+  "pageType": "pillar",
+  "wordCount": 2900,
+  "meta": {
+    "title": "OB/GYN Practice Software | Prenatal RTM & Patient Flow Optimization | clinIQ",
+    "description": "Complete guide to OB/GYN practice operations. $7,800/month in prenatal/postpartum RTM. Mixed OB and GYN scheduling. Ultrasound coordination. Labor triage visibility.",
+    "keywords": ["obgyn practice software", "prenatal RTM billing", "obgyn practice management", "prenatal monitoring software", "obgyn patient flow"]
+  },
+  "hero": {
+    "h1": "OB/GYN Practice Software",
+    "subhead": "Your prenatal patients already report symptoms between visits — that's billable RTM. Your mixed OB/GYN schedule needs optimization. Your ultrasounds need coordination. clinIQ captures prenatal RTM, manages complex scheduling, and coordinates obstetric care.",
+    "stats": [
+      { "value": "$7,800+", "label": "monthly prenatal RTM" },
+      { "value": "25%", "label": "scheduling efficiency gain" },
+      { "value": "100%", "label": "prenatal coordination" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "obgyn-challenges", "title": "The OB/GYN Practice Challenge" },
+    { "id": "prenatal-rtm", "title": "Prenatal RTM Billing" },
+    { "id": "mixed-scheduling", "title": "Mixed OB/GYN Scheduling" },
+    { "id": "ultrasound-coordination", "title": "Ultrasound Coordination" },
+    { "id": "postpartum-care", "title": "Postpartum Care Coordination" },
+    { "id": "implementation", "title": "Implementation & ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "obgyn-challenges",
+      "h2": "The OB/GYN Practice Challenge",
+      "content": "OB/GYN practices run complex operations mixing obstetric care with gynecologic services.\n\n**The prenatal monitoring opportunity:**\n\nPrenatal patients should track: blood pressure, weight, fetal movement, symptoms (contractions, bleeding, headache, visual changes). This monitoring between visits identifies complications early.\n\n60 prenatal patients × $130/month × ~8 months average = significant RTM revenue.\n\n**The scheduling complexity:**\n\nOB patients need frequent visits (monthly, then biweekly, then weekly). GYN patients need various visit types (annuals, procedures, post-ops). Ultrasounds need room and sonographer coordination. The schedule is inherently complex.\n\n**The ultrasound coordination problem:**\n\nOB ultrasounds (dating, anatomy, growth) and GYN ultrasounds (pelvic, follicle monitoring) need scheduling, completion, and review coordination.\n\n**The postpartum gap:**\n\nPostpartum patients should be monitored but often aren't seen until 6 weeks. RTM can maintain connection during this critical period."
+    },
+    {
+      "id": "prenatal-rtm",
+      "h2": "Prenatal RTM Billing: $130/Patient/Month",
+      "content": "Prenatal care is perfectly suited for RTM. Between-visit monitoring is standard of care.\n\n**What prenatal patients track:**\n\nVital signs:\n- Blood pressure (hypertension detection)\n- Weight (excessive gain or loss)\n- Fetal kick counts (after 28 weeks)\n\nSymptoms:\n- Contractions (frequency, regularity)\n- Bleeding or spotting\n- Headache or visual changes (preeclampsia warning)\n- Swelling (edema patterns)\n- Decreased fetal movement\n\nCompliance:\n- Prenatal vitamin use\n- Gestational diabetes monitoring (if applicable)\n- Activity restrictions (if indicated)\n\n**The CPT codes:**\n\n98975: RTM setup — one-time. ~$20-25.\n98977: RTM device supply. ~$50-60/month.\n98980: RTM treatment management — first 20 minutes. ~$50-70/month.\n\nTypical: $120-150/patient/month.\n\n**What clinIQ does for prenatal RTM:**\n\nGestational-age-appropriate prompts: First trimester symptoms differ from third trimester.\n\nUrgent symptom alerts: Bleeding, decreased fetal movement, preeclampsia symptoms → immediate alerts.\n\nBP tracking: Home BP integrated into prenatal record.\n\nKick count tracking: After 28 weeks, simplified kick count logging.\n\n**The clinical value:**\n\nEarly detection of preeclampsia, preterm labor, and fetal compromise improves outcomes and reduces emergent interventions."
+    },
+    {
+      "id": "mixed-scheduling",
+      "h2": "Mixed OB/GYN Scheduling",
+      "content": "OB/GYN scheduling is inherently complex.\n\n**Visit type variation:**\n\nOB visits:\n- New OB: 45-60 minutes\n- Routine prenatal: 15-20 minutes\n- High-risk prenatal: 30-45 minutes\n- NST: 30-60 minutes\n- Postpartum: 20-30 minutes\n\nGYN visits:\n- Annual exam: 20-30 minutes\n- Problem visit: 15-20 minutes\n- Procedure (IUD, colposcopy): 30-45 minutes\n- Post-op: 15-20 minutes\n\n**The OB scheduling constraint:**\n\nOB patients need to see their provider (or covering provider). Visit frequency increases as pregnancy progresses. Labor and delivery pulls providers away unpredictably.\n\n**What clinIQ does:**\n\nVisit type awareness: Different visit types have different durations and room requirements.\n\nProvider panel visibility: Which OB patients belong to which provider? Coverage protocols.\n\nUrgent visit handling: Triage visits that need same-day attention.\n\nLabor coverage: When provider is at L&D, schedule adjustments visible."
+    },
+    {
+      "id": "ultrasound-coordination",
+      "h2": "Ultrasound Coordination",
+      "content": "OB/GYN practices run significant ultrasound volume.\n\n**OB ultrasounds:**\n- Dating (first trimester)\n- NT scan (11-14 weeks)\n- Anatomy scan (18-22 weeks)\n- Growth scans (third trimester)\n- BPP, AFI (surveillance)\n\n**GYN ultrasounds:**\n- Pelvic US for symptoms\n- Follicle monitoring (fertility)\n- SIS/HSG coordination\n\n**What clinIQ does:**\n\nUS scheduling: Room and sonographer availability coordinated.\n\nUS tracking: Ordered → Scheduled → Completed → Read → Results communicated.\n\nPrenatal US timeline: Appropriate gestational age for each US type.\n\nResults integration: US results visible in prenatal record."
+    },
+    {
+      "id": "postpartum-care",
+      "h2": "Postpartum Care Coordination",
+      "content": "The postpartum period is a care gap in traditional OB care.\n\n**Traditional model:**\n\nDelivery → 6-week postpartum visit. That's 6 weeks of no contact during a high-risk period (postpartum depression, infection, hemorrhage, hypertension).\n\n**RTM-supported model:**\n\nDelivery → RTM enrollment → Daily/weekly symptom tracking → Issues detected early → 6-week visit for comprehensive assessment.\n\n**What postpartum patients track:**\n\nMood: PHQ-2/EPDS screening for postpartum depression\n\nPhysical recovery:\n- Bleeding (quantity, duration)\n- Incision healing (if cesarean)\n- Pain level\n- Fever or signs of infection\n\nBreastfeeding:\n- Breast symptoms (engorgement, mastitis)\n- Feeding concerns\n\n**The RTM value:**\n\nPostpartum RTM can bill for 4-6 weeks after delivery. Patients stay connected. Depression and complications detected early."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI Timeline",
+      "content": "**Week 1: Configuration**\n\nPrenatal and postpartum RTM templates. OB/GYN visit types. US coordination workflow.\n\n**Week 2: Training and Go-Live**\n\nClinical staff learns RTM enrollment and monitoring. Schedulers learn mixed schedule management.\n\n**ROI Timeline:**\n\nMonth 1: Scheduling visibility immediate. RTM enrollment starting.\n\nMonth 3: RTM billing at scale. US coordination improving.\n\nMonth 6: Full RTM revenue. Prenatal care optimized.\n\n**ROI Math:**\n\nRTM revenue: 60 prenatal patients × $130/month × 6 months average = $46,800/year ongoing\n\nWith turnover: ~$7,800/month as patients deliver and new patients enroll\n\nPostpartum RTM adds additional revenue during recovery period.\n\n**Investment:**\n\nProfessional: $499/month\n\nImplementation: $750 one-time"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you bill RTM throughout pregnancy?",
+      "a": "Yes. Prenatal RTM can bill monthly from enrollment through delivery. Postpartum RTM continues for 4-6 weeks after delivery."
+    },
+    {
+      "q": "How does RTM work with global OB billing?",
+      "a": "RTM is separate from global OB care. The monitoring and treatment management are distinct services and can be billed in addition to global OB."
+    },
+    {
+      "q": "What about high-risk pregnancies?",
+      "a": "High-risk pregnancies benefit even more from RTM. More frequent monitoring, earlier detection of complications. Some may qualify for additional 98981 time."
+    },
+    {
+      "q": "Does this integrate with fetal monitoring?",
+      "a": "Patient-reported fetal movement counts are captured. NST and BPP scheduling and results are tracked separately."
+    }
+  ],
+  "cta": {
+    "headline": "See prenatal RTM and OB scheduling",
+    "subhead": "15-minute demo. Prenatal monitoring, mixed scheduling, US coordination, postpartum care.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate Prenatal RTM Revenue", "href": "/resources/rtm-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "$7,800", "label": "monthly prenatal RTM" },
+      { "value": "25%", "label": "scheduling efficiency" },
+      { "value": "100%", "label": "postpartum connection" }
+    ],
+    "testimonial": {
+      "quote": "We caught two cases of developing preeclampsia from home BP monitoring. Both avoided emergency interventions.",
+      "attribution": "OB/GYN Physician",
+      "practice": "OB/GYN practice, 4 physicians",
+      "location": "Virginia"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "blog",
+      "title": "Prenatal RTM Billing: Complete Guide",
+      "href": "/blog/prenatal-rtm-billing",
+      "description": "How to bill RTM throughout pregnancy and postpartum."
+    },
+    {
+      "type": "blog",
+      "title": "OB/GYN Scheduling: Managing Mixed Complexity",
+      "href": "/blog/obgyn-scheduling-optimization",
+      "description": "Balancing prenatal visits, GYN procedures, and labor coverage."
+    },
+    {
+      "type": "blog",
+      "title": "Postpartum Care: Closing the 6-Week Gap",
+      "href": "/blog/postpartum-rtm-monitoring",
+      "description": "Using RTM to maintain connection during the postpartum period."
+    }
+  ],
+  "schema": {
+    "type": "SoftwareApplication",
+    "applicationCategory": "Medical Practice Management Software",
+    "operatingSystem": "Web-based",
+    "offers": {
+      "price": "499",
+      "priceCurrency": "USD"
+    }
+  }
+}

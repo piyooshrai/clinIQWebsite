@@ -1,0 +1,127 @@
+{
+  "slug": "pediatrics",
+  "name": "Pediatrics",
+  "pageType": "pillar",
+  "wordCount": 2800,
+  "meta": {
+    "title": "Pediatric Practice Software | Well-Child Efficiency & Same-Day Sick | clinIQ",
+    "description": "Complete guide to pediatric practice operations. Well-child visit optimization. Same-day sick access. Vaccine administration tracking. Behavioral health screening.",
+    "keywords": ["pediatric practice software", "pediatric practice management", "well-child visit efficiency", "pediatric scheduling software", "vaccine administration tracking"]
+  },
+  "hero": {
+    "h1": "Pediatric Practice Software",
+    "subhead": "Your well-child visits take too long. Your sick visits can't get same-day access. Your vaccine tracking is fragmented. clinIQ optimizes well-child efficiency, enables true same-day sick access, and streamlines vaccine administration.",
+    "stats": [
+      { "value": "30%", "label": "faster well-child throughput" },
+      { "value": "True", "label": "same-day sick access" },
+      { "value": "100%", "label": "vaccine tracking" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "peds-challenges", "title": "The Pediatric Practice Challenge" },
+    { "id": "wellchild-efficiency", "title": "Well-Child Visit Efficiency" },
+    { "id": "sameday-sick", "title": "Same-Day Sick Access" },
+    { "id": "vaccine-tracking", "title": "Vaccine Administration Tracking" },
+    { "id": "behavioral-screening", "title": "Behavioral Health Screening" },
+    { "id": "implementation", "title": "Implementation & ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "peds-challenges",
+      "h2": "The Pediatric Practice Challenge",
+      "content": "Pediatric practices face unique operational challenges: high visit volumes, seasonal variability, age-specific visit requirements, and parental expectations.\n\n**The well-child bottleneck:**\n\nWell-child visits include developmental assessment, anticipatory guidance, screening questionnaires, and vaccinations. All of this takes time. Most practices schedule 20-30 minutes but actually need 30-40 minutes. Visits run behind.\n\n**The sick visit access problem:**\n\nParents expect same-day sick access. 'My child is sick' should result in a same-day appointment. But well-child visits fill the schedule. Sick slots are gone by 10 AM.\n\n**The vaccine coordination burden:**\n\nVaccine schedules are complex. Different vaccines at different ages with different combinations. Documentation for state registries. Inventory management. Lot number tracking.\n\n**The seasonal swing:**\n\nPediatrics has extreme seasonality. Summer is slow (well-childs). Winter is slammed (respiratory illness). Staffing and scheduling must adapt."
+    },
+    {
+      "id": "wellchild-efficiency",
+      "h2": "Well-Child Visit Efficiency",
+      "content": "Well-child visits are the core of pediatric revenue but often run inefficiently.\n\n**What slows well-child visits:**\n\nScreening questionnaires (ASQ, M-CHAT, PHQ-A, etc.) done in room instead of before.\n\nAnticipatory guidance delivered in conversation instead of pre-visit materials.\n\nVaccine consent obtained during visit instead of before.\n\nVisit scheduled for 20 minutes when it needs 30.\n\n**What clinIQ does:**\n\nPre-visit questionnaires: Age-appropriate screening sent before visit. ASQ, M-CHAT, PHQ-A — completed by parent before arrival.\n\nAnticipatory guidance: Age-specific guidance sent before visit. Parent arrives prepared.\n\nVaccine pre-consent: Vaccine consent reviewed and signed before visit.\n\nAge-specific scheduling: Different ages have different visit lengths. 2-month well-child differs from 15-year annual.\n\n**The throughput improvement:**\n\n10 minutes saved per well-child × 10 well-childs/day = 100 minutes = 2-3 additional visits/day.\n\nAt $150/well-child, that's $300-450/day = $75,000-115,000/year."
+    },
+    {
+      "id": "sameday-sick",
+      "h2": "Same-Day Sick Access",
+      "content": "Parents expect same-day access for sick children. Meeting this expectation builds loyalty and prevents urgent care/ED leakage.\n\n**Why same-day sick fails:**\n\nFixed sick slots are gone early. Schedule is full of well-childs. No visibility into where capacity exists.\n\n**What clinIQ does:**\n\nReal-time capacity visibility: Where can sick visits fit? Which providers are running ahead? Where are gaps?\n\nWell-child efficiency: Faster well-childs create capacity for sick visits.\n\nDynamic scheduling: Instead of fixed sick slots, identify capacity throughout the day.\n\nNurse triage integration: Triage call determines urgency. Schedule accordingly.\n\n**The parent experience:**\n\nParent calls at 10 AM: 'My child has a fever.'\n\nOld response: 'We don't have any openings today. Can you come tomorrow or go to urgent care?'\n\nNew response: 'We can see you at 2:30 PM today.'\n\nThat difference determines whether families stay with your practice."
+    },
+    {
+      "id": "vaccine-tracking",
+      "h2": "Vaccine Administration Tracking",
+      "content": "Pediatric vaccine schedules are complex. Different vaccines at different ages with different combinations and catch-up protocols.\n\n**What clinIQ does:**\n\nVaccine due: Age-calculated vaccine recommendations. What's due at this visit?\n\nVaccine history: Complete vaccination record. What's been given? What's missing?\n\nLot tracking: Lot numbers documented. Required for registry reporting.\n\nRegistry integration: State immunization registry connection where available.\n\nVFC inventory: If you participate in VFC, separate tracking for VFC vs private stock.\n\n**Catch-up scheduling:**\n\nChild comes in behind on vaccines. What's the optimal catch-up schedule? Which vaccines can be given together? What needs to wait?"
+    },
+    {
+      "id": "behavioral-screening",
+      "h2": "Behavioral Health Screening",
+      "content": "Pediatric behavioral health screening is increasingly important:\n\n- M-CHAT for autism (18-24 months)\n- ASQ for developmental delay\n- PHQ-A for adolescent depression\n- SCARED for anxiety\n- Vanderbilt for ADHD\n\n**What clinIQ does:**\n\nAge-appropriate screening: Right screening at right age.\n\nPre-visit administration: Parents complete screening before arrival.\n\nScoring: Automatic scoring with flag for positive screens.\n\nReferral tracking: Positive screen → referral → referral completed."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI Timeline",
+      "content": "**Week 1: Configuration**\n\nWell-child optimization, screening questionnaires, vaccine tracking configured.\n\n**Week 2: Training and Go-Live**\n\nStaff learns pre-visit workflow. Providers learn same-day visibility.\n\n**ROI Timeline:**\n\nMonth 1: Pre-visit questionnaires reducing visit time. Same-day visibility improving.\n\nMonth 3: Well-child throughput measurably improved. Same-day sick access achieved.\n\nMonth 6: Full optimization. Additional visits generating revenue.\n\n**ROI Math:**\n\nWell-child efficiency: 2 additional visits/day × $150 × 250 days = $75,000/year\n\nPatient retention: Families who get same-day sick access stay with practice\n\n**Investment:**\n\nProfessional: $499/month\n\nImplementation: $750 one-time"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can RTM be billed for pediatric patients?",
+      "a": "Yes, for appropriate conditions. Asthma, diabetes, obesity, behavioral health conditions can all qualify for RTM in pediatric patients. Parent/guardian involvement is key."
+    },
+    {
+      "q": "How do pre-visit questionnaires work?",
+      "a": "Age-appropriate questionnaires sent to parents before visit. They complete on phone or computer. Results available when child arrives."
+    },
+    {
+      "q": "Does this integrate with state registries?",
+      "a": "We support state immunization registry integration where electronic interfaces are available."
+    },
+    {
+      "q": "What about sports physicals and school forms?",
+      "a": "These visit types can be configured with appropriate duration and pre-visit requirements."
+    }
+  ],
+  "cta": {
+    "headline": "See well-child efficiency and same-day access",
+    "subhead": "15-minute demo. Well-child optimization, same-day sick access, vaccine tracking, screening.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "See Pediatric Workflow", "href": "/resources/pediatric-workflow" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "30%", "label": "faster well-child visits" },
+      { "value": "100%", "label": "same-day sick access" },
+      { "value": "$75K", "label": "annual additional revenue" }
+    ],
+    "testimonial": {
+      "quote": "Pre-visit questionnaires changed everything. Parents arrive prepared. Visits actually fit in the schedule.",
+      "attribution": "Pediatrician",
+      "practice": "Pediatric practice, 3 physicians",
+      "location": "Illinois"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "blog",
+      "title": "Well-Child Visit Efficiency: Pre-Visit Optimization",
+      "href": "/blog/wellchild-efficiency",
+      "description": "Using pre-visit questionnaires and anticipatory guidance to streamline well-childs."
+    },
+    {
+      "type": "blog",
+      "title": "Same-Day Sick Access in Pediatrics",
+      "href": "/blog/pediatric-sameday-access",
+      "description": "How to guarantee same-day sick access without sacrificing well-child volume."
+    },
+    {
+      "type": "blog",
+      "title": "Pediatric Behavioral Health Screening",
+      "href": "/blog/pediatric-behavioral-screening",
+      "description": "Implementing developmental and mental health screening efficiently."
+    }
+  ],
+  "schema": {
+    "type": "SoftwareApplication",
+    "applicationCategory": "Medical Practice Management Software",
+    "operatingSystem": "Web-based",
+    "offers": {
+      "price": "499",
+      "priceCurrency": "USD"
+    }
+  }
+}

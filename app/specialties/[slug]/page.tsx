@@ -9,6 +9,15 @@ import urgentCarePillar from '@/data/urgent-care-pillar.json'
 import psychiatryPillar from '@/data/psychiatry-pillar.json'
 import orthopedicSurgeryPillar from '@/data/orthopedic-surgery-pillar.json'
 import dermatologyPillar from '@/data/dermatology-pillar.json'
+import cardiologyPillar from '@/data/cardiology-pillar.json'
+import primaryCarePillar from '@/data/primary-care-pillar.json'
+import pulmonologyPillar from '@/data/pulmonology-pillar.json'
+import gastroenterologyPillar from '@/data/gastroenterology-pillar.json'
+import endocrinologyPillar from '@/data/endocrinology-pillar.json'
+import nephrologyPillar from '@/data/nephrology-pillar.json'
+import oncologyPillar from '@/data/oncology-pillar.json'
+import obgynPillar from '@/data/obgyn-pillar.json'
+import pediatricsPillar from '@/data/pediatrics-pillar.json'
 import { getSpecialtyPageData, getAllSpecialtyParams } from '@/lib/feature-specialty-data'
 import JsonSpecialtyPage from '@/components/templates/JsonSpecialtyPage'
 import PillarSpecialtyPage, { type PillarData } from '@/components/templates/PillarSpecialtyPage'
@@ -25,6 +34,15 @@ const pillarPages: Record<string, PillarData> = {
   'psychiatry': psychiatryPillar as unknown as PillarData,
   'orthopedic-surgery': orthopedicSurgeryPillar as unknown as PillarData,
   'dermatology': dermatologyPillar as unknown as PillarData,
+  'cardiology': cardiologyPillar as unknown as PillarData,
+  'primary-care': primaryCarePillar as unknown as PillarData,
+  'pulmonology': pulmonologyPillar as unknown as PillarData,
+  'gastroenterology': gastroenterologyPillar as unknown as PillarData,
+  'endocrinology': endocrinologyPillar as unknown as PillarData,
+  'nephrology': nephrologyPillar as unknown as PillarData,
+  'oncology': oncologyPillar as unknown as PillarData,
+  'obgyn': obgynPillar as unknown as PillarData,
+  'pediatrics': pediatricsPillar as unknown as PillarData,
 }
 
 // Filter out slugs handled by pillar pages to avoid duplicate routing
