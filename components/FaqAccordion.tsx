@@ -4,7 +4,7 @@ import { useState } from 'react'
 import css from './FaqAccordion.module.css'
 
 interface Props {
-  faqs: { q: string; a: string }[]
+  faqs: readonly { q: string; a: string }[]
 }
 
 export default function FaqAccordion({ faqs }: Props) {
