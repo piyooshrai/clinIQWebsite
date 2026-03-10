@@ -7,9 +7,14 @@ import patientFlowData from '@/data/feature-patient-flow.json'
 import preAuthData from '@/data/feature-pre-authorization.json'
 import rtmData from '@/data/feature-rtm-billing.json'
 import schedulingData from '@/data/feature-scheduling.json'
+import telehealthData from '@/data/feature-telehealth.json'
+import patientSatisfactionData from '@/data/feature-patient-satisfaction.json'
+import wearableIntegrationData from '@/data/feature-wearable-integration.json'
+import secureMessagingData from '@/data/feature-secure-messaging.json'
+import secureFileExchangeData from '@/data/feature-secure-file-exchange.json'
+import patientAppData from '@/data/feature-patient-app.json'
 
 // Feature pillar pages keyed by the URL slug used throughout the site.
-// Slugs match existing links in /features page and [featureSlug]/[specialtySlug] pages.
 const featurePillars: Record<string, PillarData> = {
   analytics: analyticsData as unknown as PillarData,
   'check-in': checkInData as unknown as PillarData,
@@ -17,6 +22,12 @@ const featurePillars: Record<string, PillarData> = {
   'pre-auth': preAuthData as unknown as PillarData,
   rtm: rtmData as unknown as PillarData,
   scheduling: schedulingData as unknown as PillarData,
+  telehealth: telehealthData as unknown as PillarData,
+  'patient-satisfaction': patientSatisfactionData as unknown as PillarData,
+  'wearable-integration': wearableIntegrationData as unknown as PillarData,
+  'secure-messaging': secureMessagingData as unknown as PillarData,
+  'secure-file-exchange': secureFileExchangeData as unknown as PillarData,
+  'patient-app': patientAppData as unknown as PillarData,
 }
 
 export function generateStaticParams() {
