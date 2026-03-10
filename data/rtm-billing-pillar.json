@@ -1,0 +1,155 @@
+{
+  "slug": "rtm-billing",
+  "name": "RTM Billing",
+  "pageType": "feature-pillar",
+  "wordCount": 3300,
+  "meta": {
+    "title": "RTM Billing Software | Remote Therapeutic Monitoring Platform | clinIQ",
+    "description": "Complete guide to RTM billing. CPT 98975-98981 explained. Patient enrollment. Time tracking. Billing automation. $100-150/patient/month revenue capture.",
+    "keywords": ["RTM billing software", "remote therapeutic monitoring", "RTM CPT codes", "98980 billing", "RTM platform"]
+  },
+  "hero": {
+    "h1": "RTM Billing",
+    "subhead": "Your chronic disease patients already report symptoms between visits — that's billable RTM. Capture $100-150 per patient per month with systematic enrollment, automatic time tracking, and billing automation.",
+    "stats": [
+      { "value": "$100-150", "label": "per patient per month" },
+      { "value": "Automatic", "label": "time tracking" },
+      { "value": "75%+", "label": "enrollment rates achievable" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "rtm-overview", "title": "What Is RTM?" },
+    { "id": "rtm-codes", "title": "RTM CPT Codes" },
+    { "id": "eligible-conditions", "title": "Eligible Conditions" },
+    { "id": "patient-enrollment", "title": "Patient Enrollment" },
+    { "id": "data-collection", "title": "Data Collection" },
+    { "id": "time-tracking", "title": "Time Tracking" },
+    { "id": "billing-automation", "title": "Billing Automation" },
+    { "id": "implementation", "title": "Implementation & ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "rtm-overview",
+      "h2": "What Is RTM?",
+      "content": "Remote Therapeutic Monitoring (RTM) is a Medicare billing pathway for monitoring patient-reported data between visits.\n\n**The concept:**\n\nChronic disease patients should track symptoms between visits — pain levels, medication compliance, functional status, symptom patterns. This data informs treatment decisions.\n\nHistorically, this monitoring happened informally (patient remembers at the visit) or not at all. RTM systematizes it: patients report data through an app, clinicians review it, and treatment adjusts based on findings.\n\nCMS recognized this work deserves reimbursement. RTM codes launched in 2022 and expanded in subsequent years.\n\n**RTM vs. RPM:**\n\nRPM (Remote Patient Monitoring) uses physiological devices — blood pressure cuffs, glucose monitors, pulse oximeters — that transmit data automatically.\n\nRTM uses patient-reported data — symptoms, medication compliance, functional status — entered by patients.\n\nRPM requires device distribution and management. RTM works with any smartphone or computer.\n\nMany patients qualify for both. Some qualify for one or the other. The distinction matters for billing.\n\n**The revenue opportunity:**\n\n100 chronic disease patients × $120/month average = $12,000/month = $144,000/year.\n\nThis is revenue for work that should already be happening — monitoring patients between visits."
+    },
+    {
+      "id": "rtm-codes",
+      "h2": "RTM CPT Codes",
+      "content": "RTM billing uses five CPT codes. Understanding each is essential for proper billing.\n\n**98975 — RTM Device/Software Setup**\n\nOne-time code billed at enrollment. Covers:\n- Initial setup of monitoring platform\n- Patient education on how to use the system\n- Configuration for the patient's condition\n\nReimbursement: ~$20-25\nBill once per patient at program initiation.\n\n**98976 — RTM Device Supply (Respiratory)**\n\nMonthly code for respiratory conditions:\n- COPD\n- Asthma\n- Other chronic respiratory conditions\n\nReimbursement: ~$55-65/month\nRequires respiratory-specific monitoring.\n\n**98977 — RTM Device Supply (Musculoskeletal)**\n\nMonthly code for musculoskeletal conditions:\n- Chronic pain\n- Arthritis\n- Post-surgical recovery\n- Physical therapy conditions\n\nReimbursement: ~$50-60/month\nMost common RTM device code.\n\n**98980 — RTM Treatment Management, First 20 Minutes**\n\nMonthly code for clinical time reviewing data and making decisions:\n- Reviewing patient-reported data\n- Analyzing trends\n- Communicating with patients about findings\n- Adjusting treatment based on data\n\nReimbursement: ~$50-70/month\nRequires 20+ minutes of qualified clinical time per month.\n\n**98981 — RTM Treatment Management, Additional 20 Minutes**\n\nFor patients requiring more than 20 minutes monthly:\n- Complex patients with multiple issues\n- Patients needing frequent adjustment\n- High-acuity situations\n\nReimbursement: ~$40-50/month per additional 20-minute increment\nAdd-on code to 98980.\n\n**Typical monthly billing:**\n\n98977 (or 98976) + 98980 = $100-130/patient/month\n\nComplex patients: Add 98981 for additional time."
+    },
+    {
+      "id": "eligible-conditions",
+      "h2": "Eligible Conditions",
+      "content": "RTM applies to chronic conditions where between-visit monitoring informs treatment.\n\n**Musculoskeletal (98977):**\n\n- Chronic pain (back, neck, joint)\n- Osteoarthritis\n- Rheumatoid arthritis\n- Post-surgical orthopedic recovery\n- Physical therapy conditions\n- Fibromyalgia\n- Sports injuries in recovery\n\n**Respiratory (98976):**\n\n- COPD\n- Asthma (moderate to severe)\n- Interstitial lung disease\n- Pulmonary fibrosis\n- Post-COVID respiratory issues\n\n**Cardiovascular (98977 — musculoskeletal code used):**\n\n- Heart failure (weight, symptoms)\n- Hypertension (BP tracking if patient-reported)\n- Cardiac rehabilitation\n- Post-MI recovery\n\n**Behavioral Health (98976 — respiratory code repurposed in 2024):**\n\n- Depression\n- Anxiety disorders\n- PTSD\n- Substance use disorders\n- Bipolar disorder\n\n**Other Chronic Conditions:**\n\n- Diabetes (if using patient-reported glucose, not CGM)\n- Chronic kidney disease\n- Inflammatory bowel disease\n- Chronic wounds\n- Neurological conditions\n\n**The common thread:**\n\nAny condition where:\n1. Symptoms fluctuate between visits\n2. Patient-reported data informs treatment\n3. Monitoring improves outcomes\n\nMost chronic disease patients qualify."
+    },
+    {
+      "id": "patient-enrollment",
+      "h2": "Patient Enrollment",
+      "content": "Enrollment determines RTM success. Higher enrollment = higher revenue.\n\n**Who to enroll:**\n\nTarget patients who:\n- Have chronic conditions (see eligible conditions)\n- Visit regularly (monthly or quarterly)\n- Can use smartphone or computer (or have caregiver who can)\n- Have Medicare or commercial payer that covers RTM\n\n**Enrollment workflow:**\n\n1. Identify eligible patients (panel analysis or during visits)\n2. Introduce RTM: 'We have a way for you to track symptoms between visits and have us monitor your progress'\n3. Explain the benefit: 'This helps us adjust your treatment faster'\n4. Obtain consent (document in chart)\n5. Set up patient on platform (app download or web access)\n6. Provide brief education on how to submit data\n\n**Enrollment rates:**\n\nTypical enrollment rates:\n- Passive offering (mention at checkout): 20-30%\n- Active offering (provider recommends): 50-60%\n- Intensive enrollment (dedicated staff): 70-85%\n\nHigher enrollment requires provider buy-in and dedicated workflow.\n\n**What clinIQ does:**\n\n- Identifies eligible patients from panel data\n- Generates enrollment lists by provider\n- Tracks enrollment status per patient\n- Provides consent documentation\n- Automates patient setup\n- Tracks enrollment rates by provider/condition"
+    },
+    {
+      "id": "data-collection",
+      "h2": "Data Collection",
+      "content": "RTM requires actual patient-reported data. The data collection method affects compliance and utility.\n\n**Collection methods:**\n\nMobile app:\n- Patient downloads app (or uses web version)\n- Receives prompts to enter data\n- Submits symptoms, medications, functional status\n\nText-based:\n- Patient receives text with link\n- Clicks link, answers questions in mobile browser\n- No app download required\n\nPhone call:\n- Staff calls patient periodically\n- Asks symptom questions\n- Documents responses\n(Less efficient but works for patients without smartphones)\n\n**Data frequency:**\n\nHow often should patients submit data?\n\n- Daily: Best for high-acuity or rapidly changing conditions\n- Weekly: Good balance of data and patient burden\n- As-needed: Patient submits when symptoms change\n\nMore frequent data = better clinical picture but lower compliance.\n\nMost practices use weekly submissions with option for patients to report changes anytime.\n\n**What patients report:**\n\nCondition-specific questions:\n- Pain: Intensity (0-10), location, medication use, function\n- Respiratory: Dyspnea, rescue inhaler use, activity tolerance\n- Behavioral: Mood, sleep, anxiety, medication compliance\n- Cardiac: Weight, swelling, shortness of breath\n\nQuestions should be quick (2-3 minutes) to maximize compliance.\n\n**Compliance tracking:**\n\nMonitor data submission rates:\n- Who's submitting regularly?\n- Who's stopped submitting?\n- When was last submission?\n\nLow compliance = outreach to re-engage or disenroll."
+    },
+    {
+      "id": "time-tracking",
+      "h2": "Time Tracking",
+      "content": "CPT 98980/98981 require documented clinical time. Time tracking is essential for compliant billing.\n\n**What counts as RTM time:**\n\n- Reviewing patient-submitted data\n- Analyzing trends and patterns\n- Identifying concerning findings\n- Communicating with patient about data (calls, messages)\n- Adjusting treatment based on data\n- Documenting findings and decisions\n- Care coordination related to RTM findings\n\n**What doesn't count:**\n\n- Time that's billed elsewhere (E&M visits, CCM)\n- Administrative setup (covered by 98975)\n- Patient's time entering data\n- General chart review unrelated to RTM data\n\n**Time threshold:**\n\n98980 requires 20+ minutes per patient per month. Time accumulates throughout the month.\n\n98981 is billed for each additional 20-minute increment.\n\n**Manual vs. automatic tracking:**\n\nManual: Staff logs time in spreadsheet or EHR. Error-prone. Burdensome. Often under-documented.\n\nAutomatic: System tracks time spent reviewing RTM dashboards, sending messages, documenting. Accurate. Defensible.\n\n**What clinIQ does:**\n\n- Automatically logs time when staff reviews RTM dashboard\n- Tracks patient-specific time accumulation\n- Alerts when 20-minute threshold is approaching\n- Documents all RTM activities with timestamps\n- Generates billing-ready time reports"
+    },
+    {
+      "id": "billing-automation",
+      "h2": "Billing Automation",
+      "content": "Monthly RTM billing can be complex. Automation ensures revenue capture.\n\n**Billing workflow:**\n\nEnd of month:\n1. Identify patients with 20+ minutes RTM time\n2. Verify data submission (patient actually submitted data)\n3. Generate claims for 98977/98976 + 98980\n4. Add 98981 if time exceeds 40 minutes\n5. Submit claims\n6. Track payment\n\n**Manual billing challenges:**\n\n- Forgetting to bill some patients\n- Under-billing (missing 98981 when time qualifies)\n- Over-billing (billing without adequate time or data)\n- Inconsistent documentation\n- Staff time spent on billing administration\n\n**What clinIQ does:**\n\nAutomatic billing generation:\n- At month end, system identifies billable patients\n- Verifies data submission and time thresholds\n- Generates claim file with appropriate codes\n- Flags patients below threshold (why didn't they qualify?)\n\nBilling verification:\n- Before claims generate, staff reviews summary\n- Catches any issues before submission\n- Documents attestation\n\nDenial tracking:\n- Tracks claim outcomes\n- Identifies denial patterns\n- Enables process improvement"
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "RTM implementation follows a structured rollout.\n\n**Phase 1: Preparation (Week 1-2)**\n\n- Identify target patient population\n- Configure condition-specific data collection\n- Train staff on enrollment workflow\n- Set up billing processes\n- Prepare patient education materials\n\n**Phase 2: Pilot (Week 3-4)**\n\n- Enroll first 20-30 patients\n- Test data collection and review workflow\n- Refine based on feedback\n- Validate time tracking\n- Test billing process\n\n**Phase 3: Scale (Month 2-3)**\n\n- Expand enrollment across eligible patients\n- Assign review responsibilities\n- Establish routine workflow\n- Monitor metrics\n\n**Phase 4: Optimization (Month 4+)**\n\n- Increase enrollment rates\n- Improve data compliance\n- Optimize clinical integration\n- Expand to additional conditions\n\n**ROI calculation:**\n\nAssumptions:\n- 100 eligible patients\n- 70% enrollment rate\n- $120/patient/month average reimbursement\n\nMonthly revenue: 70 patients × $120 = $8,400\n\nAnnual revenue: $8,400 × 12 = $100,800\n\nCosts:\n- Platform: ~$500/month (varies by vendor)\n- Staff time: ~$1,500/month (part-time coordinator)\n- Total: ~$2,000/month = $24,000/year\n\nNet revenue: $100,800 - $24,000 = $76,800/year\n\nMargin: 76%\n\n**Scaling impact:**\n\nWith 200 patients at 75% enrollment:\n150 patients × $120 × 12 = $216,000/year\n\nCosts increase modestly (platform may stay flat, staff scales).\nNet revenue exceeds $150,000/year."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What's the difference between RTM and RPM?",
+      "a": "RPM uses physiological devices (BP cuffs, glucose monitors) that transmit data. RTM uses patient-reported data (symptoms, compliance, function). Different codes, different workflows. Many patients qualify for both."
+    },
+    {
+      "q": "Do we need to distribute devices for RTM?",
+      "a": "No. RTM uses patient's smartphone or computer. No device distribution or management required. That's a key advantage over RPM."
+    },
+    {
+      "q": "What payers cover RTM?",
+      "a": "Medicare covers RTM. Most commercial payers now cover RTM, though policies vary. Check specific payer guidelines. Coverage is expanding."
+    },
+    {
+      "q": "How much staff time does RTM require?",
+      "a": "Varies by program size. A 100-patient program typically requires 10-15 hours/week of dedicated time for data review and management. Can be done by RNs, MAs, or care coordinators."
+    },
+    {
+      "q": "Can we bill RTM and CCM for the same patient?",
+      "a": "Yes, if activities are distinct. CCM covers care coordination, care planning, medication management. RTM covers monitoring and treatment management based on patient-reported data. Document separately."
+    },
+    {
+      "q": "What if a patient stops submitting data?",
+      "a": "Reach out to re-engage. If they remain non-compliant, RTM isn't appropriate. You can only bill when patient is actively participating and data is being reviewed."
+    },
+    {
+      "q": "How do we document RTM time?",
+      "a": "clinIQ automatically tracks time spent in RTM workflows. For manual tracking, document date, time spent, activities performed, and clinical findings/decisions."
+    },
+    {
+      "q": "Can providers bill RTM, or only staff?",
+      "a": "Both. RTM time can be accumulated by clinical staff under physician supervision. Providers can also directly perform RTM activities. Time is cumulative across qualified personnel."
+    }
+  ],
+  "cta": {
+    "headline": "Start capturing RTM revenue",
+    "subhead": "15-minute demo. See patient enrollment, automatic time tracking, and billing automation.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate RTM Revenue", "href": "/resources/rtm-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "$144K", "label": "annual RTM revenue (100 patients)" },
+      { "value": "75%", "label": "enrollment rate" },
+      { "value": "Automatic", "label": "time tracking" }
+    ],
+    "testimonial": {
+      "quote": "We launched RTM with 80 pain patients. Three months later we're billing $10K/month in pure incremental revenue. The platform handles enrollment, tracking, and billing.",
+      "attribution": "Practice Administrator",
+      "practice": "Pain management, 3 physicians",
+      "location": "Florida"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "specialty",
+      "title": "Pain Management RTM",
+      "href": "/specialties/pain-management",
+      "description": "RTM specifically for pain management practices."
+    },
+    {
+      "type": "blog",
+      "title": "RTM CPT Codes Explained: 98975-98981",
+      "href": "/blog/rtm-cpt-codes-explained",
+      "description": "Deep dive into each RTM billing code."
+    },
+    {
+      "type": "blog",
+      "title": "RTM vs RPM: Which Is Right for Your Practice?",
+      "href": "/blog/rtm-vs-rpm-comparison",
+      "description": "Comparing remote monitoring approaches."
+    }
+  ],
+  "schema": {
+    "type": "SoftwareApplication",
+    "applicationCategory": "Medical Practice Management Software",
+    "operatingSystem": "Web-based",
+    "offers": {
+      "price": "499",
+      "priceCurrency": "USD"
+    }
+  }
+}

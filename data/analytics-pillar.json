@@ -1,0 +1,155 @@
+{
+  "slug": "analytics",
+  "name": "Analytics & Reporting",
+  "pageType": "feature-pillar",
+  "wordCount": 2900,
+  "meta": {
+    "title": "Clinic Analytics Software | LobbyView Dashboards & Reporting | clinIQ",
+    "description": "Complete guide to clinic analytics. Real-time LobbyView dashboards. Wait time metrics. Provider productivity. No-show tracking. Custom reports.",
+    "keywords": ["clinic analytics software", "medical practice reporting", "wait time analytics", "provider productivity", "practice dashboards"]
+  },
+  "hero": {
+    "h1": "Analytics & Reporting",
+    "subhead": "See what's actually happening in your practice. Real-time dashboards show patient flow, wait times, and bottlenecks. Historical reports reveal patterns and trends. Data drives improvement.",
+    "stats": [
+      { "value": "Real-time", "label": "dashboards" },
+      { "value": "100+", "label": "metrics tracked" },
+      { "value": "Actionable", "label": "insights" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "analytics-value", "title": "Why Analytics Matter" },
+    { "id": "lobbyview", "title": "LobbyView: Real-Time Dashboards" },
+    { "id": "wait-time-analytics", "title": "Wait Time Analytics" },
+    { "id": "provider-productivity", "title": "Provider Productivity" },
+    { "id": "no-show-analytics", "title": "No-Show Analytics" },
+    { "id": "revenue-metrics", "title": "Revenue Metrics" },
+    { "id": "custom-reports", "title": "Custom Reports" },
+    { "id": "implementation", "title": "Implementation" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "analytics-value",
+      "h2": "Why Analytics Matter",
+      "content": "Most practices operate on intuition. 'I think we're busy.' 'It feels like wait times are long.' 'I guess Dr. Smith sees fewer patients.' Intuition is often wrong.\n\n**What you don't measure, you can't improve:**\n\nAre wait times getting better or worse? Which provider runs behind most? What time of day has the worst bottlenecks? Why do patients no-show?\n\nWithout data, you're guessing. With data, you're managing.\n\n**The insight gap:**\n\nEHRs generate data but don't present it usefully. Billing systems track revenue but not operations. Practice management systems show schedules but not flow.\n\nclinIQ connects the dots — from patient arrival through checkout, from scheduling through billing — to show what's actually happening.\n\n**Data-driven improvement:**\n\nPractices using operational analytics see:\n- 20-40% reduction in wait times\n- 10-15% improvement in provider productivity\n- 20-30% reduction in no-show rates\n- Significant improvements in patient satisfaction\n\nThe improvements come from visibility. Once you see the problem, you can fix it."
+    },
+    {
+      "id": "lobbyview",
+      "h2": "LobbyView: Real-Time Dashboards",
+      "content": "LobbyView is clinIQ's real-time operational dashboard. See what's happening right now.\n\n**What LobbyView shows:**\n\nPatient status:\n- Who's in the waiting room (and how long)\n- Who's in exam rooms (and with whom)\n- Who's checking out\n- Who's running late or hasn't arrived\n\nRoom status:\n- Which rooms are occupied, available, or in turnover\n- Time in current status\n- Assignment by provider\n\nProvider status:\n- Who's with patients\n- Who's between patients\n- Running behind or ahead of schedule\n\nPractice-wide metrics:\n- Total patients in building\n- Current average wait time\n- Bottleneck indicators\n\n**Display options:**\n\nWall displays: Large screens in clinical areas showing room status and patient queues.\n\nDesktop: Browser-based dashboard for staff workstations.\n\nMobile: Phone/tablet access for managers on the go.\n\nTV mode: Ambient display for break rooms showing practice-wide metrics.\n\n**Real-time alerts:**\n\nConfigurable alerts when thresholds are exceeded:\n- 'Waiting room average exceeds 15 minutes'\n- 'Room 3 has been in turnover for 10 minutes'\n- 'Dr. Jones is 20 minutes behind schedule'\n\nAlerts enable intervention before problems cascade."
+    },
+    {
+      "id": "wait-time-analytics",
+      "h2": "Wait Time Analytics",
+      "content": "Wait times are the #1 driver of patient satisfaction — and dissatisfaction. Measuring them is the first step to improving them.\n\n**Wait time components:**\n\nWaiting room wait: Check-in → rooming\nExam room wait: Rooming → provider entry\nTotal wait: Check-in → provider entry\nTotal visit time: Check-in → checkout\n\nEach component tells a different story. Long waiting room waits suggest rooming problems. Long room waits suggest provider delays.\n\n**Analytics available:**\n\nCurrent metrics:\n- Average wait right now\n- Longest current wait\n- Wait time by patient\n\nHistorical metrics:\n- Average wait by day of week\n- Average wait by time of day\n- Average wait by provider\n- Average wait by appointment type\n- Trend over time (weeks, months)\n\n**Pattern identification:**\n\nAnalytics reveal patterns:\n- 'Monday mornings average 22-minute waits; Tuesday mornings average 12 minutes'\n- 'New patient visits have 8-minute longer waits than follow-ups'\n- 'Dr. Smith's patients wait 35% longer than Dr. Jones's'\n\nPatterns suggest interventions:\n- Adjust Monday scheduling to reduce volume\n- Schedule new patients with buffer time\n- Review Dr. Smith's workflow\n\n**Benchmarking:**\n\nHow do you compare?\n- Excellent: < 10 minutes total wait\n- Good: 10-15 minutes\n- Average: 15-25 minutes\n- Needs improvement: > 25 minutes\n\nclinIQ shows where you stand and tracks improvement over time."
+    },
+    {
+      "id": "provider-productivity",
+      "h2": "Provider Productivity",
+      "content": "Provider productivity varies significantly — and that variation represents opportunity.\n\n**Productivity metrics:**\n\nVolume metrics:\n- Patients seen per day/week/month\n- Patients per hour of clinic time\n- RVUs generated\n\nTime metrics:\n- Average time per patient\n- Time per appointment type\n- Non-patient time (documentation, admin)\n\nEfficiency metrics:\n- Room utilization\n- On-time start rate\n- Schedule adherence\n\n**Provider comparison:**\n\nCompare providers on key metrics:\n- Dr. Smith sees 22 patients/day; Dr. Jones sees 18\n- Dr. Smith averages 14 minutes per patient; Dr. Jones averages 18\n- Dr. Smith runs 5 minutes behind on average; Dr. Jones runs 15 minutes behind\n\nComparison isn't about judgment — it's about identifying best practices and improvement opportunities.\n\n**Trend analysis:**\n\nTrack over time:\n- Is provider X seeing more or fewer patients?\n- Are visit times increasing or decreasing?\n- Is on-time performance improving?\n\n**Actionable insights:**\n\nProductivity data enables conversations:\n- 'You're running 15 minutes behind on average. Let's look at why.'\n- 'Your new patient visits take 50 minutes; the target is 45. What's happening?'\n- 'You have the highest patients per hour — what's your secret?'\n\nData removes defensiveness and focuses on improvement."
+    },
+    {
+      "id": "no-show-analytics",
+      "h2": "No-Show Analytics",
+      "content": "No-shows cost practices significant revenue. Understanding patterns enables reduction.\n\n**No-show metrics:**\n\nOverall rate:\n- Practice-wide no-show percentage\n- Trend over time\n\nSegmented rates:\n- By provider\n- By appointment type\n- By day of week\n- By time of day\n- By patient demographics\n- By lead time (days between scheduling and appointment)\n\n**Pattern identification:**\n\nCommon patterns:\n- Friday afternoons have highest no-show rates\n- New patients no-show more than established patients\n- Appointments scheduled 4+ weeks out no-show more than those scheduled within 2 weeks\n- Patients who don't confirm no-show at 3x the rate of those who confirm\n\n**Predictive indicators:**\n\nclinIQ can flag high no-show risk patients:\n- History of prior no-shows\n- Didn't confirm appointment\n- Long lead time\n- Certain appointment types\n\nHigh-risk patients can be:\n- Double-confirmed\n- Called day-of\n- Overbooked against\n\n**Intervention tracking:**\n\nMeasure the impact of no-show reduction efforts:\n- Did confirmation texts reduce no-shows?\n- Did shorter lead times help?\n- Which interventions work?"
+    },
+    {
+      "id": "revenue-metrics",
+      "h2": "Revenue Metrics",
+      "content": "Operational metrics connect to revenue. Understanding this connection drives financial improvement.\n\n**Capacity metrics:**\n\nScheduled capacity:\n- Appointment slots available\n- Slots booked vs. available\n- Utilization percentage\n\nActual throughput:\n- Patients actually seen\n- No-shows and cancellations\n- Same-day fills\n\nCapacity opportunity:\n- Empty slots that could have been filled\n- Lost revenue from no-shows\n- Potential from improved scheduling\n\n**RTM revenue tracking:**\n\nFor practices using RTM:\n- Patients enrolled\n- Patients meeting billing criteria\n- Monthly RTM revenue\n- Revenue per patient\n- Enrollment rate trends\n\n**Procedure metrics:**\n\nFor procedural practices:\n- Procedures per day/week\n- Procedure room utilization\n- Turnover time\n- Revenue per procedure\n\n**Revenue correlation:**\n\nConnect operational metrics to revenue:\n- 'Reducing wait times by 10 minutes correlates with 8% higher patient retention'\n- 'Each 1% reduction in no-shows = $X additional revenue'\n- 'Each additional patient per day = $Y annual revenue'"
+    },
+    {
+      "id": "custom-reports",
+      "h2": "Custom Reports",
+      "content": "Standard dashboards cover common needs. Custom reports address specific questions.\n\n**Report builder:**\n\nCreate custom reports by selecting:\n- Metrics to include\n- Time period\n- Filters (provider, location, appointment type)\n- Grouping and sorting\n- Visualization (table, chart, both)\n\n**Scheduled reports:**\n\nAutomate regular reporting:\n- Daily morning summary to practice manager\n- Weekly productivity report to providers\n- Monthly executive summary to owners\n- Quarterly trend analysis\n\nReports delivered via email or available in dashboard.\n\n**Export capabilities:**\n\nExport data for external analysis:\n- Excel/CSV export\n- PDF reports\n- Integration with BI tools\n\n**Common custom reports:**\n\n- Provider comparison scorecard\n- Weekly operations summary\n- Monthly trend report\n- No-show analysis\n- Wait time deep dive\n- RTM program performance\n- Authorization turnaround analysis"
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation",
+      "content": "Analytics implementation starts immediately — data begins flowing as soon as clinIQ is live.\n\n**Day 1:**\n\nReal-time dashboards work immediately:\n- Patient status visible\n- Room status visible\n- Wait times calculated\n\nNo historical data yet, but current operations are visible.\n\n**Week 1-2:**\n\nPatterns begin emerging:\n- Initial wait time baselines\n- Early productivity patterns\n- No-show tracking begins\n\n**Month 1:**\n\nMeaningful historical data:\n- Compare week over week\n- Identify day-of-week patterns\n- Establish benchmarks\n\n**Month 3+:**\n\nTrend analysis possible:\n- Are we improving?\n- Which interventions worked?\n- Where should we focus next?\n\n**Using analytics effectively:**\n\n1. Start with key metrics: Don't try to track everything. Pick 3-5 metrics that matter most.\n\n2. Review regularly: Weekly operations review using dashboards.\n\n3. Set goals: 'Reduce average wait time from 22 to 15 minutes in 3 months.'\n\n4. Track interventions: When you change something, measure the impact.\n\n5. Share results: Make metrics visible to staff. Celebrate improvements."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How quickly do we get data?",
+      "a": "Real-time data is available immediately. Historical trends require time to accumulate — meaningful patterns emerge within 2-4 weeks."
+    },
+    {
+      "q": "Can we customize dashboards?",
+      "a": "Yes. Select which metrics appear, set thresholds for alerts, and create custom views by role. Different users can have different default dashboards."
+    },
+    {
+      "q": "Does this replace our reporting from the EHR?",
+      "a": "clinIQ focuses on operational metrics — patient flow, wait times, productivity. EHR reports typically focus on clinical data. They're complementary, not duplicative."
+    },
+    {
+      "q": "Can we compare across locations?",
+      "a": "Yes. Multi-location practices can compare metrics across sites, identify best practices, and standardize operations."
+    },
+    {
+      "q": "How do you calculate wait times?",
+      "a": "Wait times are calculated from actual timestamps — check-in time, rooming time, provider entry time. No estimation or sampling."
+    },
+    {
+      "q": "Can providers see their own metrics?",
+      "a": "Yes, if you want them to. Provider access to their own productivity and wait time data is configurable. Some practices share openly; others limit access."
+    },
+    {
+      "q": "Do you benchmark against other practices?",
+      "a": "We can provide benchmarks based on specialty and practice type. This helps contextualize your performance — are your wait times good or bad compared to peers?"
+    },
+    {
+      "q": "Can we export data for our own analysis?",
+      "a": "Yes. Export to Excel/CSV for external analysis. Some practices integrate with BI tools for combined reporting with financial data."
+    }
+  ],
+  "cta": {
+    "headline": "See your practice in real-time",
+    "subhead": "15-minute demo. LobbyView dashboards, wait time analytics, provider productivity, custom reports.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "See Sample Dashboard", "href": "/resources/dashboard-demo" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "Real-time", "label": "visibility" },
+      { "value": "35%", "label": "wait time reduction" },
+      { "value": "12%", "label": "productivity improvement" }
+    ],
+    "testimonial": {
+      "quote": "We thought we knew how the practice was running. The data showed us we were wrong. Wait times were twice what we thought. Now we actually know — and we've cut them in half.",
+      "attribution": "Practice Administrator",
+      "practice": "Multi-specialty clinic, 12 providers",
+      "location": "Minnesota"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "Patient Flow Management",
+      "href": "/features/patient-flow",
+      "description": "Real-time patient tracking that feeds analytics."
+    },
+    {
+      "type": "blog",
+      "title": "Wait Time Analytics: What to Measure and Why",
+      "href": "/blog/wait-time-analytics",
+      "description": "Using wait time data to drive improvement."
+    },
+    {
+      "type": "blog",
+      "title": "Provider Productivity: Metrics That Matter",
+      "href": "/blog/provider-productivity-metrics",
+      "description": "Measuring and improving provider efficiency."
+    }
+  ],
+  "schema": {
+    "type": "SoftwareApplication",
+    "applicationCategory": "Medical Practice Management Software",
+    "operatingSystem": "Web-based",
+    "offers": {
+      "price": "499",
+      "priceCurrency": "USD"
+    }
+  }
+}
