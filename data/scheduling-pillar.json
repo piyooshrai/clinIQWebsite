@@ -1,0 +1,155 @@
+{
+  "slug": "scheduling",
+  "name": "Scheduling",
+  "pageType": "feature-pillar",
+  "wordCount": 3000,
+  "meta": {
+    "title": "Medical Scheduling Software | Smart Templates & Same-Day Access | clinIQ",
+    "description": "Complete guide to clinic scheduling. Smart templates by appointment type. Same-day access that actually works. Provider visibility. Overbooking rules. Waitlist automation.",
+    "keywords": ["medical scheduling software", "clinic scheduling", "appointment scheduling", "same-day access scheduling", "provider schedule management"]
+  },
+  "hero": {
+    "h1": "Scheduling",
+    "subhead": "Schedules that match reality. Templates by appointment type. Same-day access without chaos. Provider visibility into their day. Overbooking rules that protect capacity.",
+    "stats": [
+      { "value": "True", "label": "same-day access" },
+      { "value": "15%", "label": "capacity increase" },
+      { "value": "Zero", "label": "double-booking surprises" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "scheduling-problem", "title": "The Scheduling Problem" },
+    { "id": "appointment-types", "title": "Appointment Type Templates" },
+    { "id": "same-day-access", "title": "Same-Day Access" },
+    { "id": "provider-visibility", "title": "Provider Schedule Visibility" },
+    { "id": "overbooking-rules", "title": "Overbooking Rules" },
+    { "id": "waitlist", "title": "Waitlist Management" },
+    { "id": "scheduling-analytics", "title": "Scheduling Analytics" },
+    { "id": "implementation", "title": "Implementation" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "scheduling-problem",
+      "h2": "The Scheduling Problem",
+      "content": "Scheduling is the foundation of practice operations. Bad scheduling creates cascading problems all day.\n\n**The template mismatch:**\n\nSchedules are built with uniform time slots — 15 minutes each. But visits aren't uniform. A new patient takes 45 minutes. A follow-up takes 15 minutes. A procedure takes 30 minutes. When a 45-minute visit is booked in a 15-minute slot, the day falls apart.\n\n**The same-day access illusion:**\n\nEvery practice says they offer same-day access. Few actually deliver. The 'same-day slots' are gone by 9 AM. Patients are told to call back tomorrow or go to urgent care. Same-day access exists in policy but not practice.\n\n**The visibility problem:**\n\nProviders don't see their schedule until they're in it. They don't know the 10:00 AM patient is a complex new patient who will take an hour. They don't know the afternoon has three procedures back-to-back. No way to prepare, plan, or adjust.\n\n**The no-show gap:**\n\nNo-shows create holes in the schedule. Those holes aren't filled because no one knows about them until the patient doesn't show. The provider has dead time. Revenue is lost.\n\n**The math:**\n\nPoor scheduling costs 10-20% of potential capacity. A provider who could see 25 patients sees 20-22. At $150/visit average, that's $450-750/day lost. Over a year: $100,000-180,000 per provider."
+    },
+    {
+      "id": "appointment-types",
+      "h2": "Appointment Type Templates",
+      "content": "Different appointment types need different time allocations. Templates make this automatic.\n\n**Example appointment types:**\n\nPrimary care:\n- New patient: 45 minutes\n- Established follow-up: 20 minutes\n- Acute/sick visit: 15 minutes\n- Annual wellness: 30 minutes\n- Procedure (IUD, biopsy): 30 minutes\n\nSpecialty:\n- New patient consultation: 60 minutes\n- Follow-up: 20-30 minutes\n- Procedure: Variable by procedure type\n- Post-op: 15 minutes\n\n**Template configuration:**\n\nEach appointment type has:\n- Default duration\n- Room requirements (any room vs. procedure room)\n- Equipment needs (if applicable)\n- Provider types who can see (MD, NP, PA)\n- Prep time before/after (if needed)\n\n**Scheduling enforcement:**\n\nWhen a scheduler books a 'new patient,' the system automatically blocks 45 minutes. No manual calculation. No forgetting to block extra time. The template handles it.\n\n**The benefit:**\n\nSchedules match reality. A provider with four new patients knows they have 3 hours committed. A day with all follow-ups has different capacity than a day with procedures.\n\nNo more surprises. No more 'why am I so behind?' The schedule told the truth from the start."
+    },
+    {
+      "id": "same-day-access",
+      "h2": "Same-Day Access",
+      "content": "True same-day access requires more than reserving slots. It requires dynamic capacity management.\n\n**Why traditional same-day fails:**\n\nFixed same-day slots: Reserve 2 slots at 9 AM and 2 PM.\nProblem: Slots fill by 9 AM. Anyone calling after is turned away.\n\n**Dynamic same-day access:**\n\nInstead of fixed slots, identify capacity throughout the day:\n\n- Which appointments are running shorter than scheduled?\n- Which patients are likely to no-show?\n- Where are natural gaps?\n- Which providers have flexibility?\n\n**What clinIQ does:**\n\nReal-time capacity view:\n- Dr. Smith has 15 minutes available at 2:30 (running ahead)\n- Dr. Jones has a high no-show probability patient at 11:00\n- MA schedule allows one more room at 10:30\n\nWhen a same-day request comes in, schedulers see actual capacity — not just pre-reserved slots.\n\n**No-show backfill:**\n\nNo-shows are detected early (patient didn't confirm, didn't check in). Waitlist patients are notified automatically. Slots fill before they go empty.\n\n**The patient experience:**\n\nPatient calls at 2 PM: 'I need to be seen today.'\n\nOld response: 'We don't have anything. Try tomorrow or urgent care.'\n\nNew response: 'We have an opening at 4:15 with Dr. Smith. Does that work?'\n\nThat difference builds loyalty and prevents urgent care leakage."
+    },
+    {
+      "id": "provider-visibility",
+      "h2": "Provider Schedule Visibility",
+      "content": "Providers perform better when they can see what's coming.\n\n**Schedule visibility:**\n\nProviders see their day at a glance:\n- Patient names and appointment types\n- Chief complaints (for sick visits)\n- Flags (new patient, complex, Spanish-speaking, etc.)\n- Time allocated per visit\n- Prep needed (labs to review, imaging to check)\n\n**Tomorrow view:**\n\nBefore leaving for the day, providers can review tomorrow:\n- What's on the schedule?\n- Which patients need chart prep?\n- Any complex cases to plan for?\n- Any schedule issues to address?\n\n**Mobile access:**\n\nProviders can check schedule from home:\n- What time is my first patient?\n- Who's on my afternoon?\n- Did anything change overnight?\n\n**Running-late visibility:**\n\nProviders see their position:\n- 'You're 12 minutes behind'\n- 'Next patient has been waiting 8 minutes'\n- Real-time feedback enables adjustment\n\n**Schedule modification:**\n\nProviders can request changes:\n- Move this patient to another day\n- Add buffer after this complex patient\n- Block time for admin work\n\nRequests route to scheduling for action."
+    },
+    {
+      "id": "overbooking-rules",
+      "h2": "Overbooking Rules",
+      "content": "Some overbooking is necessary to maximize capacity. Uncontrolled overbooking creates chaos.\n\n**Why overbook:**\n\nNo-show rates of 10-20% mean empty slots. If you book exactly to capacity, you operate at 80-90% due to no-shows. Strategic overbooking fills those gaps.\n\n**Overbooking rules:**\n\nclinIQ allows configurable overbooking:\n\nBy time of day:\n- Allow overbooking in high no-show periods (Monday morning, Friday afternoon)\n- Restrict overbooking in low no-show periods\n\nBy appointment type:\n- Quick visits (follow-ups) can be overbooked\n- Long visits (new patients, procedures) cannot\n\nBy provider:\n- Fast providers can handle overbooking\n- Slower providers cannot\n\nBy patient:\n- High no-show probability patients can be overbooked\n- Reliable patients are not overbooked against\n\n**Overbooking limits:**\n\nSet maximum overbooking per hour or per day:\n- Maximum 1 overbook per 2-hour block\n- Maximum 3 overbooks per provider per day\n- Never overbook procedures\n\n**Visibility:**\n\nSchedulers see when overbooking is allowed vs. when capacity is truly full. Prevents both under-booking (lost capacity) and over-booking (chaos)."
+    },
+    {
+      "id": "waitlist",
+      "h2": "Waitlist Management",
+      "content": "Waitlists fill cancellations and no-shows — but only if managed actively.\n\n**Traditional waitlist problems:**\n\nPaper lists get lost. Staff forgets to call. By the time someone calls the waitlist, the patient made other plans. Slots stay empty.\n\n**Automated waitlist:**\n\nPatient requests earlier appointment → added to waitlist with preferences:\n- Days available\n- Times available\n- How much notice needed\n- Contact method (text, call)\n\nWhen slot opens (cancellation, no-show detected):\n- System checks waitlist for matching patients\n- Sends automatic text: 'An opening is available tomorrow at 10 AM. Reply YES to book.'\n- Patient replies YES → automatically booked\n- No response → next waitlist patient notified\n\n**Speed matters:**\n\nCancellations need to be filled within hours, not days. Automated notification fills slots before they go empty.\n\n**Waitlist analytics:**\n\nTrack waitlist effectiveness:\n- How many slots filled from waitlist?\n- Average time to fill?\n- Which patients accept offers?\n- Where are waitlist demand patterns?"
+    },
+    {
+      "id": "scheduling-analytics",
+      "h2": "Scheduling Analytics",
+      "content": "Data drives scheduling improvement.\n\n**Key metrics:**\n\nTemplate accuracy:\n- Scheduled duration vs. actual duration\n- Which appointment types run long?\n- Which providers are fast/slow?\n\nCapacity utilization:\n- Slots available vs. slots booked\n- No-show rate by day, time, provider\n- Same-day fill rate\n\nAccess metrics:\n- Third next available appointment\n- Same-day access rate\n- Appointment lead time by type\n\n**Pattern identification:**\n\n- Monday mornings have 25% no-show rate → overbook Mondays\n- New patients average 52 minutes, not 45 → adjust template\n- Dr. Jones runs 15% longer than Dr. Smith → different templates\n\n**Continuous improvement:**\n\nScheduling isn't set-and-forget. Monthly review of metrics drives adjustment:\n- Update templates based on actual times\n- Adjust overbooking based on no-show patterns\n- Modify same-day strategy based on demand"
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation",
+      "content": "Scheduling implementation builds on existing patterns but improves them.\n\n**Implementation steps:**\n\nWeek 1: Analysis\n- Review current appointment types and durations\n- Analyze actual visit lengths (if data available)\n- Identify pain points and goals\n\nWeek 2: Configuration\n- Configure appointment type templates\n- Set overbooking rules\n- Configure waitlist automation\n- Set up provider views\n\nWeek 3: Training and Testing\n- Train schedulers on new system\n- Test scheduling workflow\n- Refine templates based on feedback\n\nWeek 4: Go-Live\n- Start scheduling in new system\n- Monitor for issues\n- Support schedulers through transition\n\n**Transition approach:**\n\nOption 1: New appointments only\nExisting appointments stay in old system. New appointments use new system. Clean cutover after old appointments complete.\n\nOption 2: Full migration\nMigrate existing appointments to new system. Requires data conversion.\n\nOption 3: Parallel\nRun both systems briefly. Validate new system before cutting over.\n\n**ROI:**\n\nCapacity increase: 10-15% more patients with same provider time\n\nNo-show recovery: 30-50% of no-show slots filled via waitlist\n\nSame-day access: True same-day availability improves patient retention\n\nTypical value: $50,000-150,000 per provider annually"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does this replace our EHR scheduling?",
+      "a": "clinIQ can work alongside EHR scheduling or replace it, depending on your EHR. Many practices use clinIQ for scheduling intelligence while appointments sync to the EHR."
+    },
+    {
+      "q": "How do appointment templates work?",
+      "a": "Each appointment type has a default duration and rules. When scheduling, select the type and the system allocates correct time. No manual calculation needed."
+    },
+    {
+      "q": "Can we customize overbooking rules?",
+      "a": "Yes. Rules can be set by time of day, appointment type, provider, and patient characteristics. Set limits to prevent over-overbooking."
+    },
+    {
+      "q": "How does the waitlist automation work?",
+      "a": "When a slot opens, matching waitlist patients receive automatic text notification. They reply to book. No staff calling required."
+    },
+    {
+      "q": "Can providers see and modify their schedules?",
+      "a": "Yes. Providers see their full schedule with patient details. They can request changes that route to scheduling for action."
+    },
+    {
+      "q": "What about recurring appointments?",
+      "a": "Recurring appointments (weekly therapy, monthly injections) can be scheduled as a series with consistent timing."
+    },
+    {
+      "q": "How do you handle multiple locations?",
+      "a": "Each location has its own schedule configuration. Providers working at multiple locations have unified visibility."
+    },
+    {
+      "q": "Can patients self-schedule?",
+      "a": "Yes. Patient self-scheduling can be enabled for appropriate appointment types. Patients book online; appointments appear on provider schedule."
+    }
+  ],
+  "cta": {
+    "headline": "See scheduling that matches reality",
+    "subhead": "15-minute demo. Appointment templates, same-day access, overbooking rules, waitlist automation.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "See Scheduling Features", "href": "/resources/scheduling-demo" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "15%", "label": "capacity increase" },
+      { "value": "42%", "label": "waitlist fill rate" },
+      { "value": "True", "label": "same-day access" }
+    ],
+    "testimonial": {
+      "quote": "We stopped saying 'we don't have anything today.' Schedulers can see actual capacity and find same-day slots that didn't exist before.",
+      "attribution": "Scheduling Manager",
+      "practice": "Internal medicine, 6 providers",
+      "location": "California"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "Patient Flow Management",
+      "href": "/features/patient-flow",
+      "description": "See where patients are once scheduled."
+    },
+    {
+      "type": "blog",
+      "title": "Same-Day Access: Making It Actually Work",
+      "href": "/blog/same-day-access-scheduling",
+      "description": "Dynamic capacity management for real same-day availability."
+    },
+    {
+      "type": "blog",
+      "title": "Appointment Templates: Getting Duration Right",
+      "href": "/blog/appointment-templates-duration",
+      "description": "Matching scheduled time to actual visit duration."
+    }
+  ],
+  "schema": {
+    "type": "SoftwareApplication",
+    "applicationCategory": "Medical Practice Management Software",
+    "operatingSystem": "Web-based",
+    "offers": {
+      "price": "499",
+      "priceCurrency": "USD"
+    }
+  }
+}
