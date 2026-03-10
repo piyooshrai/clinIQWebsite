@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
 import s from '@/app/specialties/specialty-full.module.css'
+import f from './features.module.css'
 
 export const metadata: Metadata = {
   title: 'clinIQ Features — Patient Flow, Check-In, RTM, Pre-Auth, Scheduling, Analytics',
@@ -182,68 +183,19 @@ export default function FeaturesPage() {
             <div className={s.modulesGrid}>
               {FEATURES.map(({ number, title, problem, solution, bullets, href }) => (
                 <div key={number} className={s.moduleCard}>
-                  <div
-                    style={{
-                      fontSize: '13px',
-                      fontWeight: 600,
-                      letterSpacing: '0.08em',
-                      color: 'var(--teal)',
-                      marginBottom: '12px',
-                    }}
-                  >
-                    {number}
-                  </div>
+                  <div className={f.featureNumber}>{number}</div>
                   <h2 className={s.moduleTitle}>{title}</h2>
-                  <p
-                    style={{
-                      fontSize: '13px',
-                      fontWeight: 500,
-                      color: 'var(--gray-500, #6b7280)',
-                      marginBottom: '12px',
-                      fontStyle: 'italic',
-                    }}
-                  >
-                    The problem: {problem}
-                  </p>
+                  <p className={f.featureProblem}>The problem: {problem}</p>
                   <p className={s.moduleDesc}>{solution}</p>
-                  <ul
-                    style={{
-                      listStyle: 'none',
-                      padding: 0,
-                      margin: '20px 0 0',
-                      display: 'flex',
-                      flexDirection: 'column',
-                      gap: '8px',
-                    }}
-                  >
+                  <ul className={f.featureBullets}>
                     {bullets.map((b) => (
-                      <li
-                        key={b}
-                        style={{
-                          fontSize: '14px',
-                          color: 'var(--gray-700, #374151)',
-                          display: 'flex',
-                          alignItems: 'flex-start',
-                          gap: '8px',
-                        }}
-                      >
-                        <span
-                          style={{
-                            display: 'inline-block',
-                            width: '6px',
-                            height: '6px',
-                            borderRadius: '50%',
-                            background: 'var(--teal)',
-                            marginTop: '6px',
-                            flexShrink: 0,
-                          }}
-                          aria-hidden="true"
-                        />
+                      <li key={b} className={f.featureBulletItem}>
+                        <span className={f.featureBulletDot} aria-hidden="true" />
                         {b}
                       </li>
                     ))}
                   </ul>
-                  <a href={href} className={s.moduleLink} style={{ marginTop: '24px' }}>
+                  <a href={href} className={`${s.moduleLink} ${f.featureLink}`}>
                     Deep dive into {title}
                     <svg width="14" height="14" viewBox="0 0 20 20" fill="none" aria-hidden="true">
                       <path d="M4 10h12m-4-4l4 4-4 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />

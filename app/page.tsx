@@ -6,7 +6,7 @@ import Features from '@/components/Features'
 import Stats from '@/components/Stats'
 import Testimonial from '@/components/Testimonial'
 import CTA from '@/components/CTA'
-import Footer from '@/components/Footer'
+import FooterInner from '@/components/FooterInner'
 
 export const metadata: Metadata = {
   title: 'clinIQ – Clinic Operations Platform | Real-Time Patient Flow',
@@ -99,7 +99,7 @@ export default function Home() {
         <Stats />
         <Testimonial />
         <CTA />
-        <Footer />
+        <FooterInner />
       </main>
     </>
   )
