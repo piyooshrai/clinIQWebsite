@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description:
       'Generic scheduling tools fill your calendar. clinIQ manages the operational reality that begins the moment the patient walks in — and captures the revenue that depends on it.',
     type: 'website',
-    url: 'https://cliniq.com/compare/generic-scheduling',
+    url: 'https://cliniqhealthcare.com/compare/generic-scheduling',
   },
 }
 
@@ -27,13 +27,13 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniq.com' },
-    { '@type': 'ListItem', position: 2, name: 'Compare', item: 'https://cliniq.com/compare' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniqhealthcare.com' },
+    { '@type': 'ListItem', position: 2, name: 'Compare', item: 'https://cliniqhealthcare.com/compare' },
     {
       '@type': 'ListItem',
       position: 3,
       name: 'clinIQ vs Generic Scheduling',
-      item: 'https://cliniq.com/compare/generic-scheduling',
+      item: 'https://cliniqhealthcare.com/compare/generic-scheduling',
     },
   ],
 }
@@ -224,7 +224,7 @@ export default function GenericSchedulingPage() {
 
         {/* Feature Table */}
         <section style={{ padding: '5rem 1.5rem', background: 'var(--cream, #f5f3ef)' }}>
-          <div style={{ maxWidth: '900px', margin: '0 auto' }}>
+          <div style={{ maxWidth: '900px', margin: '0 auto', overflowX: 'auto' }}>
             <h2
               style={{
                 fontFamily: "'Instrument Serif', Georgia, serif",

@@ -47,6 +47,30 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
+/* ── Skip navigation link ───────────────────────────────────────────────────── */
+.skip-link {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%) translateY(-100%);
+  z-index: 99999;
+  padding: 0.875rem 2rem;
+  background: var(--teal);
+  color: var(--white);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 0 0 12px 12px;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  white-space: nowrap;
+}
+
+.skip-link:focus {
+  transform: translateX(-50%) translateY(0);
+  outline: 3px solid var(--white);
+  outline-offset: 2px;
+}
+
 /* Homepage body — dark background, Söhne font */
 body {
   font-family: var(--font-sans), 'SF Pro Display', 'Inter', -apple-system, sans-serif;
@@ -116,8 +140,7 @@ body::before {
 
 @keyframes marquee {
   from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
-  to   { opacity: 1; transform: translateY(0); }
+  to   { transform: translateX(-50%); }
 }
 
 @keyframes blink {
@@ -207,11 +230,6 @@ body::before {
   background: rgba(255, 255, 255, 0.05);
 }
 
-@keyframes marquee {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
-}
-
 /* ==================== INNER PAGE BUTTONS ==================== */
 /* From cliniq-page-template.html */
 .btn-inner {
@@ -273,4 +291,40 @@ body::before {
 .btn-inner-teal-ghost:hover {
   background: rgba(13, 148, 136, 0.06);
   border-color: var(--teal);
+}
+
+/* ── Global focus-visible styles ────────────────────────────────────────────── */
+/* Provide visible focus rings on all interactive elements.                      */
+/* Dark pages use a white + teal double ring; light pages use teal.              */
+
+:focus-visible {
+  outline: 2px solid var(--teal-light);
+  outline-offset: 3px;
+}
+
+/* Ensure buttons and links always show focus ring */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--teal-light);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Remove default outline only where focus-visible replaces it */
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* ── Reduced-motion ──────────────────────────────────────────────────────────── */
+/* Stop all animations/transitions for users who have requested it.              */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

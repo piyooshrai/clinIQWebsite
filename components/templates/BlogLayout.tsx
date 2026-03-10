@@ -11,7 +11,10 @@ export interface BlogLayoutProps {
   category: string
   categorySlug: string
   slug: string
+  /** Display date shown to readers, e.g. "March 2026" */
   date: string
+  /** ISO 8601 date for structured data, e.g. "2026-03-01" */
+  datePublished: string
   readTime: string
   children: ReactNode
   ctaLabel?: string
@@ -24,6 +27,7 @@ export default function BlogLayout({
   categorySlug,
   slug,
   date,
+  datePublished,
   readTime,
   children,
   ctaLabel,
@@ -33,33 +37,33 @@ export default function BlogLayout({
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: title,
-    datePublished: date,
-    url: `https://cliniq.com/blog/${slug}`,
+    datePublished,
+    url: `https://cliniqhealthcare.com/blog/${slug}`,
     publisher: {
       '@type': 'Organization',
       name: 'clinIQ',
-      logo: { '@type': 'ImageObject', url: 'https://cliniq.com/logo.png' },
+      logo: { '@type': 'ImageObject', url: 'https://cliniqhealthcare.com/logo.png' },
     },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://cliniq.com/blog/${slug}` },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://cliniqhealthcare.com/blog/${slug}` },
   }
 
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniq.com' },
-      { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://cliniq.com/blog' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniqhealthcare.com' },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://cliniqhealthcare.com/blog' },
       {
         '@type': 'ListItem',
         position: 3,
         name: category,
-        item: `https://cliniq.com/blog/category/${categorySlug}`,
+        item: `https://cliniqhealthcare.com/blog/category/${categorySlug}`,
       },
       {
         '@type': 'ListItem',
         position: 4,
         name: title,
-        item: `https://cliniq.com/blog/${slug}`,
+        item: `https://cliniqhealthcare.com/blog/${slug}`,
       },
     ],
   }

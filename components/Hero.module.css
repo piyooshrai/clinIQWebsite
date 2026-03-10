@@ -426,7 +426,7 @@
 }
 
 @media (max-width: 768px) {
-  .hero   { padding: 140px 24px 100px; }
+  .hero   { padding: 80px 24px 60px; }
   .ctaRow { flex-direction: column; align-items: flex-start; }
   .visual { display: none; }
 }

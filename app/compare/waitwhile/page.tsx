@@ -27,9 +27,9 @@ const schemaData = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniq.com' },
-      { '@type': 'ListItem', position: 2, name: 'Compare', item: 'https://cliniq.com/compare' },
-      { '@type': 'ListItem', position: 3, name: 'clinIQ vs Waitwhile', item: 'https://cliniq.com/compare/waitwhile' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniqhealthcare.com' },
+      { '@type': 'ListItem', position: 2, name: 'Compare', item: 'https://cliniqhealthcare.com/compare' },
+      { '@type': 'ListItem', position: 3, name: 'clinIQ vs Waitwhile', item: 'https://cliniqhealthcare.com/compare/waitwhile' },
     ],
   },
   faq: {
@@ -211,7 +211,7 @@ export default function WaitwhilePage() {
 
         {/* Comparison table */}
         <section style={{ padding: '5rem 1.5rem', background: 'var(--cream, #f5f3ef)' }}>
-          <div style={{ maxWidth: '900px', margin: '0 auto' }}>
+          <div style={{ maxWidth: '900px', margin: '0 auto', overflowX: 'auto' }}>
             <h2 style={{ fontSize: '2rem', fontWeight: 800, marginBottom: '2rem', textAlign: 'center' }}>
               Feature comparison
             </h2>

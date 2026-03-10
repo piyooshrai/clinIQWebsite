@@ -9,6 +9,14 @@ export const metadata: Metadata = {
   title: 'About clinIQ — The Algorithm LLC',
   description:
     'clinIQ is a clinic operations platform built by The Algorithm LLC. Patient flow, check-in, RTM billing — the operational layer your EHR doesn\'t handle.',
+  alternates: { canonical: 'https://cliniqhealthcare.com/about' },
+  openGraph: {
+    title: 'About clinIQ — The Algorithm LLC',
+    description:
+      'clinIQ is a clinic operations platform built by The Algorithm LLC. Patient flow, check-in, RTM billing — the operational layer your EHR doesn\'t handle.',
+    type: 'website',
+    url: 'https://cliniqhealthcare.com/about',
+  },
 }
 
 export default function AboutPage() {

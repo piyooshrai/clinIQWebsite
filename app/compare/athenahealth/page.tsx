@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description:
       'athenahealth handles documentation beautifully. clinIQ handles what is happening right now — room status, queue bottlenecks, check-in, RTM billing, and real-time analytics.',
     type: 'website',
-    url: 'https://cliniq.com/compare/athenahealth',
+    url: 'https://cliniqhealthcare.com/compare/athenahealth',
   },
 }
 
@@ -27,13 +27,13 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniq.com' },
-    { '@type': 'ListItem', position: 2, name: 'Compare', item: 'https://cliniq.com/compare' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniqhealthcare.com' },
+    { '@type': 'ListItem', position: 2, name: 'Compare', item: 'https://cliniqhealthcare.com/compare' },
     {
       '@type': 'ListItem',
       position: 3,
       name: 'clinIQ vs athenahealth',
-      item: 'https://cliniq.com/compare/athenahealth',
+      item: 'https://cliniqhealthcare.com/compare/athenahealth',
     },
   ],
 }
@@ -224,7 +224,7 @@ export default function AthenahealthPage() {
 
         {/* Feature Table */}
         <section style={{ padding: '5rem 1.5rem', background: 'var(--cream, #f5f3ef)' }}>
-          <div style={{ maxWidth: '900px', margin: '0 auto' }}>
+          <div style={{ maxWidth: '900px', margin: '0 auto', overflowX: 'auto' }}>
             <h2
               style={{
                 fontFamily: "'Instrument Serif', Georgia, serif",

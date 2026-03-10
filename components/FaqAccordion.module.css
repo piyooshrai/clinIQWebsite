@@ -36,6 +36,12 @@
   background: var(--cream, #f5f3ef);
 }
 
+.question:focus-visible {
+  outline: 3px solid var(--teal);
+  outline-offset: -3px;
+  border-radius: 0;
+}
+
 .chevron {
   flex-shrink: 0;
   color: var(--teal);

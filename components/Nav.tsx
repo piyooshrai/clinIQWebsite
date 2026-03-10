@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
 import styles from './Nav.module.css'
 import LanguageSwitcher from './LanguageSwitcher'
@@ -269,13 +269,45 @@ export default function Nav() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const [openSection, setOpenSection] = useState<string | null>(null)
+  // Tracks which desktop dropdown is open (keyboard / click driven)
+  const [desktopOpen, setDesktopOpen] = useState<string | null>(null)
+
+  const navRef = useRef<HTMLElement>(null)
+  const triggerRefs = useRef<Record<string, HTMLButtonElement | null>>({})
+  const dropdownRefs = useRef<Record<string, HTMLDivElement | null>>({})
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50)
-    onScroll() // initialize on mount in case page loads already scrolled
+    onScroll()
     window.addEventListener('scroll', onScroll, { passive: true })
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
+
+  // Close desktop dropdown on click outside the nav
+  useEffect(() => {
+    if (!desktopOpen) return
+    function onMouseDown(e: MouseEvent) {
+      if (navRef.current && !navRef.current.contains(e.target as Node)) {
+        setDesktopOpen(null)
+      }
+    }
+    document.addEventListener('mousedown', onMouseDown)
+    return () => document.removeEventListener('mousedown', onMouseDown)
+  }, [desktopOpen])
+
+  // Close desktop dropdown on Escape and return focus to trigger
+  useEffect(() => {
+    if (!desktopOpen) return
+    function onKeyDown(e: KeyboardEvent) {
+      if (e.key === 'Escape') {
+        const trigger = triggerRefs.current[desktopOpen!]
+        setDesktopOpen(null)
+        trigger?.focus()
+      }
+    }
+    document.addEventListener('keydown', onKeyDown)
+    return () => document.removeEventListener('keydown', onKeyDown)
+  }, [desktopOpen])
 
   function closeMobile() {
     setMobileOpen(false)
@@ -286,9 +318,42 @@ export default function Nav() {
     setOpenSection(openSection === label ? null : label)
   }
 
+  function handleDesktopTriggerClick(label: string) {
+    setDesktopOpen(prev => (prev === label ? null : label))
+  }
+
+  function handleDesktopTriggerKeyDown(e: React.KeyboardEvent<HTMLButtonElement>, label: string) {
+    if (e.key === 'ArrowDown') {
+      e.preventDefault()
+      setDesktopOpen(label)
+      requestAnimationFrame(() => {
+        dropdownRefs.current[label]?.querySelector<HTMLElement>('a')?.focus()
+      })
+    }
+  }
+
+  function handleDropdownKeyDown(e: React.KeyboardEvent<HTMLDivElement>, label: string) {
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      e.preventDefault()
+      const dropdown = dropdownRefs.current[label]
+      if (!dropdown) return
+      const links = Array.from(dropdown.querySelectorAll<HTMLElement>('a'))
+      const idx = links.indexOf(document.activeElement as HTMLElement)
+      if (e.key === 'ArrowDown') {
+        links[Math.min(idx + 1, links.length - 1)]?.focus()
+      } else {
+        if (idx <= 0) {
+          triggerRefs.current[label]?.focus()
+        } else {
+          links[idx - 1]?.focus()
+        }
+      }
+    }
+  }
+
   return (
     <>
-      <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
+      <nav ref={navRef} className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
         <div className={styles.container}>
           <Link href="/" className={styles.logo} onClick={closeMobile}>
             <span className={styles.logoClin}>clin</span>
@@ -297,19 +362,46 @@ export default function Nav() {
 
           {/* Desktop nav */}
           <div className={styles.links}>
-            {NAV_SECTIONS.map((section) => (
-              <div key={section.label} className={styles.navItem}>
-                <button className={styles.navTrigger} type="button" aria-haspopup="true">
-                  {section.label}
-                  <ChevronIcon />
-                </button>
+            {NAV_SECTIONS.map((section) => {
+              const isOpen = desktopOpen === section.label
+              const dropdownId = `nav-dropdown-${section.label.toLowerCase()}`
+              return (
+                <div
+                  key={section.label}
+                  className={styles.navItem}
+                  onBlur={(e) => {
+                    // Close when focus moves outside this nav item
+                    if (!e.currentTarget.contains(e.relatedTarget)) {
+                      if (desktopOpen === section.label) setDesktopOpen(null)
+                    }
+                  }}
+                >
+                  <button
+                    ref={el => { triggerRefs.current[section.label] = el }}
+                    className={styles.navTrigger}
+                    type="button"
+                    aria-haspopup="true"
+                    aria-expanded={isOpen}
+                    aria-controls={dropdownId}
+                    onClick={() => handleDesktopTriggerClick(section.label)}
+                    onKeyDown={(e) => handleDesktopTriggerKeyDown(e, section.label)}
+                  >
+                    {section.label}
+                    <ChevronIcon open={isOpen} />
+                  </button>
 
-                <div className={`${styles.dropdown} ${section.grouped ? styles.dropdownWide : ''}`}>
-                  {section.flat && <FlatDropdown links={section.flat} />}
-                  {section.grouped && <GroupedDropdown groups={section.grouped} />}
+                  <div
+                    ref={el => { dropdownRefs.current[section.label] = el }}
+                    id={dropdownId}
+                    className={`${styles.dropdown} ${section.grouped ? styles.dropdownWide : ''} ${isOpen ? styles.dropdownOpen : ''}`}
+                    onKeyDown={(e) => handleDropdownKeyDown(e, section.label)}
+                  >
+                    {section.flat && <FlatDropdown links={section.flat} />}
+                    {section.grouped && <GroupedDropdown groups={section.grouped} />}
+                  </div>
                 </div>
-              </div>
-            ))}
+              )
+            })}
           </div>
 
           <div className={styles.cta}>

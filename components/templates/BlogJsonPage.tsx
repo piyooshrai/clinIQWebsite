@@ -1,4 +1,5 @@
-import type { ReactNode } from 'react'
+import type { Metadata } from 'next'
+import { renderBody } from '@/lib/renderContent'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
 import BlogHero from '@/components/BlogHero'
@@ -22,6 +23,32 @@ export interface BlogPostData {
   cta: { headline: string; subhead: string; primaryButton: { label: string; href: string } }
 }
 
+// ── Metadata helper ───────────────────────────────────────────────────────────
+// Export so each blog page.tsx can call: export const metadata = generateBlogMetadata(data)
+
+const BASE_URL = 'https://cliniqhealthcare.com'
+
+export function generateBlogMetadata(data: BlogPostData): Metadata {
+  const url = `${BASE_URL}/blog/${data.slug}`
+  return {
+    title: data.meta.title,
+    description: data.meta.description,
+    alternates: { canonical: url },
+    openGraph: {
+      title: data.meta.title,
+      description: data.meta.description,
+      type: 'article',
+      publishedTime: data.publishDate,
+      url,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: data.meta.title,
+      description: data.meta.description,
+    },
+  }
+}
+
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
 function formatDate(iso: string): string {
@@ -37,110 +64,28 @@ function readTime(wordCount: number): string {
   return `${Math.ceil(wordCount / 200)} min`
 }
 
-// ── Inline markdown renderer ──────────────────────────────────────────────────
-
-function renderInline(text: string): ReactNode {
-  const parts = text.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\))/)
-  return (
-    <>
-      {parts.map((part, i) => {
-        if (part.startsWith('**') && part.endsWith('**')) {
-          return <strong key={i}>{part.slice(2, -2)}</strong>
-        }
-        const m = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/)
-        if (m) {
-          return (
-            <a key={i} href={m[2]} className={css.inlineLink}>
-              {m[1]}
-            </a>
-          )
-        }
-        return part || null
-      })}
-    </>
-  )
-}
-
-// ── Body renderer ─────────────────────────────────────────────────────────────
-// Handles: bullet lists, numbered lists, bold-header + description blocks, paragraphs.
-
-function renderBody(body: string): ReactNode[] {
-  const blocks = body.split('\n\n')
-  return blocks.flatMap((block, idx) => {
-    const trimmed = block.trim()
-    if (!trimmed) return []
-
-    const lines = trimmed.split('\n').filter((l) => l.trim())
-
-    // Pure bullet list (all lines start with •)
-    if (lines.every((l) => l.trimStart().startsWith('•'))) {
-      return [(
-        <ul key={idx} className={css.bodyList}>
-          {lines.map((b, j) => (
-            <li key={j}>{renderInline(b.replace(/^[•\s]+/, ''))}</li>
-          ))}
-        </ul>
-      )]
-    }
-
-    // Bold-only first line + more lines below (sub-section header block)
-    const firstLine = lines[0]
-    const isBoldHeader =
-      firstLine.startsWith('**') && firstLine.endsWith('**') && lines.length > 1
-
-    if (isBoldHeader) {
-      const headerText = firstLine.slice(2, -2)
-      const restLines = lines.slice(1)
-
-      // Numbered list items after bold header
-      if (restLines.every((l) => /^\d+\./.test(l.trim()))) {
-        return [(
-          <div key={idx} className={css.bodyBlock}>
-            <p className={css.bodyBlockHeader}><strong>{headerText}</strong></p>
-            <ol className={css.bodyOL}>
-              {restLines.map((l, j) => (
-                <li key={j}>{renderInline(l.replace(/^\d+\.\s*/, ''))}</li>
-              ))}
-            </ol>
-          </div>
-        )]
-      }
-
-      // Bullet items after bold header
-      if (restLines.every((l) => l.trimStart().startsWith('•'))) {
-        return [(
-          <div key={idx} className={css.bodyBlock}>
-            <p className={css.bodyBlockHeader}><strong>{headerText}</strong></p>
-            <ul className={css.bodyList}>
-              {restLines.map((l, j) => (
-                <li key={j}>{renderInline(l.replace(/^[•\s]+/, ''))}</li>
-              ))}
-            </ul>
-          </div>
-        )]
-      }
-
-      // Regular description text after bold header
-      return [(
-        <div key={idx} className={css.bodyBlock}>
-          <p className={css.bodyBlockHeader}><strong>{headerText}</strong></p>
-          <p className={css.bodyBlockText}>{renderInline(restLines.join(' '))}</p>
-        </div>
-      )]
-    }
-
-    // Regular paragraph
-    return [(<p key={idx} className={css.bodyP}>{renderInline(trimmed)}</p>)]
-  })
-}
-
 // ── Component ─────────────────────────────────────────────────────────────────
 
 export default function BlogJsonPage({ data }: { data: BlogPostData }) {
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: data.hero.h1,
+    description: data.meta.description,
+    datePublished: data.publishDate,
+    author: { '@type': 'Person', name: data.author },
+    publisher: { '@type': 'Organization', name: 'clinIQ', url: BASE_URL },
+    url: `${BASE_URL}/blog/${data.slug}`,
+  }
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <NavInner />
-      <main>
+      <main id="main-content">
 
         {/* Hero */}
         <BlogHero
@@ -169,7 +114,15 @@ export default function BlogJsonPage({ data }: { data: BlogPostData }) {
               {data.content.map((section, i) => (
                 <section key={i}>
                   <h2 className={css.sectionH2}>{section.h2}</h2>
-                  {renderBody(section.body)}
+                  {renderBody(section.body, {
+                    bodyList: css.bodyList,
+                    bodyOL: css.bodyOL,
+                    bodyBlock: css.bodyBlock,
+                    bodyBlockHeader: css.bodyBlockHeader,
+                    bodyBlockText: css.bodyBlockText,
+                    bodyP: css.bodyP,
+                    inlineLink: css.inlineLink,
+                  })}
                 </section>
               ))}
 

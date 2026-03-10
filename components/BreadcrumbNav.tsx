@@ -24,7 +24,7 @@ export default function BreadcrumbNav({ items, baseItems }: BreadcrumbNavProps) 
       '@type': 'ListItem',
       position: i + 1,
       name: item.label,
-      ...(item.href ? { item: `https://cliniq.com${item.href === '/' ? '' : item.href}` } : {}),
+      ...(item.href ? { item: `https://cliniqhealthcare.com${item.href === '/' ? '' : item.href}` } : {}),
     })),
   }
 

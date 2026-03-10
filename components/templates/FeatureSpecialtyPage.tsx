@@ -36,10 +36,10 @@ export default function FeatureSpecialtyPage({
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniq.com' },
-      { '@type': 'ListItem', position: 2, name: 'Features', item: 'https://cliniq.com/features' },
-      { '@type': 'ListItem', position: 3, name: featureName, item: `https://cliniq.com/features/${featureSlug}` },
-      { '@type': 'ListItem', position: 4, name: specialtyName, item: `https://cliniq.com/features/${featureSlug}/${specialtySlug}` },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniqhealthcare.com' },
+      { '@type': 'ListItem', position: 2, name: 'Features', item: 'https://cliniqhealthcare.com/features' },
+      { '@type': 'ListItem', position: 3, name: featureName, item: `https://cliniqhealthcare.com/features/${featureSlug}` },
+      { '@type': 'ListItem', position: 4, name: specialtyName, item: `https://cliniqhealthcare.com/features/${featureSlug}/${specialtySlug}` },
     ],
   }
 
@@ -48,7 +48,7 @@ export default function FeatureSpecialtyPage({
     '@type': 'Service',
     name: `${featureName} for ${specialtyName} — clinIQ`,
     description: h1,
-    provider: { '@type': 'Organization', name: 'clinIQ', url: 'https://cliniq.com' },
+    provider: { '@type': 'Organization', name: 'clinIQ', url: 'https://cliniqhealthcare.com' },
     serviceType: 'Healthcare Software',
     areaServed: 'US',
   }

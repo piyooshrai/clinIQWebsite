@@ -151,10 +151,22 @@
   z-index: 10;
 }
 
-.navItem:hover .dropdown {
+.navItem:hover .dropdown,
+.dropdownOpen {
   opacity: 1;
   pointer-events: auto;
   transform: translateX(-50%) translateY(0);
+}
+
+/* Keyboard / click open state — mirror hover styles on the trigger */
+.navTrigger[aria-expanded="true"] {
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.navTrigger[aria-expanded="true"] .chevron {
+  transform: rotate(180deg);
+  opacity: 0.85;
 }
 
 .dropdownInner {
@@ -493,5 +505,12 @@
   .nav,
   .scrolled {
     padding: 1rem 1.5rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .logoClin,
+  .logoIq {
+    font-size: 1.5rem;
   }
 }

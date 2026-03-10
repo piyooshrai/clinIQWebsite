@@ -15,7 +15,7 @@ export default function SpecialtyPage({ data }: Props) {
       '@type': 'ListItem',
       position: i + 1,
       name: bc.label,
-      item: `https://cliniq.com${bc.href}`,
+      item: `https://cliniqhealthcare.com${bc.href}`,
     })),
   }
 
@@ -24,7 +24,7 @@ export default function SpecialtyPage({ data }: Props) {
     '@type': 'Service',
     name: `clinIQ for ${data.specialtyName} Clinics`,
     description: data.metaDescription,
-    provider: { '@type': 'Organization', name: 'clinIQ', url: 'https://cliniq.com' },
+    provider: { '@type': 'Organization', name: 'clinIQ', url: 'https://cliniqhealthcare.com' },
     serviceType: 'Healthcare Operations Software',
     areaServed: 'US',
   }
