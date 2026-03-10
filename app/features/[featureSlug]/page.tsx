@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import PillarSpecialtyPage, { type PillarData } from '@/components/templates/PillarSpecialtyPage'
-import analyticsData from '@/data/analytics-pillar.json'
-import checkInData from '@/data/patient-check-in-pillar.json'
-import patientFlowData from '@/data/patient-flow-pillar.json'
-import preAuthData from '@/data/pre-authorization-pillar.json'
-import rtmData from '@/data/rtm-billing-pillar.json'
-import schedulingData from '@/data/scheduling-pillar.json'
+import analyticsData from '@/data/feature-analytics.json'
+import checkInData from '@/data/feature-patient-check-in.json'
+import patientFlowData from '@/data/feature-patient-flow.json'
+import preAuthData from '@/data/feature-pre-authorization.json'
+import rtmData from '@/data/feature-rtm-billing.json'
+import schedulingData from '@/data/feature-scheduling.json'
 
 // Feature pillar pages keyed by the URL slug used throughout the site.
 // Slugs match existing links in /features page and [featureSlug]/[specialtySlug] pages.
