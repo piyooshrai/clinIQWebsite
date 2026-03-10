@@ -1,0 +1,70 @@
+{
+  "slug": "neurology-patient-flow",
+  "type": "blog",
+  "category": "Operations",
+  "specialty": "neurology",
+  "wordCount": 1900,
+  "meta": {
+    "title": "Neurology Practice Patient Flow: Managing Complex Visit Logistics | clinIQ",
+    "description": "How neurology practices manage complex patient flow — long new evals, EEG/EMG integration, MS infusion coordination, and urgent seizure triage.",
+    "keywords": ["neurology practice patient flow", "neurology scheduling optimization", "EEG scheduling neurology", "MS infusion coordination", "seizure triage workflow"]
+  },
+  "publishDate": "2026-03-01",
+  "updatedDate": "2026-03-01",
+  "author": "clinIQ Team",
+  "hero": {
+    "h1": "Neurology Practice Patient Flow",
+    "subhead": "Neurology's 90-minute new evals, multi-modal diagnostics, and urgent seizure presentations make standard 30-minute templates inadequate — here's how to build flow that actually works."
+  },
+  "content": [
+    {
+      "h2": "Why Standard Templates Fail Neurology",
+      "body": "Neurology is among the most visit-type-heterogeneous specialties in outpatient medicine. A new patient with first-time seizure needs 75-90 minutes — comprehensive history, full neurological exam, EEG ordering. An established MS patient on quarterly disease stability follow-up needs 20-25 minutes. A botulinum toxin injection for chronic migraine prophylaxis needs 30 minutes. A memory disorder patient with caregiver needs 45-60 minutes for cognitive assessment.\n\nMost practices use a 30-minute default slot and accommodate variation through provider heroics — running late, skipping documentation, double-booking established patients. The result: providers finish 60-90 minutes behind by mid-afternoon, patients wait without explanation, and the last appointments of the day are rushed.\n\n**The solution is visit-type templating.** New comprehensive evaluations (90 min), new focused evaluations (60 min), established management (20-25 min), procedure visits for botox or lumbar puncture (30-45 min), and EEG/EMG results review (15-20 min) need separate slot types. Building accurate templates requires auditing actual visit duration from EHR timestamps — not provider estimates, which are consistently optimistic by 20-40%.\n\nFor a comprehensive view of neurology practice operations, see our [Neurology Practice Software](/specialties/neurology) guide."
+    },
+    {
+      "h2": "EEG and EMG Scheduling Integration",
+      "body": "Neurodiagnostic testing creates a coordination challenge that scheduling must accommodate directly. EEG studies — routine (20-40 min recording), ambulatory (24-72 hours), video EEG (multi-day) — require tech availability, equipment, and patient preparation (clean hair, sleep deprivation for routine studies). EMG/NCS requires the neurologist directly and runs 45-90 minutes depending on study scope.\n\nThe standard scheduling failure is **sequential ordering**: neurologist sees patient, orders EEG, patient schedules separately weeks later, results arrive, patient schedules a results visit. Three appointments over 6-8 weeks for a workup that could be tightly coordinated.\n\n**Protocol-driven same-visit diagnostic scheduling** compresses the pathway. When a neurologist orders EEG at the end of a new evaluation, front desk checks tech availability in real time and schedules before the patient leaves. Results reviews are pre-scheduled at testing time. The coordination requires a single scheduling view showing the EEG/EMG schedule alongside the clinic schedule — not two separate systems. For the three highest-volume diagnostic pathways (new seizure, peripheral neuropathy, first dementia evaluation), a defined test sequence with same-visit scheduling reduces the diagnostic-to-result interval by 3-5 weeks on average."
+    },
+    {
+      "h2": "MS Infusion Suite Coordination",
+      "body": "MS patients on infused disease-modifying therapies — natalizumab (Tysabri, every 28 days), ocrelizumab (Ocrevus, every 6 months), alemtuzumab (Lemtrada, annual cycles) — require infusion appointments coordinated with neurology visits. The timing has clinical significance: pre-infusion neuro evaluation assesses for relapse or adverse effects, JC virus antibody monitoring for natalizumab patients happens every 6 months (with stricter intervals if index >0.9), and CBC monitoring is required for ocrelizumab.\n\n**The flow failure** is uncoordinated scheduling: patient gets infused, then schedules neuro follow-up two weeks later, then labs two weeks after that. Three trips for a process that can be compressed into one well-coordinated sequence.\n\nFor natalizumab patients, the optimal flow: lab draw 3-5 days before infusion → infusion day includes a brief neuro check (10-15 min) before or after → results reviewed at the next cycle's pre-infusion visit. This requires a **combined infusion-clinic scheduling view** where the infusion chair and provider visit slot are booked together. For a practice managing 40+ natalizumab patients, uncoordinated scheduling creates 80+ unnecessary appointment events per year compared to coordinated same-day visits."
+    },
+    {
+      "h2": "Urgent Seizure and Neurological Emergency Triage",
+      "body": "Neurology practices receive urgent calls requiring same-day evaluation: first-time seizure in an adult (must rule out structural etiology, counsel on driving restrictions), breakthrough seizure in a known epileptic (medication-related? provoked?), acute neurological change in a patient with CNS tumor, sudden MS symptom worsening suggesting relapse, and new severe headache in a known migraine patient that doesn't fit their typical pattern.\n\nThe binary thinking failure: either schedule in the routine queue (next available: 6-8 weeks) or send to the ED. Neither serves patients. A **structured urgent triage protocol** distinguishes: (1) send to ED immediately — worst headache of life, focal deficit with acute onset, altered consciousness, fever with meningismus; (2) see today — breakthrough seizure in stable patient, MS relapse assessment, medication question requiring provider; (3) see within 48-72 hours — first-time seizure in stable adult, new focal symptom without emergency features; (4) see within 2 weeks — medication side effect, refill question manageable by protocol.\n\nMaintaining **2-3 urgent slots per provider per day**, held until 10 AM and released if unused, captures daily urgent demand without sacrificing scheduled access. Practices that eliminate urgent slots to maximize scheduling efficiency consistently see increased ED utilization and patient complaints within 30 days."
+    },
+    {
+      "h2": "Memory and Cognitive Disorder Visit Workflow",
+      "body": "Memory disorder evaluations are among the most time-intensive in neurology. A complete dementia evaluation includes comprehensive history with caregiver collateral (30-45 min alone), neurological examination with bedside cognitive testing (MoCA or CDR), review of neuropsychological testing, brain MRI correlation, and diagnosis and care planning discussion. The caregiver component is non-negotiable — patient self-report is unreliable, and care planning depends on understanding caregiver capacity and needs.\n\n**Visit templating for memory evaluations** must reflect reality: 90 minutes for new comprehensive dementia evaluation, 45-60 minutes for established dementia follow-up with caregiver present, 30 minutes for medication management without complex new concerns. Practices that schedule memory patients in standard 30-minute slots generate systematic documentation gaps and provider burnout.\n\nThe caregiver coordination dimension adds a scheduling dependency: **two people must be available** for the appointment. Reminder workflows should reach both patient and primary caregiver. No-show rates in memory disorder clinics run higher than other neurology subtypes — when the caregiver can't attend, the patient often can't come either. Building caregiver confirmation into the reminder workflow (not just patient confirmation) reduces memory clinic no-shows meaningfully."
+    },
+    {
+      "h2": "Subspecialty Routing in Multi-Provider Groups",
+      "body": "A multi-provider neurology group with subspecialty focus areas — epilepsy, MS, movement disorders, headache, neuromuscular — faces patient routing complexity that single-provider practices don't. Key failure modes: patients booking with any available neurologist regardless of subspecialty match, new patients booked with the wrong subspecialist (general neurologist takes a suspected ALS patient instead of the neuromuscular specialist), established patients whose provider leaves without structured panel transfer.\n\n**Subspecialty routing at scheduling** is the intervention: intake staff must ask about chief complaint and primary diagnosis before assigning a provider. A patient calling with new tremor routes to movement disorders. A patient with CIS suggestive of MS routes to the MS clinic. A patient with complex refractory epilepsy routes to the epileptologist rather than first available.\n\nThis requires a **brief routing guide** — a one-page decision tree matching presenting symptom clusters to subspecialty lanes — rather than relying on staff judgment. Practices with routing guides consistently achieve better subspecialty match rates and reduce the frustrating patient experience of seeing a general neurologist twice before being referred internally to the subspecialist."
+    },
+    {
+      "h2": "Documentation Burden and Flow Cascades",
+      "body": "Documentation burden in neurology is above average for outpatient specialties. A comprehensive new neurological evaluation note — history, 12-system review, detailed neurological exam, imaging and diagnostic review, assessment and plan — is a 20-30 minute documentation task done efficiently, and 45-60 minutes done inefficiently.\n\n**The flow bottleneck documentation creates:** neurologists who fall behind on notes during the day accumulate a documentation burden that pushes them into evening hours and cascades into afternoon patient delays. Afternoon patients routinely wait longer than morning patients not because demand is higher, but because documentation lag from the morning has compounded through the schedule.\n\nEffective interventions: **(1) Structured note templates** for each visit type that pre-populate from prior notes, requiring only addendum documentation rather than de novo writing. **(2) Same-day documentation standards** — undictatable after 48 hours to prevent accumulation. **(3) Scribes or AI documentation tools** for providers whose documentation time consistently exceeds 15 minutes per established patient visit. The ROI is direct: a neurologist who saves 45 minutes of daily documentation time can see 2 additional patients per day at $250-400 per visit, easily justifying scribe or AI tool cost within the first week of the billing cycle."
+    }
+  ],
+  "callout": {
+    "type": "feature",
+    "title": "clinIQ for Neurology",
+    "description": "clinIQ's neurology configuration handles subspecialty routing, EEG/EMG scheduling integration, MS infusion coordination, and urgent slot management in a single workflow.",
+    "href": "/specialties/neurology",
+    "buttonLabel": "Learn More"
+  },
+  "relatedPosts": [
+    { "title": "Neurology RTM: Migraine, MS, and Seizure Monitoring", "href": "/blog/neurology-rtm-migraine-ms-seizure" },
+    { "title": "Neurology Prior Auth: Imaging and Biologics", "href": "/blog/neurology-prior-auth-imaging-biologics" }
+  ],
+  "pillarLink": {
+    "title": "Neurology Practice Software",
+    "href": "/specialties/neurology",
+    "description": "Complete guide to neurology practice operations — RTM billing, prior auth, diagnostic coordination, and patient flow."
+  },
+  "cta": {
+    "headline": "Fix your neurology patient flow",
+    "subhead": "See how clinIQ's neurology configuration handles complex visit types, diagnostics, and urgent triage in a 15-minute demo.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+  }
+}
