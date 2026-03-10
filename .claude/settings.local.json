@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(for f:*)",
+      "Bash(do echo:*)",
+      "Read(//d/Application Development/clinIQ/clinIQWebsite/**)",
+      "Bash(done)",
+      "Bash(cd \"D:\\\\Application Development\\\\clinIQ\\\\clinIQWebsite\" && npx tsc --noEmit 2>&1 | head -40)",
+      "Bash(cd \"D:\\\\Application Development\\\\clinIQ\\\\clinIQWebsite\" && node_modules/.bin/tsc --noEmit 2>&1 | head -40)",
+      "Bash(ls \"D:\\\\Application Development\\\\clinIQ\\\\clinIQWebsite\\\\node_modules\\\\.bin\\\\\" | grep -i tsc 2>/dev/null | head -5 || echo \"Not found\")",
+      "Bash(ls -la \"D:\\\\Application Development\\\\clinIQ\\\\clinIQWebsite\\\\data\"/*.json | sort -k5 -rn | head -10 2>/dev/null || powershell -Command \"Get-ChildItem 'D:\\\\Application Development\\\\clinIQ\\\\clinIQWebsite\\\\data\\\\*.json' | Sort-Object Length -Descending | Select-Object -First 10 Name, Length\")",
+      "Bash(powershell -Command \"Get-ChildItem 'D:\\\\\\\\Application Development\\\\\\\\clinIQ\\\\\\\\clinIQWebsite\\\\\\\\data\\\\\\\\*.json' | Sort-Object Length -Descending | Select-Object -First 10 Name, Length\")",
+      "Bash(powershell -Command \"Get-Content 'D:\\\\\\\\Application Development\\\\\\\\clinIQ\\\\\\\\clinIQWebsite\\\\\\\\app\\\\\\\\blog\\\\\\\\page.tsx' | Select-String 'check-in-bottleneck|front-desk-burnout|patient-flow-bottlenecks'\")"
+    ]
+  }
+}

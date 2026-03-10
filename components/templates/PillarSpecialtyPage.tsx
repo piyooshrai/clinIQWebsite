@@ -179,7 +179,7 @@ export default function PillarSpecialtyPage({ data }: { data: PillarData }) {
       )}
 
       <NavInner />
-      <main>
+      <main id="main-content">
 
         {/* ── HERO ── */}
         <section className={s.hero}>

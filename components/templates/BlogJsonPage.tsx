@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react'
+import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
 import BlogHero from '@/components/BlogHero'
@@ -20,6 +21,32 @@ export interface BlogPostData {
   relatedPosts: readonly { title: string; href: string }[]
   pillarLink: { title: string; href: string; description: string }
   cta: { headline: string; subhead: string; primaryButton: { label: string; href: string } }
+}
+
+// ── Metadata helper ───────────────────────────────────────────────────────────
+// Export so each blog page.tsx can call: export const metadata = generateBlogMetadata(data)
+
+const BASE_URL = 'https://cliniqhealthcare.com'
+
+export function generateBlogMetadata(data: BlogPostData): Metadata {
+  const url = `${BASE_URL}/blog/${data.slug}`
+  return {
+    title: data.meta.title,
+    description: data.meta.description,
+    alternates: { canonical: url },
+    openGraph: {
+      title: data.meta.title,
+      description: data.meta.description,
+      type: 'article',
+      publishedTime: data.publishDate,
+      url,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: data.meta.title,
+      description: data.meta.description,
+    },
+  }
 }
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
@@ -137,10 +164,25 @@ function renderBody(body: string): ReactNode[] {
 // ── Component ─────────────────────────────────────────────────────────────────
 
 export default function BlogJsonPage({ data }: { data: BlogPostData }) {
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: data.hero.h1,
+    description: data.meta.description,
+    datePublished: data.publishDate,
+    author: { '@type': 'Person', name: data.author },
+    publisher: { '@type': 'Organization', name: 'clinIQ', url: BASE_URL },
+    url: `${BASE_URL}/blog/${data.slug}`,
+  }
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <NavInner />
-      <main>
+      <main id="main-content">
 
         {/* Hero */}
         <BlogHero
