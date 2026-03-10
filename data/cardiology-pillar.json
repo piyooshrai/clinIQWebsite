@@ -6,26 +6,65 @@
   "meta": {
     "title": "Cardiology Practice Software | Cardiac RTM & Testing Coordination | clinIQ",
     "description": "Complete guide to cardiology practice operations. $10,400/month in cardiac RTM. Testing suite coordination. Reading queue management. Device clinic visibility.",
-    "keywords": ["cardiology practice software", "cardiac RTM billing", "cardiology testing coordination", "cardiology practice management", "device clinic management"]
+    "keywords": [
+      "cardiology practice software",
+      "cardiac RTM billing",
+      "cardiology testing coordination",
+      "cardiology practice management",
+      "device clinic management"
+    ]
   },
   "hero": {
     "h1": "Cardiology Practice Software",
     "subhead": "Your CHF and arrhythmia patients already track symptoms — that's billable cardiac RTM. Your testing suite runs echo, stress, and Holter — that needs coordination. Your device clinic manages hundreds of pacemakers and ICDs — that needs visibility. clinIQ captures RTM revenue and coordinates cardiac operations.",
     "stats": [
-      { "value": "$10,400+", "label": "monthly cardiac RTM revenue" },
-      { "value": "50%", "label": "faster test-to-read" },
-      { "value": "100%", "label": "device clinic visibility" }
+      {
+        "value": "$10,400+",
+        "label": "monthly cardiac RTM revenue"
+      },
+      {
+        "value": "50%",
+        "label": "faster test-to-read"
+      },
+      {
+        "value": "100%",
+        "label": "device clinic visibility"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "cardiology-challenges", "title": "The Cardiology Practice Challenge" },
-    { "id": "cardiac-rtm", "title": "Cardiac RTM Billing" },
-    { "id": "testing-coordination", "title": "Testing Suite Coordination" },
-    { "id": "reading-queue", "title": "Reading Queue Management" },
-    { "id": "device-clinic", "title": "Device Clinic Management" },
-    { "id": "patient-flow", "title": "Patient Flow" },
-    { "id": "implementation", "title": "Implementation & ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "cardiology-challenges",
+      "title": "The Cardiology Practice Challenge"
+    },
+    {
+      "id": "cardiac-rtm",
+      "title": "Cardiac RTM Billing"
+    },
+    {
+      "id": "testing-coordination",
+      "title": "Testing Suite Coordination"
+    },
+    {
+      "id": "reading-queue",
+      "title": "Reading Queue Management"
+    },
+    {
+      "id": "device-clinic",
+      "title": "Device Clinic Management"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Patient Flow"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -101,14 +140,29 @@
   "cta": {
     "headline": "See cardiac RTM and testing coordination",
     "subhead": "15-minute demo. Cardiac RTM, testing coordination, reading queue, device clinic management.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Cardiac RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Cardiac RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$125K", "label": "annual cardiac RTM revenue" },
-      { "value": "24 hr", "label": "reading turnaround (vs 4 days)" },
-      { "value": "100%", "label": "device clinic visibility" }
+      {
+        "value": "$125K",
+        "label": "annual cardiac RTM revenue"
+      },
+      {
+        "value": "24 hr",
+        "label": "reading turnaround (vs 4 days)"
+      },
+      {
+        "value": "100%",
+        "label": "device clinic visibility"
+      }
     ],
     "testimonial": {
       "quote": "Our reading backlog was 5 days. Now it's same-day for urgent, next-day for routine. And we're billing $11K/month in RTM we were leaving on the table.",
@@ -151,5 +205,6 @@
       "price": "499",
       "priceCurrency": "USD"
     }
-  }
+  },
+  "publishDate": "2025-04-29"
 }

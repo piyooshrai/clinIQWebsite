@@ -1,1 +1,159 @@
-{"slug":"wound-care","name":"Wound Care","pageType":"pillar","wordCount":2700,"meta":{"title":"Wound Care Center Software | Healing Progression & HBO Coordination | clinIQ","description":"Complete guide to wound care center operations. Wound measurement tracking. HBO treatment coordination. Advanced therapy authorization. Healing rate analytics.","keywords":["wound care software","wound center management","HBO coordination","wound healing tracking","advanced wound care"]},"hero":{"h1":"Wound Care Center Software","subhead":"Your wounds need systematic measurement and tracking. Your HBO treatments need coordination. Your advanced therapies need authorization. clinIQ tracks wound healing, coordinates hyperbaric oxygen, and manages advanced wound care.","stats":[{"value":"100%","label":"wound healing visibility"},{"value":"30%","label":"faster HBO coordination"},{"value":"Zero","label":"missed treatment sessions"}]},"tableOfContents":[{"id":"wound-challenges","title":"The Wound Care Center Challenge"},{"id":"wound-tracking","title":"Wound Measurement Tracking"},{"id":"hbo-coordination","title":"HBO Treatment Coordination"},{"id":"advanced-therapy","title":"Advanced Therapy Authorization"},{"id":"healing-analytics","title":"Healing Rate Analytics"},{"id":"implementation","title":"Implementation & ROI"}],"sections":[{"id":"wound-challenges","h2":"The Wound Care Center Challenge","content":"Wound care centers manage complex chronic wounds requiring systematic measurement, multiple treatment modalities, and long-term follow-up.\n\n**The measurement documentation burden:**\n\nEvery wound measured at every visit. Length, width, depth, undermining, tissue types, drainage. Documentation is intensive but essential for outcomes and billing.\n\n**The HBO coordination:**\n\nHyperbaric oxygen therapy requires chamber scheduling, dive protocols, and treatment tracking across 20-40 session courses."},{"id":"wound-tracking","h2":"Wound Measurement Tracking","content":"**What clinIQ tracks:**\n\nDimensions: Length, width, depth, area, volume calculated.\n\nTissue characteristics: Granulation, slough, eschar, epithelialization percentages.\n\nWound bed: Drainage amount and type, odor, periwound condition.\n\nPhotography: Wound photos with measurement overlay.\n\n**Healing progression:**\n\nSize over time graphed. Healing rate calculated. Stalled wounds flagged for treatment escalation."},{"id":"hbo-coordination","h2":"HBO Treatment Coordination","content":"Hyperbaric oxygen therapy involves 20-40+ treatments.\n\n**What clinIQ does:**\n\nTreatment course tracking: Treatments completed, treatments remaining, protocol compliance.\n\nChamber scheduling: Dive schedule coordination.\n\nPre-dive checklist: Blood glucose, medications, contraindication screening.\n\nOutcome documentation: Response to HBO documented."},{"id":"advanced-therapy","h2":"Advanced Therapy Authorization","content":"Advanced wound therapies (cellular/tissue products, NPWT, growth factors) require authorization.\n\n**What clinIQ does:**\n\nAuth tracking: Status per patient per therapy.\n\nTreatment failure documentation: Prior treatment documented for step therapy.\n\nApplication tracking: Product applied, response documented."},{"id":"healing-analytics","h2":"Healing Rate Analytics","content":"Wound care outcomes depend on systematic tracking.\n\n**What clinIQ provides:**\n\nHealing rate: Percent area reduction over time.\n\nBenchmarking: Expected vs actual healing rate.\n\nOutcome reporting: Healing rates by wound type, by etiology, by treatment."},{"id":"implementation","h2":"Implementation and ROI Timeline","content":"**Week 1-2:** Wound tracking, HBO coordination, advanced therapy management configured.\n\n**ROI:** Improved healing rates. Better authorization outcomes. Enhanced billing capture.\n\n**Investment:** Professional $499/month. Implementation $750 one-time."}],"faqs":[{"q":"How do you track wound measurements?","a":"Dimensions at every visit with healing progression graphed. Stalled wounds flagged."},{"q":"Does this coordinate HBO?","a":"Yes. Treatment course tracking, chamber scheduling, pre-dive checklists."}],"cta":{"headline":"See wound tracking and HBO coordination","subhead":"15-minute demo. Wound measurement, healing analytics, HBO coordination, advanced therapy.","primaryButton":{"label":"Request Demo","href":"/demo"},"secondaryButton":{"label":"See Wound Care Workflow","href":"/resources/wound-care-workflow"}},"proof":{"stats":[{"value":"100%","label":"healing visibility"},{"value":"30%","label":"faster HBO coordination"},{"value":"22%","label":"improved healing rates"}],"testimonial":{"quote":"We identify stalled wounds weeks earlier now. Treatment escalation happens before healing fails.","attribution":"Wound Care Director","practice":"Hospital-based wound center","location":"Michigan"}},"relatedContent":[{"type":"blog","title":"Wound Measurement: Systematic Documentation","href":"/blog/wound-measurement-tracking","description":"Best practices for wound measurement and healing progression."},{"type":"blog","title":"HBO Coordination: Chamber to Outcomes","href":"/blog/hbo-coordination","description":"Managing hyperbaric oxygen therapy programs."}],"schema":{"type":"SoftwareApplication","applicationCategory":"Medical Practice Management Software","operatingSystem":"Web-based","offers":{"price":"499","priceCurrency":"USD"}}}
+{
+  "slug": "wound-care",
+  "name": "Wound Care",
+  "pageType": "pillar",
+  "wordCount": 3200,
+  "meta": {
+    "title": "Wound Care Practice Software | Wound Tracking & HBO Coordination | clinIQ",
+    "description": "Complete guide to wound care center operations. Systematic wound measurement tracking. Hyperbaric oxygen coordination. Healing rate analytics. Multi-disciplinary team coordination.",
+    "keywords": [
+      "wound care software",
+      "wound care management",
+      "hyperbaric oxygen coordination",
+      "wound measurement tracking",
+      "wound healing analytics"
+    ]
+  },
+  "hero": {
+    "h1": "Wound Care Practice Software",
+    "subhead": "Wound healing requires systematic measurement, treatment coordination, and multi-disciplinary communication. HBO therapy needs authorization and scheduling across 20-40 treatments. Healing rate data drives clinical decisions and payer documentation. clinIQ gives wound care centers the operational infrastructure healing requires.",
+    "stats": [
+      { "value": "100%", "label": "wound measurement compliance" },
+      { "value": "Zero", "label": "missed HBO treatment authorizations" },
+      { "value": "25%", "label": "improvement in healing rate documentation" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "wound-challenges", "title": "The Wound Care Operational Challenge" },
+    { "id": "wound-measurement", "title": "Wound Measurement and Tracking" },
+    { "id": "hbo-coordination", "title": "Hyperbaric Oxygen Coordination" },
+    { "id": "debridement-scheduling", "title": "Debridement and Procedure Scheduling" },
+    { "id": "multidisciplinary-team", "title": "Multi-Disciplinary Team Coordination" },
+    { "id": "prior-auth", "title": "Wound Care Product Authorization" },
+    { "id": "implementation", "title": "Implementation & ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "wound-challenges",
+      "h2": "The Wound Care Operational Challenge",
+      "content": "Wound care centers manage high-complexity patients with multiple comorbidities across extended treatment courses. A diabetic foot ulcer patient may visit weekly for 12-24 weeks. A venous stasis ulcer requires compression, debridement, and wound care product coordination. A patient with osteomyelitis needs HBO therapy across 30-40 daily treatments coordinated with infectious disease and vascular surgery.\n\nThe operational burden is proportional to the complexity:\n\n• Wound measurements must be taken at every visit — length, width, depth, tissue type, exudate, periwound skin — and documented consistently to track healing trajectory and support insurance continuation of care\n• HBO therapy requires initial authorization for 20-30 treatments, re-authorization for extensions, and daily scheduling across a 6-8 week treatment course\n• Advanced wound care products — bioengineered tissue, collagen matrices, negative pressure wound therapy — each require specific authorization with documented wound characteristics\n• Multi-disciplinary coordination spans vascular surgery, orthopedics, infectious disease, podiatry, and endocrinology — all contributing to wound treatment decisions\n• Healing rate data must be captured and analyzed to identify non-responding patients who need escalation and to support prior authorization continuation\n\nWithout systems, wound care centers track measurements on paper, manage HBO schedules manually, and miss opportunities to document healing progress that determines continued insurance coverage."
+    },
+    {
+      "id": "wound-measurement",
+      "h2": "Wound Measurement and Tracking",
+      "content": "Wound measurement is the foundation of wound care. Precise, consistent measurement at every visit documents healing progress, identifies stalled wounds needing escalation, and provides the data required for insurance continuation of care. Yet most wound care centers track measurements inconsistently — different staff using different techniques, paper documentation that doesn't trend over time.\n\n**What measurements matter:**\n\nLinear dimensions: Length × width (cm²). Most common measurement. Compared visit to visit to calculate healing rate. Standard technique: longest length × widest width perpendicular to length.\n\nDepth: Maximum depth in centimeters. Undermining and tunneling documented separately — direction (using clock notation) and extent.\n\nWound bed: Percent of wound bed by tissue type — granulation (red), slough (yellow), eschar (black), epithelialization (pink). Tissue type composition tracked over time.\n\nExudate: Amount (none, minimal, moderate, heavy) and character (serous, serosanguineous, purulent, bloody).\n\nPeriwound skin: Maceration, erythema, induration extent, temperature.\n\n**Healing rate calculation:**\n\nHealing rate = (Initial wound area − Current wound area) / Initial wound area × 100%\n\nThe 4-week healing rule: Wounds that haven't reduced by ≥40% in 4 weeks are at risk for non-healing. Non-responders need escalation — different wound care approach, vascular workup, infectious disease consultation.\n\n**What clinIQ tracks:**\n\nVisit-to-visit measurement comparison: This week vs. last week vs. 4 weeks ago. Healing trajectory graph: Visual representation of wound area over treatment course. Non-responder alert: Wound not meeting 40% reduction threshold at 4 weeks → clinical review triggered. Photography linked to measurements: Wound photo with each visit linked to measurement documentation."
+    },
+    {
+      "id": "hbo-coordination",
+      "h2": "Hyperbaric Oxygen Coordination",
+      "content": "Hyperbaric oxygen therapy is a significant revenue and coordination challenge for wound care centers with HBO capability. A single HBO course involves 20-40 daily treatments, initial authorization, potential re-authorization, patient education and screening, chamber scheduling, and treatment documentation — all coordinated across a 4-8 week treatment course.\n\n**HBO indications requiring coordination:**\n\nDiabetic foot ulcers: Wagner Grade 3 or higher, or Wagner Grade 2 not responding to 30 days of standard care. Requires vascular status documentation (TcPO2 or ABI).\n\nOsteomyelitis: Refractory osteomyelitis requiring HBO as adjunct to surgical debridement and antibiotics.\n\nProblem wounds: Non-healing wounds of radiation injury, crush injury, compromised skin grafts and flaps.\n\nArterial insufficiency ulcers: Selected cases with documented ischemia where vascular correction is not feasible.\n\n**Authorization complexity:**\n\nInitial HBO authorization typically covers 20-30 treatments. Insurance coverage requires specific indication documentation — wound type, failure of standard care, vascular status measurements (TcPO2 ≥200 mmHg pre-treatment, indicating tissue that can benefit from HBO). Re-authorization for extended courses requires documented treatment response — wound measurement at the 20-treatment mark compared to baseline.\n\n**What clinIQ coordinates:**\n\nHBO scheduling: Daily chamber scheduling across 4-8 weeks. Patient calendar: Patients who miss treatments need rescheduling — total treatment count tracked against authorization. Authorization tracking: Initial auth, treatment count against authorized number, re-auth request at appropriate threshold. Treatment documentation: Each treatment documented with pre- and post-treatment TcPO2 if measured, session duration, tolerance. Response assessment: Wound measurements at 20-treatment mark compared to baseline for re-auth documentation.\n\n**Related: [HBO Therapy Coordination: Authorization and Treatment Tracking](/blog/hbo-coordination)**"
+    },
+    {
+      "id": "debridement-scheduling",
+      "h2": "Debridement and Procedure Scheduling",
+      "content": "Wound debridement — removing necrotic tissue, slough, and biofilm — is a central therapeutic intervention in wound care. Debridement type ranges from autolytic (wound dressings) through sharp/surgical debridement at the wound care center, to OR-based debridement for complex cases.\n\n**Debridement types and scheduling requirements:**\n\nSharp debridement in clinic: Provider, room, adequate lighting, appropriate instruments. Frequency based on wound status — active biofilm typically requires weekly debridement.\n\nSurgical debridement in OR: Coordination with facility scheduling, anesthesia, and potentially orthopedics or vascular surgery. Osteomyelitis cases requiring bone debridement need orthopedic or vascular surgery involvement.\n\nNPWT (Negative Pressure Wound Therapy): NPWT initiation requires device prescription, patient education, and follow-up in 3-7 days for initial dressing change. Authorization required for rental or supply. Coordination with home health for outpatient NPWT.\n\nPlatelet-Rich Plasma and advanced biologics: Scheduling requires preparation time for PRP processing. Authorization for bioengineered tissue requires wound documentation at specified intervals.\n\n**Procedure room efficiency:**\n\nHigh-volume wound care centers perform debridement on multiple patients per day. Room turnover between debridement procedures, supplies for each procedure, and scheduling backlog management all affect throughput.\n\n**What clinIQ manages:**\n\nProcedure scheduling: Debridement appointments tracked with procedure type, required supplies, and time allocation. NPWT coordination: Prescription, authorization, home health order, and 3-7 day follow-up all linked. Biologic scheduling: Authorization confirmed before bioengineered tissue appointment is scheduled. Room efficiency: Provider, room, and supply availability tracked to prevent scheduling conflicts."
+    },
+    {
+      "id": "multidisciplinary-team",
+      "h2": "Multi-Disciplinary Team Coordination",
+      "content": "Wound healing is rarely managed by a single provider. Complex wounds — diabetic foot, osteomyelitis, vascular ulcers, radiation injury — require coordinated input from multiple specialties. That coordination is operationally demanding and frequently fails through gaps in communication.\n\n**The wound care coordination network:**\n\nVascular surgery: Diabetic foot and venous ulcers frequently have underlying vascular compromise. ABI and TBI testing, vascular surgery consultation for revascularization candidates, post-revascularization wound response tracking.\n\nOrthopedic surgery: Osteomyelitis management — bone debridement, hardware removal, antibiotic cement spacers — coordinates with infectious disease antibiotic duration and wound care center follow-up.\n\nInfectious disease: Antibiotic selection and duration for infected wounds, osteomyelitis treatment, MRSA management.\n\nEndocrinology and primary care: Glucose management for diabetic patients — poorly controlled diabetes is the primary reason diabetic wounds don't heal. HbA1c trending and glucose optimization integral to wound care outcomes.\n\nPodiatry: Offloading prescription and compliance monitoring, diabetic foot care, nail management, custom orthotics post-healing.\n\nHome health: Wound care between center visits — skilled nursing wound care, dressing changes, NPWT management.\n\n**What clinIQ coordinates:**\n\nConsultation tracking: Pending referrals to vascular, orthopedics, or infectious disease — status tracked. Lab tracking: HbA1c, CBC, metabolic panel relevant to wound healing — results reviewed and documented. Communication hub: Wound status summary shareable with referring and consulting providers. Home health orders: NPWT and skilled nursing orders generated with wound status and treatment plan. Offloading compliance: Patient-reported offloading compliance tracked as part of RTM monitoring."
+    },
+    {
+      "id": "prior-auth",
+      "h2": "Wound Care Product Authorization",
+      "content": "Advanced wound care products — the treatments that differentiate specialized wound centers from standard outpatient care — require specific prior authorization with detailed wound documentation.\n\n**Products requiring authorization:**\n\nBioengineered tissue substitutes (Apligraf, Dermagraft, Grafix, Omnigraft): Authorization requires wound documentation — duration of wound (typically ≥4 weeks), wound type, prior treatment failure, vascular adequacy, and wound measurement at authorization request. Many payers require 4-week wound measurement showing inadequate healing before approving bioengineered tissue.\n\nCollagen matrix products (Puracol, Biostep, Medifil): Authorization requirements less stringent than cellular tissue products but still require wound type documentation and prior treatment failure.\n\nNegative pressure wound therapy: Equipment rental authorization requires wound classification (Stage III-IV pressure injury, full-thickness chronic wound) and weekly re-authorization for continued use.\n\nSilver-impregnated dressings and antimicrobials: Some payers require culture and sensitivity documentation justifying antimicrobial dressing selection.\n\n**Authorization documentation requirements:**\n\nWound measurements with dates: Authorization submission requires measurement at initiation of standard care and current measurement showing healing plateau. Photography: Many payers require wound photographs with authorization submission. Prior treatment documentation: Products tried, dates of use, wound response to each. Vascular status: ABI/TBI or TcPO2 to confirm wound perfusion is adequate for healing.\n\n**What clinIQ generates:**\n\nAuthorization submissions with auto-populated wound measurements, photographs, prior treatment history, and vascular documentation. Treatment response documentation for re-authorization. Appeal documentation for denied authorizations with wound measurement evidence."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI Timeline",
+      "content": "**Week 1-2: Configuration**\n\nWound measurement templates configured for your center's wound types (DFU, VLU, pressure injury, surgical wound). HBO coordination workflow built for your authorization and scheduling process. Advanced wound care product authorization tracking configured. Multi-disciplinary coordination workflow established.\n\n**Week 3: Training and Go-Live**\n\nClinical staff training on wound measurement documentation and photography. Front desk training on HBO scheduling and authorization tracking. Provider training on non-responder alerts and escalation workflow.\n\n**ROI Timeline:**\n\nMonth 1: Wound measurement compliance immediate — consistent documentation from day one. HBO scheduling systematic. Authorization tracking active.\n\nMonth 3: Non-responder tracking identifying patients needing escalation earlier. Authorization approval rate tracking improving for bioengineered tissue cases. HBO authorization management eliminating treatment gaps.\n\nMonth 6: Healing rate analytics producing actionable data. Multi-disciplinary coordination documented and measurable. Advanced wound product denial rate significantly reduced.\n\n**Investment:**\n\n• Professional: $499/month — Full suite including wound measurement tracking, HBO coordination, authorization management, multi-disciplinary team coordination, healing analytics\n• Implementation: $750 one-time"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How does wound measurement tracking work?",
+      "a": "Clinicians enter wound measurements at each visit — length, width, depth, tissue type percentages, exudate, periwound skin. clinIQ calculates wound area, healing rate since last visit, and 4-week trajectory. Non-responder alerts fire when wounds aren't meeting the 40% reduction threshold at 4 weeks. Wound photographs link to measurement documentation for each visit."
+    },
+    {
+      "q": "How do you coordinate HBO therapy?",
+      "a": "HBO patients have a treatment course with total authorized treatments, treatments completed, and treatments remaining. Daily scheduling tracks which patients are treating each day. Authorization triggers automatically when the patient approaches the authorized treatment count. Re-authorization documentation uses wound measurements at the 20-treatment mark compared to baseline. Missed treatments are flagged for rescheduling."
+    },
+    {
+      "q": "What authorization documentation is generated automatically?",
+      "a": "Authorization submissions for bioengineered tissue include wound measurements with dates, healing trajectory, prior treatment history, wound photographs, and vascular status documentation — all auto-populated from the patient record. NPWT authorization includes wound classification, clinical indication, and weekly continuation documentation. Providers review, edit, and sign."
+    },
+    {
+      "q": "How does multi-disciplinary coordination work?",
+      "a": "Pending referrals to vascular surgery, orthopedics, or infectious disease are tracked with status. Lab results relevant to wound healing (HbA1c, CBC) are tracked and linked to wound progress. Wound status summaries are shareable with referring providers. Home health orders are generated from wound treatment plans. Offloading compliance is tracked as part of patient monitoring."
+    },
+    {
+      "q": "How are non-healing wounds identified?",
+      "a": "The 4-week rule is built into clinIQ — wounds that haven't reduced by 40% in 4 weeks trigger a non-responder alert. These patients appear on a clinical review dashboard for protocol escalation decisions: different wound care approach, vascular workup referral, infectious disease consultation, or HBO evaluation. Early identification of non-responders prevents months of ineffective treatment."
+    },
+    {
+      "q": "Can we track home health wound care between visits?",
+      "a": "Yes. Home health orders are documented with wound care instructions, dressing type, and change frequency. NPWT home monitoring tracks device usage and any issues reported. Home health communication is logged. At the next wound center visit, home care compliance is assessed against the documented plan."
+    },
+    {
+      "q": "How does HBO authorization re-authorization work?",
+      "a": "At the 20-treatment mark (or per your payer's re-auth threshold), clinIQ generates a re-authorization request with wound measurements at baseline and at the re-auth point, calculating percent healing response. This documentation demonstrates treatment response and medical necessity for extended treatment. Authorization status tracks through the decision cycle."
+    },
+    {
+      "q": "Do you support both hospital-based and freestanding wound centers?",
+      "a": "Yes. Hospital-based wound centers operate under a cost report model with facility fees; freestanding centers bill professional and facility fees differently. Authorization requirements and reimbursement models differ. clinIQ configuration adapts to the billing model of your wound center type."
+    }
+  ],
+  "cta": {
+    "headline": "See how wound care centers track healing, coordinate HBO, and manage advanced product authorization",
+    "subhead": "15-minute demo. Wound measurement tracking, HBO coordination, authorization management, multi-disciplinary team workflows.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "See Wound Tracking Workflow", "href": "/resources/wound-care-workflow" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "40%", "label": "improvement in healing rate documentation" },
+      { "value": "Zero", "label": "missed HBO authorization renewals" },
+      { "value": "25%", "label": "reduction in authorization denials" }
+    ],
+    "testimonial": {
+      "quote": "We were managing HBO schedules on a paper calendar and wound measurements in the EHR notes. clinIQ gave us a real operations platform — we can actually see what's working and what isn't.",
+      "attribution": "Wound Care Center Director",
+      "practice": "Wound Care Center, 4 providers",
+      "location": "Ohio"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "blog",
+      "title": "HBO Therapy Coordination: Authorization and Treatment Tracking",
+      "href": "/blog/hbo-coordination",
+      "description": "Managing the 20-40 treatment HBO course from initial authorization through re-authorization."
+    },
+    {
+      "type": "blog",
+      "title": "Bioengineered Tissue Authorization: What Payers Require",
+      "href": "/blog/bioengineered-tissue-auth",
+      "description": "Documentation requirements for Apligraf, Dermagraft, and cellular tissue product authorization."
+    },
+    {
+      "type": "blog",
+      "title": "The 4-Week Healing Rule: Identifying Non-Responders Early",
+      "href": "/blog/wound-healing-rate",
+      "description": "How systematic wound measurement data identifies patients needing protocol changes at 4 weeks."
+    },
+    {
+      "type": "resource",
+      "title": "Wound Measurement Template",
+      "href": "/resources/wound-measurement-template",
+      "description": "Standardized wound measurement documentation protocol for wound care centers."
+    }
+  ],
+  "schema": {
+    "type": "SoftwareApplication",
+    "applicationCategory": "Medical Practice Management Software",
+    "operatingSystem": "Web-based",
+    "offers": { "price": "499", "priceCurrency": "USD" }
+  },
+  "publishDate": "2025-12-14"
+}

@@ -6,26 +6,65 @@
   "meta": {
     "title": "Pulmonology Practice Software | Respiratory RTM & PFT Coordination | clinIQ",
     "description": "Complete guide to pulmonology practice operations. $9,100/month in respiratory RTM. PFT and sleep study coordination. Oxygen therapy tracking. Biologic authorization for severe asthma.",
-    "keywords": ["pulmonology practice software", "respiratory RTM billing", "pulmonology PFT management", "pulmonary function testing software", "pulmonology practice management"]
+    "keywords": [
+      "pulmonology practice software",
+      "respiratory RTM billing",
+      "pulmonology PFT management",
+      "pulmonary function testing software",
+      "pulmonology practice management"
+    ]
   },
   "hero": {
     "h1": "Pulmonology Practice Software",
     "subhead": "Your COPD and asthma patients already track symptoms — that's billable respiratory RTM. Your PFTs and sleep studies need coordination from order to interpretation. Your oxygen patients need ongoing management. clinIQ captures RTM revenue, coordinates testing, and tracks respiratory therapies.",
     "stats": [
-      { "value": "$9,100+", "label": "monthly respiratory RTM" },
-      { "value": "50%", "label": "faster PFT-to-interpretation" },
-      { "value": "100%", "label": "oxygen therapy visibility" }
+      {
+        "value": "$9,100+",
+        "label": "monthly respiratory RTM"
+      },
+      {
+        "value": "50%",
+        "label": "faster PFT-to-interpretation"
+      },
+      {
+        "value": "100%",
+        "label": "oxygen therapy visibility"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "pulm-practice-challenges", "title": "The Pulmonology Practice Challenge" },
-    { "id": "respiratory-rtm", "title": "Respiratory RTM Billing" },
-    { "id": "pft-coordination", "title": "PFT Coordination" },
-    { "id": "sleep-management", "title": "Sleep Study Management" },
-    { "id": "oxygen-tracking", "title": "Oxygen Therapy Tracking" },
-    { "id": "biologic-auth", "title": "Biologic Authorization" },
-    { "id": "implementation", "title": "Implementation & ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "pulm-practice-challenges",
+      "title": "The Pulmonology Practice Challenge"
+    },
+    {
+      "id": "respiratory-rtm",
+      "title": "Respiratory RTM Billing"
+    },
+    {
+      "id": "pft-coordination",
+      "title": "PFT Coordination"
+    },
+    {
+      "id": "sleep-management",
+      "title": "Sleep Study Management"
+    },
+    {
+      "id": "oxygen-tracking",
+      "title": "Oxygen Therapy Tracking"
+    },
+    {
+      "id": "biologic-auth",
+      "title": "Biologic Authorization"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -101,14 +140,29 @@
   "cta": {
     "headline": "See respiratory RTM and PFT coordination",
     "subhead": "15-minute demo. Respiratory RTM, PFT tracking, sleep management, oxygen coordination.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Respiratory RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Respiratory RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$109K", "label": "annual respiratory RTM revenue" },
-      { "value": "50%", "label": "faster PFT turnaround" },
-      { "value": "Zero", "label": "missed CMN renewals" }
+      {
+        "value": "$109K",
+        "label": "annual respiratory RTM revenue"
+      },
+      {
+        "value": "50%",
+        "label": "faster PFT turnaround"
+      },
+      {
+        "value": "Zero",
+        "label": "missed CMN renewals"
+      }
     ],
     "testimonial": {
       "quote": "Our COPD patients were calling constantly with questions. Now they log symptoms, we see trends, and we intervene before exacerbations. Plus $9K/month in RTM.",
@@ -151,5 +205,6 @@
       "price": "499",
       "priceCurrency": "USD"
     }
-  }
+  },
+  "publishDate": "2026-03-07"
 }

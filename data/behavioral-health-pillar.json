@@ -6,26 +6,65 @@
   "meta": {
     "title": "Behavioral Health Practice Software | Behavioral RTM & Group Management | clinIQ",
     "description": "Complete guide to behavioral health practice operations. $11,700/month in behavioral RTM. Group therapy scheduling. No-show reduction. Session documentation.",
-    "keywords": ["behavioral health software", "behavioral health RTM", "mental health practice management", "group therapy scheduling", "behavioral health practice software"]
+    "keywords": [
+      "behavioral health software",
+      "behavioral health RTM",
+      "mental health practice management",
+      "group therapy scheduling",
+      "behavioral health practice software"
+    ]
   },
   "hero": {
     "h1": "Behavioral Health Practice Software",
     "subhead": "Your patients already report symptoms between sessions — that's billable behavioral RTM. Your groups need scheduling that works. Your no-show rate costs you money. clinIQ captures behavioral RTM, manages groups, and reduces no-shows.",
     "stats": [
-      { "value": "$11,700+", "label": "monthly behavioral RTM" },
-      { "value": "30%", "label": "no-show reduction" },
-      { "value": "100%", "label": "group management visibility" }
+      {
+        "value": "$11,700+",
+        "label": "monthly behavioral RTM"
+      },
+      {
+        "value": "30%",
+        "label": "no-show reduction"
+      },
+      {
+        "value": "100%",
+        "label": "group management visibility"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "bh-challenges", "title": "The Behavioral Health Practice Challenge" },
-    { "id": "behavioral-rtm", "title": "Behavioral RTM Billing" },
-    { "id": "group-management", "title": "Group Therapy Management" },
-    { "id": "no-show-reduction", "title": "No-Show Reduction" },
-    { "id": "session-management", "title": "Session Time Management" },
-    { "id": "outcomes-tracking", "title": "Outcomes Tracking" },
-    { "id": "implementation", "title": "Implementation & ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "bh-challenges",
+      "title": "The Behavioral Health Practice Challenge"
+    },
+    {
+      "id": "behavioral-rtm",
+      "title": "Behavioral RTM Billing"
+    },
+    {
+      "id": "group-management",
+      "title": "Group Therapy Management"
+    },
+    {
+      "id": "no-show-reduction",
+      "title": "No-Show Reduction"
+    },
+    {
+      "id": "session-management",
+      "title": "Session Time Management"
+    },
+    {
+      "id": "outcomes-tracking",
+      "title": "Outcomes Tracking"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -101,14 +140,29 @@
   "cta": {
     "headline": "See behavioral RTM and group management",
     "subhead": "15-minute demo. Behavioral RTM, group scheduling, no-show reduction, outcomes tracking.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Behavioral RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Behavioral RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$140K", "label": "annual behavioral RTM" },
-      { "value": "28%", "label": "no-show reduction" },
-      { "value": "100%", "label": "group visibility" }
+      {
+        "value": "$140K",
+        "label": "annual behavioral RTM"
+      },
+      {
+        "value": "28%",
+        "label": "no-show reduction"
+      },
+      {
+        "value": "100%",
+        "label": "group visibility"
+      }
     ],
     "testimonial": {
       "quote": "Our no-show rate was killing us. Confirmations and RTM engagement brought it from 22% to 16%. Plus the RTM revenue is $11K/month.",
@@ -145,5 +199,6 @@
       "price": "499",
       "priceCurrency": "USD"
     }
-  }
+  },
+  "publishDate": "2026-02-22"
 }

@@ -2,89 +2,122 @@
   "slug": "podiatry",
   "name": "Podiatry",
   "pageType": "pillar",
-  "wordCount": 2600,
+  "wordCount": 3200,
   "meta": {
     "title": "Podiatry Practice Software | Diabetic Foot RTM & Wound Tracking | clinIQ",
-    "description": "Complete guide to podiatry practice operations. $7,800/month in diabetic foot RTM. Wound healing tracking. DME coordination. Surgical authorization.",
-    "keywords": ["podiatry practice software", "diabetic foot RTM", "podiatry practice management", "wound tracking software", "podiatry DME coordination"]
+    "description": "Complete guide to podiatry practice operations. $93K annual diabetic foot RTM. Wound healing measurement and tracking. DME coordination and diabetic shoe programs. Surgical authorization.",
+    "keywords": [
+      "podiatry practice software",
+      "diabetic foot RTM",
+      "podiatry practice management",
+      "wound tracking software",
+      "podiatry DME coordination"
+    ]
   },
   "hero": {
     "h1": "Podiatry Practice Software",
-    "subhead": "Your diabetic foot patients need monitoring between visits — that's billable RTM. Your wounds need healing progression tracking. Your DME needs coordination. clinIQ captures podiatric RTM, tracks wound healing, and coordinates diabetic foot care.",
+    "subhead": "Diabetic foot patients need systematic monitoring between visits — that's billable RTM that prevents amputations and generates $93K annually. Wounds need measurement tracking that identifies stalled healing before it becomes crisis. DME needs coordination from prescription to delivery. clinIQ manages all of it.",
     "stats": [
-      { "value": "$7,800+", "label": "monthly diabetic RTM" },
-      { "value": "100%", "label": "wound progression tracking" },
-      { "value": "Zero", "label": "DME coordination gaps" }
+      { "value": "$7,800+", "label": "monthly diabetic foot RTM (60 patients)" },
+      { "value": "100%", "label": "wound measurement compliance" },
+      { "value": "Zero", "label": "DME authorization gaps" }
     ]
   },
   "tableOfContents": [
-    { "id": "podiatry-challenges", "title": "The Podiatry Practice Challenge" },
-    { "id": "diabetic-rtm", "title": "Diabetic Foot RTM" },
+    { "id": "podiatry-challenges", "title": "The Podiatry Revenue and Clinical Challenge" },
+    { "id": "diabetic-rtm", "title": "Diabetic Foot RTM Billing" },
     { "id": "wound-tracking", "title": "Wound Healing Tracking" },
-    { "id": "dme-coordination", "title": "DME Coordination" },
+    { "id": "dme-coordination", "title": "DME and Diabetic Shoe Coordination" },
     { "id": "surgical-auth", "title": "Surgical Authorization" },
-    { "id": "implementation", "title": "Implementation & ROI" }
+    { "id": "patient-flow", "title": "High-Volume Patient Flow" },
+    { "id": "implementation", "title": "Implementation & ROI" },
+    { "id": "faqs", "title": "FAQs" }
   ],
   "sections": [
     {
       "id": "podiatry-challenges",
-      "h2": "The Podiatry Practice Challenge",
-      "content": "Podiatry practices manage chronic conditions (diabetic foot, wounds) while performing high-volume procedures.\n\n**The diabetic foot opportunity:**\n\nDiabetic patients should monitor: daily foot inspections, new wounds or changes, pain or numbness, temperature differences. This monitoring prevents amputations.\n\n60 diabetic foot patients × $130/month = $7,800/month in RTM.\n\n**The wound tracking problem:**\n\nWounds heal over weeks to months. Progress must be documented: size, depth, drainage, tissue type. Without systematic tracking, healing stalls go unnoticed.\n\n**The DME coordination:**\n\nDiabetic shoes, custom orthotics, offloading devices — DME requires fitting, ordering, and delivery coordination."
+      "h2": "The Podiatry Revenue and Clinical Challenge",
+      "content": "Podiatry practices manage some of medicine's highest-stakes preventive care — the diabetic patient whose next wound could mean an amputation. They also run high-volume practices where operational efficiency determines revenue. These two realities create a dual challenge: capturing the monitoring revenue that diabetic foot care generates while managing the visit volume that keeps practices financially viable.\n\nThe average podiatry practice faces:\n\n• 60-100 diabetic patients who need between-visit foot monitoring but currently get none — their calls come in when symptoms develop, not before\n• Active wound patients whose healing must be tracked with precise measurements visit-to-visit to identify stalled healing requiring treatment changes\n• DME programs (diabetic shoes, custom orthotics, offloading devices) that are poorly coordinated — orders lose in translation between the exam room and the front desk\n• Surgical cases (bunionectomy, hammertoe correction, reconstruction) requiring prior authorization with conservative care documentation\n• High daily visit volumes where operational efficiency determines how many patients are seen\n\n60 diabetic foot patients enrolled in RTM at $130/month generates $7,800/month in revenue. That's $93,600 per year for monitoring work your team is already doing — phone calls, portal messages, walk-in concerns — just without systematic documentation or billing."
     },
     {
       "id": "diabetic-rtm",
       "h2": "Diabetic Foot RTM: $130/Patient/Month",
-      "content": "Diabetic foot patients benefit from between-visit monitoring.\n\n**What patients track:**\n\n- Daily foot inspection (any new wounds, redness, swelling)\n- Pain or numbness changes\n- Temperature differences between feet\n- Compliance with offloading\n- Blood glucose (for correlation)\n\n**What clinIQ does:**\n\nDiabetic foot templates: Appropriate monitoring questions.\n\nAlert thresholds: New wound? Temperature asymmetry? Immediate alerts.\n\nPhoto submission: Patients can submit foot photos for review.\n\nCompliance tracking: Offloading device use, shoe wear, activity modification."
+      "content": "Diabetic peripheral neuropathy creates a dangerous situation: patients can develop serious foot wounds without feeling them. By the time pain alerts them to a problem, wound severity may already require aggressive intervention. Systematic monitoring between visits catches wounds at the earliest possible stage — and qualifies for RTM billing.\n\n**What diabetic foot RTM monitoring captures:**\n\n• Daily foot inspection: Any new skin breakdown, redness, blistering, swelling, drainage\n• Neuropathy symptoms: Burning, tingling, numbness — changes in sensory status\n• Temperature asymmetry: Patients guided to check if one foot is warmer than the other (early indicator of Charcot or infection)\n• Wound monitoring (active wounds): Size perception, drainage amount and character, periwound changes\n• Shoe and offloading compliance: Are diabetic shoes being worn? CAM boot compliance? Total contact cast intact?\n• Glucose correlation: Blood glucose logging when combined with wound healing tracking\n\n**Photo submission for wound monitoring:**\n\nPatients with active wounds or previous wounds submit weekly foot photos through the clinIQ patient app. Provider reviews images between visits. Early changes — maceration, erythema spreading, wound color changes — are identified before the next scheduled visit rather than after.\n\n**The clinical impact:**\n\nThree categories of problems are caught through systematic RTM monitoring that would otherwise present as emergencies:\n\n1. Pre-ulcerative lesions: Callus overlying a blistering area that will become an ulcer within days if not addressed\n2. Infected wounds: Increasing drainage, warmth, color change — caught on submitted photo before sepsis\n3. Charcot foot: Warmth, erythema, swelling in a neuropathic foot — temperature asymmetry monitoring catches this at Eichenholtz Stage 0\n\n**The CPT codes:**\n\n• 98975: RTM device supply and setup (one-time)\n• 98977: Monthly supply with scheduled data recordings\n• 98980: Treatment management, first 20 minutes\n• 98981: Each additional 20 minutes for complex patients\n\n**Related: [Diabetic Foot RTM: Billing, Enrollment, and Prevention](/blog/diabetic-foot-rtm)**"
     },
     {
       "id": "wound-tracking",
       "h2": "Wound Healing Tracking",
-      "content": "Wound documentation is critical for outcomes and billing.\n\n**What clinIQ tracks:**\n\nWound measurements: Length, width, depth at each visit.\n\nHealing progression: Size reduction over time graphed.\n\nTissue characteristics: Granulation, slough, necrosis percentages.\n\nTreatment applied: Debridement, dressings, advanced therapies.\n\n**The clinical value:**\n\nWounds that aren't improving need treatment escalation. Systematic tracking identifies stalled wounds early."
+      "content": "Wound documentation is both a clinical necessity and a billing requirement. For diabetic foot ulcers, precise measurement at every visit is needed to document healing trajectory, justify continuation of wound care services, and identify non-responding wounds that need treatment escalation or referral.\n\n**What measurements matter in podiatric wound care:**\n\nLinear dimensions: Length × width (longest × widest perpendicular measurement). Wound area calculated and compared visit-to-visit. Healing rate expressed as percent reduction.\n\nDepth: Maximum depth in centimeters. Undermining and tunneling documented by clock position and extent.\n\nWound bed composition: Percent granulation (red), slough (yellow), necrotic/eschar (black), epithelialization (pink). Composition trending over treatment course.\n\nExudate: Amount (none/minimal/moderate/heavy) and character (serous, serosanguineous, purulent).\n\nPeriwound skin: Maceration, callus, erythema, induration extent.\n\nWound classification: Wagner Grade for diabetic foot ulcers, UT Classification, PEDIS — documented at each visit.\n\n**Healing rate monitoring:**\n\nThe 4-week healing rule applies to podiatric wounds: wounds that haven't reduced by 40% in 4 weeks are at risk for non-healing and need treatment escalation. clinIQ calculates healing rate automatically and flags non-responding wounds for review.\n\n**What treatment escalation looks like:**\n\nStalled wound at 4 weeks → consider: different dressing approach, debridement frequency change, offloading device change, infectious disease consultation for deep infection, vascular surgery referral for revascularization assessment, wound care center co-management.\n\n**Photography tracking:**\n\nStandardized photography at each wound visit linked to measurements. Photo-measurement pairing creates a visual record of healing progression that documents clinical rationale for continued treatment and supports authorization continuation."
     },
     {
       "id": "dme-coordination",
-      "h2": "DME Coordination",
-      "content": "Podiatric DME includes:\n\n- Diabetic shoes and inserts (Medicare DMEPOS)\n- Custom orthotics\n- Offloading devices (CAM boots, total contact casts)\n- Compression stockings\n\n**What clinIQ does:**\n\nDME pipeline: Order → fitting → authorization → delivery → follow-up.\n\nDiabetic shoe program: Eligibility verification, fitting, ordering.\n\nOrthotic tracking: Mold/scan → fabrication → fitting → adjustment."
+      "h2": "DME and Diabetic Shoe Coordination",
+      "content": "Podiatry's DME program — diabetic shoes, custom orthotics, offloading devices — is a significant revenue source that most practices manage poorly. Orders get lost between the exam room and the front desk. Eligibility isn't verified before fitting. Delivery isn't confirmed. Patients don't follow up for adjustments.\n\n**The Medicare Diabetic Shoe Program:**\n\nMedicare covers one pair of therapeutic shoes and three pairs of inserts per calendar year for diabetic patients with documented foot comorbidities — prior foot ulcer, foot deformity, pre-ulcerative callus, nerve damage, poor circulation, or history of amputation.\n\nThe program requires:\n• Physician certifying the medical necessity (PCP or managing physician statement)\n• Podiatrist prescribing and fitting the shoes\n• DME supplier delivering and billing Medicare\n\nEligibility verification, physician certification collection, prescription, fitting, ordering, and delivery — each step can fail silently.\n\n**Custom orthotics:**\n\nCustom orthotic pipeline: Casting or scanning → lab fabrication → delivery → fitting → adjustment. Each step requires tracking. Insurance authorization required for custom orthotics by most payers.\n\n**Offloading devices:**\n\nCAM boots, total contact casts, surgical shoes — each requires prescription, patient fitting and education, and compliance monitoring. Offloading compliance is tracked as part of diabetic RTM monitoring.\n\n**What clinIQ coordinates:**\n\nDME pipeline: Prescription ordered, eligibility verified, physician certification obtained, fitting appointment scheduled, order placed, delivery confirmed, follow-up visit scheduled for adjustment.\n\nAnnual program tracking: Medicare diabetic shoe eligibility resets January 1. Eligible patients who haven't received shoes for the year are identified and outreached.\n\nOrthotic tracking: Custom orthotic status from casting through delivery with lab turnaround tracking. Authorization status tracked per patient."
     },
     {
       "id": "surgical-auth",
       "h2": "Surgical Authorization",
-      "content": "Podiatric surgery (bunionectomy, hammertoe, reconstructive) often requires prior authorization.\n\n**What clinIQ does:**\n\nAuth tracking: Status per patient per procedure.\n\nConservative care documentation: Prior treatment documented for auth support.\n\nPre-op coordination: Labs, clearance, imaging tracked."
+      "content": "Podiatric surgery — bunionectomy, hammertoe correction, plantar fascia release, Achilles tendon repair, reconstructive procedures — requires prior authorization with documentation of failed conservative treatment. The authorization denial rate for first-submission podiatric surgery requests averages 20-30%, primarily due to inadequate conservative care documentation.\n\n**Common podiatric surgical authorization requirements:**\n\nBunionectomy: Most payers require 3-6 months of documented conservative treatment — wider shoes, shoe modifications, padding, orthotics — with documented failure to relieve symptoms. Imaging correlation (weight-bearing X-rays showing hallux valgus angle) must match surgical indication.\n\nHammertoe correction: Conservative treatment documentation — pads, wider shoe box, insoles — and imaging showing flexible vs. rigid deformity.\n\nPlantar fascia release: Physical therapy documentation, orthotic trial, corticosteroid injection history, anti-inflammatory medication trial. Ultrasound or MRI documenting fasciitis.\n\nAchilles tendon repair: Acute rupture vs. chronic tendinopathy — different authorization requirements. Acute rupture: minimal conservative care requirements; surgical choice documented. Chronic: conservative treatment documentation (PT, PRP, etc.).\n\n**What clinIQ tracks:**\n\nConservative care log: Treatment documented at each visit — referenced automatically in LOMN for surgical authorization. Imaging results: X-rays, ultrasound, MRI linked to authorization documentation. Auth status: Submitted, pending, approved, denied, appealed — visible without calling payers. Pre-operative checklist: Medical clearance, lab work, consent tracked before OR scheduling."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "High-Volume Patient Flow",
+      "content": "Busy podiatry practices see 40-60+ patients per day. The visit mix includes quick nail care visits, complex diabetic foot examinations with wound care and debridement, new patient evaluations, and post-operative follow-ups. Managing this volume requires clear operational visibility.\n\n**The podiatry visit flow problem:**\n\nIn high-volume podiatry practices, MAs don't always know who's next, providers don't know when rooms are ready, and patients wait longer than necessary because nobody has visibility into the queue. A 10-minute nail care visit that takes 25 minutes because of waiting bottlenecks reduces daily capacity significantly.\n\n**Visit type differentiation:**\n\nNail care: Simple rooming, vitals optional, quick turnaround.\n\nDiabetic foot exam: Full assessment, monofilament testing, ABI if needed, wound care if active wounds. 20-30 minutes.\n\nWound care debridement: Pre-set debridement tray, specific supplies, photo documentation. 15-20 minutes.\n\nNew patient: Full history, X-rays if needed, treatment planning. 30-45 minutes.\n\nPost-operative: Wound check, suture removal, X-ray if needed. 10-15 minutes.\n\n**What clinIQ manages:**\n\nQueue visibility: Which patients are checked in, in which rooms, at which stage — visible to MA and provider simultaneously. Visit type tracking: Color-coded queue showing visit complexity. Room turnover: Room ready status visible. Diabetic foot exam protocol: Checklist ensures monofilament, photo, wound measurement are not skipped on diabetic visits."
     },
     {
       "id": "implementation",
       "h2": "Implementation and ROI Timeline",
-      "content": "**Week 1-2: Configuration and Training**\n\nDiabetic RTM, wound tracking, DME coordination configured.\n\n**ROI Math:**\n\nRTM revenue: 60 patients × $130/month = $7,800/month = $93,600/year\n\nWound tracking: Better outcomes, justified billing.\n\nDME coordination: Improved compliance and revenue capture.\n\n**Investment:**\n\nProfessional: $499/month\n\nImplementation: $750 one-time"
+      "content": "**Week 1-2: Configuration**\n\nDiabetic RTM program configured for your patient population. Wound measurement templates built for your visit workflow. DME coordination pipeline established. Surgical authorization tracking configured for your primary payers.\n\n**Week 3: Training and Go-Live**\n\nClinical staff training on RTM enrollment and wound documentation. Front desk training on DME coordination workflow. Provider training on wound measurement tracking and authorization dashboard.\n\n**ROI Timeline:**\n\nMonth 1: Diabetic RTM enrollment begins. Wound measurement compliance from day one. DME pipeline active.\n\nMonth 3: 50+ diabetic patients enrolled in RTM. Wound tracking database building. DME order completion rate improving. First full RTM billing quarter showing $23,000+.\n\nMonth 6: RTM at $7,800+/month steady state. Surgical authorization approval rate documented improvement. DME annual eligibility outreach producing revenue.\n\n**Annual ROI:**\n\n• Diabetic foot RTM: $93,600/year (60 patients)\n• Improved surgical authorization approval: $15,000-30,000/year in recovered denials\n• DME program improvement: Practice-specific revenue capture improvement\n\n**Investment:**\n\n• Professional: $499/month — Full suite including RTM, wound tracking, DME coordination, surgical auth, patient flow\n• Implementation: $750 one-time"
     }
   ],
   "faqs": [
     {
-      "q": "Is diabetic foot RTM billable?",
-      "a": "Yes. Diabetic foot monitoring qualifies for RTM codes 98977 and 98980."
+      "q": "Is diabetic foot RTM covered by Medicare and commercial payers?",
+      "a": "Yes. Diabetic foot monitoring qualifies for RTM under CPT 98977 (monthly supply) and 98980 (treatment management, first 20 minutes). The monitoring data — daily foot inspection results, neuropathy symptom changes, wound status, offloading compliance — constitutes non-physiological remote monitoring. Medicare reimbursement averages $120-150/patient/month depending on codes billed."
     },
     {
-      "q": "How do you track wound measurements?",
-      "a": "Length, width, depth entered at each visit. Healing progression graphed over time."
+      "q": "How does wound measurement tracking work?",
+      "a": "At each wound visit, length, width, depth, tissue type percentages, exudate, and periwound skin are documented. clinIQ calculates wound area and healing rate compared to prior visit and to the 4-week baseline. Non-responder alerts fire when wounds haven't reduced by 40% in 4 weeks. Wound photographs are linked to measurements for each visit, creating a complete visual-measurement record."
     },
     {
-      "q": "Does this work with diabetic shoe programs?",
-      "a": "Yes. Eligibility, fitting, ordering, and delivery tracked."
+      "q": "How do you coordinate the Medicare diabetic shoe program?",
+      "a": "Eligible patients are identified through diagnosis documentation. The program pipeline tracks: eligibility verified, physician certifier identified, certification obtained, prescription written, fitting scheduled, order placed, delivery confirmed, and follow-up adjustment scheduled. Annual eligibility resets January 1 — eligible patients who haven't received shoes for the year are flagged for outreach."
+    },
+    {
+      "q": "What surgical authorization documentation does clinIQ generate?",
+      "a": "LOMN templates for bunionectomy, hammertoe correction, plantar fascia release, and Achilles tendon repair. Each template references conservative treatment history documented at prior visits — padding, orthotics, PT, injections — with dates automatically populated. Imaging findings, symptom duration, and functional impairment are auto-populated from the patient record."
+    },
+    {
+      "q": "How are non-healing wounds identified?",
+      "a": "The 4-week healing rule is built in — wounds that haven't reduced by 40% at 4 weeks trigger a non-responder alert on the provider dashboard. These patients are reviewed for treatment escalation: debridement frequency, dressing change, offloading assessment, referral to wound center or vascular surgery. Early identification prevents months of ineffective treatment."
+    },
+    {
+      "q": "Can patients submit foot photos between visits?",
+      "a": "Yes. Active wound patients and high-risk diabetic patients submit weekly foot photos through the patient app. Photos are reviewed by the clinical team between scheduled visits. Early changes — maceration, spreading erythema, wound color change — are identified and addressed before they require emergency intervention."
+    },
+    {
+      "q": "How does high-volume patient flow work in clinIQ?",
+      "a": "A shared queue shows all checked-in patients with their visit type, current stage, and room assignment. Visit types (nail care, diabetic exam, wound care, new patient, post-op) are color-coded. Room ready status is visible to both MA and provider. For diabetic foot exams, a checklist ensures monofilament testing, wound documentation, and photo are not skipped under schedule pressure."
+    },
+    {
+      "q": "How long does implementation take?",
+      "a": "Two weeks. Week 1: RTM program configuration, wound measurement template build, DME pipeline setup, surgical authorization tracking. Week 2: staff training by role (MA, front desk, provider) and parallel testing. Week 3: live with clinIQ support available."
     }
   ],
   "cta": {
-    "headline": "See diabetic RTM and wound tracking",
-    "subhead": "15-minute demo. Diabetic foot RTM, wound progression, DME coordination.",
+    "headline": "See how podiatry practices capture diabetic RTM and prevent amputations through systematic monitoring",
+    "subhead": "15-minute demo. Diabetic foot RTM enrollment, wound measurement tracking, DME coordination, surgical authorization.",
     "primaryButton": { "label": "Request Demo", "href": "/demo" },
     "secondaryButton": { "label": "Calculate Diabetic RTM Revenue", "href": "/resources/rtm-calculator" }
   },
   "proof": {
     "stats": [
-      { "value": "$94K", "label": "annual diabetic RTM" },
-      { "value": "100%", "label": "wound tracking" },
-      { "value": "Zero", "label": "DME gaps" }
+      { "value": "$94K", "label": "annual diabetic foot RTM revenue" },
+      { "value": "100%", "label": "wound measurement compliance" },
+      { "value": "Zero", "label": "DME authorization gaps" }
     ],
     "testimonial": {
-      "quote": "We caught three pre-ulcerative lesions from patient photos. Three prevented amputations.",
+      "quote": "We caught three pre-ulcerative lesions from patient-submitted photos — caught before they became wounds. Three amputations potentially prevented. The RTM billing was the bonus.",
       "attribution": "Podiatrist",
       "practice": "Podiatry practice, 2 physicians",
       "location": "Nevada"
@@ -93,30 +126,34 @@
   "relatedContent": [
     {
       "type": "blog",
-      "title": "Diabetic Foot RTM: Prevention Through Monitoring",
+      "title": "Diabetic Foot RTM: Billing, Enrollment, and Prevention",
       "href": "/blog/diabetic-foot-rtm",
-      "description": "Using RTM to prevent diabetic foot complications."
+      "description": "CPT codes, patient qualification, enrollment strategies, and clinical protocols for diabetic foot RTM."
     },
     {
       "type": "blog",
-      "title": "Wound Tracking: Documentation for Outcomes",
+      "title": "Wound Tracking: Measurement Documentation for Outcomes and Authorization",
       "href": "/blog/podiatry-wound-tracking",
-      "description": "Systematic wound measurement and healing progression."
+      "description": "Systematic wound measurement and the 4-week healing rule for non-responder identification."
     },
     {
       "type": "blog",
-      "title": "Podiatric DME Coordination",
+      "title": "Podiatric DME Coordination: Diabetic Shoes, Orthotics, and Offloading",
       "href": "/blog/podiatric-dme-coordination",
-      "description": "Managing diabetic shoes, orthotics, and offloading devices."
+      "description": "Managing DME from prescription through delivery with authorization tracking."
+    },
+    {
+      "type": "resource",
+      "title": "RTM Revenue Calculator",
+      "href": "/resources/rtm-calculator",
+      "description": "Calculate your practice's diabetic foot RTM revenue potential."
     }
   ],
   "schema": {
     "type": "SoftwareApplication",
     "applicationCategory": "Medical Practice Management Software",
     "operatingSystem": "Web-based",
-    "offers": {
-      "price": "499",
-      "priceCurrency": "USD"
-    }
-  }
+    "offers": { "price": "499", "priceCurrency": "USD" }
+  },
+  "publishDate": "2025-10-02"
 }

@@ -21,7 +21,7 @@ const specialties = [
     tagline: 'Sick walk-ins, vaccine clinic flow, and well-visit recalls without the lobby chaos.',
   },
   {
-    slug: 'obgyn',
+    slug: 'ob-gyn',
     name: 'OB-GYN',
     tagline: 'Prenatal sequencing, call volume reduction, and split OB/GYN scheduling.',
   },
@@ -92,8 +92,13 @@ const specialties = [
   },
   {
     slug: 'allergy',
-    name: 'Allergy & Immunology',
+    name: 'Allergy',
     tagline: 'Injection program management, vial tracking, biologic authorization, and RTM.',
+  },
+  {
+    slug: 'allergy-immunology',
+    name: 'Allergy & Immunology',
+    tagline: 'Immunotherapy vial tracking, injection scheduling, testing coordination, and biologic authorization.',
   },
   {
     slug: 'rheumatology',

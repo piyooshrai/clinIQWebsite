@@ -1,1 +1,210 @@
-{"slug":"rheumatology","name":"Rheumatology","pageType":"pillar","wordCount":3000,"meta":{"title":"Rheumatology Practice Software | RA/Lupus RTM & Biologic Management | clinIQ","description":"Complete guide to rheumatology practice operations. $9,750/month in rheumatic disease RTM. Biologic authorization and injection scheduling. Disease activity tracking. Infusion coordination.","keywords":["rheumatology practice software","rheumatology RTM billing","biologic authorization rheumatology","rheumatology practice management","RA disease activity tracking"]},"hero":{"h1":"Rheumatology Practice Software","subhead":"Your RA, lupus, and PsA patients already report symptoms between visits — that's billable RTM. Your biologics require authorization tracking. Your infusions need scheduling. clinIQ captures RTM revenue, manages biologic authorizations, and coordinates infusion therapy.","stats":[{"value":"$9,750+","label":"monthly rheumatic disease RTM"},{"value":"Zero","label":"expired biologic authorizations"},{"value":"100%","label":"disease activity visibility"}]},"tableOfContents":[{"id":"rheum-practice-challenges","title":"The Rheumatology Practice Challenge"},{"id":"rheumatic-rtm","title":"Rheumatic Disease RTM Billing"},{"id":"biologic-management","title":"Biologic Authorization and Management"},{"id":"infusion-coordination","title":"Infusion Coordination"},{"id":"disease-activity","title":"Disease Activity Tracking"},{"id":"patient-flow","title":"Patient Flow"},{"id":"implementation","title":"Implementation & ROI"},{"id":"faqs","title":"FAQs"}],"sections":[{"id":"rheum-practice-challenges","h2":"The Rheumatology Practice Challenge","content":"Rheumatology practices manage complex chronic diseases that require ongoing monitoring and expensive therapies.\n\n**The monitoring challenge:**\n\nRheumatoid arthritis patients fluctuate between visits. Lupus flares unpredictably. Psoriatic arthritis patients need joint and skin monitoring. Without between-visit data, treatment decisions are based on snapshots.\n\n**The biologic management burden:**\n\nMost rheumatology patients are on biologics or targeted synthetics — Humira, Enbrel, Remicade, Orencia, Actemra, Xeljanz, Rinvoq, and many others. Each requires:\n- Prior authorization\n- Step therapy documentation\n- Lab monitoring\n- Injection/infusion scheduling\n- Annual renewals\n\nWithout systems, authorization management consumes staff time.\n\n**The RTM opportunity:**\n\n75 rheumatic disease patients × $130/month = $9,750/month = $117,000/year.\n\nThis revenue captures work that should already be happening — monitoring disease activity and adjusting treatment based on patient-reported data."},{"id":"rheumatic-rtm","h2":"Rheumatic Disease RTM Billing: $130/Patient/Month","content":"RTM for rheumatic diseases captures between-visit symptom tracking that informs treatment decisions.\n\n**What rheumatology patients track:**\n\nRheumatoid arthritis:\n- Morning stiffness duration\n- Joint pain and swelling (specific joints)\n- Fatigue\n- Functional limitations\n- Medication compliance\n\nSystemic lupus erythematosus:\n- Fatigue and malaise\n- Joint symptoms\n- Skin manifestations\n- Fevers\n- New symptoms (renal, neurologic, cardiopulmonary)\n\nPsoriatic arthritis:\n- Joint symptoms\n- Skin involvement (psoriasis activity)\n- Enthesitis symptoms\n- Nail changes\n- Medication compliance\n\nAnkylosing spondylitis:\n- Back pain and stiffness\n- Morning stiffness duration\n- Peripheral joint involvement\n- Functional status\n- Sleep quality\n\n**The CPT codes:**\n\n98975: RTM setup — one-time. ~$20-25.\n98977: RTM device supply. ~$50-60/month.\n98980: RTM treatment management — first 20 minutes. ~$50-70/month.\n98981: Additional 20-minute increments.\n\nTypical: $120-150/patient/month.\n\n**What clinIQ does for rheumatic RTM:**\n\nDisease-specific templates: RA patients get joint counts. Lupus patients get organ system reviews. PsA patients get skin and joint assessment.\n\nFlare detection: Symptom worsening triggers alerts. Morning stiffness increasing? More joints involved? Early flare signs surface.\n\nDisease activity scoring: RAPID3, DAS28-CRP, CDAI — simplified versions administered through the app.\n\nMedication compliance: Biologic injection compliance tracked. Missed doses flagged."},{"id":"biologic-management","h2":"Biologic Authorization and Management","content":"The majority of rheumatology patients are on biologics or targeted synthetics. Managing authorizations is a major operational burden.\n\n**The biologic landscape:**\n\nTNF inhibitors: Humira, Enbrel, Cimzia, Simponi, Remicade (and biosimilars)\nIL-6 inhibitors: Actemra, Kevzara\nT-cell costimulation inhibitor: Orencia\nB-cell depletion: Rituxan\nJAK inhibitors: Xeljanz, Rinvoq, Olumiant\nIL-17 inhibitors: Cosentyx, Taltz\nIL-12/23 inhibitors: Stelara\n\nEach has different authorization requirements, monitoring needs, and renewal timelines.\n\n**The authorization workflow:**\n\nInitial authorization:\n- Documented diagnosis with objective evidence\n- Failed conventional therapy (MTX, etc.)\n- Labs (TB, hepatitis, CBC, CMP)\n- Disease severity documentation\n\nOngoing authorization:\n- Annual or semi-annual renewals\n- Response documentation\n- Labs current\n- No contraindications\n\n**What clinIQ does for biologic authorization:**\n\nAuth status dashboard: Every patient on biologics visible with current drug, auth status, expiration date.\n\nExpiration alerts: 'Humira auth expires in 21 days. Patient due for injection next week.'\n\nStep therapy documentation: MTX trial, DMARD combinations — documented with dates and outcomes.\n\nLab tracking: TB, hepatitis B/C, CBC, CMP, lipids (for JAK inhibitors) — status per patient.\n\n**Switching biologics:**\n\nPatients who fail one biologic often need another. Documentation requirements:\n- Reason for switch (lack of efficacy, side effects, antibody development)\n- Prior biologic duration\n- Washout period (if required)\n\nclinIQ tracks biologic history to support authorization for subsequent agents."},{"id":"infusion-coordination","h2":"Infusion Coordination","content":"Many rheumatology biologics are administered as infusions:\n\n- Remicade (infliximab): Every 4-8 weeks\n- Orencia IV (abatacept): Every 4 weeks\n- Actemra IV (tocilizumab): Every 4 weeks\n- Rituxan (rituximab): Every 6 months typically\n\n**The infusion coordination challenge:**\n\nPre-infusion requirements:\n- Authorization current\n- Labs current (TB screening, CBC, etc.)\n- No active infection\n- Pre-medications ordered\n\nScheduling:\n- Chair availability\n- Infusion duration (varies by drug)\n- Nurse availability\n\n**What clinIQ does for infusion coordination:**\n\nInfusion pipeline: Every infusion patient visible with last infusion, next due, auth status, labs status.\n\nPre-infusion checklist: Auth current, labs current, pre-meds ordered, no contraindications — status visible before scheduling.\n\nChair scheduling: Chair availability matched to infusion duration.\n\nInfusion day readiness: Day-of confirmation that patient is cleared for infusion.\n\n**The revenue protection:**\n\nMissed infusions from expired auths or missing labs = lost revenue and undertreated patients.\n\nOne missed Remicade infusion = $5,000-8,000 lost revenue + potential disease flare.\n\nclinIQ prevents these gaps."},{"id":"disease-activity","h2":"Disease Activity Tracking","content":"Rheumatology uses standardized disease activity measures:\n\n**RA measures:**\n- DAS28-CRP/ESR: Disease Activity Score\n- CDAI: Clinical Disease Activity Index\n- RAPID3: Routine Assessment of Patient Index Data 3\n- ACR response criteria\n\n**Lupus measures:**\n- SLEDAI: Systemic Lupus Erythematosus Disease Activity Index\n- BILAG: British Isles Lupus Assessment Group\n- PGA: Physician Global Assessment\n\n**PsA measures:**\n- DAPSA: Disease Activity in Psoriatic Arthritis\n- MDA: Minimal Disease Activity\n\n**The tracking challenge:**\n\nThese measures require data collection at each visit. Joint counts, patient-reported outcomes, lab values. Calculating scores takes time. Trending scores over time requires organized data.\n\n**What clinIQ does:**\n\nPatient-reported components: RAPID3, patient global, functional assessment — collected via app or at check-in.\n\nProvider components: Joint counts, physician global — entered during visit.\n\nScore calculation: DAS28, CDAI, etc. calculated automatically.\n\nTrend visualization: Disease activity over time. Response to treatment changes visible.\n\n**The clinical value:**\n\nTreat-to-target requires knowing where you are. Objective disease activity scores — tracked over time — drive treatment decisions and support authorization."},{"id":"patient-flow","h2":"Patient Flow","content":"Rheumatology visits vary significantly:\n\n- New patient: 45-60 minutes (complex history, joint exam, assessment)\n- Established follow-up: 20-30 minutes\n- Flare visit: 30-45 minutes (assessment, treatment adjustment)\n- Injection visit: 15-20 minutes\n- Infusion: 1-4 hours depending on drug\n\n**What clinIQ does for patient flow:**\n\nVisit type awareness: Different visit types have different expected durations.\n\nPre-visit data: RTM data visible before appointment. 'Patient reporting increased morning stiffness past 2 weeks.'\n\nJoint exam support: Standardized joint count interface if desired.\n\nInjection tracking: For in-office injections, tracking and scheduling."},{"id":"implementation","h2":"Implementation and ROI Timeline","content":"Rheumatology implementation covers RTM, biologic authorization, and infusion coordination.\n\n**Week 1: Configuration**\n\nWe configure for your practice: visit types, biologic tracking, infusion workflow, RTM templates.\n\nDisease-specific RTM: RA, lupus, PsA, AS templates configured.\n\nBiologic inventory: All patients on biologics loaded with current drug, auth status, labs.\n\n**Week 2: Training**\n\nClinical staff learns RTM workflow. Coordinators learn authorization tracking. Infusion nurses learn scheduling. Providers learn disease activity dashboards.\n\n**Week 3: Go-Live**\n\nRTM enrollment beginning. Authorization tracking active. Infusion coordination running.\n\n**ROI Timeline:**\n\nMonth 1: Authorization visibility immediate. RTM enrollment starting.\n\nMonth 3: RTM billing at scale (60-80 patients). Authorization gaps eliminated. Infusion coordination smooth.\n\nMonth 6: Full RTM revenue ($8,000-10,000/month). Biologic management systematized.\n\n**ROI Math:**\n\nRTM revenue: 75 patients × $130/month = $9,750/month = $117,000/year\n\nAuthorization gap prevention: 2 prevented missed infusions/month × $6,000 = $12,000/month = $144,000/year\n\nCoordinator efficiency: Time savings from systematic tracking = FTE reallocation or volume growth\n\n**Investment:**\n\nProfessional: $499/month\n\nImplementation: $750 one-time"}],"faqs":[{"q":"Which rheumatic diseases qualify for RTM?","a":"RA, lupus, PsA, ankylosing spondylitis, and other inflammatory conditions where between-visit monitoring informs treatment. Essentially any chronic rheumatic disease."},{"q":"How do you track disease activity?","a":"Patient-reported components collected via app. Provider components entered during visit. Scores (DAS28, CDAI, RAPID3, etc.) calculated automatically. Trends visualized over time."},{"q":"How many biologics do you track?","a":"All of them. TNF inhibitors, IL-6 inhibitors, JAK inhibitors, T-cell/B-cell agents, IL-17/IL-23 inhibitors. Each with specific authorization requirements and monitoring needs."},{"q":"What about biosimilars?","a":"Biosimilars tracked same as originators. Authorization requirements may differ — we configure based on payer-specific rules."},{"q":"Can you track lab monitoring requirements?","a":"Yes. TB, hepatitis, CBC, CMP, lipids (for JAK inhibitors) — tracked per patient with alerts when labs are due or expired."},{"q":"Does this work for practices with in-house infusion?","a":"Yes. Chair scheduling, pre-infusion checklists, drug prep coordination all supported."},{"q":"What about practices that refer infusions out?","a":"Authorization tracking and pre-infusion requirements work regardless of where infusion is administered. We track the coordination, not just the infusion itself."},{"q":"How does RTM work with disease activity measures?","a":"RTM captures patient-reported data (pain, stiffness, function) that feeds into disease activity calculations. The same data serves clinical and billing purposes."}],"cta":{"headline":"See rheumatic RTM and biologic management","subhead":"15-minute demo. Disease activity tracking, biologic authorization, infusion coordination, RTM billing.","primaryButton":{"label":"Request Demo","href":"/demo"},"secondaryButton":{"label":"Calculate Rheumatic RTM Revenue","href":"/resources/rtm-calculator"}},"proof":{"stats":[{"value":"$117K","label":"annual rheumatic RTM revenue"},{"value":"Zero","label":"expired authorizations"},{"value":"100%","label":"disease activity tracking"}],"testimonial":{"quote":"We were losing patients to authorization lapses. Now every biologic patient is visible with auth status. Zero gaps. Plus $10K/month in RTM.","attribution":"Rheumatologist","practice":"Rheumatology practice, 2 physicians","location":"Georgia"}},"relatedContent":[{"type":"blog","title":"Rheumatic Disease RTM Billing: RA, Lupus, and PsA","href":"/blog/rheumatic-rtm-billing","description":"How to bill RTM for inflammatory arthritis and autoimmune conditions. Documentation and disease activity tracking."},{"type":"blog","title":"Biologic Authorization in Rheumatology: Complete Guide","href":"/blog/biologic-authorization-rheumatology","description":"Managing authorizations for TNF inhibitors, JAK inhibitors, and other biologics."},{"type":"blog","title":"Disease Activity Tracking: DAS28, CDAI, RAPID3","href":"/blog/disease-activity-tracking-rheumatology","description":"Using standardized measures to guide treat-to-target and support authorization."},{"type":"resource","title":"Rheumatic RTM Calculator","href":"/resources/rtm-calculator","description":"Calculate your practice's rheumatic disease RTM revenue potential."}],"schema":{"type":"SoftwareApplication","applicationCategory":"Medical Practice Management Software","operatingSystem":"Web-based","offers":{"price":"499","priceCurrency":"USD"}}}
+{
+  "slug": "rheumatology",
+  "name": "Rheumatology",
+  "pageType": "pillar",
+  "wordCount": 3000,
+  "meta": {
+    "title": "Rheumatology Practice Software | RA/Lupus RTM & Biologic Management | clinIQ",
+    "description": "Complete guide to rheumatology practice operations. $9,750/month in rheumatic disease RTM. Biologic authorization and injection scheduling. Disease activity tracking. Infusion coordination.",
+    "keywords": [
+      "rheumatology practice software",
+      "rheumatology RTM billing",
+      "biologic authorization rheumatology",
+      "rheumatology practice management",
+      "RA disease activity tracking"
+    ]
+  },
+  "hero": {
+    "h1": "Rheumatology Practice Software",
+    "subhead": "Your RA, lupus, and PsA patients already report symptoms between visits — that's billable RTM. Your biologics require authorization tracking. Your infusions need scheduling. clinIQ captures RTM revenue, manages biologic authorizations, and coordinates infusion therapy.",
+    "stats": [
+      {
+        "value": "$9,750+",
+        "label": "monthly rheumatic disease RTM"
+      },
+      {
+        "value": "Zero",
+        "label": "expired biologic authorizations"
+      },
+      {
+        "value": "100%",
+        "label": "disease activity visibility"
+      }
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "rheum-practice-challenges",
+      "title": "The Rheumatology Practice Challenge"
+    },
+    {
+      "id": "rheumatic-rtm",
+      "title": "Rheumatic Disease RTM Billing"
+    },
+    {
+      "id": "biologic-management",
+      "title": "Biologic Authorization and Management"
+    },
+    {
+      "id": "infusion-coordination",
+      "title": "Infusion Coordination"
+    },
+    {
+      "id": "disease-activity",
+      "title": "Disease Activity Tracking"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Patient Flow"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
+  ],
+  "sections": [
+    {
+      "id": "rheum-practice-challenges",
+      "h2": "The Rheumatology Practice Challenge",
+      "content": "Rheumatology practices manage complex chronic diseases that require ongoing monitoring and expensive therapies.\n\n**The monitoring challenge:**\n\nRheumatoid arthritis patients fluctuate between visits. Lupus flares unpredictably. Psoriatic arthritis patients need joint and skin monitoring. Without between-visit data, treatment decisions are based on snapshots.\n\n**The biologic management burden:**\n\nMost rheumatology patients are on biologics or targeted synthetics — Humira, Enbrel, Remicade, Orencia, Actemra, Xeljanz, Rinvoq, and many others. Each requires:\n- Prior authorization\n- Step therapy documentation\n- Lab monitoring\n- Injection/infusion scheduling\n- Annual renewals\n\nWithout systems, authorization management consumes staff time.\n\n**The RTM opportunity:**\n\n75 rheumatic disease patients × $130/month = $9,750/month = $117,000/year.\n\nThis revenue captures work that should already be happening — monitoring disease activity and adjusting treatment based on patient-reported data."
+    },
+    {
+      "id": "rheumatic-rtm",
+      "h2": "Rheumatic Disease RTM Billing: $130/Patient/Month",
+      "content": "RTM for rheumatic diseases captures between-visit symptom tracking that informs treatment decisions.\n\n**What rheumatology patients track:**\n\nRheumatoid arthritis:\n- Morning stiffness duration\n- Joint pain and swelling (specific joints)\n- Fatigue\n- Functional limitations\n- Medication compliance\n\nSystemic lupus erythematosus:\n- Fatigue and malaise\n- Joint symptoms\n- Skin manifestations\n- Fevers\n- New symptoms (renal, neurologic, cardiopulmonary)\n\nPsoriatic arthritis:\n- Joint symptoms\n- Skin involvement (psoriasis activity)\n- Enthesitis symptoms\n- Nail changes\n- Medication compliance\n\nAnkylosing spondylitis:\n- Back pain and stiffness\n- Morning stiffness duration\n- Peripheral joint involvement\n- Functional status\n- Sleep quality\n\n**The CPT codes:**\n\n98975: RTM setup — one-time. ~$20-25.\n98977: RTM device supply. ~$50-60/month.\n98980: RTM treatment management — first 20 minutes. ~$50-70/month.\n98981: Additional 20-minute increments.\n\nTypical: $120-150/patient/month.\n\n**What clinIQ does for rheumatic RTM:**\n\nDisease-specific templates: RA patients get joint counts. Lupus patients get organ system reviews. PsA patients get skin and joint assessment.\n\nFlare detection: Symptom worsening triggers alerts. Morning stiffness increasing? More joints involved? Early flare signs surface.\n\nDisease activity scoring: RAPID3, DAS28-CRP, CDAI — simplified versions administered through the app.\n\nMedication compliance: Biologic injection compliance tracked. Missed doses flagged."
+    },
+    {
+      "id": "biologic-management",
+      "h2": "Biologic Authorization and Management",
+      "content": "The majority of rheumatology patients are on biologics or targeted synthetics. Managing authorizations is a major operational burden.\n\n**The biologic landscape:**\n\nTNF inhibitors: Humira, Enbrel, Cimzia, Simponi, Remicade (and biosimilars)\nIL-6 inhibitors: Actemra, Kevzara\nT-cell costimulation inhibitor: Orencia\nB-cell depletion: Rituxan\nJAK inhibitors: Xeljanz, Rinvoq, Olumiant\nIL-17 inhibitors: Cosentyx, Taltz\nIL-12/23 inhibitors: Stelara\n\nEach has different authorization requirements, monitoring needs, and renewal timelines.\n\n**The authorization workflow:**\n\nInitial authorization:\n- Documented diagnosis with objective evidence\n- Failed conventional therapy (MTX, etc.)\n- Labs (TB, hepatitis, CBC, CMP)\n- Disease severity documentation\n\nOngoing authorization:\n- Annual or semi-annual renewals\n- Response documentation\n- Labs current\n- No contraindications\n\n**What clinIQ does for biologic authorization:**\n\nAuth status dashboard: Every patient on biologics visible with current drug, auth status, expiration date.\n\nExpiration alerts: 'Humira auth expires in 21 days. Patient due for injection next week.'\n\nStep therapy documentation: MTX trial, DMARD combinations — documented with dates and outcomes.\n\nLab tracking: TB, hepatitis B/C, CBC, CMP, lipids (for JAK inhibitors) — status per patient.\n\n**Switching biologics:**\n\nPatients who fail one biologic often need another. Documentation requirements:\n- Reason for switch (lack of efficacy, side effects, antibody development)\n- Prior biologic duration\n- Washout period (if required)\n\nclinIQ tracks biologic history to support authorization for subsequent agents."
+    },
+    {
+      "id": "infusion-coordination",
+      "h2": "Infusion Coordination",
+      "content": "Many rheumatology biologics are administered as infusions:\n\n- Remicade (infliximab): Every 4-8 weeks\n- Orencia IV (abatacept): Every 4 weeks\n- Actemra IV (tocilizumab): Every 4 weeks\n- Rituxan (rituximab): Every 6 months typically\n\n**The infusion coordination challenge:**\n\nPre-infusion requirements:\n- Authorization current\n- Labs current (TB screening, CBC, etc.)\n- No active infection\n- Pre-medications ordered\n\nScheduling:\n- Chair availability\n- Infusion duration (varies by drug)\n- Nurse availability\n\n**What clinIQ does for infusion coordination:**\n\nInfusion pipeline: Every infusion patient visible with last infusion, next due, auth status, labs status.\n\nPre-infusion checklist: Auth current, labs current, pre-meds ordered, no contraindications — status visible before scheduling.\n\nChair scheduling: Chair availability matched to infusion duration.\n\nInfusion day readiness: Day-of confirmation that patient is cleared for infusion.\n\n**The revenue protection:**\n\nMissed infusions from expired auths or missing labs = lost revenue and undertreated patients.\n\nOne missed Remicade infusion = $5,000-8,000 lost revenue + potential disease flare.\n\nclinIQ prevents these gaps."
+    },
+    {
+      "id": "disease-activity",
+      "h2": "Disease Activity Tracking",
+      "content": "Rheumatology uses standardized disease activity measures:\n\n**RA measures:**\n- DAS28-CRP/ESR: Disease Activity Score\n- CDAI: Clinical Disease Activity Index\n- RAPID3: Routine Assessment of Patient Index Data 3\n- ACR response criteria\n\n**Lupus measures:**\n- SLEDAI: Systemic Lupus Erythematosus Disease Activity Index\n- BILAG: British Isles Lupus Assessment Group\n- PGA: Physician Global Assessment\n\n**PsA measures:**\n- DAPSA: Disease Activity in Psoriatic Arthritis\n- MDA: Minimal Disease Activity\n\n**The tracking challenge:**\n\nThese measures require data collection at each visit. Joint counts, patient-reported outcomes, lab values. Calculating scores takes time. Trending scores over time requires organized data.\n\n**What clinIQ does:**\n\nPatient-reported components: RAPID3, patient global, functional assessment — collected via app or at check-in.\n\nProvider components: Joint counts, physician global — entered during visit.\n\nScore calculation: DAS28, CDAI, etc. calculated automatically.\n\nTrend visualization: Disease activity over time. Response to treatment changes visible.\n\n**The clinical value:**\n\nTreat-to-target requires knowing where you are. Objective disease activity scores — tracked over time — drive treatment decisions and support authorization."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "Patient Flow",
+      "content": "Rheumatology visits vary significantly:\n\n- New patient: 45-60 minutes (complex history, joint exam, assessment)\n- Established follow-up: 20-30 minutes\n- Flare visit: 30-45 minutes (assessment, treatment adjustment)\n- Injection visit: 15-20 minutes\n- Infusion: 1-4 hours depending on drug\n\n**What clinIQ does for patient flow:**\n\nVisit type awareness: Different visit types have different expected durations.\n\nPre-visit data: RTM data visible before appointment. 'Patient reporting increased morning stiffness past 2 weeks.'\n\nJoint exam support: Standardized joint count interface if desired.\n\nInjection tracking: For in-office injections, tracking and scheduling."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI Timeline",
+      "content": "Rheumatology implementation covers RTM, biologic authorization, and infusion coordination.\n\n**Week 1: Configuration**\n\nWe configure for your practice: visit types, biologic tracking, infusion workflow, RTM templates.\n\nDisease-specific RTM: RA, lupus, PsA, AS templates configured.\n\nBiologic inventory: All patients on biologics loaded with current drug, auth status, labs.\n\n**Week 2: Training**\n\nClinical staff learns RTM workflow. Coordinators learn authorization tracking. Infusion nurses learn scheduling. Providers learn disease activity dashboards.\n\n**Week 3: Go-Live**\n\nRTM enrollment beginning. Authorization tracking active. Infusion coordination running.\n\n**ROI Timeline:**\n\nMonth 1: Authorization visibility immediate. RTM enrollment starting.\n\nMonth 3: RTM billing at scale (60-80 patients). Authorization gaps eliminated. Infusion coordination smooth.\n\nMonth 6: Full RTM revenue ($8,000-10,000/month). Biologic management systematized.\n\n**ROI Math:**\n\nRTM revenue: 75 patients × $130/month = $9,750/month = $117,000/year\n\nAuthorization gap prevention: 2 prevented missed infusions/month × $6,000 = $12,000/month = $144,000/year\n\nCoordinator efficiency: Time savings from systematic tracking = FTE reallocation or volume growth\n\n**Investment:**\n\nProfessional: $499/month\n\nImplementation: $750 one-time"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which rheumatic diseases qualify for RTM?",
+      "a": "RA, lupus, PsA, ankylosing spondylitis, and other inflammatory conditions where between-visit monitoring informs treatment. Essentially any chronic rheumatic disease."
+    },
+    {
+      "q": "How do you track disease activity?",
+      "a": "Patient-reported components collected via app. Provider components entered during visit. Scores (DAS28, CDAI, RAPID3, etc.) calculated automatically. Trends visualized over time."
+    },
+    {
+      "q": "How many biologics do you track?",
+      "a": "All of them. TNF inhibitors, IL-6 inhibitors, JAK inhibitors, T-cell/B-cell agents, IL-17/IL-23 inhibitors. Each with specific authorization requirements and monitoring needs."
+    },
+    {
+      "q": "What about biosimilars?",
+      "a": "Biosimilars tracked same as originators. Authorization requirements may differ — we configure based on payer-specific rules."
+    },
+    {
+      "q": "Can you track lab monitoring requirements?",
+      "a": "Yes. TB, hepatitis, CBC, CMP, lipids (for JAK inhibitors) — tracked per patient with alerts when labs are due or expired."
+    },
+    {
+      "q": "Does this work for practices with in-house infusion?",
+      "a": "Yes. Chair scheduling, pre-infusion checklists, drug prep coordination all supported."
+    },
+    {
+      "q": "What about practices that refer infusions out?",
+      "a": "Authorization tracking and pre-infusion requirements work regardless of where infusion is administered. We track the coordination, not just the infusion itself."
+    },
+    {
+      "q": "How does RTM work with disease activity measures?",
+      "a": "RTM captures patient-reported data (pain, stiffness, function) that feeds into disease activity calculations. The same data serves clinical and billing purposes."
+    }
+  ],
+  "cta": {
+    "headline": "See rheumatic RTM and biologic management",
+    "subhead": "15-minute demo. Disease activity tracking, biologic authorization, infusion coordination, RTM billing.",
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Rheumatic RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
+  },
+  "proof": {
+    "stats": [
+      {
+        "value": "$117K",
+        "label": "annual rheumatic RTM revenue"
+      },
+      {
+        "value": "Zero",
+        "label": "expired authorizations"
+      },
+      {
+        "value": "100%",
+        "label": "disease activity tracking"
+      }
+    ],
+    "testimonial": {
+      "quote": "We were losing patients to authorization lapses. Now every biologic patient is visible with auth status. Zero gaps. Plus $10K/month in RTM.",
+      "attribution": "Rheumatologist",
+      "practice": "Rheumatology practice, 2 physicians",
+      "location": "Georgia"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "blog",
+      "title": "Rheumatic Disease RTM Billing: RA, Lupus, and PsA",
+      "href": "/blog/rheumatic-rtm-billing",
+      "description": "How to bill RTM for inflammatory arthritis and autoimmune conditions. Documentation and disease activity tracking."
+    },
+    {
+      "type": "blog",
+      "title": "Biologic Authorization in Rheumatology: Complete Guide",
+      "href": "/blog/biologic-authorization-rheumatology",
+      "description": "Managing authorizations for TNF inhibitors, JAK inhibitors, and other biologics."
+    },
+    {
+      "type": "blog",
+      "title": "Disease Activity Tracking: DAS28, CDAI, RAPID3",
+      "href": "/blog/disease-activity-tracking-rheumatology",
+      "description": "Using standardized measures to guide treat-to-target and support authorization."
+    },
+    {
+      "type": "resource",
+      "title": "Rheumatic RTM Calculator",
+      "href": "/resources/rtm-calculator",
+      "description": "Calculate your practice's rheumatic disease RTM revenue potential."
+    }
+  ],
+  "schema": {
+    "type": "SoftwareApplication",
+    "applicationCategory": "Medical Practice Management Software",
+    "operatingSystem": "Web-based",
+    "offers": {
+      "price": "499",
+      "priceCurrency": "USD"
+    }
+  },
+  "publishDate": "2025-12-19"
+}

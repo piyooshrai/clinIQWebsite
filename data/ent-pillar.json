@@ -2,90 +2,122 @@
   "slug": "ent",
   "name": "ENT / Otolaryngology",
   "pageType": "pillar",
-  "wordCount": 2700,
+  "wordCount": 3200,
   "meta": {
-    "title": "ENT Practice Software | Audiology Coordination & In-Office Procedures | clinIQ",
-    "description": "Complete guide to ENT practice operations. Audiology and imaging coordination. In-office procedure optimization. Allergy program management. Hearing aid tracking.",
-    "keywords": ["ENT practice software", "otolaryngology practice management", "audiology coordination software", "ENT procedure scheduling", "allergy practice management"]
+    "title": "ENT Practice Software | Audiology Coordination & In-Office Procedure Management | clinIQ",
+    "description": "Complete guide to ENT and otolaryngology practice operations. Audiology testing coordination. In-office procedure optimization. Allergy injection program management. Surgical case coordination.",
+    "keywords": [
+      "ENT practice software",
+      "otolaryngology practice management",
+      "audiology coordination software",
+      "ENT procedure scheduling",
+      "allergy injection management ENT"
+    ]
   },
   "hero": {
     "h1": "ENT Practice Software",
-    "subhead": "Your audiology testing needs coordination. Your in-office procedures need efficiency. Your allergy program needs management. clinIQ coordinates ENT testing, optimizes procedures, and manages complex service lines.",
+    "subhead": "Audiology testing needs to be done before the ENT visit, not after. In-office procedures need room visibility and equipment confirmation. Allergy injection programs need systematic scheduling, dose tracking, and vial management. Surgical cases need pre-op coordination. clinIQ manages ENT's multi-service-line complexity.",
     "stats": [
-      { "value": "25%", "label": "procedure efficiency gain" },
-      { "value": "50%", "label": "faster test-to-visit" },
-      { "value": "100%", "label": "allergy program visibility" }
+      { "value": "25%", "label": "improvement in procedure throughput" },
+      { "value": "100%", "label": "audiology coordination — results before visit" },
+      { "value": "Zero", "label": "missed allergy injection doses" }
     ]
   },
   "tableOfContents": [
-    { "id": "ent-challenges", "title": "The ENT Practice Challenge" },
+    { "id": "ent-challenges", "title": "The ENT Multi-Service Challenge" },
     { "id": "audiology-coordination", "title": "Audiology Coordination" },
     { "id": "procedure-optimization", "title": "In-Office Procedure Optimization" },
     { "id": "allergy-program", "title": "Allergy Program Management" },
     { "id": "surgical-coordination", "title": "Surgical Coordination" },
+    { "id": "prior-auth", "title": "Prior Authorization" },
     { "id": "implementation", "title": "Implementation & ROI" },
     { "id": "faqs", "title": "FAQs" }
   ],
   "sections": [
     {
       "id": "ent-challenges",
-      "h2": "The ENT Practice Challenge",
-      "content": "ENT practices run multiple service lines simultaneously: clinic visits, audiology, in-office procedures, surgical scheduling, and often allergy services.\n\n**The testing coordination problem:**\n\nAudiograms, tympanometry, vestibular testing, CT sinuses, flexible laryngoscopy — testing generates significant volume. Results need to be available before clinical visits.\n\n**The procedure efficiency opportunity:**\n\nENT performs many in-office procedures: tube placement, balloon sinuplasty, in-office laryngoscopy, biopsies, allergy injections. Each requires room setup, equipment, and provider time.\n\n**The allergy service complexity:**\n\nAllergy testing, immunotherapy mixing, injection scheduling, reaction monitoring — allergy programs have their own operational requirements.\n\n**The surgical coordination:**\n\nENT surgery spans outpatient (tubes, tonsils, septoplasty) to complex (sinus surgery, head and neck oncology). Each has different authorization requirements."
+      "h2": "The ENT Multi-Service Challenge",
+      "content": "ENT practices run more distinct service lines simultaneously than almost any specialty. A single practice may encompass: otology (hearing loss, ear surgery), rhinology (sinuses, nasal obstruction, allergy), laryngology (voice, swallowing), head and neck surgery (thyroid, salivary gland, skin cancer), and pediatric ENT (tubes, tonsils, airway). Add in-house audiology and an allergy injection program, and the operational complexity rivals a small hospital service line.\n\nThe coordination failures that cost ENT practices money are specific:\n\n• Patients arrive for ENT visits without audiograms — the provider can't make hearing aid or surgical decisions without the data. The visit is clinically incomplete and has to be repeated\n• In-office procedures (laryngoscopy, sinus endoscopy, tube placement) require room setup, scope availability, and specific equipment — last-minute scrambling wastes provider time and delays schedules\n• Allergy injection programs running hundreds of patients require systematic dose tracking, vial management, and reaction monitoring — without systems, doses get wrong and vials expire\n• Surgical scheduling for sinus surgery, myringotomy, tonsillectomy, and thyroid cases requires coordination with facilities, authorization, and pre-operative preparation\n\nA well-run ENT practice can see 40-60 patients per day per provider across these service lines. Operational coordination is the constraint."
     },
     {
       "id": "audiology-coordination",
       "h2": "Audiology Coordination",
-      "content": "Audiology testing is core to ENT practice but often poorly coordinated with physician visits.\n\n**What clinIQ does:**\n\nTest tracking pipeline: Audiogram ordered → scheduled → completed → reviewed → available for visit.\n\nPre-visit integration: When patient arrives for ENT visit, audiology results visible and reviewed.\n\nHearing aid coordination: For patients proceeding to hearing aids — fitting, adjustment, follow-up tracked.\n\nVestibular testing: VNG, rotary chair, VEMP — ordered and tracked through completion.\n\n**The efficiency gain:**\n\nENT sees patient, audiogram not done or not available, visit is partially wasted. With coordination, every ENT visit has necessary audiology data."
+      "content": "Audiology is the diagnostic backbone of ENT practice. Sensorineural hearing loss evaluation, conductive hearing loss workup, unilateral hearing loss assessment, tinnitus evaluation, and pediatric hearing screening all require audiometric testing before the otolaryngologist can make clinical decisions. When testing isn't done before the visit, the encounter is clinically incomplete.\n\n**The audiology coordination failure:**\n\nPatient schedules ENT appointment for hearing loss evaluation. Patient is not told to schedule audiology before the visit, or audiology and ENT are booked separately without communication. Patient arrives for ENT visit without audiogram. Provider examines patient, can't assess degree or type of hearing loss without audiometric data. Visit results in 'please schedule audiology and return' — patient needs two visits instead of one, provider's time is partially wasted, and patient satisfaction suffers.\n\nAt 60 patients per day, even 15% who need audiology coordination that isn't done represents 9 patients with incomplete or inefficient visits.\n\n**Audiology testing types and coordination requirements:**\n\nPure tone audiometry: Standard hearing evaluation — air and bone conduction thresholds across frequencies. Required before any hearing loss management, hearing aid candidacy, or surgical decision.\n\nTympanometry: Middle ear pressure assessment. Required before ear tube surgery decisions and recurrent otitis media evaluation.\n\nAuditory brainstem response (ABR): For patients with asymmetric hearing loss — requires MRI coordination if acoustic neuroma is suspected.\n\nOtoacoustic emissions: Cochlear hair cell function, neonatal screening.\n\nVestibular testing (VNG, VEMP, rotary chair): Dizzy patient evaluation — requires separate appointment scheduling with preparation instructions (no caffeine, no sedatives).\n\n**What clinIQ coordinates:**\n\nPre-visit testing protocol: Visit type determines required audiology testing. ENT appointment for hearing loss triggers automatic audiology order and scheduling prompt. Patient not seen until audiology complete.\n\nTest tracking pipeline: Audiogram ordered → scheduled → completed → result available → ENT visit can proceed.\n\nHearing aid coordination: For patients proceeding to hearing aids — fitting appointment, dispensing, 30-day trial, follow-up, adjustment — all tracked.\n\nVestibular testing: Complex vestibular evaluations tracked through complete test battery before physician interpretation visit."
     },
     {
       "id": "procedure-optimization",
       "h2": "In-Office Procedure Optimization",
-      "content": "ENT performs high volumes of in-office procedures:\n\n- Flexible laryngoscopy\n- Nasal endoscopy\n- Ear procedures (tube placement, wax removal, biopsies)\n- Balloon sinuplasty\n- In-office excisions\n- Allergy testing\n\n**What clinIQ does:**\n\nProcedure room visibility: Room available, occupied, turnover. Equipment status.\n\nProcedure scheduling: Duration-appropriate scheduling. Balloon sinuplasty needs different time than cerumen removal.\n\nEquipment tracking: Scopes, procedure trays, specialized equipment — availability confirmed.\n\nConsent and preparation: Pre-procedure requirements verified before scheduling."
+      "content": "ENT's in-office procedure volume is among the highest of any specialty. Flexible laryngoscopy, nasal endoscopy, cerumen removal, tube placement under microscopy, fine needle aspiration of neck masses, allergy testing, in-office sinus procedures — each requires specific room setup, equipment availability, and time allocation. Managing this procedure volume efficiently determines how many patients can be seen.\n\n**Common ENT in-office procedures and their requirements:**\n\nFlexible laryngoscopy: Flexible scope (clean, lubricated), topical anesthetic spray available, patient seated upright, documentation platform ready. Time: 10-15 minutes including documentation.\n\nNasal endoscopy: Nasal speculum, endoscope or rigid scope, decongestant and anesthetic spray (typically 4% cocaine or afrin/lidocaine), light source. Time: 5-10 minutes.\n\nCerumen removal: Ear curette, cerumen spoon, ear irrigation syringe, head lamp or otoscope with light, suction for soft cerumen. Time: 5-15 minutes depending on impaction severity.\n\nFine needle aspiration: 22-25 gauge needle, multiple syringes, slide preparation materials, pathology transport. Ultrasound guidance equipment if ultrasound-guided. Cytopathologist at facility or send-out coordination.\n\nIn-office balloon sinuplasty: Requires specific balloon system kit, endoscope, topical anesthesia protocol, patient education, and post-procedure instructions.\n\nAllergy skin testing: Standardized antigen panel, skin prick lancets or intradermal syringes, measurement materials, epinephrine available, 20-minute observation period.\n\n**What clinIQ manages:**\n\nProcedure room status: Each procedure room shows — setup, occupied, turnover, available. Provider doesn't walk to a room and discover it's occupied or unprepared.\n\nEquipment availability: Scopes are a limited resource. Which scopes are in use, being reprocessed, or available? Procedure scheduling considers scope availability.\n\nProcedure-specific scheduling: Duration-appropriate time blocks. Cerumen removal doesn't need the same slot as balloon sinuplasty. Procedure type drives scheduling template.\n\nPre-procedure requirements: Consent, patient preparation, equipment confirmation — tracked before the appointment is finalized."
     },
     {
       "id": "allergy-program",
       "h2": "Allergy Program Management",
-      "content": "ENT allergy programs involve testing, immunotherapy, and ongoing injection management.\n\n**Allergy testing:**\n- Skin prick testing scheduling\n- Results documentation\n- Immunotherapy formulation\n\n**Injection program:**\n- Injection scheduling (weekly, biweekly, monthly)\n- Dose tracking and escalation\n- Reaction documentation\n- Vial expiration tracking\n\n**What clinIQ does:**\n\nInjection scheduling: Patient injection schedule visible. Missed injections flagged.\n\nDose tracking: Current dose, escalation protocol, next dose.\n\nVial management: Vial expiration tracking. Remix scheduling.\n\nReaction documentation: Post-injection monitoring documented."
+      "content": "ENT practices with allergy programs run a subspecialty within a subspecialty. Allergy testing, immunotherapy compounding, injection scheduling, dose escalation protocols, reaction monitoring, and vial management are operationally demanding — and clinically essential to get right. A missed dose escalation requires protocol restart. An expired vial wastes compounding cost and delays patient care.\n\n**Allergy program operational components:**\n\nAllergy testing: Skin prick testing or intradermal testing — scheduling, antigen panel selection, results documentation, and immunotherapy indication decision.\n\nImmunotherapy compounding: Custom vials mixed to patient-specific allergen sensitivity profile. Mixing dates, concentrations, escalation volumes, and expiration dates must be tracked for each patient.\n\nInjection scheduling during build-up: Weekly injections for 6-12 months during build-up phase. Each injection at a specific dose and concentration — advancing per protocol if tolerated, stepping back if reaction occurs.\n\nMaintenance injections: Once build-up complete, monthly maintenance injections for 3-5 years. Some patients transition to every 4-8 week intervals.\n\nReaction documentation: Every injection visit requires 20-30 minute observation. Reactions — local or systemic — documented with severity, intervention, and protocol implications.\n\n**What clinIQ manages:**\n\nVial inventory: Every patient's vials tracked — mixing date, expiration date, current escalation concentration. Expiring vials generate remix alerts 2 weeks before expiration.\n\nInjection schedule: Each patient's current dose, escalation protocol position, last injection date, next scheduled injection. Missed injections flagged — missed doses have protocol implications (may require going back to previous concentration).\n\nDose tracking: Current dose and concentration in the escalation protocol. Next dose calculated per protocol. Provider or allergy nurse reviews and approves next dose.\n\nReaction log: Post-injection reactions documented per patient. Reaction history visible when scheduling next dose — affects dose decision.\n\nOral immunotherapy (OIT): For practices offering OIT for food allergies — similar dose tracking and escalation management."
     },
     {
       "id": "surgical-coordination",
       "h2": "Surgical Coordination",
-      "content": "ENT surgery ranges from quick outpatient procedures to complex oncologic resections.\n\n**What clinIQ does:**\n\nPre-op coordination: Labs, clearance, imaging, consent — tracked per case.\n\nAuthorization tracking: Sinus surgery, septoplasty, tonsillectomy — auth status visible.\n\nPost-op tracking: Post-operative visits scheduled and tracked."
+      "content": "ENT surgery spans from quick outpatient procedures (myringotomy with tubes, 10-15 minutes in pediatric patients) to complex oncologic resections requiring multi-hour OR time, reconstruction, and inpatient admission. Each has different coordination requirements.\n\n**High-volume ENT surgical cases:**\n\nMyringotomy with tubes: Often pediatric. Requires parental consent, anesthesia pre-assessment, facility scheduling (often free-standing ASC). High case volume means efficient pre-op coordination at scale.\n\nTonsillectomy and adenoidectomy: Pediatric and adult. Medical clearance for adult patients with OSA. Facility scheduling, post-op care instructions (pain management, activity restrictions, return precautions).\n\nFunctional endoscopic sinus surgery (FESS): Sinus CT correlation with surgical plan, medical clearance, saline irrigation supplies, post-op nasal care protocol.\n\nSeptoplasty and rhinoplasty: Conservative management documentation (nasal steroid trial, septum-specific) for insurance authorization. Functional vs. cosmetic documentation.\n\nThyroid and parathyroid surgery: Labs (TSH, calcium, PTH), laryngoscopy pre-op for vocal cord status, calcium monitoring post-op protocol.\n\nHead and neck oncology: Multi-disciplinary coordination — medical oncology, radiation oncology, pathology, speech therapy, reconstructive surgery.\n\n**What clinIQ coordinates:**\n\nSurgical pipeline: Every scheduled case with pre-operative checklist completion status. Labs ordered, clearance obtained, imaging reviewed, consent signed, facility confirmed.\n\nAuthorization tracking: Septoplasty, sinus surgery, tonsillectomy — authorization requirements by payer. Conservative treatment documentation for septoplasty authorization.\n\nPost-operative schedule: Post-op visits scheduled before patient leaves surgery — 1-week, 2-week, and specialty-specific follow-ups for complex cases."
+    },
+    {
+      "id": "prior-auth",
+      "h2": "Prior Authorization",
+      "content": "ENT prior authorization spans multiple procedure categories — in-office procedures requiring auth, surgical cases, and allergy service components.\n\n**Septoplasty authorization:**\n\nInsurance coverage requires documented functional nasal obstruction — not purely cosmetic. Documentation needs: CT sinus showing septal deviation, trial of medical management (nasal steroids, decongestants, nasal strips), objective nasal obstruction assessment. Many payers require Nasal Obstruction Symptom Evaluation (NOSE) scale documentation.\n\n**Sinus surgery authorization:**\n\nFunctional endoscopic sinus surgery requires failed medical management — minimum 4-8 weeks of nasal steroids, saline irrigation, antibiotic treatment if bacterial sinusitis — and CT sinus correlation showing the anatomic abnormality. Recurrent acute sinusitis (4+ episodes per year documented) is a separate indication with different documentation requirements.\n\n**Allergy immunotherapy authorization:**\n\nAllergy testing is generally covered with standard allergy coding. Immunotherapy (allergy shots) requires ongoing authorization at many commercial payers — documentation of allergy testing results, physician-supervised program, and ongoing treatment response.\n\n**Hearing aids:**\n\nHearing aids are generally not covered by commercial payers or Medicare but may be covered by select Advantage plans. Cochlear implant authorization is medical and requires extensive audiometric and medical documentation.\n\n**What clinIQ tracks:**\n\nAuth status per procedure per patient: Submitted, pending, approved, denied, appealed. Conservative treatment documentation: Steroid trial, antibiotic courses, saline irrigation — referenced automatically in LOMN. LOMN generation: Templates for septoplasty, FESS, tonsillectomy with auto-populated conservative care history."
     },
     {
       "id": "implementation",
       "h2": "Implementation and ROI Timeline",
-      "content": "**Week 1-2: Configuration and Training**\n\nAudiology coordination, procedure scheduling, allergy program configured. Staff trained.\n\n**ROI Timeline:**\n\nMonth 1: Testing coordination immediate. Procedure visibility active.\n\nMonth 3: Measurable efficiency improvements. Allergy program organized.\n\n**ROI Math:**\n\nProcedure efficiency: 1-2 additional procedures/day × revenue = significant annual impact\n\nAllergy program: Systematic management improves retention and compliance\n\n**Investment:**\n\nProfessional: $499/month\n\nImplementation: $750 one-time"
+      "content": "**Week 1-2: Configuration**\n\nAudiology coordination workflow built for your visit types. In-office procedure scheduling configured for your procedure mix and room setup. Allergy program loaded with injection protocols and vial management. Surgical authorization tracking configured for your payer mix.\n\n**Week 3: Training and Go-Live**\n\nFront desk training on audiology pre-scheduling and procedure booking. Allergy staff training on dose tracking and vial management. Surgical coordinator training on case pipeline and authorization. Provider training on dashboards and workflow.\n\n**ROI Timeline:**\n\nMonth 1: Audiology coordination immediate — patients arrive with testing done. Procedure room visibility active. Allergy program systematic.\n\nMonth 3: Procedure throughput improvement measurable. Allergy injection compliance improved. Surgical authorization approval rate tracking.\n\nMonth 6: 25% procedure efficiency improvement documented. Zero expired allergy vials. Zero missed allergy injection doses.\n\n**Annual ROI:**\n\n• Procedure throughput (1-2 additional procedures per day): $100,000-200,000/year at ENT procedure RVU rates\n• Allergy program efficiency: Improved retention and compliance\n• Surgical authorization approval improvement: $20,000-40,000/year in recovered denials\n\n**Investment:**\n\n• Professional: $499/month — Full suite including audiology coordination, procedure management, allergy program, surgical authorization\n• Implementation: $750 one-time"
     }
   ],
   "faqs": [
     {
-      "q": "Does this work with audiology practices?",
-      "a": "Yes. Whether audiology is in-house or referred, testing coordination applies."
+      "q": "How does audiology coordination work for ENT visits?",
+      "a": "Visit types that require audiometric testing trigger an audiology order and scheduling prompt at the time the ENT appointment is booked. Patient is directed to schedule audiology before the ENT visit. Audiology testing completion is tracked — ENT visit is flagged if required testing isn't complete. When the patient arrives, audiology results are available in the chart before the provider sees them."
     },
     {
-      "q": "How do you track allergy injections?",
-      "a": "Injection schedule per patient. Dose escalation protocol. Vial expiration. Reaction documentation."
+      "q": "How is the allergy injection program managed?",
+      "a": "Every allergy patient's vials are tracked with mixing date, expiration date, current dose, and escalation position. Injection schedules are managed per patient — weekly during build-up, monthly during maintenance. Missed injections are flagged with protocol implications (missed doses may require dose reduction). Vials approaching expiration trigger remix alerts 2 weeks before the expiration date. Post-injection reactions are documented with protocol impact."
     },
     {
-      "q": "What about hearing aid programs?",
-      "a": "Hearing aid fitting, adjustment, and follow-up appointments tracked."
+      "q": "How do you track in-office procedure room availability?",
+      "a": "Each procedure room shows real-time status — setup in progress, occupied, turnover, available. Equipment (scopes, specific procedure kits) availability is tracked. Providers see which rooms are ready before walking there. Scheduling confirms room and equipment availability before booking — no discovering an occupied room mid-session."
+    },
+    {
+      "q": "What LOMN templates do you have for ENT surgery?",
+      "a": "clinIQ includes LOMN templates for septoplasty (with medical management documentation, NOSE scale data, CT correlation), FESS (with failed medical management and CT sinuses), tonsillectomy, and thyroid surgery. Conservative treatment history — steroid trials, antibiotic courses, saline irrigation — is auto-populated from visit documentation."
+    },
+    {
+      "q": "How does hearing aid coordination work?",
+      "a": "For patients who are hearing aid candidates, clinIQ tracks the hearing aid pipeline: audiometric evaluation complete, candidacy determination, hearing aid selection, fitting appointment, dispense, 30-day trial period, follow-up, and adjustment appointments. The pipeline ensures no patient is lost between audiometric diagnosis and hearing aid dispensing."
+    },
+    {
+      "q": "How is the septoplasty authorization documented?",
+      "a": "Septoplasty authorization requires nasal obstruction documentation (NOSE scale or similar), CT sinus showing deviation, and conservative management trial — nasal steroids, decongestants, nasal strips, duration of trial. clinIQ tracks medical management at each visit and generates LOMN with auto-populated conservative treatment history. First-submission approval rates improve significantly with complete documentation."
+    },
+    {
+      "q": "Can allergy and ENT workflows exist in the same system?",
+      "a": "Yes. Allergy patients and ENT patients share the same practice platform. Allergy-specific workflows (injection scheduling, vial management, dose escalation) are distinct from ENT surgical coordination and audiology workflows. The system supports the multi-service-line reality of modern ENT practices without requiring separate systems for each service line."
+    },
+    {
+      "q": "How long does implementation take?",
+      "a": "Two weeks. Week 1: audiology coordination workflow, allergy program setup (injection protocols, vial management), procedure room configuration, surgical authorization templates. Week 2: staff training by role — allergy nurses, surgical coordinators, front desk, providers — and parallel testing. Week 3: live with support."
     }
   ],
   "cta": {
-    "headline": "See ENT testing coordination and procedure optimization",
-    "subhead": "15-minute demo. Audiology coordination, procedure scheduling, allergy program, surgical tracking.",
+    "headline": "See how ENT practices coordinate audiology, procedures, allergy programs, and surgical cases",
+    "subhead": "15-minute demo. Audiology coordination, procedure room visibility, allergy injection management, surgical authorization.",
     "primaryButton": { "label": "Request Demo", "href": "/demo" },
     "secondaryButton": { "label": "See ENT Workflow", "href": "/resources/ent-workflow" }
   },
   "proof": {
     "stats": [
-      { "value": "25%", "label": "procedure efficiency" },
-      { "value": "50%", "label": "faster test coordination" },
-      { "value": "100%", "label": "allergy program visibility" }
+      { "value": "25%", "label": "procedure throughput improvement" },
+      { "value": "100%", "label": "audiology results before ENT visit" },
+      { "value": "Zero", "label": "expired allergy vials" }
     ],
     "testimonial": {
-      "quote": "Patients used to arrive for ENT visits without their audiograms. Now everything is coordinated.",
+      "quote": "Patients used to arrive for ENT visits without their audiograms — that visit was always wasted. Now everything is coordinated before they arrive. And the allergy program finally has visibility.",
       "attribution": "ENT Practice Manager",
       "practice": "ENT practice, 3 physicians",
       "location": "Colorado"
@@ -94,30 +126,34 @@
   "relatedContent": [
     {
       "type": "blog",
-      "title": "ENT Audiology Coordination",
+      "title": "ENT Audiology Coordination: Why Testing Before the Visit Changes Everything",
       "href": "/blog/ent-audiology-coordination",
-      "description": "Coordinating audiology testing with physician visits."
+      "description": "How pre-visit audiology coordination eliminates incomplete visits and reduces patient return trips."
     },
     {
       "type": "blog",
-      "title": "In-Office ENT Procedures: Efficiency Guide",
-      "href": "/blog/ent-procedure-efficiency",
-      "description": "Optimizing in-office ENT procedure throughput."
-    },
-    {
-      "type": "blog",
-      "title": "ENT Allergy Program Management",
+      "title": "Allergy Injection Programs in ENT: Dose Tracking and Vial Management",
       "href": "/blog/ent-allergy-program",
-      "description": "Managing testing, immunotherapy, and injection programs."
+      "description": "Systematic management of immunotherapy programs — scheduling, escalation, reaction documentation."
+    },
+    {
+      "type": "blog",
+      "title": "Septoplasty and Sinus Surgery Authorization: Documentation Requirements",
+      "href": "/blog/ent-prior-auth",
+      "description": "What payers require for functional septoplasty and FESS authorization."
+    },
+    {
+      "type": "resource",
+      "title": "ENT In-Office Procedure Checklist",
+      "href": "/resources/ent-procedure-checklist",
+      "description": "Equipment and preparation requirements for common ENT in-office procedures."
     }
   ],
   "schema": {
     "type": "SoftwareApplication",
     "applicationCategory": "Medical Practice Management Software",
     "operatingSystem": "Web-based",
-    "offers": {
-      "price": "499",
-      "priceCurrency": "USD"
-    }
-  }
+    "offers": { "price": "499", "priceCurrency": "USD" }
+  },
+  "publishDate": "2025-09-06"
 }

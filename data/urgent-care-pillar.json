@@ -6,26 +6,65 @@
   "meta": {
     "title": "Urgent Care Software | Door-to-Door Time & LWBS Reduction | clinIQ",
     "description": "Complete guide to urgent care operations. Reduce door-to-door time by 20%. Cut LWBS rate in half. Real-time patient flow visibility. Wait time communication that keeps patients.",
-    "keywords": ["urgent care software", "urgent care patient flow", "LWBS reduction", "door to door time urgent care", "urgent care wait time management"]
+    "keywords": [
+      "urgent care software",
+      "urgent care patient flow",
+      "LWBS reduction",
+      "door to door time urgent care",
+      "urgent care wait time management"
+    ]
   },
   "hero": {
     "h1": "Urgent Care Software",
     "subhead": "Every patient who leaves without being seen is $150-300 walking out your door. Every minute of door-to-door time beyond 60 minutes increases LWBS risk. clinIQ gives you real-time visibility into patient flow, wait times, and bottlenecks — so you can intervene before patients leave.",
     "stats": [
-      { "value": "50%", "label": "reduction in LWBS rate" },
-      { "value": "20%", "label": "faster door-to-door time" },
-      { "value": "Real-time", "label": "wait time visibility" }
+      {
+        "value": "50%",
+        "label": "reduction in LWBS rate"
+      },
+      {
+        "value": "20%",
+        "label": "faster door-to-door time"
+      },
+      {
+        "value": "Real-time",
+        "label": "wait time visibility"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "urgent-care-economics", "title": "The Urgent Care Economics Problem" },
-    { "id": "lwbs-reduction", "title": "LWBS Reduction Strategies" },
-    { "id": "door-to-door", "title": "Door-to-Door Time Optimization" },
-    { "id": "wait-time-communication", "title": "Wait Time Communication" },
-    { "id": "patient-flow", "title": "Real-Time Patient Flow" },
-    { "id": "provider-efficiency", "title": "Provider Efficiency" },
-    { "id": "implementation", "title": "Implementation & ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "urgent-care-economics",
+      "title": "The Urgent Care Economics Problem"
+    },
+    {
+      "id": "lwbs-reduction",
+      "title": "LWBS Reduction Strategies"
+    },
+    {
+      "id": "door-to-door",
+      "title": "Door-to-Door Time Optimization"
+    },
+    {
+      "id": "wait-time-communication",
+      "title": "Wait Time Communication"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Real-Time Patient Flow"
+    },
+    {
+      "id": "provider-efficiency",
+      "title": "Provider Efficiency"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -101,14 +140,29 @@
   "cta": {
     "headline": "See patient flow in real-time",
     "subhead": "15-minute demo. Patient flow visibility, wait time management, LWBS reduction, provider efficiency.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "See ROI Calculator", "href": "/resources/urgent-care-roi" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "See ROI Calculator",
+      "href": "/resources/urgent-care-roi"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "52%", "label": "LWBS reduction" },
-      { "value": "18 min", "label": "faster door-to-door" },
-      { "value": "$127K", "label": "annual revenue recovery" }
+      {
+        "value": "52%",
+        "label": "LWBS reduction"
+      },
+      {
+        "value": "18 min",
+        "label": "faster door-to-door"
+      },
+      {
+        "value": "$127K",
+        "label": "annual revenue recovery"
+      }
     ],
     "testimonial": {
       "quote": "We were running blind. Patients waited in the lobby while rooms sat empty because nobody knew. Now everyone sees the same board. LWBS dropped from 5% to 2.4%.",
@@ -151,5 +205,6 @@
       "price": "499",
       "priceCurrency": "USD"
     }
-  }
+  },
+  "publishDate": "2025-02-10"
 }

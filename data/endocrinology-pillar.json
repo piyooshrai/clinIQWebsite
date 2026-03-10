@@ -6,26 +6,65 @@
   "meta": {
     "title": "Endocrinology Practice Software | Diabetes RTM & CGM Integration | clinIQ",
     "description": "Complete guide to endocrinology practice operations. $11,700/month in diabetes RTM. CGM data integration. Thyroid nodule tracking. Insulin titration management.",
-    "keywords": ["endocrinology practice software", "diabetes RTM billing", "CGM integration software", "endocrinology practice management", "diabetes management software"]
+    "keywords": [
+      "endocrinology practice software",
+      "diabetes RTM billing",
+      "CGM integration software",
+      "endocrinology practice management",
+      "diabetes management software"
+    ]
   },
   "hero": {
     "h1": "Endocrinology Practice Software",
     "subhead": "Your diabetes patients already track glucose — that's billable RTM. Your CGM data needs integration into workflows. Your thyroid nodules need tracking. clinIQ captures diabetes RTM revenue, integrates CGM data, and manages chronic endocrine conditions.",
     "stats": [
-      { "value": "$11,700+", "label": "monthly diabetes RTM" },
-      { "value": "100%", "label": "CGM data visibility" },
-      { "value": "Zero", "label": "lost thyroid nodules" }
+      {
+        "value": "$11,700+",
+        "label": "monthly diabetes RTM"
+      },
+      {
+        "value": "100%",
+        "label": "CGM data visibility"
+      },
+      {
+        "value": "Zero",
+        "label": "lost thyroid nodules"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "endo-practice-challenges", "title": "The Endocrinology Practice Challenge" },
-    { "id": "diabetes-rtm", "title": "Diabetes RTM Billing" },
-    { "id": "cgm-integration", "title": "CGM Data Integration" },
-    { "id": "insulin-titration", "title": "Insulin Titration Management" },
-    { "id": "thyroid-tracking", "title": "Thyroid Nodule Tracking" },
-    { "id": "patient-flow", "title": "Patient Flow" },
-    { "id": "implementation", "title": "Implementation & ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "endo-practice-challenges",
+      "title": "The Endocrinology Practice Challenge"
+    },
+    {
+      "id": "diabetes-rtm",
+      "title": "Diabetes RTM Billing"
+    },
+    {
+      "id": "cgm-integration",
+      "title": "CGM Data Integration"
+    },
+    {
+      "id": "insulin-titration",
+      "title": "Insulin Titration Management"
+    },
+    {
+      "id": "thyroid-tracking",
+      "title": "Thyroid Nodule Tracking"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Patient Flow"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -101,14 +140,29 @@
   "cta": {
     "headline": "See diabetes RTM and CGM integration",
     "subhead": "15-minute demo. Diabetes RTM, CGM data integration, insulin titration, thyroid tracking.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Diabetes RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Diabetes RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$140K", "label": "annual diabetes RTM revenue" },
-      { "value": "8 hrs/wk", "label": "saved on CGM data" },
-      { "value": "Zero", "label": "lost thyroid nodules" }
+      {
+        "value": "$140K",
+        "label": "annual diabetes RTM revenue"
+      },
+      {
+        "value": "8 hrs/wk",
+        "label": "saved on CGM data"
+      },
+      {
+        "value": "Zero",
+        "label": "lost thyroid nodules"
+      }
     ],
     "testimonial": {
       "quote": "We were manually pulling CGM data for every patient. Now it's there when they walk in. And the RTM revenue pays for multiple staff.",
@@ -151,5 +205,6 @@
       "price": "499",
       "priceCurrency": "USD"
     }
-  }
+  },
+  "publishDate": "2025-07-03"
 }

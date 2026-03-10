@@ -6,26 +6,65 @@
   "meta": {
     "title": "Chiropractic Practice Software | Musculoskeletal RTM & Visit Cap Tracking | clinIQ",
     "description": "Complete guide to chiropractic practice operations. $8,450/month in musculoskeletal RTM. Visit cap and authorization tracking. High-volume patient flow. Outcome documentation.",
-    "keywords": ["chiropractic software", "chiropractic practice management", "chiropractic RTM billing", "chiropractic authorization tracking", "chiropractic patient flow"]
+    "keywords": [
+      "chiropractic software",
+      "chiropractic practice management",
+      "chiropractic RTM billing",
+      "chiropractic authorization tracking",
+      "chiropractic patient flow"
+    ]
   },
   "hero": {
     "h1": "Chiropractic Practice Software",
     "subhead": "Your patients already track pain and function between visits — that's billable musculoskeletal RTM. Your visit caps need tracking before they're exceeded. Your high-volume flow needs visibility. clinIQ captures chiropractic RTM, tracks authorizations, and optimizes patient flow.",
     "stats": [
-      { "value": "$8,450+", "label": "monthly musculoskeletal RTM" },
-      { "value": "Zero", "label": "visit cap surprises" },
-      { "value": "25%", "label": "faster patient throughput" }
+      {
+        "value": "$8,450+",
+        "label": "monthly musculoskeletal RTM"
+      },
+      {
+        "value": "Zero",
+        "label": "visit cap surprises"
+      },
+      {
+        "value": "25%",
+        "label": "faster patient throughput"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "chiro-challenges", "title": "The Chiropractic Practice Challenge" },
-    { "id": "musculoskeletal-rtm", "title": "Musculoskeletal RTM Billing" },
-    { "id": "visit-cap-tracking", "title": "Visit Cap and Authorization Tracking" },
-    { "id": "high-volume-flow", "title": "High-Volume Patient Flow" },
-    { "id": "outcome-documentation", "title": "Outcome Documentation" },
-    { "id": "pi-case-management", "title": "Personal Injury Case Management" },
-    { "id": "implementation", "title": "Implementation & ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "chiro-challenges",
+      "title": "The Chiropractic Practice Challenge"
+    },
+    {
+      "id": "musculoskeletal-rtm",
+      "title": "Musculoskeletal RTM Billing"
+    },
+    {
+      "id": "visit-cap-tracking",
+      "title": "Visit Cap and Authorization Tracking"
+    },
+    {
+      "id": "high-volume-flow",
+      "title": "High-Volume Patient Flow"
+    },
+    {
+      "id": "outcome-documentation",
+      "title": "Outcome Documentation"
+    },
+    {
+      "id": "pi-case-management",
+      "title": "Personal Injury Case Management"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -93,14 +132,29 @@
   "cta": {
     "headline": "See chiropractic RTM and visit cap tracking",
     "subhead": "15-minute demo. Musculoskeletal RTM, visit tracking, high-volume flow, outcome documentation.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Chiropractic RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Chiropractic RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$101K", "label": "annual musculoskeletal RTM" },
-      { "value": "Zero", "label": "visit cap surprises" },
-      { "value": "25%", "label": "faster throughput" }
+      {
+        "value": "$101K",
+        "label": "annual musculoskeletal RTM"
+      },
+      {
+        "value": "Zero",
+        "label": "visit cap surprises"
+      },
+      {
+        "value": "25%",
+        "label": "faster throughput"
+      }
     ],
     "testimonial": {
       "quote": "We were getting blindsided by visit caps constantly. Now we see them coming and plan accordingly. Plus the RTM is $8K/month we weren't billing.",
@@ -137,5 +191,6 @@
       "price": "499",
       "priceCurrency": "USD"
     }
-  }
+  },
+  "publishDate": "2026-02-09"
 }

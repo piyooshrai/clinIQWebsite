@@ -6,26 +6,65 @@
   "meta": {
     "title": "Spine Surgery Practice Software | Conservative Care Tracking & Surgical LOMN | clinIQ",
     "description": "Complete guide to spine surgery practice operations. Track 6-12 weeks of conservative care automatically. Generate fusion LOMNs in 5 minutes. Recover $400K/year in OR capacity. Bill post-op RTM.",
-    "keywords": ["spine surgery software", "lumbar fusion prior authorization", "spine surgery LOMN", "conservative care tracking", "spine surgery practice management"]
+    "keywords": [
+      "spine surgery software",
+      "lumbar fusion prior authorization",
+      "spine surgery LOMN",
+      "conservative care tracking",
+      "spine surgery practice management"
+    ]
   },
   "hero": {
     "h1": "Spine Surgery Practice Software",
     "subhead": "Payers deny spine surgery for insufficient conservative care documentation. Your patients did the PT, the injections, the medication trials — but it's scattered across referral notes and outside records. clinIQ tracks conservative care from day one, generates the LOMN, and gets your surgery approved on first submission.",
     "stats": [
-      { "value": "90%+", "label": "first-submission approval rate" },
-      { "value": "5 min", "label": "LOMN generation vs 45 min manual" },
-      { "value": "$400K", "label": "annual OR capacity recovered" }
+      {
+        "value": "90%+",
+        "label": "first-submission approval rate"
+      },
+      {
+        "value": "5 min",
+        "label": "LOMN generation vs 45 min manual"
+      },
+      {
+        "value": "$400K",
+        "label": "annual OR capacity recovered"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "spine-auth-problem", "title": "The Spine Surgery Authorization Problem" },
-    { "id": "conservative-care", "title": "Conservative Care Documentation" },
-    { "id": "lomn-generation", "title": "Surgical LOMN Generation" },
-    { "id": "or-efficiency", "title": "OR Turnover and Efficiency" },
-    { "id": "preop-coordination", "title": "Pre-Operative Coordination" },
-    { "id": "postop-rtm", "title": "Post-Op RTM Billing" },
-    { "id": "implementation", "title": "Implementation & ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "spine-auth-problem",
+      "title": "The Spine Surgery Authorization Problem"
+    },
+    {
+      "id": "conservative-care",
+      "title": "Conservative Care Documentation"
+    },
+    {
+      "id": "lomn-generation",
+      "title": "Surgical LOMN Generation"
+    },
+    {
+      "id": "or-efficiency",
+      "title": "OR Turnover and Efficiency"
+    },
+    {
+      "id": "preop-coordination",
+      "title": "Pre-Operative Coordination"
+    },
+    {
+      "id": "postop-rtm",
+      "title": "Post-Op RTM Billing"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation & ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -101,14 +140,29 @@
   "cta": {
     "headline": "Get your surgeries approved faster",
     "subhead": "15-minute demo. Conservative care tracking, LOMN generation, pre-op coordination, and post-op RTM configured for spine surgery.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "See LOMN Templates", "href": "/resources/spine-lomn-templates" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "See LOMN Templates",
+      "href": "/resources/spine-lomn-templates"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "92%", "label": "first-submission approval rate" },
-      { "value": "20+ hrs", "label": "monthly LOMN time savings" },
-      { "value": "$10.8K", "label": "quarterly post-op RTM revenue" }
+      {
+        "value": "92%",
+        "label": "first-submission approval rate"
+      },
+      {
+        "value": "20+ hrs",
+        "label": "monthly LOMN time savings"
+      },
+      {
+        "value": "$10.8K",
+        "label": "quarterly post-op RTM revenue"
+      }
     ],
     "testimonial": {
       "quote": "We were getting denied for 'insufficient conservative care documentation' on patients who had done everything. Now we document it from day one. Approvals went from 60% to 92%.",
@@ -151,5 +205,6 @@
       "price": "499",
       "priceCurrency": "USD"
     }
-  }
+  },
+  "publishDate": "2025-05-25"
 }
