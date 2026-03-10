@@ -60,7 +60,7 @@
     "type": "feature",
     "title": "clinIQ RTM Billing",
     "description": "clinIQ tracks RTM enrollment by provider, monitors 16-day compliance thresholds automatically, and surfaces the data your team needs to sustain 75%+ patient participation.",
-    "href": "/features/rtm-billing",
+    "href": "/features/rtm",
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
@@ -69,7 +69,7 @@
   ],
   "pillarLink": {
     "title": "RTM Billing",
-    "href": "/features/rtm-billing",
+    "href": "/features/rtm",
     "description": "See how clinIQ's RTM Billing feature supports enrollment tracking, compliance monitoring, and automated billing across your entire RTM patient population."
   },
   "cta": {

@@ -60,7 +60,7 @@
     "type": "feature",
     "title": "clinIQ RTM Billing",
     "description": "clinIQ automates RTM code selection, tracks 16-day device compliance thresholds, and generates audit-ready documentation for every RTM patient — so your billing team captures every dollar without compliance risk.",
-    "href": "/features/rtm-billing",
+    "href": "/features/rtm",
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
@@ -69,7 +69,7 @@
   ],
   "pillarLink": {
     "title": "RTM Billing",
-    "href": "/features/rtm-billing",
+    "href": "/features/rtm",
     "description": "See how clinIQ's RTM Billing feature automates compliance tracking, code selection, and documentation for the full 98975-98981 code set."
   },
   "cta": {

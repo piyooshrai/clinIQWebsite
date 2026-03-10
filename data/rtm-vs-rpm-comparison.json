@@ -60,7 +60,7 @@
     "type": "feature",
     "title": "clinIQ RTM Billing",
     "description": "clinIQ supports both RTM and RPM billing workflows, automatically tracking device compliance thresholds and generating the documentation your team needs to bill confidently across both code sets.",
-    "href": "/features/rtm-billing",
+    "href": "/features/rtm",
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
@@ -69,7 +69,7 @@
   ],
   "pillarLink": {
     "title": "RTM Billing",
-    "href": "/features/rtm-billing",
+    "href": "/features/rtm",
     "description": "Learn how clinIQ's RTM Billing feature handles the full RTM and RPM billing workflow from enrollment through claim submission."
   },
   "cta": {
