@@ -31,14 +31,17 @@ export async function generateMetadata({
   const data = featurePillars[params.featureSlug]
   if (!data) return {}
   const pillarWithDate = data as unknown as { publishDate?: string }
+  const url = `https://cliniqhealthcare.com/features/${params.featureSlug}`
   return {
     title: data.meta.title,
     description: data.meta.description,
     keywords: data.meta.keywords ? [...data.meta.keywords] : undefined,
+    alternates: { canonical: url },
     openGraph: {
       title: data.meta.title,
       description: data.meta.description,
       type: 'article',
+      url,
       ...(pillarWithDate.publishDate ? { publishedTime: pillarWithDate.publishDate } : {}),
     },
   }

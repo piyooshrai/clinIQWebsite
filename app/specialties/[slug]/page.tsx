@@ -103,6 +103,7 @@ export async function generateMetadata({
 }: {
   params: { slug: string }
 }): Promise<Metadata> {
+  const base = 'https://cliniqhealthcare.com/specialties'
   const pillar = pillarPages[params.slug]
   if (pillar) {
     const pillarWithDate = pillar as unknown as { publishDate?: string }
@@ -110,10 +111,12 @@ export async function generateMetadata({
       title: pillar.meta.title,
       description: pillar.meta.description,
       keywords: pillar.meta.keywords ? [...pillar.meta.keywords] : undefined,
+      alternates: { canonical: `${base}/${params.slug}` },
       openGraph: {
         title: pillar.meta.title,
         description: pillar.meta.description,
         type: 'article',
+        url: `${base}/${params.slug}`,
         ...(pillarWithDate.publishDate
           ? { publishedTime: pillarWithDate.publishDate }
           : {}),
@@ -125,10 +128,12 @@ export async function generateMetadata({
     return {
       title: jsonData.meta.title,
       description: jsonData.meta.description,
+      alternates: { canonical: `${base}/${params.slug}` },
       openGraph: {
         title: jsonData.meta.title,
         description: jsonData.meta.description,
         type: 'website',
+        url: `${base}/${params.slug}`,
       },
     }
   }
@@ -137,10 +142,12 @@ export async function generateMetadata({
     return {
       title: generated.metaTitle,
       description: generated.metaDescription,
+      alternates: { canonical: `${base}/${params.slug}` },
       openGraph: {
         title: generated.metaTitle,
         description: generated.metaDescription,
         type: 'website',
+        url: `${base}/${params.slug}`,
       },
     }
   }

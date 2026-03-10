@@ -11,7 +11,10 @@ export interface BlogLayoutProps {
   category: string
   categorySlug: string
   slug: string
+  /** Display date shown to readers, e.g. "March 2026" */
   date: string
+  /** ISO 8601 date for structured data, e.g. "2026-03-01" */
+  datePublished: string
   readTime: string
   children: ReactNode
   ctaLabel?: string
@@ -24,6 +27,7 @@ export default function BlogLayout({
   categorySlug,
   slug,
   date,
+  datePublished,
   readTime,
   children,
   ctaLabel,
@@ -33,7 +37,7 @@ export default function BlogLayout({
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: title,
-    datePublished: date,
+    datePublished,
     url: `https://cliniqhealthcare.com/blog/${slug}`,
     publisher: {
       '@type': 'Organization',
