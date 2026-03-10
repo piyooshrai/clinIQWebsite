@@ -34,32 +34,32 @@ export default function BlogLayout({
     '@type': 'Article',
     headline: title,
     datePublished: date,
-    url: `https://cliniq.com/blog/${slug}`,
+    url: `https://cliniqhealthcare.com/blog/${slug}`,
     publisher: {
       '@type': 'Organization',
       name: 'clinIQ',
-      logo: { '@type': 'ImageObject', url: 'https://cliniq.com/logo.png' },
+      logo: { '@type': 'ImageObject', url: 'https://cliniqhealthcare.com/logo.png' },
     },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://cliniq.com/blog/${slug}` },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://cliniqhealthcare.com/blog/${slug}` },
   }
 
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniq.com' },
-      { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://cliniq.com/blog' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniqhealthcare.com' },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://cliniqhealthcare.com/blog' },
       {
         '@type': 'ListItem',
         position: 3,
         name: category,
-        item: `https://cliniq.com/blog/category/${categorySlug}`,
+        item: `https://cliniqhealthcare.com/blog/category/${categorySlug}`,
       },
       {
         '@type': 'ListItem',
         position: 4,
         name: title,
-        item: `https://cliniq.com/blog/${slug}`,
+        item: `https://cliniqhealthcare.com/blog/${slug}`,
       },
     ],
   }

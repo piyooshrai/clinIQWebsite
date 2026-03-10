@@ -9,6 +9,13 @@ import styles from './contact.module.css'
 export const metadata: Metadata = {
   title: 'Contact Us — clinIQ',
   description: 'Questions about clinIQ? We respond within 24 hours. Reach out via form or email.',
+  alternates: { canonical: 'https://cliniqhealthcare.com/contact' },
+  openGraph: {
+    title: 'Contact Us — clinIQ',
+    description: 'Questions about clinIQ? We respond within 24 hours. Reach out via form or email.',
+    type: 'website',
+    url: 'https://cliniqhealthcare.com/contact',
+  },
 }
 
 export default function ContactPage() {

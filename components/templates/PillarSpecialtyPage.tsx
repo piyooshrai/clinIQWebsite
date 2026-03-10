@@ -147,7 +147,7 @@ export default function PillarSpecialtyPage({ data }: { data: PillarData }) {
         description: data.meta.description,
         datePublished: data.publishDate,
         author: { '@type': 'Organization', name: 'clinIQ' },
-        publisher: { '@type': 'Organization', name: 'clinIQ', url: 'https://cliniq.com' },
+        publisher: { '@type': 'Organization', name: 'clinIQ', url: 'https://cliniqhealthcare.com' },
       }
     : null
 

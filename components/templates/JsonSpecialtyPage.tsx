@@ -97,13 +97,13 @@ export default function JsonSpecialtyPage({ data }: { data: SpecialtyData }) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniq.com' },
-      { '@type': 'ListItem', position: 2, name: 'Specialties', item: 'https://cliniq.com/specialties' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniqhealthcare.com' },
+      { '@type': 'ListItem', position: 2, name: 'Specialties', item: 'https://cliniqhealthcare.com/specialties' },
       {
         '@type': 'ListItem',
         position: 3,
         name: data.name,
-        item: `https://cliniq.com/specialties/${data.slug}`,
+        item: `https://cliniqhealthcare.com/specialties/${data.slug}`,
       },
     ],
   }
@@ -113,7 +113,7 @@ export default function JsonSpecialtyPage({ data }: { data: SpecialtyData }) {
     '@type': 'Service',
     name: `clinIQ for ${data.name} Clinics`,
     description: data.meta.description,
-    provider: { '@type': 'Organization', name: 'clinIQ', url: 'https://cliniq.com' },
+    provider: { '@type': 'Organization', name: 'clinIQ', url: 'https://cliniqhealthcare.com' },
     serviceType: 'Healthcare Operations Software',
     areaServed: 'US',
   }

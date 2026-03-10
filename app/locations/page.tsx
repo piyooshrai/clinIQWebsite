@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: 'website',
   },
   alternates: {
-    canonical: 'https://cliniq.io/locations',
+    canonical: 'https://cliniqhealthcare.com/locations',
   },
 }
 
@@ -31,8 +31,8 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniq.io' },
-    { '@type': 'ListItem', position: 2, name: 'Locations', item: 'https://cliniq.io/locations' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniqhealthcare.com' },
+    { '@type': 'ListItem', position: 2, name: 'Locations', item: 'https://cliniqhealthcare.com/locations' },
   ],
 }
 

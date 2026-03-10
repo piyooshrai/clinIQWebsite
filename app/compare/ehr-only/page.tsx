@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description:
       'Every EHR documents what happened. None of them manage what is happening right now — room status, live queues, RTM billing windows, PA expirations. That is clinIQ.',
     type: 'website',
-    url: 'https://cliniq.com/compare/ehr-only',
+    url: 'https://cliniqhealthcare.com/compare/ehr-only',
   },
 }
 
@@ -27,13 +27,13 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniq.com' },
-    { '@type': 'ListItem', position: 2, name: 'Compare', item: 'https://cliniq.com/compare' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniqhealthcare.com' },
+    { '@type': 'ListItem', position: 2, name: 'Compare', item: 'https://cliniqhealthcare.com/compare' },
     {
       '@type': 'ListItem',
       position: 3,
       name: 'clinIQ vs EHR-only',
-      item: 'https://cliniq.com/compare/ehr-only',
+      item: 'https://cliniqhealthcare.com/compare/ehr-only',
     },
   ],
 }

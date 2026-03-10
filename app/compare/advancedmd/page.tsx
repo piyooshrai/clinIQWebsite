@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description:
       'AdvancedMD handles billing well. clinIQ handles what happens between the door and the discharge — room status, wait times, RTM billing, and PA tracking.',
     type: 'website',
-    url: 'https://cliniq.com/compare/advancedmd',
+    url: 'https://cliniqhealthcare.com/compare/advancedmd',
   },
 }
 
@@ -27,13 +27,13 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniq.com' },
-    { '@type': 'ListItem', position: 2, name: 'Compare', item: 'https://cliniq.com/compare' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniqhealthcare.com' },
+    { '@type': 'ListItem', position: 2, name: 'Compare', item: 'https://cliniqhealthcare.com/compare' },
     {
       '@type': 'ListItem',
       position: 3,
       name: 'clinIQ vs AdvancedMD',
-      item: 'https://cliniq.com/compare/advancedmd',
+      item: 'https://cliniqhealthcare.com/compare/advancedmd',
     },
   ],
 }

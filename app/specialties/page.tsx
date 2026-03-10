@@ -192,8 +192,8 @@ const schemaData = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniq.com' },
-      { '@type': 'ListItem', position: 2, name: 'Specialties', item: 'https://cliniq.com/specialties' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniqhealthcare.com' },
+      { '@type': 'ListItem', position: 2, name: 'Specialties', item: 'https://cliniqhealthcare.com/specialties' },
     ],
   },
 }

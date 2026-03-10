@@ -14,10 +14,10 @@ const COLUMNS = [
   {
     heading: 'Specialties',
     links: [
-      { label: 'Addiction Medicine', href: '/specialties/addiction' },
+      { label: 'Addiction Medicine', href: '/specialties/addiction-medicine' },
       { label: 'Psychiatry',         href: '/specialties/psychiatry' },
-      { label: 'Pain Management',    href: '/specialties/pain' },
-      { label: 'Orthopedics',        href: '/specialties/ortho' },
+      { label: 'Pain Management',    href: '/specialties/pain-management' },
+      { label: 'Orthopedics',        href: '/specialties/orthopedic-surgery' },
     ],
   },
   {
@@ -74,7 +74,7 @@ export default function Footer() {
 
         <div className={styles.bottom}>
           <p className={styles.copyright}>
-            &copy; 2025 The Algorithm LLC. All rights reserved.
+            &copy; 2026 The Algorithm LLC. All rights reserved.
           </p>
           <nav className={styles.legal} aria-label="Legal links">
             <Link href="/privacy">Privacy</Link>

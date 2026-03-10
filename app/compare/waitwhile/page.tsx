@@ -27,9 +27,9 @@ const schemaData = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniq.com' },
-      { '@type': 'ListItem', position: 2, name: 'Compare', item: 'https://cliniq.com/compare' },
-      { '@type': 'ListItem', position: 3, name: 'clinIQ vs Waitwhile', item: 'https://cliniq.com/compare/waitwhile' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniqhealthcare.com' },
+      { '@type': 'ListItem', position: 2, name: 'Compare', item: 'https://cliniqhealthcare.com/compare' },
+      { '@type': 'ListItem', position: 3, name: 'clinIQ vs Waitwhile', item: 'https://cliniqhealthcare.com/compare/waitwhile' },
     ],
   },
   faq: {

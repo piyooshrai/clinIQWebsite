@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description:
       'eCW handles documentation with depth. clinIQ handles what is happening on your clinic floor right now — room status, queue visibility, RTM billing, and pre-auth tracking.',
     type: 'website',
-    url: 'https://cliniq.com/compare/eclinicalworks',
+    url: 'https://cliniqhealthcare.com/compare/eclinicalworks',
   },
 }
 
@@ -27,13 +27,13 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniq.com' },
-    { '@type': 'ListItem', position: 2, name: 'Compare', item: 'https://cliniq.com/compare' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniqhealthcare.com' },
+    { '@type': 'ListItem', position: 2, name: 'Compare', item: 'https://cliniqhealthcare.com/compare' },
     {
       '@type': 'ListItem',
       position: 3,
       name: 'clinIQ vs eClinicalWorks',
-      item: 'https://cliniq.com/compare/eclinicalworks',
+      item: 'https://cliniqhealthcare.com/compare/eclinicalworks',
     },
   ],
 }

@@ -37,13 +37,13 @@ export default function FeaturePage({
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniq.com' },
-          { '@type': 'ListItem', position: 2, name: 'Features', item: 'https://cliniq.com/features' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniqhealthcare.com' },
+          { '@type': 'ListItem', position: 2, name: 'Features', item: 'https://cliniqhealthcare.com/features' },
           ...breadcrumb.map((b, i) => ({
             '@type': 'ListItem',
             position: i + 3,
             name: b.label,
-            item: `https://cliniq.com${b.href}`,
+            item: `https://cliniqhealthcare.com${b.href}`,
           })),
         ],
       }

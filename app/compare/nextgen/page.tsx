@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description:
       'NextGen brings specialty depth to the EHR. clinIQ brings specialty depth to clinic operations — the layer NextGen was never designed to provide.',
     type: 'website',
-    url: 'https://cliniq.com/compare/nextgen',
+    url: 'https://cliniqhealthcare.com/compare/nextgen',
   },
 }
 
@@ -27,13 +27,13 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniq.com' },
-    { '@type': 'ListItem', position: 2, name: 'Compare', item: 'https://cliniq.com/compare' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniqhealthcare.com' },
+    { '@type': 'ListItem', position: 2, name: 'Compare', item: 'https://cliniqhealthcare.com/compare' },
     {
       '@type': 'ListItem',
       position: 3,
       name: 'clinIQ vs NextGen',
-      item: 'https://cliniq.com/compare/nextgen',
+      item: 'https://cliniqhealthcare.com/compare/nextgen',
     },
   ],
 }

@@ -28,12 +28,12 @@ export const metadata: Metadata = {
     title: 'clinIQ – Clinic Operations Platform | Real-Time Patient Flow',
     description:
       'Real-time patient flow. Automated check-in. RTM billing. Pre-authorization. From check-in to checkout — zero chaos.',
-    url: 'https://cliniq.io',
+    url: 'https://cliniqhealthcare.com',
     siteName: 'clinIQ',
     type: 'website',
   },
   alternates: {
-    canonical: 'https://cliniq.io',
+    canonical: 'https://cliniqhealthcare.com',
   },
 }
 
@@ -42,8 +42,8 @@ const jsonLd = [
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'clinIQ',
-    url: 'https://cliniq.io',
-    logo: 'https://cliniq.io/logo.png',
+    url: 'https://cliniqhealthcare.com',
+    logo: 'https://cliniqhealthcare.com/logo.png',
     description:
       'clinIQ is a clinic operations platform providing real-time patient flow management, automated check-in, RTM billing, pre-authorization, and scheduling for medical practices.',
     sameAs: [
@@ -52,19 +52,19 @@ const jsonLd = [
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'sales',
-      url: 'https://cliniq.io/contact',
+      url: 'https://cliniqhealthcare.com/contact',
     },
   },
   {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'clinIQ',
-    url: 'https://cliniq.io',
+    url: 'https://cliniqhealthcare.com',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: 'https://cliniq.io/search?q={search_term_string}',
+        urlTemplate: 'https://cliniqhealthcare.com/search?q={search_term_string}',
       },
       'query-input': 'required name=search_term_string',
     },
@@ -79,7 +79,7 @@ const jsonLd = [
       'Real-time clinic operations platform for patient flow management, automated check-in, RTM billing, pre-authorization, and scheduling.',
     offers: {
       '@type': 'Offer',
-      url: 'https://cliniq.io/demo',
+      url: 'https://cliniqhealthcare.com/demo',
     },
   },
 ]

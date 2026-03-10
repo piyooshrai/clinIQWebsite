@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description:
       'Tebra fills your calendar and documents your visits. clinIQ manages what happens between the time a patient arrives and the time they leave.',
     type: 'website',
-    url: 'https://cliniq.com/compare/tebra',
+    url: 'https://cliniqhealthcare.com/compare/tebra',
   },
 }
 
@@ -27,13 +27,13 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniq.com' },
-    { '@type': 'ListItem', position: 2, name: 'Compare', item: 'https://cliniq.com/compare' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniqhealthcare.com' },
+    { '@type': 'ListItem', position: 2, name: 'Compare', item: 'https://cliniqhealthcare.com/compare' },
     {
       '@type': 'ListItem',
       position: 3,
       name: 'clinIQ vs Tebra',
-      item: 'https://cliniq.com/compare/tebra',
+      item: 'https://cliniqhealthcare.com/compare/tebra',
     },
   ],
 }
