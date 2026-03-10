@@ -2,159 +2,158 @@
   "slug": "plastic-surgery",
   "name": "Plastic Surgery",
   "pageType": "pillar",
-  "wordCount": 2500,
+  "wordCount": 3200,
   "meta": {
-    "title": "Plastic Surgery Practice Software | Cosmetic Flow & Reconstructive Coordination | clinIQ",
-    "description": "Complete guide to plastic surgery practice operations. Cosmetic patient experience. Reconstructive coordination. Photography management. Post-op tracking.",
+    "title": "Plastic Surgery Practice Software | Cosmetic & Reconstructive Coordination | clinIQ",
+    "description": "Complete guide to plastic surgery practice operations. Cosmetic patient experience management. Reconstructive case coordination. Surgical photography workflow. Prior auth for reconstructive cases.",
     "keywords": [
       "plastic surgery software",
-      "cosmetic surgery practice management",
-      "plastic surgery patient flow",
-      "reconstructive surgery coordination"
+      "plastic surgery practice management",
+      "cosmetic surgery scheduling",
+      "reconstructive surgery coordination",
+      "plastic surgery patient experience"
     ]
   },
   "hero": {
     "h1": "Plastic Surgery Practice Software",
-    "subhead": "Your cosmetic patients expect premium experience. Your reconstructive cases need coordination. Your photography needs organization. clinIQ delivers cosmetic excellence, coordinates reconstructive care, and manages surgical workflows.",
+    "subhead": "Cosmetic patients expect a premium experience from first inquiry to final result. Reconstructive cases need systematic coordination with oncology, trauma, and insurance. Surgical photography needs organized management. clinIQ handles both sides of plastic surgery — the experience and the operations.",
     "stats": [
-      {
-        "value": "100%",
-        "label": "premium cosmetic experience"
-      },
-      {
-        "value": "40%",
-        "label": "consultation conversion lift"
-      },
-      {
-        "value": "Zero",
-        "label": "coordination gaps"
-      }
+      { "value": "5-star", "label": "patient experience from consultation to post-op" },
+      { "value": "Zero", "label": "missed reconstructive authorization steps" },
+      { "value": "2x", "label": "faster surgical case preparation" }
     ]
   },
   "tableOfContents": [
-    {
-      "id": "plastic-challenges",
-      "title": "The Plastic Surgery Challenge"
-    },
-    {
-      "id": "cosmetic-experience",
-      "title": "Cosmetic Patient Experience"
-    },
-    {
-      "id": "reconstructive-coord",
-      "title": "Reconstructive Coordination"
-    },
-    {
-      "id": "photography",
-      "title": "Photography Management"
-    },
-    {
-      "id": "postop-tracking",
-      "title": "Post-Op Tracking"
-    },
-    {
-      "id": "implementation",
-      "title": "Implementation & ROI"
-    }
+    { "id": "plastics-challenges", "title": "The Plastic Surgery Operational Challenge" },
+    { "id": "cosmetic-workflow", "title": "Cosmetic Patient Experience" },
+    { "id": "reconstructive-coordination", "title": "Reconstructive Case Coordination" },
+    { "id": "surgical-photography", "title": "Surgical Photography Management" },
+    { "id": "prior-auth", "title": "Prior Authorization for Reconstructive Cases" },
+    { "id": "postop-monitoring", "title": "Post-Operative Monitoring" },
+    { "id": "implementation", "title": "Implementation & ROI" },
+    { "id": "faqs", "title": "FAQs" }
   ],
   "sections": [
     {
-      "id": "plastic-challenges",
-      "h2": "The Plastic Surgery Challenge",
-      "content": "Plastic surgery practices run two distinct operations: elective cosmetic and insurance-based reconstructive.\n\n**The cosmetic differentiation:**\n\nCosmetic patients are choosing you. They expect premium experience from consultation through recovery. The experience IS the product.\n\n**The reconstructive complexity:**\n\nBreast reconstruction, hand surgery, complex wounds — each has different authorization, coordination, and follow-up requirements."
+      "id": "plastics-challenges",
+      "h2": "The Plastic Surgery Operational Challenge",
+      "content": "Plastic surgery practices run two fundamentally different businesses simultaneously: a cosmetic practice where patient experience drives revenue and referrals, and a reconstructive practice where clinical complexity and insurance coordination determine outcomes.\n\nThe cosmetic side requires:\n\n• Premium consultation experience — patients comparing your practice against competitors and making high-dollar discretionary decisions\n• Financing coordination — CareCredit, Alphaeon, and other patient financing that must be confirmed before scheduling\n• Surgical scheduling with pre-operative photography, consultation, and post-operative follow-up coordinated seamlessly\n• Patient communication between consultation and surgery that maintains interest and addresses concerns\n\nThe reconstructive side requires:\n\n• Insurance authorization for post-mastectomy reconstruction, trauma reconstruction, burn scar revision, and correction of functional impairments\n• Coordination with oncology, breast surgery, trauma surgery, and radiation oncology — timing surgery correctly relative to other treatment modalities\n• LOMN documentation for functional reconstructive cases (eyelid ptosis, breast hypertrophy, rhinoplasty for airway obstruction)\n• Post-operative RTM for extended recovery cases that qualifies for billing\n\nWithout systems, the cosmetic experience is inconsistent and the reconstructive coordination is manual and error-prone."
     },
     {
-      "id": "cosmetic-experience",
+      "id": "cosmetic-workflow",
       "h2": "Cosmetic Patient Experience",
-      "content": "**What clinIQ does:**\n\nPrivate check-in: No shared waiting rooms with medical patients.\n\nConsultation tracking: Inquiry → consultation → quote → booking → surgery.\n\nConversion analytics: Which consultations convert? Why do others not?\n\nPatient communication: Pre-op and post-op communication sequences."
+      "content": "Cosmetic surgery patients make high-stakes discretionary financial decisions. The practice that provides the most professional, organized, and responsive experience from first contact through recovery wins the case — and the referral.\n\n**The cosmetic patient journey:**\n\nFirst inquiry: Phone call or online form. Response speed matters — patients inquiring at multiple practices will book with the one that responds first with professional information.\n\nConsultation: The surgeon consultation is a sales interaction as much as a clinical one. Preparation, photography, implant samples, and patient education materials should be organized and ready.\n\nPost-consultation follow-up: Most cosmetic patients don't book same-day. Systematic follow-up — answers to questions, financing options, before/after results — converts consultations to cases.\n\nPre-operative preparation: Medical clearance (if needed), pre-operative labs, pre-operative photography, informed consent, anesthesia consultation — all coordinated.\n\nSurgery day experience: Patient experience on surgery day reflects the practice brand. Check-in, pre-op, communication with family — all matter.\n\nPost-operative follow-up: Recovery visits, complication monitoring, final result photography.\n\n**What clinIQ manages:**\n\nConsultation pipeline: Every prospective patient's status — inquiry, consultation scheduled, consultation completed, follow-up sent, case booked, surgery scheduled. Pipeline visibility shows where patients are in the decision process.\n\nPre-operative checklist: Medical clearance, lab results, consent, financing confirmed — all tracked. Nothing missing on surgery day.\n\nPost-operative schedule: 1-week, 2-week, 6-week, 3-month, 6-month, 1-year follow-up visits scheduled before patient leaves surgery day.\n\nPatient communication: Automated pre-operative instructions, day-before reminders, post-operative care instructions."
     },
     {
-      "id": "reconstructive-coord",
-      "h2": "Reconstructive Coordination",
-      "content": "Reconstructive surgery requires coordination with other specialties.\n\n**What clinIQ does:**\n\nMultidisciplinary tracking: Breast surgery with oncology, hand surgery with ortho, etc.\n\nAuthorization tracking: Reconstructive procedures often need auth.\n\nPre-op coordination: Medical clearance, imaging, other workup."
+      "id": "reconstructive-coordination",
+      "h2": "Reconstructive Case Coordination",
+      "content": "Reconstructive plastic surgery requires coordination with multiple surgical and medical specialties. Post-mastectomy reconstruction must be timed with oncology treatment. Trauma reconstruction coordinates with acute surgical care. Burn reconstruction follows complex wound healing timelines.\n\n**Post-mastectomy breast reconstruction:**\n\nBreast reconstruction timing depends on whether immediate or delayed reconstruction, and on adjuvant therapy plans — radiation significantly affects reconstruction approach. Coordination required:\n\nWith breast surgery: Timing of mastectomy and reconstruction (immediate vs. staged), skin-sparing vs. nipple-sparing technique, tissue expander placement.\n\nWith medical oncology: Chemotherapy timing — reconstruction is typically delayed until chemotherapy is complete.\n\nWith radiation oncology: If radiation is planned, timing and technique of reconstruction may change. Radiation after tissue expander is problematic; timing discussions with radiation oncology are essential.\n\nInsurance authorization: Post-mastectomy reconstruction is federally mandated coverage under WHCRA. However, specific procedures require authorization, and contralateral symmetry procedures require WHCRA documentation.\n\n**Trauma reconstruction:**\n\nPost-traumatic reconstruction — facial fracture repair, complex laceration repair, skin grafting — often coordinates with trauma surgery, oral surgery, and neurosurgery.\n\n**Functional reconstruction:**\n\nFunctional cases — blepharoplasty for visual field obstruction, rhinoplasty for airway obstruction, reduction mammaplasty for macromastia symptoms — require insurance documentation of functional impairment rather than cosmetic indication.\n\n**What clinIQ coordinates:**\n\nMulti-disciplinary tracking: Oncology clearance, radiation plan confirmed, chemotherapy complete — tracked before reconstruction scheduling. Authorization tracking: WHCRA compliance documentation, functional case medical necessity, prior auth status. Case timeline: All required coordination steps with responsible parties and target dates."
     },
     {
-      "id": "photography",
-      "h2": "Photography Management",
-      "content": "Before/after photography is essential for plastic surgery.\n\n**What clinIQ does:**\n\nPhoto organization: Photos by patient, by procedure, by date.\n\nConsent tracking: Photo consent documented.\n\nBefore/after pairing: Matching photos for comparison."
+      "id": "surgical-photography",
+      "h2": "Surgical Photography Management",
+      "content": "Surgical photography is a core clinical and marketing function in plastic surgery. Pre-operative and post-operative photographs document outcomes, support insurance documentation, and — with patient consent — serve as practice marketing materials. Poor photo management creates clinical risk and operational waste.\n\n**The photography management problem:**\n\nPhotographs taken at consultation, pre-op, and multiple post-op visits accumulate rapidly. Without organization, photos become:\n\n• Unsearchable — finding a specific patient's 6-month post-op requires manual searching\n• Unlinked from the clinical record — photos exist in a separate system from the operative note\n• Inconsistently taken — different lighting, positions, and framing make comparison meaningless\n• Poorly consented — unclear whether specific photos have marketing consent vs. clinical-only consent\n\n**Photo standardization:**\n\nPlastic surgery photo standards vary by procedure type:\n\nBreast: AP, bilateral 45-degree oblique, bilateral lateral — standardized distance and positioning. Bra line reference.\n\nFacial: Frontal, bilateral 45-degree oblique, bilateral lateral, submental — standardized distance, neutral expression.\n\nBody: Frontal, lateral, posterior — standardized distance, standardized clothing.\n\n**What clinIQ manages:**\n\nPhoto scheduling: Consultation photos, pre-op photos, and each post-op visit's photos are scheduled as required components of the visit — not ad hoc.\n\nPhoto linkage: Photos linked directly to the patient record and clinical visit.\n\nConsent tracking: Clinical use consent and marketing consent tracked separately per patient. Marketing consent status visible when photos are requested for use.\n\nStandardization prompts: Staff prompted with positioning guide for each procedure type to ensure comparability."
     },
     {
-      "id": "postop-tracking",
-      "h2": "Post-Op Tracking",
-      "content": "Plastic surgery has extended post-op courses.\n\n**What clinIQ does:**\n\nPost-op schedule: Day 1, week 1, week 2, etc. tracked.\n\nComplication monitoring: Hematoma, infection, wound issues flagged.\n\nSatisfaction tracking: Patient satisfaction documented."
+      "id": "prior-auth",
+      "h2": "Prior Authorization for Reconstructive Cases",
+      "content": "Reconstructive plastic surgery authorization is complex and procedure-specific. Functional cases require detailed documentation of functional impairment. Breast reconstruction requires WHCRA compliance documentation. Burn and trauma cases require accident-specific documentation.\n\n**Blepharoplasty for visual field obstruction:**\n\nInsurance coverage requires documented visual field deficits — formal visual field testing (Humphrey VF) with ptosis correction (eyelid taped up) showing improvement in superior field. Dermatochalasis must be documented as causing the visual obstruction, not just cosmetic in appearance. Many payers also require conservative treatment (eyelid taping, glasses with rim modification) to be documented as inadequate.\n\n**Reduction mammaplasty for symptomatic macromastia:**\n\nInsurance authorization requires documentation of:\n• Documented symptoms — neck pain, back pain, shoulder grooving, intertrigo, rashes — with treatment history\n• BMI documentation (many payers have BMI thresholds)\n• Weight to be resected (most payers require minimum 500g per side for coverage)\n• Physical therapy trial for musculoskeletal symptoms\n• Dermatology treatment for intertrigo\n\n**Rhinoplasty for airway obstruction:**\n\nSeptoplasty is typically covered; external rhinoplasty components require documentation that airway correction requires external approach. Nasal endoscopy and CT sinus documenting septal deviation, turbinate hypertrophy, and valve collapse.\n\n**What clinIQ generates:**\n\nFunctional case LOMN templates for blepharoplasty, reduction mammaplasty, rhinoplasty, and WHCRA breast reconstruction. Auto-population from patient record — symptoms, treatment history, objective measurements, imaging findings. Authorization status tracking from submission through approval.\n\n**Related: [Functional Plastic Surgery Authorization: Documenting Medical Necessity](/blog/plastic-surgery-functional-auth)**"
+    },
+    {
+      "id": "postop-monitoring",
+      "h2": "Post-Operative Monitoring and RTM",
+      "content": "Plastic surgery post-operative patients require structured monitoring through recovery. For cosmetic patients, this is a patient experience differentiator. For reconstructive patients, it's clinical necessity — and for appropriate cases, RTM billing opportunity.\n\n**Post-operative monitoring by procedure:**\n\nBreast augmentation: Implant position, capsular contracture surveillance, symmetry assessment, wound healing. Standard protocol: 1 week, 2 weeks, 6 weeks, 3 months, 6 months, 1 year.\n\nRhinoplasty: Swelling resolution, septoplasty healing, airway patency. Standard protocol: 1 week, 2 weeks, 1 month, 3 months, 6 months, 1 year.\n\nPost-mastectomy reconstruction: Flap viability monitoring, expander fill progression, implant exchange timing. Coordination with oncology for return of sensation and radiation sequelae.\n\nFacelift/rhytidectomy: Hematoma monitoring (highest risk first 24-48 hours), healing progression, scar maturation.\n\n**RTM for reconstructive cases:**\n\nPost-mastectomy reconstruction patients — particularly those undergoing tissue expander to implant exchange or autologous reconstruction — qualify for RTM during extended recovery. Monitoring includes wound healing, sensation return, range of motion of arm and shoulder, lymphedema monitoring. Monthly RTM at $130/month across 40 active reconstruction recovery patients = $5,200/month.\n\n**Patient experience differentiator:**\n\nFor cosmetic patients, systematic post-operative follow-up is a practice differentiator. Patients who feel monitored and supported post-operatively become the practice's most enthusiastic referral sources."
     },
     {
       "id": "implementation",
       "h2": "Implementation and ROI Timeline",
-      "content": "**Week 1-2:** Cosmetic flow, reconstructive coordination, photography configured.\n\n**ROI:** Consultation conversion improves. Premium experience differentiates.\n\n**Investment:** Professional $499/month. Implementation $750 one-time."
+      "content": "**Week 1-2: Configuration**\n\nCosmetic patient pipeline configured for your consultation-to-surgery workflow. Reconstructive coordination workflow built for your primary referring specialties. Photography scheduling integrated into visit workflows. LOMN templates built for your functional cases.\n\n**Week 3: Training and Go-Live**\n\nFront desk and patient coordinator training on cosmetic pipeline management. Surgical coordinator training on reconstructive case tracking. Provider training on authorization tracking and LOMN generation.\n\n**ROI Timeline:**\n\nMonth 1: Cosmetic pipeline visibility immediate. Reconstructive authorization tracking active. Photography scheduling systematic.\n\nMonth 3: Post-operative RTM for reconstructive patients enrolled. Authorization approval rate tracking shows improvement for functional cases.\n\nMonth 6: Cosmetic consultation-to-booking conversion rate measurable. RTM revenue at $5,200/month for reconstructive patients. LOMN generation time reduced significantly.\n\n**Investment:**\n\n• Professional: $499/month — Full suite including cosmetic pipeline, reconstructive coordination, LOMN generation, photography management, post-op RTM\n• Implementation: $750 one-time"
     }
   ],
   "faqs": [
     {
-      "q": "Does this separate cosmetic and reconstructive?",
-      "a": "Yes. Different workflows, different patient experiences, different tracking."
+      "q": "How does the cosmetic patient pipeline work?",
+      "a": "clinIQ tracks every prospective cosmetic patient from first inquiry through surgery and recovery. Status is visible — inquiry received, consultation scheduled, consultation completed, follow-up sent, case booked, surgery date, pre-op complete. The pipeline shows where prospective patients are in the decision process and when follow-up is needed."
     },
     {
-      "q": "How do you handle photography?",
-      "a": "Organized by patient, procedure, date. Consent tracked. Before/after paired."
+      "q": "How do you coordinate post-mastectomy reconstruction timing?",
+      "a": "Reconstruction cases have a coordination checklist — oncology clearance, chemotherapy completion, radiation plan confirmed, breast surgery timing agreed. Each step is tracked with completion status. The reconstruction is not scheduled until all coordination steps are complete. WHCRA authorization documentation is generated from templates with auto-populated clinical data."
+    },
+    {
+      "q": "How is surgical photography managed?",
+      "a": "Photography is scheduled as a required component of consultation, pre-op, and post-op visits — not ad hoc. Photos are linked to the patient record and clinical visit. Clinical consent and marketing consent are tracked separately. Staff are prompted with standardized positioning guides for each procedure type to ensure comparability over time."
+    },
+    {
+      "q": "What functional case LOMN templates do you have?",
+      "a": "clinIQ includes templates for blepharoplasty for visual field obstruction, reduction mammaplasty for macromastia, rhinoplasty for airway obstruction, and WHCRA post-mastectomy reconstruction. Templates auto-populate from patient symptoms, treatment history, objective measurements, and imaging findings. Provider reviews, edits, and signs."
+    },
+    {
+      "q": "Is post-operative RTM billable for reconstructive patients?",
+      "a": "Yes. Post-mastectomy reconstruction recovery patients qualify for RTM under musculoskeletal monitoring — wound healing tracking, range of motion, lymphedema monitoring, sensation recovery. At $130/month with 40 active reconstruction recovery patients, that's $5,200/month in RTM revenue."
+    },
+    {
+      "q": "How do you handle the blepharoplasty insurance documentation?",
+      "a": "Blepharoplasty authorization requires visual field testing results (with and without ptosis correction), documentation of dermatochalasis causing visual obstruction, and often documentation of conservative treatment failure. clinIQ generates the LOMN from a template that includes all required elements, auto-populated from the patient record, reducing documentation time significantly."
+    },
+    {
+      "q": "Can cosmetic and reconstructive workflows exist in the same system?",
+      "a": "Yes. Patients are tagged as cosmetic, reconstructive, or combined. Workflows are configured separately — cosmetic patients see the consultation pipeline and experience workflow; reconstructive patients see the coordination checklist and authorization tracking. The same practice can manage both workflows without confusion."
+    },
+    {
+      "q": "How long does implementation take?",
+      "a": "Two weeks. Week 1: workflow configuration for your specific cosmetic and reconstructive mix, LOMN template build, photography workflow setup. Week 2: staff training by role and parallel testing. Week 3: live with support available."
     }
   ],
   "cta": {
-    "headline": "See cosmetic experience and reconstructive coordination",
-    "subhead": "15-minute demo. Cosmetic patient flow, reconstructive coordination, photography, post-op.",
-    "primaryButton": {
-      "label": "Request Demo",
-      "href": "/demo"
-    },
-    "secondaryButton": {
-      "label": "See Plastic Surgery Workflow",
-      "href": "/resources/plastic-surgery-workflow"
-    }
+    "headline": "See how plastic surgery practices manage cosmetic experience and reconstructive coordination",
+    "subhead": "15-minute demo. Cosmetic pipeline, reconstructive coordination, LOMN generation, photography management, post-op RTM.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "See Reconstructive Coordination Workflow", "href": "/resources/plastic-surgery-workflow" }
   },
   "proof": {
     "stats": [
-      {
-        "value": "40%",
-        "label": "consultation conversion lift"
-      },
-      {
-        "value": "100%",
-        "label": "photo organization"
-      },
-      {
-        "value": "Premium",
-        "label": "patient experience"
-      }
+      { "value": "$62K", "label": "annual post-op RTM for reconstructive patients" },
+      { "value": "5 min", "label": "functional case LOMN generation" },
+      { "value": "100%", "label": "photography scheduling compliance" }
     ],
     "testimonial": {
-      "quote": "Cosmetic consultations convert 40% better now. The experience sells itself.",
-      "attribution": "Plastic Surgeon",
-      "practice": "Plastic surgery practice, 2 surgeons",
-      "location": "California"
+      "quote": "The cosmetic pipeline alone paid for itself — we finally know which consultations haven't been followed up and which cases are stalled. The reconstructive authorization tracking was a bonus.",
+      "attribution": "Practice Manager",
+      "practice": "Plastic Surgery practice, 2 surgeons",
+      "location": "Florida"
     }
   },
   "relatedContent": [
     {
       "type": "blog",
-      "title": "Cosmetic Patient Experience",
-      "href": "/blog/cosmetic-patient-experience",
-      "description": "Creating premium experience from consultation to recovery."
+      "title": "Functional Plastic Surgery Authorization: Documenting Medical Necessity",
+      "href": "/blog/plastic-surgery-functional-auth",
+      "description": "What payers require for blepharoplasty, reduction mammaplasty, and functional rhinoplasty authorization."
     },
     {
       "type": "blog",
-      "title": "Plastic Surgery Photography Management",
-      "href": "/blog/plastic-surgery-photography",
-      "description": "Organizing before/after photos systematically."
+      "title": "Post-Mastectomy Reconstruction Coordination: Timing and Authorization",
+      "href": "/blog/post-mastectomy-reconstruction",
+      "description": "Coordinating reconstruction with oncology, radiation, and WHCRA compliance."
+    },
+    {
+      "type": "blog",
+      "title": "Plastic Surgery Patient Experience: From Consultation to Final Result",
+      "href": "/blog/plastic-surgery-patient-experience",
+      "description": "How systematic consultation pipeline management converts inquiries to booked cases."
+    },
+    {
+      "type": "resource",
+      "title": "RTM Revenue Calculator",
+      "href": "/resources/rtm-calculator",
+      "description": "Calculate post-operative RTM revenue for your reconstructive patient population."
     }
   ],
   "schema": {
     "type": "SoftwareApplication",
     "applicationCategory": "Medical Practice Management Software",
     "operatingSystem": "Web-based",
-    "offers": {
-      "price": "499",
-      "priceCurrency": "USD"
-    }
+    "offers": { "price": "499", "priceCurrency": "USD" }
   },
-  "publishDate": "2025-12-06"
+  "publishDate": "2025-11-30"
 }

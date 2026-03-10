@@ -2,7 +2,7 @@
   "slug": "obgyn",
   "name": "OB/GYN",
   "pageType": "pillar",
-  "wordCount": 2900,
+  "wordCount": 3800,
   "meta": {
     "title": "OB/GYN Practice Software | Prenatal RTM & Patient Flow Optimization | clinIQ",
     "description": "Complete guide to OB/GYN practice operations. $7,800/month in prenatal/postpartum RTM. Mixed OB and GYN scheduling. Ultrasound coordination. Labor triage visibility.",
@@ -42,6 +42,10 @@
       "title": "Prenatal RTM Billing"
     },
     {
+      "id": "postpartum-care",
+      "title": "Postpartum Care Coordination"
+    },
+    {
       "id": "mixed-scheduling",
       "title": "Mixed OB/GYN Scheduling"
     },
@@ -50,8 +54,8 @@
       "title": "Ultrasound Coordination"
     },
     {
-      "id": "postpartum-care",
-      "title": "Postpartum Care Coordination"
+      "id": "gyn-prior-auth",
+      "title": "GYN Prior Authorization"
     },
     {
       "id": "implementation",
@@ -66,55 +70,76 @@
     {
       "id": "obgyn-challenges",
       "h2": "The OB/GYN Practice Challenge",
-      "content": "OB/GYN practices run complex operations mixing obstetric care with gynecologic services.\n\n**The prenatal monitoring opportunity:**\n\nPrenatal patients should track: blood pressure, weight, fetal movement, symptoms (contractions, bleeding, headache, visual changes). This monitoring between visits identifies complications early.\n\n60 prenatal patients × $130/month × ~8 months average = significant RTM revenue.\n\n**The scheduling complexity:**\n\nOB patients need frequent visits (monthly, then biweekly, then weekly). GYN patients need various visit types (annuals, procedures, post-ops). Ultrasounds need room and sonographer coordination. The schedule is inherently complex.\n\n**The ultrasound coordination problem:**\n\nOB ultrasounds (dating, anatomy, growth) and GYN ultrasounds (pelvic, follicle monitoring) need scheduling, completion, and review coordination.\n\n**The postpartum gap:**\n\nPostpartum patients should be monitored but often aren't seen until 6 weeks. RTM can maintain connection during this critical period."
+      "content": "OB/GYN operates two fundamentally different service lines under one roof — obstetrics and gynecology — each with its own scheduling logic, clinical urgency patterns, and operational requirements. A GYN-heavy day looks nothing like an OB-heavy day. A provider pulled to labor and delivery disrupts a morning of scheduled GYN procedures. The coordination complexity is constant, and it compounds across providers, locations, and service lines in ways that single-specialty practices rarely experience.\n\n**The prenatal RTM opportunity:** Prenatal patients have medically indicated, guideline-supported reasons to monitor blood pressure, weight, fetal movement, and symptoms between visits. Home BP monitoring for hypertension in pregnancy, kick count tracking after 28 weeks, and symptom reporting for preterm labor warning signs are all standard-of-care monitoring activities. Under RTM codes 98975, 98977, 98980, and 98981, this monitoring is billable — but most OB/GYN practices don't bill it. At $120–150/patient/month, 60 active prenatal patients represent $7,200–9,000/month in RTM revenue. That revenue continues with new cohorts as patients deliver and new prenatal patients enroll.\n\n**The postpartum care gap:** The traditional postpartum model has a fundamental design flaw: delivery is followed by six weeks of no clinical contact during the highest-risk period for postpartum hemorrhage, infection, hypertension, and depression. The 2018 ACOG guidance on postpartum care explicitly acknowledged this gap and called for 'ongoing assessment.' RTM provides the infrastructure to close it. Postpartum RTM monitoring for 4–6 weeks after delivery extends the episode of care, improves outcomes detection, and generates additional billing revenue during a period that was previously unbillable.\n\n**The ultrasound coordination problem:** A four-obstetrician practice may schedule 40–60 ultrasounds per week across OB and GYN indications: dating scans, NT scans, anatomy scans, growth surveillance, BPP/AFI studies, pelvic ultrasounds for GYN symptoms, follicle monitoring for fertility patients. Each ultrasound requires room availability, sonographer scheduling, physician or midwife read, and results communication. The coordination failure points — scans ordered but not scheduled, scans done but not read, results not communicated — are predictable and preventable."
     },
     {
       "id": "prenatal-rtm",
-      "h2": "Prenatal RTM Billing: $130/Patient/Month",
-      "content": "Prenatal care is perfectly suited for RTM. Between-visit monitoring is standard of care.\n\n**What prenatal patients track:**\n\nVital signs:\n- Blood pressure (hypertension detection)\n- Weight (excessive gain or loss)\n- Fetal kick counts (after 28 weeks)\n\nSymptoms:\n- Contractions (frequency, regularity)\n- Bleeding or spotting\n- Headache or visual changes (preeclampsia warning)\n- Swelling (edema patterns)\n- Decreased fetal movement\n\nCompliance:\n- Prenatal vitamin use\n- Gestational diabetes monitoring (if applicable)\n- Activity restrictions (if indicated)\n\n**The CPT codes:**\n\n98975: RTM setup — one-time. ~$20-25.\n98977: RTM device supply. ~$50-60/month.\n98980: RTM treatment management — first 20 minutes. ~$50-70/month.\n\nTypical: $120-150/patient/month.\n\n**What clinIQ does for prenatal RTM:**\n\nGestational-age-appropriate prompts: First trimester symptoms differ from third trimester.\n\nUrgent symptom alerts: Bleeding, decreased fetal movement, preeclampsia symptoms → immediate alerts.\n\nBP tracking: Home BP integrated into prenatal record.\n\nKick count tracking: After 28 weeks, simplified kick count logging.\n\n**The clinical value:**\n\nEarly detection of preeclampsia, preterm labor, and fetal compromise improves outcomes and reduces emergent interventions."
-    },
-    {
-      "id": "mixed-scheduling",
-      "h2": "Mixed OB/GYN Scheduling",
-      "content": "OB/GYN scheduling is inherently complex.\n\n**Visit type variation:**\n\nOB visits:\n- New OB: 45-60 minutes\n- Routine prenatal: 15-20 minutes\n- High-risk prenatal: 30-45 minutes\n- NST: 30-60 minutes\n- Postpartum: 20-30 minutes\n\nGYN visits:\n- Annual exam: 20-30 minutes\n- Problem visit: 15-20 minutes\n- Procedure (IUD, colposcopy): 30-45 minutes\n- Post-op: 15-20 minutes\n\n**The OB scheduling constraint:**\n\nOB patients need to see their provider (or covering provider). Visit frequency increases as pregnancy progresses. Labor and delivery pulls providers away unpredictably.\n\n**What clinIQ does:**\n\nVisit type awareness: Different visit types have different durations and room requirements.\n\nProvider panel visibility: Which OB patients belong to which provider? Coverage protocols.\n\nUrgent visit handling: Triage visits that need same-day attention.\n\nLabor coverage: When provider is at L&D, schedule adjustments visible."
-    },
-    {
-      "id": "ultrasound-coordination",
-      "h2": "Ultrasound Coordination",
-      "content": "OB/GYN practices run significant ultrasound volume.\n\n**OB ultrasounds:**\n- Dating (first trimester)\n- NT scan (11-14 weeks)\n- Anatomy scan (18-22 weeks)\n- Growth scans (third trimester)\n- BPP, AFI (surveillance)\n\n**GYN ultrasounds:**\n- Pelvic US for symptoms\n- Follicle monitoring (fertility)\n- SIS/HSG coordination\n\n**What clinIQ does:**\n\nUS scheduling: Room and sonographer availability coordinated.\n\nUS tracking: Ordered → Scheduled → Completed → Read → Results communicated.\n\nPrenatal US timeline: Appropriate gestational age for each US type.\n\nResults integration: US results visible in prenatal record."
+      "h2": "Prenatal RTM Billing: $7,800/Month for 60 Active Patients",
+      "content": "Prenatal care is among the most natural RTM use cases in medicine. The existing prenatal care model already assumes that patients will monitor themselves between visits — fetal kick counts, blood pressure checks for women with hypertension risk, gestational diabetes glucose logs, contraction timing. RTM provides the billing mechanism and clinical infrastructure to make this monitoring systematic, documented, and reimbursable.\n\n**What prenatal patients track by trimester:** In the first and early second trimester, monitoring focuses on nausea severity, spotting or bleeding, medication compliance (prenatal vitamins, progesterone supplementation if indicated), and symptom burden. In the mid-second trimester, anatomy scan scheduling and fetal movement awareness add to the monitoring picture. In the third trimester, monitoring intensifies: daily fetal kick counts after 28 weeks (fewer than 10 movements in 2 hours triggers alert), contraction frequency and character, BP for preeclampsia detection (home readings >140/90 trigger urgent review), edema progression, and decreased fetal movement — a signal that requires same-day evaluation.\n\n**Preeclampsia detection value:** The clinical case for prenatal RTM is strongest for hypertensive disorders. Preeclampsia affects 5–8% of pregnancies, and early detection materially changes management. Home BP monitoring catches the transition from gestational hypertension to preeclampsia before the patient presents symptomatic. clinIQ's threshold alerts for home BP >140/90 on two readings within 4 hours trigger urgent review workflow with provider notification — the clinical value is early intervention, and the financial value is documented clinical management time (98980) and reduced emergency interventions. For a deeper look at evidence-based prenatal monitoring protocols, see our [prenatal RTM clinical guide](/blog/prenatal-rtm-billing).\n\n**The CPT code mechanics for prenatal RTM:** 98975 (setup, one-time, ~$20–25) is billed at enrollment, typically in the first prenatal visit. 98977 (device supply, ~$50–60/month) covers the monitoring platform. 98980 (treatment management, first 20 minutes, ~$50–70/month) requires 16+ days of monitoring data reviewed by clinical staff with 20 minutes of documented management time. The threshold is met almost automatically in a prenatal population that is actively monitoring. 98981 adds $40–50 per additional 20-minute increment — for high-risk patients with frequent RTM reviews, this adds meaningful additional revenue.\n\n**RTM compatibility with global OB billing:** RTM codes are separate from global obstetric care (59400, 59510) and are billable in addition to the global package. The global OB code covers the prenatal visit series, delivery, and postpartum visit. RTM covers the between-visit monitoring and management — a distinct service. CMS has been explicit that RTM is separately reimbursable from chronic care management and from bundled services like global OB, as long as the monitoring service itself meets documentation requirements."
     },
     {
       "id": "postpartum-care",
-      "h2": "Postpartum Care Coordination",
-      "content": "The postpartum period is a care gap in traditional OB care.\n\n**Traditional model:**\n\nDelivery → 6-week postpartum visit. That's 6 weeks of no contact during a high-risk period (postpartum depression, infection, hemorrhage, hypertension).\n\n**RTM-supported model:**\n\nDelivery → RTM enrollment → Daily/weekly symptom tracking → Issues detected early → 6-week visit for comprehensive assessment.\n\n**What postpartum patients track:**\n\nMood: PHQ-2/EPDS screening for postpartum depression\n\nPhysical recovery:\n- Bleeding (quantity, duration)\n- Incision healing (if cesarean)\n- Pain level\n- Fever or signs of infection\n\nBreastfeeding:\n- Breast symptoms (engorgement, mastitis)\n- Feeding concerns\n\n**The RTM value:**\n\nPostpartum RTM can bill for 4-6 weeks after delivery. Patients stay connected. Depression and complications detected early."
+      "h2": "Postpartum Care: Closing the Six-Week Gap",
+      "content": "The postpartum period is the most clinically underserved window in obstetric care. Patients are discharged from the hospital within 24–48 hours of vaginal delivery or 48–72 hours after cesarean section, and the next scheduled contact point is a six-week postpartum visit. In between: hemorrhage risk, wound complications, hypertensive disorders that persist or newly develop after delivery, mastitis and breastfeeding challenges, and — most significantly — postpartum depression, which affects 10–15% of new mothers and is often undetected until it becomes severe.\n\n**What postpartum RTM monitors:** The monitoring domains for the postpartum period map directly to the risk conditions. Mood and emotional wellbeing: Edinburgh Postnatal Depression Scale (EPDS) or PHQ-2 at weekly intervals detects postpartum depression early, with scores ≥10 on EPDS or PHQ-2 ≥3 triggering clinical review and outreach. Physical recovery: lochia quantity and duration (saturating a pad per hour or passing clots triggers hemorrhage alert), cesarean incision healing (redness, warmth, drainage, dehiscence), fever or signs of endometritis, and pain management adequacy. Cardiovascular: blood pressure monitoring continues postpartum for women who had gestational hypertension or preeclampsia — postpartum hypertension that develops or persists after 48 hours is a significant risk that outpatient RTM catches before readmission.\n\n**Breastfeeding coordination:** For breastfeeding patients, postpartum RTM captures breast symptoms (engorgement, mastitis signs — erythema, fever, unilateral pain), feeding frequency and latch concerns, supplementation questions, and milk supply adequacy. These issues drive a high volume of phone calls and portal messages in the first weeks postpartum. Systematic RTM monitoring creates a structured channel for these concerns, reduces urgent phone call volume, and generates documentation for billable management time rather than undocumented phone triage.\n\n**Postpartum RTM billing duration:** RTM can be billed for the postpartum period from discharge through the 6-week visit — typically 4–6 weeks of billable monitoring. For women with postpartum hypertension, monitoring often continues beyond 6 weeks as BP normalizes. For women identified with postpartum depression, RTM monitoring can continue through the treatment and recovery period. The postpartum episode adds $480–600 per patient in RTM revenue that was previously unbilled."
+    },
+    {
+      "id": "mixed-scheduling",
+      "h2": "Mixed OB/GYN Scheduling: Balancing Two Calendars",
+      "content": "OB/GYN scheduling complexity arises from the collision of predictable GYN visit patterns (annuals, procedure follow-ups, consultations) with inherently unpredictable OB demands (labor and delivery coverage, unscheduled triage visits, high-risk pregnancy urgent slots). The same provider who has a full morning of scheduled GYN procedures may be called to labor and delivery at 9 AM, creating a cascade of delays that affects every patient in the queue.\n\n**OB visit type variability:** The duration and resource requirements of OB visits vary dramatically by gestational age and risk status. New OB intake visits require 45–60 minutes with history, physical, laboratory ordering, and prenatal education. Routine prenatal visits (8–28 weeks monthly) run 15–20 minutes with fundal height, fetal heart tones, BP, and brief counseling. High-risk prenatal visits for women with gestational diabetes, multiple gestation, prior preterm delivery, or hypertensive disorders require 30–45 minutes with more detailed assessment. NST monitoring visits require 30–60 minutes of fetal monitoring time plus interpretation. Scheduling templates that don't account for this variation create systematic overruns.\n\n**GYN visit and procedure scheduling:** GYN visit types span a similar range: annual wellness exams (25–30 minutes), problem visits (15–20 minutes), procedure visits (colposcopy with biopsy 30–45 minutes, IUD insertion 20–30 minutes, hysteroscopy in-office 30–45 minutes, endometrial biopsy 20 minutes, LEEP 30–45 minutes), infertility consultations (45–60 minutes), and post-op follow-ups (15–20 minutes). Procedure visits require instrument setup, room preparation, and recovery time that routine visits don't — mixing them into the same template without duration recognition creates bottlenecks.\n\n**Labor coverage schedule impact:** When a provider goes to labor and delivery, the clinic schedule doesn't stop — it accumulates. clinIQ's labor coverage visibility allows schedulers to see which provider is on L&D coverage, how long they've been there, and how their remaining schedule should be managed. Cross-coverage protocols (which provider covers which patients, which visit types can be seen by the covering provider versus rescheduled) are surfaced in the schedule view rather than requiring a phone call to determine."
+    },
+    {
+      "id": "ultrasound-coordination",
+      "h2": "Ultrasound Coordination: From Order to Results Communication",
+      "content": "Ultrasound is the diagnostic backbone of OB/GYN care. An active obstetric practice performs dating scans, NT scans, anatomy scans, growth surveillance scans, biophysical profiles, and amniotic fluid indexes — each at protocol-specified gestational age windows. The GYN service adds pelvic ultrasounds, saline infusion sonograms (SIS), and follicle monitoring for fertility patients. The volume is high, the timing is often clinically critical (anatomy scans between 18–22 weeks have a narrow scheduling window), and the coordination failures — ordered but not scheduled, performed but not read, read but results not communicated — directly impact patient safety.\n\n**OB ultrasound protocol management:** clinIQ tracks each patient's ultrasound protocol status against gestational age milestones. Dating scan: ordered at first prenatal visit, completed by 13+6 weeks. NT scan: completed 11–13+6 weeks (time-sensitive window). Anatomy scan: completed 18–22 weeks. Growth scans: typically begin at 28–32 weeks for AGA monitoring, or earlier and more frequently for IUGR, multiple gestation, or other high-risk indications. BPP/AFI: ordered per protocol for high-risk patients or when indicated by NST findings. When a patient approaches a gestational age milestone without the required ultrasound completed, clinIQ surfaces the gap for scheduling follow-up.\n\n**GYN ultrasound tracking:** GYN ultrasounds track through the same status pipeline — ordered, scheduled, performed, read, results communicated — but with indication-specific urgency. A pelvic ultrasound ordered for evaluation of a palpable adnexal mass has different urgency than a follicle monitoring scan for an IUI cycle. Saline infusion sonogram results need to be in hand before hysteroscopy scheduling. clinIQ's GYN ultrasound tracking maintains indication context alongside status, so prioritization reflects clinical urgency.\n\n**Results communication workflow:** The most common ultrasound coordination failure isn't the scan itself — it's the communication after. Read but not communicated. Result communicated to the chart but patient not notified. Abnormal finding documented but follow-up not scheduled. clinIQ tracks ultrasound results through to patient notification and, when indicated, follow-up scheduling. An anatomy scan with a soft marker for a chromosomal abnormality needs genetic counseling referral; that referral should be trackable from the same workflow that tracked the scan itself."
+    },
+    {
+      "id": "gyn-prior-auth",
+      "h2": "GYN Prior Authorization: Procedures, Medications, and Surgical Cases",
+      "content": "GYN procedures and treatments face a significant prior authorization burden. Hysterectomy for fibroids, laparoscopic myomectomy, endometrial ablation, and pelvic reconstructive procedures require surgical authorization with documentation of failed conservative management. Hormonal therapies for endometriosis — GnRH agonists and antagonists — require authorization with diagnosis confirmation and failed first-line treatment documentation. Fertility-related ultrasound monitoring may require authorization from plans with fertility riders. Each authorization has payer-specific criteria, documentation requirements, and appeal pathways.\n\n**Surgical authorization for GYN procedures:** Hysterectomy authorization typically requires documentation of: uterine pathology (fibroids with symptom burden, adenomyosis, endometriosis, prolapse grade, dysfunctional uterine bleeding), duration of symptoms, prior conservative management tried and failed (medical management, endometrial ablation considered), and surgical approach justification. clinIQ tracks the conservative management documentation timeline — the 3-month trial of hormonal therapy for DUB, the iron supplementation for anemia management, the pessary trial for prolapse — so that when surgical authorization is submitted, the required prior management history is documented and timestamped rather than reconstructed from memory.\n\n**Endometriosis treatment authorization:** GnRH agonist therapy (leuprolide) and GnRH antagonist therapy (elagolix, relugolix) for endometriosis require authorization with diagnostic confirmation (surgical diagnosis preferred, clinical diagnosis accepted by some payers) and failed NSAID and hormonal contraceptive trial. Duration of authorization is typically 6 months for GnRH agonists due to bone density concerns; re-authorization for extended therapy requires bone density assessment. clinIQ tracks authorization duration, upcoming renewal windows, and assembles required documentation for re-authorization.\n\n**Fertility-adjacent authorization:** Medically indicated fertility evaluations — saline infusion sonography, hysterosalpingography, diagnostic laparoscopy for infertility workup — may be covered under standard GYN benefits or require fertility benefit authorization depending on payer. clinIQ tracks benefit verification by procedure type for each payer, preventing the common failure mode of performing a study that the practice assumed was covered only to receive a denial post-service."
     },
     {
       "id": "implementation",
       "h2": "Implementation and ROI Timeline",
-      "content": "**Week 1: Configuration**\n\nPrenatal and postpartum RTM templates. OB/GYN visit types. US coordination workflow.\n\n**Week 2: Training and Go-Live**\n\nClinical staff learns RTM enrollment and monitoring. Schedulers learn mixed schedule management.\n\n**ROI Timeline:**\n\nMonth 1: Scheduling visibility immediate. RTM enrollment starting.\n\nMonth 3: RTM billing at scale. US coordination improving.\n\nMonth 6: Full RTM revenue. Prenatal care optimized.\n\n**ROI Math:**\n\nRTM revenue: 60 prenatal patients × $130/month × 6 months average = $46,800/year ongoing\n\nWith turnover: ~$7,800/month as patients deliver and new patients enroll\n\nPostpartum RTM adds additional revenue during recovery period.\n\n**Investment:**\n\nProfessional: $499/month\n\nImplementation: $750 one-time"
+      "content": "OB/GYN implementation at clinIQ requires configuring the two distinct service lines — obstetrics and gynecology — with their different workflows, visit types, and coordination requirements. The prenatal RTM program, ultrasound tracking protocols, and GYN authorization workflows each have configuration steps that reflect how your specific practice operates.\n\n**Week 1 — Configuration:** Prenatal RTM templates built by trimester and risk status. Postpartum RTM templates configured with EPDS/PHQ-2 integration, lochia monitoring, BP tracking for women with hypertensive history, and breastfeeding support. OB visit types mapped with accurate durations. Ultrasound protocol milestones set by gestational age. GYN authorization criteria configured for major procedures. Labor coverage protocols built into schedule visibility.\n\n**Week 2 — Training and go-live:** OB nursing staff trained on prenatal and postpartum RTM enrollment and alert response. Sonographers and scheduling staff trained on ultrasound tracking workflow. Schedulers trained on mixed OB/GYN template management and labor coverage protocols. Providers oriented to pre-visit RTM summaries and ultrasound status dashboards.\n\n**ROI by month:**\n\n*Month 1:* Ultrasound tracking gaps visible immediately — ordered-but-not-scheduled scans surface within the first week. RTM enrollment begins; expect 15–25 prenatal patients enrolled.\n\n*Month 3:* RTM billing reaching scale. 40–50 prenatal patients enrolled generates $5,200–6,500/month. GYN authorization denial rate declining as documentation is more consistent.\n\n*Month 6:* Full prenatal RTM revenue. Postpartum RTM adding $480–600 per delivered patient. Authorization workflows running on schedule.\n\n**Annual ROI summary:**\n\nPrenatal RTM revenue: 60 active patients × $130/month × rolling cohort = $93,600/year\nPostpartum RTM add-on: ~50 deliveries/year × $500/patient = $25,000/year\nGYN auth denials prevented: $6,000–12,000/year\nTotal annual value: $124,000–130,000\n\n**Investment:** Professional tier: $499/month. Implementation: $750 one-time."
     }
   ],
   "faqs": [
     {
-      "q": "Can you bill RTM throughout pregnancy?",
-      "a": "Yes. Prenatal RTM can bill monthly from enrollment through delivery. Postpartum RTM continues for 4-6 weeks after delivery."
+      "q": "Can prenatal RTM be billed alongside global OB care?",
+      "a": "Yes. RTM codes (98975, 98977, 98980, 98981) are separate from global obstetric billing codes (59400, 59510). Global OB covers the prenatal visit series, delivery, and postpartum visit. RTM covers between-visit monitoring and treatment management — a distinct service that CMS has confirmed is separately reimbursable. The monitoring data reviewed under RTM is not the same service as the in-office prenatal visits included in the global package."
     },
     {
-      "q": "How does RTM work with global OB billing?",
-      "a": "RTM is separate from global OB care. The monitoring and treatment management are distinct services and can be billed in addition to global OB."
+      "q": "How early in pregnancy can RTM enrollment begin?",
+      "a": "RTM enrollment can begin at the first prenatal visit — typically 8–10 weeks. The earlier enrollment begins, the more monitoring months are billed over the course of the pregnancy. A patient enrolled at 8 weeks who delivers at 39 weeks generates approximately 7 months of RTM billing plus 4–6 weeks of postpartum RTM. A patient enrolled at 24 weeks generates only 3–4 months. First prenatal visit enrollment maximizes revenue and maximizes the clinical monitoring window."
     },
     {
-      "q": "What about high-risk pregnancies?",
-      "a": "High-risk pregnancies benefit even more from RTM. More frequent monitoring, earlier detection of complications. Some may qualify for additional 98981 time."
+      "q": "What triggers RTM alerts in prenatal monitoring?",
+      "a": "Alert thresholds are calibrated to obstetric warning signs. Blood pressure ≥140/90 on two readings within 4 hours triggers urgent preeclampsia review. Fetal kick count <10 movements in 2 hours after 28 weeks triggers same-day evaluation workflow. Reported vaginal bleeding at any gestational age triggers urgent provider notification. Contraction frequency ≥6/hour before 37 weeks triggers preterm labor evaluation. EPDS score ≥10 or PHQ-2 ≥3 in the postpartum period triggers depression screening follow-up. All thresholds are configurable to practice protocols."
     },
     {
-      "q": "Does this integrate with fetal monitoring?",
-      "a": "Patient-reported fetal movement counts are captured. NST and BPP scheduling and results are tracked separately."
+      "q": "How does postpartum RTM billing work after delivery?",
+      "a": "Postpartum RTM begins at hospital discharge and continues through the 6-week postpartum visit — typically 4–6 weeks of billable monitoring. The same CPT codes apply (98977 for device supply, 98980 for treatment management). 98980 requires 16+ days of monitoring data and 20 minutes of documented clinical management time reviewed by staff. For women with postpartum hypertension, depression, or wound complications, RTM monitoring and billing can continue beyond the 6-week visit as long as active clinical management continues."
+    },
+    {
+      "q": "How does labor and delivery coverage affect the clinic schedule?",
+      "a": "clinIQ's schedule visibility shows which provider is on labor coverage and when they were last in the clinic. When a provider goes to L&D, the remaining clinic schedule can be triaged in real time: which patients can be seen by the covering provider, which appointments can be held (early cases return quickly), and which need to be rescheduled. Coverage protocols are built into the system so schedulers know the practice's cross-coverage rules without having to call the provider on the floor. This prevents the common scenario of multiple patients waiting 90+ minutes for a provider who is delivering and won't return until the afternoon."
+    },
+    {
+      "q": "Which GYN procedures require the most intensive prior authorization management?",
+      "a": "Hysterectomy (any approach) requires the most documentation — typically 3+ months of conservative management history, failed medical therapy documentation, and surgical approach justification. Laparoscopic myomectomy and endometrial ablation require similar failed-medical-management documentation. GnRH agonist and antagonist therapy for endometriosis requires diagnosis confirmation and prior NSAID/hormonal contraceptive trial. IUD insertion is typically not prior auth-required, but replacement after expulsion may trigger review. Pelvic floor reconstruction (sling, prolapse repair) requires prolapse grade documentation and symptom impact assessment."
+    },
+    {
+      "q": "Can clinIQ track ultrasound results and flag when they require follow-up?",
+      "a": "Yes. Ultrasound results are tracked through the full pipeline: ordered, scheduled, performed, read, and results communicated to patient. For anatomy scans with soft markers or findings that require follow-up (e.g., choroid plexus cysts, mild ventriculomegaly, marginal cord insertion), clinIQ flags the result as requiring genetic counseling referral or follow-up ultrasound scheduling. The follow-up action is tracked with the same status pipeline as the original scan, so nothing falls through after the initial result is reviewed."
+    },
+    {
+      "q": "How does the prenatal RTM system handle high-risk pregnancies that require more frequent monitoring?",
+      "a": "High-risk pregnancies — gestational diabetes, preeclampsia, multiple gestation, prior preterm delivery, IUGR — receive enhanced monitoring templates with more frequent check-in prompts and tighter alert thresholds. Gestational diabetes patients get glucose log tracking integrated with dietary compliance and insulin dose reporting. Women with hypertensive disorders get twice-daily BP logging with stricter alert thresholds. Multiple gestation patients get enhanced fetal movement tracking protocols. The increased monitoring activity often generates additional 98981 (additional 20-minute increment) billing, making high-risk patients the highest RTM revenue generators in the prenatal population."
     }
   ],
   "cta": {
-    "headline": "See prenatal RTM and OB scheduling",
-    "subhead": "15-minute demo. Prenatal monitoring, mixed scheduling, US coordination, postpartum care.",
+    "headline": "See prenatal RTM and OB/GYN coordination in action",
+    "subhead": "15-minute demo. Prenatal monitoring, postpartum RTM, mixed scheduling, and ultrasound coordination.",
     "primaryButton": {
       "label": "Request Demo",
       "href": "/demo"
@@ -128,19 +153,19 @@
     "stats": [
       {
         "value": "$7,800",
-        "label": "monthly prenatal RTM"
+        "label": "monthly prenatal RTM revenue"
       },
       {
         "value": "25%",
-        "label": "scheduling efficiency"
+        "label": "scheduling efficiency gain"
       },
       {
         "value": "100%",
-        "label": "postpartum connection"
+        "label": "postpartum connection maintained"
       }
     ],
     "testimonial": {
-      "quote": "We caught two cases of developing preeclampsia from home BP monitoring. Both avoided emergency interventions.",
+      "quote": "We caught two cases of developing preeclampsia from home BP monitoring before the patients were symptomatic. Both avoided emergency interventions. The RTM revenue is meaningful, but that's what sold the whole team on it.",
       "attribution": "OB/GYN Physician",
       "practice": "OB/GYN practice, 4 physicians",
       "location": "Virginia"
@@ -151,19 +176,25 @@
       "type": "blog",
       "title": "Prenatal RTM Billing: Complete Guide",
       "href": "/blog/prenatal-rtm-billing",
-      "description": "How to bill RTM throughout pregnancy and postpartum."
+      "description": "How to bill RTM throughout pregnancy and postpartum, including global OB billing compatibility and documentation requirements."
     },
     {
       "type": "blog",
       "title": "OB/GYN Scheduling: Managing Mixed Complexity",
       "href": "/blog/obgyn-scheduling-optimization",
-      "description": "Balancing prenatal visits, GYN procedures, and labor coverage."
+      "description": "Balancing prenatal visits, GYN procedures, and labor and delivery coverage in a mixed practice schedule."
     },
     {
       "type": "blog",
       "title": "Postpartum Care: Closing the 6-Week Gap",
       "href": "/blog/postpartum-rtm-monitoring",
-      "description": "Using RTM to maintain connection during the postpartum period."
+      "description": "Using RTM to maintain clinical connection during the postpartum period and detect complications before the 6-week visit."
+    },
+    {
+      "type": "blog",
+      "title": "GYN Surgical Authorization: Documentation That Wins Approvals",
+      "href": "/blog/gyn-prior-authorization-guide",
+      "description": "How to document failed conservative management for hysterectomy, myomectomy, and endometriosis treatment authorization."
     }
   ],
   "schema": {

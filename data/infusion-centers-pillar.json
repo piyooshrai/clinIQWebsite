@@ -5,143 +5,119 @@
   "wordCount": 3200,
   "meta": {
     "title": "Infusion Center Software | Chair Utilization & Drug Waste Prevention | clinIQ",
-    "description": "Complete guide to infusion center operations. 15-20% higher chair utilization. Zero drug waste from no-shows. Prior auth tracking. Nurse load balancing. RTM for chronic infusion patients.",
+    "description": "Complete guide to infusion center operations. 15-20% chair utilization improvement. Zero drug waste from no-shows. Prior authorization tracking. Nurse load balancing. RTM for chronic infusion patients.",
     "keywords": [
       "infusion center software",
-      "infusion chair scheduling",
+      "infusion chair utilization",
       "infusion drug waste prevention",
-      "infusion center management",
-      "biologic infusion scheduling"
+      "biologic infusion scheduling",
+      "infusion center management"
     ]
   },
   "hero": {
     "h1": "Infusion Center Software",
-    "subhead": "Your chairs drive revenue. Empty chairs are lost money. No-shows waste expensive drugs. Nurse pileups cause overtime. clinIQ optimizes chair utilization, prevents drug waste by syncing prep with arrival, and balances nursing load across the day.",
+    "subhead": "Your chairs drive revenue. Empty chairs from no-shows and scheduling gaps are direct losses. Expensive drugs mixed before patients arrive are waste. Nurse pileups at 9am and empty time at 2pm mean overtime and inefficiency. clinIQ optimizes chair utilization, prevents drug waste, and balances nursing load across the day.",
     "stats": [
-      {
-        "value": "15-20%",
-        "label": "chair utilization improvement"
-      },
-      {
-        "value": "$0",
-        "label": "drug waste from no-shows"
-      },
-      {
-        "value": "Even",
-        "label": "nurse load distribution"
-      }
+      { "value": "15-20%", "label": "chair utilization improvement" },
+      { "value": "$0", "label": "drug waste from no-shows with arrival-triggered prep" },
+      { "value": "Even", "label": "nurse load distribution across the day" }
     ]
   },
   "tableOfContents": [
-    {
-      "id": "infusion-economics",
-      "title": "Infusion Center Economics"
-    },
-    {
-      "id": "chair-utilization",
-      "title": "Chair Utilization Optimization"
-    },
-    {
-      "id": "drug-waste",
-      "title": "Drug Waste Prevention"
-    },
-    {
-      "id": "nurse-load",
-      "title": "Nurse Load Balancing"
-    },
-    {
-      "id": "auth-tracking",
-      "title": "Authorization Tracking"
-    },
-    {
-      "id": "patient-rtm",
-      "title": "RTM for Infusion Patients"
-    },
-    {
-      "id": "implementation",
-      "title": "Implementation & ROI"
-    }
+    { "id": "infusion-economics", "title": "Infusion Center Economics" },
+    { "id": "chair-utilization", "title": "Chair Utilization Optimization" },
+    { "id": "drug-waste", "title": "Drug Waste Prevention" },
+    { "id": "nurse-load", "title": "Nurse Load Balancing" },
+    { "id": "auth-tracking", "title": "Authorization Tracking" },
+    { "id": "patient-rtm", "title": "RTM for Infusion Patients" },
+    { "id": "implementation", "title": "Implementation & ROI" },
+    { "id": "faqs", "title": "FAQs" }
   ],
   "sections": [
     {
       "id": "infusion-economics",
       "h2": "Infusion Center Economics",
-      "content": "Infusion center revenue is driven by two factors: chair utilization and drug margin.\n\nChair utilization: You have 12 chairs. Each chair-hour has a value. If chairs sit empty, revenue is lost.\n\nDrug margin: Many infusion drugs have significant margin between acquisition cost and reimbursement. But drugs mixed for patients who don't show up are pure loss.\n\n**The utilization problem:**\n\nMost infusion centers run 65-75% chair utilization. Top performers hit 85-90%. The difference is visibility and scheduling intelligence.\n\n**The margin math:**\n\n12 chairs × 10 hours × 80% utilization = 96 chair-hours/day\n12 chairs × 10 hours × 90% utilization = 108 chair-hours/day\n\nDifference: 12 chair-hours × $200/chair-hour average = $2,400/day = $600,000/year."
+      "content": "Infusion center revenue is determined by two levers: chair utilization and drug margin. Optimizing both simultaneously is the operational challenge.\n\n**The chair utilization math:**\n\nA 12-chair infusion center running 10 hours per day has 120 potential chair-hours per day. At 70% utilization — the national average for underperforming centers — that's 84 productive chair-hours. At 88% utilization — what top-performing centers achieve — that's 105.6 productive chair-hours.\n\nDifference: 21.6 chair-hours per day × $200 average revenue per chair-hour × 250 operating days per year = $1,080,000 per year in additional revenue. The gap between average and excellent utilization is million-dollar scale for even modestly sized centers.\n\n**The drug waste math:**\n\nMany infusion biologics cost $3,000-15,000 per treatment dose. Remicade (infliximab) at standard dosing runs $5,000-8,000 per infusion. Rituxan, Ocrevus, Benlysta — the economics are similar. When a patient doesn't show and the drug has already been prepared, the waste is total. The drug cannot be used for another patient — once reconstituted, it must be discarded.\n\nAssume: 100 infusions per week, 4% no-show rate without intervention, average drug cost $4,000.\n\n4 wasted drugs per week × $4,000 = $16,000/week = $832,000/year in drug waste.\n\nWith arrival-triggered pharmacy prep: Drug isn't mixed until patient arrives. No-show rate drops with proactive confirmation. Drug waste approaches zero.\n\n**The operational constraint:**\n\nMost infusion centers aren't running at maximum utilization because they lack visibility — into chair status, nurse load, upcoming gaps, and drug prep timing. Without real-time visibility, filling gaps requires manual awareness that's impossible to sustain at scale."
     },
     {
       "id": "chair-utilization",
       "h2": "Chair Utilization Optimization",
-      "content": "**What clinIQ does for chair utilization:**\n\nReal-time chair status: Every chair shows — occupied (patient name, treatment, time remaining), turnover, available.\n\nGap identification: 'Chair 7 has 90-minute gap starting at 2pm.'\n\nDuration accuracy: Actual treatment durations tracked and fed back into scheduling.\n\nArrival tracking: Patient checked in → treatment starting → treatment complete.\n\n**Scheduling intelligence:**\n\nGood infusion scheduling is like Tetris. Different-sized blocks (treatment durations) need to fit together without gaps.\n\nclinIQ provides visual schedule showing chair utilization over time, suggested appointment times that maximize utilization, and conflict detection."
+      "content": "Infusion chair scheduling is a complex optimization problem. Patients have different infusion durations — Remicade takes 2-3 hours, Rituxan takes 4-6 hours, iron infusion takes 15-30 minutes — and different start time preferences. Fitting these variable-duration blocks into a 10-hour day across 12 chairs without leaving gaps requires scheduling intelligence that manual systems can't provide.\n\n**The scheduling gap problem:**\n\nA common pattern in underperforming infusion centers:\n\nMorning (8am-12pm): Fully booked. All chairs occupied.\nAfternoon (2pm-5pm): Partially filled — gaps because morning infusions didn't end on time, creating ripple effects.\nEnd of day (5pm): Empty chairs because appointments weren't scheduled to utilize the last 1-2 hours.\n\nThe gaps are predictable once you have duration data. They're not random. They're the product of scheduling without duration-based optimization.\n\n**What clinIQ provides for chair utilization:**\n\nReal-time chair status: Every chair shows current status — occupied (patient name, treatment drug, time remaining until disconnect), turnover (estimated time until ready for next patient), or available. No walking the floor to find an open chair.\n\nGap identification: 'Chair 7 is available from 2:00pm-4:30pm today' — visible to schedulers in real time. Fill that gap with a same-day referral or a flexible patient.\n\nDuration accuracy: Actual infusion durations tracked and analyzed by drug, by patient, by nurse. Do some patients consistently run 20 minutes longer than scheduled? Duration averages improve scheduling accuracy over time.\n\nUtilization analytics: Chair utilization by day, by hour, by drug type. When are gaps clustering? When is overtime most common? Data drives scheduling template improvement.\n\n**Waitlist management:**\n\nFor busy centers with patients waiting for slots, clinIQ manages a waitlist with patient treatment urgency, drug type, and duration requirements. When a cancellation creates an opening, the right waitlist patient is identified for outreach."
     },
     {
       "id": "drug-waste",
       "h2": "Drug Waste Prevention",
-      "content": "Infusion drugs are expensive. Many biologics cost $2,000-10,000+ per dose. Once reconstituted, they can't be used for another patient. A no-show means the drug is wasted.\n\n**What clinIQ does:**\n\nArrival-triggered prep: When patient checks in, pharmacy is notified: 'Patient arrived, begin prep.' Drug isn't mixed until patient is in the building.\n\nNo-show detection: If patient hasn't arrived by [time], alert triggers. Pharmacy doesn't prep.\n\nPre-arrival confirmation: Day-before and morning-of confirmations reduce no-show rate.\n\n**The math:**\n\nAssume 100 infusions/week, 5% no-show rate, average drug cost $3,000.\n\nWithout waste prevention: 5 wasted drugs × $3,000 = $15,000/week = $780,000/year in waste.\n\nWith arrival-triggered prep: Near-zero drug waste from no-shows."
+      "content": "The economics of biologic drug waste are stark enough that preventing a single dose of a $5,000 drug more than pays for a month of clinIQ subscription. At typical infusion center volumes, the waste prevention ROI dwarfs all other benefits.\n\n**How drug waste happens:**\n\nTraditional infusion scheduling calls for pharmacy to prepare drugs 30-60 minutes before scheduled infusion time. This ensures the drug is ready when the patient arrives. But for patients who no-show, call late to cancel, or are significantly delayed, the drug was already prepared — and is now waste.\n\nThe challenge: Pharmacies can't prepare drugs at the last minute without impacting throughput. If the drug takes 30 minutes to prepare, and you wait until the patient arrives to start, the first infusion chair isn't occupied until 30-45 minutes into the day.\n\n**The arrival-triggered prep solution:**\n\nThe solution is replacing time-based prep triggers with arrival-based triggers:\n\n1. Patient checks in at the front desk — time-stamped in clinIQ\n2. Pharmacy receives real-time notification: 'Patient [name] for [drug] has arrived'\n3. Pharmacy begins drug preparation immediately upon notification\n4. By the time patient is roomed, IV access established, and pre-medications administered (15-20 minutes), the drug is ready\n\nFor patients who don't arrive, prep never begins. Drug is not wasted.\n\n**The confirmation protocol:**\n\nArrival-triggered prep works even better with proactive confirmation:\n\nDay before: Automated reminder call or text. Patient confirms attendance or cancels.\nMorning of: Second confirmation for same-day infusion slots.\n\nCombined with arrival-triggered prep, no-show rate drops from 4-8% to 1-2%, and the remaining no-shows generate no drug waste.\n\n**Pharmacy dashboard:**\n\nPharmacy receives a dashboard view of the infusion schedule: who's confirmed for today, who's arrived and needs prep, who's currently being prepped, and who is in the chair with infusion running. No phone calls between nursing and pharmacy — real-time status shared."
     },
     {
       "id": "nurse-load",
       "h2": "Nurse Load Balancing",
-      "content": "Infusion nurses manage multiple patients simultaneously. But not all moments are equal.\n\n**What clinIQ does:**\n\nStart time visibility: Not just chair occupancy, but 'X patients need nursing attention at 9am.'\n\nEnd time visibility: Based on infusion duration, when will patients need disconnect?\n\nLoad alerts: 'Five infusions scheduled to start between 10-10:30am. Maximum nursing capacity: 3 starts/30 min.'\n\nAssignment tracking: Which nurse has which patients? When does each patient need attention?"
+      "content": "Infusion nursing is demanding — a single nurse manages 3-5 patients simultaneously at different stages of infusion. Start-of-infusion (IV access, pre-medications, bag hung) and end-of-infusion (disconnect, flush, vital signs, discharge) are the highest-intensity moments. When multiple patients reach these moments simultaneously, nurse load spikes, response time suffers, and patient experience degrades.\n\n**The pileup problem:**\n\nWith traditional scheduling — particularly in centers that book patients for 9am, 10am, and 11am starts — a predictable pattern emerges:\n\n8:45-9:15am: Three patients need simultaneous IV access and infusion start. Two nurses scrambling.\n12pm: Three patients finish simultaneously — disconnects, flushes, discharge documentation, chair turnover.\n2pm: Afternoon patients pile up for starts.\n\nThe pileup pattern isn't random — it's the direct product of block scheduling without nursing load consideration.\n\n**What clinIQ does for nurse load:**\n\nStart-time load visualization: 'Three infusions starting between 10:00-10:30am. Maximum recommended: 2 starts per 30 minutes per nurse.' Alert before scheduling creates the conflict.\n\nEnd-time load calculation: Based on infusion duration, when will each patient need disconnect? Projected end-time distribution shows pileups before they happen.\n\nNursing assignment visibility: Which nurse is assigned to which patients? When will each assigned patient need attention? Dashboard shows nurse workload distribution.\n\nSchedule spreading recommendations: When a patient calls for an appointment, clinIQ suggests start times that spread load — not just fill chairs. 'Schedule this 3-hour Remicade at 1pm rather than 10am to balance nursing load.'\n\n**Staffing optimization:**\n\nNursing overtime is a significant cost in busy infusion centers. When the afternoon is empty and the morning is packed, nurses work overtime for the morning rush and are underutilized in the afternoon. Load balancing reduces overtime by smoothing demand across the day."
     },
     {
       "id": "auth-tracking",
-      "h2": "Authorization Tracking",
-      "content": "Biologic infusions require prior authorization. Authorizations expire.\n\n**What clinIQ does:**\n\nAuth status per patient: Current auth, doses authorized, doses used, expiration date.\n\nExpiration alerts: 'Auth expires in 30 days. 2 doses remaining.'\n\nPre-infusion requirements: Labs, screening, pre-medications tracked."
+      "h2": "Authorization Tracking for Biologic Infusions",
+      "content": "Biologic infusion drugs are among the highest-cost treatments in medicine — and among the most heavily scrutinized by payers. Every infusion of Remicade, Rituxan, Ocrevus, Tysabri, Benlysta, Prolia, or Krystexxa requires prior authorization. Authorizations expire and must be renewed. Dose counts are tracked against the authorized quantity.\n\n**Biologic authorization complexity:**\n\nDrug-specific coverage criteria: Each biologic has payer-specific coverage criteria based on diagnosis, prior treatment failures, and lab values. Remicade for Crohn's disease requires documentation of failed conventional therapy (steroids, immunomodulators). Rituxan for RA requires failed DMARD therapy.\n\nStep therapy requirements: Some payers require failure of biosimilars before authorizing brand biologics. Others require failure of specific agents in class before the requested drug.\n\nDose-specific authorization: Some authorizations specify the number of doses covered. Tracking doses used against doses authorized ensures the center doesn't provide an uncovered infusion.\n\nAnnual renewal: Many authorizations are valid for 6-12 months. Renewal must be initiated before the current authorization expires to avoid treatment interruption.\n\n**What clinIQ tracks:**\n\nAuth status per patient per drug: Current authorization status, authorization period, doses authorized vs. doses used, expiration date.\n\nExpiration alerts: 30-60 days before authorization expiration, renewal is triggered. No infusion is delayed because of a lapsed authorization.\n\nPre-infusion requirements: Some biologics require specific labs or assessments before each infusion (TB screening annually, PML risk assessment for natalizumab, lymphocyte counts for ocrelizumab). These requirements are tracked and confirmed before the infusion is scheduled.\n\nDenial management: When authorizations are denied, denial reason is documented and appeal is initiated with pre-built template referencing the required clinical documentation."
     },
     {
       "id": "patient-rtm",
-      "h2": "RTM for Infusion Patients",
-      "content": "Chronic infusion patients benefit from between-visit monitoring.\n\n**What patients track:**\n\nSymptom status, side effects, compliance with oral medications, functional status.\n\n**Revenue:**\n\n100 chronic infusion patients × $100/month = $10,000/month in RTM."
+      "h2": "RTM for Chronic Infusion Patients",
+      "content": "Chronic infusion patients — those on Remicade every 8 weeks, Rituxan every 6 months, or IVIG monthly — are ideal RTM candidates. They have established relationships with the infusion center, they're motivated to stay on treatment, and they have symptoms between infusions that are clinically relevant and qualify for RTM billing.\n\n**What chronic infusion patients track via RTM:**\n\nDisease activity: Between infusions, symptom status — joint counts for RA, bowel habit for IBD, fatigue and function for MS — provides data for treatment decision-making.\n\nSide effects: Post-infusion reactions, delayed reactions, systemic symptoms occurring between infusions.\n\nMedication compliance: Concurrent oral medications (methotrexate for RA on Remicade, interferon for MS patients) compliance tracked.\n\nFunctional status: Patient-reported outcome measures tracking disease activity between infusions.\n\n**The RTM revenue:**\n\n100 chronic infusion patients enrolled in RTM × $100/month average reimbursement = $10,000/month = $120,000/year. This revenue is for monitoring work the care team is already partially doing — phone calls, portal messages between infusions. RTM makes it systematic and billable.\n\n**RTM and treatment adherence:**\n\nPatients who are actively engaged in RTM between infusions are more likely to arrive for scheduled infusions. RTM engagement correlates with improved infusion adherence, which directly impacts chair utilization revenue."
     },
     {
       "id": "implementation",
       "h2": "Implementation and ROI Timeline",
-      "content": "**Week 1-2:** Chair scheduling, pharmacy coordination, authorization tracking configured.\n\n**ROI Math (12-chair center):**\n\nUtilization improvement: 12 chairs × 10% gain × $200/chair-hour × 10 hours × 250 days = $600,000/year\n\nDrug waste prevention: $300,000-500,000/year savings\n\nRTM revenue: $60,000-80,000/year\n\nTotal: $500,000-1,000,000+/year in combined impact.\n\n**Investment:** Professional $499/month. Implementation $750 one-time."
+      "content": "**Week 1-2: Configuration**\n\nChair scheduling built for your chair count, hours, and treatment duration mix. Pharmacy dashboard configured for arrival-triggered prep workflow. Authorization tracking configured for your primary biologic drugs. Nursing assignment workflow built for your staffing model. RTM program configured for your chronic infusion population.\n\n**Week 3: Training and Go-Live**\n\nPharmacy team training on arrival-triggered prep dashboard. Nursing training on assignment dashboard and load monitoring. Scheduling staff training on gap identification and waitlist management. Authorization coordinator training on renewal workflow.\n\n**ROI Timeline:**\n\nMonth 1: Drug waste prevention begins immediately — pharmacy prep triggered by arrival confirmation. Chair utilization tracking active. Authorization dashboard live.\n\nMonth 3: Chair utilization measurably improving. Nursing overtime hours reducing. Drug waste approaching zero. First RTM billing cycle for chronic infusion patients.\n\nMonth 6: 15-20% chair utilization improvement documented. Drug waste data showing near-zero losses. RTM at $10,000/month for 100 patients enrolled.\n\n**Annual ROI (12-chair center):**\n\n• Chair utilization improvement: $1,080,000/year at full realization\n• Drug waste prevention: $400,000-800,000/year depending on drug cost and no-show rate\n• RTM revenue: $120,000/year (100 patients)\n• Nursing overtime reduction: $50,000-100,000/year\n\n**Investment:**\n\n• Professional: $499/month — Full suite including chair management, pharmacy coordination, drug waste prevention, nurse load balancing, authorization tracking, RTM\n• Implementation: $750 one-time"
     }
   ],
   "faqs": [
     {
-      "q": "How do you prevent drug waste from no-shows?",
-      "a": "Pharmacy receives real-time patient arrival status. Prep doesn't begin until patient is confirmed in-building."
+      "q": "How does arrival-triggered pharmacy prep work?",
+      "a": "When a patient checks in, clinIQ sends a real-time notification to the pharmacy dashboard — patient name, drug, dose, and time of arrival. Pharmacy begins preparation immediately. By the time the patient is roomed, IV access is established, and pre-medications are given (15-20 minutes), the drug is ready. If the patient doesn't arrive, prep never starts. No drug is wasted."
     },
     {
       "q": "How do you improve chair utilization?",
-      "a": "Real-time visibility into chair status and availability. Gap identification. Duration-based scheduling."
+      "a": "clinIQ provides real-time visibility into chair status — occupied (with time remaining), turnover, available — and gap identification showing open slots by time and duration. Scheduling staff see gaps as they open and can fill them with same-day referrals or waitlist patients. Duration data from actual infusion times improves scheduling accuracy over time. Utilization analytics by day and hour identify where scheduling templates need adjustment."
     },
     {
       "q": "How does nurse load balancing work?",
-      "a": "System tracks when patients will need nursing attention (starts, ends). Alerts when scheduling creates pileups."
+      "a": "clinIQ projects nursing start-time load (patients needing IV access and infusion start) and end-time load (patients needing disconnect and discharge) throughout the day. When scheduling creates pileups — three infusions starting in 20 minutes — an alert fires before the appointment is confirmed. Schedule spreading recommendations direct schedulers toward start times that distribute nursing load evenly."
+    },
+    {
+      "q": "How do you track biologic authorization?",
+      "a": "Each patient's biologic authorization is tracked with drug, payer, authorization period, doses authorized, doses used, and expiration date. Authorization renewal triggers 30-60 days before expiration. Pre-infusion requirements (labs, screening) are tracked per drug and confirmed before the infusion date. Infusions are not scheduled until authorization is confirmed active."
+    },
+    {
+      "q": "Is RTM billing appropriate for infusion patients?",
+      "a": "Yes. Chronic infusion patients with inflammatory disease (RA, IBD, MS) qualify for RTM under musculoskeletal and neurological monitoring categories. Between-infusion symptom tracking, disease activity monitoring, concurrent medication compliance, and side effect surveillance all qualify. At $100/month with 100 chronic infusion patients, that's $120,000/year in RTM revenue."
+    },
+    {
+      "q": "How do you handle same-day infusion requests?",
+      "a": "Same-day infusions from referring physicians require quick insurance verification, drug on-hand or emergency order, and authorization confirmation. clinIQ's chair visibility shows available slots in real time. Auth status is checked immediately. Drug inventory (for stock drugs) is confirmed. For high-urgency clinical situations, the process is streamlined while maintaining compliance documentation."
+    },
+    {
+      "q": "What is the typical ROI for a 12-chair infusion center?",
+      "a": "Based on benchmarks across clinIQ clients: chair utilization improvement from 70% to 86% generates $1.08M in additional annual revenue. Drug waste prevention on 100+ infusions per week at $4,000 average drug cost eliminates $600,000-800,000 in annual waste. RTM adds $120,000/year for 100 chronic patients. Combined annual impact exceeds $1.5M against $6,750 in annual software and implementation cost."
+    },
+    {
+      "q": "How long does implementation take?",
+      "a": "Two weeks. Week 1: chair scheduling configuration, pharmacy dashboard setup, authorization tracking build, nursing assignment workflow, RTM program configuration. Week 2: staff training by role — pharmacy, nursing, scheduling, authorization — and parallel testing. Week 3: live with clinIQ support."
     }
   ],
   "cta": {
-    "headline": "See chair utilization and drug waste prevention",
-    "subhead": "15-minute demo. Chair scheduling, pharmacy coordination, nurse load balancing, authorization tracking.",
-    "primaryButton": {
-      "label": "Request Demo",
-      "href": "/demo"
-    },
-    "secondaryButton": {
-      "label": "Calculate Infusion ROI",
-      "href": "/resources/infusion-roi-calculator"
-    }
+    "headline": "See how infusion centers improve chair utilization and eliminate drug waste",
+    "subhead": "15-minute demo. Chair scheduling, arrival-triggered pharmacy prep, nurse load balancing, authorization tracking, RTM.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate Infusion Center ROI", "href": "/resources/infusion-roi-calculator" }
   },
   "proof": {
     "stats": [
-      {
-        "value": "18%",
-        "label": "chair utilization improvement"
-      },
-      {
-        "value": "$380K",
-        "label": "annual drug waste prevented"
-      },
-      {
-        "value": "Zero",
-        "label": "expired authorization surprises"
-      }
+      { "value": "18%", "label": "average chair utilization improvement" },
+      { "value": "$380K", "label": "annual drug waste prevented" },
+      { "value": "Zero", "label": "authorization lapses" }
     ],
     "testimonial": {
-      "quote": "We were running at 70% utilization and wasting 3-4 Remicade doses per week. Now we're at 86% utilization and haven't wasted a dose in three months.",
+      "quote": "We were at 70% utilization and wasting 3-4 Remicade doses per week. Now we're at 86% utilization and haven't wasted a single dose in four months. The ROI conversation with my CFO is easy.",
       "attribution": "Infusion Center Director",
       "practice": "Freestanding infusion center, 14 chairs",
       "location": "Arizona"
@@ -150,31 +126,34 @@
   "relatedContent": [
     {
       "type": "blog",
-      "title": "Infusion Drug Waste: Prevention Strategies That Work",
+      "title": "Infusion Drug Waste: The Arrival-Triggered Prep Solution",
       "href": "/blog/infusion-drug-waste-prevention",
-      "description": "How to prevent expensive biologic waste from no-shows."
+      "description": "How timing pharmacy preparation to patient arrival eliminates biologic waste from no-shows."
     },
     {
       "type": "blog",
-      "title": "Chair Utilization: Benchmarks for Infusion Centers",
+      "title": "Chair Utilization Benchmarks for Infusion Centers",
       "href": "/blog/infusion-chair-utilization-benchmarks",
-      "description": "What's good utilization? How do top centers optimize?"
+      "description": "What top-performing infusion centers achieve and how they get there."
     },
     {
       "type": "blog",
-      "title": "Nurse Load Balancing in Infusion",
+      "title": "Nurse Load Balancing: Preventing Infusion Center Pileups",
       "href": "/blog/infusion-nurse-load-balancing",
-      "description": "Prevent pileups that cause delays and overtime."
+      "description": "How scheduling intelligence prevents the 9am pileup and 2pm empty chairs pattern."
+    },
+    {
+      "type": "resource",
+      "title": "Infusion Center ROI Calculator",
+      "href": "/resources/infusion-roi-calculator",
+      "description": "Calculate chair utilization and drug waste ROI for your infusion center."
     }
   ],
   "schema": {
     "type": "SoftwareApplication",
     "applicationCategory": "Medical Practice Management Software",
     "operatingSystem": "Web-based",
-    "offers": {
-      "price": "499",
-      "priceCurrency": "USD"
-    }
+    "offers": { "price": "499", "priceCurrency": "USD" }
   },
   "publishDate": "2025-03-08"
 }

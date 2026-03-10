@@ -2,159 +2,158 @@
   "slug": "vascular-surgery",
   "name": "Vascular Surgery",
   "pageType": "pillar",
-  "wordCount": 2600,
+  "wordCount": 3200,
   "meta": {
-    "title": "Vascular Surgery Practice Software | Wound RTM & Surgical Coordination | clinIQ",
-    "description": "Complete guide to vascular surgery practice operations. Wound and limb salvage RTM. Vascular lab coordination. Surgical authorization. Post-op surveillance.",
+    "title": "Vascular Surgery Practice Software | Wound RTM & Graft Surveillance | clinIQ",
+    "description": "Complete guide to vascular surgery practice operations. Limb salvage and wound RTM billing. Vascular lab coordination. Graft surveillance scheduling. Surgical case preparation.",
     "keywords": [
       "vascular surgery software",
-      "vascular wound RTM",
+      "vascular surgery practice management",
+      "limb salvage RTM",
       "vascular lab coordination",
-      "vascular surgery practice management"
+      "graft surveillance tracking"
     ]
   },
   "hero": {
     "h1": "Vascular Surgery Practice Software",
-    "subhead": "Your wound patients need monitoring between visits. Your vascular lab needs coordination. Your surgical authorizations need tracking. clinIQ captures vascular RTM, coordinates testing, and manages surgical workflows.",
+    "subhead": "Limb salvage patients need systematic wound and perfusion monitoring — that's billable RTM. Vascular lab studies need coordination across ABI, duplex, and CTA. Graft surveillance requires scheduled follow-up that cannot slip. clinIQ manages vascular surgery's high-stakes coordination workflow.",
     "stats": [
-      {
-        "value": "$6,500+",
-        "label": "monthly vascular RTM"
-      },
-      {
-        "value": "100%",
-        "label": "vascular lab coordination"
-      },
-      {
-        "value": "Zero",
-        "label": "surgical auth gaps"
-      }
+      { "value": "$9,100+", "label": "monthly wound and limb salvage RTM" },
+      { "value": "Zero", "label": "missed graft surveillance appointments" },
+      { "value": "90%+", "label": "first-submission authorization approval" }
     ]
   },
   "tableOfContents": [
-    {
-      "id": "vascular-challenges",
-      "title": "The Vascular Surgery Challenge"
-    },
-    {
-      "id": "wound-rtm",
-      "title": "Wound and Limb Salvage RTM"
-    },
-    {
-      "id": "vascular-lab",
-      "title": "Vascular Lab Coordination"
-    },
-    {
-      "id": "surgical-auth",
-      "title": "Surgical Authorization"
-    },
-    {
-      "id": "surveillance",
-      "title": "Post-Op Surveillance"
-    },
-    {
-      "id": "implementation",
-      "title": "Implementation & ROI"
-    }
+    { "id": "vascular-challenges", "title": "The Vascular Surgery Coordination Challenge" },
+    { "id": "wound-rtm", "title": "Wound & Limb Salvage RTM" },
+    { "id": "vascular-lab", "title": "Vascular Lab Coordination" },
+    { "id": "graft-surveillance", "title": "Graft Surveillance" },
+    { "id": "surgical-prep", "title": "Surgical Case Preparation" },
+    { "id": "prior-auth", "title": "Prior Authorization" },
+    { "id": "implementation", "title": "Implementation & ROI" },
+    { "id": "faqs", "title": "FAQs" }
   ],
   "sections": [
     {
       "id": "vascular-challenges",
-      "h2": "The Vascular Surgery Challenge",
-      "content": "Vascular surgery practices manage chronic wound patients, coordinate extensive non-invasive testing, and perform complex surgical procedures.\n\n**The wound monitoring opportunity:**\n\nPAD patients with wounds need between-visit monitoring. Wound progression, pain, infection signs — this monitoring qualifies for RTM.\n\n50 wound patients × $130/month = $6,500/month in RTM."
+      "h2": "The Vascular Surgery Coordination Challenge",
+      "content": "Vascular surgery manages one of medicine's most complex patient populations — diabetic patients with peripheral arterial disease and wounds, patients with graft history requiring lifelong surveillance, and high-risk surgical candidates requiring extensive pre-operative workup. The operational complexity is proportional to the clinical stakes.\n\nThe average vascular surgery practice faces:\n\n• Limb salvage patients requiring wound monitoring between clinic visits — typically weekly for active wounds, monthly for healed patients on maintenance surveillance\n• Vascular laboratory studies (ABI, TBI, duplex ultrasound, CTA) requiring scheduling coordination across imaging, cardiology, and clinic\n• Graft surveillance protocols with lifelong mandatory intervals — 1 month, 3 months, 6 months, then annually — that cannot slip without increasing occlusion risk\n• High-acuity surgical cases requiring extensive pre-operative cardiac and pulmonary clearance\n• Prior authorization for endovascular procedures, complex bypasses, and advanced wound care products\n\nVascular surgery's operational failures are specific: wounds that deteriorate between visits because monitoring isn't systematic, grafts that occlude because surveillance missed a 6-month duplex, and surgical cases delayed because cardiac clearance wasn't tracked. clinIQ addresses each of these failure modes directly."
     },
     {
       "id": "wound-rtm",
-      "h2": "Wound and Limb Salvage RTM",
-      "content": "Vascular wound patients benefit from systematic monitoring.\n\n**What patients track:**\n- Wound appearance and drainage\n- Pain levels (rest pain, claudication distance)\n- Signs of infection\n- Compliance with offloading\n\n**What clinIQ does:**\n\nPhoto submission: Wound photos for remote assessment.\n\nPain tracking: Claudication distance, rest pain monitoring.\n\nAlert thresholds: Wound worsening, increasing pain → alerts."
+      "h2": "Wound and Limb Salvage RTM Billing",
+      "content": "Vascular surgery's wound and limb salvage patients are among the highest-acuity RTM candidates in medicine. Diabetic foot ulcers, ischemic wounds, and post-revascularization wounds all require systematic monitoring between clinic visits. That monitoring qualifies for RTM billing.\n\n**What limb salvage RTM monitoring captures:**\n\n• Wound appearance: Size changes, color, exudate, odor, surrounding skin changes\n• Pain levels: Rest pain, claudication distance, wound pain severity\n• Perfusion signs: Dependent rubor, capillary refill, patient-assessed Doppler tone\n• Dressing changes: Frequency, wound bed response, patient compliance with wound care instructions\n• Activity and offloading: Offloading device compliance, weight-bearing modification\n• Systemic factors: Glucose logging for diabetic patients, bilateral edema assessment\n\n**RTM for post-procedural monitoring:**\n\nAfter bypass or endovascular revascularization, RTM captures symptom improvement tracking — claudication distance improvement, rest pain resolution, wound healing response to improved perfusion. Complication monitoring includes hematoma formation, wound site assessment, graft site changes. Medication compliance tracking covers antiplatelet therapy, anticoagulation, and statin adherence.\n\n**The billing math:**\n\n70 active wound and post-revascularization patients × $130/month = $9,100/month. Annual: $109,200. For practices managing large limb salvage programs, enrollment can exceed 100 patients, scaling proportionally.\n\n**Patient engagement:**\n\nLimb salvage patients understand the stakes — they've been told amputation is a possibility. Patients who grasp this are highly engaged with RTM tracking. Enrollment rates above 85% are typical for active wound patients.\n\n**Related: [Vascular Surgery RTM: Limb Salvage and Wound Monitoring Revenue](/blog/vascular-rtm-limb-salvage)**"
     },
     {
       "id": "vascular-lab",
       "h2": "Vascular Lab Coordination",
-      "content": "Arterial and venous testing is core to vascular surgery.\n\n**Tests tracked:**\n- ABI/TBI\n- Arterial duplex\n- Venous duplex\n- CTA/MRA coordination\n\n**What clinIQ does:**\n\nTest pipeline: Ordered → scheduled → completed → read → available.\n\nPre-visit completion: Testing done before surgical consultation."
+      "content": "Vascular surgery practice operates in close coordination with the vascular laboratory — the diagnostic backbone of peripheral arterial, venous, and surveillance evaluation. Coordinating vascular lab studies with clinic visits, surgical planning, and surveillance protocols is an operational challenge most practices manage manually.\n\n**Vascular lab studies requiring coordination:**\n\nAnkle-Brachial Index (ABI): Resting and post-exercise. Ordered for new PAD evaluation, post-revascularization assessment, and surveillance. Results must be available at the clinic visit that follows — not three days later.\n\nToe-Brachial Index (TBI): For diabetic patients where vessel calcification makes ABI unreliable. Specific positioning and protocol requirements.\n\nDuplex Ultrasound: Arterial (carotid, lower extremity bypass graft, renal, mesenteric) and venous (DVT, insufficiency mapping for bypass planning). Each study type has specific positioning and protocol requirements that must be communicated to the lab.\n\nCT Angiography: For pre-operative planning, evaluation of aneurysm, and surveillance of endovascular repairs. Requires IV contrast and specific reconstruction protocols — requires radiology coordination.\n\nMR Angiography: For patients with contrast allergy or renal insufficiency. Specific protocol coordination with radiology.\n\n**What clinIQ coordinates:**\n\nStudy ordering: Ordered studies tracked against clinic visit schedule — study before clinic ensures results available for decision-making. Order-to-result tracking: Study ordered, study scheduled, study completed, result reviewed by surgeon — each step tracked.\n\nSurveillance-linked scheduling: When surveillance duplex is ordered for a bypass graft at the 6-month mark, it's linked to the patient's surveillance protocol — automatically triggered at the correct interval. Results integration: Results reviewed with clinical action documented — 'Graft duplex showing elevated velocity at proximal anastomosis — CTA ordered, revision planning initiated.'"
     },
     {
-      "id": "surgical-auth",
-      "h2": "Surgical Authorization",
-      "content": "Vascular procedures require authorization.\n\n**What clinIQ does:**\n\nAuth tracking: Status per patient per procedure.\n\nMedical necessity: Prior testing, conservative treatment documented.\n\nPre-op coordination: Cardiac clearance, labs, imaging."
+      "id": "graft-surveillance",
+      "h2": "Graft Surveillance Management",
+      "content": "Graft patency depends on surveillance. A bypass graft that develops a flow-limiting stenosis before it occludes can be revised — but the window for intervention is narrow and requires scheduled surveillance to identify it. Missing a surveillance interval is a clinical quality failure with real consequences.\n\n**Standard graft surveillance protocols:**\n\nArterial bypass graft (fem-pop, fem-tibial, aortobifemoral): Duplex at 1 month, 3 months, 6 months, 12 months, then annually. Any abnormality triggers more frequent surveillance.\n\nEndovascular repair (EVAR, TEVAR, iliac stent): CTA at 1 month, 12 months, then annually. Surveillance detects endoleak, sac expansion, device migration.\n\nCarotid endarterectomy: Duplex at 1 month, 12 months, then periodically based on contralateral disease severity.\n\nArteriovenous fistula (dialysis access): Monthly duplex through maturation, then quarterly for established access to monitor flow volumes and access pressures.\n\n**What happens without systematic surveillance:**\n\nGraft surveillance managed by patient recall letters and phone calls depends on patients self-scheduling. Patients with multiple comorbidities, limited health literacy, or transportation challenges miss surveillance. The practice doesn't know until the patient presents with an occluded graft or expanding aneurysm.\n\n**What clinIQ does:**\n\nSurveillance protocol assignment: Every patient who undergoes a graft procedure gets a surveillance protocol assigned at discharge with specific interval dates pre-populated.\n\nOutreach automation: 30 days before each surveillance due date, patient outreach initiated. If appointment not scheduled within 2 weeks, escalation to coordinator. Overdue surveillance dashboard: Patients past-due visible with days overdue and responsible surgeon. Results documentation: Each surveillance result documented with action — stable, revision needed, protocol modified."
     },
     {
-      "id": "surveillance",
-      "h2": "Post-Op Surveillance",
-      "content": "Bypass grafts and stents require surveillance.\n\n**What clinIQ does:**\n\nSurveillance schedule: Duplex intervals based on procedure.\n\nDue date tracking: Surveillance due, not scheduled → alert.\n\nGraft/stent registry: All interventions tracked with surveillance status."
+      "id": "surgical-prep",
+      "h2": "Surgical Case Preparation",
+      "content": "Vascular surgery patients are among the highest surgical risk patients in medicine — typically older, with significant cardiac disease, diabetes, hypertension, and renal insufficiency. Pre-operative preparation requires extensive coordination across multiple specialties before OR scheduling can proceed.\n\n**Standard vascular surgery pre-operative workup:**\n\nCardiac clearance: Most vascular patients require cardiac evaluation before major procedures. This may involve stress testing (nuclear, echo, or exercise), cardiology consultation, and cardiac catheterization for high-risk patients. Each step requires coordination and results must be received before OR scheduling.\n\nPulmonary evaluation: For thoracic aortic procedures and high-risk abdominal cases, pulmonary function testing and pulmonary medicine consultation before anesthesia clearance.\n\nRenal function: Baseline creatinine, GFR assessment, and nephrology consultation for patients with significant CKD before contrast-requiring procedures.\n\nHematology and anticoagulation: Bridging anticoagulation management, platelet function assessment for anti-platelet agents, coagulation studies baseline.\n\nImaging review: CTA or MRA for operative planning — reviewed and reconstructed before OR scheduling with adequate lead time.\n\n**What clinIQ tracks:**\n\nPre-op checklist: Every required workup step with completion status and responsible party. Cardiology cleared, stress test resulted, nephrology consulted — all visible without manual tracking. Bottleneck identification: Surgical case on the schedule but cardiac clearance outstanding 10 days before surgery → urgent flag for coordinator action.\n\n**Implant and equipment coordination:**\n\nEndovascular cases require precise implant sizing from CTA measurements. Device representative scheduling for stent graft delivery. Specific fluoroscopy and imaging overlay setup. Confirmed pre-case with OR scheduler and rep."
+    },
+    {
+      "id": "prior-auth",
+      "h2": "Prior Authorization for Vascular Procedures",
+      "content": "Vascular surgery procedures carry high authorization requirements — particularly endovascular approaches, which payers scrutinize carefully, and advanced wound care products, which require extensive documentation.\n\n**Common vascular authorization challenges:**\n\nEndovascular vs. open: Payers may require documentation that endovascular is medically appropriate — patient comorbidities preclude open surgery, or lesion anatomy favors endovascular. LOMN must specifically address why the endovascular approach is medically necessary for this patient, referencing hemodynamic data and imaging.\n\nAdvanced wound care products: Bioengineered tissue substitutes, collagen matrices, and silver-impregnated dressings require authorization with wound documentation — size, depth, duration, prior treatment failure over defined period.\n\nHyperbaric oxygen therapy: HBO authorization requires documentation of wound type, vascular status, failed standard wound care interventions, and HBOT-specific indications. Treatment series must be authorized before initiation.\n\nCritical limb ischemia procedures: Atherectomy, angioplasty, and stenting for CLI require documentation of hemodynamic failure (ABI <0.4, TBI <0.25, absent Doppler signals at ankle) and failed conservative management.\n\n**What clinIQ tracks:**\n\nAuthorization status: Every pending auth visible — payer, procedure, submission date, status, expected decision date. Wound measurement history: Automated wound measurement trending used directly in authorization submissions and appeals. Hemodynamic data: ABI and TBI trends supporting medical necessity documentation referenced in LOMN. Prior treatment log: Conservative wound care, medication trials, prior procedures automatically available for LOMN generation.\n\n**LOMN templates:**\n\nclinIQ includes LOMN templates for lower extremity revascularization (bypass and endovascular), carotid endarterectomy and stenting, EVAR and TEVAR, and advanced wound care products."
     },
     {
       "id": "implementation",
       "h2": "Implementation and ROI Timeline",
-      "content": "**Week 1-2:** Wound RTM, vascular lab coordination, surgical tracking configured.\n\n**ROI:** RTM revenue $78,000/year. Better surgical coordination. Surveillance compliance.\n\n**Investment:** Professional $499/month. Implementation $750 one-time."
+      "content": "**Week 1-2: Configuration**\n\nWound and limb salvage RTM program configured for your patient population. Graft surveillance protocols built for each procedure type in your practice. Vascular lab coordination workflow established. Pre-operative checklist built to your facility and workflow.\n\n**Week 3: Training and Go-Live**\n\nNurse and coordinator training on wound RTM enrollment and monitoring. Scheduling staff training on surveillance protocol management. Surgeon dashboard configured for authorization and case pipeline visibility.\n\n**ROI Timeline:**\n\nMonth 1: Wound RTM enrollment begins. Graft surveillance tracking active — no more missed intervals. First RTM billing cycle initiated.\n\nMonth 3: 60+ wound and post-revascularization patients enrolled in RTM. Surveillance overdue dashboard driving proactive outreach. First full RTM billing quarter generating $27,000+.\n\nMonth 6: Steady-state RTM at $9,100+/month. Zero missed graft surveillance intervals documented. Authorization approval rate improvement measurable.\n\n**Annual ROI:**\n\n• Wound and limb salvage RTM: $109,200/year\n• Prevented graft occlusions through systematic surveillance: Incalculable clinical value\n• Authorization denial reduction: $20,000-50,000/year depending on procedure volume\n\n**Investment:**\n\n• Professional: $499/month — Full suite including RTM, graft surveillance, vascular lab coordination, pre-op checklist, LOMN generation\n• Implementation: $750 one-time"
     }
   ],
   "faqs": [
     {
-      "q": "Is vascular wound RTM billable?",
-      "a": "Yes. Wound monitoring qualifies for RTM codes."
+      "q": "What wound conditions qualify for RTM billing?",
+      "a": "Chronic wounds of vascular etiology — diabetic foot ulcers, venous stasis ulcers, ischemic wounds, post-revascularization wound monitoring — all qualify for RTM under musculoskeletal and wound care monitoring categories. clinIQ captures wound appearance, pain, dressing compliance, and perfusion signs through structured patient-facing prompts that meet RTM documentation requirements."
     },
     {
-      "q": "How do you track graft surveillance?",
-      "a": "Surveillance schedule per procedure. Due dates tracked. Alerts for overdue surveillance."
+      "q": "How do graft surveillance protocols work in clinIQ?",
+      "a": "Each surgical procedure triggers a surveillance protocol with pre-defined intervals. Upcoming surveillance appointments generate patient outreach 30 days in advance. Overdue surveillance appears on a coordinator dashboard with days overdue and responsible surgeon. Results are documented with action taken. No graft surveillance is missed passively — every overdue patient surfaces automatically."
+    },
+    {
+      "q": "Can we coordinate with our vascular lab through clinIQ?",
+      "a": "Yes. Ordered vascular lab studies are tracked from order through result with completion status. Surveillance-linked studies trigger automatically at protocol-defined intervals. Study results are documented within the patient vascular record with clinical response documented. The system ensures study scheduling aligns with clinic visits so results are available for decision-making."
+    },
+    {
+      "q": "How does LOMN generation work for endovascular cases?",
+      "a": "clinIQ includes LOMN templates for lower extremity bypass and endovascular, carotid endarterectomy and stenting, EVAR, and TEVAR. Templates auto-populate from patient hemodynamic data (ABI, TBI), imaging findings, comorbidities, and conservative treatment history. Surgeon reviews, edits case-specific details, signs. Reduces LOMN time from 45 minutes to approximately 5 minutes."
+    },
+    {
+      "q": "How do you handle wound care product authorization?",
+      "a": "Bioengineered tissue and advanced wound care product authorization requires documented wound measurements over time, prior product failures, and vascular status. clinIQ maintains wound measurement history automatically for use in authorization submissions. Prior product use is tracked with dates and outcomes and referenced in LOMN templates."
+    },
+    {
+      "q": "What pre-op clearance steps are tracked?",
+      "a": "The pre-operative checklist tracks cardiology consultation and stress test results, pulmonary evaluation, renal function assessment, anticoagulation management plan, imaging review and reconstruction, implant sizing confirmation, and consent completion. Cases stalled at specific clearance steps flag automatically — before the gap becomes a day-of-surgery crisis."
+    },
+    {
+      "q": "Is hyperbaric oxygen therapy coordination supported?",
+      "a": "Yes. HBO therapy requires separate authorization with specific documentation requirements — wound type, HBOT indications met, failed standard wound care. clinIQ tracks HBO authorization status, treatment series coordination, and wound response documentation. Treatment count tracking ensures authorization limits are not exceeded."
+    },
+    {
+      "q": "How long until we see RTM revenue?",
+      "a": "Wound and limb salvage patients are among the most compliant RTM populations — they understand what's at stake. First billing cycle at 30 days after enrollment. By month 3 with 50+ enrolled patients, monthly RTM revenue reaches $6,500-7,500. Full enrollment typically achieved by month 4-5, reaching $9,100+/month steady state."
     }
   ],
   "cta": {
-    "headline": "See vascular RTM and surgical coordination",
-    "subhead": "15-minute demo. Wound RTM, vascular lab coordination, surgical authorization, surveillance.",
-    "primaryButton": {
-      "label": "Request Demo",
-      "href": "/demo"
-    },
-    "secondaryButton": {
-      "label": "Calculate Vascular RTM",
-      "href": "/resources/rtm-calculator"
-    }
+    "headline": "See how vascular surgery practices capture wound RTM and eliminate missed graft surveillance",
+    "subhead": "15-minute demo. Wound and limb salvage RTM, graft surveillance tracking, vascular lab coordination, pre-op clearance management.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "See Graft Surveillance Workflow", "href": "/resources/graft-surveillance" }
   },
   "proof": {
     "stats": [
-      {
-        "value": "$78K",
-        "label": "annual wound RTM"
-      },
-      {
-        "value": "100%",
-        "label": "surveillance compliance"
-      },
-      {
-        "value": "Zero",
-        "label": "auth gaps"
-      }
+      { "value": "$109K", "label": "annual wound RTM revenue" },
+      { "value": "Zero", "label": "missed graft surveillance intervals" },
+      { "value": "90%+", "label": "first-submission auth approval" }
     ],
     "testimonial": {
-      "quote": "Wound photos between visits let us catch deterioration early. Limb salvage rates improved.",
-      "attribution": "Vascular Surgeon",
-      "practice": "Vascular surgery practice, 3 surgeons",
+      "quote": "We had a graft surveillance tracking problem we didn't recognize until clinIQ showed us how many patients were overdue. The RTM revenue was a bonus we didn't anticipate.",
+      "attribution": "Vascular Surgery Coordinator",
+      "practice": "Vascular Surgery practice, 3 surgeons",
       "location": "Tennessee"
     }
   },
   "relatedContent": [
     {
       "type": "blog",
-      "title": "Vascular Wound RTM: Limb Salvage Monitoring",
-      "href": "/blog/vascular-wound-rtm",
-      "description": "Using RTM for PAD wound monitoring."
+      "title": "Vascular Surgery RTM: Limb Salvage and Wound Monitoring Revenue",
+      "href": "/blog/vascular-rtm-limb-salvage",
+      "description": "How to capture RTM billing for diabetic foot wounds, ischemic ulcers, and post-revascularization patients."
     },
     {
       "type": "blog",
-      "title": "Vascular Lab Coordination",
-      "href": "/blog/vascular-lab-coordination",
-      "description": "Coordinating non-invasive vascular testing."
+      "title": "Graft Surveillance: Preventing Occlusion Through Systematic Follow-Up",
+      "href": "/blog/graft-surveillance-tracking",
+      "description": "Standard surveillance intervals and the operational systems that ensure compliance."
+    },
+    {
+      "type": "blog",
+      "title": "Vascular Surgery Prior Auth: Endovascular vs. Open Documentation",
+      "href": "/blog/vascular-prior-auth",
+      "description": "What payers require to authorize endovascular approaches and complex revascularization."
+    },
+    {
+      "type": "resource",
+      "title": "Wound RTM Revenue Calculator",
+      "href": "/resources/rtm-calculator",
+      "description": "Calculate RTM revenue potential for your wound and limb salvage patient panel."
     }
   ],
   "schema": {
     "type": "SoftwareApplication",
     "applicationCategory": "Medical Practice Management Software",
     "operatingSystem": "Web-based",
-    "offers": {
-      "price": "499",
-      "priceCurrency": "USD"
-    }
+    "offers": { "price": "499", "priceCurrency": "USD" }
   },
-  "publishDate": "2026-01-01"
+  "publishDate": "2025-12-07"
 }

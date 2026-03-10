@@ -2,145 +2,122 @@
   "slug": "oncology",
   "name": "Oncology",
   "pageType": "pillar",
-  "wordCount": 3000,
+  "wordCount": 3200,
   "meta": {
-    "title": "Oncology Practice Software | Symptom RTM & Treatment Coordination | clinIQ",
-    "description": "Complete guide to oncology practice operations. $10,400/month in oncology RTM. Treatment toxicity monitoring. Infusion chair optimization. Clinical trial eligibility tracking.",
+    "title": "Oncology Practice Software | Symptom RTM & Infusion Coordination | clinIQ",
+    "description": "Complete guide to oncology practice operations. $124K annual symptom RTM. Toxicity monitoring that prevents hospitalizations. Infusion suite optimization. Prior auth for oncology drugs.",
     "keywords": [
       "oncology practice software",
       "oncology RTM billing",
       "chemotherapy symptom monitoring",
       "oncology practice management",
-      "infusion chair scheduling"
+      "cancer patient monitoring"
     ]
   },
   "hero": {
     "h1": "Oncology Practice Software",
-    "subhead": "Your cancer patients report symptoms between treatments — that's billable RTM. Your infusion suite needs optimization. Your treatment toxicities need monitoring. clinIQ captures oncology RTM revenue, optimizes infusion operations, and monitors treatment response.",
+    "subhead": "Cancer patients report symptoms between treatments — fatigue, nausea, fever, neuropathy — that information guides treatment and qualifies for RTM billing. Early toxicity detection prevents hospitalizations. Infusion suite efficiency determines practice capacity. clinIQ captures oncology RTM revenue and manages the operational complexity of cancer care.",
     "stats": [
-      {
-        "value": "$10,400+",
-        "label": "monthly oncology RTM"
-      },
-      {
-        "value": "20%",
-        "label": "infusion efficiency improvement"
-      },
-      {
-        "value": "100%",
-        "label": "toxicity visibility"
-      }
+      { "value": "$10,400+", "label": "monthly oncology RTM revenue (80 patients)" },
+      { "value": "Zero", "label": "missed urgent toxicity alerts" },
+      { "value": "20%", "label": "infusion suite efficiency improvement" }
     ]
   },
   "tableOfContents": [
-    {
-      "id": "onc-challenges",
-      "title": "The Oncology Practice Challenge"
-    },
-    {
-      "id": "oncology-rtm",
-      "title": "Oncology RTM Billing"
-    },
-    {
-      "id": "toxicity-monitoring",
-      "title": "Toxicity Monitoring"
-    },
-    {
-      "id": "infusion-optimization",
-      "title": "Infusion Suite Optimization"
-    },
-    {
-      "id": "treatment-coordination",
-      "title": "Treatment Coordination"
-    },
-    {
-      "id": "implementation",
-      "title": "Implementation & ROI"
-    },
-    {
-      "id": "faqs",
-      "title": "FAQs"
-    }
+    { "id": "onc-challenges", "title": "The Oncology Practice Challenge" },
+    { "id": "oncology-rtm", "title": "Oncology RTM Billing" },
+    { "id": "toxicity-monitoring", "title": "Toxicity Monitoring" },
+    { "id": "infusion-optimization", "title": "Infusion Suite Optimization" },
+    { "id": "treatment-coordination", "title": "Treatment Coordination" },
+    { "id": "prior-auth", "title": "Prior Authorization" },
+    { "id": "implementation", "title": "Implementation & ROI" },
+    { "id": "faqs", "title": "FAQs" }
   ],
   "sections": [
     {
       "id": "onc-challenges",
       "h2": "The Oncology Practice Challenge",
-      "content": "Oncology practices manage life-threatening disease while coordinating complex treatment regimens.\n\n**The symptom monitoring opportunity:**\n\nCancer patients experience symptoms between treatments: fatigue, nausea, pain, neuropathy, fever. This information guides treatment decisions — dose modifications, supportive care, hospitalization avoidance.\n\n80 active treatment patients × $130/month = $10,400/month = $124,800/year in RTM.\n\n**The toxicity detection problem:**\n\nChemotherapy and immunotherapy toxicities can be life-threatening. Febrile neutropenia, severe nausea, immune-related adverse events — early detection prevents hospitalizations and improves outcomes.\n\n**The infusion suite economics:**\n\nOncology infusion is high-revenue. Chair utilization drives volume. Empty chairs and inefficient turnover waste capacity.\n\n**The coordination complexity:**\n\nTreatment regimens involve multiple drugs, specific sequences, varying cycle lengths, and required labs before each treatment. Without systems, coordination is overwhelming."
+      "content": "Oncology practices carry a unique burden: they manage life-threatening disease with treatments that are themselves toxic, coordinate care across multiple specialties simultaneously, and do all of this while managing infusion suites, drug authorizations, and clinical protocols that would overwhelm most other specialties.\n\nThe operational complexity of community oncology specifically:\n\n• 80-120 active treatment patients generating symptoms, toxicities, and clinical questions between scheduled visits — currently managed through phone calls, portal messages, and triage that isn't billed\n• Infusion schedules where treatment duration varies from 30 minutes to 8+ hours, pre-medications vary by drug and patient, and prior authorizations expire and must be renewed\n• Prior authorization for expensive oncology drugs (often $5,000-50,000 per cycle) requires detailed clinical documentation — diagnosis, line of therapy, performance status, genetic markers\n• Treatment toxicities that require early detection — febrile neutropenia, severe nausea, immune-related adverse events — to prevent hospitalizations that are devastating for patients and costly for the system\n\nThe symptom monitoring oncology patients already receive through phone triage and portal messages is clinically valuable but administratively invisible. RTM makes it systematic and billable — $130/patient/month for the monitoring your team is already doing.\n\n80 active treatment patients × $130/month = $10,400/month = $124,800/year."
     },
     {
       "id": "oncology-rtm",
       "h2": "Oncology RTM Billing: $130/Patient/Month",
-      "content": "Oncology patients benefit enormously from between-visit monitoring. RTM captures this revenue.\n\n**What oncology patients track:**\n\nSymptoms:\n- Fatigue (severity, impact on function)\n- Nausea and vomiting\n- Pain (location, severity, medication use)\n- Neuropathy (numbness, tingling)\n- Appetite and weight\n- Temperature (fever detection)\n\nTreatment side effects:\n- Mouth sores\n- Diarrhea or constipation\n- Skin changes\n- Cognitive changes (chemo brain)\n\nFunctional status:\n- Activity level\n- Work/social participation\n- Quality of life\n\n**The CPT codes:**\n\n98975: RTM setup — one-time. ~$20-25.\n98977: RTM device supply. ~$50-60/month.\n98980: RTM treatment management — first 20 minutes. ~$50-70/month.\n98981: Additional 20-minute increments.\n\n**What clinIQ does for oncology RTM:**\n\nOncology-specific templates: Symptoms relevant to cancer treatment.\n\nUrgent symptom detection: Fever >100.4? Severe nausea? Significant new symptoms? Immediate alerts.\n\nTrend tracking: Symptoms over treatment cycles. Response patterns visible.\n\nPre-treatment assessment: Symptom status before each infusion visit. Adjust treatment if needed."
+      "content": "Cancer patients on active treatment are among the most appropriate RTM candidates in medicine. They experience significant symptoms between treatments, those symptoms directly inform clinical decisions (dose modifications, supportive care additions, treatment holds), and they're highly motivated to communicate.\n\n**What oncology patients track via RTM:**\n\nSymptom burden: Fatigue severity (interfering with ADLs? Bedbound?), nausea and vomiting (controlled on antiemetics? Requiring IV hydration?), pain (location, severity, medication use, uncontrolled pain), oral intake (adequate? Weight loss?), diarrhea (frequency, character, CTCAE grade).\n\nToxicity-specific monitoring: Neuropathy (numbness, tingling location and severity), hand-foot syndrome (skin changes, severity), cognitive changes (chemo brain — memory, concentration, processing speed).\n\nFever monitoring: Temperature daily or with symptoms. Fever above 100.4°F in a neutropenic patient is an oncologic emergency. RTM catches this before the patient delays calling out of fear or denial.\n\nFunctional status: ECOG or KPS-referenced functional status between visits — informing whether the patient can continue on current treatment schedule.\n\n**Who qualifies for oncology RTM:**\n\nPatients on chemotherapy, immunotherapy, targeted therapy, or hormone therapy with monitoring-qualifying conditions. This includes adjuvant treatment patients who aren't actively symptomatic — symptom surveillance between cycles still qualifies.\n\nOral oncolytic patients: Patients on capecitabine, lenalidomide, ibrutinib, osimertinib, and other oral targeted agents benefit from between-visit monitoring for toxicity and compliance. RTM for oral oncolytic patients is a particularly strong use case — there's no infusion visit to catch problems.\n\n**The CPT codes:**\n\n• 98975: RTM device supply and setup (one-time per episode)\n• 98977: Monthly device supply with scheduled recordings\n• 98980: Treatment management services, first 20 minutes\n• 98981: Each additional 20 minutes for complex patients\n\n**Urgent symptom escalation:**\n\nFever >100.4°F: Immediate alert. Potential febrile neutropenia — requires same-day CBC and evaluation. Severe nausea or vomiting: Grade 3-4 alert — IV hydration assessment needed. New severe pain: Oncologic emergency exclusion required. New neurological symptoms: Cord compression, brain metastasis, leptomeningeal disease alert.\n\n**Related: [Oncology RTM: Billing Symptom Monitoring During Cancer Treatment](/blog/oncology-rtm-billing)**"
     },
     {
       "id": "toxicity-monitoring",
       "h2": "Toxicity Monitoring",
-      "content": "Chemotherapy and immunotherapy toxicities require prompt detection.\n\n**Critical toxicities to detect:**\n\nFebrile neutropenia: Fever + neutropenia = emergency. Early detection saves lives.\n\nSevere nausea/vomiting: Grade 3-4 requires intervention, possible IV hydration.\n\nImmune-related adverse events (irAEs): Colitis, hepatitis, pneumonitis — can be life-threatening if missed.\n\nNeuropathy: Grade progression may require dose modification.\n\n**What clinIQ does:**\n\nAlert thresholds: Temperature >100.4°F → immediate alert. Severe nausea → same-day contact. New neurological symptoms → urgent review.\n\nGrading assistance: CTCAE-aligned symptom grading to standardize assessment.\n\nTrend detection: Toxicity worsening over cycles → flag for dose modification discussion.\n\nHospitalization prevention: Early intervention on grade 2 symptoms prevents grade 3-4 and hospitalization."
+      "content": "Chemotherapy and immunotherapy toxicities are the most dangerous side effects of cancer treatment. The difference between a grade 2 toxicity caught and managed and a grade 4 toxicity that results in hospitalization is often early detection. That early detection requires systematic between-visit monitoring — exactly what RTM provides.\n\n**Critical toxicities by treatment type:**\n\nChemotherapy toxicities:\n\nFebrile neutropenia: Fever plus neutropenia is an oncologic emergency with 10-20% mortality risk if untreated. Most commonly occurs 7-14 days after chemotherapy. RTM temperature monitoring during this nadir window catches fever at the earliest moment. A patient who feels 'a little off' and submits a temperature of 100.6°F gets immediate contact — before they decide to 'wait and see.'\n\nSevere nausea and vomiting: Antiemetic regimens prevent most treatment-related nausea, but breakthrough nausea leading to inadequate oral intake and dehydration requires early intervention. A patient reporting inability to keep liquids down for 24 hours needs IV hydration today, not a scheduled appointment next week.\n\nNeuropathy progression: Taxane and platinum-based neuropathy can be irreversible if dose modification doesn't occur at the right grade. Weekly neuropathy scoring tracks severity — grade 2 sensory neuropathy triggering a dose reduction conversation before it progresses to grade 3.\n\nImmunotherapy toxicities (immune-related adverse events — irAEs):\n\nCheckpoint inhibitor toxicities are unpredictable in timing and organ involvement. Colitis: diarrhea frequency and character, abdominal pain. Hepatitis: jaundice, abdominal pain. Pneumonitis: new dyspnea, cough, decreased exercise tolerance. Endocrinopathy: fatigue, weight changes, palpitations. Any irAE can be life-threatening if not detected and treated promptly with steroids.\n\n**What clinIQ tracks:**\n\nCTCAE-aligned grading: Symptom severity categorized by CTCAE grade — standardizes assessment across providers. Trend detection: Toxicity worsening over cycles triggers flag. Alert escalation: Urgent alerts for fever, severe toxicities, and new concerning symptoms route to triage staff immediately. Hospitalization prevention: Documented early interventions on grade 2 toxicities that prevented grade 4 escalation and hospitalization."
     },
     {
       "id": "infusion-optimization",
       "h2": "Infusion Suite Optimization",
-      "content": "Oncology infusion economics parallel other infusion settings but with higher complexity.\n\n**Treatment duration variation:**\n\nChemotherapy regimens vary from 30 minutes to 8+ hours. Immunotherapy varies from 30 minutes to 3 hours. Pre-medications add time. Reaction monitoring adds time.\n\n**What clinIQ does:**\n\nChair scheduling: Treatment duration matched to chair availability. Regimen-specific time estimates.\n\nPre-treatment verification: Labs, symptoms, auth — verified before scheduling infusion.\n\nRoom/chair visibility: Status of each chair. Turnover tracking. Bottleneck identification.\n\nReaction readiness: High-risk infusions flagged for monitoring preparation."
+      "content": "The oncology infusion suite is the revenue engine of the community oncology practice. Chair utilization, drug waste, nurse load, and scheduling efficiency all directly affect practice revenue. The principles of infusion optimization apply in oncology with additional complexity — highly variable treatment durations, frequent pre-medications, reaction monitoring requirements, and drug sequencing protocols.\n\n**Oncology infusion complexity:**\n\nTreatment duration variability: Docetaxel 75mg/m² runs 1 hour. FOLFOX runs 46 hours via take-home pump. R-CHOP runs 4-6 hours with rituximab pre-medications. These variable durations make chair scheduling a complex optimization problem.\n\nPre-medication requirements: Many chemotherapy regimens require pre-medications — antiemetics, steroids, diphenhydramine, H2 blockers — that must be given 30-90 minutes before the primary drug. Chair time begins with pre-medications, not drug infusion.\n\nReaction monitoring: High-risk infusions (rituximab first dose, taxanes, platinum agents) require monitoring periods during and after infusion. Chair time extends beyond infusion completion.\n\nCycle timing: Cycles must start within specific windows — day 1 of a 21-day cycle cannot slip to day 23 without clinical discussion. Pre-treatment lab requirements must be met before the cycle begins.\n\n**What clinIQ manages:**\n\nChair scheduling with duration accuracy: Regimen-specific treatment windows including pre-medications and monitoring time. Real-time chair status with time-remaining estimates. Gap identification and fill.\n\nPre-treatment verification: Before infusion is scheduled, confirm — labs current and within acceptable parameters, auth active for this cycle, symptoms acceptable for treatment. Treatment is not confirmed until pre-treatment checklist is complete.\n\nDrug prep coordination: Pharmacy notified when patient arrival confirmed — arrival-triggered prep for expensive drugs prevents waste from no-shows.\n\nReaction readiness: High-risk first infusions flagged — nursing staff briefed on reaction protocol, emergency medications confirmed available."
     },
     {
       "id": "treatment-coordination",
       "h2": "Treatment Coordination",
-      "content": "Oncology treatment involves multiple moving parts.\n\n**Pre-treatment requirements:**\n\n- Labs (CBC, CMP, tumor markers)\n- Symptom assessment\n- Prior authorization (for expensive drugs)\n- Drug preparation (often just-in-time)\n\n**Cycle management:**\n\n- Treatment schedules (weekly, every 2 weeks, every 3 weeks, variable)\n- Cycle tracking (cycle 1, day 1; cycle 3, day 8; etc.)\n- Restaging timing\n- Response assessment\n\n**What clinIQ does:**\n\nTreatment timeline: Current cycle, treatment history, next treatment due.\n\nPre-treatment checklist: Labs current, symptoms acceptable, auth active.\n\nRestaging reminders: Scans due based on protocol.\n\nClinical trial eligibility: Flag patients who may qualify for trials based on disease and status."
+      "content": "Oncology treatment coordination is more complex than most specialties because treatment protocols are multi-component (multiple drugs, specific sequences), time-sensitive (cycle timing windows), and evidence-based (protocol adherence directly affects outcomes).\n\n**The treatment coordination burden:**\n\nCycle tracking: Every patient's current cycle, treatment day within cycle, and cumulative treatment history must be tracked. A patient on FOLFOX is on cycle 6, day 1 — that's cycle 6 of a planned 12 cycles, first treatment in this cycle. The prior cycle's response assessment informed continuing vs. modifying treatment.\n\nLab requirements: CBC with differential before each cycle — ANC must be adequate. Metabolic panel before nephrotoxic drugs (cisplatin, carboplatin). Cardiac function before anthracyclines. LFTs before drugs with hepatic toxicity. Labs must be current, within the pre-treatment window (typically 48-72 hours).\n\nRestaging: Imaging at defined cycle intervals documents treatment response — typically every 2-4 cycles. CT chest/abdomen/pelvis, PET-CT, MRI — ordered, scheduled, completed, and interpreted before the next treatment decision is made.\n\nMultidisciplinary coordination: Oncology doesn't treat in isolation. Radiation oncology for concurrent or sequential chemoradiation. Surgical oncology for resectability reassessment after neoadjuvant treatment. Palliative care for symptom management integration. Tumor board presentations for complex cases.\n\n**What clinIQ coordinates:**\n\nTreatment timeline: Current cycle, days since last treatment, next treatment target date, treatment history visible.\n\nPre-treatment checklist: Labs resulted within window, symptoms within treatment criteria, auth active, drug ordered.\n\nRestaging triggers: Imaging due at cycle 4 — ordered 2 weeks ahead, results reviewed, oncologist assessment documented before cycle 5 decision.\n\nMultidisciplinary status: Tumor board date, radiation oncology clearance, surgical consultation status — all tracked."
+    },
+    {
+      "id": "prior-auth",
+      "h2": "Prior Authorization for Oncology Drugs",
+      "content": "Oncology drug authorization is among the most burdensome in medicine. Cancer drugs are among the most expensive in pharmacy — biologics and targeted agents commonly run $10,000-50,000 per treatment cycle — making them high-scrutiny targets for payer review.\n\n**Common oncology authorization requirements:**\n\nDiagnosis-specific criteria: Pembrolizumab (Keytruda) requires PD-L1 status documentation for certain tumor types. Trastuzumab (Herceptin) requires HER2-positive pathology. EGFR-targeted agents require EGFR mutation documentation. Genetic testing results must match the requested drug's biomarker indication.\n\nLine of therapy documentation: First-line, second-line, third-line therapy designation affects coverage. Many drugs are only covered in specific lines, and prior therapy failure must be documented — what was used, duration, response, and reason for discontinuation.\n\nPerformance status requirements: Some drugs have ECOG performance status cutoffs — ECOG 0-1 only for certain aggressive regimens. Performance status must be documented at time of authorization.\n\nComorbidity considerations: Dose adjustments required by renal or hepatic dysfunction must be documented. Off-label use requires specific NCCN guideline citation and clinical rationale.\n\n**Authorization cycle management:**\n\nOncology authorizations often cover one treatment cycle or 30 days. For monthly drugs, that means 12 authorization renewals per year per drug per patient. For a practice with 80 patients on 1-2 drugs each, that's 80-160 authorization renewals per month — a significant administrative burden.\n\n**What clinIQ tracks:**\n\nDrug-specific auth status: Current authorization, cycle covered, doses remaining on current auth, renewal trigger date. Biomarker documentation: Genetic testing results, PD-L1 status, HER2 status — referenced automatically in auth submissions. Prior therapy log: Medications used, duration, response — auto-populated in auth renewals. Denial management: Denial reason captured, NCCN reference added, appeal submitted with clinical documentation."
     },
     {
       "id": "implementation",
       "h2": "Implementation and ROI Timeline",
-      "content": "**Week 1: Configuration**\n\nOncology RTM templates, infusion scheduling, treatment tracking configured.\n\n**Week 2: Training and Go-Live**\n\nNurses learn symptom monitoring. Infusion staff learn chair optimization. Coordinators learn treatment tracking.\n\n**ROI Timeline:**\n\nMonth 1: Infusion visibility immediate. RTM enrollment starting.\n\nMonth 3: RTM billing at scale. Toxicity detection preventing hospitalizations.\n\nMonth 6: Full RTM revenue. Infusion optimization measurable.\n\n**ROI Math:**\n\nRTM revenue: 80 patients × $130/month = $10,400/month = $124,800/year\n\nHospitalization prevention: 2 prevented admissions/month × $15,000 = $30,000/month = $360,000/year\n\nInfusion efficiency: Variable based on current state\n\n**Investment:**\n\nProfessional: $499/month\n\nImplementation: $750 one-time"
+      "content": "**Week 1-2: Configuration**\n\nOncology RTM templates configured for your treatment types — chemotherapy, immunotherapy, targeted therapy, oral oncolytics. Toxicity alert thresholds set for urgent vs. routine follow-up. Infusion scheduling built for your chair count and treatment duration mix. Authorization tracking configured for your primary drugs.\n\n**Week 3: Training and Go-Live**\n\nNurses trained on symptom monitoring dashboard and toxicity alert response. Infusion staff trained on chair scheduling and drug prep coordination. Authorization coordinators trained on renewal workflow. Oncologists trained on RTM review dashboard.\n\n**ROI Timeline:**\n\nMonth 1: RTM enrollment begins. Toxicity monitoring active from day one. Infusion scheduling optimization started.\n\nMonth 3: 60+ patients enrolled in RTM. First documented toxicity prevention. Infusion efficiency improving. First full RTM billing quarter showing $36,000+.\n\nMonth 6: RTM at $10,400+/month steady state. Infusion suite utilization improved measurably. Authorization denial rate for renewals dropping.\n\n**Annual ROI:**\n\n• RTM revenue: $124,800/year (80 patients)\n• Hospitalization prevention: 2 prevented admissions/month × $15,000 average = $360,000/year\n• Authorization denial reduction: $20,000-50,000/year\n\n**Investment:**\n\n• Professional: $499/month — Full suite including RTM, toxicity monitoring, infusion optimization, treatment coordination, authorization tracking\n• Implementation: $750 one-time"
     }
   ],
   "faqs": [
     {
       "q": "Which oncology patients qualify for RTM?",
-      "a": "Patients on active treatment (chemotherapy, immunotherapy, targeted therapy) where between-visit symptom monitoring informs management. Surveillance patients may also qualify if managing chronic symptoms."
+      "a": "Patients on active cancer treatment — chemotherapy, immunotherapy, targeted therapy, or oral oncolytics — where between-visit symptom monitoring informs management qualify for RTM. This includes adjuvant treatment patients, advanced disease patients on continuous therapy, and surveillance patients managing chronic treatment-related symptoms. Oral oncolytic patients are a particularly strong use case."
     },
     {
-      "q": "How do you detect urgent symptoms?",
-      "a": "Alert thresholds for fever, severe nausea, new neurological symptoms, and other urgent findings. Alerts route to appropriate staff immediately."
+      "q": "How do you detect urgent toxicities?",
+      "a": "Alert thresholds are configured for each urgent symptom category — fever above 100.4°F triggers an immediate febrile neutropenia alert, severe nausea or vomiting generates same-day contact, new neurological symptoms trigger urgent review. Alerts route directly to triage staff and are documented with response time. The system doesn't wait for the next scheduled visit to surface urgent findings."
     },
     {
-      "q": "Does this work with oral oncolytics?",
-      "a": "Yes. Oral chemotherapy patients benefit from symptom and compliance monitoring between visits."
+      "q": "How does arrival-triggered drug prep work for oncology infusions?",
+      "a": "When the patient checks in, the pharmacy dashboard receives a real-time notification — patient name, regimen, cycle, day. Pharmacy begins preparation immediately. Because oncology drug preparation is time-consuming (compounding, stability windows, hazardous drug protocols), arrival confirmation before prep begins prevents costly waste when patients don't appear."
     },
     {
-      "q": "Can you track clinical trial eligibility?",
-      "a": "Yes. Disease characteristics and status can be flagged against trial criteria to identify potential candidates."
+      "q": "How do you handle authorization renewals at high volume?",
+      "a": "clinIQ tracks each patient's drug authorization with expiration date and renewal trigger. At the configured renewal window (typically 30 days before expiration), a renewal request is automatically initiated using a template pre-populated with current biomarker documentation, prior therapy history, and performance status. The coordinator reviews, adds cycle-specific data, and submits. No authorization lapses because a renewal was missed."
+    },
+    {
+      "q": "Does RTM work for oral oncolytic patients?",
+      "a": "Yes — oral oncolytic patients are often the best RTM candidates. They don't have infusion visits where toxicities are caught by nursing staff. Between oral chemo cycles, there's no clinical touchpoint unless the patient calls. RTM creates systematic between-visit monitoring for patients on capecitabine, lenalidomide, ibrutinib, osimertinib, and similar agents."
+    },
+    {
+      "q": "How do you track treatment cycle timing?",
+      "a": "Each patient's treatment history shows current cycle number, day within cycle, days since last treatment, and next treatment target date. When labs are ordered, results are tracked against pre-treatment windows. Restaging imaging is triggered based on cycle milestones. The system flags cycles where timing is off — either from lab holds or patient scheduling delays."
+    },
+    {
+      "q": "What immunotherapy toxicities does the RTM system monitor?",
+      "a": "Checkpoint inhibitor irAE monitoring includes: GI symptoms (diarrhea frequency and character, abdominal pain), hepatic symptoms (jaundice, RUQ pain), pulmonary symptoms (new dyspnea, cough), endocrine symptoms (fatigue, palpitations, weight changes), skin symptoms (rash, blistering), and neurological symptoms. Any symptom cluster suggesting an irAE triggers urgent review and potential hold on immunotherapy pending workup."
+    },
+    {
+      "q": "How long does implementation take?",
+      "a": "Two weeks. Week 1: RTM template configuration for your treatment types, toxicity alert threshold setting, infusion scheduling build, authorization tracking setup. Week 2: nursing and coordinator training by role, parallel testing with live patients not yet on RTM. Week 3: go-live with clinIQ support available for real-time adjustments."
     }
   ],
   "cta": {
-    "headline": "See oncology RTM and toxicity monitoring",
-    "subhead": "15-minute demo. Symptom monitoring, toxicity detection, infusion optimization, treatment coordination.",
-    "primaryButton": {
-      "label": "Request Demo",
-      "href": "/demo"
-    },
-    "secondaryButton": {
-      "label": "Calculate Oncology RTM Revenue",
-      "href": "/resources/rtm-calculator"
-    }
+    "headline": "See how oncology practices capture treatment RTM and prevent hospitalizations through early toxicity detection",
+    "subhead": "15-minute demo. Symptom RTM enrollment, toxicity monitoring dashboard, infusion suite optimization, authorization tracking.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate Oncology RTM Revenue", "href": "/resources/rtm-calculator" }
   },
   "proof": {
     "stats": [
-      {
-        "value": "$125K",
-        "label": "annual oncology RTM"
-      },
-      {
-        "value": "20%",
-        "label": "infusion efficiency gain"
-      },
-      {
-        "value": "Zero",
-        "label": "missed urgent toxicities"
-      }
+      { "value": "$125K", "label": "annual oncology RTM revenue" },
+      { "value": "Zero", "label": "missed urgent toxicity alerts" },
+      { "value": "20%", "label": "infusion efficiency improvement" }
     ],
     "testimonial": {
-      "quote": "We caught febrile neutropenia early three times last month from patient-reported temps. That's three prevented hospitalizations.",
+      "quote": "We caught febrile neutropenia three times last month from patient-reported temperatures. That's three prevented hospitalizations — and $45,000 in avoided admissions. The RTM billing is almost secondary.",
       "attribution": "Oncology Nurse Manager",
       "practice": "Community oncology practice, 6 oncologists",
       "location": "North Carolina"
@@ -149,31 +126,34 @@
   "relatedContent": [
     {
       "type": "blog",
-      "title": "Oncology RTM Billing: Symptom Monitoring During Treatment",
+      "title": "Oncology RTM: Billing Symptom Monitoring During Cancer Treatment",
       "href": "/blog/oncology-rtm-billing",
-      "description": "How to bill RTM for cancer patients on active treatment."
+      "description": "CPT code guide, patient qualification, and enrollment strategies for oncology RTM."
     },
     {
       "type": "blog",
-      "title": "Toxicity Detection: Preventing Hospitalizations",
+      "title": "Febrile Neutropenia Detection: How RTM Prevents Oncology Hospitalizations",
       "href": "/blog/oncology-toxicity-detection",
-      "description": "Using patient-reported symptoms to detect toxicities early."
+      "description": "The clinical and financial case for systematic between-visit toxicity monitoring."
     },
     {
       "type": "blog",
-      "title": "Oncology Infusion Optimization",
+      "title": "Oncology Infusion Suite Optimization: Chair Utilization and Drug Prep",
       "href": "/blog/oncology-infusion-optimization",
-      "description": "Chair utilization and treatment coordination for oncology infusion."
+      "description": "How community oncology practices maximize infusion revenue through scheduling and drug waste prevention."
+    },
+    {
+      "type": "resource",
+      "title": "RTM Revenue Calculator",
+      "href": "/resources/rtm-calculator",
+      "description": "Calculate your practice's oncology RTM revenue potential based on active treatment patients."
     }
   ],
   "schema": {
     "type": "SoftwareApplication",
     "applicationCategory": "Medical Practice Management Software",
     "operatingSystem": "Web-based",
-    "offers": {
-      "price": "499",
-      "priceCurrency": "USD"
-    }
+    "offers": { "price": "499", "priceCurrency": "USD" }
   },
   "publishDate": "2025-07-29"
 }
