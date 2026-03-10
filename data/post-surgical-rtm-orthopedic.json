@@ -1,0 +1,76 @@
+{
+  "slug": "post-surgical-rtm-orthopedic",
+  "type": "blog",
+  "category": "RTM Billing",
+  "specialty": "orthopedic-surgery",
+  "wordCount": 1900,
+  "meta": {
+    "title": "Post-Surgical RTM for Orthopedic Patients | clinIQ",
+    "description": "Learn how to bill RTM codes 98975–98981 for post-op orthopedic patients monitoring pain, wound healing, PT compliance, and ROM — with per-patient revenue math.",
+    "keywords": [
+      "orthopedic surgery post-op RTM billing",
+      "remote therapeutic monitoring joint replacement patients",
+      "CPT 98975 98980 98981 orthopedic billing",
+      "post-surgical monitoring revenue orthopedic practice",
+      "RTM pain tracking ROM progress orthopedic"
+    ]
+  },
+  "publishDate": "2025-03-15",
+  "updatedDate": "2025-03-15",
+  "author": "clinIQ Team",
+  "hero": {
+    "h1": "Post-Surgical RTM for Orthopedic Patients",
+    "subhead": "RTM codes 98975–98981 generate $350–$500 in recoverable revenue per post-op orthopedic patient while improving clinical outcomes and reducing readmissions."
+  },
+  "content": [
+    {
+      "h2": "Why Orthopedic Surgery Is the Ideal RTM Population",
+      "body": "**Remote Therapeutic Monitoring (RTM)** was designed for exactly the patient population that orthopedic surgery produces: motivated patients with well-defined post-operative recovery trajectories, clear functional milestones, and high-value monitoring data. Post-operative joint replacement and arthroscopic surgery patients have 30–90 day recovery periods with intensive clinical monitoring needs that are currently underserved between scheduled office visits. The average post-TKA patient has 2–3 office visits in the first 90 days post-surgery — but has clinical questions, pain fluctuations, wound concerns, and PT compliance challenges every week. **RTM fills this gap** by enabling structured daily monitoring between visits, creating a continuous clinical relationship that improves outcomes and generates recoverable billing under CPT codes 98975 (setup), 98977 (device supply), 98980 (first 20 minutes of monitoring time), and 98981 (additional 20-minute increment). The clinical data supporting RTM in orthopedic surgery is compelling: programs at major academic orthopedic centers have demonstrated **15–20% reductions in 30-day readmission rates**, 25% improvements in PT compliance, and significantly higher patient satisfaction scores in RTM-enrolled versus non-enrolled cohorts. For a practice performing 250 TKA and THA cases annually, a 15% reduction in 30-day readmissions (baseline rate approximately 5%) prevents 1–2 readmissions per year — each of which generates quality penalties, administrative burden, and often payer scrutiny. The billing revenue and the complication-prevention value together make RTM one of the highest-ROI programs in contemporary orthopedic practice."
+    },
+    {
+      "h2": "What to Monitor: Pain, Wound, PT Compliance, and ROM",
+      "body": "Orthopedic RTM programs monitor four clinical domains that together provide a complete picture of post-operative recovery. **Pain management** is the most time-sensitive domain. Daily NRS or VAS pain scores, collected through the patient's monitoring app, allow the clinical team to distinguish between expected post-operative pain (gradually improving trajectory) and concerning pain (stable or worsening, suggesting complication or inadequate analgesia). **Alert thresholds** should be configured at NRS ≥7 on any day or NRS ≥5 for three consecutive days — each trigger prompts a nurse contact and EHR documentation. Pain management optimization through RTM reduces unplanned office visits and ED visits by 20–30% in documented orthopedic RTM programs. **Wound monitoring** via daily photograph submission is essential for TKA and THA patients during the first 3 weeks post-op. Wound complications — drainage, dehiscence, early erythema suggesting infection — have a narrow treatment window. Detected within 72 hours, superficial wound complications are managed with outpatient antibiotics and wound care. Missed for 7–10 days, the same complication can progress to deep surgical site infection requiring irrigation and debridement (CPT 27301), with associated costs exceeding $15,000. **Physical therapy compliance** tracking integrates RTM data with PT attendance and home exercise program (HEP) completion. Patients who fall behind on PT milestones — range of motion targets, ambulation distance, functional independence measures — are identified early enough for intervention. **Range of motion (ROM) progression** for TKA patients should follow a protocol-defined trajectory: 90 degrees of flexion by 2 weeks, 110 degrees by 6 weeks, 120+ degrees by 12 weeks. RTM platforms that capture ROM data (through app-based goniometry or wearable sensors) allow remote tracking of these milestones."
+    },
+    {
+      "h2": "Code-by-Code Billing Requirements for Orthopedic RTM",
+      "body": "**CPT 98975 — Initial Setup and Patient Education** is billed once per patient per device type, typically in the month of setup (which for post-op orthopedic patients is the month of surgery or the first post-op month). The 2025 Medicare national non-facility payment rate is approximately **$19.50**. Documentation must include: the device or platform deployed, patient education provided, consent obtained, and confirmation of data transmission. **CPT 98977 — Device Supply with Daily Data Collection** is the monthly device supply code for **musculoskeletal** monitoring (this code specifically, not 98976 which is for respiratory). Billing requires that the device collects and transmits data on at least **16 of 30 days** in the billing period. The 2025 Medicare rate is approximately **$47.00**. The compliance report from your RTM platform must document the daily data transmission dates for each patient, as this is a primary audit target. **CPT 98980 — First 20 Minutes of Clinical Staff Time** is billed when clinical staff (RN, MA, or other clinical personnel under physician supervision) spends at least 20 minutes in a calendar month reviewing RTM data, communicating with the patient, and documenting interactions. The 2025 Medicare rate is approximately **$50.50**. Documentation requirements: date of service, staff identity, total time, description of clinical activity performed, and a brief clinical note. **CPT 98981 — Additional 20-Minute Increment** adds approximately **$40.50** per billing month when monitoring time exceeds 20 minutes. Complex post-surgical orthopedic patients — bilateral procedures, patients with comorbidities like diabetes or obesity, patients with wound concerns — routinely generate 40–60 minutes of monthly monitoring time. Track time at the individual patient level using your RTM platform's time-tracking feature."
+    },
+    {
+      "h2": "Revenue Per Patient: TKA, THA, and Arthroscopy Math",
+      "body": "The per-patient RTM revenue calculation varies by procedure type and monitoring duration. For **TKA patients (90-day monitoring program):** Month 1: 98975 ($19.50) + 98977 ($47.00) + 98980 ($50.50) + 98981 ($40.50) = **$157.50.** Month 2: 98977 ($47.00) + 98980 ($50.50) + 98981 ($40.50) = **$138.00.** Month 3: 98977 ($47.00) + 98980 ($50.50) = **$97.50.** TKA 90-day total: **$393 at Medicare rates.** At commercial rates (120% of Medicare): **$472.** For **THA patients (90-day monitoring):** Same code structure; however, THA patients typically have lower wound complication rates and somewhat less intensive monitoring needs in months 2–3. Average per-patient THA revenue: **$350–$430** depending on clinical complexity. For **shoulder arthroscopy / rotator cuff repair patients (60-day monitoring):** Month 1: 98975 + 98977 + 98980 + 98981 = $157.50. Month 2: 98977 + 98980 = $97.50. Rotator cuff 60-day total: **$255 at Medicare rates.** At commercial rates: **$306.** **Practice-level revenue modeling** for an orthopedic group performing 300 TKA/THA and 150 rotator cuff cases annually with 70% RTM enrollment: (300 × 0.70 × $393) + (150 × 0.70 × $255) = $82,530 + $26,775 = **$109,305 annually at Medicare rates.** At blended commercial rates, this reaches **$130,000–$155,000 per year** — without adding physician time to the calculation, as RTM is primarily a clinical staff-driven revenue stream."
+    },
+    {
+      "h2": "Enrollment Workflow: From Surgical Scheduling to First Billing",
+      "body": "The enrollment workflow for orthopedic RTM begins at surgical scheduling — not at discharge. **Pre-operative enrollment** is the operationally superior approach for three reasons: the patient is motivated (they have just committed to surgery), the coordinator has dedicated time for setup, and the device can be tested and confirmed before the surgical stress of recovery begins. The workflow steps are: (1) **Surgical scheduling** — coordinator identifies RTM-eligible procedures (TKA, THA, TSA, rotator cuff repair) and adds RTM enrollment to the surgical scheduling checklist. (2) **Pre-op appointment** — clinical coordinator introduces the RTM program, obtains written consent, sets up the device or app on the patient's smartphone, and tests data transmission. CPT 98975 can be billed at this point. (3) **Day of surgery** — patient is reminded that monitoring begins post-op and is given contact information for the monitoring team. (4) **Day 1–3 post-op** — monitoring team confirms the patient is submitting data, reviews baseline pain scores, and contacts any patients with NRS ≥7 or wound concerns. (5) **Monthly billing** — at the end of each calendar month, the billing team pulls compliance reports, verifies 16-day thresholds, calculates total monitoring time, and submits 98977, 98980, and 98981 as applicable. **Patient non-enrollment is the biggest revenue leak** in most practices — patients who decline RTM, patients where staff forget to offer it, and patients who drop out after enrollment. Tracking enrollment rates by procedure type and by enrolling coordinator allows the practice to identify and close these gaps."
+    },
+    {
+      "h2": "Payer Policies and Documentation Compliance for Orthopedic RTM",
+      "body": "**Medicare RTM coverage** is established under the CMS Physician Fee Schedule without requiring individual plan authorization. However, Medicare Advantage plans — which cover a growing proportion of orthopedic patients, particularly those over 65 — have variable RTM policies. **Verify RTM coverage separately for Medicare Advantage enrollees**, as some MA plans have additional requirements or different payment rates. For commercial payers: **Aetna** covers RTM codes for musculoskeletal conditions under their Digital Health technologies policy, effective for dates of service after January 1, 2024. **UnitedHealthcare** covers RTM under their Remote Monitoring coverage policy for qualified musculoskeletal indications. **Cigna** covers RTM under their Remote Patient and Therapeutic Monitoring policy — verify the specific plan type, as some Cigna plans require notification. **BCBS affiliates** have variable coverage — some state plans fully cover RTM, others are still developing coverage policies as of 2025. **Documentation compliance requirements** are non-negotiable for audit protection. The critical documentation elements are: (1) Patient consent form on file, (2) Device compliance report showing 16-day transmission for each 98977 claim, (3) Time logs for each 98980/98981 billing date showing staff identity, time in minutes, and clinical activity, (4) Clinical notes corresponding to each significant patient interaction or alert response, and (5) Monthly monitoring summary signed by the supervising physician. Practices using clinIQ's integrated RTM module generate all compliance documentation automatically — the platform captures time, documents interactions, pulls compliance reports, and populates billing claims with the supporting documentation attached."
+    },
+    {
+      "h2": "Integrating RTM with Your Orthopedic EHR and Billing Workflow",
+      "body": "**RTM integration with your existing EHR and billing system** determines whether the program runs efficiently or becomes an administrative burden that erodes the revenue it generates. The ideal integration architecture has three components. **Clinical integration:** RTM platform data (pain scores, wound photos, activity data, alert flags) should flow into the patient's EHR chart automatically — not require manual copy-paste. Clinical staff should be able to review RTM data in the same interface where they access notes, imaging, and orders. When an alert fires and the nurse contacts the patient, the interaction should be documented in the EHR with a single click, not retyped into a separate system. **Billing integration:** The RTM platform should generate a monthly billing summary for each patient that includes: billing month, device compliance days (for 98977), total staff time in minutes (for 98980/98981), and the dollar value of claims to be submitted. This summary goes directly to the billing team or billing software, eliminating manual calculation. **Reporting integration:** Practice leadership needs RTM performance data at the population level — enrollment rate by procedure type, compliance rate by patient cohort, alert response times, monthly revenue by RTM code, and year-to-date program revenue. This data should be available in a dashboard updated in real time, not compiled manually each month. **Staff training requirements** are modest for a well-integrated RTM platform: 2–4 hours of initial training for clinical coordinators on enrollment and device setup, 1–2 hours for billing staff on code requirements and compliance documentation, and a brief clinical orientation for nursing staff on the alert management workflow. Once trained, the average time per patient per month is 20–40 minutes for clinical staff and 5–10 minutes for billing — making RTM one of the highest revenue-per-staff-hour programs available to orthopedic practices."
+    }
+  ],
+  "callout": {
+    "type": "feature",
+    "title": "clinIQ for Orthopedic Surgery",
+    "description": "clinIQ's RTM module automates enrollment, compliance tracking, and billing for post-op orthopedic patients — generating six figures in annual RTM revenue for qualifying practices.",
+    "href": "/specialties/orthopedic-surgery",
+    "buttonLabel": "Learn More"
+  },
+  "relatedPosts": [
+    { "title": "Orthopedic Surgery Prior Auth: Joint Replacement & Arthroscopy", "href": "/blog/orthopedic-prior-auth-joint-replacement" },
+    { "title": "Orthopedic Practice Patient Flow Optimization", "href": "/blog/orthopedic-patient-flow-optimization" }
+  ],
+  "pillarLink": {
+    "title": "Orthopedic Surgery Practice Software",
+    "href": "/specialties/orthopedic-surgery",
+    "description": "See how clinIQ's end-to-end platform handles RTM billing, authorization, scheduling, and practice operations for orthopedic surgery groups."
+  },
+  "cta": {
+    "headline": "Capture RTM Revenue on Every Post-Op Orthopedic Case",
+    "subhead": "clinIQ automates the enrollment, monitoring, and billing workflow so your team captures RTM revenue without adding headcount.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+  }
+}

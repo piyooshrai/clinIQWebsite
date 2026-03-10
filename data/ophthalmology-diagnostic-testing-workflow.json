@@ -1,0 +1,70 @@
+{
+  "slug": "ophthalmology-diagnostic-testing-workflow",
+  "type": "blog",
+  "category": "Operations",
+  "specialty": "ophthalmology",
+  "wordCount": 1900,
+  "meta": {
+    "title": "Ophthalmology Diagnostic Testing Workflow: OCT, VF, Biometry | clinIQ",
+    "description": "How high-volume ophthalmology practices coordinate OCT, visual fields, fundus photography, fluorescein angiography, and biometry without bottlenecks.",
+    "keywords": ["ophthalmology diagnostic testing workflow", "OCT scheduling ophthalmology", "visual field testing coordination", "biometry IOL scheduling", "ophthalmology pre-testing protocol"]
+  },
+  "publishDate": "2026-03-10",
+  "updatedDate": "2026-03-10",
+  "author": "clinIQ Team",
+  "hero": {
+    "h1": "Ophthalmology Diagnostic Testing Workflow",
+    "subhead": "At 40-80 patients per day, every bottleneck in OCT, visual fields, or biometry directly delays the provider exam lane — protocol-driven pre-testing eliminates the guesswork."
+  },
+  "content": [
+    {
+      "h2": "The Diagnostic Testing Bottleneck in High-Volume Ophthalmology",
+      "body": "A busy ophthalmology practice performs 80-120 diagnostic tests per day across OCT, visual fields, fundus photography, fluorescein angiography, and biometry — all before the provider touches the chart. These pre-testing workflows are the operational backbone: if a patient reaches the exam chair without their OCT, the provider either waits, examines without it, or reschedules. Any outcome is inefficient.\n\nThe failure mode in most practices is **undefined testing protocols**. When a glaucoma follow-up patient arrives, which tests should have been done? Visual field, OCT optic nerve, IOP — but does the MA know this without the provider specifying it each visit? For a retina patient returning for wet AMD monitoring, OCT macula is standard — but does it trigger automatically or does someone order it?\n\n**Protocol-driven pre-testing** — condition-specific testing menus that trigger automatically for a given visit type — eliminates the decision burden from MAs and ensures consistent, complete pre-testing before every exam. A glaucoma monitoring visit triggers: IOP, pachymetry, VF (if due per interval), OCT optic nerve (if due). A wet AMD visit triggers: VA, OCT macula (every visit), OCT angiography (quarterly). The protocol is embedded in the visit type; staff execute rather than decide. For a full view of ophthalmology operations, see our [Ophthalmology Practice Software](/specialties/ophthalmology) guide."
+    },
+    {
+      "h2": "OCT Workflow: Macular, Optic Nerve, Anterior Segment",
+      "body": "Optical coherence tomography is the highest-volume diagnostic test in most ophthalmology practices and the most likely to create exam lane bottlenecks if not coordinated efficiently. Three types serve distinct clinical purposes.\n\n**Macular OCT** (CPT 92134) is standard at virtually every retina visit for AMD, diabetic macular edema, macular hole, epiretinal membrane, and central serous retinopathy. It should be protocol-triggered for all retina patients — not ordered visit-by-visit. Scan time: 3-5 minutes per eye. Images upload to the EMR for provider review during exam.\n\n**Optic nerve OCT** (CPT 92133) is the glaucoma monitoring standard — RNFL thickness measurement tracked over time. For established glaucoma patients, optic nerve OCT on a protocol interval (every 6-12 months depending on disease stage) should trigger automatically based on last test date, not at provider discretion each visit. Automated protocol triggering prevents the common failure of missing scheduled monitoring tests.\n\n**Anterior segment OCT** covers cornea, anterior chamber angle assessment, and post-surgical monitoring. More selective, and may require different equipment positioning than posterior OCT — coordinate room assignment if anterior and posterior equipment are in different locations.\n\nThe key operational metric: **OCT completion before provider entry**. Track the percentage of patients who have their indicated OCT done before the provider enters the exam room. Below 90% means pre-testing is occurring after provider entry, which adds dead time to exam lanes."
+    },
+    {
+      "h2": "Visual Field Testing Coordination",
+      "body": "Visual field testing (CPT 92083 for threshold, 92082 for extended) is the primary functional monitoring tool for glaucoma. A standard Humphrey 24-2 SITA Standard takes 6-8 minutes per eye — 12-16 minutes total — requiring patient cooperation and tech instruction. In a glaucoma-heavy practice, VF demand can reach 30-40 tests per day.\n\n**The scheduling failure** is treating VF tests as drop-in additions to standard appointment slots. A glaucoma patient in a 20-minute slot cannot have VA, IOP, VF (16 min), OCT, and provider exam — all in 20 minutes. Either VF is skipped (clinical failure), the provider waits (efficiency failure), or the appointment overruns (cascade failure).\n\nThe fix: **VF-inclusive appointment slot types**. A glaucoma monitoring visit including visual field should be 40-45 minutes, not 20. Confirm VF scheduling at booking — not on arrival — so tech scheduling accounts for the time. Practices that pre-schedule VF in the appointment type achieve 30-40% less VF-related exam lane delay than practices that add VF at check-in.\n\n**VF reliability scoring** adds another workflow element: unreliable VFs (fixation loss >20%, false positive >15%) that need repeating create unexpected time demands. Track reliability by tech — it identifies training needs — and by patient, flagging consistent underperformers for alternative testing approaches or extended pre-test instruction."
+    },
+    {
+      "h2": "Fundus Photography and Fluorescein Angiography",
+      "body": "Fundus photography (CPT 92250) documents diabetic retinopathy, AMD baseline and progression, and optic nerve status. For diabetic patients, fundus photography at every visit is increasingly replaced by OCT as the primary monitoring tool, but photo documentation remains important for grading retinopathy severity.\n\n**Fluorescein angiography** (CPT 92235) is more involved — intravenous dye injection followed by rapid sequential fundus imaging over 10-15 minutes. It requires: patient consent with allergy screening, IV access, dye injection coordination, and 20-minute post-injection observation for reaction monitoring. Total time: 30-45 minutes per patient.\n\nThe workflow implication is significant: FA cannot be a drop-in test during a routine visit. It requires a **dedicated FA appointment** or a scheduled FA block within the exam day. Practices that attempt to add FA to an existing 20-minute retina visit slot create 20-30 minute delays for subsequent patients.\n\nFA scheduling should be protocol-driven for clear indications: new wet AMD before initiating anti-VEGF therapy (establishes baseline leakage pattern), CNV evaluation, unexplained vision loss workup. Standing FA for routine AMD monitoring has largely been replaced by OCT angiography (OCTA), which is non-invasive. Practices still doing routine FA for established AMD should audit whether OCTA serves the clinical need without IV access and dye reaction risk."
+    },
+    {
+      "h2": "Biometry and IOL Calculation Workflow",
+      "body": "Biometry for IOL power calculation (CPT 92136) is the pre-operative testing cornerstone for cataract surgery. Accurate biometry — axial length, keratometry, anterior chamber depth, lens thickness — determines the IOL formula calculation and target refraction. Poor biometry coordination is among the top causes of post-operative refractive surprises.\n\n**The workflow standard:** biometry completion before the cataract surgery consent visit, not after. Patients attending a surgical consent appointment without biometry leave with incomplete consent — they can't know their IOL options (standard monofocal vs. toric for astigmatism vs. premium multifocal/EDOF) without corneal topography data. Schedule biometry as part of the pre-operative workup visit.\n\nFor patients with **prior refractive surgery** (LASIK, PRK, RK), standard biometry formulas are unreliable — the Barrett True-K formula or ASCRS post-refractive calculator is required, which depends on pre-LASIK refraction data that patients often don't have. Build a post-refractive cataract workup protocol that specifically flags these patients and documents the additional data-gathering steps.\n\n**Biometry-to-surgery interval tracking** is a worthwhile operational metric: time from biometry completion to surgery date. Industry standard is biometry within 3-6 months of surgery. Biometry older than 6 months may not reflect the current lens state and may need to be repeated — track this to prevent day-of-surgery cancellations for outdated measurements."
+    },
+    {
+      "h2": "Tech Workflow Sequencing for Exam Lane Efficiency",
+      "body": "In high-volume ophthalmology, the tech workflow sequence — the order in which pre-testing tasks are completed — determines how smoothly exam lanes flow. The goal is that when the provider enters the exam room, all pre-testing is complete and in the chart. Anything done after provider entry adds dead time to the lane.\n\nOptimal sequence for a **standard cataract monitoring visit**: (1) check-in and vitals, (2) distance and near VA, (3) IOP (non-contact or Goldmann), (4) dilate if protocol requires dilation today, (5) OCT if indicated, (6) fundus photography if due, (7) dilation waiting area, (8) provider exam when pupil dilated.\n\nFor **glaucoma monitoring**: (1) VA, (2) IOP, (3) pachymetry (if CCT not on record), (4) visual field (if due per protocol), (5) OCT optic nerve (if due), (6) provider exam — no dilation for most glaucoma visits.\n\n**Tech-to-provider handoff timing** is the key metric: the interval between tech completing pre-testing and provider entering the exam room. Zero-minute handoff is ideal — provider enters immediately when tech exits. Track this per lane and per tech. Lags above 5 minutes per patient add 30+ minutes to a 20-patient day, compounding into a 60+ minute schedule overrun by end of day."
+    },
+    {
+      "h2": "Implementing Protocol-Driven Testing",
+      "body": "The operational foundation for efficient ophthalmology diagnostic testing is systematic protocol implementation — translating clinical guidelines into standing testing orders that execute automatically based on visit type and diagnosis, not individual provider decisions at each visit.\n\n**Protocol development process:** identify the three to four highest-volume visit types (glaucoma monitoring, wet AMD monitoring, diabetic retinopathy screening, cataract pre-op), define the testing that should occur at each visit, and set interval rules (VF every 6 months in stable glaucoma, every 3 months if progressing; OCT at every wet AMD visit; biometry once in the 3 months before cataract surgery). Document these as standing protocols that MAs execute without a provider order at each visit.\n\n**Step 1:** Audit the current state — what percentage of patients have indicated tests done before provider entry? Which visit types have the worst completion rates? This directs which protocols to implement first.\n\n**Step 2:** Build the protocol into the pre-testing checklist by visit type. Train MAs on execution — not clinical rationale, but the steps. Competency testing before go-live.\n\n**Step 3:** Measure exam lane delay attributable to missing pre-testing for 30 days post-implementation. Most practices see 15-25% reduction in provider wait time within the exam lane within the first month of protocol-driven pre-testing — translating directly to on-time departures and reduced provider stress at end of day."
+    }
+  ],
+  "callout": {
+    "type": "feature",
+    "title": "clinIQ for Ophthalmology",
+    "description": "clinIQ's ophthalmology configuration supports protocol-driven diagnostic testing, dilation-aware patient sequencing, and exam lane efficiency tracking.",
+    "href": "/specialties/ophthalmology",
+    "buttonLabel": "Learn More"
+  },
+  "relatedPosts": [
+    { "title": "Ophthalmology Patient Flow: High-Volume Efficiency", "href": "/blog/ophthalmology-patient-flow-high-volume" },
+    { "title": "Ophthalmology Prior Auth: Cataract Surgery and Injections", "href": "/blog/ophthalmology-prior-auth-cataract-injections" }
+  ],
+  "pillarLink": {
+    "title": "Ophthalmology Practice Software",
+    "href": "/specialties/ophthalmology",
+    "description": "Complete guide to ophthalmology practice operations — patient flow, diagnostic coordination, prior auth, and RTM."
+  },
+  "cta": {
+    "headline": "Eliminate diagnostic testing bottlenecks",
+    "subhead": "See how clinIQ's protocol-driven testing coordination keeps exam lanes moving in a 15-minute demo.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+  }
+}

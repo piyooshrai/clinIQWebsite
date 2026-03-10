@@ -1,0 +1,76 @@
+{
+  "slug": "orthopedic-prior-auth-joint-replacement",
+  "type": "blog",
+  "category": "Prior Authorization",
+  "specialty": "orthopedic-surgery",
+  "wordCount": 1900,
+  "meta": {
+    "title": "Orthopedic Surgery Prior Auth: Joint Replacement & Arthroscopy | clinIQ",
+    "description": "Navigate prior authorization for TKA, THA, shoulder arthroplasty, and arthroscopic procedures with documentation strategies that maximize first-pass approvals.",
+    "keywords": [
+      "orthopedic surgery prior authorization joint replacement",
+      "total knee replacement prior auth documentation",
+      "THA prior authorization conservative management",
+      "shoulder arthroplasty insurance approval requirements",
+      "arthroscopy prior authorization functional limitation"
+    ]
+  },
+  "publishDate": "2025-03-01",
+  "updatedDate": "2025-03-01",
+  "author": "clinIQ Team",
+  "hero": {
+    "h1": "Orthopedic Surgery Prior Auth: Joint Replacement & Arthroscopy",
+    "subhead": "The documentation frameworks that get TKA, THA, shoulder arthroplasty, and arthroscopic procedures approved on first submission."
+  },
+  "content": [
+    {
+      "h2": "The Prior Authorization Landscape for Orthopedic Surgery in 2025",
+      "body": "Prior authorization requirements for orthopedic surgical procedures have expanded significantly over the past three years. As of 2025, **Medicare Advantage plans require prior authorization for TKA and THA** at rates approaching 90% of covered procedures — a dramatic shift from traditional Medicare, which does not require prior auth for these procedures. Commercial payers have also tightened criteria, with major plans including Aetna, Cigna, and UnitedHealthcare updating their orthopedic surgery coverage determinations to require more extensive conservative management documentation, functional assessment scoring, and — in some cases — second surgical opinion consultations. The procedures most commonly requiring prior authorization in orthopedic surgery are: **total knee arthroplasty (TKA, CPT 27447)**, **total hip arthroplasty (THA, CPT 27130)**, **shoulder arthroplasty (total: CPT 23472, reverse: CPT 23473)**, **unicompartmental knee arthroplasty (UKA, CPT 27446)**, **shoulder arthroscopy with rotator cuff repair (CPT 29827)**, and **knee arthroscopy with meniscectomy or chondroplasty (CPT 29881, 29882)**. **First-pass denial rates** for these procedures range from 12% (shoulder arthroscopy) to 28% (multi-compartment knee procedures), according to 2024 AAOS survey data. Building a documentation architecture that proactively addresses payer criteria before submission is the most effective way to protect approval timelines and prevent case cancellations."
+    },
+    {
+      "h2": "Total Knee Arthroplasty Authorization: Documentation That Works",
+      "body": "**Total Knee Arthroplasty (CPT 27447)** is the highest-volume joint replacement procedure and the one with the most standardized — and most demanding — payer criteria. The standard authorization framework requires: (1) **Radiographic evidence of knee arthritis** — payers require weight-bearing AP, lateral, and Merchant (patellar) views showing joint space narrowing, osteophyte formation, or subchondral sclerosis. X-rays taken non-weight-bearing are frequently cited as insufficient and trigger pend requests. Submit weight-bearing views with a radiology report confirming arthritis grade (Kellgren-Lawrence Grade 3 or 4 for most payers). (2) **Failed conservative management** — the standard is 3–6 months of non-surgical treatment including: physical therapy (with attendance records and functional outcome scores), NSAIDs or analgesics (with dose and duration), and intra-articular injection therapy (CPT 20610 — corticosteroid or viscosupplement, with the number of injections, products used, and documented response duration). **Aetna requires at least two different injection modalities** (both corticosteroid and hyaluronic acid) for TKA authorization in most plan types. (3) **Functional impairment documentation** — the Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC) or Knee Injury and Osteoarthritis Outcome Score (KOOS) should be embedded in your new patient encounter template and scored at each visit. Payers accept standardized functional scores as objective evidence of impairment — a WOMAC score in the severe range (>60) significantly strengthens the authorization package. (4) **BMI consideration** — UHC requires documented discussion of weight management for patients with BMI >40, and some plans require documented weight loss attempts before approving elective TKA."
+    },
+    {
+      "h2": "Total Hip Arthroplasty Authorization: Imaging and Conservative Management Requirements",
+      "body": "**Total Hip Arthroplasty (CPT 27130)** authorization requirements parallel TKA in structure but differ in some important imaging details. Payers require **AP pelvis and lateral hip X-rays** showing degenerative changes — femoral head collapse, acetabular erosion, or joint space narrowing consistent with osteoarthritis, avascular necrosis (AVN), or inflammatory arthritis. For **AVN cases** (often younger patients), MRI imaging is required to document the stage of necrosis (Ficat classification), and payers may impose additional criteria around attempting core decompression (CPT 27299) before arthroplasty for early-stage AVN. Conservative management documentation for THA mirrors TKA requirements: physical therapy, analgesic medications, and intra-articular injections. **The hip injection record is particularly important** — document CPT 20610 injections with image guidance (CPT 77002 or 77003 for fluoroscopic guidance) as unguided hip injections are technically difficult and payers are increasingly skeptical of undocumented hip injections. For THA cases in patients with **prior ipsilateral hip surgery** (previous ORIF for femoral neck fracture, hip arthroscopy), document the prior surgical history explicitly and explain why arthroplasty is indicated despite prior intervention. These cases are not harder to approve, but they require more complete surgical history documentation. **The Harris Hip Score (HHS)** is the preferred functional assessment tool for THA authorization — a score below 60 (poor function) supports medical necessity across most payer criteria sets. Include HHS documentation in your authorization submission alongside the imaging and conservative management records."
+    },
+    {
+      "h2": "Shoulder Arthroplasty Authorization: Total vs. Reverse TSA",
+      "body": "**Shoulder arthroplasty authorization** differs meaningfully between **anatomic total shoulder arthroplasty (TSA, CPT 23472)** and **reverse total shoulder arthroplasty (rTSA, CPT 23473)**, primarily because rTSA criteria require documentation of rotator cuff insufficiency as a component of the indication. For anatomic TSA, the authorization package requires: glenohumeral arthritis on X-ray (AP in two planes, axillary lateral), failed conservative management (PT, NSAIDs, corticosteroid injections CPT 20610), and functional scoring using the **American Shoulder and Elbow Surgeons (ASES) Score** or **Simple Shoulder Test (SST)**. For **reverse TSA**, the additional documentation requirement is evidence of **rotator cuff tear arthropathy** — massive rotator cuff tear on MRI, pseudoparalysis documentation on clinical examination (inability to actively forward flex beyond 60 degrees), and in some cases, prior failed rotator cuff repair. **Payer scrutiny of reverse TSA has increased significantly in 2024–2025.** Cigna and Aetna have updated coverage determinations to require pre-operative MRI documenting rotator cuff status even for patients with obvious rotator cuff arthropathy on X-ray. Do not submit rTSA authorization without current (within 12 months) MRI. For **failed prior shoulder arthroplasty revision** cases (CPT 23474), authorization requires documentation of the prior implant, the failure mechanism (infection, loosening, instability, periprosthetic fracture), and often implant-specific imaging such as CT arthrogram to assess glenoid bone stock. Revision cases are approved at lower rates than primary arthroplasty and should routinely be prepared for peer-to-peer review."
+    },
+    {
+      "h2": "Arthroscopic Procedure Authorization: Meniscus, Rotator Cuff, and Labrum",
+      "body": "**Arthroscopic procedures** face a different authorization challenge than arthroplasty — rather than documenting failed conservative management for degenerative disease, the clinician must establish a specific structural diagnosis that is likely to respond to surgical intervention. **Knee arthroscopy with meniscectomy (CPT 29881)** has been the subject of significant payer coverage changes over the past decade, driven by studies questioning efficacy for degenerative meniscal tears. Most commercial payers now require: MRI confirming a **meniscal tear morphology** (radial, bucket-handle, or root tear) rather than a diffuse degenerative tear, absence of severe tricompartmental arthritis (which shifts the indication to arthroplasty), and for degenerative tears specifically, documentation of failed PT and anti-inflammatory therapy. **Rotator cuff repair (CPT 29827)** requires MRI documentation of the tear, with payers increasingly distinguishing between partial-thickness (less than 50% thickness — may require PT trial first) and full-thickness tears (typically approved without prior conservative management requirement). Tear size in centimeters and muscle atrophy grading on MRI are relevant details that should be included in the authorization letter. **SLAP repair and labral reconstruction (CPT 29807)** face the highest scrutiny of shoulder arthroscopic procedures, with some payers classifying certain labral repairs as investigational. Submit with MRI arthrogram documentation (standard MRI is less sensitive for labral pathology) and physical examination findings consistent with a positive labral provocation test (O'Brien's, anterior slide)."
+    },
+    {
+      "h2": "Functional Limitation Scoring: The Documentation Gap Most Practices Miss",
+      "body": "**Functional limitation scoring** is the single documentation element most frequently missing from orthopedic prior authorization submissions — and its absence is a leading cause of pend requests and initial denials. Payers have shifted from accepting narrative functional descriptions to requiring **validated, scored assessment tools** that provide objective, reproducible evidence of impairment. The validated tools with strongest payer acceptance in orthopedic surgery are: **WOMAC** (Knee and Hip Osteoarthritis — widely accepted for TKA and THA), **KOOS/HOOS** (Knee/Hip Injury and Osteoarthritis Outcome Score — preferred by some payers), **ASES Score** (shoulder — widely accepted for TSA and rotator cuff procedures), **QuickDASH** (upper extremity function — useful for shoulder and elbow procedures), and **VR-12 or PROMIS** (general health — increasingly required by Medicare Advantage plans). **The key operational requirement is that these scores must be collected at every clinical encounter** — not just at the new patient visit. A single baseline score is useful; scores showing deteriorating function over 3–6 months despite conservative treatment are far more compelling. Build these scoring instruments into your EHR encounter template so they are completed automatically at each visit. For authorization submissions, include a table showing: date of assessment, score, and interpretation. A WOMAC worsening from 48 (moderate) to 67 (severe) over 4 months of PT and injection therapy tells a story that no narrative description can replace. Practices that implement structured functional scoring at every orthopedic encounter report a 15–22% improvement in first-pass authorization approval rates."
+    },
+    {
+      "h2": "Building a High-Performance Authorization Workflow for Orthopedic Surgery",
+      "body": "The operational infrastructure of a high-performing orthopedic authorization workflow has several interdependent components that must work together. **Payer criteria mapping** is the starting point — maintain a reference document for each major commercial payer and Medicare Advantage plan with the specific criteria for TKA, THA, TSA/rTSA, and arthroscopic procedures. Update this document quarterly as payer criteria change. **Submission completeness verification** — before any authorization request is submitted, a checklist review confirms that imaging reports, PT records, injection documentation, and functional scoring are all present in the submission package. Incomplete submissions are held, not submitted, until the missing documentation is obtained. **Electronic submission tracking** — every authorization submission is logged with date submitted, payer, procedure, and expected decision date. Cases pending beyond payer-stated turnaround times (typically 7–14 business days for elective procedures, 72 hours for urgent) are escalated immediately. **Denial analysis** — every denial is reviewed within 48 hours, categorized by denial reason, and routed to either the peer-to-peer queue (if it is a clinical necessity denial) or the appeal queue (if it is a policy or criteria interpretation denial). **Peer-to-peer win rates** for orthopedic surgery average 50–65% across major commercial payers — the P2P call is worth making on every clinical necessity denial. Appeal success rates for well-documented orthopedic cases are 35–45% at the first-level appeal. Practices using a systematic appeal workflow — with template appeal letters pre-populated with procedure-specific clinical literature — achieve significantly higher appeal success rates than those relying on ad-hoc submissions."
+    }
+  ],
+  "callout": {
+    "type": "feature",
+    "title": "clinIQ for Orthopedic Surgery",
+    "description": "clinIQ automates prior authorization tracking, payer criteria management, and peer-to-peer scheduling for orthopedic surgery practices.",
+    "href": "/specialties/orthopedic-surgery",
+    "buttonLabel": "Learn More"
+  },
+  "relatedPosts": [
+    { "title": "Post-Surgical RTM for Orthopedic Patients", "href": "/blog/post-surgical-rtm-orthopedic" },
+    { "title": "Orthopedic Practice Patient Flow Optimization", "href": "/blog/orthopedic-patient-flow-optimization" }
+  ],
+  "pillarLink": {
+    "title": "Orthopedic Surgery Practice Software",
+    "href": "/specialties/orthopedic-surgery",
+    "description": "See how clinIQ's platform handles authorization, billing, scheduling, and operations for high-volume orthopedic surgery practices."
+  },
+  "cta": {
+    "headline": "Get More Joint Replacement Cases Approved on First Submission",
+    "subhead": "clinIQ gives orthopedic practices the authorization workflow infrastructure to maximize first-pass approval rates and protect case revenue.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+  }
+}

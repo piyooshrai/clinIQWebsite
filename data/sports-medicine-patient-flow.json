@@ -1,0 +1,70 @@
+{
+  "slug": "sports-medicine-patient-flow",
+  "type": "blog",
+  "category": "Operations",
+  "specialty": "sports-medicine",
+  "wordCount": 1900,
+  "meta": {
+    "title": "Sports Medicine Practice Patient Flow: From Injury to Clearance | clinIQ",
+    "description": "How sports medicine practices manage patient flow across injury evaluation, imaging results, injections, PT coordination, concussion management, and return-to-sport clearance.",
+    "keywords": ["sports medicine patient flow", "sports medicine scheduling optimization", "return to sport clearance workflow", "sports medicine concussion management", "sports medicine practice operations"]
+  },
+  "publishDate": "2026-03-09",
+  "updatedDate": "2026-03-09",
+  "author": "clinIQ Team",
+  "hero": {
+    "h1": "Sports Medicine Practice Patient Flow",
+    "subhead": "Sports medicine patient flow spans injury evaluation, imaging coordination, injection procedures, PT co-management, and return-to-sport clearance — each requiring different visit templates and distinct workflows."
+  },
+  "content": [
+    {
+      "h2": "The Sports Medicine Patient Journey",
+      "body": "Sports medicine patient flow is defined by a treatment pathway that unfolds over weeks to months — not a single encounter. A patient presenting with acute ACL tear goes through: initial evaluation and imaging order, MRI results review visit, surgical vs. non-operative decision visit, pre-operative optimization (if surgical), post-operative RTM enrollment, PT coordination through rehabilitation phases, and return-to-sport clearance functional testing. That's 6-8 distinct visits with different content, different duration, and different coordination requirements.\n\nMost sports medicine practices default to a single 20-30 minute visit type that doesn't differentiate these steps. New acute injury evaluations — history, physical, diagnostic imaging orders, initial management discussion — need 40-45 minutes. Imaging results review with decision-making needs 30 minutes. Injection procedure visits (cortisone, PRP, viscosupplementation) need 30-45 minutes including consent, preparation, and observation. Return-to-sport clearance assessments need 30-40 minutes for functional testing and documentation.\n\n**Visit-type differentiation is the starting point.** Build distinct templates for: new injury evaluation (40-45 min), imaging results and treatment planning (30 min), injection procedure (30-45 min), rehabilitation progress check (20 min), and return-to-sport clearance (30-40 min). Audit actual visit durations by type before implementing — most practices find their injection visit slots are 30-40% too short when consent and observation time are included. For more on sports medicine operations, see our [Sports Medicine Practice Software](/specialties/sports-medicine) guide."
+    },
+    {
+      "h2": "Imaging Coordination: MRI, X-Ray, and Ultrasound",
+      "body": "Sports medicine practices order high volumes of musculoskeletal imaging — MRI for soft tissue injuries (ACL, rotator cuff, meniscus, labrum), X-ray for fractures and degenerative changes, and increasingly musculoskeletal ultrasound for dynamic assessment and image-guided injections. The coordination challenge is closing the loop between order and result efficiently.\n\n**The order-to-result gap** is the primary patient flow failure in sports medicine. A patient gets an MRI ordered at an acute evaluation, schedules the MRI independently (often 1-2 weeks out), the results arrive in the portal, and then the patient waits for someone to call them — or calls the office, gets put on hold, gets a message to the nurse, gets a call back. A 2-3 week process for a result that drives the next treatment decision.\n\nThe fix is **results-driven visit pre-scheduling.** At the time of imaging order, schedule the results review visit concurrently — not after the result arrives. For a routine sports injury MRI, the results review visit goes on the schedule for 7-10 days out. If the result comes back sooner, the appointment can be advanced; if imaging is delayed, it gets rescheduled. This eliminates the coordination gap and ensures the patient knows exactly when they'll discuss their results.\n\n**Musculoskeletal ultrasound** for image-guided injections (cortisone, PRP, hyaluronic acid) requires either in-office ultrasound equipment or a radiology partner. Track ultrasound availability by provider (not all sports medicine physicians are ultrasound credentialed) and block ultrasound-guided injection slots on credentialed providers' schedules only."
+    },
+    {
+      "h2": "Injection Procedure Visit Management",
+      "body": "Musculoskeletal injections are a core revenue and patient care element in sports medicine: corticosteroid injections (CPT 20610 for large joint, 20605 for intermediate, 20600 for small), hyaluronic acid viscosupplementation (CPT 20610 + J code), PRP injections (CPT 0232T or unlisted), and trigger point injections (CPT 20552-20553). Each has different preparation requirements, patient consent needs, and post-procedure observation time.\n\n**Corticosteroid injection flow:** consent review (the same consent shouldn't be re-read at every visit for established injection patients — a standing consent with annual update is more efficient), joint preparation (betadine or chlorhexidine, sterile technique), injection (2-5 minutes), observation (5-10 minutes), post-injection instructions. Total slot: 20-25 minutes.\n\n**PRP preparation adds complexity:** blood draw, centrifugation (15-20 minutes), PRP preparation and platelet count verification, injection. The centrifugation time is idle patient time that must be managed. Two approaches: (1) draw blood, send patient to a waiting room during spin, call them back for injection; (2) schedule PRP appointments in dedicated PRP slots with the centrifugation time explicitly built into the slot duration. The former works in low-volume practices; the latter scales better.\n\n**Authorization before injection** is the operations failure that creates day-of cancellations. Hyaluronic acid and PRP require prior authorization from most payers. Confirm authorization before the patient arrives — not on the day of the procedure. A same-day authorization denial for a patient who drove an hour for a PRP injection is an avoidable patient experience failure and a revenue loss."
+    },
+    {
+      "h2": "PT Co-Management and Coordination",
+      "body": "Sports medicine practices rely heavily on physical therapy as the primary intervention for most musculoskeletal injuries — ACL rehabilitation protocols run 6-9 months, rotator cuff repairs run 4-6 months, ankle sprains run 4-8 weeks. The sports medicine physician and PT are co-managing the same patient, but in most practices they operate with minimal coordination: the physician orders PT at the initial visit and doesn't see the patient again until the PT discharge or until something goes wrong.\n\n**Protocol-defined touchpoint visits** create a structured co-management model. For ACL non-operative management: sports medicine check at 6 weeks (early PT progress assessment and swelling management), 3 months (mid-phase strengthening assessment), 6 months (return-to-sport readiness assessment). These visits are scheduled at the time of the initial evaluation, not ad hoc when the patient calls. The PT communicates functional progress scores (quadriceps strength, single-leg squat, hop tests) to the sports medicine provider before each touchpoint.\n\n**PT progress tracking** in the sports medicine chart avoids the communication gap. When a patient reports at their 3-month visit that they're \"still doing PT and it's going okay,\" but the provider has no access to PT functional outcome data, clinical decision-making is impaired. Establish a communication protocol — PT sends a structured progress note before every scheduled touchpoint — and track compliance with the protocol."
+    },
+    {
+      "h2": "Concussion Management Workflow",
+      "body": "Concussion management creates a specific patient flow demand in sports medicine practices serving athletes. The Graduated Return to Play (GRTP) protocol has 6 stages — symptom-limited activity, light aerobic exercise, sport-specific exercise, non-contact training, full contact practice, return to competition — each requiring clinical clearance before advancement. This creates a series of brief follow-up visits (15-20 minutes each) spaced 24-48 hours apart in the early phases.\n\nThe **scheduling challenge** is that concussion patients need frequent brief visits during the acute phase — sometimes 3-4 visits in a single week — that can't be planned far in advance. They also need to be seen promptly when symptoms worsen (post-exertional headache, symptom flare after stage advancement). Building **concussion-specific urgent access slots** — 2-3 per day per provider, held until morning of — accommodates this demand without disrupting the scheduled visit queue.\n\n**Return-to-sport clearance documentation** for concussed athletes is high-stakes: ImPACT or similar baseline-to-recovery cognitive testing comparison, symptom score resolution (PCSS), exertional tolerance assessment, and sport-specific functional testing. The clearance note must document completion of all GRTP stages and clinical reasoning for return clearance — this is a medicolegal document when student athletes or professional athletes are involved. Build a structured clearance note template that ensures completeness."
+    },
+    {
+      "h2": "Team and Event Coverage Impact on Clinic",
+      "body": "Sports medicine physicians covering athletic teams and events face a scheduling challenge unique to the specialty: unpredictable provider absence from the clinic due to sideline coverage obligations. A game, tournament, or event can pull a provider for a half day or full day on short notice — especially in academic or professional sports medicine settings.\n\nThis creates the same cascade problem as labor and delivery coverage in OB/GYN: the clinic schedule doesn't pause when the physician is on the sideline. Patients wait, back-office staff field calls, and the afternoon schedule runs behind.\n\n**Advance notice-based clinic management** is the primary mitigation: when coverage dates are known weeks in advance (scheduled games, tournaments), build reduced clinic days or half-day clinic blocks around those dates. For truly unpredictable event emergencies, establish a **coverage protocol** — which visit types can be seen by an APP without the physician, which must be rescheduled, and what the patient communication script is when a provider is unexpectedly pulled to event coverage.\n\nTrack the frequency and duration of event-related clinic disruptions monthly. If a provider is on sideline coverage more than 20% of clinic days, the clinic schedule needs structural adjustment — not reactive management each time an event occurs."
+    },
+    {
+      "h2": "Return-to-Sport Clearance and Functional Testing",
+      "body": "Return-to-sport (RTS) clearance is the terminal event in the sports medicine patient pathway and often the most coordination-intensive. For surgical cases (ACL, rotator cuff, labral repair), RTS clearance typically requires: PT functional testing (hop tests, strength assessment, sport-specific movement screening), physician clinical assessment, and sometimes psychological readiness assessment. The functional testing must happen before the clearance visit, not at the same appointment.\n\n**Pre-clearance testing coordination:** schedule the PT functional assessment 3-5 days before the planned RTS clearance visit. The PT provides standardized results (quadriceps symmetry index, LSSI, Y-Balance results) to the physician before the clearance appointment. The clearance visit then focuses on clinical assessment and shared decision-making rather than data collection.\n\n**RTS clearance documentation for student athletes** must include communication to coaches, trainers, and school administration — not just the patient. Build a clearance letter template that states the date of clearance, any restrictions or monitoring requirements, and the provider's name and credentials. Track which clearances have had letters sent vs. completed vs. pending — clearance without documentation creates liability and communication gaps.\n\n**RTS clearance for professional athletes** carries additional requirements: team physician coordination, independent medical examination potential, and sometimes league-mandated protocols. Document the specific clearance criteria used and the decision rationale explicitly, as these records may be reviewed by team medical staff, agents, or in dispute resolution."
+    }
+  ],
+  "callout": {
+    "type": "feature",
+    "title": "clinIQ for Sports Medicine",
+    "description": "clinIQ's sports medicine configuration coordinates imaging results review scheduling, injection authorization tracking, PT co-management touchpoints, and return-to-sport clearance documentation.",
+    "href": "/specialties/sports-medicine",
+    "buttonLabel": "Learn More"
+  },
+  "relatedPosts": [
+    { "title": "Sports Medicine RTM: Injury Recovery Monitoring", "href": "/blog/sports-medicine-rtm-injury-recovery" },
+    { "title": "Sports Medicine Prior Auth: Imaging and Procedures", "href": "/blog/sports-medicine-prior-auth-imaging-procedures" }
+  ],
+  "pillarLink": {
+    "title": "Sports Medicine Practice Software",
+    "href": "/specialties/sports-medicine",
+    "description": "Complete guide to sports medicine practice operations — RTM billing, prior auth, imaging coordination, and patient flow."
+  },
+  "cta": {
+    "headline": "Optimize your sports medicine patient flow",
+    "subhead": "See how clinIQ coordinates injection scheduling, PT co-management, and return-to-sport clearance in a 15-minute demo.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+  }
+}
