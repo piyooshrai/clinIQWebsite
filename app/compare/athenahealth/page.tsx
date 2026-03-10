@@ -224,7 +224,7 @@ export default function AthenahealthPage() {
 
         {/* Feature Table */}
         <section style={{ padding: '5rem 1.5rem', background: 'var(--cream, #f5f3ef)' }}>
-          <div style={{ maxWidth: '900px', margin: '0 auto' }}>
+          <div style={{ maxWidth: '900px', margin: '0 auto', overflowX: 'auto' }}>
             <h2
               style={{
                 fontFamily: "'Instrument Serif', Georgia, serif",

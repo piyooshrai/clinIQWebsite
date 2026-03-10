@@ -212,7 +212,7 @@ export default function ClearwavePage() {
 
         {/* Comparison table */}
         <section style={{ padding: '5rem 1.5rem', background: 'var(--cream, #f5f3ef)' }}>
-          <div style={{ maxWidth: '900px', margin: '0 auto' }}>
+          <div style={{ maxWidth: '900px', margin: '0 auto', overflowX: 'auto' }}>
             <h2 style={{ fontSize: '2rem', fontWeight: 800, marginBottom: '2rem', textAlign: 'center' }}>
               Feature comparison
             </h2>

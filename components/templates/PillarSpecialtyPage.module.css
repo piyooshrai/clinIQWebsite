@@ -55,6 +55,20 @@
   }
 }
 
+@media (max-width: 767px) {
+  .toc {
+    display: none;
+  }
+
+  .contentOuter {
+    padding: 3rem 0;
+  }
+
+  .sections {
+    gap: 3rem;
+  }
+}
+
 /* ── TABLE OF CONTENTS ───────────────────────────── */
 .toc {
   position: sticky;
