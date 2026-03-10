@@ -1,0 +1,156 @@
+{
+  "slug": "telehealth",
+  "name": "Telehealth",
+  "pageType": "feature-pillar",
+  "wordCount": 3400,
+  "publishDate": "2025-05-21",
+  "meta": {
+    "title": "Telehealth Software | Native Video Visits & Virtual Care | clinIQ",
+    "description": "Complete guide to telehealth and virtual care. Native HD video visits integrated with scheduling, patient flow, and documentation. No third-party apps. Seamless patient experience through clinIQ app.",
+    "keywords": ["telehealth software", "virtual care platform", "video visit software", "telemedicine platform", "healthcare video conferencing", "HIPAA compliant video", "telehealth integration", "virtual clinic visits", "remote patient visits", "telehealth scheduling"]
+  },
+  "hero": {
+    "h1": "Telehealth Software",
+    "subhead": "Native HD video visits integrated directly into scheduling, patient flow, and documentation. Patients join from the clinIQ app with one tap. Providers see virtual visits in the same queue as in-person visits. No third-party apps, no separate logins, no friction.",
+    "stats": [
+      { "value": "Native", "label": "HD video built in" },
+      { "value": "One tap", "label": "patient join from app" },
+      { "value": "Integrated", "label": "with scheduling and flow" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "telehealth-value", "title": "Why Integrated Telehealth Matters" },
+    { "id": "native-video", "title": "Native Video Technology" },
+    { "id": "patient-experience", "title": "Patient Experience" },
+    { "id": "provider-workflow", "title": "Provider Workflow" },
+    { "id": "scheduling-integration", "title": "Scheduling Integration" },
+    { "id": "documentation", "title": "Documentation and Billing" },
+    { "id": "hybrid-care", "title": "Hybrid Care Models" },
+    { "id": "implementation", "title": "Implementation" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "telehealth-value",
+      "h2": "Why Integrated Telehealth Matters",
+      "content": "Telehealth became essential during the pandemic, but most practices implemented it hastily using standalone video platforms that created fragmented workflows. Providers juggle separate systems for in-person [scheduling](/features/scheduling), video visit scheduling, and the video platform itself. Patients receive different instructions for virtual visits than in-person visits. Documentation requires manual connection between the video encounter and the clinical record. The result is telehealth that works but creates friction for everyone involved.\n\nIntegrated telehealth eliminates this fragmentation by building video visits directly into the same platform that handles [scheduling](/features/scheduling), [patient flow](/features/patient-flow), [check-in](/features/patient-check-in), and documentation. A telehealth visit is simply another appointment type that happens to occur via video rather than in an exam room. The scheduling workflow is identical. The patient flow visibility is identical. The documentation connection is automatic. Staff and providers do not switch between systems or learn separate workflows for virtual care.\n\nPatient experience improves dramatically with integrated telehealth. Patients who already use the [clinIQ app](/features/patient-app) for check-in, [messaging](/features/secure-messaging), and appointment management join video visits through the same familiar interface. They do not download a separate app, create a separate account, or navigate unfamiliar video software. When their appointment time arrives, they tap a button in the app and connect to their provider. The simplicity increases adoption and reduces the technical support burden that plagues standalone video solutions.\n\nProvider adoption increases when telehealth fits naturally into existing workflow. Providers resistant to telehealth often cite the hassle of managing separate systems rather than objecting to virtual care itself. When video visits appear in the same [patient queue](/features/patient-flow) as in-person visits, when documentation connects automatically, when the technology is invisible, resistance dissolves. Telehealth becomes just another way to see patients rather than a separate workflow requiring extra effort.\n\nPractice efficiency gains compound across [scheduling](/features/scheduling), [patient flow](/features/patient-flow), and documentation. A practice using integrated telehealth can flex between in-person and virtual visits based on clinical need and patient preference without operational complexity. Same-day virtual visits become easy to offer because they use the same scheduling infrastructure. No-show patients can convert to telehealth visits rather than losing the appointment entirely. The flexibility creates capacity and revenue that fragmented systems cannot achieve."
+    },
+    {
+      "id": "native-video",
+      "h2": "Native Video Technology Built for Healthcare",
+      "content": "clinIQ telehealth uses native video technology purpose-built for healthcare rather than repurposing consumer video conferencing tools. The video infrastructure is designed for clinical encounters with the reliability, quality, and security that healthcare requires.\n\nHD video quality ensures providers can observe patients clearly enough for clinical assessment. Video resolution adapts to available bandwidth, maintaining the best possible quality on each connection. Audio clarity is optimized for conversation, reducing the frustration of garbled speech or echo that plagues consumer video tools used in clinical contexts. The technology prioritizes the clinical interaction over features irrelevant to healthcare encounters.\n\nConnection reliability matters enormously for clinical care. A dropped video call during a patient encounter creates frustration, wastes time, and may compromise care. The native video infrastructure uses redundant connection paths and automatic reconnection to maintain stability even when network conditions fluctuate. Patients on cellular connections or weak WiFi experience fewer disruptions than they would with consumer video platforms.\n\nSecurity and compliance are built into the architecture rather than bolted on afterward. Video streams are encrypted end-to-end. No video data passes through servers that could be accessed by unauthorized parties. The infrastructure meets HIPAA requirements for protected health information transmitted via video. Practices can offer telehealth confidently without worrying that their video platform creates compliance exposure. The same security standards apply to [secure messaging](/features/secure-messaging) and [file exchange](/features/secure-file-exchange) through the [clinIQ app](/features/patient-app).\n\nBrowser-based fallback ensures patients without the [clinIQ app](/features/patient-app) installed can still join video visits. When a patient clicks the visit link from a text message or email, they can join through their web browser without any download. This fallback accommodates patients who prefer not to install apps while still providing integrated telehealth for the practice. The experience is slightly less seamless than the app but remains far simpler than standalone video platforms requiring separate accounts.\n\nScreen sharing and image capture extend the clinical utility of video visits. Providers can share their screen to review test results, images, or educational materials with patients. Patients can share their screen or camera to show providers documents, medications, or areas of concern. Images captured during the visit attach to the patient record for documentation. [Secure file exchange](/features/secure-file-exchange) handles any documents patients need to share before or after the visit."
+    },
+    {
+      "id": "patient-experience",
+      "h2": "Patient Experience Through the clinIQ App",
+      "content": "Patient experience determines telehealth adoption. Complex or confusing video visit processes lead patients to prefer in-person visits even when virtual care would be more convenient. Simple, intuitive video visits earn patient preference and increase utilization. The [clinIQ app](/features/patient-app) delivers simplicity that drives adoption.\n\nAppointment visibility shows upcoming video visits alongside in-person appointments in the same interface. Patients see their scheduled telehealth visit with date, time, provider, and clear indication that this is a video visit. They do not need to check a separate system or remember different instructions. The appointment appears where all their appointments appear through [scheduling](/features/scheduling).\n\nPre-visit preparation happens through the same [check-in](/features/patient-check-in) flow used for in-person visits. Patients confirm demographics, complete any required forms, and answer pre-visit questions through the app before their video visit. Clinical questionnaires relevant to their condition can be completed in advance — these same questionnaires feed [RTM programs](/features/rtm-billing) for patients enrolled in remote monitoring. When the visit begins, the provider has all the information they would have for an in-person visit rather than spending visit time gathering basic information.\n\nJoining the visit requires one tap when the appointment time arrives. The patient receives a push notification that their provider is ready. They tap the notification or the join button in their appointments view, and the video connection initiates. There is no meeting ID to enter, no waiting room to navigate, no separate login. The patient taps one button and sees their provider.\n\nWaiting experience during brief holds before the provider joins shows the patient that connection is active and the provider will join shortly. If the provider is delayed, staff can send a [message](/features/secure-messaging) through the app letting the patient know the current wait time. This communication mirrors the in-office experience where staff would update a waiting patient about delays.\n\nTechnical support when needed connects patients to help without requiring them to call the office. If a patient experiences connection difficulty, the app provides troubleshooting guidance and the option to request staff assistance via [secure messaging](/features/secure-messaging). Staff can see which patients are having difficulty joining and proactively reach out. Most technical issues resolve with simple guidance, and the rare persistent problem can trigger a fallback to phone or rescheduling.\n\nPost-visit follow-up including visit summary, instructions, and follow-up [scheduling](/features/scheduling) all happen through the app just as they would after an in-person visit. The patient receives documentation of their telehealth encounter and can [message](/features/secure-messaging) the practice with questions. Documents can be shared through [file exchange](/features/secure-file-exchange). The continuity between pre-visit, visit, and post-visit creates a unified experience rather than isolated interactions."
+    },
+    {
+      "id": "provider-workflow",
+      "h2": "Provider Workflow That Matches In-Person Care",
+      "content": "Provider workflow for telehealth visits mirrors in-person visit workflow as closely as possible. Providers should not need to learn a separate system or follow different procedures for video visits. The visit happens via video, but everything around the visit works the same way.\n\n[Patient queue](/features/patient-flow) shows telehealth patients alongside in-person patients based on readiness and scheduled time. A provider finishing one visit glances at their queue and sees the next patient regardless of whether that patient is in an exam room or waiting for a video connection. The queue indicates which patients are video visits, but the workflow for moving to the next patient is identical. This unified visibility is the same [patient flow management](/features/patient-flow) used for in-person operations.\n\nLaunching the visit happens from the same interface where providers access patient information. The provider clicks to join the video visit, and the connection initiates. There is no separate application to open, no meeting to start, no link to copy and share. The video visit launches from the clinical workflow where the provider already is.\n\nClinical documentation during the visit works exactly as it does for in-person visits. The provider has access to the patient chart, can review history and prior visits, can enter notes, and can place orders. The documentation system does not know or care whether the current encounter is in-person or video. Providers use familiar tools in familiar ways.\n\nVisit completion follows the same process as in-person visits. The provider completes their documentation, the visit status updates to complete in [patient flow](/features/patient-flow), and any follow-up tasks trigger. If follow-up [scheduling](/features/scheduling) is needed, the workflow is identical. The visit ends, the provider moves to the next patient, and the telehealth encounter integrates into the patient record alongside all other encounters.\n\nMulti-participant visits can include interpreters, family members, or other providers when clinically appropriate. Adding participants to a video visit does not require technical gymnastics. The additional participants receive links and join the same video session. This capability supports care scenarios requiring multiple participants — particularly valuable for [oncology](/specialties/oncology) consultations, [neurology](/specialties/neurology) evaluations, and [behavioral health](/specialties/behavioral-health) family sessions.\n\nProvider-to-provider handoff works when a visit needs to transfer to another provider. If the patient needs to speak with a specialist who happens to be available, the specialist can join the video visit without the patient needing to hang up and reconnect. Warm handoffs that would be impractical in a physical clinic become straightforward in video."
+    },
+    {
+      "id": "scheduling-integration",
+      "h2": "Scheduling Integration for Seamless Operations",
+      "content": "Telehealth [scheduling](/features/scheduling) uses the same scheduling infrastructure as in-person visits. Video visits are simply another appointment type with appropriate duration and resource requirements. The scheduling team uses one system, one workflow, and one view of provider availability regardless of visit modality.\n\nAppointment type configuration defines which visit types can occur via telehealth and which require in-person care. A follow-up visit might be offered as either in-person or telehealth based on patient preference. A procedure obviously requires in-person attendance. The configuration ensures that telehealth is offered where appropriate and in-person is required where necessary. [Primary care](/specialties/primary-care), [psychiatry](/specialties/psychiatry), and [endocrinology](/specialties/endocrinology) practices often find that the majority of follow-up visits can occur via telehealth.\n\nProvider telehealth availability can be configured separately from in-person availability when needed. A provider might work from home on Fridays doing exclusively telehealth visits. Another provider might intersperse video visits throughout in-office days. The [scheduling](/features/scheduling) system accommodates both patterns, showing accurate availability for each visit type.\n\nPatient self-scheduling can include telehealth options when enabled. Patients booking online see available appointments with clear indication of which are video visits. They can choose based on preference and convenience. Some patients prefer telehealth for routine follow-ups. Others prefer in-person care. Self-scheduling lets patients express their preference while booking.\n\nSame-day telehealth becomes easy to offer because the infrastructure already exists. When a patient calls with an urgent concern and no in-person availability exists, offering a same-day video visit is operationally simple. The schedulers book it like any appointment. The patient joins through the [app](/features/patient-app). Telehealth creates access that would otherwise require turning patients away or sending them to [urgent care](/specialties/urgent-care).\n\nConversion from in-person to telehealth handles situations where a scheduled in-person patient cannot make it to the office. Rather than canceling or no-showing, the patient can convert to a video visit and still receive care. The scheduler changes the appointment type, the patient receives updated instructions, and the visit occurs virtually. This flexibility reduces no-shows tracked in [practice analytics](/features/analytics) and maintains care continuity."
+    },
+    {
+      "id": "documentation",
+      "h2": "Documentation and Billing Integration",
+      "content": "Telehealth documentation integrates with clinical records automatically. The encounter is documented in the patient chart with appropriate indication that it occurred via video. Providers use the same documentation tools they use for in-person visits, and the record reflects the complete care history regardless of visit modality.\n\nEncounter documentation captures that the visit occurred via telehealth, which is required for accurate billing and compliance. The documentation template can include telehealth-specific elements when needed, such as confirmation of patient location for state licensing compliance and patient consent for telehealth services. These elements are built into the workflow rather than requiring manual addition.\n\nBilling code selection accounts for telehealth-specific modifiers and place of service codes. The system applies appropriate modifiers automatically based on the encounter type. Billing staff does not need to manually identify which visits were telehealth and apply modifiers retrospectively. The correct codes generate from the encounter itself — tracked in [practice analytics](/features/analytics) for revenue monitoring.\n\nPayer rules for telehealth vary and continue evolving. Some payers require specific documentation elements. Some limit telehealth reimbursement for certain services. Some have geographic or originating site requirements. The billing integration accounts for these variations, alerting staff when a telehealth encounter may have billing limitations and ensuring compliant claims submission.\n\nAudio-only visits when video is not feasible use appropriate billing codes and documentation. When a patient cannot connect via video and the visit occurs by phone, the encounter documents as audio-only with appropriate coding. This fallback ensures care continues when technology issues arise while maintaining accurate documentation and billing.\n\nTime tracking for telehealth visits captures duration for time-based billing codes. The system records when the video connection began and ended, providing documentation to support time-based billing. For practices with [RTM programs](/features/rtm-billing), telehealth visits provide an opportunity to review monitoring data and discuss findings with patients."
+    },
+    {
+      "id": "hybrid-care",
+      "h2": "Hybrid Care Models That Maximize Flexibility",
+      "content": "Most practices benefit from hybrid care models that combine in-person and telehealth visits based on clinical need and patient preference. Integrated telehealth enables hybrid models that would be operationally complex with separate video platforms.\n\nClinical appropriateness determines which visits should occur in-person versus virtually. Initial evaluations often benefit from in-person physical examination. Routine follow-ups for stable conditions often work well via telehealth. Procedures obviously require in-person attendance. [Behavioral health](/specialties/behavioral-health) visits may work better via video for some patients who feel more comfortable at home. [Psychiatry](/specialties/psychiatry) practices often conduct the majority of medication management visits via telehealth. The practice establishes guidelines, and [scheduling](/features/scheduling) applies them while respecting patient preference where clinically appropriate.\n\nPatient preference within clinical guidelines lets patients choose their preferred modality when either would be acceptable. A patient with mobility limitations might prefer telehealth even when in-person would be clinically equivalent. A patient who wants the in-person connection might prefer office visits even when telehealth would be convenient. Respecting preference increases [satisfaction](/features/patient-satisfaction) and adherence.\n\nGeographic reach expands through telehealth without opening satellite locations. Patients who would find the office location inconvenient can receive care virtually, expanding the practice's geographic reach. For specialties with limited local availability like [rheumatology](/specialties/rheumatology), [endocrinology](/specialties/endocrinology), or [neurology](/specialties/neurology), telehealth can serve patients across a wider region. The same providers can care for more patients without additional physical infrastructure.\n\nCapacity flexibility adjusts to demand through modality shifting. When in-person demand exceeds room availability shown in [patient flow](/features/patient-flow), some visits can shift to telehealth, increasing daily capacity without adding rooms. When providers need to work remotely occasionally, they can continue seeing patients via telehealth rather than canceling. The flexibility creates resilience against capacity constraints.\n\nNo-show recovery converts no-show patients to telehealth when they are willing but unable to make it in. A patient who forgot their appointment and cannot get to the office might accept a video visit instead. Converting even a portion of no-shows — tracked in [analytics](/features/analytics) — to completed telehealth visits recovers revenue and maintains care that would otherwise be lost.\n\nFollow-up care continuity keeps patients engaged between in-person visits. A patient seen in-person for initial evaluation might have a telehealth follow-up two weeks later to assess response to treatment, then return in-person as needed. For patients enrolled in [RTM](/features/rtm-billing), telehealth visits provide touchpoints to review monitoring data. This pattern increases touchpoints and improves care without requiring patients to travel repeatedly to the office."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation That Delivers Value Quickly",
+      "content": "Telehealth implementation builds on the clinIQ platform that practices already use for [scheduling](/features/scheduling) and patient engagement through the [patient app](/features/patient-app). Adding telehealth does not require implementing an entirely new system. The video capability activates within the existing platform.\n\nConfiguration during the first week establishes telehealth-appropriate appointment types in [scheduling](/features/scheduling), provider availability for video visits, and patient communication templates. Existing appointment types can be cloned and modified for telehealth versions, maintaining duration and other settings while adding video capability. Provider schedules update to reflect telehealth availability where desired.\n\nStaff training during the second week covers the operational workflow for telehealth visits including scheduling, patient preparation through [check-in](/features/patient-check-in), troubleshooting connection issues, and visit completion. The training is brief because the workflow mirrors in-person visits. Staff learns the telehealth-specific elements without relearning the overall process.\n\nProvider training covers launching video visits, managing the video interface during encounters, and handling common scenarios such as adding participants or recovering from connection drops. Providers comfortable with consumer video conferencing adapt almost immediately. Providers less familiar with video technology receive additional support until comfortable.\n\nPatient communication introduces telehealth availability to patients before their first video visit. Patients receive information about what to expect, how to join their visit through the [clinIQ app](/features/patient-app), and what to do if they experience technical difficulty. For patients already using the app for [check-in](/features/patient-check-in) and [messaging](/features/secure-messaging), the video visit experience is intuitive. For patients new to the app, initial video visits include brief orientation.\n\nGo-live during the third week begins scheduling and conducting telehealth visits. The implementation team provides heightened support as staff and providers encounter real-world situations. Technical issues surface and resolve. Workflow refinements address any friction points. By week's end, telehealth operates as a normal part of practice operations.\n\nOngoing optimization improves telehealth utilization and quality over time. [Analytics](/features/analytics) reveal which patients and visit types work well for telehealth. [Patient satisfaction](/features/patient-satisfaction) surveys capture feedback on video visit experience. Provider feedback identifies workflow enhancements. Telehealth becomes increasingly integrated into practice operations as experience accumulates."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do patients need to download an app for telehealth?",
+      "a": "The [clinIQ app](/features/patient-app) provides the best telehealth experience with one-tap joining and integrated [check-in](/features/patient-check-in), [messaging](/features/secure-messaging), and appointment management. Patients who prefer not to install apps can join video visits through their web browser using a link sent via text or email. Both options work without requiring separate video platform accounts or downloads."
+    },
+    {
+      "q": "Is the video HIPAA compliant?",
+      "a": "Yes. The native video technology is built for healthcare with end-to-end encryption, secure infrastructure, and compliance with HIPAA requirements for protected health information transmitted via video. The same security applies to [secure messaging](/features/secure-messaging) and [file exchange](/features/secure-file-exchange). Practices can offer telehealth confidently without compliance concerns."
+    },
+    {
+      "q": "How does telehealth scheduling work?",
+      "a": "Telehealth appointments schedule through the same [scheduling system](/features/scheduling) as in-person appointments. Video visits are simply another appointment type. Schedulers use one workflow, providers see one [queue](/features/patient-flow), and patients see all appointments in one view. No separate scheduling system required."
+    },
+    {
+      "q": "What about billing for telehealth visits?",
+      "a": "The system automatically applies appropriate telehealth modifiers and place of service codes based on the encounter type. Documentation captures required telehealth elements. Billing generates correctly without manual modifier application. Revenue appears in [practice analytics](/features/analytics)."
+    },
+    {
+      "q": "Can multiple people join a video visit?",
+      "a": "Yes. Family members, interpreters, or other providers can join video visits when clinically appropriate. Additional participants receive links and join the same session. This supports care scenarios requiring multiple participants common in [oncology](/specialties/oncology), [neurology](/specialties/neurology), and [behavioral health](/specialties/behavioral-health)."
+    },
+    {
+      "q": "What happens if the video connection drops?",
+      "a": "The system uses redundant connection paths and automatic reconnection to maintain stability. If disconnection occurs, both patient and provider can rejoin easily. The app provides troubleshooting guidance, and staff can see which patients are experiencing difficulty. [Secure messaging](/features/secure-messaging) provides backup communication."
+    },
+    {
+      "q": "Can patients convert in-person appointments to telehealth?",
+      "a": "Yes. When a patient cannot make it to the office, the appointment can convert to a video visit. The scheduler changes the appointment type in [scheduling](/features/scheduling), the patient receives updated instructions, and care continues virtually rather than being cancelled."
+    },
+    {
+      "q": "Which specialties benefit most from telehealth?",
+      "a": "[Behavioral health](/specialties/behavioral-health), [psychiatry](/specialties/psychiatry), [primary care](/specialties/primary-care), [endocrinology](/specialties/endocrinology), and [rheumatology](/specialties/rheumatology) practices often conduct a majority of follow-up visits via telehealth. Any specialty with routine follow-ups for stable conditions can increase capacity through telehealth."
+    }
+  ],
+  "cta": {
+    "headline": "See Integrated Telehealth Working",
+    "subhead": "Fifteen-minute demo showing native video visits, patient app experience, provider workflow, and scheduling integration. See how telehealth becomes seamless rather than separate.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "See Telehealth Features", "href": "/resources/telehealth-demo" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "Native", "label": "HD video built in" },
+      { "value": "One tap", "label": "patient join" },
+      { "value": "Integrated", "label": "scheduling and documentation" }
+    ],
+    "testimonial": {
+      "quote": "We tried three different telehealth platforms before clinIQ. Each one was its own system with its own scheduling and its own headaches. Now video visits are just appointments. They show up in the same schedule, the same patient queue, the same documentation. Our staff stopped dreading telehealth because it stopped being extra work.",
+      "attribution": "Practice Manager",
+      "practice": "Primary care practice with four providers",
+      "location": "Oregon"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "Patient App & Portal",
+      "href": "/features/patient-app",
+      "description": "The unified patient experience including telehealth, messaging, check-in, and appointments."
+    },
+    {
+      "type": "specialty",
+      "title": "Behavioral Health",
+      "href": "/specialties/behavioral-health",
+      "description": "Telehealth strategies for mental health and therapy practices."
+    },
+    {
+      "type": "specialty",
+      "title": "Primary Care",
+      "href": "/specialties/primary-care",
+      "description": "Hybrid care models combining telehealth with in-person visits."
+    }
+  ],
+  "schema": {
+    "type": "SoftwareApplication",
+    "applicationCategory": "Telehealth Software",
+    "operatingSystem": "iOS, Android, Web",
+    "offers": {
+      "price": "499",
+      "priceCurrency": "USD"
+    }
+  }
+}
