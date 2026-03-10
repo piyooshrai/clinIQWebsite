@@ -1,3 +1,4 @@
+import { renderContent } from '@/lib/renderContent'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
 import FaqAccordion from '@/components/FaqAccordion'
@@ -39,43 +40,6 @@ interface SpecialtyData {
     testimonial: { quote: string; attribution: string; location: string }
   }
   resource: { title: string; description: string; href: string }
-}
-
-// ── Content renderer ─────────────────────────────────────────────────────────
-// Converts newline-delimited text into paragraphs and bullet lists.
-// • Double newline (\n\n) = new block
-// • Lines starting with • = bullet item
-// • Everything else = paragraph text
-
-function renderContent(content: string) {
-  const blocks = content.split('\n\n')
-  return blocks.map((block, blockIdx) => {
-    const lines = block.split('\n')
-    const bulletLines = lines.filter((l) => l.trimStart().startsWith('•'))
-    const textLines = lines.filter((l) => !l.trimStart().startsWith('•'))
-
-    if (bulletLines.length > 0) {
-      const introText = textLines.join(' ').trim()
-      return (
-        <div key={blockIdx} className={css.contentBlock}>
-          {introText && <p className={css.contentP}>{introText}</p>}
-          <ul className={css.contentUL}>
-            {bulletLines.map((bullet, j) => (
-              <li key={j} className={css.contentLI}>
-                {bullet.replace(/^[•\s]+/, '')}
-              </li>
-            ))}
-          </ul>
-        </div>
-      )
-    }
-
-    return (
-      <p key={blockIdx} className={css.contentP}>
-        {block}
-      </p>
-    )
-  })
 }
 
 // Stage colours cycle through this palette
@@ -217,7 +181,12 @@ export default function JsonSpecialtyPage({ data }: { data: SpecialtyData }) {
           >
             <div className={css.contentInner}>
               <h2 className={css.contentH2}>{section.h2}</h2>
-              <div className={css.content}>{renderContent(section.content)}</div>
+              <div className={css.content}>{renderContent(section.content, {
+                contentBlock: css.contentBlock,
+                contentP: css.contentP,
+                contentUL: css.contentUL,
+                contentLI: css.contentLI,
+              })}</div>
             </div>
           </section>
         ))}

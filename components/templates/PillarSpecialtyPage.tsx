@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react'
+import { renderInline, renderContent } from '@/lib/renderContent'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
 import FaqAccordion from '@/components/FaqAccordion'
@@ -49,77 +49,6 @@ export interface PillarData {
     testimonial: { quote: string; attribution: string; practice?: string; location: string }
   }
   relatedContent: readonly RelatedItem[]
-}
-
-// ── Inline markdown renderer ──────────────────────────────────────────────────
-// Handles **bold** and [text](href) within text.
-
-function renderInline(text: string): ReactNode {
-  const parts = text.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\))/)
-  return (
-    <>
-      {parts.map((part, i) => {
-        if (part.startsWith('**') && part.endsWith('**')) {
-          return <strong key={i}>{part.slice(2, -2)}</strong>
-        }
-        const m = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/)
-        if (m) {
-          return (
-            <a key={i} href={m[2]} className={css.inlineLink}>
-              {m[1]}
-            </a>
-          )
-        }
-        return part || null
-      })}
-    </>
-  )
-}
-
-// ── Content renderer ──────────────────────────────────────────────────────────
-// Splits on \n\n, renders bullets, "Related:" refs, and paragraphs.
-
-function renderContent(content: string) {
-  const blocks = content.split('\n\n')
-  return blocks.map((block, idx) => {
-    const trimmed = block.trim()
-    if (!trimmed) return null
-
-    const lines = trimmed.split('\n')
-    const bulletLines = lines.filter((l) => l.trimStart().startsWith('•'))
-    const nonBulletLines = lines.filter((l) => !l.trimStart().startsWith('•'))
-
-    if (bulletLines.length > 0) {
-      const intro = nonBulletLines.join(' ').trim()
-      return (
-        <div key={idx} className={css.contentBlock}>
-          {intro && <p className={css.contentP}>{renderInline(intro)}</p>}
-          <ul className={css.contentUL}>
-            {bulletLines.map((b, j) => (
-              <li key={j} className={css.contentLI}>
-                {renderInline(b.replace(/^[•\s]+/, ''))}
-              </li>
-            ))}
-          </ul>
-        </div>
-      )
-    }
-
-    // Related link line — offset with teal left border
-    if (trimmed.startsWith('**Related:')) {
-      return (
-        <p key={idx} className={css.relatedRef}>
-          {renderInline(trimmed)}
-        </p>
-      )
-    }
-
-    return (
-      <p key={idx} className={css.contentP}>
-        {renderInline(trimmed)}
-      </p>
-    )
-  })
 }
 
 // ── Component ─────────────────────────────────────────────────────────────────
@@ -247,7 +176,14 @@ export default function PillarSpecialtyPage({ data }: { data: PillarData }) {
               {data.sections.map((section) => (
                 <section key={section.id} id={section.id} className={css.section}>
                   <h2 className={css.sectionH2}>{section.h2}</h2>
-                  <div>{renderContent(section.content)}</div>
+                  <div>{renderContent(section.content, {
+                    contentBlock: css.contentBlock,
+                    contentP: css.contentP,
+                    contentUL: css.contentUL,
+                    contentLI: css.contentLI,
+                    relatedRef: css.relatedRef,
+                    inlineLink: css.inlineLink,
+                  })}</div>
                 </section>
               ))}
             </div>
