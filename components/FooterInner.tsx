@@ -23,6 +23,12 @@ export default function FooterInner() {
                 <li><Link href="/features/pre-auth">Pre-Auth</Link></li>
                 <li><Link href="/features/scheduling">Scheduling</Link></li>
                 <li><Link href="/features/analytics">Analytics</Link></li>
+                <li><Link href="/features/telehealth">Telehealth</Link></li>
+                <li><Link href="/features/patient-satisfaction">Patient Satisfaction</Link></li>
+                <li><Link href="/features/wearable-integration">Wearable Integration</Link></li>
+                <li><Link href="/features/secure-messaging">Secure Messaging</Link></li>
+                <li><Link href="/features/secure-file-exchange">Secure File Exchange</Link></li>
+                <li><Link href="/features/patient-app">Patient App</Link></li>
               </ul>
             </div>
 
