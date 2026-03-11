@@ -5,9 +5,9 @@ import s from '@/app/specialties/specialty-full.module.css'
 import f from './features.module.css'
 
 export const metadata: Metadata = {
-  title: 'clinIQ Features — Patient Flow, Check-In, RTM, Pre-Auth, Scheduling, Analytics',
+  title: 'clinIQ Features — Patient Flow, Check-In, RTM, Telehealth, Scheduling & More',
   description:
-    'clinIQ gives clinics six integrated tools: real-time patient flow, automated check-in, RTM billing, pre-authorization, scheduling, and analytics. One platform. Every patient, start to finish.',
+    'clinIQ gives clinics 12 integrated tools: real-time patient flow, automated check-in, RTM billing, pre-authorization, scheduling, analytics, telehealth, secure messaging, patient app, and more. One platform. Every patient, start to finish.',
   keywords: [
     'clinic patient flow software',
     'medical check-in system',
@@ -17,11 +17,15 @@ export const metadata: Metadata = {
     'healthcare analytics',
     'clinic operations platform',
     'real-time patient tracking',
+    'telehealth software',
+    'patient satisfaction surveys',
+    'secure clinical messaging',
+    'patient mobile app',
   ],
   openGraph: {
     title: 'clinIQ Features — One Platform for Every Stage of the Visit',
     description:
-      'Real-time patient flow. Automated check-in. RTM billing. Pre-authorization. Scheduling. Analytics. Built for clinics that need operational control from check-in to checkout.',
+      'Real-time patient flow. Automated check-in. RTM billing. Telehealth. Secure messaging. Patient app. 12 integrated tools built for clinics that need operational control from check-in to checkout.',
     type: 'website',
   },
   alternates: {
@@ -123,6 +127,90 @@ const FEATURES = [
     ],
     href: '/features/analytics',
   },
+  {
+    number: '07',
+    title: 'Telehealth',
+    problem: 'Virtual visits feel bolted on — separate logins, no queue context, and zero integration with your in-clinic flow.',
+    solution:
+      'Telehealth built into the same patient flow board. Virtual patients join the same queue, providers switch between in-person and virtual without changing tools, and the visit data lands in the same record.',
+    bullets: [
+      'Virtual patients appear alongside in-person in the same queue',
+      'Providers switch between virtual and in-clinic without context loss',
+      'No separate login or platform for patients',
+      'Visit data captured in the unified patient record',
+    ],
+    href: '/features/telehealth',
+  },
+  {
+    number: '08',
+    title: 'Patient Satisfaction',
+    problem: "You find out about bad experiences weeks later in an online review — after the patient is already gone.",
+    solution:
+      'Post-visit surveys triggered automatically at checkout. Real-time alerts when satisfaction dips. Identify the specific provider, time of day, or visit type driving poor scores before they compound.',
+    bullets: [
+      'Automated post-visit surveys triggered at checkout',
+      'Real-time alerts on low satisfaction scores',
+      'Drill down by provider, visit type, and time of day',
+      'Catch issues before they become public reviews',
+    ],
+    href: '/features/patient-satisfaction',
+  },
+  {
+    number: '09',
+    title: 'Wearable Integration',
+    problem: 'Patients bring device data on their phones. Your clinic has no way to capture it, verify it, or act on it.',
+    solution:
+      'Pull RPM and RTM data from wearables directly into the patient record. Compliance thresholds, alert rules, and data trending — without requiring your providers to chase patients for screenshots.',
+    bullets: [
+      'Direct device data ingestion — no manual patient uploads',
+      'Compliance threshold alerts for RTM billing',
+      'Trending views for RPM monitoring',
+      'Data lands in the patient record automatically',
+    ],
+    href: '/features/wearable-integration',
+  },
+  {
+    number: '10',
+    title: 'Secure Messaging',
+    problem: 'Staff texts patients from personal phones. Patients email providers directly. None of it is documented or compliant.',
+    solution:
+      'HIPAA-compliant messaging between staff and patients — in the platform, on the record, with a full audit trail. No personal numbers, no personal email, no compliance gaps.',
+    bullets: [
+      'HIPAA-compliant patient-to-staff messaging',
+      'Full audit trail — every message on the record',
+      'No personal phone numbers or email required',
+      'Shared team inbox — not siloed to individual staff',
+    ],
+    href: '/features/secure-messaging',
+  },
+  {
+    number: '11',
+    title: 'Secure File Exchange',
+    problem: 'Referral documents arrive by fax. Prior auth packets go out by fax. Sensitive files sit in email inboxes.',
+    solution:
+      'Encrypted file exchange for referrals, PA packets, lab results, and imaging. Send and receive directly with patients, other providers, and payers — no fax machine, no unsecured email.',
+    bullets: [
+      'Encrypted document exchange — no fax, no email',
+      'Referral packets and PA documents in one place',
+      'Patients can securely upload their own records',
+      'Full audit trail on every file sent and received',
+    ],
+    href: '/features/secure-file-exchange',
+  },
+  {
+    number: '12',
+    title: 'Patient App',
+    problem: 'Patients call to check in, reschedule, or ask questions — consuming front desk time for tasks they could handle themselves.',
+    solution:
+      'A branded mobile app for your patients. Check-in, scheduling, secure messaging, visit history, and document exchange — all in one place. Reduces front desk volume and improves the patient experience simultaneously.',
+    bullets: [
+      'Branded mobile app with check-in and scheduling',
+      'Secure messaging directly with the care team',
+      'Visit history and document access on mobile',
+      'Reduces front desk call volume significantly',
+    ],
+    href: '/features/patient-app',
+  },
 ]
 
 export default function FeaturesPage() {
@@ -146,7 +234,7 @@ export default function FeaturesPage() {
             <div className={s.heroContent}>
               <div className={s.badge}>Features</div>
               <h1 className={s.heroTitle}>
-                Six tools. One platform.<br />
+                One platform.<br />
                 <em>Every patient, start to finish.</em>
               </h1>
               <p className={s.heroSubtitle}>
@@ -176,8 +264,9 @@ export default function FeaturesPage() {
               <span className={s.sectionLabel}>All Features</span>
               <h2 className={s.sectionTitle}>Built for every stage of the visit.</h2>
               <p className={s.sectionDesc}>
-                Each module solves a specific operational problem. Together, they give your clinic
-                the real-time control that no EHR, check-in kiosk, or scheduling tool provides alone.
+                12 modules. Each solves a specific operational problem. Together, they give your
+                clinic the real-time control that no EHR, check-in kiosk, or scheduling tool
+                provides alone.
               </p>
             </div>
             <div className={s.modulesGrid}>
