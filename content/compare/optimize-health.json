@@ -1,0 +1,159 @@
+{
+    "slug": "optimize-health",
+    "name": "clinIQ vs Optimize Health",
+    "pageType": "compare-pillar",
+    "wordCount": 1700,
+    "publishDate": "2026-03-11",
+    "meta": {
+        "title": "clinIQ vs Optimize Health | RTM and RPM Platform Comparison",
+        "description": "Optimize Health provides RPM device logistics and monitoring. clinIQ provides RTM billing plus real-time patient flow, check-in, and full clinic operations without device distribution.",
+        "keywords": [
+            "Optimize Health alternative",
+            "Optimize Health vs",
+            "RPM platform",
+            "remote patient monitoring",
+            "RTM vs RPM",
+            "chronic care software",
+            "patient monitoring platform"
+        ]
+    },
+    "hero": {
+        "h1": "clinIQ vs Optimize Health",
+        "subhead": "Optimize Health provides RPM device programs with cellular-connected devices and monitoring services. clinIQ provides RTM billing using patient-reported data through a smartphone app, plus real-time patient flow, check-in, and full clinic operations. Different approaches to chronic care revenue.",
+        "stats": [
+            {
+                "value": "No devices",
+                "label": "to distribute"
+            },
+            {
+                "value": "$112",
+                "label": "avg RTM revenue per patient"
+            },
+            {
+                "value": "Full clinic",
+                "label": "operations included"
+            }
+        ]
+    },
+    "gatedContent": {
+        "title": "RTM Revenue Calculator + Compliance Checklist",
+        "description": "Calculate your RTM revenue opportunity and ensure compliant billing with CPT codes 98975-98981.",
+        "format": "PDF",
+        "placeholder": true
+    },
+    "tableOfContents": [
+        {
+            "id": "rpm-vs-rtm",
+            "title": "RPM vs RTM Approach"
+        },
+        {
+            "id": "optimize-strengths",
+            "title": "What Optimize Health Does Well"
+        },
+        {
+            "id": "device-free-monitoring",
+            "title": "Device-Free Monitoring"
+        },
+        {
+            "id": "operations-beyond-monitoring",
+            "title": "Operations Beyond Monitoring"
+        },
+        {
+            "id": "revenue-comparison",
+            "title": "Revenue Comparison"
+        },
+        {
+            "id": "faqs",
+            "title": "FAQs"
+        }
+    ],
+    "sections": [
+        {
+            "id": "rpm-vs-rtm",
+            "h2": "RPM vs RTM: Different Approaches",
+            "content": "Optimize Health and clinIQ take fundamentally different approaches to chronic care monitoring and billing. Understanding the difference helps practices choose appropriately.\n\nOptimize Health is a Remote Patient Monitoring platform. RPM uses connected medical devices\u2014blood pressure cuffs, pulse oximeters, glucose monitors, weight scales\u2014that automatically transmit physiological measurements. The platform provides device logistics, data collection, and monitoring services.\n\nclinIQ provides Remote Therapeutic Monitoring through [RTM billing](/features/rtm-billing). RTM uses patient-reported outcome data rather than device-transmitted measurements. Patients submit symptom reports, functional assessments, and health status through the [clinIQ app](/features/patient-app). No device distribution required.\n\nRPM and RTM are separate Medicare billing pathways with different CPT codes. RPM uses 99453-99458. RTM uses 98975-98981. Both capture chronic care revenue but through different data collection methods.\n\nThe practical implications differ significantly. RPM requires device inventory, distribution logistics, patient training on devices, device maintenance, and cellular connectivity costs. RTM requires smartphone app adoption but no physical device logistics.\n\nMany chronic patients qualify for both programs. A patient with hypertension might use RPM for blood pressure monitoring and RTM for symptom tracking simultaneously with separate billing for each."
+        },
+        {
+            "id": "optimize-strengths",
+            "h2": "What Optimize Health Does Well",
+            "content": "Optimize Health has built meaningful RPM capability. Understanding its strengths clarifies where approaches differ.\n\nDevice logistics are handled comprehensively. Cellular-connected devices ship directly to patients. No WiFi configuration or pairing required. Devices transmit data automatically when used.\n\nDevice variety covers common chronic conditions. Blood pressure cuffs for hypertension. Pulse oximeters for respiratory conditions. Glucose monitors for diabetes. Weight scales for heart failure. The device portfolio addresses major RPM use cases.\n\nMonitoring services review incoming data. Clinical staff monitors readings and escalates concerning trends. Practices can handle monitoring internally or leverage Optimize Health's services.\n\nBilling automation identifies patients meeting transmission thresholds and generates claims. RPM requires sixteen days of data transmission per month for billing.\n\nEHR integration connects monitoring data with clinical records. Readings flow into documentation to support clinical workflow.\n\nThese capabilities serve practices committed to device-based RPM programs. The question is whether device logistics fit practice operations and patient populations."
+        },
+        {
+            "id": "device-free-monitoring",
+            "h2": "Device-Free Monitoring Through RTM",
+            "content": "clinIQ's [RTM billing](/features/rtm-billing) captures chronic care revenue without device distribution.\n\nPatient-reported data collection happens through the [clinIQ app](/features/patient-app). Patients answer symptom questionnaires, rate pain levels, report functional status, and track medication adherence. This data supports RTM billing through CPT codes 98976 and 98977.\n\nNo device logistics required. Patients use their existing smartphones. No device inventory, no shipping, no training on medical equipment, no device failures to troubleshoot. The operational burden is dramatically lower than device-based programs.\n\n[Wearable integration](/features/wearable-integration) supplements patient-reported data with continuous metrics from devices patients already own. Apple Watch, Oura Ring, and Android Health Connect provide heart rate, activity, sleep, and other data. This enriches the clinical picture without practice-distributed devices.\n\nCompliance can be higher for RTM. Device-based RPM requires patients to consistently use medical equipment they may find burdensome. App-based RTM asks patients to answer brief questions on phones they already carry. clinIQ achieves seventy-five percent or higher compliance versus approximately forty percent industry average.\n\nPatient acceptance often favors app-based approaches. Many patients resist adding medical devices to their daily routine. Fewer resist answering questions on their phone, especially with push notification reminders.\n\nRTM suits different patient populations than RPM. Patients who need physiological measurements require RPM devices. Patients who need symptom and functional tracking can use RTM without devices. Practices should evaluate which approach fits their patient population."
+        },
+        {
+            "id": "operations-beyond-monitoring",
+            "h2": "Operations Beyond Monitoring",
+            "content": "clinIQ provides operational capabilities that monitoring platforms do not address.\n\n[Patient flow](/features/patient-flow) tracking shows where every patient is during clinic visits. Waiting room census, occupied rooms, patients with providers, and checkout queue are visible in real time. This operational visibility does not exist in monitoring platforms.\n\n[Check-in](/features/patient-check-in) automates patient arrival. Digital intake through the [clinIQ app](/features/patient-app), QR codes, or tablets replaces manual processes. Check-in feeds directly into flow tracking.\n\n[Pre-authorization](/features/pre-authorization) tracking protects procedure revenue. For specialty practices, authorization management prevents denied claims from missing or expired approvals. Monitoring platforms do not address authorization workflows.\n\n[Scheduling](/features/scheduling) manages provider calendars and resources. Appointment management integrates with flow tracking and pre-authorization.\n\n[Analytics](/features/analytics) surface operational patterns. Wait times, throughput, bottleneck frequency, and RTM compliance appear in unified reporting.\n\nLobbyView displays show queue position on lobby televisions. Patients see progress; staff answers fewer status questions.\n\nThese capabilities address clinic operations that monitoring platforms are not designed to handle. Practices need both chronic care revenue and operational visibility."
+        },
+        {
+            "id": "revenue-comparison",
+            "h2": "Revenue and Cost Comparison",
+            "content": "RPM and RTM have different revenue and cost structures.\n\nRPM revenue per patient varies by program structure. Full-service RPM programs from vendors like Optimize Health may charge per-patient fees that reduce net revenue. Software-only approaches have lower costs but require internal clinical resources.\n\nRPM device costs add up. Cellular-connected devices cost money. Device replacement for failures or loss adds ongoing expense. These costs reduce net program revenue.\n\nRTM revenue through clinIQ runs one hundred to one hundred fifty dollars per patient monthly. One hundred enrolled patients generates over one hundred forty thousand dollars annually. Device supply codes apply without physical device costs because the app constitutes the monitoring platform.\n\nclinIQ pricing includes RTM in the Professional plan at four hundred ninety-nine dollars monthly. This also includes [patient flow](/features/patient-flow), [check-in](/features/patient-check-in), [pre-authorization](/features/pre-authorization), [scheduling](/features/scheduling), and [analytics](/features/analytics). The chronic care revenue capability comes bundled with full clinic operations.\n\nNet revenue comparison favors understanding total costs. RPM programs may have higher gross revenue but also higher device and service costs. RTM through clinIQ has no device costs and includes operational capabilities that would otherwise require separate investments.\n\nPractices should evaluate which chronic care approach fits their patient population and operational model. Patients requiring physiological monitoring need RPM devices. Patients suited for symptom and functional tracking can generate revenue through device-free RTM."
+        }
+    ],
+    "faqs": [
+        {
+            "q": "What is the difference between RPM and RTM?",
+            "a": "RPM uses connected medical devices that transmit physiological measurements automatically. RTM uses patient-reported outcome data submitted through the [clinIQ app](/features/patient-app). Different CPT codes, different data types, different logistics."
+        },
+        {
+            "q": "Can patients be enrolled in both RPM and RTM?",
+            "a": "Yes. Many chronic patients qualify for both programs with separate billing. A patient might use RPM for blood pressure monitoring and RTM for symptom tracking simultaneously."
+        },
+        {
+            "q": "Does clinIQ provide devices like Optimize Health?",
+            "a": "No. clinIQ's [RTM billing](/features/rtm-billing) uses patient-reported data through the app without device distribution. [Wearable integration](/features/wearable-integration) captures data from consumer devices patients already own."
+        },
+        {
+            "q": "What does clinIQ provide that Optimize Health does not?",
+            "a": "clinIQ provides [patient flow](/features/patient-flow), [check-in](/features/patient-check-in), [scheduling](/features/scheduling), [pre-authorization](/features/pre-authorization), and operational [analytics](/features/analytics). These address clinic operations beyond chronic care monitoring."
+        },
+        {
+            "q": "Which approach captures more revenue?",
+            "a": "Net revenue depends on costs. RPM has device and service costs that reduce margins. RTM through clinIQ has no device costs and includes operational capabilities. Evaluate total cost structure for accurate comparison."
+        }
+    ],
+    "relatedContent": {
+        "features": [
+            {
+                "slug": "rtm-billing",
+                "title": "RTM Billing"
+            },
+            {
+                "slug": "wearable-integration",
+                "title": "Wearable Integration"
+            },
+            {
+                "slug": "patient-app",
+                "title": "Patient App"
+            }
+        ],
+        "specialties": [
+            {
+                "slug": "cardiology",
+                "title": "Cardiology"
+            },
+            {
+                "slug": "pulmonology",
+                "title": "Pulmonology"
+            },
+            {
+                "slug": "primary-care",
+                "title": "Primary Care"
+            }
+        ],
+        "competitors": [
+            {
+                "slug": "prevounce",
+                "title": "clinIQ vs Prevounce"
+            },
+            {
+                "slug": "timedoc",
+                "title": "clinIQ vs TimeDoc"
+            }
+        ]
+    }
+}
