@@ -1,0 +1,160 @@
+{
+    "slug": "tebra",
+    "name": "clinIQ vs Tebra",
+    "pageType": "compare-pillar",
+    "wordCount": 1800,
+    "publishDate": "2026-03-11",
+    "meta": {
+        "title": "clinIQ vs Tebra | Practice Management Operations Layer",
+        "description": "Tebra markets your practice. clinIQ runs it. Real-time patient flow, RTM billing automation, and pre-authorization tracking that Tebra's marketing-focused platform does not provide.",
+        "keywords": [
+            "Tebra alternative",
+            "Tebra vs",
+            "Kareo alternative",
+            "practice management software",
+            "Tebra patient flow",
+            "Tebra competitor",
+            "clinic operations software"
+        ]
+    },
+    "hero": {
+        "h1": "clinIQ vs Tebra",
+        "subhead": "Tebra combines practice management with patient acquisition marketing. The focus is growing patient volume. clinIQ focuses on managing the patients you already have: real-time flow visibility, RTM revenue from chronic patients, and pre-authorization tracking for procedures.",
+        "stats": [
+            {
+                "value": "Operations",
+                "label": "focused vs marketing"
+            },
+            {
+                "value": "Real-time",
+                "label": "patient visibility"
+            },
+            {
+                "value": "$112",
+                "label": "avg RTM revenue per patient"
+            }
+        ]
+    },
+    "gatedContent": {
+        "title": "The EHR Gap Analysis",
+        "description": "What practice management systems can't track and what it's costing you. Covers operational blind spots.",
+        "format": "PDF",
+        "placeholder": true
+    },
+    "tableOfContents": [
+        {
+            "id": "different-focus",
+            "title": "Different Focus Areas"
+        },
+        {
+            "id": "tebra-strengths",
+            "title": "What Tebra Does Well"
+        },
+        {
+            "id": "operations-gap",
+            "title": "The Operations Gap"
+        },
+        {
+            "id": "real-time-flow",
+            "title": "Real-Time Patient Flow"
+        },
+        {
+            "id": "revenue-operations",
+            "title": "Revenue Operations"
+        },
+        {
+            "id": "choosing",
+            "title": "Choosing the Right Tool"
+        },
+        {
+            "id": "faqs",
+            "title": "FAQs"
+        }
+    ],
+    "sections": [
+        {
+            "id": "different-focus",
+            "h2": "Different Focus Areas",
+            "content": "Tebra and clinIQ address different aspects of practice operations. Understanding the distinction helps practices choose appropriately.\n\nTebra emerged from the combination of Kareo (practice management and billing) and PatientPop (patient acquisition marketing). The platform emphasizes growing practices through marketing, reputation management, and patient acquisition alongside traditional practice management functions.\n\nclinIQ focuses on operational excellence for practices that already have patients. [Patient flow](/features/patient-flow) tracking shows where every patient is throughout the visit. [RTM billing](/features/rtm-billing) captures recurring revenue from chronic disease management. [Pre-authorization](/features/pre-authorization) tracking protects procedure revenue. [Analytics](/features/analytics) surface operational patterns.\n\nThe comparison is not which platform is better. It is which problem the practice needs to solve. Practices struggling to attract new patients may prioritize Tebra's marketing capabilities. Practices with adequate patient volume but operational challenges benefit more from clinIQ's flow management and revenue capture.\n\nMany practices have both needs. They want to grow patient volume and improve operational efficiency. These practices may use marketing tools alongside operations platforms rather than expecting one system to address both."
+        },
+        {
+            "id": "tebra-strengths",
+            "h2": "What Tebra Does Well",
+            "content": "Tebra has built meaningful capabilities in patient acquisition and practice marketing. Understanding its strengths clarifies where operational gaps remain.\n\nPatient acquisition marketing helps practices attract new patients. Website optimization, online reputation management, and digital marketing tools increase practice visibility. For practices in competitive markets, this capability has real value.\n\nOnline reputation management tracks and responds to patient reviews. Practices can monitor their online presence and encourage satisfied patients to leave positive reviews. Reputation influences patient choice, making this capability relevant.\n\nPractice management handles scheduling, patient registration, and administrative workflows. The platform manages the basic functions practices need to operate.\n\nBilling and claims processing addresses revenue cycle for completed encounters. Practices can submit claims and manage collections through the platform.\n\nPatient communication includes appointment reminders, recall campaigns, and marketing outreach. The platform helps practices stay connected with patients between visits.\n\nThese capabilities address practice growth and administrative fundamentals. The question is whether marketing focus leaves operational visibility gaps."
+        },
+        {
+            "id": "operations-gap",
+            "h2": "The Operations Gap",
+            "content": "Practice management platforms focus on scheduling and billing. They do not focus on what happens during the visit itself.\n\nReal-time patient location is not a Tebra capability. The platform knows appointments are scheduled but cannot show whether patients are in the waiting room, exam rooms, or with providers. This operational visibility gap exists because practice management was designed around scheduling and billing, not real-time flow.\n\nclinIQ's [patient flow](/features/patient-flow) provides this visibility. The dashboard shows every patient's current status from arrival through departure. Staff sees waiting room census, occupied rooms, and patients ready for each provider.\n\nBottleneck detection requires seeing the entire flow. When providers are backed up while rooms sit empty, practice management systems have no mechanism to surface this. clinIQ's threshold alerting notifies staff when conditions require attention.\n\nStage-level timing analysis is absent from practice management systems. Tebra can report appointment duration but cannot show time in waiting room versus time in exam room versus time with provider. [Analytics](/features/analytics) in clinIQ track each stage because the underlying data exists.\n\nLobbyView displays do not exist in practice management systems. clinIQ shows queue position and estimated wait on lobby televisions, giving patients transparency they do not get from scheduling-focused platforms."
+        },
+        {
+            "id": "real-time-flow",
+            "h2": "Real-Time Patient Flow",
+            "content": "clinIQ provides operational visibility throughout the patient visit.\n\n[Patient flow](/features/patient-flow) tracking begins at [check-in](/features/patient-check-in). Patients check in through the [clinIQ app](/features/patient-app), QR code, web form, or lobby tablet. Check-in creates a trackable status that follows the patient through every stage.\n\nStatus progression reflects actual movement. Checked-in indicates arrival. Roomed indicates exam room assignment. With-provider indicates active encounter. Checkout indicates visit completion. Updates happen with single taps.\n\nThe dashboard shows all active patients across all stages simultaneously. Operations managers see total census. Clinical staff see room status. Providers see who is waiting. Everyone works from current reality.\n\nTime tracking accumulates automatically in each stage. The system knows how long each patient has been in their current status. This data supports real-time alerting and historical [analytics](/features/analytics).\n\nBottleneck alerting fires when operational thresholds are exceeded. When a room has been occupied too long or waiting room census is too high, relevant staff receives notification.\n\nLobbyView displays show queue position and estimated wait. Patients see progress rather than uncertainty. Front desk answers fewer status questions."
+        },
+        {
+            "id": "revenue-operations",
+            "h2": "Revenue Operations Beyond Marketing ROI",
+            "content": "Tebra focuses on patient acquisition ROI. clinIQ focuses on revenue capture from existing patients.\n\nRemote Therapeutic Monitoring generates recurring monthly revenue from chronic disease management. [RTM billing](/features/rtm-billing) through CPT codes 98975 through 98981 captures one hundred to one hundred fifty dollars per patient per month.\n\nRTM requires workflow infrastructure: patient enrollment, symptom data collection through the [clinIQ app](/features/patient-app), clinical time tracking, and threshold verification. Practice management platforms do not provide this workflow. clinIQ systematizes RTM as an integrated module.\n\nThe revenue math is compelling. One hundred chronic patients enrolled in RTM generate over one hundred forty thousand dollars annually. This is recurring revenue from patients the practice already has, independent of new patient acquisition.\n\nPre-authorization protects procedure revenue. For [pain management](/specialties/pain-management), [orthopedic surgery](/specialties/orthopedic-surgery), and specialty practices, procedures require prior approval. Missing or expired authorizations mean denied claims.\n\nclinIQ's [pre-authorization module](/features/pre-authorization) tracks every authorization from request through resolution. Expiration alerts fire before authorizations lapse. Integration with [scheduling](/features/scheduling) prevents scheduling without valid authorization.\n\n[Wearable integration](/features/wearable-integration) supplements patient-reported data with metrics from Apple Watch, Oura Ring, and other devices. This data supports both clinical care and RTM documentation.\n\nThese revenue streams require operational infrastructure that marketing-focused platforms do not provide."
+        },
+        {
+            "id": "choosing",
+            "h2": "Choosing the Right Tool",
+            "content": "The choice between Tebra and clinIQ depends on which problem the practice needs to solve.\n\nPractices with patient acquisition challenges may benefit from Tebra's marketing capabilities. If the problem is not enough patients, marketing tools address that problem.\n\nPractices with operational challenges benefit from clinIQ. If the problem is not knowing where patients are, missing RTM revenue, or losing claims to expired authorizations, clinIQ addresses those problems.\n\nMany practices have both challenges. They want more patients and better operations. These practices may use marketing tools alongside operations platforms.\n\nclinIQ can work alongside Tebra or other practice management systems. [Patient flow](/features/patient-flow), [RTM billing](/features/rtm-billing), and [pre-authorization tracking](/features/pre-authorization) add operational capability without replacing existing systems.\n\nEHR integration matters regardless of practice management choice. clinIQ integrates with athenahealth, eClinicalWorks, NextGen, and other EHRs to pull appointment and patient data. The operations layer works with whatever clinical system the practice uses.\n\nPricing comparison should consider ROI from different sources. Tebra ROI comes from new patient acquisition. clinIQ ROI comes from operational efficiency and revenue capture. Both can be positive simultaneously for practices with both needs."
+        }
+    ],
+    "faqs": [
+        {
+            "q": "Is clinIQ a replacement for Tebra?",
+            "a": "clinIQ and Tebra address different needs. Tebra focuses on patient acquisition and marketing. clinIQ focuses on operational visibility and revenue capture. Practices may use both for different purposes."
+        },
+        {
+            "q": "Can clinIQ work with Tebra?",
+            "a": "Yes. clinIQ provides operational capabilities that complement practice management platforms. [Patient flow](/features/patient-flow), [RTM billing](/features/rtm-billing), and [pre-authorization](/features/pre-authorization) add functionality without replacing existing systems."
+        },
+        {
+            "q": "What does clinIQ provide that Tebra does not?",
+            "a": "clinIQ provides real-time [patient flow](/features/patient-flow), LobbyView displays, [RTM billing](/features/rtm-billing) automation, [pre-authorization](/features/pre-authorization) tracking, [wearable integration](/features/wearable-integration), and operational [analytics](/features/analytics)."
+        },
+        {
+            "q": "Which should I choose for a new practice?",
+            "a": "New practices building patient volume may prioritize marketing tools. Established practices with operational challenges benefit more from clinIQ. Many practices eventually need both capabilities."
+        }
+    ],
+    "relatedContent": {
+        "features": [
+            {
+                "slug": "patient-flow",
+                "title": "Patient Flow"
+            },
+            {
+                "slug": "rtm-billing",
+                "title": "RTM Billing"
+            },
+            {
+                "slug": "analytics",
+                "title": "Analytics"
+            }
+        ],
+        "specialties": [
+            {
+                "slug": "primary-care",
+                "title": "Primary Care"
+            },
+            {
+                "slug": "dermatology",
+                "title": "Dermatology"
+            }
+        ],
+        "competitors": [
+            {
+                "slug": "simplepractice",
+                "title": "clinIQ vs SimplePractice"
+            },
+            {
+                "slug": "athenahealth",
+                "title": "clinIQ vs athenahealth"
+            }
+        ]
+    }
+}

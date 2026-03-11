@@ -1,0 +1,185 @@
+{
+    "slug": "eclinicalworks",
+    "name": "clinIQ vs eClinicalWorks",
+    "pageType": "compare-pillar",
+    "wordCount": 2100,
+    "publishDate": "2026-03-11",
+    "meta": {
+        "title": "clinIQ vs eClinicalWorks | EHR Operations Layer | Patient Flow Add-On",
+        "description": "clinIQ adds real-time patient flow to eClinicalWorks. Not a replacement. The operations layer eCW doesn't provide. RTM billing automation, pre-authorization tracking, and LobbyView displays alongside your existing eClinicalWorks.",
+        "keywords": [
+            "eClinicalWorks alternative",
+            "eClinicalWorks patient flow",
+            "eCW add-on",
+            "eClinicalWorks operations",
+            "EHR patient tracking",
+            "eClinicalWorks RTM billing",
+            "clinic operations software"
+        ]
+    },
+    "hero": {
+        "h1": "clinIQ vs eClinicalWorks",
+        "subhead": "eClinicalWorks handles clinical documentation for over 850,000 users. It does not show you which patient is in which room right now. clinIQ adds real-time patient flow, RTM billing automation, and pre-authorization tracking as an operations layer that works alongside eCW. Keep your EHR. Add operational visibility.",
+        "stats": [
+            {
+                "value": "Real-time",
+                "label": "flow eCW cannot provide"
+            },
+            {
+                "value": "Works with",
+                "label": "your existing eCW"
+            },
+            {
+                "value": "$112",
+                "label": "avg RTM revenue per patient"
+            }
+        ]
+    },
+    "gatedContent": {
+        "title": "The EHR Gap Analysis",
+        "description": "What your EHR can't track and what it's costing you. Covers operational blind spots in documentation-focused systems.",
+        "format": "PDF",
+        "placeholder": true
+    },
+    "tableOfContents": [
+        {
+            "id": "complement-not-replace",
+            "title": "Complement, Not Replace"
+        },
+        {
+            "id": "ecw-strengths",
+            "title": "What eClinicalWorks Does Well"
+        },
+        {
+            "id": "documentation-vs-operations",
+            "title": "Documentation vs Operations"
+        },
+        {
+            "id": "real-time-visibility",
+            "title": "Real-Time Visibility"
+        },
+        {
+            "id": "revenue-beyond-rcm",
+            "title": "Revenue Beyond RCM"
+        },
+        {
+            "id": "integration",
+            "title": "How clinIQ Works with eCW"
+        },
+        {
+            "id": "capability-comparison",
+            "title": "Capability Comparison"
+        },
+        {
+            "id": "faqs",
+            "title": "FAQs"
+        }
+    ],
+    "sections": [
+        {
+            "id": "complement-not-replace",
+            "h2": "clinIQ Complements eClinicalWorks",
+            "content": "Practices searching for eClinicalWorks alternatives often experience operational pain that is not an EHR problem. The frustration of not knowing where patients are, how long they have been waiting, or whether bottlenecks are forming is real. But eClinicalWorks was never designed to solve those problems. No EHR was.\n\neClinicalWorks is one of the largest cloud-based EHR platforms in the United States, serving over 130,000 physicians and 850,000 healthcare users. The platform handles clinical documentation, practice management, billing, patient portals, and telehealth capably. For practices that need a new EHR, eClinicalWorks is a legitimate option.\n\nclinIQ is not an EHR. It is a clinic operations platform that works alongside eClinicalWorks to provide capabilities EHRs cannot. [Patient flow](/features/patient-flow) tracking shows where every patient is right now. [RTM billing](/features/rtm-billing) automates Remote Therapeutic Monitoring revenue capture. [Pre-authorization](/features/pre-authorization) management tracks approvals and expirations. [Analytics](/features/analytics) surface operational patterns invisible in EHR reports.\n\nThe platforms address different layers of clinic operations. eClinicalWorks documents completed encounters and processes resulting claims. clinIQ manages real-time operations and revenue streams that extend beyond encounter documentation. Practices need both kinds of capability and benefit from both kinds of tools.\n\nIf your challenge is clinical documentation quality, eClinicalWorks addresses that. If your challenge is knowing that the patient in room 4 has been waiting 22 minutes for a provider while another room just opened, that is a clinIQ problem. Most practices have challenges in both areas."
+        },
+        {
+            "id": "ecw-strengths",
+            "h2": "What eClinicalWorks Does Well",
+            "content": "eClinicalWorks has built a substantial platform over two decades of development. Understanding its genuine strengths helps practices evaluate where additional capability is needed.\n\nClinical documentation includes AI-powered tools that reduce documentation burden. The Sunoh.ai assistant drafts notes from patient conversations. Templates are specialty-specific. Mobile access through eClinicalMobile and eClinicalTouch allows providers to document from anywhere. These features address the documentation fatigue that drives clinician burnout.\n\nPractice management is integrated with clinical workflows. Scheduling, patient demographics, and administrative tasks operate in the same platform as clinical documentation. Staff works in one system rather than switching between applications.\n\nRevenue cycle management is a core eCW offering. The platform handles billing, claims processing, and collections either through built-in tools or RCM services at approximately 2.9 percent of collections. For practices struggling with billing accuracy and denial management, eCW provides meaningful infrastructure.\n\nPatient engagement through the Healow patient portal and app allows patients to access records, communicate with providers, schedule appointments, and manage their care. Telehealth integration enables virtual visits without third-party platforms.\n\nInteroperability connects eCW to labs, imaging services, pharmacies, and other EHR systems. The HL7 interface supports custom integrations. The Carequality network enables data exchange across healthcare organizations.\n\nPricing starts around four hundred forty-nine dollars monthly for EHR only or five hundred ninety-nine dollars with practice management. This pricing is competitive for full-featured EHR platforms. Implementation costs vary based on practice size and complexity.\n\nThese are genuine capabilities. Practices satisfied with eClinicalWorks documentation and billing should not switch EHRs based on operational frustration. They should add operational capability."
+        },
+        {
+            "id": "documentation-vs-operations",
+            "h2": "Documentation Systems Cannot Manage Operations",
+            "content": "EHRs are built to capture what happened during clinical encounters. They are not built to show what is happening right now. This is not a flaw in eClinicalWorks. It is an inherent limitation of documentation-focused architecture.\n\neClinicalWorks knows a patient has an appointment at 10:30 AM. Once that patient arrives, eCW's visibility becomes limited. Is the patient in the waiting room or exam room 2? Has the patient been roomed but waiting for vitals? Is the provider with the patient or still finishing with another patient? eClinicalWorks cannot answer these questions because real-time location tracking is not what EHRs do.\n\nThe limitation extends to bottleneck detection. When multiple patients are simultaneously ready for provider attention and providers are backed up, eClinicalWorks has no mechanism to surface that situation before it becomes a visible problem. Staff discovers bottlenecks through patient complaints or direct observation rather than proactive alerting.\n\nWait time analysis in EHRs is limited to appointment duration. eClinicalWorks can report that an appointment scheduled for 30 minutes took 47 minutes. It cannot show that 12 minutes were waiting room time, 8 minutes were room wait before vitals, and 15 minutes were post-vitals wait for the provider. This stage-level detail is essential for operational improvement but invisible in EHR reporting.\n\nclinIQ fills these gaps with [patient flow](/features/patient-flow) that tracks real-time location and status. The dashboard shows every patient's current state from arrival through departure. Threshold-based alerting surfaces problems as they form. [Analytics](/features/analytics) reveal stage-level patterns over days and weeks. These capabilities require architecture fundamentally different from clinical documentation systems.\n\nLobbyView displays bring visibility to patients. A lobby television shows queue position and estimated wait using privacy-compliant identifiers. Patients see progress rather than sitting with no information. Front desk staff answers fewer status questions. The experience feels transparent rather than opaque."
+        },
+        {
+            "id": "real-time-visibility",
+            "h2": "Real-Time Visibility That eCW Cannot Provide",
+            "content": "Real-time patient flow is clinIQ's core capability. It answers the question eClinicalWorks cannot: where is every patient right now?\n\nFlow tracking begins at [check-in](/features/patient-check-in). Patients check in through the [clinIQ app](/features/patient-app), QR code, web form, or lobby tablet. Check-in creates a trackable status that follows the patient through the visit. From that moment, location and status are visible to all staff.\n\nStatus progression reflects actual movement through the clinic. Checked-in indicates arrival. Roomed indicates exam room assignment. With-provider indicates active encounter. Checkout indicates visit completion. Staff updates status with single taps, creating continuous visibility into clinic activity.\n\nThe [patient flow](/features/patient-flow) dashboard aggregates all active patients across all stages. Operations managers see total waiting room census. Clinical staff see which rooms are occupied and available. Providers see who is ready for their attention. Everyone works from current reality rather than outdated information.\n\nTime accumulates automatically in each stage. The system tracks how long each patient has been in their current status without manual logging. This data supports both real-time decisions and historical [analytics](/features/analytics). Patterns emerge that reveal systematic improvement opportunities.\n\nBottleneck alerting fires when thresholds are exceeded. If a room has been occupied beyond expected duration, relevant staff receives notification. If waiting room census exceeds comfort levels, front desk is alerted. If provider throughput slows, clinical leadership knows immediately. Intervention happens before patient experience degrades.\n\nThese capabilities complement eClinicalWorks without replacing it. Clinical documentation continues in eCW. Operational management happens in clinIQ. The tools address different needs and work together naturally."
+        },
+        {
+            "id": "revenue-beyond-rcm",
+            "h2": "Revenue Operations Beyond RCM",
+            "content": "eClinicalWorks revenue cycle management handles billing for completed encounters. clinIQ addresses revenue operations that happen before and between encounters.\n\nPre-authorization determines procedure reimbursement before services are rendered. For [pain management](/specialties/pain-management) practices where injections require prior approval, for [orthopedic surgery](/specialties/orthopedic-surgery) where procedures need authorization, pre-authorization management is operationally critical. Missing or expired authorizations result in denied claims regardless of RCM quality.\n\nclinIQ's [pre-authorization module](/features/pre-authorization) tracks every authorization from request through resolution. Pipeline views show pending, approved, and denied cases by payer and procedure. Expiration alerts fire before authorizations lapse. Appeal workflows track resubmissions. Integration with [scheduling](/features/scheduling) prevents procedures from being scheduled without valid authorization. This systematic tracking prevents revenue loss that occurs when authorizations slip through cracks.\n\nRemote Therapeutic Monitoring generates recurring monthly revenue for chronic disease management. [RTM billing](/features/rtm-billing) through CPT codes 98975 through 98981 captures one hundred to one hundred fifty dollars per patient per month for enrollment, device supply, and clinical monitoring time.\n\neClinicalWorks processes RTM claims like any other once they are created. But RTM requires upstream workflow: patient enrollment, symptom data collection, time tracking, and threshold verification. clinIQ systematizes this workflow. Patients submit data through the [clinIQ app](/features/patient-app). Clinical time logs automatically. Monthly billing identifies eligible patients and generates claims. [Analytics](/features/analytics) track compliance and performance.\n\n[Wearable integration](/features/wearable-integration) supplements patient-reported data with continuous metrics from Apple Watch, Oura Ring, and other consumer devices. This data enriches clinical insights and supports RTM documentation. eClinicalWorks does not integrate with consumer wearables.\n\nThe revenue opportunity is substantial. A [behavioral health](/specialties/behavioral-health) practice with one hundred chronic patients captures one hundred forty-four thousand dollars annually from RTM. A [pulmonology](/specialties/pulmonology) practice with similar enrollment captures equivalent amounts. This revenue requires workflow infrastructure that eClinicalWorks does not provide."
+        },
+        {
+            "id": "integration",
+            "h2": "How clinIQ Works with eClinicalWorks",
+            "content": "clinIQ integrates with eClinicalWorks through standard connections that pull appointment and patient data without modifying clinical records. The integration preserves eCW as the clinical system of record while adding operational capability.\n\nAppointment data flows from eClinicalWorks to clinIQ. Scheduled appointments populate clinIQ for check-in and flow tracking. Patient demographics synchronize so information displays accurately. This flow is read-only. clinIQ does not write to eClinicalWorks or modify appointment records.\n\nClinical documentation remains entirely in eClinicalWorks. Providers continue using eCW for encounter notes, orders, e-prescribing, and all clinical functions. clinIQ does not duplicate or replace clinical workflows. The platforms serve different purposes with clear boundaries.\n\nStaff workflows span both platforms naturally. Front desk may use clinIQ for check-in and flow visibility while accessing eCW for patient records. Providers may reference clinIQ's dashboard to see who is waiting while documenting in eCW. The tools coexist without forcing staff to choose.\n\nRTM billing integration offers flexibility. Some practices generate RTM claims in clinIQ and submit through their clearinghouse. Others export billing data into eCW's RCM workflow. The choice depends on existing processes and preferences.\n\nImplementation does not disrupt eClinicalWorks operations. clinIQ deployment completes in days without modifying eCW configuration. Staff learns new capabilities without relearning existing workflows. The transition adds functionality rather than substituting systems.\n\nPricing layers onto existing eCW costs. clinIQ Starter at two hundred forty-nine dollars monthly or Professional at four hundred ninety-nine dollars monthly adds to whatever eClinicalWorks costs the practice pays. Combined investment provides both documentation and operations. RTM revenue typically exceeds clinIQ platform cost."
+        },
+        {
+            "id": "capability-comparison",
+            "h2": "Capability Comparison",
+            "content": "Clinical documentation is eClinicalWorks core capability with AI assistance and specialty templates. clinIQ does not provide clinical documentation.\n\nBilling and RCM is a core eCW strength with integrated services. clinIQ generates RTM claims but does not replicate general billing.\n\nPatient portal through Healow provides record access and communication. The [clinIQ app](/features/patient-app) focuses on check-in, RTM submission, and operational functions rather than clinical record access.\n\nReal-time patient flow is not available in eClinicalWorks. clinIQ's [patient flow](/features/patient-flow) dashboard shows every patient's current location and status.\n\nLobbyView displays are not available in eCW. clinIQ shows queue position and wait estimates on lobby televisions.\n\nBottleneck alerting is not available in eClinicalWorks. clinIQ provides threshold-based alerts for operational conditions.\n\nRTM billing automation is not native to eCW. clinIQ provides full [RTM workflow](/features/rtm-billing) from enrollment through claim generation.\n\nPre-authorization tracking exists in eCW but clinIQ adds pipeline management, expiration alerting, and scheduling integration through the [pre-authorization module](/features/pre-authorization).\n\nWearable integration is not available in eClinicalWorks. clinIQ connects with Apple Health, Oura Ring, and Android devices through [wearable integration](/features/wearable-integration).\n\nOperational analytics in eCW report on completed encounters. clinIQ [analytics](/features/analytics) track real-time patterns and stage-level timing.\n\nThe platforms address different needs. eClinicalWorks handles documentation and billing. clinIQ handles real-time operations and revenue beyond encounter billing. Most practices benefit from both."
+        }
+    ],
+    "faqs": [
+        {
+            "q": "Is clinIQ a replacement for eClinicalWorks?",
+            "a": "No. clinIQ is an operations layer that works alongside eClinicalWorks. Clinical documentation and billing remain in eCW. clinIQ adds real-time [patient flow](/features/patient-flow), [RTM billing](/features/rtm-billing), [pre-authorization tracking](/features/pre-authorization), and other operational capabilities."
+        },
+        {
+            "q": "How does clinIQ integrate with eClinicalWorks?",
+            "a": "clinIQ connects through read-only integrations that pull appointment and patient data from eCW. Clinical documentation remains entirely in eClinicalWorks. The platforms complement rather than conflict."
+        },
+        {
+            "q": "What does clinIQ provide that eClinicalWorks does not?",
+            "a": "clinIQ provides real-time [patient flow](/features/patient-flow) tracking, LobbyView displays, [RTM billing](/features/rtm-billing) workflow automation, [pre-authorization](/features/pre-authorization) pipeline management, [wearable integration](/features/wearable-integration), and operational [analytics](/features/analytics)."
+        },
+        {
+            "q": "What is the total cost of eClinicalWorks plus clinIQ?",
+            "a": "eClinicalWorks pricing starts around four hundred forty-nine dollars per provider monthly. clinIQ adds two hundred forty-nine dollars for Starter or four hundred ninety-nine dollars for Professional. RTM revenue from modest enrollment typically exceeds clinIQ cost."
+        },
+        {
+            "q": "How long does it take to add clinIQ to eClinicalWorks?",
+            "a": "Integration typically completes in one to two days. Staff training runs one to two hours. Most practices are operational within two weeks. eClinicalWorks continues normally throughout deployment."
+        },
+        {
+            "q": "Can clinIQ track patients that eClinicalWorks cannot?",
+            "a": "Yes. [Patient flow](/features/patient-flow) tracks real-time location and status throughout the visit. eClinicalWorks knows appointments are scheduled but cannot show where patients are right now. clinIQ fills this visibility gap."
+        }
+    ],
+    "relatedContent": {
+        "features": [
+            {
+                "slug": "patient-flow",
+                "title": "Patient Flow"
+            },
+            {
+                "slug": "rtm-billing",
+                "title": "RTM Billing"
+            },
+            {
+                "slug": "pre-authorization",
+                "title": "Pre-Authorization"
+            },
+            {
+                "slug": "analytics",
+                "title": "Analytics"
+            }
+        ],
+        "specialties": [
+            {
+                "slug": "pain-management",
+                "title": "Pain Management"
+            },
+            {
+                "slug": "behavioral-health",
+                "title": "Behavioral Health"
+            },
+            {
+                "slug": "primary-care",
+                "title": "Primary Care"
+            }
+        ],
+        "competitors": [
+            {
+                "slug": "athenahealth",
+                "title": "clinIQ vs athenahealth"
+            },
+            {
+                "slug": "nextgen",
+                "title": "clinIQ vs NextGen"
+            }
+        ]
+    }
+}

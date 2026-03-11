@@ -1,0 +1,203 @@
+{
+    "slug": "athenahealth",
+    "name": "clinIQ vs athenahealth",
+    "pageType": "compare-pillar",
+    "wordCount": 2200,
+    "publishDate": "2026-03-11",
+    "meta": {
+        "title": "clinIQ vs athenahealth | EHR Operations Layer | Real-Time Patient Flow",
+        "description": "clinIQ is not an EHR replacement for athenahealth. It's the operations layer athenahealth doesn't provide. Real-time patient flow, RTM billing, pre-authorization tracking, and LobbyView displays that work alongside athenaOne.",
+        "keywords": [
+            "athenahealth alternative",
+            "athenahealth patient flow",
+            "athenahealth add-on",
+            "athenaOne operations",
+            "EHR patient tracking",
+            "athenahealth RTM billing",
+            "clinic operations software",
+            "athenahealth complement"
+        ]
+    },
+    "hero": {
+        "h1": "clinIQ vs athenahealth",
+        "subhead": "athenahealth is an excellent EHR. It documents what happened during the visit. It does not show you what is happening right now. clinIQ is the operations layer that works alongside athenaOne to provide real-time patient flow, RTM billing automation, pre-authorization tracking, and LobbyView displays. Not a replacement. A complement.",
+        "stats": [
+            {
+                "value": "Real-time",
+                "label": "flow visibility athenaOne lacks"
+            },
+            {
+                "value": "$112",
+                "label": "avg RTM revenue per patient"
+            },
+            {
+                "value": "Works with",
+                "label": "your existing athenaOne"
+            }
+        ]
+    },
+    "gatedContent": {
+        "title": "The EHR Gap Analysis",
+        "description": "What your EHR can't track and what it's costing you. Covers operational blind spots in documentation-focused systems.",
+        "format": "PDF",
+        "placeholder": true
+    },
+    "tableOfContents": [
+        {
+            "id": "not-a-replacement",
+            "title": "Not a Replacement"
+        },
+        {
+            "id": "what-athena-does-well",
+            "title": "What athenahealth Does Well"
+        },
+        {
+            "id": "operational-gaps",
+            "title": "The Operations Gap in Every EHR"
+        },
+        {
+            "id": "real-time-flow",
+            "title": "Real-Time Patient Flow"
+        },
+        {
+            "id": "revenue-operations",
+            "title": "Revenue Operations"
+        },
+        {
+            "id": "integration-approach",
+            "title": "How clinIQ Works with athenaOne"
+        },
+        {
+            "id": "capability-comparison",
+            "title": "Capability Comparison"
+        },
+        {
+            "id": "implementation",
+            "title": "Adding clinIQ to athenahealth"
+        },
+        {
+            "id": "faqs",
+            "title": "FAQs"
+        }
+    ],
+    "sections": [
+        {
+            "id": "not-a-replacement",
+            "h2": "clinIQ Is Not an EHR Replacement",
+            "content": "This comparison page exists because practices search for alternatives when they feel operational pain. But the pain athenahealth users feel is often not an EHR problem. It is an operations problem that no EHR is designed to solve.\n\nathenahealth is one of the highest-rated EHR platforms in ambulatory healthcare. athenaOne won Best in KLAS for Overall Independent Physician Practice Suite in 2025. The platform handles clinical documentation, billing, patient portals, and practice management capably. For practices that need a new EHR, athenahealth is a reasonable choice.\n\nThe operational gaps practices experience are not athenahealth failures. They are inherent limitations of documentation-focused systems. EHRs are designed to capture what happened during a clinical encounter and process the resulting claims. They are not designed to show what is happening in the clinic right now, where patients are located, how long they have been waiting, or where bottlenecks are forming.\n\nclinIQ is a clinic operations platform that works alongside EHRs including athenahealth. It reads appointment and patient data from athenaOne through standard integrations without touching clinical documentation. It adds real-time [patient flow](/features/patient-flow) tracking, [RTM billing](/features/rtm-billing) automation, [pre-authorization management](/features/pre-authorization), and other operational capabilities that athenaOne was never designed to provide. The platform layers on top of your existing EHR rather than replacing it.\n\nIf your challenge is clinical documentation, athenahealth addresses that. If your challenge is knowing which patient is in which room, how long the waiting room queue is, or whether the pre-auth for Friday's procedure has been approved, those are clinIQ problems. Most practices have both kinds of challenges and benefit from both kinds of tools."
+        },
+        {
+            "id": "what-athena-does-well",
+            "h2": "What athenahealth Does Well",
+            "content": "Acknowledging athenahealth's strengths is not marketing positioning. athenaOne is genuinely good at what it was designed to do, and practices considering their options deserve accurate assessment.\n\nClinical documentation in athenaOne is designed around how clinicians actually work. The interface is intuitive compared to legacy EHR systems. Templates are specialty-specific. Mobile access allows documentation from anywhere. The 2025 KLAS rankings confirm that users rate athenahealth highly for clinical workflows.\n\nPractice management capabilities are integrated into the same platform. Scheduling, patient registration, and administrative workflows operate alongside clinical documentation. Staff work in one system rather than switching between separate tools. This integration reduces friction and training burden.\n\nRevenue cycle management is a core athenahealth strength. The platform's rules engine catches claim errors before submission. Clean claim rates are among the highest in the industry according to athenahealth's published data. For practices that struggle with billing accuracy and denial management, athenaOne provides meaningful improvement.\n\nPatient engagement tools are built in. Patient portals, secure messaging, online scheduling, and appointment reminders are native to the platform. Patients can access records, communicate with providers, and manage their care without third-party integrations.\n\nNetwork insights leverage data from over 160,000 providers on the athenahealth network. The platform surfaces care gaps, diagnosis patterns, and benchmark comparisons that smaller networks cannot provide. This network intelligence helps practices improve clinical quality and identify revenue opportunities.\n\nPricing is competitive for EHR software. Starting around one hundred forty dollars per provider monthly, athenahealth is less expensive than many comparable platforms while offering robust functionality. The percentage-of-collections model for RCM services aligns vendor and practice incentives.\n\nThese are genuine strengths. Practices satisfied with athenahealth's clinical documentation and billing should not switch EHRs. The question is whether those capabilities address all operational needs."
+        },
+        {
+            "id": "operational-gaps",
+            "h2": "The Operations Gap in Every EHR",
+            "content": "EHRs are documentation systems. They capture encounters after they happen. They are not operations systems designed to manage what is happening right now.\n\nReal-time patient location is not an EHR function. athenaOne knows a patient has an appointment at 2:00 PM. It does not know whether that patient is currently in the waiting room, in exam room 3, with the provider, or waiting at checkout. The gap between scheduled and actual is invisible because EHRs do not track real-time status.\n\nThis limitation is not specific to athenahealth. Epic, eClinicalWorks, NextGen, and every other EHR share the same architectural blind spot. EHRs are designed to document completed encounters, not to track encounters in progress. Adding real-time location tracking would require fundamental redesign that conflicts with the core purpose of clinical documentation.\n\nclinIQ fills this gap with [patient flow](/features/patient-flow) tracking that shows every patient's current location and status. The dashboard updates in real time as staff changes patient status. Waiting room census, occupied rooms, patients ready for providers, and checkout queue are visible at a glance. This visibility enables proactive management rather than reactive discovery.\n\nWait time patterns are invisible in EHRs. athenaOne can report that an appointment was scheduled for 2:00 and completed at 2:47. It cannot show that the patient waited 18 minutes in the waiting room, 12 minutes in the exam room before vitals, and 9 minutes after vitals before the provider arrived. This stage-level detail reveals where operational improvements are needed.\n\n[Analytics](/features/analytics) in clinIQ track time in each stage of the visit. Practices can see which stages have the longest delays, how patterns vary by day and provider, and where interventions would have the most impact. This operational intelligence does not exist in EHR reporting.\n\nBottleneck alerting is not an EHR capability. When three exam rooms are simultaneously waiting for provider attention and only one provider is available, EHRs have no mechanism to surface this situation. The bottleneck becomes visible only when patients complain or staff notices through direct observation.\n\nclinIQ's threshold-based alerting surfaces bottlenecks as they form. When a room exceeds expected wait time, when waiting room census exceeds comfort levels, when provider throughput slows, the system alerts relevant staff. Intervention happens before patient experience degrades."
+        },
+        {
+            "id": "real-time-flow",
+            "h2": "Real-Time Patient Flow That athenaOne Cannot Provide",
+            "content": "Patient flow management is clinIQ's core capability. It addresses the fundamental question that EHRs cannot answer: where is every patient right now?\n\n[Patient flow](/features/patient-flow) tracking begins when patients check in through the [clinIQ app](/features/patient-app), QR code, web form, or lobby tablet. The [check-in](/features/patient-check-in) module captures arrival and creates a trackable status. From that moment, the patient's journey through the clinic is visible.\n\nStatus progression moves patients through defined stages. Checked-in indicates arrival and waiting room presence. Roomed indicates movement to an exam room. With-provider indicates active clinical encounter. Checkout indicates visit completion and departure pending. Staff updates status with single taps, creating a real-time map of clinic activity.\n\nThe dashboard shows all active patients across all stages. Operations managers see waiting room census at a glance. Clinical staff see which rooms are occupied and which are available. Providers see who is waiting for their attention. Everyone works from the same current reality rather than outdated assumptions.\n\nTime tracking accumulates automatically. The system knows how long each patient has been in each stage without manual logging. This data feeds both real-time alerting and historical [analytics](/features/analytics). Patterns emerge over days and weeks that reveal systemic issues invisible in moment-to-moment observation.\n\nLobbyView displays bring visibility to patients. A lobby television shows queue position and estimated wait using privacy-compliant identifiers. Patients see their progress rather than sitting with no information. Front desk staff spend less time answering status questions. The experience feels transparent and professionally managed.\n\nathenaOne cannot provide these capabilities. The architecture required for real-time operational tracking is fundamentally different from the architecture required for clinical documentation. athenahealth adding patient flow features would require building an entirely new system type. clinIQ provides that system type as a complementary layer."
+        },
+        {
+            "id": "revenue-operations",
+            "h2": "Revenue Operations Beyond Billing",
+            "content": "athenahealth excels at claims processing and revenue cycle management for completed encounters. clinIQ addresses revenue operations that happen before and between encounters.\n\nPre-authorization determines whether procedures will be reimbursed before they are performed. For [pain management](/specialties/pain-management) practices where most injections require prior approval, for [orthopedic surgery](/specialties/orthopedic-surgery) where surgical procedures need authorization, for [spine surgery](/specialties/spine-surgery) where denial rates approach sixty percent, pre-authorization management is critical to revenue integrity.\n\nathenaOne includes authorization tracking capabilities, but the operational workflow extends beyond what EHR-native tools provide. clinIQ's [pre-authorization module](/features/pre-authorization) tracks every authorization from request through resolution. Pipeline views show pending, approved, and denied cases by payer and procedure. Expiration alerts fire before authorizations lapse. Appeal workflows track resubmissions. Integration with [scheduling](/features/scheduling) prevents procedures from being scheduled without valid authorization.\n\nRemote Therapeutic Monitoring represents recurring monthly revenue for chronic disease management. [RTM billing](/features/rtm-billing) through CPT codes 98975 through 98981 generates one hundred to one hundred fifty dollars per patient per month. This revenue compensates for between-visit monitoring that historically went unbilled.\n\nathenaOne processes RTM claims like any other claim once they are generated. But RTM requires upstream workflow: patient enrollment, symptom data collection, clinical time tracking, and threshold verification. clinIQ's RTM module systematizes this workflow. Patients submit symptom data through the [clinIQ app](/features/patient-app). Clinical time logs automatically. Monthly billing generation identifies eligible patients and creates claims with appropriate codes. [Analytics](/features/analytics) track compliance and program performance.\n\n[Wearable integration](/features/wearable-integration) supplements patient-reported data with continuous metrics from Apple Watch, Oura Ring, and other consumer devices. This data enriches clinical insights and supports both RTM and standard care. athenaOne does not integrate with consumer wearables.\n\nThe revenue math is substantial. A [behavioral health](/specialties/behavioral-health) practice with one hundred chronic patients capturing RTM generates one hundred forty-four thousand dollars annually in new revenue. A [pulmonology](/specialties/pulmonology) practice with similar enrollment captures equivalent amounts. This revenue requires workflow infrastructure that EHRs do not provide."
+        },
+        {
+            "id": "integration-approach",
+            "h2": "How clinIQ Works Alongside athenaOne",
+            "content": "clinIQ integrates with athenahealth through read-only data connections that pull appointment and patient information without modifying clinical records. The integration approach preserves athenaOne as the system of record while adding operational capabilities.\n\nAppointment data flows from athenaOne to clinIQ. Scheduled appointments appear in clinIQ for flow tracking and check-in. Patient demographics are synchronized so clinIQ displays accurate information. This data flow is one-directional and read-only. clinIQ does not write to athenaOne or modify appointment records.\n\nClinical documentation remains entirely in athenaOne. Providers continue using athenaOne for encounter notes, orders, prescriptions, and all clinical functions. clinIQ does not attempt to replace or duplicate clinical workflows. The platforms serve different purposes and complement rather than conflict.\n\nBilling integration varies by practice preference. Some practices generate RTM claims in clinIQ and submit directly through their clearinghouse. Others export billing data from clinIQ into athenaOne's RCM workflow. The flexibility allows practices to maintain existing billing processes while adding RTM capability.\n\nStaff workflows span both platforms naturally. Front desk staff may use clinIQ for check-in and flow visibility while accessing athenaOne for patient records. Clinical staff may use clinIQ's dashboard to see who is waiting while documenting in athenaOne. The tools coexist without requiring staff to choose one over the other.\n\nImplementation does not disrupt athenaOne operations. clinIQ deployment typically completes in days without modifying athenaOne configuration. Staff learns clinIQ's additional capabilities without relearning athenaOne workflows. The transition is additive rather than substitutive.\n\nData remains in athenaOne as the primary clinical record. clinIQ stores operational data such as flow status, RTM submissions, and pre-authorization tracking. Patient Protected Health Information resides in both systems with appropriate access controls. Both platforms are built following HIPAA guidelines."
+        },
+        {
+            "id": "capability-comparison",
+            "h2": "Capability Comparison",
+            "content": "Direct comparison clarifies what each platform provides and how they complement rather than compete.\n\nClinical documentation is athenahealth's core capability with specialty-specific templates and mobile access. clinIQ does not provide clinical documentation because that is not its purpose.\n\nBilling and claims processing is a core athenahealth strength with high clean claim rates and integrated RCM. clinIQ generates RTM claims for submission through existing billing workflows but does not replicate general claims processing.\n\nPatient portal is native to athenaOne with record access, secure messaging, and appointment management. clinIQ provides the [clinIQ app](/features/patient-app) focused on check-in, RTM data submission, and operational communication rather than clinical record access.\n\nReal-time patient flow is not available in athenahealth because EHRs do not track real-time location. clinIQ provides [patient flow](/features/patient-flow) dashboards showing every patient's current status and location.\n\nLobbyView displays are not available in athenahealth. clinIQ shows queue position and wait estimates on lobby televisions.\n\nBottleneck alerting is not available in athenahealth. clinIQ includes threshold-based alerts for operational conditions requiring attention.\n\nRTM billing automation is not native to athenahealth. clinIQ provides the full [RTM workflow](/features/rtm-billing) from enrollment through claim generation.\n\nPre-authorization tracking exists in athenahealth but clinIQ provides deeper pipeline management, expiration alerting, and scheduling integration through the [pre-authorization module](/features/pre-authorization).\n\nWearable integration is not available in athenahealth. clinIQ connects with Apple Health, Oura Ring, and other consumer devices through [wearable integration](/features/wearable-integration).\n\nOperational analytics are limited in athenahealth to reporting on completed encounters. clinIQ [analytics](/features/analytics) track real-time patterns, stage-level timing, and operational trends.\n\nThe platforms address different layers of clinic operations. athenahealth handles documentation and billing for completed encounters. clinIQ handles real-time operations and revenue capture that extends beyond encounter documentation."
+        },
+        {
+            "id": "implementation",
+            "h2": "Adding clinIQ to Your athenahealth Practice",
+            "content": "Deploying clinIQ alongside athenahealth follows a straightforward process that typically completes in days rather than weeks or months.\n\nIntegration setup connects clinIQ to athenaOne data. The connection uses standard integration methods to pull appointment schedules and patient demographics. Configuration typically completes in one to two days with minimal IT involvement. athenaOne continues operating normally throughout setup.\n\nStaff training introduces clinIQ capabilities. Training sessions typically run one to two hours covering check-in workflows, patient flow dashboards, and relevant modules such as RTM or pre-authorization. Staff already comfortable with athenaOne find clinIQ's interface intuitive. Training emphasizes new capabilities rather than replacing existing knowledge.\n\nGo-live begins with core functionality. Most practices start with [check-in](/features/patient-check-in) and [patient flow](/features/patient-flow) to establish operational visibility immediately. Additional modules such as [RTM billing](/features/rtm-billing) or [pre-authorization](/features/pre-authorization) can be enabled after staff is comfortable with core workflows. This phased approach minimizes disruption.\n\nOptimization continues after initial deployment. [Analytics](/features/analytics) reveal operational patterns that suggest improvements. RTM enrollment expands as staff becomes comfortable with the workflow. Pre-authorization tracking catches issues that previously slipped through. The platform generates more value over time as utilization deepens.\n\nPricing adds incrementally to existing athenahealth costs. clinIQ Starter at two hundred forty-nine dollars monthly or Professional at four hundred ninety-nine dollars monthly layers onto whatever athenahealth costs the practice already pays. The combined investment provides both documentation and operations capabilities. RTM revenue from even modest enrollment typically exceeds clinIQ platform cost.\n\nSupport continues beyond implementation. Questions about workflows, optimization opportunities, or technical issues receive direct response. The relationship is ongoing partnership rather than software license and abandonment."
+        }
+    ],
+    "faqs": [
+        {
+            "q": "Is clinIQ a replacement for athenahealth?",
+            "a": "No. clinIQ is an operations layer that works alongside athenaOne. Clinical documentation, billing, and patient records remain in athenahealth. clinIQ adds real-time [patient flow](/features/patient-flow), [RTM billing](/features/rtm-billing), [pre-authorization tracking](/features/pre-authorization), and other operational capabilities that EHRs do not provide."
+        },
+        {
+            "q": "How does clinIQ integrate with athenahealth?",
+            "a": "clinIQ connects to athenaOne through read-only integrations that pull appointment and patient data. The connection does not modify athenahealth records. Clinical documentation remains entirely in athenaOne. The platforms complement rather than conflict."
+        },
+        {
+            "q": "What does clinIQ provide that athenahealth does not?",
+            "a": "clinIQ provides real-time [patient flow](/features/patient-flow) showing where every patient is right now, LobbyView displays for patient wait visibility, [RTM billing](/features/rtm-billing) workflow automation, [pre-authorization](/features/pre-authorization) pipeline management with expiration alerts, [wearable integration](/features/wearable-integration), and operational [analytics](/features/analytics) that EHRs cannot provide."
+        },
+        {
+            "q": "Do staff need to learn two systems?",
+            "a": "Staff continues using athenaOne for clinical documentation. clinIQ adds operational visibility without replacing existing workflows. Most staff finds clinIQ intuitive after brief training. The tools coexist naturally with different purposes."
+        },
+        {
+            "q": "What is the total cost of athenahealth plus clinIQ?",
+            "a": "athenahealth pricing starts around one hundred forty dollars per provider monthly. clinIQ adds two hundred forty-nine dollars monthly for Starter or four hundred ninety-nine dollars for Professional. Combined cost provides both documentation and operations capabilities. RTM revenue from modest enrollment typically exceeds clinIQ cost."
+        },
+        {
+            "q": "How long does it take to add clinIQ to our athenahealth practice?",
+            "a": "Integration setup typically completes in one to two days. Staff training runs one to two hours. Most practices are fully operational within two weeks of contract signature. athenahealth operations continue normally throughout deployment."
+        },
+        {
+            "q": "Can we capture RTM revenue with athenahealth alone?",
+            "a": "athenahealth processes RTM claims once generated, but does not provide the upstream workflow required for RTM: patient enrollment, symptom data collection through the [app](/features/patient-app), automatic time tracking, and threshold verification. clinIQ's [RTM module](/features/rtm-billing) provides this workflow infrastructure."
+        }
+    ],
+    "relatedContent": {
+        "features": [
+            {
+                "slug": "patient-flow",
+                "title": "Patient Flow"
+            },
+            {
+                "slug": "rtm-billing",
+                "title": "RTM Billing"
+            },
+            {
+                "slug": "pre-authorization",
+                "title": "Pre-Authorization"
+            },
+            {
+                "slug": "analytics",
+                "title": "Analytics"
+            }
+        ],
+        "specialties": [
+            {
+                "slug": "primary-care",
+                "title": "Primary Care"
+            },
+            {
+                "slug": "cardiology",
+                "title": "Cardiology"
+            },
+            {
+                "slug": "behavioral-health",
+                "title": "Behavioral Health"
+            }
+        ],
+        "competitors": [
+            {
+                "slug": "eclinicalworks",
+                "title": "clinIQ vs eClinicalWorks"
+            },
+            {
+                "slug": "nextgen",
+                "title": "clinIQ vs NextGen"
+            },
+            {
+                "slug": "phreesia",
+                "title": "clinIQ vs Phreesia"
+            }
+        ]
+    }
+}

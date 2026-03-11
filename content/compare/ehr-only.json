@@ -1,0 +1,151 @@
+{
+    "slug": "ehr-only",
+    "name": "clinIQ vs EHR-Only Workflow",
+    "pageType": "compare-pillar",
+    "wordCount": 1600,
+    "publishDate": "2026-03-11",
+    "meta": {
+        "title": "clinIQ vs EHR-Only Workflow | Add Operations Layer to Your EHR",
+        "description": "EHRs document what happened. clinIQ manages what's happening now. Real-time patient flow, RTM billing, and pre-authorization tracking that no EHR provides. Works alongside any EHR.",
+        "keywords": [
+            "EHR operations",
+            "EHR patient flow",
+            "EHR add-on",
+            "clinic operations software",
+            "EHR complement",
+            "patient tracking EHR",
+            "real-time patient flow"
+        ]
+    },
+    "hero": {
+        "h1": "clinIQ vs EHR-Only Workflow",
+        "subhead": "Your EHR documents what happened during the visit. It does not show what is happening right now. clinIQ adds real-time operations to any EHR: patient flow visibility, RTM billing automation, pre-authorization tracking, and operational analytics. Keep your EHR. Add the operations layer it cannot provide.",
+        "stats": [
+            {
+                "value": "Any EHR",
+                "label": "compatible"
+            },
+            {
+                "value": "Real-time",
+                "label": "operations"
+            },
+            {
+                "value": "$112",
+                "label": "avg RTM revenue per patient"
+            }
+        ]
+    },
+    "gatedContent": {
+        "title": "The EHR Gap Analysis",
+        "description": "What your EHR can't track and what it's costing you. Covers operational blind spots common to all documentation-focused systems.",
+        "format": "PDF",
+        "placeholder": true
+    },
+    "tableOfContents": [
+        {
+            "id": "documentation-vs-operations",
+            "title": "Documentation vs Operations"
+        },
+        {
+            "id": "ehr-limitations",
+            "title": "EHR Limitations"
+        },
+        {
+            "id": "operations-layer",
+            "title": "The Operations Layer"
+        },
+        {
+            "id": "revenue-capture",
+            "title": "Revenue Capture"
+        },
+        {
+            "id": "integration",
+            "title": "Working with Any EHR"
+        },
+        {
+            "id": "faqs",
+            "title": "FAQs"
+        }
+    ],
+    "sections": [
+        {
+            "id": "documentation-vs-operations",
+            "h2": "Documentation Systems vs Operations Systems",
+            "content": "EHRs are documentation systems. They are designed to capture what happened during clinical encounters and process the resulting claims. This is valuable and necessary work. But it is fundamentally different from operations management.\n\nOperations systems manage what is happening right now. Where is each patient? How long have they been waiting? Which rooms are occupied? Where are bottlenecks forming? These questions require real-time visibility that documentation systems do not provide.\n\nEvery EHR has this limitation. Epic, athenahealth, eClinicalWorks, NextGen, AdvancedMD, and every other EHR share the same architectural constraint. They document completed encounters; they do not track encounters in progress.\n\nThis is not an EHR flaw to be fixed. It is an inherent difference in system purpose. Adding real-time operations would require EHR vendors to build a fundamentally different kind of system. Instead, practices can add an operations layer that complements their existing EHR.\n\nclinIQ is that operations layer. [Patient flow](/features/patient-flow) provides real-time visibility into patient location and status. [RTM billing](/features/rtm-billing) captures revenue from chronic disease monitoring. [Pre-authorization](/features/pre-authorization) tracking protects procedure revenue. [Analytics](/features/analytics) surface operational patterns. These capabilities work alongside any EHR without replacing it."
+        },
+        {
+            "id": "ehr-limitations",
+            "h2": "What EHRs Cannot Do",
+            "content": "Understanding EHR limitations helps practices recognize when additional tools are needed.\n\nReal-time patient location is not an EHR capability. Your EHR knows a patient has an appointment scheduled. It does not know whether that patient is currently in the waiting room, exam room 3, or with the provider. This information requires real-time tracking that EHRs were not designed to provide.\n\nStage-level timing is invisible. EHRs can report total appointment duration but cannot show that eight minutes were waiting room time, twelve minutes were room wait before provider, and twenty-five minutes were provider encounter. This breakdown matters for operational improvement.\n\nBottleneck detection requires seeing the entire flow. When multiple patients are waiting for providers while other rooms sit empty, EHRs have no mechanism to surface this. Staff discovers bottlenecks through patient complaints or direct observation.\n\nLobbyView displays do not exist in EHRs. Patients in the waiting room have no visibility into their queue position or expected wait. They sit with no information.\n\nRTM workflow is not native to EHRs. EHRs can process RTM claims once created, but they do not provide the upstream workflow: patient enrollment, symptom data collection, time tracking, and threshold verification.\n\nPre-authorization management varies by EHR but typically lacks pipeline views, expiration alerting, and scheduling integration that systematic tracking requires.\n\nWearable integration does not exist in most EHRs. Consumer health devices like Apple Watch and Oura Ring generate data that could inform clinical care but has no path into EHR documentation."
+        },
+        {
+            "id": "operations-layer",
+            "h2": "The Operations Layer EHRs Need",
+            "content": "clinIQ provides the operations layer that complements any EHR.\n\n[Patient flow](/features/patient-flow) tracks every patient from arrival through departure. Check-in through the [clinIQ app](/features/patient-app), QR code, or tablet initiates tracking. Status updates as patients move through waiting room, exam room, provider encounter, and checkout. The dashboard shows current reality.\n\nReal-time visibility replaces guessing. Staff sees waiting room census, occupied rooms, patients ready for providers, and checkout queue. This visibility enables proactive management rather than reactive discovery.\n\nTime tracking accumulates automatically. The system knows how long each patient has been in each stage without manual logging. This data feeds both real-time alerting and historical [analytics](/features/analytics).\n\nThreshold alerting surfaces problems as they form. When a room has been occupied beyond expected duration or waiting room census exceeds comfort levels, relevant staff receives notification.\n\nLobbyView displays show queue position and estimated wait on lobby televisions. Patients see transparency that reduces anxiety and status questions.\n\n[Analytics](/features/analytics) reveal patterns over days and weeks. Wait times, throughput, and bottleneck frequency become visible. This operational intelligence does not exist in EHR reporting because EHRs lack the underlying data."
+        },
+        {
+            "id": "revenue-capture",
+            "h2": "Revenue Capture Beyond EHR Billing",
+            "content": "EHRs process claims for completed encounters. clinIQ captures revenue streams that EHRs cannot address.\n\nRemote Therapeutic Monitoring generates recurring monthly revenue for chronic disease management. [RTM billing](/features/rtm-billing) through CPT codes 98975 through 98981 captures one hundred to one hundred fifty dollars per patient per month.\n\nRTM requires workflow infrastructure EHRs do not provide. Patient enrollment captures consent and establishes monitoring protocols. The [clinIQ app](/features/patient-app) collects patient-reported symptom data between visits. Clinical time spent reviewing data logs automatically. Monthly billing generation identifies patients meeting thresholds and creates claims.\n\nThe revenue opportunity is substantial. One hundred chronic patients enrolled in RTM generate over one hundred forty thousand dollars annually. This revenue comes from patients the practice already has and work the practice already does, systematized to capture appropriate billing.\n\nPre-authorization protects procedure revenue. For [pain management](/specialties/pain-management), [orthopedic surgery](/specialties/orthopedic-surgery), [spine surgery](/specialties/spine-surgery), and specialty practices, procedures require prior approval. Missing or expired authorizations mean denied claims.\n\nclinIQ's [pre-authorization module](/features/pre-authorization) tracks every authorization from request through resolution. Pipeline views show status by payer and procedure. Expiration alerts fire before authorizations lapse. Integration with [scheduling](/features/scheduling) prevents scheduling without valid authorization.\n\n[Wearable integration](/features/wearable-integration) supplements patient-reported data with continuous metrics from Apple Watch, Oura Ring, and other devices. This data supports clinical care and RTM documentation that EHRs cannot capture."
+        },
+        {
+            "id": "integration",
+            "h2": "Working with Any EHR",
+            "content": "clinIQ integrates with EHRs through standard connections that pull data without modifying clinical records.\n\nAppointment data flows from your EHR to clinIQ. Scheduled appointments populate clinIQ for check-in and flow tracking. Patient demographics synchronize for accurate display. The connection is read-only.\n\nClinical documentation remains in your EHR. Providers continue using their existing system for encounter notes, orders, prescriptions, and clinical functions. clinIQ does not attempt to replace clinical workflows.\n\nSupported EHRs include athenahealth, eClinicalWorks, NextGen, AdvancedMD, ModMed, and others. The integration approach works with virtually any EHR that provides standard data access.\n\nStaff workflows span both platforms naturally. Front desk uses clinIQ for check-in and flow visibility while accessing the EHR for patient records. Providers reference clinIQ's dashboard while documenting in their EHR. The tools coexist without requiring staff to choose.\n\nImplementation does not disrupt EHR operations. clinIQ deployment completes in days without modifying EHR configuration. Staff learns new capabilities without relearning existing workflows.\n\nPricing adds incrementally to existing EHR costs. clinIQ Starter at two hundred forty-nine dollars monthly or Professional at four hundred ninety-nine dollars monthly provides the operations layer. RTM revenue from modest enrollment typically exceeds clinIQ platform cost."
+        }
+    ],
+    "faqs": [
+        {
+            "q": "Why can't my EHR provide patient flow tracking?",
+            "a": "EHRs are documentation systems designed to capture completed encounters, not track encounters in progress. Real-time operations requires different architecture. clinIQ provides this as a complementary layer."
+        },
+        {
+            "q": "Does clinIQ replace my EHR?",
+            "a": "No. clinIQ works alongside your EHR. Clinical documentation remains in your existing system. clinIQ adds [patient flow](/features/patient-flow), [RTM billing](/features/rtm-billing), [pre-authorization](/features/pre-authorization), and operational capabilities."
+        },
+        {
+            "q": "Which EHRs does clinIQ work with?",
+            "a": "clinIQ integrates with athenahealth, eClinicalWorks, NextGen, AdvancedMD, ModMed, and virtually any EHR through standard read-only connections."
+        },
+        {
+            "q": "How much revenue am I missing with EHR-only workflow?",
+            "a": "[RTM billing](/features/rtm-billing) for one hundred chronic patients generates over one hundred forty thousand dollars annually. [Pre-authorization](/features/pre-authorization) tracking prevents revenue loss from expired authorizations. These revenue streams require workflow infrastructure EHRs do not provide."
+        }
+    ],
+    "relatedContent": {
+        "features": [
+            {
+                "slug": "patient-flow",
+                "title": "Patient Flow"
+            },
+            {
+                "slug": "rtm-billing",
+                "title": "RTM Billing"
+            },
+            {
+                "slug": "pre-authorization",
+                "title": "Pre-Authorization"
+            }
+        ],
+        "specialties": [
+            {
+                "slug": "primary-care",
+                "title": "Primary Care"
+            },
+            {
+                "slug": "pain-management",
+                "title": "Pain Management"
+            }
+        ],
+        "competitors": [
+            {
+                "slug": "athenahealth",
+                "title": "clinIQ vs athenahealth"
+            },
+            {
+                "slug": "eclinicalworks",
+                "title": "clinIQ vs eClinicalWorks"
+            }
+        ]
+    }
+}

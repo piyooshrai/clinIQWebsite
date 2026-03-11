@@ -1,0 +1,160 @@
+{
+    "slug": "advancedmd",
+    "name": "clinIQ vs AdvancedMD",
+    "pageType": "compare-pillar",
+    "wordCount": 1800,
+    "publishDate": "2026-03-11",
+    "meta": {
+        "title": "clinIQ vs AdvancedMD | EHR Operations Layer | Patient Flow Add-On",
+        "description": "clinIQ adds real-time operations to AdvancedMD. Not a replacement. The patient flow, RTM billing, and pre-authorization layer that AdvancedMD EHR does not provide. Works alongside your existing system.",
+        "keywords": [
+            "AdvancedMD alternative",
+            "AdvancedMD patient flow",
+            "AdvancedMD add-on",
+            "AdvancedMD operations",
+            "EHR patient tracking",
+            "AdvancedMD RTM",
+            "AdvancedMD complement"
+        ]
+    },
+    "hero": {
+        "h1": "clinIQ vs AdvancedMD",
+        "subhead": "AdvancedMD handles EHR and practice management with strong billing focus. It does not show real-time patient location or status. clinIQ adds patient flow visibility, RTM billing automation, and pre-authorization tracking as an operations layer that works alongside your existing AdvancedMD.",
+        "stats": [
+            {
+                "value": "Real-time",
+                "label": "flow AdvancedMD lacks"
+            },
+            {
+                "value": "Works with",
+                "label": "your existing system"
+            },
+            {
+                "value": "$112",
+                "label": "avg RTM revenue per patient"
+            }
+        ]
+    },
+    "gatedContent": {
+        "title": "The EHR Gap Analysis",
+        "description": "What your EHR can't track and what it's costing you. Covers operational blind spots in documentation-focused systems.",
+        "format": "PDF",
+        "placeholder": true
+    },
+    "tableOfContents": [
+        {
+            "id": "complement-not-replace",
+            "title": "Complement, Not Replace"
+        },
+        {
+            "id": "advancedmd-strengths",
+            "title": "What AdvancedMD Does Well"
+        },
+        {
+            "id": "operations-gap",
+            "title": "The Operations Gap"
+        },
+        {
+            "id": "real-time-visibility",
+            "title": "Real-Time Visibility"
+        },
+        {
+            "id": "revenue-operations",
+            "title": "Revenue Operations"
+        },
+        {
+            "id": "integration",
+            "title": "Working with AdvancedMD"
+        },
+        {
+            "id": "faqs",
+            "title": "FAQs"
+        }
+    ],
+    "sections": [
+        {
+            "id": "complement-not-replace",
+            "h2": "clinIQ Complements AdvancedMD",
+            "content": "Practices searching for AdvancedMD alternatives often experience operational frustration that is not an EHR problem. The inability to see where patients are, how long they have been waiting, or whether bottlenecks are forming is real. But AdvancedMD was never designed to solve those problems.\n\nAdvancedMD is an established cloud-based EHR and practice management platform. The system handles clinical documentation, scheduling, billing, and revenue cycle management capably. For practices that need a new EHR with strong billing capabilities, AdvancedMD is a legitimate option.\n\nclinIQ is not an EHR. It is a clinic operations platform that works alongside AdvancedMD to provide capabilities EHRs cannot. [Patient flow](/features/patient-flow) tracking shows where every patient is right now. [RTM billing](/features/rtm-billing) automates Remote Therapeutic Monitoring revenue capture. [Pre-authorization](/features/pre-authorization) management tracks approvals and expirations.\n\nThe platforms address different operational layers. AdvancedMD documents encounters and processes claims. clinIQ manages real-time operations and revenue streams beyond encounter billing. Practices need both kinds of capability."
+        },
+        {
+            "id": "advancedmd-strengths",
+            "h2": "What AdvancedMD Does Well",
+            "content": "AdvancedMD has built strong capabilities, particularly in revenue cycle management. Understanding its genuine strengths clarifies where additional capability is needed.\n\nBilling and RCM are core AdvancedMD strengths. The platform is known for clean claim submission, denial management, and revenue optimization. Practices focused on billing performance often choose AdvancedMD for this reason.\n\nClinical documentation supports ambulatory workflows with customizable templates. The EHR handles encounter notes, orders, and clinical documentation for outpatient care.\n\nPractice management integrates scheduling, registration, and administrative functions with clinical workflows. Staff works in a unified system.\n\nPatient engagement tools include patient portal, online scheduling, and communication capabilities. Patients can access records and communicate with providers.\n\nReporting provides visibility into financial and operational metrics. Dashboards show practice performance across billing and clinical dimensions.\n\nCloud-based architecture provides access from anywhere without on-premise infrastructure requirements.\n\nThese are genuine strengths. Practices satisfied with AdvancedMD documentation and billing should not switch EHRs. They should add operational capability."
+        },
+        {
+            "id": "operations-gap",
+            "h2": "The Operations Gap in Every EHR",
+            "content": "EHRs document what happened during clinical encounters. They do not show what is happening right now. This is an inherent limitation of documentation-focused systems.\n\nAdvancedMD knows a patient has an appointment scheduled. It does not know whether that patient is currently in the waiting room, in exam room 2, with the provider, or at checkout. Real-time location tracking is not what EHRs do.\n\nThis limitation is shared by every EHR. Epic, athenahealth, eClinicalWorks, and NextGen all have the same architectural constraint. Adding real-time operations would require building a fundamentally different system type.\n\nclinIQ provides that system type as a complementary layer. [Patient flow](/features/patient-flow) shows every patient's current status from arrival through departure. The dashboard updates in real time as staff changes patient status.\n\nBottleneck detection requires operational visibility. When multiple patients are waiting for providers while rooms sit empty, AdvancedMD has no mechanism to surface this. clinIQ's threshold alerting notifies staff when conditions require attention.\n\nWait time analysis by stage is impossible in EHRs. AdvancedMD can report appointment duration but cannot show time spent in waiting room, time in room before vitals, or time after vitals before provider. [Analytics](/features/analytics) in clinIQ track each stage because the underlying data exists."
+        },
+        {
+            "id": "real-time-visibility",
+            "h2": "Real-Time Visibility Throughout the Visit",
+            "content": "clinIQ provides operational visibility that AdvancedMD cannot.\n\n[Patient flow](/features/patient-flow) tracking begins at [check-in](/features/patient-check-in). Patients check in through the [clinIQ app](/features/patient-app), QR code, web form, or lobby tablet. Check-in creates a trackable status following the patient through every stage.\n\nStatus progression reflects actual movement through the clinic. Checked-in, roomed, with-provider, and checkout are distinct states visible to all staff. Updates happen with single taps as staff performs normal workflow.\n\nThe dashboard shows all active patients across all stages. Waiting room census, occupied rooms, patients ready for providers, and checkout queue are visible simultaneously. This enables proactive management.\n\nTime tracking accumulates automatically in each stage. The system knows how long patients have been waiting without manual logging. This data supports real-time decisions and historical [analytics](/features/analytics).\n\nLobbyView displays show queue position and estimated wait on lobby televisions. Patients see progress rather than sitting with no information.\n\nThese capabilities complement AdvancedMD without replacing it. Documentation continues in AdvancedMD. Operational management happens in clinIQ."
+        },
+        {
+            "id": "revenue-operations",
+            "h2": "Revenue Operations Beyond Billing",
+            "content": "AdvancedMD excels at billing for completed encounters. clinIQ addresses revenue operations that happen before and between encounters.\n\nPre-authorization determines procedure reimbursement before services are rendered. For specialty practices where procedures require prior approval, authorization management is operationally critical. Missing or expired authorizations mean denied claims regardless of billing quality.\n\nclinIQ's [pre-authorization module](/features/pre-authorization) tracks every authorization from request through resolution. Pipeline views show status by payer and procedure. Expiration alerts fire before authorizations lapse. Integration with [scheduling](/features/scheduling) prevents scheduling without valid authorization.\n\nRemote Therapeutic Monitoring generates recurring monthly revenue for chronic disease management. [RTM billing](/features/rtm-billing) through CPT codes 98975 through 98981 captures one hundred to one hundred fifty dollars per patient per month.\n\nAdvancedMD processes RTM claims once created. But RTM requires upstream workflow: enrollment, data collection, time tracking, and threshold verification. clinIQ systematizes this workflow. Patients submit data through the [clinIQ app](/features/patient-app). Clinical time logs automatically. Monthly billing identifies eligible patients.\n\n[Wearable integration](/features/wearable-integration) supplements patient-reported data with continuous metrics from Apple Watch, Oura Ring, and other devices. AdvancedMD does not integrate with consumer wearables.\n\nThe revenue opportunity is substantial. One hundred chronic patients enrolled in RTM generate over one hundred forty thousand dollars annually. This revenue requires workflow infrastructure EHRs do not provide."
+        },
+        {
+            "id": "integration",
+            "h2": "How clinIQ Works with AdvancedMD",
+            "content": "clinIQ integrates with AdvancedMD through standard connections that pull appointment and patient data without modifying clinical records.\n\nAppointment data flows from AdvancedMD to clinIQ. Scheduled appointments populate clinIQ for check-in and flow tracking. Patient demographics synchronize for accurate display. The connection is read-only.\n\nClinical documentation remains in AdvancedMD. Providers continue using AdvancedMD for encounter notes, orders, and clinical functions. clinIQ does not duplicate clinical workflows.\n\nStaff workflows span both platforms naturally. Front desk uses clinIQ for check-in and flow visibility. Providers reference clinIQ's dashboard while documenting in AdvancedMD. The tools coexist without forcing choices.\n\nImplementation does not disrupt AdvancedMD operations. clinIQ deployment completes in days without modifying system configuration. Staff learns new capabilities without relearning existing workflows.\n\nPricing layers onto existing costs. clinIQ Starter at two hundred forty-nine dollars monthly or Professional at four hundred ninety-nine dollars monthly adds capability. RTM revenue typically exceeds platform cost."
+        }
+    ],
+    "faqs": [
+        {
+            "q": "Is clinIQ a replacement for AdvancedMD?",
+            "a": "No. clinIQ is an operations layer that works alongside AdvancedMD. Documentation and billing remain in AdvancedMD. clinIQ adds real-time [patient flow](/features/patient-flow), [RTM billing](/features/rtm-billing), and [pre-authorization tracking](/features/pre-authorization)."
+        },
+        {
+            "q": "How does clinIQ integrate with AdvancedMD?",
+            "a": "clinIQ connects through read-only integrations that pull appointment and patient data. Documentation remains in AdvancedMD. The platforms complement rather than conflict."
+        },
+        {
+            "q": "What does clinIQ provide that AdvancedMD does not?",
+            "a": "clinIQ provides real-time [patient flow](/features/patient-flow), LobbyView displays, [RTM billing](/features/rtm-billing) automation, [pre-authorization](/features/pre-authorization) management, [wearable integration](/features/wearable-integration), and operational [analytics](/features/analytics)."
+        },
+        {
+            "q": "How long does it take to add clinIQ?",
+            "a": "Integration typically completes in one to two days. Staff training runs one to two hours. Most practices are operational within two weeks."
+        }
+    ],
+    "relatedContent": {
+        "features": [
+            {
+                "slug": "patient-flow",
+                "title": "Patient Flow"
+            },
+            {
+                "slug": "rtm-billing",
+                "title": "RTM Billing"
+            },
+            {
+                "slug": "pre-authorization",
+                "title": "Pre-Authorization"
+            }
+        ],
+        "specialties": [
+            {
+                "slug": "dermatology",
+                "title": "Dermatology"
+            },
+            {
+                "slug": "pain-management",
+                "title": "Pain Management"
+            }
+        ],
+        "competitors": [
+            {
+                "slug": "athenahealth",
+                "title": "clinIQ vs athenahealth"
+            },
+            {
+                "slug": "nextgen",
+                "title": "clinIQ vs NextGen"
+            }
+        ]
+    }
+}
