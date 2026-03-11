@@ -53,20 +53,17 @@ export default function LanguageSwitcher({ variant = 'nav' }: Props) {
     )
   }
 
-  // On an English page that has an Arabic counterpart — offer switch to Arabic
-  if (ARABIC_PATHS.has(pathname)) {
-    return (
-      <Link
-        href={`/ar${pathname}`}
-        className={`${styles.btn} ${variant === 'inner' ? styles.btnInner : ''}`}
-        title="Switch to Arabic"
-        lang="ar"
-      >
-        <GlobeIcon />
-        <span>AR</span>
-      </Link>
-    )
-  }
-
-  return null
+  // On an English page — link to specific Arabic counterpart if it exists, else /ar homepage
+  const arHref = ARABIC_PATHS.has(pathname) ? `/ar${pathname}` : '/ar'
+  return (
+    <Link
+      href={arHref}
+      className={`${styles.btn} ${variant === 'inner' ? styles.btnInner : ''}`}
+      title="Switch to Arabic"
+      lang="ar"
+    >
+      <GlobeIcon />
+      <span>AR</span>
+    </Link>
+  )
 }
