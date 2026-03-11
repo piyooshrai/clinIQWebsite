@@ -33,6 +33,7 @@
   text-decoration: none;
   flex-shrink: 0;
   transition: transform 0.3s;
+  direction: ltr; /* brand name is always LTR regardless of page dir */
 }
 
 .logo:hover {
