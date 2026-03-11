@@ -1,0 +1,133 @@
+{
+  "slug": "neurology",
+  "name": "Neurology",
+  "pageType": "specialty-pillar",
+  "wordCount": 2800,
+  "publishDate": "2025-06-10",
+  "meta": {
+    "title": "Neurology Practice Software | RTM, Patient Flow & Symptom Tracking | clinIQ",
+    "description": "Complete guide to neurology practice operations. RTM billing for neurological conditions. Headache and seizure tracking. Wearable integration for sleep and activity data. Coordination with neurosurgery, psychiatry, and primary care.",
+    "keywords": ["neurology software", "neurology practice management", "neurological RTM billing", "headache tracking", "seizure diary", "neurology EHR integration", "multiple sclerosis monitoring"]
+  },
+  "hero": {
+    "h1": "Neurology Practice Software",
+    "subhead": "RTM billing for neurological conditions capturing $100-130 per patient monthly. Headache and seizure tracking through the clinIQ app. Wearable integration for sleep and activity data. Coordination with neurosurgery, psychiatry, and primary care.",
+    "stats": [
+      { "value": "$120K", "label": "annual RTM revenue (100 patients)" },
+      { "value": "Symptom", "label": "diary tracking" },
+      { "value": "Wearable", "label": "data integration" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "neuro-operations", "title": "The Neurology Operations Model" },
+    { "id": "rtm-billing", "title": "RTM Billing for Neurological Conditions" },
+    { "id": "symptom-tracking", "title": "Neurological Symptom Tracking" },
+    { "id": "patient-flow", "title": "Patient Flow" },
+    { "id": "care-coordination", "title": "Care Coordination" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "neuro-operations",
+      "h2": "The Neurology Operations Model",
+      "content": "Neurology practices manage episodic and chronic neurological conditions requiring ongoing monitoring. Headache disorders, epilepsy, multiple sclerosis, Parkinson's disease, and dementia all require between-visit tracking. Patient-reported symptom data informs medication adjustment and treatment planning. [RTM](/features/rtm-billing) through the [clinIQ app](/features/patient-app) captures this data systematically.\n\nClinic flow involves extended new patient evaluations, follow-up visits, and testing including EEG, EMG, and imaging review. [Patient flow](/features/patient-flow) manages patients through varied visit types with different time requirements.\n\n[Wearable integration](/features/wearable-integration) captures sleep and activity data relevant to many neurological conditions. Sleep patterns affect seizure control and headache frequency. Activity levels indicate functional status in movement disorders and MS.\n\nCare coordination spans [neurosurgery](/specialties/neurosurgery) for surgical conditions, [psychiatry](/specialties/psychiatry) for behavioral aspects of neurological disease, [primary care](/specialties/primary-care) for medical management, and [physical therapy](/specialties/physical-therapy) for rehabilitation."
+    },
+    {
+      "id": "rtm-billing",
+      "h2": "RTM Billing for Neurological Conditions",
+      "content": "[RTM billing](/features/rtm-billing) for neurology uses CPT 98976 for behavioral/neurological device supply plus 98980 and 98981 for treatment management. Headache disorders, epilepsy, MS, Parkinson's, and other conditions qualify.\n\nHeadache tracking captures frequency, intensity, duration, and associated symptoms for migraine and other headache disorders. Medication use including acute treatments and preventive adherence logs through the [clinIQ app](/features/patient-app). Trigger identification through tracking patterns informs behavioral intervention.\n\nSeizure diary tracking captures seizure type, frequency, duration, and circumstances. Medication adherence monitoring documents compliance. Patterns may reveal triggers or medication timing issues.\n\nMS symptom tracking captures fatigue, weakness, sensory symptoms, and cognitive changes. Functional status over time documents disease progression or stability. Activity data from [wearables](/features/wearable-integration) shows functional capacity.\n\nMovement disorder tracking for Parkinson's and related conditions captures motor symptoms, medication timing and response, and functional status.\n\nThe revenue opportunity shows $100-130 per enrolled patient monthly. One hundred patients generates $120,000+ annually. Chronic neurological patients benefit from systematic tracking."
+    },
+    {
+      "id": "symptom-tracking",
+      "h2": "Neurological Symptom Tracking",
+      "content": "Symptom tracking through the [clinIQ app](/features/patient-app) creates longitudinal data essential for neurological management.\n\nHeadache diary captures each headache with timing, intensity on standardized scale, duration, associated symptoms like nausea or photophobia, and acute medication use. Monthly headache days calculate automatically. Medication overuse patterns become visible.\n\nSeizure diary logs each seizure with type, duration, warning symptoms, post-ictal state, and circumstances. Patterns may reveal triggers like sleep deprivation or medication timing issues.\n\nMedication adherence tracking across neurological conditions documents compliance. Anti-epileptic medication adherence directly affects seizure control. Preventive migraine medication adherence affects headache frequency.\n\nSleep tracking through [wearable integration](/features/wearable-integration) captures sleep duration and quality. Sleep deprivation triggers seizures and headaches. Sleep data correlates with symptom patterns.\n\nActivity tracking from [wearables](/features/wearable-integration) indicates functional status. Declining activity in MS or Parkinson's patients may indicate disease progression. Activity changes may also correlate with medication effects.\n\nCognitive symptom tracking for appropriate patients captures memory, concentration, and processing speed concerns. Longitudinal tracking documents stability or decline."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "Patient Flow",
+      "content": "[Patient flow](/features/patient-flow) in neurology manages varied visit types with different duration requirements.\n\nNew patient evaluations for complex neurological problems require 45-60 minutes or more. [Patient flow](/features/patient-flow) staging ensures adequate time without backing up other patients.\n\nFollow-up visits vary by condition and complexity. Stable epilepsy follow-ups may be brief. Complex headache patients may need more time. [Check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) collects symptom information before visits.\n\nEEG and EMG testing requires dedicated time and equipment. Testing coordinates with clinic flow so results are available for physician review.\n\nBotox injection visits for chronic migraine follow predictable patterns with injection taking most of the visit time.\n\n[Telehealth](/features/telehealth) for appropriate visits enables symptom review and medication management without travel. Patients with mobility limitations or those traveling from distance benefit from [telehealth](/features/telehealth) options.\n\n[Analytics](/features/analytics) from flow data identify bottlenecks and efficiency opportunities."
+    },
+    {
+      "id": "care-coordination",
+      "h2": "Care Coordination",
+      "content": "Neurology requires coordination with specialties managing different aspects of neurological care.\n\n[Neurosurgery](/specialties/neurosurgery) coordination for patients with surgical conditions including brain tumors, epilepsy surgery candidates, and movement disorder surgery. [Secure messaging](/features/secure-messaging) and [file exchange](/features/secure-file-exchange) support communication.\n\n[Psychiatry](/specialties/psychiatry) coordination for behavioral aspects of neurological disease. Depression in epilepsy and MS, behavioral changes in dementia, and psychiatric comorbidity in many conditions require aligned management. Shared [RTM](/features/rtm-billing) data provides consistent symptom information.\n\n[Primary care](/specialties/primary-care) coordination addresses medical management of neurological patients with comorbidities. Communication through [secure messaging](/features/secure-messaging) aligns care.\n\n[Physical therapy](/specialties/physical-therapy) coordination for rehabilitation in MS, stroke, and other conditions requiring PT. Progress information flows back to neurology.\n\n[Behavioral health](/specialties/behavioral-health) coordination for cognitive behavioral approaches to chronic pain and headache management."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "Neurology implementation addresses [RTM](/features/rtm-billing) enrollment for chronic conditions, symptom diary tracking, [wearable integration](/features/wearable-integration), and [patient flow](/features/patient-flow).\n\nWeek one maps clinic flow for varied visit types. [RTM](/features/rtm-billing) configures for headache, seizure, and MS symptom tracking. [Wearable integration](/features/wearable-integration) configures for sleep and activity data.\n\nWeek two trains clinical staff on [patient flow](/features/patient-flow) and [check-in](/features/patient-check-in). Providers train on symptom diary review and [wearable](/features/wearable-integration) data interpretation. Staff practices RTM enrollment.\n\nWeek three goes live with [patient flow](/features/patient-flow), [RTM](/features/rtm-billing) enrollment, and tracking.\n\nROI sources include [RTM billing](/features/rtm-billing) revenue at $100-130 per patient monthly. Better symptom data improves treatment decisions. [Telehealth](/features/telehealth) expands access for patients with mobility limitations.\n\nProfessional tier at $499 monthly includes [RTM](/features/rtm-billing), [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [telehealth](/features/telehealth), [wearable integration](/features/wearable-integration), [secure messaging](/features/secure-messaging), and [analytics](/features/analytics)."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can neurology practices bill RTM?",
+      "a": "Yes. Neurological conditions qualify under CPT 98976 plus 98980 for treatment management. [RTM billing](/features/rtm-billing) captures $100-130 per patient monthly for headache, epilepsy, MS, and other chronic conditions."
+    },
+    {
+      "q": "How does headache tracking work?",
+      "a": "Patients log each headache through the [clinIQ app](/features/patient-app) with intensity, duration, associated symptoms, and medication use. Monthly headache days and medication patterns calculate automatically."
+    },
+    {
+      "q": "Can seizure diaries be tracked?",
+      "a": "Yes. Patients log seizures with type, duration, and circumstances. Medication adherence tracks alongside seizure frequency. Patterns may reveal triggers."
+    },
+    {
+      "q": "What wearable data integrates?",
+      "a": "[Wearable integration](/features/wearable-integration) captures sleep and activity data. Sleep deprivation triggers seizures and headaches. Activity levels indicate functional status in MS and movement disorders."
+    },
+    {
+      "q": "How do you coordinate with neurosurgery?",
+      "a": "[Secure messaging](/features/secure-messaging) enables communication with [neurosurgery](/specialties/neurosurgery). [File exchange](/features/secure-file-exchange) shares evaluation findings for surgical candidates."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers configuration. Week two includes training. Week three goes live with support."
+    }
+  ],
+  "cta": {
+    "headline": "See Neurology Operations Optimized",
+    "subhead": "Fifteen-minute demo showing RTM enrollment, headache and seizure tracking, and wearable integration for neurological care.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate RTM Revenue", "href": "/resources/rtm-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "$120K", "label": "annual RTM potential" },
+      { "value": "Symptom", "label": "diary tracking" },
+      { "value": "Wearable", "label": "sleep data" }
+    ],
+    "testimonial": {
+      "quote": "Headache diaries through the app replaced paper logs patients forgot to bring. Seizure tracking with sleep data showed patterns we missed before. RTM generates revenue while giving us between-visit data that improves treatment decisions. The workflow fits neurological practice naturally.",
+      "attribution": "Neurologist",
+      "practice": "Neurology practice",
+      "location": "Connecticut"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "RTM Billing",
+      "href": "/features/rtm-billing",
+      "description": "Remote Therapeutic Monitoring for neurological conditions."
+    },
+    {
+      "type": "specialty",
+      "title": "Neurosurgery",
+      "href": "/specialties/neurosurgery",
+      "description": "Coordinating medical and surgical neurological care."
+    },
+    {
+      "type": "specialty",
+      "title": "Psychiatry",
+      "href": "/specialties/psychiatry",
+      "description": "Managing behavioral aspects of neurological disease."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "Neurology",
+    "relevantConditions": ["Migraine", "Epilepsy", "Multiple Sclerosis", "Parkinson's Disease", "Dementia"],
+    "availableProcedures": ["EEG", "EMG", "Lumbar Puncture", "Botox Injection", "Nerve Block"]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "slug": "obgyn",
+  "name": "OB-GYN",
+  "pageType": "specialty-pillar",
+  "wordCount": 2400,
+  "publishDate": "2025-06-26",
+  "meta": {
+    "title": "OB-GYN Practice Software | Scheduling, Patient Flow & Prenatal Coordination | clinIQ",
+    "description": "Complete guide to OB-GYN practice operations. Obstetric and gynecologic scheduling. Prenatal visit workflow. L&D coordination. Patient communication through mobile app.",
+    "keywords": ["OB-GYN software", "obstetrics practice management", "gynecology scheduling", "prenatal care software", "OB-GYN patient flow", "OB-GYN EHR integration"]
+  },
+  "hero": {
+    "h1": "OB-GYN Practice Software",
+    "subhead": "Obstetric and gynecologic scheduling optimization. Prenatal visit workflow with milestone tracking. L&D coordination and communication. Patient engagement through the clinIQ app for prenatal and postpartum care.",
+    "stats": [
+      { "value": "OB/GYN", "label": "scheduling" },
+      { "value": "Prenatal", "label": "milestone tracking" },
+      { "value": "Patient", "label": "engagement" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "obgyn-operations", "title": "The OB-GYN Operations Model" },
+    { "id": "scheduling", "title": "Obstetric and Gynecologic Scheduling" },
+    { "id": "prenatal-workflow", "title": "Prenatal Visit Workflow" },
+    { "id": "patient-flow", "title": "Patient Flow" },
+    { "id": "patient-engagement", "title": "Patient Engagement" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "obgyn-operations",
+      "h2": "The OB-GYN Operations Model",
+      "content": "OB-GYN practices manage both obstetric care through pregnancy and delivery plus gynecologic care including well-woman visits, contraception, and gynecologic surgery. These distinct service lines have different [scheduling](/features/scheduling) and [patient flow](/features/patient-flow) requirements.\n\nObstetric care follows predictable prenatal visit schedules with increasing frequency as pregnancy progresses. Patient education and engagement throughout pregnancy affects outcomes. L&D coverage coordinates with clinic operations.\n\nGynecologic care spans routine well-woman visits, contraception counseling, menopause management, and surgical procedures for conditions like fibroids and endometriosis.\n\nPatient communication throughout pregnancy and for gynecologic conditions benefits from [secure messaging](/features/secure-messaging) through the [clinIQ app](/features/patient-app)."
+    },
+    {
+      "id": "scheduling",
+      "h2": "Obstetric and Gynecologic Scheduling",
+      "content": "[Scheduling](/features/scheduling) in OB-GYN coordinates prenatal visits, gynecologic appointments, and surgical procedures.\n\nPrenatal scheduling follows recommended visit frequency: monthly through 28 weeks, every two weeks through 36 weeks, then weekly until delivery. [Scheduling](/features/scheduling) templates support this pattern.\n\nGynecologic scheduling includes annual well-woman visits, problem visits, and pre-operative evaluations. Visit duration varies by type.\n\nGynecologic surgery scheduling coordinates OR time for hysterectomy, myomectomy, and other procedures. [Pre-authorization](/features/pre-authorization) tracks approval status.\n\nUltrasound scheduling coordinates OB ultrasounds with prenatal visits when performed in-office.\n\nPatient self-scheduling through the [patient app](/features/patient-app) works for routine visits while surgical and complex scheduling remains staff-managed."
+    },
+    {
+      "id": "prenatal-workflow",
+      "h2": "Prenatal Visit Workflow",
+      "content": "Prenatal visits follow predictable patterns with specific assessments at each gestational milestone.\n\nFirst prenatal visit includes comprehensive history, examination, baseline labs, and dating ultrasound. Extended time required.\n\nRoutine prenatal visits include weight, blood pressure, fundal height, fetal heart tones, and patient questions. Brief but consistent visits.\n\nMilestone-specific visits include anatomy scan around 20 weeks, glucose tolerance testing around 28 weeks, Group B strep testing around 36 weeks, and other gestational-specific assessments.\n\n[Check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) collects weight and symptom information before visits.\n\n[Patient flow](/features/patient-flow) tracks patients through vitals, provider evaluation, and any testing or ultrasound."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "Patient Flow",
+      "content": "[Patient flow](/features/patient-flow) in OB-GYN manages varied visit types efficiently.\n\nPrenatal visits have consistent patterns once established. [Patient flow](/features/patient-flow) optimizes rooming, vitals, and provider evaluation.\n\nGynecologic visits vary more by reason. Well-woman visits, problem visits, and procedure visits have different requirements.\n\nUltrasound coordination for practices with in-office ultrasound tracks imaging completion before or during visits.\n\nLab coordination for prenatal labs and Pap results ensures results are available for review.\n\n[Analytics](/features/analytics) from flow data identify efficiency opportunities.\n\n[Telehealth](/features/telehealth) for appropriate visits enables symptom review and postpartum follow-up without travel."
+    },
+    {
+      "id": "patient-engagement",
+      "h2": "Patient Engagement Through Pregnancy and Beyond",
+      "content": "Patient engagement throughout pregnancy through the [clinIQ app](/features/patient-app) supports education and communication.\n\n[Secure messaging](/features/secure-messaging) addresses patient questions throughout pregnancy. Common concerns about symptoms, medications, and activities answer without phone tag.\n\nPrenatal education delivery through the app provides gestational-age-appropriate information. Patients receive relevant content as pregnancy progresses.\n\nPostpartum monitoring captures recovery symptoms, mood, and breastfeeding status. Postpartum depression screening through the app identifies concerns.\n\nContraception counseling and reminder functions support postpartum contraception planning.\n\n[Patient satisfaction](/features/patient-satisfaction) tracking captures feedback on prenatal and delivery experience."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "OB-GYN implementation addresses prenatal and gynecologic [scheduling](/features/scheduling), [patient flow](/features/patient-flow), and patient engagement.\n\nWeek one maps prenatal visit workflow and gynecologic scheduling. [Scheduling](/features/scheduling) configures for OB and GYN visit types. Patient engagement workflow establishes.\n\nWeek two trains staff on [patient flow](/features/patient-flow), [scheduling](/features/scheduling), and [check-in](/features/patient-check-in). Providers train on dashboard and [secure messaging](/features/secure-messaging).\n\nWeek three goes live with [patient flow](/features/patient-flow), [scheduling](/features/scheduling), and patient engagement.\n\nROI sources include scheduling efficiency maximizing visit volume. Patient engagement reducing phone volume. [Telehealth](/features/telehealth) expanding access for postpartum care. Better [patient satisfaction](/features/patient-satisfaction).\n\nProfessional tier at $499 monthly includes [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), [patient satisfaction](/features/patient-satisfaction), and [analytics](/features/analytics)."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How does prenatal scheduling work?",
+      "a": "[Scheduling](/features/scheduling) templates support recommended prenatal visit frequency: monthly early, biweekly mid-pregnancy, weekly late. Milestone visits schedule appropriately."
+    },
+    {
+      "q": "How does patient engagement work through pregnancy?",
+      "a": "[Secure messaging](/features/secure-messaging) addresses questions. Educational content delivers through the app. Postpartum monitoring tracks recovery and mood."
+    },
+    {
+      "q": "Can check-in capture prenatal data?",
+      "a": "Yes. [Check-in](/features/patient-check-in) collects weight, blood pressure, and symptoms before prenatal visits."
+    },
+    {
+      "q": "Does telehealth work for OB-GYN?",
+      "a": "[Telehealth](/features/telehealth) works for postpartum follow-up, contraception counseling, and some gynecologic visits. Not appropriate for physical examination."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers configuration. Week two includes training. Week three goes live with support."
+    }
+  ],
+  "cta": {
+    "headline": "See OB-GYN Operations Optimized",
+    "subhead": "Fifteen-minute demo showing prenatal workflow, gynecologic scheduling, and patient engagement through pregnancy.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Learn More", "href": "/resources/patient-engagement" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "OB/GYN", "label": "scheduling" },
+      { "value": "Prenatal", "label": "workflow" },
+      { "value": "Patient", "label": "engagement" }
+    ],
+    "testimonial": {
+      "quote": "Prenatal visit scheduling follows the recommended pattern automatically. Patient messaging through the app cut our phone volume significantly. Postpartum monitoring through the app catches concerns early. The workflow fits how OB care should work.",
+      "attribution": "Practice Administrator",
+      "practice": "OB-GYN practice with four physicians",
+      "location": "Michigan"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "Scheduling",
+      "href": "/features/scheduling",
+      "description": "Prenatal and gynecologic scheduling."
+    },
+    {
+      "type": "feature",
+      "title": "Secure Messaging",
+      "href": "/features/secure-messaging",
+      "description": "Patient communication throughout pregnancy."
+    },
+    {
+      "type": "feature",
+      "title": "Patient Satisfaction",
+      "href": "/features/patient-satisfaction",
+      "description": "Capturing prenatal and delivery experience."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "OB-GYN",
+    "relevantConditions": ["Pregnancy", "Fibroids", "Endometriosis", "Menopause", "Contraception"],
+    "availableProcedures": ["Prenatal Care", "Delivery", "Hysterectomy", "Colposcopy", "IUD Insertion"]
+  }
+}

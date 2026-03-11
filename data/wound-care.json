@@ -1,0 +1,129 @@
+{
+  "slug": "wound-care",
+  "name": "Wound Care",
+  "pageType": "specialty-pillar",
+  "wordCount": 2200,
+  "publishDate": "2025-07-04",
+  "meta": {
+    "title": "Wound Care Center Software | Scheduling, Photo Documentation & RTM | clinIQ",
+    "description": "Complete guide to wound care center operations. Wound tracking and photo documentation. RTM for chronic wound monitoring. Coordination with vascular surgery, podiatry, and hyperbaric medicine.",
+    "keywords": ["wound care software", "wound care center management", "wound photo documentation", "chronic wound RTM", "wound care patient flow", "wound care EHR integration"]
+  },
+  "hero": {
+    "h1": "Wound Care Center Software",
+    "subhead": "Wound tracking and photo documentation through the clinIQ app. RTM billing for chronic wound monitoring. Scheduling for debridement and advanced wound care. Coordination with vascular surgery, podiatry, and hyperbaric medicine.",
+    "stats": [
+      { "value": "Photo", "label": "wound documentation" },
+      { "value": "RTM", "label": "monitoring" },
+      { "value": "Multi-specialty", "label": "coordination" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "wound-operations", "title": "The Wound Care Operations Model" },
+    { "id": "wound-documentation", "title": "Wound Documentation" },
+    { "id": "rtm-billing", "title": "RTM for Chronic Wounds" },
+    { "id": "scheduling", "title": "Scheduling" },
+    { "id": "care-coordination", "title": "Care Coordination" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "wound-operations",
+      "h2": "The Wound Care Operations Model",
+      "content": "Wound care centers manage chronic wounds including diabetic foot ulcers, venous leg ulcers, pressure injuries, and surgical wounds that fail to heal. Treatment involves debridement, advanced dressings, offloading, and addressing underlying causes. Healing requires weeks to months of consistent treatment and monitoring.\n\nWound documentation through photography creates objective records of wound status, size progression, and healing trajectory. [Secure file exchange](/features/secure-file-exchange) through the [clinIQ app](/features/patient-app) enables photo sharing for between-visit monitoring.\n\n[RTM billing](/features/rtm-billing) for chronic wound monitoring captures revenue for between-visit assessment and treatment management.\n\nCare coordination with [vascular surgery](/specialties/vascular-surgery) for arterial insufficiency, [podiatry](/specialties/podiatry) for diabetic foot, and hyperbaric medicine for hyperbaric oxygen therapy addresses comprehensive wound healing."
+    },
+    {
+      "id": "wound-documentation",
+      "h2": "Wound Documentation and Photography",
+      "content": "Wound documentation through systematic photography tracks healing progression.\n\nIn-clinic photography during visits documents wound appearance, measurements, and treatment response. Standardized photo protocols ensure consistent documentation.\n\nPatient-submitted photos through [secure file exchange](/features/secure-file-exchange) enable between-visit assessment. Patients photograph wounds and share through the [clinIQ app](/features/patient-app).\n\nWound measurement tracking documents length, width, depth, and area over time. Healing trajectory visible through measurement trends.\n\nTissue type documentation captures granulation, slough, eschar, and epithelialization percentages.\n\nDeterioration identification through photo review catches problems early. Infection signs, wound enlargement, or other concerning changes trigger earlier evaluation.\n\n[Telehealth](/features/telehealth) with photo review enables visual assessment for patients with mobility limitations or transportation challenges."
+    },
+    {
+      "id": "rtm-billing",
+      "h2": "RTM Billing for Chronic Wound Monitoring",
+      "content": "[RTM billing](/features/rtm-billing) captures revenue for chronic wound monitoring between visits.\n\nMusculoskeletal RTM under CPT 98977 may apply to wound care monitoring involving skin and tissue conditions requiring ongoing assessment.\n\nPatient-reported data through the [clinIQ app](/features/patient-app) captures wound symptoms, dressing compliance, pain levels, and any concerning changes.\n\nPhoto documentation submitted through the app provides objective wound status between in-person visits.\n\nTreatment management time reviewing photos, assessing wound status, and adjusting treatment plans documents through RTM.\n\nClinical value from between-visit monitoring includes earlier identification of infection, wound deterioration detection before in-person visit, and verification of dressing compliance.\n\nRevenue opportunity at $90-120 per enrolled patient monthly supports investment in between-visit monitoring."
+    },
+    {
+      "id": "scheduling",
+      "h2": "Scheduling for Wound Care",
+      "content": "[Scheduling](/features/scheduling) in wound care accommodates varied visit types with different time requirements.\n\nDebridement visits require extended time for wound bed preparation. Sharp debridement, enzymatic debridement, and other modalities have different requirements.\n\nDressing change visits for routine dressing changes are briefer than debridement.\n\nAdvanced therapy visits for negative pressure wound therapy, bioengineered tissues, or other advanced modalities require appropriate time.\n\nHyperbaric oxygen therapy scheduling coordinates HBO treatments with wound care visits when both services provided.\n\n[Patient flow](/features/patient-flow) tracks patients through check-in, wound assessment, treatment, and dressing application.\n\n[Check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) collects symptom information before visits."
+    },
+    {
+      "id": "care-coordination",
+      "h2": "Care Coordination for Comprehensive Wound Healing",
+      "content": "Wound care requires coordination with specialties addressing underlying causes and related conditions.\n\n[Vascular surgery](/specialties/vascular-surgery) coordination for arterial insufficiency affecting wound healing. Revascularization may be required before wounds can heal. [Secure messaging](/features/secure-messaging) supports communication.\n\n[Podiatry](/specialties/podiatry) coordination for diabetic foot ulcers addresses offloading, foot deformity, and ongoing foot care. Shared patients require aligned management.\n\n[Endocrinology](/specialties/endocrinology) coordination for diabetes management affecting wound healing. Glycemic control impacts healing.\n\nHyperbaric medicine coordination for HBO therapy as adjunctive treatment for appropriate wounds.\n\n[Primary care](/specialties/primary-care) coordination for medical management of conditions affecting wound healing including diabetes, cardiovascular disease, and nutrition.\n\n[Plastic surgery](/specialties/plastic-surgery) coordination for surgical wound coverage and reconstruction."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "Wound care implementation addresses wound documentation, [RTM](/features/rtm-billing) enrollment, [scheduling](/features/scheduling), and care coordination.\n\nWeek one maps wound care workflow including photo documentation. [Scheduling](/features/scheduling) configures for varied visit types. [RTM](/features/rtm-billing) configures for wound monitoring.\n\nWeek two trains staff on photo documentation, [patient flow](/features/patient-flow), and [check-in](/features/patient-check-in). Providers train on photo review and [RTM](/features/rtm-billing) data.\n\nWeek three goes live with workflow, [RTM](/features/rtm-billing) enrollment, and documentation.\n\nROI sources include [RTM billing](/features/rtm-billing) revenue for chronic wound monitoring. Photo monitoring catching problems early potentially preventing hospitalization. Better coordination improving healing rates.\n\nProfessional tier at $499 monthly includes [RTM](/features/rtm-billing), [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), [file exchange](/features/secure-file-exchange), and [analytics](/features/analytics)."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How does wound photo documentation work?",
+      "a": "In-clinic photography with standardized protocols documents wounds. Patients share between-visit photos through [secure file exchange](/features/secure-file-exchange). Photos track healing progression."
+    },
+    {
+      "q": "Can wound care centers bill RTM?",
+      "a": "Yes. Chronic wound monitoring may qualify for [RTM billing](/features/rtm-billing). Photo documentation and symptom tracking support between-visit monitoring."
+    },
+    {
+      "q": "How do you coordinate with vascular surgery?",
+      "a": "[Secure messaging](/features/secure-messaging) enables communication with [vascular surgery](/specialties/vascular-surgery). Revascularization needs coordinate for arterial wounds."
+    },
+    {
+      "q": "Does telehealth work for wound care?",
+      "a": "[Telehealth](/features/telehealth) with photo review supports between-visit assessment for appropriate cases. Not replacement for in-person debridement but expands monitoring."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers configuration. Week two includes training. Week three goes live with support."
+    }
+  ],
+  "cta": {
+    "headline": "See Wound Care Operations Optimized",
+    "subhead": "Fifteen-minute demo showing wound photo documentation, RTM monitoring, and multi-specialty coordination.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate RTM Revenue", "href": "/resources/rtm-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "Photo", "label": "documentation" },
+      { "value": "RTM", "label": "monitoring" },
+      { "value": "Healing", "label": "tracking" }
+    ],
+    "testimonial": {
+      "quote": "Photo documentation tracks healing systematically. Between-visit photos catch deterioration early. RTM captures revenue for monitoring we already provided. Coordination with vascular and podiatry finally works smoothly. Our healing rates improved.",
+      "attribution": "Medical Director",
+      "practice": "Wound care center",
+      "location": "Ohio"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "RTM Billing",
+      "href": "/features/rtm-billing",
+      "description": "Chronic wound monitoring revenue."
+    },
+    {
+      "type": "feature",
+      "title": "Secure File Exchange",
+      "href": "/features/secure-file-exchange",
+      "description": "Wound photo sharing."
+    },
+    {
+      "type": "specialty",
+      "title": "Vascular Surgery",
+      "href": "/specialties/vascular-surgery",
+      "description": "Revascularization for arterial wounds."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "Wound Care",
+    "relevantConditions": ["Diabetic Foot Ulcer", "Venous Leg Ulcer", "Pressure Injury", "Surgical Wound", "Arterial Ulcer"],
+    "availableProcedures": ["Debridement", "NPWT", "Bioengineered Tissue", "Hyperbaric Oxygen Therapy"]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "slug": "endocrinology",
+  "name": "Endocrinology",
+  "pageType": "specialty-pillar",
+  "wordCount": 2600,
+  "publishDate": "2025-06-14",
+  "meta": {
+    "title": "Endocrinology Practice Software | RTM, Diabetes Monitoring & Patient Engagement | clinIQ",
+    "description": "Complete guide to endocrinology practice operations. RTM billing for diabetes and metabolic conditions. Blood glucose and weight tracking. Wearable integration for activity data. Coordination with primary care and cardiology.",
+    "keywords": ["endocrinology software", "endocrinology practice management", "diabetes RTM billing", "blood glucose monitoring", "thyroid management", "endocrinology EHR integration"]
+  },
+  "hero": {
+    "h1": "Endocrinology Practice Software",
+    "subhead": "RTM billing for diabetes and metabolic conditions capturing $110-140 per patient monthly. Blood glucose, weight, and symptom tracking through the clinIQ app. Wearable integration for activity and sleep data. Coordination with primary care and cardiology.",
+    "stats": [
+      { "value": "$130K", "label": "annual RTM revenue (100 patients)" },
+      { "value": "Glucose", "label": "and weight tracking" },
+      { "value": "Wearable", "label": "data integration" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "endo-operations", "title": "The Endocrinology Operations Model" },
+    { "id": "rtm-billing", "title": "RTM Billing for Metabolic Conditions" },
+    { "id": "diabetes-monitoring", "title": "Diabetes Monitoring" },
+    { "id": "patient-flow", "title": "Patient Flow" },
+    { "id": "care-coordination", "title": "Care Coordination" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "endo-operations",
+      "h2": "The Endocrinology Operations Model",
+      "content": "Endocrinology practices manage diabetes, thyroid disorders, metabolic bone disease, and other hormonal conditions. Diabetes management particularly benefits from between-visit monitoring. Blood glucose patterns, medication adherence, and lifestyle factors all affect control. [RTM](/features/rtm-billing) through the [clinIQ app](/features/patient-app) captures this data systematically while generating revenue.\n\nPatient engagement determines outcomes in endocrinology. Diabetes control depends on patient behavior more than physician intervention. Medication adherence, dietary choices, and physical activity all matter. [Secure messaging](/features/secure-messaging) and patient tracking through the app extend engagement beyond periodic visits.\n\n[Wearable integration](/features/wearable-integration) captures activity and sleep data relevant to metabolic conditions. Physical activity affects glucose control. Sleep patterns influence hormones and metabolism. Activity data shows whether patients are following exercise recommendations.\n\nCare coordination spans [primary care](/specialties/primary-care) for shared diabetes management, [cardiology](/specialties/cardiology) for cardiovascular risk, and [nephrology](/specialties/nephrology) for diabetic kidney disease. The endocrinologist manages metabolic conditions within a network addressing systemic effects."
+    },
+    {
+      "id": "rtm-billing",
+      "h2": "RTM Billing for Metabolic Conditions",
+      "content": "[RTM billing](/features/rtm-billing) for endocrinology uses CPT 98975 for device supply plus 98980 and 98981 for treatment management. Diabetes and other metabolic conditions with ongoing monitoring needs qualify.\n\nDiabetes monitoring captures blood glucose readings entered by patients or integrated from connected glucometers, medication adherence for oral agents and insulin, carbohydrate intake patterns, and hypoglycemic episodes. Data flows to the clinician dashboard for pattern recognition and treatment adjustment.\n\nWeight tracking for obesity management and diabetes care captures trends over time. Weekly weights through the [clinIQ app](/features/patient-app) show progress or concern. [Wearable](/features/wearable-integration) weight integrations from connected scales automate data capture.\n\nThyroid symptom tracking for patients on thyroid replacement captures energy levels, weight changes, temperature sensitivity, and other symptoms. Patterns may indicate dosing adjustment needs between lab checks.\n\nThe revenue opportunity shows $110-140 per enrolled patient monthly. One hundred patients generates $130,000+ annually. Diabetes patients with complex regimens are prime RTM candidates.\n\nClinical value from [RTM](/features/rtm-billing) enables proactive medication adjustment. Glucose patterns showing hyperglycemia trigger insulin dose changes through [secure messaging](/features/secure-messaging) before the next scheduled visit."
+    },
+    {
+      "id": "diabetes-monitoring",
+      "h2": "Diabetes Monitoring Through the App",
+      "content": "Diabetes monitoring through the [clinIQ app](/features/patient-app) captures blood glucose data essential for management.\n\nGlucose logging allows manual entry of fingerstick readings or integration with connected glucometers. Fasting, pre-meal, and post-meal values track separately. Patterns across time of day reveal medication timing issues.\n\nCGM data integration for patients using continuous glucose monitors captures trend data. While detailed CGM review may occur in separate CGM software, summary data can integrate with [RTM](/features/rtm-billing) documentation.\n\nMedication adherence tracking documents when patients take oral medications or insulin doses. Adherence patterns correlate with glucose control. Non-adherence identified early enables intervention.\n\nCarbohydrate and dietary tracking at basic level captures meal patterns affecting glucose. Detailed nutrition may involve dietitian coordination.\n\nHypoglycemia documentation captures episodes with timing, severity, and circumstances. Frequent hypoglycemia indicates regimen adjustment needs.\n\nActivity data from [wearable integration](/features/wearable-integration) shows exercise frequency and duration. Physical activity affects glucose control. Patients meeting exercise goals have better outcomes.\n\nSleep data from [wearables](/features/wearable-integration) is relevant because sleep deprivation affects glucose tolerance and insulin sensitivity."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "Patient Flow",
+      "content": "[Patient flow](/features/patient-flow) in endocrinology manages consultations and follow-ups with varied complexity.\n\nNew patient diabetes consultations require comprehensive evaluation including glycemic history, complications assessment, and treatment planning. [Check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) collects history and current medications.\n\nDiabetes follow-ups review glucose data, adjust medications, and address complications. Patients with [RTM](/features/rtm-billing) data have glucose patterns available for review before the visit.\n\nThyroid visits for new evaluation or follow-up assess symptoms and review labs. Thyroid symptom tracking through the app provides between-visit data.\n\nOsteoporosis management visits assess bone health, review medications, and monitor for complications.\n\nDiabetes education visits with certified diabetes educators may be separate from physician visits.\n\n[Telehealth](/features/telehealth) for appropriate visits enables medication adjustment and monitoring review without travel. Diabetes follow-ups often work well via video when glucose data is available for review.\n\n[Analytics](/features/analytics) from flow data identify efficiency opportunities."
+    },
+    {
+      "id": "care-coordination",
+      "h2": "Care Coordination",
+      "content": "Endocrinology requires coordination with specialists managing diabetes complications and related conditions.\n\n[Primary care](/specialties/primary-care) coordination addresses shared diabetes management. Many PCPs manage uncomplicated diabetes and refer complex cases to endocrinology. [Secure messaging](/features/secure-messaging) and [file exchange](/features/secure-file-exchange) support communication about shared patients.\n\n[Cardiology](/specialties/cardiology) coordination for cardiovascular risk management in diabetic patients. Cardiovascular disease is the leading cause of mortality in diabetes. Aligned management of lipids, blood pressure, and glycemic control matters.\n\n[Nephrology](/specialties/nephrology) coordination for diabetic kidney disease. Progression to end-stage renal disease requires coordinated management and potentially transplant planning.\n\nOphthalmology coordination for diabetic retinopathy ensures appropriate screening and treatment.\n\n[Podiatry](/specialties/podiatry) coordination for diabetic foot care addresses neuropathy, foot ulcers, and amputation prevention.\n\nNutrition coordination with dietitians supports medical nutrition therapy for diabetes and obesity management."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "Endocrinology implementation addresses [RTM](/features/rtm-billing) enrollment for diabetes patients, glucose monitoring workflow, [wearable integration](/features/wearable-integration), and [patient flow](/features/patient-flow).\n\nWeek one maps clinic flow for visit types. [RTM](/features/rtm-billing) configures for glucose, weight, and symptom tracking. [Wearable integration](/features/wearable-integration) configures for activity, sleep, and connected scale data.\n\nWeek two trains clinical staff on [patient flow](/features/patient-flow) and [check-in](/features/patient-check-in). Providers train on glucose data review and [wearable](/features/wearable-integration) interpretation. Staff practices RTM enrollment.\n\nWeek three goes live with [patient flow](/features/patient-flow), [RTM](/features/rtm-billing) enrollment, and monitoring.\n\nROI sources include [RTM billing](/features/rtm-billing) revenue at $110-140 per patient monthly with 100 patients generating $130,000+ annually. Better glucose data improves treatment decisions. [Telehealth](/features/telehealth) expands access for medication adjustments.\n\nProfessional tier at $499 monthly includes [RTM](/features/rtm-billing), [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [telehealth](/features/telehealth), [wearable integration](/features/wearable-integration), [secure messaging](/features/secure-messaging), and [analytics](/features/analytics)."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can endocrinology practices bill RTM?",
+      "a": "Yes. Diabetes and metabolic conditions qualify. [RTM billing](/features/rtm-billing) captures $110-140 per patient monthly for glucose, weight, and symptom monitoring."
+    },
+    {
+      "q": "How does glucose monitoring work?",
+      "a": "Patients log glucose through the [clinIQ app](/features/patient-app) or integrate connected glucometers. Patterns visible in the dashboard inform medication adjustments."
+    },
+    {
+      "q": "Does CGM data integrate?",
+      "a": "Summary CGM data can integrate for [RTM](/features/rtm-billing) documentation while detailed CGM review may occur in manufacturer software."
+    },
+    {
+      "q": "What wearable data integrates?",
+      "a": "[Wearable integration](/features/wearable-integration) captures activity, sleep, and weight from connected devices. Activity levels affect glucose control. Sleep affects insulin sensitivity."
+    },
+    {
+      "q": "How do you coordinate with primary care?",
+      "a": "[Secure messaging](/features/secure-messaging) enables communication with [primary care](/specialties/primary-care). [File exchange](/features/secure-file-exchange) shares treatment plans. Many diabetes patients are co-managed."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers configuration. Week two includes training. Week three goes live with support."
+    }
+  ],
+  "cta": {
+    "headline": "See Endocrinology Operations Optimized",
+    "subhead": "Fifteen-minute demo showing RTM enrollment, glucose monitoring, and wearable integration for diabetes care.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate RTM Revenue", "href": "/resources/rtm-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "$130K", "label": "annual RTM potential" },
+      { "value": "Glucose", "label": "pattern tracking" },
+      { "value": "Wearable", "label": "activity data" }
+    ],
+    "testimonial": {
+      "quote": "Glucose data between visits changed diabetes management. We see patterns instead of isolated A1C snapshots. Activity tracking shows which patients are exercising. RTM generates significant revenue while improving care. Medication adjustments through messaging happen faster than waiting for visits.",
+      "attribution": "Endocrinologist",
+      "practice": "Endocrinology practice",
+      "location": "Wisconsin"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "RTM Billing",
+      "href": "/features/rtm-billing",
+      "description": "Remote Therapeutic Monitoring for metabolic conditions."
+    },
+    {
+      "type": "feature",
+      "title": "Wearable Integration",
+      "href": "/features/wearable-integration",
+      "description": "Activity, sleep, and weight data from connected devices."
+    },
+    {
+      "type": "specialty",
+      "title": "Primary Care",
+      "href": "/specialties/primary-care",
+      "description": "Coordinating diabetes co-management."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "Endocrinology",
+    "relevantConditions": ["Diabetes", "Thyroid Disorders", "Osteoporosis", "Adrenal Disorders", "Pituitary Disorders"],
+    "availableProcedures": ["Glucose Monitoring", "Thyroid Ultrasound", "Bone Density Testing", "Continuous Glucose Monitoring"]
+  }
+}

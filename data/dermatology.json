@@ -1,0 +1,123 @@
+{
+  "slug": "dermatology",
+  "name": "Dermatology",
+  "pageType": "specialty-pillar",
+  "wordCount": 2200,
+  "publishDate": "2025-06-20",
+  "meta": {
+    "title": "Dermatology Practice Software | High-Volume Flow, Scheduling & Patient Communication | clinIQ",
+    "description": "Complete guide to dermatology practice operations. High-volume patient flow management. Medical and cosmetic scheduling. Photo documentation workflow. Patient communication for skin checks and procedures.",
+    "keywords": ["dermatology software", "dermatology practice management", "dermatology patient flow", "skin check scheduling", "dermatology EHR integration"]
+  },
+  "hero": {
+    "h1": "Dermatology Practice Software",
+    "subhead": "High-volume patient flow managing 40+ patients daily. Medical and cosmetic scheduling optimization. Photo documentation workflow through the clinIQ app. Patient communication for skin checks, procedures, and follow-ups.",
+    "stats": [
+      { "value": "40+", "label": "patients daily manageable" },
+      { "value": "Photo", "label": "documentation" },
+      { "value": "Med/Cosmetic", "label": "scheduling" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "derm-operations", "title": "The Dermatology Operations Model" },
+    { "id": "patient-flow", "title": "High-Volume Patient Flow" },
+    { "id": "scheduling", "title": "Medical and Cosmetic Scheduling" },
+    { "id": "photo-documentation", "title": "Photo Documentation" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "derm-operations",
+      "h2": "The Dermatology Operations Model",
+      "content": "Dermatology practices operate at high volume across medical and cosmetic services. A busy dermatologist may see 40-60 patients daily for skin checks, acne management, psoriasis, eczema, and skin cancer evaluation. Cosmetic services including injectables, lasers, and aesthetic procedures add to practice complexity.\n\n[Patient flow](/features/patient-flow) must manage multiple patients in various stages simultaneously. Patients may be rooming, waiting for provider, having procedures, or checking out. Efficient flow enables high volume without chaos.\n\n[Scheduling](/features/scheduling) spans brief skin checks, extended new patient visits, procedures requiring specific equipment, and cosmetic appointments with different requirements. Balancing these visit types optimizes both productivity and patient experience.\n\nPhoto documentation for skin lesions, treatment progress, and cosmetic outcomes is essential. The [clinIQ app](/features/patient-app) and [secure file exchange](/features/secure-file-exchange) support systematic photo workflows."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "High-Volume Patient Flow",
+      "content": "[Patient flow](/features/patient-flow) in dermatology manages rapid turnover across multiple rooms.\n\nRoom utilization tracking shows which rooms are occupied, which are ready for patients, and which need turnover. The provider moves efficiently between rooms based on patient readiness.\n\nMedical assistant workflow involves rooming patients, documenting chief complaint, and preparing for examination. When the patient is ready, the provider enters for efficient evaluation.\n\nProcedure rooms for biopsies, excisions, and other procedures have different flow patterns than standard exam rooms. Equipment needs and turnover time differ.\n\n[Check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) collects symptom information before visits. Patients describe skin concerns and affected areas before arrival.\n\n[Analytics](/features/analytics) from flow data reveal bottlenecks. Which visit types create delays. Room turnover efficiency. This data guides scheduling and staffing.\n\nWait time management maintains [patient satisfaction](/features/patient-satisfaction). [Patient flow](/features/patient-flow) visibility enables proactive communication when delays occur."
+    },
+    {
+      "id": "scheduling",
+      "h2": "Medical and Cosmetic Scheduling",
+      "content": "[Scheduling](/features/scheduling) in dermatology coordinates medical and cosmetic services with different requirements.\n\nMedical dermatology scheduling includes skin checks, acne visits, psoriasis management, and urgent evaluations. Visit duration varies by type. Brief skin checks differ from comprehensive new patient evaluations.\n\nProcedure scheduling for biopsies, excisions, and Mohs surgery requires appropriate time and room allocation. Mohs cases may take extended time depending on complexity.\n\nCosmetic scheduling for Botox, fillers, lasers, and other aesthetic procedures often occurs in separate scheduling blocks. Different payment structures and patient expectations apply.\n\nPatient self-scheduling through the [patient app](/features/patient-app) works for established patient follow-ups and some cosmetic services. Complex procedures remain staff-scheduled.\n\nReminder notifications reduce no-shows. Cosmetic patients particularly value reminders for pre-procedure preparation."
+    },
+    {
+      "id": "photo-documentation",
+      "h2": "Photo Documentation Workflow",
+      "content": "Photo documentation for dermatology captures baseline lesions, tracks changes over time, and documents treatment outcomes.\n\nLesion photography during visits creates records of concerning lesions for monitoring. Standardized photography protocols ensure consistent documentation.\n\nPatient-submitted photos through [secure file exchange](/features/secure-file-exchange) allow patients to share images of concerning lesions between visits. The dermatologist reviews and determines if urgent evaluation is needed.\n\nTreatment progress photos for acne, psoriasis, and other conditions document improvement over time. Before and after comparisons show treatment effectiveness.\n\nCosmetic outcome photos for [plastic surgery](/specialties/plastic-surgery) and aesthetic procedures document results. Consistent photo protocols enable meaningful comparison.\n\n[Telehealth](/features/telehealth) with photo review enables assessment of some skin concerns without in-person visits. Not appropriate for all conditions but expands access for appropriate cases."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "Dermatology implementation addresses high-volume [patient flow](/features/patient-flow), [scheduling](/features/scheduling) across medical and cosmetic services, and photo documentation workflow.\n\nWeek one maps clinic flow for high-volume operations. [Scheduling](/features/scheduling) configures for medical, procedure, and cosmetic visit types. Photo documentation workflow establishes.\n\nWeek two trains clinical staff on [patient flow](/features/patient-flow) boards and room management. Front desk trains on [scheduling](/features/scheduling) and [check-in](/features/patient-check-in). Providers train on photo review and [telehealth](/features/telehealth).\n\nWeek three goes live with [patient flow](/features/patient-flow) and [scheduling](/features/scheduling).\n\nROI sources include flow efficiency enabling higher patient volume. Reduced no-shows through reminders. [Telehealth](/features/telehealth) expanding access for appropriate cases. Better [patient satisfaction](/features/patient-satisfaction) supporting practice growth.\n\nProfessional tier at $499 monthly includes [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), [file exchange](/features/secure-file-exchange), [patient satisfaction](/features/patient-satisfaction), and [analytics](/features/analytics)."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How does patient flow handle high volume?",
+      "a": "[Patient flow](/features/patient-flow) tracks room status and patient readiness. Providers move efficiently between rooms. Multiple patients in various stages manage simultaneously."
+    },
+    {
+      "q": "Can medical and cosmetic scheduling coexist?",
+      "a": "Yes. [Scheduling](/features/scheduling) handles different visit types with appropriate templates. Medical, procedure, and cosmetic services schedule appropriately."
+    },
+    {
+      "q": "How does photo documentation work?",
+      "a": "Photos capture during visits for lesion tracking. Patients can submit photos through [secure file exchange](/features/secure-file-exchange). [Telehealth](/features/telehealth) enables photo-based assessment for appropriate cases."
+    },
+    {
+      "q": "Does telehealth work for dermatology?",
+      "a": "[Telehealth](/features/telehealth) with photo review works for some skin concerns. Not appropriate for all conditions but expands access when appropriate."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers configuration. Week two includes training. Week three goes live with support."
+    }
+  ],
+  "cta": {
+    "headline": "See Dermatology Operations Optimized",
+    "subhead": "Fifteen-minute demo showing high-volume patient flow, medical and cosmetic scheduling, and photo documentation workflow.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Learn More", "href": "/resources/high-volume-flow" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "40+", "label": "patients daily" },
+      { "value": "Photo", "label": "documentation" },
+      { "value": "Med/Cosmetic", "label": "scheduling" }
+    ],
+    "testimonial": {
+      "quote": "High-volume flow tracking transformed our practice. We know which rooms are ready and move efficiently between patients. Scheduling across medical and cosmetic services works seamlessly. Photo documentation workflow is consistent and accessible. We see more patients without feeling rushed.",
+      "attribution": "Practice Administrator",
+      "practice": "Dermatology practice with three physicians",
+      "location": "Arizona"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "Patient Flow",
+      "href": "/features/patient-flow",
+      "description": "High-volume flow management."
+    },
+    {
+      "type": "feature",
+      "title": "Secure File Exchange",
+      "href": "/features/secure-file-exchange",
+      "description": "Photo sharing workflow."
+    },
+    {
+      "type": "specialty",
+      "title": "Plastic Surgery",
+      "href": "/specialties/plastic-surgery",
+      "description": "Aesthetic procedure coordination."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "Dermatology",
+    "relevantConditions": ["Acne", "Psoriasis", "Eczema", "Skin Cancer", "Rosacea"],
+    "availableProcedures": ["Skin Biopsy", "Mohs Surgery", "Excision", "Laser Treatment", "Injectable Cosmetics"]
+  }
+}

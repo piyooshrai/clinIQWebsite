@@ -1,0 +1,133 @@
+{
+  "slug": "primary-care",
+  "name": "Primary Care",
+  "pageType": "specialty-pillar",
+  "wordCount": 2800,
+  "publishDate": "2025-07-06",
+  "meta": {
+    "title": "Primary Care Practice Software | RTM, Scheduling & Care Coordination | clinIQ",
+    "description": "Complete guide to primary care practice operations. RTM billing for chronic conditions. Same-day access scheduling. Chronic care management workflow. Coordination with specialists across all disciplines.",
+    "keywords": ["primary care software", "primary care practice management", "primary care RTM", "chronic care management", "primary care scheduling", "primary care EHR integration"]
+  },
+  "hero": {
+    "h1": "Primary Care Practice Software",
+    "subhead": "RTM billing for chronic conditions capturing $100-130 per patient monthly. Same-day access scheduling with annual wellness visits. Chronic care management workflow. Coordination with specialists as the patient's medical home.",
+    "stats": [
+      { "value": "$120K", "label": "annual RTM revenue (100 patients)" },
+      { "value": "Same-day", "label": "access scheduling" },
+      { "value": "Medical", "label": "home coordination" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "pcp-operations", "title": "The Primary Care Operations Model" },
+    { "id": "rtm-billing", "title": "RTM Billing for Chronic Conditions" },
+    { "id": "scheduling", "title": "Same-Day Access Scheduling" },
+    { "id": "patient-flow", "title": "Patient Flow" },
+    { "id": "care-coordination", "title": "Medical Home Coordination" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "pcp-operations",
+      "h2": "The Primary Care Operations Model",
+      "content": "Primary care practices manage the full spectrum of patient health needs from acute illness to chronic disease management to preventive care. The challenge involves balancing same-day access for acute needs with scheduled preventive visits and chronic disease follow-up. [Scheduling](/features/scheduling) must accommodate this variety while maintaining patient panel access.\n\n[RTM billing](/features/rtm-billing) for chronic conditions like hypertension, diabetes, and COPD captures revenue for between-visit monitoring that quality primary care already provides. Blood pressure tracking, glucose monitoring, and symptom assessment through the [clinIQ app](/features/patient-app) generate billable data.\n\nCare coordination as the patient's medical home involves communication with specialists across all disciplines. The PCP refers to specialists and receives information back about evaluations and treatments. [Secure messaging](/features/secure-messaging) and [file exchange](/features/secure-file-exchange) support this coordination.\n\n[Wearable integration](/features/wearable-integration) captures activity, sleep, and physiological data relevant to chronic disease management."
+    },
+    {
+      "id": "rtm-billing",
+      "h2": "RTM Billing for Chronic Conditions",
+      "content": "[RTM billing](/features/rtm-billing) in primary care captures revenue for monitoring chronic conditions between visits.\n\nHypertension monitoring tracks blood pressure readings through the [clinIQ app](/features/patient-app). Patients log home readings or integrate connected monitors. Patterns showing poor control trigger medication adjustment through [secure messaging](/features/secure-messaging).\n\nDiabetes monitoring captures glucose readings, medication adherence, and symptom tracking. Glucose patterns inform treatment decisions. [Wearable integration](/features/wearable-integration) adds activity data affecting glucose control.\n\nCOPD monitoring tracks respiratory symptoms, rescue inhaler use, and activity tolerance. Exacerbation symptoms trigger early intervention.\n\nHeart failure monitoring captures daily weights, symptom changes, and medication adherence. Weight gain triggers diuretic adjustment before hospitalization needed.\n\nThe revenue opportunity at $100-130 per enrolled patient monthly makes chronic disease monitoring sustainable. One hundred patients generates $120,000+ annually. Primary care has the chronic disease patient population ideal for RTM.\n\nClinical value from [RTM](/features/rtm-billing) includes proactive chronic disease management rather than reactive visit-based care."
+    },
+    {
+      "id": "scheduling",
+      "h2": "Same-Day Access Scheduling",
+      "content": "[Scheduling](/features/scheduling) in primary care balances same-day acute access with scheduled chronic disease and preventive visits.\n\nSame-day access maintains open slots or flexible scheduling for acute illness and urgent concerns. Patients needing same-day evaluation should receive it without emergency department diversion.\n\nAnnual wellness visit scheduling ensures preventive care occurs. Medicare Annual Wellness Visits and comprehensive preventive visits schedule appropriately.\n\nChronic disease follow-up scheduling maintains regular monitoring for diabetes, hypertension, and other conditions. Visit frequency based on disease control.\n\nPatient self-scheduling through the [patient app](/features/patient-app) works for routine visits while same-day acute needs may require staff coordination.\n\nReminder notifications reduce no-shows. Preventive care reminders prompt overdue wellness visits.\n\n[Telehealth](/features/telehealth) for appropriate visits enables chronic disease follow-up and minor acute concerns without travel."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "Patient Flow",
+      "content": "[Patient flow](/features/patient-flow) in primary care manages varied visit types efficiently.\n\nWellness visit flow includes comprehensive history update, preventive screening review, examination, and care planning. Extended time required.\n\nChronic disease follow-up flow reviews [RTM](/features/rtm-billing) data, assesses control, and adjusts treatment. [Check-in](/features/patient-check-in) collects current symptom and vital sign data.\n\nAcute visit flow prioritizes evaluation and treatment. Varied acuity requires flexible time allocation.\n\nProcedure flow for office procedures like skin biopsy, joint injection, and other procedures.\n\n[Analytics](/features/analytics) from flow data identify efficiency opportunities and bottlenecks.\n\n[Patient satisfaction](/features/patient-satisfaction) tracking captures feedback on access and visit experience."
+    },
+    {
+      "id": "care-coordination",
+      "h2": "Medical Home Care Coordination",
+      "content": "Primary care as the medical home coordinates with specialists across all disciplines.\n\n[Cardiology](/specialties/cardiology) coordination for cardiovascular disease management. PCPs and cardiologists share patients with coronary disease, heart failure, and arrhythmias. [Secure messaging](/features/secure-messaging) and [file exchange](/features/secure-file-exchange) support communication.\n\n[Endocrinology](/specialties/endocrinology) coordination for complex diabetes and other endocrine conditions. Shared management with appropriate roles.\n\n[Gastroenterology](/specialties/gastroenterology) coordination for screening colonoscopy referrals and GI conditions.\n\n[Pulmonology](/specialties/pulmonology) coordination for COPD, asthma, and other respiratory conditions.\n\n[Psychiatry](/specialties/psychiatry) and [behavioral health](/specialties/behavioral-health) coordination for mental health conditions often co-managed with primary care.\n\n[Neurology](/specialties/neurology), [nephrology](/specialties/nephrology), [rheumatology](/specialties/rheumatology), and other subspecialties all coordinate through primary care as medical home.\n\nReferral tracking shows pending specialist appointments and received reports. Complete loop closure keeps PCPs informed."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "Primary care implementation addresses [RTM](/features/rtm-billing) for chronic conditions, same-day [scheduling](/features/scheduling), [patient flow](/features/patient-flow), and care coordination.\n\nWeek one maps chronic disease workflows and [RTM](/features/rtm-billing) eligibility. [Scheduling](/features/scheduling) configures for wellness, chronic, and acute visits. Care coordination workflow establishes.\n\nWeek two trains staff on [patient flow](/features/patient-flow), [scheduling](/features/scheduling), and [check-in](/features/patient-check-in). Providers train on [RTM](/features/rtm-billing) data review and [telehealth](/features/telehealth).\n\nWeek three goes live with [patient flow](/features/patient-flow), [scheduling](/features/scheduling), and [RTM](/features/rtm-billing) enrollment.\n\nROI sources include [RTM billing](/features/rtm-billing) revenue at $100-130 per patient monthly with 100 patients generating $120,000+ annually. Same-day access reducing ED utilization. [Telehealth](/features/telehealth) expanding access. Proactive chronic disease management improving outcomes.\n\nProfessional tier at $499 monthly includes [RTM](/features/rtm-billing), [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [telehealth](/features/telehealth), [wearable integration](/features/wearable-integration), [secure messaging](/features/secure-messaging), and [analytics](/features/analytics)."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can primary care bill RTM?",
+      "a": "Yes. Hypertension, diabetes, COPD, and other chronic conditions qualify. [RTM billing](/features/rtm-billing) captures $100-130 per patient monthly. Primary care has the chronic disease population ideal for RTM."
+    },
+    {
+      "q": "How does same-day access scheduling work?",
+      "a": "[Scheduling](/features/scheduling) maintains open slots or flexible capacity for acute needs. Patients needing same-day evaluation receive it without ED diversion."
+    },
+    {
+      "q": "How does blood pressure monitoring work?",
+      "a": "Patients log home readings through the [clinIQ app](/features/patient-app) or integrate connected monitors. Patterns showing poor control trigger medication adjustment through [secure messaging](/features/secure-messaging)."
+    },
+    {
+      "q": "How do you coordinate as medical home?",
+      "a": "[Secure messaging](/features/secure-messaging) and [file exchange](/features/secure-file-exchange) enable communication with specialists across all disciplines. Referral tracking shows pending appointments and received reports."
+    },
+    {
+      "q": "Does telehealth work for primary care?",
+      "a": "[Telehealth](/features/telehealth) works for chronic disease follow-up, minor acute concerns, and medication management. Expands access while maintaining relationship."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers configuration. Week two includes training. Week three goes live with support."
+    }
+  ],
+  "cta": {
+    "headline": "See Primary Care Operations Optimized",
+    "subhead": "Fifteen-minute demo showing RTM for chronic conditions, same-day access scheduling, and medical home coordination.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate RTM Revenue", "href": "/resources/rtm-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "$120K", "label": "annual RTM potential" },
+      { "value": "Same-day", "label": "access" },
+      { "value": "Medical", "label": "home coordination" }
+    ],
+    "testimonial": {
+      "quote": "RTM for hypertension and diabetes generates significant revenue while improving chronic disease control. Same-day access keeps patients out of the ED. Specialist coordination finally works with messaging and file sharing. We function as a true medical home.",
+      "attribution": "Practice Administrator",
+      "practice": "Family medicine practice with five physicians",
+      "location": "Kansas"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "RTM Billing",
+      "href": "/features/rtm-billing",
+      "description": "Chronic disease monitoring revenue."
+    },
+    {
+      "type": "feature",
+      "title": "Scheduling",
+      "href": "/features/scheduling",
+      "description": "Same-day access with wellness scheduling."
+    },
+    {
+      "type": "feature",
+      "title": "Wearable Integration",
+      "href": "/features/wearable-integration",
+      "description": "Activity and physiological data."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "Primary Care",
+    "relevantConditions": ["Hypertension", "Diabetes", "Hyperlipidemia", "COPD", "Depression", "Preventive Care"],
+    "availableProcedures": ["Annual Wellness Visit", "Chronic Care Management", "Preventive Screening", "Immunizations"]
+  }
+}

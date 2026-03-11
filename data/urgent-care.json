@@ -1,0 +1,129 @@
+{
+  "slug": "urgent-care",
+  "name": "Urgent Care",
+  "pageType": "specialty-pillar",
+  "wordCount": 2200,
+  "publishDate": "2025-07-08",
+  "meta": {
+    "title": "Urgent Care Software | High-Volume Flow, Walk-In Management & Patient Communication | clinIQ",
+    "description": "Complete guide to urgent care operations. High-volume patient flow for walk-in clinics. Wait time management. Online check-in. Follow-up coordination with primary care.",
+    "keywords": ["urgent care software", "urgent care patient flow", "walk-in clinic management", "urgent care scheduling", "urgent care EHR integration"]
+  },
+  "hero": {
+    "h1": "Urgent Care Software",
+    "subhead": "High-volume patient flow for walk-in clinics. Online check-in reducing lobby wait time. Wait time transparency and patient communication. Follow-up coordination with primary care.",
+    "stats": [
+      { "value": "High-volume", "label": "walk-in flow" },
+      { "value": "Online", "label": "check-in" },
+      { "value": "Wait time", "label": "transparency" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "uc-operations", "title": "The Urgent Care Operations Model" },
+    { "id": "patient-flow", "title": "High-Volume Walk-In Flow" },
+    { "id": "check-in", "title": "Online Check-In" },
+    { "id": "wait-time", "title": "Wait Time Management" },
+    { "id": "follow-up", "title": "Follow-Up Coordination" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "uc-operations",
+      "h2": "The Urgent Care Operations Model",
+      "content": "Urgent care centers handle high-volume episodic care for acute illness and minor injuries. Walk-in patients without appointments expect minimal wait times. Flow efficiency directly determines patient volume, satisfaction, and revenue. [Patient flow](/features/patient-flow) must manage unpredictable arrival patterns while maintaining rapid throughput.\n\nOnline [check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) reduces lobby wait time. Patients complete registration before arrival, holding their place in the queue while traveling to the clinic.\n\nWait time transparency through digital displays and app updates manages patient expectations. [Patient satisfaction](/features/patient-satisfaction) depends heavily on perceived versus actual wait time.\n\nFollow-up coordination with [primary care](/specialties/primary-care) ensures patients receive appropriate ongoing care after urgent care visits."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "High-Volume Walk-In Patient Flow",
+      "content": "[Patient flow](/features/patient-flow) in urgent care manages unpredictable arrival patterns with rapid throughput goals.\n\nQueue management tracks patients from check-in through discharge. The flow board shows every patient's status and location.\n\nTriage flow prioritizes patients by acuity. Higher acuity patients move ahead while stable patients wait in order.\n\nRoom utilization tracks which rooms are occupied, ready, or need turnover. Providers move efficiently between patients.\n\nParallel processing where testing, imaging, and provider evaluation overlap reduces total visit time.\n\nDischarge efficiency completes visits promptly with prescriptions, instructions, and follow-up information.\n\n[Analytics](/features/analytics) reveal flow patterns including peak times, bottlenecks, and throughput by provider."
+    },
+    {
+      "id": "check-in",
+      "h2": "Online Check-In",
+      "content": "Online [check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) reduces lobby wait time and improves patient experience.\n\nRemote check-in allows patients to start the visit from home. Registration, history, and chief complaint capture before arrival.\n\nPlace in line holds when patients check in online. They join the queue remotely and arrive when their turn approaches.\n\nArrival confirmation through the app notifies staff when patients arrive at the clinic. Seamless transition from online to in-person.\n\nPre-visit information collection captures reason for visit, symptoms, and relevant history. Staff has information before patient arrives.\n\nReduced lobby crowding improves both patient experience and infection control. Fewer patients waiting in close proximity."
+    },
+    {
+      "id": "wait-time",
+      "h2": "Wait Time Management and Transparency",
+      "content": "Wait time management directly affects [patient satisfaction](/features/patient-satisfaction) and urgent care success.\n\nWait time display through lobby screens and app shows estimated wait time. Transparency manages expectations.\n\nApp notifications update patients about their queue position and estimated time. Patients can wait elsewhere and arrive when their turn approaches.\n\nProactive communication when delays occur addresses waiting patients before frustration builds. [Secure messaging](/features/secure-messaging) through the app reaches patients in the lobby.\n\nExpectation setting during [check-in](/features/patient-check-in) provides realistic time estimates based on current queue.\n\n[Analytics](/features/analytics) track wait times over time, by day of week, and time of day. Data guides staffing decisions.\n\n[Patient satisfaction](/features/patient-satisfaction) surveys capture feedback on wait time experience."
+    },
+    {
+      "id": "follow-up",
+      "h2": "Follow-Up Coordination",
+      "content": "Follow-up coordination ensures patients receive appropriate ongoing care after urgent care visits.\n\n[Primary care](/specialties/primary-care) notification through [secure messaging](/features/secure-messaging) or [file exchange](/features/secure-file-exchange) informs PCPs about urgent care visits. Visit summaries share with designated primary care providers.\n\nSpecialist referral coordination for conditions requiring specialty follow-up. Referral information provides to patients and receiving practices.\n\nFollow-up instructions through the [clinIQ app](/features/patient-app) ensure patients have accessible guidance. Medication information, activity restrictions, and warning signs accessible on phone.\n\nFollow-up reminders prompt patients about recommended follow-up with primary care or specialists.\n\nResults notification for pending lab or imaging results delivered through [secure messaging](/features/secure-messaging)."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "Urgent care implementation addresses high-volume [patient flow](/features/patient-flow), online [check-in](/features/patient-check-in), wait time management, and follow-up coordination.\n\nWeek one maps patient flow from arrival through discharge. Online [check-in](/features/patient-check-in) configures. Wait time display establishes. Follow-up workflow configures.\n\nWeek two trains staff on flow board operation, [check-in](/features/patient-check-in) management, and communication. Providers train on rapid evaluation workflow.\n\nWeek three goes live with [patient flow](/features/patient-flow), [check-in](/features/patient-check-in), and communication.\n\nROI sources include flow efficiency increasing patient throughput. Online check-in improving patient experience. Wait time transparency improving [patient satisfaction](/features/patient-satisfaction). Better flow enabling higher volume without adding staff.\n\nProfessional tier at $499 monthly includes [patient flow](/features/patient-flow), [check-in](/features/patient-check-in), [secure messaging](/features/secure-messaging), [patient satisfaction](/features/patient-satisfaction), [file exchange](/features/secure-file-exchange), and [analytics](/features/analytics)."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How does online check-in work?",
+      "a": "Patients [check in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) from home. Registration and history complete remotely. Patients hold their place in queue and arrive when their turn approaches."
+    },
+    {
+      "q": "How does patient flow handle walk-ins?",
+      "a": "[Patient flow](/features/patient-flow) tracks patients from check-in through discharge. Triage prioritizes by acuity. Room utilization and parallel processing maximize throughput."
+    },
+    {
+      "q": "How does wait time transparency work?",
+      "a": "Lobby displays and app updates show estimated wait time. Patients can wait elsewhere and receive notification when their turn approaches."
+    },
+    {
+      "q": "How do you coordinate follow-up with PCPs?",
+      "a": "Visit summaries share with designated [primary care](/specialties/primary-care) providers through [file exchange](/features/secure-file-exchange). [Secure messaging](/features/secure-messaging) enables direct communication."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers configuration. Week two includes training. Week three goes live with support."
+    }
+  ],
+  "cta": {
+    "headline": "See Urgent Care Operations Optimized",
+    "subhead": "Fifteen-minute demo showing high-volume flow, online check-in, and wait time management.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Learn More", "href": "/resources/high-volume-flow" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "High-volume", "label": "walk-in flow" },
+      { "value": "Online", "label": "check-in" },
+      { "value": "Wait time", "label": "transparency" }
+    ],
+    "testimonial": {
+      "quote": "Online check-in transformed our patient experience. People check in from home and arrive when we're ready for them. Wait time transparency reduced complaints dramatically. Flow visibility lets us see every patient's status. We handle more volume with better satisfaction scores.",
+      "attribution": "Center Director",
+      "practice": "Urgent care center with multiple locations",
+      "location": "Florida"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "Patient Check-In",
+      "href": "/features/patient-check-in",
+      "description": "Online and kiosk check-in."
+    },
+    {
+      "type": "feature",
+      "title": "Patient Flow",
+      "href": "/features/patient-flow",
+      "description": "High-volume flow management."
+    },
+    {
+      "type": "specialty",
+      "title": "Primary Care",
+      "href": "/specialties/primary-care",
+      "description": "Follow-up coordination."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "Urgent Care",
+    "relevantConditions": ["Acute Illness", "Minor Injury", "Laceration", "Sprain", "Infection"],
+    "availableProcedures": ["X-Ray", "Laceration Repair", "Splinting", "Rapid Testing", "IV Fluids"]
+  }
+}

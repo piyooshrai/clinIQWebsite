@@ -1,0 +1,133 @@
+{
+  "slug": "gastroenterology",
+  "name": "Gastroenterology",
+  "pageType": "specialty-pillar",
+  "wordCount": 2600,
+  "publishDate": "2025-06-12",
+  "meta": {
+    "title": "Gastroenterology Practice Software | Scheduling, Patient Flow & Procedure Coordination | clinIQ",
+    "description": "Complete guide to gastroenterology practice operations. Endoscopy scheduling optimization. High-volume patient flow management. Pre-procedure workflow. Coordination with primary care, surgery, and oncology.",
+    "keywords": ["gastroenterology software", "GI practice management", "endoscopy scheduling", "colonoscopy workflow", "gastroenterology patient flow", "GI EHR integration"]
+  },
+  "hero": {
+    "h1": "Gastroenterology Practice Software",
+    "subhead": "Endoscopy scheduling optimization maximizing procedure volume. High-volume clinic flow management. Pre-procedure preparation workflow. Coordination with primary care, general surgery, and oncology for comprehensive GI care.",
+    "stats": [
+      { "value": "High-volume", "label": "endoscopy scheduling" },
+      { "value": "Pre-procedure", "label": "workflow management" },
+      { "value": "Seamless", "label": "care coordination" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "gi-operations", "title": "The Gastroenterology Operations Model" },
+    { "id": "endoscopy-scheduling", "title": "Endoscopy Scheduling" },
+    { "id": "pre-procedure", "title": "Pre-Procedure Workflow" },
+    { "id": "patient-flow", "title": "Clinic Patient Flow" },
+    { "id": "care-coordination", "title": "Care Coordination" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "gi-operations",
+      "h2": "The Gastroenterology Operations Model",
+      "content": "Gastroenterology practices balance high-volume endoscopy with office-based medical management. Colonoscopy screening, diagnostic EGD, and therapeutic procedures require efficient scheduling. Clinic visits address IBD, GERD, hepatology, and other medical GI conditions. The operational challenge involves maximizing procedure volume while maintaining clinic access.\n\n[Scheduling](/features/scheduling) complexity spans endoscopy suites, hospital privileges, and clinic visits. Colonoscopy screening volume drives much of GI practice revenue. Efficient [scheduling](/features/scheduling) maximizes the number of procedures without sacrificing quality.\n\nPre-procedure preparation determines whether patients arrive ready for procedures. Inadequate bowel prep leads to cancelled or repeated colonoscopies. [Patient flow](/features/patient-flow) tracking of preparation compliance prevents day-of-procedure problems.\n\nCare coordination involves [primary care](/specialties/primary-care) for screening referrals, [general surgery](/specialties/general-surgery) for surgical GI conditions, and [oncology](/specialties/oncology) for GI malignancies. The gastroenterologist operates within a network of referring and consulting physicians."
+    },
+    {
+      "id": "endoscopy-scheduling",
+      "h2": "Endoscopy Scheduling Optimization",
+      "content": "[Scheduling](/features/scheduling) for endoscopy maximizes procedure volume while accommodating varied case types and complexity.\n\nColonoscopy scheduling represents the highest volume. Screening colonoscopies have predictable duration. Surveillance colonoscopies for prior polyps may need more time. Diagnostic colonoscopies for symptoms may reveal pathology requiring intervention. [Scheduling](/features/scheduling) templates account for expected complexity.\n\nEGD scheduling for upper endoscopy follows similar patterns. Diagnostic versus therapeutic procedures have different time requirements.\n\nCombined procedures for patients needing both EGD and colonoscopy schedule appropriately to capture efficiency while allowing adequate time.\n\nAnesthesia coordination for sedation affects scheduling. Standard sedation versus anesthesia involvement affects room turnover and staffing.\n\nBlock time management at endoscopy centers or hospitals requires tracking utilization. Unfilled blocks represent lost revenue. [Scheduling](/features/scheduling) visibility shows utilization patterns.\n\nPatient self-scheduling through the [patient app](/features/patient-app) works for office visits while procedure scheduling remains staff-managed given preparation requirements."
+    },
+    {
+      "id": "pre-procedure",
+      "h2": "Pre-Procedure Workflow",
+      "content": "Pre-procedure preparation determines colonoscopy success. Inadequate bowel prep wastes procedure time, exposes patients to risk without benefit, and requires repeat procedures. [Patient flow](/features/patient-flow) workflow ensures patients complete preparation correctly.\n\nBowel prep instruction delivery through the [clinIQ app](/features/patient-app) ensures patients have accessible instructions. Rather than paper instructions that get lost, app-based delivery keeps information accessible when patients need it.\n\nPrep reminder notifications prompt patients about diet modifications, medication timing, and prep solution consumption. Automated reminders support compliance.\n\nPrep compliance confirmation through [secure messaging](/features/secure-messaging) can verify patients are prepared. Patients reporting incomplete prep may need rescheduling before consuming procedure resources.\n\nMedication management instructions for anticoagulants, diabetes medications, and other drugs requiring peri-procedure adjustment deliver through the app with clear timing.\n\nPre-procedure requirements tracking in [patient flow](/features/patient-flow) shows which patients have confirmed prep completion, medication adjustments, and any needed clearances.\n\n[Telehealth](/features/telehealth) pre-procedure visits for patients with complex medical histories can assess readiness without requiring in-person visits before procedures."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "Clinic Patient Flow",
+      "content": "[Patient flow](/features/patient-flow) in GI clinics manages consultations, follow-ups, and results visits with varied requirements.\n\nNew patient consultations for GI symptoms require comprehensive evaluation. [Check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) collects symptom information before visits. GI-specific intake captures bowel habits, diet, and relevant history.\n\nIBD follow-ups for patients with Crohn's disease or ulcerative colitis assess disease activity and medication management. Symptom tracking between visits through the app documents disease patterns.\n\nHepatology visits for liver disease patients require monitoring of disease progression and complications.\n\nResults visits following endoscopy review pathology and plan next steps. These visits follow predictable patterns.\n\nWait time management maintains [patient satisfaction](/features/patient-satisfaction). [Patient flow](/features/patient-flow) visibility enables proactive communication when delays occur.\n\n[Analytics](/features/analytics) from flow data reveal bottlenecks and optimization opportunities."
+    },
+    {
+      "id": "care-coordination",
+      "h2": "Care Coordination",
+      "content": "Gastroenterology requires coordination with referring physicians and specialists managing shared patients.\n\n[Primary care](/specialties/primary-care) coordination involves screening referrals and shared chronic disease management. PCPs refer for colonoscopy screening and GI symptoms. Communication through [secure messaging](/features/secure-messaging) and [file exchange](/features/secure-file-exchange) keeps PCPs informed of findings.\n\n[General surgery](/specialties/general-surgery) coordination for surgical GI conditions. Cholecystectomy referrals, hernia evaluation, and other surgical needs route to surgery. GI malignancies requiring resection coordinate surgical and oncological care.\n\n[Oncology](/specialties/oncology) coordination for GI malignancies addresses chemotherapy, targeted therapy, and coordinated treatment planning. [File exchange](/features/secure-file-exchange) shares endoscopy findings and pathology.\n\nHepatology coordination for patients with liver disease requiring transplant evaluation or specialized hepatology care.\n\nNutrition coordination for patients with malabsorption, celiac disease, or dietary management needs."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "Gastroenterology implementation addresses endoscopy [scheduling](/features/scheduling), pre-procedure workflow, and clinic [patient flow](/features/patient-flow).\n\nWeek one maps endoscopy scheduling including block management and case complexity templates. Pre-procedure workflow configures for prep instructions, reminders, and compliance confirmation. Clinic flow configures for visit types.\n\nWeek two trains scheduling staff on procedure coordination. Clinical staff trains on [patient flow](/features/patient-flow) and [check-in](/features/patient-check-in). Staff learns pre-procedure workflow management.\n\nWeek three goes live with [scheduling](/features/scheduling), [patient flow](/features/patient-flow), and pre-procedure workflow.\n\nROI sources include scheduling optimization increasing procedure volume. Pre-procedure workflow reducing incomplete preps and cancelled procedures. Efficient clinic flow enabling higher visit volume. Better coordination maintaining referral relationships.\n\nProfessional tier at $499 monthly includes [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), [file exchange](/features/secure-file-exchange), and [analytics](/features/analytics)."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How does endoscopy scheduling optimize?",
+      "a": "[Scheduling](/features/scheduling) uses procedure-specific templates accounting for complexity. Block utilization tracking shows efficiency. Authorization-aware scheduling prevents booking cases without approval."
+    },
+    {
+      "q": "How does pre-procedure workflow prevent incomplete preps?",
+      "a": "Prep instructions deliver through the [clinIQ app](/features/patient-app). Automated reminders prompt at key times. [Secure messaging](/features/secure-messaging) can confirm compliance before procedure day."
+    },
+    {
+      "q": "Can clinic visits handle IBD management?",
+      "a": "Yes. [Check-in](/features/patient-check-in) captures GI-specific symptoms. Between-visit symptom tracking documents disease patterns. [Patient flow](/features/patient-flow) accommodates varied visit durations."
+    },
+    {
+      "q": "How do you coordinate with referring PCPs?",
+      "a": "[Secure messaging](/features/secure-messaging) enables communication. [File exchange](/features/secure-file-exchange) shares procedure reports and pathology. Referrers receive findings promptly."
+    },
+    {
+      "q": "Does telehealth work for GI?",
+      "a": "Yes. [Telehealth](/features/telehealth) supports pre-procedure assessment, results review, and chronic disease management. Not appropriate for all visits but expands access."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers scheduling and workflow configuration. Week two includes training. Week three goes live with support."
+    }
+  ],
+  "cta": {
+    "headline": "See Gastroenterology Operations Optimized",
+    "subhead": "Fifteen-minute demo showing endoscopy scheduling, pre-procedure workflow, and clinic patient flow management.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Learn More", "href": "/resources/procedure-scheduling" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "Optimized", "label": "endoscopy scheduling" },
+      { "value": "Pre-procedure", "label": "workflow" },
+      { "value": "High-volume", "label": "clinic flow" }
+    ],
+    "testimonial": {
+      "quote": "Incomplete bowel preps were costing us procedures and frustrating patients. App-based instructions with reminders improved compliance dramatically. Scheduling optimization increased our colonoscopy volume without adding rooms. Pre-procedure workflow catches problems before patients arrive.",
+      "attribution": "Practice Administrator",
+      "practice": "Gastroenterology practice with five physicians",
+      "location": "Georgia"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "Scheduling",
+      "href": "/features/scheduling",
+      "description": "Procedure and clinic scheduling optimization."
+    },
+    {
+      "type": "specialty",
+      "title": "General Surgery",
+      "href": "/specialties/general-surgery",
+      "description": "Coordinating GI surgical care."
+    },
+    {
+      "type": "specialty",
+      "title": "Oncology",
+      "href": "/specialties/oncology",
+      "description": "GI malignancy coordination."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "Gastroenterology",
+    "relevantConditions": ["GERD", "IBD", "IBS", "Colon Polyps", "Hepatitis", "Cirrhosis"],
+    "availableProcedures": ["Colonoscopy", "EGD", "ERCP", "Capsule Endoscopy", "Liver Biopsy"]
+  }
+}

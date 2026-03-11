@@ -1,0 +1,123 @@
+{
+  "slug": "pediatrics",
+  "name": "Pediatrics",
+  "pageType": "specialty-pillar",
+  "wordCount": 2200,
+  "publishDate": "2025-06-28",
+  "meta": {
+    "title": "Pediatrics Practice Software | Well-Child Scheduling, Patient Flow & Family Communication | clinIQ",
+    "description": "Complete guide to pediatrics practice operations. Well-child visit scheduling. High-volume patient flow. Vaccine tracking. Family communication through mobile app.",
+    "keywords": ["pediatrics software", "pediatric practice management", "well-child scheduling", "pediatric patient flow", "vaccine tracking", "pediatric EHR integration"]
+  },
+  "hero": {
+    "h1": "Pediatrics Practice Software",
+    "subhead": "Well-child and sick visit scheduling optimization. High-volume patient flow for busy pediatric practices. Vaccine tracking and reminders. Family communication through the clinIQ app.",
+    "stats": [
+      { "value": "High-volume", "label": "scheduling" },
+      { "value": "Vaccine", "label": "tracking" },
+      { "value": "Family", "label": "communication" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "peds-operations", "title": "The Pediatrics Operations Model" },
+    { "id": "scheduling", "title": "Well-Child and Sick Visit Scheduling" },
+    { "id": "patient-flow", "title": "Patient Flow" },
+    { "id": "family-communication", "title": "Family Communication" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "peds-operations",
+      "h2": "The Pediatrics Operations Model",
+      "content": "Pediatrics practices manage high volume across well-child preventive care and acute sick visits. Well-child visits follow predictable schedules with multiple visits in the first two years. Sick visits must accommodate same-day access. This dual scheduling challenge requires flexible [scheduling](/features/scheduling).\n\n[Patient flow](/features/patient-flow) must handle high volume efficiently while maintaining quality care. Multiple patients in rooming, examination, and checkout stages require visibility.\n\nFamily communication through the [clinIQ app](/features/patient-app) addresses parent questions and concerns. Vaccine reminders, after-hours guidance, and sick visit triage all benefit from [secure messaging](/features/secure-messaging).\n\nCare coordination with pediatric subspecialists, [behavioral health](/specialties/behavioral-health), and schools addresses complex patient needs."
+    },
+    {
+      "id": "scheduling",
+      "h2": "Well-Child and Sick Visit Scheduling",
+      "content": "[Scheduling](/features/scheduling) in pediatrics balances well-child preventive visits with same-day sick visit access.\n\nWell-child scheduling follows AAP-recommended visit schedules with multiple visits in the first year, annual visits through adolescence. [Scheduling](/features/scheduling) templates support age-appropriate visit types.\n\nSick visit accommodation maintains same-day access for acute illness. Reserved slots or flexible scheduling ensures sick children are seen promptly.\n\nVaccine visit scheduling for vaccine-only appointments provides efficient immunization without full well-child visits.\n\nNewborn visits in the first week of life schedule with appropriate urgency.\n\nFamily self-scheduling through the [patient app](/features/patient-app) works for well-child visits while sick visits often require same-day accommodation."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "Patient Flow",
+      "content": "[Patient flow](/features/patient-flow) in pediatrics manages high volume across multiple providers.\n\nRoom utilization tracking shows which rooms are occupied, ready, or need turnover. Providers move efficiently between patients.\n\n[Check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) collects reason for visit and symptom information. Parents complete before arrival.\n\nWell-child visit flow includes growth measurements, developmental screening, and age-appropriate assessments. Predictable patterns optimize efficiency.\n\nSick visit flow prioritizes rapid evaluation while accommodating varying acuity.\n\nVaccine administration tracking documents vaccines given, lot numbers, and any reactions.\n\n[Analytics](/features/analytics) from flow data identify bottlenecks and optimization opportunities."
+    },
+    {
+      "id": "family-communication",
+      "h2": "Family Communication",
+      "content": "Family communication through the [clinIQ app](/features/patient-app) addresses parent questions and supports preventive care.\n\n[Secure messaging](/features/secure-messaging) allows parents to ask questions about symptoms, medications, and development without phone calls. After-hours guidance helps parents determine urgency.\n\nVaccine reminders prompt families when immunizations are due. Tracking shows which patients are behind on vaccines for outreach.\n\nWell-child visit reminders ensure families schedule preventive care. Recall for overdue visits identifies children needing outreach.\n\nSick visit triage through messaging helps determine whether office visit, urgent care, or emergency care is appropriate.\n\n[Patient satisfaction](/features/patient-satisfaction) surveys capture family feedback on practice experience.\n\n[Telehealth](/features/telehealth) for appropriate cases enables visual assessment of rashes, symptoms, and follow-up without travel."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "Pediatrics implementation addresses [scheduling](/features/scheduling) for well-child and sick visits, high-volume [patient flow](/features/patient-flow), and family communication.\n\nWeek one maps well-child and sick visit scheduling. [Patient flow](/features/patient-flow) configures for high-volume operations. Family communication workflow establishes.\n\nWeek two trains staff on [patient flow](/features/patient-flow), [scheduling](/features/scheduling), and [check-in](/features/patient-check-in). Providers train on dashboard and [secure messaging](/features/secure-messaging).\n\nWeek three goes live with [patient flow](/features/patient-flow), [scheduling](/features/scheduling), and communication.\n\nROI sources include scheduling efficiency maximizing visit volume. Reduced phone volume through messaging. Vaccine reminder improving immunization rates. Better [patient satisfaction](/features/patient-satisfaction).\n\nProfessional tier at $499 monthly includes [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), [patient satisfaction](/features/patient-satisfaction), and [analytics](/features/analytics)."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How does scheduling handle well-child and sick visits?",
+      "a": "[Scheduling](/features/scheduling) templates support AAP-recommended well-child schedules. Same-day sick visit access maintains through reserved slots or flexible scheduling."
+    },
+    {
+      "q": "How does vaccine tracking work?",
+      "a": "Vaccine reminders prompt families when immunizations are due. Tracking shows which patients are behind for outreach. Administration documents with lot numbers."
+    },
+    {
+      "q": "How does family communication work?",
+      "a": "[Secure messaging](/features/secure-messaging) allows parents to ask questions without phone calls. After-hours guidance helps determine urgency. Reminders prompt well-child visits."
+    },
+    {
+      "q": "Does telehealth work for pediatrics?",
+      "a": "[Telehealth](/features/telehealth) works for visual assessment of rashes, symptom follow-up, and some sick visits. Not appropriate for all conditions."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers configuration. Week two includes training. Week three goes live with support."
+    }
+  ],
+  "cta": {
+    "headline": "See Pediatrics Operations Optimized",
+    "subhead": "Fifteen-minute demo showing well-child scheduling, high-volume flow, and family communication.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Learn More", "href": "/resources/high-volume-flow" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "High-volume", "label": "scheduling" },
+      { "value": "Vaccine", "label": "tracking" },
+      { "value": "Family", "label": "communication" }
+    ],
+    "testimonial": {
+      "quote": "Well-child scheduling with same-day sick access finally works. The flow board shows where every patient is. Parent messaging reduced our phone volume dramatically. Vaccine reminders improved our immunization rates. We see more children without feeling rushed.",
+      "attribution": "Practice Administrator",
+      "practice": "Pediatric practice with four physicians",
+      "location": "Colorado"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "Scheduling",
+      "href": "/features/scheduling",
+      "description": "Well-child and sick visit scheduling."
+    },
+    {
+      "type": "feature",
+      "title": "Secure Messaging",
+      "href": "/features/secure-messaging",
+      "description": "Family communication."
+    },
+    {
+      "type": "specialty",
+      "title": "Behavioral Health",
+      "href": "/specialties/behavioral-health",
+      "description": "Pediatric behavioral health coordination."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "Pediatrics",
+    "relevantConditions": ["Well-Child Care", "Acute Illness", "Developmental Concerns", "ADHD", "Asthma"],
+    "availableProcedures": ["Well-Child Examination", "Immunizations", "Developmental Screening", "Sports Physical"]
+  }
+}
