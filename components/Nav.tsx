@@ -21,8 +21,8 @@ interface NavGroup {
 
 interface NavSection {
   label: string
-  flat?: NavLink[]         // simple grid of links (Compare)
-  grouped?: NavGroup[]     // categorised groups (Features, Specialties, Locations, Resources)
+  flat?: NavLink[]         // simple grid of links
+  grouped?: NavGroup[]     // categorised groups (Features, Specialties, Compare, Markets, Locations, Resources)
   extraWide?: boolean      // use wider dropdown panel
 }
 
@@ -155,6 +155,30 @@ const NAV_SECTIONS: NavSection[] = [
           { label: 'vs Spreadsheets',  href: '/compare/spreadsheets', desc: 'Automatic vs manual' },
           { label: 'vs Paper Sign-In', href: '/compare/paper-signin', desc: 'Digital workflow' },
         ],
+      },
+      {
+        heading: 'RTM / RPM',
+        links: [
+          { label: 'vs Prevounce',      href: '/compare/prevounce',      desc: 'RTM + full clinic ops' },
+          { label: 'vs TimeDoc',        href: '/compare/timedoc',        desc: 'Ops layer vs CCM focus' },
+          { label: 'vs Optimize Health', href: '/compare/optimize-health', desc: 'Broader than RPM' },
+          { label: 'vs ChronicCareIQ', href: '/compare/chroniccareiq', desc: 'RTM + visit workflow' },
+        ],
+      },
+    ],
+  },
+  {
+    label: 'Markets',
+    grouped: [
+      {
+        heading: 'Care Settings',
+        links: [
+          { label: 'FQHCs & Community Health', href: '/markets/fqhc-community-health',        desc: 'Sliding scale + RTM billing' },
+          { label: 'Rural Health Clinics',      href: '/markets/rural-health',                desc: 'Small team, high volume' },
+          { label: 'Concierge & DPC',           href: '/markets/concierge-dpc',               desc: 'Membership model ops' },
+          { label: 'Surgery Centers',           href: '/markets/ambulatory-surgery-centers',  desc: 'Pre-op to post-op flow' },
+        ],
+        viewAll: { label: 'View all markets →', href: '/markets' },
       },
     ],
   },

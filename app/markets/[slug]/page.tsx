@@ -11,7 +11,7 @@ import css from '@/components/templates/PillarSpecialtyPage.module.css'
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 
-interface CompareStat {
+interface MarketStat {
   value: string
   label: string
 }
@@ -21,13 +21,13 @@ interface TocItem {
   title: string
 }
 
-interface CompareSection {
+interface MarketSection {
   id: string
   h2: string
   content: string
 }
 
-interface CompareFaq {
+interface MarketFaq {
   q: string
   a: string
 }
@@ -37,7 +37,7 @@ interface RelatedItem {
   title: string
 }
 
-interface CompareData {
+interface MarketData {
   slug: string
   name: string
   publishDate?: string
@@ -50,55 +50,34 @@ interface CompareData {
   hero: {
     h1: string
     subhead: string
-    stats: CompareStat[]
-  }
-  gatedContent: {
-    title: string
-    description: string
-    format: string
-    placeholder: boolean
+    stats: MarketStat[]
   }
   tableOfContents: TocItem[]
-  sections: CompareSection[]
-  faqs: CompareFaq[]
+  sections: MarketSection[]
+  faqs: MarketFaq[]
   relatedContent: {
-    features: RelatedItem[]
-    specialties: RelatedItem[]
-    competitors: RelatedItem[]
+    features?: RelatedItem[]
+    specialties?: RelatedItem[]
+    marketSegments?: RelatedItem[]
   }
 }
 
 // ── Static slugs ──────────────────────────────────────────────────────────────
 
 const SLUGS = [
-  'phreesia',
-  'clearwave',
-  'athenahealth',
-  'eclinicalworks',
-  'simplepractice',
-  'nextgen',
-  'advancedmd',
-  'tebra',
-  'qless',
-  'waitwhile',
-  'spreadsheets',
-  'whiteboards',
-  'paper-signin',
-  'ehr-only',
-  'generic-scheduling',
-  'prevounce',
-  'timedoc',
-  'optimize-health',
-  'chroniccareiq',
+  'fqhc-community-health',
+  'rural-health',
+  'concierge-dpc',
+  'ambulatory-surgery-centers',
 ]
 
 // ── Data loader ───────────────────────────────────────────────────────────────
 
-async function getData(slug: string): Promise<CompareData | null> {
+async function getData(slug: string): Promise<MarketData | null> {
   try {
-    const filePath = path.join(process.cwd(), 'content', 'compare', `${slug}.json`)
+    const filePath = path.join(process.cwd(), 'content', 'markets', `${slug}.json`)
     const raw = await fs.readFile(filePath, 'utf-8')
-    return JSON.parse(raw) as CompareData
+    return JSON.parse(raw) as MarketData
   } catch {
     return null
   }
@@ -117,7 +96,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const data = await getData(params.slug)
   if (!data) return {}
-  const url = `https://cliniqhealthcare.com/compare/${data.slug}`
+  const url = `https://cliniqhealthcare.com/markets/${data.slug}`
   return {
     title: data.meta.title,
     description: data.meta.description,
@@ -133,7 +112,7 @@ export async function generateMetadata({
   }
 }
 
-// ── Content classes for renderContent ─────────────────────────────────────────
+// ── Content classes ───────────────────────────────────────────────────────────
 
 const contentClasses = {
   contentBlock: css.contentBlock,
@@ -146,7 +125,7 @@ const contentClasses = {
 
 // ── Page ──────────────────────────────────────────────────────────────────────
 
-export default async function CompareSlugPage({
+export default async function MarketSlugPage({
   params,
 }: {
   params: { slug: string }
@@ -159,8 +138,8 @@ export default async function CompareSlugPage({
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniqhealthcare.com' },
-      { '@type': 'ListItem', position: 2, name: 'Compare', item: 'https://cliniqhealthcare.com/compare' },
-      { '@type': 'ListItem', position: 3, name: data.name, item: `https://cliniqhealthcare.com/compare/${data.slug}` },
+      { '@type': 'ListItem', position: 2, name: 'Markets', item: 'https://cliniqhealthcare.com/markets' },
+      { '@type': 'ListItem', position: 3, name: data.name, item: `https://cliniqhealthcare.com/markets/${data.slug}` },
     ],
   }
 
@@ -176,20 +155,20 @@ export default async function CompareSlugPage({
 
   // Build flat related content list for cards
   const relatedCards = [
-    ...data.relatedContent.features.map((r) => ({
+    ...(data.relatedContent.features ?? []).map((r) => ({
       type: 'Feature',
       title: r.title,
       href: `/features/${r.slug}`,
     })),
-    ...data.relatedContent.specialties.map((r) => ({
+    ...(data.relatedContent.specialties ?? []).map((r) => ({
       type: 'Specialty',
       title: r.title,
       href: `/specialties/${r.slug}`,
     })),
-    ...data.relatedContent.competitors.map((r) => ({
-      type: 'Comparison',
+    ...(data.relatedContent.marketSegments ?? []).map((r) => ({
+      type: 'Market',
       title: r.title,
-      href: `/compare/${r.slug}`,
+      href: `/markets/${r.slug}`,
     })),
   ]
 
@@ -215,7 +194,7 @@ export default async function CompareSlugPage({
           </div>
           <div className={s.container}>
             <div className={s.heroContent}>
-              <div className={s.badge}>Comparison</div>
+              <div className={s.badge}>Market</div>
               <h1 className={s.heroTitle}>{data.hero.h1}</h1>
               <p className={s.heroSubtitle}>{data.hero.subhead}</p>
               <div className={css.heroStats}>
@@ -233,7 +212,7 @@ export default async function CompareSlugPage({
                     <path d="M4 10h12m-4-4l4 4-4 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </a>
-                <a href="/compare" className={s.btnGhost}>All Comparisons</a>
+                <a href="/markets" className={s.btnGhost}>All Markets</a>
               </div>
             </div>
           </div>
@@ -246,7 +225,7 @@ export default async function CompareSlugPage({
             {/* Left: sticky TOC */}
             <nav aria-label="Page contents">
               <div className={css.toc}>
-                <span className={css.tocLabel}>In this comparison</span>
+                <span className={css.tocLabel}>In this guide</span>
                 <ul className={css.tocList}>
                   {data.tableOfContents.map(({ id, title }) => (
                     <li key={id} className={css.tocItem}>
@@ -276,7 +255,7 @@ export default async function CompareSlugPage({
             <div className={s.container}>
               <div className={css.relatedHeader}>
                 <span className={s.sectionLabel}>Keep Reading</span>
-                <h2 className={s.sectionTitle}>Related features &amp; comparisons</h2>
+                <h2 className={s.sectionTitle}>Related features &amp; guides</h2>
               </div>
               <div className={css.relatedGrid}>
                 {relatedCards.map(({ type, title, href }) => (
@@ -309,7 +288,7 @@ export default async function CompareSlugPage({
           </div>
           <div className={s.container}>
             <div className={s.ctaContent}>
-              <h2 className={s.ctaTitle}>Ready to see what clinIQ can do?</h2>
+              <h2 className={s.ctaTitle}>Ready to see clinIQ in your setting?</h2>
               <p className={s.ctaDesc}>
                 Live in days. No hardware required. Works with your existing EHR.
               </p>

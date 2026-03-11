@@ -1,0 +1,162 @@
+{
+    "slug": "chroniccareiq",
+    "name": "clinIQ vs ChronicCareIQ",
+    "pageType": "compare-pillar",
+    "wordCount": 1900,
+    "publishDate": "2026-03-11",
+    "meta": {
+        "title": "clinIQ vs ChronicCareIQ | Chronic Care Management Platform Comparison",
+        "description": "ChronicCareIQ focuses on CCM and RPM billing with patient engagement. clinIQ provides RTM plus real-time patient flow, check-in, pre-authorization, and full clinic operations in one platform.",
+        "keywords": [
+            "ChronicCareIQ alternative",
+            "ChronicCareIQ vs",
+            "chronic care management software",
+            "CCM software comparison",
+            "remote therapeutic monitoring platform",
+            "RPM software alternative"
+        ]
+    },
+    "hero": {
+        "h1": "clinIQ vs ChronicCareIQ",
+        "subhead": "ChronicCareIQ built chronic care management software for patient engagement between office visits. clinIQ provides RTM billing plus real-time patient flow, check-in, pre-authorization, and full clinic operations. Complete operations platform instead of care management only.",
+        "stats": [
+            {
+                "value": "Full clinic",
+                "label": "operations included"
+            },
+            {
+                "value": "75%+",
+                "label": "RTM compliance rate"
+            },
+            {
+                "value": "One platform",
+                "label": "vs point solution"
+            }
+        ]
+    },
+    "gatedContent": {
+        "title": "RTM Revenue Calculator + Compliance Checklist",
+        "description": "Calculate your RTM revenue opportunity and ensure compliant billing with CPT codes 98975-98981.",
+        "format": "PDF",
+        "placeholder": true
+    },
+    "tableOfContents": [
+        {
+            "id": "different-focus",
+            "title": "Different Focus Areas"
+        },
+        {
+            "id": "chroniccareiq-strengths",
+            "title": "What ChronicCareIQ Does Well"
+        },
+        {
+            "id": "platform-scope",
+            "title": "Platform Scope Differences"
+        },
+        {
+            "id": "rtm-vs-ccm",
+            "title": "RTM vs CCM Focus"
+        },
+        {
+            "id": "full-operations",
+            "title": "Full Clinic Operations"
+        },
+        {
+            "id": "faqs",
+            "title": "FAQs"
+        }
+    ],
+    "sections": [
+        {
+            "id": "different-focus",
+            "h2": "Different Focus Areas",
+            "content": "ChronicCareIQ and clinIQ serve overlapping but distinct operational needs. Understanding where they differ helps practices evaluate fit.\n\nChronicCareIQ positions itself as a connected care platform integrating CCM, RPM, RTM, TCM, PCM, and BHI programs on one interface. The platform captures care management activities, automates documentation, and tracks billing eligibility. Patient dashboards alert staff when patients need attention. The focus is comprehensive care management across multiple Medicare program codes.\n\nclinIQ is a clinic operations platform that includes [RTM billing](/features/rtm-billing) among broader operational capabilities. Beyond remote monitoring revenue, clinIQ provides [patient flow](/features/patient-flow) tracking showing where every patient is throughout their visit, [check-in](/features/patient-check-in) automation replacing paper workflows, [scheduling](/features/scheduling) management, [pre-authorization](/features/pre-authorization) tracking, and operational [analytics](/features/analytics). RTM is one capability within a unified operations system.\n\nThe distinction matters for practices evaluating their full needs. Practices focused exclusively on maximizing care management billing may evaluate ChronicCareIQ's multi-program approach. Practices needing care management revenue plus operational visibility, patient flow tracking, and visit efficiency benefit from clinIQ's platform scope.\n\nMany clinics have both needs simultaneously. They want to capture RTM and CCM revenue while also knowing where patients are in their workflow, reducing check-in time, and tracking pre-authorization status. Using separate platforms for billing optimization and operations management creates vendor complexity and integration challenges."
+        },
+        {
+            "id": "chroniccareiq-strengths",
+            "title": "What ChronicCareIQ Does Well",
+            "content": "ChronicCareIQ has developed meaningful chronic care functionality over years of refinement. Understanding its strengths clarifies where scope differences matter.\n\nMulti-program support covers CCM, RPM, RTM, TCM, PCM, BHI/CoCM, and APCM on one platform. Practices managing diverse patient populations across multiple billing programs can consolidate workflow. The platform assigns activities to appropriate billing codes automatically.\n\nPatient engagement uses multiple channels. Automated queries reach patients via smartphone app, landline phone, email, or text. Self-reported data flows into the system without requiring technology sophistication from patients. Color-coded dashboards highlight which patients need clinical attention based on responses.\n\nDevice integration supports RPM with blood pressure monitors, glucose meters, weight scales, and pulse oximeters. Cellular-connected devices transmit readings automatically. Thresholds trigger alerts when patients trend outside clinical parameters.\n\nDocumentation automation captures care management activities with time tracking down to the second. Manual tracking elimination reduces administrative burden while maintaining audit-ready records.\n\nReporting provides both clinical and financial visibility. Monthly trend reports show program performance, patient adherence, and revenue metrics. Management can evaluate program health across enrolled populations.\n\nEHR integration connects with major systems to reduce duplicate entry. Care management data syncs with clinical records.\n\nThese capabilities serve practices building robust care management programs. The question is whether care management is the only operational need requiring technology support."
+        },
+        {
+            "id": "platform-scope",
+            "h2": "Platform Scope Differences",
+            "content": "The fundamental difference is what each platform addresses beyond chronic care billing.\n\nChronicCareIQ centers on care management program optimization. The platform excels at capturing, documenting, and billing for care coordination activities across CCM, RPM, RTM, and related programs. What happens during patient visits inside the clinic sits outside ChronicCareIQ's scope.\n\nclinIQ addresses both care management revenue and in-clinic operations. [RTM billing](/features/rtm-billing) captures Remote Therapeutic Monitoring revenue through CPT codes 98975 through 98981. Simultaneously, [patient flow](/features/patient-flow) tracking shows real-time visibility into waiting room census, occupied exam rooms, patients ready for providers, and checkout queue. [Check-in](/features/patient-check-in) automation handles patient arrival through the [clinIQ app](/features/patient-app), tablets, or QR codes. [Pre-authorization](/features/pre-authorization) tracking ensures procedures are approved before they happen.\n\nThe scope difference creates practical implications. A practice using ChronicCareIQ for care management billing still needs separate solutions for patient flow visibility. They need another tool for check-in automation. Another for pre-authorization tracking. Each additional tool means another vendor relationship, another integration to maintain, another training investment.\n\nclinIQ's unified platform means [RTM billing](/features/rtm-billing) data connects naturally with [patient flow](/features/patient-flow) tracking. RTM enrollment can happen during [check-in](/features/patient-check-in). [Analytics](/features/analytics) show RTM performance alongside operational metrics like wait times and throughput. These connections occur naturally in one system but require custom development between separate point solutions.\n\nPractices should inventory their full operational technology needs before selecting vendors. Choosing ChronicCareIQ optimizes for care management billing; additional operational needs require additional tools. Choosing clinIQ addresses care management revenue within comprehensive operations support."
+        },
+        {
+            "id": "rtm-vs-ccm",
+            "h2": "RTM vs CCM Focus",
+            "content": "Both platforms support remote monitoring billing, but with different emphases and coverage.\n\nChronicCareIQ supports multiple care management programs including CCM, RPM, RTM, TCM, PCM, BHI, and APCM. This breadth appeals to practices managing diverse patient populations across chronic conditions. One platform handles billing workflows for multiple program types.\n\nclinIQ focuses on RTM billing through CPT codes 98975 through 98981. Remote Therapeutic Monitoring captures revenue for musculoskeletal, respiratory, and therapy adherence monitoring, particularly relevant for [pain management](/specialties/pain-management), [physical therapy](/specialties/physical-therapy), [orthopedic](/specialties/orthopedic-surgery) practices, and [behavioral health](/specialties/behavioral-health) providers.\n\nThe industry average RTM compliance rate hovers around forty percent, meaning most platforms leave significant revenue uncaptured. clinIQ achieves seventy-five percent or higher compliance through systematic workflows and patient engagement via the [clinIQ app](/features/patient-app). Higher compliance translates directly to captured revenue.\n\nRTM revenue runs one hundred to one hundred fifty dollars per patient monthly combining initial setup (98975), device supply codes (98976, 98977), and treatment management time (98980, 98981). One hundred patients enrolled generates over one hundred forty thousand dollars annually. New MSK-specific codes (98985, 98979) effective January 2026 expand reimbursement opportunities further.\n\n[Wearable integration](/features/wearable-integration) with Apple Watch, Oura Ring, and other devices supplements patient-reported data with continuous metrics. This data enriches clinical insights and supports comprehensive documentation.\n\nPractices should evaluate which billing programs matter most for their patient population. Heavy CCM focus may favor ChronicCareIQ's multi-program breadth. RTM-focused specialties may prefer clinIQ's concentrated compliance optimization plus operational capabilities."
+        },
+        {
+            "id": "full-operations",
+            "h2": "Full Clinic Operations Beyond Care Management",
+            "content": "clinIQ provides operational capabilities addressing in-clinic workflow that care management platforms do not address.\n\n[Patient flow](/features/patient-flow) tracking displays real-time visibility into where every patient is from arrival through departure. The ProviderView dashboard shows waiting room census, occupied exam rooms, patients ready for providers, and checkout queue. Staff know at a glance who is waiting, who is being seen, and who is ready to leave. This visibility enables operational management rather than reactive firefighting.\n\nLobbyView displays show patients their queue position and estimated wait time on lobby televisions. Patients see progress without asking staff for updates. Front desk answers fewer status questions while patients feel informed about their wait.\n\n[Check-in](/features/patient-check-in) automation handles patient arrival through multiple channels. The [clinIQ app](/features/patient-app) enables check-in before arrival. QR codes on lobby signs trigger check-in for walk-ins. Tablet kiosks serve patients who prefer on-site interaction. Paper sign-in sheets disappear. Check-in data flows directly into patient flow tracking.\n\n[Scheduling](/features/scheduling) manages provider calendars and room resources. Multi-provider coordination, resource allocation, and schedule optimization support efficient clinic operations. Appointment reminders reduce no-show rates.\n\n[Pre-authorization](/features/pre-authorization) tracking protects procedure revenue for [pain management](/specialties/pain-management), [spine surgery](/specialties/spine-surgery), [orthopedic surgery](/specialties/orthopedic-surgery), and other authorization-dependent specialties. Fifty-seven percent of spine surgery authorizations are initially denied. Tracking status and managing appeals prevents revenue loss from expired or missing approvals.\n\n[Analytics](/features/analytics) surface operational patterns across all clinic functions. Wait time trends, throughput metrics, bottleneck frequency, and RTM compliance appear in unified reporting. Operational intelligence informs continuous improvement rather than isolated program metrics.\n\nThese capabilities exist outside care management platform scope because they address fundamentally different operational functions. Practices needing both chronic care revenue and operational visibility benefit from clinIQ's integrated approach rather than assembling care management and operations tools separately."
+        }
+    ],
+    "faqs": [
+        {
+            "q": "Is clinIQ a replacement for ChronicCareIQ?",
+            "a": "clinIQ provides [RTM billing](/features/rtm-billing) for Remote Therapeutic Monitoring plus [patient flow](/features/patient-flow), [check-in](/features/patient-check-in), [scheduling](/features/scheduling), [pre-authorization](/features/pre-authorization), and operational [analytics](/features/analytics). Practices whose needs include operations visibility beyond care management billing find clinIQ addresses multiple needs in one platform."
+        },
+        {
+            "q": "Does clinIQ support CCM and RPM like ChronicCareIQ?",
+            "a": "clinIQ focuses on RTM billing through CPT codes 98975-98981 rather than CCM and RPM specifically. Practices with heavy CCM programs should evaluate specific code coverage for their patient population. clinIQ excels for RTM-eligible specialties like [pain management](/specialties/pain-management), [physical therapy](/specialties/physical-therapy), and [behavioral health](/specialties/behavioral-health)."
+        },
+        {
+            "q": "What does clinIQ provide that ChronicCareIQ does not?",
+            "a": "clinIQ provides real-time [patient flow](/features/patient-flow) tracking, LobbyView displays showing queue position, [check-in](/features/patient-check-in) automation, [scheduling](/features/scheduling), [pre-authorization](/features/pre-authorization) tracking, and operational [analytics](/features/analytics). These capabilities address in-clinic operations beyond between-visit care management."
+        },
+        {
+            "q": "How does RTM compliance compare between platforms?",
+            "a": "The industry average RTM compliance rate is around forty percent. clinIQ achieves seventy-five percent or higher through systematic workflows and patient engagement via the [clinIQ app](/features/patient-app). Higher compliance means more captured revenue from enrolled patients."
+        },
+        {
+            "q": "Can I use both platforms together?",
+            "a": "Practices could theoretically use ChronicCareIQ for CCM-heavy populations and clinIQ for operations and RTM. However, managing multiple platforms creates integration complexity, training burden, and vendor overhead. Most practices benefit from consolidating on one platform that addresses their primary needs."
+        }
+    ],
+    "relatedContent": {
+        "features": [
+            {
+                "slug": "rtm-billing",
+                "title": "RTM Billing"
+            },
+            {
+                "slug": "patient-flow",
+                "title": "Patient Flow"
+            },
+            {
+                "slug": "patient-app",
+                "title": "Patient App"
+            }
+        ],
+        "specialties": [
+            {
+                "slug": "primary-care",
+                "title": "Primary Care"
+            },
+            {
+                "slug": "cardiology",
+                "title": "Cardiology"
+            },
+            {
+                "slug": "pulmonology",
+                "title": "Pulmonology"
+            }
+        ],
+        "competitors": [
+            {
+                "slug": "prevounce",
+                "title": "clinIQ vs Prevounce"
+            },
+            {
+                "slug": "timedoc",
+                "title": "clinIQ vs TimeDoc"
+            },
+            {
+                "slug": "optimize-health",
+                "title": "clinIQ vs Optimize Health"
+            }
+        ]
+    }
+}

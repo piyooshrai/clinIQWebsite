@@ -1,0 +1,154 @@
+{
+    "slug": "prevounce",
+    "name": "clinIQ vs Prevounce",
+    "pageType": "compare-pillar",
+    "wordCount": 1800,
+    "publishDate": "2026-03-11",
+    "meta": {
+        "title": "clinIQ vs Prevounce | RTM Platform Comparison | Full Clinic Operations",
+        "description": "Prevounce focuses on chronic care management. clinIQ provides RTM billing plus real-time patient flow, pre-authorization tracking, and full clinic operations in one platform.",
+        "keywords": [
+            "Prevounce alternative",
+            "Prevounce vs",
+            "RTM software",
+            "chronic care management software",
+            "remote therapeutic monitoring platform",
+            "CCM software alternative"
+        ]
+    },
+    "hero": {
+        "h1": "clinIQ vs Prevounce",
+        "subhead": "Prevounce built chronic care management software for between-visit patient engagement. clinIQ provides RTM billing plus real-time patient flow, check-in, pre-authorization, and full clinic operations. One platform instead of assembling multiple point solutions.",
+        "stats": [
+            {
+                "value": "Full clinic",
+                "label": "operations included"
+            },
+            {
+                "value": "$112",
+                "label": "avg RTM revenue per patient"
+            },
+            {
+                "value": "One platform",
+                "label": "vs point solution"
+            }
+        ]
+    },
+    "gatedContent": {
+        "title": "RTM Revenue Calculator + Compliance Checklist",
+        "description": "Calculate your RTM revenue opportunity and ensure compliant billing with CPT codes 98975-98981.",
+        "format": "PDF",
+        "placeholder": true
+    },
+    "tableOfContents": [
+        {
+            "id": "different-scope",
+            "title": "Different Scope"
+        },
+        {
+            "id": "prevounce-strengths",
+            "title": "What Prevounce Does Well"
+        },
+        {
+            "id": "platform-vs-point",
+            "title": "Platform vs Point Solution"
+        },
+        {
+            "id": "rtm-comparison",
+            "title": "RTM Capability Comparison"
+        },
+        {
+            "id": "full-operations",
+            "title": "Full Clinic Operations"
+        },
+        {
+            "id": "faqs",
+            "title": "FAQs"
+        }
+    ],
+    "sections": [
+        {
+            "id": "different-scope",
+            "h2": "Different Scope and Approach",
+            "content": "Prevounce and clinIQ approach chronic care from different angles. Understanding the difference helps practices choose appropriately.\n\nPrevounce is a chronic care management platform focused on between-visit patient engagement and care coordination. The platform supports CCM, RPM, and related billing codes for practices managing chronic disease populations. It is a point solution addressing a specific workflow.\n\nclinIQ is a clinic operations platform that includes [RTM billing](/features/rtm-billing) as one module among many. The platform also provides [patient flow](/features/patient-flow) tracking, [check-in](/features/patient-check-in), [scheduling](/features/scheduling), [pre-authorization](/features/pre-authorization), [analytics](/features/analytics), and other operational capabilities. RTM is integrated into a broader operations system.\n\nThe comparison is between a focused chronic care tool and a comprehensive operations platform. Practices whose only need is chronic care billing may evaluate Prevounce. Practices that also need patient flow visibility, check-in automation, or pre-authorization tracking benefit from clinIQ's integrated approach.\n\nMany practices have multiple needs. They want RTM revenue and better operational visibility and streamlined check-in. Using separate platforms for each need creates integration complexity and multiple vendor relationships. clinIQ addresses these needs in one platform."
+        },
+        {
+            "id": "prevounce-strengths",
+            "h2": "What Prevounce Does Well",
+            "content": "Prevounce has built meaningful chronic care management capability. Understanding its strengths clarifies where scope differences matter.\n\nChronic Care Management workflows support the CCM billing codes. Care plans, patient outreach, and care coordination documentation follow CCM requirements. Practices building CCM programs find structured workflow support.\n\nPatient engagement tools facilitate between-visit communication. Automated outreach, care reminders, and patient education support ongoing engagement with chronic disease populations.\n\nCare team coordination supports multiple staff members managing patient panels. Task assignment, communication logging, and workflow routing help distributed teams stay coordinated.\n\nReporting tracks program performance. Enrolled patients, completed activities, and billing metrics provide visibility into chronic care program operations.\n\nIntegration with EHRs connects chronic care data with clinical records. Documentation flows between platforms to reduce duplicate entry.\n\nThese capabilities serve practices focused specifically on chronic care management programs. The question is whether chronic care is the only operational need."
+        },
+        {
+            "id": "platform-vs-point",
+            "h2": "Platform vs Point Solution",
+            "content": "The fundamental difference is scope. Prevounce is a point solution for chronic care. clinIQ is an operations platform that includes chronic care capability.\n\nPoint solutions excel at their specific function. Prevounce can focus entirely on CCM and related workflows without distraction. The platform optimizes for that specific use case.\n\nPoint solutions create integration burden when multiple needs exist. A practice using Prevounce for CCM, a separate tool for patient flow, another for check-in, and another for pre-authorization manages multiple vendors, multiple integrations, and multiple training requirements. Total cost and complexity accumulate.\n\nclinIQ's platform approach addresses multiple needs in one system. [RTM billing](/features/rtm-billing) captures chronic care revenue. [Patient flow](/features/patient-flow) provides operational visibility. [Check-in](/features/patient-check-in) automates arrival workflow. [Pre-authorization](/features/pre-authorization) protects procedure revenue. [Analytics](/features/analytics) surface patterns across all operations. One platform, one vendor, one training investment.\n\nThe platform approach also enables integration between capabilities. RTM enrollment can happen during [check-in](/features/patient-check-in). [Patient flow](/features/patient-flow) visibility includes RTM compliance status. [Analytics](/features/analytics) show RTM performance alongside operational metrics. These connections are natural in a unified platform but require custom integration between point solutions.\n\nPractices should evaluate their full operational needs, not just chronic care. If patient flow visibility, check-in automation, or pre-authorization tracking are also needed, the platform approach likely provides better total value."
+        },
+        {
+            "id": "rtm-comparison",
+            "h2": "RTM Capability Comparison",
+            "content": "Both platforms support chronic care billing. The specific capabilities and approach differ.\n\nclinIQ's [RTM billing](/features/rtm-billing) focuses on Remote Therapeutic Monitoring through CPT codes 98975 through 98981. Patient enrollment captures consent and establishes monitoring protocols. The [clinIQ app](/features/patient-app) collects patient-reported symptom data between visits. Clinical time spent reviewing data logs automatically. Monthly billing identifies patients meeting thresholds and generates claims.\n\nCompliance tracking ensures billing accuracy. The industry average RTM compliance rate hovers around forty percent. clinIQ achieves seventy-five percent or higher through systematic workflows and patient engagement via the app. Higher compliance means more captured revenue.\n\n[Wearable integration](/features/wearable-integration) supplements patient-reported data with continuous metrics from Apple Watch, Oura Ring, and other devices. This data enriches clinical insights and supports documentation.\n\nRevenue per patient runs one hundred to one hundred fifty dollars monthly combining device supply and treatment management codes. One hundred patients enrolled generates over one hundred forty thousand dollars annually.\n\nPrevounce supports CCM, RPM, and related codes with its own workflow approach. Practices should evaluate specific code coverage, compliance rates, and workflow fit for their patient population.\n\nThe differentiator is what surrounds RTM capability. clinIQ's RTM is integrated with [patient flow](/features/patient-flow), [check-in](/features/patient-check-in), [scheduling](/features/scheduling), and [pre-authorization](/features/pre-authorization). Prevounce's chronic care exists as a standalone function requiring separate tools for other operational needs."
+        },
+        {
+            "id": "full-operations",
+            "h2": "Full Clinic Operations Beyond Chronic Care",
+            "content": "clinIQ provides operational capabilities that chronic care platforms do not address.\n\n[Patient flow](/features/patient-flow) tracking shows where every patient is from arrival through departure. The dashboard displays waiting room census, occupied rooms, patients ready for providers, and checkout queue. This real-time visibility enables operational management.\n\n[Check-in](/features/patient-check-in) automates patient arrival. Digital intake through the [clinIQ app](/features/patient-app), QR codes, or tablets replaces paper sign-in. Check-in data feeds directly into flow tracking.\n\n[Scheduling](/features/scheduling) manages provider calendars and room resources. Multi-provider coordination, resource allocation, and schedule optimization support efficient clinic operations.\n\n[Pre-authorization](/features/pre-authorization) tracking protects procedure revenue. For [pain management](/specialties/pain-management), [orthopedic surgery](/specialties/orthopedic-surgery), and specialty practices, authorization management prevents denied claims from missing or expired approvals.\n\n[Analytics](/features/analytics) surface operational patterns. Wait times, throughput, bottleneck frequency, and RTM compliance are visible in unified reporting. This operational intelligence informs improvement.\n\nLobbyView displays show queue position and estimated wait on lobby televisions. Patients see progress; staff answers fewer status questions.\n\nThese capabilities do not exist in chronic care platforms because they address different operational functions. Practices needing both chronic care revenue and operational visibility benefit from clinIQ's integrated platform rather than assembling multiple point solutions."
+        }
+    ],
+    "faqs": [
+        {
+            "q": "Is clinIQ a replacement for Prevounce?",
+            "a": "clinIQ provides [RTM billing](/features/rtm-billing) that addresses chronic care revenue capture, plus [patient flow](/features/patient-flow), [check-in](/features/patient-check-in), [pre-authorization](/features/pre-authorization), and other operations. Practices using Prevounce only for CCM/RTM may find clinIQ provides equivalent capability plus additional modules."
+        },
+        {
+            "q": "Does clinIQ support CCM billing like Prevounce?",
+            "a": "clinIQ focuses on RTM billing through CPT codes 98975-98981. CCM has distinct requirements. Practices with significant CCM populations should evaluate specific workflow needs for each program."
+        },
+        {
+            "q": "What does clinIQ provide that Prevounce does not?",
+            "a": "clinIQ provides real-time [patient flow](/features/patient-flow), [check-in](/features/patient-check-in) automation, [scheduling](/features/scheduling), [pre-authorization](/features/pre-authorization) tracking, LobbyView displays, and operational [analytics](/features/analytics). These capabilities address clinic operations beyond chronic care billing."
+        },
+        {
+            "q": "How much RTM revenue can clinIQ capture?",
+            "a": "[RTM billing](/features/rtm-billing) generates one hundred to one hundred fifty dollars per patient monthly. One hundred patients enrolled captures over one hundred forty thousand dollars annually. clinIQ achieves seventy-five percent or higher compliance versus forty percent industry average."
+        }
+    ],
+    "relatedContent": {
+        "features": [
+            {
+                "slug": "rtm-billing",
+                "title": "RTM Billing"
+            },
+            {
+                "slug": "patient-flow",
+                "title": "Patient Flow"
+            },
+            {
+                "slug": "patient-app",
+                "title": "Patient App"
+            }
+        ],
+        "specialties": [
+            {
+                "slug": "primary-care",
+                "title": "Primary Care"
+            },
+            {
+                "slug": "pulmonology",
+                "title": "Pulmonology"
+            },
+            {
+                "slug": "cardiology",
+                "title": "Cardiology"
+            }
+        ],
+        "competitors": [
+            {
+                "slug": "timedoc",
+                "title": "clinIQ vs TimeDoc"
+            },
+            {
+                "slug": "optimize-health",
+                "title": "clinIQ vs Optimize Health"
+            }
+        ]
+    }
+}
