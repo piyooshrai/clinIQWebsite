@@ -1,0 +1,153 @@
+{
+  "slug": "rheumatology",
+  "name": "Rheumatology",
+  "pageType": "specialty-pillar",
+  "wordCount": 3400,
+  "publishDate": "2025-02-28",
+  "meta": {
+    "title": "Rheumatology Practice Software | RTM, Infusion Scheduling & Patient Flow | clinIQ",
+    "description": "Complete guide to rheumatology practice operations. RTM billing for RA, lupus, and inflammatory conditions. Infusion suite scheduling optimization. Biologic prior authorization automation. Patient-reported flare tracking through mobile app.",
+    "keywords": ["rheumatology software", "rheumatology practice management", "rheumatology RTM billing", "biologic prior authorization", "rheumatology infusion scheduling", "inflammatory arthritis monitoring", "rheumatology patient portal"]
+  },
+  "hero": {
+    "h1": "Rheumatology Practice Software",
+    "subhead": "RTM billing for inflammatory conditions capturing $120-140 per patient monthly. Infusion suite scheduling maximizing chair utilization. Biologic prior authorization automation reducing approval time from weeks to days. Patient-reported flare tracking and disease activity monitoring through the clinIQ app.",
+    "stats": [
+      { "value": "$140K", "label": "annual RTM revenue (100 patients)" },
+      { "value": "85%+", "label": "infusion chair utilization" },
+      { "value": "3 days", "label": "biologic auth turnaround" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "rheum-operations", "title": "The Rheumatology Operations Challenge" },
+    { "id": "rtm-billing", "title": "RTM Billing for Inflammatory Conditions" },
+    { "id": "infusion-scheduling", "title": "Infusion Suite Optimization" },
+    { "id": "prior-auth", "title": "Biologic Prior Authorization" },
+    { "id": "disease-monitoring", "title": "Disease Activity Monitoring" },
+    { "id": "patient-flow", "title": "Clinic Flow Management" },
+    { "id": "care-coordination", "title": "Multi-Specialty Care Coordination" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "rheum-operations",
+      "h2": "The Rheumatology Operations Challenge",
+      "content": "Rheumatology practices operate at the intersection of complex chronic disease management, high-cost biologic medications requiring extensive authorization, and infusion services that demand precise scheduling. The operational challenges are distinct from both primary care and surgical specialties.\n\nChronic inflammatory conditions including rheumatoid arthritis, lupus, psoriatic arthritis, ankylosing spondylitis, and vasculitis require ongoing monitoring between visits. Disease activity fluctuates. Flares occur unpredictably. Medication adjustments depend on patient-reported symptoms alongside laboratory values. This monitoring work happens whether practices capture it as billable [RTM](/features/rtm-billing) or absorb it as unreimbursed patient communication.\n\nBiologic medications that form the backbone of modern rheumatology treatment face aggressive [prior authorization](/features/pre-authorization) requirements. Step therapy mandates require failing conventional DMARDs before biologics. Biosimilar substitution policies create administrative burden. Specialty pharmacy coordination adds complexity. The authorization process for a single biologic can consume hours of staff time, and denials are common despite clear medical necessity.\n\nInfusion services represent significant revenue when operated efficiently, but infusion [scheduling](/features/scheduling) is complex. Different biologics have different infusion durations ranging from 30 minutes to four hours. Chair turnover between patients requires precise timing. Nursing staff ratios must match patient load. Understaffed infusion days leave revenue on the table. Overstaffed days waste labor cost.\n\n[Patient flow](/features/patient-flow) in rheumatology must accommodate the variety of visit types: new patient consultations requiring extensive history, established patient follow-ups for stable disease, urgent visits for flares, joint injection procedures, and infusion services. Each visit type has different staffing and time requirements. Mixing them inefficiently creates bottlenecks and patient dissatisfaction.\n\nThe geographic reach challenge affects rheumatology significantly. Many communities lack rheumatologists, forcing patients to travel significant distances. [Telehealth](/features/telehealth) can expand access for appropriate follow-up visits, but the specialty is underutilized for virtual care despite strong applicability for medication management and disease monitoring."
+    },
+    {
+      "id": "rtm-billing",
+      "h2": "RTM Billing for Inflammatory Conditions",
+      "content": "[RTM billing](/features/rtm-billing) offers rheumatology practices revenue for the between-visit monitoring that quality care already requires. Inflammatory arthritis, lupus, and other rheumatic diseases involve ongoing symptom tracking, medication response assessment, and flare detection that qualifies for Remote Therapeutic Monitoring.\n\nMusculoskeletal RTM under CPT 98977 applies to rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis, osteoarthritis with inflammatory features, fibromyalgia, and other conditions involving joint and soft tissue symptoms. The monthly device supply code plus treatment management code 98980 yields $120-140 per enrolled patient monthly depending on payer mix.\n\nPatient-reported data collection through the [clinIQ app](/features/patient-app) captures disease-relevant information including joint pain and swelling patterns by location, morning stiffness duration, fatigue severity, functional limitations affecting daily activities, medication adherence and side effects, and flare symptoms warranting clinical attention.\n\nThe JMIR study on remote monitoring adherence found that patients achieved 75.6% daily transmission rates with adherence reminders, and high-compliance patients reached 91.1%. The [clinIQ app](/features/patient-app) achieves similar compliance through push notifications, simple entry interfaces, and [wearable integration](/features/wearable-integration) that captures activity and sleep data passively.\n\n[Wearable integration](/features/wearable-integration) adds particular value for rheumatology. Activity data from Apple Watch, Oura Ring, or Android Health Connect shows objective functional status. Sleep quality from [wearables](/features/wearable-integration) correlates with disease activity in RA and fibromyalgia. Heart rate variability trends may indicate systemic inflammation. This passive data supplements patient-reported symptoms without adding reporting burden.\n\nClinical workflow integration means the rheumatologist reviews [RTM](/features/rtm-billing) data before or during visits. A patient whose app submissions show worsening morning stiffness over three weeks needs a different conversation than a patient with stable symptoms. Flare patterns become visible through longitudinal data rather than relying on patient recall. [Secure messaging](/features/secure-messaging) allows providers to follow up on concerning trends between visits.\n\nThe revenue math for a rheumatology practice shows 100 patients enrolled in [RTM](/features/rtm-billing) at $120 monthly generating $12,000 per month or $144,000 annually. Inflammatory arthritis patients are highly motivated to track their disease because flares are disruptive and patients want their providers to understand their experience between visits. Enrollment rates above 70% are achievable with proper onboarding during [check-in](/features/patient-check-in).\n\n[Pain management](/specialties/pain-management) practices managing fibromyalgia or non-inflammatory chronic pain may share patients with rheumatology. Coordination around [RTM](/features/rtm-billing) enrollment ensures patients are not enrolled redundantly and that monitoring data is available to both specialists when relevant."
+    },
+    {
+      "id": "infusion-scheduling",
+      "h2": "Infusion Suite Optimization",
+      "content": "Infusion services represent a significant revenue stream for rheumatology practices that administer biologics in-house rather than sending patients to hospital infusion centers. Optimizing infusion [scheduling](/features/scheduling) maximizes chair utilization while maintaining patient experience and nursing efficiency.\n\nInfusion duration variability complicates [scheduling](/features/scheduling). Infliximab infusions may run 2-3 hours for maintenance doses. Rituximab infusions take 4-6 hours. Tocilizumab IV infusions run about one hour. Mixing these durations inefficiently leaves chairs empty during portions of the day. The [scheduling](/features/scheduling) system must understand infusion protocols and schedule appropriately.\n\nChair utilization tracking through [practice analytics](/features/analytics) measures actual utilization against capacity. If six chairs are available for eight hours daily, maximum capacity is 48 chair-hours. Actual utilization may be 30 chair-hours due to scheduling gaps between infusions. [Analytics](/features/analytics) identify the gaps and quantify the revenue opportunity from improved scheduling.\n\nNursing ratio management ensures adequate staffing for scheduled infusion volume without overstaffing. Different biologics have different monitoring requirements. Some require vital signs every 15 minutes during initial infusions. Others are routine for established patients. [Scheduling](/features/scheduling) that clusters nursing-intensive infusions can maintain patient safety while optimizing labor.\n\n[Patient flow](/features/patient-flow) visibility in the infusion suite shows which patients are in progress, how much time remains on each infusion, which chairs will be available, and any delays. This visibility allows staff to prepare the next patient and maximize turnover efficiency. The flow board adapted for infusion settings shows infusion progress rather than room status.\n\nInfusion [scheduling](/features/scheduling) through the [patient app](/features/patient-app) allows patients to see available infusion slots and book appointments that work with their schedule. Many patients prefer morning infusions to minimize workday disruption. Others prefer afternoon slots. Patient self-scheduling balances preferences with practice efficiency.\n\nReminder and preparation notifications through the [patient app](/features/patient-app) ensure patients arrive ready for infusion. Hydration reminders the day before, arrival time confirmation, and pre-medication instructions reduce delays from patients arriving unprepared.\n\n[Infusion center](/specialties/infusion-centers) practices focused primarily on infusion services face similar operational challenges at larger scale. The [scheduling](/features/scheduling) and [patient flow](/features/patient-flow) approaches developed for rheumatology infusion suites apply to dedicated infusion centers."
+    },
+    {
+      "id": "prior-auth",
+      "h2": "Biologic Prior Authorization Automation",
+      "content": "Biologic prior authorization represents one of the most burdensome administrative processes in medicine. Rheumatology practices initiating or switching biologic medications face extensive documentation requirements, step therapy mandates, and frequent denials that require appeals.\n\n[Prior authorization](/features/pre-authorization) volume in rheumatology is substantial because nearly every biologic initiation or switch requires authorization. A busy rheumatology practice may submit 50-100 biologic authorization requests monthly. Each request requires documentation of diagnosis, prior treatments tried, reasons for failure, and medical necessity for the requested biologic.\n\nStep therapy requirements mandate that patients fail conventional DMARDs before biologics are approved. Payers may require specific DMARDs in specific sequences. Documentation must show what was tried, for how long, at what doses, and why it failed. This documentation burden falls on clinical staff who must compile records and write medical necessity letters.\n\nThe 2025 data on prior authorization shows that 93% of physicians report PA negatively impacts patient outcomes and 27% of PA requests are denied according to AMA surveys. For biologic medications where delay means disease progression, these delays have clinical consequences.\n\n[Pre-authorization automation](/features/pre-authorization) through clinIQ streamlines the documentation process. LOMN templates for common biologics auto-populate from the patient chart with prior DMARD history, laboratory values showing disease activity, functional status documentation, and imaging findings when relevant. The provider reviews and signs rather than dictating from scratch.\n\nAuthorization status tracking in [pre-authorization](/features/pre-authorization) eliminates the phone calls to payers and specialty pharmacies asking about status. Every authorization tracks from submission through decision with status updates logged. When authorizations are approved, [scheduling](/features/scheduling) can immediately book the infusion. When denials occur, the appeal process initiates with denial reason documented.\n\nSpecialty pharmacy coordination adds complexity because many biologics are dispensed through specialty pharmacies rather than traditional retail pharmacies. Authorization involves both the payer and the specialty pharmacy. [Pre-authorization](/features/pre-authorization) tracking captures the full workflow including specialty pharmacy status.\n\nBiosimilar transition management helps practices navigate payer mandates to switch patients from originator biologics to biosimilars. The authorization for the switch, documentation of the transition, and monitoring for any change in response all require tracking that [pre-authorization](/features/pre-authorization) and [RTM](/features/rtm-billing) systems provide."
+    },
+    {
+      "id": "disease-monitoring",
+      "h2": "Disease Activity Monitoring Between Visits",
+      "content": "Disease activity in rheumatic conditions fluctuates between visits, and these fluctuations inform treatment decisions. Traditional monitoring relies on patient recall at quarterly visits, which misses the nuance of how patients actually experienced the intervening months.\n\nStructured disease monitoring through the [clinIQ app](/features/patient-app) captures disease activity systematically. Patients report symptoms on a regular schedule, such as weekly submissions capturing joint symptoms, morning stiffness, fatigue, and functional status. The data accumulates into a longitudinal picture of disease activity that is visible during clinical review.\n\nValidated instruments can be administered through the [patient app](/features/patient-app). The RAPID3 for RA, BASDAI for ankylosing spondylitis, and other disease-specific instruments complete through the app on schedule. Trending shows whether disease activity is improving, stable, or worsening. [Practice analytics](/features/analytics) aggregate instrument scores across the patient population.\n\nFlare detection through [RTM](/features/rtm-billing) data allows earlier intervention. When a patient's submissions show rapidly worsening symptoms, the clinical team can respond via [secure messaging](/features/secure-messaging) or phone rather than waiting for the next scheduled visit. This proactive management may prevent ER visits and hospitalizations from severe flares.\n\n[Wearable integration](/features/wearable-integration) adds objective data to patient-reported symptoms. Activity levels from Apple Watch or Fitbit indicate functional status without relying on patient perception. Sleep patterns from Oura Ring or Apple Watch correlate with fatigue complaints. This passive data requires no patient effort after initial authorization through the [patient app](/features/patient-app).\n\nMedication adherence tracking matters for rheumatology because biologic and DMARD adherence directly impacts disease control. Patients can log medication administration through the [patient app](/features/patient-app). For injectable biologics administered at home, adherence visibility helps identify patients who may be underusing their medication.\n\n[Telehealth](/features/telehealth) visits for established patients with stable disease can replace some in-person visits when supported by between-visit monitoring data. A patient whose [RTM](/features/rtm-billing) data shows stable disease activity may not need to travel for an in-person visit to continue their current treatment. The combination of monitoring data and [telehealth](/features/telehealth) expands access while maintaining care quality."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "Clinic Flow Management for Varied Visit Types",
+      "content": "[Patient flow](/features/patient-flow) in rheumatology must accommodate diverse visit types with different durations and staffing requirements. New patient consultations, established patient follow-ups, joint injection procedures, infusion services, and urgent flare visits all move through the clinic differently.\n\nNew patient consultations require extensive history taking covering symptoms, prior diagnoses, medication trials, family history, and review of systems. These visits may run 45-60 minutes with the rheumatologist. [Patient flow](/features/patient-flow) staging ensures new patients have adequate time without backing up established patient flow.\n\nEstablished patient follow-ups for stable disease may be briefer, typically 15-20 minutes for medication review and disease activity assessment. When [RTM](/features/rtm-billing) data is available, the rheumatologist reviews submitted data before the visit, making the encounter more efficient. [Check-in](/features/patient-check-in) through the [patient app](/features/patient-app) completes any needed questionnaires before arrival.\n\nJoint injection procedures require room setup with injection supplies and sometimes imaging guidance. [Patient flow](/features/patient-flow) must track procedure room availability separate from exam rooms. Staging a patient for injection while the room is being prepared reduces idle time.\n\nUrgent flare visits accommodate patients experiencing acute worsening who cannot wait for their next scheduled appointment. [Scheduling](/features/scheduling) should maintain capacity for same-day or next-day urgent slots. [Patient flow](/features/patient-flow) visibility helps fit urgent visits into the day without derailing the schedule.\n\nWait time visibility through [patient flow](/features/patient-flow) displays shows staff which patients are waiting and for how long. When waits extend, staff can communicate expected timing through [secure messaging](/features/secure-messaging). [Patient satisfaction](/features/patient-satisfaction) surveys correlate strongly with perceived wait time, making this visibility operationally important.\n\nProvider productivity metrics from [practice analytics](/features/analytics) show patients seen per session, time per visit by visit type, and flow bottlenecks. This data identifies opportunities for workflow improvement and supports staffing decisions.\n\n[Primary care](/specialties/primary-care) practices referring patients to rheumatology benefit when their patients experience efficient visits. Communication back to PCPs through [secure file exchange](/features/secure-file-exchange) maintains the referral relationship."
+    },
+    {
+      "id": "care-coordination",
+      "h2": "Multi-Specialty Care Coordination",
+      "content": "Rheumatic diseases frequently involve multiple organ systems requiring coordination with other specialists. Lupus patients may need nephrology, dermatology, and cardiology involvement. Rheumatoid arthritis patients may need orthopedic surgery for joint damage. Vasculitis patients may need pulmonology and neurology consultation.\n\n[Secure messaging](/features/secure-messaging) provides a communication channel between rheumatology and other specialists involved in a patient's care. Questions about medication interactions, timing of procedures, and shared management decisions can flow through secure channels rather than phone tag or faxed notes.\n\n[Secure file exchange](/features/secure-file-exchange) shares relevant documentation between specialists. Laboratory results, imaging reports, and consultation notes transfer digitally rather than requiring patients to transport paper records between offices.\n\n[Physical therapy](/specialties/physical-therapy) coordination matters for many rheumatology patients. Joint protection strategies, range of motion exercises, and strengthening programs complement medical management. PT progress data including exercise compliance from [RTM](/features/rtm-billing) monitoring informs rheumatology treatment decisions.\n\n[Orthopedic surgery](/specialties/orthopedic-surgery) involvement becomes necessary when joint damage progresses despite medical management. Coordinating joint replacement timing with disease activity and biologic medication requires communication between rheumatology and orthopedics. [Secure messaging](/features/secure-messaging) and [file exchange](/features/secure-file-exchange) facilitate this coordination.\n\n[Pain management](/specialties/pain-management) co-management helps patients with fibromyalgia or chronic pain complicating inflammatory disease. The boundaries between rheumatology and pain management vary by practice, but coordination ensures patients receive appropriate care without duplication.\n\n[Dermatology](/specialties/dermatology) collaboration is essential for psoriatic arthritis where skin disease and joint disease both require management. Coordinating biologic selection that addresses both manifestations requires communication between dermatologists and rheumatologists.\n\n[Primary care](/specialties/primary-care) remains the patient's medical home for issues outside rheumatology. Communication with PCPs about medication changes, disease status, and coordination of preventive care maintains continuity."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "Rheumatology implementation focuses on [RTM](/features/rtm-billing) enrollment for inflammatory disease patients, infusion [scheduling](/features/scheduling) optimization, [pre-authorization](/features/pre-authorization) workflow for biologics, and [patient flow](/features/patient-flow) configuration for varied visit types.\n\nWeek one maps clinic workflows including exam room flow, infusion suite operations, and authorization processes. [Scheduling](/features/scheduling) templates configure for consultation, follow-up, injection, and infusion visit types with appropriate durations. [Pre-authorization](/features/pre-authorization) templates load for common biologic medications.\n\nWeek two trains staff on [check-in](/features/patient-check-in) workflows, [patient flow](/features/patient-flow) boards including infusion suite view, [RTM](/features/rtm-billing) enrollment through the [patient app](/features/patient-app), and [pre-authorization](/features/pre-authorization) submission and tracking. Providers train on RTM data review and [telehealth](/features/telehealth) visit workflows.\n\nWeek three goes live with infusion [scheduling](/features/scheduling), [patient flow](/features/patient-flow) tracking, and [RTM](/features/rtm-billing) enrollment beginning. The clinIQ team monitors and adjusts configuration based on operational feedback.\n\nROI sources include [RTM billing](/features/rtm-billing) revenue at $120-140 per patient monthly with 100 enrolled patients generating $140,000+ annually. Infusion utilization improvement from better [scheduling](/features/scheduling) captures revenue from previously empty chair time. [Pre-authorization](/features/pre-authorization) efficiency reduces staff time on biologic authorizations while accelerating patient access to treatment. [Telehealth](/features/telehealth) for established patients expands geographic reach without adding exam room capacity.\n\nProfessional tier at $499 monthly includes [RTM](/features/rtm-billing), [scheduling](/features/scheduling), [patient flow](/features/patient-flow), [pre-authorization](/features/pre-authorization), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), [wearable integration](/features/wearable-integration), and [analytics](/features/analytics). Implementation runs $750 one-time. [RTM](/features/rtm-billing) revenue alone typically exceeds annual platform cost within the first quarter."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can rheumatology practices bill RTM?",
+      "a": "Yes. Musculoskeletal conditions including rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis, and lupus qualify under CPT 98977. [RTM billing](/features/rtm-billing) captures $120-140 per enrolled patient monthly for between-visit monitoring that quality rheumatology care already requires."
+    },
+    {
+      "q": "How does disease activity monitoring work?",
+      "a": "Patients report symptoms weekly through the [clinIQ app](/features/patient-app) including joint pain, stiffness, fatigue, and functional status. [Wearable integration](/features/wearable-integration) adds activity and sleep data automatically. The rheumatologist reviews longitudinal data before visits, making encounters more informed and efficient."
+    },
+    {
+      "q": "Does clinIQ handle biologic prior authorizations?",
+      "a": "Yes. [Pre-authorization](/features/pre-authorization) includes templates for common biologics that auto-populate from patient records with prior DMARD history, disease activity documentation, and laboratory values. Status tracking eliminates phone calls to payers. The average authorization turnaround drops from weeks to days."
+    },
+    {
+      "q": "Can infusion scheduling be optimized?",
+      "a": "[Scheduling](/features/scheduling) understands infusion durations for different biologics and schedules appropriately to maximize chair utilization. [Analytics](/features/analytics) measure actual versus potential utilization and identify scheduling improvements. Chair utilization above 85% is achievable with optimized scheduling."
+    },
+    {
+      "q": "Does telehealth work for rheumatology?",
+      "a": "Yes. [Telehealth](/features/telehealth) is well-suited for established patient follow-ups when combined with between-visit [RTM](/features/rtm-billing) monitoring data. Patients with stable disease may not need in-person visits for every medication management encounter. Virtual visits expand geographic reach for this shortage specialty."
+    },
+    {
+      "q": "How do you coordinate with other specialists?",
+      "a": "[Secure messaging](/features/secure-messaging) and [file exchange](/features/secure-file-exchange) provide communication channels with [orthopedic surgery](/specialties/orthopedic-surgery), [pain management](/specialties/pain-management), [dermatology](/specialties/dermatology), [physical therapy](/specialties/physical-therapy), and other specialists involved in patient care. Documentation shares digitally rather than through faxes or patient-carried records."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers workflow mapping and [scheduling](/features/scheduling) configuration including infusion templates. Week two includes staff training. Week three goes live with support."
+    },
+    {
+      "q": "What ROI should we expect?",
+      "a": "[RTM](/features/rtm-billing) revenue from 100 enrolled patients generates $140,000+ annually. Infusion utilization improvement adds revenue from better chair scheduling. [Pre-authorization](/features/pre-authorization) efficiency saves staff time. Most practices see positive ROI within the first month."
+    }
+  ],
+  "cta": {
+    "headline": "See Rheumatology Operations Optimized",
+    "subhead": "Fifteen-minute demo showing RTM enrollment for inflammatory conditions, infusion scheduling optimization, biologic prior authorization automation, and disease activity monitoring. See how rheumatology practices capture $140,000+ annually in RTM revenue.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate Your RTM Revenue", "href": "/resources/rtm-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "$140K", "label": "annual RTM revenue potential" },
+      { "value": "85%", "label": "infusion chair utilization" },
+      { "value": "3 days", "label": "biologic auth turnaround" }
+    ],
+    "testimonial": {
+      "quote": "Biologic authorizations used to consume our staff. Now the templates auto-populate and we track status without calling payers. RTM captures revenue for monitoring we were already doing through portal messages. Infusion scheduling optimization added two more infusion slots per day. The platform paid for itself in the first month.",
+      "attribution": "Practice Administrator",
+      "practice": "Rheumatology practice with three physicians",
+      "location": "Texas"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "RTM Billing",
+      "href": "/features/rtm-billing",
+      "description": "Complete guide to Remote Therapeutic Monitoring for musculoskeletal conditions."
+    },
+    {
+      "type": "feature",
+      "title": "Pre-Authorization",
+      "href": "/features/pre-authorization",
+      "description": "Biologic prior authorization automation with LOMN templates."
+    },
+    {
+      "type": "specialty",
+      "title": "Pain Management",
+      "href": "/specialties/pain-management",
+      "description": "Coordinating fibromyalgia and chronic pain management."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "Rheumatology",
+    "relevantConditions": ["Rheumatoid Arthritis", "Lupus", "Psoriatic Arthritis", "Ankylosing Spondylitis", "Fibromyalgia", "Vasculitis"],
+    "availableProcedures": ["Joint Injection", "Biologic Infusion", "Disease Activity Assessment"]
+  }
+}
