@@ -1,0 +1,139 @@
+{
+  "slug": "general-surgery",
+  "name": "General Surgery",
+  "pageType": "specialty-pillar",
+  "wordCount": 2600,
+  "publishDate": "2025-05-15",
+  "meta": {
+    "title": "General Surgery Practice Software | Scheduling, Patient Flow & Coordination | clinIQ",
+    "description": "Complete guide to general surgery practice operations. Surgical scheduling optimization. Pre-operative workflow management. Post-operative monitoring. Coordination with primary care, oncology, and gastroenterology.",
+    "keywords": ["general surgery software", "general surgery practice management", "surgical scheduling software", "general surgery patient flow", "surgical coordination software", "general surgery EHR integration"]
+  },
+  "hero": {
+    "h1": "General Surgery Practice Software",
+    "subhead": "Surgical scheduling optimization across elective and urgent cases. Pre-operative workflow ensuring patients arrive prepared. Post-operative monitoring through the clinIQ app. Coordination with primary care, oncology, and gastroenterology for comprehensive surgical care.",
+    "stats": [
+      { "value": "Optimized", "label": "surgical scheduling" },
+      { "value": "Pre-op", "label": "workflow management" },
+      { "value": "Post-op", "label": "RTM monitoring" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "general-operations", "title": "The General Surgery Operations Model" },
+    { "id": "surgical-scheduling", "title": "Surgical Scheduling" },
+    { "id": "pre-op-workflow", "title": "Pre-Operative Workflow" },
+    { "id": "patient-flow", "title": "Clinic Patient Flow" },
+    { "id": "post-op-monitoring", "title": "Post-Operative Monitoring" },
+    { "id": "care-coordination", "title": "Care Coordination" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "general-operations",
+      "h2": "The General Surgery Operations Model",
+      "content": "General surgery practices handle diverse case types from routine hernia repair and cholecystectomy to complex cancer resections and acute surgical emergencies. This breadth requires operational flexibility that accommodates scheduled elective cases, urgent add-ons, and emergency surgery while maintaining efficiency.\n\nSurgical [scheduling](/features/scheduling) must balance elective case booking with capacity for urgent cases. Breast cancer patients need timely surgery. Acute appendicitis cannot wait for scheduled availability. The scheduling system must manage this variability while maximizing OR utilization.\n\nPre-operative preparation determines whether patients arrive ready for surgery. Medical clearance, required testing, bowel preparation when applicable, and patient education all must occur before surgery date. [Patient flow](/features/patient-flow) tracking of pre-operative requirements prevents day-of-surgery delays.\n\nPost-operative care for general surgery patients varies by case complexity. Laparoscopic cholecystectomy patients recover quickly. Cancer resection patients require extended monitoring. [RTM](/features/rtm-billing) through the [clinIQ app](/features/patient-app) provides between-visit visibility appropriate to case complexity.\n\nMulti-specialty coordination spans [oncology](/specialties/oncology) for cancer cases, [gastroenterology](/specialties/gastroenterology) for GI referrals, and [primary care](/specialties/primary-care) for medical management. The general surgeon operates within a network of referring and consulting physicians."
+    },
+    {
+      "id": "surgical-scheduling",
+      "h2": "Surgical Scheduling Optimization",
+      "content": "[Scheduling](/features/scheduling) in general surgery balances multiple competing demands. Elective cases need scheduled OR time. Urgent cases need prompt access. Emergency surgery disrupts planned schedules. Maximizing OR utilization while maintaining flexibility is the operational challenge.\n\nOR block management for surgeons with allocated time requires tracking utilization. Empty blocks represent lost revenue. Overscheduled blocks create chaos and delays. [Scheduling](/features/scheduling) visibility shows block utilization by surgeon and day.\n\nCase complexity affects scheduling. A laparoscopic cholecystectomy takes different time than a Whipple procedure. [Scheduling](/features/scheduling) templates with procedure-specific durations prevent the overbooking that cascades through surgical days.\n\nUrgent case accommodation maintains capacity for cases that cannot wait for elective scheduling. Cancer diagnoses, biliary obstruction, and other urgent conditions need timely surgery without displacing already-scheduled patients.\n\nEmergency surgery tracking documents how emergencies impact scheduled cases. When an emergency case takes OR time, the system tracks rescheduled elective cases and their new dates.\n\nAuthorization-aware [scheduling](/features/scheduling) for cases requiring [pre-authorization](/features/pre-authorization) prevents booking procedures without approval. Some payers require authorization even for common procedures. The system alerts when authorization status is pending.\n\nPatient self-scheduling through the [patient app](/features/patient-app) works for clinic consultations and post-operative follow-ups while surgical scheduling remains staff-managed."
+    },
+    {
+      "id": "pre-op-workflow",
+      "h2": "Pre-Operative Workflow Management",
+      "content": "Pre-operative preparation ensures patients arrive ready for surgery. When preparation is incomplete, surgeries are delayed or cancelled, wasting OR time and frustrating patients. [Patient flow](/features/patient-flow) tracking of pre-operative requirements prevents these costly problems.\n\nMedical clearance tracking ensures patients have appropriate evaluation for surgical risk. [Primary care](/specialties/primary-care) clearance, cardiology evaluation when indicated, and anesthesia assessment all may be required. The system tracks clearance status and alerts when requirements are outstanding as surgery date approaches.\n\nPre-operative testing requirements vary by procedure and patient. Labs, EKG, imaging, and other studies may be required. [Patient flow](/features/patient-flow) shows which patients have completed required testing and which have outstanding requirements.\n\nBowel preparation for colon surgery requires patient compliance with instructions. Education through the [clinIQ app](/features/patient-app) ensures patients understand requirements. [Secure messaging](/features/secure-messaging) allows questions before surgery.\n\nPre-operative education through the [patient app](/features/patient-app) provides instructions for pre-operative preparation including NPO requirements, medication management, and arrival instructions. Patients have information accessible on their phone rather than relying on paper instructions.\n\nPre-operative calls or messages confirm patient readiness and address last-minute questions. [Secure messaging](/features/secure-messaging) through the app enables this communication efficiently."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "Clinic Patient Flow",
+      "content": "[Patient flow](/features/patient-flow) in general surgery clinics manages consultations, pre-operative visits, and post-operative follow-ups. Visit types have different duration and staffing requirements.\n\nNew patient consultations for surgical evaluation require history review, physical examination, imaging review, and treatment planning discussion. [Patient flow](/features/patient-flow) staging ensures adequate time. [Check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) collects history and symptom information before visits.\n\nPre-operative visits confirm surgical planning, complete consent, and ensure patient readiness. These visits follow predictable patterns that flow configuration can optimize.\n\nPost-operative follow-ups assess wound healing, address complications, and plan ongoing care. Brief wound checks differ from complex post-cancer-resection evaluations. [Check-in](/features/patient-check-in) collects post-operative symptom information.\n\nUrgent evaluations for patients with acute surgical conditions need accommodation in clinic flow. Acute cholecystitis or symptomatic hernias require prompt evaluation even when the schedule is full.\n\nWait time management matters for [patient satisfaction](/features/patient-satisfaction). [Patient flow](/features/patient-flow) visibility enables proactive communication when delays occur. Staff can update patients via [secure messaging](/features/secure-messaging) about expected waits.\n\n[Analytics](/features/analytics) from flow data reveal patterns including bottlenecks by visit type, wait times by time of day, and provider efficiency variations."
+    },
+    {
+      "id": "post-op-monitoring",
+      "h2": "Post-Operative Monitoring",
+      "content": "Post-operative monitoring through [RTM](/features/rtm-billing) captures between-visit recovery data. Musculoskeletal RTM under CPT 98977 may apply to some general surgery recovery. More broadly, systematic post-operative tracking through the [clinIQ app](/features/patient-app) improves care quality.\n\nWound monitoring through patient-reported symptoms and photos shared via [secure file exchange](/features/secure-file-exchange) enables early identification of surgical site infection. Patients report redness, drainage, pain, or fever. Photos allow visual assessment without in-person visits.\n\nPain management tracking monitors post-operative pain control and medication use. Patients report pain levels and analgesic use. Concerning patterns trigger [secure messaging](/features/secure-messaging) follow-up.\n\nActivity progression for patients recovering from surgery tracks return to normal function. Walking, eating, bowel function, and return to activities all indicate recovery progress.\n\nComplication identification through symptom tracking catches problems early. Post-operative fever, increasing pain, wound changes, or GI symptoms may indicate complications requiring intervention.\n\n[Telehealth](/features/telehealth) follow-ups for appropriate cases allow assessment without travel. Wound checks with photo review, symptom assessment, and recovery counseling can occur via video for patients doing well."
+    },
+    {
+      "id": "care-coordination",
+      "h2": "Care Coordination",
+      "content": "General surgery involves coordination with multiple specialties for comprehensive patient care.\n\n[Oncology](/specialties/oncology) coordination for cancer cases addresses staging, neoadjuvant therapy, adjuvant treatment, and surveillance. The surgeon and oncologist must coordinate surgical timing with chemotherapy and radiation. [Secure messaging](/features/secure-messaging) and [file exchange](/features/secure-file-exchange) support this coordination.\n\n[Gastroenterology](/specialties/gastroenterology) referrals for surgical conditions like gallbladder disease, hernias, and GI surgery require communication about findings and recommendations. Coordination ensures appropriate surgical indications and complete workup.\n\n[Primary care](/specialties/primary-care) coordination includes pre-operative medical optimization, post-operative management of medical conditions, and ongoing surveillance after cancer resection. The PCP needs information about surgical procedures and follow-up requirements.\n\nAnesthesia coordination for complex cases with significant medical comorbidities ensures appropriate anesthetic planning. Pre-operative anesthesia evaluation may be required.\n\nPathology communication for cancer cases ensures surgical margins and staging information inform treatment planning. Results flow to oncology and primary care as appropriate."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "General surgery implementation addresses surgical [scheduling](/features/scheduling) optimization, pre-operative workflow, clinic [patient flow](/features/patient-flow), and post-operative monitoring.\n\nWeek one maps surgical scheduling workflows including elective booking, urgent accommodation, and emergency tracking. Pre-operative workflow maps clearance requirements and testing tracking. Clinic flow configures for consultation and follow-up visit types.\n\nWeek two trains scheduling staff on case coordination. Clinical staff trains on [patient flow](/features/patient-flow), [check-in](/features/patient-check-in), and pre-operative tracking. Providers train on dashboard and [telehealth](/features/telehealth) visits.\n\nWeek three goes live with [scheduling](/features/scheduling), [patient flow](/features/patient-flow) visibility, and post-operative monitoring.\n\nROI sources include scheduling optimization that maximizes OR utilization. Pre-operative workflow that prevents day-of-surgery cancellations. Post-operative monitoring that catches complications early, potentially avoiding costly readmissions. Better coordination with [oncology](/specialties/oncology) and other specialties improves outcomes.\n\nProfessional tier at $499 monthly includes [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), [file exchange](/features/secure-file-exchange), and [analytics](/features/analytics)."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How does surgical scheduling handle urgent cases?",
+      "a": "[Scheduling](/features/scheduling) maintains capacity for urgent cases while optimizing elective booking. Cancer diagnoses and acute conditions get timely surgery without displacing scheduled patients when possible."
+    },
+    {
+      "q": "Can pre-operative requirements be tracked?",
+      "a": "Yes. [Patient flow](/features/patient-flow) tracks medical clearance, testing, and preparation requirements. Alerts surface incomplete requirements as surgery date approaches to prevent day-of-surgery delays."
+    },
+    {
+      "q": "How does post-operative monitoring work?",
+      "a": "Patients report symptoms and share wound photos through the [clinIQ app](/features/patient-app). [Secure file exchange](/features/secure-file-exchange) enables visual wound assessment. Concerning symptoms trigger [messaging](/features/secure-messaging) follow-up or [telehealth](/features/telehealth) evaluation."
+    },
+    {
+      "q": "How do you coordinate with oncology?",
+      "a": "[Secure messaging](/features/secure-messaging) enables direct communication with [oncology](/specialties/oncology). [File exchange](/features/secure-file-exchange) shares operative reports and pathology. Surgical and systemic therapy timing coordinates through direct communication."
+    },
+    {
+      "q": "Does patient flow handle varied visit types?",
+      "a": "Yes. [Patient flow](/features/patient-flow) accommodates consultations, pre-operative visits, and post-operative follow-ups with different staging for each. Urgent evaluations fit into clinic flow."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers scheduling and workflow configuration. Week two includes staff training. Week three goes live with support."
+    }
+  ],
+  "cta": {
+    "headline": "See General Surgery Operations Optimized",
+    "subhead": "Fifteen-minute demo showing surgical scheduling, pre-operative workflow, post-operative monitoring, and multi-specialty coordination.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Learn More", "href": "/resources/surgical-scheduling" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "Optimized", "label": "OR utilization" },
+      { "value": "Pre-op", "label": "workflow tracking" },
+      { "value": "Post-op", "label": "complication detection" }
+    ],
+    "testimonial": {
+      "quote": "Pre-operative workflow tracking eliminated our day-of-surgery surprises. Patients arrive prepared because we catch missing clearances before surgery day. Post-operative wound monitoring through photos lets us identify infections early. Scheduling coordination across elective and urgent cases finally works smoothly.",
+      "attribution": "Practice Manager",
+      "practice": "General surgery practice with three surgeons",
+      "location": "Virginia"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "Scheduling",
+      "href": "/features/scheduling",
+      "description": "Surgical scheduling optimization."
+    },
+    {
+      "type": "specialty",
+      "title": "Oncology",
+      "href": "/specialties/oncology",
+      "description": "Coordinating surgical and systemic cancer care."
+    },
+    {
+      "type": "specialty",
+      "title": "Gastroenterology",
+      "href": "/specialties/gastroenterology",
+      "description": "GI referral coordination."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "General Surgery",
+    "relevantConditions": ["Gallbladder Disease", "Hernia", "Appendicitis", "Colon Cancer", "Breast Cancer"],
+    "availableProcedures": ["Cholecystectomy", "Hernia Repair", "Appendectomy", "Colectomy", "Mastectomy"]
+  }
+}

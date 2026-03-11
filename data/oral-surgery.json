@@ -1,0 +1,129 @@
+{
+  "slug": "oral-surgery",
+  "name": "Oral Surgery",
+  "pageType": "specialty-pillar",
+  "wordCount": 2200,
+  "publishDate": "2025-05-28",
+  "meta": {
+    "title": "Oral Surgery Practice Software | Scheduling, Patient Flow & Referral Management | clinIQ",
+    "description": "Complete guide to oral surgery practice operations. Surgical scheduling for extractions, implants, and jaw surgery. Referral management from dental practices. Post-operative monitoring and patient communication.",
+    "keywords": ["oral surgery software", "oral surgery practice management", "dental implant scheduling", "oral surgery patient flow", "oral surgery referral management", "oral surgery EHR integration"]
+  },
+  "hero": {
+    "h1": "Oral Surgery Practice Software",
+    "subhead": "Surgical scheduling for extractions, implants, and jaw surgery. Referral management from dental practices. Post-operative monitoring through the clinIQ app. Patient communication reducing post-op calls.",
+    "stats": [
+      { "value": "Referral", "label": "management included" },
+      { "value": "Post-op", "label": "communication" },
+      { "value": "Efficient", "label": "surgical scheduling" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "oral-operations", "title": "The Oral Surgery Operations Model" },
+    { "id": "scheduling", "title": "Surgical Scheduling" },
+    { "id": "referral-management", "title": "Referral Management" },
+    { "id": "patient-flow", "title": "Patient Flow" },
+    { "id": "post-op-monitoring", "title": "Post-Operative Monitoring" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "oral-operations",
+      "h2": "The Oral Surgery Operations Model",
+      "content": "Oral surgery practices handle high procedure volume ranging from wisdom tooth extractions to complex orthognathic surgery. Most patients are referrals from general dentists and orthodontists. The operational challenge involves managing referral relationships, scheduling varied procedure types, and providing responsive post-operative care.\n\nProcedure diversity requires flexible [scheduling](/features/scheduling). Third molar extractions may take 30-45 minutes. Implant placement varies by case complexity. Orthognathic surgery requires extended OR time at hospitals. The scheduling system must accommodate this variety.\n\nReferral relationships drive patient volume. General dentists, orthodontists, and periodontists refer surgical cases. Maintaining these relationships requires communication, prompt scheduling, and reports back to referring providers.\n\nPost-operative care demands attention because extraction and implant sites can develop complications. Patient anxiety about post-operative symptoms generates call volume. [Secure messaging](/features/secure-messaging) and post-operative monitoring through the [clinIQ app](/features/patient-app) address patient concerns while identifying real problems."
+    },
+    {
+      "id": "scheduling",
+      "h2": "Surgical Scheduling",
+      "content": "[Scheduling](/features/scheduling) in oral surgery coordinates procedures with varied duration, complexity, and anesthesia requirements.\n\nExtraction scheduling for third molars and other extractions balances efficiency with appropriate time allocation. IV sedation cases require additional time for induction and recovery. Local anesthesia cases move faster.\n\nImplant scheduling varies by case complexity from single implants to full-arch reconstructions. Bone grafting adds time. Complex cases may require longer appointments.\n\nOrthognathic surgery scheduling coordinates hospital OR time for cases requiring general anesthesia in hospital settings.\n\nEmergency slots accommodate urgent extraction needs for dental emergencies referred from general dentists.\n\nAnesthesia coordination ensures appropriate staffing for sedation cases. The scheduling system shows which cases require sedation and confirms anesthesia coverage.\n\nPatient self-scheduling through the [patient app](/features/patient-app) works for consultations while surgical scheduling remains staff-managed based on procedure requirements."
+    },
+    {
+      "id": "referral-management",
+      "h2": "Referral Management",
+      "content": "Referral management maintains relationships with referring dentists who drive patient volume. Prompt scheduling, good communication, and reports back to referrers support ongoing referral relationships.\n\nReferral tracking in [analytics](/features/analytics) shows which practices refer, patient volume by referrer, and scheduling turnaround for referred patients. This data identifies key relationships to nurture.\n\nScheduling turnaround for referred patients should be prompt. When a general dentist refers an impacted wisdom tooth, the patient should be scheduled quickly. [Scheduling](/features/scheduling) visibility supports prompt accommodation of referrals.\n\nConsultation reports sent back to referring dentists via [secure file exchange](/features/secure-file-exchange) document findings, treatment recommendations, and completed procedures. This communication reinforces the referral relationship.\n\nReferrer communication through [secure messaging](/features/secure-messaging) allows direct communication about shared patients. Questions about healing, implant restoration timing, or other coordination needs are addressed efficiently.\n\nReferral pattern analysis in [analytics](/features/analytics) identifies trends. Increasing referrals from a practice may warrant relationship investment. Declining referrals may indicate issues to address."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "Patient Flow",
+      "content": "[Patient flow](/features/patient-flow) in oral surgery manages consultations, surgical procedures, and post-operative follow-ups with different requirements.\n\nConsultation visits for surgical planning include examination, imaging review, and treatment planning. [Check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) collects relevant history before visits.\n\nSurgical procedure flow tracks patients through pre-op preparation, procedure, and recovery. For sedation cases, recovery monitoring is required before discharge.\n\nPost-operative visits assess healing for extractions, implants, and other procedures. Brief healing checks differ from more extensive implant uncovery appointments.\n\nWait time management maintains [patient satisfaction](/features/patient-satisfaction). Surgical delays can cascade through the day. [Patient flow](/features/patient-flow) visibility enables proactive communication.\n\n[Analytics](/features/analytics) from flow data reveal efficiency opportunities and bottleneck patterns."
+    },
+    {
+      "id": "post-op-monitoring",
+      "h2": "Post-Operative Monitoring and Communication",
+      "content": "Post-operative monitoring through the [clinIQ app](/features/patient-app) reduces patient anxiety and call volume while identifying genuine complications.\n\nPost-extraction symptom tracking captures pain levels, swelling, bleeding, and any concerning symptoms. Expected recovery versus complication indicators help patients understand their experience.\n\nAutomated post-operative instructions delivered through the app ensure patients have accessible guidance. Rather than losing paper instructions, patients reference guidance on their phone when questions arise.\n\n[Secure messaging](/features/secure-messaging) addresses patient questions without phone tag. Post-extraction patients have questions about pain, swelling, and activity. Messaging provides responsive answers while documenting communication.\n\nPhoto sharing through [secure file exchange](/features/secure-file-exchange) allows visual assessment of extraction sites or implant healing when patients have concerns.\n\n[Telehealth](/features/telehealth) follow-ups for appropriate cases provide assessment without requiring travel. Healing checks with visual assessment via video can supplement in-person visits."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "Oral surgery implementation addresses [scheduling](/features/scheduling) across procedure types, referral management, [patient flow](/features/patient-flow), and post-operative communication.\n\nWeek one maps scheduling workflows for extractions, implants, and complex cases. Referral tracking configures. Post-operative communication workflows establish.\n\nWeek two trains scheduling staff on case coordination. Clinical staff trains on [patient flow](/features/patient-flow) and [check-in](/features/patient-check-in). Providers train on dashboard and post-operative monitoring.\n\nWeek three goes live with [scheduling](/features/scheduling), [patient flow](/features/patient-flow), and post-operative communication.\n\nROI sources include efficient scheduling maximizing procedure volume. Referral tracking supporting relationship management. Post-operative communication reducing call volume. Better patient experience supporting referral relationships.\n\nProfessional tier at $499 monthly includes [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), [file exchange](/features/secure-file-exchange), and [analytics](/features/analytics)."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How does scheduling handle varied procedures?",
+      "a": "[Scheduling](/features/scheduling) uses procedure-specific templates for extractions, implants, and complex cases. Sedation cases include additional time. Emergency slots accommodate urgent referrals."
+    },
+    {
+      "q": "How do you track referrals?",
+      "a": "[Analytics](/features/analytics) show referral patterns by referring practice, patient volume, and scheduling turnaround. Reports to referrers via [file exchange](/features/secure-file-exchange) maintain relationships."
+    },
+    {
+      "q": "How does post-operative communication work?",
+      "a": "Automated instructions deliver through the app. [Secure messaging](/features/secure-messaging) answers patient questions. Photo sharing via [file exchange](/features/secure-file-exchange) enables visual assessment of concerns."
+    },
+    {
+      "q": "Does telehealth work for oral surgery?",
+      "a": "Yes. [Telehealth](/features/telehealth) supports healing checks and consultations with visual assessment. Not appropriate for all post-operative needs but reduces unnecessary visits."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers scheduling and referral configuration. Week two includes staff training. Week three goes live with support."
+    }
+  ],
+  "cta": {
+    "headline": "See Oral Surgery Operations Optimized",
+    "subhead": "Fifteen-minute demo showing surgical scheduling, referral management, and post-operative communication.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Learn More", "href": "/resources/referral-management" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "Referral", "label": "tracking included" },
+      { "value": "Post-op", "label": "communication" },
+      { "value": "Efficient", "label": "scheduling" }
+    ],
+    "testimonial": {
+      "quote": "Referral relationships are everything. Now we track which dentists send patients and ensure prompt scheduling. Post-operative messaging cut our phone volume dramatically. Patients get answers quickly and we document everything. The referring dentists appreciate getting reports back promptly.",
+      "attribution": "Practice Manager",
+      "practice": "Oral surgery practice with two surgeons",
+      "location": "Oregon"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "Scheduling",
+      "href": "/features/scheduling",
+      "description": "Procedure scheduling optimization."
+    },
+    {
+      "type": "feature",
+      "title": "Secure Messaging",
+      "href": "/features/secure-messaging",
+      "description": "Post-operative patient communication."
+    },
+    {
+      "type": "feature",
+      "title": "Analytics",
+      "href": "/features/analytics",
+      "description": "Referral tracking and practice insights."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "Oral Surgery",
+    "relevantConditions": ["Impacted Wisdom Teeth", "Dental Implant Need", "Jaw Pathology", "Facial Trauma"],
+    "availableProcedures": ["Third Molar Extraction", "Dental Implants", "Bone Grafting", "Orthognathic Surgery"]
+  }
+}

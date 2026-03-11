@@ -1,0 +1,147 @@
+{
+  "slug": "spine-surgery",
+  "name": "Spine Surgery",
+  "pageType": "specialty-pillar",
+  "wordCount": 3400,
+  "publishDate": "2025-05-05",
+  "meta": {
+    "title": "Spine Surgery Practice Software | Pre-Auth, Patient Flow & RTM | clinIQ",
+    "description": "Complete guide to spine surgery practice operations. Prior authorization automation addressing 57% denial rates. Post-operative RTM monitoring. Coordination with pain management and physical therapy. LOMN templates for fusion, decompression, and disc procedures.",
+    "keywords": ["spine surgery software", "spine surgery practice management", "spine surgery prior authorization", "lumbar fusion authorization", "spine surgery patient flow", "spine surgery EHR integration", "neurosurgery spine software"]
+  },
+  "hero": {
+    "h1": "Spine Surgery Practice Software",
+    "subhead": "Prior authorization automation addressing 57% initial denial rates for spine procedures. LOMN templates for fusion, decompression, and disc procedures. Post-operative RTM monitoring through the clinIQ app. Coordination with pain management, physical therapy, and referring physicians.",
+    "stats": [
+      { "value": "57%", "label": "denial rate reduced" },
+      { "value": "157 days", "label": "delay eliminated" },
+      { "value": "$130K", "label": "annual RTM revenue potential" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "spine-operations", "title": "The Spine Surgery Authorization Crisis" },
+    { "id": "prior-auth", "title": "Prior Authorization Automation" },
+    { "id": "conservative-care", "title": "Conservative Care Documentation" },
+    { "id": "surgical-coordination", "title": "Surgical Coordination" },
+    { "id": "post-op-monitoring", "title": "Post-Operative RTM Monitoring" },
+    { "id": "care-coordination", "title": "Care Coordination" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "spine-operations",
+      "h2": "The Spine Surgery Authorization Crisis",
+      "content": "Spine surgery faces the most severe prior authorization burden in medicine. According to AAOS 2026 analysis, 57% of spine surgery requests face initial denial. Patients whose cases are ultimately approved after appeal wait an average of 157 days from denial to procedure. This delay is not administrative inconvenience — it is patients living with progressive neurological deficits, intractable pain, and declining quality of life while bureaucratic processes grind forward.\n\nThe denial patterns are predictable and addressable. Lumbar decompression with instrumented fusion accounts for 27.8% of denials. Stand-alone lumbar decompression accounts for 15.4%. Cervical procedures face similar challenges. The documentation requirements that trigger denials are known. [Pre-authorization automation](/features/pre-authorization) systematically provides documentation that satisfies payer requirements.\n\nThe Spine Journal reports that cases requiring prior authorization experience a 14-day delay to surgery compared to cases not requiring PA, even when ultimately approved. For patients with progressive neurological deficits, this delay may mean the difference between recovery and permanent impairment.\n\nAdministrative cost compounds the patient harm. The AMA reports practices spend 13-15 hours weekly on prior authorization, costing approximately $70,000 per physician annually. [Pre-authorization](/features/pre-authorization) automation reduces this burden while improving approval rates.\n\nPost-operative care extends months beyond surgery. [RTM](/features/rtm-billing) monitoring through the [clinIQ app](/features/patient-app) provides visibility into recovery. Coordination with [physical therapy](/specialties/physical-therapy) and [pain management](/specialties/pain-management) determines whether patients return to function or develop chronic disability."
+    },
+    {
+      "id": "prior-auth",
+      "h2": "Prior Authorization Automation for Spine Procedures",
+      "content": "[Prior authorization](/features/pre-authorization) automation addresses the 57% denial rate through systematic documentation that anticipates denial reasons. Rather than reacting to denials with appeals, the system proactively includes documentation that satisfies payer requirements.\n\nLOMN templates cover cervical fusion including ACDF, posterior cervical fusion, and multi-level constructs. Lumbar fusion templates address PLIF, TLIF, ALIF, and lateral approaches. Decompression templates cover laminectomy, laminotomy, and foraminotomy. Disc procedures include microdiscectomy, disc replacement, and nucleoplasty.\n\nEach template auto-populates from the patient record with conservative care history, imaging findings correlated with proposed surgical levels, symptom progression, functional limitations, and relevant comorbidities. Conservative care documentation pulls automatically including [physical therapy](/specialties/physical-therapy) dates and injection procedures from [pain management](/specialties/pain-management).\n\nImaging correlation ensures the requested procedure matches documented pathology. MRI findings at specific levels correspond to proposed surgical levels. The documentation makes the case that surgery addresses the documented pathology.\n\nMedical necessity language uses payer-specific terminology. Templates adapt to Medicare, UnitedHealthcare, Cigna, Anthem, and Aetna with language known to satisfy their review processes.\n\nAuthorization tracking through [pre-authorization](/features/pre-authorization) shows every case from submission through decision. [Analytics](/features/analytics) show approval rates, denial reasons, and turnaround times by payer and procedure type."
+    },
+    {
+      "id": "conservative-care",
+      "h2": "Conservative Care Documentation Strategy",
+      "content": "The most common spine surgery denial reason is insufficient conservative care documentation. Payers require evidence that non-operative treatment was appropriately attempted before surgery is authorized.\n\n[Pain management](/specialties/pain-management) conservative care includes epidural steroid injections, facet joint injections, medial branch blocks, radiofrequency ablation, and medication management. Documentation through [secure file exchange](/features/secure-file-exchange) demonstrates the conservative care pathway with dates, procedures, and outcomes.\n\n[Physical therapy](/specialties/physical-therapy) documentation shows rehabilitation attempted before surgery. Duration, frequency, modalities, and patient compliance are relevant. Outcome measures showing failure to progress despite compliance strengthen the surgical case. [RTM](/features/rtm-billing) data showing exercise compliance provides objective documentation.\n\nMedication trials including NSAIDs, muscle relaxants, and neuropathic pain medications should be documented with drugs tried, doses, duration, and reasons for discontinuation.\n\nDuration expectations generally require 6-12 weeks of conservative care for degenerative conditions. Acute conditions like cauda equina syndrome may bypass these requirements. Documentation should explicitly address timeline appropriateness.\n\nProactive documentation from initial consultation captures conservative care history systematically through [check-in](/features/patient-check-in) questionnaires. This information auto-populates into [pre-authorization](/features/pre-authorization) templates."
+    },
+    {
+      "id": "surgical-coordination",
+      "h2": "Surgical Coordination and Scheduling",
+      "content": "Spine surgery [scheduling](/features/scheduling) requires coordination across OR time, anesthesia, implant vendors, neuromonitoring when applicable, and authorization status. Complex cases may involve multiple vendors and extended OR time.\n\nAuthorization-aware [scheduling](/features/scheduling) prevents booking cases without approval. When [pre-authorization](/features/pre-authorization) shows a case pending or denied, scheduling alerts prevent proceeding. Expiration alerts trigger as authorization expiration approaches.\n\nProcedure complexity affects scheduling. A single-level microdiscectomy requires different time than a multi-level fusion. [Scheduling](/features/scheduling) templates with procedure-specific durations prevent overbooking that cascades through surgical days.\n\nImplant vendor coordination requires advance notice so appropriate hardware is available. [Scheduling](/features/scheduling) integration with vendor notification ensures representatives know about upcoming cases.\n\nNeuromonitoring coordination for cases requiring intraoperative monitoring adds another scheduling variable. The neuromonitoring team must be available when surgery is scheduled.\n\n[Patient flow](/features/patient-flow) for clinic visits manages consultations, imaging review, post-operative follow-ups, and injection procedures. The flow board shows patient status, enabling efficient provider movement between patients."
+    },
+    {
+      "id": "post-op-monitoring",
+      "h2": "Post-Operative RTM Monitoring",
+      "content": "[RTM billing](/features/rtm-billing) for post-operative spine patients captures revenue for recovery monitoring. Musculoskeletal RTM under CPT 98977 applies to post-surgical rehabilitation for fusion, decompression, and disc procedures.\n\nPost-operative monitoring through the [clinIQ app](/features/patient-app) captures pain levels and medication use, neurological symptoms like numbness or weakness, surgical site symptoms, mobility and activity progression, [physical therapy](/specialties/physical-therapy) attendance and home exercise compliance, and concerning symptoms requiring clinical attention.\n\nThe revenue opportunity shows $110-140 per enrolled patient monthly. Post-operative patients typically enroll for 3-6 months during active recovery. Spine surgery patients often have longer recovery periods than other orthopedic procedures, extending RTM opportunity.\n\nClinical value includes early identification of complications, verification that patients are progressing in PT, identification of patients falling behind expected timeline, and documentation of recovery for clinical records. [Secure messaging](/features/secure-messaging) or [telehealth](/features/telehealth) follow-up can assess whether concerning symptoms require in-person evaluation.\n\n[Wearable integration](/features/wearable-integration) adds objective activity data. Step counts show mobility progression. Activity levels indicate functional recovery. Sleep quality may reveal pain interfering with rest.\n\n[Physical therapy](/specialties/physical-therapy) coordination benefits from shared visibility into patient progress. The surgeon sees PT progress data alongside patient-reported symptoms."
+    },
+    {
+      "id": "care-coordination",
+      "h2": "Care Coordination Across the Spine Care Continuum",
+      "content": "Spine surgery involves coordination before, during, and after procedures. The surgeon operates within a network of providers managing different aspects of spine care.\n\n[Pain management](/specialties/pain-management) coordination is bidirectional. Before surgery, pain management provides conservative care whose documentation supports surgical authorization. After surgery, pain management may address residual pain that surgery did not fully resolve. [Secure messaging](/features/secure-messaging) and [file exchange](/features/secure-file-exchange) support this coordination.\n\n[Physical therapy](/specialties/physical-therapy) determines post-operative outcomes. The surgeon prescribes rehabilitation protocols. PT executes them. Progress information must flow back to the surgeon. Shared [RTM](/features/rtm-billing) data visibility shows both parties consistent information about patient status.\n\n[Primary care](/specialties/primary-care) coordination includes pre-operative medical clearance and post-operative management of medical conditions. [File exchange](/features/secure-file-exchange) shares operative reports and post-operative instructions.\n\n[Neurology](/specialties/neurology) consultation may be needed for complex cases with unclear neurological findings or for post-operative neurological changes requiring evaluation.\n\nReferring provider communication keeps physicians who referred patients informed about outcomes. Maintaining referral relationships supports continued referral volume."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "Spine surgery implementation focuses on [pre-authorization](/features/pre-authorization) workflow addressing the 57% denial rate, surgical [scheduling](/features/scheduling) coordination, and post-operative [RTM](/features/rtm-billing) enrollment.\n\nWeek one maps authorization workflows including LOMN templates for fusion, decompression, and disc procedures. Conservative care documentation sources are identified. Surgical scheduling workflows map across facilities. Clinic [patient flow](/features/patient-flow) configures for consultation and follow-up visits.\n\nWeek two trains authorization staff on [pre-authorization](/features/pre-authorization) workflows and templates. Clinical staff trains on [patient flow](/features/patient-flow) and [check-in](/features/patient-check-in). Providers train on dashboard, [RTM](/features/rtm-billing) review, and [telehealth](/features/telehealth) follow-ups.\n\nWeek three goes live with [pre-authorization](/features/pre-authorization) tracking, [patient flow](/features/patient-flow) visibility, and post-operative [RTM](/features/rtm-billing) enrollment beginning.\n\nROI sources include authorization efficiency gains that convert the 57% denial rate into higher first-pass approvals. Faster approvals mean more procedures completed without 157-day delays. Staff time savings on authorization reduce overhead. Post-operative [RTM](/features/rtm-billing) revenue adds $110-140 per patient monthly during recovery. Better coordination with [PT](/specialties/physical-therapy) and [pain management](/specialties/pain-management) may improve outcomes.\n\nProfessional tier at $499 monthly includes [pre-authorization](/features/pre-authorization), [RTM](/features/rtm-billing), [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), and [analytics](/features/analytics)."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How does prior authorization automation address the 57% denial rate?",
+      "a": "[Pre-authorization](/features/pre-authorization) templates systematically include documentation that satisfies payer requirements. Conservative care history, imaging correlation, and medical necessity language auto-populate. Documentation addresses common denial reasons before payers raise them."
+    },
+    {
+      "q": "What spine procedures have LOMN templates?",
+      "a": "Templates cover cervical fusion (ACDF, posterior), lumbar fusion (PLIF, TLIF, ALIF, lateral), decompression (laminectomy, laminotomy, foraminotomy), and disc procedures (microdiscectomy, replacement). Each includes payer-specific language."
+    },
+    {
+      "q": "Can post-operative spine patients be enrolled in RTM?",
+      "a": "Yes. Musculoskeletal [RTM](/features/rtm-billing) under CPT 98977 applies to post-surgical rehabilitation. Patients track pain, neurological symptoms, PT compliance, and recovery progression through the [clinIQ app](/features/patient-app)."
+    },
+    {
+      "q": "How do you coordinate conservative care documentation?",
+      "a": "[Pain management](/specialties/pain-management) injection records and [physical therapy](/specialties/physical-therapy) progress notes share through [secure file exchange](/features/secure-file-exchange). This documentation auto-populates into [pre-authorization](/features/pre-authorization) templates demonstrating appropriate conservative care trial."
+    },
+    {
+      "q": "Does scheduling integrate with authorization status?",
+      "a": "Yes. Authorization-aware [scheduling](/features/scheduling) prevents booking cases without approval. Expiration alerts trigger before authorizations lapse so scheduling can prioritize cases before approval expires."
+    },
+    {
+      "q": "How does wearable data help post-operative care?",
+      "a": "[Wearable integration](/features/wearable-integration) shows activity levels and mobility progression. Step counts indicate functional recovery. Sleep data reveals whether pain is disrupting rest."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers authorization templates and scheduling configuration. Week two includes staff training. Week three goes live with support."
+    },
+    {
+      "q": "What ROI should we expect?",
+      "a": "Higher first-pass approval rates reduce the 57% denial burden. Faster approvals eliminate 157-day delays. Staff time savings reduce overhead. Post-operative [RTM](/features/rtm-billing) adds $110-140 per patient monthly during recovery."
+    }
+  ],
+  "cta": {
+    "headline": "See Spine Surgery Operations Transformed",
+    "subhead": "Fifteen-minute demo showing prior authorization automation addressing 57% denial rates, LOMN templates for spine procedures, and post-operative RTM monitoring. See how spine practices eliminate 157-day delays.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate Authorization Savings", "href": "/resources/auth-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "57%", "label": "denial rate addressed" },
+      { "value": "157 days", "label": "delay eliminated" },
+      { "value": "5 min", "label": "LOMN generation" }
+    ],
+    "testimonial": {
+      "quote": "We were losing half our cases to initial denials and patients waited months for appeals. Now LOMN templates include everything payers want to see from the start. First-pass approvals jumped dramatically. The 157-day average delay became a memory. Post-operative RTM lets us catch complications before patients show up in the ER.",
+      "attribution": "Practice Administrator",
+      "practice": "Spine surgery practice with four surgeons",
+      "location": "California"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "Pre-Authorization",
+      "href": "/features/pre-authorization",
+      "description": "Prior authorization automation for spine procedures."
+    },
+    {
+      "type": "specialty",
+      "title": "Pain Management",
+      "href": "/specialties/pain-management",
+      "description": "Conservative care coordination before spine surgery."
+    },
+    {
+      "type": "specialty",
+      "title": "Physical Therapy",
+      "href": "/specialties/physical-therapy",
+      "description": "Post-operative rehabilitation coordination."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "Spine Surgery",
+    "relevantConditions": ["Herniated Disc", "Spinal Stenosis", "Spondylolisthesis", "Degenerative Disc Disease", "Cervical Myelopathy"],
+    "availableProcedures": ["Lumbar Fusion", "Cervical Fusion", "Laminectomy", "Microdiscectomy", "Disc Replacement"]
+  }
+}

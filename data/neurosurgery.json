@@ -1,0 +1,139 @@
+{
+  "slug": "neurosurgery",
+  "name": "Neurosurgery",
+  "pageType": "specialty-pillar",
+  "wordCount": 2800,
+  "publishDate": "2025-05-10",
+  "meta": {
+    "title": "Neurosurgery Practice Software | Pre-Auth, Patient Flow & Surgical Coordination | clinIQ",
+    "description": "Complete guide to neurosurgery practice operations. Prior authorization for cranial and spine procedures. Surgical scheduling coordination. Post-operative monitoring. Coordination with neurology, oncology, and rehabilitation.",
+    "keywords": ["neurosurgery software", "neurosurgery practice management", "neurosurgery prior authorization", "craniotomy authorization", "neurosurgery patient flow", "brain surgery scheduling", "neurosurgery EHR integration"]
+  },
+  "hero": {
+    "h1": "Neurosurgery Practice Software",
+    "subhead": "Prior authorization automation for cranial and spine procedures. Surgical scheduling coordination across complex cases. Post-operative monitoring through the clinIQ app. Coordination with neurology, oncology, radiation oncology, and rehabilitation services.",
+    "stats": [
+      { "value": "Complex", "label": "case coordination" },
+      { "value": "Multi-specialty", "label": "care integration" },
+      { "value": "Post-op", "label": "RTM monitoring" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "neuro-operations", "title": "The Neurosurgery Operations Model" },
+    { "id": "prior-auth", "title": "Prior Authorization" },
+    { "id": "surgical-coordination", "title": "Surgical Coordination" },
+    { "id": "patient-flow", "title": "Clinic Patient Flow" },
+    { "id": "post-op-monitoring", "title": "Post-Operative Monitoring" },
+    { "id": "care-coordination", "title": "Multi-Specialty Coordination" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "neuro-operations",
+      "h2": "The Neurosurgery Operations Model",
+      "content": "Neurosurgery practices handle the most complex surgical cases in medicine. Cranial procedures for tumors, aneurysms, AVMs, and trauma require extensive coordination. Spine procedures face the authorization challenges documented at 57% denial rates. Functional neurosurgery for movement disorders and epilepsy involves specialized equipment and teams. The operational complexity demands systems that can manage this coordination.\n\nPrior authorization burden affects neurosurgery significantly. Spine procedures face the same 57% denial rate as [spine surgery](/specialties/spine-surgery) practices. Cranial procedures may require authorization demonstrating medical necessity, particularly for elective tumor resection or functional procedures. [Pre-authorization](/features/pre-authorization) automation addresses these requirements systematically.\n\nSurgical scheduling complexity exceeds most other specialties. Craniotomies may require 6-8 hours of OR time. Multiple vendor representatives may be needed for navigation equipment, implants, and specialized instruments. Neuromonitoring teams must be coordinated. [Scheduling](/features/scheduling) that spans all these elements prevents conflicts.\n\nPost-operative care for neurosurgery patients extends beyond typical surgical recovery. Neurological status monitoring, rehabilitation progress, and oncology coordination for tumor cases all require ongoing attention. [RTM](/features/rtm-billing) monitoring through the [clinIQ app](/features/patient-app) provides between-visit visibility.\n\nMulti-specialty coordination is essential. [Neurology](/specialties/neurology) provides diagnostic workup and may share ongoing management. [Oncology](/specialties/oncology) coordinates chemotherapy and immunotherapy for brain tumors. Radiation oncology handles stereotactic radiosurgery and adjuvant radiation. [Physical therapy](/specialties/physical-therapy) and rehabilitation services address functional recovery."
+    },
+    {
+      "id": "prior-auth",
+      "h2": "Prior Authorization for Neurosurgical Procedures",
+      "content": "[Prior authorization](/features/pre-authorization) requirements affect neurosurgery across spine and cranial procedures. Spine cases face the documented 57% denial rate. Cranial procedures may require authorization demonstrating that surgery is medically necessary versus conservative management.\n\nSpine procedure authorization follows the same patterns as dedicated [spine surgery](/specialties/spine-surgery) practices. LOMN templates for fusion, decompression, and disc procedures auto-populate with conservative care documentation, imaging correlation, and medical necessity language. The documentation addresses common denial reasons proactively.\n\nCranial procedure authorization for tumor resection may require documentation of tumor progression, symptomatic status, and why surgery rather than radiation or observation. Aneurysm repair authorization documents rupture risk factors. Functional neurosurgery for DBS or epilepsy surgery requires extensive documentation of failed medical management.\n\nConservative care documentation for spine cases pulls from [pain management](/specialties/pain-management) injection records and [physical therapy](/specialties/physical-therapy) progress notes through [secure file exchange](/features/secure-file-exchange). This documentation auto-populates into [pre-authorization](/features/pre-authorization) templates.\n\nAuthorization tracking through [pre-authorization](/features/pre-authorization) shows every case from submission through decision. Complex cases requiring peer-to-peer review track through that process. [Analytics](/features/analytics) reveal approval rates and turnaround times by procedure type and payer.\n\nUrgent cases requiring expedited authorization for acute conditions track separately. When patient condition demands urgent surgery, the system supports rapid authorization workflows."
+    },
+    {
+      "id": "surgical-coordination",
+      "h2": "Surgical Coordination for Complex Cases",
+      "content": "Neurosurgical [scheduling](/features/scheduling) coordination exceeds typical surgical scheduling complexity. OR time measured in hours rather than minutes, multiple vendor relationships, and specialized team requirements all must align.\n\nOR block management for extended cases requires understanding that a single craniotomy may occupy an entire morning or full day. [Scheduling](/features/scheduling) templates with procedure-specific durations account for this. Spine cases follow patterns similar to [orthopedic surgery](/specialties/orthopedic-surgery).\n\nVendor coordination for cranial cases may involve navigation system representatives, microscope specialists, and implant vendors depending on the procedure. Spine cases require implant coordination. [Scheduling](/features/scheduling) integration with vendor notification ensures appropriate coverage.\n\nNeuromonitoring coordination for cases requiring intraoperative monitoring adds team scheduling requirements. The neuromonitoring team must be available when surgery is scheduled.\n\nAnesthesia coordination for complex cases requiring neuroanesthesia expertise ensures appropriate anesthesia coverage. Not all anesthesiologists are appropriate for complex neurosurgical cases.\n\nAuthorization-aware [scheduling](/features/scheduling) prevents booking cases without approval. When [pre-authorization](/features/pre-authorization) shows a case pending or denied, scheduling alerts prevent proceeding. Expiration alerts trigger as authorization expiration approaches.\n\nEmergency surgery for trauma, hemorrhage, or acute hydrocephalus bypasses normal scheduling. The system accommodates emergency cases while tracking their impact on scheduled cases."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "Clinic Patient Flow",
+      "content": "[Patient flow](/features/patient-flow) in neurosurgery clinics manages consultations, post-operative follow-ups, and ongoing management for chronic conditions. Visit types vary significantly in duration and complexity.\n\nNew patient consultations for complex cases may require 45-60 minutes for history review, imaging review, neurological examination, and treatment planning discussion. [Patient flow](/features/patient-flow) staging ensures adequate time without backing up other patients.\n\nPost-operative follow-ups vary by case complexity. Routine spine surgery follow-ups may be 15-20 minutes. Complex cranial case follow-ups may require more extensive neurological assessment. [Check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) collects post-operative symptom information before visits.\n\nImaging review during visits requires access to MRI, CT, and other studies. Workflow should accommodate imaging review without consuming visit time waiting for studies to load.\n\nMultidisciplinary clinic sessions where neurosurgery sees patients alongside [oncology](/specialties/oncology), radiation oncology, and [neurology](/specialties/neurology) require coordination across multiple providers. [Patient flow](/features/patient-flow) can track patients through multiple provider encounters in a single session.\n\nWait time management matters for [patient satisfaction](/features/patient-satisfaction). Neurosurgery patients often travel significant distances for specialized care. [Patient flow](/features/patient-flow) visibility enables proactive communication when delays occur."
+    },
+    {
+      "id": "post-op-monitoring",
+      "h2": "Post-Operative Monitoring",
+      "content": "Post-operative monitoring for neurosurgery patients extends beyond typical surgical recovery. Neurological status changes, tumor recurrence surveillance, and functional recovery all require ongoing attention that [RTM](/features/rtm-billing) through the [clinIQ app](/features/patient-app) can support.\n\nNeurological symptom tracking captures headache, vision changes, cognitive symptoms, motor function, sensory changes, and seizure activity. Post-craniotomy patients report these symptoms through the app, providing data between scheduled imaging and visits.\n\nSpine surgery recovery tracking follows patterns similar to [orthopedic surgery](/specialties/orthopedic-surgery) post-operative monitoring. Pain levels, neurological symptoms, [physical therapy](/specialties/physical-therapy) compliance, and activity progression all track through the app.\n\nFunctional recovery monitoring for patients in rehabilitation tracks progress toward functional goals. Coordination with rehabilitation services ensures the surgeon has visibility into recovery progression.\n\nConcerning symptom alerts trigger when patients report symptoms warranting attention. New neurological deficits, severe headache, or signs of infection can alert clinical staff for [secure messaging](/features/secure-messaging) follow-up or earlier evaluation.\n\n[Telehealth](/features/telehealth) follow-ups for appropriate cases allow visual assessment and neurological screen without requiring travel for patients who may have difficulty with transportation post-operatively."
+    },
+    {
+      "id": "care-coordination",
+      "h2": "Multi-Specialty Coordination",
+      "content": "Neurosurgery requires extensive coordination with other specialties managing different aspects of neurological and oncological care.\n\n[Neurology](/specialties/neurology) coordination involves diagnostic workup before surgery and ongoing management afterward. Epilepsy surgery requires neurology involvement for seizure characterization. Movement disorder surgery requires neurology for DBS programming. [Secure messaging](/features/secure-messaging) and [file exchange](/features/secure-file-exchange) support this coordination.\n\n[Oncology](/specialties/oncology) coordination for brain tumor patients addresses chemotherapy, immunotherapy, and clinical trial enrollment. The neurosurgeon and neuro-oncologist must coordinate surgical timing with systemic therapy. Shared patient information through [file exchange](/features/secure-file-exchange) ensures aligned care.\n\nRadiation oncology coordination involves stereotactic radiosurgery, fractionated radiation, and adjuvant treatment planning. Surgical and radiation treatments must be sequenced appropriately.\n\n[Primary care](/specialties/primary-care) coordination includes pre-operative medical clearance and post-operative management of medical conditions. Complex neurosurgery patients often have medical comorbidities requiring optimization.\n\nRehabilitation services including [physical therapy](/specialties/physical-therapy), occupational therapy, speech therapy, and inpatient rehabilitation require coordination for patients with functional deficits. Progress information should flow back to the neurosurgeon.\n\nPalliative care coordination for patients with incurable tumors addresses symptom management and goals of care discussions that complement surgical management."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "Neurosurgery implementation addresses [pre-authorization](/features/pre-authorization) workflow, complex [scheduling](/features/scheduling) coordination, clinic [patient flow](/features/patient-flow), and post-operative monitoring.\n\nWeek one maps authorization workflows for spine and cranial procedures. Surgical scheduling workflows map across facilities, vendors, and teams. Clinic flow configures for varied consultation and follow-up visit types. [Pre-authorization](/features/pre-authorization) templates configure for common procedures.\n\nWeek two trains authorization staff on [pre-authorization](/features/pre-authorization) workflows. Scheduling staff trains on complex case coordination. Clinical staff trains on [patient flow](/features/patient-flow) and [check-in](/features/patient-check-in). Providers train on dashboard and [telehealth](/features/telehealth) visits.\n\nWeek three goes live with [pre-authorization](/features/pre-authorization) tracking, [patient flow](/features/patient-flow) visibility, and post-operative monitoring enrollment beginning.\n\nROI sources include authorization efficiency addressing spine procedure denials. Better scheduling coordination prevents conflicts and maximizes OR utilization. Post-operative monitoring through [RTM](/features/rtm-billing) adds revenue while improving care. Multi-specialty coordination improves outcomes for complex patients.\n\nProfessional tier at $499 monthly includes [pre-authorization](/features/pre-authorization), [RTM](/features/rtm-billing), [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), and [analytics](/features/analytics)."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How does prior authorization work for cranial procedures?",
+      "a": "[Pre-authorization](/features/pre-authorization) for cranial procedures documents medical necessity including tumor progression, symptomatic status, and why surgery is appropriate. Spine procedures use templates addressing the 57% denial rate with conservative care documentation."
+    },
+    {
+      "q": "Can complex surgical scheduling be managed?",
+      "a": "Yes. [Scheduling](/features/scheduling) coordinates OR blocks, vendor coverage, neuromonitoring teams, and anesthesia for complex cases. Procedure-specific duration templates account for extended cranial cases."
+    },
+    {
+      "q": "How do you coordinate with oncology for tumor cases?",
+      "a": "[Secure messaging](/features/secure-messaging) and [file exchange](/features/secure-file-exchange) enable coordination with [oncology](/specialties/oncology) and radiation oncology. Surgical and systemic therapy timing aligns through direct communication."
+    },
+    {
+      "q": "Is post-operative monitoring available?",
+      "a": "Yes. [RTM](/features/rtm-billing) through the [clinIQ app](/features/patient-app) tracks neurological symptoms, functional recovery, and [PT](/specialties/physical-therapy) compliance. Concerning symptom alerts trigger clinical attention."
+    },
+    {
+      "q": "How does patient flow handle complex consultations?",
+      "a": "[Patient flow](/features/patient-flow) accommodates varied visit durations from brief post-op checks to 60-minute complex consultations. Different staging for different visit types prevents bottlenecks."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers authorization and scheduling configuration. Week two includes staff training. Week three goes live with support."
+    }
+  ],
+  "cta": {
+    "headline": "See Neurosurgery Operations Optimized",
+    "subhead": "Fifteen-minute demo showing prior authorization, complex surgical scheduling, post-operative monitoring, and multi-specialty coordination. See how neurosurgery practices manage operational complexity.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Learn More", "href": "/resources/surgical-coordination" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "Complex", "label": "case coordination" },
+      { "value": "57%", "label": "spine denial rate addressed" },
+      { "value": "Multi-specialty", "label": "care integration" }
+    ],
+    "testimonial": {
+      "quote": "Neurosurgery scheduling is uniquely complex. Now we coordinate OR time, vendors, neuromonitoring, and authorization in one view. Spine case authorizations improved dramatically with proper templates. Post-operative monitoring catches problems before patients deteriorate. The multi-specialty coordination for our tumor patients finally works smoothly.",
+      "attribution": "Practice Administrator",
+      "practice": "Academic neurosurgery practice",
+      "location": "Massachusetts"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "specialty",
+      "title": "Spine Surgery",
+      "href": "/specialties/spine-surgery",
+      "description": "Spine-specific authorization and post-operative management."
+    },
+    {
+      "type": "specialty",
+      "title": "Neurology",
+      "href": "/specialties/neurology",
+      "description": "Coordinating surgical and medical neurological care."
+    },
+    {
+      "type": "specialty",
+      "title": "Oncology",
+      "href": "/specialties/oncology",
+      "description": "Brain tumor coordination with neuro-oncology."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "Neurosurgery",
+    "relevantConditions": ["Brain Tumor", "Spinal Stenosis", "Aneurysm", "AVM", "Epilepsy", "Movement Disorders"],
+    "availableProcedures": ["Craniotomy", "Spine Fusion", "DBS", "Aneurysm Clipping", "Tumor Resection"]
+  }
+}

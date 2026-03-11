@@ -1,0 +1,147 @@
+{
+  "slug": "orthopedic-surgery",
+  "name": "Orthopedic Surgery",
+  "pageType": "specialty-pillar",
+  "wordCount": 3500,
+  "publishDate": "2025-05-01",
+  "meta": {
+    "title": "Orthopedic Surgery Practice Software | Pre-Auth, Patient Flow & Surgical Coordination | clinIQ",
+    "description": "Complete guide to orthopedic surgery practice operations. Prior authorization automation for joint replacement and spine procedures. Surgical scheduling optimization. Post-operative RTM monitoring. Coordination with PT and pain management.",
+    "keywords": ["orthopedic surgery software", "orthopedic practice management", "orthopedic prior authorization", "joint replacement scheduling", "orthopedic patient flow", "surgical coordination software", "orthopedic EHR integration"]
+  },
+  "hero": {
+    "h1": "Orthopedic Surgery Practice Software",
+    "subhead": "Prior authorization automation reducing 57% initial denial rates for orthopedic procedures. Surgical scheduling optimization maximizing OR utilization. Post-operative RTM monitoring through the clinIQ app. Seamless coordination with physical therapy, pain management, and primary care.",
+    "stats": [
+      { "value": "57%", "label": "denial rate addressed" },
+      { "value": "14 days", "label": "faster auth turnaround" },
+      { "value": "$120K", "label": "annual RTM revenue potential" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "ortho-operations", "title": "The Orthopedic Surgery Operations Challenge" },
+    { "id": "prior-auth", "title": "Prior Authorization for Orthopedic Procedures" },
+    { "id": "surgical-scheduling", "title": "Surgical Scheduling Optimization" },
+    { "id": "patient-flow", "title": "Clinic and Surgical Patient Flow" },
+    { "id": "post-op-monitoring", "title": "Post-Operative RTM Monitoring" },
+    { "id": "care-coordination", "title": "Care Coordination" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "ortho-operations",
+      "h2": "The Orthopedic Surgery Operations Challenge",
+      "content": "Orthopedic surgery practices face operational complexity spanning clinic visits, surgical procedures, and post-operative rehabilitation. Prior authorization burden is among the highest in medicine. Surgical scheduling requires coordination across facilities, anesthesia, and implant vendors. Post-operative care extends months beyond surgery with rehabilitation progress determining outcomes.\n\nPrior authorization delays and denials directly impact patient care and practice revenue. According to AAOS 2026 data, 57% of spine surgery requests face initial denial, with patients waiting an average of 157 days from denial to procedure when appeals succeed. Joint replacement, arthroscopy, and fracture fixation all face authorization requirements that consume staff hours. The AMA reports practices spend 13-15 hours weekly on prior authorization, costing approximately $70,000 per physician annually.\n\nSurgical scheduling complexity involves coordinating OR time at hospitals or ASCs, anesthesia coverage, implant availability from vendors, and staff scheduling. A single scheduling error can cascade into postponed surgeries, frustrated patients, and lost revenue. [Scheduling](/features/scheduling) visibility across all these elements prevents conflicts.\n\nPost-operative monitoring determines surgical outcomes. A joint replacement patient who does not progress appropriately in physical therapy may develop complications. A spine surgery patient with unexpected symptoms may need intervention. Traditional post-operative care relies on periodic follow-up visits that miss between-visit developments. [RTM](/features/rtm-billing) monitoring through the [clinIQ app](/features/patient-app) provides visibility into recovery progression.\n\nCoordination with [physical therapy](/specialties/physical-therapy) is essential because PT determines functional outcomes. The surgeon needs visibility into PT progress and compliance. [Pain management](/specialties/pain-management) coordination addresses post-operative pain without over-reliance on opioids. [Primary care](/specialties/primary-care) coordination ensures medical optimization before surgery and appropriate follow-up after."
+    },
+    {
+      "id": "prior-auth",
+      "h2": "Prior Authorization for Orthopedic Procedures",
+      "content": "[Prior authorization](/features/pre-authorization) burden in orthopedics is substantial. Joint replacement, spine surgery, arthroscopy, and many other procedures require authorization before scheduling. The 57% initial denial rate for spine procedures means more than half of cases require appeals that delay care by weeks or months.\n\nCommon denial reasons that [pre-authorization automation](/features/pre-authorization) addresses include insufficient conservative care documentation where payers claim patients have not tried adequate non-operative treatment, missing imaging correlation where MRI or X-ray findings do not clearly support the procedure, step therapy requirements mandating injections before surgery, and incomplete clinical documentation where diagnosis codes do not support medical necessity.\n\nLetter of Medical Necessity generation through [pre-authorization](/features/pre-authorization) transforms LOMN from a 30-minute task to a 5-minute review. Templates for total knee arthroplasty, total hip arthroplasty, rotator cuff repair, ACL reconstruction, lumbar fusion, cervical fusion, and other common procedures auto-populate from patient records. Conservative care history pulls automatically. Imaging findings relevant to the procedure are included. The surgeon reviews, edits, and signs rather than dictating from scratch.\n\nAuthorization status tracking eliminates phone calls to payers asking whether authorization was approved. Every request tracks from submission through decision with status updates logged for pending, information requested, approved, denied, and appealed states. Expiration alerts trigger before authorization lapses, preventing approved procedures from expiring before [scheduling](/features/scheduling) can secure OR time.\n\nDenial appeal support includes templates for common denial reasons. When a payer denies for insufficient conservative care, the appeal template compiles the documentation demonstrating appropriate conservative treatment. The surgeon reviews and signs the appeal. Tracking shows appeal status through resolution.\n\n[Practice analytics](/features/analytics) reveal authorization patterns. Which procedures have highest denial rates. Which payers are most problematic. How long authorizations take by procedure type. This data supports process improvement and payer contracting discussions.\n\n[Pain management](/specialties/pain-management) practices providing conservative care before surgery need documentation that supports the surgical authorization. Coordination through [secure messaging](/features/secure-messaging) and [file exchange](/features/secure-file-exchange) ensures injection records and other conservative care documentation is available for the surgical authorization."
+    },
+    {
+      "id": "surgical-scheduling",
+      "h2": "Surgical Scheduling Optimization",
+      "content": "Surgical [scheduling](/features/scheduling) in orthopedics requires coordination across multiple systems and stakeholders. OR time at hospitals or ASCs, anesthesia coverage, implant availability from vendors, surgical team availability, and patient preparation all must align. [Scheduling](/features/scheduling) visibility that spans these elements prevents conflicts and maximizes utilization.\n\nOR block management for surgeons with allocated block time requires tracking how blocks are utilized. Unfilled blocks represent lost revenue. Over-scheduled blocks create chaos. [Scheduling](/features/scheduling) visibility shows block utilization by surgeon, identifying patterns where additional time is needed or underutilized time could be released.\n\nProcedure duration accuracy matters because generic time allocation creates problems. A total knee replacement takes different time than a knee arthroscopy. A complex revision differs from a primary procedure. [Scheduling](/features/scheduling) templates with procedure-specific durations prevent the overbooking that cascades through the surgical day.\n\nImplant coordination with vendors requires advance notice of procedures so appropriate implants are available. [Scheduling](/features/scheduling) integration with vendor notification workflows ensures representatives know about upcoming cases requiring their implants.\n\nAnesthesia coordination for cases requiring anesthesia coverage must align scheduling with anesthesia availability. Conflicts between surgeon schedule and anesthesia coverage postpone cases.\n\nPre-operative requirements tracking ensures patients complete required testing, medical clearance, and preparation before surgery. [Patient flow](/features/patient-flow) can track completion of pre-operative requirements, surfacing patients whose surgery may need postponement if requirements are not met.\n\nAuthorization-aware [scheduling](/features/scheduling) prevents booking procedures that lack authorization. When [pre-authorization](/features/pre-authorization) shows a case is still pending or denied, scheduling alerts prevent proceeding without approved authorization.\n\nPatient self-scheduling through the [patient app](/features/patient-app) works for clinic visits and follow-ups while surgical scheduling remains staff-managed given its complexity. Patients can see post-operative follow-up availability and schedule through the app."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "Clinic and Surgical Patient Flow",
+      "content": "[Patient flow](/features/patient-flow) in orthopedics spans both clinic operations and surgical day workflow. Clinic days involve consultations, post-operative follow-ups, and injection procedures. Surgical days require coordinated flow at the surgical facility.\n\nClinic flow for orthopedic visits includes [check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) where patients complete intake questionnaires before arrival, rooming with vitals and history review, imaging review when X-rays or MRIs are available, provider consultation including examination and treatment planning, and checkout with [scheduling](/features/scheduling) of follow-up or surgery. The [patient flow](/features/patient-flow) board shows every patient's current status, enabling efficient provider movement between patients.\n\nPost-operative follow-up visits have different flow requirements than consultations. Wound checks, range of motion assessment, and imaging review follow predictable patterns. [Check-in](/features/patient-check-in) can collect post-operative symptom information before the visit so the provider arrives with current status.\n\nInjection procedure flow for joint injections, trigger point injections, and other office procedures requires room setup and supplies. [Patient flow](/features/patient-flow) tracking shows which patients are ready for procedures, enabling efficient room turnover.\n\nSurgical day flow at hospitals or ASCs benefits from visibility though the primary workflow occurs in facility systems. Tracking surgical patients through pre-op, OR, and recovery helps coordinate post-operative instructions and follow-up scheduling.\n\nWait time management matters for [patient satisfaction](/features/patient-satisfaction). Orthopedic patients often have mobility limitations making extended waiting uncomfortable. [Patient flow](/features/patient-flow) visibility enables proactive communication when delays occur. Staff can update patients via [secure messaging](/features/secure-messaging) about expected wait times.\n\n[Analytics](/features/analytics) from flow data reveal patterns. Which visit types create bottlenecks. How long patients wait by time of day. Provider-specific efficiency variations. This data guides scheduling template adjustments and workflow improvements."
+    },
+    {
+      "id": "post-op-monitoring",
+      "h2": "Post-Operative RTM Monitoring",
+      "content": "[RTM billing](/features/rtm-billing) for post-operative orthopedic patients captures revenue for recovery monitoring that quality care already requires. Musculoskeletal RTM under CPT 98977 applies to post-surgical rehabilitation for joint replacement, arthroscopy, fracture fixation, and other orthopedic procedures.\n\nPost-operative monitoring through the [clinIQ app](/features/patient-app) captures pain levels and medication use, surgical site symptoms like swelling, redness, or drainage, range of motion progress for joint procedures, weight-bearing progression as applicable, physical therapy attendance and home exercise compliance, and any concerning symptoms requiring clinical attention.\n\nThe revenue opportunity shows $100-130 per enrolled patient monthly combining device supply and treatment management codes. Post-operative patients typically enroll for 2-3 months during active recovery. One hundred surgical patients annually enrolled for average 3 months generates significant RTM revenue alongside surgical fees.\n\nClinical value from post-operative [RTM](/features/rtm-billing) includes early identification of complications through symptom tracking, verification that patients are progressing in PT, identification of patients falling behind expected recovery timeline, and documentation of recovery progression for clinical record. When patients report concerning symptoms, [secure messaging](/features/secure-messaging) or [telehealth](/features/telehealth) follow-up can assess whether in-person evaluation is needed.\n\n[Wearable integration](/features/wearable-integration) adds objective activity data. Step counts from Apple Watch or Fitbit show mobility progression after lower extremity surgery. Activity levels indicate functional recovery. Sleep quality from [wearables](/features/wearable-integration) may reveal pain interfering with rest.\n\n[Physical therapy](/specialties/physical-therapy) coordination benefits from shared visibility into patient progress. PT may enroll the same patient in RTM for exercise compliance tracking. Coordination ensures complementary monitoring without redundancy. The surgeon sees PT progress data alongside patient-reported symptoms."
+    },
+    {
+      "id": "care-coordination",
+      "h2": "Care Coordination Across the Surgical Episode",
+      "content": "Orthopedic surgery involves extensive care coordination before, during, and after procedures. Coordination with other specialists and referring providers ensures comprehensive care.\n\n[Physical therapy](/specialties/physical-therapy) is the most important coordination relationship for most orthopedic surgeons. Post-operative rehabilitation determines functional outcomes. The surgeon prescribes the rehabilitation protocol. PT executes it. Progress information must flow back to the surgeon. [Secure messaging](/features/secure-messaging) enables direct communication about patient progress. Shared [RTM](/features/rtm-billing) data visibility shows both parties consistent information about patient status and exercise compliance.\n\n[Pain management](/specialties/pain-management) coordination addresses post-operative pain, particularly for patients with chronic pain history or complex pain needs. The surgeon manages immediate post-operative pain while chronic pain management may transfer to or continue with pain management. [Secure messaging](/features/secure-messaging) and [file exchange](/features/secure-file-exchange) support this coordination.\n\n[Primary care](/specialties/primary-care) coordination includes pre-operative medical clearance and post-operative management of medical conditions. The PCP needs to know about surgical plans, post-operative medications, and activity restrictions. [File exchange](/features/secure-file-exchange) shares operative reports and post-operative instructions.\n\n[Sports medicine](/specialties/sports-medicine) coordination for athletic patients involves return-to-sport decision-making. The surgeon addresses the structural repair. Sports medicine manages the return-to-play progression. Both need visibility into recovery status.\n\n[Rheumatology](/specialties/rheumatology) coordination for patients with inflammatory arthritis requires attention to disease activity and medication management around surgery. Biologic medications may need to be held peri-operatively. Coordination through [secure messaging](/features/secure-messaging) ensures aligned management.\n\nReferring provider communication keeps physicians who referred surgical patients informed about outcomes. [File exchange](/features/secure-file-exchange) shares operative reports and post-operative status. Maintaining referral relationships supports continued referral volume."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "Orthopedic surgery implementation focuses on [pre-authorization](/features/pre-authorization) workflow, surgical [scheduling](/features/scheduling) optimization, clinic [patient flow](/features/patient-flow), and post-operative [RTM](/features/rtm-billing) enrollment.\n\nWeek one maps authorization workflows including submission processes, LOMN generation, and appeal procedures. Surgical scheduling workflows map across facilities and implant vendors. Clinic flow maps visit types and provider preferences. [Pre-authorization](/features/pre-authorization) templates configure for joint replacement, spine, arthroscopy, and other common procedures.\n\nWeek two trains authorization staff on [pre-authorization](/features/pre-authorization) workflows and LOMN templates. Scheduling staff trains on surgical coordination. Clinical staff trains on [patient flow](/features/patient-flow) boards and [check-in](/features/patient-check-in) processes. Providers train on dashboard, [RTM](/features/rtm-billing) review, and post-operative [telehealth](/features/telehealth) visits.\n\nWeek three goes live with [pre-authorization](/features/pre-authorization) tracking, [patient flow](/features/patient-flow) visibility, and post-operative [RTM](/features/rtm-billing) enrollment beginning. The clinIQ team monitors implementation and adjusts configuration.\n\nROI sources include [pre-authorization](/features/pre-authorization) efficiency reducing staff time on authorizations while improving approval rates. Fewer denials and faster approvals mean more procedures completed. Post-operative [RTM](/features/rtm-billing) revenue adds $100-130 per surgical patient during recovery months. [Patient flow](/features/patient-flow) efficiency enables higher clinic volume. Better coordination with [PT](/specialties/physical-therapy) may improve outcomes and reduce complications.\n\nProfessional tier at $499 monthly includes [pre-authorization](/features/pre-authorization), [RTM](/features/rtm-billing), [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), and [analytics](/features/analytics). Implementation runs $750 one-time. Authorization efficiency gains and RTM revenue typically exceed platform cost within the first quarter."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How does prior authorization automation help orthopedics?",
+      "a": "[Pre-authorization](/features/pre-authorization) templates for joint replacement, spine, and arthroscopy auto-populate from patient records. LOMN generation takes 5 minutes instead of 30. Status tracking eliminates phone calls to payers. Denial rates of 57% for spine procedures are addressed through proper documentation from the start."
+    },
+    {
+      "q": "Can post-operative patients be enrolled in RTM?",
+      "a": "Yes. Musculoskeletal [RTM](/features/rtm-billing) under CPT 98977 applies to post-surgical rehabilitation. Patients track pain, range of motion, PT compliance, and symptoms through the [clinIQ app](/features/patient-app). Revenue of $100-130 per patient monthly during recovery."
+    },
+    {
+      "q": "How does surgical scheduling integrate?",
+      "a": "[Scheduling](/features/scheduling) provides visibility across OR blocks, procedure durations, and authorization status. Authorization-aware scheduling prevents booking cases without approval. Integration with clinic scheduling shows the complete picture."
+    },
+    {
+      "q": "How do you coordinate with physical therapy?",
+      "a": "[Secure messaging](/features/secure-messaging) enables direct communication with [PT](/specialties/physical-therapy). Shared [RTM](/features/rtm-billing) data visibility shows PT progress and exercise compliance. [File exchange](/features/secure-file-exchange) shares protocols and progress reports."
+    },
+    {
+      "q": "Does patient flow work for surgical practices?",
+      "a": "Yes. [Patient flow](/features/patient-flow) manages clinic visits including consultations, post-op follow-ups, and injection procedures. Different flow configurations for different visit types. Wait time visibility supports [patient satisfaction](/features/patient-satisfaction)."
+    },
+    {
+      "q": "How does wearable data help post-operative care?",
+      "a": "[Wearable integration](/features/wearable-integration) shows activity levels and mobility progression after surgery. Step counts from Apple Watch indicate functional recovery. Sleep data reveals whether pain is disrupting rest."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers authorization workflow and scheduling configuration. Week two includes staff training. Week three goes live with support."
+    },
+    {
+      "q": "What ROI should we expect?",
+      "a": "Authorization efficiency saves staff time and improves approval rates. Post-operative [RTM](/features/rtm-billing) adds revenue during recovery months. [Patient flow](/features/patient-flow) efficiency enables higher clinic volume. Most practices see positive ROI within the first quarter."
+    }
+  ],
+  "cta": {
+    "headline": "See Orthopedic Operations Optimized",
+    "subhead": "Fifteen-minute demo showing prior authorization automation, surgical scheduling, post-operative RTM monitoring, and PT coordination. See how orthopedic practices reduce denial rates and capture recovery monitoring revenue.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate Your Savings", "href": "/resources/auth-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "57%", "label": "denial rate addressed" },
+      { "value": "5 min", "label": "LOMN generation" },
+      { "value": "$120K", "label": "annual RTM potential" }
+    ],
+    "testimonial": {
+      "quote": "Prior authorization was consuming my staff. Now LOMN templates auto-populate and we track status without calling payers. Denial rates dropped because documentation addresses common denial reasons from the start. Post-operative RTM lets us monitor recovery between visits and catch problems early. PT coordination finally works the way it should.",
+      "attribution": "Practice Administrator",
+      "practice": "Orthopedic surgery group with six surgeons",
+      "location": "Texas"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "Pre-Authorization",
+      "href": "/features/pre-authorization",
+      "description": "Prior authorization automation for surgical procedures."
+    },
+    {
+      "type": "specialty",
+      "title": "Physical Therapy",
+      "href": "/specialties/physical-therapy",
+      "description": "Coordinating post-operative rehabilitation."
+    },
+    {
+      "type": "specialty",
+      "title": "Spine Surgery",
+      "href": "/specialties/spine-surgery",
+      "description": "Specialized spine surgery operations and authorization."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "Orthopedic Surgery",
+    "relevantConditions": ["Osteoarthritis", "ACL Tear", "Rotator Cuff Tear", "Fractures", "Meniscus Tear"],
+    "availableProcedures": ["Total Knee Arthroplasty", "Total Hip Arthroplasty", "ACL Reconstruction", "Rotator Cuff Repair", "Arthroscopy"]
+  }
+}

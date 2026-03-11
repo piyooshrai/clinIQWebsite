@@ -1,0 +1,129 @@
+{
+  "slug": "vascular-surgery",
+  "name": "Vascular Surgery",
+  "pageType": "specialty-pillar",
+  "wordCount": 2400,
+  "publishDate": "2025-05-20",
+  "meta": {
+    "title": "Vascular Surgery Practice Software | Scheduling, Patient Flow & Coordination | clinIQ",
+    "description": "Complete guide to vascular surgery practice operations. Surgical and endovascular scheduling. Pre-operative workflow management. Post-operative wound monitoring. Coordination with cardiology and primary care.",
+    "keywords": ["vascular surgery software", "vascular surgery practice management", "vascular surgery scheduling", "wound care monitoring", "vascular surgery patient flow", "vascular surgery EHR integration"]
+  },
+  "hero": {
+    "h1": "Vascular Surgery Practice Software",
+    "subhead": "Scheduling optimization across open surgical and endovascular procedures. Pre-operative workflow management. Post-operative wound monitoring through the clinIQ app. Coordination with cardiology, wound care, and primary care for comprehensive vascular management.",
+    "stats": [
+      { "value": "Multi-modal", "label": "procedure scheduling" },
+      { "value": "Wound", "label": "monitoring integration" },
+      { "value": "Post-op", "label": "RTM tracking" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "vascular-operations", "title": "The Vascular Surgery Operations Model" },
+    { "id": "scheduling", "title": "Procedure Scheduling" },
+    { "id": "patient-flow", "title": "Clinic Patient Flow" },
+    { "id": "post-op-monitoring", "title": "Post-Operative Monitoring" },
+    { "id": "care-coordination", "title": "Care Coordination" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "vascular-operations",
+      "h2": "The Vascular Surgery Operations Model",
+      "content": "Vascular surgery practices manage arterial and venous disease through both open surgical and endovascular approaches. Peripheral arterial disease, aortic aneurysms, carotid disease, and venous conditions all fall within the vascular surgery scope. The operational challenge involves coordinating multiple procedure types across different facilities and equipment.\n\nProcedure diversity requires flexible [scheduling](/features/scheduling). Open surgical procedures like bypass grafts and carotid endarterectomy require traditional OR time. Endovascular procedures may occur in hybrid ORs, angiography suites, or office-based labs. Vein procedures may occur in dedicated vein centers. [Scheduling](/features/scheduling) must coordinate across these modalities.\n\nPost-operative wound monitoring is critical for vascular patients who often have compromised tissue healing. Surgical wounds, access sites, and chronic wounds from peripheral arterial disease all require ongoing attention. [RTM](/features/rtm-billing) through the [clinIQ app](/features/patient-app) and photo sharing via [secure file exchange](/features/secure-file-exchange) enable remote wound assessment.\n\nMulti-specialty coordination involves [cardiology](/specialties/cardiology) for patients with coronary disease, [wound care](/specialties/wound-care) for complex wound management, [nephrology](/specialties/nephrology) for dialysis access, and [primary care](/specialties/primary-care) for medical optimization. Vascular patients often have significant comorbidities requiring coordinated management."
+    },
+    {
+      "id": "scheduling",
+      "h2": "Procedure Scheduling Across Modalities",
+      "content": "[Scheduling](/features/scheduling) in vascular surgery coordinates multiple procedure types across different facilities and equipment resources.\n\nOpen surgical scheduling for bypass, carotid endarterectomy, and aortic procedures requires OR block time at hospitals. These complex procedures may require extended time and ICU post-operative planning.\n\nEndovascular scheduling for angioplasty, stenting, and EVAR may occur in hybrid ORs, angiography suites, or office-based labs depending on practice setup. Equipment availability and vendor coordination affect scheduling.\n\nOffice-based procedures for vein ablation, phlebectomy, and sclerotherapy may occur in dedicated procedure rooms. These higher-volume, shorter procedures have different scheduling patterns than major vascular surgery.\n\nDialysis access procedures including fistula creation, graft placement, and thrombectomy require coordination with [nephrology](/specialties/nephrology) and dialysis centers. Timing affects dialysis scheduling.\n\nEmergency vascular surgery for ruptured aneurysms, acute limb ischemia, and other emergencies disrupts scheduled cases. The system tracks emergency impact on elective scheduling.\n\nAuthorization requirements for some procedures require [pre-authorization](/features/pre-authorization) tracking. The system prevents scheduling cases without appropriate approval."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "Clinic Patient Flow",
+      "content": "[Patient flow](/features/patient-flow) in vascular surgery clinics manages consultations, pre-operative visits, post-operative follow-ups, and ongoing surveillance for chronic conditions.\n\nNew patient consultations for vascular evaluation require history, physical examination including vascular assessment, imaging review, and treatment planning. [Check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) collects symptom information before visits.\n\nVascular laboratory visits for non-invasive testing including duplex ultrasound and ABI measurement may be separate from clinic visits or integrated into clinic flow depending on practice structure.\n\nPost-operative follow-ups assess surgical wounds, graft patency, and recovery. Wound photos shared through [secure file exchange](/features/secure-file-exchange) before visits allow pre-visit assessment.\n\nSurveillance visits for patients with treated aneurysms, prior interventions, or chronic disease monitor for progression or recurrence. These visits follow predictable patterns that [scheduling](/features/scheduling) can optimize.\n\nWound care visits for patients with chronic wounds from PAD require extended time for wound assessment and treatment. [Wound care](/specialties/wound-care) coordination may involve shared patients.\n\n[Analytics](/features/analytics) from flow data reveal patterns and optimization opportunities."
+    },
+    {
+      "id": "post-op-monitoring",
+      "h2": "Post-Operative and Wound Monitoring",
+      "content": "Post-operative monitoring for vascular patients through [RTM](/features/rtm-billing) captures recovery data. Wound monitoring is particularly important given compromised tissue healing in many vascular patients.\n\nWound monitoring through photo sharing via [secure file exchange](/features/secure-file-exchange) enables remote assessment. Surgical incisions, access sites, and chronic wounds all benefit from visual monitoring between visits. Patients photograph wounds and share through the [clinIQ app](/features/patient-app).\n\nLower extremity symptom tracking for PAD patients monitors claudication, rest pain, and tissue changes. Patients report walking distance, pain levels, and wound status. Changes may indicate disease progression requiring intervention.\n\nGraft surveillance symptoms including pulse changes, swelling, and warmth may indicate graft complications. Patient-reported symptoms between imaging surveillance visits provide early warning.\n\nPost-endovascular monitoring tracks access site complications, symptoms of restenosis, and medication adherence for antiplatelet therapy.\n\n[Telehealth](/features/telehealth) follow-ups with wound photo review allow assessment for patients who may have difficulty traveling due to mobility limitations from vascular disease."
+    },
+    {
+      "id": "care-coordination",
+      "h2": "Care Coordination",
+      "content": "Vascular surgery requires coordination with multiple specialties given the systemic nature of vascular disease and patient comorbidities.\n\n[Cardiology](/specialties/cardiology) coordination is essential because vascular patients frequently have coronary disease. Pre-operative cardiac evaluation, perioperative cardiac management, and ongoing cardiac care all require coordination. [Secure messaging](/features/secure-messaging) and [file exchange](/features/secure-file-exchange) support communication.\n\n[Wound care](/specialties/wound-care) coordination for patients with complex wounds that span vascular surgery and dedicated wound management. Shared patients require aligned treatment approaches.\n\n[Nephrology](/specialties/nephrology) coordination for dialysis access surgery and for patients with chronic kidney disease affecting vascular management. Dialysis access timing coordinates with nephrology and dialysis centers.\n\n[Primary care](/specialties/primary-care) coordination for medical optimization addresses diabetes management, hypertension control, smoking cessation, and lipid management that affect vascular outcomes. [File exchange](/features/secure-file-exchange) shares surgical information with PCPs.\n\n[Podiatry](/specialties/podiatry) coordination for diabetic foot care involves shared management of patients at risk for limb loss."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "Vascular surgery implementation addresses multi-modal [scheduling](/features/scheduling), clinic [patient flow](/features/patient-flow), and wound monitoring.\n\nWeek one maps scheduling workflows across open surgical, endovascular, and office-based procedures. Clinic flow configures for varied visit types. Wound monitoring workflow establishes photo sharing protocols.\n\nWeek two trains scheduling staff on multi-modal coordination. Clinical staff trains on [patient flow](/features/patient-flow), [check-in](/features/patient-check-in), and wound photo review. Providers train on dashboard and [telehealth](/features/telehealth).\n\nWeek three goes live with [scheduling](/features/scheduling), [patient flow](/features/patient-flow), and wound monitoring.\n\nROI sources include scheduling optimization across procedure modalities. Wound monitoring that catches complications early, potentially avoiding costly interventions. Better coordination with [cardiology](/specialties/cardiology) and other specialties improves outcomes and reduces readmissions.\n\nProfessional tier at $499 monthly includes [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), [file exchange](/features/secure-file-exchange), and [analytics](/features/analytics)."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How does scheduling work across different procedure types?",
+      "a": "[Scheduling](/features/scheduling) coordinates open surgical OR time, endovascular suite time, and office-based procedures. Different procedure types have different duration templates and resource requirements."
+    },
+    {
+      "q": "How does wound monitoring work?",
+      "a": "Patients photograph wounds and share through [secure file exchange](/features/secure-file-exchange) in the [clinIQ app](/features/patient-app). Providers review photos for assessment between visits. Changes in wound appearance trigger earlier evaluation."
+    },
+    {
+      "q": "How do you coordinate with cardiology?",
+      "a": "[Secure messaging](/features/secure-messaging) enables direct communication with [cardiology](/specialties/cardiology). Pre-operative cardiac evaluation coordinates through messaging. [File exchange](/features/secure-file-exchange) shares relevant documentation."
+    },
+    {
+      "q": "Does telehealth work for vascular patients?",
+      "a": "Yes. [Telehealth](/features/telehealth) with wound photo review allows assessment for patients with mobility limitations. Symptom review and medication management work well via video."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers scheduling and workflow configuration. Week two includes staff training. Week three goes live with support."
+    }
+  ],
+  "cta": {
+    "headline": "See Vascular Surgery Operations Optimized",
+    "subhead": "Fifteen-minute demo showing multi-modal scheduling, wound monitoring, and specialty coordination.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Learn More", "href": "/resources/surgical-coordination" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "Multi-modal", "label": "procedure scheduling" },
+      { "value": "Remote", "label": "wound monitoring" },
+      { "value": "Coordinated", "label": "specialty care" }
+    ],
+    "testimonial": {
+      "quote": "Coordinating open vascular, endovascular, and vein procedures used to be chaos. Now scheduling shows the complete picture across modalities. Wound photo monitoring lets us catch problems before patients need to come in urgently. Cardiology coordination for our PAD patients finally works smoothly.",
+      "attribution": "Practice Administrator",
+      "practice": "Vascular surgery practice with two surgeons",
+      "location": "Pennsylvania"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "specialty",
+      "title": "Cardiology",
+      "href": "/specialties/cardiology",
+      "description": "Coordinating vascular and cardiac care."
+    },
+    {
+      "type": "specialty",
+      "title": "Wound Care",
+      "href": "/specialties/wound-care",
+      "description": "Complex wound management coordination."
+    },
+    {
+      "type": "specialty",
+      "title": "Nephrology",
+      "href": "/specialties/nephrology",
+      "description": "Dialysis access coordination."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "Vascular Surgery",
+    "relevantConditions": ["Peripheral Arterial Disease", "Aortic Aneurysm", "Carotid Disease", "Venous Disease", "Dialysis Access"],
+    "availableProcedures": ["Bypass Graft", "Carotid Endarterectomy", "EVAR", "Angioplasty", "Vein Ablation"]
+  }
+}
