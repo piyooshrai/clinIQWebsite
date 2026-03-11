@@ -209,6 +209,12 @@
   left: 50%;
 }
 
+/* Extra-wide dropdown for larger grouped content (Features) */
+.dropdownExtraWide {
+  min-width: 700px;
+  left: 50%;
+}
+
 /* Grouped dropdown inner */
 .groupedInner {
   padding: 1rem;

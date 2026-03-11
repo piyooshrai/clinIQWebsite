@@ -21,8 +21,9 @@ interface NavGroup {
 
 interface NavSection {
   label: string
-  flat?: NavLink[]       // simple grid of links (Features, Compare)
-  grouped?: NavGroup[]   // categorised groups (Specialties, Locations, Resources)
+  flat?: NavLink[]         // simple grid of links (Compare)
+  grouped?: NavGroup[]     // categorised groups (Features, Specialties, Locations, Resources)
+  extraWide?: boolean      // use wider dropdown panel
 }
 
 // ─── Data ─────────────────────────────────────────────────────────────────────
@@ -30,20 +31,41 @@ interface NavSection {
 const NAV_SECTIONS: NavSection[] = [
   {
     label: 'Features',
-    flat: [
-      { label: 'Patient Flow',        href: '/features/patient-flow',         desc: 'Real-time queue tracking' },
-      { label: 'Check-In',            href: '/features/check-in',             desc: 'Digital intake & verification' },
-      { label: 'Scheduling',          href: '/features/scheduling',           desc: 'Multi-provider calendar' },
-      { label: 'RTM Billing',         href: '/features/rtm',                  desc: 'CPT 98975–98981 automation' },
-      { label: 'Pre-Authorization',   href: '/features/pre-auth',             desc: 'Payer approval workflows' },
-      { label: 'Analytics',           href: '/features/analytics',            desc: 'Bottleneck detection' },
-      { label: 'LobbyView',           href: '/features/lobbyview',            desc: 'Patient-facing wait display' },
-      { label: 'Telehealth',          href: '/features/telehealth',           desc: 'Virtual visit workflows' },
-      { label: 'Patient Satisfaction',href: '/features/patient-satisfaction', desc: 'Feedback & experience scores' },
-      { label: 'Wearable Integration',href: '/features/wearable-integration', desc: 'Remote device data sync' },
-      { label: 'Secure Messaging',    href: '/features/secure-messaging',     desc: 'HIPAA-compliant messaging' },
-      { label: 'Secure File Exchange',href: '/features/secure-file-exchange', desc: 'Encrypted document sharing' },
-      { label: 'Patient App',         href: '/features/patient-app',          desc: 'Mobile patient portal' },
+    extraWide: true,
+    grouped: [
+      {
+        heading: 'Visit Operations',
+        links: [
+          { label: 'Patient Flow',      href: '/features/patient-flow',  desc: 'Real-time queue tracking' },
+          { label: 'Check-In',          href: '/features/check-in',      desc: 'Digital intake & verification' },
+          { label: 'Scheduling',        href: '/features/scheduling',    desc: 'Multi-provider calendar' },
+          { label: 'Analytics',         href: '/features/analytics',     desc: 'Bottleneck detection' },
+        ],
+        viewAll: { label: 'All Features →', href: '/features' },
+      },
+      {
+        heading: 'Revenue & Compliance',
+        links: [
+          { label: 'RTM Billing',        href: '/features/rtm',       desc: 'CPT 98975–98981 automation' },
+          { label: 'Pre-Authorization',  href: '/features/pre-auth',  desc: 'Payer approval workflows' },
+        ],
+      },
+      {
+        heading: 'Patient Engagement',
+        links: [
+          { label: 'Telehealth',           href: '/features/telehealth',           desc: 'Virtual visit workflows' },
+          { label: 'Patient Satisfaction', href: '/features/patient-satisfaction', desc: 'Feedback & experience scores' },
+          { label: 'Secure Messaging',     href: '/features/secure-messaging',     desc: 'HIPAA-compliant messaging' },
+          { label: 'Patient App',          href: '/features/patient-app',          desc: 'Mobile patient portal' },
+        ],
+      },
+      {
+        heading: 'Remote Care',
+        links: [
+          { label: 'Wearable Integration', href: '/features/wearable-integration', desc: 'Remote device data sync' },
+          { label: 'Secure File Exchange', href: '/features/secure-file-exchange', desc: 'Encrypted document sharing' },
+        ],
+      },
     ],
   },
   {
@@ -399,7 +421,7 @@ export default function Nav() {
                   <div
                     ref={el => { dropdownRefs.current[section.label] = el }}
                     id={dropdownId}
-                    className={`${styles.dropdown} ${section.grouped ? styles.dropdownWide : ''} ${isOpen ? styles.dropdownOpen : ''}`}
+                    className={`${styles.dropdown} ${section.grouped ? (section.extraWide ? styles.dropdownExtraWide : styles.dropdownWide) : ''} ${isOpen ? styles.dropdownOpen : ''}`}
                     onKeyDown={(e) => handleDropdownKeyDown(e, section.label)}
                   >
                     {section.flat && <FlatDropdown links={section.flat} />}
