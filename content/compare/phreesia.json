@@ -1,0 +1,204 @@
+{
+    "slug": "phreesia",
+    "name": "clinIQ vs Phreesia",
+    "pageType": "compare-pillar",
+    "wordCount": 2400,
+    "publishDate": "2026-03-11",
+    "meta": {
+        "title": "clinIQ vs Phreesia | Patient Intake Alternative | Full Clinic Operations",
+        "description": "Detailed comparison of clinIQ and Phreesia patient intake software. Phreesia handles check-in. clinIQ handles check-in plus real-time patient flow, RTM billing, pre-authorization, and the rest of the visit. Pricing from $249/month vs Phreesia's $250-800/month.",
+        "keywords": [
+            "Phreesia alternative",
+            "Phreesia vs",
+            "Phreesia competitor",
+            "patient intake software",
+            "Phreesia pricing",
+            "Phreesia replacement",
+            "clinic check-in software",
+            "patient flow software",
+            "RTM billing software"
+        ]
+    },
+    "hero": {
+        "h1": "clinIQ vs Phreesia",
+        "subhead": "Phreesia built excellent patient intake software. The problem is that intake covers the first five minutes of a visit. clinIQ covers the next forty-five minutes plus the revenue operations that happen after the patient leaves. Real-time patient flow tracking, RTM billing automation, pre-authorization management, and LobbyView displays are capabilities Phreesia was never designed to provide.",
+        "stats": [
+            {
+                "value": "$249",
+                "label": "clinIQ starting price"
+            },
+            {
+                "value": "Days",
+                "label": "to go live"
+            },
+            {
+                "value": "7+",
+                "label": "modules beyond check-in"
+            }
+        ]
+    },
+    "gatedContent": {
+        "title": "Patient Flow Audit Checklist",
+        "description": "15 questions to ask before your patient intake contract renews. Covers operational gaps most intake-only solutions leave unaddressed.",
+        "format": "PDF",
+        "placeholder": true
+    },
+    "tableOfContents": [
+        {
+            "id": "honest-comparison",
+            "title": "The Honest Comparison"
+        },
+        {
+            "id": "what-phreesia-does-well",
+            "title": "What Phreesia Does Well"
+        },
+        {
+            "id": "operational-gaps",
+            "title": "Operational Gaps After Check-In"
+        },
+        {
+            "id": "revenue-operations",
+            "title": "Revenue Operations Phreesia Doesn't Cover"
+        },
+        {
+            "id": "pricing-comparison",
+            "title": "Pricing Comparison"
+        },
+        {
+            "id": "implementation",
+            "title": "Implementation and Timeline"
+        },
+        {
+            "id": "feature-comparison",
+            "title": "Feature Comparison"
+        },
+        {
+            "id": "switching",
+            "title": "Switching from Phreesia"
+        },
+        {
+            "id": "faqs",
+            "title": "FAQs"
+        }
+    ],
+    "sections": [
+        {
+            "id": "honest-comparison",
+            "h2": "The Honest Comparison Between clinIQ and Phreesia",
+            "content": "Phreesia is one of the most established patient intake platforms in healthcare. The company has been refining check-in workflows since 2005 and holds significant market share among health systems and large specialty practices. Phreesia does intake well because intake is what Phreesia was built to do.\n\nThe question is whether intake is the problem your clinic needs to solve. For practices whose primary operational challenge is collecting forms, verifying insurance eligibility, and capturing consent before the visit begins, Phreesia addresses that challenge competently. The tablet-based workflows are refined, the EHR integrations are extensive, and the platform has two decades of iteration behind it.\n\nFor practices whose challenges extend beyond the waiting room, Phreesia leaves substantial gaps. Once a patient completes intake and moves into the clinical space, Phreesia's visibility ends. The platform cannot tell you which exam room the patient is in, how long they have been waiting for a provider, or whether a bottleneck is building at the MA station. Phreesia cannot track the pre-authorization that expires on Friday or the RTM billing thresholds your clinic is missing. These are operations problems that intake software was never designed to solve.\n\nclinIQ is a clinic operations platform that includes [patient check-in](/features/patient-check-in) as one module among many. Check-in feeds into [real-time patient flow](/features/patient-flow) tracking that shows every patient's location and status from arrival through departure. [RTM billing](/features/rtm-billing) automation captures Remote Therapeutic Monitoring revenue for chronic disease patients. [Pre-authorization management](/features/pre-authorization) tracks approval pipelines and alerts staff before authorizations expire. [Scheduling](/features/scheduling) optimizes provider calendars with intelligent booking. [Analytics](/features/analytics) surface operational bottlenecks before they become visible problems.\n\nThe comparison is not between two intake platforms. It is between an intake platform and a full clinic operations layer. Practices evaluating both should be clear about which problem they are solving."
+        },
+        {
+            "id": "what-phreesia-does-well",
+            "h2": "What Phreesia Does Well",
+            "content": "Acknowledging competitor strengths is not a marketing tactic. It is respect for practices evaluating options who deserve accurate information rather than dismissive positioning.\n\nPhreesia's core intake workflow is mature and effective. Patients check in on dedicated tablets in the waiting room, completing registration, verifying demographic information, signing consents, and updating medical history. The tablet experience has been refined over many years and patients generally navigate it without assistance. Staff see check-in completion status in real time and can intervene if patients get stuck.\n\nInsurance eligibility verification runs automatically during check-in and returns real-time results from payers. Copay and deductible information displays immediately, allowing collection at the front desk before the visit begins. This pre-visit collection significantly improves accounts receivable performance compared to post-visit billing. Practices using Phreesia report meaningful increases in point-of-service collection rates.\n\nEHR integration depth is substantial. Phreesia connects with most major EHR platforms including Epic, athenahealth, eClinicalWorks, NextGen, and Allscripts. Data flows from Phreesia intake into the EHR record without manual entry. This integration has been refined over many implementations and generally works reliably.\n\nPayment processing is integrated into the intake workflow. Patients can pay outstanding balances and visit copays during check-in. Multiple payment methods are supported. The payment experience is smoother than handing a patient a separate terminal after they finish paperwork.\n\nReporting provides visibility into intake metrics. Check-in completion rates, average intake duration, collection amounts, and similar operational data are accessible in dashboards. Practices can see how intake is performing across locations and identify improvement opportunities.\n\nThese capabilities are genuine strengths. Practices whose primary need is better intake should consider Phreesia seriously. The question is whether intake alone addresses the full scope of operational challenges."
+        },
+        {
+            "id": "operational-gaps",
+            "h2": "Operational Gaps After Check-In Ends",
+            "content": "Check-in typically takes three to five minutes. A visit lasts thirty to sixty minutes. Intake software optimizes three to five minutes and has no visibility into the remaining thirty to sixty.\n\nReal-time patient location is invisible to Phreesia after intake completes. A patient who checked in fifteen minutes ago could be in the waiting room, in an exam room, with a medical assistant taking vitals, waiting for the provider, or already in the checkout process. Phreesia cannot distinguish these states because Phreesia's job ended at check-in. Staff who want to know where a specific patient is must walk the clinic or use informal communication. Operations managers who want to understand throughput patterns have no data.\n\nclinIQ's [patient flow](/features/patient-flow) module tracks every patient from arrival through departure. Status updates as patients move between locations. The dashboard shows waiting room census, occupied exam rooms, patients waiting for providers, and patients in checkout. Staff see at a glance where operational attention is needed. This visibility enables proactive management rather than reactive firefighting.\n\nBottleneck detection is impossible without flow visibility. When three patients are simultaneously ready for provider attention but only one provider is available, Phreesia has no mechanism to surface that situation. The bottleneck becomes apparent only when patients complain about wait times or staff notice visually. By then the problem has already degraded patient experience and likely extended overall visit duration.\n\n[Patient flow](/features/patient-flow) automation includes threshold-based alerting. When a room has been occupied beyond expected duration, the system alerts relevant staff. When the waiting room census exceeds comfort levels, the system alerts the front desk. When provider throughput slows, the system alerts clinical leadership. These alerts enable intervention before problems compound.\n\nLobbyView patient displays are not a feature Phreesia offers. Patients in the waiting room have no visibility into their position or expected wait time. They sit and wonder. Staff field the same question repeatedly. The experience feels opaque and frustrating.\n\nclinIQ's LobbyView displays queue position and estimated wait on a lobby television using privacy-compliant identifiers. Patients see their progress. Front desk staff spend less time answering status questions. The experience feels transparent and professionally managed. LobbyView typically runs on any television with a media stick at negligible hardware cost.\n\nAnalytics beyond intake are unavailable in Phreesia because Phreesia cannot see what happens after intake. clinIQ's [analytics](/features/analytics) module tracks full visit duration, time in each stage, provider throughput, and operational patterns across days and weeks. This data enables systematic improvement rather than anecdotal guessing."
+        },
+        {
+            "id": "revenue-operations",
+            "h2": "Revenue Operations Phreesia Does Not Cover",
+            "content": "Clinic revenue depends on more than collecting copays at check-in. Pre-authorization determines whether procedures are reimbursable. RTM billing captures ongoing revenue from chronic disease monitoring. Neither is within Phreesia's scope.\n\nPre-authorization is the administrative process that determines whether payers will cover procedures before they are performed. For [pain management](/specialties/pain-management) clinics, pre-auth is required for most injections and interventional procedures. For [orthopedic surgery](/specialties/orthopedic-surgery) practices, pre-auth gates most surgical procedures. For [spine surgery](/specialties/spine-surgery) clinics, pre-auth denial rates approach sixty percent and appeals consume enormous staff time.\n\nPhreesia does not track pre-authorization status. It does not alert staff when authorizations are approaching expiration. It does not manage the appeal process when initial requests are denied. It does not surface the cases where procedures are scheduled but authorization has not been obtained.\n\nclinIQ's [pre-authorization module](/features/pre-authorization) tracks every authorization from initial request through approval or denial. Pipeline views show pending, approved, and denied cases. Expiration alerts fire before authorizations lapse. Appeal workflows track resubmissions. Integration with the [scheduling](/features/scheduling) module prevents procedures from being scheduled without valid authorization. The administrative burden of pre-auth is substantial and systematic management captures revenue that informal tracking misses.\n\nRemote Therapeutic Monitoring represents recurring monthly revenue for practices managing chronic conditions. [RTM billing](/features/rtm-billing) covers CPT codes 98975 through 98981 for initial patient setup, device supply, and clinical monitoring time. Reimbursement runs one hundred to one hundred fifty dollars per patient per month. For a [behavioral health](/specialties/behavioral-health) practice with two hundred chronic patients, RTM represents two hundred forty thousand dollars in annual revenue opportunity.\n\nPhreesia does not track RTM enrollment. It does not collect patient-reported symptom data. It does not log clinical monitoring time. It does not generate RTM claims. Practices using Phreesia must implement RTM through a separate platform or manual processes.\n\nclinIQ's [RTM billing](/features/rtm-billing) module systematizes the entire workflow. Patients submit symptom data through the [clinIQ app](/features/patient-app) between visits. Clinical time spent reviewing data and managing treatment is logged automatically. Monthly billing generation identifies patients meeting billing thresholds and generates claims with appropriate codes. [Analytics](/features/analytics) track program performance and identify compliance gaps. The revenue is substantial and the workflow is built into the platform.\n\n[Wearable device integration](/features/wearable-integration) supplements patient-reported data with continuous metrics from Apple Watch, Oura Ring, and other devices. This data enriches the clinical picture and supports both RTM and standard care. Phreesia does not integrate with consumer health devices."
+        },
+        {
+            "id": "pricing-comparison",
+            "h2": "Pricing Comparison and Total Cost Analysis",
+            "content": "Phreesia's pricing model is complex and often opaque until late in the sales process. Third-party sources estimate starting prices around two hundred fifty dollars monthly with feature additions pushing costs to eight hundred dollars monthly or higher. Some Phreesia contracts include per-transaction fees that make total cost difficult to predict as patient volume fluctuates. Implementation costs range from one thousand to five thousand dollars for smaller practices and can be substantially higher for complex deployments. Tablet procurement, installation, and ongoing maintenance represent additional costs.\n\nclinIQ pricing is published and predictable. The Starter plan at two hundred forty-nine dollars monthly includes [patient check-in](/features/patient-check-in), [patient flow](/features/patient-flow), and [scheduling](/features/scheduling). The Professional plan at four hundred ninety-nine dollars monthly adds [RTM billing](/features/rtm-billing), [pre-authorization](/features/pre-authorization), [analytics](/features/analytics), and additional modules. Enterprise pricing is custom for multi-location deployments. Implementation is seven hundred fifty dollars one-time regardless of plan level. There are no per-transaction fees, no device lease requirements, and no surprise costs.\n\nThe feature differential changes the value calculation substantially. Phreesia at three hundred dollars monthly provides intake only. clinIQ Professional at four hundred ninety-nine dollars monthly provides intake plus patient flow plus RTM billing plus pre-authorization plus analytics plus telehealth plus secure messaging. The incremental two hundred dollars monthly buys capabilities that Phreesia does not offer at any price point.\n\nRTM revenue alone can justify the difference. A practice enrolling fifty patients in [RTM](/features/rtm-billing) at one hundred twenty dollars average monthly reimbursement generates six thousand dollars monthly in new revenue. The RTM module cost is included in the Professional plan. Net new revenue from RTM alone typically exceeds total clinIQ platform cost within the first month of RTM enrollment.\n\nTotal cost of ownership favors clinIQ for practices that need more than intake. Phreesia's lower starting price purchases a narrower solution. Practices that subsequently need patient flow visibility, RTM billing, or pre-authorization management must either add additional platforms or accept the operational gaps. Additional platforms mean additional integrations, additional vendor relationships, and additional training. clinIQ provides these capabilities in a single platform at lower total cost than assembling equivalent functionality piecemeal."
+        },
+        {
+            "id": "implementation",
+            "h2": "Implementation Timeline and Operational Disruption",
+            "content": "Phreesia implementations for mid-size specialty practices typically run three to six months from contract signature to full operation. The timeline includes device procurement, EHR integration configuration, workflow design, staff training, and pilot deployment before rollout to all patients. Complex deployments with multiple locations or unusual EHR configurations extend the timeline further. During implementation, practices operate in a hybrid state with some patients on the new system and others on legacy processes.\n\nclinIQ implementations are measured in days rather than months. The platform layers on top of existing EHR infrastructure without replacing it. Read-only integrations pull appointment and patient data from the EHR while clinical documentation remains in the EHR unchanged. Staff training typically completes in one to two sessions. Many practices are fully operational within two weeks of contract signature.\n\nThe implementation difference reflects architectural choices. Phreesia's deep EHR integration requires extensive configuration and testing. clinIQ's EHR-agnostic approach minimizes integration complexity while still providing operational visibility. The tradeoff is that clinIQ does not attempt to replace EHR documentation workflows. It provides an operational layer that complements whatever EHR the practice already uses.\n\nHardware requirements differ substantially. Phreesia's tablet-based check-in requires procuring and maintaining dedicated hardware. Tablets need charging stations, cases, and periodic replacement. They need physical security in the waiting room. They need IT support when they malfunction. The hardware represents ongoing operational overhead beyond software costs.\n\nclinIQ's [check-in](/features/patient-check-in) is hardware-optional. Patients can check in via QR code on their own phones, through the [clinIQ app](/features/patient-app), via web link on any device, or on lobby tablets if the practice chooses to provide them. Most practices use existing hardware rather than procuring dedicated devices. LobbyView displays run on any television with a twenty-dollar media stick. The hardware footprint is minimal.\n\nDisruption during cutover is lower with clinIQ's approach. Practices can run clinIQ alongside existing processes initially, transitioning workflows progressively rather than all at once. Staff becomes comfortable with new tools before legacy processes are retired. Patient experience improves immediately without the jarring transition of a hard cutover."
+        },
+        {
+            "id": "feature-comparison",
+            "h2": "Feature-by-Feature Comparison",
+            "content": "Direct comparison of capabilities clarifies what each platform provides and where gaps exist.\n\nPatient self-service check-in is a core strength for Phreesia with mature tablet workflows refined over many years. clinIQ includes equivalent [check-in](/features/patient-check-in) capability with additional flexibility in how patients can check in.\n\nInsurance eligibility verification runs in real time on both platforms during the check-in process. Both return copay and deductible information and flag coverage issues before the visit begins.\n\nDigital intake forms are comprehensive on both platforms. Phreesia's forms run on dedicated tablets. clinIQ's forms can be completed on any device including patient phones, practice tablets, or home computers before arrival.\n\nLive room and queue status is not available in Phreesia because Phreesia's visibility ends at check-in. clinIQ provides real-time [patient flow](/features/patient-flow) dashboards showing every patient's location and status.\n\nBottleneck alerts are not available in Phreesia. clinIQ includes threshold-based alerting when operational conditions require attention.\n\nLobbyView patient display is not available in Phreesia. clinIQ's LobbyView shows queue position and estimated wait on lobby televisions.\n\nRTM billing automation is not available in Phreesia. clinIQ's [RTM module](/features/rtm-billing) tracks enrollment, collects patient-reported data through the [app](/features/patient-app), logs clinical time, and generates monthly claims.\n\nPre-authorization tracking is not available in Phreesia. clinIQ's [pre-authorization module](/features/pre-authorization) manages the full lifecycle from request through approval or appeal.\n\nRecall and waitlist management is not available in Phreesia. clinIQ includes automated recall for overdue patients and waitlist fill for cancelled appointment slots.\n\nPricing model differs significantly. Phreesia uses per-transaction pricing with device fees. clinIQ uses flat monthly per-provider pricing with no transaction fees.\n\nImplementation time runs three to six months for Phreesia versus days for clinIQ.\n\nEHR dependency is higher for Phreesia which requires deep integration. clinIQ layers on any EHR through lightweight read-only integration."
+        },
+        {
+            "id": "switching",
+            "h2": "Switching from Phreesia to clinIQ",
+            "content": "Practices currently using Phreesia can transition to clinIQ without disruption to patient experience or staff workflows. The migration path preserves what works while adding capabilities Phreesia lacks.\n\nContract timing matters. Phreesia contracts typically run one to three years with auto-renewal clauses. Practices planning a transition should review contract terms and identify the notice window required to prevent auto-renewal. Planning the clinIQ implementation to complete before the Phreesia contract ends avoids any gap in check-in capability.\n\nParallel operation during transition is straightforward. clinIQ can run alongside Phreesia initially, with clinIQ handling [patient flow](/features/patient-flow) visibility while Phreesia continues handling check-in. This parallel period allows staff to become comfortable with clinIQ before fully transitioning check-in workflows. Once staff is confident, check-in transitions to clinIQ and the Phreesia contract is not renewed.\n\nData migration is typically not required. Patient demographic and insurance data lives in the EHR, not in Phreesia. clinIQ reads from the EHR just as Phreesia did. Historical intake form responses may be retained in Phreesia for reference but are generally not needed operationally after patients update information through clinIQ.\n\nStaff training focuses on the additional capabilities rather than relearning check-in. Check-in workflows in clinIQ are intuitive for staff already familiar with digital intake. The training emphasis is on [patient flow](/features/patient-flow) visibility, [RTM enrollment](/features/rtm-billing), [pre-authorization tracking](/features/pre-authorization), and other capabilities staff has never had access to before.\n\nPatient experience improves immediately. Patients who were accustomed to Phreesia tablets find clinIQ check-in equally intuitive. LobbyView provides visibility they never had with Phreesia. The [clinIQ app](/features/patient-app) enables pre-visit check-in, [appointment management](/features/scheduling), [secure messaging](/features/secure-messaging), and RTM data submission. The experience is more comprehensive while remaining easy to use."
+        }
+    ],
+    "faqs": [
+        {
+            "q": "Can clinIQ fully replace Phreesia?",
+            "a": "Yes. clinIQ includes [patient check-in](/features/patient-check-in) that replaces Phreesia's core intake function plus [patient flow](/features/patient-flow) tracking, [RTM billing](/features/rtm-billing), [pre-authorization](/features/pre-authorization), and other capabilities Phreesia does not offer. Most practices switching from Phreesia to clinIQ do not need to retain Phreesia for any function."
+        },
+        {
+            "q": "How does Phreesia pricing compare to clinIQ?",
+            "a": "Phreesia typically starts around two hundred fifty dollars monthly with costs reaching eight hundred dollars or higher with additional features, plus per-transaction fees and device costs. clinIQ Starter is two hundred forty-nine dollars monthly and Professional is four hundred ninety-nine dollars monthly with no transaction fees and no required hardware. Total cost of ownership is typically lower for clinIQ while providing substantially more capability."
+        },
+        {
+            "q": "How long does it take to implement clinIQ versus Phreesia?",
+            "a": "Phreesia implementations run three to six months including device procurement, EHR integration, and staff training. clinIQ implementations typically complete in days because the platform layers on existing EHR infrastructure without deep integration requirements."
+        },
+        {
+            "q": "Does clinIQ require dedicated hardware like Phreesia tablets?",
+            "a": "No. clinIQ [check-in](/features/patient-check-in) works via QR code, web link, or the [clinIQ app](/features/patient-app) on any device. Practices can provide lobby tablets if desired using existing hardware rather than dedicated devices. LobbyView displays run on any television with an inexpensive media stick."
+        },
+        {
+            "q": "What does clinIQ do that Phreesia does not?",
+            "a": "clinIQ provides real-time [patient flow](/features/patient-flow) tracking, bottleneck alerts, LobbyView displays, [RTM billing](/features/rtm-billing) automation, [pre-authorization management](/features/pre-authorization), [wearable integration](/features/wearable-integration), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), and [analytics](/features/analytics). Phreesia focuses on intake and does not offer these operational capabilities."
+        },
+        {
+            "q": "Can I run clinIQ alongside Phreesia during a transition?",
+            "a": "Yes. Practices commonly run both platforms in parallel during transition. clinIQ handles [patient flow](/features/patient-flow) and new capabilities while Phreesia continues handling check-in. Once staff is comfortable, check-in transitions to clinIQ and Phreesia is retired."
+        },
+        {
+            "q": "Does clinIQ work with my EHR?",
+            "a": "clinIQ works alongside virtually any EHR including Epic, athenahealth, eClinicalWorks, ModMed, NextGen, and others. The platform uses read-only integrations to pull appointment and patient data without touching clinical documentation. It is an operations layer that complements your existing EHR rather than replacing it."
+        },
+        {
+            "q": "What RTM revenue can I capture with clinIQ that I cannot with Phreesia?",
+            "a": "[RTM billing](/features/rtm-billing) for chronic disease patients generates one hundred to one hundred fifty dollars per patient monthly. A practice with one hundred enrolled patients captures twelve thousand dollars monthly or one hundred forty-four thousand annually. Phreesia does not offer RTM capability at any price point."
+        }
+    ],
+    "relatedContent": {
+        "features": [
+            {
+                "slug": "patient-check-in",
+                "title": "Patient Check-In"
+            },
+            {
+                "slug": "patient-flow",
+                "title": "Patient Flow"
+            },
+            {
+                "slug": "rtm-billing",
+                "title": "RTM Billing"
+            },
+            {
+                "slug": "pre-authorization",
+                "title": "Pre-Authorization"
+            }
+        ],
+        "specialties": [
+            {
+                "slug": "pain-management",
+                "title": "Pain Management"
+            },
+            {
+                "slug": "orthopedic-surgery",
+                "title": "Orthopedic Surgery"
+            },
+            {
+                "slug": "behavioral-health",
+                "title": "Behavioral Health"
+            }
+        ],
+        "competitors": [
+            {
+                "slug": "clearwave",
+                "title": "clinIQ vs Clearwave"
+            },
+            {
+                "slug": "athenahealth",
+                "title": "clinIQ vs athenahealth"
+            }
+        ]
+    }
+}

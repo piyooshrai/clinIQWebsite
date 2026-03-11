@@ -108,13 +108,54 @@ const NAV_SECTIONS: NavSection[] = [
   },
   {
     label: 'Compare',
-    flat: [
-      { label: 'vs Phreesia',      href: '/compare/phreesia',      desc: 'Track beyond check-in' },
-      { label: 'vs Clearwave',     href: '/compare/clearwave',     desc: 'Full operations vs check-in' },
-      { label: 'vs Tebra',         href: '/compare/tebra',         desc: 'Real-time vs static' },
-      { label: 'vs SimplePractice',href: '/compare/simplepractice', desc: 'Clinical ops vs notes' },
-      { label: 'vs athenahealth',  href: '/compare/athenahealth',  desc: 'Flow layer vs EHR' },
-      { label: 'View all →',       href: '/compare',               desc: 'All comparisons' },
+    extraWide: true,
+    grouped: [
+      {
+        heading: 'Patient Intake',
+        links: [
+          { label: 'vs Phreesia',  href: '/compare/phreesia',  desc: 'Beyond intake to full operations' },
+          { label: 'vs Clearwave', href: '/compare/clearwave', desc: 'Kiosk to real-time flow' },
+        ],
+      },
+      {
+        heading: 'EHR',
+        links: [
+          { label: 'vs athenahealth',    href: '/compare/athenahealth',    desc: 'Operations layer for athenaOne' },
+          { label: 'vs eClinicalWorks',  href: '/compare/eclinicalworks',  desc: 'Operations layer for eCW' },
+          { label: 'vs NextGen',         href: '/compare/nextgen',         desc: 'Operations layer for NextGen' },
+          { label: 'vs AdvancedMD',      href: '/compare/advancedmd',      desc: 'Operations layer add-on' },
+          { label: 'vs Tebra',           href: '/compare/tebra',           desc: 'Operations vs marketing focus' },
+        ],
+      },
+      {
+        heading: 'Practice Management',
+        links: [
+          { label: 'vs SimplePractice', href: '/compare/simplepractice', desc: 'Multi-provider ops + RTM' },
+        ],
+        viewAll: { label: 'View all comparisons →', href: '/compare' },
+      },
+      {
+        heading: 'Queue Management',
+        links: [
+          { label: 'vs QLess',    href: '/compare/qless',    desc: 'Healthcare-specific flow' },
+          { label: 'vs Waitwhile', href: '/compare/waitwhile', desc: 'Full visit tracking' },
+        ],
+      },
+      {
+        heading: 'Workflow Type',
+        links: [
+          { label: 'vs EHR-Only',           href: '/compare/ehr-only',           desc: 'Add operations to any EHR' },
+          { label: 'vs Generic Scheduling',  href: '/compare/generic-scheduling', desc: 'Beyond the calendar' },
+        ],
+      },
+      {
+        heading: 'Manual / Legacy',
+        links: [
+          { label: 'vs Whiteboards',   href: '/compare/whiteboards',  desc: 'Real-time digital tracking' },
+          { label: 'vs Spreadsheets',  href: '/compare/spreadsheets', desc: 'Automatic vs manual' },
+          { label: 'vs Paper Sign-In', href: '/compare/paper-signin', desc: 'Digital workflow' },
+        ],
+      },
     ],
   },
   {

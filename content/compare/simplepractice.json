@@ -1,0 +1,168 @@
+{
+    "slug": "simplepractice",
+    "name": "clinIQ vs SimplePractice",
+    "pageType": "compare-pillar",
+    "wordCount": 2000,
+    "publishDate": "2026-03-11",
+    "meta": {
+        "title": "clinIQ vs SimplePractice | Behavioral Health Operations | RTM Billing",
+        "description": "SimplePractice handles notes and scheduling for behavioral health. clinIQ adds real-time patient flow, RTM billing automation at $110-150/patient/month, and multi-provider operations that solo-practice tools cannot provide.",
+        "keywords": [
+            "SimplePractice alternative",
+            "SimplePractice vs",
+            "behavioral health software",
+            "SimplePractice competitor",
+            "mental health practice management",
+            "RTM billing behavioral health",
+            "therapy practice software"
+        ]
+    },
+    "hero": {
+        "h1": "clinIQ vs SimplePractice",
+        "subhead": "SimplePractice is built for solo therapists managing notes and appointments. When behavioral health practices grow to multiple providers, group sessions, and chronic patient populations, SimplePractice's architecture shows strain. clinIQ provides the multi-provider operations layer plus RTM billing that captures $110-150 per patient monthly.",
+        "stats": [
+            {
+                "value": "$110-150",
+                "label": "RTM revenue per patient"
+            },
+            {
+                "value": "Multi-provider",
+                "label": "operations support"
+            },
+            {
+                "value": "Real-time",
+                "label": "patient flow visibility"
+            }
+        ]
+    },
+    "gatedContent": {
+        "title": "Behavioral Health RTM Revenue Guide",
+        "description": "How behavioral health practices capture $110-150 per patient monthly through Remote Therapeutic Monitoring. CPT codes 98976, 98980, 98981 explained.",
+        "format": "PDF",
+        "placeholder": true
+    },
+    "tableOfContents": [
+        {
+            "id": "different-markets",
+            "title": "Different Markets, Different Tools"
+        },
+        {
+            "id": "simplepractice-strengths",
+            "title": "What SimplePractice Does Well"
+        },
+        {
+            "id": "growth-limitations",
+            "title": "Where Solo-Practice Tools Limit Growth"
+        },
+        {
+            "id": "rtm-opportunity",
+            "title": "The RTM Revenue Opportunity"
+        },
+        {
+            "id": "multi-provider-operations",
+            "title": "Multi-Provider Operations"
+        },
+        {
+            "id": "capability-comparison",
+            "title": "Capability Comparison"
+        },
+        {
+            "id": "faqs",
+            "title": "FAQs"
+        }
+    ],
+    "sections": [
+        {
+            "id": "different-markets",
+            "h2": "Different Markets Require Different Tools",
+            "content": "SimplePractice and clinIQ serve different segments of behavioral health. Understanding the difference helps practices choose appropriately for their current situation and growth trajectory.\n\nSimplePractice is designed for solo practitioners and very small therapy practices. The platform combines scheduling, documentation, billing, and client communication in a package optimized for individual therapists managing their own caseloads. For that market segment, SimplePractice is a reasonable choice with strong user satisfaction.\n\nclinIQ serves multi-provider [behavioral health](/specialties/behavioral-health) practices, [psychiatry](/specialties/psychiatry) groups, and [addiction medicine](/specialties/addiction-medicine) clinics. These organizations have operational complexity that solo-practice tools cannot address: multiple providers sharing space, group therapy sessions requiring room coordination, chronic patient populations eligible for RTM revenue, and pre-authorization requirements for psychiatric procedures.\n\nThe comparison is not about which platform is better in absolute terms. It is about which platform fits the practice's operational reality. A solo therapist transitioning from paper scheduling to digital tools may find SimplePractice perfectly adequate. A group practice with eight clinicians, IOP programs, and medication management services needs capabilities SimplePractice was never designed to provide.\n\nPractices currently using SimplePractice who are experiencing operational strain as they grow should evaluate whether their challenges stem from the platform's solo-practice architecture. Adding providers, expanding to multiple locations, or launching intensive outpatient programs may require tools built for multi-provider operations."
+        },
+        {
+            "id": "simplepractice-strengths",
+            "h2": "What SimplePractice Does Well",
+            "content": "SimplePractice has built a thoughtfully designed platform for individual therapists and small practices. Its strengths are genuine within that scope.\n\nDocumentation is clean and efficient. Progress notes, treatment plans, and assessments are accessible with minimal clicks. Templates are appropriate for therapy workflows. The mobile app allows documentation from anywhere. For therapists who previously used paper records, the transition to SimplePractice typically feels natural.\n\nClient scheduling is straightforward. Online booking lets clients schedule their own appointments. Automated reminders reduce no-shows. Calendar management handles individual caseloads effectively. The interface is designed for clinicians who are not technology specialists.\n\nBilling is integrated for common therapy scenarios. Insurance claims can be submitted directly. Client invoicing is built in. Credit card processing is available. For straightforward therapy billing, SimplePractice handles the basics.\n\nTelehealth is native to the platform. Video sessions work without third-party integrations. Clients join through links without downloading apps. The telehealth experience is adequate for individual therapy sessions.\n\nClient communication includes secure messaging and a client portal. Intake forms can be sent electronically. Documents can be shared securely. These features address the communication needs of individual therapy relationships.\n\nPricing is accessible for solo practitioners. Starting around thirty dollars monthly for basic features and scaling to around ninety-nine dollars for full functionality, SimplePractice fits therapy practice budgets. The value proposition is strong for its target market.\n\nThese are genuine strengths for solo practitioners and very small practices. The question is whether they remain sufficient as practices grow."
+        },
+        {
+            "id": "growth-limitations",
+            "h2": "Where Solo-Practice Architecture Limits Growth",
+            "content": "SimplePractice was designed around the workflow of an individual therapist. When practices add providers, expand locations, or launch programs, that architectural assumption creates friction.\n\nMulti-provider scheduling becomes complex. SimplePractice handles individual provider calendars but lacks sophisticated resource allocation for shared spaces, group rooms, or medication management suites. When multiple clinicians need the same room at overlapping times, the platform does not surface conflicts proactively. Staff must manually coordinate room assignments.\n\nReal-time patient flow is absent because solo practices do not need it. A therapist knows their next client is in the waiting room because they have one waiting room and one schedule. A multi-provider practice with shared waiting areas, multiple therapy rooms, and different appointment types needs visibility into where every patient is. SimplePractice cannot show current occupancy, wait times, or bottleneck patterns.\n\nclinIQ's [patient flow](/features/patient-flow) module tracks every patient from arrival through departure. The dashboard shows waiting room census, occupied rooms, and patients ready for each provider. LobbyView displays give patients visibility into their wait. This operational awareness is essential for practices with scale that solo tools cannot provide.\n\nGroup therapy coordination requires room management that SimplePractice was not designed to handle. Intensive outpatient programs with multiple daily groups need resource scheduling across rooms, facilitators, and time slots. clinIQ's [scheduling](/features/scheduling) module handles multi-resource coordination that scales beyond individual caseloads.\n\nMedication management workflows differ from therapy workflows. [Psychiatry](/specialties/psychiatry) practices with prescribers need prior authorization tracking for medications and procedures. SimplePractice does not provide pre-auth management. clinIQ's [pre-authorization module](/features/pre-authorization) tracks requests through resolution with expiration alerting and appeal workflow.\n\nOperational analytics require data that SimplePractice does not collect. Understanding provider throughput patterns, identifying scheduling inefficiencies, and optimizing room utilization need stage-level timing data across providers. clinIQ's [analytics](/features/analytics) surface these patterns because [patient flow](/features/patient-flow) tracking generates the underlying data."
+        },
+        {
+            "id": "rtm-opportunity",
+            "h2": "The RTM Revenue Opportunity in Behavioral Health",
+            "content": "Remote Therapeutic Monitoring generates substantial recurring revenue for behavioral health practices managing chronic conditions. SimplePractice does not support RTM workflows. clinIQ does.\n\nBehavioral health RTM uses CPT code 98976 for device supply and codes 98980 and 98981 for treatment management time. Patients with depression, anxiety, bipolar disorder, PTSD, substance use disorders, and other chronic behavioral conditions qualify when systematic monitoring is clinically appropriate.\n\nThe revenue math is compelling. [RTM billing](/features/rtm-billing) generates approximately one hundred ten to one hundred fifty dollars per patient per month combining device supply and treatment management codes. A [behavioral health](/specialties/behavioral-health) practice with one hundred chronic patients captures one hundred thirty-two thousand to one hundred eighty thousand dollars annually from RTM alone.\n\nRTM workflow requires infrastructure SimplePractice does not provide. Patient enrollment captures consent and establishes monitoring protocols. The [clinIQ app](/features/patient-app) collects patient-reported symptom data between sessions through validated instruments. Clinical time spent reviewing data and adjusting treatment logs automatically. Monthly billing generation identifies patients meeting thresholds and creates claims with appropriate codes.\n\nCompliance tracking ensures billing accuracy. The industry average RTM compliance rate hovers around forty percent. Most practices fail to capture half the revenue their enrolled patients should generate because data collection is inconsistent and time tracking is incomplete. clinIQ achieves seventy-five percent or higher compliance through systematic workflows and patient engagement via the app.\n\nThe workflow integrates with clinical care rather than adding burden. Providers reviewing RTM symptom data make better treatment decisions. PHQ-9 and GAD-7 trends between sessions reveal patterns invisible in monthly appointments. The monitoring improves care while generating revenue.\n\n[Addiction medicine](/specialties/addiction-medicine) practices capture similar RTM revenue for MAT patients and those in recovery. Systematic tracking of cravings, triggers, and medication adherence supports both clinical care and billing. [Psychiatry](/specialties/psychiatry) practices bill RTM alongside medication management for patients with chronic conditions.\n\nSimplePractice does not offer RTM capability at any price point. Practices using SimplePractice must implement RTM through separate platforms or manual processes, adding complexity and reducing compliance. clinIQ provides RTM as an integrated module."
+        },
+        {
+            "id": "multi-provider-operations",
+            "h2": "Multi-Provider Operations Require Multi-Provider Tools",
+            "content": "The operational complexity of multi-provider practices extends beyond what SimplePractice was designed to handle.\n\nProvider coordination requires shared visibility. When multiple clinicians work from the same location, they need awareness of each other's schedules and patient status. SimplePractice shows individual calendars but does not provide the unified view that multi-provider operations require. clinIQ's [patient flow](/features/patient-flow) dashboard shows all providers' patients in a single view.\n\nRoom utilization matters when rooms are shared resources. Therapy practices with multiple providers sharing limited rooms need to optimize allocation. SimplePractice assumes each provider has dedicated space. clinIQ's [scheduling](/features/scheduling) and [analytics](/features/analytics) track room utilization patterns and identify optimization opportunities.\n\nFront desk operations scale differently. A solo therapist may manage their own intake. A multi-provider practice has dedicated front desk staff handling check-in, insurance verification, and patient communication across all providers. clinIQ's [check-in](/features/patient-check-in) module streamlines front desk workflows with digital intake that feeds into unified flow tracking.\n\nOrganizational reporting requires aggregation across providers. Understanding practice-wide performance, comparing provider throughput, and identifying operational patterns need data consolidated across the organization. SimplePractice reporting is oriented around individual caseloads. clinIQ [analytics](/features/analytics) provide practice-wide operational intelligence.\n\n[Secure messaging](/features/secure-messaging) at scale handles patient communication beyond individual provider relationships. When patients interact with front desk, clinical coordinators, and multiple providers, communication needs organizational structure. clinIQ's messaging integrates with [patient flow](/features/patient-flow) and provides visibility into communication status.\n\nGrowth planning requires operational data that SimplePractice does not generate. Deciding whether to add providers, expand locations, or launch new programs depends on understanding current capacity utilization. clinIQ [analytics](/features/analytics) show where capacity exists and where constraints limit growth."
+        },
+        {
+            "id": "capability-comparison",
+            "h2": "Capability Comparison",
+            "content": "Clinical documentation for therapy is SimplePractice's strength with templates optimized for progress notes and treatment plans. clinIQ focuses on operations rather than clinical documentation.\n\nIndividual scheduling is effective in SimplePractice for personal caseload management. clinIQ's [scheduling](/features/scheduling) handles multi-provider and multi-resource coordination.\n\nTelehealth is native to SimplePractice for individual sessions. clinIQ's [telehealth](/features/telehealth) module integrates with patient flow and check-in workflows.\n\nReal-time patient flow is not available in SimplePractice. clinIQ provides [patient flow](/features/patient-flow) dashboards showing every patient's current status and location.\n\nLobbyView displays are not available in SimplePractice. clinIQ shows queue position and wait estimates on lobby televisions.\n\nRTM billing automation is not available in SimplePractice. clinIQ provides full [RTM workflow](/features/rtm-billing) generating $110-150 per patient monthly.\n\nPre-authorization tracking is not available in SimplePractice. clinIQ's [pre-authorization module](/features/pre-authorization) manages requests through resolution.\n\nOperational analytics for multi-provider practices are limited in SimplePractice. clinIQ [analytics](/features/analytics) track patterns across providers and locations.\n\nWearable integration is not available in SimplePractice. clinIQ connects with Apple Watch, Oura Ring, and other devices through [wearable integration](/features/wearable-integration).\n\nPricing reflects different markets. SimplePractice runs approximately thirty to ninety-nine dollars monthly per clinician. clinIQ Starter is two hundred forty-nine dollars monthly and Professional is four hundred ninety-nine dollars monthly. RTM revenue from even modest enrollment typically exceeds the difference."
+        }
+    ],
+    "faqs": [
+        {
+            "q": "Is clinIQ a replacement for SimplePractice?",
+            "a": "For growing multi-provider practices, clinIQ provides operations capabilities SimplePractice lacks including [patient flow](/features/patient-flow), [RTM billing](/features/rtm-billing), and [pre-authorization tracking](/features/pre-authorization). Some practices use clinIQ alongside SimplePractice initially while others transition fully depending on documentation needs."
+        },
+        {
+            "q": "Can behavioral health practices bill RTM with SimplePractice?",
+            "a": "SimplePractice does not provide RTM workflow capability. Practices must use separate platforms or manual processes. clinIQ includes [RTM billing](/features/rtm-billing) that generates $110-150 per chronic patient monthly with integrated enrollment and the [clinIQ app](/features/patient-app) for symptom data collection."
+        },
+        {
+            "q": "How much RTM revenue can a behavioral health practice capture?",
+            "a": "A practice with one hundred chronic patients enrolled in [RTM](/features/rtm-billing) captures approximately $132,000-180,000 annually through CPT codes 98976, 98980, and 98981. clinIQ achieves 75%+ compliance versus 40% industry average."
+        },
+        {
+            "q": "When should a practice outgrow SimplePractice?",
+            "a": "Signs include difficulty coordinating multiple provider schedules, lack of visibility into patient location and wait times, inability to optimize shared room resources, and missing [RTM revenue](/features/rtm-billing) opportunity. These challenges indicate operational complexity beyond solo-practice tool design."
+        },
+        {
+            "q": "Does clinIQ work for addiction medicine and psychiatry?",
+            "a": "Yes. clinIQ serves [addiction medicine](/specialties/addiction-medicine) practices with MAT workflows and [psychiatry](/specialties/psychiatry) groups with medication management. [RTM billing](/features/rtm-billing) captures revenue for chronic behavioral conditions. [Pre-authorization](/features/pre-authorization) tracks approval for medications and procedures."
+        }
+    ],
+    "relatedContent": {
+        "features": [
+            {
+                "slug": "rtm-billing",
+                "title": "RTM Billing"
+            },
+            {
+                "slug": "patient-flow",
+                "title": "Patient Flow"
+            },
+            {
+                "slug": "scheduling",
+                "title": "Scheduling"
+            }
+        ],
+        "specialties": [
+            {
+                "slug": "behavioral-health",
+                "title": "Behavioral Health"
+            },
+            {
+                "slug": "psychiatry",
+                "title": "Psychiatry"
+            },
+            {
+                "slug": "addiction-medicine",
+                "title": "Addiction Medicine"
+            }
+        ],
+        "competitors": [
+            {
+                "slug": "phreesia",
+                "title": "clinIQ vs Phreesia"
+            },
+            {
+                "slug": "athenahealth",
+                "title": "clinIQ vs athenahealth"
+            }
+        ]
+    }
+}
