@@ -1,0 +1,129 @@
+{
+  "slug": "podiatry",
+  "name": "Podiatry",
+  "pageType": "specialty-pillar",
+  "wordCount": 2200,
+  "publishDate": "2025-06-30",
+  "meta": {
+    "title": "Podiatry Practice Software | Scheduling, Patient Flow & Wound Monitoring | clinIQ",
+    "description": "Complete guide to podiatry practice operations. Clinic and surgical scheduling. Diabetic foot care workflow. Wound monitoring through mobile app. Coordination with vascular surgery and endocrinology.",
+    "keywords": ["podiatry software", "podiatry practice management", "diabetic foot care", "podiatry patient flow", "podiatry scheduling", "podiatry EHR integration"]
+  },
+  "hero": {
+    "h1": "Podiatry Practice Software",
+    "subhead": "Clinic and surgical scheduling optimization. Diabetic foot care workflow with wound monitoring. Photo documentation through the clinIQ app. Coordination with vascular surgery and endocrinology for comprehensive limb preservation.",
+    "stats": [
+      { "value": "Diabetic", "label": "foot care workflow" },
+      { "value": "Wound", "label": "photo monitoring" },
+      { "value": "Limb", "label": "preservation coordination" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "podiatry-operations", "title": "The Podiatry Operations Model" },
+    { "id": "scheduling", "title": "Clinic and Surgical Scheduling" },
+    { "id": "diabetic-foot-care", "title": "Diabetic Foot Care" },
+    { "id": "wound-monitoring", "title": "Wound Monitoring" },
+    { "id": "care-coordination", "title": "Care Coordination" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "podiatry-operations",
+      "h2": "The Podiatry Operations Model",
+      "content": "Podiatry practices manage foot and ankle conditions from routine nail care to complex diabetic foot ulcers and surgical reconstruction. Diabetic foot care represents critical disease management where proper surveillance prevents amputation. [Patient flow](/features/patient-flow) must accommodate varied visit types and durations.\n\n[Scheduling](/features/scheduling) spans routine care, wound care requiring extended time, and surgical procedures. Surgical cases range from office procedures to hospital OR cases.\n\nWound monitoring through photo documentation via the [clinIQ app](/features/patient-app) enables between-visit assessment. Early identification of wound deterioration enables intervention before hospitalization.\n\nCare coordination with [vascular surgery](/specialties/vascular-surgery) for arterial disease, [endocrinology](/specialties/endocrinology) for diabetes management, and [wound care](/specialties/wound-care) for complex wounds addresses comprehensive limb preservation."
+    },
+    {
+      "id": "scheduling",
+      "h2": "Clinic and Surgical Scheduling",
+      "content": "[Scheduling](/features/scheduling) in podiatry coordinates varied visit types with different time requirements.\n\nRoutine care scheduling for nail care, callus debridement, and follow-ups allows efficient high-volume scheduling.\n\nWound care scheduling for diabetic foot ulcers requires extended time for debridement, dressing, and offloading assessment.\n\nSurgical scheduling coordinates office procedures like ingrown nail removal with ASC or hospital cases for bunion surgery, ankle reconstruction, and amputation.\n\nDiabetic foot check scheduling ensures regular surveillance for at-risk patients.\n\nPatient self-scheduling through the [patient app](/features/patient-app) works for routine visits while surgical and wound care scheduling remains staff-managed."
+    },
+    {
+      "id": "diabetic-foot-care",
+      "h2": "Diabetic Foot Care Workflow",
+      "content": "Diabetic foot care follows systematic workflow to prevent complications and limb loss.\n\nRisk stratification identifies patients at high risk for ulceration and amputation. History of ulcer, neuropathy, and vascular disease determine surveillance frequency.\n\nComprehensive foot examination includes vascular assessment, neurological evaluation, and skin inspection. [Check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) collects symptom information.\n\nUlcer assessment for active wounds documents wound characteristics, measurements, and response to treatment. Photo documentation creates objective record.\n\nOffloading assessment ensures patients have appropriate footwear and devices to prevent pressure on wounds.\n\nPatient education through the app reinforces daily foot inspection, appropriate footwear, and warning signs requiring immediate evaluation.\n\n[Wearable integration](/features/wearable-integration) may capture activity data relevant to offloading compliance."
+    },
+    {
+      "id": "wound-monitoring",
+      "h2": "Wound Monitoring Through Photo Documentation",
+      "content": "Wound monitoring through photos shared via [secure file exchange](/features/secure-file-exchange) enables between-visit assessment of diabetic foot ulcers.\n\nPatient-submitted photos allow visual assessment without requiring office visits. Patients photograph wounds and share through the [clinIQ app](/features/patient-app).\n\nWound deterioration identification through photo review catches problems early. Increasing size, infection signs, or other concerning changes trigger earlier evaluation.\n\nHealing progression documentation shows wound improvement over time. Consistent photo protocols enable meaningful comparison.\n\n[Telehealth](/features/telehealth) with photo review provides visual assessment for patients with mobility limitations or those at distance from the practice.\n\n[Secure messaging](/features/secure-messaging) addresses patient questions about wound care between visits."
+    },
+    {
+      "id": "care-coordination",
+      "h2": "Care Coordination for Limb Preservation",
+      "content": "Podiatry coordinates with specialists for comprehensive diabetic foot and limb care.\n\n[Vascular surgery](/specialties/vascular-surgery) coordination for patients with peripheral arterial disease addresses revascularization needs. Wound healing requires adequate blood supply. [Secure messaging](/features/secure-messaging) supports communication.\n\n[Endocrinology](/specialties/endocrinology) coordination for diabetes management addresses glycemic control affecting wound healing. Shared patients require aligned management.\n\n[Wound care](/specialties/wound-care) coordination for complex wounds that span podiatry and specialized wound care services.\n\nOrthopedics coordination for foot and ankle conditions requiring orthopedic evaluation.\n\n[Primary care](/specialties/primary-care) coordination for shared chronic disease management."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "Podiatry implementation addresses [scheduling](/features/scheduling) across visit types, diabetic foot care workflow, and wound monitoring.\n\nWeek one maps clinic flow including wound care visits. [Scheduling](/features/scheduling) configures for routine, wound care, and surgical visit types. Photo documentation workflow establishes.\n\nWeek two trains staff on [patient flow](/features/patient-flow), [scheduling](/features/scheduling), and [check-in](/features/patient-check-in). Providers train on photo review and [telehealth](/features/telehealth).\n\nWeek three goes live with [patient flow](/features/patient-flow), [scheduling](/features/scheduling), and wound monitoring.\n\nROI sources include scheduling efficiency maximizing visit volume. Wound monitoring catching problems early potentially preventing hospitalization. Better coordination with [vascular surgery](/specialties/vascular-surgery) supporting limb preservation.\n\nProfessional tier at $499 monthly includes [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), [file exchange](/features/secure-file-exchange), and [analytics](/features/analytics)."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How does scheduling handle varied visit types?",
+      "a": "[Scheduling](/features/scheduling) uses templates for routine care, extended wound care, and surgical cases with appropriate duration."
+    },
+    {
+      "q": "How does wound photo monitoring work?",
+      "a": "Patients photograph wounds and share through [secure file exchange](/features/secure-file-exchange). Providers review for assessment. Deterioration triggers earlier evaluation."
+    },
+    {
+      "q": "How do you coordinate limb preservation?",
+      "a": "[Secure messaging](/features/secure-messaging) enables communication with [vascular surgery](/specialties/vascular-surgery) and [endocrinology](/specialties/endocrinology). Comprehensive diabetic foot care requires aligned management."
+    },
+    {
+      "q": "Does telehealth work for podiatry?",
+      "a": "[Telehealth](/features/telehealth) with photo review supports wound assessment for appropriate cases. Not appropriate for all conditions but expands access."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers configuration. Week two includes training. Week three goes live with support."
+    }
+  ],
+  "cta": {
+    "headline": "See Podiatry Operations Optimized",
+    "subhead": "Fifteen-minute demo showing diabetic foot care workflow, wound photo monitoring, and limb preservation coordination.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Learn More", "href": "/resources/wound-monitoring" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "Diabetic", "label": "foot care" },
+      { "value": "Wound", "label": "photo monitoring" },
+      { "value": "Limb", "label": "preservation" }
+    ],
+    "testimonial": {
+      "quote": "Wound photo monitoring catches deterioration before patients need hospitalization. Diabetic foot care workflow is systematic and documented. Coordination with vascular surgery for limb preservation finally works smoothly. We prevent more amputations.",
+      "attribution": "Podiatrist",
+      "practice": "Podiatry practice",
+      "location": "Nevada"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "specialty",
+      "title": "Vascular Surgery",
+      "href": "/specialties/vascular-surgery",
+      "description": "Coordinating revascularization for diabetic foot."
+    },
+    {
+      "type": "specialty",
+      "title": "Wound Care",
+      "href": "/specialties/wound-care",
+      "description": "Complex wound management coordination."
+    },
+    {
+      "type": "specialty",
+      "title": "Endocrinology",
+      "href": "/specialties/endocrinology",
+      "description": "Diabetes management for foot care."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "Podiatry",
+    "relevantConditions": ["Diabetic Foot Ulcer", "Bunion", "Plantar Fasciitis", "Ingrown Nail", "Ankle Injury"],
+    "availableProcedures": ["Nail Debridement", "Ulcer Debridement", "Bunion Surgery", "Amputation", "Ankle Reconstruction"]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "slug": "infusion-centers",
+  "name": "Infusion Centers",
+  "pageType": "specialty-pillar",
+  "wordCount": 2200,
+  "publishDate": "2025-07-02",
+  "meta": {
+    "title": "Infusion Center Software | Chair Scheduling, Patient Flow & Pre-Authorization | clinIQ",
+    "description": "Complete guide to infusion center operations. Chair scheduling optimization. Infusion workflow management. Pre-authorization for biologics and chemotherapy. Symptom monitoring during and after infusions.",
+    "keywords": ["infusion center software", "infusion scheduling", "chair management", "infusion patient flow", "biologic infusion", "infusion pre-authorization"]
+  },
+  "hero": {
+    "h1": "Infusion Center Software",
+    "subhead": "Chair scheduling optimization maximizing infusion capacity. Workflow management from check-in through post-infusion monitoring. Pre-authorization for biologics, chemotherapy, and specialty medications. Symptom tracking through the clinIQ app.",
+    "stats": [
+      { "value": "Chair", "label": "utilization optimization" },
+      { "value": "Pre-auth", "label": "tracking" },
+      { "value": "Infusion", "label": "workflow" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "infusion-operations", "title": "The Infusion Center Operations Model" },
+    { "id": "chair-scheduling", "title": "Chair Scheduling Optimization" },
+    { "id": "infusion-workflow", "title": "Infusion Workflow" },
+    { "id": "pre-authorization", "title": "Pre-Authorization" },
+    { "id": "symptom-monitoring", "title": "Symptom Monitoring" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "infusion-operations",
+      "h2": "The Infusion Center Operations Model",
+      "content": "Infusion centers provide IV medication administration for conditions spanning oncology, rheumatology, gastroenterology, neurology, and immunology. Biologics, chemotherapy, IVIG, and other specialty infusions require chair time ranging from one to eight hours. Chair utilization directly determines center capacity and revenue.\n\n[Scheduling](/features/scheduling) optimization maximizes chair utilization while accommodating varied infusion durations. Short hydration infusions differ from all-day chemotherapy in resource requirements.\n\n[Pre-authorization](/features/pre-authorization) for expensive biologics and specialty medications often determines whether infusions can proceed. Authorization tracking prevents scheduling without approval.\n\n[Patient flow](/features/patient-flow) manages patients through check-in, pre-infusion assessment, infusion, observation, and discharge. Symptom monitoring through the [clinIQ app](/features/patient-app) captures post-infusion reactions."
+    },
+    {
+      "id": "chair-scheduling",
+      "h2": "Chair Scheduling Optimization",
+      "content": "[Scheduling](/features/scheduling) for infusion centers maximizes chair utilization across varied infusion types.\n\nInfusion duration templates specify expected time for each medication and regimen. Short infusions like Remicade differ from extended infusions like chemotherapy.\n\nChair assignment optimizes which patients use which chairs based on infusion duration, nursing assignment, and patient preference.\n\nStacking optimization schedules short and long infusions to maximize chair turnover. Morning starts for long infusions allow afternoon turnover.\n\nNursing ratio considerations ensure adequate nursing coverage for scheduled patients. High-acuity infusions may require more nursing attention.\n\nWaitlist management fills cancellations quickly to maintain utilization.\n\n[Analytics](/features/analytics) reveal chair utilization patterns, peak times, and optimization opportunities."
+    },
+    {
+      "id": "infusion-workflow",
+      "h2": "Infusion Workflow Management",
+      "content": "[Patient flow](/features/patient-flow) in infusion centers tracks patients through the infusion process.\n\n[Check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) confirms arrival and collects pre-infusion symptom assessment. Patients report how they've been since last infusion.\n\nPre-infusion assessment by nursing confirms vital signs, reviews symptoms, and determines readiness to proceed.\n\nInfusion monitoring tracks infusion progress, vital sign checks, and any reactions. Time remaining visible in workflow.\n\nPost-infusion observation for required observation period after certain infusions tracks completion.\n\nDischarge documentation captures post-infusion status and any instructions.\n\n[Secure messaging](/features/secure-messaging) allows patients to report post-infusion symptoms or concerns."
+    },
+    {
+      "id": "pre-authorization",
+      "h2": "Pre-Authorization for Specialty Infusions",
+      "content": "[Pre-authorization](/features/pre-authorization) for biologics and specialty infusions determines whether treatments can proceed.\n\nBiologic authorization for rheumatology medications like Remicade, Orencia, and Rituxan documents diagnosis, prior treatments, and continued medical necessity.\n\nChemotherapy authorization documents cancer diagnosis, treatment plan, and regimen appropriateness.\n\nIVIG authorization for immunodeficiency and neurological conditions documents diagnosis and dosing.\n\nAuthorization tracking shows status for each patient's infusions. Expirations alert before treatments affected.\n\n[Analytics](/features/analytics) reveal approval rates, denial reasons, and turnaround times by payer and medication.\n\nReauthorization workflow tracks when authorizations need renewal and initiates process before expiration."
+    },
+    {
+      "id": "symptom-monitoring",
+      "h2": "Symptom Monitoring",
+      "content": "Symptom monitoring captures patient status before and after infusions.\n\nPre-infusion assessment through [check-in](/features/patient-check-in) documents symptoms since last infusion. Disease activity, medication effects, and any concerns capture before treatment.\n\nInfusion reaction monitoring during infusion captures any adverse reactions requiring intervention.\n\nPost-infusion symptom tracking through the [clinIQ app](/features/patient-app) captures delayed reactions, side effects, and recovery. Patients report symptoms in the days following infusion.\n\n[Secure messaging](/features/secure-messaging) allows patients to report concerning symptoms requiring clinical attention.\n\n[Telehealth](/features/telehealth) for symptom assessment enables visual evaluation of reactions or concerns without requiring return visit."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "Infusion center implementation addresses chair [scheduling](/features/scheduling), infusion [patient flow](/features/patient-flow), [pre-authorization](/features/pre-authorization), and symptom monitoring.\n\nWeek one maps infusion workflow from check-in through discharge. [Scheduling](/features/scheduling) configures for infusion types with appropriate durations. [Pre-authorization](/features/pre-authorization) workflow establishes.\n\nWeek two trains scheduling staff on chair optimization. Clinical staff trains on [patient flow](/features/patient-flow) and symptom monitoring. Providers train on dashboard.\n\nWeek three goes live with [scheduling](/features/scheduling), [patient flow](/features/patient-flow), and monitoring.\n\nROI sources include chair scheduling optimization increasing capacity without adding chairs. [Pre-authorization](/features/pre-authorization) tracking preventing treatment delays. Symptom monitoring catching reactions early.\n\nProfessional tier at $499 monthly includes [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [pre-authorization](/features/pre-authorization), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), and [analytics](/features/analytics)."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How does chair scheduling optimize?",
+      "a": "[Scheduling](/features/scheduling) uses infusion-specific duration templates. Chair assignment and stacking optimization maximize utilization. [Analytics](/features/analytics) reveal patterns."
+    },
+    {
+      "q": "How does pre-authorization work for biologics?",
+      "a": "[Pre-authorization](/features/pre-authorization) tracks status for each patient's infusions. Authorization requirements document. Expirations alert before treatments affected."
+    },
+    {
+      "q": "How does infusion workflow track?",
+      "a": "[Patient flow](/features/patient-flow) tracks check-in, pre-infusion assessment, infusion progress, observation, and discharge. [Check-in](/features/patient-check-in) captures pre-infusion symptoms."
+    },
+    {
+      "q": "How does post-infusion symptom monitoring work?",
+      "a": "Patients report symptoms through the [clinIQ app](/features/patient-app) after infusion. [Secure messaging](/features/secure-messaging) allows reporting concerns."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers configuration. Week two includes training. Week three goes live with support."
+    }
+  ],
+  "cta": {
+    "headline": "See Infusion Center Operations Optimized",
+    "subhead": "Fifteen-minute demo showing chair scheduling, infusion workflow, and pre-authorization management.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Learn More", "href": "/resources/infusion-scheduling" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "Chair", "label": "optimization" },
+      { "value": "Pre-auth", "label": "tracking" },
+      { "value": "Infusion", "label": "workflow" }
+    ],
+    "testimonial": {
+      "quote": "Chair scheduling optimization increased our capacity without adding chairs. Pre-authorization tracking prevents treatment delays. The infusion workflow board shows where every patient is. Post-infusion symptom monitoring catches reactions early.",
+      "attribution": "Center Director",
+      "practice": "Outpatient infusion center",
+      "location": "Maryland"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "Scheduling",
+      "href": "/features/scheduling",
+      "description": "Chair scheduling optimization."
+    },
+    {
+      "type": "feature",
+      "title": "Pre-Authorization",
+      "href": "/features/pre-authorization",
+      "description": "Biologic and specialty medication authorization."
+    },
+    {
+      "type": "specialty",
+      "title": "Oncology",
+      "href": "/specialties/oncology",
+      "description": "Chemotherapy infusion coordination."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "Infusion Center",
+    "relevantConditions": ["Rheumatoid Arthritis", "Crohn's Disease", "Multiple Sclerosis", "Cancer", "Immunodeficiency"],
+    "availableProcedures": ["Biologic Infusion", "Chemotherapy", "IVIG", "Iron Infusion", "Hydration"]
+  }
+}

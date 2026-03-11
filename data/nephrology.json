@@ -1,0 +1,123 @@
+{
+  "slug": "nephrology",
+  "name": "Nephrology",
+  "pageType": "specialty-pillar",
+  "wordCount": 2400,
+  "publishDate": "2025-06-16",
+  "meta": {
+    "title": "Nephrology Practice Software | RTM, Patient Flow & Care Coordination | clinIQ",
+    "description": "Complete guide to nephrology practice operations. RTM billing for CKD monitoring. Blood pressure and weight tracking. Coordination with dialysis, vascular surgery, and transplant services.",
+    "keywords": ["nephrology software", "nephrology practice management", "CKD monitoring", "dialysis coordination", "nephrology patient flow", "kidney disease RTM"]
+  },
+  "hero": {
+    "h1": "Nephrology Practice Software",
+    "subhead": "RTM billing for CKD monitoring capturing $100-130 per patient monthly. Blood pressure and weight tracking through the clinIQ app. Coordination with dialysis centers, vascular surgery, and transplant services.",
+    "stats": [
+      { "value": "$120K", "label": "annual RTM revenue (100 patients)" },
+      { "value": "CKD", "label": "monitoring" },
+      { "value": "Dialysis", "label": "coordination" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "nephro-operations", "title": "The Nephrology Operations Model" },
+    { "id": "rtm-billing", "title": "RTM Billing for Kidney Disease" },
+    { "id": "patient-flow", "title": "Patient Flow" },
+    { "id": "care-coordination", "title": "Care Coordination" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "nephro-operations",
+      "h2": "The Nephrology Operations Model",
+      "content": "Nephrology practices manage chronic kidney disease, hypertension, electrolyte disorders, and dialysis care. CKD progression monitoring requires between-visit tracking of blood pressure, weight, and symptoms. [RTM](/features/rtm-billing) through the [clinIQ app](/features/patient-app) captures this data systematically.\n\nCare coordination complexity spans dialysis centers for patients on hemodialysis or peritoneal dialysis, [vascular surgery](/specialties/vascular-surgery) for access creation and maintenance, and transplant services for kidney transplant evaluation and post-transplant care. The nephrologist coordinates care across multiple settings.\n\n[Wearable integration](/features/wearable-integration) captures activity and sleep data relevant to kidney disease. Physical activity affects cardiovascular health in CKD patients. Sleep patterns may indicate fluid overload or other issues."
+    },
+    {
+      "id": "rtm-billing",
+      "h2": "RTM Billing for Kidney Disease",
+      "content": "[RTM billing](/features/rtm-billing) for nephrology captures revenue for CKD monitoring. Blood pressure control delays progression. Fluid status affects symptoms and outcomes. Weight tracking identifies fluid retention.\n\nBlood pressure monitoring through home readings entered in the [clinIQ app](/features/patient-app) or integrated from connected monitors shows control between visits. Hypertension management is central to CKD care.\n\nWeight tracking identifies fluid status changes. Daily weights for dialysis patients or patients with fluid retention risk enable early intervention for volume overload.\n\nSymptom tracking captures fatigue, edema, dyspnea, and other symptoms of CKD progression or complications.\n\nMedication adherence for multiple medications common in CKD patients documents compliance affecting disease management.\n\nThe revenue opportunity shows $100-130 per enrolled patient monthly. One hundred patients generates $120,000+ annually. CKD patients with hypertension are prime candidates."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "Patient Flow",
+      "content": "[Patient flow](/features/patient-flow) in nephrology manages consultations and follow-ups for CKD, dialysis, and transplant patients.\n\nCKD follow-ups assess progression, adjust medications, and prepare for dialysis or transplant when indicated. [Check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) collects symptom and blood pressure data.\n\nDialysis patient visits for hemodialysis or PD patients address dialysis adequacy, access issues, and complications.\n\nTransplant evaluation visits assess candidates for kidney transplant including medical workup and education.\n\nPost-transplant visits monitor graft function, immunosuppression, and complications.\n\n[Telehealth](/features/telehealth) for appropriate visits enables monitoring review and medication adjustment without travel, valuable for patients with mobility limitations or distance from the practice.\n\n[Analytics](/features/analytics) from flow data identify optimization opportunities."
+    },
+    {
+      "id": "care-coordination",
+      "h2": "Care Coordination",
+      "content": "Nephrology requires extensive coordination across care settings.\n\nDialysis center coordination for hemodialysis patients involves communication about dialysis adequacy, access issues, and medication changes. [Secure messaging](/features/secure-messaging) supports direct communication with dialysis staff.\n\n[Vascular surgery](/specialties/vascular-surgery) coordination for dialysis access creation, maintenance, and complications. Fistula maturation, graft complications, and access infections require aligned management.\n\nTransplant center coordination for kidney transplant evaluation, listing, and post-transplant care involves extensive communication. [File exchange](/features/secure-file-exchange) shares evaluation findings and management updates.\n\n[Primary care](/specialties/primary-care) coordination addresses shared medical management. Many CKD patients have diabetes, hypertension, and cardiovascular disease requiring coordinated care.\n\n[Cardiology](/specialties/cardiology) coordination for cardiovascular disease in CKD patients addresses the elevated cardiovascular risk.\n\n[Endocrinology](/specialties/endocrinology) coordination for diabetic kidney disease addresses glycemic control alongside nephrology management."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "Nephrology implementation addresses [RTM](/features/rtm-billing) enrollment, [patient flow](/features/patient-flow), and care coordination workflows.\n\nWeek one maps clinic flow for CKD, dialysis, and transplant visits. [RTM](/features/rtm-billing) configures for blood pressure, weight, and symptom tracking.\n\nWeek two trains clinical staff on [patient flow](/features/patient-flow) and [check-in](/features/patient-check-in). Providers train on [RTM](/features/rtm-billing) data review. Staff practices enrollment.\n\nWeek three goes live with [patient flow](/features/patient-flow) and [RTM](/features/rtm-billing) enrollment.\n\nROI sources include [RTM billing](/features/rtm-billing) revenue at $100-130 per patient monthly. Better blood pressure control delays CKD progression. [Telehealth](/features/telehealth) enables care for patients with access challenges.\n\nProfessional tier at $499 monthly includes [RTM](/features/rtm-billing), [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), and [analytics](/features/analytics)."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can nephrology practices bill RTM?",
+      "a": "Yes. CKD monitoring qualifies. [RTM billing](/features/rtm-billing) captures $100-130 per patient monthly for blood pressure, weight, and symptom tracking."
+    },
+    {
+      "q": "How does blood pressure monitoring work?",
+      "a": "Patients log home readings through the [clinIQ app](/features/patient-app) or integrate connected monitors. Patterns visible in the dashboard inform medication adjustments."
+    },
+    {
+      "q": "How do you coordinate with dialysis centers?",
+      "a": "[Secure messaging](/features/secure-messaging) enables communication with dialysis staff. Issues with adequacy, access, or medications coordinate efficiently."
+    },
+    {
+      "q": "Does telehealth work for nephrology?",
+      "a": "Yes. [Telehealth](/features/telehealth) supports monitoring review and medication adjustment for appropriate visits. Valuable for patients with mobility limitations."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers configuration. Week two includes training. Week three goes live with support."
+    }
+  ],
+  "cta": {
+    "headline": "See Nephrology Operations Optimized",
+    "subhead": "Fifteen-minute demo showing RTM enrollment, CKD monitoring, and dialysis coordination.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate RTM Revenue", "href": "/resources/rtm-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "$120K", "label": "annual RTM potential" },
+      { "value": "BP", "label": "monitoring" },
+      { "value": "Dialysis", "label": "coordination" }
+    ],
+    "testimonial": {
+      "quote": "Blood pressure tracking between visits improved control for our CKD patients. Weight monitoring catches fluid overload early. RTM generates revenue while improving outcomes. Coordination with dialysis and vascular surgery finally works smoothly.",
+      "attribution": "Nephrologist",
+      "practice": "Nephrology practice",
+      "location": "California"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "RTM Billing",
+      "href": "/features/rtm-billing",
+      "description": "Remote Therapeutic Monitoring for kidney disease."
+    },
+    {
+      "type": "specialty",
+      "title": "Vascular Surgery",
+      "href": "/specialties/vascular-surgery",
+      "description": "Dialysis access coordination."
+    },
+    {
+      "type": "specialty",
+      "title": "Endocrinology",
+      "href": "/specialties/endocrinology",
+      "description": "Diabetic kidney disease co-management."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "Nephrology",
+    "relevantConditions": ["Chronic Kidney Disease", "Hypertension", "Glomerulonephritis", "ESRD", "Kidney Transplant"],
+    "availableProcedures": ["Dialysis Management", "Kidney Biopsy", "Transplant Evaluation"]
+  }
+}

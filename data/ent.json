@@ -1,0 +1,123 @@
+{
+  "slug": "ent",
+  "name": "ENT / Otolaryngology",
+  "pageType": "specialty-pillar",
+  "wordCount": 2200,
+  "publishDate": "2025-06-24",
+  "meta": {
+    "title": "ENT / Otolaryngology Practice Software | Scheduling, Patient Flow & Surgical Coordination | clinIQ",
+    "description": "Complete guide to ENT practice operations. Clinic and surgical scheduling. High-volume patient flow. Audiology coordination. Coordination with allergy, oncology, and sleep medicine.",
+    "keywords": ["ENT software", "otolaryngology practice management", "ENT patient flow", "ENT scheduling", "otolaryngology EHR integration"]
+  },
+  "hero": {
+    "h1": "ENT / Otolaryngology Practice Software",
+    "subhead": "Clinic and surgical scheduling across diverse procedures. High-volume patient flow management. Audiology testing coordination. Integration with allergy, oncology, and sleep medicine.",
+    "stats": [
+      { "value": "Diverse", "label": "procedure scheduling" },
+      { "value": "High-volume", "label": "clinic flow" },
+      { "value": "Multi-specialty", "label": "coordination" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "ent-operations", "title": "The ENT Operations Model" },
+    { "id": "scheduling", "title": "Clinic and Surgical Scheduling" },
+    { "id": "patient-flow", "title": "Patient Flow" },
+    { "id": "care-coordination", "title": "Care Coordination" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "ent-operations",
+      "h2": "The ENT Operations Model",
+      "content": "ENT practices manage diverse conditions across ear, nose, throat, head, and neck. Hearing loss, sinusitis, voice disorders, sleep apnea, and head and neck cancer all fall within scope. Procedures range from office-based to complex surgical cases. This diversity requires flexible [scheduling](/features/scheduling) and [patient flow](/features/patient-flow).\n\nClinic volume for common conditions like sinusitis and hearing problems can be high. Surgical cases for tonsillectomy, sinus surgery, and thyroidectomy require OR coordination. Office procedures for ear tubes, nasal endoscopy, and injections fit between.\n\nAudiology testing often occurs within ENT practices. Testing coordination with physician evaluation affects [patient flow](/features/patient-flow).\n\nCare coordination spans [allergy](/specialties/allergy-immunology) for allergic rhinitis, [oncology](/specialties/oncology) for head and neck cancer, sleep medicine for OSA, and speech therapy for voice disorders."
+    },
+    {
+      "id": "scheduling",
+      "h2": "Clinic and Surgical Scheduling",
+      "content": "[Scheduling](/features/scheduling) in ENT coordinates clinic visits, office procedures, and surgical cases.\n\nClinic scheduling includes new evaluations, follow-ups, and pre-operative visits. Visit duration varies by complexity. Brief follow-ups differ from comprehensive new patient evaluations.\n\nOffice procedure scheduling for in-office ear tube placement, nasal endoscopy, and other procedures requires appropriate time and equipment.\n\nSurgical scheduling coordinates OR time at hospitals or ASCs. Procedure complexity varies significantly from pediatric tonsillectomy to head and neck cancer resection.\n\nAudiology scheduling coordinates hearing tests with physician evaluation. Some patients need testing before evaluation while others need testing after.\n\n[Pre-authorization](/features/pre-authorization) for surgical procedures tracks status and prevents scheduling without approval.\n\nPatient self-scheduling through the [patient app](/features/patient-app) works for follow-up visits while surgical and complex scheduling remains staff-managed."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "Patient Flow",
+      "content": "[Patient flow](/features/patient-flow) in ENT manages varied visit types with different requirements.\n\nNew patient consultations require comprehensive evaluation. [Check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) collects symptom information before visits.\n\nAudiology-first flow for patients needing hearing tests before physician evaluation tracks testing completion. Physician notifies when testing is ready for review.\n\nProcedure room flow for office procedures has different turnover and preparation requirements than standard exam rooms.\n\nScoping procedures for nasal endoscopy and laryngoscopy require specific setup and cleaning between patients.\n\n[Analytics](/features/analytics) from flow data identify bottlenecks and optimization opportunities.\n\n[Telehealth](/features/telehealth) for appropriate follow-ups enables symptom review without travel."
+    },
+    {
+      "id": "care-coordination",
+      "h2": "Care Coordination",
+      "content": "ENT coordinates with specialties managing related conditions.\n\n[Allergy immunology](/specialties/allergy-immunology) coordination for allergic rhinitis addresses both ENT surgical management and allergic component. [Secure messaging](/features/secure-messaging) supports communication.\n\n[Oncology](/specialties/oncology) coordination for head and neck cancer involves surgical oncology, medical oncology, radiation oncology, and supportive care. Complex treatment planning spans specialties. [File exchange](/features/secure-file-exchange) shares imaging and pathology.\n\n[Pulmonology](/specialties/pulmonology) and sleep medicine coordination for sleep apnea addresses both surgical and medical management options.\n\nSpeech therapy coordination for voice disorders and swallowing therapy.\n\n[Primary care](/specialties/primary-care) coordination for chronic conditions like sinusitis and hearing loss."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "ENT implementation addresses diverse [scheduling](/features/scheduling) and high-volume [patient flow](/features/patient-flow).\n\nWeek one maps clinic flow including audiology coordination. [Scheduling](/features/scheduling) configures for clinic, procedure, and surgical visit types.\n\nWeek two trains staff on [patient flow](/features/patient-flow), [scheduling](/features/scheduling), and [check-in](/features/patient-check-in). Providers train on dashboard and [telehealth](/features/telehealth).\n\nWeek three goes live with [patient flow](/features/patient-flow) and [scheduling](/features/scheduling).\n\nROI sources include flow efficiency enabling higher volume. Scheduling optimization across diverse visit types. [Pre-authorization](/features/pre-authorization) tracking preventing surgical delays.\n\nProfessional tier at $499 monthly includes [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [pre-authorization](/features/pre-authorization), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), and [analytics](/features/analytics)."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How does scheduling handle diverse procedures?",
+      "a": "[Scheduling](/features/scheduling) uses templates for clinic, office procedure, and surgical cases with appropriate duration and requirements."
+    },
+    {
+      "q": "How does audiology coordinate with physician visits?",
+      "a": "[Patient flow](/features/patient-flow) tracks audiology testing completion. Physicians see when testing is ready for review."
+    },
+    {
+      "q": "How do you coordinate head and neck cancer care?",
+      "a": "[Secure messaging](/features/secure-messaging) and [file exchange](/features/secure-file-exchange) enable communication with [oncology](/specialties/oncology) and radiation oncology. Treatment planning spans specialties."
+    },
+    {
+      "q": "Does telehealth work for ENT?",
+      "a": "[Telehealth](/features/telehealth) works for symptom review and some follow-ups. Not appropriate for all conditions but expands access."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers configuration. Week two includes training. Week three goes live with support."
+    }
+  ],
+  "cta": {
+    "headline": "See ENT Operations Optimized",
+    "subhead": "Fifteen-minute demo showing diverse procedure scheduling, audiology coordination, and high-volume patient flow.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Learn More", "href": "/resources/surgical-scheduling" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "Diverse", "label": "procedure types" },
+      { "value": "High-volume", "label": "clinic flow" },
+      { "value": "Audiology", "label": "coordination" }
+    ],
+    "testimonial": {
+      "quote": "Scheduling across clinic, office procedures, and surgery finally works together. Audiology testing coordinates smoothly with physician evaluation. The flow board shows where every patient is. We handle more volume without chaos.",
+      "attribution": "Practice Administrator",
+      "practice": "ENT practice with three physicians",
+      "location": "Tennessee"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "Scheduling",
+      "href": "/features/scheduling",
+      "description": "Multi-type procedure scheduling."
+    },
+    {
+      "type": "specialty",
+      "title": "Allergy & Immunology",
+      "href": "/specialties/allergy-immunology",
+      "description": "Coordinating allergic rhinitis care."
+    },
+    {
+      "type": "specialty",
+      "title": "Oncology",
+      "href": "/specialties/oncology",
+      "description": "Head and neck cancer coordination."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "ENT / Otolaryngology",
+    "relevantConditions": ["Sinusitis", "Hearing Loss", "Sleep Apnea", "Voice Disorders", "Head and Neck Cancer"],
+    "availableProcedures": ["Tonsillectomy", "Sinus Surgery", "Thyroidectomy", "Ear Tubes", "Laryngoscopy"]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "slug": "pulmonology",
+  "name": "Pulmonology",
+  "pageType": "specialty-pillar",
+  "wordCount": 2800,
+  "publishDate": "2025-06-08",
+  "meta": {
+    "title": "Pulmonology Practice Software | RTM, Patient Flow & Respiratory Monitoring | clinIQ",
+    "description": "Complete guide to pulmonology practice operations. RTM billing for respiratory conditions. Symptom and peak flow tracking. Wearable integration for activity and sleep data. Coordination with primary care and sleep medicine.",
+    "keywords": ["pulmonology software", "pulmonology practice management", "respiratory RTM billing", "COPD monitoring", "asthma tracking", "pulmonology EHR integration", "pulmonary function testing"]
+  },
+  "hero": {
+    "h1": "Pulmonology Practice Software",
+    "subhead": "RTM billing for respiratory conditions capturing $100-130 per patient monthly. Symptom and peak flow tracking through the clinIQ app. Wearable integration for activity tolerance and sleep data. Coordination with primary care, sleep medicine, and thoracic surgery.",
+    "stats": [
+      { "value": "$120K", "label": "annual RTM revenue (100 patients)" },
+      { "value": "Respiratory", "label": "symptom tracking" },
+      { "value": "Sleep", "label": "data integration" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "pulm-operations", "title": "The Pulmonology Operations Model" },
+    { "id": "rtm-billing", "title": "RTM Billing for Respiratory Conditions" },
+    { "id": "symptom-tracking", "title": "Respiratory Symptom Tracking" },
+    { "id": "patient-flow", "title": "Patient Flow" },
+    { "id": "care-coordination", "title": "Care Coordination" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "pulm-operations",
+      "h2": "The Pulmonology Operations Model",
+      "content": "Pulmonology practices manage chronic respiratory conditions including COPD, asthma, interstitial lung disease, and sleep disorders. Patients require ongoing monitoring with between-visit symptom tracking informing clinical decisions. [RTM](/features/rtm-billing) through the [clinIQ app](/features/patient-app) captures respiratory symptoms and functional status systematically.\n\nClinic flow involves pulmonary function testing, bronchoscopy, and office visits with varied requirements. [Patient flow](/features/patient-flow) coordinates patients through testing before physician evaluation.\n\nSleep medicine overlap means many pulmonology practices manage sleep apnea and other sleep disorders. [Wearable integration](/features/wearable-integration) captures sleep quality data from consumer devices that supplements formal sleep studies.\n\nCare coordination spans [primary care](/specialties/primary-care) for shared chronic disease management, [cardiology](/specialties/cardiology) for patients with combined cardiopulmonary disease, thoracic surgery for lung nodules and cancer, and [oncology](/specialties/oncology) for lung cancer treatment."
+    },
+    {
+      "id": "rtm-billing",
+      "h2": "RTM Billing for Respiratory Conditions",
+      "content": "[RTM billing](/features/rtm-billing) for pulmonology uses CPT 98976 for respiratory device supply plus 98980 and 98981 for treatment management time. COPD, asthma, and other chronic respiratory conditions qualify.\n\nCOPD monitoring captures dyspnea levels, cough and sputum production, activity tolerance, and exacerbation symptoms. Patients report through the [clinIQ app](/features/patient-app) on a schedule. Symptom escalation triggers [secure messaging](/features/secure-messaging) outreach for early intervention.\n\nAsthma monitoring tracks symptom frequency, rescue inhaler use, peak flow measurements for patients with meters, and trigger exposures. Patterns showing poor control prompt medication adjustment.\n\nInterstitial lung disease monitoring captures dyspnea progression, cough severity, and functional status. Activity data from [wearables](/features/wearable-integration) shows functional capacity changes over time.\n\nThe revenue opportunity shows $100-130 per enrolled patient monthly. One hundred patients generates $10,000-13,000 monthly or $120,000-156,000 annually. Chronic pulmonary patients are prime RTM candidates.\n\nClinical value from [RTM](/features/rtm-billing) enables proactive exacerbation management. COPD patients reporting increasing dyspnea and sputum changes may need early antibiotic and steroid intervention. Asthma patients using rescue inhalers frequently need controller adjustment."
+    },
+    {
+      "id": "symptom-tracking",
+      "h2": "Respiratory Symptom Tracking",
+      "content": "Respiratory symptom tracking through the [clinIQ app](/features/patient-app) captures between-visit data that informs clinical management.\n\nDyspnea tracking using standardized scales documents breathlessness over time. Changes in dyspnea may indicate disease progression or exacerbation. Correlation with activity data from [wearables](/features/wearable-integration) provides context.\n\nCough and sputum tracking captures frequency, severity, and sputum characteristics. Changes in sputum volume or color may indicate infection requiring intervention.\n\nPeak flow tracking for asthma patients with home meters documents airway function between visits. Patients log readings through the app. Declining trends or increased variability indicate poor control.\n\nRescue medication use tracking documents how often patients use short-acting bronchodilators. Frequent rescue use indicates inadequate control requiring treatment adjustment.\n\nActivity tolerance through [wearable integration](/features/wearable-integration) shows functional capacity. Step counts and active minutes indicate what patients can do between visits. Declining activity may precede symptomatic deterioration.\n\nSleep quality from [wearables](/features/wearable-integration) is relevant for patients with sleep apnea or respiratory conditions affecting sleep. Poor sleep correlates with respiratory symptoms and daytime function."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "Patient Flow",
+      "content": "[Patient flow](/features/patient-flow) in pulmonology manages patients through testing and office visits with varied requirements.\n\nPulmonary function testing requires dedicated time and equipment. PFT scheduling coordinates with clinic flow so patients complete testing before physician evaluation when needed.\n\nOffice visit flow for follow-ups involves vitals, symptom review, and examination. [Check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) collects symptom information before visits.\n\nBronchoscopy procedure flow for diagnostic procedures requires separate coordination from office visits. Pre-procedure preparation and post-procedure monitoring need appropriate scheduling.\n\nSleep study coordination for patients needing polysomnography involves scheduling with sleep labs or home sleep testing.\n\n[Analytics](/features/analytics) from flow data identify bottlenecks and optimization opportunities.\n\n[Telehealth](/features/telehealth) for appropriate visits allows symptom review and medication management without travel, particularly valuable for patients with limited mobility due to respiratory disease."
+    },
+    {
+      "id": "care-coordination",
+      "h2": "Care Coordination",
+      "content": "Pulmonology requires coordination with specialties sharing patient care.\n\n[Primary care](/specialties/primary-care) coordination addresses shared chronic disease management. PCPs manage many respiratory conditions initially. Communication through [secure messaging](/features/secure-messaging) and [file exchange](/features/secure-file-exchange) aligns care.\n\n[Cardiology](/specialties/cardiology) coordination for patients with combined cardiopulmonary disease addresses overlapping symptoms and shared management. Dyspnea may be cardiac, pulmonary, or both.\n\nThoracic surgery coordination for patients with lung nodules, cancer, or conditions requiring surgical intervention. [File exchange](/features/secure-file-exchange) shares imaging and evaluation findings.\n\n[Oncology](/specialties/oncology) coordination for lung cancer patients addresses chemotherapy, immunotherapy, and radiation alongside pulmonary management.\n\nSleep medicine coordination for patients with sleep apnea addresses CPAP management and ongoing monitoring.\n\nAllergy/immunology coordination for asthma patients with significant allergic triggers. [Allergy](/specialties/allergy-immunology) testing and treatment may complement pulmonary management."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "Pulmonology implementation addresses [RTM](/features/rtm-billing) enrollment for respiratory conditions, symptom tracking, [wearable integration](/features/wearable-integration), and [patient flow](/features/patient-flow).\n\nWeek one maps clinic flow including PFT coordination. [RTM](/features/rtm-billing) configures for COPD, asthma, and ILD symptom tracking. [Wearable integration](/features/wearable-integration) configures for activity and sleep data.\n\nWeek two trains clinical staff on [patient flow](/features/patient-flow) and [check-in](/features/patient-check-in). Providers train on [RTM](/features/rtm-billing) data review and [wearable](/features/wearable-integration) interpretation. Staff practices RTM enrollment.\n\nWeek three goes live with [patient flow](/features/patient-flow), [RTM](/features/rtm-billing) enrollment, and tracking.\n\nROI sources include [RTM billing](/features/rtm-billing) revenue at $100-130 per patient monthly with 100 patients generating $120,000+ annually. Early exacerbation intervention may reduce hospitalizations. [Telehealth](/features/telehealth) enables care for patients with mobility limitations.\n\nProfessional tier at $499 monthly includes [RTM](/features/rtm-billing), [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [telehealth](/features/telehealth), [wearable integration](/features/wearable-integration), [secure messaging](/features/secure-messaging), and [analytics](/features/analytics)."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can pulmonology practices bill RTM?",
+      "a": "Yes. Respiratory conditions qualify under CPT 98976 plus 98980 for treatment management. [RTM billing](/features/rtm-billing) captures $100-130 per patient monthly for COPD, asthma, and ILD monitoring."
+    },
+    {
+      "q": "How does COPD monitoring work?",
+      "a": "Patients report dyspnea, cough, sputum, and activity tolerance through the [clinIQ app](/features/patient-app). [Wearable](/features/wearable-integration) activity data shows functional capacity. Symptom escalation triggers early intervention."
+    },
+    {
+      "q": "Can peak flow be tracked?",
+      "a": "Yes. Asthma patients log peak flow readings through the app. Trends and variability patterns visible in the dashboard indicate control status."
+    },
+    {
+      "q": "What wearable data integrates?",
+      "a": "[Wearable integration](/features/wearable-integration) captures activity levels and sleep quality. Step counts indicate functional capacity. Sleep data is relevant for patients with sleep apnea or respiratory conditions affecting sleep."
+    },
+    {
+      "q": "How do you coordinate with cardiology?",
+      "a": "[Secure messaging](/features/secure-messaging) enables communication with [cardiology](/specialties/cardiology) for patients with combined cardiopulmonary disease. Shared [RTM](/features/rtm-billing) data provides consistent information."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers configuration. Week two includes training. Week three goes live with support."
+    }
+  ],
+  "cta": {
+    "headline": "See Pulmonology Operations Optimized",
+    "subhead": "Fifteen-minute demo showing RTM enrollment, respiratory symptom tracking, and wearable integration for pulmonary care.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate RTM Revenue", "href": "/resources/rtm-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "$120K", "label": "annual RTM potential" },
+      { "value": "Respiratory", "label": "symptom tracking" },
+      { "value": "Wearable", "label": "data included" }
+    ],
+    "testimonial": {
+      "quote": "COPD exacerbations caught early through symptom tracking meant treatment at home instead of hospitalization. Activity data from wearables showed functional decline before patients reported it. RTM generates revenue while improving care. The workflow fits how we already wanted to manage chronic respiratory disease.",
+      "attribution": "Pulmonologist",
+      "practice": "Pulmonology practice",
+      "location": "Arizona"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "RTM Billing",
+      "href": "/features/rtm-billing",
+      "description": "Remote Therapeutic Monitoring for respiratory conditions."
+    },
+    {
+      "type": "feature",
+      "title": "Wearable Integration",
+      "href": "/features/wearable-integration",
+      "description": "Activity and sleep data from consumer devices."
+    },
+    {
+      "type": "specialty",
+      "title": "Cardiology",
+      "href": "/specialties/cardiology",
+      "description": "Coordinating cardiopulmonary care."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "Pulmonology",
+    "relevantConditions": ["COPD", "Asthma", "Interstitial Lung Disease", "Sleep Apnea", "Lung Cancer"],
+    "availableProcedures": ["Pulmonary Function Testing", "Bronchoscopy", "Sleep Study", "Thoracentesis"]
+  }
+}

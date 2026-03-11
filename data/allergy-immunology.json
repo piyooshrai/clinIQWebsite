@@ -1,0 +1,129 @@
+{
+  "slug": "allergy-immunology",
+  "name": "Allergy & Immunology",
+  "pageType": "specialty-pillar",
+  "wordCount": 2200,
+  "publishDate": "2025-06-22",
+  "meta": {
+    "title": "Allergy & Immunology Practice Software | Patient Flow, RTM & Immunotherapy Scheduling | clinIQ",
+    "description": "Complete guide to allergy immunology practice operations. Immunotherapy scheduling and monitoring. RTM for asthma and allergic conditions. Symptom tracking through mobile app. Coordination with pulmonology and ENT.",
+    "keywords": ["allergy immunology software", "allergy practice management", "immunotherapy scheduling", "asthma RTM", "allergy patient flow", "allergy shot scheduling"]
+  },
+  "hero": {
+    "h1": "Allergy & Immunology Practice Software",
+    "subhead": "Immunotherapy scheduling and monitoring. RTM billing for asthma and allergic conditions. Symptom tracking through the clinIQ app. Coordination with pulmonology and ENT for comprehensive allergic disease management.",
+    "stats": [
+      { "value": "Immunotherapy", "label": "scheduling" },
+      { "value": "RTM", "label": "for asthma" },
+      { "value": "Symptom", "label": "tracking" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "allergy-operations", "title": "The Allergy Immunology Operations Model" },
+    { "id": "immunotherapy", "title": "Immunotherapy Scheduling" },
+    { "id": "rtm-billing", "title": "RTM for Allergic Conditions" },
+    { "id": "patient-flow", "title": "Patient Flow" },
+    { "id": "care-coordination", "title": "Care Coordination" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "allergy-operations",
+      "h2": "The Allergy Immunology Operations Model",
+      "content": "Allergy immunology practices manage allergic rhinitis, asthma, food allergies, drug allergies, and immunodeficiency. Immunotherapy (allergy shots or sublingual tablets) requires ongoing scheduling and monitoring. Asthma management benefits from between-visit symptom tracking. [RTM](/features/rtm-billing) through the [clinIQ app](/features/patient-app) captures symptoms systematically.\n\n[Scheduling](/features/scheduling) complexity includes office visits, skin testing, immunotherapy injections on regular schedules, and food or drug challenges requiring extended observation.\n\nCare coordination with [pulmonology](/specialties/pulmonology) for asthma and [ENT](/specialties/ent) for chronic rhinosinusitis addresses shared patients with allergic disease."
+    },
+    {
+      "id": "immunotherapy",
+      "h2": "Immunotherapy Scheduling and Monitoring",
+      "content": "Immunotherapy [scheduling](/features/scheduling) manages patients receiving regular allergy injections over months to years.\n\nInjection scheduling tracks patients on build-up versus maintenance phases with different frequencies. Build-up visits may be weekly while maintenance is monthly. [Scheduling](/features/scheduling) templates accommodate these patterns.\n\nPost-injection observation requires patients to wait 30 minutes after injections for monitoring. [Patient flow](/features/patient-flow) tracks observation timing.\n\nReaction documentation captures any reactions to injections informing dose adjustment decisions.\n\nSublingual immunotherapy monitoring for patients on SLIT captures adherence and symptoms. [RTM](/features/rtm-billing) tracking supports monitoring between visits.\n\nReminder notifications for injection appointments maintain schedule adherence. Missed injections affect treatment efficacy."
+    },
+    {
+      "id": "rtm-billing",
+      "h2": "RTM Billing for Allergic Conditions",
+      "content": "[RTM billing](/features/rtm-billing) for allergy captures revenue for asthma and chronic allergic condition monitoring.\n\nAsthma monitoring tracks symptom frequency, rescue inhaler use, peak flow readings, and trigger exposures through the [clinIQ app](/features/patient-app). Patterns showing poor control prompt medication adjustment.\n\nAllergic rhinitis monitoring captures symptom severity, medication use, and environmental trigger exposure. Seasonal patterns visible over time inform treatment planning.\n\nMedication adherence tracking for preventive medications documents compliance affecting disease control.\n\nThe revenue opportunity at $90-120 per enrolled patient monthly supports investment in between-visit monitoring while improving care.\n\n[Wearable integration](/features/wearable-integration) captures sleep data relevant to allergic disease affecting sleep quality."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "Patient Flow",
+      "content": "[Patient flow](/features/patient-flow) in allergy practices manages consultations, skin testing, injections, and challenge procedures.\n\nNew patient consultations include history, examination, and often skin testing. Extended time for comprehensive evaluation.\n\nSkin testing visits require specific room setup and post-testing reading time. [Patient flow](/features/patient-flow) tracks testing stages.\n\nInjection-only visits are brief but require observation. Efficient flow moves patients through injection and observation.\n\nChallenge procedures for food or drug allergy require extended observation with emergency preparedness. These visits have distinct flow patterns.\n\n[Check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) collects symptom information before visits.\n\n[Analytics](/features/analytics) from flow data identify efficiency opportunities."
+    },
+    {
+      "id": "care-coordination",
+      "h2": "Care Coordination",
+      "content": "Allergy immunology coordinates with specialties managing related conditions.\n\n[Pulmonology](/specialties/pulmonology) coordination for asthma addresses both allergic and pulmonary management. Shared patients require aligned treatment approaches. [Secure messaging](/features/secure-messaging) supports communication.\n\n[ENT](/specialties/ent) coordination for chronic rhinosinusitis addresses medical and surgical management. Allergic component often significant.\n\n[Primary care](/specialties/primary-care) coordination for shared chronic disease management. Many allergic conditions co-manage with PCPs.\n\n[Dermatology](/specialties/dermatology) coordination for atopic dermatitis addresses both skin and allergic components."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "Allergy implementation addresses immunotherapy [scheduling](/features/scheduling), [RTM](/features/rtm-billing) for asthma, and [patient flow](/features/patient-flow).\n\nWeek one maps clinic flow including injection visits and observation. Immunotherapy scheduling configures. [RTM](/features/rtm-billing) configures for asthma symptom tracking.\n\nWeek two trains staff on [patient flow](/features/patient-flow), [scheduling](/features/scheduling), and [check-in](/features/patient-check-in). Providers train on [RTM](/features/rtm-billing) data review.\n\nWeek three goes live with [patient flow](/features/patient-flow), [scheduling](/features/scheduling), and [RTM](/features/rtm-billing).\n\nROI sources include efficient injection scheduling maximizing throughput. [RTM](/features/rtm-billing) revenue for asthma monitoring. Better adherence through reminders and tracking.\n\nProfessional tier at $499 monthly includes [RTM](/features/rtm-billing), [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), and [analytics](/features/analytics)."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How does immunotherapy scheduling work?",
+      "a": "[Scheduling](/features/scheduling) manages build-up and maintenance injection schedules. [Patient flow](/features/patient-flow) tracks post-injection observation. Reminders maintain adherence."
+    },
+    {
+      "q": "Can allergy practices bill RTM?",
+      "a": "Yes. Asthma and chronic allergic conditions qualify. [RTM billing](/features/rtm-billing) captures $90-120 per patient monthly for symptom and medication tracking."
+    },
+    {
+      "q": "How does asthma monitoring work?",
+      "a": "Patients report symptoms, rescue inhaler use, and peak flow through the [clinIQ app](/features/patient-app). Patterns inform medication adjustment."
+    },
+    {
+      "q": "How do you coordinate with pulmonology?",
+      "a": "[Secure messaging](/features/secure-messaging) enables communication with [pulmonology](/specialties/pulmonology) for shared asthma patients. Treatment approaches align."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers configuration. Week two includes training. Week three goes live with support."
+    }
+  ],
+  "cta": {
+    "headline": "See Allergy Operations Optimized",
+    "subhead": "Fifteen-minute demo showing immunotherapy scheduling, asthma RTM, and allergy practice patient flow.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate RTM Revenue", "href": "/resources/rtm-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "Immunotherapy", "label": "scheduling" },
+      { "value": "RTM", "label": "for asthma" },
+      { "value": "Efficient", "label": "injection flow" }
+    ],
+    "testimonial": {
+      "quote": "Injection scheduling with observation tracking works smoothly now. Asthma symptom tracking through RTM shows control between visits. Reminders keep patients on their immunotherapy schedules. The efficiency gains let us see more patients without rushing.",
+      "attribution": "Practice Manager",
+      "practice": "Allergy immunology practice",
+      "location": "Minnesota"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "RTM Billing",
+      "href": "/features/rtm-billing",
+      "description": "Asthma and allergy monitoring."
+    },
+    {
+      "type": "specialty",
+      "title": "Pulmonology",
+      "href": "/specialties/pulmonology",
+      "description": "Coordinating asthma care."
+    },
+    {
+      "type": "specialty",
+      "title": "ENT",
+      "href": "/specialties/ent",
+      "description": "Rhinosinusitis coordination."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "Allergy & Immunology",
+    "relevantConditions": ["Allergic Rhinitis", "Asthma", "Food Allergy", "Drug Allergy", "Immunodeficiency"],
+    "availableProcedures": ["Skin Testing", "Immunotherapy", "Food Challenge", "Drug Challenge", "Spirometry"]
+  }
+}

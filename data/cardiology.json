@@ -1,0 +1,133 @@
+{
+  "slug": "cardiology",
+  "name": "Cardiology",
+  "pageType": "specialty-pillar",
+  "wordCount": 3200,
+  "publishDate": "2025-06-05",
+  "meta": {
+    "title": "Cardiology Practice Software | RTM, Patient Flow & Care Coordination | clinIQ",
+    "description": "Complete guide to cardiology practice operations. RTM billing for cardiac conditions. High-volume patient flow management. Wearable integration for heart rate and activity data. Coordination with primary care and cardiac surgery.",
+    "keywords": ["cardiology software", "cardiology practice management", "cardiac RTM billing", "cardiology patient flow", "heart failure monitoring", "cardiology EHR integration", "cardiac rehabilitation software"]
+  },
+  "hero": {
+    "h1": "Cardiology Practice Software",
+    "subhead": "RTM billing for cardiac conditions capturing $110-140 per patient monthly. High-volume patient flow with multi-station testing. Wearable integration for heart rate, activity, and sleep data. Coordination with primary care, cardiac surgery, and rehabilitation.",
+    "stats": [
+      { "value": "$130K", "label": "annual RTM revenue (100 patients)" },
+      { "value": "Wearable", "label": "data integration" },
+      { "value": "High-volume", "label": "flow management" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "cardio-operations", "title": "The Cardiology Operations Model" },
+    { "id": "rtm-billing", "title": "RTM Billing for Cardiac Conditions" },
+    { "id": "wearable-integration", "title": "Wearable Data for Cardiac Monitoring" },
+    { "id": "patient-flow", "title": "High-Volume Patient Flow" },
+    { "id": "care-coordination", "title": "Care Coordination" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "cardio-operations",
+      "h2": "The Cardiology Operations Model",
+      "content": "Cardiology practices manage high patient volume with complex testing workflows. Patients with heart failure, coronary artery disease, arrhythmias, and valvular disease require ongoing monitoring. Between-visit data on symptoms, activity tolerance, and vital signs informs clinical decisions. [RTM](/features/rtm-billing) through the [clinIQ app](/features/patient-app) captures this data systematically while generating revenue.\n\nClinic flow complexity involves multiple testing modalities. Patients may receive EKG, echocardiography, stress testing, Holter monitoring, and nuclear imaging depending on clinical needs. [Patient flow](/features/patient-flow) must track patients through varied testing sequences before physician evaluation.\n\nWearable devices generate cardiac-relevant data continuously. Heart rate patterns, activity levels, sleep quality, and in some devices rhythm detection from Apple Watch or similar wearables provide between-visit information. [Wearable integration](/features/wearable-integration) captures this data for clinical use.\n\nCare coordination spans [primary care](/specialties/primary-care) for medical management, [vascular surgery](/specialties/vascular-surgery) for peripheral disease, cardiac surgery for surgical intervention, and cardiac rehabilitation for post-event recovery. The cardiologist operates within a network managing cardiovascular disease comprehensively."
+    },
+    {
+      "id": "rtm-billing",
+      "h2": "RTM Billing for Cardiac Conditions",
+      "content": "[RTM billing](/features/rtm-billing) for cardiology uses CPT 98975 for cardiovascular device supply plus 98980 and 98981 for treatment management time. Heart failure, hypertension, arrhythmias, and other cardiac conditions qualify for monitoring.\n\nHeart failure monitoring captures weight trends, symptom changes, activity tolerance, and medication adherence. Daily weight through the [clinIQ app](/features/patient-app) with alert thresholds for rapid weight gain enables early intervention for volume overload. Symptom tracking for dyspnea, edema, and fatigue documents condition status.\n\nHypertension monitoring tracks blood pressure readings entered by patients or integrated from home monitors. Medication adherence logging documents compliance. Lifestyle factors including sodium intake and exercise capture through tracking.\n\nArrhythmia symptom tracking captures palpitations, lightheadedness, and other symptoms between visits. [Wearable integration](/features/wearable-integration) may provide heart rate data and in some devices irregular rhythm notifications that correlate with symptom reports.\n\nThe revenue opportunity shows $110-140 per enrolled patient monthly. One hundred patients enrolled generates $11,000-14,000 monthly or $130,000-168,000 annually. Cardiology patients with chronic conditions are prime RTM candidates.\n\nClinical value from [RTM](/features/rtm-billing) enables proactive management. Heart failure decompensation detected through weight gain triggers [secure messaging](/features/secure-messaging) outreach for medication adjustment before hospitalization is needed. Hypertension not at goal visible through tracking prompts medication changes."
+    },
+    {
+      "id": "wearable-integration",
+      "h2": "Wearable Data for Cardiac Monitoring",
+      "content": "[Wearable integration](/features/wearable-integration) captures continuous physiological data relevant to cardiac care. Consumer devices like Apple Watch, Fitbit, and Oura Ring generate heart rate, activity, and sleep data that enriches clinical understanding.\n\nHeart rate data from wearables shows resting heart rate trends, heart rate variability, and exercise heart rate response. Resting heart rate changes may indicate condition changes. Heart rate variability trends reflect autonomic function. Exercise heart rate response indicates functional capacity.\n\nActivity data from step counts and active minutes indicates functional status and exercise compliance. Cardiac rehabilitation patients show activity progression. Heart failure patients show activity tolerance changes. Activity decline may precede symptomatic deterioration.\n\nSleep data from wearables captures sleep duration, quality, and patterns. Sleep apnea often coexists with cardiac disease. Poor sleep affects blood pressure and heart failure symptoms. Sleep data supplements symptom reports.\n\nIrregular rhythm notifications from Apple Watch and similar devices may detect atrial fibrillation. While not diagnostic, these notifications correlated with symptom reports guide clinical evaluation.\n\nIntegration through the [clinIQ app](/features/patient-app) requires one-time patient authorization. Data flows automatically from Apple Health, Android Health Connect, or direct device connections. Passive collection achieves compliance rates impossible with manual data entry."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "High-Volume Patient Flow",
+      "content": "[Patient flow](/features/patient-flow) in cardiology manages patients through varied testing sequences before physician evaluation. High-volume practices may see 30-50 patients daily with different testing needs.\n\nMulti-station tracking shows patients moving through EKG, echo, stress testing, and other stations. The flow board displays current location and status for each patient. Staff sees who is ready for the next step.\n\nVisit type determines testing sequence. A heart failure follow-up may need weight, vitals, and possibly echo. An arrhythmia evaluation may need EKG and Holter setup. A chest pain evaluation may need stress testing. [Patient flow](/features/patient-flow) accommodates these varied pathways.\n\n[Check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) collects symptom information before visits. Patients report chest pain, dyspnea, palpitations, and functional status. This pre-visit information allows the physician to prepare.\n\nPhysician notification when patients are tested and ready enables efficient provider movement. The flow board shows which patients are ready for physician evaluation.\n\n[Analytics](/features/analytics) from flow data reveal bottlenecks. Which testing stations create delays. Wait times by visit type. This data guides scheduling and staffing decisions."
+    },
+    {
+      "id": "care-coordination",
+      "h2": "Care Coordination",
+      "content": "Cardiology requires coordination with multiple specialties managing different aspects of cardiovascular care.\n\n[Primary care](/specialties/primary-care) coordination addresses shared medical management. PCPs manage many cardiac risk factors and may initiate or adjust cardiac medications. [Secure messaging](/features/secure-messaging) and [file exchange](/features/secure-file-exchange) support communication about shared patients.\n\n[Vascular surgery](/specialties/vascular-surgery) coordination for patients with peripheral arterial disease addresses both coronary and peripheral manifestations of atherosclerosis. Shared patients require aligned management.\n\nCardiac surgery coordination for patients needing CABG, valve surgery, or other interventions involves pre-operative evaluation and post-operative management. Communication through [secure messaging](/features/secure-messaging) aligns surgical and medical care.\n\nCardiac rehabilitation coordination tracks patient progress in supervised exercise programs. [RTM](/features/rtm-billing) data showing activity levels and functional improvement documents rehabilitation effectiveness.\n\n[Pulmonology](/specialties/pulmonology) coordination for patients with combined cardiac and pulmonary disease addresses overlapping symptoms and shared management considerations.\n\nElectrophysiology coordination for patients with arrhythmias addresses both medical management and procedural intervention like ablation or device implantation."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "Cardiology implementation addresses [RTM](/features/rtm-billing) enrollment for chronic cardiac conditions, [wearable integration](/features/wearable-integration), high-volume [patient flow](/features/patient-flow), and care coordination.\n\nWeek one maps clinic flow including testing sequences by visit type. [RTM](/features/rtm-billing) configures for heart failure weight tracking, hypertension BP monitoring, and arrhythmia symptom tracking. [Wearable integration](/features/wearable-integration) configures for supported devices.\n\nWeek two trains clinical staff on [patient flow](/features/patient-flow) boards and [check-in](/features/patient-check-in). Providers train on dashboard, [RTM](/features/rtm-billing) data review, and [wearable](/features/wearable-integration) data interpretation. Staff practices RTM enrollment.\n\nWeek three goes live with [patient flow](/features/patient-flow), [RTM](/features/rtm-billing) enrollment, and [wearable integration](/features/wearable-integration).\n\nROI sources include [RTM billing](/features/rtm-billing) revenue at $110-140 per patient monthly with 100 patients generating $130,000+ annually. Flow efficiency enables higher patient volume. Proactive heart failure management may reduce hospitalizations. [Wearable](/features/wearable-integration) data enriches clinical care.\n\nProfessional tier at $499 monthly includes [RTM](/features/rtm-billing), [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [telehealth](/features/telehealth), [wearable integration](/features/wearable-integration), [secure messaging](/features/secure-messaging), and [analytics](/features/analytics)."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can cardiology practices bill RTM?",
+      "a": "Yes. Cardiovascular conditions qualify under CPT 98975 plus 98980 for treatment management. [RTM billing](/features/rtm-billing) captures $110-140 per patient monthly for heart failure, hypertension, and arrhythmia monitoring."
+    },
+    {
+      "q": "How does heart failure monitoring work?",
+      "a": "Patients log daily weights through the [clinIQ app](/features/patient-app). Alert thresholds for rapid weight gain enable early intervention. Symptom tracking and [wearable](/features/wearable-integration) activity data supplement weight monitoring."
+    },
+    {
+      "q": "What wearable data integrates?",
+      "a": "[Wearable integration](/features/wearable-integration) captures heart rate, activity, sleep, and irregular rhythm notifications from Apple Watch, Fitbit, Oura Ring, and similar devices. Data flows automatically after one-time authorization."
+    },
+    {
+      "q": "How does patient flow handle testing stations?",
+      "a": "[Patient flow](/features/patient-flow) tracks patients through EKG, echo, stress testing, and other stations. The flow board shows current location for each patient. Different visit types have different testing sequences."
+    },
+    {
+      "q": "How do you coordinate with cardiac surgery?",
+      "a": "[Secure messaging](/features/secure-messaging) enables direct communication. [File exchange](/features/secure-file-exchange) shares pre-operative evaluations and post-operative management plans."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers flow and RTM configuration. Week two includes staff training. Week three goes live with support."
+    }
+  ],
+  "cta": {
+    "headline": "See Cardiology Operations Optimized",
+    "subhead": "Fifteen-minute demo showing RTM enrollment, wearable integration, high-volume patient flow, and heart failure monitoring.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate RTM Revenue", "href": "/resources/rtm-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "$130K", "label": "annual RTM potential" },
+      { "value": "Wearable", "label": "data included" },
+      { "value": "High-volume", "label": "flow management" }
+    ],
+    "testimonial": {
+      "quote": "Heart failure weight tracking caught decompensation before patients needed hospitalization. Wearable data showing declining activity correlated with symptom changes. RTM generates significant revenue for monitoring we already wanted to provide. Flow management across testing stations finally works smoothly.",
+      "attribution": "Practice Administrator",
+      "practice": "Cardiology practice with four physicians",
+      "location": "New Jersey"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "RTM Billing",
+      "href": "/features/rtm-billing",
+      "description": "Remote Therapeutic Monitoring for cardiac conditions."
+    },
+    {
+      "type": "feature",
+      "title": "Wearable Integration",
+      "href": "/features/wearable-integration",
+      "description": "Heart rate, activity, and sleep data from consumer devices."
+    },
+    {
+      "type": "specialty",
+      "title": "Vascular Surgery",
+      "href": "/specialties/vascular-surgery",
+      "description": "Coordinating cardiac and peripheral vascular care."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "Cardiology",
+    "relevantConditions": ["Heart Failure", "Coronary Artery Disease", "Hypertension", "Atrial Fibrillation", "Valvular Disease"],
+    "availableProcedures": ["Echocardiography", "Stress Testing", "Cardiac Catheterization", "Cardioversion", "Pacemaker Management"]
+  }
+}
