@@ -1,0 +1,153 @@
+{
+  "slug": "addiction-medicine",
+  "name": "Addiction Medicine",
+  "pageType": "specialty-pillar",
+  "wordCount": 3200,
+  "publishDate": "2025-04-20",
+  "meta": {
+    "title": "Addiction Medicine Practice Software | RTM, MAT Monitoring & Compliance | clinIQ",
+    "description": "Complete guide to addiction medicine practice operations. RTM billing for substance use disorders. MAT medication adherence monitoring. Craving and recovery tracking through mobile app. Compliance documentation for DEA and state requirements.",
+    "keywords": ["addiction medicine software", "MAT practice management", "addiction treatment RTM", "substance use disorder monitoring", "buprenorphine practice software", "addiction medicine patient portal", "MAT compliance software"]
+  },
+  "hero": {
+    "h1": "Addiction Medicine Practice Software",
+    "subhead": "RTM billing for substance use disorders capturing $110-140 per patient monthly. Medication-assisted treatment adherence monitoring. Craving and recovery tracking through the clinIQ app. Compliance documentation for DEA requirements. Coordination with behavioral health and primary care.",
+    "stats": [
+      { "value": "$130K", "label": "annual RTM revenue (100 patients)" },
+      { "value": "MAT", "label": "adherence monitoring" },
+      { "value": "Compliance", "label": "documentation built-in" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "addiction-operations", "title": "The Addiction Medicine Operations Model" },
+    { "id": "rtm-billing", "title": "RTM Billing for Substance Use Disorders" },
+    { "id": "mat-monitoring", "title": "MAT Adherence Monitoring" },
+    { "id": "recovery-tracking", "title": "Recovery and Craving Tracking" },
+    { "id": "compliance", "title": "Regulatory Compliance" },
+    { "id": "care-coordination", "title": "Care Coordination" },
+    { "id": "telehealth", "title": "Telehealth for Addiction Treatment" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "addiction-operations",
+      "h2": "The Addiction Medicine Operations Model",
+      "content": "Addiction medicine practices provide medication-assisted treatment and comprehensive care for substance use disorders. Patients require intensive monitoring during early recovery with frequency decreasing as stability increases. The between-visit period is clinically critical — cravings, triggers, and relapse risk are constant. Traditional practice has limited visibility into this period.\n\nMedication-assisted treatment for opioid use disorder using buprenorphine, methadone, or naltrexone requires ongoing adherence monitoring. Patients who stop MAT medications face high relapse risk. Diversion concerns require careful tracking. [RTM](/features/rtm-billing) through the [clinIQ app](/features/patient-app) provides visibility into medication adherence and recovery status between visits.\n\nRegulatory requirements create documentation burden. DEA requirements for controlled substance prescribing, state regulations for MAT programs, PDMP checks, urine drug screen protocols, and treatment agreement maintenance all require tracking. [Patient flow](/features/patient-flow) and [analytics](/features/analytics) can document that compliance steps occur without replacing the mandated systems themselves.\n\nPatient engagement is both challenging and essential. Patients in early recovery face daily struggles with cravings, triggers, and life circumstances that threaten recovery. Between-visit support through [secure messaging](/features/secure-messaging) and symptom tracking through the [patient app](/features/patient-app) extends the therapeutic relationship beyond periodic visits.\n\nCo-occurring psychiatric conditions are common. Depression, anxiety, PTSD, and other mental health conditions frequently accompany substance use disorders. Coordination with [psychiatry](/specialties/psychiatry) and [behavioral health](/specialties/behavioral-health) providers ensures comprehensive treatment. [Pain management](/specialties/pain-management) coordination addresses the complex intersection of chronic pain and opioid use disorder."
+    },
+    {
+      "id": "rtm-billing",
+      "h2": "RTM Billing for Substance Use Disorders",
+      "content": "[RTM billing](/features/rtm-billing) captures revenue for between-visit monitoring that addiction medicine inherently requires. CPT 98976 for behavioral health device supply plus 98980 and 98981 for treatment management time apply to substance use disorder monitoring.\n\nQualifying monitoring includes craving intensity and frequency tracking, trigger identification and avoidance, medication adherence for MAT, mood and psychiatric symptom tracking for co-occurring conditions, sleep quality relevant to recovery, and recovery milestone tracking. This monitoring is clinically essential and now billable through [RTM](/features/rtm-billing).\n\nPatient-reported data collection through the [clinIQ app](/features/patient-app) captures daily or weekly check-ins on craving levels, substance use episodes if any, medication adherence logging, trigger encounters and coping responses, mood ratings for co-occurring depression or anxiety, and recovery support activity like meeting attendance.\n\nThe revenue opportunity shows $110-140 per enrolled patient monthly combining device supply and treatment management codes. One hundred patients enrolled generates $11,000-14,000 monthly or $130,000-168,000 annually. Addiction medicine patients in active treatment are candidates throughout their care episodes.\n\nCompliance rates in addiction treatment can be challenging, but the [clinIQ app](/features/patient-app) design addresses engagement barriers. Simple interfaces require minimal effort. Push notifications maintain connection. The clinical relationship reinforces tracking importance. Achievement recognition for recovery milestones motivates continued engagement.\n\nClinical value from [RTM](/features/rtm-billing) data includes early identification of relapse risk through craving escalation, verification of medication adherence between visits, trigger pattern recognition informing behavioral interventions, and mood tracking revealing co-occurring psychiatric exacerbation. [Secure messaging](/features/secure-messaging) enables outreach when concerning patterns emerge rather than waiting for the next scheduled visit."
+    },
+    {
+      "id": "mat-monitoring",
+      "h2": "MAT Adherence Monitoring",
+      "content": "Medication-assisted treatment adherence directly determines treatment success. Patients who stop taking buprenorphine, naltrexone, or other MAT medications face significantly elevated relapse risk. Monitoring adherence between visits through the [clinIQ app](/features/patient-app) enables intervention before relapse occurs.\n\nBuprenorphine adherence tracking captures when patients take their prescribed sublingual or injection doses. Daily medication logging creates a record visible to the prescriber. Patterns of missed doses trigger concern and outreach. Adherence data visible before visits informs clinical discussion.\n\nNaltrexone monitoring for both oral and injectable forms tracks adherence and response. For oral naltrexone, daily logging verifies consistent use. For Vivitrol injections, appointment adherence and response tracking between injections maintains clinical visibility.\n\nAdherence reminders through push notifications help patients remember medication doses at scheduled times. The reminder links to medication logging, making it easy to confirm the dose was taken. For patients whose adherence challenge is forgetting, reminders solve the problem directly.\n\nNon-adherence intervention through [secure messaging](/features/secure-messaging) addresses problems before they escalate. When adherence data shows missed doses, clinical staff can reach out to understand barriers. Is it side effects? Loss of medication? Ambivalence about treatment? Early intervention prevents full treatment discontinuation.\n\nDiversion monitoring uses adherence patterns alongside clinical judgment. Patients claiming to take medication whose adherence logging is inconsistent may warrant closer attention. Drug screen results compared with reported adherence patterns reveal discrepancies requiring investigation.\n\n[Analytics](/features/analytics) track adherence rates across the patient population, identifying patients at risk and supporting quality improvement. Aggregate adherence data demonstrates program effectiveness to regulatory bodies and payers."
+    },
+    {
+      "id": "recovery-tracking",
+      "h2": "Recovery and Craving Tracking",
+      "content": "Recovery from substance use disorder involves ongoing management of cravings, triggers, and life circumstances that threaten sobriety. Tracking these factors through the [clinIQ app](/features/patient-app) provides clinical insight and supports patient self-awareness.\n\nCraving tracking captures intensity and frequency of substance cravings. Patients rate craving intensity daily or when cravings occur. The data reveals patterns invisible without systematic tracking. A patient whose cravings escalate on certain days or in certain contexts gains insight that supports behavioral change.\n\nTrigger identification through tracking reveals what circumstances precede craving spikes. Stress at work, conflict in relationships, certain locations, or emotional states may trigger cravings. Pattern recognition from [RTM](/features/rtm-billing) data informs trigger avoidance and coping strategies discussed in treatment.\n\nRecovery support tracking documents engagement with recovery activities. Meeting attendance, sponsor contact, sober support connection, and recovery-oriented activities all support sustained recovery. Tracking creates accountability and identifies when support engagement declines.\n\nRelapse prevention through early warning detection uses [RTM](/features/rtm-billing) data patterns. Escalating cravings, declining mood, reduced recovery support engagement, and medication adherence drops may precede relapse. When these patterns emerge, [secure messaging](/features/secure-messaging) or [telehealth](/features/telehealth) outreach can intervene before relapse occurs.\n\nRecovery milestone celebration reinforces progress. Days in recovery, treatment completion markers, and personal achievements tracked through the app create positive feedback. Patients who see their progress documented feel encouraged to continue.\n\n[Wearable integration](/features/wearable-integration) adds physiological data relevant to recovery. Sleep quality from Apple Watch or Oura Ring correlates with mood and craving intensity. Activity levels indicate engagement versus withdrawal. Heart rate variability may reflect stress levels that increase relapse risk."
+    },
+    {
+      "id": "compliance",
+      "h2": "Regulatory Compliance Documentation",
+      "content": "Addiction medicine operates under extensive regulatory oversight. DEA requirements for controlled substance prescribing, state regulations for MAT programs, and payer requirements all demand documentation that [patient flow](/features/patient-flow) and [analytics](/features/analytics) support.\n\nPDMP verification must occur before controlled substance prescriptions according to state requirements. The [patient flow](/features/patient-flow) workflow documents that PDMP checks occurred with timestamps, though actual verification happens in the state portal. This creates audit trail satisfying regulatory inquiry.\n\nUrine drug screen tracking captures when screens are ordered, collected, resulted, and reviewed. The workflow ensures screens happen on schedule based on treatment phase and clinical need. Missing or overdue screens surface in workflow alerts. Results discrepant with reported use trigger clinical attention.\n\nTreatment agreement tracking documents patient acknowledgment of treatment expectations, responsibilities, and consequences. Agreement status showing signed, current, expired, or needs renewal appears in patient workflow. Agreements requiring renewal surface before visits.\n\nPrescription monitoring documents controlled substance prescriptions with quantities, dates, and refill patterns. This documentation supports both clinical review and regulatory compliance demonstration.\n\n[Analytics](/features/analytics) generate compliance reports showing PDMP check completion rates, drug screen frequency and results, treatment agreement currency, and prescribing patterns. These reports support internal quality assurance and external audit response.\n\nInspection readiness means documentation exists and is retrievable. When DEA or state regulators inspect the practice, compliance documentation from [patient flow](/features/patient-flow) timestamps and [analytics](/features/analytics) demonstrates systematic compliance rather than relying on staff attestation."
+    },
+    {
+      "id": "care-coordination",
+      "h2": "Care Coordination for Comprehensive Treatment",
+      "content": "Addiction medicine works best as part of comprehensive care addressing co-occurring conditions and supporting whole-person recovery. Coordination with other providers enhances outcomes.\n\n[Behavioral health](/specialties/behavioral-health) therapy coordination supports the psychological dimensions of recovery. Cognitive behavioral therapy, motivational interviewing, and other therapeutic approaches address the thoughts, emotions, and behaviors underlying addiction. [Secure messaging](/features/secure-messaging) enables communication between prescribers and therapists. Shared [RTM](/features/rtm-billing) data visibility means both providers see consistent patient information about mood, cravings, and recovery activities.\n\n[Psychiatry](/specialties/psychiatry) coordination addresses co-occurring psychiatric conditions common in addiction. Depression, anxiety, PTSD, and bipolar disorder frequently accompany substance use disorders. The addiction medicine provider and psychiatrist must align on medication management. Shared [RTM](/features/rtm-billing) data and [secure messaging](/features/secure-messaging) facilitate coordination.\n\n[Primary care](/specialties/primary-care) coordination addresses medical complications of substance use and general health needs. Hepatitis screening, HIV testing, cardiac assessment, and routine preventive care all matter for addiction medicine patients. [Secure file exchange](/features/secure-file-exchange) shares relevant documentation with PCPs maintaining the medical home relationship.\n\n[Pain management](/specialties/pain-management) coordination addresses the complex intersection of chronic pain and opioid use disorder. Patients with both conditions require careful coordination to manage pain without undermining recovery. [Secure messaging](/features/secure-messaging) enables direct communication between addiction medicine and pain management providers.\n\nCommunity resource connection supports recovery beyond clinical treatment. Sober living facilities, employment services, and recovery community organizations all contribute to sustained recovery. The [patient app](/features/patient-app) can provide resource information and track engagement with community supports."
+    },
+    {
+      "id": "telehealth",
+      "h2": "Telehealth for Addiction Treatment",
+      "content": "[Telehealth](/features/telehealth) expanded dramatically for addiction medicine during the pandemic with regulatory flexibilities that have largely been maintained. Video visits through the [clinIQ app](/features/patient-app) provide access for patients facing barriers to in-person care.\n\nBuprenorphine prescribing via telehealth remains permitted under current DEA guidance with appropriate clinical protocols. Patients can receive initial evaluations and ongoing medication management through [telehealth](/features/telehealth) when clinically appropriate. This access is particularly valuable in rural areas with limited addiction medicine providers.\n\nPatient access barriers that telehealth addresses include transportation challenges significant for patients without reliable vehicles, geographic distance from treatment facilities, childcare or work schedule conflicts, and stigma concerns about being seen entering treatment facilities. [Telehealth](/features/telehealth) removes these barriers while maintaining clinical relationship.\n\n[RTM](/features/rtm-billing) data review during telehealth visits enables data-informed discussion. The provider sees craving patterns, medication adherence, and recovery activity while talking with the patient. Video visits supported by between-visit monitoring data can be more productive than in-person visits without such data.\n\n[Scheduling](/features/scheduling) through the [patient app](/features/patient-app) shows both telehealth and in-person options. Appointment reminders include appropriate join instructions. The unified platform means patients use the same app for visits, messaging, and recovery tracking.\n\nGroup therapy via [telehealth](/features/telehealth) extends peer support access. Group sessions for patients in similar recovery phases can meet virtually, maintaining connection when in-person attendance is difficult.\n\nHybrid models combining in-person and telehealth visits based on treatment phase and patient needs optimize both access and clinical care. Early treatment may benefit from more in-person contact while stable patients may prefer telehealth convenience."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "Addiction medicine implementation focuses on [RTM](/features/rtm-billing) enrollment, medication adherence tracking, compliance documentation, and [telehealth](/features/telehealth) integration.\n\nWeek one maps clinical workflows including intake processes, visit frequency patterns, compliance documentation, and coordination with other providers. [Scheduling](/features/scheduling) templates configure for initial evaluations and follow-ups at varying frequencies. [RTM](/features/rtm-billing) data collection configures for cravings, adherence, mood, and recovery tracking. Compliance tracking workflows configure for PDMP, drug screens, and treatment agreements.\n\nWeek two trains clinical staff on [patient flow](/features/patient-flow) workflows including compliance documentation, [RTM](/features/rtm-billing) data review, and [telehealth](/features/telehealth) operation. Administrative staff trains on [scheduling](/features/scheduling) and [check-in](/features/patient-check-in). Staff practices enrolling patients in [RTM](/features/rtm-billing) through the [patient app](/features/patient-app).\n\nWeek three goes live with [RTM](/features/rtm-billing) enrollment beginning, compliance tracking active, and [telehealth](/features/telehealth) available. The clinIQ team monitors implementation and adjusts configuration.\n\nROI sources include [RTM billing](/features/rtm-billing) revenue at $110-140 per enrolled patient monthly with 100 patients generating $130,000+ annually. [Telehealth](/features/telehealth) expands patient reach without facility expansion. Compliance documentation reduces regulatory risk. Better monitoring may improve outcomes and reduce costly relapse events.\n\nProfessional tier at $499 monthly includes [RTM](/features/rtm-billing), [telehealth](/features/telehealth), [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [secure messaging](/features/secure-messaging), [wearable integration](/features/wearable-integration), and [analytics](/features/analytics). [RTM](/features/rtm-billing) revenue from 50 enrolled patients exceeds annual platform cost."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can addiction medicine practices bill RTM?",
+      "a": "Yes. Substance use disorders qualify under CPT 98976 for behavioral health device supply plus 98980 for treatment management. [RTM billing](/features/rtm-billing) captures $110-140 per enrolled patient monthly for between-visit monitoring."
+    },
+    {
+      "q": "How does MAT adherence tracking work?",
+      "a": "Patients log medication doses through the [clinIQ app](/features/patient-app). Push reminders prompt at scheduled times. The provider dashboard shows adherence patterns, enabling intervention when doses are missed."
+    },
+    {
+      "q": "Does the system handle compliance documentation?",
+      "a": "Yes. [Patient flow](/features/patient-flow) workflows document PDMP check completion, drug screen timing, and treatment agreement status. [Analytics](/features/analytics) generate compliance reports for internal QA and regulatory response."
+    },
+    {
+      "q": "Can buprenorphine be prescribed via telehealth?",
+      "a": "Current DEA guidance permits buprenorphine prescribing via [telehealth](/features/telehealth) with appropriate clinical protocols. Video visits through the [clinIQ app](/features/patient-app) support initial evaluations and ongoing management."
+    },
+    {
+      "q": "How does craving tracking help treatment?",
+      "a": "Craving intensity and frequency tracking through the [patient app](/features/patient-app) reveals patterns invisible without systematic monitoring. Trigger identification informs behavioral interventions. Escalating cravings trigger proactive outreach before relapse."
+    },
+    {
+      "q": "How do you coordinate with behavioral health?",
+      "a": "[Secure messaging](/features/secure-messaging) enables direct communication with [behavioral health](/specialties/behavioral-health) therapists. Shared [RTM](/features/rtm-billing) data means both providers see consistent patient information on mood, cravings, and recovery activities."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers workflow mapping and compliance configuration. Week two includes staff training. Week three goes live with support."
+    },
+    {
+      "q": "What ROI should we expect?",
+      "a": "[RTM](/features/rtm-billing) revenue from 100 enrolled patients generates $130,000+ annually. [Telehealth](/features/telehealth) expands access. Compliance documentation reduces regulatory risk. Most practices see positive ROI within the first month."
+    }
+  ],
+  "cta": {
+    "headline": "See Addiction Medicine Operations Optimized",
+    "subhead": "Fifteen-minute demo showing RTM enrollment, MAT adherence tracking, compliance documentation, and telehealth integration. See how addiction medicine practices capture $130,000+ annually in RTM revenue.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate Your RTM Revenue", "href": "/resources/rtm-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "$130K", "label": "annual RTM revenue potential" },
+      { "value": "MAT", "label": "adherence monitoring" },
+      { "value": "Compliance", "label": "documentation included" }
+    ],
+    "testimonial": {
+      "quote": "Between-visit craving tracking changed how we support patients in early recovery. We see when cravings escalate and reach out before relapse. MAT adherence monitoring shows who is taking medications consistently. RTM captures revenue for monitoring that quality addiction care already requires. Compliance documentation makes DEA inspections less stressful.",
+      "attribution": "Medical Director",
+      "practice": "Outpatient MAT program with multiple sites",
+      "location": "Ohio"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "RTM Billing",
+      "href": "/features/rtm-billing",
+      "description": "Complete guide to Remote Therapeutic Monitoring for substance use disorders."
+    },
+    {
+      "type": "specialty",
+      "title": "Psychiatry",
+      "href": "/specialties/psychiatry",
+      "description": "Coordinating addiction treatment with psychiatric medication management."
+    },
+    {
+      "type": "specialty",
+      "title": "Behavioral Health",
+      "href": "/specialties/behavioral-health",
+      "description": "Therapy coordination for comprehensive addiction treatment."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "Addiction Medicine",
+    "relevantConditions": ["Opioid Use Disorder", "Alcohol Use Disorder", "Substance Use Disorders", "Medication-Assisted Treatment"],
+    "availableProcedures": ["MAT Induction", "Medication Management", "Substance Use Assessment", "Toxicology Monitoring"]
+  }
+}

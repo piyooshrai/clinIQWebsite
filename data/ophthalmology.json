@@ -1,0 +1,139 @@
+{
+  "slug": "ophthalmology",
+  "name": "Ophthalmology",
+  "pageType": "specialty-pillar",
+  "wordCount": 2600,
+  "publishDate": "2025-06-01",
+  "meta": {
+    "title": "Ophthalmology Practice Software | Scheduling, Patient Flow & Surgical Coordination | clinIQ",
+    "description": "Complete guide to ophthalmology practice operations. High-volume clinic flow management. Surgical scheduling for cataract and retinal procedures. Post-operative monitoring. Patient communication for appointment-intensive specialty.",
+    "keywords": ["ophthalmology software", "ophthalmology practice management", "cataract surgery scheduling", "eye clinic patient flow", "ophthalmology EHR integration", "retina practice software"]
+  },
+  "hero": {
+    "h1": "Ophthalmology Practice Software",
+    "subhead": "High-volume clinic flow managing 40+ patients daily. Surgical scheduling for cataract, retina, and glaucoma procedures. Post-operative monitoring through the clinIQ app. Patient communication for appointment-intensive eye care.",
+    "stats": [
+      { "value": "40+", "label": "patients daily manageable" },
+      { "value": "High-volume", "label": "flow optimization" },
+      { "value": "Surgical", "label": "coordination" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "ophtho-operations", "title": "The Ophthalmology Operations Model" },
+    { "id": "patient-flow", "title": "High-Volume Patient Flow" },
+    { "id": "scheduling", "title": "Clinic and Surgical Scheduling" },
+    { "id": "surgical-coordination", "title": "Surgical Coordination" },
+    { "id": "post-op-monitoring", "title": "Post-Operative Monitoring" },
+    { "id": "patient-communication", "title": "Patient Communication" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "ophtho-operations",
+      "h2": "The Ophthalmology Operations Model",
+      "content": "Ophthalmology practices operate at high volume with complex patient flow. A busy ophthalmologist may see 40-60 patients daily across general eye exams, medical ophthalmology for glaucoma and macular degeneration, and surgical evaluations. Patients move through multiple testing stations before seeing the physician. Surgical volume for cataract, retina, and glaucoma procedures adds scheduling complexity.\n\nClinic flow complexity exceeds most specialties. Patients may receive visual acuity testing, refraction, tonometry, dilation, OCT imaging, visual field testing, and examination — not all at every visit, but in combinations determined by visit type and findings. [Patient flow](/features/patient-flow) must track patients through this multi-station process.\n\nSurgical scheduling for cataract surgery represents high volume at ASCs. Retinal surgery may require OR time at hospitals. Laser procedures occur in office. [Scheduling](/features/scheduling) coordinates across these modalities.\n\nPatient communication is particularly important because ophthalmic conditions affect daily function and patients have frequent questions. [Secure messaging](/features/secure-messaging) through the [clinIQ app](/features/patient-app) addresses questions efficiently."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "High-Volume Patient Flow Management",
+      "content": "[Patient flow](/features/patient-flow) in ophthalmology must track patients through multiple testing stations with varying sequences based on visit type. The complexity exceeds simple room-based flow.\n\nMulti-station tracking shows each patient's current location and status. Testing stations for visual acuity, refraction, tonometry, dilation waiting, OCT, and visual field all appear on the flow board. Staff sees which patients are at which stations and which are waiting for the next step.\n\nVisit type determines testing sequence. A routine glaucoma follow-up needs different testing than a new patient comprehensive exam versus a post-operative cataract check. [Patient flow](/features/patient-flow) configuration accommodates these varied pathways.\n\nDilation timing affects flow significantly. Patients needing dilated examination have a waiting period after drops. [Patient flow](/features/patient-flow) tracks dilation status so other patients can be seen while dilated patients wait.\n\nPhysician notification when patients are ready for examination allows efficient provider movement. Rather than checking rooms, the physician sees on the flow board which patients are tested, dilated, and ready.\n\n[Check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) collects symptom information before visits. Vision changes, medication compliance, and specific concerns can be captured before arrival.\n\n[Analytics](/features/analytics) from flow data reveal bottlenecks. Which testing stations create delays. How long patients wait at each stage. This data guides staffing and equipment decisions."
+    },
+    {
+      "id": "scheduling",
+      "h2": "Clinic and Surgical Scheduling",
+      "content": "[Scheduling](/features/scheduling) in ophthalmology coordinates high-volume clinic visits with surgical procedures across multiple venues.\n\nClinic scheduling must accommodate varied visit types with different time and testing requirements. New patient comprehensive exams need more time than established glaucoma checks. Retina evaluations may include imaging. [Scheduling](/features/scheduling) templates allocate appropriate time by visit type.\n\nSurgical scheduling for cataract surgery coordinates ASC block time. High-volume cataract days may involve 8-12 cases. Premium IOL cases may need additional counseling time. Scheduling templates account for case complexity.\n\nRetinal surgery scheduling at hospitals coordinates OR time for vitrectomy, membrane peeling, and other procedures requiring hospital setting.\n\nIn-office procedures including laser procedures for glaucoma and retinal conditions, and intravitreal injections for macular degeneration schedule within clinic flow.\n\nPatient self-scheduling through the [patient app](/features/patient-app) works for established patient follow-ups while new patients and surgical scheduling remain staff-managed.\n\nReminder notifications reduce no-shows which are costly in high-volume practices. Automated reminders through the app with easy reschedule options maintain schedule integrity."
+    },
+    {
+      "id": "surgical-coordination",
+      "h2": "Surgical Coordination",
+      "content": "Cataract surgery coordination involves patient counseling, IOL selection, pre-operative measurements, authorization when required, and ASC scheduling. The process must be systematic for high-volume surgical practice.\n\nPre-operative workflow ensures patients complete required measurements, counseling, and consent before surgery. [Patient flow](/features/patient-flow) tracking of pre-operative requirements prevents surgery delays.\n\nIOL selection counseling for premium lenses requires documentation of patient preferences and expectations. The [patient app](/features/patient-app) can deliver educational information about IOL options before counseling visits.\n\n[Pre-authorization](/features/pre-authorization) for cases requiring insurance approval tracks status and prevents scheduling cases without approval.\n\nPost-operative visit scheduling ensures appropriate follow-up at day one, week one, and subsequent intervals. These visits schedule automatically when surgery schedules.\n\nRetinal surgery coordination for hospital cases requires OR scheduling, anesthesia coordination, and appropriate post-operative planning. Complex cases may involve coordination with other specialists."
+    },
+    {
+      "id": "post-op-monitoring",
+      "h2": "Post-Operative Monitoring",
+      "content": "Post-operative monitoring following cataract, retinal, or glaucoma surgery tracks recovery and identifies complications early.\n\nSymptom tracking through the [clinIQ app](/features/patient-app) captures vision changes, pain, redness, and floaters. Post-cataract patients report their visual recovery. Post-retinal surgery patients report concerning symptoms like increasing floaters or vision loss.\n\nMedication compliance tracking for post-operative eye drops ensures patients are using prescribed medications. Drop regimens can be complex and compliance affects outcomes.\n\n[Secure messaging](/features/secure-messaging) addresses post-operative questions without phone calls. Common questions about activities, drop schedules, and expected symptoms can be answered promptly.\n\nConcerning symptom alerts for reports suggesting complications like endophthalmitis, retinal detachment, or IOP spikes trigger prompt clinical attention.\n\n[Telehealth](/features/telehealth) follow-ups may supplement in-person post-operative visits for appropriate cases, though most ophthalmic post-operative care requires examination."
+    },
+    {
+      "id": "patient-communication",
+      "h2": "Patient Communication",
+      "content": "Patient communication in ophthalmology addresses frequent questions from patients with vision concerns and complex drop regimens.\n\n[Secure messaging](/features/secure-messaging) through the [clinIQ app](/features/patient-app) provides responsive communication without phone tag. Patients ask about drop schedules, vision changes, and activity restrictions. Staff responds efficiently with documented exchanges.\n\nMedication reminders for complex drop regimens help patients maintain compliance. Post-operative drop schedules may involve multiple medications multiple times daily. App-based reminders support adherence.\n\nEducational content delivery through the app provides information about conditions, procedures, and expectations. Patients can reference information at home rather than relying on visit-time explanations.\n\nAppointment reminders and pre-visit instructions ensure patients arrive prepared. Instructions about contact lens removal, driver availability for dilation, and other requirements deliver through the app.\n\n[Patient satisfaction](/features/patient-satisfaction) tracking captures feedback on visit experience, wait times, and communication. High-volume practices must maintain satisfaction despite patient volume."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "Ophthalmology implementation addresses high-volume [patient flow](/features/patient-flow), clinic and surgical [scheduling](/features/scheduling), and patient communication.\n\nWeek one maps multi-station clinic flow including testing sequences by visit type. Surgical scheduling workflows configure for cataract, retinal, and laser procedures. Pre-operative workflow maps requirements tracking.\n\nWeek two trains technicians on flow board operation. Front desk trains on [scheduling](/features/scheduling) and [check-in](/features/patient-check-in). Providers train on dashboard and post-operative monitoring.\n\nWeek three goes live with [patient flow](/features/patient-flow), [scheduling](/features/scheduling), and patient communication.\n\nROI sources include flow efficiency enabling higher patient volume without adding staff. Reduced no-shows through app reminders. Post-operative messaging reducing phone volume. Better patient experience supporting practice growth.\n\nProfessional tier at $499 monthly includes [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), [patient satisfaction](/features/patient-satisfaction), and [analytics](/features/analytics)."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How does patient flow handle multiple testing stations?",
+      "a": "[Patient flow](/features/patient-flow) tracks patients through visual acuity, refraction, dilation, imaging, and other stations. The flow board shows each patient's current location and status. Different visit types have different station sequences."
+    },
+    {
+      "q": "Can scheduling handle high-volume cataract surgery?",
+      "a": "Yes. [Scheduling](/features/scheduling) manages ASC block time with templates for different case complexities. Pre-operative requirements track to ensure patients are ready. Post-operative visits schedule automatically."
+    },
+    {
+      "q": "How does post-operative monitoring work?",
+      "a": "Patients report symptoms and medication compliance through the [clinIQ app](/features/patient-app). Concerning symptoms alert clinical staff. [Secure messaging](/features/secure-messaging) answers post-operative questions efficiently."
+    },
+    {
+      "q": "How do you handle complex drop regimens?",
+      "a": "Medication reminders through the app help patients maintain compliance with post-operative drops. Drop schedules can be complex and app-based reminders support adherence."
+    },
+    {
+      "q": "Does patient flow track dilation status?",
+      "a": "Yes. [Patient flow](/features/patient-flow) shows dilation timing so providers can see other patients while dilated patients wait. This optimizes provider time during the dilation interval."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers flow and scheduling configuration. Week two includes staff training. Week three goes live with support."
+    }
+  ],
+  "cta": {
+    "headline": "See Ophthalmology Operations Optimized",
+    "subhead": "Fifteen-minute demo showing high-volume patient flow, surgical scheduling, and post-operative monitoring for eye care practices.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Learn More", "href": "/resources/high-volume-flow" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "40+", "label": "patients daily" },
+      { "value": "Multi-station", "label": "flow tracking" },
+      { "value": "Surgical", "label": "coordination" }
+    ],
+    "testimonial": {
+      "quote": "Multi-station flow tracking transformed our clinic. We see where every patient is without asking. Dilation timing is visible so we optimize the wait. Post-operative messaging cut phone volume for cataract patients. The efficiency gains let us see more patients without adding staff.",
+      "attribution": "Practice Administrator",
+      "practice": "Comprehensive ophthalmology practice with retina subspecialty",
+      "location": "Illinois"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "Patient Flow",
+      "href": "/features/patient-flow",
+      "description": "High-volume multi-station flow management."
+    },
+    {
+      "type": "feature",
+      "title": "Scheduling",
+      "href": "/features/scheduling",
+      "description": "Clinic and surgical scheduling optimization."
+    },
+    {
+      "type": "feature",
+      "title": "Secure Messaging",
+      "href": "/features/secure-messaging",
+      "description": "Post-operative patient communication."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "Ophthalmology",
+    "relevantConditions": ["Cataracts", "Glaucoma", "Macular Degeneration", "Diabetic Retinopathy", "Retinal Detachment"],
+    "availableProcedures": ["Cataract Surgery", "Glaucoma Surgery", "Retinal Surgery", "Intravitreal Injection", "Laser Treatment"]
+  }
+}

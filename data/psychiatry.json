@@ -1,0 +1,153 @@
+{
+  "slug": "psychiatry",
+  "name": "Psychiatry",
+  "pageType": "specialty-pillar",
+  "wordCount": 3300,
+  "publishDate": "2025-04-15",
+  "meta": {
+    "title": "Psychiatry Practice Software | RTM, Medication Monitoring & Telehealth | clinIQ",
+    "description": "Complete guide to psychiatry practice operations. RTM billing for psychiatric conditions. Medication adherence monitoring. Telehealth for medication management visits. Symptom tracking between appointments.",
+    "keywords": ["psychiatry software", "psychiatry practice management", "psychiatric RTM billing", "medication adherence monitoring", "psychiatry telehealth", "psychiatric patient portal", "mental health medication management"]
+  },
+  "hero": {
+    "h1": "Psychiatry Practice Software",
+    "subhead": "RTM billing for psychiatric conditions capturing $120-150 per patient monthly. Medication adherence monitoring through the clinIQ app. Telehealth for medication management visits. Symptom tracking between appointments enabling proactive medication adjustments. Coordination with therapy providers.",
+    "stats": [
+      { "value": "$140K", "label": "annual RTM revenue (100 patients)" },
+      { "value": "Medication", "label": "adherence tracking" },
+      { "value": "75%+", "label": "symptom tracking compliance" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "psychiatry-operations", "title": "The Psychiatry Operations Model" },
+    { "id": "rtm-billing", "title": "RTM Billing for Psychiatric Conditions" },
+    { "id": "medication-monitoring", "title": "Medication Adherence Monitoring" },
+    { "id": "telehealth", "title": "Telehealth for Medication Management" },
+    { "id": "symptom-tracking", "title": "Between-Visit Symptom Tracking" },
+    { "id": "care-coordination", "title": "Care Coordination" },
+    { "id": "controlled-substances", "title": "Controlled Substance Management" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "psychiatry-operations",
+      "h2": "The Psychiatry Operations Model",
+      "content": "Psychiatry practices focus on medication management for mental health conditions. Initial psychiatric evaluations require 60-90 minutes for comprehensive assessment. Follow-up medication management visits are typically 15-30 minutes. The between-visit period is where medication effects manifest, side effects emerge, and symptoms change — yet this period traditionally has no visibility or revenue.\n\nMedication adherence determines treatment success more than any other factor. Patients who do not take medications as prescribed cannot benefit from them. Non-adherence rates in psychiatry exceed 50% for many conditions. Traditional practice discovers non-adherence only when patients admit it during visits or when treatment fails. [RTM](/features/rtm-billing) monitoring through the [clinIQ app](/features/patient-app) provides visibility into adherence between visits.\n\nSymptom patterns between visits inform medication decisions. A patient stable at their monthly visit but whose daily symptom tracking reveals weekly cycling may need different medication than someone truly stable. Without between-visit data, psychiatrists rely on patient recall which is often incomplete or inaccurate. [RTM](/features/rtm-billing) data collection creates the longitudinal picture necessary for optimal medication management.\n\n[Telehealth](/features/telehealth) is particularly well-suited to psychiatry medication management. Follow-up visits focused on symptom review, side effect assessment, and medication adjustment do not require physical examination. Video visits through the [clinIQ app](/features/patient-app) provide access for patients in rural areas, those with transportation barriers, or those who prefer the convenience of video.\n\nCoordination with [behavioral health](/specialties/behavioral-health) therapy providers creates comprehensive care. The therapist observes symptoms and function during weekly sessions. The psychiatrist manages medications based partly on therapist observations. [Secure messaging](/features/secure-messaging) and shared [RTM](/features/rtm-billing) data visibility enable this coordination."
+    },
+    {
+      "id": "rtm-billing",
+      "h2": "RTM Billing for Psychiatric Conditions",
+      "content": "[RTM billing](/features/rtm-billing) for psychiatry uses CPT 98976 for mental and behavioral health device supply plus 98980 and 98981 for treatment management time. This captures revenue for the between-visit monitoring that quality psychiatric care requires.\n\nQualifying conditions span psychiatric diagnoses requiring medication management including major depressive disorder, generalized anxiety disorder, bipolar disorder, schizophrenia, PTSD, OCD, and ADHD. The monitoring must be therapeutically meaningful, not just billing activity.\n\nPatient-reported data collection through the [clinIQ app](/features/patient-app) captures mood ratings using validated scales, medication adherence logging, side effect reporting, sleep quality and patterns, anxiety levels and triggers, and energy and motivation ratings. Patients complete brief daily or weekly entries taking two to three minutes.\n\nThe revenue calculation shows $120-150 per enrolled patient monthly. One hundred patients enrolled generates $12,000-15,000 monthly or $144,000-180,000 annually. Psychiatric patients on medication maintenance are prime candidates with typical enrollment achievable at 60-70% of eligible patients.\n\nOIG and CMS 2025 reports indicate that 28% of RTM enrollees never complete initial setup and nearly 50% of monthly claims are lost to inadequate data submission. The [clinIQ app](/features/patient-app) achieves 75%+ compliance through push notification reminders, simple entry interfaces, and the clinical relationship reinforcing tracking value.\n\n[Wearable integration](/features/wearable-integration) adds objective data. Sleep patterns from Oura Ring or Apple Watch correlate strongly with psychiatric symptoms. Activity levels indicate behavioral activation or withdrawal. This passive data supplements self-reports without adding patient burden."
+    },
+    {
+      "id": "medication-monitoring",
+      "h2": "Medication Adherence Monitoring",
+      "content": "Medication adherence in psychiatry is notoriously poor with 40-60% non-adherence rates for many psychiatric medications. Patients stop medications when feeling better, when side effects occur, when they forget, or due to ambivalence about treatment.\n\nAdherence tracking through the [clinIQ app](/features/patient-app) creates visibility into medication-taking behavior. Patients log when they take medications. The system tracks adherence rates over time. Patterns emerge showing whether patients take medications consistently, miss weekend doses, or have stopped entirely.\n\nReminder functionality helps patients remember medications through push notifications at scheduled dosing times. The reminder links to the logging function for easy dose confirmation. For patients whose adherence problem is forgetting, reminders solve the problem directly.\n\nAdherence visualization in the psychiatrist dashboard shows compliance patterns. Before a medication management visit, the psychiatrist sees whether the patient has been adherent. A patient reporting medication is not working whose adherence data shows 40% compliance needs a different conversation than an adherent patient not responding to adequate trials.\n\nNon-adherence intervention through [secure messaging](/features/secure-messaging) addresses problems early. When adherence drops, staff can message the patient to understand barriers. Is it side effects? Forgetting? Ambivalence? Understanding the reason guides intervention.\n\nSide effect correlation with adherence reveals patterns. A patient whose adherence drops after starting a new medication may be experiencing intolerable side effects they have not reported. The timing correlation visible in [RTM](/features/rtm-billing) data prompts investigation."
+    },
+    {
+      "id": "telehealth",
+      "h2": "Telehealth for Medication Management",
+      "content": "[Telehealth](/features/telehealth) is exceptionally well-suited to psychiatry medication management visits. Follow-up visits involve symptom review, side effect assessment, and medication decision-making — none requiring physical examination.\n\nPatient access improves dramatically with [telehealth](/features/telehealth). Psychiatric provider shortages affect many regions. Patients with depression may struggle to mobilize for in-person visits. Patients with anxiety may find office visits stressful. Video visits through the [clinIQ app](/features/patient-app) remove these barriers.\n\nSession integration means telehealth uses the same platform patients use for [check-in](/features/patient-check-in), [messaging](/features/secure-messaging), and symptom tracking. Patients tap to join from a familiar interface rather than navigating separate platforms.\n\n[RTM](/features/rtm-billing) data review during telehealth visits is natural. The psychiatrist has symptom trends and medication adherence data visible while talking with the patient. Discussion references specific data points from tracking.\n\nReimbursement for psychiatric telehealth remains strong. Twenty-four states have payment parity laws according to CCHP 2025 data. Medicare telehealth flexibilities extend through 2027.\n\nA hybrid model using in-person initial evaluations and [telehealth](/features/telehealth) follow-ups optimizes both clinical care and access. [Scheduling](/features/scheduling) through the [patient app](/features/patient-app) shows both telehealth and in-person options."
+    },
+    {
+      "id": "symptom-tracking",
+      "h2": "Between-Visit Symptom Tracking",
+      "content": "Between-visit symptom tracking through the [clinIQ app](/features/patient-app) provides longitudinal data necessary for optimal medication management. Point-in-time assessment at monthly visits misses patterns characterizing psychiatric conditions.\n\nMood tracking using validated instruments like PHQ-9 or GAD-7 provides standardized measurement over time. Patients complete brief assessments on schedule. The data trends in the psychiatrist dashboard, showing response to medication changes, seasonal patterns, or life stress impacts.\n\nDepression-specific tracking captures energy levels, sleep quality, appetite changes, concentration, and anhedonia. Different symptom profiles may suggest different medication approaches.\n\nAnxiety-specific tracking captures worry intensity, physical symptoms, avoidance behaviors, and specific triggers. Tracking distinguishes patterns that guide treatment.\n\nBipolar tracking captures both depression and elevation symptoms. Sleep duration changes often precede mood episodes. Energy level fluctuations indicate emerging episodes. This tracking enables intervention before full episodes develop.\n\n[Wearable integration](/features/wearable-integration) adds objective data. Sleep duration and quality from Apple Watch or Oura Ring correlates with psychiatric symptoms. Activity levels indicate behavioral activation or withdrawal. This passive data complements patient-reported symptoms.\n\nAlert thresholds trigger notification when tracking data indicates concerning changes. Significant PHQ-9 score increases or reported suicidal ideation can alert clinical staff for [secure messaging](/features/secure-messaging) follow-up or earlier [telehealth](/features/telehealth) visits."
+    },
+    {
+      "id": "care-coordination",
+      "h2": "Care Coordination with Therapy and Primary Care",
+      "content": "Psychiatric medication management works best when coordinated with therapy and primary care. The psychiatrist manages medications based partly on observations from other providers who see the patient more frequently.\n\n[Behavioral health](/specialties/behavioral-health) therapy coordination is essential for patients receiving both medication and psychotherapy. Therapist observations about symptom severity, function, and medication effects inform psychiatric decision-making. [Secure messaging](/features/secure-messaging) provides a communication channel. Shared [RTM](/features/rtm-billing) data visibility means both providers see consistent patient-reported information.\n\n[Primary care](/specialties/primary-care) coordination addresses medical issues that interact with psychiatric treatment. Thyroid function affects mood. Medication interactions require attention. [Secure file exchange](/features/secure-file-exchange) shares relevant documentation.\n\n[Addiction medicine](/specialties/addiction-medicine) coordination matters for patients with co-occurring substance use disorders. Some psychiatric medications carry addiction risk. Coordinated treatment addresses both conditions. Shared [RTM](/features/rtm-billing) data showing mood, cravings, and substance use informs both providers.\n\n[Pain management](/specialties/pain-management) coordination addresses the common overlap between chronic pain and mental health. Depression worsens pain perception. Coordinated management avoids conflicting treatments.\n\nEmergency coordination ensures crisis situations receive appropriate response. When [RTM](/features/rtm-billing) tracking reveals acute deterioration, coordination with emergency services may be necessary."
+    },
+    {
+      "id": "controlled-substances",
+      "h2": "Controlled Substance Management",
+      "content": "Psychiatry prescribes controlled substances for ADHD, anxiety, and sleep disorders. These prescriptions require additional tracking and compliance measures.\n\nPDMP verification must occur before controlled substance prescriptions according to state requirements. The [patient flow](/features/patient-flow) workflow can document that PDMP checks occurred, though actual verification happens in the state portal. Compliance tracking creates audit trail for regulatory review.\n\nStimulant monitoring for ADHD patients on medications like amphetamines or methylphenidate includes tracking effectiveness, side effects, appetite, sleep impact, and appropriate use. [RTM](/features/rtm-billing) data collection captures these parameters systematically.\n\nBenzodiazepine monitoring for anxiety tracks both therapeutic benefit and risk factors for dependence. Duration of use, dose stability, and any concerning patterns appear in tracking data.\n\nSleep medication monitoring for patients on controlled sleep aids tracks effectiveness and appropriate use patterns.\n\nPrescription tracking documents controlled substance prescriptions with quantities and dates. This documentation supports practice compliance with regulatory requirements.\n\n[Analytics](/features/analytics) can report on controlled substance prescribing patterns, supporting quality improvement and regulatory compliance."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "Psychiatry implementation focuses on [RTM](/features/rtm-billing) enrollment for medication management patients, [telehealth](/features/telehealth) integration, medication adherence tracking, and symptom monitoring configuration.\n\nWeek one maps clinical workflows including evaluation scheduling, follow-up patterns, between-visit communication, and coordination with therapists. [Scheduling](/features/scheduling) templates configure for initial evaluations and medication management visits. [RTM](/features/rtm-billing) data collection configures for mood, adherence, and side effects.\n\nWeek two trains psychiatrists on dashboard, [RTM](/features/rtm-billing) data review, [telehealth](/features/telehealth) session management, and adherence monitoring. Staff trains on [scheduling](/features/scheduling), [check-in](/features/patient-check-in), and patient enrollment.\n\nWeek three goes live with [telehealth](/features/telehealth) sessions, [RTM](/features/rtm-billing) enrollment beginning, and adherence tracking activation.\n\nROI sources include [RTM billing](/features/rtm-billing) revenue at $120-150 per enrolled patient monthly with 100 patients generating $140,000+ annually. [Telehealth](/features/telehealth) expands patient reach. Adherence monitoring improves treatment outcomes. Better outcomes reduce emergency utilization and crisis interventions.\n\nProfessional tier at $499 monthly includes [RTM](/features/rtm-billing), [telehealth](/features/telehealth), [scheduling](/features/scheduling), [secure messaging](/features/secure-messaging), [wearable integration](/features/wearable-integration), and [analytics](/features/analytics). [RTM](/features/rtm-billing) revenue from 40 enrolled patients exceeds annual platform cost."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can psychiatry practices bill RTM?",
+      "a": "Yes. Mental health conditions qualify under CPT 98976 for behavioral health device supply plus 98980 for treatment management. [RTM billing](/features/rtm-billing) captures $120-150 per enrolled patient monthly."
+    },
+    {
+      "q": "How does medication adherence tracking work?",
+      "a": "Patients log medication doses through the [clinIQ app](/features/patient-app). Push reminders prompt at scheduled times. The psychiatrist dashboard shows adherence percentages for each patient, enabling intervention when adherence drops."
+    },
+    {
+      "q": "Is telehealth well-suited to psychiatry?",
+      "a": "Yes. Medication management visits involve symptom review and medication decisions without physical examination. [Telehealth](/features/telehealth) through the [patient app](/features/patient-app) provides full clinical capability for most follow-up visits."
+    },
+    {
+      "q": "How does symptom tracking help medication management?",
+      "a": "Between-visit tracking through the [patient app](/features/patient-app) reveals mood patterns, medication response, and side effects over time. This longitudinal data informs medication decisions better than point-in-time assessment at monthly visits."
+    },
+    {
+      "q": "How do you coordinate with therapists?",
+      "a": "[Secure messaging](/features/secure-messaging) enables communication with [behavioral health](/specialties/behavioral-health) therapists. Shared [RTM](/features/rtm-billing) data visibility means both providers see consistent patient information."
+    },
+    {
+      "q": "What about controlled substance compliance?",
+      "a": "PDMP check documentation, controlled substance prescription tracking, and appropriate monitoring for stimulants and benzodiazepines all integrate with clinical workflow visible in [analytics](/features/analytics)."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers workflow mapping. Week two includes training. Week three goes live with support."
+    },
+    {
+      "q": "What ROI should we expect?",
+      "a": "[RTM](/features/rtm-billing) revenue from 100 enrolled patients generates $140,000+ annually. [Telehealth](/features/telehealth) expands capacity. Adherence monitoring improves outcomes. Most practices see positive ROI within the first month."
+    }
+  ],
+  "cta": {
+    "headline": "See Psychiatry Operations Optimized",
+    "subhead": "Fifteen-minute demo showing RTM enrollment, medication adherence tracking, telehealth integration, and symptom monitoring. See how psychiatry practices capture $140,000+ annually in RTM revenue.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Calculate Your RTM Revenue", "href": "/resources/rtm-calculator" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "$140K", "label": "annual RTM revenue potential" },
+      { "value": "75%+", "label": "adherence tracking compliance" },
+      { "value": "Native", "label": "telehealth integration" }
+    ],
+    "testimonial": {
+      "quote": "Medication adherence tracking changed my practice. I know before the visit whether patients are taking their medications. RTM captures revenue for monitoring I was already doing. Telehealth through the same app patients use for tracking eliminated platform switching. Between-visit data makes medication decisions more informed.",
+      "attribution": "Psychiatrist",
+      "practice": "Outpatient psychiatry practice",
+      "location": "New York"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "RTM Billing",
+      "href": "/features/rtm-billing",
+      "description": "Complete guide to Remote Therapeutic Monitoring for psychiatric conditions."
+    },
+    {
+      "type": "specialty",
+      "title": "Behavioral Health",
+      "href": "/specialties/behavioral-health",
+      "description": "Coordinating medication management with therapy."
+    },
+    {
+      "type": "specialty",
+      "title": "Addiction Medicine",
+      "href": "/specialties/addiction-medicine",
+      "description": "Managing co-occurring psychiatric and substance use disorders."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "Psychiatry",
+    "relevantConditions": ["Depression", "Anxiety Disorders", "Bipolar Disorder", "Schizophrenia", "ADHD", "PTSD"],
+    "availableProcedures": ["Psychiatric Evaluation", "Medication Management", "Psychopharmacology"]
+  }
+}

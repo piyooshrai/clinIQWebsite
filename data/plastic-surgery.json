@@ -1,0 +1,139 @@
+{
+  "slug": "plastic-surgery",
+  "name": "Plastic Surgery",
+  "pageType": "specialty-pillar",
+  "wordCount": 2400,
+  "publishDate": "2025-05-25",
+  "meta": {
+    "title": "Plastic Surgery Practice Software | Scheduling, Patient Flow & Consultation | clinIQ",
+    "description": "Complete guide to plastic surgery practice operations. Surgical scheduling for cosmetic and reconstructive cases. Pre-operative consultation workflow. Post-operative monitoring. Patient communication and satisfaction tracking.",
+    "keywords": ["plastic surgery software", "plastic surgery practice management", "cosmetic surgery scheduling", "plastic surgery patient flow", "aesthetic practice software", "plastic surgery EHR integration"]
+  },
+  "hero": {
+    "h1": "Plastic Surgery Practice Software",
+    "subhead": "Surgical scheduling for cosmetic and reconstructive cases. Consultation workflow capturing patient goals and expectations. Post-operative monitoring through the clinIQ app. Patient communication and satisfaction tracking for practice growth.",
+    "stats": [
+      { "value": "Cosmetic", "label": "and reconstructive scheduling" },
+      { "value": "Patient", "label": "communication excellence" },
+      { "value": "Post-op", "label": "photo monitoring" }
+    ]
+  },
+  "tableOfContents": [
+    { "id": "plastic-operations", "title": "The Plastic Surgery Operations Model" },
+    { "id": "scheduling", "title": "Surgical Scheduling" },
+    { "id": "consultation", "title": "Consultation Workflow" },
+    { "id": "patient-flow", "title": "Clinic Patient Flow" },
+    { "id": "post-op-monitoring", "title": "Post-Operative Monitoring" },
+    { "id": "patient-experience", "title": "Patient Experience and Satisfaction" },
+    { "id": "implementation", "title": "Implementation and ROI" },
+    { "id": "faqs", "title": "FAQs" }
+  ],
+  "sections": [
+    {
+      "id": "plastic-operations",
+      "h2": "The Plastic Surgery Operations Model",
+      "content": "Plastic surgery practices span cosmetic and reconstructive procedures with different operational models. Cosmetic surgery is elective and often cash-pay, requiring excellent patient experience and consultation conversion. Reconstructive surgery involves insurance authorization and coordination with oncology or trauma services. Both require efficient surgical scheduling and attentive post-operative care.\n\nCosmetic practice success depends on consultation experience and patient satisfaction. Patients considering elective procedures have choices. The consultation must understand patient goals, set appropriate expectations, and build confidence. [Patient flow](/features/patient-flow) that creates smooth consultation experiences supports conversion.\n\nReconstructive surgery involves [pre-authorization](/features/pre-authorization) for insurance-covered procedures and coordination with referring specialists. Breast reconstruction coordinates with [oncology](/specialties/oncology). Trauma reconstruction coordinates with the referring trauma service. The operational requirements differ from elective cosmetic practice.\n\nPost-operative care in plastic surgery requires attention to wound healing, aesthetic outcome, and patient satisfaction. Photo documentation tracks results. [RTM](/features/rtm-billing) through the [clinIQ app](/features/patient-app) monitors recovery and surfaces concerns early."
+    },
+    {
+      "id": "scheduling",
+      "h2": "Surgical Scheduling",
+      "content": "[Scheduling](/features/scheduling) in plastic surgery coordinates procedures across different facilities with varying duration and complexity.\n\nCosmetic procedure scheduling at ASCs or office surgical suites requires block time management. Procedure duration varies significantly between a rhinoplasty and a full facelift. [Scheduling](/features/scheduling) templates with procedure-specific durations prevent overbooking.\n\nReconstructive procedure scheduling often occurs at hospitals and may require coordination with other surgeons for combined cases. Breast reconstruction with oncologic surgery, for example, coordinates with the breast surgeon.\n\nMinor procedure scheduling for office-based procedures like injectable treatments, minor revisions, and scar treatments follows different patterns than major surgery.\n\nAuthorization-aware [scheduling](/features/scheduling) for reconstructive cases prevents booking procedures without insurance approval. [Pre-authorization](/features/pre-authorization) status shows which cases are approved and ready to schedule.\n\nPatient self-scheduling through the [patient app](/features/patient-app) works for consultations and post-operative follow-ups while surgical scheduling remains staff-managed."
+    },
+    {
+      "id": "consultation",
+      "h2": "Consultation Workflow",
+      "content": "Consultation for plastic surgery establishes patient goals, sets expectations, and builds the relationship that leads to surgical decisions. The workflow should capture information systematically while creating a premium patient experience.\n\n[Check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) before consultations collects history and areas of concern. Patients can indicate which procedures interest them and what outcomes they hope to achieve. This pre-visit information allows the surgeon to prepare for the consultation.\n\nConsultation flow ensures adequate time for thorough evaluation, patient education, and discussion of options. [Patient flow](/features/patient-flow) staging protects consultation time from being rushed by delays in other parts of the schedule.\n\nPhoto documentation during consultations establishes baseline appearance for surgical planning and outcome comparison. Standardized photo protocols ensure consistent documentation.\n\nPost-consultation follow-up through [secure messaging](/features/secure-messaging) maintains engagement with patients who are considering procedures. Questions that arise after leaving the office can be addressed promptly. This continued engagement supports conversion.\n\nFinancial consultation for cosmetic procedures covers pricing, payment options, and scheduling. The workflow integrates financial discussion appropriately with clinical consultation."
+    },
+    {
+      "id": "patient-flow",
+      "h2": "Clinic Patient Flow",
+      "content": "[Patient flow](/features/patient-flow) in plastic surgery manages consultations, pre-operative visits, post-operative follow-ups, and injectable treatments with different flow requirements.\n\nConsultation visits require extended time for evaluation, education, and discussion. [Patient flow](/features/patient-flow) staging ensures consultations receive protected time without feeling rushed.\n\nPre-operative visits confirm surgical plans, complete consent, review pre-operative instructions, and finalize financial arrangements. These visits follow predictable patterns.\n\nPost-operative visits assess healing, remove sutures, review results, and address concerns. Early post-operative visits may be brief wound checks while later visits involve more extensive outcome assessment.\n\nInjectable treatment visits for Botox, fillers, and other non-surgical treatments have different flow patterns than surgical consultations. Higher volume with shorter duration requires efficient turnover.\n\nWait time management is particularly important for cosmetic patients who have chosen an elective service. [Patient flow](/features/patient-flow) visibility enables proactive communication when delays occur. Premium patient experience requires minimal waiting.\n\n[Analytics](/features/analytics) from flow data reveal opportunities to improve patient experience and practice efficiency."
+    },
+    {
+      "id": "post-op-monitoring",
+      "h2": "Post-Operative Monitoring",
+      "content": "Post-operative monitoring in plastic surgery tracks wound healing, aesthetic outcomes, and patient satisfaction. Photo documentation and symptom tracking through the [clinIQ app](/features/patient-app) enable remote monitoring.\n\nWound monitoring through photos shared via [secure file exchange](/features/secure-file-exchange) allows assessment between visits. Early identification of wound complications like infection, dehiscence, or hematoma enables prompt intervention.\n\nSymptom tracking captures pain levels, swelling progression, and any concerning symptoms. Patients report through the app, providing data between scheduled visits.\n\nOutcome photography at standardized intervals documents healing progression and final results. Consistent photo protocols ensure useful comparison with pre-operative images.\n\n[Secure messaging](/features/secure-messaging) addresses patient questions during recovery. Post-operative anxiety is common. Responsive communication reassures patients and catches real problems.\n\n[Telehealth](/features/telehealth) follow-ups with photo review can substitute for some in-person visits, particularly for patients who travel from distance for surgery. Video assessment supplements wound photos."
+    },
+    {
+      "id": "patient-experience",
+      "h2": "Patient Experience and Satisfaction",
+      "content": "Patient experience drives cosmetic practice success through satisfaction, referrals, and reviews. Every touchpoint should reinforce premium service quality.\n\n[Patient satisfaction](/features/patient-satisfaction) surveys capture feedback on consultation experience, surgical experience, and overall satisfaction. Tracking satisfaction identifies opportunities for improvement and documents success.\n\nCommunication responsiveness through [secure messaging](/features/secure-messaging) demonstrates attentiveness. Patients who receive prompt responses to questions feel cared for. Response time tracking in [analytics](/features/analytics) ensures communication standards.\n\n[Check-in](/features/patient-check-in) experience through the [clinIQ app](/features/patient-app) should be smooth and efficient. Minimal paperwork and quick check-in create positive first impressions.\n\nPost-operative communication through the app maintains the relationship beyond surgery. Milestone reminders, recovery encouragement, and outcome photography requests all reinforce engagement.\n\nReview and referral encouragement for satisfied patients can be facilitated appropriately. Satisfied patients often want to recommend but need simple ways to do so.\n\n[Analytics](/features/analytics) tracking satisfaction scores, response times, and outcome documentation supports continuous improvement."
+    },
+    {
+      "id": "implementation",
+      "h2": "Implementation and ROI",
+      "content": "Plastic surgery implementation addresses [scheduling](/features/scheduling) across procedure types, consultation workflow, clinic [patient flow](/features/patient-flow), and post-operative monitoring.\n\nWeek one maps scheduling workflows for cosmetic and reconstructive cases. Consultation workflow configures for pre-visit information collection and follow-up engagement. Post-operative photo documentation protocols establish.\n\nWeek two trains staff on [patient flow](/features/patient-flow), [check-in](/features/patient-check-in), and consultation engagement. Providers train on dashboard, photo review, and [telehealth](/features/telehealth).\n\nWeek three goes live with [scheduling](/features/scheduling), [patient flow](/features/patient-flow), and post-operative monitoring.\n\nROI sources include consultation conversion improvement through better patient experience. Efficient scheduling maximizes surgical volume. Post-operative monitoring catches complications early. Patient satisfaction drives referrals and reviews.\n\nProfessional tier at $499 monthly includes [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), [file exchange](/features/secure-file-exchange), [patient satisfaction](/features/patient-satisfaction), and [analytics](/features/analytics)."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How does scheduling handle varied procedure lengths?",
+      "a": "[Scheduling](/features/scheduling) uses procedure-specific duration templates. A rhinoplasty has different time allocation than injectable treatments. This prevents overbooking and schedule chaos."
+    },
+    {
+      "q": "How does consultation workflow improve conversion?",
+      "a": "[Check-in](/features/patient-check-in) collects patient goals before consultation. [Patient flow](/features/patient-flow) protects consultation time from rushing. [Secure messaging](/features/secure-messaging) follow-up maintains engagement. Each touchpoint reinforces premium experience."
+    },
+    {
+      "q": "How does post-operative photo monitoring work?",
+      "a": "Patients share wound photos through [secure file exchange](/features/secure-file-exchange) in the app. Providers review for healing assessment. Standardized outcome photography documents results."
+    },
+    {
+      "q": "How do you track patient satisfaction?",
+      "a": "[Patient satisfaction](/features/patient-satisfaction) surveys capture feedback at key points. [Analytics](/features/analytics) track satisfaction scores, response times, and outcome metrics. Data identifies improvement opportunities."
+    },
+    {
+      "q": "Does telehealth work for plastic surgery?",
+      "a": "Yes. [Telehealth](/features/telehealth) with photo review supports post-operative assessment, particularly for patients who travel for surgery. Initial consultations may also be conducted virtually."
+    },
+    {
+      "q": "What is the implementation timeline?",
+      "a": "Two to three weeks from contract to go-live. Week one covers scheduling and workflow configuration. Week two includes staff training. Week three goes live with support."
+    }
+  ],
+  "cta": {
+    "headline": "See Plastic Surgery Operations Optimized",
+    "subhead": "Fifteen-minute demo showing consultation workflow, post-operative monitoring, and patient experience optimization.",
+    "primaryButton": { "label": "Request Demo", "href": "/demo" },
+    "secondaryButton": { "label": "Learn More", "href": "/resources/consultation-workflow" }
+  },
+  "proof": {
+    "stats": [
+      { "value": "Premium", "label": "patient experience" },
+      { "value": "Photo", "label": "wound monitoring" },
+      { "value": "Satisfaction", "label": "tracking included" }
+    ],
+    "testimonial": {
+      "quote": "Patient experience is everything in cosmetic practice. The app creates smooth consultations with pre-visit information collection. Post-operative photo monitoring reassures patients and catches problems. Satisfaction tracking shows we are maintaining the premium experience our patients expect.",
+      "attribution": "Practice Manager",
+      "practice": "Cosmetic surgery practice",
+      "location": "Florida"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "Patient Satisfaction",
+      "href": "/features/patient-satisfaction",
+      "description": "Tracking and improving patient experience."
+    },
+    {
+      "type": "feature",
+      "title": "Secure File Exchange",
+      "href": "/features/secure-file-exchange",
+      "description": "Photo sharing for wound monitoring."
+    },
+    {
+      "type": "specialty",
+      "title": "Dermatology",
+      "href": "/specialties/dermatology",
+      "description": "Coordinating aesthetic dermatology procedures."
+    }
+  ],
+  "schema": {
+    "type": "MedicalSpecialty",
+    "medicalSpecialty": "Plastic Surgery",
+    "relevantConditions": ["Breast Reconstruction", "Facial Aging", "Body Contouring", "Skin Cancer Reconstruction"],
+    "availableProcedures": ["Facelift", "Rhinoplasty", "Breast Augmentation", "Abdominoplasty", "Injectable Treatments"]
+  }
+}
