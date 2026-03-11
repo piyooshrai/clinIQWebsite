@@ -1,0 +1,14 @@
+{
+  "slug": "alabama",
+  "name": "Alabama",
+  "abbr": "AL",
+  "meta": {
+    "title": "clinIQ for Alabama Healthcare Practices | Patient Flow & RTM",
+    "description": "Clinic operations platform for Alabama healthcare providers. Patient flow, check-in, RTM billing, pre-authorization."
+  },
+  "hero": {
+    "h1": "clinIQ for Alabama Healthcare",
+    "subhead": "From Birmingham pain clinics to Mobile urgent care centers, Alabama healthcare practices use clinIQ for real-time patient flow, automated check-in, and RTM billing.",
+    "cities": ["Birmingham", "Montgomery", "Mobile", "Huntsville", "Tuscaloosa"]
+  }
+}
