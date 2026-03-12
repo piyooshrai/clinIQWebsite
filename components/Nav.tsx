@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import styles from './Nav.module.css'
 import LanguageSwitcher from './LanguageSwitcher'
 
@@ -449,8 +450,14 @@ export default function Nav() {
       <nav ref={navRef} className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
         <div className={styles.container}>
           <Link href="/" className={styles.logo} onClick={closeMobile}>
-            <span className={styles.logoClin}>clin</span>
-            <span className={styles.logoIq}>IQ</span>
+            <Image
+              src="/clinIQ_new_logo.png"
+              alt="clinIQ"
+              height={36}
+              width={120}
+              style={{ height: '36px', width: 'auto' }}
+              priority
+            />
           </Link>
 
           {/* Desktop nav */}
