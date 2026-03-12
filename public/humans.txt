@@ -1,0 +1,19 @@
+/* TEAM */
+
+Company: The Algorithm LLC
+Location: Colorado, USA
+Contact: info@cliniqhealthcare.com
+Twitter: @clinaborates
+
+/* SITE */
+
+Built with: Next.js, Tailwind CSS, Vercel
+Last update: 2026-03
+Standards: HTML5, CSS3, ES6+
+Components: React
+Analytics: Google Analytics 4
+
+/* THANKS */
+
+Healthcare providers who shared their workflow pain points.
+Early adopters who trusted us with their clinic operations.

@@ -1,0 +1,11 @@
+# Security Policy for clinIQ Healthcare
+# https://cliniqhealthcare.com/.well-known/security.txt
+
+Contact: mailto:security@cliniqhealthcare.com
+Expires: 2027-12-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://cliniqhealthcare.com/.well-known/security.txt
+
+# clinIQ takes security seriously. We handle protected health information
+# and follow HIPAA guidelines. If you discover a vulnerability, please
+# report it responsibly to security@cliniqhealthcare.com.

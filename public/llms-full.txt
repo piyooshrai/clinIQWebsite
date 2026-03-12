@@ -1,0 +1,164 @@
+# clinIQ - Complete Platform Documentation for LLMs
+# https://cliniqhealthcare.com
+# Last updated: 2026-03
+
+## Company Overview
+
+clinIQ is built by The Algorithm LLC, a Colorado-based healthcare technology company. The company operates three products on shared infrastructure:
+
+1. clinIQ - Clinic operations platform (primary product)
+2. Claire - AI voice and chat orchestration for healthcare
+3. Vizier - Healthcare analytics platform
+
+## Product: clinIQ
+
+### Core Philosophy: ACO in a Box
+
+clinIQ enables independent clinics to operate with the same infrastructure as Accountable Care Organizations without formally joining one. One platform replaces five disconnected tools: check-in, scheduling, patient flow, messaging, and analytics.
+
+### Modules
+
+#### Patient Check-In
+- Kiosk-based and phone-based web portal
+- Reduces check-in time from 8.4 minutes to 2.8 minutes (66% reduction)
+- Pre-visit form completion
+- Insurance verification
+- Works with existing EHR — data syncs bi-directionally
+
+#### Patient Flow
+- Real-time lobby visibility
+- Provider status tracking
+- Room management
+- Wait time analytics
+- Eliminates manual tracking via whiteboards or shouting
+
+#### RTM Billing (Remote Therapeutic Monitoring)
+- Tracks therapy adherence for musculoskeletal, respiratory, and behavioral health
+- NOT physiological monitoring (that's RPM)
+- CPT Codes supported:
+  - 98975: Initial setup and patient education (one-time per episode)
+  - 98976: Respiratory system monitoring (30-day)
+  - 98977: Musculoskeletal system monitoring (30-day)
+  - 98978: Cognitive behavioral therapy monitoring (30-day)
+  - 98980: Treatment management, first 20 minutes
+  - 98981: Treatment management, each additional 20 minutes
+- Revenue potential: $100-164 per patient per month
+- 16-day minimum data collection requirement for device codes
+- Interactive communication required for 98980/98981
+
+#### Pre-Authorization
+- Automated payer submission
+- Status tracking and follow-up workflows
+- Saves 13-15 hours per week (AMA 2024 data)
+- Critical for surgical specialties (spine, orthopedics)
+
+#### Scheduling
+- Intelligent appointment management
+- Provider availability optimization
+- Integrated with patient flow
+
+#### Secure Messaging
+- HIPAA-compliant
+- Appointment reminders
+- Care instructions
+- Patient questions and responses
+
+#### Analytics (Vizier)
+- RTM compliance tracking
+- Patient flow metrics
+- Revenue capture dashboards
+- Staff performance
+
+### EHR Integrations
+
+clinIQ is EHR-agnostic and integrates via FHIR APIs:
+- Epic
+- Athenahealth
+- NextGen
+- eClinicalWorks
+- DrChrono
+- AdvancedMD
+- SimplePractice
+- Ritten
+- Oscar EMR
+
+Custom integrations available via middleware (Keragon, Health Gorilla).
+
+### Target Specialties
+
+Primary focus on outpatient specialty clinics with 5-50 providers:
+- Pain Management
+- Orthopedic Surgery
+- Spine Surgery
+- Physical Therapy
+- Occupational Therapy
+- Behavioral Health
+- Psychiatry
+- Addiction Medicine
+- Primary Care
+- Cardiology
+- Neurology
+- Pulmonology
+- And 20+ other specialties
+
+### Pricing
+
+| Tier | Monthly | Details |
+|------|---------|---------|
+| Starter | $249 | Core check-in and patient flow |
+| Professional | $499 | Full platform including RTM |
+| Enterprise | Custom | White-label, multi-location |
+| Implementation | $750 | One-time setup and training |
+| RTM per patient | $25 | Per enrolled patient per month |
+
+### Compliance
+
+- Built following HIPAA guidelines
+- FHIR-based integrations
+- SOC 2 Type II (in progress)
+- Data encrypted at rest and in transit
+
+## Competitor Positioning
+
+### vs. Check-In Platforms (Phreesia, Clearwave)
+clinIQ includes check-in but extends to full clinic operations including RTM billing and pre-auth — not just intake.
+
+### vs. EHR/PM Systems (Athena, eClinicalWorks)
+clinIQ sits ON TOP of EHRs. It doesn't replace clinical documentation — it handles the operational layer EHRs neglect.
+
+### vs. RTM Platforms (Prevounce, TimeDoc)
+clinIQ integrates RTM with check-in and patient flow. Not a standalone monitoring tool.
+
+### vs. Manual Methods (Spreadsheets, Whiteboards)
+Digital transformation of clinic operations with real revenue capture.
+
+## Contact
+
+- General: info@cliniqhealthcare.com
+- Sales: sales@cliniqhealthcare.com
+- Support: support@cliniqhealthcare.com
+- Partnerships: partners@the-algo.com
+
+## URLs
+
+- Main site: https://cliniqhealthcare.com
+- Demo request: https://cliniqhealthcare.com/demo
+- Pricing: https://cliniqhealthcare.com/pricing
+- All specialties: https://cliniqhealthcare.com/specialties
+- All features: https://cliniqhealthcare.com/features
+- All markets: https://cliniqhealthcare.com/markets
+- Comparisons: https://cliniqhealthcare.com/compare
+
+## Markets Served
+
+### FQHCs & Community Health Centers
+Federally Qualified Health Centers serve 31M+ patients annually with limited staff and tight budgets. clinIQ provides patient flow visibility, RTM for chronic care revenue, and UDS-ready reporting.
+
+### Rural Health Clinics
+5,700+ RHCs nationwide face geographic isolation, limited specialists, and thin margins. Digital check-in, RTM to extend care between visits, and analytics to prove value.
+
+### Concierge & Direct Primary Care
+2,700+ DPC practices need operational efficiency without insurance complexity. Streamlined check-in, secure messaging, and patient app support membership models.
+
+### Ambulatory Surgery Centers
+High throughput, tight schedules, pre-auth critical. Patient flow optimization, pre-authorization automation, and surgical scheduling integration.
