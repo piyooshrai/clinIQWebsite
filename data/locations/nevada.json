@@ -1,1 +1,51 @@
-{"slug":"nevada","name":"Nevada","abbr":"NV","meta":{"title":"clinIQ for Nevada Healthcare Practices | Patient Flow & RTM","description":"Clinic operations platform for Nevada healthcare providers. Patient flow, check-in, RTM billing, pre-authorization."},"hero":{"h1":"clinIQ for Nevada Healthcare","subhead":"From Las Vegas pain management to Reno specialty clinics, Nevada healthcare practices use clinIQ for real-time patient flow, automated check-in, and RTM billing.","cities":["Las Vegas","Henderson","Reno","North Las Vegas","Sparks"]}}
+{
+  "slug": "nevada",
+  "name": "Nevada",
+  "abbr": "NV",
+  "region": "United States",
+  "meta": {
+    "title": "clinIQ for Nevada Clinics | Patient Flow & RTM Software",
+    "description": "Clinic operations platform for Nevada healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
+  },
+  "hero": {
+    "h1": "clinIQ for Nevada Healthcare",
+    "subhead": "Nevada ranks among the most physician-underserved states in the nation, with Las Vegas and Reno clinics absorbing outsized patient volumes against a backdrop of chronic provider shortages. clinIQ helps Nevada practices run leaner operations, cut check-in friction, and unlock RTM billing revenue that most clinics aren't yet capturing.",
+    "cities": ["Las Vegas", "Henderson", "Reno", "North Las Vegas", "Sparks"]
+  },
+  "stats": [
+    { "value": "4,200+", "label": "Active Physician Practices" },
+    { "value": "65%", "label": "of Rural Counties with Provider Shortages" },
+    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+  ],
+  "sections": [
+    {
+      "id": "landscape",
+      "h2": "Nevada's Healthcare Landscape",
+      "content": "Nevada's 3.2 million residents are concentrated heavily in Clark County (Las Vegas metro) and Washoe County (Reno-Sparks), leaving the state's vast rural interior chronically underserved. Nevada consistently ranks near the bottom nationally for physician-to-population ratios, with roughly 200 active physicians per 100,000 residents — well below the national average of 270. The result is that clinics in Las Vegas and Reno operate under persistent high-volume pressure while rural Nevada communities in Elko, Ely, and Winnemucca struggle to attract and retain any primary care providers at all.\n\nThe Las Vegas healthcare market has grown rapidly in response to the metro area's population expansion — Clark County has added tens of thousands of residents annually — but provider supply has not kept pace. Major health systems including Dignity Health Nevada, HCA Healthcare, and University Medical Center anchor the Las Vegas market, while independent specialty practices in orthopedics, physical therapy, pain management, and behavioral health have proliferated to fill gaps left by hospital-employed physician models.\n\nReno's healthcare market is anchored by Renown Health and Northern Nevada Health System, with a growing network of outpatient specialty and primary care practices serving Washoe County residents and patients drawn from across northern Nevada. The state's high rates of occupational injury tied to hospitality, construction, and mining industries create sustained demand for musculoskeletal care, pain management, and behavioral health services."
+    },
+    {
+      "id": "payers",
+      "h2": "Payer Mix & Reimbursement",
+      "content": "Nevada Medicaid is managed through the Division of Health Care Financing and Policy and contracts with several managed care organizations including Anthem (Medicaid), Molina Healthcare of Nevada, and Health Plan of Nevada (a UnitedHealth subsidiary). Together these plans cover roughly 800,000 Nevadans — approximately 25 percent of the state's population — a share that increased substantially following ACA Medicaid expansion.\n\nCommercial insurance in Nevada is dominated by Anthem Blue Cross Blue Shield, UnitedHealthcare, Aetna, and Cigna. The Las Vegas market has a notably high proportion of employer-sponsored insurance tied to the hospitality and gaming industries, where large union health plans like the Culinary Health Fund also play a significant role. All major commercial payers in Nevada now cover RTM CPT codes 98975–98981 for qualifying musculoskeletal and behavioral health patients, and Medicare Advantage penetration in Nevada has reached approximately 50 percent among Medicare-eligible residents, with MA plans following standard CMS RTM guidance.\n\nNevada has made meaningful progress on value-based care adoption, particularly through Medicaid managed care quality initiatives. Practices that can demonstrate reduced utilization, high adherence rates, and improved patient engagement metrics are increasingly rewarded through shared savings and quality bonus payments — exactly the outcomes that RTM and digital patient engagement tools are designed to support."
+    },
+    {
+      "id": "challenges",
+      "h2": "Challenges Facing Nevada Clinics",
+      "content": "Nevada's provider shortage is not merely a rural problem — even in Las Vegas, wait times for specialist appointments rank among the longest in the nation, with some specialty practices reporting new patient wait times exceeding six to eight weeks. Front-desk teams at high-volume Nevada practices face constant throughput pressure, with packed schedules that leave little room for the inefficiencies introduced by paper check-in, manual insurance verification, and telephone-based prior authorization.\n\nPrior authorization is a particularly acute burden in Nevada's pain management and orthopedic sectors. Practices still spend 13 to 15 hours per week managing authorization requests for imaging, physical therapy, and interventional procedures. Denials related to step therapy requirements — common in Nevada's commercial market — add additional appeal cycles that consume staff time and delay patient access to needed care.\n\nBehavioral health access represents Nevada's most critical unmet need. The state has historically ranked near-last nationally for mental health provider availability relative to population, with Clark County alone estimated to have a shortage of more than 1,000 mental health providers. This gap is driving rapid growth in behavioral health practice formation, but new practices often launch without robust operational infrastructure, making them vulnerable to the billing errors, scheduling inefficiencies, and documentation gaps that erode revenue and accelerate burnout."
+    },
+    {
+      "id": "solution",
+      "h2": "How clinIQ Helps Nevada Clinics",
+      "content": "clinIQ is purpose-built for the high-volume, multi-payer environment that characterizes Nevada's major metro clinic markets. In Las Vegas and Reno practices juggling Anthem Medicaid, Health Plan of Nevada, Culinary Health Fund, and commercial payers simultaneously, clinIQ's pre-authorization automation routes each case through the correct payer-specific workflow, reducing a 13–15 hour weekly task to under two hours and cutting denial rates by identifying missing documentation before submission.\n\nThe patient check-in transformation is immediately visible. Nevada practices that deploy clinIQ see check-in time drop from an average of eight-plus minutes to under three minutes, with digital intake forms completed before patients arrive at the clinic. This is especially valuable in Nevada's high-volume orthopedic, PT, and urgent care settings where lobby congestion directly impacts patient satisfaction scores and physician productivity. The real-time patient flow dashboard gives staff a live view of the lobby, eliminating the verbal status checks that fragment workflow throughout the day.\n\nFor Nevada's growing behavioral health sector — where practices are launching rapidly to meet surging demand — clinIQ's secure messaging and scheduling tools provide the digital infrastructure needed to manage high patient panels without proportional staff increases. AI-powered scheduling reduces no-show rates and maximizes daily slot utilization. For PT, ortho, and pain practices, RTM billing through clinIQ adds a recurring revenue stream of approximately $144,000 per year per 100 qualifying patients, with clinIQ handling enrollment, monitoring documentation, and billing code generation automatically."
+    },
+    {
+      "id": "rtm",
+      "h2": "RTM Revenue Opportunity in Nevada",
+      "content": "Remote Therapeutic Monitoring is a natural fit for Nevada's largest clinic segments. RTM — not to be confused with Remote Patient Monitoring, which requires physiological devices — tracks patient engagement with therapeutic programs through software: exercise completion, pain scores, activity logs, and behavioral health check-ins. CPT codes 98975 through 98981 cover setup, device supply (software), and ongoing clinical review time, and they are reimbursed by Medicare, most Medicare Advantage plans, and all major Nevada commercial payers.\n\nNevada's physical therapy practices, orthopedic surgery centers, pain management clinics, and behavioral health providers are the core RTM market. The state's high rates of construction, hospitality, and gaming industry injuries create a large pool of working-age patients with musculoskeletal conditions who are ideal RTM candidates — patients who need to demonstrate adherence to home exercise programs between clinical visits. For a Nevada practice enrolling 100 patients in RTM at an average monthly reimbursement of $120 per patient, the annual revenue addition is $144,000 with no device cost and no additional clinical staffing.\n\nThe opportunity scales with practice size. A mid-size Las Vegas orthopedic practice managing 250 active RTM patients can expect over $360,000 in annual RTM revenue. Nevada's behavioral health practices can bill RTM codes 98980 and 98981 for patients engaged in structured therapeutic adherence monitoring, adding a recurring revenue layer to what is often a heavily session-dependent revenue model. clinIQ automates the full RTM workflow — patient enrollment, daily engagement prompts, clinical review documentation, and billing code generation — so practices can capture this revenue without dedicated RTM staff."
+    }
+  ],
+  "cta": {
+    "headline": "Ready to transform your Nevada practice?",
+    "body": "Join clinics across Nevada using clinIQ to reduce wait times, streamline prior auth, and launch RTM billing in the first month."
+  }
+}
