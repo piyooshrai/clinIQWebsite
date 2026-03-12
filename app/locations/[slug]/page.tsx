@@ -21,6 +21,12 @@ interface LocationSection {
   content: string
 }
 
+interface SubLocation {
+  slug: string
+  name: string
+  desc: string
+}
+
 interface LocationData {
   slug: string
   name: string
@@ -37,6 +43,7 @@ interface LocationData {
   }
   stats?: LocationStat[]
   sections?: LocationSection[]
+  subLocations?: SubLocation[]
   cta?: {
     headline: string
     body: string
@@ -230,6 +237,52 @@ export default async function LocationSlugPage({
 
             </div>
           </div>
+        )}
+
+        {/* ── SUB-LOCATIONS ── */}
+        {data.subLocations && data.subLocations.length > 0 && (
+          <section className={s.modules} style={{ background: '#fff' }}>
+            <div className={s.container}>
+              <div className={s.modulesHeader}>
+                <span className={s.sectionLabel}>In this region</span>
+                <h2 className={s.sectionTitle}>
+                  Locations in<br />
+                  <em>{data.name}</em>
+                </h2>
+              </div>
+              <div
+                style={{
+                  display: 'grid',
+                  gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))',
+                  gap: '12px',
+                }}
+              >
+                {data.subLocations.map((loc) => (
+                  <a
+                    key={loc.slug}
+                    href={`/locations/${loc.slug}`}
+                    style={{
+                      display: 'block',
+                      padding: '1rem 1.25rem',
+                      borderRadius: '10px',
+                      border: '1px solid rgba(0,0,0,0.07)',
+                      textDecoration: 'none',
+                      color: 'inherit',
+                      background: 'var(--cream, #f5f3ef)',
+                      transition: 'border-color 0.15s, box-shadow 0.15s',
+                    }}
+                  >
+                    <span style={{ display: 'block', fontWeight: 600, fontSize: '0.9375rem', color: 'var(--black)', marginBottom: '0.25rem' }}>
+                      {loc.name}
+                    </span>
+                    <span style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--text-secondary, #666)', lineHeight: 1.45 }}>
+                      {loc.desc}
+                    </span>
+                  </a>
+                ))}
+              </div>
+            </div>
+          </section>
         )}
 
         {/* ── SPECIALTIES ── */}

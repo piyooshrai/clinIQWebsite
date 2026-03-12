@@ -1,0 +1,102 @@
+{
+  "slug": "united-states",
+  "name": "United States",
+  "abbr": "US",
+  "region": "North America",
+  "meta": {
+    "title": "clinIQ for US Healthcare Practices | Patient Flow, RTM & Pre-Auth Software",
+    "description": "Clinic operations platform built for the US healthcare market. Automate prior authorization, reduce check-in time, and capture RTM billing revenue under CPT 98975–98981. Works with any EHR."
+  },
+  "hero": {
+    "h1": "clinIQ for United States Healthcare",
+    "subhead": "The US healthcare system is the most administratively complex in the world — 900+ insurance plans, state-by-state prior authorization rules, 50 different Medicaid programs, and value-based care contracts that reward outcomes data most practices cannot easily produce. clinIQ sits on top of your existing EHR and removes the friction: automated pre-authorization, digital check-in, real-time patient flow, and RTM billing that turns between-visit engagement into recurring revenue.",
+    "cities": ["New York", "Los Angeles", "Chicago", "Houston", "Phoenix"]
+  },
+  "stats": [
+    { "value": "1M+", "label": "Physician Practices Across All 50 States" },
+    { "value": "$935B", "label": "Annual US Administrative Healthcare Spend" },
+    { "value": "$144K", "label": "Annual RTM Revenue per 100 Qualifying Patients" }
+  ],
+  "sections": [
+    {
+      "id": "landscape",
+      "h2": "The US Healthcare Landscape",
+      "content": "The United States operates the world's largest and most administratively demanding healthcare market, with total healthcare expenditure exceeding $4.5 trillion annually — roughly 18 percent of GDP. More than one million physician practices operate across the country, spanning solo practitioners and small group practices to large multispecialty medical groups affiliated with academic health systems. The structure of US healthcare is defined by fragmentation: patients move across commercial insurance plans, Medicare, Medicaid, Medicare Advantage, and self-pay, often within a single practice's patient panel. Every insurance relationship carries its own prior authorization rules, formulary restrictions, billing codes, and claims submission requirements.\n\nThe Affordable Care Act's expansion of Medicaid brought coverage to tens of millions of additional Americans, but each state's Medicaid program operates differently — 50 states means 50 different Medicaid managed care structures, 50 sets of provider enrollment rules, and 50 distinct electronic data interchange requirements. Medicare, administered by CMS, provides coverage for approximately 65 million Americans over 65 or with qualifying disabilities, with Medicare Advantage plans now covering more than 50 percent of Medicare beneficiaries and adding additional prior authorization layers on top of traditional Medicare's requirements.\n\nThe US private practice market is under sustained consolidation pressure. Health system employment of physicians reached 74 percent in 2022, according to the American Medical Association, as independent practices struggle to maintain the administrative infrastructure required to compete. Private equity consolidation in physical therapy, orthopedics, dermatology, and primary care is accelerating, creating well-resourced competitor practices with centralized billing, scheduling, and patient engagement operations. Independent practices that cannot match this operational efficiency face an ongoing competitive disadvantage. The shift toward value-based care contracts — shared savings programs, quality bonuses, and pay-for-performance arrangements through ACOs and commercial payer programs — adds another layer of complexity, requiring practices to track outcomes data and patient engagement metrics that most EHR systems were not designed to surface automatically."
+    },
+    {
+      "id": "payers",
+      "h2": "Payer Mix & Reimbursement",
+      "content": "The US payer landscape is the most complex in the world. Commercial insurance — through employers, exchanges, and individual market plans — covers approximately 165 million Americans through UnitedHealthcare, Anthem/Elevance, Aetna/CVS, Cigna, Humana, BCBS affiliates, and hundreds of regional carriers. Each commercial plan has distinct prior authorization requirements for specialty visits, diagnostic imaging, surgical procedures, and increasingly for medication management and mental health services. The American Medical Association's 2023 Prior Authorization Survey found that physicians spend an average of nearly two business days per week on prior authorization tasks — a figure that has increased year-over-year as payers expand the list of services requiring pre-approval.\n\nMedicare Advantage now covers the majority of Medicare beneficiaries, and MA plans impose prior authorization requirements that traditional Medicare does not — an additional burden for practices with large senior populations. MA penetration is particularly high in Florida, California, Minnesota, and Arizona, where some markets see 60 to 70 percent of Medicare patients enrolled in MA rather than fee-for-service. State Medicaid programs vary enormously: Texas's managed care MCOs (Molina, Aetna Better Health, BlueCross Community) operate differently from California's CalAIM transformation program, which in turn differs from New York's Medicaid managed care structure. Practices serving Medicaid populations must maintain fluency across multiple MCO portals, benefit designs, and care coordination requirements.\n\nRTM billing codes — CPT 98975 through 98981 — were added permanently to the Medicare Physician Fee Schedule in 2022 and have since been adopted by most major commercial payers. These codes allow physical therapy, orthopedic, pain management, and behavioral health practices to bill for structured remote patient engagement between clinic visits, generating additional revenue from the patient population already under treatment. Average monthly reimbursement across all RTM codes runs approximately $120 per patient, creating $144,000 in annual recurring revenue per 100 enrolled patients."
+    },
+    {
+      "id": "challenges",
+      "h2": "Challenges Facing US Clinics",
+      "content": "US physician practices consistently cite three overlapping challenges as their primary operational pain points: prior authorization burden, front-desk staffing shortages, and the growing complexity of value-based care contracting.\n\nPrior authorization has expanded dramatically over the past decade. Procedures, imaging, specialist referrals, behavioral health services, and even some prescription fills now require advance insurer approval before treatment can begin. The manual process — identifying the correct payer portal, assembling supporting documentation, submitting the request, following up on pending decisions, managing appeals — consumes an estimated $35 billion annually in physician practice administrative costs according to JAMA Network studies. For small and mid-sized practices with limited administrative staff, this creates an ongoing choice between processing authorizations and maintaining clinical throughput.\n\nFront-desk staffing is structurally difficult in most US markets. Healthcare support roles compete for workers with retail, food service, and gig economy alternatives that often offer comparable wages without the credential requirements or workplace stress. Turnover rates at physician practice front desks average 25 to 35 percent annually, meaning practices are continuously hiring and training replacements while experienced staff manage day-to-day patient flow. Every new hire reduces in the per-staff administrative throughput that practices depend on to run on time.\n\nValue-based care contracts — particularly in ACO programs and commercial payer shared savings arrangements — reward practices for keeping patients healthy, reducing unnecessary utilization, and demonstrating measurable outcomes. But the data required to earn these quality bonuses — patient engagement metrics, therapeutic adherence rates, outcome scores collected between visits — is not generated automatically by most EHR systems. Practices pursuing ACO bonuses often lack the operational infrastructure to collect this data at scale without adding dedicated staff or clinical resources."
+    },
+    {
+      "id": "solution",
+      "h2": "How clinIQ Helps US Practices",
+      "content": "clinIQ integrates with any EHR in active deployment at US practices — Epic, athenahealth, Cerner, eClinicalWorks, NextGen, Kareo, DrChrono, and others — adding an operational layer that addresses the specific friction the US healthcare system creates without requiring migration or system replacement.\n\nThe pre-authorization module maintains current payer-specific authorization requirements and routes each request through a digital workflow that catches documentation gaps before submission, reducing prior auth time from the national average of nearly two days per week to under two hours. Practices managing 30 or more prior authorization requests weekly — common in orthopedics, pain management, and cardiology — see the largest time savings immediately.\n\nDigital check-in eliminates the paper clipboard bottleneck that slows morning arrival surges in high-volume primary care and specialty practices. Patients complete intake digitally before they arrive, reducing the average check-in interaction from eight minutes to under three. The real-time patient flow dashboard gives front-desk coordinators and clinical staff live awareness of patient status across every exam room — who has been roomed, who is waiting, where bottlenecks are forming — enabling proactive schedule management without verbal interruptions between clinical and administrative staff.\n\nFor practices participating in ACO shared savings or value-based commercial contracts, clinIQ's RTM module generates the between-visit patient engagement data that quality metrics require. Structured patient-reported outcomes, therapeutic adherence scores, and follow-up documentation flow automatically into billing-ready RTM code entries, turning a quality reporting obligation into a revenue-generating program. clinIQ's analytics dashboard surfaces the utilization, throughput, and no-show patterns that practice managers need to make staffing and scheduling decisions without building custom reports in Excel."
+    },
+    {
+      "id": "rtm",
+      "h2": "RTM Revenue Opportunity Across the US",
+      "content": "Remote Therapeutic Monitoring (RTM) is not Remote Patient Monitoring (RPM). RPM uses connected devices — blood pressure cuffs, pulse oximeters, glucometers — to collect physiological data continuously. RTM uses structured patient-reported data — pain scores, exercise completion logs, functional assessments, mood ratings — collected between clinic visits through a software platform, without any wearable device or hardware requirement. RTM is permanently covered under Medicare at CPT codes 98975 (setup), 98977 (device supply with scheduled recording, musculoskeletal), 98980 (treatment management, first 20 minutes), and 98981 (each additional 20 minutes). These codes are also covered by UnitedHealthcare, Anthem, Aetna, Cigna, Humana, BCBS affiliates, and most regional commercial plans for qualifying specialties.\n\nThe qualifying specialties are broad. Physical therapy and orthopedic practices billing for musculoskeletal RTM — patients following home exercise programs between PT visits or post-surgical rehabilitation — represent the largest current RTM market. Pain management, occupational therapy, behavioral health (under the 98980/98981 codes for therapeutic adherence monitoring), and speech-language pathology are also covered. Practices that serve a high volume of Medicare and commercially insured musculoskeletal patients have an immediate, large opportunity.\n\nThe revenue math is straightforward. Average combined reimbursement across CPT 98975, 98977, 98980, and 98981 runs approximately $120 per patient per month for an actively monitored patient. A practice with 100 RTM-enrolled patients generates $144,000 annually. A physical therapy network with three locations and 300 active RTM patients generates $432,000 per year — significant recurring revenue from a patient population already under active treatment. clinIQ handles the entire RTM workflow: patient enrollment and consent, daily engagement prompts, clinician review dashboard, documentation generation, and billing code preparation. No dedicated RTM coordinator is required to operate the program."
+    }
+  ],
+  "subLocations": [
+    { "slug": "alabama",        "name": "Alabama",        "desc": "Rural health clinics, high chronic disease burden, Medicaid complexity." },
+    { "slug": "alaska",         "name": "Alaska",         "desc": "Remote care delivery, telehealth-first workflows, small team operations." },
+    { "slug": "arizona",        "name": "Arizona",        "desc": "Rapid growth, large Medicare Advantage market, multi-site expansion." },
+    { "slug": "arkansas",       "name": "Arkansas",       "desc": "Rural primary care, high uninsured rate, Medicaid managed care." },
+    { "slug": "california",     "name": "California",     "desc": "MediCal complexity, DMHC compliance, multi-location specialist groups." },
+    { "slug": "colorado",       "name": "Colorado",       "desc": "High-growth clinic market, RTM opportunity, concierge adjacent." },
+    { "slug": "connecticut",    "name": "Connecticut",    "desc": "Dense specialist market, high commercial insurance, academic affiliates." },
+    { "slug": "delaware",       "name": "Delaware",       "desc": "Small state, high specialist density, Mid-Atlantic payer mix." },
+    { "slug": "florida",        "name": "Florida",        "desc": "Large Medicare population, high-volume urgent care, multilingual intake." },
+    { "slug": "georgia",        "name": "Georgia",        "desc": "Rapid population growth, Georgia Medicaid CMO complexity." },
+    { "slug": "hawaii",         "name": "Hawaii",         "desc": "Island care delivery, HMSA workflows, tourism-season volume swings." },
+    { "slug": "idaho",          "name": "Idaho",          "desc": "Rural health access, fast-growing Treasure Valley market." },
+    { "slug": "illinois",       "name": "Illinois",       "desc": "Dense specialist market, high patient volume, competitive staffing." },
+    { "slug": "indiana",        "name": "Indiana",        "desc": "Large manufacturing workforce, occupational health, Medicaid complexity." },
+    { "slug": "iowa",           "name": "Iowa",           "desc": "Rural primary care access, agricultural workforce health needs." },
+    { "slug": "kansas",         "name": "Kansas",         "desc": "Rural health clinics, KanCare managed care, agricultural workforce." },
+    { "slug": "kentucky",       "name": "Kentucky",       "desc": "High chronic disease burden, Medicaid managed care, rural access." },
+    { "slug": "louisiana",      "name": "Louisiana",      "desc": "Bayou Health Medicaid, high chronic disease, post-disaster surge." },
+    { "slug": "maine",          "name": "Maine",          "desc": "Rural care, MaineCare complexity, aging population workflows." },
+    { "slug": "maryland",       "name": "Maryland",       "desc": "HSCRC rate setting, dense federal workforce, academic health systems." },
+    { "slug": "massachusetts",  "name": "Massachusetts",  "desc": "Near-universal coverage, ACO networks, high specialist density." },
+    { "slug": "michigan",       "name": "Michigan",       "desc": "Large Medicaid population, auto industry workforce, urban-rural divide." },
+    { "slug": "minnesota",      "name": "Minnesota",      "desc": "High-performing market, large integrated systems, value-based care." },
+    { "slug": "mississippi",    "name": "Mississippi",    "desc": "High uninsured rate, rural FQHCs, chronic disease management." },
+    { "slug": "missouri",       "name": "Missouri",       "desc": "Medicaid complexity, dual urban-rural market, multi-payer workflows." },
+    { "slug": "montana",        "name": "Montana",        "desc": "Remote care, telehealth-first, Native American health workflows." },
+    { "slug": "nebraska",       "name": "Nebraska",       "desc": "Agricultural workforce, rural access, growing Omaha specialist market." },
+    { "slug": "nevada",         "name": "Nevada",         "desc": "Tourism-sector workforce, Las Vegas high-volume urgent care." },
+    { "slug": "new-hampshire",  "name": "New Hampshire",  "desc": "Small market, high commercial coverage, New England payer mix." },
+    { "slug": "new-jersey",     "name": "New Jersey",     "desc": "Dense urban market, complex payer mix, high specialist volume." },
+    { "slug": "new-mexico",     "name": "New Mexico",     "desc": "High Medicaid rate, rural FQHCs, Native American health systems." },
+    { "slug": "north-carolina", "name": "North Carolina", "desc": "Fast-growing market, rural-urban divide, large academic systems." },
+    { "slug": "north-dakota",   "name": "North Dakota",   "desc": "Small market, energy sector workforce, rural primary care." },
+    { "slug": "ohio",           "name": "Ohio",           "desc": "Large Medicaid market, urban-rural mix, multi-site specialist groups." },
+    { "slug": "oklahoma",       "name": "Oklahoma",       "desc": "High uninsured rate, Native American health systems, rural access." },
+    { "slug": "oregon",         "name": "Oregon",         "desc": "CCO coordinated care, DMAP workflows, concierge-adjacent market." },
+    { "slug": "pennsylvania",   "name": "Pennsylvania",   "desc": "Large Medicaid market, dense specialist market, academic health." },
+    { "slug": "rhode-island",   "name": "Rhode Island",   "desc": "Small market, near-universal coverage, dense urban specialist care." },
+    { "slug": "south-carolina", "name": "South Carolina", "desc": "Growing retiree population, coastal urgent care, Medicaid complexity." },
+    { "slug": "south-dakota",   "name": "South Dakota",   "desc": "Rural care, Native American health systems, small specialist market." },
+    { "slug": "tennessee",      "name": "Tennessee",      "desc": "TennCare managed care, high chronic disease burden, rural access." },
+    { "slug": "texas",          "name": "Texas",          "desc": "Largest uninsured rate, Medicaid complexity, rapid clinic growth." },
+    { "slug": "utah",           "name": "Utah",           "desc": "Fast-growing population, young demographic, IHC-adjacent market." },
+    { "slug": "vermont",        "name": "Vermont",        "desc": "Green Mountain Care, near-universal coverage, small rural market." },
+    { "slug": "virginia",       "name": "Virginia",       "desc": "Federal workforce health, TRICARE workflows, NoVA specialist market." },
+    { "slug": "washington",     "name": "Washington",     "desc": "Apple Health Medicaid, tech workforce DPC, multi-site groups." },
+    { "slug": "west-virginia",  "name": "West Virginia",  "desc": "High chronic disease burden, rural FQHCs, opioid treatment programs." },
+    { "slug": "wisconsin",      "name": "Wisconsin",      "desc": "BadgerCare Medicaid, large integrated systems, dairy workforce." },
+    { "slug": "wyoming",        "name": "Wyoming",        "desc": "Small market, energy sector workforce, rural primary care access." }
+  ],
+  "cta": {
+    "headline": "Ready to modernize your US practice?",
+    "body": "Join practices across all 50 states using clinIQ to reduce prior authorization burden, streamline check-in, and generate RTM revenue from patients already in your panel."
+  }
+}
