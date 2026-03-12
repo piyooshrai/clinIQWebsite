@@ -12,9 +12,9 @@ export default function FooterInner() {
               <Image
                 src="/clinIQ_new_logo.png"
                 alt="clinIQ"
-                height={32}
-                width={107}
-                style={{ height: '32px', width: 'auto' }}
+                height={64}
+                width={214}
+                style={{ height: '64px', width: 'auto' }}
               />
             </Link>
             <p className={styles.footerTagline}>Clinic operations that just work.</p>

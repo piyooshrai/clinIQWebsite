@@ -3,15 +3,69 @@
 import { useState } from 'react'
 import styles from './ContactForm.module.css'
 
+const SUBJECTS = [
+  'General Question',
+  'Demo Request',
+  'Support',
+  'Partnership',
+  'Press / Media',
+  'Other',
+]
+
+const labelStyle: React.CSSProperties = {
+  fontSize: '0.75rem',
+  fontWeight: 700,
+  letterSpacing: '0.06em',
+  textTransform: 'uppercase',
+  color: 'var(--teal)',
+}
+
+const inputStyle: React.CSSProperties = {
+  width: '100%',
+  padding: '0.5rem 0',
+  fontFamily: 'var(--font-body)',
+  fontSize: '0.9375rem',
+  color: 'var(--text-primary)',
+  background: 'transparent',
+  border: 'none',
+  borderBottom: '2px solid rgba(0,0,0,0.15)',
+  outline: 'none',
+  transition: 'border-color 0.15s',
+}
+
+const selectStyle: React.CSSProperties = {
+  ...inputStyle,
+  appearance: 'none',
+  WebkitAppearance: 'none',
+  cursor: 'pointer',
+  backgroundImage:
+    "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 12 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 4l4 4 4-4' stroke='%237a7a75' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E\")",
+  backgroundRepeat: 'no-repeat',
+  backgroundPosition: 'right 0.25rem center',
+  backgroundSize: '12px',
+  paddingRight: '1.5rem',
+}
+
+const textareaStyle: React.CSSProperties = {
+  ...inputStyle,
+  resize: 'none',
+}
+
+const fieldStyle: React.CSSProperties = {
+  display: 'flex',
+  flexDirection: 'column',
+  gap: '0.375rem',
+  marginBottom: '1.25rem',
+}
+
 export default function ContactForm() {
-  const [values, setValues] = useState({ name: '', email: '', clinicName: '', message: '' })
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [subject, setSubject] = useState('')
+  const [message, setMessage] = useState('')
   const [submitting, setSubmitting] = useState(false)
   const [submitted, setSubmitted] = useState(false)
   const [error, setError] = useState('')
-
-  function set(key: string, value: string) {
-    setValues((p) => ({ ...p, [key]: value }))
-  }
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
@@ -21,7 +75,13 @@ export default function ContactForm() {
       await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(values),
+        body: JSON.stringify({
+          formType: 'contact',
+          firstName: name,
+          email,
+          subject,
+          message,
+        }),
       })
       setSubmitted(true)
     } catch {
@@ -37,43 +97,134 @@ export default function ContactForm() {
         <div className={styles.successIcon} aria-hidden="true">
           <svg viewBox="0 0 24 24" fill="none">
             <circle cx="12" cy="12" r="11" stroke="currentColor" strokeWidth="1.5" />
-            <path d="M7 12l3.5 3.5L17 8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+            <path
+              d="M7 12l3.5 3.5L17 8"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
           </svg>
         </div>
-        <p className={styles.successText}>Message sent &mdash; we&apos;ll be in touch within 24 hours.</p>
+        <p className={styles.successText}>
+          Message sent — we&apos;ll be in touch within 24 hours.
+        </p>
       </div>
     )
   }
 
   return (
-    <form onSubmit={handleSubmit} className={styles.form} noValidate>
-      <div className={styles.field}>
-        <label className={styles.label} htmlFor="name">Name <span className={styles.req} aria-hidden="true">*</span></label>
-        <input id="name" type="text" className={styles.input} value={values.name} onChange={(e) => set('name', e.target.value)} required placeholder="Your name" />
+    <form onSubmit={handleSubmit} noValidate>
+      {/* Name */}
+      <div style={fieldStyle}>
+        <label style={labelStyle} htmlFor="contactName">
+          Name <span style={{ color: 'var(--teal)' }} aria-hidden="true">*</span>
+        </label>
+        <input
+          id="contactName"
+          type="text"
+          style={inputStyle}
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          required
+          placeholder="Your name"
+        />
       </div>
 
-      <div className={styles.field}>
-        <label className={styles.label} htmlFor="email">Work email <span className={styles.req} aria-hidden="true">*</span></label>
-        <input id="email" type="email" className={styles.input} value={values.email} onChange={(e) => set('email', e.target.value)} required placeholder="you@yourclinic.com" />
+      {/* Email */}
+      <div style={fieldStyle}>
+        <label style={labelStyle} htmlFor="contactEmail">
+          Email <span style={{ color: 'var(--teal)' }} aria-hidden="true">*</span>
+        </label>
+        <input
+          id="contactEmail"
+          type="email"
+          style={inputStyle}
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          required
+          placeholder="you@yourclinic.com"
+        />
       </div>
 
-      <div className={styles.field}>
-        <label className={styles.label} htmlFor="clinicName">Clinic name</label>
-        <input id="clinicName" type="text" className={styles.input} value={values.clinicName} onChange={(e) => set('clinicName', e.target.value)} placeholder="Your clinic" />
+      {/* Subject */}
+      <div style={fieldStyle}>
+        <label style={labelStyle} htmlFor="contactSubject">
+          Subject <span style={{ color: 'var(--teal)' }} aria-hidden="true">*</span>
+        </label>
+        <select
+          id="contactSubject"
+          style={selectStyle}
+          value={subject}
+          onChange={(e) => setSubject(e.target.value)}
+          required
+        >
+          <option value="" disabled>
+            Select…
+          </option>
+          {SUBJECTS.map((s) => (
+            <option key={s} value={s}>
+              {s}
+            </option>
+          ))}
+        </select>
       </div>
 
-      <div className={styles.field}>
-        <label className={styles.label} htmlFor="message">Message <span className={styles.req} aria-hidden="true">*</span></label>
-        <textarea id="message" className={styles.textarea} value={values.message} onChange={(e) => set('message', e.target.value)} required placeholder="How can we help?" rows={5} />
+      {/* Message */}
+      <div style={fieldStyle}>
+        <label style={labelStyle} htmlFor="contactMessage">
+          Message <span style={{ color: 'var(--teal)' }} aria-hidden="true">*</span>
+        </label>
+        <textarea
+          id="contactMessage"
+          style={textareaStyle}
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+          required
+          placeholder="How can we help?"
+          rows={5}
+        />
       </div>
 
-      {error && <p className={styles.error} role="alert">{error}</p>}
+      {error && (
+        <p
+          role="alert"
+          style={{
+            fontSize: '0.875rem',
+            color: '#dc2626',
+            padding: '0.75rem 1rem',
+            background: '#fef2f2',
+            border: '1px solid #fecaca',
+            borderRadius: '8px',
+            marginBottom: '1rem',
+          }}
+        >
+          {error}
+        </p>
+      )}
 
-      <button type="submit" className={`btn-inner btn-inner-lg btn-inner-primary ${styles.submit}`} disabled={submitting}>
-        {submitting ? 'Sending…' : 'Send Message'}
+      <button
+        type="submit"
+        disabled={submitting}
+        style={{
+          display: 'block',
+          width: '100%',
+          padding: '1rem 2rem',
+          fontFamily: 'var(--font-body)',
+          fontSize: '0.9375rem',
+          fontWeight: 600,
+          textAlign: 'center',
+          borderRadius: '100px',
+          background: submitting ? 'var(--teal-light)' : 'var(--teal)',
+          color: '#ffffff',
+          border: 'none',
+          cursor: submitting ? 'wait' : 'pointer',
+          boxShadow: '0 2px 12px rgba(13,148,136,0.3)',
+          transition: 'all 0.25s',
+        }}
+      >
+        {submitting ? 'Sending…' : 'Send Message →'}
       </button>
-
-      <p className={styles.privacy}>We respond within 24 hours. No spam.</p>
     </form>
   )
 }
