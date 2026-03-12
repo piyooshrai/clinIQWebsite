@@ -1,28 +1,13 @@
 import type { Metadata } from 'next'
+import type { ReactNode } from 'react'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
 import s from '@/app/specialties/specialty-full.module.css'
 
 export const metadata: Metadata = {
-  title: 'clinIQ vs Competitors — Full Comparison Hub | clinIQ',
+  title: 'clinIQ vs Competitors — Full Comparison Hub',
   description:
-    'See how clinIQ compares to Phreesia, athenahealth, eClinicalWorks, AdvancedMD, NextGen, Tebra, Qless, WaitWhile, and more. Real-time patient flow vs. tools that don\'t manage what\'s happening now.',
-  keywords: [
-    'clinIQ vs Phreesia',
-    'clinIQ vs athenahealth',
-    'clinIQ vs eClinicalWorks',
-    'clinic operations software comparison',
-    'patient flow software comparison',
-    'EHR alternative',
-    'Phreesia alternative',
-    'patient check-in software comparison',
-  ],
-  openGraph: {
-    title: 'clinIQ vs Competitors — Full Comparison Hub',
-    description:
-      'EHRs document what happened. Kiosks collect a signature. Scheduling fills the calendar. clinIQ manages what\'s happening now — across every comparison, that\'s the difference.',
-    type: 'website',
-  },
+    'How clinIQ compares to Phreesia, Clearwave, Athenahealth, eClinicalWorks, Prevounce, TimeDoc, and more. Real-time patient flow vs. tools that don\'t manage what\'s happening now.',
   alternates: {
     canonical: 'https://cliniqhealthcare.com/compare',
   },
@@ -37,100 +22,159 @@ const breadcrumbSchema = {
   ],
 }
 
-const COMPARISONS = [
+const INTAKE = [
   {
     slug: 'phreesia',
     name: 'clinIQ vs Phreesia',
-    tagline: 'Phreesia collects intake data. clinIQ manages what happens after check-in.',
-    category: 'Patient Intake',
+    desc: 'Phreesia handles check-in. clinIQ handles check-in plus real-time patient flow, RTM billing, pre-authorization, and the rest of the visit.',
   },
   {
     slug: 'clearwave',
     name: 'clinIQ vs Clearwave',
-    tagline: 'Clearwave automates check-in. clinIQ orchestrates what follows.',
-    category: 'Patient Intake',
+    desc: 'Clearwave handles kiosk check-in. clinIQ handles check-in plus real-time patient flow, RTM billing, and pre-authorization — no hardware required.',
   },
   {
     slug: 'qless',
-    name: 'clinIQ vs Qless',
-    tagline: 'Qless manages a line. clinIQ manages a clinic.',
-    category: 'Queue Management',
+    name: 'clinIQ vs QLess',
+    desc: 'QLess manages waiting lines. clinIQ manages clinic operations — real-time patient flow through every stage, RTM billing, and healthcare-specific workflows.',
   },
   {
     slug: 'waitwhile',
     name: 'clinIQ vs Waitwhile',
-    tagline: 'Waitwhile tracks the wait. clinIQ tracks every stage of the visit.',
-    category: 'Queue Management',
+    desc: 'Waitwhile manages a queue. clinIQ manages a clinic — real-time patient flow beyond the waiting room, RTM billing, and pre-authorization tracking.',
   },
+]
+
+const EHR_PM = [
   {
     slug: 'athenahealth',
     name: 'clinIQ vs athenahealth',
-    tagline: 'Great EHR, no idea who\'s in Room 3.',
-    category: 'EHR',
+    desc: "clinIQ is not an EHR replacement for athenahealth. It's the operations layer athenahealth doesn't provide — real-time patient flow, RTM billing, and LobbyView displays.",
   },
   {
     slug: 'eclinicalworks',
     name: 'clinIQ vs eClinicalWorks',
-    tagline: 'eCW manages the record. clinIQ manages the day.',
-    category: 'EHR',
-  },
-  {
-    slug: 'advancedmd',
-    name: 'clinIQ vs AdvancedMD',
-    tagline: 'Built to maximize billing. clinIQ built to maximize throughput.',
-    category: 'EHR',
+    desc: 'clinIQ adds real-time patient flow to eClinicalWorks. Not a replacement — the operations layer eCW doesn\'t provide, alongside your existing system.',
   },
   {
     slug: 'nextgen',
     name: 'clinIQ vs NextGen',
-    tagline: 'NextGen customizes the chart. clinIQ customizes the operation.',
-    category: 'EHR',
+    desc: 'clinIQ adds real-time operations to NextGen Healthcare. The patient flow, RTM billing, and pre-authorization layer that NextGen EHR does not provide.',
+  },
+  {
+    slug: 'advancedmd',
+    name: 'clinIQ vs AdvancedMD',
+    desc: 'clinIQ adds real-time operations to AdvancedMD. The patient flow, RTM billing, and pre-authorization layer that AdvancedMD does not provide.',
   },
   {
     slug: 'tebra',
     name: 'clinIQ vs Tebra',
-    tagline: 'Tebra markets your practice. clinIQ runs it.',
-    category: 'EHR',
+    desc: "Tebra markets your practice. clinIQ runs it — real-time patient flow, RTM billing automation, and pre-authorization tracking that Tebra's platform does not provide.",
   },
   {
     slug: 'simplepractice',
     name: 'clinIQ vs SimplePractice',
-    tagline: 'SimplePractice handles the note. clinIQ handles the room.',
-    category: 'Practice Management',
+    desc: 'SimplePractice handles notes and scheduling for behavioral health. clinIQ adds real-time patient flow, RTM billing at $110–150/patient/month, and multi-provider operations.',
+  },
+]
+
+const RTM_RPM = [
+  {
+    slug: 'prevounce',
+    name: 'clinIQ vs Prevounce',
+    desc: 'Prevounce focuses on chronic care management. clinIQ provides RTM billing plus real-time patient flow, pre-authorization tracking, and full clinic operations.',
   },
   {
-    slug: 'ehr-only',
-    name: 'clinIQ vs EHR-Only Workflow',
-    tagline: 'EHRs document what happened. clinIQ manages what\'s happening now.',
-    category: 'Workflow Type',
+    slug: 'timedoc',
+    name: 'clinIQ vs TimeDoc Health',
+    desc: 'TimeDoc focuses on CCM and RPM billing. clinIQ provides RTM billing plus real-time patient flow, check-in, pre-authorization, and full clinic operations.',
   },
   {
-    slug: 'generic-scheduling',
-    name: 'clinIQ vs Generic Scheduling',
-    tagline: 'Scheduling fills the calendar. clinIQ manages after the patient arrives.',
-    category: 'Workflow Type',
+    slug: 'optimize-health',
+    name: 'clinIQ vs Optimize Health',
+    desc: 'Optimize Health provides RPM device logistics and monitoring. clinIQ provides RTM billing plus real-time patient flow and full clinic operations — no device distribution required.',
+  },
+  {
+    slug: 'chroniccareiq',
+    name: 'clinIQ vs ChronicCareIQ',
+    desc: 'ChronicCareIQ focuses on CCM and RPM billing. clinIQ provides RTM plus real-time patient flow, check-in, pre-authorization, and full clinic operations in one platform.',
+  },
+]
+
+const MANUAL_LEGACY = [
+  {
+    slug: 'spreadsheets',
+    name: 'clinIQ vs Spreadsheets',
+    desc: "Spreadsheets track history. clinIQ tracks what's happening now — real-time patient flow, automatic RTM billing, pre-authorization alerts, and operational intelligence.",
   },
   {
     slug: 'whiteboards',
     name: 'clinIQ vs Whiteboards',
-    tagline: 'A whiteboard shows where patients were. clinIQ shows where they are.',
-    category: 'Manual Workflow',
-  },
-  {
-    slug: 'spreadsheets',
-    name: 'clinIQ vs Spreadsheets',
-    tagline: 'Spreadsheets track history. clinIQ tracks the present.',
-    category: 'Manual Workflow',
+    desc: 'Whiteboards show where patients were. clinIQ shows where they are now — real-time patient flow, automatic time tracking, mobile visibility, and analytics.',
   },
   {
     slug: 'paper-signin',
     name: 'clinIQ vs Paper Sign-In',
-    tagline: 'Paper captures a name. clinIQ captures a workflow.',
-    category: 'Manual Workflow',
+    desc: 'Paper sign-in captures a name. clinIQ captures a workflow — digital check-in, real-time patient flow, automatic time tracking, and RTM billing.',
+  },
+  {
+    slug: 'ehr-only',
+    name: 'clinIQ vs EHR-Only Workflow',
+    desc: "EHRs document what happened. clinIQ manages what's happening now — real-time patient flow, RTM billing, and pre-authorization tracking alongside any EHR.",
+  },
+  {
+    slug: 'generic-scheduling',
+    name: 'clinIQ vs Generic Scheduling',
+    desc: 'Scheduling software fills the calendar. clinIQ manages what happens after patients arrive — real-time patient flow, RTM billing, and pre-authorization tracking.',
   },
 ]
 
-const CATEGORIES = ['Patient Intake', 'Queue Management', 'EHR', 'Practice Management', 'Workflow Type', 'Manual Workflow']
+const arrowSvg = (
+  <svg className={s.btnIcon} viewBox="0 0 20 20" fill="none" aria-hidden="true">
+    <path d="M4 10h12m-4-4l4 4-4 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+)
+
+function ComparisonSection({
+  label,
+  title,
+  items,
+  bg,
+}: {
+  label: string
+  title: ReactNode
+  items: { slug: string; name: string; desc: string }[]
+  bg?: string
+}) {
+  return (
+    <section className={s.modules} style={bg ? { background: bg } : undefined}>
+      <div className={s.container}>
+        <div className={s.modulesHeader}>
+          <span className={s.sectionLabel}>{label}</span>
+          <h2 className={s.sectionTitle}>{title}</h2>
+        </div>
+        <div className={s.modulesGrid}>
+          {items.map((item) => (
+            <a
+              key={item.slug}
+              href={`/compare/${item.slug}`}
+              className={s.moduleCard}
+            >
+              <h3 className={s.moduleTitle}>{item.name}</h3>
+              <p className={s.moduleDesc}>{item.desc}</p>
+              <span className={s.moduleLink}>
+                Full comparison
+                <svg viewBox="0 0 20 20" fill="none" aria-hidden="true" width="14" height="14">
+                  <path d="M4 10h12m-4-4l4 4-4 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
 
 export default function ComparePage() {
   return (
@@ -151,176 +195,76 @@ export default function ComparePage() {
           </div>
           <div className={s.container}>
             <div className={s.heroContent}>
-              <div className={s.badge}>Comparisons</div>
+              <span className={s.badge}>Compare</span>
               <h1 className={s.heroTitle}>
-                How clinIQ compares to<br />
-                <em>every alternative you&rsquo;re already using.</em>
+                How clinIQ<br /><em>compares.</em>
               </h1>
               <p className={s.heroSubtitle}>
-                EHRs document what happened. Kiosks collect a signature. Scheduling software fills
-                the calendar. Whiteboards tell you where the patient was an hour ago. None of them
-                manage what&rsquo;s happening in your clinic right now. That&rsquo;s what clinIQ
-                does — and it&rsquo;s the same answer across every comparison below.
+                Most clinic tools solve one problem. Phreesia handles check-in. Athenahealth runs
+                billing. Spreadsheets track the rest. clinIQ replaces all of it — one platform,
+                every patient, every stage.
               </p>
-            </div>
-          </div>
-        </section>
-
-        {/* ── COMPARISONS BY CATEGORY ── */}
-        <section className={s.modules} style={{ background: 'var(--cream, #f5f3ef)' }}>
-          <div className={s.container}>
-            {CATEGORIES.map((cat) => {
-              const items = COMPARISONS.filter((c) => c.category === cat)
-              return (
-                <div key={cat} style={{ marginBottom: '64px' }}>
-                  <div
-                    style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      gap: '12px',
-                      marginBottom: '24px',
-                    }}
-                  >
-                    <span
-                      style={{
-                        display: 'block',
-                        width: '28px',
-                        height: '2px',
-                        background: 'var(--teal)',
-                        flexShrink: 0,
-                      }}
-                    />
-                    <span
-                      style={{
-                        fontSize: '12px',
-                        fontWeight: 600,
-                        letterSpacing: '0.1em',
-                        textTransform: 'uppercase',
-                        color: 'var(--teal)',
-                      }}
-                    >
-                      {cat}
-                    </span>
-                  </div>
-                  <div
-                    style={{
-                      display: 'grid',
-                      gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
-                      gap: '20px',
-                    }}
-                  >
-                    {items.map((comp) => (
-                      <a
-                        key={comp.slug}
-                        href={`/compare/${comp.slug}`}
-                        className={s.moduleCard}
-                        style={{ textDecoration: 'none', color: 'inherit' }}
-                      >
-                        <h2 className={s.moduleTitle} style={{ fontSize: '18px' }}>
-                          {comp.name}
-                        </h2>
-                        <p className={s.moduleDesc} style={{ fontSize: '15px' }}>
-                          {comp.tagline}
-                        </p>
-                        <span
-                          style={{
-                            display: 'inline-flex',
-                            alignItems: 'center',
-                            gap: '6px',
-                            fontSize: '14px',
-                            fontWeight: 500,
-                            color: 'var(--teal)',
-                            marginTop: '16px',
-                          }}
-                        >
-                          Full comparison
-                          <svg width="12" height="12" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-                            <path d="M4 10h12m-4-4l4 4-4 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                          </svg>
-                        </span>
-                      </a>
-                    ))}
-                  </div>
-                </div>
-              )
-            })}
-          </div>
-        </section>
-
-        {/* ── THE THROUGH-LINE ── */}
-        <section className={s.reality}>
-          <div className={s.container}>
-            <div className={s.realityGrid}>
-              <div className={s.realityLeft}>
-                <span className={s.sectionLabel}>The Pattern</span>
-                <h2 className={s.sectionTitle}>
-                  Every alternative<br />
-                  <em>manages the record. Not the room.</em>
-                </h2>
-                <div className={s.realityNarrative}>
-                  <p>
-                    Your EHR is good at storing what happened. Your check-in kiosk is good at
-                    capturing a signature and a chief complaint. Your scheduling software is good at
-                    filling appointment slots. Your whiteboard is good at showing where a patient
-                    was when someone last updated it.
-                  </p>
-                  <p>
-                    None of them manage what&rsquo;s happening right now. None of them tell your
-                    provider that Room 4 has been waiting 38 minutes. None of them alert the front
-                    desk before the lobby tips into chaos. None of them surface the pre-auth that
-                    expires Friday. None of them track the RTM minutes your clinic is legally
-                    entitled to bill but isn&rsquo;t.
-                  </p>
-                  <p>
-                    clinIQ is the operational layer that runs parallel to your EHR — not replacing
-                    it, but doing the job it was never designed to do.
-                  </p>
-                </div>
-              </div>
-              <div className={s.realityRight}>
-                <ul className={s.painList} aria-label="What competitors don't do">
-                  {[
-                    'EHRs excel at documentation. They have no real-time view of which patient is where in your clinic right now.',
-                    'Check-in kiosks collect intake data. They do not track what happens after the patient sits down.',
-                    'Queue tools manage a line. They do not orchestrate the care workflow that follows.',
-                    'Scheduling software fills the calendar. It cannot tell you the visit is about to run 45 minutes over.',
-                    'Whiteboards show the last update. They cannot send an alert when a provider has been idle for 20 minutes.',
-                    'Spreadsheets store historical data. They cannot surface a pre-auth that expired yesterday.',
-                  ].map((point, i) => (
-                    <li key={i} className={s.painItem}>
-                      <span className={s.painDot} aria-hidden="true" />
-                      <span className={s.painText}>{point}</span>
-                    </li>
-                  ))}
-                </ul>
+              <div className={s.heroActions}>
+                <a href="/features" className={s.btnPrimary}>
+                  See All Features
+                  {arrowSvg}
+                </a>
+                <a href="/demo" className={s.btnGhost}>
+                  Book a Demo
+                </a>
               </div>
             </div>
           </div>
         </section>
+
+        {/* ── COMPARISON SECTIONS ── */}
+        <ComparisonSection
+          label="Patient Intake"
+          title={<>vs Patient Intake<br /><em>Platforms</em></>}
+          items={INTAKE}
+        />
+
+        <ComparisonSection
+          label="EHR &amp; PM"
+          title={<>vs EHR / Practice<br /><em>Management</em></>}
+          items={EHR_PM}
+          bg="var(--cream)"
+        />
+
+        <ComparisonSection
+          label="RTM &amp; RPM"
+          title={<>vs RTM<br /><em>Platforms</em></>}
+          items={RTM_RPM}
+        />
+
+        <ComparisonSection
+          label="Manual &amp; Legacy"
+          title={<>vs Manual &amp; Legacy<br /><em>Workflows</em></>}
+          items={MANUAL_LEGACY}
+          bg="var(--cream)"
+        />
 
         {/* ── CTA ── */}
         <section className={s.cta}>
-          <div className={s.ctaBg}><div className={s.ctaOrb} aria-hidden="true" /></div>
+          <div className={s.ctaBg}>
+            <div className={s.ctaOrb} aria-hidden="true" />
+          </div>
           <div className={s.container}>
             <div className={s.ctaContent}>
               <h2 className={s.ctaTitle}>
-                Stop patching together<br />
-                <em>tools that weren&rsquo;t built to work together.</em>
+                See how clinIQ fits<br /><em>your current stack.</em>
               </h2>
               <p className={s.ctaDesc}>
-                clinIQ gives you patient flow, check-in, RTM billing, pre-authorization, and
-                analytics in one platform — built for clinics that need operational control, not
-                just another system of record.
+                Book a demo and we&rsquo;ll show you exactly what clinIQ replaces, what it works
+                alongside, and how the transition works for your specific practice.
               </p>
               <div className={s.ctaActions}>
                 <a href="/demo" className={s.btnPrimary}>
-                  See clinIQ in action
-                  <svg className={s.btnIcon} viewBox="0 0 20 20" fill="none" aria-hidden="true">
-                    <path d="M4 10h12m-4-4l4 4-4 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
+                  Book a Demo
+                  {arrowSvg}
                 </a>
-                <a href="/features/patient-flow" className={s.btnGhost}>
-                  How real-time flow works
+                <a href="/pricing" className={s.btnGhost}>
+                  View Pricing
                 </a>
               </div>
             </div>

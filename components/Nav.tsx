@@ -453,9 +453,9 @@ export default function Nav() {
             <Image
               src="/clinIQ_new_logo.png"
               alt="clinIQ"
-              height={36}
-              width={120}
-              style={{ height: '36px', width: 'auto' }}
+              height={72}
+              width={240}
+              style={{ height: '72px', width: 'auto' }}
               priority
             />
           </Link>
