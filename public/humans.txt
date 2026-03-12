@@ -3,7 +3,7 @@
 Company: The Algorithm LLC
 Location: Colorado, USA
 Contact: info@cliniqhealthcare.com
-Twitter: @clinaborates
+LinkedIn: https://www.linkedin.com/showcase/cliniq-by-the-algorithm/
 
 /* SITE */
 
