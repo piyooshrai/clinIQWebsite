@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './FooterInner.module.css';
 
 export default function FooterInner() {
@@ -8,7 +9,13 @@ export default function FooterInner() {
         <div className={styles.footerGrid}>
           <div>
             <Link href="/" className={styles.footerBrand}>
-              clin<span>IQ</span>
+              <Image
+                src="/clinIQ_new_logo.png"
+                alt="clinIQ"
+                height={32}
+                width={107}
+                style={{ height: '32px', width: 'auto' }}
+              />
             </Link>
             <p className={styles.footerTagline}>Clinic operations that just work.</p>
           </div>
