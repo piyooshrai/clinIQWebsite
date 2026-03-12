@@ -152,6 +152,18 @@
   z-index: 10;
 }
 
+/* Transparent bridge that fills the gap between trigger and panel,
+   keeping the hover area continuous so the dropdown doesn't close
+   when the mouse moves from the button into the dropdown. */
+.dropdown::before {
+  content: '';
+  position: absolute;
+  top: -0.75rem;
+  left: 0;
+  right: 0;
+  height: 0.75rem;
+}
+
 .navItem:hover .dropdown,
 .dropdownOpen {
   opacity: 1;
