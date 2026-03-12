@@ -11,14 +11,67 @@ const instrumentSerif = Instrument_Serif({
 })
 
 export const metadata: Metadata = {
-  title: 'clinIQ — Clinic Operations Platform',
+  metadataBase: new URL('https://cliniqhealthcare.com'),
+  title: {
+    default: 'clinIQ - Clinic Operations Platform',
+    template: '%s | clinIQ',
+  },
   description:
-    'Patient flow, check-in, scheduling, RTM billing, and pre-authorization. Built for clinics that refuse to settle for broken workflows.',
+    'Patient check-in, RTM billing, patient flow, and pre-authorization for specialty clinics. The operating system for modern clinic operations.',
+  keywords: [
+    'clinic management software',
+    'patient check-in',
+    'RTM billing',
+    'remote therapeutic monitoring',
+    'patient flow',
+    'pre-authorization',
+    'clinic operations',
+    'healthcare software',
+  ],
+  authors: [{ name: 'The Algorithm LLC' }],
+  creator: 'The Algorithm LLC',
+  publisher: 'The Algorithm LLC',
   openGraph: {
-    title: 'clinIQ — Clinic Operations Platform',
-    description:
-      'From check-in to checkout. Real-time visibility. Zero chaos.',
     type: 'website',
+    locale: 'en_US',
+    url: 'https://cliniqhealthcare.com',
+    siteName: 'clinIQ',
+    title: 'clinIQ - Clinic Operations Platform',
+    description:
+      'Patient check-in, RTM billing, patient flow, and pre-authorization for specialty clinics.',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'clinIQ - Clinic Operations Platform',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'clinIQ - Clinic Operations Platform',
+    description:
+      'Patient check-in, RTM billing, patient flow, and pre-authorization for specialty clinics.',
+    images: ['/og-image.png'],
+    creator: '@clinaborates',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  verification: {
+    google: 'YOUR_GOOGLE_VERIFICATION_CODE',
+  },
+  alternates: {
+    canonical: 'https://cliniqhealthcare.com',
   },
 }
 
