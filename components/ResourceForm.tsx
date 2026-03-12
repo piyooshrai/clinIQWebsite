@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import styles from './ResourceForm.module.css'
+import contentStyles from './ResourceContent.module.css'
 
 export interface FormField {
   name: string
@@ -18,6 +19,26 @@ interface ResourceFormProps {
   fields: FormField[]
   submitLabel: string
   successMessage: string
+  /** When provided, rendered after form submission instead of the "check inbox" message */
+  revealContent?: React.ReactNode
+}
+
+function PrintButton() {
+  return (
+    <button
+      className={contentStyles.printBtn}
+      onClick={() => window.print()}
+      aria-label="Print or save as PDF"
+    >
+      <svg className={contentStyles.printBtnIcon} viewBox="0 0 16 16" fill="none" aria-hidden="true">
+        <rect x="3" y="1" width="10" height="7" rx="1" stroke="currentColor" strokeWidth="1.25" />
+        <rect x="3" y="10" width="10" height="5" rx="1" stroke="currentColor" strokeWidth="1.25" />
+        <path d="M3 10H1.5A.5.5 0 0 1 1 9.5v-4A.5.5 0 0 1 1.5 5h13a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H13" stroke="currentColor" strokeWidth="1.25" />
+        <circle cx="13" cy="7.5" r="0.75" fill="currentColor" />
+      </svg>
+      Print / Save as PDF
+    </button>
+  )
 }
 
 export default function ResourceForm({
@@ -26,6 +47,7 @@ export default function ResourceForm({
   fields,
   submitLabel,
   successMessage,
+  revealContent,
 }: ResourceFormProps) {
   const [values, setValues] = useState<Record<string, string>>({})
   const [submitting, setSubmitting] = useState(false)
@@ -55,6 +77,30 @@ export default function ResourceForm({
     }
   }
 
+  // After submission — reveal content on-page with print option
+  if (submitted && revealContent) {
+    return (
+      <section className={contentStyles.revealSection}>
+        <div className="container">
+          <div className={contentStyles.successBanner} aria-live="polite">
+            <svg className={contentStyles.successIcon} viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <circle cx="12" cy="12" r="11" stroke="currentColor" strokeWidth="1.5" />
+              <path d="M7 12l3.5 3.5L17 8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+            <span className={contentStyles.successText}>
+              Access granted — your resource is below. Use <strong>Print / Save as PDF</strong> to keep a copy.
+            </span>
+          </div>
+          <div className={contentStyles.printRow}>
+            <PrintButton />
+          </div>
+          {revealContent}
+        </div>
+      </section>
+    )
+  }
+
+  // After submission — no revealContent (legacy / email-delivery resources)
   if (submitted) {
     return (
       <section className={styles.section}>
@@ -83,7 +129,7 @@ export default function ResourceForm({
           <div className={styles.formWrap}>
             <h2 className={styles.formTitle}>Get instant access</h2>
             <p className={styles.formSubtitle}>
-              Fill in your details and we&rsquo;ll send it straight to your inbox.
+              Fill in your details and the full resource appears instantly below.
             </p>
 
             <form onSubmit={handleSubmit} className={styles.form} noValidate>
@@ -130,11 +176,11 @@ export default function ResourceForm({
                 className={`btn-inner btn-inner-lg btn-inner-primary ${styles.submitBtn}`}
                 disabled={submitting}
               >
-                {submitting ? 'Sending…' : submitLabel}
+                {submitting ? 'Loading…' : submitLabel}
               </button>
 
               <p className={styles.privacyNote}>
-                No spam. No sales calls. Just the resource.
+                No spam. No sales calls. Your resource appears instantly.
               </p>
             </form>
           </div>
