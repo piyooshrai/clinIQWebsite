@@ -44,6 +44,13 @@
       "content": "Remote Therapeutic Monitoring (RTM) is a structured programme that captures patient-reported data — pain scores, exercise adherence, functional assessments, mood ratings — between clinic visits, without requiring wearable devices or medical-grade hardware. Clinicians review reported data and provide brief documented responses, creating a billable touchpoint that supports better clinical outcomes and additional revenue. In the UK private pay context, physiotherapy and rehabilitation practices can offer RTM as a premium between-visit service at £100–£130 per patient per month, structured as a monthly add-on to a treatment episode. Pain management clinics, musculoskeletal specialists, and mental health practitioners are particularly well positioned. A practice with 100 patients enrolled in RTM at £120 per month generates approximately £144,000 in additional annual revenue — without adding clinical sessions, hiring staff, or purchasing equipment. Private insurers including Vitality and some AXA Health plans are beginning to recognise structured digital monitoring programmes, and NICE's evidence standards framework for digital health technologies provides a pathway for RTM tools to gain broader NHS and PMI recognition over the coming years. clinIQ's RTM module handles patient enrolment, data collection, clinician review workflows, and billing records in a single interface."
     }
   ],
+  "subLocations": [
+    { "slug": "england",          "name": "England",          "desc": "NHS GP referral workflows, CQC compliance, 7.5M waiting list driving private growth." },
+    { "slug": "scotland",         "name": "Scotland",         "desc": "HIS regulation, NHS Scotland integration, private practice expansion." },
+    { "slug": "wales",            "name": "Wales",            "desc": "HIW regulation, NHS Wales outsourcing, bilingual patient communication." },
+    { "slug": "northern-ireland", "name": "Northern Ireland", "desc": "HSC structure, 500K+ waiting — 1 in 4 residents — cross-border Ireland dynamic." },
+    { "slug": "ireland",          "name": "Ireland",          "desc": "57% PHI coverage (EU's highest), VHI/Laya/Irish Life, NTPF wait times." }
+  ],
   "cta": {
     "headline": "Ready to transform your UK practice?",
     "body": "Join clinics across the United Kingdom using clinIQ to reduce wait times, streamline PMI pre-authorisation, and capture remote monitoring revenue alongside your existing clinical system."

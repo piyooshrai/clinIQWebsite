@@ -44,6 +44,14 @@
       "content": "Remote Therapeutic Monitoring (RTM) is not device-based remote patient monitoring — it does not require wearables or continuous physiological data streams. RTM tracks therapy adherence, pain levels, functional outcomes, and treatment compliance through structured patient-reported data collected between clinic visits. This makes it particularly well-suited to physiotherapy, orthopedics, pain management, and mental health practices, where the interval between appointments is where patient progress most often stalls or reverses. The UAE's healthcare population is skewed toward working-age adults — the 25–54 age bracket represents the large majority of the expat workforce — which means a high prevalence of musculoskeletal conditions, sports injuries, occupational pain, and stress-related presentations that respond precisely to RTM-supported care models. International PMI carriers serving corporate expat populations are increasingly recognizing structured remote monitoring as a reimbursable care enhancement. A UAE physiotherapy or orthopedic practice that enrolls 100 patients in an RTM program at an average of $120 per patient per month generates $144,000 in additional annual revenue. clinIQ handles the patient-facing data collection, the clinical review workflow, and the documentation required for reimbursement submission — without requiring any additional clinical staff."
     }
   ],
+  "subLocations": [
+    { "slug": "dubai",     "name": "Dubai",     "desc": "DHA licensing, premium private care, NABIDH compliance, international medical tourism." },
+    { "slug": "abu-dhabi", "name": "Abu Dhabi", "desc": "DOH/HAAD compliance, Daman THIQA/Basic payer workflows, Malaffi HIE integration." },
+    { "slug": "qatar",     "name": "Qatar",     "desc": "NHIC/Hamad Medical Corporation, 88% expat population, international PMI dominance." },
+    { "slug": "kuwait",    "name": "Kuwait",    "desc": "MOH dual track, Aldar/GIG/Warba insurance, 60% expat patient population." },
+    { "slug": "bahrain",   "name": "Bahrain",   "desc": "NHRA regulation, Sehati mandatory insurance, medical tourism via Saudi causeway." },
+    { "slug": "oman",      "name": "Oman",      "desc": "DGHS/MOH, CMA insurance regulation, geographic healthcare access gaps, Vision 2040." }
+  ],
   "cta": {
     "headline": "Ready to transform your UAE practice?",
     "body": "Join clinics across the UAE using clinIQ to reduce wait times, streamline insurance pre-authorization, and capture remote monitoring revenue your practice is currently leaving unclaimed."
