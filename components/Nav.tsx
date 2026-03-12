@@ -70,8 +70,19 @@ const NAV_SECTIONS: NavSection[] = [
     ],
   },
   {
-    label: 'Specialties',
+    label: 'Who We Serve',
+    extraWide: true,
     grouped: [
+      {
+        heading: 'Care Settings',
+        links: [
+          { label: 'FQHCs & Community Health', href: '/markets/fqhc-community-health',       desc: 'Sliding scale + RTM billing' },
+          { label: 'Rural Health Clinics',     href: '/markets/rural-health',               desc: 'Small team, high volume' },
+          { label: 'Concierge & DPC',          href: '/markets/concierge-dpc',              desc: 'Membership model ops' },
+          { label: 'Surgery Centers',          href: '/markets/ambulatory-surgery-centers', desc: 'Pre-op to post-op flow' },
+        ],
+        viewAll: { label: 'All practice types →', href: '/solutions' },
+      },
       {
         heading: 'Behavioral Health',
         links: [
@@ -79,7 +90,7 @@ const NAV_SECTIONS: NavSection[] = [
           { label: 'Psychiatry',         href: '/specialties/psychiatry',         desc: 'No-show reduction & RTM' },
           { label: 'Behavioral Health',  href: '/specialties/behavioral-health',  desc: 'Therapeutic flow management' },
         ],
-        viewAll: { label: 'View all specialties →', href: '/specialties' },
+        viewAll: { label: 'All specialties →', href: '/specialties' },
       },
       {
         heading: 'Pain & Rehabilitation',
@@ -165,21 +176,6 @@ const NAV_SECTIONS: NavSection[] = [
           { label: 'vs Optimize Health', href: '/compare/optimize-health', desc: 'Broader than RPM' },
           { label: 'vs ChronicCareIQ', href: '/compare/chroniccareiq', desc: 'RTM + visit workflow' },
         ],
-      },
-    ],
-  },
-  {
-    label: 'Markets',
-    grouped: [
-      {
-        heading: 'Care Settings',
-        links: [
-          { label: 'FQHCs & Community Health', href: '/markets/fqhc-community-health',        desc: 'Sliding scale + RTM billing' },
-          { label: 'Rural Health Clinics',      href: '/markets/rural-health',                desc: 'Small team, high volume' },
-          { label: 'Concierge & DPC',           href: '/markets/concierge-dpc',               desc: 'Membership model ops' },
-          { label: 'Surgery Centers',           href: '/markets/ambulatory-surgery-centers',  desc: 'Pre-op to post-op flow' },
-        ],
-        viewAll: { label: 'View all markets →', href: '/markets' },
       },
     ],
   },
