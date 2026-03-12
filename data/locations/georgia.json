@@ -1,1 +1,51 @@
-{"slug":"georgia","name":"Georgia","abbr":"GA","meta":{"title":"clinIQ for Georgia Healthcare Practices | Patient Flow & RTM","description":"Clinic operations platform for Georgia healthcare providers. Patient flow, check-in, RTM billing, pre-authorization."},"hero":{"h1":"clinIQ for Georgia Healthcare","subhead":"From Atlanta specialty clinics to Savannah primary care, Georgia healthcare practices use clinIQ for real-time patient flow, automated check-in, and RTM billing.","cities":["Atlanta","Augusta","Savannah","Columbus","Macon"]}}
+{
+  "slug": "georgia",
+  "name": "Georgia",
+  "abbr": "GA",
+  "region": "United States",
+  "meta": {
+    "title": "clinIQ for Georgia Clinics | Patient Flow & RTM Software",
+    "description": "Clinic operations platform for Georgia healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
+  },
+  "hero": {
+    "h1": "clinIQ for Georgia Healthcare",
+    "subhead": "Georgia ranks among the fastest-growing states for population but faces persistent provider shortages across more than 60% of its counties. clinIQ helps Atlanta specialty groups, Augusta health system clinics, and rural practices from Valdosta to Rome reduce check-in time from 8 minutes to under 3, manage lobby flow in real time, and unlock RTM revenue without adding staff.",
+    "cities": ["Atlanta", "Augusta", "Savannah", "Columbus", "Macon"]
+  },
+  "stats": [
+    { "value": "26,400+", "label": "Licensed Physician Practices" },
+    { "value": "62%", "label": "Counties with Primary Care HPSA Designation" },
+    { "value": "$144K+", "label": "Annual RTM Revenue per 100 Patients" }
+  ],
+  "sections": [
+    {
+      "id": "landscape",
+      "h2": "Georgia's Healthcare Landscape",
+      "content": "Georgia is home to more than 10.9 million residents and one of the most dynamic healthcare markets in the Southeast. The Atlanta metro anchors a large concentration of health systems, multispecialty groups, and independent practices, while cities like Augusta — home to Wellstar MCG Health and the Medical College of Georgia — serve as regional referral hubs. Savannah, Columbus, and Macon each support sizable outpatient clinic populations, though all three face recurring access constraints tied to provider-to-population ratios well below national medians.\n\nThe state has roughly 26,400 licensed physician practices spanning primary care, orthopedics, physical therapy, pain management, behavioral health, and urgent care. Georgia's physician workforce grew modestly following Medicaid expansion under the Georgia Pathways to Coverage program, but demand has outpaced supply, particularly in the 60-plus counties classified as Health Professional Shortage Areas by HRSA. Rural hospitals have closed at a rate higher than the national average over the past decade, pushing more episodic care into outpatient clinic settings that were not designed to absorb it.\n\nThe state's payer environment is shaped by a mix of managed Medicaid, large commercial carriers, and a growing Medicare Advantage population. Georgia did not pursue full ACA Medicaid expansion until recently, meaning a significant portion of the low-income population historically cycled through safety-net clinics that run lean on administrative staff. That lean-staff reality makes operational efficiency tools like automated check-in and real-time lobby management especially high-value in Georgia's market."
+    },
+    {
+      "id": "payers",
+      "h2": "Payer Mix & Reimbursement",
+      "content": "Georgia Medicaid is administered through the Department of Community Health and delivered almost entirely through managed care. The four primary Medicaid Managed Care Organizations serving Georgia are Amerigroup Georgia, Caresource Georgia, Peach State Health Management (a Centene company), and WellCare of Georgia. Together they cover the majority of the state's approximately 2.3 million Medicaid enrollees under the Georgia Families and related programs. Each MCO has distinct prior authorization requirements, portal systems, and clinical documentation standards, creating meaningful administrative overhead for multi-payer practices.\n\nOn the commercial side, BlueCross BlueShield of Georgia (now Anthem), UnitedHealthcare, Humana, Cigna, and Aetna hold substantial market share. Medicare Advantage penetration has climbed steadily, now covering well over 40% of Georgia's Medicare-eligible population, with Humana and UnitedHealthcare dominating that segment. RTM services under CPT codes 98975 through 98981 are reimbursed by Medicare and increasingly by commercial payers. In Georgia, physical therapy, orthopedic, pain management, and behavioral health practices are seeing RTM approval rates improve as payers recognize the outcomes data behind therapeutic monitoring. Practices billing RTM to Medicare in Georgia typically realize $120 to $164 per patient per month depending on the CPT mix billed, and prior authorization is not required for Medicare RTM claims."
+    },
+    {
+      "id": "challenges",
+      "h2": "Challenges Facing Georgia Clinics",
+      "content": "Georgia clinics contend with a staffing environment shaped by high medical assistant and front-desk turnover, driven in part by competition from Atlanta's large hospital systems that offer more competitive wages and benefits than independent or small-group practices can match. The Georgia Hospital Association has consistently reported that outpatient clinical staff vacancy rates in the 15 to 20% range are common, meaning practices absorb the same patient volume with fewer hands at the front desk and in the clinical workflow.\n\nPrior authorization is a compounding burden. Georgia payers — commercial and Medicaid MCOs alike — require prior authorization for a broad range of services including physical therapy, advanced imaging, specialty referrals, and behavioral health care. Practices without dedicated authorization staff spend 13 to 15 hours per week per clinician on auth-related tasks, according to AMA survey data. That time represents real revenue displacement: a mid-volume orthopedic or PT practice in Georgia may lose the equivalent of one and a half clinical days per week to payer administrative requirements.\n\nRural access is a structural challenge that ripples into urban and suburban clinics. When patients in shortage-area counties can't access care locally, they drive to metro practices — often arriving late, anxious, or without complete paperwork — which disrupts lobby flow and extends actual wait times well beyond scheduled appointment lengths. Practices that lack real-time lobby visibility tools cannot triage or communicate with those patients efficiently, compounding the experience gap."
+    },
+    {
+      "id": "solution",
+      "h2": "How clinIQ Helps Georgia Clinics",
+      "content": "clinIQ addresses Georgia's core operational pain points without replacing the EHR systems practices already use. Check-in automation cuts the average patient intake from over 8 minutes to under 3 by routing intake forms, insurance verification, and consent documents to patients' phones before they arrive — a meaningful change in a high-volume Atlanta orthopedic practice or a busy Savannah primary care clinic seeing 40-plus patients daily.\n\nThe real-time patient flow dashboard gives front-desk staff and clinical leads visibility into every patient's status — checked in, roomed, waiting for provider, ready for discharge — so bottlenecks surface before they cascade into 45-minute lobby waits. For Georgia practices running lean front-desk teams due to staffing shortages, this visibility acts as a force multiplier, letting two staff members manage what previously required three or four.\n\nPre-authorization automation saves Georgia practices 13 to 15 hours per week by integrating directly with payer portals and surfacing required documentation before the appointment rather than after a denial. For a practice billing 25 to 30 auths per week across Peach State, WellCare, and Amerigroup, that time savings translates directly to recaptured revenue and reduced rework. RTM billing support lets Georgia PT, orthopedic, and pain management practices bill CPT 98975 through 98981 systematically — at 100 patients enrolled, that's approximately $144,000 in new annual revenue with no additional clinical staff required."
+    },
+    {
+      "id": "rtm",
+      "h2": "RTM Revenue Opportunity in Georgia",
+      "content": "Remote Therapeutic Monitoring is a distinct Medicare billing pathway from Remote Patient Monitoring — RTM requires no devices and no physiologic data. Under CPT codes 98975 through 98981, clinics bill for patient-reported outcomes, therapy adherence tracking, and clinical time spent reviewing and responding to that data. Physical therapists, occupational therapists, orthopaedic surgeons, pain management physicians, and behavioral health providers all qualify as eligible billing practitioners under Medicare's RTM rules.\n\nGeorgia's specialty clinic base makes RTM an unusually strong revenue opportunity. The state has a substantial orthopedic surgery and sports medicine presence in metro Atlanta and along the I-85 corridor, a growing pain management sector driven by post-surgical and chronic pain populations, and a behavioral health network that has expanded in response to the state's documented mental health shortage. All three of these specialty segments qualify for RTM billing and represent patients who benefit from between-visit therapeutic monitoring.\n\nAt a billing rate of approximately $120 per patient per month for a standard RTM CPT mix, a Georgia clinic enrolling 100 patients generates roughly $144,000 in additional annual revenue. A mid-size orthopedic group in the Atlanta suburbs enrolling 250 patients is looking at over $360,000 per year — revenue that does not require additional visits, additional clinical staff, or capital investment beyond a software platform. clinIQ manages the enrollment workflow, tracks the 16-day minimum monitoring thresholds, and generates the billing documentation required to support RTM claims under CMS and Georgia commercial payer guidelines."
+    }
+  ],
+  "cta": {
+    "headline": "Ready to transform your Georgia practice?",
+    "body": "Join clinics across Georgia using clinIQ to reduce wait times, cut prior auth burden, and capture RTM revenue their EHR alone cannot unlock."
+  }
+}

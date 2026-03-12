@@ -4,14 +4,28 @@ import path from 'path'
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import { renderContent } from '@/lib/renderContent'
 import s from '@/app/specialties/specialty-full.module.css'
+import css from '@/components/templates/PillarSpecialtyPage.module.css'
 
 // ── Types ─────────────────────────────────────────────────────────────────────
+
+interface LocationStat {
+  value: string
+  label: string
+}
+
+interface LocationSection {
+  id: string
+  h2: string
+  content: string
+}
 
 interface LocationData {
   slug: string
   name: string
   abbr?: string
+  region?: string
   meta: {
     title: string
     description: string
@@ -20,6 +34,12 @@ interface LocationData {
     h1: string
     subhead: string
     cities?: string[]
+  }
+  stats?: LocationStat[]
+  sections?: LocationSection[]
+  cta?: {
+    headline: string
+    body: string
   }
 }
 
@@ -64,29 +84,29 @@ export async function generateMetadata({
   }
 }
 
-// ── Page ──────────────────────────────────────────────────────────────────────
+// ── Content classes ───────────────────────────────────────────────────────────
+
+const contentClasses = {
+  contentBlock: css.contentBlock,
+  contentP: css.contentP,
+  contentUL: css.contentUL,
+  contentLI: css.contentLI,
+  relatedRef: css.relatedRef,
+  inlineLink: css.inlineLink,
+}
+
+// ── Specialty links ───────────────────────────────────────────────────────────
 
 const SPECIALTIES = [
-  { slug: 'primary-care',       name: 'Primary Care' },
+  { slug: 'physical-therapy',   name: 'Physical Therapy' },
   { slug: 'orthopedic-surgery', name: 'Orthopedic Surgery' },
   { slug: 'pain-management',    name: 'Pain Management' },
-  { slug: 'physical-therapy',   name: 'Physical Therapy' },
   { slug: 'behavioral-health',  name: 'Behavioral Health' },
-  { slug: 'cardiology',         name: 'Cardiology' },
+  { slug: 'primary-care',       name: 'Primary Care' },
   { slug: 'urgent-care',        name: 'Urgent Care' },
-  { slug: 'spine-surgery',      name: 'Spine Surgery' },
 ]
 
-const FEATURES = [
-  { slug: 'patient-flow',      name: 'Patient Flow',       desc: 'Real-time queue tracking' },
-  { slug: 'check-in',          name: 'Patient Check-In',   desc: 'Digital intake & verification' },
-  { slug: 'rtm',               name: 'RTM Billing',        desc: 'CPT 98975–98981 automation' },
-  { slug: 'pre-auth',          name: 'Pre-Authorization',  desc: 'Payer approval workflows' },
-  { slug: 'scheduling',        name: 'Scheduling',         desc: 'Multi-provider calendar' },
-  { slug: 'telehealth',        name: 'Telehealth',         desc: 'Virtual visit workflows' },
-  { slug: 'secure-messaging',  name: 'Secure Messaging',   desc: 'HIPAA-compliant messaging' },
-  { slug: 'analytics',         name: 'Analytics',          desc: 'Bottleneck detection' },
-]
+// ── Page ──────────────────────────────────────────────────────────────────────
 
 export default async function LocationSlugPage({
   params,
@@ -105,6 +125,9 @@ export default async function LocationSlugPage({
       { '@type': 'ListItem', position: 3, name: data.name,   item: `https://cliniqhealthcare.com/locations/${data.slug}` },
     ],
   }
+
+  const hasSections = data.sections && data.sections.length > 0
+  const hasStats = data.stats && data.stats.length > 0
 
   return (
     <>
@@ -129,6 +152,8 @@ export default async function LocationSlugPage({
               </div>
               <h1 className={s.heroTitle}>{data.hero.h1}</h1>
               <p className={s.heroSubtitle}>{data.hero.subhead}</p>
+
+              {/* City pills */}
               {data.hero.cities && data.hero.cities.length > 0 && (
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginTop: '1.5rem' }}>
                   {data.hero.cities.map((city) => (
@@ -148,6 +173,19 @@ export default async function LocationSlugPage({
                   ))}
                 </div>
               )}
+
+              {/* Stats strip in hero */}
+              {hasStats && (
+                <div className={css.heroStats} style={{ marginTop: '2rem' }}>
+                  {data.stats!.map(({ value, label }) => (
+                    <div key={label} className={css.heroStat}>
+                      <span className={css.heroStatValue}>{value}</span>
+                      <span className={css.heroStatLabel}>{label}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
+
               <div className={s.heroActions}>
                 <a href="/demo" className={s.btnPrimary}>
                   Schedule a Demo
@@ -161,6 +199,39 @@ export default async function LocationSlugPage({
           </div>
         </section>
 
+        {/* ── CONTENT SECTIONS (rich pages) ── */}
+        {hasSections && (
+          <div className={css.contentOuter}>
+            <div className={css.contentWrapper}>
+
+              {/* Left: sticky TOC */}
+              <nav aria-label="Page contents">
+                <div className={css.toc}>
+                  <span className={css.tocLabel}>On this page</span>
+                  <ul className={css.tocList}>
+                    {data.sections!.map(({ id, h2 }) => (
+                      <li key={id} className={css.tocItem}>
+                        <a href={`#${id}`} className={css.tocLink}>{h2}</a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </nav>
+
+              {/* Right: prose sections */}
+              <div className={css.sections}>
+                {data.sections!.map((section) => (
+                  <section key={section.id} id={section.id} className={css.section}>
+                    <h2 className={css.sectionH2}>{section.h2}</h2>
+                    <div>{renderContent(section.content, contentClasses)}</div>
+                  </section>
+                ))}
+              </div>
+
+            </div>
+          </div>
+        )}
+
         {/* ── SPECIALTIES ── */}
         <section className={s.modules} style={{ background: 'var(--cream, #f5f3ef)' }}>
           <div className={s.container}>
@@ -170,9 +241,6 @@ export default async function LocationSlugPage({
                 Solutions by specialty<br />
                 <em>in {data.name}</em>
               </h2>
-              <p className={s.sectionDesc}>
-                clinIQ adapts to the clinical and operational workflows of every major specialty.
-              </p>
             </div>
             <div className={s.modulesGrid}>
               {SPECIALTIES.map((spec) => (
@@ -195,38 +263,6 @@ export default async function LocationSlugPage({
           </div>
         </section>
 
-        {/* ── FEATURES ── */}
-        <section className={s.modules} style={{ background: 'var(--white)' }}>
-          <div className={s.container}>
-            <div className={s.modulesHeader}>
-              <span className={s.sectionLabel}>Platform</span>
-              <h2 className={s.sectionTitle}>
-                Every tool your clinic needs<br />
-                <em>in one platform.</em>
-              </h2>
-            </div>
-            <div className={s.modulesGrid}>
-              {FEATURES.map((feat) => (
-                <a
-                  key={feat.slug}
-                  href={`/features/${feat.slug}`}
-                  className={s.moduleCard}
-                  style={{ textDecoration: 'none', color: 'inherit' }}
-                >
-                  <h3 className={s.moduleTitle}>{feat.name}</h3>
-                  <p className={s.moduleDesc}>{feat.desc}</p>
-                  <span className={s.moduleLink}>
-                    Learn more
-                    <svg width="12" height="12" viewBox="0 0 20 20" fill="none" aria-hidden="true" style={{ display: 'inline', marginLeft: '4px' }}>
-                      <path d="M4 10h12m-4-4l4 4-4 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                  </span>
-                </a>
-              ))}
-            </div>
-          </div>
-        </section>
-
         {/* ── CTA ── */}
         <section className={s.cta}>
           <div className={s.ctaBg}>
@@ -235,11 +271,10 @@ export default async function LocationSlugPage({
           <div className={s.container}>
             <div className={s.ctaContent}>
               <h2 className={s.ctaTitle}>
-                Ready to transform your<br />
-                <em>{data.name} practice?</em>
+                {data.cta?.headline ?? `Ready to transform your ${data.name} practice?`}
               </h2>
               <p className={s.ctaDesc}>
-                Live in days. No hardware required. Works with your existing EHR.
+                {data.cta?.body ?? 'Live in days. No hardware required. Works with your existing EHR.'}
               </p>
               <div className={s.ctaActions}>
                 <a href="/demo" className={s.btnPrimary}>

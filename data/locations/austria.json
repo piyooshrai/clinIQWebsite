@@ -1,1 +1,51 @@
-{"slug":"austria","name":"Austria","abbr":"AT","meta":{"title":"clinIQ for Austria Healthcare Practices | Patient Flow & Remote Monitoring","description":"Clinic operations platform for Austria healthcare providers. Patient flow, check-in, remote monitoring, clinical workflows."},"hero":{"h1":"clinIQ for Austria Healthcare","subhead":"From Vienna private clinics to Salzburg specialty practices, Austria healthcare providers use clinIQ for real-time patient flow, automated check-in, and remote monitoring.","cities":["Vienna","Salzburg","Innsbruck","Graz","Linz"]}}
+{
+  "slug": "austria",
+  "name": "Austria",
+  "abbr": "AT",
+  "region": "Europe",
+  "meta": {
+    "title": "clinIQ for Austria Private Clinics | Patient Flow & Remote Monitoring",
+    "description": "Clinic operations platform for Austrian Wahlarzt and private clinic providers. Streamline check-in, patient flow, and remote therapeutic monitoring alongside your existing system."
+  },
+  "hero": {
+    "h1": "clinIQ for Austria Healthcare",
+    "subhead": "Austria's dual system of Kassenärzte and Wahlärzte creates a growing premium private practice market — particularly in Vienna, Graz, and Salzburg, where thousands of Wahlärzte serve patients seeking faster access and premium experiences. Managing ÖGK billing, private fee invoicing, and rising patient expectations simultaneously puts clinic operations under strain. clinIQ integrates with your existing Ordinationssoftware to automate check-in, manage patient flow, and grow remote monitoring revenue.",
+    "cities": ["Vienna", "Graz", "Salzburg", "Linz", "Innsbruck"]
+  },
+  "stats": [
+    { "value": "9M", "label": "Residents Covered by ÖGK and Social Insurance Funds" },
+    { "value": "8,000+", "label": "Registered Wahlärzte (Private Non-Contracted Physicians) in Austria" },
+    { "value": "€144K", "label": "Annual Remote Monitoring Revenue per 100 Patients" }
+  ],
+  "sections": [
+    {
+      "id": "landscape",
+      "h2": "Austria's Healthcare Landscape",
+      "content": "Austria operates a multi-pillar social health insurance system that underwent major consolidation in 2020, merging nine previously separate statutory health insurance funds into a single main fund — the Österreichische Gesundheitskasse (ÖGK) — alongside five occupational insurance funds for civil servants, miners, railway workers, and other specific employee groups. The ÖGK covers approximately 7.2 million employed and dependent residents, while the total insured population of around 9 million is covered across the ÖGK and the occupational funds. Austria has approximately 49,000 physicians in active practice, split between Kassenärzte (physicians contracted with ÖGK and the occupational funds, who treat insured patients at regulated fees) and Wahlärzte (physicians outside the contract system who charge private fees and for whom patients claim partial reimbursement from their insurer). The Wahlarzt system is a defining feature of Austrian private medicine: there are over 8,000 Wahlärzte across Austria, concentrated in Vienna, Graz, Salzburg, and Linz. Vienna alone has the highest density of Wahlärzte of any Austrian city, with established practices across specialties ranging from internal medicine and orthopaedics to psychiatry and dermatology. Private hospitals — including the Krankenanstalten Rudolfstiftung, Sanatorium Hera, and a number of private Kliniken operated by Vinzenz Gruppe and PremiQaMed — provide inpatient private care alongside the large public university hospital network."
+    },
+    {
+      "id": "payers",
+      "h2": "Funding & Reimbursement in Austria",
+      "content": "Austrian healthcare reimbursement operates on two distinct tracks. Kassenärzte treat ÖGK-insured patients at collectively negotiated fee schedules, with reimbursement flowing directly from the ÖGK to the contracted physician on a quarterly settlement basis. Patients with a valid e-card (the Austrian electronic health insurance card) incur no direct cost for services within the contracted package, though they may pay a Behandlungsbeitrag (co-payment) for certain services. Wahlärzte, by contrast, invoice patients directly for privately agreed fees — typically using the Honorarordnung der Ärztekammer as a reference — and patients claim reimbursement from the ÖGK at the Kassenanteil rate (typically 80% of the equivalent Kassenärztetarif), with the remaining balance — often 20–60% of the full Wahlarzt fee — paid out of pocket. Many patients supplement their ÖGK coverage with private Zusatzversicherung (supplementary insurance) from providers such as UNIQA, Wiener Städtische (Vienna Insurance Group), and Allianz Österreich. Wahlarzt-Zusatzversicherungen typically reimburse Wahlarzt fees up to full tariff, eliminating the patient top-up. Digital health reimbursement is at an early stage in Austria: the Digitale Gesundheit initiative and ELGA (Elektronische Gesundheitsakte — the national electronic health record) create foundational infrastructure, while telehealth and remote monitoring billing have been piloted within ÖGK frameworks for chronic disease management since the pandemic."
+    },
+    {
+      "id": "challenges",
+      "h2": "Challenges Facing Austria's Private Clinics",
+      "content": "Austrian Wahlärzte and private Kliniken face operational challenges rooted in the complexity of private billing, rising patient expectations, and a tight professional labour market. For Wahlärzte, invoicing patients directly — managing private fee schedules, issuing Honorarnoten (fee invoices) compliant with Ärztekammer guidance, and tracking partial ÖGK reimbursement versus Zusatzversicherung top-up payments — requires either dedicated billing software or outsourcing to an Abrechnungsservice. Without structured tools, billing management alone can consume 5–8 hours per week for a single Wahlarzt. Patients choosing Wahlärzte — typically higher-income, digitally sophisticated individuals with Zusatzversicherung — have correspondingly high expectations for practice experience: rapid check-in, minimal waiting, digital communication, and professional documentation. Competition among Wahlärzte in Vienna and Graz is meaningful: with over 8,000 non-contracted physicians competing for private patients, patient experience differentiation has become a key competitive factor. Österreichische Ärztekammer regulations require physicians to maintain specific documentation standards, and Datenschutzbehörde (GDPR authority) enforcement in Austria has intensified focus on compliant patient communication practices. Staffing challenges — particularly for Ordinationsassistenten (clinic assistants) and Praxismanagerinnen — affect private practices' capacity to handle the administrative overhead of private billing and patient management simultaneously."
+    },
+    {
+      "id": "solution",
+      "h2": "How clinIQ Helps Austria's Clinics",
+      "content": "clinIQ integrates with the Ordinationssoftware and practice management systems used by Austrian Wahlärzte and private Kliniken — including Medocs, Arztnavi, and other specialist PMS platforms — without replacing existing ELGA integration or billing workflows. For Vienna, Graz, and Salzburg practices with high Wahlarzt patient volumes, digital check-in cuts patient arrival processing from over 8 minutes to under 3, immediately improving the premium patient experience that differentiates a successful Wahlarztpraxis in a competitive market. The real-time patient flow dashboard gives Ordinationsmanagerinnen a live view of the waiting area, consultation room occupancy, and appointment pipeline — enabling professional, structured appointment management that matches the premium positioning of a Vienna Wahlarztpraxis. Secure DSGVO-compliant (GDPR) messaging provides a patient communication channel that satisfies Austrian data protection requirements while replacing the unencrypted email exchanges still common in Austrian independent practice. For private Kliniken with multiple specialist departments, clinIQ's analytics module delivers revenue per practitioner, appointment utilisation, patient satisfaction, and Zusatzversicherung insurer mix data across departments and sites — providing the management visibility needed to operate at premium quality standards. The pre-authorisation module tracks outstanding Zusatzversicherung approvals — required by some UNIQA and Wiener Städtische plans for certain procedures — against upcoming appointment dates."
+    },
+    {
+      "id": "rtm",
+      "h2": "Remote Monitoring Revenue in Austria",
+      "content": "Remote Therapeutic Monitoring in Austria finds its most immediate commercial case in the Wahlarzt private practice community, particularly among Physiotherapeuten, Orthopäden, Schmerztherapeuten (pain management), and Psychiater who serve Zusatzversicherung-covered or self-pay patients. RTM captures patient-reported data — pain levels, exercise adherence, functional recovery progress, mood ratings — between clinic appointments via the clinIQ patient app, with no wearable hardware required. Clinicians review structured reports and provide documented clinical responses during brief weekly sessions, creating a billable between-visit monitoring programme. Austrian Zusatzversicherung plans from UNIQA, Wiener Städtische, and Allianz increasingly cover digital health services, and RTM structured programmes at €100–€130 per patient per month represent a self-pay or supplementary insurance service tier that is well aligned with the premium positioning of Vienna and Graz Wahlarztpraxen. A practice enrolling 100 patients generates approximately €144,000 in annual recurring revenue. Austria's ELGA electronic health record infrastructure — which gives patients and treating physicians access to a shared medication list, diagnostic results, and discharge letters — creates an environment where between-visit digital monitoring is technically and culturally coherent: RTM data that flows alongside ELGA-documented clinical findings strengthens continuity of care narratives and supports Austrian Ärztekammer documentation expectations."
+    }
+  ],
+  "cta": {
+    "headline": "Ready to transform your Austria practice?",
+    "body": "Join Wahlärzte and private Kliniken across Austria using clinIQ to elevate patient experience, reduce billing admin, and generate recurring remote monitoring revenue alongside your existing Ordinationssoftware."
+  }
+}

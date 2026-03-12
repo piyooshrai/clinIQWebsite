@@ -1,1 +1,51 @@
-{"slug":"belgium","name":"Belgium","abbr":"BE","meta":{"title":"clinIQ for Belgium Healthcare Practices | Patient Flow & Remote Monitoring","description":"Clinic operations platform for Belgium healthcare providers. Patient flow, check-in, remote monitoring, clinical workflows."},"hero":{"h1":"clinIQ for Belgium Healthcare","subhead":"From Brussels private clinics to Antwerp specialty practices, Belgium healthcare providers use clinIQ for real-time patient flow, automated check-in, and remote monitoring.","cities":["Brussels","Antwerp","Ghent","Bruges","Liège"]}}
+{
+  "slug": "belgium",
+  "name": "Belgium",
+  "abbr": "BE",
+  "region": "Europe",
+  "meta": {
+    "title": "clinIQ for Belgium Private Clinics | Patient Flow & Remote Monitoring",
+    "description": "Clinic operations platform for Belgian private healthcare providers. Streamline check-in, patient flow, and remote therapeutic monitoring. Works alongside INAMI/RIZIV billing systems."
+  },
+  "hero": {
+    "h1": "clinIQ for Belgium Healthcare",
+    "subhead": "Belgium's médecins conventionnés and independent specialists serve a population with near-universal health insurance coverage — but managing INAMI/RIZIV billing, mutualité pre-authorisations, and bilingual patient communications creates administrative complexity unique to Belgian practice. clinIQ integrates with your existing electronic patient record to automate check-in, manage patient flow in real time, and generate remote therapeutic monitoring revenue.",
+    "cities": ["Brussels", "Antwerp", "Ghent", "Bruges", "Liège"]
+  },
+  "stats": [
+    { "value": "11.6M", "label": "Belgians Covered by Compulsory Health Insurance" },
+    { "value": "55K+", "label": "Recognised Medical Practitioners in Belgium" },
+    { "value": "€144K", "label": "Annual Remote Monitoring Revenue per 100 Patients" }
+  ],
+  "sections": [
+    {
+      "id": "landscape",
+      "h2": "Belgium's Healthcare Landscape",
+      "content": "Belgium operates a compulsory social health insurance system administered by the Institut National d'Assurance Maladie-Invalidité (INAMI) in French and Rijksinstituut voor ziekte- en invaliditeitsverzekering (RIZIV) in Dutch — a single federal institution with bilingual operations that reflects Belgium's linguistic division between the Flemish north and French-speaking Wallonia, with a small German-speaking community in the east. All residents are required to affiliate with one of five health insurance funds (mutualités/mutualiteiten), which act as intermediaries between patients and INAMI/RIZIV, processing reimbursement claims and providing supplementary benefits. The five major mutualités — Christelijke Mutualiteit / Mutualité Chrétienne (CM/MC), Socialistische Mutualiteit / Mutualité Socialiste (NVSM/ANMC), Liberale Mutualiteit / Mutualité Libérale, Neutraal Ziekenfonds / Caisse Neutre, and the Hulpkas / Caisse Auxiliaire — together cover the entire insured Belgian population. Medical practice in Belgium is largely fee-for-service: médecins conventionnés (conventioned physicians) charge the INAMI-agreed tariff, while non-conventionné physicians may charge higher fees with reduced patient reimbursement. The number of recognised medical practitioners in Belgium exceeds 55,000, of whom approximately 18,000 are GPs and the remainder specialists. Private polyclinics, specialist group practices, and independent physiotherapy cabinets operate alongside the large university hospital networks (UZ Leuven, CHU UCLouvain, UZ Gent, UZ Antwerpen) that dominate inpatient care."
+    },
+    {
+      "id": "payers",
+      "h2": "Funding & Reimbursement in Belgium",
+      "content": "INAMI/RIZIV reimbursement covers a broad package of medical, dental, physiotherapy, and mental health services under the compulsory insurance system. Billing is performed electronically through the e-health platform, with physicians submitting Technische Fiches (TF/FT) or using third-party-payment arrangements (tiers payant/derde-betaler) that allow the mutualité to pay the physician directly, with the patient owing only the ticket modérateur (patient share). The tiers payant arrangement simplifies cash management for patients but creates a claims-management workflow for clinics that must track mutualité payments and outstanding balances. Supplementary mutualité benefits vary by fund and plan tier: complementary cover for non-reimbursed physiotherapy sessions, certain dental treatments, glasses, and some specialist consultations is common, with premium plan members receiving broader supplementary access. Pre-authorisation from the mutualité médecin-conseil (insurance medical adviser) is required for certain treatments — including extended physiotherapy programmes, some surgical procedures, and certain imaging studies — adding an approval workflow to the administrative burden of Belgian practices. Digital health reimbursement is advancing: the Belgian e-health platform and the MyHealthViewer patient data ecosystem are among the most developed in Europe, and INAMI/RIZIV has piloted reimbursement of telemonitoring for heart failure and diabetes management, creating a regulatory pathway for broader remote monitoring reimbursement expansion."
+    },
+    {
+      "id": "challenges",
+      "h2": "Challenges Facing Belgium's Private Clinics",
+      "content": "Belgian private practices and specialist cabinets face a multi-dimensional administrative challenge unlike most European counterparts. The INAMI/RIZIV billing system, while electronically integrated, requires precise nomenclature code selection, tiers payant tracking, and ongoing monitoring of mutualité payment status — administrative tasks that consume significant staff capacity in multi-practitioner practices. Managing pre-authorisation requests to the mutualité médecin-conseil — typically required for extended physiotherapy, specialist imaging, and certain procedures — creates a two-to-five day lag between treatment decision and approval that must be tracked and followed up manually without a purpose-built workflow tool. Belgium's linguistic division adds a layer of operational complexity: Brussels practices in particular must manage patient communications, consent forms, and clinical documentation in both French and Dutch, often with bilingual administrative staff who are in short supply. The federal structure of Belgian healthcare — with overlapping INAMI/RIZIV, regional health policy, and Community-level care responsibilities — creates a regulatory environment of considerable complexity for providers seeking clarity on digital health innovation, telemedicine billing, and cross-regional care delivery. Patient expectations for digital convenience — online booking, digital check-in, electronic records access — are high, particularly in Brussels and Antwerp, where competition among specialist practices is intense."
+    },
+    {
+      "id": "solution",
+      "h2": "How clinIQ Helps Belgium's Clinics",
+      "content": "clinIQ integrates with the electronic health record (EPD/DMI) and billing systems used by Belgian practices — including Medisoap, Corilus/Epicura, and Healtheon EPD platforms — without replacing existing INAMI/RIZIV billing workflows. For specialist cabinets and polyclinics in Brussels, Antwerp, and Ghent, digital check-in reduces patient arrival processing from over 8 minutes to under 3, recovering admin staff time that can be redirected to tiers payant tracking, mutualité pre-authorisation management, and billing reconciliation. The real-time patient flow dashboard gives cabinet managers a live view of waiting room status, consultation room occupancy, and appointment pipeline across one or multiple sites — enabling proactive management of the appointment scheduling densities common in Belgian specialist and physiotherapy practice. The pre-authorisation module tracks outstanding mutualité médecin-conseil approvals against upcoming appointment slots, alerting staff to pending authorisations 48 hours before a scheduled treatment begins — eliminating last-minute cancellations and compliance gaps. Secure GDPR-compliant messaging — enforced by the Belgian Data Protection Authority (APD/GBA) — provides a compliant patient communication channel, with bilingual notification support for Brussels-based practices. Analytics provide practice directors with revenue data, insurer mix analysis, no-show rates, and patient flow efficiency metrics across individual locations."
+    },
+    {
+      "id": "rtm",
+      "h2": "Remote Monitoring Revenue in Belgium",
+      "content": "Remote Therapeutic Monitoring in Belgium has a compelling commercial case in kinesithérapie/kinesitherapie (physiotherapy), revalidation (rehabilitation), orthopaedic specialist practices, and private mental health providers. RTM captures structured patient-reported data — pain levels, exercise adherence, functional recovery milestones, mood assessments — between clinic appointments via the clinIQ patient app, with no wearable hardware required. Clinicians review structured reports and document responses during brief weekly review sessions, creating a billable between-visit programme. Belgium's INAMI/RIZIV has piloted remote monitoring reimbursement for cardiovascular and metabolic conditions, establishing the administrative and coding precedent for broader RTM adoption. For kinesithérapeutes and revalidatie specialists operating self-pay or complementary-insurance-funded extended treatment programmes, RTM at €100–€130 per patient per month provides a recurring revenue stream that does not require additional clinical sessions, staff, or space. A Belgian practice enrolling 100 patients generates approximately €144,000 annually. The Belgian e-health platform — one of the most connected national health data ecosystems in Europe — means clinIQ's RTM data can be integrated with the patient's centralised health summary (Sumehr) and shared with treating GPs through the Vitalink/RSW data sharing networks, adding clinical value that strengthens mutualité and patient relationships."
+    }
+  ],
+  "cta": {
+    "headline": "Ready to transform your Belgium practice?",
+    "body": "Join clinics across Belgium using clinIQ to streamline patient flow, reduce pre-authorisation admin, and build recurring remote monitoring revenue alongside your existing EPD and billing system."
+  }
+}

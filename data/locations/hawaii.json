@@ -1,1 +1,51 @@
-{"slug":"hawaii","name":"Hawaii","abbr":"HI","meta":{"title":"clinIQ for Hawaii Healthcare Practices | Patient Flow & RTM","description":"Clinic operations platform for Hawaii healthcare providers. Patient flow, check-in, RTM billing, pre-authorization."},"hero":{"h1":"clinIQ for Hawaii Healthcare","subhead":"From Honolulu specialty practices to Maui primary care, Hawaii healthcare practices use clinIQ for real-time patient flow, automated check-in, and RTM billing.","cities":["Honolulu","Pearl City","Hilo","Kailua","Waipahu"]}}
+{
+  "slug": "hawaii",
+  "name": "Hawaii",
+  "abbr": "HI",
+  "region": "United States",
+  "meta": {
+    "title": "clinIQ for Hawaii Clinics | Patient Flow & RTM Software",
+    "description": "Clinic operations platform for Hawaii healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
+  },
+  "hero": {
+    "h1": "clinIQ for Hawaii Healthcare",
+    "subhead": "Hawaii's island geography creates provider access challenges found nowhere else in the United States — Neighbor Island residents on Maui, Kauai, and the Big Island routinely travel hours or fly to Oahu for specialty care. clinIQ helps Honolulu multispecialty groups and community health centers on every island reduce check-in friction, manage real-time patient flow, and capture RTM revenue from the therapy and chronic disease populations that define Hawaii's outpatient caseload.",
+    "cities": ["Honolulu", "Pearl City", "Hilo", "Kailua", "Kaneohe"]
+  },
+  "stats": [
+    { "value": "3,800+", "label": "Licensed Physician Practices" },
+    { "value": "47%", "label": "Geographic Areas with Provider Shortages" },
+    { "value": "$144K+", "label": "Annual RTM Revenue per 100 Patients" }
+  ],
+  "sections": [
+    {
+      "id": "landscape",
+      "h2": "Hawaii's Healthcare Landscape",
+      "content": "Hawaii's healthcare system is shaped more by geography than by any other single factor. With roughly 1.44 million residents spread across six inhabited islands, the state operates what is effectively a multi-market system where a clinic on Kauai and a clinic in urban Honolulu face entirely different supply, staffing, and access dynamics. Oahu concentrates the majority of the state's roughly 3,800 licensed physician practices, including the large multispecialty groups affiliated with Hawaii Pacific Health and The Queen's Health Systems. Maui Health System serves the Valley Isle, while the Big Island is served by Hilo Medical Center and a network of smaller practices that collectively struggle to maintain consistent specialist coverage.\n\nHawaii has historically had among the highest insurance coverage rates in the nation, driven by the Hawaii Prepaid Health Care Act — a 1974 state law that predates the ACA and requires employers to cover employees working 20 or more hours per week. This produces a payer environment skewed toward commercial insurance relative to states with higher Medicaid dependency, though Med-QUEST (Hawaii's Medicaid program) still covers roughly 330,000 residents. The coverage advantage does not fully offset access barriers: Neighbor Island residents with specialty care needs often must travel to Honolulu, creating a pattern of delayed care, missed follow-ups, and difficulty with therapy adherence that RTM programs are specifically designed to address."
+    },
+    {
+      "id": "payers",
+      "h2": "Payer Mix & Reimbursement",
+      "content": "Hawaii's dominant commercial carrier is HMSA, the Hawaii Medical Service Association and a BlueCross BlueShield affiliate, which covers approximately half the state's insured population. UnitedHealthcare, Kaiser Permanente Hawaii, and Cigna hold the remaining commercial market share. Kaiser operates its own integrated delivery network in Hawaii, which affects referral patterns and creates a bifurcated market where Kaiser-affiliated patients follow closed-panel rules while non-Kaiser patients access the broader provider network.\n\nMed-QUEST, Hawaii's Medicaid managed care program, is administered through QUEST Integration, with plans operated by AlohaCare, UnitedHealthcare Community Plan, and Ohana Health Plan (a WellCare company). Prior authorization requirements under Med-QUEST apply broadly to specialty services, physical therapy beyond initial visits, and behavioral health — mirroring the administrative friction seen in Medicaid managed care nationally. Medicare Advantage penetration in Hawaii is notable given the state's older resort and retirement communities on Maui and the Big Island, with Humana and UnitedHealthcare leading MA enrollment. RTM services under CPT 98975 through 98981 are covered by Medicare without prior authorization, and HMSA has signaled commercial coverage alignment for qualifying therapeutic monitoring programs."
+    },
+    {
+      "id": "challenges",
+      "h2": "Challenges Facing Hawaii Clinics",
+      "content": "The most acute operational challenge for Hawaii clinics is staffing, particularly on the Neighbor Islands. The cost of living in Hawaii consistently ranks among the highest in the nation, with housing costs that make it difficult to recruit and retain medical assistants, front-desk coordinators, and clinical support staff at wage levels independent practices can sustain. Turnover in small Maui, Kauai, and Big Island practices often runs at 30% or more annually, meaning practices are perpetually training new staff while trying to maintain visit capacity.\n\nPrior authorization burden compounds the staffing problem. When a practice has limited administrative personnel, auth-related tasks consume a disproportionate share of available time. A physical therapy clinic in Hilo or a pain management practice in Kailua-Kona may have one or two front-desk employees managing everything from scheduling to billing to faxing auth documentation to payers — a workload that AMA data suggests consumes 13 to 15 hours per week per provider in authorization alone.\n\nIsland geography also creates unique patient flow challenges. Patients traveling from rural parts of Oahu's North Shore or interisland arrivals may face delays caused by ferry schedules, traffic, or flight connections. Practices cannot apply standard no-show protocols to patients whose access is transportation-constrained, yet they also cannot afford the revenue loss of large appointment gaps. Real-time lobby management tools that provide immediate visibility into who has arrived and who may be delayed are especially valuable in this context."
+    },
+    {
+      "id": "solution",
+      "h2": "How clinIQ Helps Hawaii Clinics",
+      "content": "clinIQ's mobile-first check-in process is particularly well-suited to Hawaii's patient population, where smartphone adoption is high and patients are accustomed to completing transactions digitally. By routing intake forms, consent documents, and insurance verification to the patient's phone before the appointment, clinIQ reduces check-in desk time from over 8 minutes to under 3 — a change that directly reduces lobby crowding in small practices that may have only two or three exam rooms and a single check-in desk.\n\nFor Neighbor Island practices operating with lean administrative teams, the pre-authorization automation module is a force multiplier. Rather than having a medical assistant spend an afternoon navigating AlohaCare or Ohana Health Plan portals to submit therapy authorizations, clinIQ surfaces payer requirements in advance and populates auth requests from existing patient records. That recaptured time — 13 to 15 hours per week on average — goes back to patient-facing work without requiring additional hires.\n\nRTM billing support gives Hawaii's physical therapy, orthopedic, and behavioral health practices a revenue pathway that doesn't require additional visits or clinical overhead. At 100 patients enrolled in RTM, a Hawaii practice generates approximately $144,000 per year in additional revenue. Given Hawaii's high operating costs and the revenue pressure that creates for independent practices, RTM is one of the few scalable margin improvements available without capital investment."
+    },
+    {
+      "id": "rtm",
+      "h2": "RTM Revenue Opportunity in Hawaii",
+      "content": "Remote Therapeutic Monitoring under CPT codes 98975 through 98981 allows physical therapists, orthopedic surgeons, pain management physicians, and behavioral health providers to bill Medicare for between-visit monitoring of therapy adherence and patient-reported outcomes. Unlike Remote Patient Monitoring, RTM requires no wearable devices and no physiologic data transmission — the billing is based on patient-reported engagement data and clinical time spent reviewing it. This makes RTM accessible to any qualifying specialty practice with a consistent therapy or chronic condition caseload.\n\nHawaii's geographic reality creates a natural fit for RTM. Patients discharged from orthopedic surgery or a physical therapy episode who live on Maui, Kauai, or the Hilo side of the Big Island face real barriers to in-person follow-up. RTM lets those patients remain engaged with their clinical team between visits through structured check-ins monitored by the practice, improving outcomes and generating reimbursable clinical touchpoints. For behavioral health practices managing anxiety, depression, and substance use disorders across the Neighbor Islands — where in-person visit frequency is constrained by travel — RTM's patient-reported outcomes framework supports continuous care.\n\nAt the standard Medicare RTM billing rate, a Hawaii practice enrolling 100 patients generates approximately $144,000 annually. clinIQ automates the enrollment process, tracks the 16-day minimum monthly monitoring requirement, and generates audit-ready documentation for each billing period, making RTM operationally feasible even for small Neighbor Island clinics without dedicated billing staff."
+    }
+  ],
+  "cta": {
+    "headline": "Ready to transform your Hawaii practice?",
+    "body": "Join clinics across Hawaii using clinIQ to reduce check-in friction, automate prior auth, and capture RTM revenue across every island."
+  }
+}
