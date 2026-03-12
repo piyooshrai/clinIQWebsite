@@ -117,6 +117,62 @@ const resources: ResourceItem[] = [
     description:
       'The documentation, timing, and language that reverses prior auth denials. Peer-to-peer review protocols, appeal scripts, and payer-specific timing rules.',
   },
+  {
+    slug: 'rtm-revenue-workbook',
+    type: 'Calculator',
+    title: 'RTM Revenue Projection Workbook',
+    description:
+      'Project your RTM billing revenue by specialty, enrollment rate, and payer mix. See monthly and annual estimates across all billable CPT codes.',
+  },
+  {
+    slug: 'rtm-code-reference',
+    type: 'Reference',
+    title: 'RTM Billing Code Reference Card',
+    description:
+      'Quick-reference card for all RTM CPT codes — descriptions, 2025 Medicare rates, documentation requirements, and billing rules for each code.',
+  },
+  {
+    slug: 'fqhc-efficiency-checklist',
+    type: 'Checklist',
+    title: 'FQHC Operations Efficiency Checklist',
+    description:
+      '20-point checklist covering UDS reporting readiness, sliding-fee schedule accuracy, grant compliance documentation, and operational throughput for community health centers.',
+  },
+  {
+    slug: 'clinic-tech-audit',
+    type: 'Checklist',
+    title: 'Clinic Technology Stack Audit',
+    description:
+      'Evaluate your current EHR, scheduling, check-in, billing, and patient engagement tools. Identify gaps, redundancies, and integration opportunities.',
+  },
+  {
+    slug: 'pre-auth-denial-analysis',
+    type: 'Template',
+    title: 'Pre-Auth Denial Analysis Template',
+    description:
+      'Track denial patterns by payer, procedure, and denial reason. Identify which submissions fail and why — then systematically fix first-pass rates.',
+  },
+  {
+    slug: 'value-based-care-scorecard',
+    type: 'Assessment',
+    title: 'Value-Based Care Readiness Scorecard',
+    description:
+      'Score your practice across 5 VBC domains: data infrastructure, care coordination, quality measurement, patient engagement, and financial risk tolerance.',
+  },
+  {
+    slug: 'ehr-readiness-assessment',
+    type: 'Assessment',
+    title: 'EHR Integration Readiness Assessment',
+    description:
+      'Assess your EHR environment before adding new tools. Covers API access, data quality, staff adoption, and integration complexity across 12 readiness factors.',
+  },
+  {
+    slug: 'operations-maturity-model',
+    type: 'Assessment',
+    title: 'Clinic Operations Maturity Model',
+    description:
+      'Benchmark your clinic operations across 5 domains. Get a maturity score, identify your highest-leverage improvement areas, and receive a prioritized action plan.',
+  },
 ]
 
 export default function ResourcesPage() {
