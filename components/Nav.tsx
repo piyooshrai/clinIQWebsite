@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import styles from './Nav.module.css'
 import LanguageSwitcher from './LanguageSwitcher'
+import { trackNavClick } from '@/lib/analytics'
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -275,13 +276,22 @@ function GroupedDropdown({ groups }: { groups: NavGroup[] }) {
         <div key={group.heading} className={styles.group}>
           <div className={styles.groupHeading}>{group.heading}</div>
           {group.links.map((link) => (
-            <Link key={link.href} href={link.href} className={styles.dropdownLink}>
+            <Link
+              key={link.href}
+              href={link.href}
+              className={styles.dropdownLink}
+              onClick={() => trackNavClick(group.heading, link.label)}
+            >
               <span className={styles.dropdownLabel}>{link.label}</span>
               {link.desc && <span className={styles.dropdownDesc}>{link.desc}</span>}
             </Link>
           ))}
           {group.viewAll && (
-            <Link href={group.viewAll.href} className={styles.viewAll}>
+            <Link
+              href={group.viewAll.href}
+              className={styles.viewAll}
+              onClick={() => trackNavClick(group.heading, group.viewAll!.label)}
+            >
               {group.viewAll.label}
             </Link>
           )}

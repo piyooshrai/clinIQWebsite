@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Instrument_Serif } from 'next/font/google'
 import './globals.css'
+import GoogleAnalytics from '@/components/GoogleAnalytics'
 
 const instrumentSerif = Instrument_Serif({
   subsets: ['latin'],
@@ -83,6 +84,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={instrumentSerif.variable}>
       <body>
+        <GoogleAnalytics />
         <a href="#main-content" className="skip-link">Skip to main content</a>
         {children}
       </body>

@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import styles from './ContactForm.module.css'
+import { trackContactSubmit } from '@/lib/analytics'
 
 const SUBJECTS = [
   'General Question',
@@ -83,6 +84,7 @@ export default function ContactForm() {
           message,
         }),
       })
+      trackContactSubmit(subject)
       setSubmitted(true)
     } catch {
       setError('Something went wrong. Please try again.')

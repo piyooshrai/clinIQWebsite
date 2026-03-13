@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import styles from './ResourceForm.module.css'
 import contentStyles from './ResourceContent.module.css'
+import { trackResourceUnlock } from '@/lib/analytics'
 
 export interface FormField {
   name: string
@@ -69,6 +70,7 @@ export default function ResourceForm({
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ resourceSlug, resourceTitle, ...values }),
       })
+      trackResourceUnlock(resourceSlug, values as Record<string, string>)
       setSubmitted(true)
     } catch {
       setError('Something went wrong. Please try again.')

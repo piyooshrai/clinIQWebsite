@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import styles from './DemoForm.module.css'
+import { trackDemoRequest } from '@/lib/analytics'
 
 const SPECIALTIES = [
   'Physical Therapy',
@@ -117,6 +118,7 @@ export default function DemoForm() {
           message,
         }),
       })
+      trackDemoRequest(specialty, providers)
       setSubmitted(true)
     } catch {
       setError('Something went wrong. Please try again.')
