@@ -68,6 +68,9 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  verification: {
+    google: 'W7O04qklGpLYj9BkwT-skx9gc5A-ZDyigBBnQ6vp5fw',
+  },
   alternates: {
     canonical: 'https://cliniqhealthcare.com',
   },
