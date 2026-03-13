@@ -4,18 +4,10 @@
 User-agent: *
 Allow: /
 
-# Sitemaps
+# Sitemap
 Sitemap: https://cliniqhealthcare.com/sitemap.xml
-Sitemap: https://cliniqhealthcare.com/sitemap-specialties.xml
-Sitemap: https://cliniqhealthcare.com/sitemap-features.xml
-Sitemap: https://cliniqhealthcare.com/sitemap-compare.xml
-Sitemap: https://cliniqhealthcare.com/sitemap-locations.xml
-Sitemap: https://cliniqhealthcare.com/sitemap-markets.xml
 
 # Disallow admin/api routes
 Disallow: /api/
 Disallow: /_next/
 Disallow: /admin/
-
-# Crawl-delay for politeness
-Crawl-delay: 1

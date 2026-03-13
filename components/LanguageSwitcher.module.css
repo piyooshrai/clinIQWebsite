@@ -3,7 +3,7 @@
   align-items: center;
   align-self: center;
   gap: 0.3rem;
-  padding: 0.375rem 0.625rem;
+  padding: 0.5rem 0.75rem;
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.05em;
@@ -24,7 +24,7 @@
 
 /* Slightly more compact variant used inside NavInner */
 .btnInner {
-  padding: 0.325rem 0.55rem;
+  padding: 0.5rem 0.65rem;
   font-size: 0.7rem;
 }
 
