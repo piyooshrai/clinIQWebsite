@@ -512,7 +512,6 @@ export default function Nav() {
 
           <div className={styles.cta}>
             <LanguageSwitcher />
-            <Link href="/login" className={`${styles.btnGhost} ${styles.desktopOnly}`}>Sign In</Link>
             <Link href="/demo" className={`${styles.btnPrimary} ${styles.desktopOnly}`}>Request Demo</Link>
             <button
               className={styles.hamburger}
@@ -555,7 +554,6 @@ export default function Nav() {
             <Link href="/demo" className="btn-inner btn-inner-lg btn-inner-primary" onClick={closeMobile}>
               Request Demo
             </Link>
-            <Link href="/login" className={styles.mobileLogin} onClick={closeMobile}>Sign In</Link>
             <LanguageSwitcher />
           </div>
         </div>
