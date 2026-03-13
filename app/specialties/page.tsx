@@ -10,6 +10,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://cliniqhealthcare.com/specialties',
   },
+  openGraph: {
+    title: 'Specialties — clinIQ Clinic Operations by Specialty',
+    description: 'clinIQ adapts to the operational and billing workflows of every specialty. Physical therapy, orthopedics, pain management, behavioral health, primary care, urgent care, and more.',
+    type: 'website',
+    url: 'https://cliniqhealthcare.com/specialties',
+    images: [{ url: '/og-specialty-template.png', width: 1200, height: 630, alt: 'clinIQ by Specialty' }],
+  },
 }
 
 const breadcrumbSchema = {

@@ -15,6 +15,7 @@ export const metadata: Metadata = {
       'clinIQ is the operational layer between your EHR and daily clinic operations. Patient flow, check-in, RTM billing, pre-authorization, scheduling, messaging, and analytics — unified.',
     type: 'website',
     url: 'https://cliniqhealthcare.com/about',
+    images: [{ url: '/og-about.png', width: 1200, height: 630, alt: 'About clinIQ' }],
   },
 }
 

@@ -10,6 +10,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://cliniqhealthcare.com/features',
   },
+  openGraph: {
+    title: 'Platform Features — clinIQ Clinic Operations',
+    description: "clinIQ's 12 integrated modules: real-time patient flow, digital check-in, RTM billing, pre-authorization, scheduling, telehealth, secure messaging, analytics, and more.",
+    type: 'website',
+    url: 'https://cliniqhealthcare.com/features',
+    images: [{ url: '/og-default.png', width: 1200, height: 630, alt: 'clinIQ Platform Features' }],
+  },
 }
 
 const breadcrumbSchema = {

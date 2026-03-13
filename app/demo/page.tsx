@@ -16,6 +16,7 @@ export const metadata: Metadata = {
       'See clinIQ in 15 minutes. We\'ll configure it for your specialty. Patient flow, RTM billing, pre-authorization, digital check-in — live in your workflow.',
     type: 'website',
     url: 'https://cliniqhealthcare.com/demo',
+    images: [{ url: '/og-demo.png', width: 1200, height: 630, alt: 'Request a Demo — clinIQ' }],
   },
 }
 

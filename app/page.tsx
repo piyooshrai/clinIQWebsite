@@ -31,6 +31,7 @@ export const metadata: Metadata = {
     url: 'https://cliniqhealthcare.com',
     siteName: 'clinIQ',
     type: 'website',
+    images: [{ url: '/og-homepage.png', width: 1200, height: 630, alt: 'clinIQ – Clinic Operations Platform' }],
   },
   alternates: {
     canonical: 'https://cliniqhealthcare.com',

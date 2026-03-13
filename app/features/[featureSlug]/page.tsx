@@ -43,6 +43,12 @@ export async function generateMetadata({
   if (!data) return {}
   const pillarWithDate = data as unknown as { publishDate?: string }
   const url = `https://cliniqhealthcare.com/features/${params.featureSlug}`
+  const ogImageMap: Record<string, string> = {
+    'check-in': '/og-patient-check-in.png',
+    'rtm': '/og-rtm-billing.png',
+    'pre-auth': '/og-pre-authorization.png',
+  }
+  const ogImage = ogImageMap[params.featureSlug] ?? '/og-default.png'
   return {
     title: data.meta.title,
     description: data.meta.description,
@@ -53,6 +59,7 @@ export async function generateMetadata({
       description: data.meta.description,
       type: 'article',
       url,
+      images: [{ url: ogImage, width: 1200, height: 630 }],
       ...(pillarWithDate.publishDate ? { publishedTime: pillarWithDate.publishDate } : {}),
     },
   }

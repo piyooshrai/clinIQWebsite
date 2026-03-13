@@ -11,6 +11,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://cliniqhealthcare.com/compare',
   },
+  openGraph: {
+    title: 'clinIQ vs Competitors — Full Comparison Hub',
+    description: 'How clinIQ compares to Phreesia, Clearwave, Athenahealth, eClinicalWorks, Prevounce, TimeDoc, and more.',
+    type: 'website',
+    url: 'https://cliniqhealthcare.com/compare',
+    images: [{ url: '/og-compare-template.png', width: 1200, height: 630, alt: 'clinIQ vs Competitors' }],
+  },
 }
 
 const breadcrumbSchema = {

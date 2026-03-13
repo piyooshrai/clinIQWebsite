@@ -42,7 +42,7 @@ export const metadata: Metadata = {
       'Patient check-in, RTM billing, patient flow, and pre-authorization for specialty clinics.',
     images: [
       {
-        url: '/og-image.png',
+        url: '/og-homepage.png',
         width: 1200,
         height: 630,
         alt: 'clinIQ - Clinic Operations Platform',
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     title: 'clinIQ - Clinic Operations Platform',
     description:
       'Patient check-in, RTM billing, patient flow, and pre-authorization for specialty clinics.',
-    images: ['/og-image.png'],
+    images: ['/og-homepage.png'],
     creator: '@clinaborates',
   },
   robots: {
