@@ -101,7 +101,7 @@ IMPORTANT: Keep ALL responses to exactly 1-2 sentences. Talk like a real human, 
 
 Mention specific outcomes when relevant, like "22% wait time reduction in the first month." Subtly show how clinIQ solves problems existing EHRs and schedulers miss.
 
-For pricing or detailed demos, guide them to request a demo or contact sales at info@the-algo.com.${
+For pricing or detailed demos, tell them to email info@the-algo.com to request a demo. Don't say "head over to" or "visit" - it's an email address.${
       visitorName ? ` The visitor's name is ${visitorName}.` : ''
     }`
 
