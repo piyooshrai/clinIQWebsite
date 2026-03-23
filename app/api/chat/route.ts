@@ -112,15 +112,6 @@ Keep responses brief and conversational. If asked about pricing or detailed demo
       visitorName ? ` The visitor's name is ${visitorName}.` : ''
     }`
 
-    // ─── STREAM RESPONSE ────────────────────────────────────────────────────
-
-    const stream = anthropic.messages.stream({
-      model: 'claude-3-5-haiku-20241022',
-      max_tokens: 300,
-      system: systemPrompt,
-      messages: messages,
-    })
-
     // ─── CREATE SSE STREAM ──────────────────────────────────────────────────
 
     const encoder = new TextEncoder()
@@ -129,6 +120,13 @@ Keep responses brief and conversational. If asked about pricing or detailed demo
       new ReadableStream({
         async start(controller) {
           try {
+            const stream = anthropic.messages.stream({
+              model: 'claude-haiku-4-5-20251001',
+              max_tokens: 300,
+              system: systemPrompt,
+              messages: messages,
+            })
+
             for await (const chunk of stream) {
               if (
                 chunk.type === 'content_block_delta' &&
