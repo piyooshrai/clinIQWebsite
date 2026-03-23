@@ -197,6 +197,9 @@ export default function ChatWidget() {
   const [isTyping, setIsTyping] = useState(false)
   const [intentOverride, setIntentOverride] = useState('')
   const [emailError, setEmailError] = useState('')
+  const [typingMessage, setTypingMessage] = useState('')
+  const typeQueueRef = useRef<string>('')
+  const typeTimerRef = useRef<NodeJS.Timeout | null>(null)
   const messagesEndRef = useRef<HTMLDivElement>(null)
 
   // Disable on /contact and /demo pages
@@ -384,10 +387,29 @@ export default function ChatWidget() {
         }
       }
 
-      setMessages((prev) => [
-        ...prev,
-        { role: 'assistant', content: assistantMessage },
-      ])
+      // Queue the message for typewriter effect
+      typeQueueRef.current = assistantMessage
+      setTypingMessage('')
+
+      // Start typewriter timer: drain 2 chars every 50ms
+      if (typeTimerRef.current) clearInterval(typeTimerRef.current)
+      typeTimerRef.current = setInterval(() => {
+        if (typeQueueRef.current.length === 0) {
+          clearInterval(typeTimerRef.current!)
+          typeTimerRef.current = null
+          // Message is complete, add to messages
+          setMessages((prev) => [
+            ...prev,
+            { role: 'assistant', content: assistantMessage },
+          ])
+          setTypingMessage('')
+          return
+        }
+        const take = Math.min(2, typeQueueRef.current.length)
+        const chars = typeQueueRef.current.slice(0, take)
+        typeQueueRef.current = typeQueueRef.current.slice(take)
+        setTypingMessage((prev) => prev + chars)
+      }, 50)
     } catch (error) {
       console.error('Streaming error:', error)
       setMessages((prev) => [
@@ -589,7 +611,7 @@ export default function ChatWidget() {
           </div>
         ))}
 
-        {isTyping && (
+        {isTyping && !typingMessage && (
           <div className={`${styles.messageRow}`}>
             <div className={styles.messageAvatar}>
               <Image
@@ -603,6 +625,23 @@ export default function ChatWidget() {
               <div className={styles.typingDot} />
               <div className={styles.typingDot} />
               <div className={styles.typingDot} />
+            </div>
+          </div>
+        )}
+
+        {typingMessage && (
+          <div className={`${styles.messageRow}`}>
+            <div className={styles.messageAvatar}>
+              <Image
+                src={persona.img}
+                alt={persona.name}
+                width={26}
+                height={26}
+              />
+            </div>
+            <div className={styles.messageBubble + ' ' + styles.messageBubbleAssistant}>
+              {typingMessage}
+              <span className={styles.streamingCursor} />
             </div>
           </div>
         )}
