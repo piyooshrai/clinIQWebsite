@@ -231,10 +231,6 @@ export default function ChatWidget() {
       setVisitorName(firstName)
       setMessages([
         { role: 'user', content: userMessage },
-        {
-          role: 'assistant',
-          content: persona!.greeting,
-        },
       ])
       setPhase('chat')
       return
