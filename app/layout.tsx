@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import { Instrument_Serif } from 'next/font/google'
 import './globals.css'
 import GoogleAnalytics from '@/components/GoogleAnalytics'
+import ChatWidget from '@/components/ChatWidget'
 
 const instrumentSerif = Instrument_Serif({
   subsets: ['latin'],
@@ -91,6 +92,7 @@ export default function RootLayout({
     <html lang="en" className={instrumentSerif.variable}>
       <body>
         <GoogleAnalytics />
+        <ChatWidget />
         <a href="#main-content" className="skip-link">Skip to main content</a>
         {children}
       </body>
