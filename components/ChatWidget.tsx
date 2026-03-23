@@ -230,6 +230,7 @@ export default function ChatWidget() {
       const firstName = userMessage.split(' ')[0]
       setVisitorName(firstName)
       setMessages([
+        { role: 'user', content: userMessage },
         {
           role: 'assistant',
           content: persona!.greeting,
