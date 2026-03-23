@@ -233,6 +233,10 @@ export default function ChatWidget() {
         { role: 'user', content: userMessage },
       ])
       setPhase('chat')
+      // Immediately fetch greeting response
+      await streamResponse([
+        { role: 'user', content: userMessage },
+      ])
       return
     }
 
