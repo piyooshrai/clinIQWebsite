@@ -249,7 +249,7 @@ export default function ChatWidget() {
           {
             role: 'assistant',
             content:
-              'I am going to end this conversation here. If you would like to speak with Cliniq professionally, reach out at info@the-algo.com.',
+              'I am going to end this conversation here. If you would like to speak with clinIQ professionally, reach out at info@the-algo.com.',
           },
         ])
         setPhase('ended')
@@ -261,7 +261,7 @@ export default function ChatWidget() {
           {
             role: 'assistant',
             content:
-              'I am going to end this conversation here. If you would like to speak with Cliniq professionally, reach out at info@the-algo.com.',
+              'I am going to end this conversation here. If you would like to speak with clinIQ professionally, reach out at info@the-algo.com.',
           },
         ], 'abuse')
 
@@ -667,7 +667,7 @@ export default function ChatWidget() {
 
       {/* FOOTER */}
       <div className={styles.footer}>
-        Cliniq · Clinic operations · all timezones
+        clinIQ · Clinic operations · all timezones
       </div>
     </div>
   )
