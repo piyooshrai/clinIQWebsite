@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RTM Readiness Checklist — clinIQ Healthcare</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --teal-deep: #0D4F4F;
+    --teal-mid: #1A6B6B;
+    --teal-accent: #2DD4BF;
+    --teal-light: #E6F7F6;
+    --white: #FFFFFF;
+    --gray-light: #F5F5F5;
+    --gray-mid: #E0E0E0;
+    --gray-text: #5A6B6B;
+    --text-dark: #0A1F1F;
+    --green: #1A6B1A;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'DM Sans', sans-serif; background: #E8ECEC; color: var(--text-dark); font-size: 10.5pt; line-height: 1.6; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  .page { width: 8.5in; min-height: 11in; margin: 0.4in auto 0.6in; background: var(--white); display: flex; flex-direction: column; box-shadow: 0 4px 40px rgba(0,0,0,0.18); overflow: hidden; page-break-after: always; }
+
+  .header { background: var(--teal-deep); padding: 22px 48px; display: flex; justify-content: space-between; align-items: center; flex-shrink: 0; }
+  .logo { font-family: 'DM Sans', sans-serif; font-weight: 700; font-size: 22px; color: var(--white); letter-spacing: -0.5px; }
+  .logo span { color: var(--teal-accent); }
+  .header-label { font-size: 9px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,0.55); }
+
+  .hero-band { background: linear-gradient(135deg, var(--teal-deep) 0%, var(--teal-mid) 100%); padding: 36px 48px 30px; position: relative; overflow: hidden; flex-shrink: 0; }
+  .hero-band::before { content: ''; position: absolute; top: -60px; right: -60px; width: 260px; height: 260px; border-radius: 50%; border: 55px solid rgba(45,212,191,0.08); }
+  .hero-band::after { content: ''; position: absolute; bottom: -30px; right: 100px; width: 140px; height: 140px; border-radius: 50%; border: 35px solid rgba(45,212,191,0.06); }
+  .tag { display: inline-block; background: rgba(45,212,191,0.18); color: var(--teal-accent); font-size: 9px; font-weight: 700; letter-spacing: 2.5px; text-transform: uppercase; padding: 5px 14px; border-radius: 3px; margin-bottom: 14px; border: 1px solid rgba(45,212,191,0.3); }
+  .hero-title { font-family: 'DM Serif Display', serif; font-size: 26px; color: var(--white); line-height: 1.25; max-width: 580px; margin-bottom: 10px; letter-spacing: -0.3px; }
+  .hero-subtitle { font-size: 10px; color: rgba(255,255,255,0.55); font-weight: 400; letter-spacing: 0.5px; }
+
+  .content { flex: 1; padding: 30px 48px 24px; }
+  .section-headline { font-family: 'DM Serif Display', serif; font-size: 19px; color: var(--teal-deep); line-height: 1.25; margin-bottom: 6px; }
+  .section-deck { font-size: 10pt; color: var(--gray-text); margin-bottom: 22px; line-height: 1.6; }
+
+  .checklist-items { display: flex; flex-direction: column; gap: 10px; }
+  .check-card { display: grid; grid-template-columns: 52px 1fr; border: 1px solid var(--gray-mid); border-radius: 8px; overflow: hidden; }
+  .check-num-col { background: var(--teal-deep); display: flex; flex-direction: column; align-items: center; justify-content: flex-start; padding: 14px 8px 10px; gap: 6px; }
+  .check-num-badge { font-family: 'DM Serif Display', serif; font-size: 22px; color: var(--teal-accent); line-height: 1; }
+  .check-icon { font-size: 14px; line-height: 1; color: rgba(255,255,255,0.35); }
+  .check-body { padding: 12px 16px 12px 18px; background: var(--gray-light); }
+  .check-title { font-size: 9.5pt; font-weight: 700; color: var(--teal-deep); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px; }
+  .check-bullets { display: grid; grid-template-columns: 1fr 1fr; gap: 3px 20px; list-style: none; }
+  .check-bullets li { font-size: 8.8pt; color: var(--gray-text); padding-left: 12px; position: relative; line-height: 1.5; }
+  .check-bullets li::before { content: '→'; position: absolute; left: 0; color: var(--teal-accent); font-size: 9pt; }
+  .check-bullets li strong { color: var(--text-dark); font-weight: 600; }
+  .hp { display: inline-block; background: var(--teal-light); color: var(--teal-deep); font-size: 7.5pt; font-weight: 700; padding: 1px 7px; border-radius: 3px; margin-left: 2px; border: 1px solid rgba(45,212,191,0.3); }
+  .mc { font-family: 'DM Sans', monospace; font-weight: 700; color: var(--teal-deep); font-size: 8.5pt; }
+  .bn { display: inline-block; background: var(--teal-accent); color: var(--teal-deep); font-size: 7px; font-weight: 800; letter-spacing: 1px; padding: 2px 6px; border-radius: 2px; text-transform: uppercase; }
+
+  .footer { background: var(--teal-deep); padding: 11px 48px; display: flex; justify-content: space-between; align-items: center; flex-shrink: 0; margin-top: auto; }
+  .footer-text { font-size: 8.5px; color: rgba(255,255,255,0.5); letter-spacing: 0.5px; }
+  .footer-page { font-size: 8.5px; color: rgba(255,255,255,0.4); font-weight: 600; }
+
+  /* PAGE 2 */
+  .revenue-headline { font-family: 'DM Serif Display', serif; font-size: 20px; color: var(--teal-deep); margin-bottom: 6px; }
+  .revenue-deck { font-size: 10pt; color: var(--gray-text); margin-bottom: 18px; line-height: 1.6; }
+
+  .scenario-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin-bottom: 18px; }
+  .scenario-card { border-radius: 10px; overflow: hidden; border: 1px solid var(--gray-mid); }
+  .scenario-header { background: var(--teal-deep); padding: 11px 16px 9px; text-align: center; }
+  .scenario-label { font-size: 8px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,0.5); margin-bottom: 3px; }
+  .scenario-patients { font-family: 'DM Serif Display', serif; font-size: 26px; color: var(--teal-accent); line-height: 1; }
+  .scenario-patients-label { font-size: 8.5pt; color: rgba(255,255,255,0.6); }
+  .scenario-body { background: var(--white); padding: 12px 16px; }
+  .scenario-metric { display: flex; justify-content: space-between; align-items: baseline; padding: 4px 0; border-bottom: 1px solid var(--gray-mid); }
+  .scenario-metric:last-child { border-bottom: none; }
+  .s-label { font-size: 8.5pt; color: var(--gray-text); }
+  .s-val { font-weight: 700; font-size: 9.5pt; }
+  .s-val.g { color: var(--green); }
+  .s-val.a { color: var(--teal-mid); }
+
+  .divider { height: 1px; background: linear-gradient(90deg, var(--teal-accent), transparent); margin: 16px 0; opacity: 0.35; }
+
+  /* ── CALCULATOR ── */
+  .calc-section { background: var(--gray-light); border: 1px solid var(--gray-mid); border-radius: 10px; padding: 20px 22px 18px; margin-bottom: 16px; }
+  .calc-title { font-family: 'DM Serif Display', serif; font-size: 16px; color: var(--teal-deep); margin-bottom: 3px; }
+  .calc-subtitle { font-size: 9pt; color: var(--gray-text); margin-bottom: 16px; }
+  .calc-layout { display: grid; grid-template-columns: 200px 1fr; gap: 20px; align-items: start; }
+
+  .calc-input-label { display: block; font-size: 8pt; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--teal-deep); margin-bottom: 6px; }
+  .calc-input-field {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--teal-deep);
+    background: var(--white);
+    border: 2px solid var(--teal-accent);
+    border-radius: 6px;
+    padding: 10px 14px;
+    width: 100%;
+    outline: none;
+    transition: border-color 0.15s, box-shadow 0.15s;
+    -moz-appearance: textfield;
+  }
+  .calc-input-field::-webkit-inner-spin-button,
+  .calc-input-field::-webkit-outer-spin-button { -webkit-appearance: none; }
+  .calc-input-field:focus { border-color: var(--teal-deep); box-shadow: 0 0 0 3px rgba(45,212,191,0.2); }
+  .calc-input-hint { font-size: 7.5pt; color: #aaa; font-style: italic; margin-top: 6px; }
+
+  .calc-out-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-bottom: 10px; }
+  .calc-out-card { background: var(--white); border: 1px solid var(--gray-mid); border-radius: 8px; padding: 13px 14px 11px; position: relative; overflow: hidden; }
+  .calc-out-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--teal-accent); }
+  .calc-out-card.fte::before { background: var(--teal-mid); }
+  .calc-out-label { font-size: 7.5pt; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--gray-text); margin-bottom: 5px; }
+  .calc-out-value { font-family: 'DM Serif Display', serif; font-size: 22px; color: var(--green); line-height: 1; transition: color 0.15s; }
+  .calc-out-card.fte .calc-out-value { color: var(--teal-deep); font-size: 20px; }
+  .calc-out-formula { font-size: 7.5pt; color: #bbb; font-style: italic; margin-top: 3px; }
+
+  .fte-context { background: var(--teal-light); border: 1px solid rgba(45,212,191,0.3); border-radius: 6px; padding: 7px 13px; font-size: 8pt; color: var(--teal-deep); display: none; }
+  .fte-context strong { font-weight: 700; }
+
+  .table-note { font-size: 7.8pt; color: #999; font-style: italic; line-height: 1.5; margin-bottom: 16px; }
+
+  .cta-box { background: var(--teal-accent); border-radius: 10px; padding: 22px 36px; text-align: center; position: relative; overflow: hidden; }
+  .cta-box::before { content: ''; position: absolute; top: -30px; right: -30px; width: 120px; height: 120px; border-radius: 50%; background: rgba(255,255,255,0.12); }
+  .cta-box::after { content: ''; position: absolute; bottom: -20px; left: 20px; width: 80px; height: 80px; border-radius: 50%; background: rgba(255,255,255,0.08); }
+  .cta-eyebrow { font-size: 9px; font-weight: 700; letter-spacing: 2.5px; text-transform: uppercase; color: var(--teal-deep); opacity: 0.65; margin-bottom: 8px; }
+  .cta-headline { font-family: 'DM Serif Display', serif; font-size: 18px; color: var(--teal-deep); line-height: 1.3; margin-bottom: 7px; max-width: 500px; margin-left: auto; margin-right: auto; }
+  .cta-sub { font-size: 10pt; color: var(--teal-deep); opacity: 0.8; margin-bottom: 14px; line-height: 1.5; }
+  .cta-url { display: inline-block; background: var(--teal-deep); color: var(--white); font-weight: 700; font-size: 10.5pt; padding: 11px 28px; border-radius: 5px; text-decoration: none; position: relative; z-index: 1; }
+  .cta-note { font-size: 8.5pt; color: var(--teal-deep); opacity: 0.55; margin-top: 10px; font-style: italic; }
+
+  @media print {
+    body { background: white; }
+    .page { margin: 0; box-shadow: none; width: 100%; }
+    @page { margin: 0; size: letter; }
+    .calc-input-field { border: 2px solid var(--teal-accent) !important; }
+  }
+</style>
+</head>
+<body>
+
+<!-- PAGE 1 -->
+<div class="page">
+  <div class="header">
+    <div class="logo">clin<span>IQ</span></div>
+    <div class="header-label">RTM Readiness Guide</div>
+  </div>
+  <div class="hero-band">
+    <div class="tag">RTM Readiness Checklist</div>
+    <div class="hero-title">RTM Readiness Checklist: 5 Things Your Clinic Needs Before Launching Remote Therapeutic Monitoring</div>
+    <div class="hero-subtitle">A clinIQ Healthcare Guide &nbsp;|&nbsp; 2026 Edition</div>
+  </div>
+  <div class="content">
+    <div class="section-headline">5 Things That Determine Whether RTM Generates Revenue or Just Creates More Admin Work</div>
+    <div class="section-deck">Before you enroll your first patient, these five infrastructure decisions will determine everything. Get them right, and RTM becomes a compounding revenue line. Get them wrong, and it becomes a compliance burden that costs more than it generates.</div>
+    <div class="checklist-items">
+      <div class="check-card">
+        <div class="check-num-col"><div class="check-num-badge">1</div><div class="check-icon">👥</div></div>
+        <div class="check-body">
+          <div class="check-title">Eligible Patient Volume</div>
+          <ul class="check-bullets">
+            <li>Qualifying conditions: <strong>MSK, respiratory, cognitive behavioral, medication adherence</strong></li>
+            <li>Minimum viable cohort: <strong>50+ eligible patients</strong> to justify program setup overhead</li>
+            <li>Quick filter: chronic MSK conditions, COPD, asthma, post-surgical rehab patients</li>
+            <li>Run a panel audit before launch — most clinics underestimate eligible volume by 30–40%</li>
+          </ul>
+        </div>
+      </div>
+      <div class="check-card">
+        <div class="check-num-col"><div class="check-num-badge">2</div><div class="check-icon">📡</div></div>
+        <div class="check-body">
+          <div class="check-title">Device &amp; Platform Selection</div>
+          <ul class="check-bullets">
+            <li><strong>FDA-cleared devices required</strong> for all RTM billing — non-cleared devices void claims</li>
+            <li>Must integrate with your EHR for seamless, auditable data flow</li>
+            <li>Patient compliance rates vary <strong>40–80%</strong> depending on device complexity</li>
+            <li>clinIQ supports <strong>20+ device types</strong> with auto-enrollment workflows built in</li>
+          </ul>
+        </div>
+      </div>
+      <div class="check-card">
+        <div class="check-num-col"><div class="check-num-badge">3</div><div class="check-icon">💰</div></div>
+        <div class="check-body">
+          <div class="check-title">Billing Infrastructure</div>
+          <ul class="check-bullets">
+            <li><span class="mc">98975</span> setup <span class="hp">$22.00</span> &nbsp; <span class="mc">98976</span> respiratory <span class="hp">$52.00</span> &nbsp; <span class="mc">98977</span> MSK <span class="hp">$51.44</span></li>
+            <li><span class="mc">98980</span> treatment mgmt first 20 min <span class="hp">$52.23</span> &nbsp; <span class="mc">98981</span> each add'l <span class="hp">$41–$42.42</span></li>
+            <li><span class="mc">98985 / 98979</span> <span class="bn">2026 NEW</span> &nbsp; 2–15 day periods — expands billable patients by <strong>20–40%</strong></li>
+            <li>Separate RTM revenue tracking from standard E/M billing is essential for ROI visibility</li>
+          </ul>
+        </div>
+      </div>
+      <div class="check-card">
+        <div class="check-num-col"><div class="check-num-badge">4</div><div class="check-icon">⚙️</div></div>
+        <div class="check-body">
+          <div class="check-title">Staff Workflow Design</div>
+          <ul class="check-bullets">
+            <li>Define ownership: <strong>who monitors device alerts?</strong> Clinical vs. admin split must be explicit</li>
+            <li>Assign monthly check-ins: who conducts the 20-min patient management call?</li>
+            <li>Without automation: <strong>45 min/patient/month</strong> — unsustainable at scale</li>
+            <li>With clinIQ automation: <strong>8 min/patient/month</strong> — 82% reduction in staff overhead</li>
+          </ul>
+        </div>
+      </div>
+      <div class="check-card">
+        <div class="check-num-col"><div class="check-num-badge">5</div><div class="check-icon">🔍</div></div>
+        <div class="check-body">
+          <div class="check-title">Payer Coverage Verification</div>
+          <ul class="check-bullets">
+            <li><strong>Medicare covers all RTM codes nationally</strong> — no payer-level verification needed</li>
+            <li>Commercial payer coverage varies significantly by state, plan, and contract year</li>
+            <li>Verify your <strong>top 5 payers before launch</strong> — coverage gaps sink programs mid-cycle</li>
+            <li>Pre-auth requirements differ per payer — automated verification saves <strong>15–45 min per case</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-text">clinIQ Healthcare &nbsp;|&nbsp; cliniqhealthcare.com &nbsp;|&nbsp; © 2026</div>
+    <div class="footer-page">Page 1 of 2</div>
+  </div>
+</div>
+
+
+<!-- PAGE 2 -->
+<div class="page">
+  <div class="header">
+    <div class="logo">clin<span>IQ</span></div>
+    <div class="header-label">RTM Revenue Model</div>
+  </div>
+
+  <div class="content" style="padding-top:28px;">
+    <div class="revenue-headline">Your RTM Revenue Model: Plug In Your Numbers</div>
+    <div class="revenue-deck">Three benchmark scenarios based on 2026 CMS rates — then use the live calculator below to estimate your clinic's specific opportunity.</div>
+
+    <!-- Scenarios -->
+    <div class="scenario-row">
+      <div class="scenario-card">
+        <div class="scenario-header">
+          <div class="scenario-label">Scenario A</div>
+          <div class="scenario-patients">50</div>
+          <div class="scenario-patients-label">RTM Patients</div>
+        </div>
+        <div class="scenario-body">
+          <div class="scenario-metric"><span class="s-label">Monthly Revenue</span><span class="s-val g">~$7,000</span></div>
+          <div class="scenario-metric"><span class="s-label">Annual Revenue</span><span class="s-val g">~$84,000</span></div>
+          <div class="scenario-metric"><span class="s-label">Staff FTE (w/ automation)</span><span class="s-val a">0.3 FTE</span></div>
+        </div>
+      </div>
+      <div class="scenario-card" style="border-color:var(--teal-accent);box-shadow:0 0 0 2px rgba(45,212,191,0.2);">
+        <div class="scenario-header" style="background:var(--teal-mid);">
+          <div class="scenario-label">Scenario B &nbsp;★ Most Common</div>
+          <div class="scenario-patients">150</div>
+          <div class="scenario-patients-label">RTM Patients</div>
+        </div>
+        <div class="scenario-body">
+          <div class="scenario-metric"><span class="s-label">Monthly Revenue</span><span class="s-val g">~$21,000</span></div>
+          <div class="scenario-metric"><span class="s-label">Annual Revenue</span><span class="s-val g">~$252,000</span></div>
+          <div class="scenario-metric"><span class="s-label">Staff FTE (w/ automation)</span><span class="s-val a">0.5 FTE</span></div>
+        </div>
+      </div>
+      <div class="scenario-card">
+        <div class="scenario-header">
+          <div class="scenario-label">Scenario C</div>
+          <div class="scenario-patients">300</div>
+          <div class="scenario-patients-label">RTM Patients</div>
+        </div>
+        <div class="scenario-body">
+          <div class="scenario-metric"><span class="s-label">Monthly Revenue</span><span class="s-val g">~$42,000</span></div>
+          <div class="scenario-metric"><span class="s-label">Annual Revenue</span><span class="s-val g">~$504,000</span></div>
+          <div class="scenario-metric"><span class="s-label">Staff FTE (w/ automation)</span><span class="s-val a">0.8 FTE</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LIVE CALCULATOR -->
+    <div class="calc-section">
+      <div class="calc-title">Estimate Your RTM Opportunity</div>
+      <div class="calc-subtitle">Enter your eligible patient count — revenue and staffing estimates update instantly.</div>
+      <div class="calc-layout">
+
+        <!-- Input -->
+        <div>
+          <label class="calc-input-label" for="rtm-pts">Eligible RTM Patients</label>
+          <input id="rtm-pts" class="calc-input-field" type="number" min="0" max="9999" placeholder="0" inputmode="numeric" aria-label="Number of eligible RTM patients">
+          <div class="calc-input-hint">Enter your estimated eligible panel size</div>
+        </div>
+
+        <!-- Outputs -->
+        <div>
+          <div class="calc-out-grid">
+            <div class="calc-out-card">
+              <div class="calc-out-label">Monthly Revenue</div>
+              <div class="calc-out-value" id="out-mo">—</div>
+              <div class="calc-out-formula">patients × $140</div>
+            </div>
+            <div class="calc-out-card">
+              <div class="calc-out-label">Annual Revenue</div>
+              <div class="calc-out-value" id="out-yr">—</div>
+              <div class="calc-out-formula">monthly × 12</div>
+            </div>
+            <div class="calc-out-card fte">
+              <div class="calc-out-label">Est. Staff FTE</div>
+              <div class="calc-out-value" id="out-fte">—</div>
+              <div class="calc-out-formula">with clinIQ automation</div>
+            </div>
+          </div>
+          <div class="fte-context" id="fte-ctx"></div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="table-note">Based on average reimbursement of ~$140/patient/month across 98975 + 98977 + 98980 code stack. Actual rates vary by payer mix and region. FTE estimates assume clinIQ automation active. &nbsp;|&nbsp; Source: clinIQ ROI Calculator, 2026.</div>
+
+    <div class="divider"></div>
+
+    <!-- CTA -->
+    <div class="cta-box">
+      <div class="cta-eyebrow">Ready to See Your Numbers?</div>
+      <div class="cta-headline">Want us to run these numbers for your specific payer mix and patient panel?</div>
+      <div class="cta-sub">Book a 15-minute RTM revenue analysis — we'll show you the exact opportunity for your clinic.</div>
+      <a href="https://cliniqhealthcare.com/rtm-analysis" class="cta-url">cliniqhealthcare.com/rtm-analysis</a>
+      <div class="cta-note">No commitment. Just your numbers, your payers, your revenue potential.</div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <div class="footer-text">clinIQ Healthcare &nbsp;|&nbsp; cliniqhealthcare.com &nbsp;|&nbsp; © 2026</div>
+    <div class="footer-page">Page 2 of 2</div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var input  = document.getElementById('rtm-pts');
+  var outMo  = document.getElementById('out-mo');
+  var outYr  = document.getElementById('out-yr');
+  var outFte = document.getElementById('out-fte');
+  var fteCtx = document.getElementById('fte-ctx');
+
+  function dollar(n) {
+    return '$' + Math.round(n).toLocaleString('en-US');
+  }
+
+  function fteData(n) {
+    if (n <= 75)  return { fte: '0.3 FTE', msg: '<strong>Early-stage program (1–75 patients)</strong> — 0.3 FTE is sufficient with clinIQ automation handling monitoring, alerts, and billing prep.' };
+    if (n <= 200) return { fte: '0.5 FTE', msg: '<strong>Growing program (76–200 patients)</strong> — 0.5 FTE with automation covers monthly check-ins and exception handling across your panel.' };
+    return              { fte: '0.8 FTE', msg: '<strong>Scale-stage program (201+ patients)</strong> — 0.8 FTE with automation manages a high-volume RTM program with minimal manual touchpoints.' };
+  }
+
+  function calc() {
+    var raw = parseInt(input.value, 10);
+    var n   = (isNaN(raw) || raw < 0) ? 0 : raw;
+
+    if (n === 0) {
+      outMo.textContent  = '—';
+      outYr.textContent  = '—';
+      outFte.textContent = '—';
+      fteCtx.style.display = 'none';
+      return;
+    }
+
+    var monthly = n * 140;
+    var annual  = monthly * 12;
+    var fte     = fteData(n);
+
+    outMo.textContent  = dollar(monthly);
+    outYr.textContent  = dollar(annual);
+    outFte.textContent = fte.fte;
+    fteCtx.innerHTML   = fte.msg;
+    fteCtx.style.display = 'block';
+  }
+
+  input.addEventListener('input',  calc);
+  input.addEventListener('change', calc);
+})();
+</script>
+</body>
+</html>
