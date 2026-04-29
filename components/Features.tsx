@@ -4,44 +4,44 @@ import styles from './Features.module.css'
 const FEATURES = [
   {
     number: '01',
-    title: 'Patient Check-In',
+    title: 'Digital Patient Check-In System',
     description:
-      'Kiosk, tablet, or phone — no app downloads required. Patients check in, get a queue position, and see their estimated wait. Your front desk stops fielding "how much longer?" all day.',
+      'Kiosk, tablet, or phone-based automated patient intake software that collects everything upfront. No paper. No clipboard. No front desk bottleneck.',
     href: '/features/check-in',
   },
   {
     number: '02',
-    title: 'Real-Time Patient Flow',
+    title: 'Real-Time Patient Queue Management System',
     description:
-      "See every patient's exact stage — waiting, intake, with provider, pending discharge. Room status, provider load, bottleneck alerts. Know what's wrong before patients start leaving.",
+      "Every patient, every stage — waiting, intake, with provider, pending discharge. clinIQ's patient flow software shows you room status, provider load, and bottleneck alerts before patients start walking out.",
     href: '/features/patient-flow',
   },
   {
     number: '03',
-    title: 'RTM Billing',
+    title: 'Built-In RTM Billing Software',
     description:
-      'Remote Therapeutic Monitoring built in. Automatic CPT 98975–98981 tracking and compliance alerts. Clinics adding $120–$150 per qualifying patient per month with zero extra charting.',
+      'Remote Therapeutic Monitoring tracking built directly into your workflow. clinIQ runs CPT 98975–98981 compliance alerts and time tracking without extra charting — clinics add $120–$150 per qualifying patient per month.',
     href: '/features/rtm',
   },
   {
     number: '04',
-    title: 'Pre-Authorization',
+    title: 'Pre-Authorization Automation',
     description:
-      'Smart PA forms that auto-populate from the patient record. Document upload, payer-specific rules, case status tracking. Fewer denials, fewer callbacks, faster treatment starts.',
+      'Smart PA forms auto-populate from the patient record. Pre-authorization automation handles payer-specific rules, document uploads, and case tracking — fewer denials, faster treatment starts.',
     href: '/features/pre-auth',
   },
   {
     number: '05',
-    title: 'Scheduling',
+    title: 'Multi-Provider Healthcare Scheduling Software',
     description:
-      'Multi-provider, multi-location scheduling with online patient booking and automated reminders. Intelligent waitlist fills cancellations automatically — no manual follow-up calls.',
+      'Online booking, automated reminders, and a waitlist that fills cancellations without a single callback call. The healthcare scheduling software your front desk actually wants to use.',
     href: '/features/scheduling',
   },
   {
     number: '06',
-    title: 'Analytics',
+    title: 'Clinic Analytics',
     description:
-      'Wait times, throughput, provider utilization, no-show rates — daily, weekly, monthly. Surface the patterns your EHR never shows you. Fix problems before they compound.',
+      'Wait times, throughput, no-show rates, provider utilization — daily, weekly, monthly. Fix the patterns driving revenue loss before they compound. No-show reduction software built into your operations layer, not bolted on after the fact.',
     href: '/features/analytics',
   },
 ]
@@ -56,8 +56,15 @@ export default function Features() {
             <span className={styles.labelText}>Capabilities</span>
           </div>
           <h2 className={styles.title}>
-            Six tools. One platform. Every patient, start to finish.
+            Six Capabilities. One Clinic Workflow Software That Runs Start to Finish.
           </h2>
+          <p className={styles.intro}>
+            Most clinics run their front desk on guesswork and their billing on hope.
+            clinIQ is the clinic operations platform that replaces both — a single
+            healthcare operations layer sitting on top of your existing EHR, connecting
+            patient intake, flow, revenue, and communication without replacing the
+            systems your providers already know.
+          </p>
         </div>
 
         <div className={styles.grid}>

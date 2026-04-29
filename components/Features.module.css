@@ -44,6 +44,14 @@
   max-width: 800px;
 }
 
+.intro {
+  margin-top: 24px;
+  max-width: 760px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--gray-700);
+}
+
 /* Grid */
 .grid {
   display: grid;

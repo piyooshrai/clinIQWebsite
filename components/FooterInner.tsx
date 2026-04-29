@@ -18,6 +18,20 @@ export default function FooterInner() {
               />
             </Link>
             <p className={styles.footerTagline}>Clinic operations that just work.</p>
+            <ul className={styles.footerContact}>
+              <li>
+                <a href="tel:+17203347249">720.334.7249</a>
+              </li>
+              <li>
+                <a href="mailto:info@cliniqhealthcare.com">info@cliniqhealthcare.com</a>
+              </li>
+              <li>
+                <a href="mailto:sales@cliniqhealthcare.com">sales@cliniqhealthcare.com</a>
+              </li>
+              <li>
+                <a href="mailto:support@cliniqhealthcare.com">support@cliniqhealthcare.com</a>
+              </li>
+            </ul>
           </div>
 
           <div className={styles.footerLinks}>

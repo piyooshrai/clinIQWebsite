@@ -1,38 +1,65 @@
 'use client'
 
+import { useState } from 'react'
 import Link from 'next/link'
 import styles from './Hero.module.css'
 
 export default function Hero() {
+  const [email, setEmail] = useState('')
+  const [practice, setPractice] = useState('')
+  const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle')
+
+  async function onSubmit(e: React.FormEvent) {
+    e.preventDefault()
+    if (!email) return
+    setStatus('sending')
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email,
+          practice,
+          subject: 'Hero quick inquiry',
+          message: `Quick inquiry from homepage hero. Practice: ${practice || 'not provided'}`,
+          formType: 'contact',
+        }),
+      })
+      setStatus(res.ok ? 'sent' : 'error')
+    } catch {
+      setStatus('error')
+    }
+  }
+
   return (
     <section className={styles.hero}>
-      {/* Gradient orbs */}
       <div className={`${styles.orb} ${styles.orb1}`} aria-hidden="true" />
       <div className={`${styles.orb} ${styles.orb2}`} aria-hidden="true" />
       <div className={`${styles.orb} ${styles.orb3}`} aria-hidden="true" />
 
       <div className={styles.layout}>
-        {/* Left: text content */}
         <div className={styles.content}>
           <div className={styles.label}>
             <span className={styles.labelLine} />
-            <span className={styles.labelText}>Clinic Operations Platform</span>
+            <span className={styles.labelText}>Clinic Operations Software</span>
           </div>
 
           <h1 className={styles.title}>
             <span className={styles.titleLine}>
-              <span className={styles.titleWord}>Your clinic,</span>
+              <span className={styles.titleWord}>Patient Flow Software</span>
             </span>
             <span className={styles.titleLine}>
               <span className={styles.titleWord}>
-                finally <em className={styles.titleEm}>under control.</em>
+                Built for <em className={styles.titleEm}>Real Clinics.</em>
               </span>
             </span>
           </h1>
 
           <p className={styles.description}>
-            Real-time patient flow. Automated check-in. RTM billing. Pre-auth.
-            Everything your front desk, providers, and admin need — in one place.
+            clinIQ is the clinic operations platform that brings real-time patient queue
+            management, digital patient check-in, RTM billing, and pre-authorization
+            automation together — sitting on top of your existing EHR. Capture $120–$150
+            per RTM patient monthly. Cut wait times 22% in the first month.
           </p>
 
           <div className={styles.ctaRow}>
@@ -43,9 +70,48 @@ export default function Hero() {
               See How It Works
             </Link>
           </div>
+
+          <form className={styles.quickForm} onSubmit={onSubmit} aria-label="Quick inquiry">
+            <div className={styles.quickFormRow}>
+              <input
+                type="email"
+                required
+                placeholder="Work email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className={styles.quickFormInput}
+                aria-label="Work email"
+                disabled={status === 'sending' || status === 'sent'}
+              />
+              <input
+                type="text"
+                placeholder="Practice name"
+                value={practice}
+                onChange={(e) => setPractice(e.target.value)}
+                className={styles.quickFormInput}
+                aria-label="Practice name"
+                disabled={status === 'sending' || status === 'sent'}
+              />
+              <button
+                type="submit"
+                className={styles.quickFormBtn}
+                disabled={status === 'sending' || status === 'sent'}
+              >
+                {status === 'sending' ? 'Sending…' : status === 'sent' ? 'Got it ✓' : 'Get a 15-min walkthrough'}
+              </button>
+            </div>
+            {status === 'sent' && (
+              <p className={styles.quickFormNote}>Thanks — we'll reach out within one business day.</p>
+            )}
+            {status === 'error' && (
+              <p className={styles.quickFormNoteError}>Something went wrong. Try again, email info@cliniqhealthcare.com, or call 720.334.7249.</p>
+            )}
+            {status === 'idle' && (
+              <p className={styles.quickFormNote}>No demo deck. We walk through your exact workflow.</p>
+            )}
+          </form>
         </div>
 
-        {/* Right: dashboard visual */}
         <div className={styles.visual} aria-hidden="true">
           <div className={styles.dashboard}>
             <div className={styles.dashHeader}>
@@ -127,7 +193,6 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll indicator */}
       <div className={styles.scrollIndicator} aria-hidden="true">
         <span className={styles.scrollText}>Scroll</span>
         <div className={styles.scrollLine} />

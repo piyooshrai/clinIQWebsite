@@ -35,7 +35,13 @@ export default function Testimonial() {
           <span className={styles.labelLine} />
           <span className={styles.labelText}>From the clinics</span>
         </div>
-        <h2 className={styles.heading}>What clinics say after switching</h2>
+        <h2 className={styles.heading}>What Clinics Say After Switching to a Real Patient Flow Software</h2>
+        <p className={styles.intro}>
+          From urgent care management to addiction medicine to multi-provider primary
+          care — here&apos;s what clinic directors, practice managers, and medical
+          directors say after replacing spreadsheets and whiteboards with clinIQ&apos;s
+          clinic operations software.
+        </p>
         <div className={styles.grid}>
           {TESTIMONIALS.map((t) => (
             <div key={t.initials} className={styles.card}>

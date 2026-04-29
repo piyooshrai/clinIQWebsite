@@ -511,6 +511,26 @@ export default function Nav() {
           </div>
 
           <div className={styles.cta}>
+            <a
+              href="tel:+17203347249"
+              className={styles.contactLink}
+              aria-label="Call clinIQ"
+            >
+              <svg viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <path d="M3 3h3l1.5 4-2 1a8 8 0 0 0 4.5 4.5l1-2 4 1.5v3a1 1 0 0 1-1 1A12 12 0 0 1 2 4a1 1 0 0 1 1-1z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              720.334.7249
+            </a>
+            <a
+              href="mailto:info@cliniqhealthcare.com"
+              className={styles.contactLink}
+              aria-label="Email clinIQ"
+            >
+              <svg viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <path d="M2 4l6 4 6-4M2 4h12v8H2V4z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              info@cliniqhealthcare.com
+            </a>
             <LanguageSwitcher />
             <Link href="/demo" className={`${styles.btnPrimary} ${styles.desktopOnly}`}>Request Demo</Link>
             <button

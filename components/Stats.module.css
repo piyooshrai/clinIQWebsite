@@ -24,10 +24,30 @@
   z-index: 1;
 }
 
+.heading {
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: clamp(32px, 4.5vw, 56px);
+  color: var(--white);
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+  text-align: center;
+  margin: 0 auto 72px;
+  max-width: 800px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 48px;
+}
+
+.label {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--white);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
 }
 
 .item {

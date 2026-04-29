@@ -34,6 +34,8 @@ export interface ContentClasses {
   contentP: string
   contentUL: string
   contentLI: string
+  contentH3?: string
+  contentTable?: string
   relatedRef?: string
   inlineLink?: string
 }
@@ -46,6 +48,52 @@ export function renderContent(
   return blocks.map((block, idx) => {
     const trimmed = block.trim()
     if (!trimmed) return null
+
+    // ### Heading (sub-section H3)
+    if (trimmed.startsWith('### ')) {
+      const heading = trimmed.replace(/^###\s+/, '')
+      return (
+        <h3 key={idx} className={classes.contentH3 || classes.contentP}>
+          {renderInline(heading, classes.inlineLink)}
+        </h3>
+      )
+    }
+
+    // | header | header | + |---|---| + rows  →  table
+    const tableLines = trimmed.split('\n').filter((l) => l.trim().startsWith('|'))
+    if (
+      tableLines.length >= 2 &&
+      tableLines.length === trimmed.split('\n').length &&
+      /^\|[\s:-]+\|/.test(tableLines[1])
+    ) {
+      const splitRow = (row: string) =>
+        row
+          .replace(/^\||\|$/g, '')
+          .split('|')
+          .map((c) => c.trim())
+      const header = splitRow(tableLines[0])
+      const rows = tableLines.slice(2).map(splitRow)
+      return (
+        <table key={idx} className={classes.contentTable}>
+          <thead>
+            <tr>
+              {header.map((h, i) => (
+                <th key={i}>{renderInline(h, classes.inlineLink)}</th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map((r, i) => (
+              <tr key={i}>
+                {r.map((c, j) => (
+                  <td key={j}>{renderInline(c, classes.inlineLink)}</td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      )
+    }
 
     const lines = trimmed.split('\n')
     const bulletLines = lines.filter((l) => l.trimStart().startsWith('•'))

@@ -42,6 +42,26 @@
   max-width: 260px;
 }
 
+.footerContact {
+  list-style: none;
+  margin: 1.25rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footerContact li a {
+  font-size: 0.875rem;
+  color: var(--text-inverse-secondary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footerContact li a:hover {
+  color: var(--white);
+}
+
 .footerLinks {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

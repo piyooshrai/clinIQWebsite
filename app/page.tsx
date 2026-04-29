@@ -3,31 +3,38 @@ import Nav from '@/components/Nav'
 import Hero from '@/components/Hero'
 import Marquee from '@/components/Marquee'
 import Features from '@/components/Features'
+import HomeProblem from '@/components/HomeProblem'
+import HomeHowItWorks from '@/components/HomeHowItWorks'
+import HomeOpsLayer from '@/components/HomeOpsLayer'
+import HomeSpecialties from '@/components/HomeSpecialties'
 import Stats from '@/components/Stats'
 import Testimonial from '@/components/Testimonial'
+import HomeFAQ, { HOME_FAQS } from '@/components/HomeFAQ'
 import CTA from '@/components/CTA'
 import FooterInner from '@/components/FooterInner'
 
 export const metadata: Metadata = {
-  title: 'clinIQ – Clinic Operations Platform | Real-Time Patient Flow',
+  title: 'Patient Flow Software | Clinic Operations Platform | clinIQ',
   description:
-    'clinIQ gives clinics real-time patient flow visibility, automated check-in, RTM billing, pre-authorization, and intelligent scheduling. From check-in to checkout — zero chaos.',
+    "Struggling with patient flow & missed billing? clinIQ is the clinic operations software that automates check-in, RTM billing & pre-auth. Book a free demo.",
   keywords: [
-    'clinic operations platform',
+    'clinic operations software',
     'patient flow software',
-    'medical check-in system',
+    'patient queue management system',
+    'healthcare scheduling software',
     'RTM billing software',
-    'remote therapeutic monitoring',
-    'clinic scheduling software',
-    'real-time patient tracking',
-    'pre-authorization software',
-    'clinic workflow management',
-    'healthcare operations',
+    'clinic management platform',
+    'digital patient check-in system',
+    'pre-authorization automation',
+    'clinic workflow software',
+    'healthcare operations layer',
+    'behavioral health clinic software',
+    'urgent care management software',
   ],
   openGraph: {
-    title: 'clinIQ – Clinic Operations Platform | Real-Time Patient Flow',
+    title: 'Patient Flow Software | Clinic Operations Platform | clinIQ',
     description:
-      'Real-time patient flow. Automated check-in. RTM billing. Pre-authorization. From check-in to checkout — zero chaos.',
+      'Real-time patient queue management, digital check-in, RTM billing, and pre-authorization automation — sitting on top of your existing EHR.',
     url: 'https://cliniqhealthcare.com',
     siteName: 'clinIQ',
     type: 'website',
@@ -54,6 +61,8 @@ const jsonLd = [
       '@type': 'ContactPoint',
       contactType: 'sales',
       url: 'https://cliniqhealthcare.com/contact',
+      email: 'info@cliniqhealthcare.com',
+      telephone: '+1-720-334-7249',
     },
   },
   {
@@ -83,6 +92,15 @@ const jsonLd = [
       url: 'https://cliniqhealthcare.com/demo',
     },
   },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: HOME_FAQS.map(({ q, a }) => ({
+      '@type': 'Question',
+      name: q,
+      acceptedAnswer: { '@type': 'Answer', text: a },
+    })),
+  },
 ]
 
 export default function Home() {
@@ -97,8 +115,13 @@ export default function Home() {
         <Hero />
         <Marquee />
         <Features />
+        <HomeHowItWorks />
+        <HomeProblem />
+        <HomeOpsLayer />
+        <HomeSpecialties />
         <Stats />
         <Testimonial />
+        <HomeFAQ />
         <CTA />
         <FooterInner />
       </main>

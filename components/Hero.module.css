@@ -189,6 +189,82 @@
   background: rgba(255, 255, 255, 0.05);
 }
 
+/* Quick inquiry form */
+.quickForm {
+  margin-top: 28px;
+  opacity: 0;
+  animation: fadeInUp 1s 0.85s both;
+}
+
+.quickFormRow {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.quickFormInput {
+  flex: 1 1 200px;
+  min-width: 0;
+  padding: 14px 18px;
+  border-radius: 12px;
+  border: 1px solid var(--gray-600);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--white);
+  font-size: 14px;
+  font-family: inherit;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.quickFormInput::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.quickFormInput:focus {
+  outline: none;
+  border-color: var(--teal-light, #2dd4bf);
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.quickFormInput:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.quickFormBtn {
+  padding: 14px 22px;
+  border-radius: 12px;
+  border: none;
+  background: var(--teal, #0d9488);
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+  white-space: nowrap;
+}
+
+.quickFormBtn:hover:not(:disabled) {
+  background: var(--teal-light, #2dd4bf);
+  transform: translateY(-1px);
+}
+
+.quickFormBtn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.quickFormNote {
+  margin: 10px 0 0;
+  font-size: 12.5px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.quickFormNoteError {
+  margin: 10px 0 0;
+  font-size: 12.5px;
+  color: #fca5a5;
+}
+
 /* Dashboard visual — right column, in-flow */
 .visual {
   flex: 1 1 0;

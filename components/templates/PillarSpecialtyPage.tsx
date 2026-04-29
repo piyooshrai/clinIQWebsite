@@ -181,6 +181,8 @@ export default function PillarSpecialtyPage({ data }: { data: PillarData }) {
                     contentP: css.contentP,
                     contentUL: css.contentUL,
                     contentLI: css.contentLI,
+                    contentH3: css.contentH3,
+                    contentTable: css.contentTable,
                     relatedRef: css.relatedRef,
                     inlineLink: css.inlineLink,
                   })}</div>

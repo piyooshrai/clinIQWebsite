@@ -1,0 +1,351 @@
+/* ──────────────────────────────────────────────────────────────────────────
+ * Shared section styles for the homepage extension folds:
+ *   HomeProblem, HomeHowItWorks, HomeOpsLayer, HomeSpecialties, HomeFAQ
+ * ────────────────────────────────────────────────────────────────────────── */
+
+.section {
+  padding: 120px 0;
+  background: var(--cream, #f5f3ef);
+  border-top: 1px solid var(--border-light, #e8e5e0);
+}
+
+.sectionDark {
+  composes: section;
+  background: var(--black, #0d1117);
+  color: var(--white);
+  border-top: none;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.label {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  color: var(--text-secondary);
+}
+
+.labelLine {
+  width: 36px;
+  height: 1px;
+  background: var(--teal);
+}
+
+.title {
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: clamp(36px, 5vw, 60px);
+  color: var(--gray-900);
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+  max-width: 900px;
+  margin: 0;
+}
+
+.sectionDark .title {
+  color: var(--white);
+}
+
+.intro {
+  margin-top: 24px;
+  max-width: 760px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--gray-700);
+}
+
+.sectionDark .intro {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.titleEm {
+  font-style: italic;
+  color: var(--teal);
+}
+
+/* Pain blocks (HomeProblem) */
+.painList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  margin-top: 56px;
+}
+
+@media (max-width: 860px) {
+  .painList {
+    grid-template-columns: 1fr;
+  }
+}
+
+.painItem {
+  background: var(--white);
+  border: 1px solid var(--border-light, #e8e5e0);
+  border-radius: 18px;
+  padding: 32px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.painItem:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.06);
+}
+
+.painH3 {
+  font-family: var(--font-display, var(--font-sans));
+  font-size: 19px;
+  font-weight: 500;
+  color: var(--gray-900);
+  letter-spacing: -0.005em;
+  margin: 0 0 12px;
+  line-height: 1.35;
+}
+
+.painBody {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--gray-700);
+  margin: 0;
+}
+
+/* CTA strip in middle of page */
+.midCta {
+  margin-top: 56px;
+  padding: 28px 32px;
+  background: var(--white);
+  border: 1px solid var(--border-light, #e8e5e0);
+  border-radius: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.midCtaText {
+  font-size: 17px;
+  line-height: 1.5;
+  color: var(--gray-800);
+  margin: 0;
+  flex: 1 1 360px;
+}
+
+.midCtaActions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.btnPrimary {
+  display: inline-flex;
+  align-items: center;
+  padding: 14px 26px;
+  border-radius: 100px;
+  background: var(--teal);
+  color: var(--white);
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.btnPrimary:hover {
+  background: var(--teal-light, #2dd4bf);
+  transform: translateY(-2px);
+}
+
+.btnGhost {
+  display: inline-flex;
+  align-items: center;
+  padding: 14px 26px;
+  border-radius: 100px;
+  background: transparent;
+  color: var(--gray-900);
+  border: 1px solid var(--gray-400);
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.btnGhost:hover {
+  border-color: var(--gray-900);
+  background: rgba(0, 0, 0, 0.03);
+}
+
+/* Steps (HomeHowItWorks) */
+.steps {
+  margin-top: 56px;
+  display: grid;
+  gap: 20px;
+}
+
+.step {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 28px;
+  align-items: start;
+  background: var(--white);
+  border: 1px solid var(--border-light, #e8e5e0);
+  border-radius: 18px;
+  padding: 28px 32px;
+}
+
+@media (max-width: 720px) {
+  .step {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
+
+.stepNum {
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: 44px;
+  color: var(--teal);
+  line-height: 1;
+  font-weight: 400;
+}
+
+.stepBody {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stepH3 {
+  font-family: var(--font-display, var(--font-sans));
+  font-size: 19px;
+  font-weight: 500;
+  color: var(--gray-900);
+  margin: 0;
+  line-height: 1.35;
+}
+
+.stepText {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--gray-700);
+}
+
+/* Ops Layer */
+.opsLayer {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 56px;
+  align-items: center;
+}
+
+@media (max-width: 980px) {
+  .opsLayer {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+.opsBody p {
+  font-size: 17px;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.78);
+  margin: 0 0 18px;
+}
+
+.opsBody p:last-child {
+  margin-bottom: 0;
+}
+
+.ehrGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.ehrChip {
+  padding: 16px 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Specialties */
+.specGrid {
+  margin-top: 56px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 980px) {
+  .specGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.specCard {
+  display: flex;
+  flex-direction: column;
+  background: var(--white);
+  border: 1px solid var(--border-light, #e8e5e0);
+  border-radius: 22px;
+  padding: 32px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  min-height: 280px;
+}
+
+.specCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+}
+
+.specTag {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--teal);
+  margin-bottom: 14px;
+}
+
+.specH3 {
+  font-family: var(--font-display, var(--font-sans));
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--gray-900);
+  margin: 0 0 14px;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+
+.specBody {
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--gray-700);
+  margin: 0 0 20px;
+}
+
+.specLink {
+  margin-top: auto;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--teal);
+}
+
+/* FAQ */
+.faqWrapper {
+  margin-top: 48px;
+  max-width: 880px;
+}
