@@ -1,7 +1,7 @@
 'use client'
 
 import { useLocale, useTranslations } from 'next-intl'
-import { usePathname, useRouter } from 'next/navigation'
+import { usePathname, useRouter } from '@/i18n/navigation'
 import { useTransition } from 'react'
 import styles from './LanguageSwitcher.module.css'
 
@@ -28,17 +28,8 @@ export default function LanguageSwitcher({ variant = 'nav' }: Props) {
   const [isPending, startTransition] = useTransition()
 
   function switchLocale(nextLocale: string) {
-    // Strip current locale prefix from pathname so next-intl can re-prefix it
-    let cleanPath = pathname
-    if (cleanPath.startsWith(`/${locale}/`)) {
-      cleanPath = cleanPath.slice(locale.length + 1)
-    } else if (cleanPath === `/${locale}`) {
-      cleanPath = '/'
-    }
-
     startTransition(() => {
-      const prefix = nextLocale === 'en' ? '' : `/${nextLocale}`
-      router.push(`${prefix}${cleanPath || '/'}`)
+      router.replace(pathname, { locale: nextLocale })
     })
   }
 
