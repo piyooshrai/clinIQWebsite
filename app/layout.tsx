@@ -1,12 +1,10 @@
 import type { Metadata, Viewport } from 'next'
 import { Instrument_Serif } from 'next/font/google'
 import { NextIntlClientProvider } from 'next-intl'
+import { getLocale, getMessages } from 'next-intl/server'
 import GoogleAnalytics from '@/components/GoogleAnalytics'
 import ChatWidget from '@/components/ChatWidget'
 import './globals.css'
-
-// English messages loaded statically — locale pages override via nested provider
-import enMessages from '@/messages/en.json'
 
 const instrumentSerif = Instrument_Serif({
   subsets: ['latin'],
@@ -38,11 +36,14 @@ export const viewport: Viewport = {
   maximumScale: 5,
 }
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const locale = await getLocale()
+  const messages = await getMessages()
+
   return (
-    <html lang="en" className={instrumentSerif.variable} suppressHydrationWarning>
+    <html lang={locale} className={instrumentSerif.variable} suppressHydrationWarning>
       <body>
-        <NextIntlClientProvider locale="en" messages={enMessages}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           <GoogleAnalytics />
           <ChatWidget />
           <a href="#main-content" className="skip-link">Skip to main content</a>

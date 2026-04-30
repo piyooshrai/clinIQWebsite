@@ -2,9 +2,11 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import { useTranslations } from 'next-intl'
 import styles from './Hero.module.css'
 
 export default function Hero() {
+  const t = useTranslations('hero')
   const [email, setEmail] = useState('')
   const [practice, setPractice] = useState('')
   const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle')
@@ -41,33 +43,28 @@ export default function Hero() {
         <div className={styles.content}>
           <div className={styles.label}>
             <span className={styles.labelLine} />
-            <span className={styles.labelText}>Clinic Operations Software</span>
+            <span className={styles.labelText}>{t('badge')}</span>
           </div>
 
           <h1 className={styles.title}>
             <span className={styles.titleLine}>
-              <span className={styles.titleWord}>Patient Flow Software</span>
+              <span className={styles.titleWord}>{t('title1')}</span>
             </span>
             <span className={styles.titleLine}>
               <span className={styles.titleWord}>
-                Built for <em className={styles.titleEm}>Real Clinics.</em>
+                {t('title2')} <em className={styles.titleEm}>{t('titleEm')}</em>
               </span>
             </span>
           </h1>
 
-          <p className={styles.description}>
-            clinIQ is the clinic operations platform that brings real-time patient queue
-            management, digital patient check-in, RTM billing, and pre-authorization
-            automation together — sitting on top of your existing EHR. Capture $120–$150
-            per RTM patient monthly. Cut wait times 22% in the first month.
-          </p>
+          <p className={styles.description}>{t('description')}</p>
 
           <div className={styles.ctaRow}>
             <Link href="/demo" className={`${styles.btnBase} ${styles.btnPrimary}`}>
-              Request Demo
+              {t('requestDemo')}
             </Link>
             <Link href="/features" className={`${styles.btnBase} ${styles.btnSecondary}`}>
-              See How It Works
+              {t('seeHowItWorks')}
             </Link>
           </div>
 
@@ -76,20 +73,20 @@ export default function Hero() {
               <input
                 type="email"
                 required
-                placeholder="Work email"
+                placeholder={t('quickFormEmail')}
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className={styles.quickFormInput}
-                aria-label="Work email"
+                aria-label={t('quickFormEmail')}
                 disabled={status === 'sending' || status === 'sent'}
               />
               <input
                 type="text"
-                placeholder="Practice name"
+                placeholder={t('quickFormPractice')}
                 value={practice}
                 onChange={(e) => setPractice(e.target.value)}
                 className={styles.quickFormInput}
-                aria-label="Practice name"
+                aria-label={t('quickFormPractice')}
                 disabled={status === 'sending' || status === 'sent'}
               />
               <button
@@ -97,17 +94,17 @@ export default function Hero() {
                 className={styles.quickFormBtn}
                 disabled={status === 'sending' || status === 'sent'}
               >
-                {status === 'sending' ? 'Sending…' : status === 'sent' ? 'Got it ✓' : 'Get a 15-min walkthrough'}
+                {status === 'sending' ? '…' : status === 'sent' ? '✓' : t('quickFormCta')}
               </button>
             </div>
             {status === 'sent' && (
-              <p className={styles.quickFormNote}>Thanks — we'll reach out within one business day.</p>
+              <p className={styles.quickFormNote}>{t('quickFormSent')}</p>
             )}
             {status === 'error' && (
-              <p className={styles.quickFormNoteError}>Something went wrong. Try again, email info@cliniqhealthcare.com, or call 720.334.7249.</p>
+              <p className={styles.quickFormNoteError}>{t('quickFormError')}</p>
             )}
             {status === 'idle' && (
-              <p className={styles.quickFormNote}>No demo deck. We walk through your exact workflow.</p>
+              <p className={styles.quickFormNote}>{t('quickFormNote')}</p>
             )}
           </form>
         </div>

@@ -1,34 +1,13 @@
 'use client'
 
 import { useState } from 'react'
+import { useTranslations } from 'next-intl'
 import styles from './DemoForm.module.css'
 import { trackDemoRequest } from '@/lib/analytics'
 
-const SPECIALTIES = [
-  'Physical Therapy',
-  'Orthopedic Surgery',
-  'Pain Management',
-  'Behavioral Health / Psychiatry',
-  'Primary Care',
-  'Urgent Care',
-  'Neurology',
-  'Cardiology',
-  'Dermatology',
-  'Oncology',
-  'Other',
-]
-
-const PROVIDERS = ['1–2', '3–5', '6–10', '11–25', '26–50', '50+']
-
-const INTERESTS = [
-  'Patient Check-In',
-  'Real-Time Patient Flow',
-  'RTM Billing',
-  'Pre-Authorization',
-  'Scheduling',
-  'Secure Messaging',
-  'Analytics',
-]
+const SPECIALTY_KEYS = ['pt', 'ortho', 'pain', 'behavioral', 'primary', 'urgent', 'neuro', 'cardio', 'derm', 'onco', 'other'] as const
+const PROVIDER_KEYS = ['p1', 'p2', 'p3', 'p4', 'p5', 'p6'] as const
+const INTEREST_KEYS = ['checkIn', 'flow', 'rtm', 'preAuth', 'scheduling', 'messaging', 'analytics'] as const
 
 const fieldStyle: React.CSSProperties = {
   display: 'flex',
@@ -78,6 +57,9 @@ const textareaStyle: React.CSSProperties = {
 }
 
 export default function DemoForm() {
+  const t = useTranslations('demo')
+  const tc = useTranslations('common')
+
   const [firstName, setFirstName] = useState('')
   const [lastName, setLastName] = useState('')
   const [email, setEmail] = useState('')
@@ -91,9 +73,9 @@ export default function DemoForm() {
   const [submitted, setSubmitted] = useState(false)
   const [error, setError] = useState('')
 
-  function toggleInterest(item: string) {
+  function toggleInterest(key: string) {
     setInterests((prev) =>
-      prev.includes(item) ? prev.filter((i) => i !== item) : [...prev, item]
+      prev.includes(key) ? prev.filter((i) => i !== key) : [...prev, key]
     )
   }
 
@@ -121,7 +103,7 @@ export default function DemoForm() {
       trackDemoRequest(specialty, providers)
       setSubmitted(true)
     } catch {
-      setError('Something went wrong. Please try again.')
+      setError(tc('errorGeneric'))
     } finally {
       setSubmitting(false)
     }
@@ -142,10 +124,8 @@ export default function DemoForm() {
             />
           </svg>
         </div>
-        <p className={styles.successTitle}>You&apos;re on the list.</p>
-        <p className={styles.successBody}>
-          We&apos;ll be in touch within 24 hours. Check your email for confirmation.
-        </p>
+        <p className={styles.successTitle}>{tc('successTitle')}</p>
+        <p className={styles.successBody}>{tc('successBody')}</p>
       </div>
     )
   }
@@ -156,7 +136,7 @@ export default function DemoForm() {
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.25rem' }}>
         <div style={fieldStyle}>
           <label style={labelStyle} htmlFor="demoFirstName">
-            First Name <span style={{ color: 'var(--teal)' }} aria-hidden="true">*</span>
+            {tc('firstName')} <span style={{ color: 'var(--teal)' }} aria-hidden="true">{tc('required')}</span>
           </label>
           <input
             id="demoFirstName"
@@ -170,7 +150,7 @@ export default function DemoForm() {
         </div>
         <div style={fieldStyle}>
           <label style={labelStyle} htmlFor="demoLastName">
-            Last Name <span style={{ color: 'var(--teal)' }} aria-hidden="true">*</span>
+            {tc('lastName')} <span style={{ color: 'var(--teal)' }} aria-hidden="true">{tc('required')}</span>
           </label>
           <input
             id="demoLastName"
@@ -187,7 +167,7 @@ export default function DemoForm() {
       {/* Email */}
       <div style={fieldStyle}>
         <label style={labelStyle} htmlFor="demoEmail">
-          Email <span style={{ color: 'var(--teal)' }} aria-hidden="true">*</span>
+          {tc('email')} <span style={{ color: 'var(--teal)' }} aria-hidden="true">{tc('required')}</span>
         </label>
         <input
           id="demoEmail"
@@ -203,7 +183,7 @@ export default function DemoForm() {
       {/* Phone */}
       <div style={fieldStyle}>
         <label style={labelStyle} htmlFor="demoPhone">
-          Phone
+          {tc('phone')}
         </label>
         <input
           id="demoPhone"
@@ -218,7 +198,7 @@ export default function DemoForm() {
       {/* Practice Name */}
       <div style={fieldStyle}>
         <label style={labelStyle} htmlFor="demoPractice">
-          Practice Name <span style={{ color: 'var(--teal)' }} aria-hidden="true">*</span>
+          {tc('practiceName')} <span style={{ color: 'var(--teal)' }} aria-hidden="true">{tc('required')}</span>
         </label>
         <input
           id="demoPractice"
@@ -234,7 +214,7 @@ export default function DemoForm() {
       {/* Specialty */}
       <div style={fieldStyle}>
         <label style={labelStyle} htmlFor="demoSpecialty">
-          Specialty <span style={{ color: 'var(--teal)' }} aria-hidden="true">*</span>
+          {tc('specialty')} <span style={{ color: 'var(--teal)' }} aria-hidden="true">{tc('required')}</span>
         </label>
         <select
           id="demoSpecialty"
@@ -243,12 +223,10 @@ export default function DemoForm() {
           onChange={(e) => setSpecialty(e.target.value)}
           required
         >
-          <option value="" disabled>
-            Select…
-          </option>
-          {SPECIALTIES.map((s) => (
-            <option key={s} value={s}>
-              {s}
+          <option value="" disabled>Select…</option>
+          {SPECIALTY_KEYS.map((key) => (
+            <option key={key} value={t(`specialties.${key}`)}>
+              {t(`specialties.${key}`)}
             </option>
           ))}
         </select>
@@ -257,7 +235,7 @@ export default function DemoForm() {
       {/* Number of Providers */}
       <div style={fieldStyle}>
         <label style={labelStyle} htmlFor="demoProviders">
-          Number of Providers <span style={{ color: 'var(--teal)' }} aria-hidden="true">*</span>
+          {tc('numberOfProviders')} <span style={{ color: 'var(--teal)' }} aria-hidden="true">{tc('required')}</span>
         </label>
         <select
           id="demoProviders"
@@ -266,12 +244,10 @@ export default function DemoForm() {
           onChange={(e) => setProviders(e.target.value)}
           required
         >
-          <option value="" disabled>
-            Select…
-          </option>
-          {PROVIDERS.map((p) => (
-            <option key={p} value={p}>
-              {p}
+          <option value="" disabled>Select…</option>
+          {PROVIDER_KEYS.map((key) => (
+            <option key={key} value={t(`providers.${key}`)}>
+              {t(`providers.${key}`)}
             </option>
           ))}
         </select>
@@ -279,30 +255,22 @@ export default function DemoForm() {
 
       {/* Interests */}
       <div style={{ ...fieldStyle, marginBottom: '1.5rem' }}>
-        <span style={labelStyle}>Interests</span>
-        <div
-          style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            gap: '0.625rem',
-            marginTop: '0.5rem',
-          }}
-        >
-          {INTERESTS.map((item) => {
-            const checked = interests.includes(item)
+        <span style={labelStyle}>{tc('interests')}</span>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.625rem', marginTop: '0.5rem' }}>
+          {INTEREST_KEYS.map((key) => {
+            const label = t(`interests.${key}`)
+            const checked = interests.includes(key)
             return (
               <button
-                key={item}
+                key={key}
                 type="button"
-                onClick={() => toggleInterest(item)}
+                onClick={() => toggleInterest(key)}
                 style={{
                   padding: '0.375rem 0.875rem',
                   fontSize: '0.8125rem',
                   fontWeight: 500,
                   borderRadius: '100px',
-                  border: checked
-                    ? '1px solid var(--teal)'
-                    : '1px solid rgba(0,0,0,0.15)',
+                  border: checked ? '1px solid var(--teal)' : '1px solid rgba(0,0,0,0.15)',
                   background: checked ? 'rgba(13,148,136,0.08)' : 'transparent',
                   color: checked ? 'var(--teal)' : 'var(--text-secondary)',
                   cursor: 'pointer',
@@ -310,7 +278,7 @@ export default function DemoForm() {
                 }}
                 aria-pressed={checked}
               >
-                {item}
+                {label}
               </button>
             )
           })}
@@ -320,7 +288,7 @@ export default function DemoForm() {
       {/* Message */}
       <div style={fieldStyle}>
         <label style={labelStyle} htmlFor="demoMessage">
-          Message / Notes
+          {tc('message')}
         </label>
         <textarea
           id="demoMessage"
@@ -370,7 +338,7 @@ export default function DemoForm() {
           marginTop: '0.5rem',
         }}
       >
-        {submitting ? 'Sending…' : 'Request Demo →'}
+        {submitting ? t('formSending') : t('formCta')}
       </button>
     </form>
   )

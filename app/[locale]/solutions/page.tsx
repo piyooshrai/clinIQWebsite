@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { getTranslations } from 'next-intl/server'
 import Link from 'next/link'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
@@ -116,7 +117,9 @@ const SPECIALTY_GROUPS = [
   },
 ]
 
-export default function SolutionsPage() {
+export default async function SolutionsPage() {
+  const t = await getTranslations('solutions')
+
   return (
     <>
       <NavInner />
@@ -130,13 +133,11 @@ export default function SolutionsPage() {
           </div>
           <div className={s.container}>
             <div className={s.heroContent}>
-              <span className={s.badge}>Who We Serve</span>
+              <span className={s.badge}>{t('badge')}</span>
               <h1 className={s.heroTitle}>
-                Find your<br /><em>practice type</em>
+                {t('title')}
               </h1>
-              <p className={s.heroSubtitle}>
-                An FQHC managing sliding-scale visits, a pain management practice fighting PA denials, and a concierge DPC with membership patients all have different operational realities. clinIQ adapts to each.
-              </p>
+              <p className={s.heroSubtitle}>{t('subtitle')}</p>
             </div>
           </div>
         </section>
@@ -226,12 +227,8 @@ export default function SolutionsPage() {
                 Book a demo and we&apos;ll walk through how clinIQ applies to your specific care setting, patient volume, and EHR.
               </p>
               <div className={s.ctaActions}>
-                <Link href="/demo" className={s.btnPrimary}>
-                  Book a Demo
-                </Link>
-                <Link href="/specialties" className={s.btnGhost}>
-                  Browse All Specialties
-                </Link>
+                <Link href="/demo" className={s.btnPrimary}>Book a Demo</Link>
+                <Link href="/specialties" className={s.btnGhost}>Browse All Specialties</Link>
               </div>
             </div>
           </div>

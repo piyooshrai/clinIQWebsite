@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { getTranslations } from 'next-intl/server'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
 import PricingHero from '@/components/PricingHero'
@@ -19,15 +20,14 @@ export const metadata: Metadata = {
   },
 }
 
-export default function PricingPage() {
+export default async function PricingPage() {
+  const t = await getTranslations('pricing')
+
   return (
     <>
       <NavInner />
       <main>
-        <PricingHero
-          title="Pricing"
-          subtitle="Transparent. No per-transaction fees. No surprises."
-        />
+        <PricingHero title={t('title')} subtitle={t('subtitle')} />
         <PricingTable />
       </main>
       <FooterInner />
