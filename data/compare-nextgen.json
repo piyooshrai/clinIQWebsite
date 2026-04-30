@@ -1,0 +1,160 @@
+{
+    "slug": "nextgen",
+    "name": "clinIQ vs NextGen",
+    "pageType": "compare-pillar",
+    "wordCount": 1900,
+    "publishDate": "2026-03-11",
+    "meta": {
+        "title": "clinIQ vs NextGen | EHR Operations Layer | Real-Time Patient Flow",
+        "description": "clinIQ adds real-time operations to NextGen Healthcare. Not a replacement. The patient flow, RTM billing, and pre-authorization layer that NextGen EHR does not provide. Works alongside your existing NextGen.",
+        "keywords": [
+            "NextGen alternative",
+            "NextGen patient flow",
+            "NextGen add-on",
+            "NextGen operations",
+            "EHR patient tracking",
+            "NextGen RTM billing",
+            "NextGen complement"
+        ]
+    },
+    "hero": {
+        "h1": "clinIQ vs NextGen",
+        "subhead": "NextGen Healthcare handles clinical documentation and practice management effectively. It does not show you which patient is in which room right now. clinIQ adds real-time patient flow, RTM billing automation, and pre-authorization tracking as an operations layer alongside your existing NextGen EHR.",
+        "stats": [
+            {
+                "value": "Real-time",
+                "label": "flow NextGen lacks"
+            },
+            {
+                "value": "Works with",
+                "label": "your existing NextGen"
+            },
+            {
+                "value": "$112",
+                "label": "avg RTM revenue per patient"
+            }
+        ]
+    },
+    "gatedContent": {
+        "title": "The EHR Gap Analysis",
+        "description": "What your EHR can't track and what it's costing you. Covers operational blind spots in documentation-focused systems.",
+        "format": "PDF",
+        "placeholder": true
+    },
+    "tableOfContents": [
+        {
+            "id": "complement-not-replace",
+            "title": "Complement, Not Replace"
+        },
+        {
+            "id": "nextgen-strengths",
+            "title": "What NextGen Does Well"
+        },
+        {
+            "id": "operations-gap",
+            "title": "The Operations Gap"
+        },
+        {
+            "id": "real-time-flow",
+            "title": "Real-Time Patient Flow"
+        },
+        {
+            "id": "revenue-operations",
+            "title": "Revenue Operations"
+        },
+        {
+            "id": "integration",
+            "title": "Working with NextGen"
+        },
+        {
+            "id": "faqs",
+            "title": "FAQs"
+        }
+    ],
+    "sections": [
+        {
+            "id": "complement-not-replace",
+            "h2": "clinIQ Complements NextGen Healthcare",
+            "content": "Practices experiencing operational frustration with NextGen often misdiagnose the problem. The frustration of not knowing where patients are or whether bottlenecks are forming is real. But NextGen was never designed to solve those problems. No EHR was.\n\nNextGen Healthcare is an established EHR and practice management platform serving ambulatory practices across specialties. The platform handles clinical documentation, billing, patient engagement, and practice management capably. For practices that need a new EHR, NextGen is a legitimate option.\n\nclinIQ is not an EHR. It is a clinic operations platform that works alongside NextGen to provide capabilities EHRs cannot. [Patient flow](/features/patient-flow) tracking shows where every patient is right now. [RTM billing](/features/rtm-billing) automates Remote Therapeutic Monitoring revenue capture. [Pre-authorization](/features/pre-authorization) management tracks approvals and expirations. [Analytics](/features/analytics) surface operational patterns invisible in EHR reports.\n\nThe platforms address different layers of clinic operations. NextGen documents completed encounters and processes claims. clinIQ manages real-time operations and revenue streams beyond encounter billing. Practices benefit from both."
+        },
+        {
+            "id": "nextgen-strengths",
+            "h2": "What NextGen Does Well",
+            "content": "NextGen Healthcare has built substantial capability over decades of development. Understanding its genuine strengths clarifies where additional capability is needed.\n\nClinical documentation is customizable for specialty workflows. Templates can be tailored to specific practice needs. The platform supports both ambulatory and specialty care documentation patterns.\n\nPractice management integrates scheduling, registration, and administrative workflows with clinical functions. Staff works in a unified system rather than switching between applications.\n\nRevenue cycle management handles billing and claims processing. The platform supports clean claim submission and denial management. Financial reporting provides visibility into practice performance.\n\nPatient portal enables patient access to records, secure messaging, and online scheduling. Patient engagement tools support communication between visits.\n\nPopulation health capabilities support value-based care initiatives. The platform can track quality measures and care gaps across patient populations.\n\nSpecialty-specific functionality addresses the needs of different practice types. NextGen serves primary care, specialty practices, and community health centers with tailored features.\n\nThese are genuine strengths. Practices satisfied with NextGen documentation and billing should not switch EHRs. They should add operational capability that EHRs do not provide."
+        },
+        {
+            "id": "operations-gap",
+            "h2": "The Operations Gap in Every EHR",
+            "content": "EHRs are documentation systems designed to capture what happened during clinical encounters. They are not operations systems designed to manage what is happening right now.\n\nNextGen knows a patient has an appointment scheduled. Once that patient arrives, NextGen's visibility into real-time status is limited. Is the patient in the waiting room or exam room 3? Has the MA taken vitals? Is the provider with the patient? NextGen cannot answer these questions because real-time location tracking is not what EHRs do.\n\nThis limitation is architectural, not a NextGen flaw. Epic, athenahealth, eClinicalWorks, and every other EHR share the same constraint. EHRs document encounters; they do not track real-time operations.\n\nclinIQ's [patient flow](/features/patient-flow) fills this gap. The dashboard shows every patient's current location and status. Waiting room census, occupied rooms, patients ready for providers, and checkout queue are visible simultaneously. This real-time visibility enables proactive management.\n\nBottleneck detection requires operational visibility. When multiple patients are waiting for providers while rooms sit empty, NextGen has no mechanism to surface this. clinIQ's threshold alerting notifies staff when conditions require attention.\n\nStage-level timing is invisible in EHRs. NextGen can report appointment duration but cannot show that eight minutes were waiting room, twelve minutes were room wait, and twenty minutes were provider encounter. [Analytics](/features/analytics) in clinIQ track time in each stage because the underlying data exists."
+        },
+        {
+            "id": "real-time-flow",
+            "h2": "Real-Time Patient Flow",
+            "content": "Real-time patient flow is clinIQ's core capability. It provides the operational visibility that NextGen cannot.\n\n[Patient flow](/features/patient-flow) tracking begins at [check-in](/features/patient-check-in). Patients check in through the [clinIQ app](/features/patient-app), QR code, web form, or lobby tablet. Check-in creates a trackable status that follows the patient through the visit.\n\nStatus progression reflects actual movement. Checked-in indicates arrival. Roomed indicates exam room assignment. With-provider indicates active encounter. Checkout indicates visit completion. Staff updates status with single taps, creating continuous visibility.\n\nThe dashboard aggregates all active patients across stages. Operations managers see total census. Clinical staff see room status. Providers see who is waiting. Everyone works from current reality rather than scheduled assumptions.\n\nTime tracking accumulates automatically. The system knows how long each patient has been in their current status. This data feeds both real-time alerting and historical [analytics](/features/analytics).\n\nLobbyView displays bring transparency to patients. A lobby television shows queue position and estimated wait using privacy-compliant identifiers. Patients see progress rather than uncertainty.\n\nThese capabilities complement NextGen without replacing it. Clinical documentation continues in NextGen. Operational management happens in clinIQ. The tools serve different purposes and work together."
+        },
+        {
+            "id": "revenue-operations",
+            "h2": "Revenue Operations Beyond RCM",
+            "content": "NextGen revenue cycle management handles billing for completed encounters. clinIQ addresses revenue operations that happen before and between encounters.\n\nPre-authorization determines procedure reimbursement before services are rendered. For [pain management](/specialties/pain-management), [orthopedic surgery](/specialties/orthopedic-surgery), and specialty practices, prior authorization is often required. Missing or expired authorizations result in denied claims.\n\nclinIQ's [pre-authorization module](/features/pre-authorization) tracks every authorization from request through resolution. Pipeline views show status by payer and procedure. Expiration alerts fire before authorizations lapse. Integration with [scheduling](/features/scheduling) prevents scheduling procedures without valid authorization.\n\nRemote Therapeutic Monitoring generates recurring monthly revenue for chronic disease management. [RTM billing](/features/rtm-billing) through CPT codes 98975 through 98981 captures one hundred to one hundred fifty dollars per patient per month.\n\nNextGen processes RTM claims once generated. But RTM requires upstream workflow: patient enrollment, symptom data collection, time tracking, and threshold verification. clinIQ systematizes this workflow. Patients submit data through the [clinIQ app](/features/patient-app). Clinical time logs automatically. Monthly billing identifies eligible patients and generates claims.\n\n[Wearable integration](/features/wearable-integration) supplements patient-reported data with continuous metrics from Apple Watch, Oura Ring, and other devices. This data enriches clinical insights and supports RTM documentation. NextGen does not integrate with consumer wearables.\n\nThe revenue math is substantial. A practice with one hundred chronic patients capturing RTM generates over one hundred forty thousand dollars annually. This revenue requires workflow infrastructure that EHRs do not provide."
+        },
+        {
+            "id": "integration",
+            "h2": "How clinIQ Works with NextGen",
+            "content": "clinIQ integrates with NextGen through standard connections that pull appointment and patient data without modifying clinical records.\n\nAppointment data flows from NextGen to clinIQ. Scheduled appointments populate clinIQ for check-in and flow tracking. Patient demographics synchronize so information displays accurately. The connection is read-only. clinIQ does not write to NextGen.\n\nClinical documentation remains entirely in NextGen. Providers continue using NextGen for encounter notes, orders, prescriptions, and clinical functions. clinIQ does not duplicate clinical workflows.\n\nStaff workflows span both platforms naturally. Front desk may use clinIQ for check-in and flow visibility while accessing NextGen for patient records. Providers may reference clinIQ's dashboard to see who is waiting while documenting in NextGen.\n\nImplementation does not disrupt NextGen operations. clinIQ deployment completes in days without modifying NextGen configuration. Staff learns new capabilities without relearning existing workflows.\n\nPricing layers onto existing NextGen costs. clinIQ Starter at two hundred forty-nine dollars monthly or Professional at four hundred ninety-nine dollars monthly adds to whatever NextGen costs the practice pays. RTM revenue typically exceeds clinIQ platform cost."
+        }
+    ],
+    "faqs": [
+        {
+            "q": "Is clinIQ a replacement for NextGen?",
+            "a": "No. clinIQ is an operations layer that works alongside NextGen. Clinical documentation and billing remain in NextGen. clinIQ adds real-time [patient flow](/features/patient-flow), [RTM billing](/features/rtm-billing), and [pre-authorization tracking](/features/pre-authorization)."
+        },
+        {
+            "q": "How does clinIQ integrate with NextGen?",
+            "a": "clinIQ connects through read-only integrations that pull appointment and patient data. Clinical documentation remains in NextGen. The platforms complement rather than conflict."
+        },
+        {
+            "q": "What does clinIQ provide that NextGen does not?",
+            "a": "clinIQ provides real-time [patient flow](/features/patient-flow) tracking, LobbyView displays, [RTM billing](/features/rtm-billing) automation, [pre-authorization](/features/pre-authorization) pipeline management, [wearable integration](/features/wearable-integration), and operational [analytics](/features/analytics)."
+        },
+        {
+            "q": "How long does it take to add clinIQ to NextGen?",
+            "a": "Integration typically completes in one to two days. Staff training runs one to two hours. Most practices are operational within two weeks. NextGen continues normally throughout deployment."
+        }
+    ],
+    "relatedContent": {
+        "features": [
+            {
+                "slug": "patient-flow",
+                "title": "Patient Flow"
+            },
+            {
+                "slug": "rtm-billing",
+                "title": "RTM Billing"
+            },
+            {
+                "slug": "pre-authorization",
+                "title": "Pre-Authorization"
+            }
+        ],
+        "specialties": [
+            {
+                "slug": "primary-care",
+                "title": "Primary Care"
+            },
+            {
+                "slug": "cardiology",
+                "title": "Cardiology"
+            }
+        ],
+        "competitors": [
+            {
+                "slug": "athenahealth",
+                "title": "clinIQ vs athenahealth"
+            },
+            {
+                "slug": "eclinicalworks",
+                "title": "clinIQ vs eClinicalWorks"
+            }
+        ]
+    }
+}

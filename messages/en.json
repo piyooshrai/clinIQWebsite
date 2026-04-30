@@ -1,0 +1,471 @@
+{
+  "nav": {
+    "features": "Features",
+    "whoWeServe": "Who We Serve",
+    "compare": "Compare",
+    "locations": "Locations",
+    "resources": "Resources",
+    "requestDemo": "Request Demo",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "sections": {
+      "visitOperations": "Visit Operations",
+      "revenueCompliance": "Revenue & Compliance",
+      "patientEngagement": "Patient Engagement",
+      "remoteCare": "Remote Care",
+      "careSettings": "Care Settings",
+      "behavioralHealth": "Behavioral Health",
+      "painRehab": "Pain & Rehabilitation",
+      "surgeryProcedures": "Surgery & Procedures",
+      "primarySpecialty": "Primary & Specialty Care",
+      "patientIntake": "Patient Intake",
+      "ehr": "EHR",
+      "practiceManagement": "Practice Management",
+      "queueManagement": "Queue Management",
+      "scheduling": "Scheduling",
+      "alternatives": "Alternatives",
+      "middleEast": "Middle East",
+      "northAmerica": "North America",
+      "uk": "United Kingdom"
+    },
+    "links": {
+      "patientFlow": "Patient Flow",
+      "patientFlowDesc": "Real-time queue tracking",
+      "checkIn": "Check-In",
+      "checkInDesc": "Digital intake & verification",
+      "schedulingLink": "Scheduling",
+      "schedulingDesc": "Multi-provider calendar",
+      "analytics": "Analytics",
+      "analyticsDesc": "Bottleneck detection",
+      "allFeatures": "All Features →",
+      "rtm": "RTM Billing",
+      "rtmDesc": "CPT 98975–98981 automation",
+      "preAuth": "Pre-Authorization",
+      "preAuthDesc": "Payer approval workflows",
+      "telehealth": "Telehealth",
+      "telehealthDesc": "Virtual visit workflows",
+      "patientSatisfaction": "Patient Satisfaction",
+      "patientSatisfactionDesc": "Feedback & experience scores",
+      "secureMessaging": "Secure Messaging",
+      "secureMessagingDesc": "HIPAA-compliant messaging",
+      "patientApp": "Patient App",
+      "patientAppDesc": "Mobile patient portal",
+      "wearable": "Wearable Integration",
+      "wearableDesc": "Remote device data sync",
+      "secureFile": "Secure File Exchange",
+      "secureFileDesc": "Encrypted document sharing",
+      "fqhc": "FQHCs & Community Health",
+      "fqhcDesc": "Sliding scale + RTM billing",
+      "rural": "Rural Health Clinics",
+      "ruralDesc": "Small team, high volume",
+      "concierge": "Concierge & DPC",
+      "conciergeDesc": "Membership model ops",
+      "surgery": "Surgery Centers",
+      "surgeryDesc": "Pre-op to post-op flow",
+      "allPracticeTypes": "All practice types →",
+      "addictionMedicine": "Addiction Medicine",
+      "addictionMedicineDesc": "MAT protocol workflows",
+      "psychiatry": "Psychiatry",
+      "psychiatryDesc": "No-show reduction & RTM",
+      "behavioralHealthLink": "Behavioral Health",
+      "behavioralHealthDesc": "Therapeutic flow management",
+      "allSpecialties": "All specialties →",
+      "painManagement": "Pain Management",
+      "painManagementDesc": "High-volume procedure flow",
+      "physicalTherapy": "Physical Therapy",
+      "physicalTherapyDesc": "Multi-patient room tracking",
+      "chiropractic": "Chiropractic",
+      "chiropracticDesc": "High-volume intake",
+      "orthopedic": "Orthopedic Surgery",
+      "orthopedicDesc": "Pre-op & post-op flow",
+      "spineSurgery": "Spine Surgery",
+      "spineSurgeryDesc": "Conservative care tracking",
+      "generalSurgery": "General Surgery",
+      "generalSurgeryDesc": "OR-clinic coordination",
+      "primaryCare": "Primary Care",
+      "primaryCareDesc": "Same-day demand management",
+      "cardiology": "Cardiology",
+      "cardiologyDesc": "Echo & device coordination",
+      "urgentCare": "Urgent Care",
+      "urgentCareDesc": "Cut LWBS, crush wait times",
+      "vsPhreesia": "vs Phreesia",
+      "vsPhreesiaDesc": "Beyond intake to full operations",
+      "vsClearwave": "vs Clearwave",
+      "vsClearwaveDesc": "Kiosk to real-time flow",
+      "vsAthena": "vs athenahealth",
+      "vsAthenaDesc": "Operations layer for athenaOne",
+      "vsEcw": "vs eClinicalWorks",
+      "vsEcwDesc": "Operations layer for eCW",
+      "vsNextgen": "vs NextGen",
+      "vsNextgenDesc": "Operations layer for NextGen",
+      "vsAdvancedMd": "vs AdvancedMD",
+      "vsAdvancedMdDesc": "Operations layer add-on",
+      "vsTebra": "vs Tebra",
+      "vsTebraDesc": "Operations vs marketing focus",
+      "vsSimplePractice": "vs SimplePractice",
+      "vsSimplePracticeDesc": "Multi-provider ops + RTM",
+      "allComparisons": "View all comparisons →",
+      "vsQless": "vs QLess",
+      "vsQlessDesc": "Healthcare-specific flow",
+      "uae": "UAE",
+      "uaeDesc": "Dubai, Abu Dhabi, Sharjah",
+      "saudiArabia": "Saudi Arabia",
+      "saudiArabiaDesc": "Riyadh, Jeddah, Dammam",
+      "kuwait": "Kuwait",
+      "kuwaitDesc": "Kuwait City clinics",
+      "qatar": "Qatar",
+      "qatarDesc": "Doha clinics",
+      "bahrain": "Bahrain",
+      "bahrainDesc": "Manama clinics",
+      "unitedStates": "United States",
+      "unitedStatesDesc": "All 50 states",
+      "canada": "Canada",
+      "canadaDesc": "Toronto, Vancouver, Montreal",
+      "unitedKingdom": "United Kingdom",
+      "unitedKingdomDesc": "London, Manchester, Birmingham",
+      "allLocations": "All locations →"
+    }
+  },
+  "footer": {
+    "tagline": "Clinic operations that just work.",
+    "product": "Product",
+    "specialties": "Specialties",
+    "compare": "Compare",
+    "locations": "Locations",
+    "company": "Company",
+    "resources": "Resources",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact",
+    "pricing": "Pricing",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "copyright": "© 2026 The Algorithm LLC. All rights reserved.",
+    "hipaa": "Built following HIPAA guidelines."
+  },
+  "common": {
+    "requestDemo": "Request Demo",
+    "requestDemoArrow": "Request Demo →",
+    "learnMore": "Learn More",
+    "seeHowItWorks": "See How It Works",
+    "bookDemo": "Book a Demo",
+    "getStarted": "Get Started",
+    "viewAll": "View All",
+    "sending": "Sending…",
+    "submit": "Submit",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "practiceName": "Practice Name",
+    "specialty": "Specialty",
+    "numberOfProviders": "Number of Providers",
+    "message": "Message / Notes",
+    "interests": "Interests",
+    "required": "*",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "successTitle": "You're on the list.",
+    "successBody": "We'll be in touch within 24 hours. Check your email for confirmation."
+  },
+  "hero": {
+    "badge": "Clinic Operations Software",
+    "title1": "Patient Flow Software",
+    "title2": "Built for",
+    "titleEm": "Real Clinics.",
+    "description": "clinIQ is the clinic operations platform that brings real-time patient queue management, digital patient check-in, RTM billing, and pre-authorization automation together — sitting on top of your existing EHR. Capture $120–$150 per RTM patient monthly. Cut wait times 22% in the first month.",
+    "requestDemo": "Request Demo",
+    "seeHowItWorks": "See How It Works",
+    "quickFormEmail": "Work email",
+    "quickFormPractice": "Practice name",
+    "quickFormCta": "Get a 15-min walkthrough",
+    "quickFormNote": "No demo deck. We walk through your exact workflow.",
+    "quickFormSent": "Thanks — we'll reach out within one business day.",
+    "quickFormError": "Something went wrong. Try again, email info@cliniqhealthcare.com, or call 720.334.7249."
+  },
+  "features": {
+    "badge": "Core Workflow",
+    "heading": "Everything your clinic runs on.",
+    "subheading": "One platform. Real-time patient flow, digital check-in, RTM billing, and pre-authorization — all connected, all visible.",
+    "revenueBadge": "Revenue & Engagement",
+    "revenueHeading": "Capture revenue you're already earning.",
+    "revenueSubheading": "RTM billing, pre-authorization, and patient engagement tools that run alongside your clinical workflow — no new logins, no new processes.",
+    "cards": {
+      "patientFlow": {
+        "title": "Real-Time Patient Flow",
+        "desc": "Live queue dashboard for every room, provider, and status. No whiteboards. No guessing."
+      },
+      "checkIn": {
+        "title": "Digital Patient Check-In",
+        "desc": "Patients check in from their phone before arrival. Forms, insurance, consent — done before they walk in."
+      },
+      "scheduling": {
+        "title": "Smart Scheduling",
+        "desc": "Multi-provider calendar with demand forecasting. Fill cancellations automatically."
+      },
+      "analytics": {
+        "title": "Clinic Analytics",
+        "desc": "Bottleneck detection, provider utilization, and wait-time trends — updated in real time."
+      },
+      "rtm": {
+        "title": "RTM Billing Automation",
+        "desc": "Capture CPT 98975–98981 revenue automatically. Enrollment, compliance tracking, billing — handled."
+      },
+      "preAuth": {
+        "title": "Pre-Authorization",
+        "desc": "Submit prior auth requests in seconds. Track approvals, denials, and appeals in one place."
+      }
+    }
+  },
+  "howItWorks": {
+    "badge": "How It Works",
+    "heading": "From day one to full operations in days.",
+    "steps": {
+      "connect": {
+        "num": "01",
+        "title": "Connect your EHR",
+        "desc": "clinIQ sits on top of your existing EHR — no replacement, no data migration. We connect in hours."
+      },
+      "configure": {
+        "num": "02",
+        "title": "Configure for your specialty",
+        "desc": "We set up your patient flow rules, room assignments, RTM eligibility criteria, and pre-auth payer list."
+      },
+      "checkin": {
+        "num": "03",
+        "title": "Patients check in digitally",
+        "desc": "Patients get a text before arrival. They complete intake, insurance, and consent on their phone."
+      },
+      "flow": {
+        "num": "04",
+        "title": "Staff sees live patient flow",
+        "desc": "Every provider, room, and patient status is visible in real time. No walkie-talkies needed."
+      },
+      "revenue": {
+        "num": "05",
+        "title": "RTM and billing run automatically",
+        "desc": "clinIQ flags RTM-eligible patients, tracks compliance minutes, and routes billing codes — hands-free."
+      }
+    }
+  },
+  "problem": {
+    "badge": "The Problem",
+    "heading": "Your EHR records care. It doesn't run your clinic.",
+    "subheading": "EHRs are built for documentation and billing. They were never designed to manage patient flow, coordinate real-time room status, or automate RTM compliance. clinIQ fills that gap.",
+    "pains": {
+      "whiteboards": {
+        "title": "Whiteboards still running patient tracking",
+        "desc": "Erasable and invisible to anyone not in the room. One nurse's absence and the whole system breaks."
+      },
+      "checkin": {
+        "title": "Check-in lines backing up at 9am",
+        "desc": "Paper clipboards, front desk bottlenecks, insurance verification that takes 7 minutes per patient."
+      },
+      "rtm": {
+        "title": "RTM revenue sitting uncollected",
+        "desc": "You're probably eligible for CPT 98975–98981 billing right now. Without automation, you're not capturing it."
+      },
+      "preauth": {
+        "title": "Pre-auth denials arriving after the appointment",
+        "desc": "Manual prior auth means approvals come after the visit — leaving revenue on the table and patients frustrated."
+      },
+      "reporting": {
+        "title": "No visibility into what's actually slowing you down",
+        "desc": "You know things feel slow, but you can't see which provider, room, or step is the actual bottleneck."
+      }
+    },
+    "cta": "See how clinIQ fixes this"
+  },
+  "opsLayer": {
+    "badge": "EHR Integration",
+    "heading": "Sits on top of your EHR. Doesn't replace it.",
+    "subheading": "clinIQ connects to your existing system. Your staff keeps their EHR workflow. clinIQ adds the operational layer they've been missing.",
+    "works": "Works with",
+    "andMore": "and more"
+  },
+  "specialtiesSection": {
+    "badge": "Built for Your Specialty",
+    "heading": "Not generic healthcare software.",
+    "cards": {
+      "behavioral": {
+        "title": "Behavioral Health",
+        "desc": "No-show reduction, MAT protocol tracking, and RTM billing built for behavioral health and addiction medicine clinics."
+      },
+      "orthopedic": {
+        "title": "Orthopedic & Surgery",
+        "desc": "Pre-op to post-op patient flow, surgical scheduling, and prior auth automation for high-volume procedures."
+      },
+      "physical": {
+        "title": "Physical Therapy",
+        "desc": "Multi-patient room management, visit-cap tracking, and RTM compliance for PT clinics with 20+ patients per day."
+      }
+    },
+    "viewAll": "View all specialties"
+  },
+  "stats": {
+    "heading": "Numbers that matter to clinic operators.",
+    "items": {
+      "waitTime": { "value": "22%", "label": "reduction in patient wait time" },
+      "rtmRevenue": { "value": "$140", "label": "avg monthly RTM revenue per patient" },
+      "checkIn": { "value": "3 min", "label": "average digital check-in time" },
+      "preAuth": { "value": "80%", "label": "fewer pre-auth denials" }
+    }
+  },
+  "testimonial": {
+    "heading": "From clinics using clinIQ.",
+    "quote": "We went from a whiteboard and sticky notes to a real-time dashboard in four days. Our front desk team stopped getting yelled at. RTM billing is now on autopilot — we collected $18,400 in the first quarter we didn't even know we were eligible for.",
+    "author": "Operations Director, Multi-location PT group — Denver, CO"
+  },
+  "faq": {
+    "heading": "Frequently asked questions.",
+    "items": {
+      "q1": "What is clinIQ?",
+      "a1": "clinIQ is a clinic operations platform that adds real-time patient flow management, digital check-in, RTM billing automation, and pre-authorization tracking on top of your existing EHR. It is not a replacement for your EHR — it is the operational layer your EHR was never built to provide.",
+      "q2": "How long does it take to go live?",
+      "a2": "Most clinics are fully operational within 3–5 business days. EHR connection is same-day for supported systems. Staff training takes under two hours.",
+      "q3": "Will it work with my EHR?",
+      "a3": "clinIQ integrates with all major EHR systems including Epic, athenahealth, eClinicalWorks, Cerner, NextGen, AdvancedMD, and Tebra. If yours is not on that list, ask us — we likely have a connector or can build one.",
+      "q4": "What is RTM billing and how does clinIQ automate it?",
+      "a4": "Remote Therapeutic Monitoring (RTM) is a set of Medicare and commercial payer CPT codes (98975–98981) that allow clinics to bill for monitoring patients between visits using connected devices or apps. clinIQ identifies eligible patients, tracks compliance minutes automatically, and routes billing codes to your billing team or clearinghouse.",
+      "q5": "What does RTM billing pay per patient?",
+      "a5": "Most clinics average $120–$150 per RTM-enrolled patient per month. A 50-patient RTM panel generates approximately $6,000–$7,500 in additional monthly revenue — with minimal added staff workload.",
+      "q6": "How does the digital check-in work?",
+      "a6": "Patients receive an SMS or email before their appointment. They complete intake forms, insurance verification, and consent on their smartphone — before they arrive. When they walk in, front desk check-in takes under 60 seconds.",
+      "q7": "How does pre-authorization automation work?",
+      "a7": "clinIQ pulls procedure and payer data from your schedule, submits prior auth requests electronically, and tracks approval status in a single dashboard. Denials trigger automatic appeal workflows. You stop chasing approvals.",
+      "q8": "Is clinIQ HIPAA compliant?",
+      "a8": "Yes. clinIQ is built to HIPAA standards with end-to-end encryption, role-based access controls, and a signed BAA for every clinic. All data is stored and transmitted within HIPAA-compliant infrastructure.",
+      "q9": "How is clinIQ different from our EHR?",
+      "a9": "Your EHR is a medical record and billing system. clinIQ is an operations platform. EHRs track what happened — clinIQ manages what is happening right now: who is waiting, who is with a provider, which RTM patients are compliant this month, which prior auths are pending. These are different jobs.",
+      "q10": "What does clinIQ cost?",
+      "a10": "Pricing is based on clinic size and modules selected. Most clinics recover the full cost within the first month through RTM billing alone. Request a demo and we will put together a specific ROI projection for your patient volume."
+    }
+  },
+  "cta": {
+    "heading": "Ready to see clinIQ in action?",
+    "subheading": "15 minutes. We configure it for your specialty. No slide deck.",
+    "primary": "Request Demo",
+    "secondary": "See How It Works"
+  },
+  "demo": {
+    "badge": "Schedule a Demo",
+    "title1": "See clinIQ",
+    "titleEm": "in action.",
+    "subtitle": "15 minutes. Configured for your specialty. No 47-slide deck.",
+    "whatYoullSee": "What you'll see",
+    "features": {
+      "f1": "Real-time patient flow dashboard configured for your specialty",
+      "f2": "Digital check-in flow — from patient arrival to room assignment in under 3 minutes",
+      "f3": "RTM billing workflow — CPT 98975–98981 enrollment and compliance tracking",
+      "f4": "Pre-authorization automation — live payer submission demo",
+      "f5": "Analytics dashboard — RTM compliance, throughput, revenue per provider"
+    },
+    "stats": {
+      "demo": "15 min",
+      "demoLabel": "Average demo",
+      "response": "<24 hrs",
+      "responseLabel": "Response time",
+      "live": "Days",
+      "liveLabel": "To go live"
+    },
+    "formTitle": "Request your demo",
+    "formCta": "Request Demo →",
+    "formSending": "Sending…",
+    "interests": {
+      "checkIn": "Patient Check-In",
+      "flow": "Real-Time Patient Flow",
+      "rtm": "RTM Billing",
+      "preAuth": "Pre-Authorization",
+      "scheduling": "Scheduling",
+      "messaging": "Secure Messaging",
+      "analytics": "Analytics"
+    },
+    "specialties": {
+      "pt": "Physical Therapy",
+      "ortho": "Orthopedic Surgery",
+      "pain": "Pain Management",
+      "behavioral": "Behavioral Health / Psychiatry",
+      "primary": "Primary Care",
+      "urgent": "Urgent Care",
+      "neuro": "Neurology",
+      "cardio": "Cardiology",
+      "derm": "Dermatology",
+      "onco": "Oncology",
+      "other": "Other"
+    },
+    "providers": {
+      "p1": "1–2",
+      "p2": "3–5",
+      "p3": "6–10",
+      "p4": "11–25",
+      "p5": "26–50",
+      "p6": "50+"
+    }
+  },
+  "contact": {
+    "badge": "Get in Touch",
+    "title": "We're here to help.",
+    "subtitle": "Whether you're ready to demo, have a quick question, or want to explore how clinIQ fits your workflow — we respond fast.",
+    "methods": {
+      "demo": {
+        "title": "Request a Demo",
+        "desc": "See clinIQ configured for your specialty in 15 minutes.",
+        "cta": "Book Demo"
+      },
+      "sales": {
+        "title": "Talk to Sales",
+        "desc": "Get pricing, ROI projections, and integration questions answered.",
+        "cta": "Email Sales"
+      },
+      "support": {
+        "title": "Support",
+        "desc": "Already a customer? Our support team responds in under 2 hours.",
+        "cta": "Email Support"
+      },
+      "phone": {
+        "title": "Call Us",
+        "desc": "Prefer to talk? Our team is available during business hours.",
+        "cta": "720.334.7249"
+      }
+    },
+    "formTitle": "Send a message",
+    "formSubject": "Subject",
+    "formMessage": "Your message",
+    "formCta": "Send Message",
+    "successTitle": "Message sent.",
+    "successBody": "We'll respond within one business day."
+  },
+  "about": {
+    "badge": "About clinIQ",
+    "title": "An ACO in a Box — built for independent clinics.",
+    "subtitle": "clinIQ brings the operational infrastructure of an Accountable Care Organization to independent practices that can't afford enterprise healthcare software.",
+    "mission": {
+      "heading": "Our Mission",
+      "body": "Independent clinics deliver the majority of care in the United States — and they're being squeezed from every direction. Insurance reimbursements down. Administrative burden up. Staff burnout accelerating. clinIQ exists to level the playing field. We give independent practices the same operational firepower as large hospital systems — without requiring them to replace their EHR, hire a team of consultants, or spend 18 months on implementation."
+    },
+    "vision": {
+      "heading": "The Vision",
+      "body": "An ACO in a Box means every clinic — regardless of size — has real-time patient flow visibility, automated revenue capture, and pre-authorization compliance built in. Not bolted on after the fact. Not sold as ten separate tools. One platform, configured for your specialty, live in days."
+    },
+    "cta": {
+      "demo": "Request Demo",
+      "team": "Meet the Team"
+    }
+  },
+  "pricing": {
+    "badge": "Pricing",
+    "title": "Transparent pricing. No surprises.",
+    "subtitle": "Most clinics recover the full platform cost in the first month through RTM billing alone.",
+    "cta": "Request Demo for Pricing",
+    "note": "All plans include EHR integration, onboarding, and support. Pricing based on clinic size and modules selected."
+  },
+  "solutions": {
+    "badge": "Solutions",
+    "title": "Built for your practice type.",
+    "subtitle": "clinIQ is configured differently for every practice type. Not a generic platform — a specialty-specific operations layer."
+  },
+  "languageSwitcher": {
+    "switchToArabic": "Switch to Arabic",
+    "switchToEnglish": "Switch to English",
+    "switchToSpanish": "Switch to Spanish"
+  }
+}
