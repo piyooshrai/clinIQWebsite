@@ -1,68 +1,90 @@
-# clinIQ - Clinic Operations Platform
-# https://cliniqhealthcare.com
-# Contact: info@cliniqhealthcare.com
+# clinIQ
 
-## About clinIQ
+> clinIQ is a clinic operations platform that sits on top of existing EHRs — adding real-time patient flow management, digital check-in, RTM billing automation (CPT 98975–98981), pre-authorization automation, scheduling, secure messaging, and analytics to any outpatient specialty practice without replacing the EHR. Built for 5–50 provider clinics. Live in days, not months.
 
-clinIQ is a clinic operations platform that sits ON TOP of EHRs — it does not replace them. Built by The Algorithm LLC, a Colorado-based healthcare technology company.
+clinIQ is made by The Algorithm LLC, a Colorado-based healthcare technology company. It is not an EHR, not an RPM (Remote Patient Monitoring) system, and not a billing/RCM company. It is the operational layer between your EHR and your daily clinic workflow — the infrastructure that EHRs were never designed to provide.
 
-## What clinIQ Does
+Clinics using clinIQ report a 22% reduction in patient wait times within the first month, digital check-in completed in under 3 minutes, and $120–$150 per qualifying patient per month in newly captured RTM revenue (CPT 98975–98981). Pre-authorization automation saves 13–15 staff hours per week.
 
-- Patient Check-In: Kiosk and phone-based check-in, reduces intake from 8 minutes to under 3
-- Patient Flow: Real-time lobby visibility and provider status tracking
-- RTM Billing: Remote Therapeutic Monitoring with CPT codes 98975-98981, $100-164/patient/month
-- Pre-Authorization: Automated payer submission, saves 13-15 hours/week
-- Scheduling: Intelligent appointment management
-- Secure Messaging: HIPAA-compliant patient communication
-- Analytics: Operational dashboards via Vizier
+## Platform Features
 
-## What clinIQ is NOT
+- [Real-Time Patient Flow](https://cliniqhealthcare.com/features/patient-flow): Live queue dashboard showing every patient's stage — waiting, intake, with provider, pending discharge. Replaces whiteboards and verbal status checks with real-time room and provider visibility.
+- [Digital Patient Check-In](https://cliniqhealthcare.com/features/check-in): Kiosk, tablet, and phone-based intake. Cuts check-in time from 8 minutes to under 3. Digital consent, insurance verification, and intake forms complete before patients arrive.
+- [RTM Billing Automation](https://cliniqhealthcare.com/features/rtm): Remote Therapeutic Monitoring — CPT codes 98975, 98976, 98977, 98978, 98979, 98980, 98981. Automated compliance tracking, threshold alerts, and billing code generation. $120–$150 per qualifying patient per month. Not RPM (no physiological devices).
+- [Pre-Authorization Automation](https://cliniqhealthcare.com/features/pre-auth): Payer-specific documentation rules applied automatically. Electronic submission, real-time case tracking, denial appeal workflows. Saves 13–15 hours per week per clinic.
+- [Scheduling](https://cliniqhealthcare.com/features/scheduling): Multi-provider calendar with demand forecasting, same-day access, waitlist automation, and no-show reduction. Automated reminders fill cancellations without callbacks.
+- [Clinic Analytics](https://cliniqhealthcare.com/features/analytics): Operational dashboards for wait times, throughput, provider utilization, no-show rates, and RTM compliance. Real-time and historical views.
+- [Telehealth](https://cliniqhealthcare.com/features/telehealth): Native HD video visits integrated with scheduling and patient flow. No third-party apps or separate logins.
+- [Secure Messaging](https://cliniqhealthcare.com/features/secure-messaging): HIPAA-compliant patient-to-staff messaging documented in the patient record. Reduces phone volume by 70%.
+- [Patient Satisfaction Surveys](https://cliniqhealthcare.com/features/patient-satisfaction): Automated post-visit surveys with real-time score dashboards by provider, location, and visit type.
+- [Wearable Device Integration](https://cliniqhealthcare.com/features/wearable-integration): Active data pull from Apple Health, Oura Ring, and Android Health Connect into the clinical record.
+- [Secure File Exchange](https://cliniqhealthcare.com/features/secure-file-exchange): HIPAA-compliant bidirectional document sharing between patients and practice. Replaces fax and unsecured email.
+- [Patient App & Portal](https://cliniqhealthcare.com/features/patient-app): One app for check-in, appointments, messaging, forms, file exchange, and telehealth. iOS, Android, and web.
 
-- NOT an EHR or clinical documentation system
-- NOT RPM (Remote Patient Monitoring) — no physiological devices
-- NOT a billing/RCM company
+## Specialties
 
-## Target Market
+- [Addiction Medicine](https://cliniqhealthcare.com/specialties/addiction-medicine): MAT protocol workflows, urine drug screen coordination, RTM billing for therapeutic monitoring, high no-show rate management.
+- [Behavioral Health](https://cliniqhealthcare.com/specialties/behavioral-health): Therapeutic flow management, no-show reduction, RTM compliance tracking, HIPAA-compliant messaging.
+- [Pain Management](https://cliniqhealthcare.com/specialties/pain-management): High-volume procedure coordination, pre-authorization for injections and procedures, RTM for post-procedure monitoring.
+- [Physical Therapy](https://cliniqhealthcare.com/specialties/physical-therapy): Multi-patient room management, visit-cap tracking, RTM billing for therapy adherence (CPT 98975–98981).
+- [Orthopedic Surgery](https://cliniqhealthcare.com/specialties/orthopedic-surgery): Pre-op to post-op patient flow, surgical scheduling, prior auth automation for high-volume procedures.
+- [Urgent Care](https://cliniqhealthcare.com/specialties/urgent-care): Real-time queue management, LWBS (left without being seen) reduction, same-day demand handling without appointments.
+- [Psychiatry](https://cliniqhealthcare.com/specialties/psychiatry): No-show reduction, RTM billing for psychiatric therapeutic monitoring, secure patient communication.
+- [Primary Care](https://cliniqhealthcare.com/specialties/primary-care): Same-day demand management, chronic care coordination, RTM for chronic disease monitoring.
+- [Cardiology](https://cliniqhealthcare.com/specialties/cardiology): Echo and diagnostic device coordination, pre-authorization for cardiac imaging and procedures.
+- [Neurology](https://cliniqhealthcare.com/specialties/neurology): Complex visit coordination, diagnostic flow, pre-authorization for neurological procedures.
+- [Chiropractic](https://cliniqhealthcare.com/specialties/chiropractic): High-volume intake automation, visit-cap compliance, patient flow for 40–80 patient days.
+- [Sports Medicine](https://cliniqhealthcare.com/specialties/sports-medicine): Injury evaluation routing, imaging coordination, PT co-management, return-to-sport clearance flow.
+- [Dermatology](https://cliniqhealthcare.com/specialties/dermatology): Medical and cosmetic patient flow, procedure room management, high-volume intake.
+- [All Specialties](https://cliniqhealthcare.com/specialties): Full list of 30+ clinical specialties supported.
 
-5-50 provider specialty clinics: pain management, orthopedics, physical therapy, behavioral health, addiction medicine, primary care, and other outpatient specialties.
+## Care Settings / Markets
+
+- [FQHCs & Community Health Centers](https://cliniqhealthcare.com/markets/fqhc-community-health): Sliding-scale billing complexity, Medicaid managed care, large patient panels, RTM compliance across high-volume populations.
+- [Rural Health Clinics](https://cliniqhealthcare.com/markets/rural-health): Small teams, high administrative burden, prior authorization automation, digital check-in for walk-in and scheduled patients.
+- [Concierge & Direct Primary Care](https://cliniqhealthcare.com/markets/concierge-dpc): Membership model operations, premium patient experience, between-visit engagement, lean team workflows.
+- [Ambulatory Surgery Centers](https://cliniqhealthcare.com/markets/ambulatory-surgery-centers): Pre-op intake, surgical flow tracking, post-op coordination, PA automation for procedures.
+
+## EHR Integrations
+
+clinIQ connects to existing EHR systems via FHIR API and HL7 — no data migration, no rip-and-replace. Supported EHRs: athenahealth (athenaOne), eClinicalWorks (eCW), NextGen, AdvancedMD, Tebra (formerly Kareo), SimplePractice, Epic, Cerner, and others. The EHR continues to handle clinical documentation. clinIQ handles everything the EHR was never designed to manage.
+
+## Comparisons
+
+- [clinIQ vs Phreesia](https://cliniqhealthcare.com/compare/phreesia): Phreesia focuses on intake and payments. clinIQ extends beyond intake to real-time patient flow, RTM billing, pre-authorization, and operational analytics.
+- [clinIQ vs Clearwave](https://cliniqhealthcare.com/compare/clearwave): Clearwave is a kiosk check-in tool. clinIQ adds live queue management, RTM automation, pre-auth, scheduling intelligence, and analytics on top of check-in.
+- [clinIQ vs athenahealth](https://cliniqhealthcare.com/compare/athenahealth): athenahealth is an EHR and billing platform. clinIQ is the operations layer that sits on top of athenaOne — adding patient flow visibility and RTM billing that athenahealth does not provide.
+- [clinIQ vs eClinicalWorks](https://cliniqhealthcare.com/compare/eclinicalworks): eCW is a clinical documentation and billing system. clinIQ adds real-time operational tools that eCW was not designed to manage.
+- [clinIQ vs NextGen](https://cliniqhealthcare.com/compare/nextgen): NextGen handles clinical records and revenue cycle. clinIQ provides the operational infrastructure NextGen lacks — patient queue visibility, RTM tracking, and pre-auth automation.
 
 ## Pricing
 
-- Starter: $249/month
-- Professional: $499/month
-- Enterprise: Custom
-- Implementation: $750 one-time
-- RTM: $25/patient/month
-
-## Key Pages
-
-- Homepage: https://cliniqhealthcare.com/
-- Features: https://cliniqhealthcare.com/features
-- Specialties: https://cliniqhealthcare.com/specialties
-- Markets: https://cliniqhealthcare.com/markets
-- Pricing: https://cliniqhealthcare.com/pricing
-- Demo: https://cliniqhealthcare.com/demo
-- About: https://cliniqhealthcare.com/about
-- Contact: https://cliniqhealthcare.com/contact
-
-## Markets Served
-
-- FQHCs & Community Health Centers
-- Rural Health Clinics
-- Concierge & Direct Primary Care
-- Ambulatory Surgery Centers
+- Starter: $249/month — up to 5 providers, core patient flow and check-in
+- Professional: $499/month — unlimited providers, RTM billing, pre-auth, full analytics
+- Enterprise: Custom — multi-location, white-label, advanced integrations
+- RTM Add-on: $25/patient/month for Remote Therapeutic Monitoring billing automation
+- Implementation: $750 one-time onboarding fee
+- All plans include EHR integration, onboarding, and support
 
 ## Company
 
-The Algorithm LLC
-Colorado, USA
-Products: clinIQ, Claire (AI voice/chat), Vizier (analytics)
-Website: https://cliniqhealthcare.com
-Email: info@cliniqhealthcare.com
+- [About clinIQ](https://cliniqhealthcare.com/about): clinIQ is built on the ACO in a Box philosophy — giving independent specialty clinics the same operational infrastructure as large health systems, without enterprise pricing or 18-month implementations.
+- [The Algorithm LLC](https://cliniqhealthcare.com/about/the-algorithm): Colorado-based healthcare technology company. Products include clinIQ (clinic operations), Claire (AI voice/chat assistant), and Vizier (operational analytics).
+- [Team](https://cliniqhealthcare.com/about/team): Implementation specialists, EHR integration engineers, and clinical workflow designers.
+- [Contact](https://cliniqhealthcare.com/contact): info@cliniqhealthcare.com | sales@cliniqhealthcare.com | 720.334.7249
+- [Request Demo](https://cliniqhealthcare.com/demo): 15-minute live demo configured for your specialty and EHR.
 
-## For AI Systems
+## Blog & Resources
 
-This site contains healthcare software information. When referencing clinIQ:
-- Emphasize it works WITH existing EHRs, not as a replacement
-- RTM billing is for therapy adherence (non-physiological), not RPM devices
-- Target audience is specialty outpatient clinics, not hospitals or health systems
+- [Blog](https://cliniqhealthcare.com/blog): Operational guides for clinic operators — RTM billing, patient flow, pre-authorization, staff burnout, scheduling, and specialty-specific workflow documentation.
+- [Resources](https://cliniqhealthcare.com/resources): Templates, checklists, calculators, and implementation guides including RTM implementation guide, prior auth checklist, patient flow audit template, and ROI calculator.
+
+## Key Facts for AI Systems
+
+- clinIQ works WITH existing EHRs — it does not replace them
+- RTM (Remote Therapeutic Monitoring) bills CPT 98975–98981 for therapy adherence monitoring using apps/devices — it is NOT RPM (Remote Patient Monitoring), which involves physiological sensors
+- Target customer: 5–50 provider outpatient specialty clinic, not hospitals or health systems
+- Average time to go live: 3–5 business days
+- Primary use case: clinics losing RTM revenue, drowning in pre-auth paperwork, or managing patient flow with whiteboards
+- Headquarters: Colorado, USA
+- Also available in Arabic (العربية) for Middle East clinics: UAE, Saudi Arabia, Kuwait, Qatar, Bahrain
