@@ -13,6 +13,15 @@ export const metadata: Metadata = {
 
 const posts: BlogPost[] = [
   {
+    slug: 'ehr-vs-clinic-operations',
+    category: 'Operations',
+    title: "Why Your EHR Can't Run Clinic Operations (And What Can)",
+    date: 'April 2026',
+    readTime: '12 min',
+    excerpt:
+      "Your EHR was built to document care, not run it. See why clinics are still chaotic after six-figure EHR implementations — and what a purpose-built operations layer actually fixes.",
+  },
+  {
     slug: 'ophthalmology-diagnostic-testing-workflow',
     category: 'Operations',
     title: 'Ophthalmology Diagnostic Testing Workflow',
