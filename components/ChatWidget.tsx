@@ -202,11 +202,6 @@ export default function ChatWidget() {
   const typeTimerRef = useRef<NodeJS.Timeout | null>(null)
   const messagesEndRef = useRef<HTMLDivElement>(null)
 
-  // Disable on /contact and /demo pages
-  if (pathname === '/contact' || pathname === '/demo') {
-    return null
-  }
-
   // Initialize persona on mount
   useEffect(() => {
     setPersona(selectPersona())
@@ -216,6 +211,11 @@ export default function ChatWidget() {
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
   }, [messages, isTyping])
+
+  // Disable on /contact and /demo pages (must be after all hooks)
+  if (pathname === '/contact' || pathname === '/demo') {
+    return null
+  }
 
   if (!persona) return null
 
