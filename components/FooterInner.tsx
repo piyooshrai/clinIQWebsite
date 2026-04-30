@@ -1,8 +1,11 @@
-import Link from 'next/link';
-import Image from 'next/image';
-import styles from './FooterInner.module.css';
+import Link from 'next/link'
+import Image from 'next/image'
+import { useTranslations } from 'next-intl'
+import styles from './FooterInner.module.css'
 
 export default function FooterInner() {
+  const t = useTranslations('footer')
+
   return (
     <footer className={styles.footer}>
       <div className="container">
@@ -17,26 +20,18 @@ export default function FooterInner() {
                 style={{ height: '64px', width: 'auto' }}
               />
             </Link>
-            <p className={styles.footerTagline}>Clinic operations that just work.</p>
+            <p className={styles.footerTagline}>{t('tagline')}</p>
             <ul className={styles.footerContact}>
-              <li>
-                <a href="tel:+17203347249">720.334.7249</a>
-              </li>
-              <li>
-                <a href="mailto:info@cliniqhealthcare.com">info@cliniqhealthcare.com</a>
-              </li>
-              <li>
-                <a href="mailto:sales@cliniqhealthcare.com">sales@cliniqhealthcare.com</a>
-              </li>
-              <li>
-                <a href="mailto:support@cliniqhealthcare.com">support@cliniqhealthcare.com</a>
-              </li>
+              <li><a href="tel:+17203347249">720.334.7249</a></li>
+              <li><a href="mailto:info@cliniqhealthcare.com">info@cliniqhealthcare.com</a></li>
+              <li><a href="mailto:sales@cliniqhealthcare.com">sales@cliniqhealthcare.com</a></li>
+              <li><a href="mailto:support@cliniqhealthcare.com">support@cliniqhealthcare.com</a></li>
             </ul>
           </div>
 
           <div className={styles.footerLinks}>
             <div className={styles.footerCol}>
-              <h4 className={styles.footerHeading}>Product</h4>
+              <h4 className={styles.footerHeading}>{t('product')}</h4>
               <ul>
                 <li><Link href="/features/patient-flow">Patient Flow</Link></li>
                 <li><Link href="/features/check-in">Check-In</Link></li>
@@ -54,7 +49,7 @@ export default function FooterInner() {
             </div>
 
             <div className={styles.footerCol}>
-              <h4 className={styles.footerHeading}>Specialties</h4>
+              <h4 className={styles.footerHeading}>{t('specialties')}</h4>
               <ul>
                 <li><Link href="/specialties/urgent-care">Urgent Care</Link></li>
                 <li><Link href="/specialties/addiction-medicine">Addiction Medicine</Link></li>
@@ -64,7 +59,7 @@ export default function FooterInner() {
             </div>
 
             <div className={styles.footerCol}>
-              <h4 className={styles.footerHeading}>Compare</h4>
+              <h4 className={styles.footerHeading}>{t('compare')}</h4>
               <ul>
                 <li><Link href="/compare/phreesia">vs Phreesia</Link></li>
                 <li><Link href="/compare/clearwave">vs Clearwave</Link></li>
@@ -73,7 +68,7 @@ export default function FooterInner() {
             </div>
 
             <div className={styles.footerCol}>
-              <h4 className={styles.footerHeading}>Locations</h4>
+              <h4 className={styles.footerHeading}>{t('locations')}</h4>
               <ul>
                 <li><Link href="/locations/united-states">United States</Link></li>
                 <li><Link href="/locations/uae">UAE</Link></li>
@@ -83,25 +78,25 @@ export default function FooterInner() {
             </div>
 
             <div className={styles.footerCol}>
-              <h4 className={styles.footerHeading}>Company</h4>
+              <h4 className={styles.footerHeading}>{t('company')}</h4>
               <ul>
-                <li><Link href="/resources">Resources</Link></li>
-                <li><Link href="/blog">Blog</Link></li>
-                <li><Link href="/about">About</Link></li>
-                <li><Link href="/contact">Contact</Link></li>
-                <li><Link href="/pricing">Pricing</Link></li>
-                <li><Link href="/privacy">Privacy</Link></li>
-                <li><Link href="/terms">Terms</Link></li>
+                <li><Link href="/resources">{t('resources')}</Link></li>
+                <li><Link href="/blog">{t('blog')}</Link></li>
+                <li><Link href="/about">{t('about')}</Link></li>
+                <li><Link href="/contact">{t('contact')}</Link></li>
+                <li><Link href="/pricing">{t('pricing')}</Link></li>
+                <li><Link href="/privacy">{t('privacy')}</Link></li>
+                <li><Link href="/terms">{t('terms')}</Link></li>
               </ul>
             </div>
           </div>
         </div>
 
         <div className={styles.footerBottom}>
-          <p>&copy; 2026 The Algorithm LLC. All rights reserved.</p>
-          <p>Built following HIPAA guidelines.</p>
+          <p>{t('copyright')}</p>
+          <p>{t('hipaa')}</p>
         </div>
       </div>
     </footer>
-  );
+  )
 }

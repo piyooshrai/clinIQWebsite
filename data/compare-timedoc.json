@@ -1,0 +1,155 @@
+{
+    "slug": "timedoc",
+    "name": "clinIQ vs TimeDoc Health",
+    "pageType": "compare-pillar",
+    "wordCount": 1700,
+    "publishDate": "2026-03-11",
+    "meta": {
+        "title": "clinIQ vs TimeDoc Health | RTM Platform Comparison | Full Operations",
+        "description": "TimeDoc focuses on CCM and RPM billing. clinIQ provides RTM billing plus real-time patient flow, check-in, pre-authorization, and full clinic operations in one platform.",
+        "keywords": [
+            "TimeDoc alternative",
+            "TimeDoc vs",
+            "TimeDoc Health",
+            "CCM software",
+            "RPM platform",
+            "chronic care management",
+            "remote patient monitoring software"
+        ]
+    },
+    "hero": {
+        "h1": "clinIQ vs TimeDoc Health",
+        "subhead": "TimeDoc Health built care management software for CCM, RPM, and chronic care billing. clinIQ provides RTM billing integrated with real-time patient flow, check-in automation, pre-authorization tracking, and full clinic operations. One platform covering the entire clinic, not just chronic care.",
+        "stats": [
+            {
+                "value": "Full clinic",
+                "label": "operations included"
+            },
+            {
+                "value": "$112",
+                "label": "avg RTM revenue per patient"
+            },
+            {
+                "value": "One platform",
+                "label": "vs care management only"
+            }
+        ]
+    },
+    "gatedContent": {
+        "title": "RTM Revenue Calculator + Compliance Checklist",
+        "description": "Calculate your RTM revenue opportunity and ensure compliant billing with CPT codes 98975-98981.",
+        "format": "PDF",
+        "placeholder": true
+    },
+    "tableOfContents": [
+        {
+            "id": "scope-difference",
+            "title": "Scope Difference"
+        },
+        {
+            "id": "timedoc-strengths",
+            "title": "What TimeDoc Does Well"
+        },
+        {
+            "id": "beyond-care-management",
+            "title": "Beyond Care Management"
+        },
+        {
+            "id": "rtm-approach",
+            "title": "RTM Approach"
+        },
+        {
+            "id": "operations-integration",
+            "title": "Operations Integration"
+        },
+        {
+            "id": "faqs",
+            "title": "FAQs"
+        }
+    ],
+    "sections": [
+        {
+            "id": "scope-difference",
+            "h2": "Different Scope and Focus",
+            "content": "TimeDoc Health and clinIQ serve different operational scopes. The difference determines which platform fits practice needs.\n\nTimeDoc Health is a care management platform focused on Chronic Care Management, Remote Patient Monitoring, and related billing programs. The platform helps practices capture revenue from chronic disease patient engagement between visits. It is purpose-built for care management workflows.\n\nclinIQ is a clinic operations platform where [RTM billing](/features/rtm-billing) is one module among many. The platform also provides [patient flow](/features/patient-flow) tracking, [check-in](/features/patient-check-in), [scheduling](/features/scheduling), [pre-authorization](/features/pre-authorization), [analytics](/features/analytics), and other operational capabilities. Chronic care revenue is part of comprehensive operations.\n\nPractices whose sole need is care management billing may evaluate TimeDoc specifically. Practices with broader operational needs benefit from clinIQ's integrated approach that addresses care management alongside patient flow, check-in, and pre-authorization.\n\nThe choice depends on operational scope. Single-need practices may prefer focused tools. Practices with multiple operational challenges benefit from platform consolidation."
+        },
+        {
+            "id": "timedoc-strengths",
+            "h2": "What TimeDoc Does Well",
+            "content": "TimeDoc Health has built care management capability that serves its focused market. Understanding its strengths clarifies where needs diverge.\n\nCCM workflow support addresses Chronic Care Management requirements. Care plan development, patient outreach, and care coordination documentation follow CCM billing requirements.\n\nRPM device integration supports Remote Patient Monitoring for physiological data. Blood pressure cuffs, glucose monitors, and similar devices transmit data that supports RPM billing codes.\n\nCare team tools support staff managing chronic patient populations. Task management, patient communication, and workflow tracking help teams coordinate care activities.\n\nBilling automation identifies patients meeting billing thresholds and generates claims. Time tracking and documentation support compliant billing.\n\nEHR integration connects care management data with clinical systems. Documentation flows between platforms to support clinical workflow.\n\nReporting provides visibility into program performance and revenue capture. Metrics help practices understand care management program effectiveness.\n\nThese capabilities serve practices building dedicated care management programs. The question is whether care management alone addresses operational needs."
+        },
+        {
+            "id": "beyond-care-management",
+            "h2": "Operations Beyond Care Management",
+            "content": "Care management platforms address between-visit patient engagement. They do not address what happens when patients arrive for visits.\n\nReal-time patient flow is not a care management function. TimeDoc does not track where patients are during clinic visits because that is outside care management scope. clinIQ's [patient flow](/features/patient-flow) shows every patient's location from arrival through departure.\n\nCheck-in automation is not care management. TimeDoc does not provide digital intake or arrival workflows. clinIQ's [check-in](/features/patient-check-in) module handles patient arrival through the [clinIQ app](/features/patient-app), QR codes, or tablets.\n\nPre-authorization tracking is not care management. TimeDoc does not manage procedure authorizations. clinIQ's [pre-authorization](/features/pre-authorization) module tracks requests through resolution with expiration alerting.\n\nScheduling is not care management. TimeDoc does not provide provider calendar management. clinIQ's [scheduling](/features/scheduling) module handles appointments and resource allocation.\n\nOperational analytics are not care management. TimeDoc reports on care management metrics. clinIQ's [analytics](/features/analytics) cover patient flow, wait times, throughput, and operational patterns alongside RTM performance.\n\nPractices using TimeDoc for care management still need separate tools for these operational functions. clinIQ provides care management revenue capture integrated with operational capability."
+        },
+        {
+            "id": "rtm-approach",
+            "h2": "RTM Approach Comparison",
+            "content": "Both platforms support chronic care billing. The specific approach and integration differ.\n\nTimeDoc supports CCM, RPM, and related codes through care management workflows. The platform focuses on between-visit engagement and device-based monitoring for RPM.\n\nclinIQ's [RTM billing](/features/rtm-billing) focuses on Remote Therapeutic Monitoring through CPT codes 98975 through 98981. RTM uses patient-reported data rather than device-transmitted physiological measurements. Patients submit symptom reports through the [clinIQ app](/features/patient-app) without requiring device distribution.\n\nRTM and RPM are distinct billing pathways. RPM requires device logistics and captures physiological data. RTM captures patient-reported outcomes and works with any smartphone. Many patients qualify for both programs with separate billing.\n\n[Wearable integration](/features/wearable-integration) supplements RTM with continuous data from Apple Watch, Oura Ring, and other consumer devices. This enriches patient-reported data without dedicated medical device logistics.\n\nCompliance rates matter for revenue capture. Industry average is approximately forty percent. clinIQ achieves seventy-five percent or higher through systematic workflows. Higher compliance means more revenue from the same enrolled population.\n\nRevenue per patient runs one hundred to one hundred fifty dollars monthly. One hundred patients enrolled generates over one hundred forty thousand dollars annually from RTM alone.\n\nThe key difference is integration. clinIQ's RTM is integrated with [patient flow](/features/patient-flow), [check-in](/features/patient-check-in), and [pre-authorization](/features/pre-authorization). TimeDoc's care management is standalone, requiring separate tools for operational functions."
+        },
+        {
+            "id": "operations-integration",
+            "h2": "Operations Integration Value",
+            "content": "Platform integration creates value that point solutions cannot match.\n\nRTM enrollment during check-in is natural in clinIQ. As patients arrive and complete [check-in](/features/patient-check-in), qualifying chronic patients can be enrolled in RTM. The workflow is integrated rather than requiring separate outreach.\n\n[Patient flow](/features/patient-flow) visibility includes RTM compliance status. Staff sees which patients are enrolled, which are compliant with data submission, and which need re-engagement. Operational visibility extends to chronic care programs.\n\n[Analytics](/features/analytics) unify operational and RTM metrics. Wait times, throughput, and RTM revenue appear in the same reporting environment. Practice leadership sees complete operational picture.\n\nSingle vendor relationship simplifies operations. One contract, one support relationship, one training program. Point solutions multiply vendor management burden.\n\nSingle platform reduces integration complexity. Data flows within the platform without custom integrations between separate systems. Operational efficiency improves.\n\nTotal cost often favors platform approach. clinIQ Professional at four hundred ninety-nine dollars monthly includes RTM plus patient flow plus check-in plus pre-authorization plus scheduling plus analytics. Assembling equivalent capability from point solutions typically costs more with greater complexity."
+        }
+    ],
+    "faqs": [
+        {
+            "q": "Is clinIQ a replacement for TimeDoc?",
+            "a": "clinIQ provides [RTM billing](/features/rtm-billing) for chronic care revenue plus [patient flow](/features/patient-flow), [check-in](/features/patient-check-in), [pre-authorization](/features/pre-authorization), and operational capabilities. Practices needing only CCM/RPM may compare specific workflows. Practices with broader operational needs benefit from clinIQ's platform."
+        },
+        {
+            "q": "Does clinIQ support RPM like TimeDoc?",
+            "a": "clinIQ focuses on RTM using patient-reported data through the [app](/features/patient-app) rather than device-transmitted physiological data. [Wearable integration](/features/wearable-integration) captures data from consumer devices. RPM with medical devices has distinct workflow requirements."
+        },
+        {
+            "q": "What does clinIQ provide that TimeDoc does not?",
+            "a": "clinIQ provides real-time [patient flow](/features/patient-flow), [check-in](/features/patient-check-in) automation, [scheduling](/features/scheduling), [pre-authorization](/features/pre-authorization) tracking, LobbyView displays, and operational [analytics](/features/analytics). These address clinic operations beyond care management."
+        },
+        {
+            "q": "How does RTM compliance compare?",
+            "a": "clinIQ achieves seventy-five percent or higher RTM compliance versus approximately forty percent industry average. Higher compliance captures more revenue from the same enrolled population."
+        }
+    ],
+    "relatedContent": {
+        "features": [
+            {
+                "slug": "rtm-billing",
+                "title": "RTM Billing"
+            },
+            {
+                "slug": "patient-flow",
+                "title": "Patient Flow"
+            },
+            {
+                "slug": "wearable-integration",
+                "title": "Wearable Integration"
+            }
+        ],
+        "specialties": [
+            {
+                "slug": "primary-care",
+                "title": "Primary Care"
+            },
+            {
+                "slug": "cardiology",
+                "title": "Cardiology"
+            },
+            {
+                "slug": "endocrinology",
+                "title": "Endocrinology"
+            }
+        ],
+        "competitors": [
+            {
+                "slug": "prevounce",
+                "title": "clinIQ vs Prevounce"
+            },
+            {
+                "slug": "optimize-health",
+                "title": "clinIQ vs Optimize Health"
+            }
+        ]
+    }
+}

@@ -1,0 +1,149 @@
+{
+    "slug": "generic-scheduling",
+    "name": "clinIQ vs Generic Scheduling",
+    "pageType": "compare-pillar",
+    "wordCount": 1500,
+    "publishDate": "2026-03-11",
+    "meta": {
+        "title": "clinIQ vs Generic Scheduling Software | Full Clinic Operations",
+        "description": "Scheduling software fills the calendar. clinIQ manages what happens after patients arrive. Real-time patient flow, RTM billing, pre-authorization tracking beyond appointment booking.",
+        "keywords": [
+            "scheduling software alternative",
+            "clinic scheduling",
+            "appointment scheduling healthcare",
+            "patient flow software",
+            "clinic operations beyond scheduling"
+        ]
+    },
+    "hero": {
+        "h1": "clinIQ vs Generic Scheduling",
+        "subhead": "Scheduling software fills appointment slots. It does not manage what happens when patients arrive for those appointments. clinIQ provides real-time patient flow after arrival, RTM billing for chronic conditions, and pre-authorization tracking for procedures. Scheduling is just the beginning.",
+        "stats": [
+            {
+                "value": "Beyond",
+                "label": "the calendar"
+            },
+            {
+                "value": "Real-time",
+                "label": "arrival to departure"
+            },
+            {
+                "value": "$112",
+                "label": "avg RTM revenue per patient"
+            }
+        ]
+    },
+    "gatedContent": {
+        "title": "The EHR Gap Analysis",
+        "description": "What scheduling and practice management systems can't track. Covers operational blind spots that cost practices time and revenue.",
+        "format": "PDF",
+        "placeholder": true
+    },
+    "tableOfContents": [
+        {
+            "id": "scheduling-limits",
+            "title": "Scheduling Limitations"
+        },
+        {
+            "id": "after-arrival",
+            "title": "What Happens After Arrival"
+        },
+        {
+            "id": "flow-visibility",
+            "title": "Real-Time Flow Visibility"
+        },
+        {
+            "id": "revenue-operations",
+            "title": "Revenue Operations"
+        },
+        {
+            "id": "complement-or-replace",
+            "title": "Complement or Replace"
+        },
+        {
+            "id": "faqs",
+            "title": "FAQs"
+        }
+    ],
+    "sections": [
+        {
+            "id": "scheduling-limits",
+            "h2": "What Scheduling Software Does and Does Not Do",
+            "content": "Scheduling software manages the appointment calendar. Patients book appointments. Staff manages provider schedules. Reminders reduce no-shows. These are valuable functions that practices need.\n\nScheduling software does not manage what happens during the visit. Once a patient arrives for their scheduled appointment, scheduling software has done its job. The appointment slot is filled. Everything that happens next is outside its scope.\n\nThis limitation is inherent to scheduling's purpose. Scheduling is about matching patients to time slots on provider calendars. It is not about tracking patient location, managing room utilization, or capturing revenue from chronic disease monitoring.\n\nGeneric scheduling tools like Calendly, Acuity, or even EHR scheduling modules share this constraint. They excel at appointment booking and calendar management. They do not provide operational visibility into patient visits.\n\nclinIQ addresses what happens after scheduling ends. [Patient flow](/features/patient-flow) tracks patients from arrival through departure. [RTM billing](/features/rtm-billing) captures revenue from chronic disease monitoring between visits. [Pre-authorization](/features/pre-authorization) tracking ensures procedures are approved before they are scheduled. These capabilities extend beyond calendar management."
+        },
+        {
+            "id": "after-arrival",
+            "h2": "What Happens After Patients Arrive",
+            "content": "The scheduled appointment is when the patient should arrive. What happens next determines operational efficiency and patient experience.\n\nCheck-in confirms arrival. Scheduling software knows the appointment exists. It does not know whether the patient has arrived, is running late, or has cancelled without notice. clinIQ's [check-in](/features/patient-check-in) module captures actual arrival.\n\nWaiting room time accumulates between arrival and rooming. Scheduling software cannot measure this because it does not track arrival time or rooming time. [Patient flow](/features/patient-flow) tracks both, enabling wait time analysis.\n\nRoom assignment moves patients from waiting room to exam rooms. Scheduling software does not track room status or room assignment. clinIQ shows which rooms are occupied, available, or ready for turnover.\n\nProvider encounter time varies from scheduled duration. A thirty-minute appointment may take twenty minutes or fifty minutes. Scheduling software sees the schedule; clinIQ sees actual encounter duration.\n\nCheckout completes the visit. Scheduling software does not track checkout status or departure time. [Patient flow](/features/patient-flow) tracks the complete visit from arrival through departure.\n\nThis full-visit visibility enables operational management that scheduling alone cannot support."
+        },
+        {
+            "id": "flow-visibility",
+            "h2": "Real-Time Flow Visibility",
+            "content": "clinIQ provides operational visibility throughout the patient visit.\n\n[Patient flow](/features/patient-flow) dashboard shows every patient's current status. Waiting room census, occupied rooms, patients with providers, and checkout queue are visible simultaneously. The display updates in real time as status changes.\n\nTime tracking accumulates automatically in each stage. The system knows how long patients have been waiting, how long rooms have been occupied, and total visit duration. This data is impossible to derive from scheduling alone.\n\nBottleneck alerting fires when thresholds are exceeded. When waiting room census is too high or rooms have been occupied too long, relevant staff receives notification. Scheduling software cannot detect operational bottlenecks.\n\nLobbyView displays show queue position and estimated wait on lobby televisions. Patients see progress rather than uncertainty. This transparency improves experience and reduces status questions.\n\n[Analytics](/features/analytics) reveal patterns over time. Wait times, throughput, and bottleneck frequency become visible in reports. This operational intelligence requires tracking data that scheduling software does not generate.\n\nScheduling fills the calendar. [Patient flow](/features/patient-flow) manages what happens after patients arrive for their scheduled appointments."
+        },
+        {
+            "id": "revenue-operations",
+            "h2": "Revenue Operations Beyond Appointment Booking",
+            "content": "Scheduling software has no connection to revenue operations beyond filling appointment slots. clinIQ captures revenue streams that extend beyond encounter billing.\n\nRemote Therapeutic Monitoring generates recurring monthly revenue for chronic disease management. [RTM billing](/features/rtm-billing) through CPT codes 98975 through 98981 captures one hundred to one hundred fifty dollars per patient per month.\n\nRTM happens between scheduled appointments. Patients submit symptom data through the [clinIQ app](/features/patient-app) between visits. Clinical staff reviews this data and adjusts treatment. This monitoring work qualifies for RTM billing but occurs independently of scheduled appointments.\n\nScheduling software has no visibility into between-visit activity. clinIQ systematizes RTM workflow: patient enrollment, data collection, time tracking, and claim generation.\n\nPre-authorization should happen before procedures are scheduled. clinIQ's [pre-authorization module](/features/pre-authorization) tracks authorization requests through resolution. Integration with [scheduling](/features/scheduling) prevents scheduling procedures without valid authorization.\n\nGeneric scheduling tools do not check authorization status before booking. This creates risk of scheduling procedures that cannot be performed because authorization is missing or expired.\n\n[Wearable integration](/features/wearable-integration) captures continuous patient data from Apple Watch, Oura Ring, and other devices. This data supports clinical care and RTM documentation between scheduled visits.\n\nThe revenue opportunity is substantial. One hundred chronic patients enrolled in RTM generate over one hundred forty thousand dollars annually from between-visit monitoring that scheduling software cannot see."
+        },
+        {
+            "id": "complement-or-replace",
+            "h2": "Complement or Replace Scheduling",
+            "content": "clinIQ can complement existing scheduling or provide scheduling as part of a broader operations platform.\n\nFor practices with established scheduling workflows, clinIQ adds operational capability without replacing calendar management. [Patient flow](/features/patient-flow), [RTM billing](/features/rtm-billing), and [pre-authorization](/features/pre-authorization) layer onto existing scheduling.\n\nEHR scheduling integration pulls appointment data into clinIQ. Scheduled appointments appear for check-in and flow tracking. The connection is read-only; scheduling remains in the existing system.\n\nFor practices evaluating new scheduling tools, clinIQ's [scheduling module](/features/scheduling) provides healthcare-specific capability. Provider scheduling, resource management, and integration with flow tracking and pre-authorization create a unified operations platform.\n\nThe choice depends on current infrastructure and pain points. Practices satisfied with their scheduling but lacking operational visibility benefit from adding clinIQ's flow and revenue modules. Practices seeking unified operations may use clinIQ's scheduling alongside other modules.\n\nPricing is comparable to premium scheduling tools. clinIQ Starter at two hundred forty-nine dollars monthly provides scheduling, patient flow, and check-in. Professional at four hundred ninety-nine dollars monthly adds RTM billing, pre-authorization, and analytics. RTM revenue from modest enrollment exceeds platform cost."
+        }
+    ],
+    "faqs": [
+        {
+            "q": "Why isn't scheduling software enough?",
+            "a": "Scheduling fills the calendar. It does not track what happens after patients arrive. [Patient flow](/features/patient-flow), wait time management, and [RTM billing](/features/rtm-billing) require visibility into visits that scheduling cannot provide."
+        },
+        {
+            "q": "Does clinIQ replace my scheduling software?",
+            "a": "clinIQ can complement existing scheduling through EHR integration or replace it with the [scheduling module](/features/scheduling). The choice depends on current infrastructure and whether unified operations is valuable."
+        },
+        {
+            "q": "What revenue am I missing with scheduling-only workflow?",
+            "a": "[RTM billing](/features/rtm-billing) captures between-visit monitoring revenue that scheduling cannot see. One hundred chronic patients generate over one hundred forty thousand dollars annually from RTM alone."
+        },
+        {
+            "q": "How does clinIQ track what scheduling cannot?",
+            "a": "[Check-in](/features/patient-check-in) captures arrival. [Patient flow](/features/patient-flow) tracks status through every visit stage. Time accumulates automatically. This operational data does not exist in scheduling systems."
+        }
+    ],
+    "relatedContent": {
+        "features": [
+            {
+                "slug": "scheduling",
+                "title": "Scheduling"
+            },
+            {
+                "slug": "patient-flow",
+                "title": "Patient Flow"
+            },
+            {
+                "slug": "rtm-billing",
+                "title": "RTM Billing"
+            }
+        ],
+        "specialties": [
+            {
+                "slug": "primary-care",
+                "title": "Primary Care"
+            },
+            {
+                "slug": "behavioral-health",
+                "title": "Behavioral Health"
+            }
+        ],
+        "competitors": [
+            {
+                "slug": "ehr-only",
+                "title": "clinIQ vs EHR-Only"
+            },
+            {
+                "slug": "simplepractice",
+                "title": "clinIQ vs SimplePractice"
+            }
+        ]
+    }
+}

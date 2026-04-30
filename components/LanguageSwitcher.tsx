@@ -1,24 +1,9 @@
 'use client'
 
-import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import { useLocale, useTranslations } from 'next-intl'
+import { usePathname, useRouter } from 'next/navigation'
+import { useTransition } from 'react'
 import styles from './LanguageSwitcher.module.css'
-
-// Every English path that has a corresponding /ar/ page
-const ARABIC_PATHS = new Set([
-  '/features/analytics',
-  '/features/check-in',
-  '/features/lobbyview',
-  '/features/patient-flow',
-  '/features/pre-auth',
-  '/features/rtm',
-  '/features/scheduling',
-  '/locations/bahrain',
-  '/locations/kuwait',
-  '/locations/qatar',
-  '/locations/saudi-arabia',
-  '/locations/uae',
-])
 
 function GlobeIcon() {
   return (
@@ -36,34 +21,52 @@ interface Props {
 }
 
 export default function LanguageSwitcher({ variant = 'nav' }: Props) {
+  const locale = useLocale()
+  const t = useTranslations('languageSwitcher')
+  const router = useRouter()
   const pathname = usePathname()
+  const [isPending, startTransition] = useTransition()
 
-  // On an Arabic page — offer switch to English
-  if (pathname.startsWith('/ar/') || pathname === '/ar') {
-    const enPath = pathname.replace(/^\/ar/, '') || '/'
+  function switchLocale(nextLocale: string) {
+    // Strip current locale prefix from pathname so next-intl can re-prefix it
+    let cleanPath = pathname
+    if (cleanPath.startsWith(`/${locale}/`)) {
+      cleanPath = cleanPath.slice(locale.length + 1)
+    } else if (cleanPath === `/${locale}`) {
+      cleanPath = '/'
+    }
+
+    startTransition(() => {
+      const prefix = nextLocale === 'en' ? '' : `/${nextLocale}`
+      router.push(`${prefix}${cleanPath || '/'}`)
+    })
+  }
+
+  const btnClass = `${styles.btn} ${variant === 'inner' ? styles.btnInner : ''} ${isPending ? styles.pending : ''}`
+
+  if (locale === 'ar') {
     return (
-      <Link
-        href={enPath}
-        className={`${styles.btn} ${variant === 'inner' ? styles.btnInner : ''}`}
-        title="Switch to English"
+      <button
+        onClick={() => switchLocale('en')}
+        className={btnClass}
+        title={t('switchToEnglish')}
+        lang="en"
       >
         <GlobeIcon />
         <span>EN</span>
-      </Link>
+      </button>
     )
   }
 
-  // On an English page — link to specific Arabic counterpart if it exists, else /ar homepage
-  const arHref = ARABIC_PATHS.has(pathname) ? `/ar${pathname}` : '/ar'
   return (
-    <Link
-      href={arHref}
-      className={`${styles.btn} ${variant === 'inner' ? styles.btnInner : ''}`}
-      title="Switch to Arabic"
+    <button
+      onClick={() => switchLocale('ar')}
+      className={btnClass}
+      title={t('switchToArabic')}
       lang="ar"
     >
       <GlobeIcon />
       <span>AR</span>
-    </Link>
+    </button>
   )
 }

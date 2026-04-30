@@ -34,3 +34,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Large/temp files excluded from commits
+corrections/
+*.zip
+*.html
+locations-all.zip
+data/files.zip
+public/og-*.html
+package-lock.json
+.claude/settings.local.json

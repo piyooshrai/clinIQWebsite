@@ -1,0 +1,199 @@
+{
+    "slug": "clearwave",
+    "name": "clinIQ vs Clearwave",
+    "pageType": "compare-pillar",
+    "wordCount": 2300,
+    "publishDate": "2026-03-11",
+    "meta": {
+        "title": "clinIQ vs Clearwave | Kiosk Check-In Alternative | Full Patient Flow",
+        "description": "Detailed comparison of clinIQ and Clearwave patient check-in kiosks. Clearwave handles kiosk check-in at $2,000/month. clinIQ handles check-in plus real-time patient flow, RTM billing, pre-authorization starting at $249/month with no hardware required.",
+        "keywords": [
+            "Clearwave alternative",
+            "Clearwave vs",
+            "Clearwave competitor",
+            "patient check-in kiosk",
+            "Clearwave pricing",
+            "kiosk check-in software",
+            "patient flow software",
+            "Clearwave replacement"
+        ]
+    },
+    "hero": {
+        "h1": "clinIQ vs Clearwave",
+        "subhead": "Clearwave built impressive self-service kiosks. Patients check in without staff assistance and the hardware is polished. The problem is that kiosks are stationary. They see one moment and then lose the patient entirely. clinIQ tracks every patient from arrival through departure with no dedicated hardware required.",
+        "stats": [
+            {
+                "value": "$0",
+                "label": "hardware required"
+            },
+            {
+                "value": "Real-time",
+                "label": "post-check-in visibility"
+            },
+            {
+                "value": "90%",
+                "label": "lower starting cost"
+            }
+        ]
+    },
+    "gatedContent": {
+        "title": "Patient Flow Audit Checklist",
+        "description": "15 questions to ask before your patient intake contract renews. Covers operational gaps most kiosk-only solutions leave unaddressed.",
+        "format": "PDF",
+        "placeholder": true
+    },
+    "tableOfContents": [
+        {
+            "id": "honest-comparison",
+            "title": "The Honest Comparison"
+        },
+        {
+            "id": "what-clearwave-does-well",
+            "title": "What Clearwave Does Well"
+        },
+        {
+            "id": "kiosk-limitations",
+            "title": "What Kiosks Cannot See"
+        },
+        {
+            "id": "hardware-burden",
+            "title": "The Hardware Burden"
+        },
+        {
+            "id": "revenue-gaps",
+            "title": "Revenue Operations Clearwave Misses"
+        },
+        {
+            "id": "pricing-comparison",
+            "title": "Pricing Comparison"
+        },
+        {
+            "id": "feature-comparison",
+            "title": "Feature Comparison"
+        },
+        {
+            "id": "switching",
+            "title": "Switching from Clearwave"
+        },
+        {
+            "id": "faqs",
+            "title": "FAQs"
+        }
+    ],
+    "sections": [
+        {
+            "id": "honest-comparison",
+            "h2": "The Honest Comparison Between clinIQ and Clearwave",
+            "content": "Clearwave pioneered self-service patient check-in kiosks for specialty healthcare. The company has built a substantial business around freestanding kiosk hardware that patients use to complete registration without staff assistance. For practices whose primary operational challenge is front desk bottlenecks and registration errors, Clearwave's kiosks address that challenge.\n\nThe kiosk approach comes with inherent constraints. Kiosks are stationary objects in the lobby. They can see exactly one thing: a patient completing check-in at that physical location at that moment. Once the patient finishes check-in and walks away from the kiosk, Clearwave's visibility ends. The patient could be in the waiting room, roomed, with a provider, or departed. Clearwave cannot distinguish these states because kiosks cannot follow patients into the clinical space.\n\nclinIQ takes a different architectural approach. [Patient check-in](/features/patient-check-in) is one module in a broader clinic operations platform. Check-in data feeds into [real-time patient flow](/features/patient-flow) tracking that shows every patient's location and status throughout the visit. [RTM billing](/features/rtm-billing) captures Remote Therapeutic Monitoring revenue. [Pre-authorization management](/features/pre-authorization) tracks approval workflows. [Analytics](/features/analytics) surface operational patterns. The platform provides continuous visibility rather than point-in-time data.\n\nThe pricing differential is substantial. Clearwave starts around two thousand dollars monthly according to third-party sources, reflecting the cost of hardware-intensive deployment. clinIQ starts at two hundred forty-nine dollars monthly with no hardware requirements. The question is whether the kiosk experience justifies the cost premium when software-based check-in achieves equivalent results.\n\nPractices evaluating both should be clear about what problem they are solving. If the primary goal is reducing front desk staff involvement in registration, both platforms achieve that goal. If the goal extends to operational visibility throughout the visit, revenue capture from RTM and pre-authorization, and real-time flow management, Clearwave cannot provide those capabilities."
+        },
+        {
+            "id": "what-clearwave-does-well",
+            "h2": "What Clearwave Does Well",
+            "content": "Clearwave's kiosk hardware represents genuine engineering effort. The freestanding units are designed for high-traffic clinical environments. Touchscreens are large and responsive. Card scanners capture insurance and identification information. The physical presence is professional and signals that the practice invests in modern technology.\n\nPatient adoption rates are strong. Clearwave reports ninety-six percent or higher patient adoption of kiosk check-in, even among older patient demographics. The self-service experience is intuitive enough that patients of varying technical comfort complete registration without assistance. This adoption rate validates the user experience design work that has gone into the kiosk interface.\n\nStaff workload reduction is meaningful. Clearwave claims eighty-seven percent reduction in registration staff workloads. Front desk staff can focus on complex situations and patient service rather than repetitive data entry. For practices with high front desk labor costs or chronic staffing challenges, this workload shift has real value.\n\nInsurance eligibility verification is automated and real-time. As patients scan insurance cards at the kiosk, eligibility is verified with payers. Copay amounts and deductible status display immediately. Payment collection is integrated into the kiosk workflow. This real-time verification catches coverage issues before the visit begins rather than after services are rendered.\n\nEHR integrations cover major platforms. Clearwave connects with athenahealth, ModMed, NextGen, AdvancedMD, and approximately fifty other practice management and EHR systems. Data captured at the kiosk flows into the EHR record. For practices on supported platforms, the integration generally works without extensive customization.\n\nThese capabilities are genuine strengths. Clearwave has built a solid product for the specific problem of self-service patient check-in. The question is whether that specific problem is sufficient scope for your operational needs."
+        },
+        {
+            "id": "kiosk-limitations",
+            "h2": "What Kiosks Cannot See",
+            "content": "Kiosks are physically anchored to the lobby. Their visibility is defined by where patients stand and what patients do in front of them. Everything that happens after the patient walks away from the kiosk is invisible to Clearwave.\n\nPatient location after check-in is unknown. A patient who checked in eight minutes ago could still be in the waiting room, could be in an exam room, could be with the provider, or could have left without being seen. Clearwave cannot distinguish these states. Staff who need to locate a specific patient must search manually or rely on informal communication.\n\nclinIQ's [patient flow](/features/patient-flow) module tracks status continuously. Patients move from checked-in to roomed to with-provider to checkout as staff updates status. The dashboard shows every patient's current location. Staff can see at a glance who is waiting, who is being seen, and who is ready for checkout. This visibility enables proactive management rather than reactive searching.\n\nWait time visibility is limited to the waiting room. Clearwave can show how long a patient has been checked in but not how long they have been waiting in an exam room for a provider. Room-based wait times are often the more frustrating experience for patients. A patient who was roomed quickly but then waited thirty minutes for the provider will not be satisfied, but Clearwave cannot surface this pattern.\n\nclinIQ tracks time in each stage. [Analytics](/features/analytics) show average wait times in the waiting room, average time to rooming, average room wait before provider, and average total visit duration. These stage-specific metrics reveal where operational improvements are needed. A practice might have efficient front-of-house operations but excessive provider wait times, a pattern invisible to kiosk-only visibility.\n\nBottleneck detection requires seeing the entire flow. When three exam rooms are simultaneously waiting for provider attention and only one provider is available, that bottleneck is invisible to kiosks. The situation becomes apparent only when patients complain or staff notices visually. [Patient flow](/features/patient-flow) alerting surfaces bottlenecks as they form, enabling intervention before patient experience degrades.\n\nLobbyView displays are not a kiosk feature. Patients in the waiting room have no visibility into their queue position or expected wait. They sit with no information. Staff answers the same status questions repeatedly. clinIQ's LobbyView shows queue position and estimated wait on a lobby television using privacy-compliant identifiers. The experience feels transparent rather than opaque."
+        },
+        {
+            "id": "hardware-burden",
+            "h2": "The Hardware Burden of Kiosk Deployment",
+            "content": "Kiosk-based check-in comes with hardware lifecycle costs that software-based approaches avoid.\n\nProcurement costs are substantial. Freestanding kiosk units are specialized hardware with touchscreens, card scanners, and sometimes payment terminals. The units are designed for durability in high-traffic environments, which increases manufacturing cost. Procurement often happens through Clearwave or approved vendors rather than commodity channels, limiting price competition.\n\nInstallation requires physical space and infrastructure. Kiosks need power outlets in appropriate lobby locations. Network connectivity must reach the kiosk position. The physical footprint impacts waiting room layout. For multi-location practices, installation must be repeated at each site with coordination of contractors and IT staff.\n\nMaintenance is ongoing. Touchscreens degrade with heavy use. Card scanners fail. Software updates require on-site attention when remote updates are not possible. When a kiosk malfunctions, patients cannot check in at that station until repair is complete. Spare units or rapid service agreements add cost to ensure availability.\n\nReplacement cycles matter. Hardware has finite lifespan. After three to five years, kiosk hardware may need replacement to maintain performance and compatibility. The replacement cycle restarts procurement and installation costs.\n\nPhysical security is a consideration. Kiosks in public waiting rooms can be targets for damage or theft. Overnight security, camera coverage, or kiosk-specific protections may be warranted depending on practice location.\n\nclinIQ eliminates this hardware burden. [Check-in](/features/patient-check-in) works via QR code scanned on patient phones, web links opened on any device, or the [clinIQ app](/features/patient-app). Patients use their own devices or any browser-capable hardware the practice already owns. Tablet check-in is available for practices that prefer providing devices, but using existing consumer tablets rather than specialized kiosk hardware. LobbyView displays run on any television with an inexpensive media stick. The hardware investment is minimal and uses commodity devices rather than specialized equipment."
+        },
+        {
+            "id": "revenue-gaps",
+            "h2": "Revenue Operations Clearwave Misses",
+            "content": "Clinic revenue extends beyond copay collection at check-in. Pre-authorization determines procedure reimbursement. RTM captures ongoing revenue from chronic disease monitoring. Neither is within Clearwave's scope.\n\nPre-authorization tracking is absent from Clearwave. For [pain management](/specialties/pain-management) practices where most injections require prior approval, for [orthopedic surgery](/specialties/orthopedic-surgery) practices where surgical procedures need authorization, for [spine surgery](/specialties/spine-surgery) practices where denial rates approach sixty percent, pre-authorization management is operationally critical. Clearwave provides no visibility into authorization status, expiration dates, or appeal workflows.\n\nclinIQ's [pre-authorization module](/features/pre-authorization) tracks every authorization from request through resolution. Pipeline views show pending, approved, and denied cases by payer and procedure type. Expiration alerts fire before authorizations lapse. Appeal workflows track resubmissions and their outcomes. Integration with [scheduling](/features/scheduling) prevents procedures from being scheduled without valid authorization. The administrative burden of pre-auth is substantial and systematic management prevents revenue loss from missed authorizations.\n\nRemote Therapeutic Monitoring represents recurring monthly revenue for practices managing chronic conditions. [RTM billing](/features/rtm-billing) through CPT codes 98975 through 98981 generates one hundred to one hundred fifty dollars per patient per month for enrollment, device supply, and clinical monitoring time. A [behavioral health](/specialties/behavioral-health) practice with one hundred chronic patients captures twelve thousand dollars monthly or one hundred forty-four thousand annually from RTM.\n\nClearwave does not support RTM workflows. It does not track patient enrollment. It does not collect patient-reported symptom data. It does not log clinical monitoring time. It does not generate RTM claims. Practices using Clearwave must implement RTM through separate platforms or manual processes.\n\nclinIQ's [RTM module](/features/rtm-billing) systematizes the complete workflow. Patients submit symptom data through the [clinIQ app](/features/patient-app) between visits. Clinical time spent reviewing data and adjusting treatment is logged automatically. Monthly billing generation identifies patients meeting thresholds and creates claims with appropriate codes. [Analytics](/features/analytics) track compliance rates and program performance. [Wearable integration](/features/wearable-integration) supplements patient-reported data with continuous metrics from Apple Watch, Oura Ring, and other devices. The revenue opportunity is substantial and the workflow is built into the platform.\n\nThe revenue math changes the cost comparison. Clearwave's two thousand dollar monthly cost provides check-in only. clinIQ Professional's four hundred ninety-nine dollar monthly cost provides check-in plus RTM plus pre-authorization plus patient flow plus analytics. If RTM alone generates six thousand dollars monthly from fifty enrolled patients, the ROI case is clear regardless of Clearwave's check-in quality."
+        },
+        {
+            "id": "pricing-comparison",
+            "h2": "Pricing Comparison and Total Cost",
+            "content": "Clearwave's pricing starts around two thousand dollars monthly according to third-party review sites. This pricing reflects the hardware-intensive deployment model including kiosk units, installation, and ongoing maintenance. Implementation costs range from one thousand to five thousand dollars or higher depending on deployment complexity and EHR integration requirements. Multi-location deployments multiply hardware and installation costs proportionally.\n\nTotal cost of ownership includes hardware lifecycle. Kiosk replacement after three to five years restarts procurement costs. Maintenance contracts or per-incident service add ongoing expense. Spare equipment for rapid replacement during failures is prudent for practices dependent on kiosk availability.\n\nclinIQ pricing is dramatically lower. Starter at two hundred forty-nine dollars monthly includes [patient check-in](/features/patient-check-in), [patient flow](/features/patient-flow), and [scheduling](/features/scheduling). Professional at four hundred ninety-nine dollars monthly adds [RTM billing](/features/rtm-billing), [pre-authorization](/features/pre-authorization), [analytics](/features/analytics), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), and additional modules. Implementation is seven hundred fifty dollars one-time regardless of plan level. There are no hardware costs because check-in works on patient phones and existing devices.\n\nThe price differential is approximately ninety percent lower for equivalent check-in capability. clinIQ Starter at two hundred forty-nine dollars monthly versus Clearwave at two thousand dollars monthly represents seventeen hundred fifty dollars monthly savings before considering clinIQ's additional capabilities.\n\nCapability differential compounds the value difference. Clearwave at two thousand dollars provides check-in. clinIQ Professional at four hundred ninety-nine dollars provides check-in plus patient flow plus RTM billing plus pre-authorization plus analytics plus telehealth plus secure messaging plus wearable integration. The additional capabilities are not available from Clearwave at any price.\n\nPractices currently spending two thousand dollars monthly on Clearwave could switch to clinIQ Professional, capture substantially more capability, and bank over fifteen hundred dollars monthly in savings. That saving could fund additional staff time, marketing, or other operational investments."
+        },
+        {
+            "id": "feature-comparison",
+            "h2": "Feature-by-Feature Comparison",
+            "content": "Patient self-service check-in is the core of Clearwave's offering with polished kiosk hardware and high adoption rates. clinIQ includes equivalent [check-in](/features/patient-check-in) capability through QR codes, web forms, app, or optional tablets without dedicated hardware.\n\nInsurance eligibility verification runs in real-time on both platforms during check-in. Both capture copay information and flag coverage issues before the visit begins.\n\nDigital intake forms are supported on both platforms. Clearwave's forms appear on kiosk screens. clinIQ's forms work on any device including patient phones, practice tablets, or home computers for pre-visit completion.\n\nLive room and queue status is not available in Clearwave because kiosk visibility ends at check-in. clinIQ provides real-time [patient flow](/features/patient-flow) dashboards showing every patient's location and status throughout the visit.\n\nBottleneck alerts are not available in Clearwave. clinIQ includes threshold-based alerting when operational conditions require attention such as excessive wait times or backed-up provider queues.\n\nLobbyView patient display is not available in Clearwave. clinIQ's LobbyView shows queue position and estimated wait time on lobby televisions using privacy-compliant patient identifiers.\n\nRTM billing automation is not available in Clearwave. clinIQ's [RTM module](/features/rtm-billing) handles enrollment, data collection through the [app](/features/patient-app), time tracking, and claim generation for CPT codes 98975 through 98981.\n\nPre-authorization tracking is not available in Clearwave. clinIQ's [pre-authorization module](/features/pre-authorization) manages request through resolution including expiration alerts and appeal workflows.\n\nWearable integration is not available in Clearwave. clinIQ connects with Apple Health, Oura Ring, Android Health Connect, and other consumer devices to supplement patient-reported data.\n\nHardware requirements differ fundamentally. Clearwave requires dedicated kiosk hardware with associated procurement, installation, and maintenance costs. clinIQ requires no dedicated hardware and works on patient phones and existing devices.\n\nPricing reflects the different approaches. Clearwave at approximately two thousand dollars monthly provides kiosk check-in. clinIQ Professional at four hundred ninety-nine dollars monthly provides software-based check-in plus seven additional operational modules."
+        },
+        {
+            "id": "switching",
+            "h2": "Switching from Clearwave to clinIQ",
+            "content": "Practices currently using Clearwave can transition to clinIQ with minimal disruption to patient experience. The transition eliminates hardware maintenance burden while adding operational capabilities.\n\nContract timing should be evaluated first. Clearwave contracts may include hardware lease terms, service agreements, and auto-renewal provisions. Review contract terms to identify notice requirements and optimal transition timing. Plan clinIQ implementation to complete before the Clearwave contract ends to avoid any gap in check-in capability.\n\nPatient experience improves rather than degrades during transition. Patients who check in via the [clinIQ app](/features/patient-app) or QR code experience an equally intuitive interface without walking to a kiosk. Pre-visit check-in completion at home is an option Clearwave kiosks cannot provide. LobbyView provides wait visibility patients never had with kiosks.\n\nStaff transition is straightforward. Check-in workflows in clinIQ are intuitive for staff already familiar with digital intake. Training emphasis shifts to [patient flow](/features/patient-flow) visibility, [RTM enrollment](/features/rtm-billing), [pre-authorization tracking](/features/pre-authorization), and other capabilities staff has never had access to. Most staff finds the additional visibility immediately valuable.\n\nHardware retirement eliminates ongoing burden. Once the Clearwave contract ends, kiosk hardware can be returned or disposed of. No replacement cycle, no maintenance contracts, no physical security concerns. The lobby space freed by kiosk removal may be valuable in smaller waiting rooms.\n\nCost savings are immediate. Moving from two thousand dollars monthly to four hundred ninety-nine dollars monthly saves eighteen thousand dollars annually before considering the additional capabilities clinIQ provides. If RTM enrollment generates meaningful revenue, the financial case becomes even stronger.\n\nParallel operation is possible during transition. clinIQ can provide [patient flow](/features/patient-flow) visibility and other capabilities while patients continue using Clearwave kiosks for check-in. This parallel period allows staff to become comfortable with clinIQ before fully transitioning. Once confidence is established, check-in moves to clinIQ and Clearwave is retired."
+        }
+    ],
+    "faqs": [
+        {
+            "q": "Can clinIQ fully replace Clearwave kiosks?",
+            "a": "Yes. clinIQ includes [patient check-in](/features/patient-check-in) that replaces Clearwave's kiosk function without requiring dedicated hardware. Patients check in via QR code, web link, or the [clinIQ app](/features/patient-app). clinIQ also adds [patient flow](/features/patient-flow), [RTM billing](/features/rtm-billing), [pre-authorization](/features/pre-authorization), and other capabilities Clearwave does not offer."
+        },
+        {
+            "q": "How much does Clearwave cost compared to clinIQ?",
+            "a": "Clearwave starts around two thousand dollars monthly according to third-party sources, plus hardware and installation costs. clinIQ Starter is two hundred forty-nine dollars monthly and Professional is four hundred ninety-nine dollars monthly with no hardware requirements. Switching from Clearwave to clinIQ typically saves over fifteen hundred dollars monthly while gaining additional capabilities."
+        },
+        {
+            "q": "Do patients prefer kiosk check-in over mobile check-in?",
+            "a": "Patient adoption rates are high for both approaches. Clearwave reports ninety-six percent kiosk adoption. clinIQ practices report equivalent adoption for mobile and QR-based check-in. Younger patients often prefer using their own phones. Older patients adapt well to simple QR scanning. The check-in experience is equally intuitive without dedicated hardware."
+        },
+        {
+            "q": "What does clinIQ provide that Clearwave does not?",
+            "a": "clinIQ provides real-time [patient flow](/features/patient-flow) tracking after check-in, LobbyView displays, [RTM billing](/features/rtm-billing) automation, [pre-authorization management](/features/pre-authorization), [wearable integration](/features/wearable-integration), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), and [analytics](/features/analytics). Clearwave focuses on kiosk check-in and does not offer these operational capabilities."
+        },
+        {
+            "q": "What happens to our kiosk hardware if we switch to clinIQ?",
+            "a": "Kiosk hardware is typically returned to Clearwave at contract end or disposed of. clinIQ requires no replacement hardware. The lobby space previously occupied by kiosks becomes available for other uses. Hardware maintenance and replacement cycle costs are eliminated."
+        },
+        {
+            "q": "Can clinIQ track patients after check-in like Clearwave cannot?",
+            "a": "Yes. This is clinIQ's core advantage. [Patient flow](/features/patient-flow) tracks every patient from check-in through departure showing location, status, and time in each stage. Bottleneck alerts fire when operational attention is needed. Clearwave's visibility ends when patients walk away from the kiosk."
+        },
+        {
+            "q": "Does clinIQ work with our EHR?",
+            "a": "clinIQ works alongside virtually any EHR including the platforms Clearwave integrates with such as athenahealth, ModMed, NextGen, and AdvancedMD. clinIQ uses read-only integrations to pull appointment and patient data while leaving clinical documentation in the EHR unchanged."
+        }
+    ],
+    "relatedContent": {
+        "features": [
+            {
+                "slug": "patient-check-in",
+                "title": "Patient Check-In"
+            },
+            {
+                "slug": "patient-flow",
+                "title": "Patient Flow"
+            },
+            {
+                "slug": "rtm-billing",
+                "title": "RTM Billing"
+            },
+            {
+                "slug": "analytics",
+                "title": "Analytics"
+            }
+        ],
+        "specialties": [
+            {
+                "slug": "urgent-care",
+                "title": "Urgent Care"
+            },
+            {
+                "slug": "orthopedic-surgery",
+                "title": "Orthopedic Surgery"
+            },
+            {
+                "slug": "primary-care",
+                "title": "Primary Care"
+            }
+        ],
+        "competitors": [
+            {
+                "slug": "phreesia",
+                "title": "clinIQ vs Phreesia"
+            },
+            {
+                "slug": "athenahealth",
+                "title": "clinIQ vs athenahealth"
+            }
+        ]
+    }
+}

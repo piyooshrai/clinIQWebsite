@@ -1,0 +1,20 @@
+{
+  "_note": "Spanish translations — placeholder, to be completed in Phase 2",
+  "nav": {
+    "features": "Funciones",
+    "whoWeServe": "A quién servimos",
+    "compare": "Comparar",
+    "locations": "Ubicaciones",
+    "resources": "Recursos",
+    "requestDemo": "Solicitar demo"
+  },
+  "common": {
+    "requestDemo": "Solicitar demo",
+    "requestDemoArrow": "Solicitar demo →"
+  },
+  "languageSwitcher": {
+    "switchToArabic": "Cambiar a árabe",
+    "switchToEnglish": "Switch to English",
+    "switchToSpanish": "Cambiar a español"
+  }
+}

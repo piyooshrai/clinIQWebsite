@@ -1,0 +1,169 @@
+import type { Metadata } from 'next'
+import specialties10 from '@/data/specialties-10-value-first'
+import specialties20 from '@/data/specialties-20-value-first'
+import painManagementPillar from '@/data/pain-management.json'
+import spineSurgeryPillar from '@/data/spine-surgery.json'
+import neurologyPillar from '@/data/neurology.json'
+import addictionMedicinePillar from '@/data/addiction-medicine.json'
+import urgentCarePillar from '@/data/urgent-care.json'
+import psychiatryPillar from '@/data/psychiatry.json'
+import orthopedicSurgeryPillar from '@/data/orthopedic-surgery.json'
+import dermatologyPillar from '@/data/dermatology.json'
+import cardiologyPillar from '@/data/cardiology.json'
+import primaryCarePillar from '@/data/primary-care.json'
+import pulmonologyPillar from '@/data/pulmonology.json'
+import gastroenterologyPillar from '@/data/gastroenterology.json'
+import endocrinologyPillar from '@/data/endocrinology.json'
+import nephrologyPillar from '@/data/nephrology.json'
+import oncologyPillar from '@/data/oncology.json'
+import obgynPillar from '@/data/obgyn.json'
+import pediatricsPillar from '@/data/pediatrics.json'
+import entPillar from '@/data/ent.json'
+import ophthalmologyPillar from '@/data/ophthalmology.json'
+import podiatryPillar from '@/data/podiatry.json'
+import oralSurgeryPillar from '@/data/oral-surgery.json'
+import infusionCentersPillar from '@/data/infusion-centers.json'
+import allergyPillar from '@/data/allergy-pillar.json'
+import neurosurgeryPillar from '@/data/neurosurgery.json'
+import sportsMedicinePillar from '@/data/sports-medicine.json'
+import physicalTherapyPillar from '@/data/physical-therapy.json'
+import plasticSurgeryPillar from '@/data/plastic-surgery.json'
+import rheumatologyPillar from '@/data/rheumatology.json'
+import vascularSurgeryPillar from '@/data/vascular-surgery.json'
+import woundCarePillar from '@/data/wound-care.json'
+import generalSurgeryPillar from '@/data/general-surgery.json'
+import chiropracticPillar from '@/data/chiropractic.json'
+import behavioralHealthPillar from '@/data/behavioral-health.json'
+import allergyImmunologyPillar from '@/data/allergy-immunology.json'
+import { getSpecialtyPageData, getAllSpecialtyParams } from '@/lib/feature-specialty-data'
+import JsonSpecialtyPage from '@/components/templates/JsonSpecialtyPage'
+import PillarSpecialtyPage, { type PillarData } from '@/components/templates/PillarSpecialtyPage'
+import SpecialtyPage from '@/components/templates/SpecialtyPage'
+
+// Pillar pages keyed by slug — checked before JSON specialties.
+// Each JSON is cast to PillarData so varying schema shapes don't cause type errors.
+const pillarPages: Record<string, PillarData> = {
+  'pain-management': painManagementPillar as unknown as PillarData,
+  'spine-surgery': spineSurgeryPillar as unknown as PillarData,
+  'neurology': neurologyPillar as unknown as PillarData,
+  'addiction-medicine': addictionMedicinePillar as unknown as PillarData,
+  'urgent-care': urgentCarePillar as unknown as PillarData,
+  'psychiatry': psychiatryPillar as unknown as PillarData,
+  'orthopedic-surgery': orthopedicSurgeryPillar as unknown as PillarData,
+  'dermatology': dermatologyPillar as unknown as PillarData,
+  'cardiology': cardiologyPillar as unknown as PillarData,
+  'primary-care': primaryCarePillar as unknown as PillarData,
+  'pulmonology': pulmonologyPillar as unknown as PillarData,
+  'gastroenterology': gastroenterologyPillar as unknown as PillarData,
+  'endocrinology': endocrinologyPillar as unknown as PillarData,
+  'nephrology': nephrologyPillar as unknown as PillarData,
+  'oncology': oncologyPillar as unknown as PillarData,
+  'ob-gyn': obgynPillar as unknown as PillarData,
+  'pediatrics': pediatricsPillar as unknown as PillarData,
+  'ent': entPillar as unknown as PillarData,
+  'ophthalmology': ophthalmologyPillar as unknown as PillarData,
+  'podiatry': podiatryPillar as unknown as PillarData,
+  'oral-surgery': oralSurgeryPillar as unknown as PillarData,
+  'infusion-centers': infusionCentersPillar as unknown as PillarData,
+  'allergy': allergyPillar as unknown as PillarData,
+  'neurosurgery': neurosurgeryPillar as unknown as PillarData,
+  'sports-medicine': sportsMedicinePillar as unknown as PillarData,
+  'physical-therapy': physicalTherapyPillar as unknown as PillarData,
+  'plastic-surgery': plasticSurgeryPillar as unknown as PillarData,
+  'rheumatology': rheumatologyPillar as unknown as PillarData,
+  'vascular-surgery': vascularSurgeryPillar as unknown as PillarData,
+  'wound-care': woundCarePillar as unknown as PillarData,
+  'general-surgery': generalSurgeryPillar as unknown as PillarData,
+  'chiropractic': chiropracticPillar as unknown as PillarData,
+  'behavioral-health': behavioralHealthPillar as unknown as PillarData,
+  'allergy-immunology': allergyImmunologyPillar as unknown as PillarData,
+}
+
+// Filter out slugs handled by pillar pages to avoid duplicate routing
+const specialtiesData = [...specialties10, ...specialties20].filter(
+  (s) => !(s.slug in pillarPages)
+)
+type JsonSpecialty = (typeof specialtiesData)[number]
+
+export function generateStaticParams() {
+  const pillarSlugs = Object.keys(pillarPages)
+  const jsonSlugs = new Set<string>([...pillarSlugs, ...specialtiesData.map((s) => s.slug)])
+  const generatedSlugs = getAllSpecialtyParams()
+    .map((p) => p.specialtySlug)
+    .filter((slug) => !jsonSlugs.has(slug))
+  return [
+    ...pillarSlugs.map((slug) => ({ slug })),
+    ...specialtiesData.map((s) => ({ slug: s.slug })),
+    ...generatedSlugs.map((slug) => ({ slug })),
+  ]
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string }
+}): Promise<Metadata> {
+  const base = 'https://cliniqhealthcare.com/specialties'
+  const pillar = pillarPages[params.slug]
+  if (pillar) {
+    const pillarWithDate = pillar as unknown as { publishDate?: string }
+    return {
+      title: pillar.meta.title,
+      description: pillar.meta.description,
+      keywords: pillar.meta.keywords ? [...pillar.meta.keywords] : undefined,
+      alternates: { canonical: `${base}/${params.slug}` },
+      openGraph: {
+        title: pillar.meta.title,
+        description: pillar.meta.description,
+        type: 'article',
+        url: `${base}/${params.slug}`,
+        ...(pillarWithDate.publishDate
+          ? { publishedTime: pillarWithDate.publishDate }
+          : {}),
+      },
+    }
+  }
+  const jsonData = specialtiesData.find((s) => s.slug === params.slug) as JsonSpecialty | undefined
+  if (jsonData) {
+    return {
+      title: jsonData.meta.title,
+      description: jsonData.meta.description,
+      alternates: { canonical: `${base}/${params.slug}` },
+      openGraph: {
+        title: jsonData.meta.title,
+        description: jsonData.meta.description,
+        type: 'website',
+        url: `${base}/${params.slug}`,
+      },
+    }
+  }
+  const generated = getSpecialtyPageData(params.slug)
+  if (generated) {
+    return {
+      title: generated.metaTitle,
+      description: generated.metaDescription,
+      alternates: { canonical: `${base}/${params.slug}` },
+      openGraph: {
+        title: generated.metaTitle,
+        description: generated.metaDescription,
+        type: 'website',
+        url: `${base}/${params.slug}`,
+      },
+    }
+  }
+  return {}
+}
+
+export default function SpecialtySlugPage({ params }: { params: { slug: string } }) {
+  const pillar = pillarPages[params.slug]
+  if (pillar) {
+    return <PillarSpecialtyPage data={pillar} />
+  }
+  const jsonData = specialtiesData.find((s) => s.slug === params.slug) as JsonSpecialty | undefined
+  if (jsonData) {
+    return <JsonSpecialtyPage data={jsonData} />
+  }
+  const generated = getSpecialtyPageData(params.slug)
+  if (!generated) return null
+  return <SpecialtyPage data={generated} />
+}
