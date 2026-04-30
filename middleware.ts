@@ -31,7 +31,7 @@ export default function middleware(request: NextRequest) {
 
   // Skip intl middleware for English-only paths and static assets
   const isEnglishOnly = ENGLISH_ONLY.some((p) => pathname.startsWith(p))
-  if (isEnglishOnly || pathname.match(/\.(png|jpg|jpeg|svg|ico|webp|woff2?)$/)) {
+  if (isEnglishOnly || pathname.match(/\.(png|jpg|jpeg|svg|ico|webp|woff2?|txt|xml|webmanifest)$/)) {
     return NextResponse.next()
   }
 
