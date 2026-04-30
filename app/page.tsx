@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { getTranslations } from 'next-intl/server'
 import Nav from '@/components/Nav'
 import Hero from '@/components/Hero'
 import Marquee from '@/components/Marquee'
@@ -9,7 +10,7 @@ import HomeOpsLayer from '@/components/HomeOpsLayer'
 import HomeSpecialties from '@/components/HomeSpecialties'
 import Stats from '@/components/Stats'
 import Testimonial from '@/components/Testimonial'
-import HomeFAQ, { HOME_FAQS } from '@/components/HomeFAQ'
+import HomeFAQ from '@/components/HomeFAQ'
 import CTA from '@/components/CTA'
 import FooterInner from '@/components/FooterInner'
 
@@ -45,7 +46,9 @@ export const metadata: Metadata = {
   },
 }
 
-const jsonLd = [
+const FAQ_NUMS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] as const
+
+const baseJsonLd = [
   {
     '@context': 'https://schema.org',
     '@type': 'Organization',
@@ -54,9 +57,7 @@ const jsonLd = [
     logo: 'https://cliniqhealthcare.com/logo.png',
     description:
       'clinIQ is a clinic operations platform providing real-time patient flow management, automated check-in, RTM billing, pre-authorization, and scheduling for medical practices.',
-    sameAs: [
-      'https://linkedin.com/company/cliniq',
-    ],
+    sameAs: ['https://linkedin.com/company/cliniq'],
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'sales',
@@ -72,10 +73,7 @@ const jsonLd = [
     url: 'https://cliniqhealthcare.com',
     potentialAction: {
       '@type': 'SearchAction',
-      target: {
-        '@type': 'EntryPoint',
-        urlTemplate: 'https://cliniqhealthcare.com/search?q={search_term_string}',
-      },
+      target: { '@type': 'EntryPoint', urlTemplate: 'https://cliniqhealthcare.com/search?q={search_term_string}' },
       'query-input': 'required name=search_term_string',
     },
   },
@@ -87,28 +85,28 @@ const jsonLd = [
     operatingSystem: 'Web',
     description:
       'Real-time clinic operations platform for patient flow management, automated check-in, RTM billing, pre-authorization, and scheduling.',
-    offers: {
-      '@type': 'Offer',
-      url: 'https://cliniqhealthcare.com/demo',
-    },
-  },
-  {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: HOME_FAQS.map(({ q, a }) => ({
-      '@type': 'Question',
-      name: q,
-      acceptedAnswer: { '@type': 'Answer', text: a },
-    })),
+    offers: { '@type': 'Offer', url: 'https://cliniqhealthcare.com/demo' },
   },
 ]
 
-export default function Home() {
+export default async function Home() {
+  const t = await getTranslations('faq')
+
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: FAQ_NUMS.map((n) => ({
+      '@type': 'Question',
+      name: t(`items.q${n}`),
+      acceptedAnswer: { '@type': 'Answer', text: t(`items.a${n}`) },
+    })),
+  }
+
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify([...baseJsonLd, faqJsonLd]) }}
       />
       <main>
         <Nav />

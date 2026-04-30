@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { getTranslations } from 'next-intl/server'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
 import DemoForm from '@/components/DemoForm'
@@ -8,12 +9,12 @@ import styles from '@/app/demo/demo.module.css'
 export const metadata: Metadata = {
   title: 'Request a Demo — clinIQ Clinic Operations Platform',
   description:
-    'See clinIQ in 15 minutes. We\'ll configure it for your specialty. Patient flow, RTM billing, pre-authorization, digital check-in — live in your workflow.',
+    "See clinIQ in 15 minutes. We'll configure it for your specialty. Patient flow, RTM billing, pre-authorization, digital check-in — live in your workflow.",
   alternates: { canonical: 'https://cliniqhealthcare.com/demo' },
   openGraph: {
     title: 'Request a Demo — clinIQ Clinic Operations Platform',
     description:
-      'See clinIQ in 15 minutes. We\'ll configure it for your specialty. Patient flow, RTM billing, pre-authorization, digital check-in — live in your workflow.',
+      "See clinIQ in 15 minutes. We'll configure it for your specialty. Patient flow, RTM billing, pre-authorization, digital check-in — live in your workflow.",
     type: 'website',
     url: 'https://cliniqhealthcare.com/demo',
     images: [{ url: '/og-demo.png', width: 1200, height: 630, alt: 'Request a Demo — clinIQ' }],
@@ -40,15 +41,17 @@ const CHECK_ICON = (
   </svg>
 )
 
-const DEMO_FEATURES = [
-  'Real-time patient flow dashboard configured for your specialty',
-  'Digital check-in flow — from patient arrival to room assignment in under 3 minutes',
-  'RTM billing workflow — CPT 98975–98981 enrollment and compliance tracking',
-  'Pre-authorization automation — live payer submission demo',
-  'Analytics dashboard — RTM compliance, throughput, revenue per provider',
-]
+export default async function DemoPage() {
+  const t = await getTranslations('demo')
 
-export default function DemoPage() {
+  const demoFeatures = [
+    t('features.f1'),
+    t('features.f2'),
+    t('features.f3'),
+    t('features.f4'),
+    t('features.f5'),
+  ]
+
   return (
     <>
       <NavInner />
@@ -62,13 +65,11 @@ export default function DemoPage() {
           </div>
           <div className={s.container}>
             <div className={s.heroContent}>
-              <span className={s.badge}>Schedule a Demo</span>
+              <span className={s.badge}>{t('badge')}</span>
               <h1 className={s.heroTitle}>
-                See clinIQ<br /><em>in action.</em>
+                {t('title1')}<br /><em>{t('titleEm')}</em>
               </h1>
-              <p className={s.heroSubtitle}>
-                15 minutes. Configured for your specialty. No 47-slide deck.
-              </p>
+              <p className={s.heroSubtitle}>{t('subtitle')}</p>
             </div>
           </div>
         </section>
@@ -79,9 +80,9 @@ export default function DemoPage() {
             <div className={styles.twoCol}>
               {/* Left panel — dark */}
               <div className={styles.leftPanel}>
-                <h2 className={styles.leftTitle}>What you&apos;ll see</h2>
+                <h2 className={styles.leftTitle}>{t('whatYoullSee')}</h2>
                 <ul className={styles.featureList}>
-                  {DEMO_FEATURES.map((feat) => (
+                  {demoFeatures.map((feat) => (
                     <li key={feat} className={styles.featureItem}>
                       {CHECK_ICON}
                       <span>{feat}</span>
@@ -91,23 +92,23 @@ export default function DemoPage() {
 
                 <div className={styles.statsRow}>
                   <div className={styles.statBlock}>
-                    <span className={styles.statValue}>15 min</span>
-                    <span className={styles.statMeta}>Average demo</span>
+                    <span className={styles.statValue}>{t('stats.demo')}</span>
+                    <span className={styles.statMeta}>{t('stats.demoLabel')}</span>
                   </div>
                   <div className={styles.statBlock}>
-                    <span className={styles.statValue}>&lt;24 hrs</span>
-                    <span className={styles.statMeta}>Response time</span>
+                    <span className={styles.statValue}>{t('stats.response')}</span>
+                    <span className={styles.statMeta}>{t('stats.responseLabel')}</span>
                   </div>
                   <div className={styles.statBlock}>
-                    <span className={styles.statValue}>Days</span>
-                    <span className={styles.statMeta}>To go live</span>
+                    <span className={styles.statValue}>{t('stats.live')}</span>
+                    <span className={styles.statMeta}>{t('stats.liveLabel')}</span>
                   </div>
                 </div>
               </div>
 
               {/* Right panel — form */}
               <div className={styles.rightPanel}>
-                <h2 className={styles.formTitle}>Request your demo</h2>
+                <h2 className={styles.formTitle}>{t('formTitle')}</h2>
                 <DemoForm />
               </div>
             </div>
