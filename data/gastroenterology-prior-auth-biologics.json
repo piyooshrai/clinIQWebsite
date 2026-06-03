@@ -5,7 +5,7 @@
   "specialty": "gastroenterology",
   "wordCount": 1900,
   "meta": {
-    "title": "Gastroenterology Prior Auth: Biologics and Procedures | clinIQ",
+    "title": "Gastroenterology Prior Auth: Biologics and",
     "description": "Navigate GI prior auth for IBD biologics, step therapy protocols, and colonoscopy coding to reduce denials and accelerate biologic approvals for your patients.",
     "keywords": [
       "gastroenterology prior authorization biologics IBD",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "GI Practice Procedure Scheduling: Colonoscopy and EGD", "href": "/blog/gi-procedure-scheduling-colonoscopy-egd" },
-    { "title": "GI Practice Patient Flow Optimization", "href": "/blog/gi-patient-flow-optimization" }
+    {
+      "title": "GI Practice Procedure Scheduling: Colonoscopy and EGD",
+      "href": "/blog/gi-procedure-scheduling-colonoscopy-egd"
+    },
+    {
+      "title": "GI Practice Patient Flow Optimization",
+      "href": "/blog/gi-patient-flow-optimization"
+    }
   ],
   "pillarLink": {
     "title": "Gastroenterology Practice Software",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Cut Your Biologic Denial Rate Below 5%",
     "subhead": "clinIQ's prior auth automation handles IBD biologic submissions, renewal tracking, and peer-to-peer coordination so your team can focus on patients.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

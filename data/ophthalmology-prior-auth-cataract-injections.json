@@ -5,7 +5,7 @@
   "specialty": "ophthalmology",
   "wordCount": 1900,
   "meta": {
-    "title": "Ophthalmology Prior Auth: Cataract Surgery and Injections | clinIQ",
+    "title": "Ophthalmology Prior Auth: Cataract Surgery and",
     "description": "Navigate ophthalmology prior authorization for cataract surgery, anti-VEGF injections for AMD and DME, and blepharoplasty — VA thresholds, functional documentation, and premium IOL policies.",
     "keywords": [
       "ophthalmology cataract surgery prior authorization VA threshold",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Ophthalmology Patient Flow: High-Volume Efficiency", "href": "/blog/ophthalmology-patient-flow-high-volume" },
-    { "title": "Ophthalmology Diagnostic Testing Workflow", "href": "/blog/ophthalmology-diagnostic-testing-workflow" }
+    {
+      "title": "Ophthalmology Patient Flow: High-Volume Efficiency",
+      "href": "/blog/ophthalmology-patient-flow-high-volume"
+    },
+    {
+      "title": "Ophthalmology Diagnostic Testing Workflow",
+      "href": "/blog/ophthalmology-diagnostic-testing-workflow"
+    }
   ],
   "pillarLink": {
     "title": "Ophthalmology Practice Software",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Never Let an Anti-VEGF Authorization Lapse Again",
     "subhead": "clinIQ gives ophthalmology practices automated renewal tracking, VA threshold documentation tools, and payer criteria intelligence to keep every patient's authorization current.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

@@ -4,18 +4,33 @@
   "abbr": "MT",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Montana Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Montana Clinics | Patient Flow",
     "description": "Clinic operations platform for Montana healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Montana Healthcare",
     "subhead": "Montana is the fourth largest state by land area and has fewer than 1.1 million residents — making it one of the most geographically extreme healthcare access environments in the country, where patients routinely travel 100 miles or more for specialist care in Billings, Missoula, or Great Falls. clinIQ helps Montana clinics cut front-desk burden, manage patient flow in real time, automate Medicaid prior authorization, and capture RTM revenue from the state's dispersed outdoor-injury and aging chronic disease population.",
-    "cities": ["Billings", "Missoula", "Great Falls", "Bozeman", "Butte"]
+    "cities": [
+      "Billings",
+      "Missoula",
+      "Great Falls",
+      "Bozeman",
+      "Butte"
+    ]
   },
   "stats": [
-    { "value": "2,400+", "label": "Licensed Physician Practices" },
-    { "value": "69%", "label": "Counties with Primary Care HPSA Designation" },
-    { "value": "$144K+", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "2,400+",
+      "label": "Licensed Physician Practices"
+    },
+    {
+      "value": "69%",
+      "label": "Counties with Primary Care HPSA Designation"
+    },
+    {
+      "value": "$144K+",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

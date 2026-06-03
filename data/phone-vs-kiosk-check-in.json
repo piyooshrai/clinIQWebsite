@@ -5,7 +5,7 @@
   "specialty": "feature",
   "wordCount": 1900,
   "meta": {
-    "title": "Phone vs Kiosk Check-In: Which Is Right for Your Practice? | clinIQ",
+    "title": "Phone vs Kiosk Check-In: Which Is Right for Your",
     "description": "A data-driven comparison of SMS-based phone check-in vs. in-office kiosk check-in — completion rates, HIPAA considerations, costs, and which wins for which practice.",
     "keywords": [
       "phone vs kiosk patient check-in comparison",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Check-In Completion Rates: How to Get to 85%", "href": "/blog/check-in-completion-rates" },
-    { "title": "Self-Service Check-In for Elderly Patients", "href": "/blog/self-service-check-in-elderly-patients" }
+    {
+      "title": "Check-In Completion Rates: How to Get to 85%",
+      "href": "/blog/check-in-completion-rates"
+    },
+    {
+      "title": "Self-Service Check-In for Elderly Patients",
+      "href": "/blog/self-service-check-in-elderly-patients"
+    }
   ],
   "pillarLink": {
     "title": "Patient Check-In",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Find the Right Check-In Solution for Your Practice",
     "subhead": "clinIQ supports both phone and kiosk check-in — see how each performs for your specific patient population.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

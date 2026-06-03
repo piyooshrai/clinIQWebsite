@@ -4,18 +4,33 @@
   "abbr": "NV",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Nevada Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Nevada Clinics | Patient Flow",
     "description": "Clinic operations platform for Nevada healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Nevada Healthcare",
     "subhead": "Nevada ranks among the most physician-underserved states in the nation, with Las Vegas and Reno clinics absorbing outsized patient volumes against a backdrop of chronic provider shortages. clinIQ helps Nevada practices run leaner operations, cut check-in friction, and unlock RTM billing revenue that most clinics aren't yet capturing.",
-    "cities": ["Las Vegas", "Henderson", "Reno", "North Las Vegas", "Sparks"]
+    "cities": [
+      "Las Vegas",
+      "Henderson",
+      "Reno",
+      "North Las Vegas",
+      "Sparks"
+    ]
   },
   "stats": [
-    { "value": "4,200+", "label": "Active Physician Practices" },
-    { "value": "65%", "label": "of Rural Counties with Provider Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "4,200+",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "65%",
+      "label": "of Rural Counties with Provider Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

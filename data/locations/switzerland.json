@@ -4,18 +4,33 @@
   "abbr": "CH",
   "region": "Europe",
   "meta": {
-    "title": "clinIQ for Switzerland Private Clinics | Patient Flow & Remote Monitoring",
+    "title": "clinIQ for Switzerland | Patient Flow",
     "description": "Clinic operations platform for Swiss private healthcare providers. Streamline check-in, patient flow, and remote therapeutic monitoring. Works with KVG/LAMal and Zusatzversicherung contexts."
   },
   "hero": {
     "h1": "clinIQ for Switzerland Healthcare",
     "subhead": "Switzerland boasts some of the highest per-capita healthcare spending in the world, with a private healthcare market that rewards premium patient experience and clinical excellence. Arztpraxen and specialist clinics in Zurich, Geneva, Basel, and Bern serving both OKP-insured and Zusatzversicherung (private) patients need operations infrastructure that matches their clinical standard. clinIQ integrates with your existing praxis system to automate check-in, manage flow, and grow remote monitoring revenue.",
-    "cities": ["Zurich", "Geneva", "Basel", "Bern", "Lausanne"]
+    "cities": [
+      "Zurich",
+      "Geneva",
+      "Basel",
+      "Bern",
+      "Lausanne"
+    ]
   },
   "stats": [
-    { "value": "CHF 91B", "label": "Total Swiss Healthcare Expenditure (2023)" },
-    { "value": "8.8M", "label": "Residents Covered by Obligatorische Krankenpflegeversicherung" },
-    { "value": "CHF 144K", "label": "Annual Remote Monitoring Revenue per 100 Patients" }
+    {
+      "value": "CHF 91B",
+      "label": "Total Swiss Healthcare Expenditure (2023)"
+    },
+    {
+      "value": "8.8M",
+      "label": "Residents Covered by Obligatorische Krankenpflegeversicherung"
+    },
+    {
+      "value": "CHF 144K",
+      "label": "Annual Remote Monitoring Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

@@ -5,7 +5,7 @@
   "specialty": "feature",
   "wordCount": 1900,
   "meta": {
-    "title": "Room Status Visibility: Eliminating the Guessing Game | clinIQ",
+    "title": "Room Status Visibility: Eliminating the Guessing",
     "description": "How digital room status boards eliminate the 2+ hours per day your staff spends searching for available rooms, and what real-time visibility actually does to patient flow.",
     "keywords": [
       "real-time room status board medical practice",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Reducing Wait Times: A Data-Driven Approach", "href": "/blog/reducing-wait-times-data-driven" },
-    { "title": "Patient Flow for Multi-Provider Practices", "href": "/blog/patient-flow-multi-provider-practices" }
+    {
+      "title": "Reducing Wait Times: A Data-Driven Approach",
+      "href": "/blog/reducing-wait-times-data-driven"
+    },
+    {
+      "title": "Patient Flow for Multi-Provider Practices",
+      "href": "/blog/patient-flow-multi-provider-practices"
+    }
   ],
   "pillarLink": {
     "title": "Patient Flow",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Give Your Team Real-Time Room Visibility",
     "subhead": "clinIQ's room status board eliminates the hall-walking search that consumes 90-160 minutes of clinical staff time every day.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

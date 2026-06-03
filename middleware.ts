@@ -2,6 +2,8 @@ import createMiddleware from 'next-intl/middleware'
 import { routing } from './i18n/routing'
 import { NextRequest, NextResponse } from 'next/server'
 
+// The alternate-Link header behavior is now disabled at the routing config
+// level (i18n/routing.ts). See that file for the reasoning.
 const intlMiddleware = createMiddleware(routing)
 
 // Paths that stay English-only (no locale prefix handling)

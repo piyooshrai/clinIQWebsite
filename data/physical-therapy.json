@@ -5,29 +5,73 @@
   "wordCount": 3600,
   "publishDate": "2025-02-10",
   "meta": {
-    "title": "Physical Therapy Practice Software | RTM, Patient Flow & Scheduling | clinIQ",
+    "title": "Physical Therapy Software | RTM, Patient Flow",
     "description": "Complete guide to physical therapy clinic operations. RTM billing for musculoskeletal conditions. Exercise compliance tracking through patient app. Efficient patient flow for high-volume PT clinics. Outcome measurement and payer documentation.",
-    "keywords": ["physical therapy software", "PT practice management", "physical therapy RTM billing", "PT clinic scheduling", "physical therapy patient flow", "PT outcome tracking", "physical therapy EHR integration"]
+    "keywords": [
+      "physical therapy software",
+      "PT practice management",
+      "physical therapy RTM billing",
+      "PT clinic scheduling",
+      "physical therapy patient flow",
+      "PT outcome tracking",
+      "physical therapy EHR integration"
+    ]
   },
   "hero": {
     "h1": "Physical Therapy Practice Software",
     "subhead": "RTM billing for musculoskeletal conditions capturing $100-130 per patient monthly. Home exercise compliance tracking through the clinIQ app. Patient flow optimization for high-volume PT clinics seeing 40+ patients daily. Outcome measurement that satisfies payer documentation requirements and demonstrates clinical value.",
     "stats": [
-      { "value": "$130K", "label": "annual RTM revenue (100 patients)" },
-      { "value": "75%+", "label": "exercise compliance tracking" },
-      { "value": "40+", "label": "patients per day manageable" }
+      {
+        "value": "$130K",
+        "label": "annual RTM revenue (100 patients)"
+      },
+      {
+        "value": "75%+",
+        "label": "exercise compliance tracking"
+      },
+      {
+        "value": "40+",
+        "label": "patients per day manageable"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "pt-operations", "title": "The PT Operations Challenge" },
-    { "id": "rtm-billing", "title": "RTM Billing for Physical Therapy" },
-    { "id": "exercise-compliance", "title": "Home Exercise Compliance Tracking" },
-    { "id": "patient-flow", "title": "Patient Flow for High-Volume Clinics" },
-    { "id": "scheduling", "title": "Scheduling Optimization" },
-    { "id": "outcomes", "title": "Outcome Measurement and Documentation" },
-    { "id": "referral-coordination", "title": "Referral Coordination" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "pt-operations",
+      "title": "The PT Operations Challenge"
+    },
+    {
+      "id": "rtm-billing",
+      "title": "RTM Billing for Physical Therapy"
+    },
+    {
+      "id": "exercise-compliance",
+      "title": "Home Exercise Compliance Tracking"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Patient Flow for High-Volume Clinics"
+    },
+    {
+      "id": "scheduling",
+      "title": "Scheduling Optimization"
+    },
+    {
+      "id": "outcomes",
+      "title": "Outcome Measurement and Documentation"
+    },
+    {
+      "id": "referral-coordination",
+      "title": "Referral Coordination"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -108,14 +152,29 @@
   "cta": {
     "headline": "See PT Operations Optimized",
     "subhead": "Fifteen-minute demo showing PT-specific patient flow, exercise compliance tracking through the app, RTM enrollment, and outcome measurement. See how PT practices capture $120,000+ annually in RTM revenue.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Your RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Your RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$130K", "label": "annual RTM revenue potential" },
-      { "value": "75%+", "label": "exercise compliance tracking" },
-      { "value": "25%", "label": "therapist efficiency improvement" }
+      {
+        "value": "$130K",
+        "label": "annual RTM revenue potential"
+      },
+      {
+        "value": "75%+",
+        "label": "exercise compliance tracking"
+      },
+      {
+        "value": "25%",
+        "label": "therapist efficiency improvement"
+      }
     ],
     "testimonial": {
       "quote": "We had no idea which patients were actually doing their home exercises. Now we see compliance in real-time and can intervene before patients fall behind. RTM revenue covers the platform cost three times over. The flow board transformed how our therapists manage the gym floor — everyone knows where every patient is without asking.",
@@ -147,7 +206,19 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Physical Therapy",
-    "relevantConditions": ["Musculoskeletal Pain", "Post-Surgical Rehabilitation", "Sports Injuries", "Arthritis", "Work Injuries"],
-    "availableProcedures": ["Manual Therapy", "Therapeutic Exercise", "Modalities", "Functional Training", "Gait Training"]
+    "relevantConditions": [
+      "Musculoskeletal Pain",
+      "Post-Surgical Rehabilitation",
+      "Sports Injuries",
+      "Arthritis",
+      "Work Injuries"
+    ],
+    "availableProcedures": [
+      "Manual Therapy",
+      "Therapeutic Exercise",
+      "Modalities",
+      "Functional Training",
+      "Gait Training"
+    ]
   }
 }

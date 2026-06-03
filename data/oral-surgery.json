@@ -5,27 +5,64 @@
   "wordCount": 2200,
   "publishDate": "2025-05-28",
   "meta": {
-    "title": "Oral Surgery Practice Software | Scheduling, Patient Flow & Referral Management | clinIQ",
+    "title": "Oral Surgery Software | Scheduling, Patient Flow",
     "description": "Complete guide to oral surgery practice operations. Surgical scheduling for extractions, implants, and jaw surgery. Referral management from dental practices. Post-operative monitoring and patient communication.",
-    "keywords": ["oral surgery software", "oral surgery practice management", "dental implant scheduling", "oral surgery patient flow", "oral surgery referral management", "oral surgery EHR integration"]
+    "keywords": [
+      "oral surgery software",
+      "oral surgery practice management",
+      "dental implant scheduling",
+      "oral surgery patient flow",
+      "oral surgery referral management",
+      "oral surgery EHR integration"
+    ]
   },
   "hero": {
     "h1": "Oral Surgery Practice Software",
     "subhead": "Surgical scheduling for extractions, implants, and jaw surgery. Referral management from dental practices. Post-operative monitoring through the clinIQ app. Patient communication reducing post-op calls.",
     "stats": [
-      { "value": "Referral", "label": "management included" },
-      { "value": "Post-op", "label": "communication" },
-      { "value": "Efficient", "label": "surgical scheduling" }
+      {
+        "value": "Referral",
+        "label": "management included"
+      },
+      {
+        "value": "Post-op",
+        "label": "communication"
+      },
+      {
+        "value": "Efficient",
+        "label": "surgical scheduling"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "oral-operations", "title": "The Oral Surgery Operations Model" },
-    { "id": "scheduling", "title": "Surgical Scheduling" },
-    { "id": "referral-management", "title": "Referral Management" },
-    { "id": "patient-flow", "title": "Patient Flow" },
-    { "id": "post-op-monitoring", "title": "Post-Operative Monitoring" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "oral-operations",
+      "title": "The Oral Surgery Operations Model"
+    },
+    {
+      "id": "scheduling",
+      "title": "Surgical Scheduling"
+    },
+    {
+      "id": "referral-management",
+      "title": "Referral Management"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Patient Flow"
+    },
+    {
+      "id": "post-op-monitoring",
+      "title": "Post-Operative Monitoring"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -84,14 +121,29 @@
   "cta": {
     "headline": "See Oral Surgery Operations Optimized",
     "subhead": "Fifteen-minute demo showing surgical scheduling, referral management, and post-operative communication.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Learn More", "href": "/resources/referral-management" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Learn More",
+      "href": "/resources/referral-management"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "Referral", "label": "tracking included" },
-      { "value": "Post-op", "label": "communication" },
-      { "value": "Efficient", "label": "scheduling" }
+      {
+        "value": "Referral",
+        "label": "tracking included"
+      },
+      {
+        "value": "Post-op",
+        "label": "communication"
+      },
+      {
+        "value": "Efficient",
+        "label": "scheduling"
+      }
     ],
     "testimonial": {
       "quote": "Referral relationships are everything. Now we track which dentists send patients and ensure prompt scheduling. Post-operative messaging cut our phone volume dramatically. Patients get answers quickly and we document everything. The referring dentists appreciate getting reports back promptly.",
@@ -123,7 +175,17 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Oral Surgery",
-    "relevantConditions": ["Impacted Wisdom Teeth", "Dental Implant Need", "Jaw Pathology", "Facial Trauma"],
-    "availableProcedures": ["Third Molar Extraction", "Dental Implants", "Bone Grafting", "Orthognathic Surgery"]
+    "relevantConditions": [
+      "Impacted Wisdom Teeth",
+      "Dental Implant Need",
+      "Jaw Pathology",
+      "Facial Trauma"
+    ],
+    "availableProcedures": [
+      "Third Molar Extraction",
+      "Dental Implants",
+      "Bone Grafting",
+      "Orthognathic Surgery"
+    ]
   }
 }

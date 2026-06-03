@@ -5,28 +5,69 @@
   "wordCount": 3500,
   "publishDate": "2025-05-01",
   "meta": {
-    "title": "Orthopedic Surgery Practice Software | Pre-Auth, Patient Flow & Surgical Coordination | clinIQ",
+    "title": "Orthopedic Surgery Software | Pre-Auth",
     "description": "Complete guide to orthopedic surgery practice operations. Prior authorization automation for joint replacement and spine procedures. Surgical scheduling optimization. Post-operative RTM monitoring. Coordination with PT and pain management.",
-    "keywords": ["orthopedic surgery software", "orthopedic practice management", "orthopedic prior authorization", "joint replacement scheduling", "orthopedic patient flow", "surgical coordination software", "orthopedic EHR integration"]
+    "keywords": [
+      "orthopedic surgery software",
+      "orthopedic practice management",
+      "orthopedic prior authorization",
+      "joint replacement scheduling",
+      "orthopedic patient flow",
+      "surgical coordination software",
+      "orthopedic EHR integration"
+    ]
   },
   "hero": {
     "h1": "Orthopedic Surgery Practice Software",
     "subhead": "Prior authorization automation reducing 57% initial denial rates for orthopedic procedures. Surgical scheduling optimization maximizing OR utilization. Post-operative RTM monitoring through the clinIQ app. Seamless coordination with physical therapy, pain management, and primary care.",
     "stats": [
-      { "value": "57%", "label": "denial rate addressed" },
-      { "value": "14 days", "label": "faster auth turnaround" },
-      { "value": "$120K", "label": "annual RTM revenue potential" }
+      {
+        "value": "57%",
+        "label": "denial rate addressed"
+      },
+      {
+        "value": "14 days",
+        "label": "faster auth turnaround"
+      },
+      {
+        "value": "$120K",
+        "label": "annual RTM revenue potential"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "ortho-operations", "title": "The Orthopedic Surgery Operations Challenge" },
-    { "id": "prior-auth", "title": "Prior Authorization for Orthopedic Procedures" },
-    { "id": "surgical-scheduling", "title": "Surgical Scheduling Optimization" },
-    { "id": "patient-flow", "title": "Clinic and Surgical Patient Flow" },
-    { "id": "post-op-monitoring", "title": "Post-Operative RTM Monitoring" },
-    { "id": "care-coordination", "title": "Care Coordination" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "ortho-operations",
+      "title": "The Orthopedic Surgery Operations Challenge"
+    },
+    {
+      "id": "prior-auth",
+      "title": "Prior Authorization for Orthopedic Procedures"
+    },
+    {
+      "id": "surgical-scheduling",
+      "title": "Surgical Scheduling Optimization"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Clinic and Surgical Patient Flow"
+    },
+    {
+      "id": "post-op-monitoring",
+      "title": "Post-Operative RTM Monitoring"
+    },
+    {
+      "id": "care-coordination",
+      "title": "Care Coordination"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -102,14 +143,29 @@
   "cta": {
     "headline": "See Orthopedic Operations Optimized",
     "subhead": "Fifteen-minute demo showing prior authorization automation, surgical scheduling, post-operative RTM monitoring, and PT coordination. See how orthopedic practices reduce denial rates and capture recovery monitoring revenue.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Your Savings", "href": "/resources/auth-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Your Savings",
+      "href": "/resources/auth-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "57%", "label": "denial rate addressed" },
-      { "value": "5 min", "label": "LOMN generation" },
-      { "value": "$120K", "label": "annual RTM potential" }
+      {
+        "value": "57%",
+        "label": "denial rate addressed"
+      },
+      {
+        "value": "5 min",
+        "label": "LOMN generation"
+      },
+      {
+        "value": "$120K",
+        "label": "annual RTM potential"
+      }
     ],
     "testimonial": {
       "quote": "Prior authorization was consuming my staff. Now LOMN templates auto-populate and we track status without calling payers. Denial rates dropped because documentation addresses common denial reasons from the start. Post-operative RTM lets us monitor recovery between visits and catch problems early. PT coordination finally works the way it should.",
@@ -141,7 +197,19 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Orthopedic Surgery",
-    "relevantConditions": ["Osteoarthritis", "ACL Tear", "Rotator Cuff Tear", "Fractures", "Meniscus Tear"],
-    "availableProcedures": ["Total Knee Arthroplasty", "Total Hip Arthroplasty", "ACL Reconstruction", "Rotator Cuff Repair", "Arthroscopy"]
+    "relevantConditions": [
+      "Osteoarthritis",
+      "ACL Tear",
+      "Rotator Cuff Tear",
+      "Fractures",
+      "Meniscus Tear"
+    ],
+    "availableProcedures": [
+      "Total Knee Arthroplasty",
+      "Total Hip Arthroplasty",
+      "ACL Reconstruction",
+      "Rotator Cuff Repair",
+      "Arthroscopy"
+    ]
   }
 }

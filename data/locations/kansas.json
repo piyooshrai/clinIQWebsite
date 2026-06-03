@@ -4,18 +4,33 @@
   "abbr": "KS",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Kansas Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Kansas Clinics | Patient Flow",
     "description": "Clinic operations platform for Kansas healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Kansas Healthcare",
     "subhead": "Kansas combines a dynamic metro healthcare market in the Kansas City corridor and Wichita with some of the most severe rural provider shortages in the country — a state where one county has no practicing physician at all. clinIQ helps Kansas clinics from Overland Park to Dodge City reduce front-desk burden, gain real-time lobby visibility, automate prior authorization across KanCare's managed care environment, and capture RTM revenue from the state's growing physical therapy and chronic disease management population.",
-    "cities": ["Wichita", "Overland Park", "Kansas City", "Olathe", "Topeka"]
+    "cities": [
+      "Wichita",
+      "Overland Park",
+      "Kansas City",
+      "Olathe",
+      "Topeka"
+    ]
   },
   "stats": [
-    { "value": "6,200+", "label": "Licensed Physician Practices" },
-    { "value": "72%", "label": "Counties with Primary Care HPSA Designation" },
-    { "value": "$144K+", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "6,200+",
+      "label": "Licensed Physician Practices"
+    },
+    {
+      "value": "72%",
+      "label": "Counties with Primary Care HPSA Designation"
+    },
+    {
+      "value": "$144K+",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

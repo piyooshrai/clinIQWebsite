@@ -5,29 +5,76 @@
   "wordCount": 3100,
   "publishDate": "2025-07-23",
   "meta": {
-    "title": "Secure Messaging for Healthcare | HIPAA Compliant Patient Chat | clinIQ",
+    "title": "Secure Messaging for Healthcare | HIPAA Compliant",
     "description": "Complete guide to secure patient-provider messaging. HIPAA compliant chat through clinIQ app. Documented in patient record. Reduces phone tag. Enables asynchronous care communication.",
-    "keywords": ["secure messaging healthcare", "HIPAA compliant messaging", "patient provider messaging", "medical secure chat", "healthcare messaging app", "patient communication platform", "secure patient chat", "clinical messaging system", "healthcare text messaging", "patient portal messaging"]
+    "keywords": [
+      "secure messaging healthcare",
+      "HIPAA compliant messaging",
+      "patient provider messaging",
+      "medical secure chat",
+      "healthcare messaging app",
+      "patient communication platform",
+      "secure patient chat",
+      "clinical messaging system",
+      "healthcare text messaging",
+      "patient portal messaging"
+    ]
   },
   "hero": {
     "h1": "Secure Messaging",
     "subhead": "HIPAA compliant messaging between patients and care team through the clinIQ app. Patients ask questions and share updates without phone tag. Staff responds when able rather than interrupting clinical work for calls. Every message documents in the patient record automatically.",
     "stats": [
-      { "value": "HIPAA", "label": "compliant messaging" },
-      { "value": "70%", "label": "phone call reduction" },
-      { "value": "Documented", "label": "in patient record" }
+      {
+        "value": "HIPAA",
+        "label": "compliant messaging"
+      },
+      {
+        "value": "70%",
+        "label": "phone call reduction"
+      },
+      {
+        "value": "Documented",
+        "label": "in patient record"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "messaging-value", "title": "Why Secure Messaging Matters" },
-    { "id": "patient-experience", "title": "Patient Experience" },
-    { "id": "staff-workflow", "title": "Staff Workflow" },
-    { "id": "message-routing", "title": "Message Routing and Assignment" },
-    { "id": "documentation", "title": "Documentation Integration" },
-    { "id": "security-compliance", "title": "Security and Compliance" },
-    { "id": "best-practices", "title": "Best Practices" },
-    { "id": "implementation", "title": "Implementation" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "messaging-value",
+      "title": "Why Secure Messaging Matters"
+    },
+    {
+      "id": "patient-experience",
+      "title": "Patient Experience"
+    },
+    {
+      "id": "staff-workflow",
+      "title": "Staff Workflow"
+    },
+    {
+      "id": "message-routing",
+      "title": "Message Routing and Assignment"
+    },
+    {
+      "id": "documentation",
+      "title": "Documentation Integration"
+    },
+    {
+      "id": "security-compliance",
+      "title": "Security and Compliance"
+    },
+    {
+      "id": "best-practices",
+      "title": "Best Practices"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -108,14 +155,29 @@
   "cta": {
     "headline": "See Secure Messaging Working",
     "subhead": "Fifteen-minute demo showing patient messaging experience, staff workflow, routing configuration, and documentation integration. See how messaging reduces phone volume while improving patient engagement.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "See Messaging Features", "href": "/resources/messaging-demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "See Messaging Features",
+      "href": "/resources/messaging-demo"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "70%", "label": "phone call reduction" },
-      { "value": "<4 hrs", "label": "average response time" },
-      { "value": "92%", "label": "patient satisfaction with messaging" }
+      {
+        "value": "70%",
+        "label": "phone call reduction"
+      },
+      {
+        "value": "<4 hrs",
+        "label": "average response time"
+      },
+      {
+        "value": "92%",
+        "label": "patient satisfaction with messaging"
+      }
     ],
     "testimonial": {
       "quote": "Our phones used to ring constantly. Half the calls were simple questions that took forever to resolve through phone tag. Now those questions come through messaging and get answered in minutes. Phone volume dropped by two-thirds. Staff is less frazzled. Patients actually prefer it because they get answers faster.",

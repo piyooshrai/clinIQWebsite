@@ -4,18 +4,33 @@
   "abbr": "IE",
   "region": "Europe",
   "meta": {
-    "title": "clinIQ for Ireland Private Clinics | Patient Flow & Remote Monitoring",
+    "title": "clinIQ for Ireland Private Clinics | Patient Flow",
     "description": "Clinic operations platform for Irish private healthcare providers. Streamline check-in, patient flow, health insurance pre-authorisation, and remote therapeutic monitoring."
   },
   "hero": {
     "h1": "clinIQ for Ireland Healthcare",
     "subhead": "Ireland's two-tier healthcare system — with over 2.5 million people holding private health insurance — creates one of Europe's most commercially active private clinic markets. But rapid growth in private demand, complex VHI and Laya pre-authorisation workflows, and rising patient expectations are stretching clinic operations. clinIQ works alongside your existing practice management system to automate check-in, manage patient flow in real time, and generate remote monitoring revenue.",
-    "cities": ["Dublin", "Cork", "Limerick", "Galway", "Waterford"]
+    "cities": [
+      "Dublin",
+      "Cork",
+      "Limerick",
+      "Galway",
+      "Waterford"
+    ]
   },
   "stats": [
-    { "value": "2.5M+", "label": "People with Private Health Insurance in Ireland" },
-    { "value": "57%", "label": "of Irish Population with PHI Coverage (Highest in EU)" },
-    { "value": "€144K", "label": "Annual Remote Monitoring Revenue per 100 Patients" }
+    {
+      "value": "2.5M+",
+      "label": "People with Private Health Insurance in Ireland"
+    },
+    {
+      "value": "57%",
+      "label": "of Irish Population with PHI Coverage (Highest in EU)"
+    },
+    {
+      "value": "€144K",
+      "label": "Annual Remote Monitoring Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

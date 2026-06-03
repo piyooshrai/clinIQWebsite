@@ -1313,7 +1313,7 @@ export function getPageData(featureSlug: string, specialtySlug: string): PageDat
     specialtySlug,
     specialtyName: specialty.name,
     h1,
-    metaTitle: `${feature.name} for ${specialty.name} — clinIQ`,
+    metaTitle: `${feature.name} for ${specialty.name}`,
     metaDescription,
     problemHeading,
     problemStatement,

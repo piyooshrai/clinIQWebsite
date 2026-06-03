@@ -5,27 +5,64 @@
   "wordCount": 2800,
   "publishDate": "2025-06-18",
   "meta": {
-    "title": "Oncology Practice Software | Patient Flow, Infusion Scheduling & Care Coordination | clinIQ",
+    "title": "Oncology Software | Patient Flow",
     "description": "Complete guide to oncology practice operations. Infusion scheduling optimization. Symptom tracking between treatments. Pre-authorization for cancer therapies. Coordination with surgery, radiation, and supportive care.",
-    "keywords": ["oncology software", "oncology practice management", "chemotherapy scheduling", "cancer treatment workflow", "oncology patient flow", "oncology EHR integration"]
+    "keywords": [
+      "oncology software",
+      "oncology practice management",
+      "chemotherapy scheduling",
+      "cancer treatment workflow",
+      "oncology patient flow",
+      "oncology EHR integration"
+    ]
   },
   "hero": {
     "h1": "Oncology Practice Software",
     "subhead": "Infusion scheduling optimization for chemotherapy and immunotherapy. Symptom tracking between treatments through the clinIQ app. Pre-authorization for cancer therapies. Coordination with surgical oncology, radiation oncology, and supportive care.",
     "stats": [
-      { "value": "Infusion", "label": "scheduling optimization" },
-      { "value": "Symptom", "label": "tracking included" },
-      { "value": "Multi-specialty", "label": "coordination" }
+      {
+        "value": "Infusion",
+        "label": "scheduling optimization"
+      },
+      {
+        "value": "Symptom",
+        "label": "tracking included"
+      },
+      {
+        "value": "Multi-specialty",
+        "label": "coordination"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "onc-operations", "title": "The Oncology Operations Model" },
-    { "id": "infusion-scheduling", "title": "Infusion Scheduling" },
-    { "id": "symptom-tracking", "title": "Symptom Tracking" },
-    { "id": "prior-auth", "title": "Prior Authorization" },
-    { "id": "care-coordination", "title": "Care Coordination" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "onc-operations",
+      "title": "The Oncology Operations Model"
+    },
+    {
+      "id": "infusion-scheduling",
+      "title": "Infusion Scheduling"
+    },
+    {
+      "id": "symptom-tracking",
+      "title": "Symptom Tracking"
+    },
+    {
+      "id": "prior-auth",
+      "title": "Prior Authorization"
+    },
+    {
+      "id": "care-coordination",
+      "title": "Care Coordination"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -84,14 +121,29 @@
   "cta": {
     "headline": "See Oncology Operations Optimized",
     "subhead": "Fifteen-minute demo showing infusion scheduling, symptom tracking, and multi-specialty cancer care coordination.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Learn More", "href": "/resources/infusion-scheduling" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Learn More",
+      "href": "/resources/infusion-scheduling"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "Infusion", "label": "scheduling optimization" },
-      { "value": "Symptom", "label": "early intervention" },
-      { "value": "Multi-specialty", "label": "coordination" }
+      {
+        "value": "Infusion",
+        "label": "scheduling optimization"
+      },
+      {
+        "value": "Symptom",
+        "label": "early intervention"
+      },
+      {
+        "value": "Multi-specialty",
+        "label": "coordination"
+      }
     ],
     "testimonial": {
       "quote": "Infusion scheduling optimization increased our chair utilization significantly. Symptom tracking between treatments catches febrile neutropenia early. Prior authorization tracking prevents treatment delays. The coordination with surgery and radiation finally works the way cancer care should.",
@@ -123,7 +175,18 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Oncology",
-    "relevantConditions": ["Breast Cancer", "Lung Cancer", "Colon Cancer", "Lymphoma", "Leukemia"],
-    "availableProcedures": ["Chemotherapy", "Immunotherapy", "Targeted Therapy", "Bone Marrow Biopsy"]
+    "relevantConditions": [
+      "Breast Cancer",
+      "Lung Cancer",
+      "Colon Cancer",
+      "Lymphoma",
+      "Leukemia"
+    ],
+    "availableProcedures": [
+      "Chemotherapy",
+      "Immunotherapy",
+      "Targeted Therapy",
+      "Bone Marrow Biopsy"
+    ]
   }
 }

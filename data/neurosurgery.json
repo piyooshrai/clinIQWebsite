@@ -5,28 +5,69 @@
   "wordCount": 2800,
   "publishDate": "2025-05-10",
   "meta": {
-    "title": "Neurosurgery Practice Software | Pre-Auth, Patient Flow & Surgical Coordination | clinIQ",
+    "title": "Neurosurgery Software | Pre-Auth, Patient Flow",
     "description": "Complete guide to neurosurgery practice operations. Prior authorization for cranial and spine procedures. Surgical scheduling coordination. Post-operative monitoring. Coordination with neurology, oncology, and rehabilitation.",
-    "keywords": ["neurosurgery software", "neurosurgery practice management", "neurosurgery prior authorization", "craniotomy authorization", "neurosurgery patient flow", "brain surgery scheduling", "neurosurgery EHR integration"]
+    "keywords": [
+      "neurosurgery software",
+      "neurosurgery practice management",
+      "neurosurgery prior authorization",
+      "craniotomy authorization",
+      "neurosurgery patient flow",
+      "brain surgery scheduling",
+      "neurosurgery EHR integration"
+    ]
   },
   "hero": {
     "h1": "Neurosurgery Practice Software",
     "subhead": "Prior authorization automation for cranial and spine procedures. Surgical scheduling coordination across complex cases. Post-operative monitoring through the clinIQ app. Coordination with neurology, oncology, radiation oncology, and rehabilitation services.",
     "stats": [
-      { "value": "Complex", "label": "case coordination" },
-      { "value": "Multi-specialty", "label": "care integration" },
-      { "value": "Post-op", "label": "RTM monitoring" }
+      {
+        "value": "Complex",
+        "label": "case coordination"
+      },
+      {
+        "value": "Multi-specialty",
+        "label": "care integration"
+      },
+      {
+        "value": "Post-op",
+        "label": "RTM monitoring"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "neuro-operations", "title": "The Neurosurgery Operations Model" },
-    { "id": "prior-auth", "title": "Prior Authorization" },
-    { "id": "surgical-coordination", "title": "Surgical Coordination" },
-    { "id": "patient-flow", "title": "Clinic Patient Flow" },
-    { "id": "post-op-monitoring", "title": "Post-Operative Monitoring" },
-    { "id": "care-coordination", "title": "Multi-Specialty Coordination" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "neuro-operations",
+      "title": "The Neurosurgery Operations Model"
+    },
+    {
+      "id": "prior-auth",
+      "title": "Prior Authorization"
+    },
+    {
+      "id": "surgical-coordination",
+      "title": "Surgical Coordination"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Clinic Patient Flow"
+    },
+    {
+      "id": "post-op-monitoring",
+      "title": "Post-Operative Monitoring"
+    },
+    {
+      "id": "care-coordination",
+      "title": "Multi-Specialty Coordination"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -94,14 +135,29 @@
   "cta": {
     "headline": "See Neurosurgery Operations Optimized",
     "subhead": "Fifteen-minute demo showing prior authorization, complex surgical scheduling, post-operative monitoring, and multi-specialty coordination. See how neurosurgery practices manage operational complexity.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Learn More", "href": "/resources/surgical-coordination" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Learn More",
+      "href": "/resources/surgical-coordination"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "Complex", "label": "case coordination" },
-      { "value": "57%", "label": "spine denial rate addressed" },
-      { "value": "Multi-specialty", "label": "care integration" }
+      {
+        "value": "Complex",
+        "label": "case coordination"
+      },
+      {
+        "value": "57%",
+        "label": "spine denial rate addressed"
+      },
+      {
+        "value": "Multi-specialty",
+        "label": "care integration"
+      }
     ],
     "testimonial": {
       "quote": "Neurosurgery scheduling is uniquely complex. Now we coordinate OR time, vendors, neuromonitoring, and authorization in one view. Spine case authorizations improved dramatically with proper templates. Post-operative monitoring catches problems before patients deteriorate. The multi-specialty coordination for our tumor patients finally works smoothly.",
@@ -133,7 +189,20 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Neurosurgery",
-    "relevantConditions": ["Brain Tumor", "Spinal Stenosis", "Aneurysm", "AVM", "Epilepsy", "Movement Disorders"],
-    "availableProcedures": ["Craniotomy", "Spine Fusion", "DBS", "Aneurysm Clipping", "Tumor Resection"]
+    "relevantConditions": [
+      "Brain Tumor",
+      "Spinal Stenosis",
+      "Aneurysm",
+      "AVM",
+      "Epilepsy",
+      "Movement Disorders"
+    ],
+    "availableProcedures": [
+      "Craniotomy",
+      "Spine Fusion",
+      "DBS",
+      "Aneurysm Clipping",
+      "Tumor Resection"
+    ]
   }
 }

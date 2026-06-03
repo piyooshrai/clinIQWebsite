@@ -5,7 +5,7 @@
   "specialty": "addiction-medicine",
   "wordCount": 2800,
   "meta": {
-    "title": "Cut Prior Authorization Denials 40% | Addiction Medicine | clinIQ",
+    "title": "Cut Prior Authorization Denials 40% | Addiction",
     "description": "How addiction medicine practices cut prior authorization denials by 40% with automation. Workflow, ROI math, CMS-0057-F readiness, and a 10 question FAQ for MAT-heavy clinics.",
     "keywords": [
       "addiction medicine prior authorization automation",
@@ -117,10 +117,22 @@
     }
   ],
   "relatedPosts": [
-    { "title": "Prior Auth Denial Prevention: A Complete Guide", "href": "/blog/prior-auth-denial-prevention-guide" },
-    { "title": "Behavioral Health RTM for Addiction Medicine", "href": "/blog/behavioral-health-rtm-addiction-medicine" },
-    { "title": "MAT Patient Monitoring and Compliance Tracking", "href": "/blog/mat-patient-monitoring-compliance" },
-    { "title": "No-Show Reduction in Addiction Medicine", "href": "/blog/no-show-reduction-addiction-medicine" }
+    {
+      "title": "Prior Auth Denial Prevention: A Complete Guide",
+      "href": "/blog/prior-auth-denial-prevention-guide"
+    },
+    {
+      "title": "Behavioral Health RTM for Addiction Medicine",
+      "href": "/blog/behavioral-health-rtm-addiction-medicine"
+    },
+    {
+      "title": "MAT Patient Monitoring and Compliance Tracking",
+      "href": "/blog/mat-patient-monitoring-compliance"
+    },
+    {
+      "title": "No-Show Reduction in Addiction Medicine",
+      "href": "/blog/no-show-reduction-addiction-medicine"
+    }
   ],
   "pillarLink": {
     "title": "Pre-Authorization",
@@ -130,6 +142,9 @@
   "cta": {
     "headline": "Cut Prior Auth Denials in Addiction Medicine by 40%",
     "subhead": "Fifteen minute walkthrough configured for MAT workflows and your payer mix. See clinIQ before your next intake.",
-    "primaryButton": { "label": "Request a Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request a Demo",
+      "href": "/demo"
+    }
   }
 }

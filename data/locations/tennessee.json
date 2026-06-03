@@ -4,18 +4,33 @@
   "abbr": "TN",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Tennessee Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Tennessee Clinics | Patient Flow",
     "description": "Clinic operations platform for Tennessee healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Tennessee Healthcare",
     "subhead": "Tennessee is a major healthcare hub for the Southeast, with Nashville anchoring one of the nation's largest healthcare industry clusters and Memphis, Knoxville, and Chattanooga supporting dense regional clinic markets. clinIQ helps Tennessee practices reduce check-in time, automate prior authorization, and capture RTM revenue across the state's large orthopedic and behavioral health sectors.",
-    "cities": ["Nashville", "Memphis", "Knoxville", "Chattanooga", "Clarksville"]
+    "cities": [
+      "Nashville",
+      "Memphis",
+      "Knoxville",
+      "Chattanooga",
+      "Clarksville"
+    ]
   },
   "stats": [
-    { "value": "14,000+", "label": "Active Physician Practices" },
-    { "value": "52%", "label": "of Rural Counties with Provider Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "14,000+",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "52%",
+      "label": "of Rural Counties with Provider Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

@@ -4,18 +4,33 @@
   "abbr": "GA",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Georgia Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Georgia Clinics | Patient Flow",
     "description": "Clinic operations platform for Georgia healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Georgia Healthcare",
     "subhead": "Georgia ranks among the fastest-growing states for population but faces persistent provider shortages across more than 60% of its counties. clinIQ helps Atlanta specialty groups, Augusta health system clinics, and rural practices from Valdosta to Rome reduce check-in time from 8 minutes to under 3, manage lobby flow in real time, and unlock RTM revenue without adding staff.",
-    "cities": ["Atlanta", "Augusta", "Savannah", "Columbus", "Macon"]
+    "cities": [
+      "Atlanta",
+      "Augusta",
+      "Savannah",
+      "Columbus",
+      "Macon"
+    ]
   },
   "stats": [
-    { "value": "26,400+", "label": "Licensed Physician Practices" },
-    { "value": "62%", "label": "Counties with Primary Care HPSA Designation" },
-    { "value": "$144K+", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "26,400+",
+      "label": "Licensed Physician Practices"
+    },
+    {
+      "value": "62%",
+      "label": "Counties with Primary Care HPSA Designation"
+    },
+    {
+      "value": "$144K+",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

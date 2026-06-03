@@ -5,28 +5,72 @@
   "wordCount": 2900,
   "publishDate": "2025-08-13",
   "meta": {
-    "title": "Secure File Exchange for Healthcare | HIPAA Compliant Document Sharing | clinIQ",
+    "title": "Secure File Exchange for Healthcare | HIPAA",
     "description": "Complete guide to secure file exchange between patients and providers. HIPAA compliant document and image sharing through clinIQ app. Lab results, referral letters, photos attached to patient record.",
-    "keywords": ["secure file exchange healthcare", "HIPAA compliant file sharing", "patient document sharing", "medical document exchange", "healthcare file transfer", "secure medical image sharing", "patient portal documents", "clinical document exchange", "healthcare file sharing app", "secure PHI transfer"]
+    "keywords": [
+      "secure file exchange healthcare",
+      "HIPAA compliant file sharing",
+      "patient document sharing",
+      "medical document exchange",
+      "healthcare file transfer",
+      "secure medical image sharing",
+      "patient portal documents",
+      "clinical document exchange",
+      "healthcare file sharing app",
+      "secure PHI transfer"
+    ]
   },
   "hero": {
     "h1": "Secure File Exchange",
     "subhead": "Patients share documents, images, and files with the care team through the clinIQ app. Practice sends lab results, referral letters, and educational materials to patients securely. Every file attaches to the patient record. No more fax machines, mailed documents, or insecure email attachments.",
     "stats": [
-      { "value": "HIPAA", "label": "compliant transfer" },
-      { "value": "Bidirectional", "label": "patient and practice sharing" },
-      { "value": "Documented", "label": "in patient record" }
+      {
+        "value": "HIPAA",
+        "label": "compliant transfer"
+      },
+      {
+        "value": "Bidirectional",
+        "label": "patient and practice sharing"
+      },
+      {
+        "value": "Documented",
+        "label": "in patient record"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "file-exchange-value", "title": "Why Secure File Exchange Matters" },
-    { "id": "patient-to-practice", "title": "Patient to Practice Sharing" },
-    { "id": "practice-to-patient", "title": "Practice to Patient Sharing" },
-    { "id": "file-types", "title": "Supported File Types" },
-    { "id": "record-integration", "title": "Patient Record Integration" },
-    { "id": "security-compliance", "title": "Security and Compliance" },
-    { "id": "implementation", "title": "Implementation" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "file-exchange-value",
+      "title": "Why Secure File Exchange Matters"
+    },
+    {
+      "id": "patient-to-practice",
+      "title": "Patient to Practice Sharing"
+    },
+    {
+      "id": "practice-to-patient",
+      "title": "Practice to Patient Sharing"
+    },
+    {
+      "id": "file-types",
+      "title": "Supported File Types"
+    },
+    {
+      "id": "record-integration",
+      "title": "Patient Record Integration"
+    },
+    {
+      "id": "security-compliance",
+      "title": "Security and Compliance"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -102,14 +146,29 @@
   "cta": {
     "headline": "See Secure File Exchange Working",
     "subhead": "Fifteen-minute demo showing patient document upload, practice document delivery, record integration, and security features. See how document exchange becomes instant, secure, and automatic.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "See File Exchange Features", "href": "/resources/file-exchange-demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "See File Exchange Features",
+      "href": "/resources/file-exchange-demo"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "Instant", "label": "document delivery" },
-      { "value": "Zero", "label": "fax machines needed" },
-      { "value": "Automatic", "label": "record attachment" }
+      {
+        "value": "Instant",
+        "label": "document delivery"
+      },
+      {
+        "value": "Zero",
+        "label": "fax machines needed"
+      },
+      {
+        "value": "Automatic",
+        "label": "record attachment"
+      }
     ],
     "testimonial": {
       "quote": "We used to mail lab results and wait days for patients to receive them. Now results go to their phone the moment we release them. Patients upload their insurance cards and outside records instead of bringing paper. Our fax machine is basically retired. Document exchange went from a constant hassle to something that just works.",

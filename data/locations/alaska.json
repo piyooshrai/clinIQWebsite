@@ -4,18 +4,33 @@
   "abbr": "AK",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Alaska Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Alaska Clinics | Patient Flow",
     "description": "Clinic operations platform for Alaska healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Alaska Healthcare",
     "subhead": "Alaska's vast geography means many clinics serve as the only healthcare access point for hundreds of miles — making every patient visit, every staff hour, and every billing dollar count more than almost anywhere else in the country. clinIQ helps Alaska practices run leaner, smoother operations: digital check-in, real-time patient flow visibility, automated prior authorization, and RTM billing that generates new revenue from existing patient relationships without adding devices or staff.",
-    "cities": ["Anchorage", "Fairbanks", "Juneau", "Sitka", "Ketchikan"]
+    "cities": [
+      "Anchorage",
+      "Fairbanks",
+      "Juneau",
+      "Sitka",
+      "Ketchikan"
+    ]
   },
   "stats": [
-    { "value": "~1,200", "label": "Active Physician Practices" },
-    { "value": "60%+", "label": "of Geographic Areas with Provider Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "~1,200",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "60%+",
+      "label": "of Geographic Areas with Provider Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

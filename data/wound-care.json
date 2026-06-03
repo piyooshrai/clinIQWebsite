@@ -5,27 +5,64 @@
   "wordCount": 2200,
   "publishDate": "2025-07-04",
   "meta": {
-    "title": "Wound Care Center Software | Scheduling, Photo Documentation & RTM | clinIQ",
+    "title": "Wound Care Center Software | Scheduling",
     "description": "Complete guide to wound care center operations. Wound tracking and photo documentation. RTM for chronic wound monitoring. Coordination with vascular surgery, podiatry, and hyperbaric medicine.",
-    "keywords": ["wound care software", "wound care center management", "wound photo documentation", "chronic wound RTM", "wound care patient flow", "wound care EHR integration"]
+    "keywords": [
+      "wound care software",
+      "wound care center management",
+      "wound photo documentation",
+      "chronic wound RTM",
+      "wound care patient flow",
+      "wound care EHR integration"
+    ]
   },
   "hero": {
     "h1": "Wound Care Center Software",
     "subhead": "Wound tracking and photo documentation through the clinIQ app. RTM billing for chronic wound monitoring. Scheduling for debridement and advanced wound care. Coordination with vascular surgery, podiatry, and hyperbaric medicine.",
     "stats": [
-      { "value": "Photo", "label": "wound documentation" },
-      { "value": "RTM", "label": "monitoring" },
-      { "value": "Multi-specialty", "label": "coordination" }
+      {
+        "value": "Photo",
+        "label": "wound documentation"
+      },
+      {
+        "value": "RTM",
+        "label": "monitoring"
+      },
+      {
+        "value": "Multi-specialty",
+        "label": "coordination"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "wound-operations", "title": "The Wound Care Operations Model" },
-    { "id": "wound-documentation", "title": "Wound Documentation" },
-    { "id": "rtm-billing", "title": "RTM for Chronic Wounds" },
-    { "id": "scheduling", "title": "Scheduling" },
-    { "id": "care-coordination", "title": "Care Coordination" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "wound-operations",
+      "title": "The Wound Care Operations Model"
+    },
+    {
+      "id": "wound-documentation",
+      "title": "Wound Documentation"
+    },
+    {
+      "id": "rtm-billing",
+      "title": "RTM for Chronic Wounds"
+    },
+    {
+      "id": "scheduling",
+      "title": "Scheduling"
+    },
+    {
+      "id": "care-coordination",
+      "title": "Care Coordination"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -84,14 +121,29 @@
   "cta": {
     "headline": "See Wound Care Operations Optimized",
     "subhead": "Fifteen-minute demo showing wound photo documentation, RTM monitoring, and multi-specialty coordination.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "Photo", "label": "documentation" },
-      { "value": "RTM", "label": "monitoring" },
-      { "value": "Healing", "label": "tracking" }
+      {
+        "value": "Photo",
+        "label": "documentation"
+      },
+      {
+        "value": "RTM",
+        "label": "monitoring"
+      },
+      {
+        "value": "Healing",
+        "label": "tracking"
+      }
     ],
     "testimonial": {
       "quote": "Photo documentation tracks healing systematically. Between-visit photos catch deterioration early. RTM captures revenue for monitoring we already provided. Coordination with vascular and podiatry finally works smoothly. Our healing rates improved.",
@@ -123,7 +175,18 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Wound Care",
-    "relevantConditions": ["Diabetic Foot Ulcer", "Venous Leg Ulcer", "Pressure Injury", "Surgical Wound", "Arterial Ulcer"],
-    "availableProcedures": ["Debridement", "NPWT", "Bioengineered Tissue", "Hyperbaric Oxygen Therapy"]
+    "relevantConditions": [
+      "Diabetic Foot Ulcer",
+      "Venous Leg Ulcer",
+      "Pressure Injury",
+      "Surgical Wound",
+      "Arterial Ulcer"
+    ],
+    "availableProcedures": [
+      "Debridement",
+      "NPWT",
+      "Bioengineered Tissue",
+      "Hyperbaric Oxygen Therapy"
+    ]
   }
 }

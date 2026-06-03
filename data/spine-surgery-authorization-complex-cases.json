@@ -5,7 +5,7 @@
   "specialty": "spine-surgery",
   "wordCount": 1900,
   "meta": {
-    "title": "Spine Surgery Authorization: Getting Complex Cases Approved | clinIQ",
+    "title": "Spine Surgery Authorization: Getting Complex Cases",
     "description": "Learn how spine surgery practices navigate prior auth for ACDF, lumbar fusion, ADR, and SCS — with step therapy documentation strategies that win approvals.",
     "keywords": [
       "spine surgery prior authorization complex cases",
@@ -60,8 +60,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Post-Op RTM for Spine Surgery Patients", "href": "/blog/post-op-rtm-spine-surgery" },
-    { "title": "OR Efficiency for Spine Surgery Practices", "href": "/blog/or-efficiency-spine-surgery" }
+    {
+      "title": "Post-Op RTM for Spine Surgery Patients",
+      "href": "/blog/post-op-rtm-spine-surgery"
+    },
+    {
+      "title": "OR Efficiency for Spine Surgery Practices",
+      "href": "/blog/or-efficiency-spine-surgery"
+    }
   ],
   "pillarLink": {
     "title": "Spine Surgery Practice Software",
@@ -71,6 +77,9 @@
   "cta": {
     "headline": "Stop Losing Spine Cases to Authorization Denials",
     "subhead": "clinIQ gives your team the workflow infrastructure to get complex spine cases approved on first submission.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

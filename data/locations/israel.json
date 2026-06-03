@@ -4,18 +4,36 @@
   "abbr": "IL",
   "region": "Middle East",
   "meta": {
-    "title": "clinIQ for Israel Clinics | Patient Flow & Remote Monitoring Software",
+    "title": "clinIQ for Israel Clinics | Patient Flow",
     "description": "Clinic operations platform for Israel healthcare providers. Reduce wait times, automate supplemental insurance pre-authorization, capture remote monitoring revenue. Works alongside Kupat Holim systems."
   },
   "hero": {
     "h1": "clinIQ for Israel Healthcare",
     "subhead": "Israel's HMO system delivers universal coverage with remarkable efficiency, but the private supplemental market — and the independent specialist clinics serving patients who cannot wait for Kupat Holim appointments — is where operational excellence creates real competitive advantage. clinIQ integrates with any EMR to give Israeli private clinics real-time flow management, automated insurance workflows, and a remote therapeutic monitoring revenue stream that Israel's tech-forward patient population is already primed to adopt.",
-    "cities": ["Tel Aviv", "Jerusalem", "Haifa", "Rishon LeZion", "Petah Tikva", "Beersheba", "Netanya", "Ashdod"]
+    "cities": [
+      "Tel Aviv",
+      "Jerusalem",
+      "Haifa",
+      "Rishon LeZion",
+      "Petah Tikva",
+      "Beersheba",
+      "Netanya",
+      "Ashdod"
+    ]
   },
   "stats": [
-    { "value": "4", "label": "Kupot Holim (HMOs) Covering All Citizens" },
-    { "value": "~40%", "label": "Population with Supplemental Private Insurance" },
-    { "value": "$144K", "label": "Annual Remote Monitoring Revenue per 100 Patients" }
+    {
+      "value": "4",
+      "label": "Kupot Holim (HMOs) Covering All Citizens"
+    },
+    {
+      "value": "~40%",
+      "label": "Population with Supplemental Private Insurance"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual Remote Monitoring Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

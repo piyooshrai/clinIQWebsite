@@ -5,7 +5,7 @@
   "specialty": "oral-surgery",
   "wordCount": 1900,
   "meta": {
-    "title": "Oral Surgery Authorization: Complex Extractions and Implants | clinIQ",
+    "title": "Oral Surgery Authorization: Complex Extractions",
     "description": "How oral surgery practices navigate prior authorization for impacted wisdom teeth, implants, orthognathic surgery, and medical vs. dental insurance routing.",
     "keywords": [
       "oral surgery prior authorization complex extractions",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Oral Surgery OR Efficiency", "href": "/blog/oral-surgery-or-efficiency" },
-    { "title": "Oral Surgery Post-Op Monitoring", "href": "/blog/oral-surgery-post-op-monitoring" }
+    {
+      "title": "Oral Surgery OR Efficiency",
+      "href": "/blog/oral-surgery-or-efficiency"
+    },
+    {
+      "title": "Oral Surgery Post-Op Monitoring",
+      "href": "/blog/oral-surgery-post-op-monitoring"
+    }
   ],
   "pillarLink": {
     "title": "Oral Surgery Practice Management",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Stop Scheduling Cases Without Confirmed Coverage",
     "subhead": "clinIQ tracks all authorization components — procedure, sedation, facility — and flags incomplete sets before cases reach the OR.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

@@ -5,7 +5,7 @@
   "specialty": "infusion-centers",
   "wordCount": 1900,
   "meta": {
-    "title": "Infusion Center Scheduling: Chair Utilization Optimization | clinIQ",
+    "title": "Infusion Center Scheduling: Chair Utilization",
     "description": "Calculate chair-hour capacity, identify utilization gaps, and implement dynamic scheduling to maximize infusion center revenue per chair-hour — with detailed revenue math.",
     "keywords": [
       "infusion center chair utilization optimization scheduling",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Infusion Prior Auth: Biologics and Specialty Drugs", "href": "/blog/infusion-prior-auth-biologics-specialty-drugs" },
-    { "title": "Infusion Center Patient Flow Management", "href": "/blog/infusion-center-patient-flow" }
+    {
+      "title": "Infusion Prior Auth: Biologics and Specialty Drugs",
+      "href": "/blog/infusion-prior-auth-biologics-specialty-drugs"
+    },
+    {
+      "title": "Infusion Center Patient Flow Management",
+      "href": "/blog/infusion-center-patient-flow"
+    }
   ],
   "pillarLink": {
     "title": "Infusion Centers Practice Software",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Close the Gap From 68% to 85%+ Chair Utilization",
     "subhead": "clinIQ's drug-specific templates, flex list management, and real-time chair dashboards unlock $1–3M in annual revenue without adding chairs or staff.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

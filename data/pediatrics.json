@@ -5,26 +5,60 @@
   "wordCount": 2200,
   "publishDate": "2025-06-28",
   "meta": {
-    "title": "Pediatrics Practice Software | Well-Child Scheduling, Patient Flow & Family Communication | clinIQ",
+    "title": "Pediatrics Software | Well-Child Scheduling",
     "description": "Complete guide to pediatrics practice operations. Well-child visit scheduling. High-volume patient flow. Vaccine tracking. Family communication through mobile app.",
-    "keywords": ["pediatrics software", "pediatric practice management", "well-child scheduling", "pediatric patient flow", "vaccine tracking", "pediatric EHR integration"]
+    "keywords": [
+      "pediatrics software",
+      "pediatric practice management",
+      "well-child scheduling",
+      "pediatric patient flow",
+      "vaccine tracking",
+      "pediatric EHR integration"
+    ]
   },
   "hero": {
     "h1": "Pediatrics Practice Software",
     "subhead": "Well-child and sick visit scheduling optimization. High-volume patient flow for busy pediatric practices. Vaccine tracking and reminders. Family communication through the clinIQ app.",
     "stats": [
-      { "value": "High-volume", "label": "scheduling" },
-      { "value": "Vaccine", "label": "tracking" },
-      { "value": "Family", "label": "communication" }
+      {
+        "value": "High-volume",
+        "label": "scheduling"
+      },
+      {
+        "value": "Vaccine",
+        "label": "tracking"
+      },
+      {
+        "value": "Family",
+        "label": "communication"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "peds-operations", "title": "The Pediatrics Operations Model" },
-    { "id": "scheduling", "title": "Well-Child and Sick Visit Scheduling" },
-    { "id": "patient-flow", "title": "Patient Flow" },
-    { "id": "family-communication", "title": "Family Communication" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "peds-operations",
+      "title": "The Pediatrics Operations Model"
+    },
+    {
+      "id": "scheduling",
+      "title": "Well-Child and Sick Visit Scheduling"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Patient Flow"
+    },
+    {
+      "id": "family-communication",
+      "title": "Family Communication"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -78,14 +112,29 @@
   "cta": {
     "headline": "See Pediatrics Operations Optimized",
     "subhead": "Fifteen-minute demo showing well-child scheduling, high-volume flow, and family communication.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Learn More", "href": "/resources/high-volume-flow" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Learn More",
+      "href": "/resources/high-volume-flow"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "High-volume", "label": "scheduling" },
-      { "value": "Vaccine", "label": "tracking" },
-      { "value": "Family", "label": "communication" }
+      {
+        "value": "High-volume",
+        "label": "scheduling"
+      },
+      {
+        "value": "Vaccine",
+        "label": "tracking"
+      },
+      {
+        "value": "Family",
+        "label": "communication"
+      }
     ],
     "testimonial": {
       "quote": "Well-child scheduling with same-day sick access finally works. The flow board shows where every patient is. Parent messaging reduced our phone volume dramatically. Vaccine reminders improved our immunization rates. We see more children without feeling rushed.",
@@ -117,7 +166,18 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Pediatrics",
-    "relevantConditions": ["Well-Child Care", "Acute Illness", "Developmental Concerns", "ADHD", "Asthma"],
-    "availableProcedures": ["Well-Child Examination", "Immunizations", "Developmental Screening", "Sports Physical"]
+    "relevantConditions": [
+      "Well-Child Care",
+      "Acute Illness",
+      "Developmental Concerns",
+      "ADHD",
+      "Asthma"
+    ],
+    "availableProcedures": [
+      "Well-Child Examination",
+      "Immunizations",
+      "Developmental Screening",
+      "Sports Physical"
+    ]
   }
 }

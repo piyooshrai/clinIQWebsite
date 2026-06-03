@@ -4,18 +4,33 @@
   "abbr": "NE",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Nebraska Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Nebraska Clinics | Patient Flow",
     "description": "Clinic operations platform for Nebraska healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Nebraska Healthcare",
     "subhead": "Nebraska's clinic landscape spans busy Omaha specialty practices and rural primary care offices that face persistent provider shortages. clinIQ helps Nebraska clinics cut check-in time, track patient flow in real time, and unlock RTM billing revenue without adding staff.",
-    "cities": ["Omaha", "Lincoln", "Bellevue", "Grand Island", "Kearney"]
+    "cities": [
+      "Omaha",
+      "Lincoln",
+      "Bellevue",
+      "Grand Island",
+      "Kearney"
+    ]
   },
   "stats": [
-    { "value": "3,800+", "label": "Active Physician Practices" },
-    { "value": "60%", "label": "of Counties with Primary Care Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "3,800+",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "60%",
+      "label": "of Counties with Primary Care Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

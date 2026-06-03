@@ -5,7 +5,7 @@
   "wordCount": 2800,
   "publishDate": "2026-04-28",
   "meta": {
-    "title": "Phreesia Alternative for Clinic Operations | clinIQ vs Phreesia",
+    "title": "Phreesia Alternative for Clinic Operations",
     "description": "Looking for a Phreesia alternative that goes beyond intake? clinIQ adds real-time patient flow, RTM billing, and pre-authorization — starting at $249/month.",
     "keywords": [
       "Phreesia alternative",
@@ -23,9 +23,18 @@
     "h1": "Phreesia Alternative for Clinic Operations",
     "subhead": "Phreesia handles check-in well. But check-in is 5 minutes of a 45-minute visit. clinIQ covers the full visit — patient flow, RTM billing, pre-authorization, and real-time analytics — all in one platform. If you're evaluating a switch from Phreesia, here is everything you need to know.",
     "stats": [
-      { "value": "$249", "label": "clinIQ starting price" },
-      { "value": "Days", "label": "to go live (vs 3–6 months)" },
-      { "value": "7+", "label": "modules beyond check-in" }
+      {
+        "value": "$249",
+        "label": "clinIQ starting price"
+      },
+      {
+        "value": "Days",
+        "label": "to go live (vs 3–6 months)"
+      },
+      {
+        "value": "7+",
+        "label": "modules beyond check-in"
+      }
     ]
   },
   "gatedContent": {
@@ -35,15 +44,42 @@
     "placeholder": true
   },
   "tableOfContents": [
-    { "id": "what-each-does", "title": "What Each Platform Does" },
-    { "id": "phreesia-strengths", "title": "Where Phreesia Performs Well" },
-    { "id": "operational-gaps", "title": "What Phreesia Cannot Do" },
-    { "id": "revenue-operations", "title": "RTM Billing & Pre-Auth Revenue" },
-    { "id": "pricing-comparison", "title": "Phreesia Pricing vs clinIQ" },
-    { "id": "implementation", "title": "How Long to Switch" },
-    { "id": "feature-table", "title": "Full Feature Comparison" },
-    { "id": "switching", "title": "How to Switch Without Disruption" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "what-each-does",
+      "title": "What Each Platform Does"
+    },
+    {
+      "id": "phreesia-strengths",
+      "title": "Where Phreesia Performs Well"
+    },
+    {
+      "id": "operational-gaps",
+      "title": "What Phreesia Cannot Do"
+    },
+    {
+      "id": "revenue-operations",
+      "title": "RTM Billing & Pre-Auth Revenue"
+    },
+    {
+      "id": "pricing-comparison",
+      "title": "Phreesia Pricing vs clinIQ"
+    },
+    {
+      "id": "implementation",
+      "title": "How Long to Switch"
+    },
+    {
+      "id": "feature-table",
+      "title": "Full Feature Comparison"
+    },
+    {
+      "id": "switching",
+      "title": "How to Switch Without Disruption"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -123,19 +159,46 @@
   ],
   "relatedContent": {
     "features": [
-      { "slug": "check-in", "title": "Patient Check-In" },
-      { "slug": "patient-flow", "title": "Patient Flow" },
-      { "slug": "rtm", "title": "RTM Billing" },
-      { "slug": "pre-auth", "title": "Pre-Authorization" }
+      {
+        "slug": "check-in",
+        "title": "Patient Check-In"
+      },
+      {
+        "slug": "patient-flow",
+        "title": "Patient Flow"
+      },
+      {
+        "slug": "rtm",
+        "title": "RTM Billing"
+      },
+      {
+        "slug": "pre-auth",
+        "title": "Pre-Authorization"
+      }
     ],
     "specialties": [
-      { "slug": "pain-management", "title": "Pain Management" },
-      { "slug": "orthopedic-surgery", "title": "Orthopedic Surgery" },
-      { "slug": "behavioral-health", "title": "Behavioral Health" }
+      {
+        "slug": "pain-management",
+        "title": "Pain Management"
+      },
+      {
+        "slug": "orthopedic-surgery",
+        "title": "Orthopedic Surgery"
+      },
+      {
+        "slug": "behavioral-health",
+        "title": "Behavioral Health"
+      }
     ],
     "competitors": [
-      { "slug": "clearwave", "title": "clinIQ vs Clearwave" },
-      { "slug": "athenahealth", "title": "clinIQ vs athenahealth" }
+      {
+        "slug": "clearwave",
+        "title": "clinIQ vs Clearwave"
+      },
+      {
+        "slug": "athenahealth",
+        "title": "clinIQ vs athenahealth"
+      }
     ]
   }
 }

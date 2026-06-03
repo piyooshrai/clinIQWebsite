@@ -5,26 +5,59 @@
   "wordCount": 2200,
   "publishDate": "2025-06-24",
   "meta": {
-    "title": "ENT / Otolaryngology Practice Software | Scheduling, Patient Flow & Surgical Coordination | clinIQ",
+    "title": "ENT / Otolaryngology Software | Scheduling",
     "description": "Complete guide to ENT practice operations. Clinic and surgical scheduling. High-volume patient flow. Audiology coordination. Coordination with allergy, oncology, and sleep medicine.",
-    "keywords": ["ENT software", "otolaryngology practice management", "ENT patient flow", "ENT scheduling", "otolaryngology EHR integration"]
+    "keywords": [
+      "ENT software",
+      "otolaryngology practice management",
+      "ENT patient flow",
+      "ENT scheduling",
+      "otolaryngology EHR integration"
+    ]
   },
   "hero": {
     "h1": "ENT / Otolaryngology Practice Software",
     "subhead": "Clinic and surgical scheduling across diverse procedures. High-volume patient flow management. Audiology testing coordination. Integration with allergy, oncology, and sleep medicine.",
     "stats": [
-      { "value": "Diverse", "label": "procedure scheduling" },
-      { "value": "High-volume", "label": "clinic flow" },
-      { "value": "Multi-specialty", "label": "coordination" }
+      {
+        "value": "Diverse",
+        "label": "procedure scheduling"
+      },
+      {
+        "value": "High-volume",
+        "label": "clinic flow"
+      },
+      {
+        "value": "Multi-specialty",
+        "label": "coordination"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "ent-operations", "title": "The ENT Operations Model" },
-    { "id": "scheduling", "title": "Clinic and Surgical Scheduling" },
-    { "id": "patient-flow", "title": "Patient Flow" },
-    { "id": "care-coordination", "title": "Care Coordination" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "ent-operations",
+      "title": "The ENT Operations Model"
+    },
+    {
+      "id": "scheduling",
+      "title": "Clinic and Surgical Scheduling"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Patient Flow"
+    },
+    {
+      "id": "care-coordination",
+      "title": "Care Coordination"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -78,14 +111,29 @@
   "cta": {
     "headline": "See ENT Operations Optimized",
     "subhead": "Fifteen-minute demo showing diverse procedure scheduling, audiology coordination, and high-volume patient flow.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Learn More", "href": "/resources/surgical-scheduling" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Learn More",
+      "href": "/resources/surgical-scheduling"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "Diverse", "label": "procedure types" },
-      { "value": "High-volume", "label": "clinic flow" },
-      { "value": "Audiology", "label": "coordination" }
+      {
+        "value": "Diverse",
+        "label": "procedure types"
+      },
+      {
+        "value": "High-volume",
+        "label": "clinic flow"
+      },
+      {
+        "value": "Audiology",
+        "label": "coordination"
+      }
     ],
     "testimonial": {
       "quote": "Scheduling across clinic, office procedures, and surgery finally works together. Audiology testing coordinates smoothly with physician evaluation. The flow board shows where every patient is. We handle more volume without chaos.",
@@ -117,7 +165,19 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "ENT / Otolaryngology",
-    "relevantConditions": ["Sinusitis", "Hearing Loss", "Sleep Apnea", "Voice Disorders", "Head and Neck Cancer"],
-    "availableProcedures": ["Tonsillectomy", "Sinus Surgery", "Thyroidectomy", "Ear Tubes", "Laryngoscopy"]
+    "relevantConditions": [
+      "Sinusitis",
+      "Hearing Loss",
+      "Sleep Apnea",
+      "Voice Disorders",
+      "Head and Neck Cancer"
+    ],
+    "availableProcedures": [
+      "Tonsillectomy",
+      "Sinus Surgery",
+      "Thyroidectomy",
+      "Ear Tubes",
+      "Laryngoscopy"
+    ]
   }
 }

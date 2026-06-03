@@ -5,7 +5,7 @@
   "specialty": "gastroenterology",
   "wordCount": 1900,
   "meta": {
-    "title": "GI Practice Procedure Scheduling: Colonoscopy and EGD | clinIQ",
+    "title": "GI Practice Procedure Scheduling: Colonoscopy and",
     "description": "Optimize colonoscopy and EGD scheduling in your GI practice with block scheduling, case stacking, and 15-minute turnover targets to maximize procedure volume.",
     "keywords": [
       "GI procedure scheduling software for colonoscopy",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Gastroenterology Prior Auth: Biologics and Procedures", "href": "/blog/gastroenterology-prior-auth-biologics" },
-    { "title": "GI Practice Patient Flow Optimization", "href": "/blog/gi-patient-flow-optimization" }
+    {
+      "title": "Gastroenterology Prior Auth: Biologics and Procedures",
+      "href": "/blog/gastroenterology-prior-auth-biologics"
+    },
+    {
+      "title": "GI Practice Patient Flow Optimization",
+      "href": "/blog/gi-patient-flow-optimization"
+    }
   ],
   "pillarLink": {
     "title": "Gastroenterology Practice Software",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Ready to Add 2–3 Cases Per Room Per Day?",
     "subhead": "See how clinIQ's GI scheduling module optimizes colonoscopy blocks, automates prep instructions, and tracks auth status in real time.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

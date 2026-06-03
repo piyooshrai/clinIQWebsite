@@ -4,18 +4,33 @@
   "abbr": "ES",
   "region": "Europe",
   "meta": {
-    "title": "clinIQ for Spain Private Clinics | Patient Flow & Remote Monitoring",
+    "title": "clinIQ for Spain Private Clinics | Patient Flow",
     "description": "Clinic operations platform for Spanish private healthcare providers. Streamline check-in, patient flow, and remote therapeutic monitoring. Works with Sanitas, Adeslas, and mutuas contexts."
   },
   "hero": {
     "h1": "clinIQ for Spain Healthcare",
     "subhead": "Spain's private healthcare sector is one of Europe's fastest-growing, with over 11 million people holding mutualidad or private health insurance and Spanish private hospital groups expanding across Madrid, Barcelona, and Valencia. But managing Sanitas, Adeslas, and Asisa authorisations alongside the SNS referral system creates administrative complexity that strains small and mid-sized clinic teams. clinIQ works alongside your existing clinical system to automate check-in, manage patient flow, and generate remote monitoring revenue.",
-    "cities": ["Madrid", "Barcelona", "Valencia", "Seville", "Bilbao"]
+    "cities": [
+      "Madrid",
+      "Barcelona",
+      "Valencia",
+      "Seville",
+      "Bilbao"
+    ]
   },
   "stats": [
-    { "value": "11.5M", "label": "People with Private Health Insurance in Spain" },
-    { "value": "€12B+", "label": "Spanish Private Healthcare Market Value" },
-    { "value": "€144K", "label": "Annual Remote Monitoring Revenue per 100 Patients" }
+    {
+      "value": "11.5M",
+      "label": "People with Private Health Insurance in Spain"
+    },
+    {
+      "value": "€12B+",
+      "label": "Spanish Private Healthcare Market Value"
+    },
+    {
+      "value": "€144K",
+      "label": "Annual Remote Monitoring Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

@@ -4,18 +4,33 @@
   "abbr": "NI",
   "region": "United Kingdom",
   "meta": {
-    "title": "clinIQ for Northern Ireland Private Clinics | Patient Flow & Remote Monitoring",
+    "title": "clinIQ for Northern Ireland | Patient Flow",
     "description": "Clinic operations platform for Northern Ireland's private healthcare providers. Automate check-in, manage patient flow, and grow remote therapeutic monitoring revenue."
   },
   "hero": {
     "h1": "clinIQ for Northern Ireland Healthcare",
     "subhead": "Northern Ireland has faced the most severe healthcare waiting list crisis in the United Kingdom, with over half a million patients on waiting lists in a population of just 1.9 million. Private specialist clinics and physiotherapy practices in Belfast and Derry are under exceptional demand pressure. clinIQ works with your existing clinical system to automate check-in, track patient flow in real time, and build remote monitoring revenue for your practice.",
-    "cities": ["Belfast", "Derry", "Lisburn", "Newry", "Ballymena"]
+    "cities": [
+      "Belfast",
+      "Derry",
+      "Lisburn",
+      "Newry",
+      "Ballymena"
+    ]
   },
   "stats": [
-    { "value": "500K+", "label": "Patients on HSC Northern Ireland Waiting Lists" },
-    { "value": "1 in 4", "label": "Northern Ireland Residents Currently Waiting for NHS Care" },
-    { "value": "£144K", "label": "Annual Remote Monitoring Revenue per 100 Patients" }
+    {
+      "value": "500K+",
+      "label": "Patients on HSC Northern Ireland Waiting Lists"
+    },
+    {
+      "value": "1 in 4",
+      "label": "Northern Ireland Residents Currently Waiting for NHS Care"
+    },
+    {
+      "value": "£144K",
+      "label": "Annual Remote Monitoring Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

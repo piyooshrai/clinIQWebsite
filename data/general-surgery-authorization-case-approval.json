@@ -5,7 +5,7 @@
   "specialty": "general-surgery",
   "wordCount": 1900,
   "meta": {
-    "title": "General Surgery Authorization: Getting Cases Approved | clinIQ",
+    "title": "General Surgery Authorization: Getting Cases",
     "description": "Navigate prior authorization for cholecystectomy, hernia repair, colon resection, and bariatric surgery with documentation and appeal strategies that win approvals.",
     "keywords": [
       "general surgery prior authorization case approval",
@@ -60,8 +60,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "OR Turnover Optimization for General Surgery", "href": "/blog/or-turnover-optimization-general-surgery" },
-    { "title": "Post-Op RTM for General Surgery", "href": "/blog/post-op-rtm-general-surgery" }
+    {
+      "title": "OR Turnover Optimization for General Surgery",
+      "href": "/blog/or-turnover-optimization-general-surgery"
+    },
+    {
+      "title": "Post-Op RTM for General Surgery",
+      "href": "/blog/post-op-rtm-general-surgery"
+    }
   ],
   "pillarLink": {
     "title": "General Surgery Practice Software",
@@ -71,6 +77,9 @@
   "cta": {
     "headline": "Get More General Surgery Cases Approved, Faster",
     "subhead": "clinIQ's authorization workflow covers every general surgery procedure category with payer-specific documentation templates and denial management tools.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

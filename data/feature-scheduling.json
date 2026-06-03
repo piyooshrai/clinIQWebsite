@@ -5,29 +5,76 @@
   "wordCount": 3400,
   "publishDate": "2025-02-26",
   "meta": {
-    "title": "Medical Scheduling Software | Smart Templates & Same-Day Access | clinIQ",
+    "title": "Medical Scheduling Software | Smart Templates",
     "description": "Complete guide to clinic scheduling software. Appointment templates by visit type. True same-day access. Overbooking rules. Waitlist automation. Fifteen percent capacity increase.",
-    "keywords": ["medical scheduling software", "clinic scheduling system", "appointment scheduling software", "same-day scheduling healthcare", "patient scheduling", "medical appointment templates", "healthcare scheduling", "physician scheduling software", "clinic appointment management", "waitlist management healthcare"]
+    "keywords": [
+      "medical scheduling software",
+      "clinic scheduling system",
+      "appointment scheduling software",
+      "same-day scheduling healthcare",
+      "patient scheduling",
+      "medical appointment templates",
+      "healthcare scheduling",
+      "physician scheduling software",
+      "clinic appointment management",
+      "waitlist management healthcare"
+    ]
   },
   "hero": {
     "h1": "Medical Scheduling Software",
     "subhead": "Schedules that match clinical reality with templates sized for each visit type. True same-day access that actually works instead of slots that disappear by nine AM. Overbooking rules that protect capacity without creating chaos. Waitlist automation that fills cancellations within hours.",
     "stats": [
-      { "value": "15%", "label": "capacity increase" },
-      { "value": "True", "label": "same-day access" },
-      { "value": "Zero", "label": "double-booking surprises" }
+      {
+        "value": "15%",
+        "label": "capacity increase"
+      },
+      {
+        "value": "True",
+        "label": "same-day access"
+      },
+      {
+        "value": "Zero",
+        "label": "double-booking surprises"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "scheduling-problem", "title": "The Scheduling Problem" },
-    { "id": "appointment-templates", "title": "Appointment Type Templates" },
-    { "id": "same-day-access", "title": "Same-Day Access That Works" },
-    { "id": "overbooking-rules", "title": "Intelligent Overbooking" },
-    { "id": "waitlist-automation", "title": "Waitlist Automation" },
-    { "id": "provider-visibility", "title": "Provider Schedule Visibility" },
-    { "id": "scheduling-analytics", "title": "Scheduling Analytics" },
-    { "id": "implementation", "title": "Implementation" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "scheduling-problem",
+      "title": "The Scheduling Problem"
+    },
+    {
+      "id": "appointment-templates",
+      "title": "Appointment Type Templates"
+    },
+    {
+      "id": "same-day-access",
+      "title": "Same-Day Access That Works"
+    },
+    {
+      "id": "overbooking-rules",
+      "title": "Intelligent Overbooking"
+    },
+    {
+      "id": "waitlist-automation",
+      "title": "Waitlist Automation"
+    },
+    {
+      "id": "provider-visibility",
+      "title": "Provider Schedule Visibility"
+    },
+    {
+      "id": "scheduling-analytics",
+      "title": "Scheduling Analytics"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -108,14 +155,29 @@
   "cta": {
     "headline": "See Scheduling That Matches Reality",
     "subhead": "Fifteen-minute demo showing appointment templates, same-day access, overbooking rules, and waitlist automation. See how fifteen percent capacity increase is achievable without adding hours.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "See Scheduling Features", "href": "/resources/scheduling-demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "See Scheduling Features",
+      "href": "/resources/scheduling-demo"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "15%", "label": "capacity increase" },
-      { "value": "42%", "label": "waitlist fill rate" },
-      { "value": "True", "label": "same-day access achieved" }
+      {
+        "value": "15%",
+        "label": "capacity increase"
+      },
+      {
+        "value": "42%",
+        "label": "waitlist fill rate"
+      },
+      {
+        "value": "True",
+        "label": "same-day access achieved"
+      }
     ],
     "testimonial": {
       "quote": "We stopped telling patients we have nothing available today. Schedulers can see actual capacity throughout the day and find same-day slots that did not exist before. Our waitlist fills cancellations within hours instead of days. Providers see more patients without feeling more rushed because templates actually match visit needs.",

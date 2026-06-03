@@ -4,18 +4,33 @@
   "abbr": "DE",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Delaware Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Delaware Clinics | Patient Flow",
     "description": "Clinic operations platform for Delaware healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Delaware Healthcare",
     "subhead": "Delaware may be the nation's second-smallest state, but its healthcare challenges are outsized relative to its geography — from Wilmington's urban safety-net practices to the rapidly growing retirement communities of Sussex County where primary care access is increasingly strained. clinIQ gives Delaware practices the operational tools to serve more patients with less administrative friction: digital check-in, real-time patient flow, automated prior authorization, and RTM billing that generates new revenue without new devices or new hires.",
-    "cities": ["Wilmington", "Dover", "Newark", "Middletown", "Rehoboth Beach"]
+    "cities": [
+      "Wilmington",
+      "Dover",
+      "Newark",
+      "Middletown",
+      "Rehoboth Beach"
+    ]
   },
   "stats": [
-    { "value": "~2,800", "label": "Active Physician Practices" },
-    { "value": "30%+", "label": "of Areas with Provider Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "~2,800",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "30%+",
+      "label": "of Areas with Provider Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

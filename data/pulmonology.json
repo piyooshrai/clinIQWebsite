@@ -5,27 +5,65 @@
   "wordCount": 2800,
   "publishDate": "2025-06-08",
   "meta": {
-    "title": "Pulmonology Practice Software | RTM, Patient Flow & Respiratory Monitoring | clinIQ",
+    "title": "Pulmonology Software | RTM, Patient Flow",
     "description": "Complete guide to pulmonology practice operations. RTM billing for respiratory conditions. Symptom and peak flow tracking. Wearable integration for activity and sleep data. Coordination with primary care and sleep medicine.",
-    "keywords": ["pulmonology software", "pulmonology practice management", "respiratory RTM billing", "COPD monitoring", "asthma tracking", "pulmonology EHR integration", "pulmonary function testing"]
+    "keywords": [
+      "pulmonology software",
+      "pulmonology practice management",
+      "respiratory RTM billing",
+      "COPD monitoring",
+      "asthma tracking",
+      "pulmonology EHR integration",
+      "pulmonary function testing"
+    ]
   },
   "hero": {
     "h1": "Pulmonology Practice Software",
     "subhead": "RTM billing for respiratory conditions capturing $100-130 per patient monthly. Symptom and peak flow tracking through the clinIQ app. Wearable integration for activity tolerance and sleep data. Coordination with primary care, sleep medicine, and thoracic surgery.",
     "stats": [
-      { "value": "$120K", "label": "annual RTM revenue (100 patients)" },
-      { "value": "Respiratory", "label": "symptom tracking" },
-      { "value": "Sleep", "label": "data integration" }
+      {
+        "value": "$120K",
+        "label": "annual RTM revenue (100 patients)"
+      },
+      {
+        "value": "Respiratory",
+        "label": "symptom tracking"
+      },
+      {
+        "value": "Sleep",
+        "label": "data integration"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "pulm-operations", "title": "The Pulmonology Operations Model" },
-    { "id": "rtm-billing", "title": "RTM Billing for Respiratory Conditions" },
-    { "id": "symptom-tracking", "title": "Respiratory Symptom Tracking" },
-    { "id": "patient-flow", "title": "Patient Flow" },
-    { "id": "care-coordination", "title": "Care Coordination" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "pulm-operations",
+      "title": "The Pulmonology Operations Model"
+    },
+    {
+      "id": "rtm-billing",
+      "title": "RTM Billing for Respiratory Conditions"
+    },
+    {
+      "id": "symptom-tracking",
+      "title": "Respiratory Symptom Tracking"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Patient Flow"
+    },
+    {
+      "id": "care-coordination",
+      "title": "Care Coordination"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -88,14 +126,29 @@
   "cta": {
     "headline": "See Pulmonology Operations Optimized",
     "subhead": "Fifteen-minute demo showing RTM enrollment, respiratory symptom tracking, and wearable integration for pulmonary care.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$120K", "label": "annual RTM potential" },
-      { "value": "Respiratory", "label": "symptom tracking" },
-      { "value": "Wearable", "label": "data included" }
+      {
+        "value": "$120K",
+        "label": "annual RTM potential"
+      },
+      {
+        "value": "Respiratory",
+        "label": "symptom tracking"
+      },
+      {
+        "value": "Wearable",
+        "label": "data included"
+      }
     ],
     "testimonial": {
       "quote": "COPD exacerbations caught early through symptom tracking meant treatment at home instead of hospitalization. Activity data from wearables showed functional decline before patients reported it. RTM generates revenue while improving care. The workflow fits how we already wanted to manage chronic respiratory disease.",
@@ -127,7 +180,18 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Pulmonology",
-    "relevantConditions": ["COPD", "Asthma", "Interstitial Lung Disease", "Sleep Apnea", "Lung Cancer"],
-    "availableProcedures": ["Pulmonary Function Testing", "Bronchoscopy", "Sleep Study", "Thoracentesis"]
+    "relevantConditions": [
+      "COPD",
+      "Asthma",
+      "Interstitial Lung Disease",
+      "Sleep Apnea",
+      "Lung Cancer"
+    ],
+    "availableProcedures": [
+      "Pulmonary Function Testing",
+      "Bronchoscopy",
+      "Sleep Study",
+      "Thoracentesis"
+    ]
   }
 }

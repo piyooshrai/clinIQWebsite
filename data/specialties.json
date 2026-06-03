@@ -3,7 +3,7 @@
     "slug": "pain-management",
     "name": "Pain Management",
     "meta": {
-      "title": "Pain Management Clinic Software | Prior Auth & Patient Flow | clinIQ",
+      "title": "Pain Management Clinic Software | Prior Auth & Patient Flow",
       "description": "Your injections bill $800-1,500 each. Your workflow is bleeding that margin. See how clinIQ fixes patient flow, prior auth, and RTM for pain management."
     },
     "hero": {
@@ -139,7 +139,7 @@
     "slug": "addiction-medicine",
     "name": "Addiction Medicine",
     "meta": {
-      "title": "Addiction Medicine & MAT Clinic Software | Patient Flow & RTM | clinIQ",
+      "title": "Addiction Medicine & MAT Clinic Software | Patient Flow & RTM",
       "description": "MAT clinics juggle intake, UDS collection, injections, and observation. clinIQ gives you real-time visibility across every stage — no more guessing who's next."
     },
     "hero": {
@@ -286,7 +286,7 @@
     "slug": "urgent-care",
     "name": "Urgent Care",
     "meta": {
-      "title": "Urgent Care Patient Flow Software | Reduce LWBS & Wait Times | clinIQ",
+      "title": "Urgent Care Patient Flow Software | Reduce LWBS & Wait Times",
       "description": "LWBS kills urgent care margins. Real-time patient flow visibility reduces walkouts, improves door-to-door time, and keeps your waiting room informed."
     },
     "hero": {
@@ -433,7 +433,7 @@
     "slug": "physical-therapy",
     "name": "Physical Therapy",
     "meta": {
-      "title": "Physical Therapy Practice Software | Patient Flow & RTM Billing | clinIQ",
+      "title": "Physical Therapy Practice Software | Patient Flow & RTM Billing",
       "description": "PT clinics juggle 4 patients across 3 zones per therapist. clinIQ gives visibility into who needs attention, plus RTM billing for home exercise compliance."
     },
     "hero": {
@@ -572,7 +572,7 @@
     "slug": "infusion-centers",
     "name": "Infusion Centers",
     "meta": {
-      "title": "Infusion Center Software | Chair Scheduling & Patient Flow | clinIQ",
+      "title": "Infusion Center Software | Chair Scheduling & Patient Flow",
       "description": "Infusion revenue = chairs × hours × utilization. clinIQ optimizes chair scheduling, drug prep timing, and real-time patient flow visibility."
     },
     "hero": {
@@ -716,7 +716,7 @@
     "slug": "psychiatry",
     "name": "Psychiatry",
     "meta": {
-      "title": "Psychiatry Practice Software | Private Check-In & Patient Flow | clinIQ",
+      "title": "Psychiatry Practice Software | Private Check-In & Patient Flow",
       "description": "Psychiatry patients need privacy at check-in, not a public announcement. clinIQ handles discreet patient flow for mental health practices."
     },
     "hero": {
@@ -857,7 +857,7 @@
     "slug": "orthopedic-surgery",
     "name": "Orthopedic Surgery",
     "meta": {
-      "title": "Orthopedic Surgery Center Software | OR Turnover & Pre-Auth | clinIQ",
+      "title": "Orthopedic Surgery Center Software | OR Turnover & Pre-Auth",
       "description": "OR turnover time is margin. clinIQ tracks surgical patient flow from pre-op to discharge, plus prior auth visibility for every case."
     },
     "hero": {
@@ -997,7 +997,7 @@
     "slug": "dermatology",
     "name": "Dermatology",
     "meta": {
-      "title": "Dermatology Practice Software | Medical & Cosmetic Patient Flow | clinIQ",
+      "title": "Dermatology Practice Software | Medical & Cosmetic Patient Flow",
       "description": "Dermatology mixes medical and cosmetic, Mohs days and clinic days, procedures and consults. clinIQ brings visibility to practices running multiple workflows."
     },
     "hero": {
@@ -1136,7 +1136,7 @@
     "slug": "cardiology",
     "name": "Cardiology",
     "meta": {
-      "title": "Cardiology Practice Software | Testing Suite & Patient Flow | clinIQ",
+      "title": "Cardiology Practice Software | Testing Suite & Patient Flow",
       "description": "Cardiology runs EKGs, stress tests, echos, and device interrogations — all competing for rooms and techs. clinIQ brings visibility to multi-modality cardiac practices."
     },
     "hero": {
@@ -1275,7 +1275,7 @@
     "slug": "primary-care",
     "name": "Primary Care",
     "meta": {
-      "title": "Primary Care Practice Software | Patient Flow & Same-Day Access | clinIQ",
+      "title": "Primary Care Practice Software | Patient Flow & Same-Day Access",
       "description": "Primary care runs on 15-minute slots for patients with 6 problems. clinIQ brings visibility to same-day access, chronic care, and the reality of family medicine."
     },
     "hero": {

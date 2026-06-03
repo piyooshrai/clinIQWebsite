@@ -4,18 +4,36 @@
   "abbr": "EG",
   "region": "Middle East",
   "meta": {
-    "title": "clinIQ for Egypt Clinics | Patient Flow & Remote Monitoring Software",
+    "title": "clinIQ for Egypt Clinics | Patient Flow",
     "description": "Clinic operations platform for Egypt healthcare providers. Reduce wait times, automate pre-authorization, capture remote monitoring revenue under UHC expansion. Works with any EMR."
   },
   "hero": {
     "h1": "clinIQ for Egypt Healthcare",
     "subhead": "Egypt's Universal Health Coverage law is the most ambitious healthcare expansion program in the Arab world, progressively enrolling 100 million people in structured insurance and raising the documentation and prior-authorization burden on private clinics dramatically. clinIQ connects to your existing EMR to manage patient flow, automate insurance workflows, and capture remote monitoring revenue — giving your practice the operational infrastructure to grow with UHC rather than be overwhelmed by it.",
-    "cities": ["Cairo", "Alexandria", "Giza", "Sharm El Sheikh", "Hurghada", "Luxor", "Mansoura", "Tanta"]
+    "cities": [
+      "Cairo",
+      "Alexandria",
+      "Giza",
+      "Sharm El Sheikh",
+      "Hurghada",
+      "Luxor",
+      "Mansoura",
+      "Tanta"
+    ]
   },
   "stats": [
-    { "value": "100M+", "label": "Population Being Enrolled in UHC by 2032" },
-    { "value": "~30%", "label": "Private Sector Share of Healthcare Facilities" },
-    { "value": "$144K", "label": "Annual Remote Monitoring Revenue per 100 Patients" }
+    {
+      "value": "100M+",
+      "label": "Population Being Enrolled in UHC by 2032"
+    },
+    {
+      "value": "~30%",
+      "label": "Private Sector Share of Healthcare Facilities"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual Remote Monitoring Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

@@ -4,18 +4,33 @@
   "abbr": "OR",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Oregon Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Oregon Clinics | Patient Flow",
     "description": "Clinic operations platform for Oregon healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Oregon Healthcare",
     "subhead": "Oregon's progressive healthcare system and highly engaged patient population make it fertile ground for digital clinic operations, while rural eastern and coastal communities continue to face persistent access shortages. clinIQ helps Oregon practices reduce check-in friction, automate prior authorization, and capture RTM revenue for the state's large physical therapy and behavioral health sectors.",
-    "cities": ["Portland", "Salem", "Eugene", "Gresham", "Hillsboro"]
+    "cities": [
+      "Portland",
+      "Salem",
+      "Eugene",
+      "Gresham",
+      "Hillsboro"
+    ]
   },
   "stats": [
-    { "value": "9,000+", "label": "Active Physician Practices" },
-    { "value": "50%", "label": "of Rural Counties with Provider Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "9,000+",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "50%",
+      "label": "of Rural Counties with Provider Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

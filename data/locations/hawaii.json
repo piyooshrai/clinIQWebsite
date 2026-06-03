@@ -4,18 +4,33 @@
   "abbr": "HI",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Hawaii Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Hawaii Clinics | Patient Flow",
     "description": "Clinic operations platform for Hawaii healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Hawaii Healthcare",
     "subhead": "Hawaii's island geography creates provider access challenges found nowhere else in the United States — Neighbor Island residents on Maui, Kauai, and the Big Island routinely travel hours or fly to Oahu for specialty care. clinIQ helps Honolulu multispecialty groups and community health centers on every island reduce check-in friction, manage real-time patient flow, and capture RTM revenue from the therapy and chronic disease populations that define Hawaii's outpatient caseload.",
-    "cities": ["Honolulu", "Pearl City", "Hilo", "Kailua", "Kaneohe"]
+    "cities": [
+      "Honolulu",
+      "Pearl City",
+      "Hilo",
+      "Kailua",
+      "Kaneohe"
+    ]
   },
   "stats": [
-    { "value": "3,800+", "label": "Licensed Physician Practices" },
-    { "value": "47%", "label": "Geographic Areas with Provider Shortages" },
-    { "value": "$144K+", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "3,800+",
+      "label": "Licensed Physician Practices"
+    },
+    {
+      "value": "47%",
+      "label": "Geographic Areas with Provider Shortages"
+    },
+    {
+      "value": "$144K+",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

@@ -4,18 +4,33 @@
   "abbr": "IA",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Iowa Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Iowa Clinics | Patient Flow",
     "description": "Clinic operations platform for Iowa healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Iowa Healthcare",
     "subhead": "Iowa's healthcare market is shaped by world-class academic medicine at UI Health Care in Iowa City and a vast rural network of critical access hospitals and independent clinics serving one of the most dispersed agricultural populations in the country. clinIQ helps Iowa practices from Des Moines to Dubuque streamline patient intake, manage lobby flow with fewer staff, automate prior authorization under Iowa Medicaid's managed care programs, and capture RTM revenue from the state's substantial physical therapy and orthopedic patient base.",
-    "cities": ["Des Moines", "Cedar Rapids", "Davenport", "Iowa City", "Sioux City"]
+    "cities": [
+      "Des Moines",
+      "Cedar Rapids",
+      "Davenport",
+      "Iowa City",
+      "Sioux City"
+    ]
   },
   "stats": [
-    { "value": "7,800+", "label": "Licensed Physician Practices" },
-    { "value": "65%", "label": "Counties with Primary Care HPSA Designation" },
-    { "value": "$144K+", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "7,800+",
+      "label": "Licensed Physician Practices"
+    },
+    {
+      "value": "65%",
+      "label": "Counties with Primary Care HPSA Designation"
+    },
+    {
+      "value": "$144K+",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

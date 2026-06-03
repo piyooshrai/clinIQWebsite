@@ -5,7 +5,7 @@
   "specialty": "feature",
   "wordCount": 2400,
   "meta": {
-    "title": "7 Signs Your Patient Flow Process Is Costing You Money | clinIQ",
+    "title": "7 Signs Your Patient Flow Process Is Costing You",
     "description": "Is your clinic losing revenue to broken patient flow? Discover 7 warning signs and how patient flow software fixes them without replacing your EHR.",
     "keywords": [
       "patient flow process",
@@ -126,9 +126,18 @@
     }
   ],
   "relatedPosts": [
-    { "title": "Patient Flow for Multi-Provider Practices", "href": "/blog/patient-flow-multi-provider-practices" },
-    { "title": "Check-In Bottleneck: Where the Morning Goes Wrong", "href": "/blog/check-in-bottleneck" },
-    { "title": "Wait Time Analytics: What to Measure and Why", "href": "/blog/wait-time-analytics" }
+    {
+      "title": "Patient Flow for Multi-Provider Practices",
+      "href": "/blog/patient-flow-multi-provider-practices"
+    },
+    {
+      "title": "Check-In Bottleneck: Where the Morning Goes Wrong",
+      "href": "/blog/check-in-bottleneck"
+    },
+    {
+      "title": "Wait Time Analytics: What to Measure and Why",
+      "href": "/blog/wait-time-analytics"
+    }
   ],
   "pillarLink": {
     "title": "Patient Flow",
@@ -138,6 +147,9 @@
   "cta": {
     "headline": "Your Patient Flow Process Is Costing You More Than You Think",
     "subhead": "Fix it without replacing your EHR. See clinIQ in 15 minutes.",
-    "primaryButton": { "label": "Request a Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request a Demo",
+      "href": "/demo"
+    }
   }
 }

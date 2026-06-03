@@ -4,18 +4,34 @@
   "abbr": "OM",
   "region": "Middle East",
   "meta": {
-    "title": "clinIQ for Oman Clinics | Patient Flow & Remote Monitoring Software",
+    "title": "clinIQ for Oman Clinics | Patient Flow",
     "description": "Clinic operations platform for Oman healthcare providers. Reduce wait times, automate insurance pre-authorization, capture remote monitoring revenue. Works with any EMR."
   },
   "hero": {
     "h1": "clinIQ for Oman Healthcare",
     "subhead": "Oman's healthcare reform agenda is expanding mandatory insurance coverage, digitizing health records, and actively growing the private sector's role in service delivery — creating both opportunity and administrative pressure for private clinics across Muscat and beyond. clinIQ sits on top of your existing systems to manage patient flow, automate pre-authorization, and generate remote monitoring revenue that Oman's working-age population is well positioned to support.",
-    "cities": ["Muscat", "Salalah", "Sohar", "Nizwa", "Sur", "Barka"]
+    "cities": [
+      "Muscat",
+      "Salalah",
+      "Sohar",
+      "Nizwa",
+      "Sur",
+      "Barka"
+    ]
   },
   "stats": [
-    { "value": "900+", "label": "Licensed Private Healthcare Facilities" },
-    { "value": "~45%", "label": "Expat Share of Oman's Population" },
-    { "value": "$144K", "label": "Annual Remote Monitoring Revenue per 100 Patients" }
+    {
+      "value": "900+",
+      "label": "Licensed Private Healthcare Facilities"
+    },
+    {
+      "value": "~45%",
+      "label": "Expat Share of Oman's Population"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual Remote Monitoring Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

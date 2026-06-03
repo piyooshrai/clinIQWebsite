@@ -4,18 +4,33 @@
   "abbr": "MS",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Mississippi Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Mississippi Clinics | Patient Flow",
     "description": "Clinic operations platform for Mississippi healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Mississippi Healthcare",
     "subhead": "Mississippi consistently ranks last or near-last in health outcomes rankings, yet its outpatient clinics — from Jackson's specialty groups to Gulfport's Gulf Coast Medical District — carry the state's heaviest burden for chronic disease management, physical rehabilitation, and behavioral health. clinIQ helps Mississippi practices cut check-in time, manage patient flow in real time, automate Medicaid prior authorization, and capture RTM revenue that their current EHR workflows leave uncaptured.",
-    "cities": ["Jackson", "Gulfport", "Southaven", "Hattiesburg", "Biloxi"]
+    "cities": [
+      "Jackson",
+      "Gulfport",
+      "Southaven",
+      "Hattiesburg",
+      "Biloxi"
+    ]
   },
   "stats": [
-    { "value": "5,800+", "label": "Licensed Physician Practices" },
-    { "value": "77%", "label": "Counties with Primary Care HPSA Designation" },
-    { "value": "$144K+", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "5,800+",
+      "label": "Licensed Physician Practices"
+    },
+    {
+      "value": "77%",
+      "label": "Counties with Primary Care HPSA Designation"
+    },
+    {
+      "value": "$144K+",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

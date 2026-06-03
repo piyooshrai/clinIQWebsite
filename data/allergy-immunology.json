@@ -5,27 +5,64 @@
   "wordCount": 2200,
   "publishDate": "2025-06-22",
   "meta": {
-    "title": "Allergy & Immunology Practice Software | Patient Flow, RTM & Immunotherapy Scheduling | clinIQ",
+    "title": "Allergy & Immunology Software | Patient Flow, RTM",
     "description": "Complete guide to allergy immunology practice operations. Immunotherapy scheduling and monitoring. RTM for asthma and allergic conditions. Symptom tracking through mobile app. Coordination with pulmonology and ENT.",
-    "keywords": ["allergy immunology software", "allergy practice management", "immunotherapy scheduling", "asthma RTM", "allergy patient flow", "allergy shot scheduling"]
+    "keywords": [
+      "allergy immunology software",
+      "allergy practice management",
+      "immunotherapy scheduling",
+      "asthma RTM",
+      "allergy patient flow",
+      "allergy shot scheduling"
+    ]
   },
   "hero": {
     "h1": "Allergy & Immunology Practice Software",
     "subhead": "Immunotherapy scheduling and monitoring. RTM billing for asthma and allergic conditions. Symptom tracking through the clinIQ app. Coordination with pulmonology and ENT for comprehensive allergic disease management.",
     "stats": [
-      { "value": "Immunotherapy", "label": "scheduling" },
-      { "value": "RTM", "label": "for asthma" },
-      { "value": "Symptom", "label": "tracking" }
+      {
+        "value": "Immunotherapy",
+        "label": "scheduling"
+      },
+      {
+        "value": "RTM",
+        "label": "for asthma"
+      },
+      {
+        "value": "Symptom",
+        "label": "tracking"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "allergy-operations", "title": "The Allergy Immunology Operations Model" },
-    { "id": "immunotherapy", "title": "Immunotherapy Scheduling" },
-    { "id": "rtm-billing", "title": "RTM for Allergic Conditions" },
-    { "id": "patient-flow", "title": "Patient Flow" },
-    { "id": "care-coordination", "title": "Care Coordination" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "allergy-operations",
+      "title": "The Allergy Immunology Operations Model"
+    },
+    {
+      "id": "immunotherapy",
+      "title": "Immunotherapy Scheduling"
+    },
+    {
+      "id": "rtm-billing",
+      "title": "RTM for Allergic Conditions"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Patient Flow"
+    },
+    {
+      "id": "care-coordination",
+      "title": "Care Coordination"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -84,14 +121,29 @@
   "cta": {
     "headline": "See Allergy Operations Optimized",
     "subhead": "Fifteen-minute demo showing immunotherapy scheduling, asthma RTM, and allergy practice patient flow.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "Immunotherapy", "label": "scheduling" },
-      { "value": "RTM", "label": "for asthma" },
-      { "value": "Efficient", "label": "injection flow" }
+      {
+        "value": "Immunotherapy",
+        "label": "scheduling"
+      },
+      {
+        "value": "RTM",
+        "label": "for asthma"
+      },
+      {
+        "value": "Efficient",
+        "label": "injection flow"
+      }
     ],
     "testimonial": {
       "quote": "Injection scheduling with observation tracking works smoothly now. Asthma symptom tracking through RTM shows control between visits. Reminders keep patients on their immunotherapy schedules. The efficiency gains let us see more patients without rushing.",
@@ -123,7 +175,19 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Allergy & Immunology",
-    "relevantConditions": ["Allergic Rhinitis", "Asthma", "Food Allergy", "Drug Allergy", "Immunodeficiency"],
-    "availableProcedures": ["Skin Testing", "Immunotherapy", "Food Challenge", "Drug Challenge", "Spirometry"]
+    "relevantConditions": [
+      "Allergic Rhinitis",
+      "Asthma",
+      "Food Allergy",
+      "Drug Allergy",
+      "Immunodeficiency"
+    ],
+    "availableProcedures": [
+      "Skin Testing",
+      "Immunotherapy",
+      "Food Challenge",
+      "Drug Challenge",
+      "Spirometry"
+    ]
   }
 }

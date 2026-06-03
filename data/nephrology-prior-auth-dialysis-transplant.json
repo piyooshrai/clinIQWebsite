@@ -5,7 +5,7 @@
   "specialty": "nephrology",
   "wordCount": 1900,
   "meta": {
-    "title": "Nephrology Prior Auth: Dialysis Access and Transplant | clinIQ",
+    "title": "Nephrology Prior Auth: Dialysis Access and",
     "description": "Navigate prior auth for AV fistula, AV graft, ESA therapy, IV iron infusions, and transplant evaluation with hemoglobin and TSAT criteria documentation strategies.",
     "keywords": [
       "nephrology prior authorization dialysis access AV fistula",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "CKD RTM: Chronic Kidney Disease Monitoring", "href": "/blog/ckd-rtm-chronic-kidney-disease-monitoring" },
-    { "title": "Nephrology Patient Flow for Dialysis Coordination", "href": "/blog/nephrology-patient-flow-dialysis-coordination" }
+    {
+      "title": "CKD RTM: Chronic Kidney Disease Monitoring",
+      "href": "/blog/ckd-rtm-chronic-kidney-disease-monitoring"
+    },
+    {
+      "title": "Nephrology Patient Flow for Dialysis Coordination",
+      "href": "/blog/nephrology-patient-flow-dialysis-coordination"
+    }
   ],
   "pillarLink": {
     "title": "Nephrology Practice Software",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Achieve 88%+ First-Pass Approval on Dialysis Access and ESA Auth",
     "subhead": "clinIQ's nephrology prior auth module submits complete packages on first attempt — with hemoglobin trending, TSAT/ferritin documentation, and peer-to-peer scheduling built in.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

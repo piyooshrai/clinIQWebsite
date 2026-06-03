@@ -5,29 +5,76 @@
   "wordCount": 3300,
   "publishDate": "2025-06-11",
   "meta": {
-    "title": "Patient Satisfaction Survey Software | NPS, CAHPS & Score Tracking | clinIQ",
+    "title": "Patient Satisfaction Survey Software | NPS, CAHPS",
     "description": "Complete guide to patient satisfaction measurement. Automated post-visit surveys. NPS and CAHPS tracking. Real-time score dashboards. Provider-level feedback. Identify detractors before they leave.",
-    "keywords": ["patient satisfaction software", "patient satisfaction survey", "NPS healthcare", "CAHPS survey", "patient experience software", "medical practice surveys", "patient feedback system", "healthcare NPS tracking", "patient satisfaction scores", "post-visit survey"]
+    "keywords": [
+      "patient satisfaction software",
+      "patient satisfaction survey",
+      "NPS healthcare",
+      "CAHPS survey",
+      "patient experience software",
+      "medical practice surveys",
+      "patient feedback system",
+      "healthcare NPS tracking",
+      "patient satisfaction scores",
+      "post-visit survey"
+    ]
   },
   "hero": {
     "h1": "Patient Satisfaction Surveys",
     "subhead": "Automated post-visit surveys capture patient feedback while the experience is fresh. Real-time dashboards show NPS scores by provider, location, and visit type. Identify unhappy patients before they leave negative reviews or switch practices. Turn feedback into improvement.",
     "stats": [
-      { "value": "Automated", "label": "post-visit delivery" },
-      { "value": "Real-time", "label": "score dashboards" },
-      { "value": "35%+", "label": "typical response rate" }
+      {
+        "value": "Automated",
+        "label": "post-visit delivery"
+      },
+      {
+        "value": "Real-time",
+        "label": "score dashboards"
+      },
+      {
+        "value": "35%+",
+        "label": "typical response rate"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "satisfaction-value", "title": "Why Patient Satisfaction Measurement Matters" },
-    { "id": "survey-delivery", "title": "Automated Survey Delivery" },
-    { "id": "survey-content", "title": "Survey Content and Instruments" },
-    { "id": "score-tracking", "title": "Score Tracking and Dashboards" },
-    { "id": "provider-feedback", "title": "Provider-Level Feedback" },
-    { "id": "detractor-recovery", "title": "Detractor Identification and Recovery" },
-    { "id": "improvement-action", "title": "Turning Feedback Into Action" },
-    { "id": "implementation", "title": "Implementation" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "satisfaction-value",
+      "title": "Why Patient Satisfaction Measurement Matters"
+    },
+    {
+      "id": "survey-delivery",
+      "title": "Automated Survey Delivery"
+    },
+    {
+      "id": "survey-content",
+      "title": "Survey Content and Instruments"
+    },
+    {
+      "id": "score-tracking",
+      "title": "Score Tracking and Dashboards"
+    },
+    {
+      "id": "provider-feedback",
+      "title": "Provider-Level Feedback"
+    },
+    {
+      "id": "detractor-recovery",
+      "title": "Detractor Identification and Recovery"
+    },
+    {
+      "id": "improvement-action",
+      "title": "Turning Feedback Into Action"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -108,14 +155,29 @@
   "cta": {
     "headline": "See Patient Satisfaction Measurement Working",
     "subhead": "Fifteen-minute demo showing automated survey delivery, real-time dashboards, provider-level scores, and detractor recovery workflow. See how feedback becomes improvement.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "See Sample Dashboard", "href": "/resources/satisfaction-demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "See Sample Dashboard",
+      "href": "/resources/satisfaction-demo"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "38%", "label": "average response rate" },
-      { "value": "Real-time", "label": "score visibility" },
-      { "value": "72%", "label": "detractor recovery rate" }
+      {
+        "value": "38%",
+        "label": "average response rate"
+      },
+      {
+        "value": "Real-time",
+        "label": "score visibility"
+      },
+      {
+        "value": "72%",
+        "label": "detractor recovery rate"
+      }
     ],
     "testimonial": {
       "quote": "We had no idea what patients thought until they posted reviews online. Now we know within hours of every visit. Our NPS went from thirty-one to fifty-eight in eight months because we could finally see the problems and fix them. Detractor calls have prevented at least a dozen negative reviews that I know of.",

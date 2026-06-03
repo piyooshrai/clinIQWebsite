@@ -4,18 +4,33 @@
   "abbr": "NH",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for New Hampshire Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for New Hampshire Clinics | Patient Flow",
     "description": "Clinic operations platform for New Hampshire healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for New Hampshire Healthcare",
     "subhead": "New Hampshire's healthcare market blends busy Manchester and Nashua specialty practices with rural northern communities where access remains a persistent challenge. clinIQ helps New Hampshire clinics reduce wait times, eliminate paper check-in, and capture RTM revenue from the state's large physical therapy and orthopedic patient base.",
-    "cities": ["Manchester", "Nashua", "Concord", "Dover", "Rochester"]
+    "cities": [
+      "Manchester",
+      "Nashua",
+      "Concord",
+      "Dover",
+      "Rochester"
+    ]
   },
   "stats": [
-    { "value": "2,600+", "label": "Active Physician Practices" },
-    { "value": "40%", "label": "of Counties with Primary Care Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "2,600+",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "40%",
+      "label": "of Counties with Primary Care Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

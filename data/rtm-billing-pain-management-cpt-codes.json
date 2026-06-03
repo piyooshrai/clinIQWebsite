@@ -5,9 +5,15 @@
   "specialty": "pain-management",
   "wordCount": 2000,
   "meta": {
-    "title": "RTM Billing for Pain Management: CPT Codes & Revenue Guide | clinIQ",
+    "title": "RTM Billing for Pain Management: CPT Codes",
     "description": "Complete guide to billing RTM for pain management. CPT 98977, 98980, 98981 explained. $120-150/patient/month revenue. Documentation requirements and payer coverage.",
-    "keywords": ["pain management RTM billing", "RTM CPT codes pain management", "98977 pain management", "98980 billing", "remote therapeutic monitoring pain"]
+    "keywords": [
+      "pain management RTM billing",
+      "RTM CPT codes pain management",
+      "98977 pain management",
+      "98980 billing",
+      "remote therapeutic monitoring pain"
+    ]
   },
   "publishDate": "2025-03-01",
   "updatedDate": "2025-03-01",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Start billing RTM for pain management",
     "subhead": "See how clinIQ captures $120-150/patient/month in RTM revenue.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

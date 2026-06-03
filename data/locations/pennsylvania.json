@@ -4,18 +4,33 @@
   "abbr": "PA",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Pennsylvania Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Pennsylvania Clinics | Patient Flow",
     "description": "Clinic operations platform for Pennsylvania healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Pennsylvania Healthcare",
     "subhead": "Pennsylvania's healthcare market spans nationally recognized academic medical centers in Philadelphia and Pittsburgh and a vast rural interior where access gaps persist. clinIQ helps Pennsylvania practices — from large multispecialty groups to rural family practices — reduce check-in time, cut prior authorization burden, and capture RTM revenue at scale.",
-    "cities": ["Philadelphia", "Pittsburgh", "Allentown", "Erie", "Reading"]
+    "cities": [
+      "Philadelphia",
+      "Pittsburgh",
+      "Allentown",
+      "Erie",
+      "Reading"
+    ]
   },
   "stats": [
-    { "value": "28,000+", "label": "Active Physician Practices" },
-    { "value": "48%", "label": "of Rural Counties with Provider Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "28,000+",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "48%",
+      "label": "of Rural Counties with Provider Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

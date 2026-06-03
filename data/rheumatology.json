@@ -5,29 +5,73 @@
   "wordCount": 3400,
   "publishDate": "2025-02-28",
   "meta": {
-    "title": "Rheumatology Practice Software | RTM, Infusion Scheduling & Patient Flow | clinIQ",
+    "title": "Rheumatology Software | RTM, Infusion Scheduling",
     "description": "Complete guide to rheumatology practice operations. RTM billing for RA, lupus, and inflammatory conditions. Infusion suite scheduling optimization. Biologic prior authorization automation. Patient-reported flare tracking through mobile app.",
-    "keywords": ["rheumatology software", "rheumatology practice management", "rheumatology RTM billing", "biologic prior authorization", "rheumatology infusion scheduling", "inflammatory arthritis monitoring", "rheumatology patient portal"]
+    "keywords": [
+      "rheumatology software",
+      "rheumatology practice management",
+      "rheumatology RTM billing",
+      "biologic prior authorization",
+      "rheumatology infusion scheduling",
+      "inflammatory arthritis monitoring",
+      "rheumatology patient portal"
+    ]
   },
   "hero": {
     "h1": "Rheumatology Practice Software",
     "subhead": "RTM billing for inflammatory conditions capturing $120-140 per patient monthly. Infusion suite scheduling maximizing chair utilization. Biologic prior authorization automation reducing approval time from weeks to days. Patient-reported flare tracking and disease activity monitoring through the clinIQ app.",
     "stats": [
-      { "value": "$140K", "label": "annual RTM revenue (100 patients)" },
-      { "value": "85%+", "label": "infusion chair utilization" },
-      { "value": "3 days", "label": "biologic auth turnaround" }
+      {
+        "value": "$140K",
+        "label": "annual RTM revenue (100 patients)"
+      },
+      {
+        "value": "85%+",
+        "label": "infusion chair utilization"
+      },
+      {
+        "value": "3 days",
+        "label": "biologic auth turnaround"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "rheum-operations", "title": "The Rheumatology Operations Challenge" },
-    { "id": "rtm-billing", "title": "RTM Billing for Inflammatory Conditions" },
-    { "id": "infusion-scheduling", "title": "Infusion Suite Optimization" },
-    { "id": "prior-auth", "title": "Biologic Prior Authorization" },
-    { "id": "disease-monitoring", "title": "Disease Activity Monitoring" },
-    { "id": "patient-flow", "title": "Clinic Flow Management" },
-    { "id": "care-coordination", "title": "Multi-Specialty Care Coordination" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "rheum-operations",
+      "title": "The Rheumatology Operations Challenge"
+    },
+    {
+      "id": "rtm-billing",
+      "title": "RTM Billing for Inflammatory Conditions"
+    },
+    {
+      "id": "infusion-scheduling",
+      "title": "Infusion Suite Optimization"
+    },
+    {
+      "id": "prior-auth",
+      "title": "Biologic Prior Authorization"
+    },
+    {
+      "id": "disease-monitoring",
+      "title": "Disease Activity Monitoring"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Clinic Flow Management"
+    },
+    {
+      "id": "care-coordination",
+      "title": "Multi-Specialty Care Coordination"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -108,14 +152,29 @@
   "cta": {
     "headline": "See Rheumatology Operations Optimized",
     "subhead": "Fifteen-minute demo showing RTM enrollment for inflammatory conditions, infusion scheduling optimization, biologic prior authorization automation, and disease activity monitoring. See how rheumatology practices capture $140,000+ annually in RTM revenue.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Your RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Your RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$140K", "label": "annual RTM revenue potential" },
-      { "value": "85%", "label": "infusion chair utilization" },
-      { "value": "3 days", "label": "biologic auth turnaround" }
+      {
+        "value": "$140K",
+        "label": "annual RTM revenue potential"
+      },
+      {
+        "value": "85%",
+        "label": "infusion chair utilization"
+      },
+      {
+        "value": "3 days",
+        "label": "biologic auth turnaround"
+      }
     ],
     "testimonial": {
       "quote": "Biologic authorizations used to consume our staff. Now the templates auto-populate and we track status without calling payers. RTM captures revenue for monitoring we were already doing through portal messages. Infusion scheduling optimization added two more infusion slots per day. The platform paid for itself in the first month.",
@@ -147,7 +206,18 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Rheumatology",
-    "relevantConditions": ["Rheumatoid Arthritis", "Lupus", "Psoriatic Arthritis", "Ankylosing Spondylitis", "Fibromyalgia", "Vasculitis"],
-    "availableProcedures": ["Joint Injection", "Biologic Infusion", "Disease Activity Assessment"]
+    "relevantConditions": [
+      "Rheumatoid Arthritis",
+      "Lupus",
+      "Psoriatic Arthritis",
+      "Ankylosing Spondylitis",
+      "Fibromyalgia",
+      "Vasculitis"
+    ],
+    "availableProcedures": [
+      "Joint Injection",
+      "Biologic Infusion",
+      "Disease Activity Assessment"
+    ]
   }
 }

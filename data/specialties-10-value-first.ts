@@ -3,7 +3,7 @@ const specialties = [
     "slug": "pain-management",
     "name": "Pain Management",
     "meta": {
-      "title": "Pain Management Clinic Software | RTM Billing, Patient Flow & Prior Auth | clinIQ",
+      "title": "Pain Management Clinic Software | RTM Billing, Patient Flow & Prior Auth",
       "description": "$12K/month in RTM revenue. 56 minutes recovered per procedure day. Prior auth tracking with LOMN templates. clinIQ for interventional pain practices."
     },
     "hero": {
@@ -134,7 +134,7 @@ const specialties = [
     "slug": "addiction-medicine",
     "name": "Addiction Medicine",
     "meta": {
-      "title": "Addiction Medicine & MAT Clinic Software | RTM Billing & Patient Flow | clinIQ",
+      "title": "Addiction Medicine & MAT Clinic Software | RTM Billing & Patient Flow",
       "description": "$7,500/month in behavioral health RTM. Zero missed Sublocade injections. Real-time visibility from intake to observation. clinIQ for MAT clinics."
     },
     "hero": {
@@ -266,7 +266,7 @@ const specialties = [
     "slug": "urgent-care",
     "name": "Urgent Care",
     "meta": {
-      "title": "Urgent Care Patient Flow Software | Reduce LWBS, Increase Throughput | clinIQ",
+      "title": "Urgent Care Patient Flow Software | Reduce LWBS, Increase Throughput",
       "description": "15-20% LWBS reduction. 12 minutes off average wait time. Real-time door-to-door visibility. clinIQ for urgent care centers."
     },
     "hero": {
@@ -397,7 +397,7 @@ const specialties = [
     "slug": "physical-therapy",
     "name": "Physical Therapy",
     "meta": {
-      "title": "Physical Therapy Software | RTM for Home Exercise & Multi-Patient Flow | clinIQ",
+      "title": "Physical Therapy Software | RTM for Home Exercise & Multi-Patient Flow",
       "description": "$10,400/month in musculoskeletal RTM. Zero patients forgotten in warm-up. Insurance cap visibility at check-in. clinIQ for PT practices."
     },
     "hero": {
@@ -526,7 +526,7 @@ const specialties = [
     "slug": "infusion-centers",
     "name": "Infusion Centers",
     "meta": {
-      "title": "Infusion Center Software | Chair Utilization & Drug Waste Prevention | clinIQ",
+      "title": "Infusion Center Software | Chair Utilization & Drug Waste Prevention",
       "description": "15% higher chair utilization. Zero wasted biologics from no-shows. $7,200/month in RTM between infusions. clinIQ for infusion centers."
     },
     "hero": {
@@ -655,7 +655,7 @@ const specialties = [
     "slug": "psychiatry",
     "name": "Psychiatry",
     "meta": {
-      "title": "Psychiatry Practice Software | No-Show Reduction & Private Check-In | clinIQ",
+      "title": "Psychiatry Practice Software | No-Show Reduction & Private Check-In",
       "description": "18% fewer new patient no-shows. 100% private check-in. Real-time session visibility. clinIQ for psychiatry and mental health practices."
     },
     "hero": {
@@ -781,7 +781,7 @@ const specialties = [
     "slug": "orthopedic-surgery",
     "name": "Orthopedic Surgery",
     "meta": {
-      "title": "Orthopedic Surgery Software | OR Turnover & Surgical Prior Auth | clinIQ",
+      "title": "Orthopedic Surgery Software | OR Turnover & Surgical Prior Auth",
       "description": "8 minutes off OR turnover = $250K/year in recovered capacity. Zero cases canceled for pre-op delays. LOMN templates for surgical prior auth. clinIQ for orthopedic surgery."
     },
     "hero": {
@@ -911,7 +911,7 @@ const specialties = [
     "slug": "dermatology",
     "name": "Dermatology",
     "meta": {
-      "title": "Dermatology Practice Software | Mohs Tracking & Medical/Cosmetic Flow | clinIQ",
+      "title": "Dermatology Practice Software | Mohs Tracking & Medical/Cosmetic Flow",
       "description": "25% faster Mohs turnover. Zero biopsy results lost to follow-up gaps. Medical and cosmetic in one system. clinIQ for dermatology."
     },
     "hero": {
@@ -1040,7 +1040,7 @@ const specialties = [
     "slug": "cardiology",
     "name": "Cardiology",
     "meta": {
-      "title": "Cardiology Practice Software | Testing Suite Flow & Cardiac RTM | clinIQ",
+      "title": "Cardiology Practice Software | Testing Suite Flow & Cardiac RTM",
       "description": "40% fewer 'where's my patient?' interruptions. $10,400/month in cardiac RTM. Real-time testing suite visibility. clinIQ for cardiology practices."
     },
     "hero": {
@@ -1169,7 +1169,7 @@ const specialties = [
     "slug": "primary-care",
     "name": "Primary Care",
     "meta": {
-      "title": "Primary Care Software | CCM Revenue, RTM & Same-Day Access | clinIQ",
+      "title": "Primary Care Software | CCM Revenue, RTM & Same-Day Access",
       "description": "$6,200/month in CCM. $7,200/month in RTM. Same-day access through better flow, not more slots. clinIQ for primary care."
     },
     "hero": {

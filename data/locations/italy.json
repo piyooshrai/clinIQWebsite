@@ -4,18 +4,33 @@
   "abbr": "IT",
   "region": "Europe",
   "meta": {
-    "title": "clinIQ for Italy Private Clinics | Patient Flow & Remote Monitoring",
+    "title": "clinIQ for Italy Private Clinics | Patient Flow",
     "description": "Clinic operations platform for Italian private healthcare providers and intramoenia practices. Streamline check-in, patient flow, and remote therapeutic monitoring alongside your existing system."
   },
   "hero": {
     "h1": "clinIQ for Italy Healthcare",
     "subhead": "Italy's Servizio Sanitario Nazionale faces structural capacity constraints that are pushing millions of patients toward private care — either through intramoenia specialist appointments or fully private cliniche and poliambulatori. From Milan's dense private specialist networks to Rome's independent studio medico community, Italian private practitioners need operations infrastructure that matches demand. clinIQ integrates with your existing gestionale to automate check-in, manage patient flow, and generate remote monitoring revenue.",
-    "cities": ["Milan", "Rome", "Naples", "Turin", "Florence"]
+    "cities": [
+      "Milan",
+      "Rome",
+      "Naples",
+      "Turin",
+      "Florence"
+    ]
   },
   "stats": [
-    { "value": "€40B+", "label": "Total Italian Private Healthcare Expenditure Annually" },
-    { "value": "64 days", "label": "Average SSN Wait for a Specialist Consultation (2023)" },
-    { "value": "€144K", "label": "Annual Remote Monitoring Revenue per 100 Patients" }
+    {
+      "value": "€40B+",
+      "label": "Total Italian Private Healthcare Expenditure Annually"
+    },
+    {
+      "value": "64 days",
+      "label": "Average SSN Wait for a Specialist Consultation (2023)"
+    },
+    {
+      "value": "€144K",
+      "label": "Annual Remote Monitoring Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

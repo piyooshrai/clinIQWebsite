@@ -5,7 +5,7 @@
   "specialty": "endocrinology",
   "wordCount": 1900,
   "meta": {
-    "title": "Endocrinology Prior Auth: CGM and Specialty Medications | clinIQ",
+    "title": "Endocrinology Prior Auth: CGM and Specialty",
     "description": "Navigate CGM prior auth for Dexcom G7 and Libre 3, GLP-1 agonists, tirzepatide, SGLT-2 inhibitors, and growth hormone with expert documentation strategies.",
     "keywords": [
       "endocrinology prior authorization CGM Dexcom Libre Medicare",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Diabetes RTM: Between-Visit Glucose Monitoring", "href": "/blog/diabetes-rtm-glucose-monitoring" },
-    { "title": "Endocrinology Practice Workflow", "href": "/blog/endocrinology-practice-workflow" }
+    {
+      "title": "Diabetes RTM: Between-Visit Glucose Monitoring",
+      "href": "/blog/diabetes-rtm-glucose-monitoring"
+    },
+    {
+      "title": "Endocrinology Practice Workflow",
+      "href": "/blog/endocrinology-practice-workflow"
+    }
   ],
   "pillarLink": {
     "title": "Endocrinology Practice Software",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Achieve 90%+ First-Pass Approval Rates on CGM and GLP-1 Auth",
     "subhead": "clinIQ's payer-specific criteria library handles the full endocrinology prior auth workload — from Dexdev G7 to tirzepatide to growth hormone.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

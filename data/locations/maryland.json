@@ -4,18 +4,33 @@
   "abbr": "MD",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Maryland Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Maryland Clinics | Patient Flow",
     "description": "Clinic operations platform for Maryland healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Maryland Healthcare",
     "subhead": "Maryland's All-Payer model makes it one of the most distinctive healthcare markets in the country — where hospital rates are regulated but outpatient practices still navigate complex Medicaid MCO prior authorization and commercial payer requirements that consume 13 or more hours per provider per week. clinIQ helps Maryland clinics from Baltimore to Bethesda streamline intake, gain real-time lobby control, automate prior authorization, and capture RTM revenue from the state's large specialty outpatient market.",
-    "cities": ["Baltimore", "Columbia", "Germantown", "Silver Spring", "Rockville"]
+    "cities": [
+      "Baltimore",
+      "Columbia",
+      "Germantown",
+      "Silver Spring",
+      "Rockville"
+    ]
   },
   "stats": [
-    { "value": "18,500+", "label": "Licensed Physician Practices" },
-    { "value": "38%", "label": "Areas with Primary Care Provider Shortages" },
-    { "value": "$144K+", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "18,500+",
+      "label": "Licensed Physician Practices"
+    },
+    {
+      "value": "38%",
+      "label": "Areas with Primary Care Provider Shortages"
+    },
+    {
+      "value": "$144K+",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

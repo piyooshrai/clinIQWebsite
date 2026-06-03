@@ -5,27 +5,64 @@
   "wordCount": 2600,
   "publishDate": "2025-06-14",
   "meta": {
-    "title": "Endocrinology Practice Software | RTM, Diabetes Monitoring & Patient Engagement | clinIQ",
+    "title": "Endocrinology Software | RTM, Diabetes Monitoring",
     "description": "Complete guide to endocrinology practice operations. RTM billing for diabetes and metabolic conditions. Blood glucose and weight tracking. Wearable integration for activity data. Coordination with primary care and cardiology.",
-    "keywords": ["endocrinology software", "endocrinology practice management", "diabetes RTM billing", "blood glucose monitoring", "thyroid management", "endocrinology EHR integration"]
+    "keywords": [
+      "endocrinology software",
+      "endocrinology practice management",
+      "diabetes RTM billing",
+      "blood glucose monitoring",
+      "thyroid management",
+      "endocrinology EHR integration"
+    ]
   },
   "hero": {
     "h1": "Endocrinology Practice Software",
     "subhead": "RTM billing for diabetes and metabolic conditions capturing $110-140 per patient monthly. Blood glucose, weight, and symptom tracking through the clinIQ app. Wearable integration for activity and sleep data. Coordination with primary care and cardiology.",
     "stats": [
-      { "value": "$130K", "label": "annual RTM revenue (100 patients)" },
-      { "value": "Glucose", "label": "and weight tracking" },
-      { "value": "Wearable", "label": "data integration" }
+      {
+        "value": "$130K",
+        "label": "annual RTM revenue (100 patients)"
+      },
+      {
+        "value": "Glucose",
+        "label": "and weight tracking"
+      },
+      {
+        "value": "Wearable",
+        "label": "data integration"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "endo-operations", "title": "The Endocrinology Operations Model" },
-    { "id": "rtm-billing", "title": "RTM Billing for Metabolic Conditions" },
-    { "id": "diabetes-monitoring", "title": "Diabetes Monitoring" },
-    { "id": "patient-flow", "title": "Patient Flow" },
-    { "id": "care-coordination", "title": "Care Coordination" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "endo-operations",
+      "title": "The Endocrinology Operations Model"
+    },
+    {
+      "id": "rtm-billing",
+      "title": "RTM Billing for Metabolic Conditions"
+    },
+    {
+      "id": "diabetes-monitoring",
+      "title": "Diabetes Monitoring"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Patient Flow"
+    },
+    {
+      "id": "care-coordination",
+      "title": "Care Coordination"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -88,14 +125,29 @@
   "cta": {
     "headline": "See Endocrinology Operations Optimized",
     "subhead": "Fifteen-minute demo showing RTM enrollment, glucose monitoring, and wearable integration for diabetes care.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$130K", "label": "annual RTM potential" },
-      { "value": "Glucose", "label": "pattern tracking" },
-      { "value": "Wearable", "label": "activity data" }
+      {
+        "value": "$130K",
+        "label": "annual RTM potential"
+      },
+      {
+        "value": "Glucose",
+        "label": "pattern tracking"
+      },
+      {
+        "value": "Wearable",
+        "label": "activity data"
+      }
     ],
     "testimonial": {
       "quote": "Glucose data between visits changed diabetes management. We see patterns instead of isolated A1C snapshots. Activity tracking shows which patients are exercising. RTM generates significant revenue while improving care. Medication adjustments through messaging happen faster than waiting for visits.",
@@ -127,7 +179,18 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Endocrinology",
-    "relevantConditions": ["Diabetes", "Thyroid Disorders", "Osteoporosis", "Adrenal Disorders", "Pituitary Disorders"],
-    "availableProcedures": ["Glucose Monitoring", "Thyroid Ultrasound", "Bone Density Testing", "Continuous Glucose Monitoring"]
+    "relevantConditions": [
+      "Diabetes",
+      "Thyroid Disorders",
+      "Osteoporosis",
+      "Adrenal Disorders",
+      "Pituitary Disorders"
+    ],
+    "availableProcedures": [
+      "Glucose Monitoring",
+      "Thyroid Ultrasound",
+      "Bone Density Testing",
+      "Continuous Glucose Monitoring"
+    ]
   }
 }

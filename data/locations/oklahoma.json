@@ -4,18 +4,33 @@
   "abbr": "OK",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Oklahoma Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Oklahoma Clinics | Patient Flow",
     "description": "Clinic operations platform for Oklahoma healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Oklahoma Healthcare",
     "subhead": "Oklahoma's clinic market spans busy Oklahoma City and Tulsa specialty practices and rural communities where healthcare access is among the most limited in the country. clinIQ helps Oklahoma practices reduce check-in time, cut prior auth burden, and capture RTM billing revenue that most clinics haven't yet tapped.",
-    "cities": ["Oklahoma City", "Tulsa", "Norman", "Broken Arrow", "Edmond"]
+    "cities": [
+      "Oklahoma City",
+      "Tulsa",
+      "Norman",
+      "Broken Arrow",
+      "Edmond"
+    ]
   },
   "stats": [
-    { "value": "6,500+", "label": "Active Physician Practices" },
-    { "value": "68%", "label": "of Counties with Primary Care Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "6,500+",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "68%",
+      "label": "of Counties with Primary Care Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

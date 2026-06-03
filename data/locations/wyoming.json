@@ -4,18 +4,33 @@
   "abbr": "WY",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Wyoming Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Wyoming Clinics | Patient Flow",
     "description": "Clinic operations platform for Wyoming healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Wyoming Healthcare",
     "subhead": "Wyoming is the least densely populated state in the country, and its clinic market reflects that reality — small practices serving enormous geographic areas, lean staffing, and patients who travel hours to receive care. clinIQ helps Wyoming practices maximize every administrative hour, reduce prior authorization burden, and capture RTM billing revenue that supports the state's physical therapy and orthopedic practices.",
-    "cities": ["Cheyenne", "Casper", "Laramie", "Gillette", "Rock Springs"]
+    "cities": [
+      "Cheyenne",
+      "Casper",
+      "Laramie",
+      "Gillette",
+      "Rock Springs"
+    ]
   },
   "stats": [
-    { "value": "900+", "label": "Active Physician Practices" },
-    { "value": "80%", "label": "of Counties with Primary Care Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "900+",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "80%",
+      "label": "of Counties with Primary Care Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

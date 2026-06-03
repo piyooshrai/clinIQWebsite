@@ -4,18 +4,33 @@
   "abbr": "CA",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for California Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for California Clinics | Patient Flow",
     "description": "Clinic operations platform for California healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for California Healthcare",
     "subhead": "California's 39 million residents generate the largest outpatient care market in the nation — and the operational complexity to match. From high-volume Los Angeles multispecialty groups navigating Medi-Cal managed care to Bay Area concierge practices competing on patient experience, clinIQ gives California healthcare providers the tools to run tighter, faster, and more profitable practices: digital check-in, real-time patient flow, automated prior authorization, and RTM billing that unlocks six-figure revenue with existing patient panels.",
-    "cities": ["Los Angeles", "San Francisco", "San Diego", "San Jose", "Sacramento"]
+    "cities": [
+      "Los Angeles",
+      "San Francisco",
+      "San Diego",
+      "San Jose",
+      "Sacramento"
+    ]
   },
   "stats": [
-    { "value": "~95,000", "label": "Active Physician Practices" },
-    { "value": "30%+", "label": "of Counties with Provider Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "~95,000",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "30%+",
+      "label": "of Counties with Provider Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

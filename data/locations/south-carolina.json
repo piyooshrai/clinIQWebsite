@@ -4,18 +4,33 @@
   "abbr": "SC",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for South Carolina Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for South Carolina Clinics | Patient Flow",
     "description": "Clinic operations platform for South Carolina healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for South Carolina Healthcare",
     "subhead": "South Carolina's rapidly growing coastal and upstate populations are straining clinic capacity, while rural Pee Dee, Lowcountry, and Midlands communities face persistent provider shortages. clinIQ helps South Carolina practices reduce check-in time, automate prior authorization, and capture RTM revenue from the state's large physical therapy and orthopedic patient base.",
-    "cities": ["Charleston", "Columbia", "North Charleston", "Mount Pleasant", "Greenville"]
+    "cities": [
+      "Charleston",
+      "Columbia",
+      "North Charleston",
+      "Mount Pleasant",
+      "Greenville"
+    ]
   },
   "stats": [
-    { "value": "7,500+", "label": "Active Physician Practices" },
-    { "value": "60%", "label": "of Rural Counties with Provider Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "7,500+",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "60%",
+      "label": "of Rural Counties with Provider Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

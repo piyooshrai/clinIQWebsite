@@ -4,18 +4,34 @@
   "abbr": "QA",
   "region": "Middle East",
   "meta": {
-    "title": "clinIQ for Qatar Clinics | Patient Flow & Remote Monitoring Software",
+    "title": "clinIQ for Qatar Clinics | Patient Flow",
     "description": "Clinic operations platform for Qatar healthcare providers. Reduce wait times, automate NHIC pre-authorization, capture remote monitoring revenue. Works with any EMR."
   },
   "hero": {
     "h1": "clinIQ for Qatar Healthcare",
     "subhead": "Qatar has invested more per capita in healthcare infrastructure than virtually any country on earth, yet private clinics still struggle with the same operational friction that costs revenue and patient satisfaction everywhere: slow check-in, manual pre-authorization, and zero visibility into lobby flow. clinIQ connects to your existing EMR and solves all three — while adding a remote monitoring revenue stream that Qatar's well-insured, working-age population is perfectly positioned to support.",
-    "cities": ["Doha", "Al Wakrah", "Al Khor", "Al Rayyan", "Lusail", "Umm Salal"]
+    "cities": [
+      "Doha",
+      "Al Wakrah",
+      "Al Khor",
+      "Al Rayyan",
+      "Lusail",
+      "Umm Salal"
+    ]
   },
   "stats": [
-    { "value": "400+", "label": "Licensed Private Healthcare Facilities" },
-    { "value": "88%", "label": "Expatriate Share of Qatar's Population" },
-    { "value": "$144K", "label": "Annual Remote Monitoring Revenue per 100 Patients" }
+    {
+      "value": "400+",
+      "label": "Licensed Private Healthcare Facilities"
+    },
+    {
+      "value": "88%",
+      "label": "Expatriate Share of Qatar's Population"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual Remote Monitoring Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

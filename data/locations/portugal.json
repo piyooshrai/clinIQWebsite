@@ -4,18 +4,33 @@
   "abbr": "PT",
   "region": "Europe",
   "meta": {
-    "title": "clinIQ for Portugal Private Clinics | Patient Flow & Remote Monitoring",
+    "title": "clinIQ for Portugal Private Clinics | Patient Flow",
     "description": "Clinic operations platform for Portuguese private healthcare providers. Streamline check-in, patient flow, and remote therapeutic monitoring. Works with Médis, AdvanceCare, and SNS contexts."
   },
   "hero": {
     "h1": "clinIQ for Portugal Healthcare",
     "subhead": "Portugal's private healthcare market has grown dramatically over the past decade, with Luz Saúde, Hospital da CUF, and a network of independent clínicas privadas absorbing patients from an SNS under mounting capacity pressure. Managing Médis, AdvanceCare, and Multicare pre-authorisations alongside self-pay billing and rising patient expectations is stretching clinic admin teams. clinIQ integrates with your existing sistema de gestão to automate check-in, manage patient flow, and generate remote monitoring revenue.",
-    "cities": ["Lisbon", "Porto", "Braga", "Coimbra", "Faro"]
+    "cities": [
+      "Lisbon",
+      "Porto",
+      "Braga",
+      "Coimbra",
+      "Faro"
+    ]
   },
   "stats": [
-    { "value": "€5B+", "label": "Portuguese Private Healthcare Market Value" },
-    { "value": "2.5M+", "label": "People with Private Health Insurance or ADSE Coverage" },
-    { "value": "€144K", "label": "Annual Remote Monitoring Revenue per 100 Patients" }
+    {
+      "value": "€5B+",
+      "label": "Portuguese Private Healthcare Market Value"
+    },
+    {
+      "value": "2.5M+",
+      "label": "People with Private Health Insurance or ADSE Coverage"
+    },
+    {
+      "value": "€144K",
+      "label": "Annual Remote Monitoring Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

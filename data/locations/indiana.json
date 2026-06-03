@@ -4,18 +4,33 @@
   "abbr": "IN",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Indiana Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Indiana Clinics | Patient Flow",
     "description": "Clinic operations platform for Indiana healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Indiana Healthcare",
     "subhead": "Indiana's outpatient healthcare market is anchored by Indianapolis's growing health system landscape but stretches into smaller cities and rural counties where provider shortages are among the most acute in the Midwest. clinIQ helps Indiana practices from Carmel to Evansville reduce administrative overhead, achieve real-time lobby visibility, automate prior authorization across Medicaid MCOs, and capture RTM revenue from the state's large physical therapy and orthopedic patient base.",
-    "cities": ["Indianapolis", "Fort Wayne", "Evansville", "South Bend", "Carmel"]
+    "cities": [
+      "Indianapolis",
+      "Fort Wayne",
+      "Evansville",
+      "South Bend",
+      "Carmel"
+    ]
   },
   "stats": [
-    { "value": "14,500+", "label": "Licensed Physician Practices" },
-    { "value": "60%", "label": "Counties with Primary Care HPSA Designation" },
-    { "value": "$144K+", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "14,500+",
+      "label": "Licensed Physician Practices"
+    },
+    {
+      "value": "60%",
+      "label": "Counties with Primary Care HPSA Designation"
+    },
+    {
+      "value": "$144K+",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

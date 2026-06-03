@@ -5,7 +5,7 @@
   "specialty": "oncology",
   "wordCount": 1900,
   "meta": {
-    "title": "Oncology Patient Flow: Balancing Infusion and Clinic | clinIQ",
+    "title": "Oncology Patient Flow: Balancing Infusion and",
     "description": "Optimize oncology patient flow by sequencing labs before clinic visits, reserving infusion slots for same-day orders, and prioritizing toxicity visits without disrupting infusion schedules.",
     "keywords": [
       "oncology patient flow infusion clinic management",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Oncology Infusion Scheduling Optimization", "href": "/blog/oncology-infusion-scheduling-optimization" },
-    { "title": "Oncology Prior Auth: Chemotherapy and Imaging", "href": "/blog/oncology-prior-auth-chemotherapy-imaging" }
+    {
+      "title": "Oncology Infusion Scheduling Optimization",
+      "href": "/blog/oncology-infusion-scheduling-optimization"
+    },
+    {
+      "title": "Oncology Prior Auth: Chemotherapy and Imaging",
+      "href": "/blog/oncology-prior-auth-chemotherapy-imaging"
+    }
   ],
   "pillarLink": {
     "title": "Oncology Practice Software",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Reduce Clinic-to-Chair Time by 30–45 Minutes",
     "subhead": "clinIQ's lab-before-clinic sequencing, integrated order management, and infusion slot reservation protocols transform oncology patient flow without adding staff.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

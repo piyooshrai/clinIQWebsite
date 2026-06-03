@@ -4,18 +4,34 @@
   "abbr": "JO",
   "region": "Middle East",
   "meta": {
-    "title": "clinIQ for Jordan Clinics | Patient Flow & Remote Monitoring Software",
+    "title": "clinIQ for Jordan Clinics | Patient Flow",
     "description": "Clinic operations platform for Jordan healthcare providers. Reduce wait times, automate insurance pre-authorization, capture remote monitoring revenue. Works with any EMR."
   },
   "hero": {
     "h1": "clinIQ for Jordan Healthcare",
     "subhead": "Jordan attracts more than 500,000 medical tourists annually and hosts some of the Arab world's most respected JCI-accredited hospitals — but the private polyclinic sector that handles everyday specialist care still runs largely on paper intake and manual insurance workflows. clinIQ brings the operational infrastructure that Jordan's ambitious private clinics need: real-time patient flow, automated pre-authorization, and remote monitoring revenue built on top of whatever EMR you already use.",
-    "cities": ["Amman", "Irbid", "Zarqa", "Aqaba", "Salt", "Madaba"]
+    "cities": [
+      "Amman",
+      "Irbid",
+      "Zarqa",
+      "Aqaba",
+      "Salt",
+      "Madaba"
+    ]
   },
   "stats": [
-    { "value": "500K+", "label": "Medical Tourists Treated Annually" },
-    { "value": "~60%", "label": "Private Sector Share of Healthcare Spending" },
-    { "value": "$144K", "label": "Annual Remote Monitoring Revenue per 100 Patients" }
+    {
+      "value": "500K+",
+      "label": "Medical Tourists Treated Annually"
+    },
+    {
+      "value": "~60%",
+      "label": "Private Sector Share of Healthcare Spending"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual Remote Monitoring Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

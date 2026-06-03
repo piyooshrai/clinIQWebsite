@@ -4,18 +4,34 @@
   "abbr": "BH",
   "region": "Middle East",
   "meta": {
-    "title": "clinIQ for Bahrain Clinics | Patient Flow & Remote Monitoring Software",
+    "title": "clinIQ for Bahrain Clinics | Patient Flow",
     "description": "Clinic operations platform for Bahrain healthcare providers. Reduce wait times, automate NHRA-compliant pre-authorization, capture remote monitoring revenue. Works with any EMR."
   },
   "hero": {
     "h1": "clinIQ for Bahrain Healthcare",
     "subhead": "Bahrain's small geography and high clinic density make patient experience the decisive competitive factor — patients will simply drive twenty minutes to a clinic that checks them in faster and manages their wait better. clinIQ gives Manama private clinics the operational edge they need: real-time flow management, automated insurance pre-authorization, and a remote therapeutic monitoring revenue stream that most Bahrain practices have not yet built.",
-    "cities": ["Manama", "Riffa", "Muharraq", "Hamad Town", "Isa Town", "Sitra"]
+    "cities": [
+      "Manama",
+      "Riffa",
+      "Muharraq",
+      "Hamad Town",
+      "Isa Town",
+      "Sitra"
+    ]
   },
   "stats": [
-    { "value": "600+", "label": "Licensed Private Healthcare Facilities" },
-    { "value": "~55%", "label": "Expat Share of Bahrain's Population" },
-    { "value": "$144K", "label": "Annual Remote Monitoring Revenue per 100 Patients" }
+    {
+      "value": "600+",
+      "label": "Licensed Private Healthcare Facilities"
+    },
+    {
+      "value": "~55%",
+      "label": "Expat Share of Bahrain's Population"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual Remote Monitoring Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

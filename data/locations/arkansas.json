@@ -4,18 +4,33 @@
   "abbr": "AR",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Arkansas Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Arkansas Clinics | Patient Flow",
     "description": "Clinic operations platform for Arkansas healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Arkansas Healthcare",
     "subhead": "Arkansas practices serve some of the highest rates of chronic disease in the nation across a largely rural landscape — where physician shortages are acute and every administrative hour diverted from patient care carries a real cost. clinIQ helps Arkansas clinics run tighter operations, from digital check-in that cuts intake time by more than half to RTM billing that generates new revenue from existing patient populations without adding staff or devices.",
-    "cities": ["Little Rock", "Fort Smith", "Fayetteville", "Springdale", "Jonesboro"]
+    "cities": [
+      "Little Rock",
+      "Fort Smith",
+      "Fayetteville",
+      "Springdale",
+      "Jonesboro"
+    ]
   },
   "stats": [
-    { "value": "~5,500", "label": "Active Physician Practices" },
-    { "value": "45%+", "label": "of Counties with Primary Care HPSA" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "~5,500",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "45%+",
+      "label": "of Counties with Primary Care HPSA"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

@@ -4,18 +4,33 @@
   "abbr": "ID",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Idaho Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Idaho Clinics | Patient Flow",
     "description": "Clinic operations platform for Idaho healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Idaho Healthcare",
     "subhead": "Idaho is one of the fastest-growing states in the country yet has one of the lowest physician-per-capita ratios in the West — a combination that puts intense pressure on every Boise orthopedic group, Twin Falls primary care clinic, and rural practice from Coeur d'Alene to Pocatello. clinIQ gives Idaho clinics the operational tools to handle more patients with the staff they have, automate prior authorization, and unlock RTM revenue their current EHR workflow cannot capture.",
-    "cities": ["Boise", "Meridian", "Nampa", "Idaho Falls", "Pocatello"]
+    "cities": [
+      "Boise",
+      "Meridian",
+      "Nampa",
+      "Idaho Falls",
+      "Pocatello"
+    ]
   },
   "stats": [
-    { "value": "4,200+", "label": "Licensed Physician Practices" },
-    { "value": "58%", "label": "Counties with Primary Care HPSA Designation" },
-    { "value": "$144K+", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "4,200+",
+      "label": "Licensed Physician Practices"
+    },
+    {
+      "value": "58%",
+      "label": "Counties with Primary Care HPSA Designation"
+    },
+    {
+      "value": "$144K+",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

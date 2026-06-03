@@ -4,18 +4,34 @@
   "abbr": "LB",
   "region": "Middle East",
   "meta": {
-    "title": "clinIQ for Lebanon Clinics | Patient Flow & Remote Monitoring Software",
+    "title": "clinIQ for Lebanon Clinics | Patient Flow",
     "description": "Clinic operations platform for Lebanon healthcare providers. Reduce wait times, automate pre-authorization, capture remote monitoring revenue. Dollar-denominated, works with any EMR."
   },
   "hero": {
     "h1": "clinIQ for Lebanon Healthcare",
     "subhead": "Lebanon's private healthcare sector has not collapsed — it has adapted, dollarized, and in many ways emerged leaner and more operationally disciplined than before the financial crisis. clinIQ is built for exactly this environment: a low-overhead operations platform that runs on top of any existing EMR, costs less than a part-time administrator, and generates measurable revenue from remote monitoring without requiring capital investment in devices or infrastructure.",
-    "cities": ["Beirut", "Tripoli", "Sidon", "Tyre", "Jounieh", "Zahle"]
+    "cities": [
+      "Beirut",
+      "Tripoli",
+      "Sidon",
+      "Tyre",
+      "Jounieh",
+      "Zahle"
+    ]
   },
   "stats": [
-    { "value": "170+", "label": "Private Hospitals Still Operating" },
-    { "value": "~80%", "label": "Private Sector Share of Hospital Beds" },
-    { "value": "$144K", "label": "Annual Remote Monitoring Revenue per 100 Patients" }
+    {
+      "value": "170+",
+      "label": "Private Hospitals Still Operating"
+    },
+    {
+      "value": "~80%",
+      "label": "Private Sector Share of Hospital Beds"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual Remote Monitoring Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

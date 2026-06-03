@@ -5,9 +5,15 @@
   "specialty": "ophthalmology",
   "wordCount": 1900,
   "meta": {
-    "title": "Ophthalmology Diagnostic Testing Workflow: OCT, VF, Biometry | clinIQ",
+    "title": "Ophthalmology Diagnostic Testing Workflow: OCT,",
     "description": "How high-volume ophthalmology practices coordinate OCT, visual fields, fundus photography, fluorescein angiography, and biometry without bottlenecks.",
-    "keywords": ["ophthalmology diagnostic testing workflow", "OCT scheduling ophthalmology", "visual field testing coordination", "biometry IOL scheduling", "ophthalmology pre-testing protocol"]
+    "keywords": [
+      "ophthalmology diagnostic testing workflow",
+      "OCT scheduling ophthalmology",
+      "visual field testing coordination",
+      "biometry IOL scheduling",
+      "ophthalmology pre-testing protocol"
+    ]
   },
   "publishDate": "2026-03-10",
   "updatedDate": "2026-03-10",
@@ -54,8 +60,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Ophthalmology Patient Flow: High-Volume Efficiency", "href": "/blog/ophthalmology-patient-flow-high-volume" },
-    { "title": "Ophthalmology Prior Auth: Cataract Surgery and Injections", "href": "/blog/ophthalmology-prior-auth-cataract-injections" }
+    {
+      "title": "Ophthalmology Patient Flow: High-Volume Efficiency",
+      "href": "/blog/ophthalmology-patient-flow-high-volume"
+    },
+    {
+      "title": "Ophthalmology Prior Auth: Cataract Surgery and Injections",
+      "href": "/blog/ophthalmology-prior-auth-cataract-injections"
+    }
   ],
   "pillarLink": {
     "title": "Ophthalmology Practice Software",
@@ -65,6 +77,9 @@
   "cta": {
     "headline": "Eliminate diagnostic testing bottlenecks",
     "subhead": "See how clinIQ's protocol-driven testing coordination keeps exam lanes moving in a 15-minute demo.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

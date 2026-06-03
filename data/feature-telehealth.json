@@ -5,29 +5,76 @@
   "wordCount": 3400,
   "publishDate": "2025-05-21",
   "meta": {
-    "title": "HIPAA Compliant Telehealth Software with Native Video Visits",
+    "title": "HIPAA Compliant Telehealth Software with Native",
     "description": "Telehealth software system that's HIPAA compliant with integrated telehealth features, video visits, and one-tap patient join via app.",
-    "keywords": ["telehealth software", "HIPAA compliant telehealth software", "virtual care platform", "video visit software", "telehealth platform", "healthcare video conferencing", "telehealth integration", "virtual clinic visits", "secure video conferencing healthcare", "native video visits"]
+    "keywords": [
+      "telehealth software",
+      "HIPAA compliant telehealth software",
+      "virtual care platform",
+      "video visit software",
+      "telehealth platform",
+      "healthcare video conferencing",
+      "telehealth integration",
+      "virtual clinic visits",
+      "secure video conferencing healthcare",
+      "native video visits"
+    ]
   },
   "hero": {
     "h1": "HIPAA Compliant Telehealth Software with Native Video Visits",
     "subhead": "Native HD video visits integrated directly into scheduling, patient flow, and documentation. Patients join from the clinIQ app with one tap. Providers see virtual visits in the same queue as in-person visits. Telehealth software that requires no third-party apps, no separate logins, no friction.",
     "stats": [
-      { "value": "Native", "label": "HD video built in" },
-      { "value": "One tap", "label": "patient join from app" },
-      { "value": "Integrated", "label": "with scheduling and flow" }
+      {
+        "value": "Native",
+        "label": "HD video built in"
+      },
+      {
+        "value": "One tap",
+        "label": "patient join from app"
+      },
+      {
+        "value": "Integrated",
+        "label": "with scheduling and flow"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "telehealth-value", "title": "Why Integrated Telehealth Matters" },
-    { "id": "native-video", "title": "Native Video Technology" },
-    { "id": "patient-experience", "title": "Patient Experience" },
-    { "id": "provider-workflow", "title": "Provider Workflow" },
-    { "id": "scheduling-integration", "title": "Scheduling Integration" },
-    { "id": "documentation", "title": "Documentation and Billing" },
-    { "id": "hybrid-care", "title": "Hybrid Care Models" },
-    { "id": "implementation", "title": "Implementation" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "telehealth-value",
+      "title": "Why Integrated Telehealth Matters"
+    },
+    {
+      "id": "native-video",
+      "title": "Native Video Technology"
+    },
+    {
+      "id": "patient-experience",
+      "title": "Patient Experience"
+    },
+    {
+      "id": "provider-workflow",
+      "title": "Provider Workflow"
+    },
+    {
+      "id": "scheduling-integration",
+      "title": "Scheduling Integration"
+    },
+    {
+      "id": "documentation",
+      "title": "Documentation and Billing"
+    },
+    {
+      "id": "hybrid-care",
+      "title": "Hybrid Care Models"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -108,14 +155,29 @@
   "cta": {
     "headline": "See Integrated Telehealth Working",
     "subhead": "Fifteen-minute demo showing native video visits, patient app experience, provider workflow, and scheduling integration. See how telehealth becomes seamless rather than separate.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "See Telehealth Features", "href": "/resources/telehealth-demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "See Telehealth Features",
+      "href": "/resources/telehealth-demo"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "Native", "label": "HD video built in" },
-      { "value": "One tap", "label": "patient join" },
-      { "value": "Integrated", "label": "scheduling and documentation" }
+      {
+        "value": "Native",
+        "label": "HD video built in"
+      },
+      {
+        "value": "One tap",
+        "label": "patient join"
+      },
+      {
+        "value": "Integrated",
+        "label": "scheduling and documentation"
+      }
     ],
     "testimonial": {
       "quote": "We tried three different telehealth platforms before clinIQ. Each one was its own system with its own scheduling and its own headaches. Now video visits are just appointments. They show up in the same schedule, the same patient queue, the same documentation. Our staff stopped dreading telehealth because it stopped being extra work.",

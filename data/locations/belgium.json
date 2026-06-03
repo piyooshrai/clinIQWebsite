@@ -4,18 +4,33 @@
   "abbr": "BE",
   "region": "Europe",
   "meta": {
-    "title": "clinIQ for Belgium Private Clinics | Patient Flow & Remote Monitoring",
+    "title": "clinIQ for Belgium Private Clinics | Patient Flow",
     "description": "Clinic operations platform for Belgian private healthcare providers. Streamline check-in, patient flow, and remote therapeutic monitoring. Works alongside INAMI/RIZIV billing systems."
   },
   "hero": {
     "h1": "clinIQ for Belgium Healthcare",
     "subhead": "Belgium's médecins conventionnés and independent specialists serve a population with near-universal health insurance coverage — but managing INAMI/RIZIV billing, mutualité pre-authorisations, and bilingual patient communications creates administrative complexity unique to Belgian practice. clinIQ integrates with your existing electronic patient record to automate check-in, manage patient flow in real time, and generate remote therapeutic monitoring revenue.",
-    "cities": ["Brussels", "Antwerp", "Ghent", "Bruges", "Liège"]
+    "cities": [
+      "Brussels",
+      "Antwerp",
+      "Ghent",
+      "Bruges",
+      "Liège"
+    ]
   },
   "stats": [
-    { "value": "11.6M", "label": "Belgians Covered by Compulsory Health Insurance" },
-    { "value": "55K+", "label": "Recognised Medical Practitioners in Belgium" },
-    { "value": "€144K", "label": "Annual Remote Monitoring Revenue per 100 Patients" }
+    {
+      "value": "11.6M",
+      "label": "Belgians Covered by Compulsory Health Insurance"
+    },
+    {
+      "value": "55K+",
+      "label": "Recognised Medical Practitioners in Belgium"
+    },
+    {
+      "value": "€144K",
+      "label": "Annual Remote Monitoring Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

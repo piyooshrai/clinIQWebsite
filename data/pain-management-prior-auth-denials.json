@@ -5,9 +5,15 @@
   "specialty": "pain-management",
   "wordCount": 1900,
   "meta": {
-    "title": "Pain Management Prior Auth Denials: Prevention Guide | clinIQ",
+    "title": "Pain Management Prior Auth Denials: Prevention",
     "description": "Top 5 reasons pain management procedures get denied and how to prevent them. ESI, RFA, spinal cord stimulator authorization strategies.",
-    "keywords": ["pain management prior authorization", "ESI denial prevention", "RFA authorization", "spinal cord stimulator prior auth", "pain procedure authorization"]
+    "keywords": [
+      "pain management prior authorization",
+      "ESI denial prevention",
+      "RFA authorization",
+      "spinal cord stimulator prior auth",
+      "pain procedure authorization"
+    ]
   },
   "publishDate": "2025-03-01",
   "updatedDate": "2025-03-01",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Stop preventable denials",
     "subhead": "See how clinIQ tracks conservative care and generates LOMNs in 5 minutes.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

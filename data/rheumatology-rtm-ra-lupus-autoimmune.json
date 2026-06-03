@@ -5,7 +5,7 @@
   "specialty": "rheumatology",
   "wordCount": 1900,
   "meta": {
-    "title": "Rheumatology RTM: RA, Lupus, and Autoimmune Monitoring | clinIQ",
+    "title": "Rheumatology RTM: RA, Lupus, and Autoimmune",
     "description": "Learn how rheumatology practices use RTM CPT codes 98975-98981 to monitor RA, lupus, and autoimmune disease activity between visits and generate new revenue.",
     "keywords": [
       "rheumatology remote therapeutic monitoring billing",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Rheumatology Prior Auth: Biologics Approval", "href": "/blog/rheumatology-prior-auth-biologics" },
-    { "title": "Rheumatology Practice Patient Flow", "href": "/blog/rheumatology-patient-flow" }
+    {
+      "title": "Rheumatology Prior Auth: Biologics Approval",
+      "href": "/blog/rheumatology-prior-auth-biologics"
+    },
+    {
+      "title": "Rheumatology Practice Patient Flow",
+      "href": "/blog/rheumatology-patient-flow"
+    }
   ],
   "pillarLink": {
     "title": "Rheumatology Practice Software",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Start Billing RTM for Your Rheumatology Patients Today",
     "subhead": "clinIQ helps rheumatology practices implement RTM in weeks, not months — with built-in questionnaires, billing automation, and clinical dashboards.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

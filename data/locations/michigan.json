@@ -4,18 +4,33 @@
   "abbr": "MI",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Michigan Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Michigan Clinics | Patient Flow",
     "description": "Clinic operations platform for Michigan healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Michigan Healthcare",
     "subhead": "Michigan's healthcare market spans one of the most economically diverse patient populations in the Midwest — from Detroit's dense urban health system landscape to the rural Upper Peninsula, where a physician shortage of historic proportions defines access for hundreds of thousands of residents. clinIQ helps Michigan clinics from Ann Arbor to Marquette cut check-in time, manage lobby flow in real time, automate Medicaid prior authorization, and capture RTM revenue from the state's large physical therapy and chronic disease outpatient market.",
-    "cities": ["Detroit", "Grand Rapids", "Warren", "Ann Arbor", "Lansing"]
+    "cities": [
+      "Detroit",
+      "Grand Rapids",
+      "Warren",
+      "Ann Arbor",
+      "Lansing"
+    ]
   },
   "stats": [
-    { "value": "24,000+", "label": "Licensed Physician Practices" },
-    { "value": "56%", "label": "Counties with Primary Care HPSA Designation" },
-    { "value": "$144K+", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "24,000+",
+      "label": "Licensed Physician Practices"
+    },
+    {
+      "value": "56%",
+      "label": "Counties with Primary Care HPSA Designation"
+    },
+    {
+      "value": "$144K+",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

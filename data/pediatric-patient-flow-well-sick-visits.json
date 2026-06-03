@@ -5,7 +5,7 @@
   "specialty": "pediatrics",
   "wordCount": 1900,
   "meta": {
-    "title": "Pediatric Practice Patient Flow: Well Visits and Sick Visits | clinIQ",
+    "title": "Pediatric Practice Patient Flow: Well Visits and",
     "description": "How pediatric practices manage patient flow across well-child visits by age, same-day sick access, immunization room management, and parent-child exam sequencing for high throughput.",
     "keywords": [
       "pediatric patient flow well child sick visit scheduling",
@@ -60,8 +60,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Pediatric Vaccine Scheduling and Tracking", "href": "/blog/pediatric-vaccine-scheduling-tracking" },
-    { "title": "Pediatric Same-Day Access Strategies", "href": "/blog/pediatric-same-day-access" }
+    {
+      "title": "Pediatric Vaccine Scheduling and Tracking",
+      "href": "/blog/pediatric-vaccine-scheduling-tracking"
+    },
+    {
+      "title": "Pediatric Same-Day Access Strategies",
+      "href": "/blog/pediatric-same-day-access"
+    }
   ],
   "pillarLink": {
     "title": "Pediatrics Practice Software",
@@ -71,6 +77,9 @@
   "cta": {
     "headline": "See 30+ Pediatric Patients Per Day Without the Wait Times",
     "subhead": "clinIQ helps pediatric practices configure age-based well visit templates, sick visit carve-out slots, and immunization room workflows that deliver high throughput without sacrificing care quality.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

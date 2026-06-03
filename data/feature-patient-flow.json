@@ -5,7 +5,7 @@
   "wordCount": 4200,
   "publishDate": "2025-02-05",
   "meta": {
-    "title": "Healthcare Patient Flow Management Software System - clinIQ",
+    "title": "Healthcare Patient Flow Management Software System",
     "description": "clinIQ's patient flow management software system shows where every patient is in real time — rooms, queues, wait times. Reduce patient wait times 40% in the first month.",
     "keywords": [
       "patient flow management software",
@@ -25,21 +25,57 @@
     "h1": "Healthcare Patient Flow Management Software",
     "subhead": "See where every patient is at every moment, from arrival through checkout. Know which rooms are ready without walking back to check. Identify bottlenecks before they cascade through your entire day. The only clinic patient flow software that gives your team real-time visibility into every room, every queue, and every wait — so you can reduce patient wait times by 40% within the first month.",
     "stats": [
-      { "value": "40%", "label": "wait time reduction" },
-      { "value": "Real-time", "label": "room status visibility" },
-      { "value": "Zero", "label": "lost patients or forgotten rooms" }
+      {
+        "value": "40%",
+        "label": "wait time reduction"
+      },
+      {
+        "value": "Real-time",
+        "label": "room status visibility"
+      },
+      {
+        "value": "Zero",
+        "label": "lost patients or forgotten rooms"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "flow-problem", "title": "The Patient Flow Problem" },
-    { "id": "visibility-system", "title": "Real-Time Patient Tracking" },
-    { "id": "room-status", "title": "Exam Room Status Tracking" },
-    { "id": "patient-queues", "title": "Patient Queue Management" },
-    { "id": "wait-time-tracking", "title": "Wait Time Tracking" },
-    { "id": "bottleneck-detection", "title": "Clinic Bottleneck Detection" },
-    { "id": "staff-workflow", "title": "Healthcare Operations Software Integration" },
-    { "id": "implementation-roi", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "flow-problem",
+      "title": "The Patient Flow Problem"
+    },
+    {
+      "id": "visibility-system",
+      "title": "Real-Time Patient Tracking"
+    },
+    {
+      "id": "room-status",
+      "title": "Exam Room Status Tracking"
+    },
+    {
+      "id": "patient-queues",
+      "title": "Patient Queue Management"
+    },
+    {
+      "id": "wait-time-tracking",
+      "title": "Wait Time Tracking"
+    },
+    {
+      "id": "bottleneck-detection",
+      "title": "Clinic Bottleneck Detection"
+    },
+    {
+      "id": "staff-workflow",
+      "title": "Healthcare Operations Software Integration"
+    },
+    {
+      "id": "implementation-roi",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -120,14 +156,29 @@
   "cta": {
     "headline": "See How Much Staff Time and Revenue You Recover",
     "subhead": "See how much staff time and revenue your practice recovers when you reduce patient wait times by 40%. Live demo, configured for your specialty and EHR — no generic sales deck.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Your ROI", "href": "/resources/roi-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Your ROI",
+      "href": "/resources/roi-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "40%", "label": "wait time reduction" },
-      { "value": "Zero", "label": "forgotten patients" },
-      { "value": "22 pts", "label": "satisfaction score increase" }
+      {
+        "value": "40%",
+        "label": "wait time reduction"
+      },
+      {
+        "value": "Zero",
+        "label": "forgotten patients"
+      },
+      {
+        "value": "22 pts",
+        "label": "satisfaction score increase"
+      }
     ],
     "testimonial": {
       "quote": "We went from controlled chaos to actually knowing what is happening at every moment. Wait times dropped from twenty-eight minutes to fourteen minutes in the first month. Providers stopped asking where their next patient is because they can see for themselves. Staff stopped walking the halls checking rooms because the status is right there on the screen.",

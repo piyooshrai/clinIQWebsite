@@ -5,27 +5,64 @@
   "wordCount": 2400,
   "publishDate": "2025-06-26",
   "meta": {
-    "title": "OB-GYN Practice Software | Scheduling, Patient Flow & Prenatal Coordination | clinIQ",
+    "title": "OB-GYN Software | Scheduling, Patient Flow",
     "description": "Complete guide to OB-GYN practice operations. Obstetric and gynecologic scheduling. Prenatal visit workflow. L&D coordination. Patient communication through mobile app.",
-    "keywords": ["OB-GYN software", "obstetrics practice management", "gynecology scheduling", "prenatal care software", "OB-GYN patient flow", "OB-GYN EHR integration"]
+    "keywords": [
+      "OB-GYN software",
+      "obstetrics practice management",
+      "gynecology scheduling",
+      "prenatal care software",
+      "OB-GYN patient flow",
+      "OB-GYN EHR integration"
+    ]
   },
   "hero": {
     "h1": "OB-GYN Practice Software",
     "subhead": "Obstetric and gynecologic scheduling optimization. Prenatal visit workflow with milestone tracking. L&D coordination and communication. Patient engagement through the clinIQ app for prenatal and postpartum care.",
     "stats": [
-      { "value": "OB/GYN", "label": "scheduling" },
-      { "value": "Prenatal", "label": "milestone tracking" },
-      { "value": "Patient", "label": "engagement" }
+      {
+        "value": "OB/GYN",
+        "label": "scheduling"
+      },
+      {
+        "value": "Prenatal",
+        "label": "milestone tracking"
+      },
+      {
+        "value": "Patient",
+        "label": "engagement"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "obgyn-operations", "title": "The OB-GYN Operations Model" },
-    { "id": "scheduling", "title": "Obstetric and Gynecologic Scheduling" },
-    { "id": "prenatal-workflow", "title": "Prenatal Visit Workflow" },
-    { "id": "patient-flow", "title": "Patient Flow" },
-    { "id": "patient-engagement", "title": "Patient Engagement" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "obgyn-operations",
+      "title": "The OB-GYN Operations Model"
+    },
+    {
+      "id": "scheduling",
+      "title": "Obstetric and Gynecologic Scheduling"
+    },
+    {
+      "id": "prenatal-workflow",
+      "title": "Prenatal Visit Workflow"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Patient Flow"
+    },
+    {
+      "id": "patient-engagement",
+      "title": "Patient Engagement"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -84,14 +121,29 @@
   "cta": {
     "headline": "See OB-GYN Operations Optimized",
     "subhead": "Fifteen-minute demo showing prenatal workflow, gynecologic scheduling, and patient engagement through pregnancy.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Learn More", "href": "/resources/patient-engagement" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Learn More",
+      "href": "/resources/patient-engagement"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "OB/GYN", "label": "scheduling" },
-      { "value": "Prenatal", "label": "workflow" },
-      { "value": "Patient", "label": "engagement" }
+      {
+        "value": "OB/GYN",
+        "label": "scheduling"
+      },
+      {
+        "value": "Prenatal",
+        "label": "workflow"
+      },
+      {
+        "value": "Patient",
+        "label": "engagement"
+      }
     ],
     "testimonial": {
       "quote": "Prenatal visit scheduling follows the recommended pattern automatically. Patient messaging through the app cut our phone volume significantly. Postpartum monitoring through the app catches concerns early. The workflow fits how OB care should work.",
@@ -123,7 +175,19 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "OB-GYN",
-    "relevantConditions": ["Pregnancy", "Fibroids", "Endometriosis", "Menopause", "Contraception"],
-    "availableProcedures": ["Prenatal Care", "Delivery", "Hysterectomy", "Colposcopy", "IUD Insertion"]
+    "relevantConditions": [
+      "Pregnancy",
+      "Fibroids",
+      "Endometriosis",
+      "Menopause",
+      "Contraception"
+    ],
+    "availableProcedures": [
+      "Prenatal Care",
+      "Delivery",
+      "Hysterectomy",
+      "Colposcopy",
+      "IUD Insertion"
+    ]
   }
 }

@@ -5,9 +5,15 @@
   "specialty": "sports-medicine",
   "wordCount": 1900,
   "meta": {
-    "title": "Sports Medicine Practice Patient Flow: From Injury to Clearance | clinIQ",
+    "title": "Sports Medicine Practice Patient Flow: From Injury",
     "description": "How sports medicine practices manage patient flow across injury evaluation, imaging results, injections, PT coordination, concussion management, and return-to-sport clearance.",
-    "keywords": ["sports medicine patient flow", "sports medicine scheduling optimization", "return to sport clearance workflow", "sports medicine concussion management", "sports medicine practice operations"]
+    "keywords": [
+      "sports medicine patient flow",
+      "sports medicine scheduling optimization",
+      "return to sport clearance workflow",
+      "sports medicine concussion management",
+      "sports medicine practice operations"
+    ]
   },
   "publishDate": "2026-03-09",
   "updatedDate": "2026-03-09",
@@ -54,8 +60,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Sports Medicine RTM: Injury Recovery Monitoring", "href": "/blog/sports-medicine-rtm-injury-recovery" },
-    { "title": "Sports Medicine Prior Auth: Imaging and Procedures", "href": "/blog/sports-medicine-prior-auth-imaging-procedures" }
+    {
+      "title": "Sports Medicine RTM: Injury Recovery Monitoring",
+      "href": "/blog/sports-medicine-rtm-injury-recovery"
+    },
+    {
+      "title": "Sports Medicine Prior Auth: Imaging and Procedures",
+      "href": "/blog/sports-medicine-prior-auth-imaging-procedures"
+    }
   ],
   "pillarLink": {
     "title": "Sports Medicine Practice Software",
@@ -65,6 +77,9 @@
   "cta": {
     "headline": "Optimize your sports medicine patient flow",
     "subhead": "See how clinIQ coordinates injection scheduling, PT co-management, and return-to-sport clearance in a 15-minute demo.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

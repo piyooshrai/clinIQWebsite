@@ -3,7 +3,7 @@
     "slug": "allergy-immunology",
     "name": "Allergy & Immunology",
     "meta": {
-      "title": "Allergy Practice Software | Immunotherapy Tracking & Asthma RTM | clinIQ",
+      "title": "Allergy Practice Software | Immunotherapy Tracking & Asthma RTM",
       "description": "$9,000/month in asthma RTM. Immunotherapy dose tracking. Allergy testing flow. clinIQ for allergy practices."
     },
     "hero": {
@@ -125,7 +125,7 @@
     "slug": "endocrinology",
     "name": "Endocrinology",
     "meta": {
-      "title": "Endocrinology Practice Software | Diabetes RTM & CGM Integration | clinIQ",
+      "title": "Endocrinology Practice Software | Diabetes RTM & CGM Integration",
       "description": "$18,000/month in diabetes RTM. CGM data visibility. Insulin pump management. clinIQ for endocrinology practices."
     },
     "hero": {
@@ -253,7 +253,7 @@
     "slug": "ent",
     "name": "ENT / Otolaryngology",
     "meta": {
-      "title": "ENT Practice Software | Procedure Throughput & Audiology Coordination | clinIQ",
+      "title": "ENT Practice Software | Procedure Throughput & Audiology Coordination",
       "description": "3 more in-office procedures per day. Audiology-to-clinic coordination. $6,000/month in chronic ENT RTM. clinIQ for otolaryngology."
     },
     "hero": {
@@ -382,7 +382,7 @@
     "slug": "gastroenterology",
     "name": "Gastroenterology",
     "meta": {
-      "title": "Gastroenterology Software | Procedure Throughput & IBD RTM | clinIQ",
+      "title": "Gastroenterology Software | Procedure Throughput & IBD RTM",
       "description": "2 more colonoscopies per day. $9,600/month in IBD RTM. Prep compliance tracking. clinIQ for GI practices."
     },
     "hero": {
@@ -511,7 +511,7 @@
     "slug": "nephrology",
     "name": "Nephrology & Dialysis",
     "meta": {
-      "title": "Nephrology & Dialysis Software | CKD RTM & Chair Scheduling | clinIQ",
+      "title": "Nephrology & Dialysis Software | CKD RTM & Chair Scheduling",
       "description": "$15,000/month in CKD RTM. Dialysis chair utilization. Transplant workup tracking. clinIQ for nephrology practices."
     },
     "hero": {
@@ -639,7 +639,7 @@
     "slug": "neurology",
     "name": "Neurology",
     "meta": {
-      "title": "Neurology Practice Software | RTM for MS, Migraine & Epilepsy | clinIQ",
+      "title": "Neurology Practice Software | RTM for MS, Migraine & Epilepsy",
       "description": "$12,000/month in neuro RTM. EEG/EMG testing coordination. Infusion scheduling for MS biologics. clinIQ for neurology practices."
     },
     "hero": {
@@ -769,7 +769,7 @@
     "slug": "neurosurgery",
     "name": "Neurosurgery",
     "meta": {
-      "title": "Neurosurgery Software | Complex Case Coordination & Post-Op RTM | clinIQ",
+      "title": "Neurosurgery Software | Complex Case Coordination & Post-Op RTM",
       "description": "$400K/year in OR capacity recovered. Complex pre-op coordination. Post-craniotomy RTM. clinIQ for neurosurgery practices."
     },
     "hero": {
@@ -894,7 +894,7 @@
     "slug": "obgyn",
     "name": "OB/GYN",
     "meta": {
-      "title": "OB/GYN Practice Software | Prenatal RTM & Procedure Throughput | clinIQ",
+      "title": "OB/GYN Practice Software | Prenatal RTM & Procedure Throughput",
       "description": "$9,000/month in high-risk prenatal RTM. 2 more procedures per day. Real-time patient flow. clinIQ for OB/GYN practices."
     },
     "hero": {
@@ -1023,7 +1023,7 @@
     "slug": "oncology",
     "name": "Oncology",
     "meta": {
-      "title": "Oncology Practice Software | Infusion Optimization & Chemo RTM | clinIQ",
+      "title": "Oncology Practice Software | Infusion Optimization & Chemo RTM",
       "description": "20% higher infusion utilization. $12,000/month in symptom RTM. Zero drug waste from no-shows. clinIQ for oncology practices."
     },
     "hero": {
@@ -1152,7 +1152,7 @@
     "slug": "ophthalmology",
     "name": "Ophthalmology",
     "meta": {
-      "title": "Ophthalmology Practice Software | Testing Throughput & Injection RTM | clinIQ",
+      "title": "Ophthalmology Practice Software | Testing Throughput & Injection RTM",
       "description": "20% faster workup-to-provider flow. $8,000/month in AMD/glaucoma RTM. Injection scheduling visibility. clinIQ for ophthalmology."
     },
     "hero": {
@@ -1282,7 +1282,7 @@
     "slug": "oral-surgery",
     "name": "Oral Surgery",
     "meta": {
-      "title": "Oral Surgery Software | Procedure Throughput & Sedation Coordination | clinIQ",
+      "title": "Oral Surgery Software | Procedure Throughput & Sedation Coordination",
       "description": "4 more extractions per day. Sedation scheduling visibility. Implant case tracking. clinIQ for oral surgery."
     },
     "hero": {
@@ -1405,7 +1405,7 @@
     "slug": "pediatrics",
     "name": "Pediatrics",
     "meta": {
-      "title": "Pediatric Practice Software | Well-Child Efficiency & Same-Day Sick | clinIQ",
+      "title": "Pediatric Practice Software | Well-Child Efficiency & Same-Day Sick",
       "description": "15% more well-child visits per day. True same-day sick access. Zero missed developmental screenings. clinIQ for pediatric practices."
     },
     "hero": {
@@ -1534,7 +1534,7 @@
     "slug": "plastic-surgery",
     "name": "Plastic Surgery",
     "meta": {
-      "title": "Plastic Surgery Software | Cosmetic Efficiency & Reconstruction Coordination | clinIQ",
+      "title": "Plastic Surgery Software | Cosmetic Efficiency & Reconstruction Coordination",
       "description": "25% more cosmetic consults converting. Reconstruction pre-auth automation. Post-op RTM. clinIQ for plastic surgery."
     },
     "hero": {
@@ -1659,7 +1659,7 @@
     "slug": "podiatry",
     "name": "Podiatry",
     "meta": {
-      "title": "Podiatry Practice Software | High-Volume Procedures & Diabetic Foot RTM | clinIQ",
+      "title": "Podiatry Practice Software | High-Volume Procedures & Diabetic Foot RTM",
       "description": "4 more procedures per day. $7,200/month in diabetic foot RTM. Wound healing tracking. clinIQ for podiatry practices."
     },
     "hero": {
@@ -1787,7 +1787,7 @@
     "slug": "pulmonology",
     "name": "Pulmonology & Sleep Medicine",
     "meta": {
-      "title": "Pulmonology & Sleep Medicine Software | RTM for COPD & PAP Compliance | clinIQ",
+      "title": "Pulmonology & Sleep Medicine Software | RTM for COPD & PAP Compliance",
       "description": "$14,000/month in respiratory RTM. Sleep study coordination. PAP compliance tracking for reimbursement. clinIQ for pulmonology."
     },
     "hero": {
@@ -1915,7 +1915,7 @@
     "slug": "rheumatology",
     "name": "Rheumatology",
     "meta": {
-      "title": "Rheumatology Practice Software | Biologic RTM & DMARD Prior Auth | clinIQ",
+      "title": "Rheumatology Practice Software | Biologic RTM & DMARD Prior Auth",
       "description": "$11,000/month in RA/lupus RTM. Biologic infusion scheduling. Prior auth for DMARDs that doesn't require babysitting. clinIQ for rheumatology."
     },
     "hero": {
@@ -2044,7 +2044,7 @@
     "slug": "spine-surgery",
     "name": "Spine Surgery",
     "meta": {
-      "title": "Spine Surgery Software | Conservative Care Tracking & Surgical Pre-Auth | clinIQ",
+      "title": "Spine Surgery Software | Conservative Care Tracking & Surgical Pre-Auth",
       "description": "Document 6 weeks of conservative care automatically. LOMN templates for fusion and decompression. 8 minutes off OR turnover. clinIQ for spine surgery."
     },
     "hero": {
@@ -2173,7 +2173,7 @@
     "slug": "sports-medicine",
     "name": "Sports Medicine",
     "meta": {
-      "title": "Sports Medicine Software | Injury RTM & Concussion Protocols | clinIQ",
+      "title": "Sports Medicine Software | Injury RTM & Concussion Protocols",
       "description": "$8,000/month in injury RTM. Return-to-play tracking. 3 more injections per day. clinIQ for sports medicine."
     },
     "hero": {
@@ -2298,7 +2298,7 @@
     "slug": "vascular-surgery",
     "name": "Vascular Surgery",
     "meta": {
-      "title": "Vascular Surgery Software | Procedure Throughput & PAD RTM | clinIQ",
+      "title": "Vascular Surgery Software | Procedure Throughput & PAD RTM",
       "description": "3 more vein procedures per day. $8,000/month in PAD RTM. OR and office-based lab visibility. clinIQ for vascular surgery."
     },
     "hero": {
@@ -2424,7 +2424,7 @@
     "slug": "wound-care",
     "name": "Wound Care",
     "meta": {
-      "title": "Wound Care Center Software | Healing Tracking & HBO Coordination | clinIQ",
+      "title": "Wound Care Center Software | Healing Tracking & HBO Coordination",
       "description": "$12,000/month in wound RTM. Healing rate visibility. HBO scheduling. Debridement throughput. clinIQ for wound care centers."
     },
     "hero": {

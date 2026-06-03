@@ -4,18 +4,33 @@
   "abbr": "NC",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for North Carolina Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for North Carolina Clinics | Patient Flow",
     "description": "Clinic operations platform for North Carolina healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for North Carolina Healthcare",
     "subhead": "North Carolina's healthcare market is growing rapidly alongside the state's booming population, creating sustained pressure on Charlotte, Raleigh-Durham, and Triad-area clinics while rural western and eastern counties struggle with persistent provider shortages. clinIQ helps North Carolina practices cut check-in time, automate prior auth, and add RTM revenue to their existing clinical workflow.",
-    "cities": ["Charlotte", "Raleigh", "Greensboro", "Durham", "Winston-Salem"]
+    "cities": [
+      "Charlotte",
+      "Raleigh",
+      "Greensboro",
+      "Durham",
+      "Winston-Salem"
+    ]
   },
   "stats": [
-    { "value": "16,000+", "label": "Active Physician Practices" },
-    { "value": "55%", "label": "of Rural Counties with Provider Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "16,000+",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "55%",
+      "label": "of Rural Counties with Provider Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

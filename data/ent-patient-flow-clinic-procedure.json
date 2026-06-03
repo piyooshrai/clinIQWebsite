@@ -5,7 +5,7 @@
   "specialty": "ent",
   "wordCount": 1900,
   "meta": {
-    "title": "ENT Practice Patient Flow: Clinic and Procedure Balance | clinIQ",
+    "title": "ENT Practice Patient Flow: Clinic and Procedure",
     "description": "Optimize ENT clinic flow — multi-service-line scheduling across otology, rhinology, and laryngology, in-office procedure rooms, audiology integration, and allergy shot coordination.",
     "keywords": [
       "ENT practice patient flow clinic procedure balance",
@@ -60,8 +60,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "ENT Prior Auth: Sinus Surgery and Sleep Procedures", "href": "/blog/ent-prior-auth-sinus-sleep-procedures" },
-    { "title": "ENT Audiology Integration and Scheduling", "href": "/blog/ent-audiology-integration-scheduling" }
+    {
+      "title": "ENT Prior Auth: Sinus Surgery and Sleep Procedures",
+      "href": "/blog/ent-prior-auth-sinus-sleep-procedures"
+    },
+    {
+      "title": "ENT Audiology Integration and Scheduling",
+      "href": "/blog/ent-audiology-integration-scheduling"
+    }
   ],
   "pillarLink": {
     "title": "ENT Practice Software",
@@ -71,6 +77,9 @@
   "cta": {
     "headline": "Build an ENT Practice That Runs Every Service Line Smoothly",
     "subhead": "clinIQ gives otolaryngology teams the scheduling tools to coordinate audiology, procedure rooms, allergy services, and multi-service-line clinics without operational chaos.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

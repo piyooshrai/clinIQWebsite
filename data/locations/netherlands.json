@@ -4,18 +4,33 @@
   "abbr": "NL",
   "region": "Europe",
   "meta": {
-    "title": "clinIQ for Netherlands Private Clinics | Patient Flow & Remote Monitoring",
+    "title": "clinIQ for Netherlands | Patient Flow",
     "description": "Clinic operations platform for Dutch private healthcare providers. Streamline check-in, patient flow, and remote therapeutic monitoring. Works with your existing ZIS or EPD system."
   },
   "hero": {
     "h1": "clinIQ for Netherlands Healthcare",
     "subhead": "The Netherlands blends universal health insurance with a competitive private provider market — and its managed-care model places extraordinary demands on clinic efficiency and data quality. Zelfstandige behandelcentra, huisartsenpraktijken, and specialist poliklinieken across Amsterdam, Rotterdam, and Utrecht are under growing pressure to reduce waiting times and demonstrate outcome value. clinIQ integrates with your existing system to automate check-in, manage patient flow, and generate remote monitoring revenue.",
-    "cities": ["Amsterdam", "Rotterdam", "The Hague", "Utrecht", "Eindhoven"]
+    "cities": [
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven"
+    ]
   },
   "stats": [
-    { "value": "17.9M", "label": "People Covered by Zorgverzekeringswet (ZVW) Basic Insurance" },
-    { "value": "1,300+", "label": "Registered Zelfstandige Behandelcentra (ZBCs) in the Netherlands" },
-    { "value": "€144K", "label": "Annual Remote Monitoring Revenue per 100 Patients" }
+    {
+      "value": "17.9M",
+      "label": "People Covered by Zorgverzekeringswet (ZVW) Basic Insurance"
+    },
+    {
+      "value": "1,300+",
+      "label": "Registered Zelfstandige Behandelcentra (ZBCs) in the Netherlands"
+    },
+    {
+      "value": "€144K",
+      "label": "Annual Remote Monitoring Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

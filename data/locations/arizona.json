@@ -4,18 +4,33 @@
   "abbr": "AZ",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Arizona Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Arizona Clinics | Patient Flow",
     "description": "Clinic operations platform for Arizona healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Arizona Healthcare",
     "subhead": "Arizona's booming population — one of the fastest-growing in the nation — is creating surging demand for clinic services while simultaneously stretching administrative capacity thin. From Phoenix and Scottsdale specialty groups to Tucson and Flagstaff community practices, clinIQ gives Arizona healthcare providers the tools to handle more patients with the same team: digital check-in, real-time lobby management, automated prior authorization, and RTM billing revenue that requires no new staff or devices.",
-    "cities": ["Phoenix", "Tucson", "Scottsdale", "Mesa", "Flagstaff"]
+    "cities": [
+      "Phoenix",
+      "Tucson",
+      "Scottsdale",
+      "Mesa",
+      "Flagstaff"
+    ]
   },
   "stats": [
-    { "value": "~18,000", "label": "Active Physician Practices" },
-    { "value": "35%+", "label": "of Counties with Primary Care HPSA" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "~18,000",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "35%+",
+      "label": "of Counties with Primary Care HPSA"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

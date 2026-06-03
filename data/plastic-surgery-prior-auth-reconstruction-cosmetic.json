@@ -5,7 +5,7 @@
   "specialty": "plastic-surgery",
   "wordCount": 1900,
   "meta": {
-    "title": "Plastic Surgery Prior Auth: Reconstruction vs Cosmetic | clinIQ",
+    "title": "Plastic Surgery Prior Auth: Reconstruction vs",
     "description": "Complete guide to plastic surgery prior authorization for post-mastectomy reconstruction, blepharoplasty, reduction mammaplasty, and rhinoplasty with payer-specific criteria.",
     "keywords": [
       "plastic surgery prior authorization post-mastectomy reconstruction",
@@ -60,8 +60,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Plastic Surgery Consultation Workflow", "href": "/blog/plastic-surgery-consultation-workflow" },
-    { "title": "Plastic Surgery Post-Op Monitoring", "href": "/blog/plastic-surgery-post-op-monitoring" }
+    {
+      "title": "Plastic Surgery Consultation Workflow",
+      "href": "/blog/plastic-surgery-consultation-workflow"
+    },
+    {
+      "title": "Plastic Surgery Post-Op Monitoring",
+      "href": "/blog/plastic-surgery-post-op-monitoring"
+    }
   ],
   "pillarLink": {
     "title": "Plastic Surgery Practice Software",
@@ -71,6 +77,9 @@
   "cta": {
     "headline": "Get Reconstructive Cases Approved on First Submission",
     "subhead": "clinIQ gives plastic surgery practices payer-specific prior auth templates and real-time tracking to reduce denials and accelerate approvals.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

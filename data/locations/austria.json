@@ -4,18 +4,33 @@
   "abbr": "AT",
   "region": "Europe",
   "meta": {
-    "title": "clinIQ for Austria Private Clinics | Patient Flow & Remote Monitoring",
+    "title": "clinIQ for Austria Private Clinics | Patient Flow",
     "description": "Clinic operations platform for Austrian Wahlarzt and private clinic providers. Streamline check-in, patient flow, and remote therapeutic monitoring alongside your existing system."
   },
   "hero": {
     "h1": "clinIQ for Austria Healthcare",
     "subhead": "Austria's dual system of Kassenärzte and Wahlärzte creates a growing premium private practice market — particularly in Vienna, Graz, and Salzburg, where thousands of Wahlärzte serve patients seeking faster access and premium experiences. Managing ÖGK billing, private fee invoicing, and rising patient expectations simultaneously puts clinic operations under strain. clinIQ integrates with your existing Ordinationssoftware to automate check-in, manage patient flow, and grow remote monitoring revenue.",
-    "cities": ["Vienna", "Graz", "Salzburg", "Linz", "Innsbruck"]
+    "cities": [
+      "Vienna",
+      "Graz",
+      "Salzburg",
+      "Linz",
+      "Innsbruck"
+    ]
   },
   "stats": [
-    { "value": "9M", "label": "Residents Covered by ÖGK and Social Insurance Funds" },
-    { "value": "8,000+", "label": "Registered Wahlärzte (Private Non-Contracted Physicians) in Austria" },
-    { "value": "€144K", "label": "Annual Remote Monitoring Revenue per 100 Patients" }
+    {
+      "value": "9M",
+      "label": "Residents Covered by ÖGK and Social Insurance Funds"
+    },
+    {
+      "value": "8,000+",
+      "label": "Registered Wahlärzte (Private Non-Contracted Physicians) in Austria"
+    },
+    {
+      "value": "€144K",
+      "label": "Annual Remote Monitoring Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

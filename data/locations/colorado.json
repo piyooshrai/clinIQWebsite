@@ -4,18 +4,33 @@
   "abbr": "CO",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Colorado Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Colorado Clinics | Patient Flow",
     "description": "Clinic operations platform for Colorado healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Colorado Healthcare",
     "subhead": "Colorado's active population and rapid growth along the Front Range are creating exceptional demand for orthopedic, physical therapy, and behavioral health services — while the state's rural mountain communities face some of the most severe physician shortages in the West. clinIQ helps Colorado practices on both ends of that spectrum run more efficiently: cutting check-in time, automating prior authorization, delivering real-time patient flow visibility, and opening RTM billing revenue that rewards the between-visit care Colorado clinicians already provide.",
-    "cities": ["Denver", "Colorado Springs", "Aurora", "Fort Collins", "Boulder"]
+    "cities": [
+      "Denver",
+      "Colorado Springs",
+      "Aurora",
+      "Fort Collins",
+      "Boulder"
+    ]
   },
   "stats": [
-    { "value": "~16,000", "label": "Active Physician Practices" },
-    { "value": "40%+", "label": "of Counties with Provider Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "~16,000",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "40%+",
+      "label": "of Counties with Provider Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

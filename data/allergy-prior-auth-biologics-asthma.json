@@ -5,7 +5,7 @@
   "specialty": "allergy-immunology",
   "wordCount": 1900,
   "meta": {
-    "title": "Allergy Prior Auth: Biologics for Asthma and Allergies | clinIQ",
+    "title": "Allergy Prior Auth: Biologics for Asthma and",
     "description": "Navigate prior authorization for asthma and allergy biologics — omalizumab IgE criteria, mepolizumab eosinophil thresholds, dupilumab indications, and SCIT vs. SLIT authorization strategies.",
     "keywords": [
       "allergy biologic prior authorization asthma",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Allergy Practice Patient Flow: Testing and Immunotherapy", "href": "/blog/allergy-patient-flow-testing-immunotherapy" },
-    { "title": "Allergy Shot Scheduling and Tracking", "href": "/blog/allergy-shot-scheduling-tracking" }
+    {
+      "title": "Allergy Practice Patient Flow: Testing and Immunotherapy",
+      "href": "/blog/allergy-patient-flow-testing-immunotherapy"
+    },
+    {
+      "title": "Allergy Shot Scheduling and Tracking",
+      "href": "/blog/allergy-shot-scheduling-tracking"
+    }
   ],
   "pillarLink": {
     "title": "Allergy/Immunology Practice Software",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Get Your Severe Asthma Patients Access to the Biologics They Need",
     "subhead": "clinIQ gives allergy/immunology practices the biomarker documentation tools and payer criteria intelligence to win biologic authorizations on the first submission.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

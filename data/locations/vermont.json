@@ -4,18 +4,33 @@
   "abbr": "VT",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Vermont Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Vermont Clinics | Patient Flow",
     "description": "Clinic operations platform for Vermont healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Vermont Healthcare",
     "subhead": "Vermont's small but sophisticated healthcare market operates under one of the nation's most progressive payment reform frameworks, with a strong push toward value-based care through the Green Mountain Care Board. clinIQ helps Vermont practices improve operational efficiency, reduce prior authorization burden, and capture RTM revenue that complements the state's outcomes-focused care model.",
-    "cities": ["Burlington", "Essex", "South Burlington", "Colchester", "Rutland"]
+    "cities": [
+      "Burlington",
+      "Essex",
+      "South Burlington",
+      "Colchester",
+      "Rutland"
+    ]
   },
   "stats": [
-    { "value": "1,100+", "label": "Active Physician Practices" },
-    { "value": "45%", "label": "of Counties with Primary Care Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "1,100+",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "45%",
+      "label": "of Counties with Primary Care Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

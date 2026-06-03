@@ -4,18 +4,33 @@
   "abbr": "AE",
   "region": "Middle East",
   "meta": {
-    "title": "clinIQ for UAE Clinics | Patient Flow & Remote Monitoring Software",
+    "title": "clinIQ for UAE Clinics | Patient Flow",
     "description": "Clinic operations platform for UAE healthcare providers. Reduce wait times, automate check-in, capture remote monitoring revenue. Works with any EMR."
   },
   "hero": {
     "h1": "clinIQ for UAE Healthcare",
     "subhead": "The UAE operates one of the most complex private healthcare markets in the world — mandatory insurance, dual regulatory authorities, and millions of expat patients who expect zero-wait efficiency. clinIQ plugs into your existing EMR to cut lobby wait times, automate pre-authorization submissions to Daman and ADNIC, and unlock remote therapeutic monitoring revenue your polyclinic is almost certainly leaving on the table.",
-    "cities": ["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "Ras Al Khaimah"]
+    "cities": [
+      "Dubai",
+      "Abu Dhabi",
+      "Sharjah",
+      "Ajman",
+      "Ras Al Khaimah"
+    ]
   },
   "stats": [
-    { "value": "4,900+", "label": "Licensed Healthcare Facilities in the UAE" },
-    { "value": "~70%", "label": "Private Sector Share of Outpatient Visits" },
-    { "value": "$144K", "label": "Annual Remote Monitoring Revenue per 100 Patients" }
+    {
+      "value": "4,900+",
+      "label": "Licensed Healthcare Facilities in the UAE"
+    },
+    {
+      "value": "~70%",
+      "label": "Private Sector Share of Outpatient Visits"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual Remote Monitoring Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {
@@ -45,12 +60,36 @@
     }
   ],
   "subLocations": [
-    { "slug": "dubai",     "name": "Dubai",     "desc": "DHA licensing, premium private care, NABIDH compliance, international medical tourism." },
-    { "slug": "abu-dhabi", "name": "Abu Dhabi", "desc": "DOH/HAAD compliance, Daman THIQA/Basic payer workflows, Malaffi HIE integration." },
-    { "slug": "qatar",     "name": "Qatar",     "desc": "NHIC/Hamad Medical Corporation, 88% expat population, international PMI dominance." },
-    { "slug": "kuwait",    "name": "Kuwait",    "desc": "MOH dual track, Aldar/GIG/Warba insurance, 60% expat patient population." },
-    { "slug": "bahrain",   "name": "Bahrain",   "desc": "NHRA regulation, Sehati mandatory insurance, medical tourism via Saudi causeway." },
-    { "slug": "oman",      "name": "Oman",      "desc": "DGHS/MOH, CMA insurance regulation, geographic healthcare access gaps, Vision 2040." }
+    {
+      "slug": "dubai",
+      "name": "Dubai",
+      "desc": "DHA licensing, premium private care, NABIDH compliance, international medical tourism."
+    },
+    {
+      "slug": "abu-dhabi",
+      "name": "Abu Dhabi",
+      "desc": "DOH/HAAD compliance, Daman THIQA/Basic payer workflows, Malaffi HIE integration."
+    },
+    {
+      "slug": "qatar",
+      "name": "Qatar",
+      "desc": "NHIC/Hamad Medical Corporation, 88% expat population, international PMI dominance."
+    },
+    {
+      "slug": "kuwait",
+      "name": "Kuwait",
+      "desc": "MOH dual track, Aldar/GIG/Warba insurance, 60% expat patient population."
+    },
+    {
+      "slug": "bahrain",
+      "name": "Bahrain",
+      "desc": "NHRA regulation, Sehati mandatory insurance, medical tourism via Saudi causeway."
+    },
+    {
+      "slug": "oman",
+      "name": "Oman",
+      "desc": "DGHS/MOH, CMA insurance regulation, geographic healthcare access gaps, Vision 2040."
+    }
   ],
   "cta": {
     "headline": "Ready to transform your UAE practice?",

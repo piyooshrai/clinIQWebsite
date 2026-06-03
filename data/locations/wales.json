@@ -4,18 +4,33 @@
   "abbr": "WAL",
   "region": "United Kingdom",
   "meta": {
-    "title": "clinIQ for Wales Private Clinics | Patient Flow & Remote Monitoring",
+    "title": "clinIQ for Wales Private Clinics | Patient Flow",
     "description": "Clinic operations platform for Wales's private healthcare providers. Automate check-in, streamline pre-authorisation, grow remote therapeutic monitoring revenue."
   },
   "hero": {
     "h1": "clinIQ for Wales Healthcare",
     "subhead": "NHS Wales consistently records some of the longest waiting times in the United Kingdom, with hundreds of thousands of patients waiting over a year for specialist care. Private clinics in Cardiff, Swansea, and Newport are filling a genuine gap — and those clinics need operations platforms that match the pace of demand. clinIQ works alongside your existing clinical system to automate check-in, manage patient flow, and generate remote monitoring revenue.",
-    "cities": ["Cardiff", "Swansea", "Newport", "Wrexham", "Llandudno"]
+    "cities": [
+      "Cardiff",
+      "Swansea",
+      "Newport",
+      "Wrexham",
+      "Llandudno"
+    ]
   },
   "stats": [
-    { "value": "600K+", "label": "Patients on NHS Wales Waiting Lists" },
-    { "value": "36%", "label": "of Welsh Patients Wait Over 36 Weeks for Outpatient Care" },
-    { "value": "£144K", "label": "Annual Remote Monitoring Revenue per 100 Patients" }
+    {
+      "value": "600K+",
+      "label": "Patients on NHS Wales Waiting Lists"
+    },
+    {
+      "value": "36%",
+      "label": "of Welsh Patients Wait Over 36 Weeks for Outpatient Care"
+    },
+    {
+      "value": "£144K",
+      "label": "Annual Remote Monitoring Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

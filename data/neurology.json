@@ -5,27 +5,65 @@
   "wordCount": 2800,
   "publishDate": "2025-06-10",
   "meta": {
-    "title": "Neurology Practice Software | RTM, Patient Flow & Symptom Tracking | clinIQ",
+    "title": "Neurology Software | RTM, Patient Flow",
     "description": "Complete guide to neurology practice operations. RTM billing for neurological conditions. Headache and seizure tracking. Wearable integration for sleep and activity data. Coordination with neurosurgery, psychiatry, and primary care.",
-    "keywords": ["neurology software", "neurology practice management", "neurological RTM billing", "headache tracking", "seizure diary", "neurology EHR integration", "multiple sclerosis monitoring"]
+    "keywords": [
+      "neurology software",
+      "neurology practice management",
+      "neurological RTM billing",
+      "headache tracking",
+      "seizure diary",
+      "neurology EHR integration",
+      "multiple sclerosis monitoring"
+    ]
   },
   "hero": {
     "h1": "Neurology Practice Software",
     "subhead": "RTM billing for neurological conditions capturing $100-130 per patient monthly. Headache and seizure tracking through the clinIQ app. Wearable integration for sleep and activity data. Coordination with neurosurgery, psychiatry, and primary care.",
     "stats": [
-      { "value": "$120K", "label": "annual RTM revenue (100 patients)" },
-      { "value": "Symptom", "label": "diary tracking" },
-      { "value": "Wearable", "label": "data integration" }
+      {
+        "value": "$120K",
+        "label": "annual RTM revenue (100 patients)"
+      },
+      {
+        "value": "Symptom",
+        "label": "diary tracking"
+      },
+      {
+        "value": "Wearable",
+        "label": "data integration"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "neuro-operations", "title": "The Neurology Operations Model" },
-    { "id": "rtm-billing", "title": "RTM Billing for Neurological Conditions" },
-    { "id": "symptom-tracking", "title": "Neurological Symptom Tracking" },
-    { "id": "patient-flow", "title": "Patient Flow" },
-    { "id": "care-coordination", "title": "Care Coordination" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "neuro-operations",
+      "title": "The Neurology Operations Model"
+    },
+    {
+      "id": "rtm-billing",
+      "title": "RTM Billing for Neurological Conditions"
+    },
+    {
+      "id": "symptom-tracking",
+      "title": "Neurological Symptom Tracking"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Patient Flow"
+    },
+    {
+      "id": "care-coordination",
+      "title": "Care Coordination"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -88,14 +126,29 @@
   "cta": {
     "headline": "See Neurology Operations Optimized",
     "subhead": "Fifteen-minute demo showing RTM enrollment, headache and seizure tracking, and wearable integration for neurological care.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$120K", "label": "annual RTM potential" },
-      { "value": "Symptom", "label": "diary tracking" },
-      { "value": "Wearable", "label": "sleep data" }
+      {
+        "value": "$120K",
+        "label": "annual RTM potential"
+      },
+      {
+        "value": "Symptom",
+        "label": "diary tracking"
+      },
+      {
+        "value": "Wearable",
+        "label": "sleep data"
+      }
     ],
     "testimonial": {
       "quote": "Headache diaries through the app replaced paper logs patients forgot to bring. Seizure tracking with sleep data showed patterns we missed before. RTM generates revenue while giving us between-visit data that improves treatment decisions. The workflow fits neurological practice naturally.",
@@ -127,7 +180,19 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Neurology",
-    "relevantConditions": ["Migraine", "Epilepsy", "Multiple Sclerosis", "Parkinson's Disease", "Dementia"],
-    "availableProcedures": ["EEG", "EMG", "Lumbar Puncture", "Botox Injection", "Nerve Block"]
+    "relevantConditions": [
+      "Migraine",
+      "Epilepsy",
+      "Multiple Sclerosis",
+      "Parkinson's Disease",
+      "Dementia"
+    ],
+    "availableProcedures": [
+      "EEG",
+      "EMG",
+      "Lumbar Puncture",
+      "Botox Injection",
+      "Nerve Block"
+    ]
   }
 }

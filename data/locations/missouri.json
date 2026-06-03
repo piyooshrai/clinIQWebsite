@@ -4,18 +4,33 @@
   "abbr": "MO",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Missouri Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Missouri Clinics | Patient Flow",
     "description": "Clinic operations platform for Missouri healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Missouri Healthcare",
     "subhead": "Missouri's healthcare market is split between two of the Midwest's most competitive metro systems — Kansas City and St. Louis — and a vast rural outstate geography where provider shortages rank among the most severe in the region. clinIQ helps Missouri clinics from Clayton to Cape Girardeau cut check-in friction, manage lobby flow in real time, automate MO HealthNet prior authorization, and capture RTM revenue from the state's large orthopedic, physical therapy, and behavioral health population.",
-    "cities": ["Kansas City", "St. Louis", "Springfield", "Columbia", "Independence"]
+    "cities": [
+      "Kansas City",
+      "St. Louis",
+      "Springfield",
+      "Columbia",
+      "Independence"
+    ]
   },
   "stats": [
-    { "value": "16,500+", "label": "Licensed Physician Practices" },
-    { "value": "64%", "label": "Counties with Primary Care HPSA Designation" },
-    { "value": "$144K+", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "16,500+",
+      "label": "Licensed Physician Practices"
+    },
+    {
+      "value": "64%",
+      "label": "Counties with Primary Care HPSA Designation"
+    },
+    {
+      "value": "$144K+",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

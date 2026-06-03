@@ -5,29 +5,73 @@
   "wordCount": 3200,
   "publishDate": "2025-04-20",
   "meta": {
-    "title": "Addiction Medicine Practice Software | RTM, MAT Monitoring & Compliance | clinIQ",
+    "title": "Addiction Medicine Software | RTM, MAT Monitoring",
     "description": "Complete guide to addiction medicine practice operations. RTM billing for substance use disorders. MAT medication adherence monitoring. Craving and recovery tracking through mobile app. Compliance documentation for DEA and state requirements.",
-    "keywords": ["addiction medicine software", "MAT practice management", "addiction treatment RTM", "substance use disorder monitoring", "buprenorphine practice software", "addiction medicine patient portal", "MAT compliance software"]
+    "keywords": [
+      "addiction medicine software",
+      "MAT practice management",
+      "addiction treatment RTM",
+      "substance use disorder monitoring",
+      "buprenorphine practice software",
+      "addiction medicine patient portal",
+      "MAT compliance software"
+    ]
   },
   "hero": {
     "h1": "Addiction Medicine Practice Software",
     "subhead": "RTM billing for substance use disorders capturing $110-140 per patient monthly. Medication-assisted treatment adherence monitoring. Craving and recovery tracking through the clinIQ app. Compliance documentation for DEA requirements. Coordination with behavioral health and primary care.",
     "stats": [
-      { "value": "$130K", "label": "annual RTM revenue (100 patients)" },
-      { "value": "MAT", "label": "adherence monitoring" },
-      { "value": "Compliance", "label": "documentation built-in" }
+      {
+        "value": "$130K",
+        "label": "annual RTM revenue (100 patients)"
+      },
+      {
+        "value": "MAT",
+        "label": "adherence monitoring"
+      },
+      {
+        "value": "Compliance",
+        "label": "documentation built-in"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "addiction-operations", "title": "The Addiction Medicine Operations Model" },
-    { "id": "rtm-billing", "title": "RTM Billing for Substance Use Disorders" },
-    { "id": "mat-monitoring", "title": "MAT Adherence Monitoring" },
-    { "id": "recovery-tracking", "title": "Recovery and Craving Tracking" },
-    { "id": "compliance", "title": "Regulatory Compliance" },
-    { "id": "care-coordination", "title": "Care Coordination" },
-    { "id": "telehealth", "title": "Telehealth for Addiction Treatment" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "addiction-operations",
+      "title": "The Addiction Medicine Operations Model"
+    },
+    {
+      "id": "rtm-billing",
+      "title": "RTM Billing for Substance Use Disorders"
+    },
+    {
+      "id": "mat-monitoring",
+      "title": "MAT Adherence Monitoring"
+    },
+    {
+      "id": "recovery-tracking",
+      "title": "Recovery and Craving Tracking"
+    },
+    {
+      "id": "compliance",
+      "title": "Regulatory Compliance"
+    },
+    {
+      "id": "care-coordination",
+      "title": "Care Coordination"
+    },
+    {
+      "id": "telehealth",
+      "title": "Telehealth for Addiction Treatment"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -108,14 +152,29 @@
   "cta": {
     "headline": "See Addiction Medicine Operations Optimized",
     "subhead": "Fifteen-minute demo showing RTM enrollment, MAT adherence tracking, compliance documentation, and telehealth integration. See how addiction medicine practices capture $130,000+ annually in RTM revenue.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Your RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Your RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$130K", "label": "annual RTM revenue potential" },
-      { "value": "MAT", "label": "adherence monitoring" },
-      { "value": "Compliance", "label": "documentation included" }
+      {
+        "value": "$130K",
+        "label": "annual RTM revenue potential"
+      },
+      {
+        "value": "MAT",
+        "label": "adherence monitoring"
+      },
+      {
+        "value": "Compliance",
+        "label": "documentation included"
+      }
     ],
     "testimonial": {
       "quote": "Between-visit craving tracking changed how we support patients in early recovery. We see when cravings escalate and reach out before relapse. MAT adherence monitoring shows who is taking medications consistently. RTM captures revenue for monitoring that quality addiction care already requires. Compliance documentation makes DEA inspections less stressful.",
@@ -147,7 +206,17 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Addiction Medicine",
-    "relevantConditions": ["Opioid Use Disorder", "Alcohol Use Disorder", "Substance Use Disorders", "Medication-Assisted Treatment"],
-    "availableProcedures": ["MAT Induction", "Medication Management", "Substance Use Assessment", "Toxicology Monitoring"]
+    "relevantConditions": [
+      "Opioid Use Disorder",
+      "Alcohol Use Disorder",
+      "Substance Use Disorders",
+      "Medication-Assisted Treatment"
+    ],
+    "availableProcedures": [
+      "MAT Induction",
+      "Medication Management",
+      "Substance Use Assessment",
+      "Toxicology Monitoring"
+    ]
   }
 }

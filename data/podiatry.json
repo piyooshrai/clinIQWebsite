@@ -5,27 +5,64 @@
   "wordCount": 2200,
   "publishDate": "2025-06-30",
   "meta": {
-    "title": "Podiatry Practice Software | Scheduling, Patient Flow & Wound Monitoring | clinIQ",
+    "title": "Podiatry Software | Scheduling, Patient Flow",
     "description": "Complete guide to podiatry practice operations. Clinic and surgical scheduling. Diabetic foot care workflow. Wound monitoring through mobile app. Coordination with vascular surgery and endocrinology.",
-    "keywords": ["podiatry software", "podiatry practice management", "diabetic foot care", "podiatry patient flow", "podiatry scheduling", "podiatry EHR integration"]
+    "keywords": [
+      "podiatry software",
+      "podiatry practice management",
+      "diabetic foot care",
+      "podiatry patient flow",
+      "podiatry scheduling",
+      "podiatry EHR integration"
+    ]
   },
   "hero": {
     "h1": "Podiatry Practice Software",
     "subhead": "Clinic and surgical scheduling optimization. Diabetic foot care workflow with wound monitoring. Photo documentation through the clinIQ app. Coordination with vascular surgery and endocrinology for comprehensive limb preservation.",
     "stats": [
-      { "value": "Diabetic", "label": "foot care workflow" },
-      { "value": "Wound", "label": "photo monitoring" },
-      { "value": "Limb", "label": "preservation coordination" }
+      {
+        "value": "Diabetic",
+        "label": "foot care workflow"
+      },
+      {
+        "value": "Wound",
+        "label": "photo monitoring"
+      },
+      {
+        "value": "Limb",
+        "label": "preservation coordination"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "podiatry-operations", "title": "The Podiatry Operations Model" },
-    { "id": "scheduling", "title": "Clinic and Surgical Scheduling" },
-    { "id": "diabetic-foot-care", "title": "Diabetic Foot Care" },
-    { "id": "wound-monitoring", "title": "Wound Monitoring" },
-    { "id": "care-coordination", "title": "Care Coordination" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "podiatry-operations",
+      "title": "The Podiatry Operations Model"
+    },
+    {
+      "id": "scheduling",
+      "title": "Clinic and Surgical Scheduling"
+    },
+    {
+      "id": "diabetic-foot-care",
+      "title": "Diabetic Foot Care"
+    },
+    {
+      "id": "wound-monitoring",
+      "title": "Wound Monitoring"
+    },
+    {
+      "id": "care-coordination",
+      "title": "Care Coordination"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -84,14 +121,29 @@
   "cta": {
     "headline": "See Podiatry Operations Optimized",
     "subhead": "Fifteen-minute demo showing diabetic foot care workflow, wound photo monitoring, and limb preservation coordination.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Learn More", "href": "/resources/wound-monitoring" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Learn More",
+      "href": "/resources/wound-monitoring"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "Diabetic", "label": "foot care" },
-      { "value": "Wound", "label": "photo monitoring" },
-      { "value": "Limb", "label": "preservation" }
+      {
+        "value": "Diabetic",
+        "label": "foot care"
+      },
+      {
+        "value": "Wound",
+        "label": "photo monitoring"
+      },
+      {
+        "value": "Limb",
+        "label": "preservation"
+      }
     ],
     "testimonial": {
       "quote": "Wound photo monitoring catches deterioration before patients need hospitalization. Diabetic foot care workflow is systematic and documented. Coordination with vascular surgery for limb preservation finally works smoothly. We prevent more amputations.",
@@ -123,7 +175,19 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Podiatry",
-    "relevantConditions": ["Diabetic Foot Ulcer", "Bunion", "Plantar Fasciitis", "Ingrown Nail", "Ankle Injury"],
-    "availableProcedures": ["Nail Debridement", "Ulcer Debridement", "Bunion Surgery", "Amputation", "Ankle Reconstruction"]
+    "relevantConditions": [
+      "Diabetic Foot Ulcer",
+      "Bunion",
+      "Plantar Fasciitis",
+      "Ingrown Nail",
+      "Ankle Injury"
+    ],
+    "availableProcedures": [
+      "Nail Debridement",
+      "Ulcer Debridement",
+      "Bunion Surgery",
+      "Amputation",
+      "Ankle Reconstruction"
+    ]
   }
 }

@@ -5,27 +5,64 @@
   "wordCount": 2800,
   "publishDate": "2025-07-06",
   "meta": {
-    "title": "Primary Care Practice Software | RTM, Scheduling & Care Coordination | clinIQ",
+    "title": "Primary Care Software | RTM, Scheduling",
     "description": "Complete guide to primary care practice operations. RTM billing for chronic conditions. Same-day access scheduling. Chronic care management workflow. Coordination with specialists across all disciplines.",
-    "keywords": ["primary care software", "primary care practice management", "primary care RTM", "chronic care management", "primary care scheduling", "primary care EHR integration"]
+    "keywords": [
+      "primary care software",
+      "primary care practice management",
+      "primary care RTM",
+      "chronic care management",
+      "primary care scheduling",
+      "primary care EHR integration"
+    ]
   },
   "hero": {
     "h1": "Primary Care Practice Software",
     "subhead": "RTM billing for chronic conditions capturing $100-130 per patient monthly. Same-day access scheduling with annual wellness visits. Chronic care management workflow. Coordination with specialists as the patient's medical home.",
     "stats": [
-      { "value": "$120K", "label": "annual RTM revenue (100 patients)" },
-      { "value": "Same-day", "label": "access scheduling" },
-      { "value": "Medical", "label": "home coordination" }
+      {
+        "value": "$120K",
+        "label": "annual RTM revenue (100 patients)"
+      },
+      {
+        "value": "Same-day",
+        "label": "access scheduling"
+      },
+      {
+        "value": "Medical",
+        "label": "home coordination"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "pcp-operations", "title": "The Primary Care Operations Model" },
-    { "id": "rtm-billing", "title": "RTM Billing for Chronic Conditions" },
-    { "id": "scheduling", "title": "Same-Day Access Scheduling" },
-    { "id": "patient-flow", "title": "Patient Flow" },
-    { "id": "care-coordination", "title": "Medical Home Coordination" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "pcp-operations",
+      "title": "The Primary Care Operations Model"
+    },
+    {
+      "id": "rtm-billing",
+      "title": "RTM Billing for Chronic Conditions"
+    },
+    {
+      "id": "scheduling",
+      "title": "Same-Day Access Scheduling"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Patient Flow"
+    },
+    {
+      "id": "care-coordination",
+      "title": "Medical Home Coordination"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -88,14 +125,29 @@
   "cta": {
     "headline": "See Primary Care Operations Optimized",
     "subhead": "Fifteen-minute demo showing RTM for chronic conditions, same-day access scheduling, and medical home coordination.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$120K", "label": "annual RTM potential" },
-      { "value": "Same-day", "label": "access" },
-      { "value": "Medical", "label": "home coordination" }
+      {
+        "value": "$120K",
+        "label": "annual RTM potential"
+      },
+      {
+        "value": "Same-day",
+        "label": "access"
+      },
+      {
+        "value": "Medical",
+        "label": "home coordination"
+      }
     ],
     "testimonial": {
       "quote": "RTM for hypertension and diabetes generates significant revenue while improving chronic disease control. Same-day access keeps patients out of the ED. Specialist coordination finally works with messaging and file sharing. We function as a true medical home.",
@@ -127,7 +179,19 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Primary Care",
-    "relevantConditions": ["Hypertension", "Diabetes", "Hyperlipidemia", "COPD", "Depression", "Preventive Care"],
-    "availableProcedures": ["Annual Wellness Visit", "Chronic Care Management", "Preventive Screening", "Immunizations"]
+    "relevantConditions": [
+      "Hypertension",
+      "Diabetes",
+      "Hyperlipidemia",
+      "COPD",
+      "Depression",
+      "Preventive Care"
+    ],
+    "availableProcedures": [
+      "Annual Wellness Visit",
+      "Chronic Care Management",
+      "Preventive Screening",
+      "Immunizations"
+    ]
   }
 }

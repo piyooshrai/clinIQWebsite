@@ -5,29 +5,73 @@
   "wordCount": 3800,
   "publishDate": "2025-01-15",
   "meta": {
-    "title": "Pain Management Practice Software | RTM, Prior Auth & Patient Flow | clinIQ",
+    "title": "Pain Management Software | RTM, Prior Auth",
     "description": "Complete guide to pain management clinic operations. RTM billing with 75%+ patient compliance. Prior auth automation cutting 157-day delays. Procedure room turnover optimization. Wearable integration for sleep and activity correlation.",
-    "keywords": ["pain management software", "interventional pain practice management", "pain clinic RTM billing", "pain management prior authorization", "chronic pain patient flow", "pain clinic scheduling", "interventional pain EHR integration"]
+    "keywords": [
+      "pain management software",
+      "interventional pain practice management",
+      "pain clinic RTM billing",
+      "pain management prior authorization",
+      "chronic pain patient flow",
+      "pain clinic scheduling",
+      "interventional pain EHR integration"
+    ]
   },
   "hero": {
     "h1": "Pain Management Practice Software",
     "subhead": "RTM billing capturing $120-150 per chronic pain patient monthly. Prior authorization automation reducing 57% initial denial rates. Procedure room turnover optimization recovering 56 minutes per procedure day. Wearable integration correlating sleep and activity with symptom patterns. Everything interventional pain practices need to capture revenue and reduce administrative burden.",
     "stats": [
-      { "value": "$144K", "label": "annual RTM revenue (100 patients)" },
-      { "value": "57%", "label": "spine procedure denial rate reduced" },
-      { "value": "75%+", "label": "RTM patient compliance" }
+      {
+        "value": "$144K",
+        "label": "annual RTM revenue (100 patients)"
+      },
+      {
+        "value": "57%",
+        "label": "spine procedure denial rate reduced"
+      },
+      {
+        "value": "75%+",
+        "label": "RTM patient compliance"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "pain-practice-challenges", "title": "The Pain Practice Revenue Problem" },
-    { "id": "rtm-billing", "title": "RTM Billing for Chronic Pain" },
-    { "id": "prior-auth", "title": "Prior Authorization Automation" },
-    { "id": "procedure-efficiency", "title": "Procedure Room Efficiency" },
-    { "id": "patient-flow", "title": "Patient Flow Management" },
-    { "id": "wearable-data", "title": "Wearable Integration for Pain Correlation" },
-    { "id": "compliance", "title": "Controlled Substance Compliance" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "pain-practice-challenges",
+      "title": "The Pain Practice Revenue Problem"
+    },
+    {
+      "id": "rtm-billing",
+      "title": "RTM Billing for Chronic Pain"
+    },
+    {
+      "id": "prior-auth",
+      "title": "Prior Authorization Automation"
+    },
+    {
+      "id": "procedure-efficiency",
+      "title": "Procedure Room Efficiency"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Patient Flow Management"
+    },
+    {
+      "id": "wearable-data",
+      "title": "Wearable Integration for Pain Correlation"
+    },
+    {
+      "id": "compliance",
+      "title": "Controlled Substance Compliance"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -108,14 +152,29 @@
   "cta": {
     "headline": "See Pain Management Operations Transformed",
     "subhead": "Fifteen-minute demo showing RTM enrollment through the patient app, prior auth automation with LOMN generation, procedure room flow tracking, and wearable data integration. See how pain practices capture $144,000+ annually in RTM revenue.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Your RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Your RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$144K", "label": "annual RTM revenue at 100 patients" },
-      { "value": "75%+", "label": "RTM compliance achieved" },
-      { "value": "80%+", "label": "first-pass auth approval" }
+      {
+        "value": "$144K",
+        "label": "annual RTM revenue at 100 patients"
+      },
+      {
+        "value": "75%+",
+        "label": "RTM compliance achieved"
+      },
+      {
+        "value": "80%+",
+        "label": "first-pass auth approval"
+      }
     ],
     "testimonial": {
       "quote": "We were leaving $15,000 a month on the table in unbilled RTM. The patients were already calling and messaging us about their pain. clinIQ turned those conversations into documented monitoring with proper time tracking. Authorization denials dropped because the LOMN templates actually include what payers want to see. Procedure day turnover improved once we could see where the delays were happening.",
@@ -147,7 +206,19 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Pain Management",
-    "relevantConditions": ["Chronic Pain", "Radiculopathy", "Spinal Stenosis", "Facet Arthropathy", "Sacroiliac Joint Dysfunction"],
-    "availableProcedures": ["Epidural Steroid Injection", "Facet Joint Injection", "Radiofrequency Ablation", "Spinal Cord Stimulation", "Medial Branch Block"]
+    "relevantConditions": [
+      "Chronic Pain",
+      "Radiculopathy",
+      "Spinal Stenosis",
+      "Facet Arthropathy",
+      "Sacroiliac Joint Dysfunction"
+    ],
+    "availableProcedures": [
+      "Epidural Steroid Injection",
+      "Facet Joint Injection",
+      "Radiofrequency Ablation",
+      "Spinal Cord Stimulation",
+      "Medial Branch Block"
+    ]
   }
 }

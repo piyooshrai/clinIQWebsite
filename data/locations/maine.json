@@ -4,18 +4,33 @@
   "abbr": "ME",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Maine Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Maine Clinics | Patient Flow",
     "description": "Clinic operations platform for Maine healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Maine Healthcare",
     "subhead": "Maine is the oldest state in the nation by median age and covers 35,000 square miles with a population of just 1.4 million — making geographic access to specialty care one of the defining challenges for clinics from Portland to Presque Isle. clinIQ helps Maine practices automate check-in, manage real-time patient flow with lean teams, cut MaineCare prior authorization burden, and capture RTM revenue from the state's large elderly and chronic disease outpatient population.",
-    "cities": ["Portland", "Lewiston", "Bangor", "South Portland", "Auburn"]
+    "cities": [
+      "Portland",
+      "Lewiston",
+      "Bangor",
+      "South Portland",
+      "Auburn"
+    ]
   },
   "stats": [
-    { "value": "3,100+", "label": "Licensed Physician Practices" },
-    { "value": "61%", "label": "Geographic Areas with Provider Shortages" },
-    { "value": "$144K+", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "3,100+",
+      "label": "Licensed Physician Practices"
+    },
+    {
+      "value": "61%",
+      "label": "Geographic Areas with Provider Shortages"
+    },
+    {
+      "value": "$144K+",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

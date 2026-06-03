@@ -4,18 +4,33 @@
   "abbr": "ENG",
   "region": "United Kingdom",
   "meta": {
-    "title": "clinIQ for England Private Clinics | Patient Flow & Remote Monitoring",
+    "title": "clinIQ for England Private Clinics | Patient Flow",
     "description": "Clinic operations platform for England's private healthcare providers. Reduce admin, automate check-in, streamline PMI pre-authorisation, grow remote monitoring revenue."
   },
   "hero": {
     "h1": "clinIQ for England Healthcare",
     "subhead": "England's NHS waiting list has exceeded 7.5 million — driving more patients than ever into private specialist clinics, physiotherapy practices, and independent treatment centres. clinIQ gives England's private providers the operational infrastructure to handle surge demand without sacrificing the premium experience patients expect when they choose to pay privately.",
-    "cities": ["London", "Manchester", "Birmingham", "Bristol", "Leeds"]
+    "cities": [
+      "London",
+      "Manchester",
+      "Birmingham",
+      "Bristol",
+      "Leeds"
+    ]
   },
   "stats": [
-    { "value": "7.5M+", "label": "Patients on NHS England Waiting List" },
-    { "value": "£10.7B", "label": "UK Private Healthcare Market Value (2024)" },
-    { "value": "£144K", "label": "Annual Remote Monitoring Revenue per 100 Patients" }
+    {
+      "value": "7.5M+",
+      "label": "Patients on NHS England Waiting List"
+    },
+    {
+      "value": "£10.7B",
+      "label": "UK Private Healthcare Market Value (2024)"
+    },
+    {
+      "value": "£144K",
+      "label": "Annual Remote Monitoring Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

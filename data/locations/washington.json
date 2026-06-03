@@ -4,18 +4,33 @@
   "abbr": "WA",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Washington Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Washington Clinics | Patient Flow",
     "description": "Clinic operations platform for Washington state healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Washington Healthcare",
     "subhead": "Washington state's healthcare market blends the innovation culture of the Seattle tech corridor with rural eastern communities that face some of the Pacific Northwest's most persistent access challenges. clinIQ helps Washington practices reduce check-in friction, automate prior authorization, and capture RTM revenue from the state's large physical therapy and behavioral health patient base.",
-    "cities": ["Seattle", "Spokane", "Tacoma", "Vancouver", "Bellevue"]
+    "cities": [
+      "Seattle",
+      "Spokane",
+      "Tacoma",
+      "Vancouver",
+      "Bellevue"
+    ]
   },
   "stats": [
-    { "value": "16,000+", "label": "Active Physician Practices" },
-    { "value": "48%", "label": "of Rural Counties with Provider Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "16,000+",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "48%",
+      "label": "of Rural Counties with Provider Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

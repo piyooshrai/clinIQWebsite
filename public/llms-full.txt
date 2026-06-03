@@ -1,5 +1,5 @@
 # clinIQ - Complete Platform Documentation for LLMs
-# https://cliniqhealthcare.com
+# https://www.cliniqhealthcare.com
 # Last updated: 2026-03
 
 ## Company Overview
@@ -141,13 +141,13 @@ Digital transformation of clinic operations with real revenue capture.
 
 ## URLs
 
-- Main site: https://cliniqhealthcare.com
-- Demo request: https://cliniqhealthcare.com/demo
-- Pricing: https://cliniqhealthcare.com/pricing
-- All specialties: https://cliniqhealthcare.com/specialties
-- All features: https://cliniqhealthcare.com/features
-- All markets: https://cliniqhealthcare.com/markets
-- Comparisons: https://cliniqhealthcare.com/compare
+- Main site: https://www.cliniqhealthcare.com
+- Demo request: https://www.cliniqhealthcare.com/demo
+- Pricing: https://www.cliniqhealthcare.com/pricing
+- All specialties: https://www.cliniqhealthcare.com/specialties
+- All features: https://www.cliniqhealthcare.com/features
+- All markets: https://www.cliniqhealthcare.com/markets
+- Comparisons: https://www.cliniqhealthcare.com/compare
 
 ## Markets Served
 

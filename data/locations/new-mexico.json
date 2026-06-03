@@ -4,18 +4,33 @@
   "abbr": "NM",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for New Mexico Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for New Mexico Clinics | Patient Flow",
     "description": "Clinic operations platform for New Mexico healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for New Mexico Healthcare",
     "subhead": "New Mexico faces some of the nation's steepest healthcare access challenges, with large rural and tribal populations, high Medicaid enrollment, and persistent provider shortages outside Albuquerque and Santa Fe. clinIQ helps New Mexico clinics operate more efficiently, reduce administrative burden, and capture RTM billing revenue that supports the state's growing physical therapy and behavioral health sectors.",
-    "cities": ["Albuquerque", "Las Cruces", "Rio Rancho", "Santa Fe", "Roswell"]
+    "cities": [
+      "Albuquerque",
+      "Las Cruces",
+      "Rio Rancho",
+      "Santa Fe",
+      "Roswell"
+    ]
   },
   "stats": [
-    { "value": "3,100+", "label": "Active Physician Practices" },
-    { "value": "70%", "label": "of Counties with Primary Care Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "3,100+",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "70%",
+      "label": "of Counties with Primary Care Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

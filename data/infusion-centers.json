@@ -5,27 +5,64 @@
   "wordCount": 2200,
   "publishDate": "2025-07-02",
   "meta": {
-    "title": "Infusion Center Software | Chair Scheduling, Patient Flow & Pre-Authorization | clinIQ",
+    "title": "Infusion Center Software | Chair Scheduling",
     "description": "Complete guide to infusion center operations. Chair scheduling optimization. Infusion workflow management. Pre-authorization for biologics and chemotherapy. Symptom monitoring during and after infusions.",
-    "keywords": ["infusion center software", "infusion scheduling", "chair management", "infusion patient flow", "biologic infusion", "infusion pre-authorization"]
+    "keywords": [
+      "infusion center software",
+      "infusion scheduling",
+      "chair management",
+      "infusion patient flow",
+      "biologic infusion",
+      "infusion pre-authorization"
+    ]
   },
   "hero": {
     "h1": "Infusion Center Software",
     "subhead": "Chair scheduling optimization maximizing infusion capacity. Workflow management from check-in through post-infusion monitoring. Pre-authorization for biologics, chemotherapy, and specialty medications. Symptom tracking through the clinIQ app.",
     "stats": [
-      { "value": "Chair", "label": "utilization optimization" },
-      { "value": "Pre-auth", "label": "tracking" },
-      { "value": "Infusion", "label": "workflow" }
+      {
+        "value": "Chair",
+        "label": "utilization optimization"
+      },
+      {
+        "value": "Pre-auth",
+        "label": "tracking"
+      },
+      {
+        "value": "Infusion",
+        "label": "workflow"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "infusion-operations", "title": "The Infusion Center Operations Model" },
-    { "id": "chair-scheduling", "title": "Chair Scheduling Optimization" },
-    { "id": "infusion-workflow", "title": "Infusion Workflow" },
-    { "id": "pre-authorization", "title": "Pre-Authorization" },
-    { "id": "symptom-monitoring", "title": "Symptom Monitoring" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "infusion-operations",
+      "title": "The Infusion Center Operations Model"
+    },
+    {
+      "id": "chair-scheduling",
+      "title": "Chair Scheduling Optimization"
+    },
+    {
+      "id": "infusion-workflow",
+      "title": "Infusion Workflow"
+    },
+    {
+      "id": "pre-authorization",
+      "title": "Pre-Authorization"
+    },
+    {
+      "id": "symptom-monitoring",
+      "title": "Symptom Monitoring"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -84,14 +121,29 @@
   "cta": {
     "headline": "See Infusion Center Operations Optimized",
     "subhead": "Fifteen-minute demo showing chair scheduling, infusion workflow, and pre-authorization management.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Learn More", "href": "/resources/infusion-scheduling" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Learn More",
+      "href": "/resources/infusion-scheduling"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "Chair", "label": "optimization" },
-      { "value": "Pre-auth", "label": "tracking" },
-      { "value": "Infusion", "label": "workflow" }
+      {
+        "value": "Chair",
+        "label": "optimization"
+      },
+      {
+        "value": "Pre-auth",
+        "label": "tracking"
+      },
+      {
+        "value": "Infusion",
+        "label": "workflow"
+      }
     ],
     "testimonial": {
       "quote": "Chair scheduling optimization increased our capacity without adding chairs. Pre-authorization tracking prevents treatment delays. The infusion workflow board shows where every patient is. Post-infusion symptom monitoring catches reactions early.",
@@ -123,7 +175,19 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Infusion Center",
-    "relevantConditions": ["Rheumatoid Arthritis", "Crohn's Disease", "Multiple Sclerosis", "Cancer", "Immunodeficiency"],
-    "availableProcedures": ["Biologic Infusion", "Chemotherapy", "IVIG", "Iron Infusion", "Hydration"]
+    "relevantConditions": [
+      "Rheumatoid Arthritis",
+      "Crohn's Disease",
+      "Multiple Sclerosis",
+      "Cancer",
+      "Immunodeficiency"
+    ],
+    "availableProcedures": [
+      "Biologic Infusion",
+      "Chemotherapy",
+      "IVIG",
+      "Iron Infusion",
+      "Hydration"
+    ]
   }
 }

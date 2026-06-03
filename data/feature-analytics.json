@@ -6,7 +6,7 @@
   "publishDate": "2025-04-30",
   "updatedDate": "2026-06-02",
   "meta": {
-    "title": "Clinical Analytics Software & LobbyView Patient Flow Analytics",
+    "title": "Clinical Analytics Software",
     "description": "clinIQ offers LobbyView and clinical analytics software with real time patient flow analytics, wait time tracking, and provider productivity metrics for clinics.",
     "keywords": [
       "clinical analytics software",
@@ -34,21 +34,57 @@
     "h1": "Clinical Analytics and Reporting Software",
     "subhead": "See what actually happens in your practice with real time healthcare dashboards showing patient flow analytics, wait times, and bottlenecks as they develop. Historical reports reveal patterns invisible to intuition. Healthcare data analytics software replaces guessing. Improvement becomes measurable.",
     "stats": [
-      { "value": "Real-time", "label": "operational dashboards" },
-      { "value": "100+", "label": "metrics tracked automatically" },
-      { "value": "Actionable", "label": "insights from day one" }
+      {
+        "value": "Real-time",
+        "label": "operational dashboards"
+      },
+      {
+        "value": "100+",
+        "label": "metrics tracked automatically"
+      },
+      {
+        "value": "Actionable",
+        "label": "insights from day one"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "analytics-value", "title": "Why Clinical Analytics Software Matters" },
-    { "id": "lobbyview", "title": "LobbyView Real Time Dashboards" },
-    { "id": "wait-time-analytics", "title": "Wait Time Analytics" },
-    { "id": "provider-productivity", "title": "Provider Productivity Metrics" },
-    { "id": "no-show-analytics", "title": "No Show Analytics" },
-    { "id": "revenue-metrics", "title": "Revenue and Capacity Metrics" },
-    { "id": "custom-reports", "title": "Custom Healthcare Reporting Dashboards" },
-    { "id": "implementation", "title": "Analytics Implementation" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "analytics-value",
+      "title": "Why Clinical Analytics Software Matters"
+    },
+    {
+      "id": "lobbyview",
+      "title": "LobbyView Real Time Dashboards"
+    },
+    {
+      "id": "wait-time-analytics",
+      "title": "Wait Time Analytics"
+    },
+    {
+      "id": "provider-productivity",
+      "title": "Provider Productivity Metrics"
+    },
+    {
+      "id": "no-show-analytics",
+      "title": "No Show Analytics"
+    },
+    {
+      "id": "revenue-metrics",
+      "title": "Revenue and Capacity Metrics"
+    },
+    {
+      "id": "custom-reports",
+      "title": "Custom Healthcare Reporting Dashboards"
+    },
+    {
+      "id": "implementation",
+      "title": "Analytics Implementation"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -137,14 +173,29 @@
   "cta": {
     "headline": "See Your Practice in Real Time",
     "subhead": "Fifteen-minute demo showing LobbyView dashboards, wait time analytics, provider productivity metrics, and custom reporting. See how data drives systematic improvement.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "See Sample Dashboard", "href": "/resources/dashboard-demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "See Sample Dashboard",
+      "href": "/resources/dashboard-demo"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "Real-time", "label": "operational visibility" },
-      { "value": "35%", "label": "wait time reduction achieved" },
-      { "value": "12%", "label": "productivity improvement" }
+      {
+        "value": "Real-time",
+        "label": "operational visibility"
+      },
+      {
+        "value": "35%",
+        "label": "wait time reduction achieved"
+      },
+      {
+        "value": "12%",
+        "label": "productivity improvement"
+      }
     ],
     "testimonial": {
       "quote": "We thought we knew how the practice was running. The data showed us we were wrong. Wait times were twice what we estimated. Certain days had problems we never noticed. Once we could see the data, we could fix the problems. Wait times dropped by a third in two months. Provider productivity increased because we stopped wasting time on inefficiencies we did not know existed.",

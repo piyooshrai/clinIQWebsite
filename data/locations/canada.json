@@ -4,18 +4,33 @@
   "abbr": "CA",
   "region": "North America",
   "meta": {
-    "title": "clinIQ for Canadian Healthcare Clinics | Patient Flow & Remote Monitoring",
+    "title": "clinIQ for Canadian | Patient Flow",
     "description": "Clinic operations platform for Canadian private and mixed-model healthcare providers. Reduce wait times, streamline provincial billing, and capture remote monitoring revenue across Ontario, BC, Quebec, and beyond."
   },
   "hero": {
     "h1": "clinIQ for Canadian Healthcare",
     "subhead": "Canada's publicly funded healthcare system provides universal coverage — but chronic underfunding, provincial billing complexity, and some of the longest wait times in the developed world have driven rapid growth in the private and hybrid clinic sector. clinIQ gives Canadian clinics the operational infrastructure to serve more patients, navigate provincial billing rules, and generate remote monitoring revenue in a market where every administrative hour counts.",
-    "cities": ["Toronto", "Vancouver", "Montreal", "Calgary", "Ottawa"]
+    "cities": [
+      "Toronto",
+      "Vancouver",
+      "Montreal",
+      "Calgary",
+      "Ottawa"
+    ]
   },
   "stats": [
-    { "value": "92,000+", "label": "Regulated Health Professionals in Active Clinical Practice" },
-    { "value": "27.7 wks", "label": "Average Wait Time from GP Referral to Specialist Treatment (2024)" },
-    { "value": "$144K", "label": "Annual Remote Monitoring Revenue per 100 Enrolled Patients" }
+    {
+      "value": "92,000+",
+      "label": "Regulated Health Professionals in Active Clinical Practice"
+    },
+    {
+      "value": "27.7 wks",
+      "label": "Average Wait Time from GP Referral to Specialist Treatment (2024)"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual Remote Monitoring Revenue per 100 Enrolled Patients"
+    }
   ],
   "sections": [
     {
@@ -45,9 +60,21 @@
     }
   ],
   "subLocations": [
-    { "slug": "toronto",   "name": "Toronto",   "desc": "OHIP billing, wait time pressures, high-volume urban primary care." },
-    { "slug": "vancouver", "name": "Vancouver", "desc": "BC MSP provincial workflows, mixed public-private patient population." },
-    { "slug": "montreal",  "name": "Montreal",  "desc": "Bilingual intake, RAMQ billing, mixed French-English patient population." }
+    {
+      "slug": "toronto",
+      "name": "Toronto",
+      "desc": "OHIP billing, wait time pressures, high-volume urban primary care."
+    },
+    {
+      "slug": "vancouver",
+      "name": "Vancouver",
+      "desc": "BC MSP provincial workflows, mixed public-private patient population."
+    },
+    {
+      "slug": "montreal",
+      "name": "Montreal",
+      "desc": "Bilingual intake, RAMQ billing, mixed French-English patient population."
+    }
   ],
   "cta": {
     "headline": "Ready to modernize your Canadian clinic?",

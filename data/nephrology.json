@@ -5,26 +5,60 @@
   "wordCount": 2400,
   "publishDate": "2025-06-16",
   "meta": {
-    "title": "Nephrology Practice Software | RTM, Patient Flow & Care Coordination | clinIQ",
+    "title": "Nephrology Software | RTM, Patient Flow",
     "description": "Complete guide to nephrology practice operations. RTM billing for CKD monitoring. Blood pressure and weight tracking. Coordination with dialysis, vascular surgery, and transplant services.",
-    "keywords": ["nephrology software", "nephrology practice management", "CKD monitoring", "dialysis coordination", "nephrology patient flow", "kidney disease RTM"]
+    "keywords": [
+      "nephrology software",
+      "nephrology practice management",
+      "CKD monitoring",
+      "dialysis coordination",
+      "nephrology patient flow",
+      "kidney disease RTM"
+    ]
   },
   "hero": {
     "h1": "Nephrology Practice Software",
     "subhead": "RTM billing for CKD monitoring capturing $100-130 per patient monthly. Blood pressure and weight tracking through the clinIQ app. Coordination with dialysis centers, vascular surgery, and transplant services.",
     "stats": [
-      { "value": "$120K", "label": "annual RTM revenue (100 patients)" },
-      { "value": "CKD", "label": "monitoring" },
-      { "value": "Dialysis", "label": "coordination" }
+      {
+        "value": "$120K",
+        "label": "annual RTM revenue (100 patients)"
+      },
+      {
+        "value": "CKD",
+        "label": "monitoring"
+      },
+      {
+        "value": "Dialysis",
+        "label": "coordination"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "nephro-operations", "title": "The Nephrology Operations Model" },
-    { "id": "rtm-billing", "title": "RTM Billing for Kidney Disease" },
-    { "id": "patient-flow", "title": "Patient Flow" },
-    { "id": "care-coordination", "title": "Care Coordination" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "nephro-operations",
+      "title": "The Nephrology Operations Model"
+    },
+    {
+      "id": "rtm-billing",
+      "title": "RTM Billing for Kidney Disease"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Patient Flow"
+    },
+    {
+      "id": "care-coordination",
+      "title": "Care Coordination"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -78,14 +112,29 @@
   "cta": {
     "headline": "See Nephrology Operations Optimized",
     "subhead": "Fifteen-minute demo showing RTM enrollment, CKD monitoring, and dialysis coordination.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$120K", "label": "annual RTM potential" },
-      { "value": "BP", "label": "monitoring" },
-      { "value": "Dialysis", "label": "coordination" }
+      {
+        "value": "$120K",
+        "label": "annual RTM potential"
+      },
+      {
+        "value": "BP",
+        "label": "monitoring"
+      },
+      {
+        "value": "Dialysis",
+        "label": "coordination"
+      }
     ],
     "testimonial": {
       "quote": "Blood pressure tracking between visits improved control for our CKD patients. Weight monitoring catches fluid overload early. RTM generates revenue while improving outcomes. Coordination with dialysis and vascular surgery finally works smoothly.",
@@ -117,7 +166,17 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Nephrology",
-    "relevantConditions": ["Chronic Kidney Disease", "Hypertension", "Glomerulonephritis", "ESRD", "Kidney Transplant"],
-    "availableProcedures": ["Dialysis Management", "Kidney Biopsy", "Transplant Evaluation"]
+    "relevantConditions": [
+      "Chronic Kidney Disease",
+      "Hypertension",
+      "Glomerulonephritis",
+      "ESRD",
+      "Kidney Transplant"
+    ],
+    "availableProcedures": [
+      "Dialysis Management",
+      "Kidney Biopsy",
+      "Transplant Evaluation"
+    ]
   }
 }

@@ -5,28 +5,68 @@
   "wordCount": 2600,
   "publishDate": "2025-05-15",
   "meta": {
-    "title": "General Surgery Practice Software | Scheduling, Patient Flow & Coordination | clinIQ",
+    "title": "General Surgery Software | Scheduling, Patient Flow",
     "description": "Complete guide to general surgery practice operations. Surgical scheduling optimization. Pre-operative workflow management. Post-operative monitoring. Coordination with primary care, oncology, and gastroenterology.",
-    "keywords": ["general surgery software", "general surgery practice management", "surgical scheduling software", "general surgery patient flow", "surgical coordination software", "general surgery EHR integration"]
+    "keywords": [
+      "general surgery software",
+      "general surgery practice management",
+      "surgical scheduling software",
+      "general surgery patient flow",
+      "surgical coordination software",
+      "general surgery EHR integration"
+    ]
   },
   "hero": {
     "h1": "General Surgery Practice Software",
     "subhead": "Surgical scheduling optimization across elective and urgent cases. Pre-operative workflow ensuring patients arrive prepared. Post-operative monitoring through the clinIQ app. Coordination with primary care, oncology, and gastroenterology for comprehensive surgical care.",
     "stats": [
-      { "value": "Optimized", "label": "surgical scheduling" },
-      { "value": "Pre-op", "label": "workflow management" },
-      { "value": "Post-op", "label": "RTM monitoring" }
+      {
+        "value": "Optimized",
+        "label": "surgical scheduling"
+      },
+      {
+        "value": "Pre-op",
+        "label": "workflow management"
+      },
+      {
+        "value": "Post-op",
+        "label": "RTM monitoring"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "general-operations", "title": "The General Surgery Operations Model" },
-    { "id": "surgical-scheduling", "title": "Surgical Scheduling" },
-    { "id": "pre-op-workflow", "title": "Pre-Operative Workflow" },
-    { "id": "patient-flow", "title": "Clinic Patient Flow" },
-    { "id": "post-op-monitoring", "title": "Post-Operative Monitoring" },
-    { "id": "care-coordination", "title": "Care Coordination" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "general-operations",
+      "title": "The General Surgery Operations Model"
+    },
+    {
+      "id": "surgical-scheduling",
+      "title": "Surgical Scheduling"
+    },
+    {
+      "id": "pre-op-workflow",
+      "title": "Pre-Operative Workflow"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Clinic Patient Flow"
+    },
+    {
+      "id": "post-op-monitoring",
+      "title": "Post-Operative Monitoring"
+    },
+    {
+      "id": "care-coordination",
+      "title": "Care Coordination"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -94,14 +134,29 @@
   "cta": {
     "headline": "See General Surgery Operations Optimized",
     "subhead": "Fifteen-minute demo showing surgical scheduling, pre-operative workflow, post-operative monitoring, and multi-specialty coordination.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Learn More", "href": "/resources/surgical-scheduling" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Learn More",
+      "href": "/resources/surgical-scheduling"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "Optimized", "label": "OR utilization" },
-      { "value": "Pre-op", "label": "workflow tracking" },
-      { "value": "Post-op", "label": "complication detection" }
+      {
+        "value": "Optimized",
+        "label": "OR utilization"
+      },
+      {
+        "value": "Pre-op",
+        "label": "workflow tracking"
+      },
+      {
+        "value": "Post-op",
+        "label": "complication detection"
+      }
     ],
     "testimonial": {
       "quote": "Pre-operative workflow tracking eliminated our day-of-surgery surprises. Patients arrive prepared because we catch missing clearances before surgery day. Post-operative wound monitoring through photos lets us identify infections early. Scheduling coordination across elective and urgent cases finally works smoothly.",
@@ -133,7 +188,19 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "General Surgery",
-    "relevantConditions": ["Gallbladder Disease", "Hernia", "Appendicitis", "Colon Cancer", "Breast Cancer"],
-    "availableProcedures": ["Cholecystectomy", "Hernia Repair", "Appendectomy", "Colectomy", "Mastectomy"]
+    "relevantConditions": [
+      "Gallbladder Disease",
+      "Hernia",
+      "Appendicitis",
+      "Colon Cancer",
+      "Breast Cancer"
+    ],
+    "availableProcedures": [
+      "Cholecystectomy",
+      "Hernia Repair",
+      "Appendectomy",
+      "Colectomy",
+      "Mastectomy"
+    ]
   }
 }

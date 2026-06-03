@@ -155,18 +155,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }))
 
-  // Arabic language static pages
-  const arPages = [
-    'features/analytics','features/check-in','features/lobbyview',
-    'features/patient-flow','features/pre-auth','features/rtm','features/scheduling',
-    'locations/bahrain','locations/kuwait','locations/qatar',
-    'locations/saudi-arabia','locations/uae',
-  ].map(p => ({
-    url: `${BASE_URL}/ar/${p}`,
-    lastModified: now,
-    changeFrequency: 'monthly' as const,
-    priority: 0.5,
-  }))
+  // Arabic locale entries are intentionally NOT emitted here while ar/es content
+  // is still partial. Listing them would pair them as translation alternates of
+  // their English equivalents (`<xhtml:link rel="alternate" hreflang="ar">`) even
+  // though the body content is mostly English, which fails Semrush / Google's
+  // hreflang validation. Re-add per-page once translations are complete.
 
   return [
     ...staticPages,
@@ -178,6 +171,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...locations,
     ...blog,
     ...resources,
-    ...arPages,
   ]
 }

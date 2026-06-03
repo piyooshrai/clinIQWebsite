@@ -5,7 +5,7 @@
   "specialty": "cardiology",
   "wordCount": 1900,
   "meta": {
-    "title": "Cardiac RTM: Heart Failure and Hypertension Monitoring | clinIQ",
+    "title": "Cardiac RTM: Heart Failure and Hypertension",
     "description": "RTM for cardiology: daily weight monitoring for heart failure, home BP logging for hypertension, CPT 98975-98981 billing, and revenue math for 80 cardiac patients.",
     "keywords": [
       "cardiac RTM billing heart failure hypertension CPT 98975",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Cardiology Prior Auth: Imaging and Procedures", "href": "/blog/cardiology-prior-auth-imaging-procedures" },
-    { "title": "Cardiology Practice Workflow Optimization", "href": "/blog/cardiology-practice-workflow-optimization" }
+    {
+      "title": "Cardiology Prior Auth: Imaging and Procedures",
+      "href": "/blog/cardiology-prior-auth-imaging-procedures"
+    },
+    {
+      "title": "Cardiology Practice Workflow Optimization",
+      "href": "/blog/cardiology-practice-workflow-optimization"
+    }
   ],
   "pillarLink": {
     "title": "Cardiology Practice Software",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Launch Your Cardiac RTM Program This Month",
     "subhead": "clinIQ can identify eligible HF and HTN patients in your panel and have your RTM program billing within 30 days.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

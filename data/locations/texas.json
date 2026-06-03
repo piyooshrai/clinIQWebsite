@@ -4,18 +4,33 @@
   "abbr": "TX",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Texas Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Texas Clinics | Patient Flow",
     "description": "Clinic operations platform for Texas healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Texas Healthcare",
     "subhead": "Texas is one of the fastest-growing healthcare markets in the country, with Houston, Dallas-Fort Worth, Austin, and San Antonio clinics absorbing enormous patient volumes against a backdrop of persistent rural shortages and a large uninsured population. clinIQ helps Texas practices cut check-in time, automate prior auth, and unlock RTM billing revenue at scale.",
-    "cities": ["Houston", "Dallas", "Austin", "San Antonio", "Fort Worth"]
+    "cities": [
+      "Houston",
+      "Dallas",
+      "Austin",
+      "San Antonio",
+      "Fort Worth"
+    ]
   },
   "stats": [
-    { "value": "55,000+", "label": "Active Physician Practices" },
-    { "value": "57%", "label": "of Rural Counties with Provider Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "55,000+",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "57%",
+      "label": "of Rural Counties with Provider Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

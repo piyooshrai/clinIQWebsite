@@ -5,27 +5,64 @@
   "wordCount": 2400,
   "publishDate": "2025-05-20",
   "meta": {
-    "title": "Vascular Surgery Practice Software | Scheduling, Patient Flow & Coordination | clinIQ",
+    "title": "Vascular Surgery Software | Scheduling",
     "description": "Complete guide to vascular surgery practice operations. Surgical and endovascular scheduling. Pre-operative workflow management. Post-operative wound monitoring. Coordination with cardiology and primary care.",
-    "keywords": ["vascular surgery software", "vascular surgery practice management", "vascular surgery scheduling", "wound care monitoring", "vascular surgery patient flow", "vascular surgery EHR integration"]
+    "keywords": [
+      "vascular surgery software",
+      "vascular surgery practice management",
+      "vascular surgery scheduling",
+      "wound care monitoring",
+      "vascular surgery patient flow",
+      "vascular surgery EHR integration"
+    ]
   },
   "hero": {
     "h1": "Vascular Surgery Practice Software",
     "subhead": "Scheduling optimization across open surgical and endovascular procedures. Pre-operative workflow management. Post-operative wound monitoring through the clinIQ app. Coordination with cardiology, wound care, and primary care for comprehensive vascular management.",
     "stats": [
-      { "value": "Multi-modal", "label": "procedure scheduling" },
-      { "value": "Wound", "label": "monitoring integration" },
-      { "value": "Post-op", "label": "RTM tracking" }
+      {
+        "value": "Multi-modal",
+        "label": "procedure scheduling"
+      },
+      {
+        "value": "Wound",
+        "label": "monitoring integration"
+      },
+      {
+        "value": "Post-op",
+        "label": "RTM tracking"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "vascular-operations", "title": "The Vascular Surgery Operations Model" },
-    { "id": "scheduling", "title": "Procedure Scheduling" },
-    { "id": "patient-flow", "title": "Clinic Patient Flow" },
-    { "id": "post-op-monitoring", "title": "Post-Operative Monitoring" },
-    { "id": "care-coordination", "title": "Care Coordination" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "vascular-operations",
+      "title": "The Vascular Surgery Operations Model"
+    },
+    {
+      "id": "scheduling",
+      "title": "Procedure Scheduling"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Clinic Patient Flow"
+    },
+    {
+      "id": "post-op-monitoring",
+      "title": "Post-Operative Monitoring"
+    },
+    {
+      "id": "care-coordination",
+      "title": "Care Coordination"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -84,14 +121,29 @@
   "cta": {
     "headline": "See Vascular Surgery Operations Optimized",
     "subhead": "Fifteen-minute demo showing multi-modal scheduling, wound monitoring, and specialty coordination.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Learn More", "href": "/resources/surgical-coordination" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Learn More",
+      "href": "/resources/surgical-coordination"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "Multi-modal", "label": "procedure scheduling" },
-      { "value": "Remote", "label": "wound monitoring" },
-      { "value": "Coordinated", "label": "specialty care" }
+      {
+        "value": "Multi-modal",
+        "label": "procedure scheduling"
+      },
+      {
+        "value": "Remote",
+        "label": "wound monitoring"
+      },
+      {
+        "value": "Coordinated",
+        "label": "specialty care"
+      }
     ],
     "testimonial": {
       "quote": "Coordinating open vascular, endovascular, and vein procedures used to be chaos. Now scheduling shows the complete picture across modalities. Wound photo monitoring lets us catch problems before patients need to come in urgently. Cardiology coordination for our PAD patients finally works smoothly.",
@@ -123,7 +175,19 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Vascular Surgery",
-    "relevantConditions": ["Peripheral Arterial Disease", "Aortic Aneurysm", "Carotid Disease", "Venous Disease", "Dialysis Access"],
-    "availableProcedures": ["Bypass Graft", "Carotid Endarterectomy", "EVAR", "Angioplasty", "Vein Ablation"]
+    "relevantConditions": [
+      "Peripheral Arterial Disease",
+      "Aortic Aneurysm",
+      "Carotid Disease",
+      "Venous Disease",
+      "Dialysis Access"
+    ],
+    "availableProcedures": [
+      "Bypass Graft",
+      "Carotid Endarterectomy",
+      "EVAR",
+      "Angioplasty",
+      "Vein Ablation"
+    ]
   }
 }

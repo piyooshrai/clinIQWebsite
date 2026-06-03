@@ -5,29 +5,73 @@
   "wordCount": 3200,
   "publishDate": "2025-03-15",
   "meta": {
-    "title": "Sports Medicine Practice Software | RTM, Injury Tracking & Return-to-Play | clinIQ",
+    "title": "Sports Medicine Software | RTM, Injury Tracking",
     "description": "Complete guide to sports medicine practice operations. RTM billing for injury recovery monitoring. Wearable integration for activity and training load. Return-to-play progression tracking through mobile app. Coordination with PT, orthopedics, and athletic trainers.",
-    "keywords": ["sports medicine software", "sports medicine practice management", "sports medicine RTM billing", "return to play tracking", "athlete injury monitoring", "sports medicine patient portal", "concussion monitoring software"]
+    "keywords": [
+      "sports medicine software",
+      "sports medicine practice management",
+      "sports medicine RTM billing",
+      "return to play tracking",
+      "athlete injury monitoring",
+      "sports medicine patient portal",
+      "concussion monitoring software"
+    ]
   },
   "hero": {
     "h1": "Sports Medicine Practice Software",
     "subhead": "RTM billing for injury recovery capturing $100-130 per patient monthly. Wearable integration tracking training load and activity progression. Return-to-play protocols with objective milestone tracking. Coordination with physical therapy, orthopedic surgery, and athletic training programs.",
     "stats": [
-      { "value": "$120K", "label": "annual RTM revenue (100 patients)" },
-      { "value": "Real-time", "label": "wearable activity data" },
-      { "value": "Objective", "label": "return-to-play tracking" }
+      {
+        "value": "$120K",
+        "label": "annual RTM revenue (100 patients)"
+      },
+      {
+        "value": "Real-time",
+        "label": "wearable activity data"
+      },
+      {
+        "value": "Objective",
+        "label": "return-to-play tracking"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "sports-med-operations", "title": "The Sports Medicine Operations Model" },
-    { "id": "rtm-billing", "title": "RTM Billing for Injury Recovery" },
-    { "id": "wearable-integration", "title": "Wearable Integration for Athletes" },
-    { "id": "return-to-play", "title": "Return-to-Play Protocol Tracking" },
-    { "id": "concussion-monitoring", "title": "Concussion Monitoring" },
-    { "id": "care-coordination", "title": "Multi-Specialty Coordination" },
-    { "id": "athlete-engagement", "title": "Athlete Engagement" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "sports-med-operations",
+      "title": "The Sports Medicine Operations Model"
+    },
+    {
+      "id": "rtm-billing",
+      "title": "RTM Billing for Injury Recovery"
+    },
+    {
+      "id": "wearable-integration",
+      "title": "Wearable Integration for Athletes"
+    },
+    {
+      "id": "return-to-play",
+      "title": "Return-to-Play Protocol Tracking"
+    },
+    {
+      "id": "concussion-monitoring",
+      "title": "Concussion Monitoring"
+    },
+    {
+      "id": "care-coordination",
+      "title": "Multi-Specialty Coordination"
+    },
+    {
+      "id": "athlete-engagement",
+      "title": "Athlete Engagement"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -108,14 +152,29 @@
   "cta": {
     "headline": "See Sports Medicine Operations Optimized",
     "subhead": "Fifteen-minute demo showing RTM enrollment, wearable data integration, return-to-play protocol tracking, and coordination with PT and orthopedics. See how sports medicine practices capture $120,000+ annually in RTM revenue.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Your RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Your RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$120K", "label": "annual RTM revenue potential" },
-      { "value": "Real-time", "label": "wearable activity data" },
-      { "value": "Documented", "label": "return-to-play clearance" }
+      {
+        "value": "$120K",
+        "label": "annual RTM revenue potential"
+      },
+      {
+        "value": "Real-time",
+        "label": "wearable activity data"
+      },
+      {
+        "value": "Documented",
+        "label": "return-to-play clearance"
+      }
     ],
     "testimonial": {
       "quote": "Our athletes already tracked everything with their watches. Now we actually see that data and use it clinically. RTM billing captures revenue for monitoring we were doing anyway through texts and calls. Return-to-play documentation gives us confidence in clearance decisions. Athletes love using the app because it matches how they already think about their training.",
@@ -147,7 +206,19 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Sports Medicine",
-    "relevantConditions": ["ACL Injury", "Rotator Cuff Injury", "Concussion", "Stress Fracture", "Tendinopathy", "Muscle Strain"],
-    "availableProcedures": ["Return-to-Play Assessment", "Joint Injection", "Concussion Evaluation", "Pre-Participation Physical"]
+    "relevantConditions": [
+      "ACL Injury",
+      "Rotator Cuff Injury",
+      "Concussion",
+      "Stress Fracture",
+      "Tendinopathy",
+      "Muscle Strain"
+    ],
+    "availableProcedures": [
+      "Return-to-Play Assessment",
+      "Joint Injection",
+      "Concussion Evaluation",
+      "Pre-Participation Physical"
+    ]
   }
 }

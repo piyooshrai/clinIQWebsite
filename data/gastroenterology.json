@@ -5,27 +5,64 @@
   "wordCount": 2600,
   "publishDate": "2025-06-12",
   "meta": {
-    "title": "Gastroenterology Practice Software | Scheduling, Patient Flow & Procedure Coordination | clinIQ",
+    "title": "Gastroenterology Software | Scheduling",
     "description": "Complete guide to gastroenterology practice operations. Endoscopy scheduling optimization. High-volume patient flow management. Pre-procedure workflow. Coordination with primary care, surgery, and oncology.",
-    "keywords": ["gastroenterology software", "GI practice management", "endoscopy scheduling", "colonoscopy workflow", "gastroenterology patient flow", "GI EHR integration"]
+    "keywords": [
+      "gastroenterology software",
+      "GI practice management",
+      "endoscopy scheduling",
+      "colonoscopy workflow",
+      "gastroenterology patient flow",
+      "GI EHR integration"
+    ]
   },
   "hero": {
     "h1": "Gastroenterology Practice Software",
     "subhead": "Endoscopy scheduling optimization maximizing procedure volume. High-volume clinic flow management. Pre-procedure preparation workflow. Coordination with primary care, general surgery, and oncology for comprehensive GI care.",
     "stats": [
-      { "value": "High-volume", "label": "endoscopy scheduling" },
-      { "value": "Pre-procedure", "label": "workflow management" },
-      { "value": "Seamless", "label": "care coordination" }
+      {
+        "value": "High-volume",
+        "label": "endoscopy scheduling"
+      },
+      {
+        "value": "Pre-procedure",
+        "label": "workflow management"
+      },
+      {
+        "value": "Seamless",
+        "label": "care coordination"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "gi-operations", "title": "The Gastroenterology Operations Model" },
-    { "id": "endoscopy-scheduling", "title": "Endoscopy Scheduling" },
-    { "id": "pre-procedure", "title": "Pre-Procedure Workflow" },
-    { "id": "patient-flow", "title": "Clinic Patient Flow" },
-    { "id": "care-coordination", "title": "Care Coordination" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "gi-operations",
+      "title": "The Gastroenterology Operations Model"
+    },
+    {
+      "id": "endoscopy-scheduling",
+      "title": "Endoscopy Scheduling"
+    },
+    {
+      "id": "pre-procedure",
+      "title": "Pre-Procedure Workflow"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Clinic Patient Flow"
+    },
+    {
+      "id": "care-coordination",
+      "title": "Care Coordination"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -88,14 +125,29 @@
   "cta": {
     "headline": "See Gastroenterology Operations Optimized",
     "subhead": "Fifteen-minute demo showing endoscopy scheduling, pre-procedure workflow, and clinic patient flow management.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Learn More", "href": "/resources/procedure-scheduling" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Learn More",
+      "href": "/resources/procedure-scheduling"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "Optimized", "label": "endoscopy scheduling" },
-      { "value": "Pre-procedure", "label": "workflow" },
-      { "value": "High-volume", "label": "clinic flow" }
+      {
+        "value": "Optimized",
+        "label": "endoscopy scheduling"
+      },
+      {
+        "value": "Pre-procedure",
+        "label": "workflow"
+      },
+      {
+        "value": "High-volume",
+        "label": "clinic flow"
+      }
     ],
     "testimonial": {
       "quote": "Incomplete bowel preps were costing us procedures and frustrating patients. App-based instructions with reminders improved compliance dramatically. Scheduling optimization increased our colonoscopy volume without adding rooms. Pre-procedure workflow catches problems before patients arrive.",
@@ -127,7 +179,20 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Gastroenterology",
-    "relevantConditions": ["GERD", "IBD", "IBS", "Colon Polyps", "Hepatitis", "Cirrhosis"],
-    "availableProcedures": ["Colonoscopy", "EGD", "ERCP", "Capsule Endoscopy", "Liver Biopsy"]
+    "relevantConditions": [
+      "GERD",
+      "IBD",
+      "IBS",
+      "Colon Polyps",
+      "Hepatitis",
+      "Cirrhosis"
+    ],
+    "availableProcedures": [
+      "Colonoscopy",
+      "EGD",
+      "ERCP",
+      "Capsule Endoscopy",
+      "Liver Biopsy"
+    ]
   }
 }

@@ -4,18 +4,33 @@
   "abbr": "UK",
   "region": "Europe",
   "meta": {
-    "title": "clinIQ for UK Private Clinics | Patient Flow & Remote Monitoring",
+    "title": "clinIQ for UK Private Clinics | Patient Flow",
     "description": "Clinic operations platform for UK private healthcare providers. Reduce wait times, automate check-in, capture remote monitoring revenue. Works with any clinical system."
   },
   "hero": {
     "h1": "clinIQ for UK Healthcare",
     "subhead": "With NHS waiting lists exceeding 7.5 million, UK patients are turning to private clinics in record numbers — and those clinics need operations infrastructure to match demand. clinIQ brings real-time patient flow, automated check-in, and remote therapeutic monitoring to UK private practices, working alongside your existing clinical system to reduce admin burden and grow revenue.",
-    "cities": ["London", "Manchester", "Birmingham", "Edinburgh", "Bristol"]
+    "cities": [
+      "London",
+      "Manchester",
+      "Birmingham",
+      "Edinburgh",
+      "Bristol"
+    ]
   },
   "stats": [
-    { "value": "600+", "label": "Registered Independent Sector Treatment Centres & Private Hospitals" },
-    { "value": "18 wks", "label": "NHS Referral-to-Treatment Target Routinely Breached" },
-    { "value": "£144K", "label": "Annual Remote Monitoring Revenue per 100 Patients" }
+    {
+      "value": "600+",
+      "label": "Registered Independent Sector Treatment Centres & Private Hospitals"
+    },
+    {
+      "value": "18 wks",
+      "label": "NHS Referral-to-Treatment Target Routinely Breached"
+    },
+    {
+      "value": "£144K",
+      "label": "Annual Remote Monitoring Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {
@@ -45,11 +60,31 @@
     }
   ],
   "subLocations": [
-    { "slug": "england",          "name": "England",          "desc": "NHS GP referral workflows, CQC compliance, 7.5M waiting list driving private growth." },
-    { "slug": "scotland",         "name": "Scotland",         "desc": "HIS regulation, NHS Scotland integration, private practice expansion." },
-    { "slug": "wales",            "name": "Wales",            "desc": "HIW regulation, NHS Wales outsourcing, bilingual patient communication." },
-    { "slug": "northern-ireland", "name": "Northern Ireland", "desc": "HSC structure, 500K+ waiting — 1 in 4 residents — cross-border Ireland dynamic." },
-    { "slug": "ireland",          "name": "Ireland",          "desc": "57% PHI coverage (EU's highest), VHI/Laya/Irish Life, NTPF wait times." }
+    {
+      "slug": "england",
+      "name": "England",
+      "desc": "NHS GP referral workflows, CQC compliance, 7.5M waiting list driving private growth."
+    },
+    {
+      "slug": "scotland",
+      "name": "Scotland",
+      "desc": "HIS regulation, NHS Scotland integration, private practice expansion."
+    },
+    {
+      "slug": "wales",
+      "name": "Wales",
+      "desc": "HIW regulation, NHS Wales outsourcing, bilingual patient communication."
+    },
+    {
+      "slug": "northern-ireland",
+      "name": "Northern Ireland",
+      "desc": "HSC structure, 500K+ waiting — 1 in 4 residents — cross-border Ireland dynamic."
+    },
+    {
+      "slug": "ireland",
+      "name": "Ireland",
+      "desc": "57% PHI coverage (EU's highest), VHI/Laya/Irish Life, NTPF wait times."
+    }
   ],
   "cta": {
     "headline": "Ready to transform your UK practice?",

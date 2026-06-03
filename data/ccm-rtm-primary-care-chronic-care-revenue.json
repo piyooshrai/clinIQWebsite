@@ -5,7 +5,7 @@
   "specialty": "primary-care",
   "wordCount": 1900,
   "meta": {
-    "title": "CCM + RTM for Primary Care: Maximizing Chronic Care Revenue | clinIQ",
+    "title": "CCM + RTM for Primary Care: Maximizing Chronic",
     "description": "Combine CCM (99490, 99491) and RTM (98975-98981) to maximize chronic care revenue in primary care. Revenue math for 100 patients inside.",
     "keywords": [
       "CCM RTM primary care billing 2025",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Same-Day Access in Primary Care: Making It Work", "href": "/blog/same-day-access-primary-care" },
-    { "title": "Primary Care Patient Flow for High-Volume Practices", "href": "/blog/primary-care-patient-flow-high-volume" }
+    {
+      "title": "Same-Day Access in Primary Care: Making It Work",
+      "href": "/blog/same-day-access-primary-care"
+    },
+    {
+      "title": "Primary Care Patient Flow for High-Volume Practices",
+      "href": "/blog/primary-care-patient-flow-high-volume"
+    }
   ],
   "pillarLink": {
     "title": "Primary Care Practice Software",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Start Capturing CCM + RTM Revenue This Month",
     "subhead": "clinIQ can identify eligible patients in your panel and launch your combined chronic care program in under two weeks.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

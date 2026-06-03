@@ -4,18 +4,33 @@
   "abbr": "ND",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for North Dakota Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for North Dakota Clinics | Patient Flow",
     "description": "Clinic operations platform for North Dakota healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for North Dakota Healthcare",
     "subhead": "North Dakota's small but essential clinic market spans Fargo and Bismarck specialty practices and vast rural communities where every administrative hour matters. clinIQ helps North Dakota clinics reduce check-in time, automate prior authorization, and capture RTM revenue that supports the state's physical therapy and orthopedic sectors.",
-    "cities": ["Fargo", "Bismarck", "Grand Forks", "Minot", "West Fargo"]
+    "cities": [
+      "Fargo",
+      "Bismarck",
+      "Grand Forks",
+      "Minot",
+      "West Fargo"
+    ]
   },
   "stats": [
-    { "value": "1,400+", "label": "Active Physician Practices" },
-    { "value": "72%", "label": "of Counties with Primary Care Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "1,400+",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "72%",
+      "label": "of Counties with Primary Care Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

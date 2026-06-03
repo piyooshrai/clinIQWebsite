@@ -4,18 +4,33 @@
   "abbr": "CT",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Connecticut Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Connecticut Clinics | Patient Flow",
     "description": "Clinic operations platform for Connecticut healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Connecticut Healthcare",
     "subhead": "Connecticut's small geography belies an outsized healthcare market — the state supports a dense network of specialty practices, academic medical centers, and multispecialty groups serving a high-income, high-expectation patient population alongside significant pockets of urban underservice in Hartford, Bridgeport, and New Haven. clinIQ helps Connecticut practices compete on patient experience while cutting administrative costs: digital check-in, real-time patient flow, automated prior authorization, and RTM billing revenue built into the existing workflow.",
-    "cities": ["Hartford", "New Haven", "Stamford", "Bridgeport", "Waterbury"]
+    "cities": [
+      "Hartford",
+      "New Haven",
+      "Stamford",
+      "Bridgeport",
+      "Waterbury"
+    ]
   },
   "stats": [
-    { "value": "~9,500", "label": "Active Physician Practices" },
-    { "value": "25%+", "label": "of Areas with Provider Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "~9,500",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "25%+",
+      "label": "of Areas with Provider Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

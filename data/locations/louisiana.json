@@ -4,18 +4,33 @@
   "abbr": "LA",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Louisiana Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Louisiana Clinics | Patient Flow",
     "description": "Clinic operations platform for Louisiana healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Louisiana Healthcare",
     "subhead": "Louisiana's outpatient clinics operate under some of the highest administrative loads in the South — a large Medicaid population, complex managed care payer relationships, and persistent rural provider shortages that concentrate care demand in Baton Rouge, New Orleans, and Shreveport. clinIQ helps Louisiana clinics cut check-in time, manage patient flow in real time, automate prior authorization across Medicaid managed care plans, and unlock RTM revenue from the state's substantial chronic disease and physical therapy population.",
-    "cities": ["New Orleans", "Baton Rouge", "Shreveport", "Lafayette", "Lake Charles"]
+    "cities": [
+      "New Orleans",
+      "Baton Rouge",
+      "Shreveport",
+      "Lafayette",
+      "Lake Charles"
+    ]
   },
   "stats": [
-    { "value": "11,500+", "label": "Licensed Physician Practices" },
-    { "value": "63%", "label": "Counties/Parishes with Provider Shortages" },
-    { "value": "$144K+", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "11,500+",
+      "label": "Licensed Physician Practices"
+    },
+    {
+      "value": "63%",
+      "label": "Counties/Parishes with Provider Shortages"
+    },
+    {
+      "value": "$144K+",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

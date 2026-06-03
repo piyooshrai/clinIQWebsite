@@ -4,18 +4,33 @@
   "abbr": "RI",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Rhode Island Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Rhode Island Clinics | Patient Flow",
     "description": "Clinic operations platform for Rhode Island healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Rhode Island Healthcare",
     "subhead": "Rhode Island is the nation's smallest state but hosts a sophisticated healthcare market anchored by major academic medical centers and a dense network of specialty practices across Providence, Warwick, and the greater metro area. clinIQ helps Rhode Island clinics run more efficiently, automate prior authorization, and capture RTM revenue from the state's active physical therapy and orthopedic patient base.",
-    "cities": ["Providence", "Warwick", "Cranston", "Pawtucket", "East Providence"]
+    "cities": [
+      "Providence",
+      "Warwick",
+      "Cranston",
+      "Pawtucket",
+      "East Providence"
+    ]
   },
   "stats": [
-    { "value": "2,800+", "label": "Active Physician Practices" },
-    { "value": "30%", "label": "of Census Areas with Provider Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "2,800+",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "30%",
+      "label": "of Census Areas with Provider Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

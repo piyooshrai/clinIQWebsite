@@ -5,28 +5,68 @@
   "wordCount": 2600,
   "publishDate": "2025-06-01",
   "meta": {
-    "title": "Ophthalmology Practice Software | Scheduling, Patient Flow & Surgical Coordination | clinIQ",
+    "title": "Ophthalmology Software | Scheduling, Patient Flow",
     "description": "Complete guide to ophthalmology practice operations. High-volume clinic flow management. Surgical scheduling for cataract and retinal procedures. Post-operative monitoring. Patient communication for appointment-intensive specialty.",
-    "keywords": ["ophthalmology software", "ophthalmology practice management", "cataract surgery scheduling", "eye clinic patient flow", "ophthalmology EHR integration", "retina practice software"]
+    "keywords": [
+      "ophthalmology software",
+      "ophthalmology practice management",
+      "cataract surgery scheduling",
+      "eye clinic patient flow",
+      "ophthalmology EHR integration",
+      "retina practice software"
+    ]
   },
   "hero": {
     "h1": "Ophthalmology Practice Software",
     "subhead": "High-volume clinic flow managing 40+ patients daily. Surgical scheduling for cataract, retina, and glaucoma procedures. Post-operative monitoring through the clinIQ app. Patient communication for appointment-intensive eye care.",
     "stats": [
-      { "value": "40+", "label": "patients daily manageable" },
-      { "value": "High-volume", "label": "flow optimization" },
-      { "value": "Surgical", "label": "coordination" }
+      {
+        "value": "40+",
+        "label": "patients daily manageable"
+      },
+      {
+        "value": "High-volume",
+        "label": "flow optimization"
+      },
+      {
+        "value": "Surgical",
+        "label": "coordination"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "ophtho-operations", "title": "The Ophthalmology Operations Model" },
-    { "id": "patient-flow", "title": "High-Volume Patient Flow" },
-    { "id": "scheduling", "title": "Clinic and Surgical Scheduling" },
-    { "id": "surgical-coordination", "title": "Surgical Coordination" },
-    { "id": "post-op-monitoring", "title": "Post-Operative Monitoring" },
-    { "id": "patient-communication", "title": "Patient Communication" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "ophtho-operations",
+      "title": "The Ophthalmology Operations Model"
+    },
+    {
+      "id": "patient-flow",
+      "title": "High-Volume Patient Flow"
+    },
+    {
+      "id": "scheduling",
+      "title": "Clinic and Surgical Scheduling"
+    },
+    {
+      "id": "surgical-coordination",
+      "title": "Surgical Coordination"
+    },
+    {
+      "id": "post-op-monitoring",
+      "title": "Post-Operative Monitoring"
+    },
+    {
+      "id": "patient-communication",
+      "title": "Patient Communication"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -94,14 +134,29 @@
   "cta": {
     "headline": "See Ophthalmology Operations Optimized",
     "subhead": "Fifteen-minute demo showing high-volume patient flow, surgical scheduling, and post-operative monitoring for eye care practices.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Learn More", "href": "/resources/high-volume-flow" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Learn More",
+      "href": "/resources/high-volume-flow"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "40+", "label": "patients daily" },
-      { "value": "Multi-station", "label": "flow tracking" },
-      { "value": "Surgical", "label": "coordination" }
+      {
+        "value": "40+",
+        "label": "patients daily"
+      },
+      {
+        "value": "Multi-station",
+        "label": "flow tracking"
+      },
+      {
+        "value": "Surgical",
+        "label": "coordination"
+      }
     ],
     "testimonial": {
       "quote": "Multi-station flow tracking transformed our clinic. We see where every patient is without asking. Dilation timing is visible so we optimize the wait. Post-operative messaging cut phone volume for cataract patients. The efficiency gains let us see more patients without adding staff.",
@@ -133,7 +188,19 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Ophthalmology",
-    "relevantConditions": ["Cataracts", "Glaucoma", "Macular Degeneration", "Diabetic Retinopathy", "Retinal Detachment"],
-    "availableProcedures": ["Cataract Surgery", "Glaucoma Surgery", "Retinal Surgery", "Intravitreal Injection", "Laser Treatment"]
+    "relevantConditions": [
+      "Cataracts",
+      "Glaucoma",
+      "Macular Degeneration",
+      "Diabetic Retinopathy",
+      "Retinal Detachment"
+    ],
+    "availableProcedures": [
+      "Cataract Surgery",
+      "Glaucoma Surgery",
+      "Retinal Surgery",
+      "Intravitreal Injection",
+      "Laser Treatment"
+    ]
   }
 }

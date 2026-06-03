@@ -4,18 +4,33 @@
   "abbr": "MA",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Massachusetts Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Massachusetts Clinics | Patient Flow",
     "description": "Clinic operations platform for Massachusetts healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Massachusetts Healthcare",
     "subhead": "Massachusetts has near-universal health coverage and a healthcare economy anchored by world-renowned academic medical centers — yet independent and community practices across the state contend with complex prior authorization from MassHealth MCOs and commercial ACOs, severe clinical staff shortages, and appointment wait times that rank among the longest in the country. clinIQ helps Massachusetts practices from Boston to Springfield reduce intake burden, manage patient flow in real time, automate authorization, and capture RTM revenue from the state's large specialty outpatient population.",
-    "cities": ["Boston", "Worcester", "Springfield", "Cambridge", "Lowell"]
+    "cities": [
+      "Boston",
+      "Worcester",
+      "Springfield",
+      "Cambridge",
+      "Lowell"
+    ]
   },
   "stats": [
-    { "value": "22,000+", "label": "Licensed Physician Practices" },
-    { "value": "31%", "label": "Areas with Primary Care Provider Shortages" },
-    { "value": "$144K+", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "22,000+",
+      "label": "Licensed Physician Practices"
+    },
+    {
+      "value": "31%",
+      "label": "Areas with Primary Care Provider Shortages"
+    },
+    {
+      "value": "$144K+",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

@@ -5,28 +5,69 @@
   "wordCount": 3400,
   "publishDate": "2025-05-05",
   "meta": {
-    "title": "Spine Surgery Practice Software | Pre-Auth, Patient Flow & RTM | clinIQ",
+    "title": "Spine Surgery Software | Pre-Auth, Patient Flow",
     "description": "Complete guide to spine surgery practice operations. Prior authorization automation addressing 57% denial rates. Post-operative RTM monitoring. Coordination with pain management and physical therapy. LOMN templates for fusion, decompression, and disc procedures.",
-    "keywords": ["spine surgery software", "spine surgery practice management", "spine surgery prior authorization", "lumbar fusion authorization", "spine surgery patient flow", "spine surgery EHR integration", "neurosurgery spine software"]
+    "keywords": [
+      "spine surgery software",
+      "spine surgery practice management",
+      "spine surgery prior authorization",
+      "lumbar fusion authorization",
+      "spine surgery patient flow",
+      "spine surgery EHR integration",
+      "neurosurgery spine software"
+    ]
   },
   "hero": {
     "h1": "Spine Surgery Practice Software",
     "subhead": "Prior authorization automation addressing 57% initial denial rates for spine procedures. LOMN templates for fusion, decompression, and disc procedures. Post-operative RTM monitoring through the clinIQ app. Coordination with pain management, physical therapy, and referring physicians.",
     "stats": [
-      { "value": "57%", "label": "denial rate reduced" },
-      { "value": "157 days", "label": "delay eliminated" },
-      { "value": "$130K", "label": "annual RTM revenue potential" }
+      {
+        "value": "57%",
+        "label": "denial rate reduced"
+      },
+      {
+        "value": "157 days",
+        "label": "delay eliminated"
+      },
+      {
+        "value": "$130K",
+        "label": "annual RTM revenue potential"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "spine-operations", "title": "The Spine Surgery Authorization Crisis" },
-    { "id": "prior-auth", "title": "Prior Authorization Automation" },
-    { "id": "conservative-care", "title": "Conservative Care Documentation" },
-    { "id": "surgical-coordination", "title": "Surgical Coordination" },
-    { "id": "post-op-monitoring", "title": "Post-Operative RTM Monitoring" },
-    { "id": "care-coordination", "title": "Care Coordination" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "spine-operations",
+      "title": "The Spine Surgery Authorization Crisis"
+    },
+    {
+      "id": "prior-auth",
+      "title": "Prior Authorization Automation"
+    },
+    {
+      "id": "conservative-care",
+      "title": "Conservative Care Documentation"
+    },
+    {
+      "id": "surgical-coordination",
+      "title": "Surgical Coordination"
+    },
+    {
+      "id": "post-op-monitoring",
+      "title": "Post-Operative RTM Monitoring"
+    },
+    {
+      "id": "care-coordination",
+      "title": "Care Coordination"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -102,14 +143,29 @@
   "cta": {
     "headline": "See Spine Surgery Operations Transformed",
     "subhead": "Fifteen-minute demo showing prior authorization automation addressing 57% denial rates, LOMN templates for spine procedures, and post-operative RTM monitoring. See how spine practices eliminate 157-day delays.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Authorization Savings", "href": "/resources/auth-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Authorization Savings",
+      "href": "/resources/auth-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "57%", "label": "denial rate addressed" },
-      { "value": "157 days", "label": "delay eliminated" },
-      { "value": "5 min", "label": "LOMN generation" }
+      {
+        "value": "57%",
+        "label": "denial rate addressed"
+      },
+      {
+        "value": "157 days",
+        "label": "delay eliminated"
+      },
+      {
+        "value": "5 min",
+        "label": "LOMN generation"
+      }
     ],
     "testimonial": {
       "quote": "We were losing half our cases to initial denials and patients waited months for appeals. Now LOMN templates include everything payers want to see from the start. First-pass approvals jumped dramatically. The 157-day average delay became a memory. Post-operative RTM lets us catch complications before patients show up in the ER.",
@@ -141,7 +197,19 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Spine Surgery",
-    "relevantConditions": ["Herniated Disc", "Spinal Stenosis", "Spondylolisthesis", "Degenerative Disc Disease", "Cervical Myelopathy"],
-    "availableProcedures": ["Lumbar Fusion", "Cervical Fusion", "Laminectomy", "Microdiscectomy", "Disc Replacement"]
+    "relevantConditions": [
+      "Herniated Disc",
+      "Spinal Stenosis",
+      "Spondylolisthesis",
+      "Degenerative Disc Disease",
+      "Cervical Myelopathy"
+    ],
+    "availableProcedures": [
+      "Lumbar Fusion",
+      "Cervical Fusion",
+      "Laminectomy",
+      "Microdiscectomy",
+      "Disc Replacement"
+    ]
   }
 }

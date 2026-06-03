@@ -5,7 +5,7 @@
   "specialty": "urgent-care",
   "wordCount": 1900,
   "meta": {
-    "title": "Urgent Care Patient Flow: Managing Unpredictable Volume | clinIQ",
+    "title": "Urgent Care Patient Flow: Managing Unpredictable",
     "description": "Manage urgent care patient flow for 50-150 patients per day with unpredictable arrivals. Real-time capacity, dynamic staffing, door-to-provider time under 20 min.",
     "keywords": [
       "urgent care patient flow management unpredictable volume",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Urgent Care Wait Time Reduction Strategies", "href": "/blog/urgent-care-wait-time-reduction" },
-    { "title": "Urgent Care Check-In: Kiosk vs Phone-Based", "href": "/blog/urgent-care-check-in-kiosk-phone" }
+    {
+      "title": "Urgent Care Wait Time Reduction Strategies",
+      "href": "/blog/urgent-care-wait-time-reduction"
+    },
+    {
+      "title": "Urgent Care Check-In: Kiosk vs Phone-Based",
+      "href": "/blog/urgent-care-check-in-kiosk-phone"
+    }
   ],
   "pillarLink": {
     "title": "Urgent Care Practice Software",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Hold Door-to-Provider Time Under 20 Minutes Every Day",
     "subhead": "clinIQ gives urgent care teams the real-time data and staffing tools to stay ahead of volume spikes before they become patient experience problems.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

@@ -4,18 +4,33 @@
   "abbr": "OH",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Ohio Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Ohio Clinics | Patient Flow",
     "description": "Clinic operations platform for Ohio healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Ohio Healthcare",
     "subhead": "Ohio is home to some of the nation's most recognized health systems alongside thousands of independent specialty and primary care practices navigating complex multi-payer environments across Columbus, Cleveland, Cincinnati, and beyond. clinIQ helps Ohio clinics reduce check-in friction, automate prior authorization, and capture RTM revenue at scale.",
-    "cities": ["Columbus", "Cleveland", "Cincinnati", "Toledo", "Akron"]
+    "cities": [
+      "Columbus",
+      "Cleveland",
+      "Cincinnati",
+      "Toledo",
+      "Akron"
+    ]
   },
   "stats": [
-    { "value": "24,000+", "label": "Active Physician Practices" },
-    { "value": "45%", "label": "of Rural Counties with Provider Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "24,000+",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "45%",
+      "label": "of Rural Counties with Provider Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

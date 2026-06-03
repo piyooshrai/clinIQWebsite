@@ -4,18 +4,33 @@
   "abbr": "VA",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Virginia Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Virginia Clinics | Patient Flow",
     "description": "Clinic operations platform for Virginia healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Virginia Healthcare",
     "subhead": "Virginia's healthcare market spans the dense Northern Virginia healthcare corridor adjacent to the nation's capital, a robust Richmond market, and the Hampton Roads healthcare hub, alongside rural Appalachian and Southside communities with deep access challenges. clinIQ helps Virginia practices across all these markets reduce check-in time, cut prior authorization burden, and capture RTM revenue at scale.",
-    "cities": ["Virginia Beach", "Norfolk", "Chesapeake", "Richmond", "Arlington"]
+    "cities": [
+      "Virginia Beach",
+      "Norfolk",
+      "Chesapeake",
+      "Richmond",
+      "Arlington"
+    ]
   },
   "stats": [
-    { "value": "17,000+", "label": "Active Physician Practices" },
-    { "value": "45%", "label": "of Rural Counties with Provider Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "17,000+",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "45%",
+      "label": "of Rural Counties with Provider Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

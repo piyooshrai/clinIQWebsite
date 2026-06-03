@@ -4,18 +4,35 @@
   "abbr": "SA",
   "region": "Middle East",
   "meta": {
-    "title": "clinIQ for Saudi Arabia Clinics | Patient Flow & Remote Monitoring Software",
+    "title": "clinIQ for Saudi Arabia Clinics | Patient Flow",
     "description": "Clinic operations platform for Saudi Arabia healthcare providers. Reduce wait times, automate CCHI pre-authorization, capture remote monitoring revenue. Works with Wareed and any EMR."
   },
   "hero": {
     "h1": "clinIQ for Saudi Arabia Healthcare",
     "subhead": "Vision 2030 is fundamentally reshaping Saudi Arabia's healthcare landscape — privatizing hospitals, digitizing records through NPHIES, and expanding insurance mandates across a population of 36 million. Private clinics that modernize their operations now will capture the patients, contracts, and reimbursement revenue that analog practices cannot. clinIQ is the operations layer that makes your clinic competitive in Saudi Arabia's rapidly evolving healthcare economy.",
-    "cities": ["Riyadh", "Jeddah", "Mecca", "Medina", "Dammam", "Khobar", "Tabuk"]
+    "cities": [
+      "Riyadh",
+      "Jeddah",
+      "Mecca",
+      "Medina",
+      "Dammam",
+      "Khobar",
+      "Tabuk"
+    ]
   },
   "stats": [
-    { "value": "12,000+", "label": "Licensed Private Healthcare Facilities" },
-    { "value": "40%+", "label": "Private Sector Share and Growing Under Vision 2030" },
-    { "value": "$144K", "label": "Annual Remote Monitoring Revenue per 100 Patients" }
+    {
+      "value": "12,000+",
+      "label": "Licensed Private Healthcare Facilities"
+    },
+    {
+      "value": "40%+",
+      "label": "Private Sector Share and Growing Under Vision 2030"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual Remote Monitoring Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {
@@ -45,9 +62,21 @@
     }
   ],
   "subLocations": [
-    { "slug": "riyadh", "name": "Riyadh", "desc": "Largest private clinic market in KSA, high-volume specialist networks, Vision 2030 digital mandates." },
-    { "slug": "jeddah", "name": "Jeddah", "desc": "High-volume private polyclinics, pilgrimage season surge capacity, Red Sea coast medical tourism." },
-    { "slug": "dammam", "name": "Dammam", "desc": "Eastern Province hub, industrial health networks, occupational medicine and oil sector workforce." }
+    {
+      "slug": "riyadh",
+      "name": "Riyadh",
+      "desc": "Largest private clinic market in KSA, high-volume specialist networks, Vision 2030 digital mandates."
+    },
+    {
+      "slug": "jeddah",
+      "name": "Jeddah",
+      "desc": "High-volume private polyclinics, pilgrimage season surge capacity, Red Sea coast medical tourism."
+    },
+    {
+      "slug": "dammam",
+      "name": "Dammam",
+      "desc": "Eastern Province hub, industrial health networks, occupational medicine and oil sector workforce."
+    }
   ],
   "cta": {
     "headline": "Ready to transform your Saudi Arabia practice?",

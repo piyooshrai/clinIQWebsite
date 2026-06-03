@@ -4,18 +4,33 @@
   "abbr": "UT",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Utah Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Utah Clinics | Patient Flow",
     "description": "Clinic operations platform for Utah healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Utah Healthcare",
     "subhead": "Utah's booming population growth and exceptionally active outdoor culture are driving rapid expansion of orthopedic, physical therapy, and sports medicine practices across the Wasatch Front. clinIQ helps Utah clinics reduce check-in time, automate prior authorization, and capture RTM revenue from one of the nation's most physically active patient populations.",
-    "cities": ["Salt Lake City", "West Valley City", "Provo", "West Jordan", "Orem"]
+    "cities": [
+      "Salt Lake City",
+      "West Valley City",
+      "Provo",
+      "West Jordan",
+      "Orem"
+    ]
   },
   "stats": [
-    { "value": "5,500+", "label": "Active Physician Practices" },
-    { "value": "40%", "label": "of Rural Counties with Provider Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "5,500+",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "40%",
+      "label": "of Rural Counties with Provider Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

@@ -5,27 +5,65 @@
   "wordCount": 3200,
   "publishDate": "2025-06-05",
   "meta": {
-    "title": "Cardiology Practice Software | RTM, Patient Flow & Care Coordination | clinIQ",
+    "title": "Cardiology Software | RTM, Patient Flow",
     "description": "Complete guide to cardiology practice operations. RTM billing for cardiac conditions. High-volume patient flow management. Wearable integration for heart rate and activity data. Coordination with primary care and cardiac surgery.",
-    "keywords": ["cardiology software", "cardiology practice management", "cardiac RTM billing", "cardiology patient flow", "heart failure monitoring", "cardiology EHR integration", "cardiac rehabilitation software"]
+    "keywords": [
+      "cardiology software",
+      "cardiology practice management",
+      "cardiac RTM billing",
+      "cardiology patient flow",
+      "heart failure monitoring",
+      "cardiology EHR integration",
+      "cardiac rehabilitation software"
+    ]
   },
   "hero": {
     "h1": "Cardiology Practice Software",
     "subhead": "RTM billing for cardiac conditions capturing $110-140 per patient monthly. High-volume patient flow with multi-station testing. Wearable integration for heart rate, activity, and sleep data. Coordination with primary care, cardiac surgery, and rehabilitation.",
     "stats": [
-      { "value": "$130K", "label": "annual RTM revenue (100 patients)" },
-      { "value": "Wearable", "label": "data integration" },
-      { "value": "High-volume", "label": "flow management" }
+      {
+        "value": "$130K",
+        "label": "annual RTM revenue (100 patients)"
+      },
+      {
+        "value": "Wearable",
+        "label": "data integration"
+      },
+      {
+        "value": "High-volume",
+        "label": "flow management"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "cardio-operations", "title": "The Cardiology Operations Model" },
-    { "id": "rtm-billing", "title": "RTM Billing for Cardiac Conditions" },
-    { "id": "wearable-integration", "title": "Wearable Data for Cardiac Monitoring" },
-    { "id": "patient-flow", "title": "High-Volume Patient Flow" },
-    { "id": "care-coordination", "title": "Care Coordination" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "cardio-operations",
+      "title": "The Cardiology Operations Model"
+    },
+    {
+      "id": "rtm-billing",
+      "title": "RTM Billing for Cardiac Conditions"
+    },
+    {
+      "id": "wearable-integration",
+      "title": "Wearable Data for Cardiac Monitoring"
+    },
+    {
+      "id": "patient-flow",
+      "title": "High-Volume Patient Flow"
+    },
+    {
+      "id": "care-coordination",
+      "title": "Care Coordination"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -88,14 +126,29 @@
   "cta": {
     "headline": "See Cardiology Operations Optimized",
     "subhead": "Fifteen-minute demo showing RTM enrollment, wearable integration, high-volume patient flow, and heart failure monitoring.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$130K", "label": "annual RTM potential" },
-      { "value": "Wearable", "label": "data included" },
-      { "value": "High-volume", "label": "flow management" }
+      {
+        "value": "$130K",
+        "label": "annual RTM potential"
+      },
+      {
+        "value": "Wearable",
+        "label": "data included"
+      },
+      {
+        "value": "High-volume",
+        "label": "flow management"
+      }
     ],
     "testimonial": {
       "quote": "Heart failure weight tracking caught decompensation before patients needed hospitalization. Wearable data showing declining activity correlated with symptom changes. RTM generates significant revenue for monitoring we already wanted to provide. Flow management across testing stations finally works smoothly.",
@@ -127,7 +180,19 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Cardiology",
-    "relevantConditions": ["Heart Failure", "Coronary Artery Disease", "Hypertension", "Atrial Fibrillation", "Valvular Disease"],
-    "availableProcedures": ["Echocardiography", "Stress Testing", "Cardiac Catheterization", "Cardioversion", "Pacemaker Management"]
+    "relevantConditions": [
+      "Heart Failure",
+      "Coronary Artery Disease",
+      "Hypertension",
+      "Atrial Fibrillation",
+      "Valvular Disease"
+    ],
+    "availableProcedures": [
+      "Echocardiography",
+      "Stress Testing",
+      "Cardiac Catheterization",
+      "Cardioversion",
+      "Pacemaker Management"
+    ]
   }
 }

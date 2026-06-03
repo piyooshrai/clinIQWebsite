@@ -5,26 +5,59 @@
   "wordCount": 2200,
   "publishDate": "2025-06-20",
   "meta": {
-    "title": "Dermatology Practice Software | High-Volume Flow, Scheduling & Patient Communication | clinIQ",
+    "title": "Dermatology Software | High-Volume Flow, Scheduling",
     "description": "Complete guide to dermatology practice operations. High-volume patient flow management. Medical and cosmetic scheduling. Photo documentation workflow. Patient communication for skin checks and procedures.",
-    "keywords": ["dermatology software", "dermatology practice management", "dermatology patient flow", "skin check scheduling", "dermatology EHR integration"]
+    "keywords": [
+      "dermatology software",
+      "dermatology practice management",
+      "dermatology patient flow",
+      "skin check scheduling",
+      "dermatology EHR integration"
+    ]
   },
   "hero": {
     "h1": "Dermatology Practice Software",
     "subhead": "High-volume patient flow managing 40+ patients daily. Medical and cosmetic scheduling optimization. Photo documentation workflow through the clinIQ app. Patient communication for skin checks, procedures, and follow-ups.",
     "stats": [
-      { "value": "40+", "label": "patients daily manageable" },
-      { "value": "Photo", "label": "documentation" },
-      { "value": "Med/Cosmetic", "label": "scheduling" }
+      {
+        "value": "40+",
+        "label": "patients daily manageable"
+      },
+      {
+        "value": "Photo",
+        "label": "documentation"
+      },
+      {
+        "value": "Med/Cosmetic",
+        "label": "scheduling"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "derm-operations", "title": "The Dermatology Operations Model" },
-    { "id": "patient-flow", "title": "High-Volume Patient Flow" },
-    { "id": "scheduling", "title": "Medical and Cosmetic Scheduling" },
-    { "id": "photo-documentation", "title": "Photo Documentation" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "derm-operations",
+      "title": "The Dermatology Operations Model"
+    },
+    {
+      "id": "patient-flow",
+      "title": "High-Volume Patient Flow"
+    },
+    {
+      "id": "scheduling",
+      "title": "Medical and Cosmetic Scheduling"
+    },
+    {
+      "id": "photo-documentation",
+      "title": "Photo Documentation"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -78,14 +111,29 @@
   "cta": {
     "headline": "See Dermatology Operations Optimized",
     "subhead": "Fifteen-minute demo showing high-volume patient flow, medical and cosmetic scheduling, and photo documentation workflow.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Learn More", "href": "/resources/high-volume-flow" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Learn More",
+      "href": "/resources/high-volume-flow"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "40+", "label": "patients daily" },
-      { "value": "Photo", "label": "documentation" },
-      { "value": "Med/Cosmetic", "label": "scheduling" }
+      {
+        "value": "40+",
+        "label": "patients daily"
+      },
+      {
+        "value": "Photo",
+        "label": "documentation"
+      },
+      {
+        "value": "Med/Cosmetic",
+        "label": "scheduling"
+      }
     ],
     "testimonial": {
       "quote": "High-volume flow tracking transformed our practice. We know which rooms are ready and move efficiently between patients. Scheduling across medical and cosmetic services works seamlessly. Photo documentation workflow is consistent and accessible. We see more patients without feeling rushed.",
@@ -117,7 +165,19 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Dermatology",
-    "relevantConditions": ["Acne", "Psoriasis", "Eczema", "Skin Cancer", "Rosacea"],
-    "availableProcedures": ["Skin Biopsy", "Mohs Surgery", "Excision", "Laser Treatment", "Injectable Cosmetics"]
+    "relevantConditions": [
+      "Acne",
+      "Psoriasis",
+      "Eczema",
+      "Skin Cancer",
+      "Rosacea"
+    ],
+    "availableProcedures": [
+      "Skin Biopsy",
+      "Mohs Surgery",
+      "Excision",
+      "Laser Treatment",
+      "Injectable Cosmetics"
+    ]
   }
 }

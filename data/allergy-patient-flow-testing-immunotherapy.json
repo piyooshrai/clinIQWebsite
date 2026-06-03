@@ -5,7 +5,7 @@
   "specialty": "allergy-immunology",
   "wordCount": 1900,
   "meta": {
-    "title": "Allergy Practice Patient Flow: Testing and Immunotherapy | clinIQ",
+    "title": "Allergy Practice Patient Flow: Testing and",
     "description": "Optimize allergy clinic flow — skin test scheduling, allergy shot build-up visit frequency, maintenance scheduling, food challenge coordination, and patch test workflow management.",
     "keywords": [
       "allergy practice patient flow testing immunotherapy scheduling",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Allergy Shot Scheduling and Tracking", "href": "/blog/allergy-shot-scheduling-tracking" },
-    { "title": "Allergy Prior Auth: Biologics for Asthma and Allergies", "href": "/blog/allergy-prior-auth-biologics-asthma" }
+    {
+      "title": "Allergy Shot Scheduling and Tracking",
+      "href": "/blog/allergy-shot-scheduling-tracking"
+    },
+    {
+      "title": "Allergy Prior Auth: Biologics for Asthma and Allergies",
+      "href": "/blog/allergy-prior-auth-biologics-asthma"
+    }
   ],
   "pillarLink": {
     "title": "Allergy/Immunology Practice Software",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Manage 300+ Immunotherapy Patients Without Operational Chaos",
     "subhead": "clinIQ gives allergy practices the scheduling architecture and dose-tracking tools to run high-volume immunotherapy programs safely and profitably.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

@@ -4,18 +4,33 @@
   "abbr": "NJ",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for New Jersey Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for New Jersey Clinics | Patient Flow",
     "description": "Clinic operations platform for New Jersey healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for New Jersey Healthcare",
     "subhead": "New Jersey is one of the most densely populated states in the nation, and its clinic market reflects that density — high patient volume, complex multi-payer environments, and relentless administrative pressure on front-desk staff. clinIQ helps New Jersey practices streamline check-in, automate prior authorization, and capture RTM billing revenue across the state's large orthopedic and behavioral health sectors.",
-    "cities": ["Newark", "Jersey City", "Paterson", "Elizabeth", "Edison"]
+    "cities": [
+      "Newark",
+      "Jersey City",
+      "Paterson",
+      "Elizabeth",
+      "Edison"
+    ]
   },
   "stats": [
-    { "value": "18,000+", "label": "Active Physician Practices" },
-    { "value": "28%", "label": "of Medicaid-Covered Population" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "18,000+",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "28%",
+      "label": "of Medicaid-Covered Population"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

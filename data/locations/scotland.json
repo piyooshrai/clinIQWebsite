@@ -4,18 +4,33 @@
   "abbr": "SCT",
   "region": "United Kingdom",
   "meta": {
-    "title": "clinIQ for Scotland Private Clinics | Patient Flow & Remote Monitoring",
+    "title": "clinIQ for Scotland Private Clinics | Patient Flow",
     "description": "Clinic operations platform for Scotland's private healthcare providers. Streamline check-in, patient flow, and remote therapeutic monitoring. Works with EMIS, SystmOne, and more."
   },
   "hero": {
     "h1": "clinIQ for Scotland Healthcare",
     "subhead": "NHS Scotland waiting lists have reached crisis levels, with over 700,000 patients awaiting treatment across a population of 5.5 million. Private specialist clinics, physiotherapy practices, and independent treatment centres in Edinburgh, Glasgow, and beyond are absorbing unprecedented demand. clinIQ integrates with your existing clinical system to automate check-in, track patient flow in real time, and build remote therapeutic monitoring revenue.",
-    "cities": ["Edinburgh", "Glasgow", "Aberdeen", "Dundee", "Inverness"]
+    "cities": [
+      "Edinburgh",
+      "Glasgow",
+      "Aberdeen",
+      "Dundee",
+      "Inverness"
+    ]
   },
   "stats": [
-    { "value": "700K+", "label": "Patients on NHS Scotland Waiting Lists" },
-    { "value": "23 wks", "label": "Median Inpatient/Day Case Wait (Scotland 2024)" },
-    { "value": "£144K", "label": "Annual Remote Monitoring Revenue per 100 Patients" }
+    {
+      "value": "700K+",
+      "label": "Patients on NHS Scotland Waiting Lists"
+    },
+    {
+      "value": "23 wks",
+      "label": "Median Inpatient/Day Case Wait (Scotland 2024)"
+    },
+    {
+      "value": "£144K",
+      "label": "Annual Remote Monitoring Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

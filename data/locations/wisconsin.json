@@ -4,18 +4,33 @@
   "abbr": "WI",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Wisconsin Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Wisconsin Clinics | Patient Flow",
     "description": "Clinic operations platform for Wisconsin healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Wisconsin Healthcare",
     "subhead": "Wisconsin's healthcare market is anchored by nationally recognized academic health systems in Milwaukee and Madison alongside a dense network of specialty and primary care practices serving the state's manufacturing, agricultural, and professional workforce. clinIQ helps Wisconsin practices reduce check-in time, automate prior authorization, and capture RTM billing revenue from the state's large physical therapy and orthopedic patient base.",
-    "cities": ["Milwaukee", "Madison", "Green Bay", "Kenosha", "Racine"]
+    "cities": [
+      "Milwaukee",
+      "Madison",
+      "Green Bay",
+      "Kenosha",
+      "Racine"
+    ]
   },
   "stats": [
-    { "value": "13,000+", "label": "Active Physician Practices" },
-    { "value": "50%", "label": "of Rural Counties with Provider Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "13,000+",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "50%",
+      "label": "of Rural Counties with Provider Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

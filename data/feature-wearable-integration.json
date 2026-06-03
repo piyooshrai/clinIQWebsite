@@ -6,7 +6,7 @@
   "publishDate": "2025-07-02",
   "updatedDate": "2026-06-02",
   "meta": {
-    "title": "Wearable Device Integration | Apple Health, Oura Ring & RTM",
+    "title": "Wearable Device Integration | Apple Health",
     "description": "Wearable device integration for clinics, made simple. clinIQ connects Apple Health and Oura Ring with HIPAA compliant RTM and passive monitoring built in.",
     "keywords": [
       "wearable device integration for clinics",
@@ -32,21 +32,57 @@
     "h1": "Wearable Device Integration for Clinics",
     "subhead": "Active data pull from Apple Health, Oura Ring, and Android Health Connect brings continuous patient generated health data directly into the clinical record through a unified wearable integration platform healthcare teams can rely on. Heart rate, sleep patterns, activity levels, and other metrics flow automatically from devices patients already wear.",
     "stats": [
-      { "value": "Active", "label": "data pull from devices" },
-      { "value": "Continuous", "label": "health data streaming" },
-      { "value": "Zero", "label": "hardware distribution needed" }
+      {
+        "value": "Active",
+        "label": "data pull from devices"
+      },
+      {
+        "value": "Continuous",
+        "label": "health data streaming"
+      },
+      {
+        "value": "Zero",
+        "label": "hardware distribution needed"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "wearable-value", "title": "Why Wearable Health Data Integration Matters" },
-    { "id": "supported-platforms", "title": "Supported Platforms and Devices" },
-    { "id": "data-flow", "title": "How Wearable Data Flows" },
-    { "id": "clinical-data-types", "title": "Clinical Data Types Available" },
-    { "id": "rtm-integration", "title": "RTM Wearable Integration" },
-    { "id": "patient-experience", "title": "Patient Experience" },
-    { "id": "clinical-workflow", "title": "Clinical Workflow" },
-    { "id": "implementation", "title": "Implementation" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "wearable-value",
+      "title": "Why Wearable Health Data Integration Matters"
+    },
+    {
+      "id": "supported-platforms",
+      "title": "Supported Platforms and Devices"
+    },
+    {
+      "id": "data-flow",
+      "title": "How Wearable Data Flows"
+    },
+    {
+      "id": "clinical-data-types",
+      "title": "Clinical Data Types Available"
+    },
+    {
+      "id": "rtm-integration",
+      "title": "RTM Wearable Integration"
+    },
+    {
+      "id": "patient-experience",
+      "title": "Patient Experience"
+    },
+    {
+      "id": "clinical-workflow",
+      "title": "Clinical Workflow"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -135,14 +171,29 @@
   "cta": {
     "headline": "See Wearable Integration in Action",
     "subhead": "Fifteen-minute demo showing wearable data flow, clinical chart integration, trend visualization, and RTM program enhancement. See how patient devices become clinical data sources.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "See Data Examples", "href": "/resources/wearable-demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "See Data Examples",
+      "href": "/resources/wearable-demo"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "Active", "label": "data pull from devices" },
-      { "value": "Zero", "label": "patient data entry required" },
-      { "value": "Continuous", "label": "health data streaming" }
+      {
+        "value": "Active",
+        "label": "data pull from devices"
+      },
+      {
+        "value": "Zero",
+        "label": "patient data entry required"
+      },
+      {
+        "value": "Continuous",
+        "label": "health data streaming"
+      }
     ],
     "testimonial": {
       "quote": "Half our chronic pain patients wear Apple Watches or Oura Rings. Before, that data sat on their phones unused. Now we see their sleep patterns and activity levels alongside their symptom reports. We catch declining sleep before patients mention feeling worse. It makes our RTM program significantly more valuable clinically and the patients love that we use their data.",

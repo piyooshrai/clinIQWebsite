@@ -4,18 +4,33 @@
   "abbr": "AL",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Alabama Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Alabama Clinics | Patient Flow",
     "description": "Clinic operations platform for Alabama healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Alabama Healthcare",
     "subhead": "Alabama clinics face some of the highest chronic disease burdens in the nation — managing diabetes, heart disease, and musculoskeletal conditions across a largely rural landscape where every staff hour counts. clinIQ helps Alabama practices streamline patient flow, cut check-in time from over eight minutes to under three, and open new RTM billing revenue streams without replacing the EHR already in place.",
-    "cities": ["Birmingham", "Montgomery", "Mobile", "Huntsville", "Tuscaloosa"]
+    "cities": [
+      "Birmingham",
+      "Montgomery",
+      "Mobile",
+      "Huntsville",
+      "Tuscaloosa"
+    ]
   },
   "stats": [
-    { "value": "~8,500", "label": "Active Physician Practices" },
-    { "value": "40%+", "label": "of Counties with Primary Care HPSA" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "~8,500",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "40%+",
+      "label": "of Counties with Primary Care HPSA"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

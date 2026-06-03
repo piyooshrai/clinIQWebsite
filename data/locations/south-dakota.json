@@ -4,18 +4,33 @@
   "abbr": "SD",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for South Dakota Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for South Dakota Clinics | Patient Flow",
     "description": "Clinic operations platform for South Dakota healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for South Dakota Healthcare",
     "subhead": "South Dakota's lean clinic market spans Sioux Falls and Rapid City specialty practices and rural communities across the Great Plains and Black Hills where provider access is sparse. clinIQ helps South Dakota practices maximize operational efficiency, reduce prior authorization burden, and capture RTM billing revenue from the state's physical therapy and orthopedic patient base.",
-    "cities": ["Sioux Falls", "Rapid City", "Aberdeen", "Brookings", "Watertown"]
+    "cities": [
+      "Sioux Falls",
+      "Rapid City",
+      "Aberdeen",
+      "Brookings",
+      "Watertown"
+    ]
   },
   "stats": [
-    { "value": "1,600+", "label": "Active Physician Practices" },
-    { "value": "70%", "label": "of Counties with Primary Care Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "1,600+",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "70%",
+      "label": "of Counties with Primary Care Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

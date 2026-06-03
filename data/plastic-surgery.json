@@ -5,28 +5,68 @@
   "wordCount": 2400,
   "publishDate": "2025-05-25",
   "meta": {
-    "title": "Plastic Surgery Practice Software | Scheduling, Patient Flow & Consultation | clinIQ",
+    "title": "Plastic Surgery Software | Scheduling, Patient Flow",
     "description": "Complete guide to plastic surgery practice operations. Surgical scheduling for cosmetic and reconstructive cases. Pre-operative consultation workflow. Post-operative monitoring. Patient communication and satisfaction tracking.",
-    "keywords": ["plastic surgery software", "plastic surgery practice management", "cosmetic surgery scheduling", "plastic surgery patient flow", "aesthetic practice software", "plastic surgery EHR integration"]
+    "keywords": [
+      "plastic surgery software",
+      "plastic surgery practice management",
+      "cosmetic surgery scheduling",
+      "plastic surgery patient flow",
+      "aesthetic practice software",
+      "plastic surgery EHR integration"
+    ]
   },
   "hero": {
     "h1": "Plastic Surgery Practice Software",
     "subhead": "Surgical scheduling for cosmetic and reconstructive cases. Consultation workflow capturing patient goals and expectations. Post-operative monitoring through the clinIQ app. Patient communication and satisfaction tracking for practice growth.",
     "stats": [
-      { "value": "Cosmetic", "label": "and reconstructive scheduling" },
-      { "value": "Patient", "label": "communication excellence" },
-      { "value": "Post-op", "label": "photo monitoring" }
+      {
+        "value": "Cosmetic",
+        "label": "and reconstructive scheduling"
+      },
+      {
+        "value": "Patient",
+        "label": "communication excellence"
+      },
+      {
+        "value": "Post-op",
+        "label": "photo monitoring"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "plastic-operations", "title": "The Plastic Surgery Operations Model" },
-    { "id": "scheduling", "title": "Surgical Scheduling" },
-    { "id": "consultation", "title": "Consultation Workflow" },
-    { "id": "patient-flow", "title": "Clinic Patient Flow" },
-    { "id": "post-op-monitoring", "title": "Post-Operative Monitoring" },
-    { "id": "patient-experience", "title": "Patient Experience and Satisfaction" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "plastic-operations",
+      "title": "The Plastic Surgery Operations Model"
+    },
+    {
+      "id": "scheduling",
+      "title": "Surgical Scheduling"
+    },
+    {
+      "id": "consultation",
+      "title": "Consultation Workflow"
+    },
+    {
+      "id": "patient-flow",
+      "title": "Clinic Patient Flow"
+    },
+    {
+      "id": "post-op-monitoring",
+      "title": "Post-Operative Monitoring"
+    },
+    {
+      "id": "patient-experience",
+      "title": "Patient Experience and Satisfaction"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -94,14 +134,29 @@
   "cta": {
     "headline": "See Plastic Surgery Operations Optimized",
     "subhead": "Fifteen-minute demo showing consultation workflow, post-operative monitoring, and patient experience optimization.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Learn More", "href": "/resources/consultation-workflow" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Learn More",
+      "href": "/resources/consultation-workflow"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "Premium", "label": "patient experience" },
-      { "value": "Photo", "label": "wound monitoring" },
-      { "value": "Satisfaction", "label": "tracking included" }
+      {
+        "value": "Premium",
+        "label": "patient experience"
+      },
+      {
+        "value": "Photo",
+        "label": "wound monitoring"
+      },
+      {
+        "value": "Satisfaction",
+        "label": "tracking included"
+      }
     ],
     "testimonial": {
       "quote": "Patient experience is everything in cosmetic practice. The app creates smooth consultations with pre-visit information collection. Post-operative photo monitoring reassures patients and catches problems. Satisfaction tracking shows we are maintaining the premium experience our patients expect.",
@@ -133,7 +188,18 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Plastic Surgery",
-    "relevantConditions": ["Breast Reconstruction", "Facial Aging", "Body Contouring", "Skin Cancer Reconstruction"],
-    "availableProcedures": ["Facelift", "Rhinoplasty", "Breast Augmentation", "Abdominoplasty", "Injectable Treatments"]
+    "relevantConditions": [
+      "Breast Reconstruction",
+      "Facial Aging",
+      "Body Contouring",
+      "Skin Cancer Reconstruction"
+    ],
+    "availableProcedures": [
+      "Facelift",
+      "Rhinoplasty",
+      "Breast Augmentation",
+      "Abdominoplasty",
+      "Injectable Treatments"
+    ]
   }
 }

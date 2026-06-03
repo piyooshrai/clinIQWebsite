@@ -5,9 +5,15 @@
   "specialty": "neurology",
   "wordCount": 1900,
   "meta": {
-    "title": "Neurology Practice Patient Flow: Managing Complex Visit Logistics | clinIQ",
+    "title": "Neurology Practice Patient Flow: Managing Complex",
     "description": "How neurology practices manage complex patient flow — long new evals, EEG/EMG integration, MS infusion coordination, and urgent seizure triage.",
-    "keywords": ["neurology practice patient flow", "neurology scheduling optimization", "EEG scheduling neurology", "MS infusion coordination", "seizure triage workflow"]
+    "keywords": [
+      "neurology practice patient flow",
+      "neurology scheduling optimization",
+      "EEG scheduling neurology",
+      "MS infusion coordination",
+      "seizure triage workflow"
+    ]
   },
   "publishDate": "2026-03-01",
   "updatedDate": "2026-03-01",
@@ -54,8 +60,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Neurology RTM: Migraine, MS, and Seizure Monitoring", "href": "/blog/neurology-rtm-migraine-ms-seizure" },
-    { "title": "Neurology Prior Auth: Imaging and Biologics", "href": "/blog/neurology-prior-auth-imaging-biologics" }
+    {
+      "title": "Neurology RTM: Migraine, MS, and Seizure Monitoring",
+      "href": "/blog/neurology-rtm-migraine-ms-seizure"
+    },
+    {
+      "title": "Neurology Prior Auth: Imaging and Biologics",
+      "href": "/blog/neurology-prior-auth-imaging-biologics"
+    }
   ],
   "pillarLink": {
     "title": "Neurology Practice Software",
@@ -65,6 +77,9 @@
   "cta": {
     "headline": "Fix your neurology patient flow",
     "subhead": "See how clinIQ's neurology configuration handles complex visit types, diagnostics, and urgent triage in a 15-minute demo.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

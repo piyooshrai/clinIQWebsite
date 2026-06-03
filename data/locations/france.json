@@ -4,18 +4,33 @@
   "abbr": "FR",
   "region": "Europe",
   "meta": {
-    "title": "clinIQ for France Private Clinics | Patient Flow & Remote Monitoring",
+    "title": "clinIQ for France Private Clinics | Patient Flow",
     "description": "Clinic operations platform for French private healthcare providers. Streamline check-in, patient flow, and remote therapeutic monitoring. Works with your existing cabinet logiciel."
   },
   "hero": {
     "h1": "clinIQ for France Healthcare",
     "subhead": "France's médecins libéraux deliver over 60% of outpatient specialist consultations in one of Europe's most active private practice markets. But Secteur 2 and Secteur 3 practices managing CPAM reimbursement alongside direct patient billing face growing admin complexity. clinIQ integrates with your existing cabinet management software to automate patient check-in, manage flow in real time, and generate remote therapeutic monitoring revenue.",
-    "cities": ["Paris", "Lyon", "Marseille", "Toulouse", "Nice"]
+    "cities": [
+      "Paris",
+      "Lyon",
+      "Marseille",
+      "Toulouse",
+      "Nice"
+    ]
   },
   "stats": [
-    { "value": "230K+", "label": "Liberal (Private Practice) Physicians in France" },
-    { "value": "96%", "label": "of French Population Covered by Complémentaire Santé Insurance" },
-    { "value": "€144K", "label": "Annual Remote Monitoring Revenue per 100 Patients" }
+    {
+      "value": "230K+",
+      "label": "Liberal (Private Practice) Physicians in France"
+    },
+    {
+      "value": "96%",
+      "label": "of French Population Covered by Complémentaire Santé Insurance"
+    },
+    {
+      "value": "€144K",
+      "label": "Annual Remote Monitoring Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

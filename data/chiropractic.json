@@ -5,28 +5,69 @@
   "wordCount": 3000,
   "publishDate": "2025-04-01",
   "meta": {
-    "title": "Chiropractic Practice Software | RTM, Patient Flow & Scheduling | clinIQ",
+    "title": "Chiropractic Software | RTM, Patient Flow",
     "description": "Complete guide to chiropractic practice operations. RTM billing for spine and musculoskeletal conditions. High-volume patient flow optimization. Outcome tracking for payer documentation. Home exercise compliance monitoring.",
-    "keywords": ["chiropractic software", "chiropractic practice management", "chiropractic RTM billing", "chiropractic scheduling software", "chiropractic patient flow", "chiropractic EHR integration", "chiropractic outcome tracking"]
+    "keywords": [
+      "chiropractic software",
+      "chiropractic practice management",
+      "chiropractic RTM billing",
+      "chiropractic scheduling software",
+      "chiropractic patient flow",
+      "chiropractic EHR integration",
+      "chiropractic outcome tracking"
+    ]
   },
   "hero": {
     "h1": "Chiropractic Practice Software",
     "subhead": "RTM billing for spine and musculoskeletal conditions capturing $100-120 per patient monthly. High-volume patient flow optimization for practices seeing 40+ patients daily. Home exercise compliance tracking through the clinIQ app. Outcome measurement that satisfies payer documentation requirements.",
     "stats": [
-      { "value": "$110K", "label": "annual RTM revenue (100 patients)" },
-      { "value": "40+", "label": "patients daily manageable" },
-      { "value": "75%+", "label": "exercise compliance tracked" }
+      {
+        "value": "$110K",
+        "label": "annual RTM revenue (100 patients)"
+      },
+      {
+        "value": "40+",
+        "label": "patients daily manageable"
+      },
+      {
+        "value": "75%+",
+        "label": "exercise compliance tracked"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "chiro-operations", "title": "The Chiropractic Operations Model" },
-    { "id": "rtm-billing", "title": "RTM Billing for Chiropractic Patients" },
-    { "id": "patient-flow", "title": "High-Volume Patient Flow" },
-    { "id": "scheduling", "title": "Scheduling Optimization" },
-    { "id": "exercise-compliance", "title": "Home Exercise Compliance" },
-    { "id": "outcomes", "title": "Outcome Tracking and Documentation" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "chiro-operations",
+      "title": "The Chiropractic Operations Model"
+    },
+    {
+      "id": "rtm-billing",
+      "title": "RTM Billing for Chiropractic Patients"
+    },
+    {
+      "id": "patient-flow",
+      "title": "High-Volume Patient Flow"
+    },
+    {
+      "id": "scheduling",
+      "title": "Scheduling Optimization"
+    },
+    {
+      "id": "exercise-compliance",
+      "title": "Home Exercise Compliance"
+    },
+    {
+      "id": "outcomes",
+      "title": "Outcome Tracking and Documentation"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -102,14 +143,29 @@
   "cta": {
     "headline": "See Chiropractic Operations Optimized",
     "subhead": "Fifteen-minute demo showing high-volume patient flow, RTM enrollment, exercise compliance tracking, and online scheduling. See how chiropractic practices capture $110,000+ annually in RTM revenue.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Your RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Your RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$110K", "label": "annual RTM revenue potential" },
-      { "value": "40+", "label": "patients daily manageable" },
-      { "value": "66%", "label": "check-in time reduction" }
+      {
+        "value": "$110K",
+        "label": "annual RTM revenue potential"
+      },
+      {
+        "value": "40+",
+        "label": "patients daily manageable"
+      },
+      {
+        "value": "66%",
+        "label": "check-in time reduction"
+      }
     ],
     "testimonial": {
       "quote": "We see 50 patients a day. Before clinIQ, we had no idea where the bottlenecks were. Now the flow board shows exactly who is waiting and why. RTM billing captures revenue for monitoring we were already doing through phone calls. Exercise compliance tracking changed how we counsel patients — we actually know who is doing their stretches.",
@@ -141,7 +197,18 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Chiropractic",
-    "relevantConditions": ["Low Back Pain", "Neck Pain", "Headache", "Sciatica", "Thoracic Pain"],
-    "availableProcedures": ["Spinal Adjustment", "Soft Tissue Therapy", "Therapeutic Exercise", "Modalities"]
+    "relevantConditions": [
+      "Low Back Pain",
+      "Neck Pain",
+      "Headache",
+      "Sciatica",
+      "Thoracic Pain"
+    ],
+    "availableProcedures": [
+      "Spinal Adjustment",
+      "Soft Tissue Therapy",
+      "Therapeutic Exercise",
+      "Modalities"
+    ]
   }
 }

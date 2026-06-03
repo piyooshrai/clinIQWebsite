@@ -4,18 +4,33 @@
   "abbr": "WV",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for West Virginia Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for West Virginia Clinics | Patient Flow",
     "description": "Clinic operations platform for West Virginia healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for West Virginia Healthcare",
     "subhead": "West Virginia's clinic market serves one of the nation's most challenging patient populations — with the highest rates of opioid overdose, chronic disease burden, and provider shortage of any state — making operational efficiency and RTM revenue critical for sustainable practice. clinIQ helps West Virginia practices reduce administrative burden, streamline check-in, and capture RTM billing revenue that supports the state's behavioral health and physical therapy sectors.",
-    "cities": ["Charleston", "Huntington", "Morgantown", "Parkersburg", "Wheeling"]
+    "cities": [
+      "Charleston",
+      "Huntington",
+      "Morgantown",
+      "Parkersburg",
+      "Wheeling"
+    ]
   },
   "stats": [
-    { "value": "2,800+", "label": "Active Physician Practices" },
-    { "value": "75%", "label": "of Counties with Primary Care Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "2,800+",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "75%",
+      "label": "of Counties with Primary Care Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

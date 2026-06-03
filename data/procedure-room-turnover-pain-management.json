@@ -5,9 +5,15 @@
   "specialty": "pain-management",
   "wordCount": 1850,
   "meta": {
-    "title": "Procedure Room Turnover in Pain Management: Optimization Guide | clinIQ",
+    "title": "Procedure Room Turnover in Pain Management:",
     "description": "Pain management procedure room benchmarks and optimization. 15-minute turnover goal. Where time gets lost. How to recover $150K/year in capacity.",
-    "keywords": ["pain management procedure room", "procedure room turnover", "pain management efficiency", "fluoroscopy room optimization", "procedure suite efficiency"]
+    "keywords": [
+      "pain management procedure room",
+      "procedure room turnover",
+      "pain management efficiency",
+      "fluoroscopy room optimization",
+      "procedure suite efficiency"
+    ]
   },
   "publishDate": "2025-03-01",
   "updatedDate": "2025-03-01",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "See your procedure room efficiency",
     "subhead": "clinIQ tracks every turnover and identifies where time gets lost.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

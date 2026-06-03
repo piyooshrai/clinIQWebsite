@@ -4,18 +4,33 @@
   "abbr": "NY",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for New York Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for New York Clinics | Patient Flow",
     "description": "Clinic operations platform for New York healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for New York Healthcare",
     "subhead": "New York's healthcare market spans the world's most competitive medical marketplace in New York City and vast rural areas upstate where provider access remains critically limited. clinIQ helps New York clinics — from Manhattan specialty groups to Buffalo primary care practices — cut check-in time, automate prior authorization, and unlock RTM billing revenue at scale.",
-    "cities": ["New York City", "Buffalo", "Rochester", "Yonkers", "Syracuse"]
+    "cities": [
+      "New York City",
+      "Buffalo",
+      "Rochester",
+      "Yonkers",
+      "Syracuse"
+    ]
   },
   "stats": [
-    { "value": "55,000+", "label": "Active Physician Practices" },
-    { "value": "35%", "label": "of Upstate Counties with Provider Shortages" },
-    { "value": "$144K", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "55,000+",
+      "label": "Active Physician Practices"
+    },
+    {
+      "value": "35%",
+      "label": "of Upstate Counties with Provider Shortages"
+    },
+    {
+      "value": "$144K",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

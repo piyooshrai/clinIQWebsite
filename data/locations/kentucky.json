@@ -4,18 +4,33 @@
   "abbr": "KY",
   "region": "United States",
   "meta": {
-    "title": "clinIQ for Kentucky Clinics | Patient Flow & RTM Software",
+    "title": "clinIQ for Kentucky Clinics | Patient Flow",
     "description": "Clinic operations platform for Kentucky healthcare providers. Reduce wait times, automate check-in, capture RTM revenue. Works with any EHR."
   },
   "hero": {
     "h1": "clinIQ for Kentucky Healthcare",
     "subhead": "Kentucky Medicaid expansion under the Kentucky HEALTH framework brought coverage to hundreds of thousands of previously uninsured residents, creating a sustained surge in outpatient clinic demand that independent and group practices are still absorbing. clinIQ helps Kentucky clinics from Louisville to Pikeville reduce intake burden, manage lobby flow in real time, automate prior authorization across Medicaid MCOs, and capture RTM revenue from the state's large chronic disease and physical therapy population.",
-    "cities": ["Louisville", "Lexington", "Bowling Green", "Owensboro", "Covington"]
+    "cities": [
+      "Louisville",
+      "Lexington",
+      "Bowling Green",
+      "Owensboro",
+      "Covington"
+    ]
   },
   "stats": [
-    { "value": "10,200+", "label": "Licensed Physician Practices" },
-    { "value": "67%", "label": "Counties with Primary Care HPSA Designation" },
-    { "value": "$144K+", "label": "Annual RTM Revenue per 100 Patients" }
+    {
+      "value": "10,200+",
+      "label": "Licensed Physician Practices"
+    },
+    {
+      "value": "67%",
+      "label": "Counties with Primary Care HPSA Designation"
+    },
+    {
+      "value": "$144K+",
+      "label": "Annual RTM Revenue per 100 Patients"
+    }
   ],
   "sections": [
     {

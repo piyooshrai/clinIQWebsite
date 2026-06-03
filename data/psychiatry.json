@@ -5,29 +5,73 @@
   "wordCount": 3300,
   "publishDate": "2025-04-15",
   "meta": {
-    "title": "Psychiatry Practice Software | RTM, Medication Monitoring & Telehealth | clinIQ",
+    "title": "Psychiatry Software | RTM, Medication Monitoring",
     "description": "Complete guide to psychiatry practice operations. RTM billing for psychiatric conditions. Medication adherence monitoring. Telehealth for medication management visits. Symptom tracking between appointments.",
-    "keywords": ["psychiatry software", "psychiatry practice management", "psychiatric RTM billing", "medication adherence monitoring", "psychiatry telehealth", "psychiatric patient portal", "mental health medication management"]
+    "keywords": [
+      "psychiatry software",
+      "psychiatry practice management",
+      "psychiatric RTM billing",
+      "medication adherence monitoring",
+      "psychiatry telehealth",
+      "psychiatric patient portal",
+      "mental health medication management"
+    ]
   },
   "hero": {
     "h1": "Psychiatry Practice Software",
     "subhead": "RTM billing for psychiatric conditions capturing $120-150 per patient monthly. Medication adherence monitoring through the clinIQ app. Telehealth for medication management visits. Symptom tracking between appointments enabling proactive medication adjustments. Coordination with therapy providers.",
     "stats": [
-      { "value": "$140K", "label": "annual RTM revenue (100 patients)" },
-      { "value": "Medication", "label": "adherence tracking" },
-      { "value": "75%+", "label": "symptom tracking compliance" }
+      {
+        "value": "$140K",
+        "label": "annual RTM revenue (100 patients)"
+      },
+      {
+        "value": "Medication",
+        "label": "adherence tracking"
+      },
+      {
+        "value": "75%+",
+        "label": "symptom tracking compliance"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "psychiatry-operations", "title": "The Psychiatry Operations Model" },
-    { "id": "rtm-billing", "title": "RTM Billing for Psychiatric Conditions" },
-    { "id": "medication-monitoring", "title": "Medication Adherence Monitoring" },
-    { "id": "telehealth", "title": "Telehealth for Medication Management" },
-    { "id": "symptom-tracking", "title": "Between-Visit Symptom Tracking" },
-    { "id": "care-coordination", "title": "Care Coordination" },
-    { "id": "controlled-substances", "title": "Controlled Substance Management" },
-    { "id": "implementation", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "psychiatry-operations",
+      "title": "The Psychiatry Operations Model"
+    },
+    {
+      "id": "rtm-billing",
+      "title": "RTM Billing for Psychiatric Conditions"
+    },
+    {
+      "id": "medication-monitoring",
+      "title": "Medication Adherence Monitoring"
+    },
+    {
+      "id": "telehealth",
+      "title": "Telehealth for Medication Management"
+    },
+    {
+      "id": "symptom-tracking",
+      "title": "Between-Visit Symptom Tracking"
+    },
+    {
+      "id": "care-coordination",
+      "title": "Care Coordination"
+    },
+    {
+      "id": "controlled-substances",
+      "title": "Controlled Substance Management"
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -108,14 +152,29 @@
   "cta": {
     "headline": "See Psychiatry Operations Optimized",
     "subhead": "Fifteen-minute demo showing RTM enrollment, medication adherence tracking, telehealth integration, and symptom monitoring. See how psychiatry practices capture $140,000+ annually in RTM revenue.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Your RTM Revenue", "href": "/resources/rtm-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Your RTM Revenue",
+      "href": "/resources/rtm-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "$140K", "label": "annual RTM revenue potential" },
-      { "value": "75%+", "label": "adherence tracking compliance" },
-      { "value": "Native", "label": "telehealth integration" }
+      {
+        "value": "$140K",
+        "label": "annual RTM revenue potential"
+      },
+      {
+        "value": "75%+",
+        "label": "adherence tracking compliance"
+      },
+      {
+        "value": "Native",
+        "label": "telehealth integration"
+      }
     ],
     "testimonial": {
       "quote": "Medication adherence tracking changed my practice. I know before the visit whether patients are taking their medications. RTM captures revenue for monitoring I was already doing. Telehealth through the same app patients use for tracking eliminated platform switching. Between-visit data makes medication decisions more informed.",
@@ -147,7 +206,18 @@
   "schema": {
     "type": "MedicalSpecialty",
     "medicalSpecialty": "Psychiatry",
-    "relevantConditions": ["Depression", "Anxiety Disorders", "Bipolar Disorder", "Schizophrenia", "ADHD", "PTSD"],
-    "availableProcedures": ["Psychiatric Evaluation", "Medication Management", "Psychopharmacology"]
+    "relevantConditions": [
+      "Depression",
+      "Anxiety Disorders",
+      "Bipolar Disorder",
+      "Schizophrenia",
+      "ADHD",
+      "PTSD"
+    ],
+    "availableProcedures": [
+      "Psychiatric Evaluation",
+      "Medication Management",
+      "Psychopharmacology"
+    ]
   }
 }
