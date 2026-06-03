@@ -13,6 +13,15 @@ export const metadata: Metadata = {
 
 const posts: BlogPost[] = [
   {
+    slug: 'addiction-medicine-prior-auth-denial-reduction',
+    category: 'Prior Authorization',
+    title: 'How Addiction Medicine Providers Cut Prior Authorization Denials by 40%',
+    date: 'June 2026',
+    readTime: '14 min',
+    excerpt:
+      'Prior authorization is one of the heaviest administrative burdens in addiction medicine — and the patient cost is measured in relapses and missed inductions. The workflow, ROI math, and CMS-0057-F readiness checklist that high performing MAT practices use to drive denial rates from the low twenties into the low teens.',
+  },
+  {
     slug: 'patient-flow-process-costing-money',
     category: 'Patient Flow',
     title: '7 Signs Your Patient Flow Process Is Costing You More Than You Think',
