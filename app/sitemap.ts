@@ -3,7 +3,7 @@ import fs from 'fs'
 import path from 'path'
 import { getAllParams, getAllSpecialtyParams } from '@/lib/feature-specialty-data'
 
-const BASE_URL = 'https://cliniqhealthcare.com'
+const BASE_URL = 'https://www.cliniqhealthcare.com'
 
 /** Read JSON filenames from a directory, strip prefix+extension, return slugs */
 function slugsFromPrefixedFiles(dir: string, prefix: string): string[] {

@@ -1,5 +1,6 @@
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import { buildFAQSchema } from '@/lib/schema'
 import type { SpecialtyPageData } from '@/lib/feature-specialty-data'
 import s from '@/app/specialties/specialty-full.module.css'
 
@@ -29,15 +30,7 @@ export default function SpecialtyPage({ data }: Props) {
     areaServed: 'US',
   }
 
-  const faqSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: data.faqs.map(faq => ({
-      '@type': 'Question',
-      name: faq.q,
-      acceptedAnswer: { '@type': 'Answer', text: faq.a },
-    })),
-  }
+  const faqSchema = buildFAQSchema(data.faqs)
 
   const marqueeAll = [...data.marqueeItems, ...data.marqueeItems]
 

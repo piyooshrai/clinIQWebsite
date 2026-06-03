@@ -1,6 +1,8 @@
 'use client'
 
 import { useState } from 'react'
+import { renderInline } from '@/lib/renderContent'
+import { plainText } from '@/lib/schema'
 import styles from './FAQSection.module.css'
 
 export interface FAQItem {
@@ -45,10 +47,10 @@ export default function FAQSection({
     '@type': 'FAQPage',
     mainEntity: items.map((item) => ({
       '@type': 'Question',
-      name: item.question,
+      name: plainText(item.question),
       acceptedAnswer: {
         '@type': 'Answer',
-        text: item.answer,
+        text: plainText(item.answer),
       },
     })),
   }
@@ -82,7 +84,9 @@ export default function FAQSection({
                     role="region"
                     aria-hidden={!isOpen}
                   >
-                    <div className={styles.answerInner}>{item.answer}</div>
+                    <div className={styles.answerInner}>
+                      {renderInline(item.answer, styles.answerLink)}
+                    </div>
                   </div>
                 </div>
               )

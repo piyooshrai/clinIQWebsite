@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { renderInline } from '@/lib/renderContent'
 import css from './FaqAccordion.module.css'
 
 interface Props {
@@ -49,7 +50,7 @@ export default function FaqAccordion({ faqs }: Props) {
               aria-labelledby={undefined}
               hidden={!isOpen}
             >
-              <p>{a}</p>
+              <p>{renderInline(a, css.inlineLink)}</p>
             </div>
           </div>
         )

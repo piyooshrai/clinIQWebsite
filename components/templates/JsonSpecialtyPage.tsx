@@ -1,4 +1,5 @@
 import { renderContent } from '@/lib/renderContent'
+import { buildFAQSchema } from '@/lib/schema'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
 import FaqAccordion from '@/components/FaqAccordion'
@@ -82,15 +83,7 @@ export default function JsonSpecialtyPage({ data }: { data: SpecialtyData }) {
     areaServed: 'US',
   }
 
-  const faqSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: data.faqs.map((faq) => ({
-      '@type': 'Question',
-      name: faq.q,
-      acceptedAnswer: { '@type': 'Answer', text: faq.a },
-    })),
-  }
+  const faqSchema = buildFAQSchema(data.faqs)
 
   return (
     <>

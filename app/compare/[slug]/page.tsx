@@ -6,6 +6,7 @@ import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
 import FaqAccordion from '@/components/FaqAccordion'
 import { renderContent } from '@/lib/renderContent'
+import { buildFAQSchema } from '@/lib/schema'
 import s from '@/app/specialties/specialty-full.module.css'
 import css from '@/components/templates/PillarSpecialtyPage.module.css'
 
@@ -166,15 +167,7 @@ export default async function CompareSlugPage({
     ],
   }
 
-  const faqSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: data.faqs.map((f) => ({
-      '@type': 'Question',
-      name: f.q,
-      acceptedAnswer: { '@type': 'Answer', text: f.a },
-    })),
-  }
+  const faqSchema = buildFAQSchema(data.faqs)
 
   // Build flat related content list for cards
   const relatedCards = [

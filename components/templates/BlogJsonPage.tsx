@@ -31,7 +31,7 @@ export interface BlogPostData {
 // ── Metadata helper ───────────────────────────────────────────────────────────
 // Export so each blog page.tsx can call: export const metadata = generateBlogMetadata(data)
 
-const BASE_URL = 'https://cliniqhealthcare.com'
+const BASE_URL = 'https://www.cliniqhealthcare.com'
 
 export function generateBlogMetadata(data: BlogPostData): Metadata {
   const url = `${BASE_URL}/blog/${data.slug}`
@@ -72,14 +72,35 @@ function readTime(wordCount: number): string {
 // ── Component ─────────────────────────────────────────────────────────────────
 
 export default function BlogJsonPage({ data }: { data: BlogPostData }) {
+  const articleImage = data.heroImage?.src
+    ? `${BASE_URL}${data.heroImage.src}`
+    : `${BASE_URL}/og-default.png`
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: data.hero.h1,
     description: data.meta.description,
     datePublished: data.publishDate,
-    author: { '@type': 'Person', name: data.author },
-    publisher: { '@type': 'Organization', name: 'clinIQ', url: BASE_URL },
+    dateModified: data.publishDate,
+    image: [articleImage],
+    author: {
+      '@type': 'Organization',
+      name: data.author,
+      url: BASE_URL,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'clinIQ',
+      url: BASE_URL,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${BASE_URL}/clinIQ_new_logo.png`,
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `${BASE_URL}/blog/${data.slug}`,
+    },
     url: `${BASE_URL}/blog/${data.slug}`,
   }
 

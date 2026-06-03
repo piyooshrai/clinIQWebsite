@@ -91,3 +91,15 @@
   line-height: 1.7;
   color: var(--text-secondary);
 }
+
+.answerLink {
+  color: var(--teal);
+  text-decoration: underline;
+  text-decoration-color: rgba(13, 148, 136, 0.4);
+  text-underline-offset: 3px;
+  font-weight: 500;
+}
+
+.answerLink:hover {
+  text-decoration-color: var(--teal);
+}

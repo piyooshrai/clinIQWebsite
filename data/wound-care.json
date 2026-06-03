@@ -31,7 +31,7 @@
     {
       "id": "wound-operations",
       "h2": "The Wound Care Operations Model",
-      "content": "Wound care centers manage chronic wounds including diabetic foot ulcers, venous leg ulcers, pressure injuries, and surgical wounds that fail to heal. Treatment involves debridement, advanced dressings, offloading, and addressing underlying causes. Healing requires weeks to months of consistent treatment and monitoring.\n\nWound documentation through photography creates objective records of wound status, size progression, and healing trajectory. [Secure file exchange](/features/secure-file-exchange) through the [clinIQ app](/features/patient-app) enables photo sharing for between-visit monitoring.\n\n[RTM billing](/features/rtm-billing) for chronic wound monitoring captures revenue for between-visit assessment and treatment management.\n\nCare coordination with [vascular surgery](/specialties/vascular-surgery) for arterial insufficiency, [podiatry](/specialties/podiatry) for diabetic foot, and hyperbaric medicine for hyperbaric oxygen therapy addresses comprehensive wound healing."
+      "content": "Wound care centers manage chronic wounds including diabetic foot ulcers, venous leg ulcers, pressure injuries, and surgical wounds that fail to heal. Treatment involves debridement, advanced dressings, offloading, and addressing underlying causes. Healing requires weeks to months of consistent treatment and monitoring.\n\nWound documentation through photography creates objective records of wound status, size progression, and healing trajectory. [Secure file exchange](/features/secure-file-exchange) through the [clinIQ app](/features/patient-app) enables photo sharing for between-visit monitoring.\n\n[RTM billing](/features/rtm) for chronic wound monitoring captures revenue for between-visit assessment and treatment management.\n\nCare coordination with [vascular surgery](/specialties/vascular-surgery) for arterial insufficiency, [podiatry](/specialties/podiatry) for diabetic foot, and hyperbaric medicine for hyperbaric oxygen therapy addresses comprehensive wound healing."
     },
     {
       "id": "wound-documentation",
@@ -41,12 +41,12 @@
     {
       "id": "rtm-billing",
       "h2": "RTM Billing for Chronic Wound Monitoring",
-      "content": "[RTM billing](/features/rtm-billing) captures revenue for chronic wound monitoring between visits.\n\nMusculoskeletal RTM under CPT 98977 may apply to wound care monitoring involving skin and tissue conditions requiring ongoing assessment.\n\nPatient-reported data through the [clinIQ app](/features/patient-app) captures wound symptoms, dressing compliance, pain levels, and any concerning changes.\n\nPhoto documentation submitted through the app provides objective wound status between in-person visits.\n\nTreatment management time reviewing photos, assessing wound status, and adjusting treatment plans documents through RTM.\n\nClinical value from between-visit monitoring includes earlier identification of infection, wound deterioration detection before in-person visit, and verification of dressing compliance.\n\nRevenue opportunity at $90-120 per enrolled patient monthly supports investment in between-visit monitoring."
+      "content": "[RTM billing](/features/rtm) captures revenue for chronic wound monitoring between visits.\n\nMusculoskeletal RTM under CPT 98977 may apply to wound care monitoring involving skin and tissue conditions requiring ongoing assessment.\n\nPatient-reported data through the [clinIQ app](/features/patient-app) captures wound symptoms, dressing compliance, pain levels, and any concerning changes.\n\nPhoto documentation submitted through the app provides objective wound status between in-person visits.\n\nTreatment management time reviewing photos, assessing wound status, and adjusting treatment plans documents through RTM.\n\nClinical value from between-visit monitoring includes earlier identification of infection, wound deterioration detection before in-person visit, and verification of dressing compliance.\n\nRevenue opportunity at $90-120 per enrolled patient monthly supports investment in between-visit monitoring."
     },
     {
       "id": "scheduling",
       "h2": "Scheduling for Wound Care",
-      "content": "[Scheduling](/features/scheduling) in wound care accommodates varied visit types with different time requirements.\n\nDebridement visits require extended time for wound bed preparation. Sharp debridement, enzymatic debridement, and other modalities have different requirements.\n\nDressing change visits for routine dressing changes are briefer than debridement.\n\nAdvanced therapy visits for negative pressure wound therapy, bioengineered tissues, or other advanced modalities require appropriate time.\n\nHyperbaric oxygen therapy scheduling coordinates HBO treatments with wound care visits when both services provided.\n\n[Patient flow](/features/patient-flow) tracks patients through check-in, wound assessment, treatment, and dressing application.\n\n[Check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) collects symptom information before visits."
+      "content": "[Scheduling](/features/scheduling) in wound care accommodates varied visit types with different time requirements.\n\nDebridement visits require extended time for wound bed preparation. Sharp debridement, enzymatic debridement, and other modalities have different requirements.\n\nDressing change visits for routine dressing changes are briefer than debridement.\n\nAdvanced therapy visits for negative pressure wound therapy, bioengineered tissues, or other advanced modalities require appropriate time.\n\nHyperbaric oxygen therapy scheduling coordinates HBO treatments with wound care visits when both services provided.\n\n[Patient flow](/features/patient-flow) tracks patients through check-in, wound assessment, treatment, and dressing application.\n\n[Check-in](/features/check-in) through the [clinIQ app](/features/patient-app) collects symptom information before visits."
     },
     {
       "id": "care-coordination",
@@ -56,7 +56,7 @@
     {
       "id": "implementation",
       "h2": "Implementation and ROI",
-      "content": "Wound care implementation addresses wound documentation, [RTM](/features/rtm-billing) enrollment, [scheduling](/features/scheduling), and care coordination.\n\nWeek one maps wound care workflow including photo documentation. [Scheduling](/features/scheduling) configures for varied visit types. [RTM](/features/rtm-billing) configures for wound monitoring.\n\nWeek two trains staff on photo documentation, [patient flow](/features/patient-flow), and [check-in](/features/patient-check-in). Providers train on photo review and [RTM](/features/rtm-billing) data.\n\nWeek three goes live with workflow, [RTM](/features/rtm-billing) enrollment, and documentation.\n\nROI sources include [RTM billing](/features/rtm-billing) revenue for chronic wound monitoring. Photo monitoring catching problems early potentially preventing hospitalization. Better coordination improving healing rates.\n\nProfessional tier at $499 monthly includes [RTM](/features/rtm-billing), [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), [file exchange](/features/secure-file-exchange), and [analytics](/features/analytics)."
+      "content": "Wound care implementation addresses wound documentation, [RTM](/features/rtm) enrollment, [scheduling](/features/scheduling), and care coordination.\n\nWeek one maps wound care workflow including photo documentation. [Scheduling](/features/scheduling) configures for varied visit types. [RTM](/features/rtm) configures for wound monitoring.\n\nWeek two trains staff on photo documentation, [patient flow](/features/patient-flow), and [check-in](/features/check-in). Providers train on photo review and [RTM](/features/rtm) data.\n\nWeek three goes live with workflow, [RTM](/features/rtm) enrollment, and documentation.\n\nROI sources include [RTM billing](/features/rtm) revenue for chronic wound monitoring. Photo monitoring catching problems early potentially preventing hospitalization. Better coordination improving healing rates.\n\nProfessional tier at $499 monthly includes [RTM](/features/rtm), [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), [file exchange](/features/secure-file-exchange), and [analytics](/features/analytics)."
     }
   ],
   "faqs": [
@@ -66,7 +66,7 @@
     },
     {
       "q": "Can wound care centers bill RTM?",
-      "a": "Yes. Chronic wound monitoring may qualify for [RTM billing](/features/rtm-billing). Photo documentation and symptom tracking support between-visit monitoring."
+      "a": "Yes. Chronic wound monitoring may qualify for [RTM billing](/features/rtm). Photo documentation and symptom tracking support between-visit monitoring."
     },
     {
       "q": "How do you coordinate with vascular surgery?",
@@ -104,7 +104,7 @@
     {
       "type": "feature",
       "title": "RTM Billing",
-      "href": "/features/rtm-billing",
+      "href": "/features/rtm",
       "description": "Chronic wound monitoring revenue."
     },
     {

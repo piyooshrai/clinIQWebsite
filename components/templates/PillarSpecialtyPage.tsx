@@ -1,4 +1,5 @@
 import { renderInline, renderContent } from '@/lib/renderContent'
+import { buildFAQSchema } from '@/lib/schema'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
 import FaqAccordion from '@/components/FaqAccordion'
@@ -54,15 +55,7 @@ export interface PillarData {
 // ── Component ─────────────────────────────────────────────────────────────────
 
 export default function PillarSpecialtyPage({ data }: { data: PillarData }) {
-  const faqSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: data.faqs.map((faq) => ({
-      '@type': 'Question',
-      name: faq.q,
-      acceptedAnswer: { '@type': 'Answer', text: faq.a },
-    })),
-  }
+  const faqSchema = buildFAQSchema(data.faqs)
 
   const softwareSchema = data as unknown as {
     schema?: { type: string; applicationCategory: string }
@@ -75,8 +68,22 @@ export default function PillarSpecialtyPage({ data }: { data: PillarData }) {
         headline: data.meta.title,
         description: data.meta.description,
         datePublished: data.publishDate,
-        author: { '@type': 'Organization', name: 'clinIQ' },
-        publisher: { '@type': 'Organization', name: 'clinIQ', url: 'https://cliniqhealthcare.com' },
+        dateModified: (data as unknown as { updatedDate?: string }).updatedDate ?? data.publishDate,
+        image: [`https://www.cliniqhealthcare.com/og-default.png`],
+        author: { '@type': 'Organization', name: 'clinIQ', url: 'https://www.cliniqhealthcare.com' },
+        publisher: {
+          '@type': 'Organization',
+          name: 'clinIQ',
+          url: 'https://www.cliniqhealthcare.com',
+          logo: {
+            '@type': 'ImageObject',
+            url: 'https://www.cliniqhealthcare.com/clinIQ_new_logo.png',
+          },
+        },
+        mainEntityOfPage: {
+          '@type': 'WebPage',
+          '@id': `https://www.cliniqhealthcare.com/features/${data.slug}`,
+        },
       }
     : null
 

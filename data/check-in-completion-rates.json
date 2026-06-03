@@ -60,7 +60,7 @@
     "type": "feature",
     "title": "clinIQ Patient Check-In",
     "description": "clinIQ's check-in platform includes built-in completion rate analytics, optimized mobile forms, and multi-language support to help practices reach and sustain 85%+ completion rates.",
-    "href": "/features/patient-check-in",
+    "href": "/features/check-in",
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
@@ -69,7 +69,7 @@
   ],
   "pillarLink": {
     "title": "Patient Check-In",
-    "href": "/features/patient-check-in",
+    "href": "/features/check-in",
     "description": "See how clinIQ's patient check-in platform is designed to achieve 85%+ completion across patient demographics with mobile-optimized forms and smart reminders."
   },
   "cta": {

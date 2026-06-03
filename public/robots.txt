@@ -1,13 +1,14 @@
 # clinIQ Healthcare - Clinic Operations Platform
-# https://cliniqhealthcare.com
+# https://www.cliniqhealthcare.com
 
 User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://cliniqhealthcare.com/sitemap.xml
+Sitemap: https://www.cliniqhealthcare.com/sitemap.xml
 
-# Disallow admin/api routes
+# Disallow only the bits that should never be indexed.
+# Do NOT disallow /_next/ — Google needs the hashed JS/CSS bundles
+# under /_next/static/ to render and evaluate the page for SEO.
 Disallow: /api/
-Disallow: /_next/
 Disallow: /admin/

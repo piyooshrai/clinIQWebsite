@@ -60,7 +60,7 @@
     "type": "feature",
     "title": "clinIQ Patient Check-In",
     "description": "clinIQ's check-in platform is designed for accessibility — large font support, simplified flows, caregiver proxy check-in, and kiosk or phone delivery — to achieve high completion rates across all patient ages.",
-    "href": "/features/patient-check-in",
+    "href": "/features/check-in",
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
@@ -69,7 +69,7 @@
   ],
   "pillarLink": {
     "title": "Patient Check-In",
-    "href": "/features/patient-check-in",
+    "href": "/features/check-in",
     "description": "See how clinIQ's accessible check-in design achieves high completion rates for elderly and complex patient populations without requiring staff to manage a dual paper/digital system."
   },
   "cta": {

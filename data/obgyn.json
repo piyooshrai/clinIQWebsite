@@ -41,7 +41,7 @@
     {
       "id": "prenatal-workflow",
       "h2": "Prenatal Visit Workflow",
-      "content": "Prenatal visits follow predictable patterns with specific assessments at each gestational milestone.\n\nFirst prenatal visit includes comprehensive history, examination, baseline labs, and dating ultrasound. Extended time required.\n\nRoutine prenatal visits include weight, blood pressure, fundal height, fetal heart tones, and patient questions. Brief but consistent visits.\n\nMilestone-specific visits include anatomy scan around 20 weeks, glucose tolerance testing around 28 weeks, Group B strep testing around 36 weeks, and other gestational-specific assessments.\n\n[Check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) collects weight and symptom information before visits.\n\n[Patient flow](/features/patient-flow) tracks patients through vitals, provider evaluation, and any testing or ultrasound."
+      "content": "Prenatal visits follow predictable patterns with specific assessments at each gestational milestone.\n\nFirst prenatal visit includes comprehensive history, examination, baseline labs, and dating ultrasound. Extended time required.\n\nRoutine prenatal visits include weight, blood pressure, fundal height, fetal heart tones, and patient questions. Brief but consistent visits.\n\nMilestone-specific visits include anatomy scan around 20 weeks, glucose tolerance testing around 28 weeks, Group B strep testing around 36 weeks, and other gestational-specific assessments.\n\n[Check-in](/features/check-in) through the [clinIQ app](/features/patient-app) collects weight and symptom information before visits.\n\n[Patient flow](/features/patient-flow) tracks patients through vitals, provider evaluation, and any testing or ultrasound."
     },
     {
       "id": "patient-flow",
@@ -56,7 +56,7 @@
     {
       "id": "implementation",
       "h2": "Implementation and ROI",
-      "content": "OB-GYN implementation addresses prenatal and gynecologic [scheduling](/features/scheduling), [patient flow](/features/patient-flow), and patient engagement.\n\nWeek one maps prenatal visit workflow and gynecologic scheduling. [Scheduling](/features/scheduling) configures for OB and GYN visit types. Patient engagement workflow establishes.\n\nWeek two trains staff on [patient flow](/features/patient-flow), [scheduling](/features/scheduling), and [check-in](/features/patient-check-in). Providers train on dashboard and [secure messaging](/features/secure-messaging).\n\nWeek three goes live with [patient flow](/features/patient-flow), [scheduling](/features/scheduling), and patient engagement.\n\nROI sources include scheduling efficiency maximizing visit volume. Patient engagement reducing phone volume. [Telehealth](/features/telehealth) expanding access for postpartum care. Better [patient satisfaction](/features/patient-satisfaction).\n\nProfessional tier at $499 monthly includes [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), [patient satisfaction](/features/patient-satisfaction), and [analytics](/features/analytics)."
+      "content": "OB-GYN implementation addresses prenatal and gynecologic [scheduling](/features/scheduling), [patient flow](/features/patient-flow), and patient engagement.\n\nWeek one maps prenatal visit workflow and gynecologic scheduling. [Scheduling](/features/scheduling) configures for OB and GYN visit types. Patient engagement workflow establishes.\n\nWeek two trains staff on [patient flow](/features/patient-flow), [scheduling](/features/scheduling), and [check-in](/features/check-in). Providers train on dashboard and [secure messaging](/features/secure-messaging).\n\nWeek three goes live with [patient flow](/features/patient-flow), [scheduling](/features/scheduling), and patient engagement.\n\nROI sources include scheduling efficiency maximizing visit volume. Patient engagement reducing phone volume. [Telehealth](/features/telehealth) expanding access for postpartum care. Better [patient satisfaction](/features/patient-satisfaction).\n\nProfessional tier at $499 monthly includes [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), [patient satisfaction](/features/patient-satisfaction), and [analytics](/features/analytics)."
     }
   ],
   "faqs": [
@@ -70,7 +70,7 @@
     },
     {
       "q": "Can check-in capture prenatal data?",
-      "a": "Yes. [Check-in](/features/patient-check-in) collects weight, blood pressure, and symptoms before prenatal visits."
+      "a": "Yes. [Check-in](/features/check-in) collects weight, blood pressure, and symptoms before prenatal visits."
     },
     {
       "q": "Does telehealth work for OB-GYN?",

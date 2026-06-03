@@ -63,3 +63,15 @@
   color: var(--text-secondary);
   margin: 0;
 }
+
+.inlineLink {
+  color: var(--teal);
+  text-decoration: underline;
+  text-decoration-color: rgba(13, 148, 136, 0.4);
+  text-underline-offset: 3px;
+  font-weight: 500;
+}
+
+.inlineLink:hover {
+  text-decoration-color: var(--teal);
+}

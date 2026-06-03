@@ -60,7 +60,7 @@
     "type": "feature",
     "title": "clinIQ Patient Check-In",
     "description": "clinIQ offers both SMS-based and kiosk check-in on a single platform, with completion rate reporting and EHR integration that works for any patient population.",
-    "href": "/features/patient-check-in",
+    "href": "/features/check-in",
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
@@ -69,7 +69,7 @@
   ],
   "pillarLink": {
     "title": "Patient Check-In",
-    "href": "/features/patient-check-in",
+    "href": "/features/check-in",
     "description": "See how clinIQ's patient check-in platform reduces front desk workload, improves data accuracy, and achieves 85%+ completion rates across patient demographics."
   },
   "cta": {

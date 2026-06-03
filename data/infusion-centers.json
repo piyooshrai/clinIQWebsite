@@ -41,7 +41,7 @@
     {
       "id": "infusion-workflow",
       "h2": "Infusion Workflow Management",
-      "content": "[Patient flow](/features/patient-flow) in infusion centers tracks patients through the infusion process.\n\n[Check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) confirms arrival and collects pre-infusion symptom assessment. Patients report how they've been since last infusion.\n\nPre-infusion assessment by nursing confirms vital signs, reviews symptoms, and determines readiness to proceed.\n\nInfusion monitoring tracks infusion progress, vital sign checks, and any reactions. Time remaining visible in workflow.\n\nPost-infusion observation for required observation period after certain infusions tracks completion.\n\nDischarge documentation captures post-infusion status and any instructions.\n\n[Secure messaging](/features/secure-messaging) allows patients to report post-infusion symptoms or concerns."
+      "content": "[Patient flow](/features/patient-flow) in infusion centers tracks patients through the infusion process.\n\n[Check-in](/features/check-in) through the [clinIQ app](/features/patient-app) confirms arrival and collects pre-infusion symptom assessment. Patients report how they've been since last infusion.\n\nPre-infusion assessment by nursing confirms vital signs, reviews symptoms, and determines readiness to proceed.\n\nInfusion monitoring tracks infusion progress, vital sign checks, and any reactions. Time remaining visible in workflow.\n\nPost-infusion observation for required observation period after certain infusions tracks completion.\n\nDischarge documentation captures post-infusion status and any instructions.\n\n[Secure messaging](/features/secure-messaging) allows patients to report post-infusion symptoms or concerns."
     },
     {
       "id": "pre-authorization",
@@ -51,7 +51,7 @@
     {
       "id": "symptom-monitoring",
       "h2": "Symptom Monitoring",
-      "content": "Symptom monitoring captures patient status before and after infusions.\n\nPre-infusion assessment through [check-in](/features/patient-check-in) documents symptoms since last infusion. Disease activity, medication effects, and any concerns capture before treatment.\n\nInfusion reaction monitoring during infusion captures any adverse reactions requiring intervention.\n\nPost-infusion symptom tracking through the [clinIQ app](/features/patient-app) captures delayed reactions, side effects, and recovery. Patients report symptoms in the days following infusion.\n\n[Secure messaging](/features/secure-messaging) allows patients to report concerning symptoms requiring clinical attention.\n\n[Telehealth](/features/telehealth) for symptom assessment enables visual evaluation of reactions or concerns without requiring return visit."
+      "content": "Symptom monitoring captures patient status before and after infusions.\n\nPre-infusion assessment through [check-in](/features/check-in) documents symptoms since last infusion. Disease activity, medication effects, and any concerns capture before treatment.\n\nInfusion reaction monitoring during infusion captures any adverse reactions requiring intervention.\n\nPost-infusion symptom tracking through the [clinIQ app](/features/patient-app) captures delayed reactions, side effects, and recovery. Patients report symptoms in the days following infusion.\n\n[Secure messaging](/features/secure-messaging) allows patients to report concerning symptoms requiring clinical attention.\n\n[Telehealth](/features/telehealth) for symptom assessment enables visual evaluation of reactions or concerns without requiring return visit."
     },
     {
       "id": "implementation",
@@ -70,7 +70,7 @@
     },
     {
       "q": "How does infusion workflow track?",
-      "a": "[Patient flow](/features/patient-flow) tracks check-in, pre-infusion assessment, infusion progress, observation, and discharge. [Check-in](/features/patient-check-in) captures pre-infusion symptoms."
+      "a": "[Patient flow](/features/patient-flow) tracks check-in, pre-infusion assessment, infusion progress, observation, and discharge. [Check-in](/features/check-in) captures pre-infusion symptoms."
     },
     {
       "q": "How does post-infusion symptom monitoring work?",

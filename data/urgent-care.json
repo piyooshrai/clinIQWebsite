@@ -31,7 +31,7 @@
     {
       "id": "uc-operations",
       "h2": "The Urgent Care Operations Model",
-      "content": "Urgent care centers handle high-volume episodic care for acute illness and minor injuries. Walk-in patients without appointments expect minimal wait times. Flow efficiency directly determines patient volume, satisfaction, and revenue. [Patient flow](/features/patient-flow) must manage unpredictable arrival patterns while maintaining rapid throughput.\n\nOnline [check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) reduces lobby wait time. Patients complete registration before arrival, holding their place in the queue while traveling to the clinic.\n\nWait time transparency through digital displays and app updates manages patient expectations. [Patient satisfaction](/features/patient-satisfaction) depends heavily on perceived versus actual wait time.\n\nFollow-up coordination with [primary care](/specialties/primary-care) ensures patients receive appropriate ongoing care after urgent care visits."
+      "content": "Urgent care centers handle high-volume episodic care for acute illness and minor injuries. Walk-in patients without appointments expect minimal wait times. Flow efficiency directly determines patient volume, satisfaction, and revenue. [Patient flow](/features/patient-flow) must manage unpredictable arrival patterns while maintaining rapid throughput.\n\nOnline [check-in](/features/check-in) through the [clinIQ app](/features/patient-app) reduces lobby wait time. Patients complete registration before arrival, holding their place in the queue while traveling to the clinic.\n\nWait time transparency through digital displays and app updates manages patient expectations. [Patient satisfaction](/features/patient-satisfaction) depends heavily on perceived versus actual wait time.\n\nFollow-up coordination with [primary care](/specialties/primary-care) ensures patients receive appropriate ongoing care after urgent care visits."
     },
     {
       "id": "patient-flow",
@@ -41,12 +41,12 @@
     {
       "id": "check-in",
       "h2": "Online Check-In",
-      "content": "Online [check-in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) reduces lobby wait time and improves patient experience.\n\nRemote check-in allows patients to start the visit from home. Registration, history, and chief complaint capture before arrival.\n\nPlace in line holds when patients check in online. They join the queue remotely and arrive when their turn approaches.\n\nArrival confirmation through the app notifies staff when patients arrive at the clinic. Seamless transition from online to in-person.\n\nPre-visit information collection captures reason for visit, symptoms, and relevant history. Staff has information before patient arrives.\n\nReduced lobby crowding improves both patient experience and infection control. Fewer patients waiting in close proximity."
+      "content": "Online [check-in](/features/check-in) through the [clinIQ app](/features/patient-app) reduces lobby wait time and improves patient experience.\n\nRemote check-in allows patients to start the visit from home. Registration, history, and chief complaint capture before arrival.\n\nPlace in line holds when patients check in online. They join the queue remotely and arrive when their turn approaches.\n\nArrival confirmation through the app notifies staff when patients arrive at the clinic. Seamless transition from online to in-person.\n\nPre-visit information collection captures reason for visit, symptoms, and relevant history. Staff has information before patient arrives.\n\nReduced lobby crowding improves both patient experience and infection control. Fewer patients waiting in close proximity."
     },
     {
       "id": "wait-time",
       "h2": "Wait Time Management and Transparency",
-      "content": "Wait time management directly affects [patient satisfaction](/features/patient-satisfaction) and urgent care success.\n\nWait time display through lobby screens and app shows estimated wait time. Transparency manages expectations.\n\nApp notifications update patients about their queue position and estimated time. Patients can wait elsewhere and arrive when their turn approaches.\n\nProactive communication when delays occur addresses waiting patients before frustration builds. [Secure messaging](/features/secure-messaging) through the app reaches patients in the lobby.\n\nExpectation setting during [check-in](/features/patient-check-in) provides realistic time estimates based on current queue.\n\n[Analytics](/features/analytics) track wait times over time, by day of week, and time of day. Data guides staffing decisions.\n\n[Patient satisfaction](/features/patient-satisfaction) surveys capture feedback on wait time experience."
+      "content": "Wait time management directly affects [patient satisfaction](/features/patient-satisfaction) and urgent care success.\n\nWait time display through lobby screens and app shows estimated wait time. Transparency manages expectations.\n\nApp notifications update patients about their queue position and estimated time. Patients can wait elsewhere and arrive when their turn approaches.\n\nProactive communication when delays occur addresses waiting patients before frustration builds. [Secure messaging](/features/secure-messaging) through the app reaches patients in the lobby.\n\nExpectation setting during [check-in](/features/check-in) provides realistic time estimates based on current queue.\n\n[Analytics](/features/analytics) track wait times over time, by day of week, and time of day. Data guides staffing decisions.\n\n[Patient satisfaction](/features/patient-satisfaction) surveys capture feedback on wait time experience."
     },
     {
       "id": "follow-up",
@@ -56,13 +56,13 @@
     {
       "id": "implementation",
       "h2": "Implementation and ROI",
-      "content": "Urgent care implementation addresses high-volume [patient flow](/features/patient-flow), online [check-in](/features/patient-check-in), wait time management, and follow-up coordination.\n\nWeek one maps patient flow from arrival through discharge. Online [check-in](/features/patient-check-in) configures. Wait time display establishes. Follow-up workflow configures.\n\nWeek two trains staff on flow board operation, [check-in](/features/patient-check-in) management, and communication. Providers train on rapid evaluation workflow.\n\nWeek three goes live with [patient flow](/features/patient-flow), [check-in](/features/patient-check-in), and communication.\n\nROI sources include flow efficiency increasing patient throughput. Online check-in improving patient experience. Wait time transparency improving [patient satisfaction](/features/patient-satisfaction). Better flow enabling higher volume without adding staff.\n\nProfessional tier at $499 monthly includes [patient flow](/features/patient-flow), [check-in](/features/patient-check-in), [secure messaging](/features/secure-messaging), [patient satisfaction](/features/patient-satisfaction), [file exchange](/features/secure-file-exchange), and [analytics](/features/analytics)."
+      "content": "Urgent care implementation addresses high-volume [patient flow](/features/patient-flow), online [check-in](/features/check-in), wait time management, and follow-up coordination.\n\nWeek one maps patient flow from arrival through discharge. Online [check-in](/features/check-in) configures. Wait time display establishes. Follow-up workflow configures.\n\nWeek two trains staff on flow board operation, [check-in](/features/check-in) management, and communication. Providers train on rapid evaluation workflow.\n\nWeek three goes live with [patient flow](/features/patient-flow), [check-in](/features/check-in), and communication.\n\nROI sources include flow efficiency increasing patient throughput. Online check-in improving patient experience. Wait time transparency improving [patient satisfaction](/features/patient-satisfaction). Better flow enabling higher volume without adding staff.\n\nProfessional tier at $499 monthly includes [patient flow](/features/patient-flow), [check-in](/features/check-in), [secure messaging](/features/secure-messaging), [patient satisfaction](/features/patient-satisfaction), [file exchange](/features/secure-file-exchange), and [analytics](/features/analytics)."
     }
   ],
   "faqs": [
     {
       "q": "How does online check-in work?",
-      "a": "Patients [check in](/features/patient-check-in) through the [clinIQ app](/features/patient-app) from home. Registration and history complete remotely. Patients hold their place in queue and arrive when their turn approaches."
+      "a": "Patients [check in](/features/check-in) through the [clinIQ app](/features/patient-app) from home. Registration and history complete remotely. Patients hold their place in queue and arrive when their turn approaches."
     },
     {
       "q": "How does patient flow handle walk-ins?",
@@ -104,7 +104,7 @@
     {
       "type": "feature",
       "title": "Patient Check-In",
-      "href": "/features/patient-check-in",
+      "href": "/features/check-in",
       "description": "Online and kiosk check-in."
     },
     {
