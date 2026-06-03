@@ -1,9 +1,11 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import { renderBody } from '@/lib/renderContent'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
 import BlogHero from '@/components/BlogHero'
 import BlogCTA from '@/components/BlogCTA'
+import FAQSection from '@/components/FAQSection'
 import css from './BlogJsonPage.module.css'
 
 // ── Types ─────────────────────────────────────────────────────────────────────
@@ -16,11 +18,14 @@ export interface BlogPostData {
   publishDate: string // "YYYY-MM-DD"
   meta: { title: string; description: string }
   hero: { h1: string; subhead: string }
+  heroImage?: { src: string; alt: string; width: number; height: number }
   content: readonly { h2: string; body: string }[]
   callout: { title: string; description: string; href: string; buttonLabel: string }
   relatedPosts: readonly { title: string; href: string }[]
   pillarLink: { title: string; href: string; description: string }
   cta: { headline: string; subhead: string; primaryButton: { label: string; href: string } }
+  faqs?: readonly { question: string; answer: string }[]
+  faqsHeadline?: string
 }
 
 // ── Metadata helper ───────────────────────────────────────────────────────────
@@ -111,6 +116,19 @@ export default function BlogJsonPage({ data }: { data: BlogPostData }) {
 
             {/* Main content */}
             <article className={css.prose}>
+              {data.heroImage && (
+                <figure className={css.heroImageFigure}>
+                  <Image
+                    src={data.heroImage.src}
+                    alt={data.heroImage.alt}
+                    width={data.heroImage.width}
+                    height={data.heroImage.height}
+                    sizes="(max-width: 1023px) 100vw, 720px"
+                    priority
+                    className={css.heroImageImg}
+                  />
+                </figure>
+              )}
               {data.content.map((section, i) => (
                 <section key={i}>
                   <h2 className={css.sectionH2}>{section.h2}</h2>
@@ -173,6 +191,15 @@ export default function BlogJsonPage({ data }: { data: BlogPostData }) {
             </aside>
           </div>
         </div>
+
+        {/* FAQs (optional) */}
+        {data.faqs && data.faqs.length > 0 && (
+          <FAQSection
+            headline={data.faqsHeadline ?? 'Frequently Asked Questions'}
+            items={data.faqs.map((f) => ({ question: f.question, answer: f.answer }))}
+            variant="cream"
+          />
+        )}
 
         {/* CTA */}
         <BlogCTA

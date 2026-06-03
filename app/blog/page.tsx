@@ -13,6 +13,15 @@ export const metadata: Metadata = {
 
 const posts: BlogPost[] = [
   {
+    slug: 'patient-flow-process-costing-money',
+    category: 'Patient Flow',
+    title: '7 Signs Your Patient Flow Process Is Costing You More Than You Think',
+    date: 'June 2026',
+    readTime: '12 min',
+    excerpt:
+      'Check-in lines before 9am, providers running behind by mid-morning, uncollected RTM revenue, post-visit pre-auth denials — seven warning signs that your patient flow process is bleeding revenue, and what high performing clinics do differently.',
+  },
+  {
     slug: 'ehr-vs-clinic-operations',
     category: 'Operations',
     title: "Why Your EHR Can't Run Clinic Operations (And What Can)",
