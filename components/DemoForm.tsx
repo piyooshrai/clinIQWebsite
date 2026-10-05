@@ -84,7 +84,7 @@ export default function DemoForm() {
     setSubmitting(true)
     setError('')
     try {
-      await fetch('/api/contact', {
+      const response = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -100,6 +100,7 @@ export default function DemoForm() {
           message,
         }),
       })
+      if (!response.ok) throw new Error('Inquiry was not accepted')
       trackDemoRequest(specialty, providers)
       setSubmitted(true)
     } catch {

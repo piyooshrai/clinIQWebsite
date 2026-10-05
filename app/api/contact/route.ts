@@ -1,5 +1,6 @@
 import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses'
 import { NextResponse } from 'next/server'
+import { captureForgeInquiry } from '@/lib/forge-intake'
 
 const ses = new SESClient({ region: process.env.AWS_REGION ?? 'us-east-1' })
 
@@ -41,7 +42,9 @@ export async function POST(request: Request) {
       ].join('\n')
     }
 
-    await ses.send(
+    if (typeof email !== 'string' || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return NextResponse.json({ error: 'A valid email is required' }, { status: 400 })
+    await captureForgeInquiry({ name: ([firstName, lastName].filter(v => typeof v === 'string' && v.trim()).join(' ') || String(practice || 'Website inquirer')).slice(0, 200), email: email.trim().toLowerCase(), company: String(practice || '').slice(0, 200), phone: String(phone || '').slice(0, 80), message: emailBody.slice(0, 8000), formId: String(formType || 'contact').slice(0, 128) })
+    try { await ses.send(
       new SendEmailCommand({
         Source: process.env.SES_FROM_EMAIL,
         Destination: { ToAddresses: [process.env.SES_TO_EMAIL!] },
@@ -50,7 +53,7 @@ export async function POST(request: Request) {
           Body: { Text: { Data: emailBody } },
         },
       }),
-    )
+    ) } catch { console.error('Internal notification failed; inquiry safely stored in Forge') }
 
     return NextResponse.json({ success: true })
   } catch (error) {

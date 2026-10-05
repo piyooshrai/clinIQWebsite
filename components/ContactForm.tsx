@@ -73,7 +73,7 @@ export default function ContactForm() {
     setSubmitting(true)
     setError('')
     try {
-      await fetch('/api/contact', {
+      const response = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -84,6 +84,7 @@ export default function ContactForm() {
           message,
         }),
       })
+      if (!response.ok) throw new Error('Inquiry was not accepted')
       trackContactSubmit(subject)
       setSubmitted(true)
     } catch {
