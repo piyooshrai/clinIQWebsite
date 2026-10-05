@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { captureIntakeContext } from '@/lib/intake-context'
 import styles from './ContactForm.module.css'
 import { trackContactSubmit } from '@/lib/analytics'
 
@@ -77,6 +78,7 @@ export default function ContactForm() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
+          intakeContext: captureIntakeContext(),
           formType: 'contact',
           firstName: name,
           email,

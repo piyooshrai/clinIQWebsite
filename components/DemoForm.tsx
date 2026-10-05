@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { captureIntakeContext } from '@/lib/intake-context'
 import { useTranslations } from 'next-intl'
 import styles from './DemoForm.module.css'
 import { trackDemoRequest } from '@/lib/analytics'
@@ -88,6 +89,7 @@ export default function DemoForm() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
+          intakeContext: captureIntakeContext(),
           formType: 'demo',
           firstName,
           lastName,

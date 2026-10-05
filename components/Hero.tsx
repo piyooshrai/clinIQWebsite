@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { captureIntakeContext } from '@/lib/intake-context'
 import Link from 'next/link'
 import { useTranslations } from 'next-intl'
 import styles from './Hero.module.css'
@@ -20,6 +21,7 @@ export default function Hero() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
+          intakeContext: captureIntakeContext(),
           email,
           practice,
           subject: 'Hero quick inquiry',

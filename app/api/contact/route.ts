@@ -1,6 +1,7 @@
 import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses'
 import { NextResponse } from 'next/server'
 import { captureForgeInquiry } from '@/lib/forge-intake'
+import { normalizeIntakeContext } from '@/lib/intake-context'
 
 const ses = new SESClient({ region: process.env.AWS_REGION ?? 'us-east-1' })
 
@@ -43,7 +44,7 @@ export async function POST(request: Request) {
     }
 
     if (typeof email !== 'string' || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return NextResponse.json({ error: 'A valid email is required' }, { status: 400 })
-    await captureForgeInquiry({ name: ([firstName, lastName].filter(v => typeof v === 'string' && v.trim()).join(' ') || String(practice || 'Website inquirer')).slice(0, 200), email: email.trim().toLowerCase(), company: String(practice || '').slice(0, 200), phone: String(phone || '').slice(0, 80), message: emailBody.slice(0, 8000), formId: String(formType || 'contact').slice(0, 128) })
+    await captureForgeInquiry({ name: ([firstName, lastName].filter(v => typeof v === 'string' && v.trim()).join(' ') || String(practice || 'Website inquirer')).slice(0, 200), email: email.trim().toLowerCase(), company: String(practice || '').slice(0, 200), phone: String(phone || '').slice(0, 80), message: emailBody.slice(0, 8000), ...normalizeIntakeContext(body.intakeContext, request), formId: String(formType || 'contact').slice(0, 128) })
     try { await ses.send(
       new SendEmailCommand({
         Source: process.env.SES_FROM_EMAIL,

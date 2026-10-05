@@ -4,6 +4,7 @@ import { NextIntlClientProvider } from 'next-intl'
 import { getLocale, getMessages } from 'next-intl/server'
 import GoogleAnalytics from '@/components/GoogleAnalytics'
 import ChatWidget from '@/components/ChatWidget'
+import IntakeContext from '@/components/IntakeContext'
 import './globals.css'
 
 const instrumentSerif = Instrument_Serif({
@@ -45,6 +46,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <GoogleAnalytics />
+          <IntakeContext />
           <ChatWidget />
           <a href="#main-content" className="skip-link">Skip to main content</a>
           {children}
