@@ -100,7 +100,7 @@
       },
       "secondaryButton": {
         "label": "Calculate Your RTM Revenue",
-        "href": "/resources/rtm-calculator"
+        "href": "/resources/roi-calculator"
       }
     },
     "proof": {
@@ -232,7 +232,7 @@
       },
       "secondaryButton": {
         "label": "Calculate RTM Revenue",
-        "href": "/resources/rtm-calculator"
+        "href": "/resources/roi-calculator"
       }
     },
     "proof": {
@@ -492,7 +492,7 @@
       },
       "secondaryButton": {
         "label": "Calculate Your RTM Revenue",
-        "href": "/resources/rtm-calculator"
+        "href": "/resources/roi-calculator"
       }
     },
     "proof": {
@@ -1135,7 +1135,7 @@
       },
       "secondaryButton": {
         "label": "Calculate Cardiac RTM Revenue",
-        "href": "/resources/rtm-calculator"
+        "href": "/resources/roi-calculator"
       }
     },
     "proof": {
@@ -1376,7 +1376,7 @@
     "headline": "See the revenue you're missing",
     "subhead": "15-minute demo. We'll show you RTM revenue, procedure room recovery, and prior auth tracking configured for pain management.",
     "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Your RTM Revenue", "href": "/resources/rtm-calculator" }
+    "secondaryButton": { "label": "Calculate Your RTM Revenue", "href": "/resources/roi-calculator" }
   },
   "proof": {
     "stats": [
@@ -1478,7 +1478,7 @@
     "headline": "See the revenue and flow you're missing",
     "subhead": "15-minute demo configured for MAT clinics. RTM billing, injection scheduling, observation tracking.",
     "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate RTM Revenue", "href": "/resources/rtm-calculator" }
+    "secondaryButton": { "label": "Calculate RTM Revenue", "href": "/resources/roi-calculator" }
   },
   "proof": {
     "stats": [
@@ -1682,7 +1682,7 @@
     "headline": "See the RTM revenue and flow visibility you're missing",
     "subhead": "15-minute demo for PT. Home exercise RTM, multi-patient tracking, cap visibility, waitlist recovery.",
     "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Your RTM Revenue", "href": "/resources/rtm-calculator" }
+    "secondaryButton": { "label": "Calculate Your RTM Revenue", "href": "/resources/roi-calculator" }
   },
   "proof": {
     "stats": [
@@ -2192,7 +2192,7 @@
     "headline": "See your testing suite and RTM revenue",
     "subhead": "15-minute demo. Multi-modality tracking, cardiac RTM, reading queues, testing/clinic integration.",
     "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Cardiac RTM Revenue", "href": "/resources/rtm-calculator" }
+    "secondaryButton": { "label": "Calculate Cardiac RTM Revenue", "href": "/resources/roi-calculator" }
   },
   "proof": {
     "stats": [

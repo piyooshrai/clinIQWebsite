@@ -1,6 +1,6 @@
 import { createHash } from 'node:crypto';
 import type { normalizeIntakeContext } from './intake-context';
-type Inquiry = { name: string; email: string; company?: string; phone?: string; message: string; formId: string } & ReturnType<typeof normalizeIntakeContext>;
+export type Inquiry = { name: string; email: string; company?: string; phone?: string; message: string; formId: string } & ReturnType<typeof normalizeIntakeContext>;
 export async function captureForgeInquiry(input: Inquiry) {
   if (!process.env.FORGE_INGESTION_TOKEN) throw new Error('Inquiry capture is not configured');
   const submissionId = createHash('sha256').update(JSON.stringify({ name: input.name, email: input.email, company: input.company, phone: input.phone, message: input.message, formId: input.formId }) + Math.floor(Date.now() / 900000)).digest('hex');

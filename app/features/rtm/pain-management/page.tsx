@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'RTM Billing for Pain Management Clinics | Functional Outcome Monitoring | clinIQ',
+  title: 'RTM Billing for Pain Management Clinics | Functional Outcome Monitoring',
   description: 'Pain scores, functional status, and medication adherence — tracked between visits and billed. clinIQ captures $120-150 per eligible pain management patient per month.',
 }
 

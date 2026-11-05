@@ -9,6 +9,7 @@ import type { ContextPoint } from '@/components/LocationContext'
 import type { FeatureKey } from '@/components/LocationFeatures'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/locations/edinburgh' },
   title: 'Clinic Software for Edinburgh | Scottish Private Practice',
   description: 'clinIQ helps Edinburgh private practices serve Scotland\'s affluent professional population, manage seasonal demand spikes, and capture healthcare tourism from the Highlands.',
 }

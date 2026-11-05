@@ -421,7 +421,7 @@ export function matchIntent(rawText: string, ctx: IntentContext): MatchResult {
       hasAny(text, ['better', 'difference', 'replace']))
   ) {
     return {
-      reply: `Here is a side by side on clinIQ vs ${compare.label}: https://cliniqhealthcare.com/compare/${compare.slug}. Happy to answer specific questions on it.`,
+      reply: `Here is a side by side on clinIQ vs ${compare.label}: https://www.cliniqhealthcare.com/compare/${compare.slug}. Happy to answer specific questions on it.`,
       intentId: `compare-${compare.slug}`,
       isFallback: false,
     }

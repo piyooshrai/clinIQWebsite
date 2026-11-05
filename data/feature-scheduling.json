@@ -161,7 +161,7 @@
     },
     "secondaryButton": {
       "label": "See Scheduling Features",
-      "href": "/resources/scheduling-demo"
+      "href": "/demo"
     }
   },
   "proof": {
@@ -196,13 +196,13 @@
     {
       "type": "blog",
       "title": "Same-Day Access: Making It Actually Work",
-      "href": "/blog/same-day-access",
+      "href": "/blog/same-day-access-scheduling",
       "description": "Dynamic capacity management that delivers true same-day availability."
     },
     {
       "type": "blog",
       "title": "Appointment Templates: Getting Duration Right",
-      "href": "/blog/appointment-templates",
+      "href": "/blog/appointment-templates-duration",
       "description": "Matching scheduled time to actual visit requirements for each appointment type."
     }
   ],

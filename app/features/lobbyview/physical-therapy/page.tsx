@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'LobbyView for Physical Therapy Clinics | Zone Availability Display | clinIQ',
+  title: 'LobbyView for Physical Therapy Clinics | Zone Availability Display',
   description: 'Equipment zone availability and therapist status displayed in the PT waiting area. clinIQ LobbyView guides patients through multi-zone sessions without staff coordination.',
 }
 

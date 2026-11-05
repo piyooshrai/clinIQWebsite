@@ -1,5 +1,8 @@
 import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses'
 import { NextResponse } from 'next/server'
+import { captureForgeInquiry } from '@/lib/forge-intake'
+import { isValidEmail } from '@/lib/inquiry-delivery'
+import { normalizeIntakeContext } from '@/lib/intake-context'
 
 const ses = new SESClient({ region: process.env.AWS_REGION ?? 'us-east-1' })
 

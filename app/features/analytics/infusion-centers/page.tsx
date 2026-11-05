@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Analytics for Infusion Centers | Chair Utilization & Revenue per Chair | clinIQ',
+  title: 'Analytics for Infusion Centers | Chair Utilization & Revenue per Chair',
   description: 'Chair utilization by shift, adverse event rates, and revenue per chair — tracked. clinIQ gives infusion center leadership the data to optimize capacity and profitability.',
 }
 

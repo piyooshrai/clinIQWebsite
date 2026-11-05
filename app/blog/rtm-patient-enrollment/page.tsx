@@ -6,6 +6,7 @@ import BlogContent from '@/components/BlogContent'
 import BlogCTA from '@/components/BlogCTA'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/blog/rtm-patient-enrollment' },
   title: 'Getting Patients to Enroll in RTM: What Actually Works',
   description:
     'Most RTM programs fail at enrollment, not billing. Scripts for introducing RTM to patients, what to say and what not to say, and how to eliminate technology friction.',

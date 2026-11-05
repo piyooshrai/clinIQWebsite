@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Pre-Authorization for Infusion Centers | Biologic Infusion PA Tracking | clinIQ',
+  title: 'Pre-Authorization for Infusion Centers | Biologic Infusion PA Tracking',
   description: 'Every biologic infusion requires authorization. clinIQ tracks infusion PAs by drug, patient, and authorization period so no patient arrives without active coverage.',
 }
 

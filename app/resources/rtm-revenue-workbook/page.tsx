@@ -5,7 +5,8 @@ import ResourceHero from '@/components/ResourceHero'
 import RTMRevenueWorkbook from '@/components/RTMRevenueWorkbook'
 
 export const metadata: Metadata = {
-  title: 'RTM Revenue Projection Workbook — clinIQ Resources',
+  alternates: { canonical: '/resources/rtm-revenue-workbook' },
+  title: 'RTM Revenue Projection Workbook',
   description:
     'Project your RTM billing revenue by specialty, enrollment rate, and payer mix. See monthly and annual estimates across all billable CPT codes.',
 }

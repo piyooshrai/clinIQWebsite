@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Scheduling for Addiction Medicine Clinics | MAT Appointment Management | clinIQ',
+  title: 'Scheduling for Addiction Medicine Clinics | MAT Appointment Management',
   description: 'Injection schedules, refill appointments, and crisis slots in one system. clinIQ handles addiction medicine scheduling with visit-type rules that actually match your workflow.',
 }
 

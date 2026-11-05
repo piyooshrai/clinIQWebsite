@@ -6,6 +6,7 @@ import BlogContent from '@/components/BlogContent'
 import BlogCTA from '@/components/BlogCTA'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/blog/rtm-roi-calculator' },
   title: 'Calculate Your RTM Revenue: A Simple Framework',
   description:
     'A step-by-step framework for calculating RTM revenue potential for your practice. Eligible patients, enrollment rate, monthly reimbursement, and annual revenue with real numbers.',

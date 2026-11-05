@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { captureIntakeContext } from '@/lib/intake-context'
 import styles from './ResourceForm.module.css'
 import contentStyles from './ResourceContent.module.css'
 import { trackResourceUnlock } from '@/lib/analytics'
@@ -65,12 +66,15 @@ export default function ResourceForm({
     setError('')
 
     try {
-      await fetch('/api/resource-download', {
+      const response = await fetch('/api/resource-download', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ resourceSlug, resourceTitle, ...values }),
+        body: JSON.stringify({ resourceSlug, resourceTitle, intakeContext: captureIntakeContext(), ...values }),
       })
-      trackResourceUnlock(resourceSlug, values as Record<string, string>)
+      if (!response.ok) throw new Error('Request was not accepted')
+      // Only select fields go to analytics, so names and emails never reach GA.
+      const selectNames = fields.filter((field) => field.type === 'select').map((field) => field.name)
+      trackResourceUnlock(resourceSlug, Object.fromEntries(selectNames.filter((name) => values[name]).map((name) => [name, values[name]])))
       setSubmitted(true)
     } catch {
       setError('Something went wrong. Please try again.')
@@ -134,7 +138,7 @@ export default function ResourceForm({
               Fill in your details and the full resource appears instantly below.
             </p>
 
-            <form onSubmit={handleSubmit} className={styles.form} noValidate>
+            <form onSubmit={handleSubmit} className={styles.form}>
               {fields.map((field) => (
                 <div key={field.name} className={styles.fieldGroup}>
                   <label className={styles.fieldLabel} htmlFor={field.name}>

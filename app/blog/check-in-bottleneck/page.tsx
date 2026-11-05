@@ -6,6 +6,7 @@ import BlogContent from '@/components/BlogContent'
 import BlogCTA from '@/components/BlogCTA'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/blog/check-in-bottleneck' },
   title: 'Check-In Is Your First Bottleneck. Fix It First.',
   description:
     'Paper check-in forms take 8-12 minutes and create data entry errors that compound downstream. Digital check-in compresses the whole process and starts the queue automatically.',

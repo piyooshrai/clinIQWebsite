@@ -97,7 +97,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const data = await getData(params.slug)
   if (!data) return {}
-  const url = `https://cliniqhealthcare.com/markets/${data.slug}`
+  const url = `https://www.cliniqhealthcare.com/markets/${data.slug}`
   return {
     title: data.meta.title,
     description: data.meta.description,
@@ -138,9 +138,9 @@ export default async function MarketSlugPage({
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniqhealthcare.com' },
-      { '@type': 'ListItem', position: 2, name: 'Markets', item: 'https://cliniqhealthcare.com/markets' },
-      { '@type': 'ListItem', position: 3, name: data.name, item: `https://cliniqhealthcare.com/markets/${data.slug}` },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.cliniqhealthcare.com' },
+      { '@type': 'ListItem', position: 2, name: 'Markets', item: 'https://www.cliniqhealthcare.com/markets' },
+      { '@type': 'ListItem', position: 3, name: data.name, item: `https://www.cliniqhealthcare.com/markets/${data.slug}` },
     ],
   }
 

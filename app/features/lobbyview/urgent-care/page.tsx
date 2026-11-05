@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'LobbyView for Urgent Care | Real-Time Wait Time Display | clinIQ',
+  title: 'LobbyView for Urgent Care | Real-Time Wait Time Display',
   description: 'Real-time wait times on the lobby screen. clinIQ LobbyView answers "how much longer?" before patients have to ask — and keeps them from leaving.',
 }
 

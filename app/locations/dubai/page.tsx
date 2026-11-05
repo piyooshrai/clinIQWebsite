@@ -9,6 +9,7 @@ import type { ContextPoint } from '@/components/LocationContext'
 import type { FeatureKey } from '@/components/LocationFeatures'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/locations/dubai' },
   title: 'Clinic Software for Dubai | NABIDH Compliant Operations',
   description: 'clinIQ helps Dubai private clinics meet NABIDH data compliance, DHA licensing standards, and the premium experience expectations of medical tourism patients.',
 }

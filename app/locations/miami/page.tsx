@@ -9,7 +9,8 @@ import type { ContextPoint } from '@/components/LocationContext'
 import type { FeatureKey } from '@/components/LocationFeatures'
 
 export const metadata: Metadata = {
-  title: 'Clinic Software for Miami | South Florida Healthcare Operations',
+  alternates: { canonical: '/locations/miami' },
+  title: 'Clinic Software for Miami | South Florida Healthcare',
   description: 'clinIQ helps Miami clinics manage international patients, high Medicare Advantage complexity, and bilingual Spanish/Portuguese workflows.',
 }
 

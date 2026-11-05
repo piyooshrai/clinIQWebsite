@@ -6,6 +6,7 @@ import type { ResourceItem } from '@/components/ResourceIndex'
 import styles from './resources.module.css'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/resources' },
   title: 'Resources — clinIQ Guides, Checklists & Tools',
   description:
     'Free guides, checklists, and tools to fix your clinic operations. RTM billing, patient flow, urgent care optimization.',

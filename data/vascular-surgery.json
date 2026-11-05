@@ -73,7 +73,7 @@
     {
       "id": "scheduling",
       "h2": "Procedure Scheduling Across Modalities",
-      "content": "[Scheduling](/features/scheduling) in vascular surgery coordinates multiple procedure types across different facilities and equipment resources.\n\nOpen surgical scheduling for bypass, carotid endarterectomy, and aortic procedures requires OR block time at hospitals. These complex procedures may require extended time and ICU post-operative planning.\n\nEndovascular scheduling for angioplasty, stenting, and EVAR may occur in hybrid ORs, angiography suites, or office-based labs depending on practice setup. Equipment availability and vendor coordination affect scheduling.\n\nOffice-based procedures for vein ablation, phlebectomy, and sclerotherapy may occur in dedicated procedure rooms. These higher-volume, shorter procedures have different scheduling patterns than major vascular surgery.\n\nDialysis access procedures including fistula creation, graft placement, and thrombectomy require coordination with [nephrology](/specialties/nephrology) and dialysis centers. Timing affects dialysis scheduling.\n\nEmergency vascular surgery for ruptured aneurysms, acute limb ischemia, and other emergencies disrupts scheduled cases. The system tracks emergency impact on elective scheduling.\n\nAuthorization requirements for some procedures require [pre-authorization](/features/pre-authorization) tracking. The system prevents scheduling cases without appropriate approval."
+      "content": "[Scheduling](/features/scheduling) in vascular surgery coordinates multiple procedure types across different facilities and equipment resources.\n\nOpen surgical scheduling for bypass, carotid endarterectomy, and aortic procedures requires OR block time at hospitals. These complex procedures may require extended time and ICU post-operative planning.\n\nEndovascular scheduling for angioplasty, stenting, and EVAR may occur in hybrid ORs, angiography suites, or office-based labs depending on practice setup. Equipment availability and vendor coordination affect scheduling.\n\nOffice-based procedures for vein ablation, phlebectomy, and sclerotherapy may occur in dedicated procedure rooms. These higher-volume, shorter procedures have different scheduling patterns than major vascular surgery.\n\nDialysis access procedures including fistula creation, graft placement, and thrombectomy require coordination with [nephrology](/specialties/nephrology) and dialysis centers. Timing affects dialysis scheduling.\n\nEmergency vascular surgery for ruptured aneurysms, acute limb ischemia, and other emergencies disrupts scheduled cases. The system tracks emergency impact on elective scheduling.\n\nAuthorization requirements for some procedures require [pre-authorization](/features/pre-auth) tracking. The system prevents scheduling cases without appropriate approval."
     },
     {
       "id": "patient-flow",
@@ -127,7 +127,7 @@
     },
     "secondaryButton": {
       "label": "Learn More",
-      "href": "/resources/surgical-coordination"
+      "href": "/resources/healthcare-scheduling-guide"
     }
   },
   "proof": {

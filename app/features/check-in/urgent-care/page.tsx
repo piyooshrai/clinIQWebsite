@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Patient Check-In for Urgent Care | Walk-In Registration Without the Wait | clinIQ',
+  title: 'Patient Check-In for Urgent Care | Walk-In Registration Without the Wait',
   description: 'Walk-in patients see current wait times at check-in, make an informed decision to stay, and are kept updated on a lobby display. LWBS rates drop.',
 }
 

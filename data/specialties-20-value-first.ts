@@ -91,7 +91,7 @@ const specialties = [
       },
       "secondaryButton": {
         "label": "Calculate Asthma RTM",
-        "href": "/resources/rtm-calculator"
+        "href": "/resources/roi-calculator"
       }
     },
     "proof": {
@@ -219,7 +219,7 @@ const specialties = [
       },
       "secondaryButton": {
         "label": "Calculate Diabetes RTM Revenue",
-        "href": "/resources/rtm-calculator"
+        "href": "/resources/roi-calculator"
       }
     },
     "proof": {
@@ -605,7 +605,7 @@ const specialties = [
       },
       "secondaryButton": {
         "label": "Calculate CKD RTM Revenue",
-        "href": "/resources/rtm-calculator"
+        "href": "/resources/roi-calculator"
       }
     },
     "proof": {
@@ -735,7 +735,7 @@ const specialties = [
       },
       "secondaryButton": {
         "label": "Calculate Neuro RTM Revenue",
-        "href": "/resources/rtm-calculator"
+        "href": "/resources/roi-calculator"
       }
     },
     "proof": {
@@ -989,7 +989,7 @@ const specialties = [
       },
       "secondaryButton": {
         "label": "Calculate Prenatal RTM Revenue",
-        "href": "/resources/rtm-calculator"
+        "href": "/resources/roi-calculator"
       }
     },
     "proof": {
@@ -1016,7 +1016,7 @@ const specialties = [
     "resource": {
       "title": "OB/GYN RTM & Procedure Guide",
       "description": "High-risk prenatal RTM setup, procedure turnover optimization, testing timeline templates.",
-      "href": "/resources/obgyn-guide"
+      "href": "/resources/specialty-flow-templates"
     }
   },
   {
@@ -1248,7 +1248,7 @@ const specialties = [
       },
       "secondaryButton": {
         "label": "Calculate Retina RTM Revenue",
-        "href": "/resources/rtm-calculator"
+        "href": "/resources/roi-calculator"
       }
     },
     "proof": {
@@ -1753,7 +1753,7 @@ const specialties = [
       },
       "secondaryButton": {
         "label": "Calculate Diabetic Foot RTM",
-        "href": "/resources/rtm-calculator"
+        "href": "/resources/roi-calculator"
       }
     },
     "proof": {
@@ -1881,7 +1881,7 @@ const specialties = [
       },
       "secondaryButton": {
         "label": "Calculate Respiratory RTM Revenue",
-        "href": "/resources/rtm-calculator"
+        "href": "/resources/roi-calculator"
       }
     },
     "proof": {
@@ -2010,7 +2010,7 @@ const specialties = [
       },
       "secondaryButton": {
         "label": "Calculate Rheum RTM Revenue",
-        "href": "/resources/rtm-calculator"
+        "href": "/resources/roi-calculator"
       }
     },
     "proof": {
@@ -2264,7 +2264,7 @@ const specialties = [
       },
       "secondaryButton": {
         "label": "Calculate Injury RTM",
-        "href": "/resources/rtm-calculator"
+        "href": "/resources/roi-calculator"
       }
     },
     "proof": {
@@ -2390,7 +2390,7 @@ const specialties = [
       },
       "secondaryButton": {
         "label": "Calculate PAD RTM Revenue",
-        "href": "/resources/rtm-calculator"
+        "href": "/resources/roi-calculator"
       }
     },
     "proof": {
@@ -2514,7 +2514,7 @@ const specialties = [
       },
       "secondaryButton": {
         "label": "Calculate Wound RTM",
-        "href": "/resources/rtm-calculator"
+        "href": "/resources/roi-calculator"
       }
     },
     "proof": {

@@ -6,7 +6,8 @@ import BlogContent from '@/components/BlogContent'
 import BlogCTA from '@/components/BlogCTA'
 
 export const metadata: Metadata = {
-  title: 'Where Patient Flow Breaks Down (And How to See It Coming) — clinIQ Blog',
+  alternates: { canonical: '/blog/patient-flow-bottlenecks' },
+  title: 'Where Patient Flow Breaks Down (And How to See It Coming)',
   description:
     'Patient flow bottlenecks are predictable and patterned. Leading vs lagging indicators, real-time visibility, and what good looks like at 10 minutes vs 45.',
   keywords: [

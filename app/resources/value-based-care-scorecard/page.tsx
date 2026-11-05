@@ -5,7 +5,8 @@ import ResourceHero from '@/components/ResourceHero'
 import VBCScorecard from '@/components/VBCScorecard'
 
 export const metadata: Metadata = {
-  title: 'Value-Based Care Readiness Scorecard — clinIQ Resources',
+  alternates: { canonical: '/resources/value-based-care-scorecard' },
+  title: 'Value-Based Care Readiness Scorecard',
   description:
     'Score your practice across 5 VBC domains: data infrastructure, care coordination, quality measurement, patient engagement, and financial risk tolerance.',
 }

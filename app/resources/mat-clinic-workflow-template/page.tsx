@@ -8,7 +8,8 @@ import type { FormField } from '@/components/ResourceForm'
 import s from '@/components/ResourceContent.module.css'
 
 export const metadata: Metadata = {
-  title: 'MAT Clinic Workflow Template — clinIQ Resources',
+  alternates: { canonical: '/resources/mat-clinic-workflow-template' },
+  title: 'MAT Clinic Workflow Template',
   description:
     'Medication-assisted treatment clinic workflow template from intake to medication dispensing. Covers buprenorphine induction, monitoring visits, and insurance pre-auth.',
 }

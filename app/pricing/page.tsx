@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   title: 'Pricing — clinIQ',
   description:
     'Transparent pricing for clinIQ. Starter $249/mo, Professional $499/mo, Enterprise custom. No per-transaction fees.',
-  alternates: { canonical: 'https://cliniqhealthcare.com/pricing' },
+  alternates: { canonical: 'https://www.cliniqhealthcare.com/pricing' },
   openGraph: {
     title: 'Pricing — clinIQ',
     description:
       'Transparent pricing for clinIQ. Starter $249/mo, Professional $499/mo, Enterprise custom. No per-transaction fees.',
     type: 'website',
-    url: 'https://cliniqhealthcare.com/pricing',
+    url: 'https://www.cliniqhealthcare.com/pricing',
     images: [{ url: '/og-pricing.png', width: 1200, height: 630, alt: 'Pricing — clinIQ' }],
   },
 }

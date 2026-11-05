@@ -8,7 +8,8 @@ import type { FormField } from '@/components/ResourceForm'
 import s from '@/components/ResourceContent.module.css'
 
 export const metadata: Metadata = {
-  title: 'Patient Flow Audit Template — clinIQ Resources',
+  alternates: { canonical: '/resources/patient-flow-audit-template' },
+  title: 'Patient Flow Audit Template',
   description:
     'Measure your current patient flow, identify bottlenecks, and prioritize fixes. Includes time-motion study sheets, bottleneck scoring, and a 90-day roadmap.',
 }

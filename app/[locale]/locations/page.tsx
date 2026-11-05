@@ -4,7 +4,7 @@ import FooterInner from '@/components/FooterInner'
 import s from '@/app/specialties/specialty-full.module.css'
 
 export const metadata: Metadata = {
-  title: 'clinIQ Clinic Software by Location — US, UK, UAE, Saudi Arabia, Canada & More',
+  title: 'Clinic Software by Location: US, UK, UAE, Canada & More',
   description:
     'clinIQ clinic operations software serves clinics across North America, the Middle East, Europe, and Australia. Find your region for healthcare-specific implementation context.',
   keywords: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: 'website',
   },
   alternates: {
-    canonical: 'https://cliniqhealthcare.com/locations',
+    canonical: 'https://www.cliniqhealthcare.com/locations',
   },
 }
 
@@ -31,8 +31,8 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniqhealthcare.com' },
-    { '@type': 'ListItem', position: 2, name: 'Locations', item: 'https://cliniqhealthcare.com/locations' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.cliniqhealthcare.com' },
+    { '@type': 'ListItem', position: 2, name: 'Locations', item: 'https://www.cliniqhealthcare.com/locations' },
   ],
 }
 

@@ -8,7 +8,8 @@ import type { FormField } from '@/components/ResourceForm'
 import s from '@/components/ResourceContent.module.css'
 
 export const metadata: Metadata = {
-  title: 'Healthcare Scheduling That Reduces No-Shows — clinIQ Resources',
+  alternates: { canonical: '/resources/healthcare-scheduling-guide' },
+  title: 'Healthcare Scheduling That Reduces No-Shows',
   description:
     'Scheduling strategies that cut no-show rates by 30–40% without adding staff. Reminder cadence, overbooking, same-day fill protocols, and waitlist management.',
 }

@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Patient Flow for Nephrology Practices | Clinic & Dialysis Tracking | clinIQ',
+  title: 'Patient Flow for Nephrology Practices | Clinic & Dialysis Tracking',
   description: 'Nephrology practices managing clinic visits and dialysis need one system. clinIQ tracks both workflows simultaneously without confusion.',
 }
 

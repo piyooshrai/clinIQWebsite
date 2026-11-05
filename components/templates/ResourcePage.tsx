@@ -42,13 +42,13 @@ export default function ResourcePage({
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniqhealthcare.com' },
-      { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://cliniqhealthcare.com/resources' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.cliniqhealthcare.com' },
+      { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.cliniqhealthcare.com/resources' },
       {
         '@type': 'ListItem',
         position: 3,
         name: title,
-        item: `https://cliniqhealthcare.com/resources/${resourceSlug}`,
+        item: `https://www.cliniqhealthcare.com/resources/${resourceSlug}`,
       },
     ],
   }
@@ -61,10 +61,10 @@ export default function ResourcePage({
     publisher: {
       '@type': 'Organization',
       name: 'clinIQ',
-      url: 'https://cliniqhealthcare.com',
+      url: 'https://www.cliniqhealthcare.com',
     },
     genre: category,
-    url: `https://cliniqhealthcare.com/resources/${resourceSlug}`,
+    url: `https://www.cliniqhealthcare.com/resources/${resourceSlug}`,
   }
 
   return (

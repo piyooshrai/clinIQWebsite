@@ -8,7 +8,8 @@ import type { FormField } from '@/components/ResourceForm'
 import s from '@/components/ResourceContent.module.css'
 
 export const metadata: Metadata = {
-  title: 'Prior Authorization Workflow Checklist — clinIQ Resources',
+  alternates: { canonical: '/resources/prior-auth-checklist' },
+  title: 'Prior Authorization Workflow Checklist',
   description:
     '18-step checklist to reduce prior auth delays and denial rates. Covers eligibility checks, documentation, submission timing, and appeals.',
 }

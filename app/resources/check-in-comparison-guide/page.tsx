@@ -8,7 +8,8 @@ import type { FormField } from '@/components/ResourceForm'
 import s from '@/components/ResourceContent.module.css'
 
 export const metadata: Metadata = {
-  title: 'Patient Check-In Solutions Comparison Guide — clinIQ Resources',
+  alternates: { canonical: '/resources/check-in-comparison-guide' },
+  title: 'Patient Check-In Solutions Comparison Guide',
   description:
     'Compare kiosk, iPad, web, and paper check-in across HIPAA compliance, cost, and patient experience. Includes a decision matrix for your clinic size.',
 }

@@ -22,6 +22,29 @@ const ENGLISH_ONLY = [
   '/clinIQ_',
 ]
 
+const STATIC_LOCATION_PAGES = new Set([
+  '/locations/abu-dhabi',
+  '/locations/atlanta',
+  '/locations/australia',
+  '/locations/birmingham',
+  '/locations/chicago',
+  '/locations/dammam',
+  '/locations/denver',
+  '/locations/dubai',
+  '/locations/edinburgh',
+  '/locations/houston',
+  '/locations/jeddah',
+  '/locations/london',
+  '/locations/los-angeles',
+  '/locations/manchester',
+  '/locations/miami',
+  '/locations/montreal',
+  '/locations/phoenix',
+  '/locations/riyadh',
+  '/locations/toronto',
+  '/locations/vancouver',
+])
+
 export default function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
 
@@ -32,7 +55,7 @@ export default function middleware(request: NextRequest) {
   }
 
   // Skip intl middleware for English-only paths and static assets
-  const isEnglishOnly = ENGLISH_ONLY.some((p) => pathname.startsWith(p))
+  const isEnglishOnly = ENGLISH_ONLY.some((p) => pathname.startsWith(p)) || STATIC_LOCATION_PAGES.has(pathname)
   if (isEnglishOnly || pathname.match(/\.(png|jpg|jpeg|svg|ico|webp|woff2?|txt|xml|webmanifest)$/)) {
     return NextResponse.next()
   }

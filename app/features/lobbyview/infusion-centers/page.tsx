@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'LobbyView for Infusion Centers | Chair Assignment Display | clinIQ',
+  title: 'LobbyView for Infusion Centers | Chair Assignment Display',
   description: 'Chair assignments shown on the lobby display when ready. clinIQ LobbyView eliminates the repeated desk check-ins that interrupt infusion nurses.',
 }
 

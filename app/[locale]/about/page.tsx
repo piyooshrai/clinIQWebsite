@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   title: 'About clinIQ — The Operating System for Modern Clinics',
   description:
     'clinIQ is the operational layer between your EHR and daily clinic operations. Patient flow, check-in, RTM billing, pre-authorization, scheduling, messaging, and analytics — unified.',
-  alternates: { canonical: 'https://cliniqhealthcare.com/about' },
+  alternates: { canonical: 'https://www.cliniqhealthcare.com/about' },
   openGraph: {
     title: 'About clinIQ — The Operating System for Modern Clinics',
     description:
       'clinIQ is the operational layer between your EHR and daily clinic operations. Patient flow, check-in, RTM billing, pre-authorization, scheduling, messaging, and analytics — unified.',
     type: 'website',
-    url: 'https://cliniqhealthcare.com/about',
+    url: 'https://www.cliniqhealthcare.com/about',
     images: [{ url: '/og-about.png', width: 1200, height: 630, alt: 'About clinIQ' }],
   },
 }

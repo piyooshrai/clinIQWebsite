@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'RTM Billing for Behavioral Health Clinics | Between-Visit Monitoring | clinIQ',
+  title: 'RTM Billing for Behavioral Health Clinics | Between-Visit Monitoring',
   description: 'Between-visit patient touchpoints tracked and billed. clinIQ captures behavioral health RTM revenue on contacts that were always happening but never generating revenue.',
 }
 

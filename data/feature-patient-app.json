@@ -169,7 +169,7 @@
     },
     "secondaryButton": {
       "label": "See App Features",
-      "href": "/resources/patient-app-demo"
+      "href": "/demo"
     }
   },
   "proof": {

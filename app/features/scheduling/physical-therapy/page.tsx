@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Scheduling for Physical Therapy Clinics | Plan of Care Appointment Scheduling | clinIQ',
+  title: 'Scheduling for Physical Therapy Clinics | Plan of Care Appointment Scheduling',
   description: 'Book entire plans of care in one workflow. clinIQ manages PT appointment sequences, waitlists, and cancellations across a full 30-visit plan of care.',
 }
 

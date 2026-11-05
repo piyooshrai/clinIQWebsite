@@ -9,6 +9,7 @@ import type { ContextPoint } from '@/components/LocationContext'
 import type { FeatureKey } from '@/components/LocationFeatures'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/locations/abu-dhabi' },
   title: 'Clinic Software for Abu Dhabi | Malaffi & HAAD Compliant',
   description: 'clinIQ helps Abu Dhabi clinics meet Malaffi HIE integration requirements, DOH licensing standards, and the complexity of Thiqa and Daman insurance.',
 }

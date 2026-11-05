@@ -8,7 +8,8 @@ import type { FormField } from '@/components/ResourceForm'
 import s from '@/components/ResourceContent.module.css'
 
 export const metadata: Metadata = {
-  title: 'RTM Implementation Guide — clinIQ Resources',
+  alternates: { canonical: '/resources/rtm-implementation-guide' },
+  title: 'RTM Implementation Guide',
   description:
     'Step-by-step guide to launching RTM billing from scratch. CPT codes, documentation requirements, payer rules, and revenue projections.',
 }

@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Pre-Authorization for Behavioral Health | Level of Care Authorization | clinIQ',
+  title: 'Pre-Authorization for Behavioral Health | Level of Care Authorization',
   description: 'PHP, IOP, and individual therapy authorizations tracked with concurrent review alerts. clinIQ prevents behavioral health authorization gaps and treatment delays.',
 }
 

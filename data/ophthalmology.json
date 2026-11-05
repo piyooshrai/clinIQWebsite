@@ -87,7 +87,7 @@
     {
       "id": "surgical-coordination",
       "h2": "Surgical Coordination",
-      "content": "Cataract surgery coordination involves patient counseling, IOL selection, pre-operative measurements, authorization when required, and ASC scheduling. The process must be systematic for high-volume surgical practice.\n\nPre-operative workflow ensures patients complete required measurements, counseling, and consent before surgery. [Patient flow](/features/patient-flow) tracking of pre-operative requirements prevents surgery delays.\n\nIOL selection counseling for premium lenses requires documentation of patient preferences and expectations. The [patient app](/features/patient-app) can deliver educational information about IOL options before counseling visits.\n\n[Pre-authorization](/features/pre-authorization) for cases requiring insurance approval tracks status and prevents scheduling cases without approval.\n\nPost-operative visit scheduling ensures appropriate follow-up at day one, week one, and subsequent intervals. These visits schedule automatically when surgery schedules.\n\nRetinal surgery coordination for hospital cases requires OR scheduling, anesthesia coordination, and appropriate post-operative planning. Complex cases may involve coordination with other specialists."
+      "content": "Cataract surgery coordination involves patient counseling, IOL selection, pre-operative measurements, authorization when required, and ASC scheduling. The process must be systematic for high-volume surgical practice.\n\nPre-operative workflow ensures patients complete required measurements, counseling, and consent before surgery. [Patient flow](/features/patient-flow) tracking of pre-operative requirements prevents surgery delays.\n\nIOL selection counseling for premium lenses requires documentation of patient preferences and expectations. The [patient app](/features/patient-app) can deliver educational information about IOL options before counseling visits.\n\n[Pre-authorization](/features/pre-auth) for cases requiring insurance approval tracks status and prevents scheduling cases without approval.\n\nPost-operative visit scheduling ensures appropriate follow-up at day one, week one, and subsequent intervals. These visits schedule automatically when surgery schedules.\n\nRetinal surgery coordination for hospital cases requires OR scheduling, anesthesia coordination, and appropriate post-operative planning. Complex cases may involve coordination with other specialists."
     },
     {
       "id": "post-op-monitoring",
@@ -140,7 +140,7 @@
     },
     "secondaryButton": {
       "label": "Learn More",
-      "href": "/resources/high-volume-flow"
+      "href": "/resources/urgent-care-flow-checklist"
     }
   },
   "proof": {

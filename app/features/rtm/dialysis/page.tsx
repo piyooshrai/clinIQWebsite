@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'RTM Billing for Dialysis Centers | Between-Session Remote Monitoring | clinIQ',
+  title: 'RTM Billing for Dialysis Centers | Between-Session Remote Monitoring',
   description: 'Blood pressure, weight, fluid intake, and symptoms tracked between dialysis sessions — and billed. clinIQ makes between-session monitoring billable.',
 }
 

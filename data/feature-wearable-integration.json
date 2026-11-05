@@ -177,7 +177,7 @@
     },
     "secondaryButton": {
       "label": "See Data Examples",
-      "href": "/resources/wearable-demo"
+      "href": "/demo"
     }
   },
   "proof": {

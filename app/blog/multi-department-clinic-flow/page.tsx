@@ -6,6 +6,7 @@ import BlogContent from '@/components/BlogContent'
 import BlogCTA from '@/components/BlogCTA'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/blog/multi-department-clinic-flow' },
   title: 'Running a Multi-Department Clinic Without Losing Patients',
   description:
     'Multi-department clinics have handoff problems at every transition. Patients get lost between lab, imaging, and infusion. Here is how to build a unified queue.',

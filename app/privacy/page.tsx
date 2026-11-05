@@ -5,6 +5,7 @@ import PricingHero from '@/components/PricingHero'
 import styles from './legal.module.css'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/privacy' },
   title: 'Privacy Policy — clinIQ',
   description: 'clinIQ Privacy Policy. How we collect, use, and protect your information.',
 }

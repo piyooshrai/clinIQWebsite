@@ -9,6 +9,7 @@ import type { ContextPoint } from '@/components/LocationContext'
 import type { FeatureKey } from '@/components/LocationFeatures'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/locations/vancouver' },
   title: 'Clinic Software for Vancouver | BC Private Practice',
   description: 'clinIQ helps Vancouver clinics manage BC Health Authority referral dynamics, a competitive integrative medicine market, and the healthcare needs of a growing immigrant population.',
 }

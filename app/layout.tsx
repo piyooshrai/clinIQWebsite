@@ -16,14 +16,14 @@ const instrumentSerif = Instrument_Serif({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://cliniqhealthcare.com'),
+  metadataBase: new URL('https://www.cliniqhealthcare.com'),
   title: { default: 'clinIQ - Clinic Operations Platform', template: '%s | clinIQ' },
   description: 'Patient check-in, RTM billing, patient flow, and pre-authorization for specialty clinics.',
   authors: [{ name: 'The Algorithm LLC' }],
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://cliniqhealthcare.com',
+    url: 'https://www.cliniqhealthcare.com',
     siteName: 'clinIQ',
     images: [{ url: '/og-homepage.png', width: 1200, height: 630, alt: 'clinIQ' }],
   },

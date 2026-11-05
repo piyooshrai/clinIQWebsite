@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   title: 'The Algorithm LLC — Healthcare Technology Company',
   description:
     'The Algorithm LLC is a Colorado-based healthcare technology company. Products: clinIQ (clinic operations), Claire (AI voice/chat), Vizier (healthcare analytics).',
-  alternates: { canonical: 'https://cliniqhealthcare.com/about/the-algorithm' },
+  alternates: { canonical: 'https://www.cliniqhealthcare.com/about/the-algorithm' },
   openGraph: {
     title: 'The Algorithm LLC — Healthcare Technology Company',
     description:
       'The Algorithm LLC is a Colorado-based healthcare technology company. Products: clinIQ (clinic operations), Claire (AI voice/chat), Vizier (healthcare analytics).',
     type: 'website',
-    url: 'https://cliniqhealthcare.com/about/the-algorithm',
+    url: 'https://www.cliniqhealthcare.com/about/the-algorithm',
   },
 }
 

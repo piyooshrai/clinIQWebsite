@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Patient Flow for Addiction Medicine Clinics | clinIQ',
+  title: 'Patient Flow for Addiction Medicine Clinics',
   description: 'MAT clinics juggle intake, UDS collection, injection, and observation. clinIQ gives you real-time visibility across every stage.',
 }
 

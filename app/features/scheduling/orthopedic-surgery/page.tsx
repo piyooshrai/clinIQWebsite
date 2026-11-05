@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Scheduling for Orthopedic Surgery Centers | OR & Clinic Calendar Management | clinIQ',
+  title: 'Scheduling for Orthopedic Surgery Centers | OR & Clinic Calendar Management',
   description: 'Clinic visits, pre-op appointments, OR blocks, and post-op follow-ups in one connected calendar. clinIQ manages orthopedic scheduling across multiple locations.',
 }
 

@@ -9,6 +9,7 @@ import type { ContextPoint } from '@/components/LocationContext'
 import type { FeatureKey } from '@/components/LocationFeatures'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/locations/australia' },
   title: 'Clinic Software for Australia | Medicare & Private Health',
   description:
     'Bulk billing vs private health insurance, My Health Record integration, GP referral pathways, and telehealth workflows. Clinic operations built for Australia\'s dual-payer system.',

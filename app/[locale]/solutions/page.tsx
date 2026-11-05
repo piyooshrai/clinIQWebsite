@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   title: 'Who We Serve — clinIQ',
   description:
     'clinIQ adapts to the operational realities of FQHCs, rural health clinics, concierge practices, surgery centers, and 30+ clinical specialties. Find your practice type.',
-  alternates: { canonical: 'https://cliniqhealthcare.com/solutions' },
+  alternates: { canonical: 'https://www.cliniqhealthcare.com/solutions' },
   openGraph: {
     title: 'Who We Serve — clinIQ',
     description:
       'clinIQ adapts to the operational realities of FQHCs, rural health clinics, concierge practices, surgery centers, and 30+ clinical specialties. Find your practice type.',
     type: 'website',
-    url: 'https://cliniqhealthcare.com/solutions',
+    url: 'https://www.cliniqhealthcare.com/solutions',
   },
 }
 

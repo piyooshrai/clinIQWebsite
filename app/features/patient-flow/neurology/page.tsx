@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Patient Flow for Neurology Clinics | Infusion & EMG Tracking | clinIQ',
+  title: 'Patient Flow for Neurology Clinics | Infusion & EMG Tracking',
   description: 'Neurology clinics combine clinical visits with infusion therapy and EMG testing. clinIQ tracks parallel workflows in one dashboard.',
 }
 

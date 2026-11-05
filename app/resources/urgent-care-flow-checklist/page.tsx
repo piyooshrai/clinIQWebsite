@@ -8,7 +8,8 @@ import type { FormField } from '@/components/ResourceForm'
 import s from '@/components/ResourceContent.module.css'
 
 export const metadata: Metadata = {
-  title: 'Urgent Care Flow Checklist — clinIQ Resources',
+  alternates: { canonical: '/resources/urgent-care-flow-checklist' },
+  title: 'Urgent Care Flow Checklist',
   description:
     '23-point checklist to cut LWBS, reduce wait times, and stop front desk chaos in urgent care.',
 }

@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Patient Check-In for Pain Management Clinics | Procedure Day Check-In | clinIQ',
+  title: 'Patient Check-In for Pain Management Clinics | Procedure Day Check-In',
   description: 'Compliance documentation, controlled substance agreements, and co-pay collection at check-in. clinIQ handles all of it digitally before patients reach the desk.',
 }
 

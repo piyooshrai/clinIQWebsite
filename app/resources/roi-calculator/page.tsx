@@ -5,6 +5,7 @@ import ResourceHero from '@/components/ResourceHero'
 import ROICalculator from '@/components/ROICalculator'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/resources/roi-calculator' },
   title: 'clinIQ ROI Calculator — Resources',
   description:
     'Calculate your potential time savings, RTM revenue opportunity, and payback period based on your clinic\'s patient volume and workflows.',

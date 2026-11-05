@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Patient Check-In for Physical Therapy | Recurring PT Appointment Check-In | clinIQ',
+  title: 'Patient Check-In for Physical Therapy | Recurring PT Appointment Check-In',
   description: 'PT patients attend 2-3 sessions per week for months. clinIQ makes check-in a single tap every time — fast at visit 1, still fast at visit 30.',
 }
 

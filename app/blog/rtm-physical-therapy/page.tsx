@@ -6,6 +6,7 @@ import BlogContent from '@/components/BlogContent'
 import BlogCTA from '@/components/BlogCTA'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/blog/rtm-physical-therapy' },
   title: 'RTM for Physical Therapy: Billing for Home Exercises',
   description:
     'Physical therapists are the primary RTM opportunity. Home exercise program compliance monitoring qualifies. Here is how to set up the monitoring, document interactions, and bill 98981.',

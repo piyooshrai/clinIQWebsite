@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'LobbyView for Pain Management Clinics | Procedure & Clinic Queue Display | clinIQ',
+  title: 'LobbyView for Pain Management Clinics | Procedure & Clinic Queue Display',
   description: 'Clinic and procedure patients see separate queues on the same display. clinIQ LobbyView shows pain management patients exactly where they stand without staff fielding questions.',
 }
 

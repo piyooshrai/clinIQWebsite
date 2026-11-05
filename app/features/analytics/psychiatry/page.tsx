@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Analytics for Psychiatry Clinics | Session Completion & Waitlist Data | clinIQ',
+  title: 'Analytics for Psychiatry Clinics | Session Completion & Waitlist Data',
   description: 'Session completion rates, new patient access windows, and provider capacity — measured. clinIQ gives psychiatry practices data to reduce waitlists and improve access.',
 }
 

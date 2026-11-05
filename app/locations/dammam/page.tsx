@@ -9,6 +9,7 @@ import type { ContextPoint } from '@/components/LocationContext'
 import type { FeatureKey } from '@/components/LocationFeatures'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/locations/dammam' },
   title: 'Clinic Software for Dammam | Eastern Province Healthcare',
   description: 'clinIQ helps Dammam and Eastern Province clinics serve the Aramco workforce, manage occupational health complexity, and support rapid regional population growth.',
 }

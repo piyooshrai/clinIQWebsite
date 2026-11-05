@@ -8,7 +8,8 @@ import type { FormField } from '@/components/ResourceForm'
 import s from '@/components/ResourceContent.module.css'
 
 export const metadata: Metadata = {
-  title: 'RTM Patient Consent Form Template — clinIQ Resources',
+  alternates: { canonical: '/resources/rtm-consent-template' },
+  title: 'RTM Patient Consent Form Template',
   description:
     'HIPAA-compliant RTM consent form template covering monitoring scope, data use, and opt-out rights. Ready to customize for your clinic.',
 }

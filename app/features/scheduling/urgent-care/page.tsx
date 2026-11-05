@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Scheduling for Urgent Care | Shift & Provider Capacity Management | clinIQ',
+  title: 'Scheduling for Urgent Care | Shift & Provider Capacity Management',
   description: 'Walk-ins don\'t need appointments, but your providers still need a schedule. clinIQ manages urgent care provider shifts and capacity without requiring patient pre-booking.',
 }
 

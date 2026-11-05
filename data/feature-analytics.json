@@ -179,7 +179,7 @@
     },
     "secondaryButton": {
       "label": "See Sample Dashboard",
-      "href": "/resources/dashboard-demo"
+      "href": "/demo"
     }
   },
   "proof": {

@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   description:
     'How clinIQ compares to Phreesia, Clearwave, Athenahealth, eClinicalWorks, Prevounce, TimeDoc, and more. Real-time patient flow vs. tools that don\'t manage what\'s happening now.',
   alternates: {
-    canonical: 'https://cliniqhealthcare.com/compare',
+    canonical: 'https://www.cliniqhealthcare.com/compare',
   },
   openGraph: {
     title: 'clinIQ vs Competitors — Full Comparison Hub',
     description: 'How clinIQ compares to Phreesia, Clearwave, Athenahealth, eClinicalWorks, Prevounce, TimeDoc, and more.',
     type: 'website',
-    url: 'https://cliniqhealthcare.com/compare',
+    url: 'https://www.cliniqhealthcare.com/compare',
     images: [{ url: '/og-compare-template.png', width: 1200, height: 630, alt: 'clinIQ vs Competitors' }],
   },
 }
@@ -24,8 +24,8 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniqhealthcare.com' },
-    { '@type': 'ListItem', position: 2, name: 'Compare', item: 'https://cliniqhealthcare.com/compare' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.cliniqhealthcare.com' },
+    { '@type': 'ListItem', position: 2, name: 'Compare', item: 'https://www.cliniqhealthcare.com/compare' },
   ],
 }
 

@@ -68,7 +68,7 @@
     {
       "id": "infusion-operations",
       "h2": "The Infusion Center Operations Model",
-      "content": "Infusion centers provide IV medication administration for conditions spanning oncology, rheumatology, gastroenterology, neurology, and immunology. Biologics, chemotherapy, IVIG, and other specialty infusions require chair time ranging from one to eight hours. Chair utilization directly determines center capacity and revenue.\n\n[Scheduling](/features/scheduling) optimization maximizes chair utilization while accommodating varied infusion durations. Short hydration infusions differ from all-day chemotherapy in resource requirements.\n\n[Pre-authorization](/features/pre-authorization) for expensive biologics and specialty medications often determines whether infusions can proceed. Authorization tracking prevents scheduling without approval.\n\n[Patient flow](/features/patient-flow) manages patients through check-in, pre-infusion assessment, infusion, observation, and discharge. Symptom monitoring through the [clinIQ app](/features/patient-app) captures post-infusion reactions."
+      "content": "Infusion centers provide IV medication administration for conditions spanning oncology, rheumatology, gastroenterology, neurology, and immunology. Biologics, chemotherapy, IVIG, and other specialty infusions require chair time ranging from one to eight hours. Chair utilization directly determines center capacity and revenue.\n\n[Scheduling](/features/scheduling) optimization maximizes chair utilization while accommodating varied infusion durations. Short hydration infusions differ from all-day chemotherapy in resource requirements.\n\n[Pre-authorization](/features/pre-auth) for expensive biologics and specialty medications often determines whether infusions can proceed. Authorization tracking prevents scheduling without approval.\n\n[Patient flow](/features/patient-flow) manages patients through check-in, pre-infusion assessment, infusion, observation, and discharge. Symptom monitoring through the [clinIQ app](/features/patient-app) captures post-infusion reactions."
     },
     {
       "id": "chair-scheduling",
@@ -83,7 +83,7 @@
     {
       "id": "pre-authorization",
       "h2": "Pre-Authorization for Specialty Infusions",
-      "content": "[Pre-authorization](/features/pre-authorization) for biologics and specialty infusions determines whether treatments can proceed.\n\nBiologic authorization for rheumatology medications like Remicade, Orencia, and Rituxan documents diagnosis, prior treatments, and continued medical necessity.\n\nChemotherapy authorization documents cancer diagnosis, treatment plan, and regimen appropriateness.\n\nIVIG authorization for immunodeficiency and neurological conditions documents diagnosis and dosing.\n\nAuthorization tracking shows status for each patient's infusions. Expirations alert before treatments affected.\n\n[Analytics](/features/analytics) reveal approval rates, denial reasons, and turnaround times by payer and medication.\n\nReauthorization workflow tracks when authorizations need renewal and initiates process before expiration."
+      "content": "[Pre-authorization](/features/pre-auth) for biologics and specialty infusions determines whether treatments can proceed.\n\nBiologic authorization for rheumatology medications like Remicade, Orencia, and Rituxan documents diagnosis, prior treatments, and continued medical necessity.\n\nChemotherapy authorization documents cancer diagnosis, treatment plan, and regimen appropriateness.\n\nIVIG authorization for immunodeficiency and neurological conditions documents diagnosis and dosing.\n\nAuthorization tracking shows status for each patient's infusions. Expirations alert before treatments affected.\n\n[Analytics](/features/analytics) reveal approval rates, denial reasons, and turnaround times by payer and medication.\n\nReauthorization workflow tracks when authorizations need renewal and initiates process before expiration."
     },
     {
       "id": "symptom-monitoring",
@@ -93,7 +93,7 @@
     {
       "id": "implementation",
       "h2": "Implementation and ROI",
-      "content": "Infusion center implementation addresses chair [scheduling](/features/scheduling), infusion [patient flow](/features/patient-flow), [pre-authorization](/features/pre-authorization), and symptom monitoring.\n\nWeek one maps infusion workflow from check-in through discharge. [Scheduling](/features/scheduling) configures for infusion types with appropriate durations. [Pre-authorization](/features/pre-authorization) workflow establishes.\n\nWeek two trains scheduling staff on chair optimization. Clinical staff trains on [patient flow](/features/patient-flow) and symptom monitoring. Providers train on dashboard.\n\nWeek three goes live with [scheduling](/features/scheduling), [patient flow](/features/patient-flow), and monitoring.\n\nROI sources include chair scheduling optimization increasing capacity without adding chairs. [Pre-authorization](/features/pre-authorization) tracking preventing treatment delays. Symptom monitoring catching reactions early.\n\nProfessional tier at $499 monthly includes [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [pre-authorization](/features/pre-authorization), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), and [analytics](/features/analytics)."
+      "content": "Infusion center implementation addresses chair [scheduling](/features/scheduling), infusion [patient flow](/features/patient-flow), [pre-authorization](/features/pre-auth), and symptom monitoring.\n\nWeek one maps infusion workflow from check-in through discharge. [Scheduling](/features/scheduling) configures for infusion types with appropriate durations. [Pre-authorization](/features/pre-auth) workflow establishes.\n\nWeek two trains scheduling staff on chair optimization. Clinical staff trains on [patient flow](/features/patient-flow) and symptom monitoring. Providers train on dashboard.\n\nWeek three goes live with [scheduling](/features/scheduling), [patient flow](/features/patient-flow), and monitoring.\n\nROI sources include chair scheduling optimization increasing capacity without adding chairs. [Pre-authorization](/features/pre-auth) tracking preventing treatment delays. Symptom monitoring catching reactions early.\n\nProfessional tier at $499 monthly includes [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [pre-authorization](/features/pre-auth), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), and [analytics](/features/analytics)."
     }
   ],
   "faqs": [
@@ -103,7 +103,7 @@
     },
     {
       "q": "How does pre-authorization work for biologics?",
-      "a": "[Pre-authorization](/features/pre-authorization) tracks status for each patient's infusions. Authorization requirements document. Expirations alert before treatments affected."
+      "a": "[Pre-authorization](/features/pre-auth) tracks status for each patient's infusions. Authorization requirements document. Expirations alert before treatments affected."
     },
     {
       "q": "How does infusion workflow track?",
@@ -127,7 +127,7 @@
     },
     "secondaryButton": {
       "label": "Learn More",
-      "href": "/resources/infusion-scheduling"
+      "href": "/blog/infusion-center-scheduling-chair-utilization"
     }
   },
   "proof": {
@@ -162,7 +162,7 @@
     {
       "type": "feature",
       "title": "Pre-Authorization",
-      "href": "/features/pre-authorization",
+      "href": "/features/pre-auth",
       "description": "Biologic and specialty medication authorization."
     },
     {

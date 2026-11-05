@@ -5,7 +5,8 @@ import ResourceHero from '@/components/ResourceHero'
 import EHRReadinessAssessment from '@/components/EHRReadinessAssessment'
 
 export const metadata: Metadata = {
-  title: 'EHR Integration Readiness Assessment — clinIQ Resources',
+  alternates: { canonical: '/resources/ehr-readiness-assessment' },
+  title: 'EHR Integration Readiness Assessment',
   description:
     'Assess your EHR environment before adding new tools. Covers API access, data quality, staff adoption, and integration complexity across 12 readiness factors.',
 }

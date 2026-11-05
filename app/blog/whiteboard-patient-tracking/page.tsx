@@ -6,6 +6,7 @@ import BlogContent from '@/components/BlogContent'
 import BlogCTA from '@/components/BlogCTA'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/blog/whiteboard-patient-tracking' },
   title: 'Your Whiteboard Patient Tracker Is a Liability',
   description:
     'Whiteboards expose patient names to anyone in the hallway, show data that is always stale, and make multi-room coordination impossible. Digital tracking fixes all three.',

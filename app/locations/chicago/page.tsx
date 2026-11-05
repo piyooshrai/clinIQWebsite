@@ -9,7 +9,8 @@ import type { ContextPoint } from '@/components/LocationContext'
 import type { FeatureKey } from '@/components/LocationFeatures'
 
 export const metadata: Metadata = {
-  title: 'Clinic Software for Chicago | Chicagoland Healthcare Operations',
+  alternates: { canonical: '/locations/chicago' },
+  title: 'Clinic Software for Chicago | Chicagoland Healthcare',
   description: 'clinIQ helps Chicago-area clinics manage BCBS Illinois complexity, academic referral networks, and behavioral health demand across the metro.',
 }
 

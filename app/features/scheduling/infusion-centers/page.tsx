@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Scheduling for Infusion Centers | Chair & Nurse Ratio Scheduling | clinIQ',
+  title: 'Scheduling for Infusion Centers | Chair & Nurse Ratio Scheduling',
   description: 'Chair availability, infusion duration, and nurse ratios — calculated at the time of booking. clinIQ turns infusion center scheduling into a math problem, not a guessing game.',
 }
 

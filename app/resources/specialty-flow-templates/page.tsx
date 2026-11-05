@@ -8,7 +8,8 @@ import type { FormField } from '@/components/ResourceForm'
 import s from '@/components/ResourceContent.module.css'
 
 export const metadata: Metadata = {
-  title: 'Specialty-Specific Patient Flow Templates — clinIQ Resources',
+  alternates: { canonical: '/resources/specialty-flow-templates' },
+  title: 'Specialty-Specific Patient Flow Templates',
   description:
     'Pre-built patient flow templates for 10 specialties — ready to configure in your clinic. Urgent care, pain management, physical therapy, behavioral health, and more.',
 }

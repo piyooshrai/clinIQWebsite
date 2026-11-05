@@ -1,9 +1,11 @@
-import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses'
 import { NextResponse } from 'next/server'
-import { captureForgeInquiry } from '@/lib/forge-intake'
+import { deliverInquiry, isValidEmail, missingFields } from '@/lib/inquiry-delivery'
 import { normalizeIntakeContext } from '@/lib/intake-context'
 
-const ses = new SESClient({ region: process.env.AWS_REGION ?? 'us-east-1' })
+const REQUIRED = {
+  demo: ['firstName', 'lastName', 'practice', 'specialty', 'providers'],
+  contact: ['firstName', 'subject', 'message'],
+} as const
 
 export async function POST(request: Request) {
   try {
@@ -13,6 +15,10 @@ export async function POST(request: Request) {
       practice, specialty, providers, interests,
       message, subject, formType,
     } = body
+
+    if (!isValidEmail(email)) return NextResponse.json({ error: 'A valid email is required' }, { status: 400 })
+    const missing = missingFields(body, formType === 'demo' ? REQUIRED.demo : REQUIRED.contact)
+    if (missing.length) return NextResponse.json({ error: 'Missing required fields', fields: missing }, { status: 400 })
 
     let emailSubject = ''
     let emailBody = ''
@@ -43,18 +49,18 @@ export async function POST(request: Request) {
       ].join('\n')
     }
 
-    if (typeof email !== 'string' || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return NextResponse.json({ error: 'A valid email is required' }, { status: 400 })
-    await captureForgeInquiry({ name: ([firstName, lastName].filter(v => typeof v === 'string' && v.trim()).join(' ') || String(practice || 'Website inquirer')).slice(0, 200), email: email.trim().toLowerCase(), company: String(practice || '').slice(0, 200), phone: String(phone || '').slice(0, 80), message: emailBody.slice(0, 8000), ...normalizeIntakeContext(body.intakeContext, request), formId: String(formType || 'contact').slice(0, 128) })
-    try { await ses.send(
-      new SendEmailCommand({
-        Source: process.env.SES_FROM_EMAIL,
-        Destination: { ToAddresses: [process.env.SES_TO_EMAIL!] },
-        Message: {
-          Subject: { Data: emailSubject },
-          Body: { Text: { Data: emailBody } },
-        },
-      }),
-    ) } catch { console.error('Internal notification failed; inquiry safely stored in Forge') }
+    await deliverInquiry(
+      {
+        name: ([firstName, lastName].filter((v) => typeof v === 'string' && v.trim()).join(' ') || String(practice || 'Website inquirer')).slice(0, 200),
+        email: email.trim().toLowerCase(),
+        company: String(practice || '').slice(0, 200),
+        phone: String(phone || '').slice(0, 80),
+        message: emailBody.slice(0, 8000),
+        ...normalizeIntakeContext(body.intakeContext, request),
+        formId: String(formType || 'contact').slice(0, 128),
+      },
+      { subject: emailSubject, body: emailBody },
+    )
 
     return NextResponse.json({ success: true })
   } catch (error) {

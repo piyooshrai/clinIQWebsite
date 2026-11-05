@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
+import FeatureSpecialtyDirectory from '@/components/FeatureSpecialtyDirectory'
+import lobbyViewData from '@/data/feature-lobbyview.json'
 import PillarSpecialtyPage, { type PillarData } from '@/components/templates/PillarSpecialtyPage'
 import analyticsData from '@/data/feature-analytics.json'
 import checkInData from '@/data/feature-patient-check-in.json'
@@ -28,6 +30,7 @@ const featurePillars: Record<string, PillarData> = {
   'secure-messaging': secureMessagingData as unknown as PillarData,
   'secure-file-exchange': secureFileExchangeData as unknown as PillarData,
   'patient-app': patientAppData as unknown as PillarData,
+  lobbyview: lobbyViewData as unknown as PillarData,
 }
 
 export function generateStaticParams() {
@@ -42,7 +45,7 @@ export async function generateMetadata({
   const data = featurePillars[params.featureSlug]
   if (!data) return {}
   const pillarWithDate = data as unknown as { publishDate?: string }
-  const url = `https://cliniqhealthcare.com/features/${params.featureSlug}`
+  const url = `https://www.cliniqhealthcare.com/features/${params.featureSlug}`
   const ogImageMap: Record<string, string> = {
     'check-in': '/og-patient-check-in.png',
     'rtm': '/og-rtm-billing.png',
@@ -68,5 +71,10 @@ export async function generateMetadata({
 export default function FeaturePillarSlugPage({ params }: { params: { featureSlug: string } }) {
   const data = featurePillars[params.featureSlug]
   if (!data) notFound()
-  return <PillarSpecialtyPage data={data} />
+  return (
+    <>
+      <PillarSpecialtyPage data={data} />
+      <FeatureSpecialtyDirectory featureSlug={params.featureSlug} />
+    </>
+  )
 }

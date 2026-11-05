@@ -9,6 +9,7 @@ import type { ContextPoint } from '@/components/LocationContext'
 import type { FeatureKey } from '@/components/LocationFeatures'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/locations/houston' },
   title: 'Clinic Software for Houston | Texas Medical Center Area',
   description: 'clinIQ helps Houston clinics handle sophisticated patients from the Texas Medical Center, large uninsured populations, and rapid suburban growth.',
 }

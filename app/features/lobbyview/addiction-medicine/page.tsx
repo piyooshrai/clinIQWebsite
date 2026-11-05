@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'LobbyView for Addiction Medicine Clinics | HIPAA-Safe MAT Waiting Room Display | clinIQ',
+  title: 'LobbyView for Addiction Medicine Clinics | HIPAA-Safe MAT Waiting Room Display',
   description: 'Queue numbers, not names. clinIQ LobbyView gives MAT waiting rooms a HIPAA-safe display that protects patient privacy at every step.',
 }
 

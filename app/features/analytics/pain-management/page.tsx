@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Analytics for Pain Management Clinics | Procedure Room & PA Turnaround Data | clinIQ',
+  title: 'Analytics for Pain Management Clinics | Procedure Room & PA Turnaround Data',
   description: 'Procedure room utilization, PA turnaround time, and patient flow trends — measured. clinIQ gives pain management practices data on the metrics that drive revenue.',
 }
 

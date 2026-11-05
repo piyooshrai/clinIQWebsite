@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Scheduling for Pain Management Clinics | Procedure Day Scheduling | clinIQ',
+  title: 'Scheduling for Pain Management Clinics | Procedure Day Scheduling',
   description: 'Procedure days and clinic days in one calendar. clinIQ prevents double-booking of procedure rooms and keeps pain management scheduling conflict-free.',
 }
 

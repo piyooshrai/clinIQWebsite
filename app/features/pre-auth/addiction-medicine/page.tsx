@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Pre-Authorization for Addiction Medicine | MAT Medication PA Tracking | clinIQ',
+  title: 'Pre-Authorization for Addiction Medicine | MAT Medication PA Tracking',
   description: 'Buprenorphine, naltrexone, and methadone prior authorizations tracked from submission to renewal. clinIQ prevents MAT coverage gaps from missed paperwork.',
 }
 

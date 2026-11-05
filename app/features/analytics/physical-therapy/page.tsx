@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Analytics for Physical Therapy Clinics | Therapist Utilization & Visit Completion | clinIQ',
+  title: 'Analytics for Physical Therapy Clinics | Therapist Utilization & Visit Completion',
   description: 'Visit completion rates, therapist utilization, and insurance cap tracking — measured. clinIQ gives PT practices data on the metrics that prevent revenue loss.',
 }
 

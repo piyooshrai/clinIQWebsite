@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Scheduling for Oncology Clinics | Multi-Step Visit & Infusion Scheduling | clinIQ',
+  title: 'Scheduling for Oncology Clinics | Multi-Step Visit & Infusion Scheduling',
   description: 'Lab visits, provider appointments, and infusion slots in one day. clinIQ links multi-step oncology visits into single-day workflows with one booking action.',
 }
 

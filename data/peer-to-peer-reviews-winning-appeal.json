@@ -60,7 +60,7 @@
     "type": "feature",
     "title": "clinIQ Pre-Authorization",
     "description": "clinIQ's Pre-Authorization feature tracks denial deadlines, surfaces P2P opportunity windows, and logs appeal outcomes so your team never misses a chance to overturn a denial.",
-    "href": "/features/pre-authorization",
+    "href": "/features/pre-auth",
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
@@ -69,7 +69,7 @@
   ],
   "pillarLink": {
     "title": "Pre-Authorization",
-    "href": "/features/pre-authorization",
+    "href": "/features/pre-auth",
     "description": "See how clinIQ's Pre-Authorization feature helps your team track P2P windows, manage appeal timelines, and measure overturn rates across all payers."
   },
   "cta": {

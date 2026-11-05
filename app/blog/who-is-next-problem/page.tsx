@@ -6,6 +6,7 @@ import BlogContent from '@/components/BlogContent'
 import BlogCTA from '@/components/BlogCTA'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/blog/who-is-next-problem' },
   title: "The 'Who's Next?' Problem Is Costing You Money",
   description:
     'Staff huddles to determine queue status happen every 10&ndash;15 minutes in most clinics. Each one costs 3&ndash;5 minutes of productive time. The math is brutal.',

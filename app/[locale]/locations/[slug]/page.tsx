@@ -82,7 +82,7 @@ export async function generateMetadata({
   return {
     title: data.meta.title,
     description: data.meta.description,
-    alternates: { canonical: `https://cliniqhealthcare.com/locations/${data.slug}` },
+    alternates: { canonical: `https://www.cliniqhealthcare.com/locations/${data.slug}` },
     openGraph: {
       title: data.meta.title,
       description: data.meta.description,
@@ -127,9 +127,9 @@ export default async function LocationSlugPage({
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home',      item: 'https://cliniqhealthcare.com' },
-      { '@type': 'ListItem', position: 2, name: 'Locations', item: 'https://cliniqhealthcare.com/locations' },
-      { '@type': 'ListItem', position: 3, name: data.name,   item: `https://cliniqhealthcare.com/locations/${data.slug}` },
+      { '@type': 'ListItem', position: 1, name: 'Home',      item: 'https://www.cliniqhealthcare.com' },
+      { '@type': 'ListItem', position: 2, name: 'Locations', item: 'https://www.cliniqhealthcare.com/locations' },
+      { '@type': 'ListItem', position: 3, name: data.name,   item: `https://www.cliniqhealthcare.com/locations/${data.slug}` },
     ],
   }
 

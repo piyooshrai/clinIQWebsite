@@ -8,7 +8,8 @@ import type { FormField } from '@/components/ResourceForm'
 import s from '@/components/ResourceContent.module.css'
 
 export const metadata: Metadata = {
-  title: 'LWBS Reduction Playbook for Urgent Care — clinIQ Resources',
+  alternates: { canonical: '/resources/lwbs-reduction-playbook' },
+  title: 'LWBS Reduction Playbook for Urgent Care',
   description:
     'A 30-day action plan to cut left-without-being-seen rates in urgent care clinics. Week-by-week protocol with measurement framework.',
 }

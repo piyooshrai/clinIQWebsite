@@ -103,7 +103,7 @@ export async function generateMetadata({
 }: {
   params: { slug: string }
 }): Promise<Metadata> {
-  const base = 'https://cliniqhealthcare.com/specialties'
+  const base = 'https://www.cliniqhealthcare.com/specialties'
   const pillar = pillarPages[params.slug]
   if (pillar) {
     const pillarWithDate = pillar as unknown as { publishDate?: string }

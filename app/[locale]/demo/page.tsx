@@ -10,13 +10,13 @@ export const metadata: Metadata = {
   title: 'Request a Demo — clinIQ Clinic Operations Platform',
   description:
     "See clinIQ in 15 minutes. We'll configure it for your specialty. Patient flow, RTM billing, pre-authorization, digital check-in — live in your workflow.",
-  alternates: { canonical: 'https://cliniqhealthcare.com/demo' },
+  alternates: { canonical: 'https://www.cliniqhealthcare.com/demo' },
   openGraph: {
     title: 'Request a Demo — clinIQ Clinic Operations Platform',
     description:
       "See clinIQ in 15 minutes. We'll configure it for your specialty. Patient flow, RTM billing, pre-authorization, digital check-in — live in your workflow.",
     type: 'website',
-    url: 'https://cliniqhealthcare.com/demo',
+    url: 'https://www.cliniqhealthcare.com/demo',
     images: [{ url: '/og-demo.png', width: 1200, height: 630, alt: 'Request a Demo — clinIQ' }],
   },
 }

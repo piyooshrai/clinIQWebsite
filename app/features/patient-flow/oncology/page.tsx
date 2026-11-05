@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Patient Flow for Oncology Clinics | Cancer Center Patient Tracking | clinIQ',
+  title: 'Patient Flow for Oncology Clinics | Cancer Center Patient Tracking',
   description: 'Oncology patients move through labs, provider visits, and infusion in one day. clinIQ tracks every step so nothing falls between departments.',
 }
 

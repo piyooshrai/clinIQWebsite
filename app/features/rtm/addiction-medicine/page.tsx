@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'RTM Billing for Addiction Medicine Clinics | Remote Therapeutic Monitoring | clinIQ',
+  title: 'RTM Billing for Addiction Medicine Clinics | Remote Therapeutic Monitoring',
   description: 'Behavioral health monitoring between MAT visits is now billable. clinIQ tracks RTM contact minutes automatically and captures CPT 98975-98981 revenue.',
 }
 

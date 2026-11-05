@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Pre-Authorization for Psychiatry | Psychiatric Medication PA Tracking | clinIQ',
+  title: 'Pre-Authorization for Psychiatry | Psychiatric Medication PA Tracking',
   description: 'Step therapy documentation, denial tracking, and appeals management for psychiatric medications. clinIQ tracks every PA from submission to approval.',
 }
 

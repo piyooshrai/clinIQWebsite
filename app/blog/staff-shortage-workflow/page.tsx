@@ -6,6 +6,7 @@ import BlogContent from '@/components/BlogContent'
 import BlogCTA from '@/components/BlogCTA'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/blog/staff-shortage-workflow' },
   title: "You Can't Hire Your Way Out of Bad Workflow",
   description:
     'The practices that survive healthcare staffing shortages are the ones that eliminate workflow waste. Visibility and automation multiply the capacity of the staff you have.',

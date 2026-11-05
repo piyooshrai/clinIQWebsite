@@ -165,7 +165,7 @@
     "required": "*",
     "errorGeneric": "Something went wrong. Please try again.",
     "successTitle": "You're on the list.",
-    "successBody": "We'll be in touch within 24 hours. Check your email for confirmation."
+    "successBody": "We'll be in touch within 24 hours."
   },
   "hero": {
     "badge": "Clinic Operations Software",

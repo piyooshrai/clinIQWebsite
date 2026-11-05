@@ -100,7 +100,7 @@ const specialties = [
       },
       "secondaryButton": {
         "label": "Calculate Your RTM Revenue",
-        "href": "/resources/rtm-calculator"
+        "href": "/resources/roi-calculator"
       }
     },
     "proof": {
@@ -232,7 +232,7 @@ const specialties = [
       },
       "secondaryButton": {
         "label": "Calculate RTM Revenue",
-        "href": "/resources/rtm-calculator"
+        "href": "/resources/roi-calculator"
       }
     },
     "proof": {
@@ -492,7 +492,7 @@ const specialties = [
       },
       "secondaryButton": {
         "label": "Calculate Your RTM Revenue",
-        "href": "/resources/rtm-calculator"
+        "href": "/resources/roi-calculator"
       }
     },
     "proof": {
@@ -1135,7 +1135,7 @@ const specialties = [
       },
       "secondaryButton": {
         "label": "Calculate Cardiac RTM Revenue",
-        "href": "/resources/rtm-calculator"
+        "href": "/resources/roi-calculator"
       }
     },
     "proof": {

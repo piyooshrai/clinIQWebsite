@@ -15,7 +15,7 @@ import CTA from '@/components/CTA'
 import FooterInner from '@/components/FooterInner'
 
 export const metadata: Metadata = {
-  title: 'Patient Flow Software | Clinic Operations Platform | clinIQ',
+  title: 'Patient Flow Software | Clinic Operations Platform',
   description:
     "Struggling with patient flow & missed billing? clinIQ is the clinic operations software that automates check-in, RTM billing & pre-auth. Book a free demo.",
   keywords: [
@@ -33,16 +33,16 @@ export const metadata: Metadata = {
     'urgent care management software',
   ],
   openGraph: {
-    title: 'Patient Flow Software | Clinic Operations Platform | clinIQ',
+    title: 'Patient Flow Software | Clinic Operations Platform',
     description:
       'Real-time patient queue management, digital check-in, RTM billing, and pre-authorization automation — sitting on top of your existing EHR.',
-    url: 'https://cliniqhealthcare.com',
+    url: 'https://www.cliniqhealthcare.com',
     siteName: 'clinIQ',
     type: 'website',
     images: [{ url: '/og-homepage.png', width: 1200, height: 630, alt: 'clinIQ – Clinic Operations Platform' }],
   },
   alternates: {
-    canonical: 'https://cliniqhealthcare.com',
+    canonical: 'https://www.cliniqhealthcare.com',
   },
 }
 
@@ -53,15 +53,15 @@ const baseJsonLd = [
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'clinIQ',
-    url: 'https://cliniqhealthcare.com',
-    logo: 'https://cliniqhealthcare.com/logo.png',
+    url: 'https://www.cliniqhealthcare.com',
+    logo: 'https://www.cliniqhealthcare.com/logo.png',
     description:
       'clinIQ is a clinic operations platform providing real-time patient flow management, automated check-in, RTM billing, pre-authorization, and scheduling for medical practices.',
     sameAs: ['https://linkedin.com/company/cliniq'],
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'sales',
-      url: 'https://cliniqhealthcare.com/contact',
+      url: 'https://www.cliniqhealthcare.com/contact',
       email: 'info@cliniqhealthcare.com',
       telephone: '+1-720-334-7249',
     },
@@ -70,10 +70,10 @@ const baseJsonLd = [
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'clinIQ',
-    url: 'https://cliniqhealthcare.com',
+    url: 'https://www.cliniqhealthcare.com',
     potentialAction: {
       '@type': 'SearchAction',
-      target: { '@type': 'EntryPoint', urlTemplate: 'https://cliniqhealthcare.com/search?q={search_term_string}' },
+      target: { '@type': 'EntryPoint', urlTemplate: 'https://www.cliniqhealthcare.com/search?q={search_term_string}' },
       'query-input': 'required name=search_term_string',
     },
   },
@@ -85,7 +85,7 @@ const baseJsonLd = [
     operatingSystem: 'Web',
     description:
       'Real-time clinic operations platform for patient flow management, automated check-in, RTM billing, pre-authorization, and scheduling.',
-    offers: { '@type': 'Offer', url: 'https://cliniqhealthcare.com/demo' },
+    offers: { '@type': 'Offer', url: 'https://www.cliniqhealthcare.com/demo' },
   },
 ]
 

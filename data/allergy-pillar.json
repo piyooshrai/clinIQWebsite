@@ -146,7 +146,7 @@
     },
     "secondaryButton": {
       "label": "Calculate Allergy RTM Revenue",
-      "href": "/resources/rtm-calculator"
+      "href": "/resources/roi-calculator"
     }
   },
   "proof": {
@@ -175,25 +175,25 @@
     {
       "type": "blog",
       "title": "Allergen Immunotherapy: Managing High-Volume Injection Programs",
-      "href": "/blog/immunotherapy-injection-management",
+      "href": "/blog/allergy-shot-scheduling-tracking",
       "description": "Systematic tracking for escalation, vials, and observation."
     },
     {
       "type": "blog",
       "title": "Allergy RTM Billing: Asthma, Rhinitis, and Urticaria",
-      "href": "/blog/allergy-rtm-billing",
+      "href": "/features/rtm",
       "description": "How to bill RTM for allergic conditions between visits."
     },
     {
       "type": "blog",
       "title": "Biologic Authorization for Severe Asthma and Urticaria",
-      "href": "/blog/allergy-biologic-authorization",
+      "href": "/blog/allergy-prior-auth-biologics-asthma",
       "description": "Navigating prior auth for Xolair, Nucala, Dupixent, and other allergy biologics."
     },
     {
       "type": "resource",
       "title": "Allergy RTM Calculator",
-      "href": "/resources/rtm-calculator",
+      "href": "/resources/roi-calculator",
       "description": "Calculate your practice's allergy RTM revenue potential."
     }
   ],

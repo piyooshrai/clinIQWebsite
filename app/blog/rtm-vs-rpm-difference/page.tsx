@@ -6,6 +6,7 @@ import BlogContent from '@/components/BlogContent'
 import BlogCTA from '@/components/BlogCTA'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/blog/rtm-vs-rpm-difference' },
   title: 'RTM vs RPM: Which One Applies to Your Practice?',
   description:
     'RTM and RPM are different CPT code sets with different eligibility criteria. Most PT, OT, and pain management practices qualify for RTM, not RPM. Here is the difference.',

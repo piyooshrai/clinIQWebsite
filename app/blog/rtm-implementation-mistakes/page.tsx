@@ -6,6 +6,7 @@ import BlogContent from '@/components/BlogContent'
 import BlogCTA from '@/components/BlogCTA'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/blog/rtm-implementation-mistakes' },
   title: '5 RTM Implementation Mistakes That Kill Revenue',
   description:
     'Most RTM programs underperform because of five specific implementation mistakes. Not getting consent, missing the 20-minute threshold, poor enrollment rates, and more &mdash; each with a fix.',

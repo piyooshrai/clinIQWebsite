@@ -6,6 +6,7 @@ import BlogContent from '@/components/BlogContent'
 import BlogCTA from '@/components/BlogCTA'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/blog/waiting-room-complaints' },
   title: "Why Patients Hate Waiting (And It's Not the Time)",
   description:
     'Research consistently shows that uncertainty is more distressing than wait time itself. Transparent communication in the waiting room changes everything.',

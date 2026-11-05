@@ -68,7 +68,7 @@
     {
       "id": "scheduling",
       "h2": "Clinic and Surgical Scheduling",
-      "content": "[Scheduling](/features/scheduling) in ENT coordinates clinic visits, office procedures, and surgical cases.\n\nClinic scheduling includes new evaluations, follow-ups, and pre-operative visits. Visit duration varies by complexity. Brief follow-ups differ from comprehensive new patient evaluations.\n\nOffice procedure scheduling for in-office ear tube placement, nasal endoscopy, and other procedures requires appropriate time and equipment.\n\nSurgical scheduling coordinates OR time at hospitals or ASCs. Procedure complexity varies significantly from pediatric tonsillectomy to head and neck cancer resection.\n\nAudiology scheduling coordinates hearing tests with physician evaluation. Some patients need testing before evaluation while others need testing after.\n\n[Pre-authorization](/features/pre-authorization) for surgical procedures tracks status and prevents scheduling without approval.\n\nPatient self-scheduling through the [patient app](/features/patient-app) works for follow-up visits while surgical and complex scheduling remains staff-managed."
+      "content": "[Scheduling](/features/scheduling) in ENT coordinates clinic visits, office procedures, and surgical cases.\n\nClinic scheduling includes new evaluations, follow-ups, and pre-operative visits. Visit duration varies by complexity. Brief follow-ups differ from comprehensive new patient evaluations.\n\nOffice procedure scheduling for in-office ear tube placement, nasal endoscopy, and other procedures requires appropriate time and equipment.\n\nSurgical scheduling coordinates OR time at hospitals or ASCs. Procedure complexity varies significantly from pediatric tonsillectomy to head and neck cancer resection.\n\nAudiology scheduling coordinates hearing tests with physician evaluation. Some patients need testing before evaluation while others need testing after.\n\n[Pre-authorization](/features/pre-auth) for surgical procedures tracks status and prevents scheduling without approval.\n\nPatient self-scheduling through the [patient app](/features/patient-app) works for follow-up visits while surgical and complex scheduling remains staff-managed."
     },
     {
       "id": "patient-flow",
@@ -83,7 +83,7 @@
     {
       "id": "implementation",
       "h2": "Implementation and ROI",
-      "content": "ENT implementation addresses diverse [scheduling](/features/scheduling) and high-volume [patient flow](/features/patient-flow).\n\nWeek one maps clinic flow including audiology coordination. [Scheduling](/features/scheduling) configures for clinic, procedure, and surgical visit types.\n\nWeek two trains staff on [patient flow](/features/patient-flow), [scheduling](/features/scheduling), and [check-in](/features/check-in). Providers train on dashboard and [telehealth](/features/telehealth).\n\nWeek three goes live with [patient flow](/features/patient-flow) and [scheduling](/features/scheduling).\n\nROI sources include flow efficiency enabling higher volume. Scheduling optimization across diverse visit types. [Pre-authorization](/features/pre-authorization) tracking preventing surgical delays.\n\nProfessional tier at $499 monthly includes [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [pre-authorization](/features/pre-authorization), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), and [analytics](/features/analytics)."
+      "content": "ENT implementation addresses diverse [scheduling](/features/scheduling) and high-volume [patient flow](/features/patient-flow).\n\nWeek one maps clinic flow including audiology coordination. [Scheduling](/features/scheduling) configures for clinic, procedure, and surgical visit types.\n\nWeek two trains staff on [patient flow](/features/patient-flow), [scheduling](/features/scheduling), and [check-in](/features/check-in). Providers train on dashboard and [telehealth](/features/telehealth).\n\nWeek three goes live with [patient flow](/features/patient-flow) and [scheduling](/features/scheduling).\n\nROI sources include flow efficiency enabling higher volume. Scheduling optimization across diverse visit types. [Pre-authorization](/features/pre-auth) tracking preventing surgical delays.\n\nProfessional tier at $499 monthly includes [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [pre-authorization](/features/pre-auth), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), and [analytics](/features/analytics)."
     }
   ],
   "faqs": [
@@ -117,7 +117,7 @@
     },
     "secondaryButton": {
       "label": "Learn More",
-      "href": "/resources/surgical-scheduling"
+      "href": "/resources/healthcare-scheduling-guide"
     }
   },
   "proof": {

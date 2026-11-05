@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Scheduling for Dialysis Centers | MWF & TTS Shift Scheduling | clinIQ',
+  title: 'Scheduling for Dialysis Centers | MWF & TTS Shift Scheduling',
   description: 'Monday/Wednesday/Friday, Tuesday/Thursday/Saturday, shift assignments, chair assignments — managed without a spreadsheet. clinIQ handles dialysis scheduling patterns natively.',
 }
 

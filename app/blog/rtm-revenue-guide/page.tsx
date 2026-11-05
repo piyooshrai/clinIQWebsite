@@ -6,7 +6,8 @@ import BlogContent from '@/components/BlogContent'
 import BlogCTA from '@/components/BlogCTA'
 
 export const metadata: Metadata = {
-  title: 'RTM Billing Guide 2026: CPT 98975–98981 — clinIQ Blog',
+  alternates: { canonical: '/blog/rtm-revenue-guide' },
+  title: 'RTM Billing Guide 2026: CPT 98975–98981',
   description:
     'Remote Therapeutic Monitoring billing guidelines for 2026. CPT 98975, 98976, 98977, 98980, 98981 — who qualifies, what to document, and how to calculate your revenue opportunity.',
   keywords: [

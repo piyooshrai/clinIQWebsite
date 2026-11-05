@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Pre-Authorization for Urgent Care | Imaging & Referral PA Tracking | clinIQ',
+  title: 'Pre-Authorization for Urgent Care | Imaging & Referral PA Tracking',
   description: 'Most urgent care visits don\'t need prior auth — but imaging orders and specialty referrals do. clinIQ flags and tracks the PAs that urgent care teams tend to miss.',
 }
 

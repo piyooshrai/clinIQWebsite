@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Patient Flow for Psychiatry Clinics | Mental Health Practice Visibility | clinIQ',
+  title: 'Patient Flow for Psychiatry Clinics | Mental Health Practice Visibility',
   description: 'Psychiatric patients need privacy at every stage. clinIQ tracks patient flow without calling names or announcing appointments.',
 }
 

@@ -9,6 +9,7 @@ import type { ContextPoint } from '@/components/LocationContext'
 import type { FeatureKey } from '@/components/LocationFeatures'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/locations/toronto' },
   title: 'Clinic Software for Toronto | Ontario Private Practice',
   description: 'clinIQ helps Toronto clinics manage OHIP billing alongside growing self-pay demand, multilingual intake, and Ontario specialist wait time pressures.',
 }

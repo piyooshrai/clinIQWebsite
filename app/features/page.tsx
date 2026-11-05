@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   description:
     "clinIQ's 12 integrated modules: real-time patient flow, digital check-in, RTM billing (CPT 98975–98981), pre-authorization, scheduling, telehealth, secure messaging, analytics, and more.",
   alternates: {
-    canonical: 'https://cliniqhealthcare.com/features',
+    canonical: 'https://www.cliniqhealthcare.com/features',
   },
   openGraph: {
     title: 'Platform Features — clinIQ Clinic Operations',
     description: "clinIQ's 12 integrated modules: real-time patient flow, digital check-in, RTM billing, pre-authorization, scheduling, telehealth, secure messaging, analytics, and more.",
     type: 'website',
-    url: 'https://cliniqhealthcare.com/features',
+    url: 'https://www.cliniqhealthcare.com/features',
     images: [{ url: '/og-default.png', width: 1200, height: 630, alt: 'clinIQ Platform Features' }],
   },
 }
@@ -23,8 +23,8 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniqhealthcare.com' },
-    { '@type': 'ListItem', position: 2, name: 'Features', item: 'https://cliniqhealthcare.com/features' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.cliniqhealthcare.com' },
+    { '@type': 'ListItem', position: 2, name: 'Features', item: 'https://www.cliniqhealthcare.com/features' },
   ],
 }
 

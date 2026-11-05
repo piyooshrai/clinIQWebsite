@@ -43,13 +43,13 @@ export default function LocationPage({
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniqhealthcare.com' },
-      { '@type': 'ListItem', position: 2, name: 'Locations', item: 'https://cliniqhealthcare.com/locations' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.cliniqhealthcare.com' },
+      { '@type': 'ListItem', position: 2, name: 'Locations', item: 'https://www.cliniqhealthcare.com/locations' },
       {
         '@type': 'ListItem',
         position: 3,
         name: `${city}, ${stateAbbr}`,
-        item: `https://cliniqhealthcare.com/locations/${locationSlug}`,
+        item: `https://www.cliniqhealthcare.com/locations/${locationSlug}`,
       },
     ],
   }

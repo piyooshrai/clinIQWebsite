@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'RTM Billing for Urgent Care | Post-Visit Remote Monitoring | clinIQ',
+  title: 'RTM Billing for Urgent Care | Post-Visit Remote Monitoring',
   description: 'Acute care follow-up monitoring — wound care, illness recovery, medication adherence — tracked after discharge and billed. clinIQ adds RTM revenue to urgent care.',
 }
 

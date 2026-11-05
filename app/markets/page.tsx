@@ -18,13 +18,13 @@ export const metadata: Metadata = {
     'clinic operations platform',
   ],
   openGraph: {
-    title: 'Markets We Serve | clinIQ',
+    title: 'Markets We Serve',
     description:
       'Real-time patient flow and RTM billing built for the operational realities of each healthcare setting.',
     type: 'website',
   },
   alternates: {
-    canonical: 'https://cliniqhealthcare.com/markets',
+    canonical: 'https://www.cliniqhealthcare.com/markets',
   },
 }
 
@@ -32,8 +32,8 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cliniqhealthcare.com' },
-    { '@type': 'ListItem', position: 2, name: 'Markets', item: 'https://cliniqhealthcare.com/markets' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.cliniqhealthcare.com' },
+    { '@type': 'ListItem', position: 2, name: 'Markets', item: 'https://www.cliniqhealthcare.com/markets' },
   ],
 }
 

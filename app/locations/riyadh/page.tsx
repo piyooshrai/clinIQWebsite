@@ -9,6 +9,7 @@ import type { ContextPoint } from '@/components/LocationContext'
 import type { FeatureKey } from '@/components/LocationFeatures'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/locations/riyadh' },
   title: 'Clinic Software for Riyadh | Saudi Healthcare Operations',
   description: 'clinIQ helps Riyadh private clinics manage CCHI payer complexity, Riayati system integration, and the rapid clinic expansion driven by Vision 2030.',
 }

@@ -161,7 +161,7 @@
     },
     "secondaryButton": {
       "label": "See Sample Dashboard",
-      "href": "/resources/satisfaction-demo"
+      "href": "/demo"
     }
   },
   "proof": {

@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Pre-Authorization for Physical Therapy | PT Visit Authorization Tracking | clinIQ',
+  title: 'Pre-Authorization for Physical Therapy | PT Visit Authorization Tracking',
   description: 'PT authorizations tracked by patient, payer, and visit count. clinIQ alerts you before visit limits are reached and queues renewal requests automatically.',
 }
 

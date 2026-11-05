@@ -73,7 +73,7 @@
     {
       "id": "scheduling",
       "h2": "Obstetric and Gynecologic Scheduling",
-      "content": "[Scheduling](/features/scheduling) in OB-GYN coordinates prenatal visits, gynecologic appointments, and surgical procedures.\n\nPrenatal scheduling follows recommended visit frequency: monthly through 28 weeks, every two weeks through 36 weeks, then weekly until delivery. [Scheduling](/features/scheduling) templates support this pattern.\n\nGynecologic scheduling includes annual well-woman visits, problem visits, and pre-operative evaluations. Visit duration varies by type.\n\nGynecologic surgery scheduling coordinates OR time for hysterectomy, myomectomy, and other procedures. [Pre-authorization](/features/pre-authorization) tracks approval status.\n\nUltrasound scheduling coordinates OB ultrasounds with prenatal visits when performed in-office.\n\nPatient self-scheduling through the [patient app](/features/patient-app) works for routine visits while surgical and complex scheduling remains staff-managed."
+      "content": "[Scheduling](/features/scheduling) in OB-GYN coordinates prenatal visits, gynecologic appointments, and surgical procedures.\n\nPrenatal scheduling follows recommended visit frequency: monthly through 28 weeks, every two weeks through 36 weeks, then weekly until delivery. [Scheduling](/features/scheduling) templates support this pattern.\n\nGynecologic scheduling includes annual well-woman visits, problem visits, and pre-operative evaluations. Visit duration varies by type.\n\nGynecologic surgery scheduling coordinates OR time for hysterectomy, myomectomy, and other procedures. [Pre-authorization](/features/pre-auth) tracks approval status.\n\nUltrasound scheduling coordinates OB ultrasounds with prenatal visits when performed in-office.\n\nPatient self-scheduling through the [patient app](/features/patient-app) works for routine visits while surgical and complex scheduling remains staff-managed."
     },
     {
       "id": "prenatal-workflow",
@@ -127,7 +127,7 @@
     },
     "secondaryButton": {
       "label": "Learn More",
-      "href": "/resources/patient-engagement"
+      "href": "/features/patient-app"
     }
   },
   "proof": {

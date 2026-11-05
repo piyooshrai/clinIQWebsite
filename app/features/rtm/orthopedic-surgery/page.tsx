@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'RTM Billing for Orthopedic Surgery | Post-Op Recovery Monitoring | clinIQ',
+  title: 'RTM Billing for Orthopedic Surgery | Post-Op Recovery Monitoring',
   description: 'Post-surgical recovery monitored daily — pain scores, range of motion, activity compliance — and billed through RTM. clinIQ turns the 90-day post-op period into a revenue opportunity.',
 }
 

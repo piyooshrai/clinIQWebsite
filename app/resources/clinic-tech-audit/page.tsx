@@ -8,7 +8,8 @@ import type { FormField } from '@/components/ResourceForm'
 import s from '@/components/ResourceContent.module.css'
 
 export const metadata: Metadata = {
-  title: 'Clinic Technology Stack Audit — clinIQ Resources',
+  alternates: { canonical: '/resources/clinic-tech-audit' },
+  title: 'Clinic Technology Stack Audit',
   description:
     'Evaluate your EHR, scheduling, check-in, billing, and patient engagement tools. Identify gaps, redundancies, and integration opportunities.',
 }

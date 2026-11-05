@@ -5,7 +5,8 @@ import ResourceHero from '@/components/ResourceHero'
 import OperationsMaturityModel from '@/components/OperationsMaturityModel'
 
 export const metadata: Metadata = {
-  title: 'Clinic Operations Maturity Model — clinIQ Resources',
+  alternates: { canonical: '/resources/operations-maturity-model' },
+  title: 'Clinic Operations Maturity Model',
   description:
     'Benchmark your clinic operations across 5 domains. Get a maturity score, identify your highest-leverage improvement areas, and receive a prioritized action plan.',
 }

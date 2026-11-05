@@ -8,7 +8,8 @@ import type { FormField } from '@/components/ResourceForm'
 import s from '@/components/ResourceContent.module.css'
 
 export const metadata: Metadata = {
-  title: 'Preventing Front Desk Burnout: An Operational Approach — clinIQ Resources',
+  alternates: { canonical: '/resources/staff-burnout-prevention-guide' },
+  title: 'Preventing Front Desk Burnout: An Operational Approach',
   description:
     'The workflow and technology changes that reduce cognitive load and improve front desk retention. 30-day implementation checklist included.',
 }

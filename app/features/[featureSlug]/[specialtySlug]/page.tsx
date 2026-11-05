@@ -44,7 +44,7 @@ export default function FeatureSpecialtyPage({
           '@type': 'ListItem',
           position: i + 1,
           name: bc.label,
-          item: `https://cliniqhealthcare.com${bc.href}`,
+          item: `https://www.cliniqhealthcare.com${bc.href}`,
         })),
       },
       {
@@ -54,7 +54,7 @@ export default function FeatureSpecialtyPage({
         provider: {
           '@type': 'Organization',
           name: 'clinIQ',
-          url: 'https://cliniqhealthcare.com',
+          url: 'https://www.cliniqhealthcare.com',
         },
         serviceType: data.featureName,
         areaServed: 'Worldwide',

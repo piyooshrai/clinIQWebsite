@@ -6,6 +6,7 @@ import BlogContent from '@/components/BlogContent'
 import BlogCTA from '@/components/BlogCTA'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/blog/rtm-documentation-requirements' },
   title: 'RTM Documentation: What Payers Actually Need',
   description:
     'RTM claim denials are usually documentation failures. Code-by-code documentation requirements, interaction note standards, audit red flags, and how long to retain records.',

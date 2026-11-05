@@ -9,6 +9,7 @@ import type { ContextPoint } from '@/components/LocationContext'
 import type { FeatureKey } from '@/components/LocationFeatures'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/locations/montreal' },
   title: 'Clinic Software for Montreal | Quebec Private Practice',
   description: 'clinIQ helps Montréal private clinics navigate RAMQ alongside growing private pay, Bill 96 French-first requirements, and the referral influence of McGill and UdeM academic medicine.',
 }

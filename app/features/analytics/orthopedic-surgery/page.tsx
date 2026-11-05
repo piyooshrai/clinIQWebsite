@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Analytics for Orthopedic Surgery Centers | OR Utilization & Case Volume | clinIQ',
+  title: 'Analytics for Orthopedic Surgery Centers | OR Utilization & Case Volume',
   description: 'OR utilization, clinic throughput, and surgical case volume — connected in one view. clinIQ shows orthopedic practices how clinical volume converts to surgical revenue.',
 }
 

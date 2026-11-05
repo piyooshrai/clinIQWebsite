@@ -1542,7 +1542,7 @@ export function getSpecialtyPageData(specialtySlug: string): SpecialtyPageData |
   const heroH1Lines = SPEC_HERO_H1_TEMPLATES[h % SPEC_HERO_H1_TEMPLATES.length](specialty)
   const heroSubtitle = SPEC_HERO_SUBTITLE_TEMPLATES[h % SPEC_HERO_SUBTITLE_TEMPLATES.length](specialty)
 
-  const metaTitle = `${specialty.name} Clinic Software | Patient Flow & Operations | clinIQ`
+  const metaTitle = `${specialty.name} Clinic Software | Patient Flow`
   const metaDescription = `clinIQ helps ${specialty.name} practices eliminate ${specialty.painA.split(',')[0].toLowerCase()}. Purpose-built for ${specialty.context} — not adapted from hospital software. Request a demo.`.slice(0, 160)
 
   const marqueeItems = [

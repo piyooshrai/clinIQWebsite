@@ -8,7 +8,8 @@ import type { FormField } from '@/components/ResourceForm'
 import s from '@/components/ResourceContent.module.css'
 
 export const metadata: Metadata = {
-  title: 'RTM Payer Coverage Matrix 2026 — clinIQ Resources',
+  alternates: { canonical: '/resources/rtm-payer-matrix' },
+  title: 'RTM Payer Coverage Matrix 2026',
   description:
     'Which payers cover RTM codes in 2026 — and what each requires for reimbursement. Medicare, commercial, and Medicaid coverage with denial prevention checklists.',
 }

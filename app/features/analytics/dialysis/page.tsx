@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Analytics for Dialysis Centers | Session Compliance & Chair Utilization | clinIQ',
+  title: 'Analytics for Dialysis Centers | Session Compliance & Chair Utilization',
   description: 'Session attendance, adverse event rates, and chair downtime — tracked across shifts and locations. clinIQ gives dialysis centers the operational data for CMS quality reporting.',
 }
 

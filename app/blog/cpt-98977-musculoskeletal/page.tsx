@@ -6,6 +6,7 @@ import BlogContent from '@/components/BlogContent'
 import BlogCTA from '@/components/BlogCTA'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/blog/cpt-98977-musculoskeletal' },
   title: 'CPT 98977: Musculoskeletal RTM Billing Explained',
   description:
     'A deep dive into CPT 98977 for musculoskeletal RTM device supply billing. Covered conditions, documentation requirements, payer coverage, and how to pair with the full RTM code set.',

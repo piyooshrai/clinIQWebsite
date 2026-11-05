@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Analytics for Oncology Clinics | Infusion Chair Utilization & Treatment Adherence | clinIQ',
+  title: 'Analytics for Oncology Clinics | Infusion Chair Utilization & Treatment Adherence',
   description: 'Infusion chair utilization, treatment adherence rates, and multi-step visit completion — measured. clinIQ gives oncology practices data on what actually drives clinical throughput.',
 }
 

@@ -9,6 +9,7 @@ import type { ContextPoint } from '@/components/LocationContext'
 import type { FeatureKey } from '@/components/LocationFeatures'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/locations/denver' },
   title: 'Clinic Software for Denver | Colorado Healthcare Operations',
   description: 'clinIQ helps Denver and Front Range clinics manage high orthopedic and sports medicine volume, Colorado exchange payers, and rapid population growth.',
 }

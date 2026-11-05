@@ -9,6 +9,7 @@ import type { ContextPoint } from '@/components/LocationContext'
 import type { FeatureKey } from '@/components/LocationFeatures'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/locations/phoenix' },
   title: 'Clinic Software for Phoenix | Arizona Healthcare Operations',
   description: 'clinIQ helps Phoenix clinics manage snowbird seasonal demand, Medicare-heavy patient panels, and the rapid growth of East Valley suburbs.',
 }

@@ -1,0 +1,139 @@
+{
+  "slug": "lobbyview",
+  "name": "LobbyView",
+  "pageType": "feature-pillar",
+  "wordCount": 650,
+  "publishDate": "2026-11-04",
+  "meta": {
+    "title": "Waiting Room Display Software | LobbyView",
+    "description": "LobbyView shows waiting patients their place in the queue on a lobby screen without using names, reducing walkouts and front desk interruptions.",
+    "keywords": [
+      "waiting room display software",
+      "patient queue display",
+      "clinic wait time display",
+      "lobby screen for clinics"
+    ]
+  },
+  "hero": {
+    "h1": "Waiting Room Display Software",
+    "subhead": "LobbyView displays wait status on a lobby screen without using names. Patients know they haven't been forgotten, the front desk stops fielding the same question, and fewer people walk out.",
+    "stats": [
+      {
+        "value": "Real-time",
+        "label": "queue position"
+      },
+      {
+        "value": "No names",
+        "label": "on the lobby screen"
+      },
+      {
+        "value": "15 min",
+        "label": "demo for your specialty"
+      }
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "why-visibility",
+      "title": "Why Waiting Patients Walk Out"
+    },
+    {
+      "id": "how-it-works",
+      "title": "How LobbyView Works"
+    },
+    {
+      "id": "front-desk",
+      "title": "What Changes for the Front Desk"
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-visibility",
+      "h2": "Why Waiting Patients Walk Out",
+      "content": "Most waiting room frustration comes from uncertainty, not from the wait itself. A patient who knows they are third in line and has about twenty minutes left can answer an email, make a call, or settle in. A patient who has heard nothing for thirty minutes starts to wonder whether they were forgotten.\n\nThat uncertainty has a direct operational cost. Patients approach the desk to ask how much longer, which interrupts staff who are checking in someone else. Some leave before being seen, and that lost visit is rarely recorded as a flow problem. Others stay and carry the frustration into the exam room, where it shows up in the visit and in the review they write afterward.\n\nA whiteboard or a verbal update cannot solve this because neither one stays current. The information exists in your [patient flow system](/features/patient-flow). LobbyView puts it where patients can see it."
+    },
+    {
+      "id": "how-it-works",
+      "h2": "How LobbyView Works",
+      "content": "LobbyView gives patients a real-time view of their place in the queue, displayed on a lobby screen without using names. It works alongside [digital check-in](/features/check-in) and [patient flow](/features/patient-flow), so what patients see reflects what is actually happening in your clinic.\n\nThe display answers the question patients are already asking before they have to ask it. That matters in every specialty, and especially in practices where discretion counts, including [behavioral health](/specialties/behavioral-health) and [addiction medicine](/specialties/addiction-medicine).\n\nTo see how it would look in your waiting room, [book a 15-minute demo](/demo)."
+    },
+    {
+      "id": "front-desk",
+      "h2": "What Changes for the Front Desk",
+      "content": "Front desk staff spend a surprising share of the day answering versions of one question: how much longer? Every answer pulls them away from the patient in front of them and sends them looking for information that may already be out of date.\n\nWhen wait status is on the screen, those interruptions fall away. Staff can focus on check-in, insurance issues, and the patients who need real help.\n\nManagers can go further by pairing lobby visibility with [practice analytics](/features/analytics) to find where the schedule slips. For more on measuring this, read our guide to [wait time analytics](/blog/wait-time-analytics)."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does LobbyView show patient names?",
+      "a": "No. LobbyView displays wait status on the lobby screen without using names."
+    },
+    {
+      "q": "What problem does LobbyView solve?",
+      "a": "It reduces waiting-room anxiety, walkouts, and repeated \"how much longer?\" questions at the front desk by showing patients where they stand."
+    },
+    {
+      "q": "What else does LobbyView work with?",
+      "a": "LobbyView is part of the clinIQ platform alongside check-in, patient flow, scheduling, and analytics."
+    }
+  ],
+  "cta": {
+    "headline": "See LobbyView in Action",
+    "subhead": "A 15-minute demo, configured for your specialty and how your clinic actually runs.",
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "See Patient Flow",
+      "href": "/features/patient-flow"
+    }
+  },
+  "relatedContent": [
+    {
+      "type": "feature",
+      "title": "Patient Flow",
+      "href": "/features/patient-flow",
+      "description": "The live operational view that powers the lobby display."
+    },
+    {
+      "type": "feature",
+      "title": "Digital Check-In",
+      "href": "/features/check-in",
+      "description": "How patients join the queue before they reach the desk."
+    },
+    {
+      "type": "feature",
+      "title": "Analytics",
+      "href": "/features/analytics",
+      "description": "Measure where waits build up across your schedule."
+    },
+    {
+      "type": "blog",
+      "title": "Wait Time Analytics: What to Measure and Why",
+      "href": "/blog/wait-time-analytics",
+      "description": "The metrics behind a shorter wait."
+    }
+  ],
+  "schema": {
+    "type": "SoftwareApplication",
+    "applicationCategory": "Healthcare Operations Software",
+    "operatingSystem": "Web"
+  },
+  "proof": {
+    "stats": [
+      {
+        "value": "Real-time",
+        "label": "queue position"
+      },
+      {
+        "value": "No names",
+        "label": "on the lobby screen"
+      },
+      {
+        "value": "15 min",
+        "label": "demo for your specialty"
+      }
+    ]
+  }
+}

@@ -60,7 +60,7 @@
     "type": "feature",
     "title": "clinIQ Pre-Authorization",
     "description": "clinIQ's Pre-Authorization feature includes specialty-specific LOMN templates updated against major payer CPBs quarterly, so your team can produce strong, complete letters of medical necessity in minutes.",
-    "href": "/features/pre-authorization",
+    "href": "/features/pre-auth",
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
@@ -69,7 +69,7 @@
   ],
   "pillarLink": {
     "title": "Pre-Authorization",
-    "href": "/features/pre-authorization",
+    "href": "/features/pre-auth",
     "description": "Learn how clinIQ's Pre-Authorization feature streamlines LOMN creation with specialty-specific templates and payer-aligned documentation guidance."
   },
   "cta": {

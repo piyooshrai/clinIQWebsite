@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Pre-Authorization for Pain Management | Injection & Procedure PA Tracking | clinIQ',
+  title: 'Pre-Authorization for Pain Management | Injection & Procedure PA Tracking',
   description: 'Epidural steroid injections, nerve blocks, and spinal cord stimulator trials tracked from PA submission through procedure scheduling. clinIQ manages pain management authorizations at scale.',
 }
 

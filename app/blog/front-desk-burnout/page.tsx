@@ -6,7 +6,8 @@ import BlogContent from '@/components/BlogContent'
 import BlogCTA from '@/components/BlogCTA'
 
 export const metadata: Metadata = {
-  title: 'Why Front Desk Staff Keep Quitting — clinIQ Blog',
+  alternates: { canonical: '/blog/front-desk-burnout' },
+  title: 'Why Front Desk Staff Keep Quitting',
   description:
     'Medical receptionist turnover is predictable and fixable. The root causes are visibility, automation, and removing the human tracking system burden.',
   keywords: [

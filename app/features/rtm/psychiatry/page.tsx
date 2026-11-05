@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'RTM Billing for Psychiatry Clinics | Mood Tracking Between Sessions | clinIQ',
+  title: 'RTM Billing for Psychiatry Clinics | Mood Tracking Between Sessions',
   description: 'Psychiatric patients tracked between sessions with mood data, sleep logs, and medication adherence — and it\'s billable. clinIQ makes RTM work for psychiatry.',
 }
 

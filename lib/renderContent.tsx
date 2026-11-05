@@ -9,7 +9,7 @@ export function renderInline(text: string, linkClass?: string): ReactNode {
     <>
       {parts.map((part, i) => {
         if (part.startsWith('**') && part.endsWith('**')) {
-          return <strong key={i}>{part.slice(2, -2)}</strong>
+          return <strong key={i}>{renderInline(part.slice(2, -2), linkClass)}</strong>
         }
         const m = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/)
         if (m) {
@@ -182,7 +182,7 @@ export function renderBody(body: string, classes: BodyClasses): ReactNode[] {
         return [
           <div key={idx} className={classes.bodyBlock}>
             <p className={classes.bodyBlockHeader}>
-              <strong>{headerText}</strong>
+              <strong>{renderInline(headerText, classes.inlineLink)}</strong>
             </p>
             <ol className={classes.bodyOL}>
               {restLines.map((l, j) => (
@@ -200,7 +200,7 @@ export function renderBody(body: string, classes: BodyClasses): ReactNode[] {
         return [
           <div key={idx} className={classes.bodyBlock}>
             <p className={classes.bodyBlockHeader}>
-              <strong>{headerText}</strong>
+              <strong>{renderInline(headerText, classes.inlineLink)}</strong>
             </p>
             <ul className={classes.bodyList}>
               {restLines.map((l, j) => (
@@ -217,7 +217,7 @@ export function renderBody(body: string, classes: BodyClasses): ReactNode[] {
       return [
         <div key={idx} className={classes.bodyBlock}>
           <p className={classes.bodyBlockHeader}>
-            <strong>{headerText}</strong>
+            <strong>{renderInline(headerText, classes.inlineLink)}</strong>
           </p>
           <p className={classes.bodyBlockText}>
             {renderInline(restLines.join(' '), classes.inlineLink)}

@@ -127,7 +127,7 @@
     },
     "secondaryButton": {
       "label": "Learn More",
-      "href": "/resources/referral-management"
+      "href": "/features/patient-flow"
     }
   },
   "proof": {

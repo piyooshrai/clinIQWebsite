@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Analytics for Urgent Care | Door-to-Door Time & LWBS Rate Tracking | clinIQ',
+  title: 'Analytics for Urgent Care | Door-to-Door Time & LWBS Rate Tracking',
   description: 'Door-to-triage, room-to-discharge, LWBS rate, and provider throughput — calculated automatically. clinIQ gives urgent care practices the dashboard their competitors are missing.',
 }
 

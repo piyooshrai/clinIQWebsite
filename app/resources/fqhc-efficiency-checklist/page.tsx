@@ -8,7 +8,8 @@ import type { FormField } from '@/components/ResourceForm'
 import s from '@/components/ResourceContent.module.css'
 
 export const metadata: Metadata = {
-  title: 'FQHC Operations Efficiency Checklist — clinIQ Resources',
+  alternates: { canonical: '/resources/fqhc-efficiency-checklist' },
+  title: 'FQHC Operations Efficiency Checklist',
   description:
     '20-point checklist for FQHC operations: UDS reporting readiness, sliding-fee schedule accuracy, grant compliance documentation, and operational throughput.',
 }

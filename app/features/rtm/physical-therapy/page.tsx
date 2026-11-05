@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'RTM Billing for Physical Therapy | Home Exercise Program Monitoring | clinIQ',
+  title: 'RTM Billing for Physical Therapy | Home Exercise Program Monitoring',
   description: 'HEP compliance, pain response, and functional progress tracked between PT sessions — and billed. clinIQ makes home exercise monitoring a revenue source.',
 }
 

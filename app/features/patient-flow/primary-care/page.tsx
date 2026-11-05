@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Patient Flow for Primary Care Practices | Multi-Provider Tracking | clinIQ',
+  title: 'Patient Flow for Primary Care Practices | Multi-Provider Tracking',
   description: 'Twenty-five patients, four providers, one dashboard. clinIQ gives primary care practices real-time visibility across every provider and every room.',
 }
 

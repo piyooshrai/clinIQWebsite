@@ -60,7 +60,7 @@
     "type": "feature",
     "title": "clinIQ Pre-Authorization",
     "description": "clinIQ's Pre-Authorization feature automates documentation checklists, tracks authorization expiration dates, and surfaces denial patterns so your team can prevent most denials before submission.",
-    "href": "/features/pre-authorization",
+    "href": "/features/pre-auth",
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
@@ -69,7 +69,7 @@
   ],
   "pillarLink": {
     "title": "Pre-Authorization",
-    "href": "/features/pre-authorization",
+    "href": "/features/pre-auth",
     "description": "See how clinIQ's Pre-Authorization feature reduces denial rates with automated checklists, expiration tracking, and denial analytics."
   },
   "cta": {

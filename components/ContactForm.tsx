@@ -119,7 +119,7 @@ export default function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} noValidate>
+    <form onSubmit={handleSubmit}>
       {/* Name */}
       <div style={fieldStyle}>
         <label style={labelStyle} htmlFor="contactName">

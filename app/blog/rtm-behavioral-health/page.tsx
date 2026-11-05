@@ -6,6 +6,7 @@ import BlogContent from '@/components/BlogContent'
 import BlogCTA from '@/components/BlogCTA'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/blog/rtm-behavioral-health' },
   title: 'RTM for Behavioral Health: What You Need to Know',
   description:
     'Behavioral health practices can bill RTM for mood tracking, therapy adherence, and behavioral monitoring using CPT 98978. Here is how to structure the program and bill correctly.',

@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Pre-Authorization for Dialysis Centers | Dialysis & Procedure PA Tracking | clinIQ',
+  title: 'Pre-Authorization for Dialysis Centers | Dialysis & Procedure PA Tracking',
   description: 'Quarterly and annual dialysis authorizations tracked with calendar-based renewal alerts. clinIQ prevents coverage gaps from missed renewal deadlines.',
 }
 

@@ -7,7 +7,7 @@ import BlogCTA from '@/components/BlogCTA'
 import FaqAccordion from '@/components/FaqAccordion'
 
 export const metadata: Metadata = {
-  title: "Why Your EHR Can't Run Clinic Operations (And What Can) — clinIQ Blog",
+  title: "Why Your EHR Can't Run Clinic Operations (And What Can)",
   description:
     "Your EHR documents care. It was never built to run it. See how patient flow software captures $120–$150 per RTM patient, cuts wait times 22%, and fixes what your EHR misses.",
   keywords: [
@@ -19,14 +19,14 @@ export const metadata: Metadata = {
     'clinic management platform',
   ],
   alternates: {
-    canonical: 'https://cliniqhealthcare.com/blog/ehr-vs-clinic-operations',
+    canonical: 'https://www.cliniqhealthcare.com/blog/ehr-vs-clinic-operations',
   },
   openGraph: {
     title: "Why Your EHR Can't Run Clinic Operations (And What Can)",
     description:
       "Your EHR documents care. It was never built to run it. See how patient flow software captures $120–$150 per RTM patient, cuts wait times 22%, and fixes what your EHR misses.",
     type: 'article',
-    url: 'https://cliniqhealthcare.com/blog/ehr-vs-clinic-operations',
+    url: 'https://www.cliniqhealthcare.com/blog/ehr-vs-clinic-operations',
   },
 }
 

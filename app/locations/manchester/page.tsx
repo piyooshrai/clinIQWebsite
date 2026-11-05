@@ -9,6 +9,7 @@ import type { ContextPoint } from '@/components/LocationContext'
 import type { FeatureKey } from '@/components/LocationFeatures'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/locations/manchester' },
   title: 'Clinic Software for Manchester | Northern Private Practice',
   description: 'clinIQ helps Manchester private clinics capture NHS-to-private conversion, manage multi-insurer workflows, and serve Northern England\'s expanding healthcare market.',
 }

@@ -122,11 +122,11 @@
         "title": "Patient Flow"
       },
       {
-        "slug": "patient-check-in",
+        "slug": "check-in",
         "title": "Patient Check-In"
       },
       {
-        "slug": "rtm-billing",
+        "slug": "rtm",
         "title": "RTM Billing"
       }
     ],

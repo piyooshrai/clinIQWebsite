@@ -68,7 +68,7 @@
     {
       "id": "onc-operations",
       "h2": "The Oncology Operations Model",
-      "content": "Oncology practices manage cancer treatment through chemotherapy, immunotherapy, targeted therapy, and supportive care. Infusion scheduling drives much of practice operations with treatments lasting hours and requiring chair time coordination. Between-treatment symptom monitoring enables early intervention for complications.\n\n[Scheduling](/features/scheduling) complexity spans infusion chairs, physician visits, and lab work that must sequence appropriately. Labs precede physician review that precedes treatment. Infusion duration varies by regimen. Chair utilization determines practice capacity.\n\nSymptom tracking between treatments through the [clinIQ app](/features/patient-app) captures side effects, functional status, and concerning symptoms. Early identification of febrile neutropenia, severe nausea, or other complications enables intervention before hospitalization.\n\n[Pre-authorization](/features/pre-authorization) for cancer therapies can be extensive. Expensive regimens require authorization demonstrating medical necessity, appropriate diagnosis, and in some cases genetic testing results.\n\nCare coordination spans surgical oncology, radiation oncology, palliative care, and supportive services. Cancer treatment is inherently multidisciplinary."
+      "content": "Oncology practices manage cancer treatment through chemotherapy, immunotherapy, targeted therapy, and supportive care. Infusion scheduling drives much of practice operations with treatments lasting hours and requiring chair time coordination. Between-treatment symptom monitoring enables early intervention for complications.\n\n[Scheduling](/features/scheduling) complexity spans infusion chairs, physician visits, and lab work that must sequence appropriately. Labs precede physician review that precedes treatment. Infusion duration varies by regimen. Chair utilization determines practice capacity.\n\nSymptom tracking between treatments through the [clinIQ app](/features/patient-app) captures side effects, functional status, and concerning symptoms. Early identification of febrile neutropenia, severe nausea, or other complications enables intervention before hospitalization.\n\n[Pre-authorization](/features/pre-auth) for cancer therapies can be extensive. Expensive regimens require authorization demonstrating medical necessity, appropriate diagnosis, and in some cases genetic testing results.\n\nCare coordination spans surgical oncology, radiation oncology, palliative care, and supportive services. Cancer treatment is inherently multidisciplinary."
     },
     {
       "id": "infusion-scheduling",
@@ -83,7 +83,7 @@
     {
       "id": "prior-auth",
       "h2": "Prior Authorization for Cancer Therapies",
-      "content": "[Pre-authorization](/features/pre-authorization) for cancer therapies addresses expensive treatments requiring payer approval.\n\nChemotherapy authorization documents diagnosis, staging, and treatment plan appropriateness. Prior treatment history for second-line and subsequent regimens must demonstrate progression or intolerance.\n\nImmunotherapy authorization may require PD-L1 testing, MSI status, or other biomarkers demonstrating likely benefit.\n\nTargeted therapy authorization requires genetic testing results showing actionable mutations matching the therapy.\n\nSupportive care authorization for colony-stimulating factors, anti-emetics, and other supportive medications addresses indication and necessity.\n\nAuthorization tracking through [pre-authorization](/features/pre-authorization) shows status for each patient's treatments. Expirations alert before treatment interruption.\n\n[Analytics](/features/analytics) reveal approval rates, denial reasons, and turnaround times by payer and therapy type."
+      "content": "[Pre-authorization](/features/pre-auth) for cancer therapies addresses expensive treatments requiring payer approval.\n\nChemotherapy authorization documents diagnosis, staging, and treatment plan appropriateness. Prior treatment history for second-line and subsequent regimens must demonstrate progression or intolerance.\n\nImmunotherapy authorization may require PD-L1 testing, MSI status, or other biomarkers demonstrating likely benefit.\n\nTargeted therapy authorization requires genetic testing results showing actionable mutations matching the therapy.\n\nSupportive care authorization for colony-stimulating factors, anti-emetics, and other supportive medications addresses indication and necessity.\n\nAuthorization tracking through [pre-authorization](/features/pre-auth) shows status for each patient's treatments. Expirations alert before treatment interruption.\n\n[Analytics](/features/analytics) reveal approval rates, denial reasons, and turnaround times by payer and therapy type."
     },
     {
       "id": "care-coordination",
@@ -93,7 +93,7 @@
     {
       "id": "implementation",
       "h2": "Implementation and ROI",
-      "content": "Oncology implementation addresses infusion [scheduling](/features/scheduling), symptom tracking, [pre-authorization](/features/pre-authorization), and care coordination.\n\nWeek one maps infusion scheduling including regimen templates and chair management. Symptom tracking configures for common chemotherapy side effects. [Pre-authorization](/features/pre-authorization) workflow establishes for cancer therapies.\n\nWeek two trains scheduling staff on infusion coordination. Clinical staff trains on [patient flow](/features/patient-flow) and symptom monitoring. Providers train on dashboard and [secure messaging](/features/secure-messaging) for symptom intervention.\n\nWeek three goes live with [scheduling](/features/scheduling), symptom tracking, and [pre-authorization](/features/pre-authorization).\n\nROI sources include infusion scheduling efficiency maximizing chair utilization. Early symptom intervention reducing hospitalizations. [Pre-authorization](/features/pre-authorization) efficiency avoiding treatment delays. Better coordination improving patient experience.\n\nProfessional tier at $499 monthly includes [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [pre-authorization](/features/pre-authorization), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), and [analytics](/features/analytics)."
+      "content": "Oncology implementation addresses infusion [scheduling](/features/scheduling), symptom tracking, [pre-authorization](/features/pre-auth), and care coordination.\n\nWeek one maps infusion scheduling including regimen templates and chair management. Symptom tracking configures for common chemotherapy side effects. [Pre-authorization](/features/pre-auth) workflow establishes for cancer therapies.\n\nWeek two trains scheduling staff on infusion coordination. Clinical staff trains on [patient flow](/features/patient-flow) and symptom monitoring. Providers train on dashboard and [secure messaging](/features/secure-messaging) for symptom intervention.\n\nWeek three goes live with [scheduling](/features/scheduling), symptom tracking, and [pre-authorization](/features/pre-auth).\n\nROI sources include infusion scheduling efficiency maximizing chair utilization. Early symptom intervention reducing hospitalizations. [Pre-authorization](/features/pre-auth) efficiency avoiding treatment delays. Better coordination improving patient experience.\n\nProfessional tier at $499 monthly includes [patient flow](/features/patient-flow), [scheduling](/features/scheduling), [pre-authorization](/features/pre-auth), [telehealth](/features/telehealth), [secure messaging](/features/secure-messaging), and [analytics](/features/analytics)."
     }
   ],
   "faqs": [
@@ -107,7 +107,7 @@
     },
     {
       "q": "How does prior authorization work for cancer therapies?",
-      "a": "[Pre-authorization](/features/pre-authorization) tracks status for chemotherapy, immunotherapy, and targeted therapy. Authorization requirements including biomarker testing document systematically."
+      "a": "[Pre-authorization](/features/pre-auth) tracks status for chemotherapy, immunotherapy, and targeted therapy. Authorization requirements including biomarker testing document systematically."
     },
     {
       "q": "How do you coordinate with radiation oncology?",
@@ -127,7 +127,7 @@
     },
     "secondaryButton": {
       "label": "Learn More",
-      "href": "/resources/infusion-scheduling"
+      "href": "/blog/infusion-center-scheduling-chair-utilization"
     }
   },
   "proof": {
@@ -168,7 +168,7 @@
     {
       "type": "feature",
       "title": "Pre-Authorization",
-      "href": "/features/pre-authorization",
+      "href": "/features/pre-auth",
       "description": "Cancer therapy authorization."
     }
   ],

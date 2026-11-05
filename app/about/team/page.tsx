@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   title: 'Team & Support — clinIQ Implementation & Integration',
   description:
     'clinIQ implementation specialists, EHR integration engineers, and ongoing support. Standard implementation $750, 1–2 weeks. Works with Epic, athenahealth, NextGen, eClinicalWorks, and more.',
-  alternates: { canonical: 'https://cliniqhealthcare.com/about/team' },
+  alternates: { canonical: 'https://www.cliniqhealthcare.com/about/team' },
   openGraph: {
     title: 'Team & Support — clinIQ Implementation & Integration',
     description:
       'clinIQ implementation specialists, EHR integration engineers, and ongoing support. Standard implementation $750, 1–2 weeks. Works with Epic, athenahealth, NextGen, eClinicalWorks, and more.',
     type: 'website',
-    url: 'https://cliniqhealthcare.com/about/team',
+    url: 'https://www.cliniqhealthcare.com/about/team',
   },
 }
 

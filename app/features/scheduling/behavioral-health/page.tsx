@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Scheduling for Behavioral Health Clinics | Group & Individual Session Scheduling | clinIQ',
+  title: 'Scheduling for Behavioral Health Clinics | Group & Individual Session Scheduling',
   description: 'Group sessions, individual therapy, and medication management — scheduled without conflicts. clinIQ handles behavioral health scheduling across all visit types.',
 }
 

@@ -6,7 +6,8 @@ import BlogContent from '@/components/BlogContent'
 import BlogCTA from '@/components/BlogCTA'
 
 export const metadata: Metadata = {
-  title: '5 Fixes That Cut Left-Without-Being-Seen Rates — clinIQ Blog',
+  alternates: { canonical: '/blog/reduce-lwbs-urgent-care' },
+  title: '5 Fixes That Cut Left-Without-Being-Seen Rates',
   description:
     'Every LWBS patient costs $150–300 and risks a 1-star review. Five operational fixes that reduce left-without-being-seen rates in urgent care.',
   keywords: [

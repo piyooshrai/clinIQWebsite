@@ -9,6 +9,7 @@ import type { ContextPoint } from '@/components/LocationContext'
 import type { FeatureKey } from '@/components/LocationFeatures'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/locations/atlanta' },
   title: 'Clinic Software for Atlanta | Georgia Healthcare Operations',
   description: 'clinIQ helps Atlanta clinics manage rapid population growth, Georgia Medicaid CMO complexity, and the referral dynamics of a fast-expanding market.',
 }

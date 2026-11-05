@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'RTM Billing for Oncology Clinics | Treatment Period Remote Monitoring | clinIQ',
+  title: 'RTM Billing for Oncology Clinics | Treatment Period Remote Monitoring',
   description: 'Side effect tracking, medication adherence, and functional status monitored between infusions — and billed. clinIQ captures RTM revenue for oncology practices.',
 }
 

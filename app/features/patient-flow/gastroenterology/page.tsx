@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Patient Flow for GI Clinics | Endoscopy Suite & Prep Tracking | clinIQ',
+  title: 'Patient Flow for GI Clinics | Endoscopy Suite & Prep Tracking',
   description: 'GI procedure prep, procedure suites, and recovery bays — tracked in one system. clinIQ eliminates the visibility gaps between departments.',
 }
 

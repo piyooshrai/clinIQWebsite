@@ -113,7 +113,7 @@
     "headline": "See Behavioral Health Operations Transformed",
     "subhead": "Fifteen-minute demo showing RTM enrollment, telehealth integration, symptom tracking, and wearable data. See how behavioral health practices capture $130,000+ annually in RTM revenue while improving patient outcomes.",
     "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Your RTM Revenue", "href": "/resources/rtm-calculator" }
+    "secondaryButton": { "label": "Calculate Your RTM Revenue", "href": "/resources/roi-calculator" }
   },
   "proof": {
     "stats": [

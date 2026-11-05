@@ -8,7 +8,8 @@ import type { FormField } from '@/components/ResourceForm'
 import s from '@/components/ResourceContent.module.css'
 
 export const metadata: Metadata = {
-  title: 'RTM Billing Code Reference Card — clinIQ Resources',
+  alternates: { canonical: '/resources/rtm-code-reference' },
+  title: 'RTM Billing Code Reference Card',
   description: 'Quick-reference card for all RTM CPT codes — descriptions, 2025 Medicare rates, documentation requirements, and billing rules.',
 }
 

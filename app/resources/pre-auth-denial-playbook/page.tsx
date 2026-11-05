@@ -8,7 +8,8 @@ import type { FormField } from '@/components/ResourceForm'
 import s from '@/components/ResourceContent.module.css'
 
 export const metadata: Metadata = {
-  title: 'Prior Auth Denial Playbook: Win More Appeals — clinIQ Resources',
+  alternates: { canonical: '/resources/pre-auth-denial-playbook' },
+  title: 'Prior Auth Denial Playbook: Win More Appeals',
   description:
     'The documentation, timing, and language that reverses prior auth denials. Peer-to-peer review protocols, appeal scripts, and payer-specific timing rules.',
 }

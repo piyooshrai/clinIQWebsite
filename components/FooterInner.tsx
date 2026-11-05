@@ -83,6 +83,7 @@ export default function FooterInner() {
                 <li><Link href="/resources">{t('resources')}</Link></li>
                 <li><Link href="/blog">{t('blog')}</Link></li>
                 <li><Link href="/about">{t('about')}</Link></li>
+                <li><Link href="/about/the-algorithm">The Algorithm</Link></li>
                 <li><Link href="/contact">{t('contact')}</Link></li>
                 <li><Link href="/pricing">{t('pricing')}</Link></li>
                 <li><Link href="/privacy">{t('privacy')}</Link></li>

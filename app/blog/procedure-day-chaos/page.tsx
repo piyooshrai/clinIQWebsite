@@ -6,6 +6,7 @@ import BlogContent from '@/components/BlogContent'
 import BlogCTA from '@/components/BlogCTA'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/blog/procedure-day-chaos' },
   title: "Procedure Days Don't Have to Be Chaos Days",
   description:
     'High-volume procedure days create overlapping pre-op, procedure, and recovery demands that standard clinic workflow tools were never designed to handle.',

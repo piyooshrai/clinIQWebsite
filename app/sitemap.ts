@@ -98,7 +98,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/terms`,                  lastModified: now, changeFrequency: 'yearly',  priority: 0.3 },
   ]
 
-  const features = slugsFromPrefixedFiles(path.join(cwd, 'data'), 'feature-').map(slug => ({
+  const featureSlugAliases: Record<string, string> = { 'patient-check-in': 'check-in', 'pre-authorization': 'pre-auth', 'rtm-billing': 'rtm' }
+  const features = slugsFromPrefixedFiles(path.join(cwd, 'data'), 'feature-').map(file => featureSlugAliases[file] ?? file).map(slug => ({
     url: `${BASE_URL}/features/${slug}`,
     lastModified: now,
     changeFrequency: 'monthly' as const,
@@ -126,7 +127,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
-  const locations = slugsFromFiles(path.join(cwd, 'data', 'locations')).map(slug => ({
+  const locationSlugs = new Set([
+    ...slugsFromFiles(path.join(cwd, 'data', 'locations')),
+    ...slugsFromDirs(path.join(cwd, 'app', 'locations')).filter(slug => !slug.startsWith('[')),
+  ])
+  const locations = Array.from(locationSlugs).map(slug => ({
     url: `${BASE_URL}/locations/${slug}`,
     lastModified: now,
     changeFrequency: 'monthly' as const,

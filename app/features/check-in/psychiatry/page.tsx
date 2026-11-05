@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Patient Check-In for Psychiatry Clinics | Private Mental Health Check-In | clinIQ',
+  title: 'Patient Check-In for Psychiatry Clinics | Private Mental Health Check-In',
   description: 'Psychiatric patients need private check-in. clinIQ uses tablet or QR code check-in so patients don\'t have to announce their appointment at a reception window.',
 }
 

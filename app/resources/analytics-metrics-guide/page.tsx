@@ -8,7 +8,8 @@ import type { FormField } from '@/components/ResourceForm'
 import s from '@/components/ResourceContent.module.css'
 
 export const metadata: Metadata = {
-  title: 'Clinic Analytics: The Metrics That Actually Matter — clinIQ Resources',
+  alternates: { canonical: '/resources/analytics-metrics-guide' },
+  title: 'Clinic Analytics: The Metrics That Actually Matter',
   description:
     'The 12 operational metrics every clinic operator should track weekly — benchmarks, thresholds, and what to do when they go off.',
 }

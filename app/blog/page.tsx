@@ -6,12 +6,193 @@ import type { BlogPost } from '@/components/BlogIndex'
 import styles from './blog.module.css'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/blog' },
   title: 'Blog — clinIQ Operational Insights',
   description:
     'Operational insights for clinics that refuse to accept chaos. LWBS, RTM billing, front desk burnout, patient flow — written for practice operators.',
 }
 
 const posts: BlogPost[] = [
+  {
+    slug: "cpt-98977-musculoskeletal",
+    category: "RTM Billing",
+    title: "CPT 98977: Musculoskeletal RTM Billing Explained",
+    date: "March 2026",
+    readTime: "4 min",
+    excerpt:
+      "A deep dive into CPT 98977 for musculoskeletal RTM device supply billing. Covered conditions, documentation requirements, payer coverage, and how to pair with the full RTM code set.",
+  },
+  {
+    slug: "front-desk-burnout",
+    category: "Operations",
+    title: "Why Front Desk Staff Keep Quitting",
+    date: "March 2026",
+    readTime: "4 min",
+    excerpt:
+      "Medical receptionist turnover is predictable and fixable. The root causes are visibility, automation, and removing the human tracking system burden.",
+  },
+  {
+    slug: "multi-department-clinic-flow",
+    category: "RTM Billing",
+    title: "Running a Multi-Department Clinic Without Losing Patients",
+    date: "March 2026",
+    readTime: "4 min",
+    excerpt:
+      "Multi-department clinics have handoff problems at every transition. Patients get lost between lab, imaging, and infusion. Here is how to build a unified queue.",
+  },
+  {
+    slug: "patient-flow-bottlenecks",
+    category: "Patient Flow",
+    title: "Where Patient Flow Breaks Down (And How to See It Coming)",
+    date: "March 2026",
+    readTime: "4 min",
+    excerpt:
+      "Patient flow bottlenecks are predictable and patterned. Leading vs lagging indicators, real-time visibility, and what good looks like at 10 minutes vs 45.",
+  },
+  {
+    slug: "procedure-day-chaos",
+    category: "Patient Flow",
+    title: "Procedure Days Don't Have to Be Chaos Days",
+    date: "March 2026",
+    readTime: "4 min",
+    excerpt:
+      "High-volume procedure days create overlapping pre-op, procedure, and recovery demands that standard clinic workflow tools were never designed to handle.",
+  },
+  {
+    slug: "psychiatry-no-shows",
+    category: "Scheduling",
+    title: "Why 25% of New Psych Patients No-Show",
+    date: "March 2026",
+    readTime: "4 min",
+    excerpt:
+      "New patient no-show rates in psychiatry run 20–30%. The reasons are specific and the fixes are systematic. Four interventions that cut no-show rates in half.",
+  },
+  {
+    slug: "reduce-lwbs-urgent-care",
+    category: "Patient Flow",
+    title: "5 Fixes That Cut Left-Without-Being-Seen Rates",
+    date: "March 2026",
+    readTime: "4 min",
+    excerpt:
+      "Every LWBS patient costs $150–300 and risks a 1-star review. Five operational fixes that reduce left-without-being-seen rates in urgent care.",
+  },
+  {
+    slug: "rtm-behavioral-health",
+    category: "RTM Billing",
+    title: "RTM for Behavioral Health: What You Need to Know",
+    date: "March 2026",
+    readTime: "4 min",
+    excerpt:
+      "Behavioral health practices can bill RTM for mood tracking, therapy adherence, and behavioral monitoring using CPT 98978. Here is how to structure the program and bill correctly.",
+  },
+  {
+    slug: "rtm-documentation-requirements",
+    category: "RTM Billing",
+    title: "RTM Documentation: What Payers Actually Need",
+    date: "March 2026",
+    readTime: "4 min",
+    excerpt:
+      "RTM claim denials are usually documentation failures. Code-by-code documentation requirements, interaction note standards, audit red flags, and how long to retain records.",
+  },
+  {
+    slug: "rtm-implementation-mistakes",
+    category: "RTM Billing",
+    title: "5 RTM Implementation Mistakes That Kill Revenue",
+    date: "March 2026",
+    readTime: "4 min",
+    excerpt:
+      "Most RTM programs underperform because of five specific implementation mistakes. Not getting consent, missing the 20-minute threshold, poor enrollment rates, and more &mdash; each with a fix.",
+  },
+  {
+    slug: "rtm-pain-management",
+    category: "RTM Billing",
+    title: "RTM for Pain Management: Beyond the Office Visit",
+    date: "March 2026",
+    readTime: "4 min",
+    excerpt:
+      "Pain management practices have strong RTM eligibility for musculoskeletal conditions. Monitor pain levels, medication adherence, and functional outcomes between visits &mdash; and bill for it.",
+  },
+  {
+    slug: "rtm-patient-enrollment",
+    category: "RTM Billing",
+    title: "Getting Patients to Enroll in RTM: What Actually Works",
+    date: "March 2026",
+    readTime: "4 min",
+    excerpt:
+      "Most RTM programs fail at enrollment, not billing. Scripts for introducing RTM to patients, what to say and what not to say, and how to eliminate technology friction.",
+  },
+  {
+    slug: "rtm-physical-therapy",
+    category: "RTM Billing",
+    title: "RTM for Physical Therapy: Billing for Home Exercises",
+    date: "March 2026",
+    readTime: "4 min",
+    excerpt:
+      "Physical therapists are the primary RTM opportunity. Home exercise program compliance monitoring qualifies. Here is how to set up the monitoring, document interactions, and bill 98981.",
+  },
+  {
+    slug: "rtm-revenue-guide",
+    category: "RTM Billing",
+    title: "RTM Billing Guide 2026: CPT 98975–98981",
+    date: "March 2026",
+    readTime: "4 min",
+    excerpt:
+      "Remote Therapeutic Monitoring billing guidelines for 2026. CPT 98975, 98976, 98977, 98980, 98981 — who qualifies, what to document, and how to calculate your revenue opportunity.",
+  },
+  {
+    slug: "rtm-roi-calculator",
+    category: "RTM Billing",
+    title: "Calculate Your RTM Revenue: A Simple Framework",
+    date: "March 2026",
+    readTime: "4 min",
+    excerpt:
+      "A step-by-step framework for calculating RTM revenue potential for your practice. Eligible patients, enrollment rate, monthly reimbursement, and annual revenue with real numbers.",
+  },
+  {
+    slug: "rtm-vs-rpm-difference",
+    category: "RTM Billing",
+    title: "RTM vs RPM: Which One Applies to Your Practice?",
+    date: "March 2026",
+    readTime: "4 min",
+    excerpt:
+      "RTM and RPM are different CPT code sets with different eligibility criteria. Most PT, OT, and pain management practices qualify for RTM, not RPM. Here is the difference.",
+  },
+  {
+    slug: "staff-shortage-workflow",
+    category: "Operations",
+    title: "You Can't Hire Your Way Out of Bad Workflow",
+    date: "March 2026",
+    readTime: "4 min",
+    excerpt:
+      "The practices that survive healthcare staffing shortages are the ones that eliminate workflow waste. Visibility and automation multiply the capacity of the staff you have.",
+  },
+  {
+    slug: "waiting-room-complaints",
+    category: "Patient Flow",
+    title: "Why Patients Hate Waiting (And It's Not the Time)",
+    date: "March 2026",
+    readTime: "4 min",
+    excerpt:
+      "Research consistently shows that uncertainty is more distressing than wait time itself. Transparent communication in the waiting room changes everything.",
+  },
+  {
+    slug: "whiteboard-patient-tracking",
+    category: "Patient Flow",
+    title: "Your Whiteboard Patient Tracker Is a Liability",
+    date: "March 2026",
+    readTime: "4 min",
+    excerpt:
+      "Whiteboards expose patient names to anyone in the hallway, show data that is always stale, and make multi-room coordination impossible. Digital tracking fixes all three.",
+  },
+  {
+    slug: "who-is-next-problem",
+    category: "Patient Flow",
+    title: "The 'Who's Next?' Problem Is Costing You Money",
+    date: "March 2026",
+    readTime: "4 min",
+    excerpt:
+      "Staff huddles to determine queue status happen every 10&ndash;15 minutes in most clinics. Each one costs 3&ndash;5 minutes of productive time. The math is brutal.",
+  },
   {
     slug: 'addiction-medicine-prior-auth-denial-reduction',
     category: 'Prior Authorization',

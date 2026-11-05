@@ -8,7 +8,8 @@ import type { FormField } from '@/components/ResourceForm'
 import s from '@/components/ResourceContent.module.css'
 
 export const metadata: Metadata = {
-  title: 'Pre-Auth Denial Analysis Template — clinIQ Resources',
+  alternates: { canonical: '/resources/pre-auth-denial-analysis' },
+  title: 'Pre-Auth Denial Analysis Template',
   description:
     'Track prior authorization denial patterns by payer, procedure, and denial reason. Identify what fails and why — then fix first-pass rates systematically.',
 }

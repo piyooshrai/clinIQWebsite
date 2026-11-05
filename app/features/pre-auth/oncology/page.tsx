@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Pre-Authorization for Oncology Clinics | Chemotherapy PA Tracking | clinIQ',
+  title: 'Pre-Authorization for Oncology Clinics | Chemotherapy PA Tracking',
   description: 'Chemotherapy authorizations tracked through every cycle. clinIQ monitors payer timelines and alerts teams before treatment is delayed by missing authorization.',
 }
 

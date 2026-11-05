@@ -6,7 +6,8 @@ import BlogContent from '@/components/BlogContent'
 import BlogCTA from '@/components/BlogCTA'
 
 export const metadata: Metadata = {
-  title: 'Why 25% of New Psych Patients No-Show — clinIQ Blog',
+  alternates: { canonical: '/blog/psychiatry-no-shows' },
+  title: 'Why 25% of New Psych Patients No-Show',
   description:
     'New patient no-show rates in psychiatry run 20–30%. The reasons are specific and the fixes are systematic. Four interventions that cut no-show rates in half.',
   keywords: [

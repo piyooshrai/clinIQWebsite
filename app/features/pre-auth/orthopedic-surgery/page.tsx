@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Pre-Authorization for Orthopedic Surgery | Surgical PA Tracking | clinIQ',
+  title: 'Pre-Authorization for Orthopedic Surgery | Surgical PA Tracking',
   description: 'Orthopedic surgical authorizations tracked from submission to OR confirmation. clinIQ links PA status to OR scheduling so no procedure is booked without active coverage.',
 }
 

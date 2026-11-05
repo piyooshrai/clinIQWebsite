@@ -47,7 +47,7 @@ export interface PillarData {
   }
   proof: {
     stats: readonly { value: string; label: string }[]
-    testimonial: { quote: string; attribution: string; practice?: string; location: string }
+    testimonial?: { quote: string; attribution: string; practice?: string; location: string }
   }
   relatedContent: readonly RelatedItem[]
 }
@@ -211,6 +211,7 @@ export default function PillarSpecialtyPage({ data }: { data: PillarData }) {
                 </div>
               ))}
             </div>
+            {data.proof.testimonial && (
             <figure className={css.testimonial}>
               <blockquote className={css.testimonialQuote}>
                 &ldquo;{data.proof.testimonial.quote}&rdquo;
@@ -224,6 +225,7 @@ export default function PillarSpecialtyPage({ data }: { data: PillarData }) {
                 )}
               </figcaption>
             </figure>
+            )}
           </div>
         </section>
 

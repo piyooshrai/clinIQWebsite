@@ -9,6 +9,7 @@ import type { ContextPoint } from '@/components/LocationContext'
 import type { FeatureKey } from '@/components/LocationFeatures'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/locations/jeddah' },
   title: 'Clinic Software for Jeddah | Saudi Western Region Healthcare',
   description: 'clinIQ helps Jeddah clinics manage pilgrimage season demand, medical tourism from East Africa, and the growing cosmetic and aesthetic market in the western region.',
 }

@@ -85,7 +85,7 @@
     {
       "id": "revenue-capture",
       "h2": "Revenue Capture Paper Cannot Provide",
-      "content": "Paper sign-in has no connection to revenue operations. clinIQ captures revenue opportunities throughout the patient relationship.\n\nRemote Therapeutic Monitoring generates recurring monthly revenue for chronic disease management. [RTM billing](/features/rtm) through CPT codes 98975 through 98981 captures one hundred to one hundred fifty dollars per patient per month.\n\nRTM requires systematic workflow: patient enrollment, symptom data collection through the [clinIQ app](/features/patient-app), clinical time tracking, and threshold verification. Paper sign-in has no relationship to this workflow. clinIQ integrates RTM into the patient engagement platform.\n\nPre-authorization tracking protects procedure revenue. For practices where procedures require prior approval, missing or expired authorizations mean denied claims. clinIQ's [pre-authorization module](/features/pre-authorization) tracks requests through resolution with expiration alerting.\n\n[Wearable integration](/features/wearable-integration) supplements patient-reported data with continuous metrics from Apple Watch, Oura Ring, and other devices. This data supports clinical care and RTM documentation.\n\nThe revenue opportunity is substantial. One hundred chronic patients enrolled in RTM generate over one hundred forty thousand dollars annually. This revenue requires digital infrastructure that paper cannot provide."
+      "content": "Paper sign-in has no connection to revenue operations. clinIQ captures revenue opportunities throughout the patient relationship.\n\nRemote Therapeutic Monitoring generates recurring monthly revenue for chronic disease management. [RTM billing](/features/rtm) through CPT codes 98975 through 98981 captures one hundred to one hundred fifty dollars per patient per month.\n\nRTM requires systematic workflow: patient enrollment, symptom data collection through the [clinIQ app](/features/patient-app), clinical time tracking, and threshold verification. Paper sign-in has no relationship to this workflow. clinIQ integrates RTM into the patient engagement platform.\n\nPre-authorization tracking protects procedure revenue. For practices where procedures require prior approval, missing or expired authorizations mean denied claims. clinIQ's [pre-authorization module](/features/pre-auth) tracks requests through resolution with expiration alerting.\n\n[Wearable integration](/features/wearable-integration) supplements patient-reported data with continuous metrics from Apple Watch, Oura Ring, and other devices. This data supports clinical care and RTM documentation.\n\nThe revenue opportunity is substantial. One hundred chronic patients enrolled in RTM generate over one hundred forty thousand dollars annually. This revenue requires digital infrastructure that paper cannot provide."
     },
     {
       "id": "transition",
@@ -114,7 +114,7 @@
   "relatedContent": {
     "features": [
       {
-        "slug": "patient-check-in",
+        "slug": "check-in",
         "title": "Patient Check-In"
       },
       {

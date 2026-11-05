@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Patient Flow for Pulmonology Clinics | PFT & Respiratory Tracking | clinIQ',
+  title: 'Patient Flow for Pulmonology Clinics | PFT & Respiratory Tracking',
   description: 'Pulmonology patients move through PFTs, provider visits, and respiratory education in one appointment. clinIQ tracks the handoffs between departments.',
 }
 

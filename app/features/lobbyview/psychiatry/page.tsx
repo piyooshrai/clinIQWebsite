@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'LobbyView for Psychiatry Clinics | Private Mental Health Waiting Room Display | clinIQ',
+  title: 'LobbyView for Psychiatry Clinics | Private Mental Health Waiting Room Display',
   description: 'Psychiatric patients know their queue position without approaching the desk. clinIQ LobbyView shows queue numbers and wait estimates — never names or appointment details.',
 }
 

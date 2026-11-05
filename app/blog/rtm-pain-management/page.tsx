@@ -6,6 +6,7 @@ import BlogContent from '@/components/BlogContent'
 import BlogCTA from '@/components/BlogCTA'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/blog/rtm-pain-management' },
   title: 'RTM for Pain Management: Beyond the Office Visit',
   description:
     'Pain management practices have strong RTM eligibility for musculoskeletal conditions. Monitor pain levels, medication adherence, and functional outcomes between visits &mdash; and bill for it.',

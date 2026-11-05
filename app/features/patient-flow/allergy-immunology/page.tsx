@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import FeatureSpecialtyPage from '@/components/templates/FeatureSpecialtyPage'
 
 export const metadata: Metadata = {
-  title: 'Patient Flow for Allergy & Immunology Clinics | Shot Clinic Tracking | clinIQ',
+  title: 'Patient Flow for Allergy & Immunology Clinics | Shot Clinic Tracking',
   description: 'Allergy shot schedules and clinic visits in one system. clinIQ eliminates the verbal coordination between injection nurses and front desk.',
 }
 
