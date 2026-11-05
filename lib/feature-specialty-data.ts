@@ -57,7 +57,7 @@ export const FEATURES: FeatureDef[] = [
     slug: 'check-in',
     name: 'Check-In',
     tagline: 'Digital intake & verification',
-    problemVerb: 'digitise',
+    problemVerb: 'digitize',
     problemNoun: 'paper-based intake',
     solutionVerb: 'capture',
     solutionNoun: 'digital check-in',
@@ -69,14 +69,14 @@ export const FEATURES: FeatureDef[] = [
     tagline: 'Multi-provider calendar',
     problemVerb: 'fill',
     problemNoun: 'scheduling gaps and no-shows',
-    solutionVerb: 'optimise',
+    solutionVerb: 'optimize',
     solutionNoun: 'intelligent scheduling',
     ctaLabel: 'See scheduling in action',
   },
   {
     slug: 'rtm',
     name: 'RTM Billing',
-    tagline: 'CPT 98975–98981 automation',
+    tagline: 'CPT 98975–98986 automation',
     problemVerb: 'capture',
     problemNoun: 'uncaptured RTM revenue',
     solutionVerb: 'automate',
@@ -151,7 +151,7 @@ export const SPECIALTIES: SpecialtyDef[] = [
     name: 'Psychology',
     category: 'Behavioral Health',
     painA: 'Session overruns cascade into long lobby waits for subsequent patients',
-    painB: 'Intake documentation errors delay treatment authorisation',
+    painB: 'Intake documentation errors delay treatment authorization',
     context: 'therapy sessions',
     volumeWord: 'clients',
   },
@@ -223,7 +223,7 @@ export const SPECIALTIES: SpecialtyDef[] = [
     name: 'Neuropsychology',
     category: 'Behavioral Health',
     painA: 'Extended testing sessions require precise scheduling blocks that are hard to protect',
-    painB: 'Insurance authorisation for neuropsych testing is frequently denied or delayed',
+    painB: 'Insurance authorization for neuropsych testing is frequently denied or delayed',
     context: 'neuropsychological assessments',
     volumeWord: 'patients',
   },
@@ -241,7 +241,7 @@ export const SPECIALTIES: SpecialtyDef[] = [
     name: 'Autism Spectrum',
     category: 'Behavioral Health',
     painA: 'Sensory-sensitive patients deteriorate quickly in crowded waiting rooms',
-    painB: 'ABA session authorisations expire frequently, requiring constant pre-auth renewal',
+    painB: 'ABA session authorizations expire frequently, requiring constant pre-auth renewal',
     context: 'ABA and therapy sessions',
     volumeWord: 'patients',
   },
@@ -315,7 +315,7 @@ export const SPECIALTIES: SpecialtyDef[] = [
     name: 'Physical Therapy',
     category: 'Pain & Rehabilitation',
     painA: 'Multi-patient simultaneous care means therapists lose track of who is ready',
-    painB: 'Insurance authorisation runs out mid-treatment, forcing last-minute coverage checks',
+    painB: 'Insurance authorization runs out mid-treatment, forcing last-minute coverage checks',
     context: 'therapy sessions',
     volumeWord: 'patients',
   },
@@ -333,7 +333,7 @@ export const SPECIALTIES: SpecialtyDef[] = [
     name: 'Occupational Therapy',
     category: 'Pain & Rehabilitation',
     painA: 'Home program compliance tracking requires follow-up that falls through the cracks',
-    painB: 'Authorisation limits are hit mid-episode without warning',
+    painB: 'Authorization limits are hit mid-episode without warning',
     context: 'OT sessions',
     volumeWord: 'patients',
   },
@@ -396,7 +396,7 @@ export const SPECIALTIES: SpecialtyDef[] = [
     name: 'Speech Therapy',
     category: 'Pain & Rehabilitation',
     painA: 'Multi-patient session rooms require precise start and end tracking',
-    painB: 'Authorisation renewal timelines are different for every payer',
+    painB: 'Authorization renewal timelines are different for every payer',
     context: 'speech therapy sessions',
     volumeWord: 'patients',
   },
@@ -405,7 +405,7 @@ export const SPECIALTIES: SpecialtyDef[] = [
     name: 'Lymphedema Therapy',
     category: 'Pain & Rehabilitation',
     painA: 'Daily intensive treatment phases require strict scheduling precision',
-    painB: 'Garment authorisations require frequent resubmission',
+    painB: 'Garment authorizations require frequent resubmission',
     context: 'lymphedema sessions',
     volumeWord: 'patients',
   },
@@ -452,7 +452,7 @@ export const SPECIALTIES: SpecialtyDef[] = [
     name: 'Spine Surgery',
     category: 'Surgery & Procedures',
     painA: 'Conservative care requirements before surgery approval create months of wait',
-    painB: 'Multi-level imaging authorisations are routinely denied on first submission',
+    painB: 'Multi-level imaging authorizations are routinely denied on first submission',
     context: 'spine consultations',
     volumeWord: 'patients',
   },
@@ -479,7 +479,7 @@ export const SPECIALTIES: SpecialtyDef[] = [
     name: 'Bariatric Surgery',
     category: 'Surgery & Procedures',
     painA: 'Multi-month pre-op programme requires coordinated scheduling across disciplines',
-    painB: 'Insurance-required psych clearance creates authorisation bottlenecks',
+    painB: 'Insurance-required psych clearance creates authorization bottlenecks',
     context: 'bariatric programme visits',
     volumeWord: 'patients',
   },
@@ -524,7 +524,7 @@ export const SPECIALTIES: SpecialtyDef[] = [
     name: 'Podiatry',
     category: 'Surgery & Procedures',
     painA: 'High-volume clinics with short procedure visits require precise room turnover',
-    painB: 'Diabetic foot care authorisations require documented wound measurements',
+    painB: 'Diabetic foot care authorizations require documented wound measurements',
     context: 'podiatric visits',
     volumeWord: 'patients',
   },
@@ -588,8 +588,8 @@ export const SPECIALTIES: SpecialtyDef[] = [
     slug: 'family-medicine',
     name: 'Family Medicine',
     category: 'Primary & Specialty Care',
-    painA: 'Mixed acute and preventive visits in the same schedule create constant re-prioritisation',
-    painB: 'Immunisation administration adds unscheduled time that backs up the queue',
+    painA: 'Mixed acute and preventive visits in the same schedule create constant re-prioritization',
+    painB: 'Immunization administration adds unscheduled time that backs up the queue',
     context: 'family medicine visits',
     volumeWord: 'patients',
   },
@@ -753,7 +753,7 @@ export const SPECIALTIES: SpecialtyDef[] = [
     name: 'Radiology',
     category: 'Diagnostic & Medical',
     painA: 'Imaging slot demand fluctuates dramatically, creating unpredictable backlogs',
-    painB: 'Contrast authorisation delays prevent same-day imaging even when slots exist',
+    painB: 'Contrast authorization delays prevent same-day imaging even when slots exist',
     context: 'imaging visits',
     volumeWord: 'patients',
   },
@@ -781,7 +781,7 @@ export const SPECIALTIES: SpecialtyDef[] = [
     slug: 'obstetrics-gynecology',
     name: 'Obstetrics & Gynecology',
     category: "Women's Health",
-    painA: 'Labour and delivery emergencies constantly disrupt the outpatient schedule',
+    painA: 'Labor and delivery emergencies constantly disrupt the outpatient schedule',
     painB: 'Prenatal visit sequences require precise scheduling intervals',
     context: 'OB/GYN visits',
     volumeWord: 'patients',
@@ -799,8 +799,8 @@ export const SPECIALTIES: SpecialtyDef[] = [
     slug: 'midwifery',
     name: 'Midwifery',
     category: "Women's Health",
-    painA: 'Prenatal visit intervals are standardised but home visit coordination is manual',
-    painB: 'Birth centre room availability tracking is done on whiteboards',
+    painA: 'Prenatal visit intervals are standardized but home visit coordination is manual',
+    painB: 'Birth center room availability tracking is done on whiteboards',
     context: 'midwifery visits',
     volumeWord: 'clients',
   },
@@ -901,7 +901,7 @@ export const SPECIALTIES: SpecialtyDef[] = [
     name: 'Audiology',
     category: 'Eye, Ear, Nose & Throat',
     painA: 'Hearing aid fitting follow-ups have variable durations based on patient adaptation',
-    painB: 'Paediatric audiology appointments require caregiver coordination',
+    painB: 'Pediatric audiology appointments require caregiver coordination',
     context: 'audiology visits',
     volumeWord: 'patients',
   },
@@ -992,9 +992,9 @@ export const SPECIALTIES: SpecialtyDef[] = [
     slug: 'pediatric-dentistry',
     name: 'Pediatric Dentistry',
     category: 'Dental & Oral Health',
-    painA: 'Anxious paediatric patients extend appointment times unpredictably',
+    painA: 'Anxious pediatric patients extend appointment times unpredictably',
     painB: 'Sibling and family block scheduling is complex to manage manually',
-    context: 'paediatric dental appointments',
+    context: 'pediatric dental appointments',
     volumeWord: 'patients',
   },
   {
@@ -1131,7 +1131,7 @@ export const SPECIALTIES: SpecialtyDef[] = [
     slug: 'erectile-dysfunction',
     name: 'Erectile Dysfunction',
     category: "Urology & Men's Health",
-    painA: 'High no-show rates driven by embarrassment reduce clinic utilisation',
+    painA: 'High no-show rates driven by embarrassment reduce clinic utilization',
     painB: 'Injection therapy training visits require precise timing and private space',
     context: 'ED treatment visits',
     volumeWord: 'patients',
@@ -1226,28 +1226,31 @@ export const SPECIALTIES: SpecialtyDef[] = [
 // ─── Content generator ────────────────────────────────────────────────────────
 
 // H1 templates — varied by a hash of feature+specialty slugs to distribute patterns
+const titleCase = (s: string) => s.replace(/\b([a-z])([a-z]*)/g, (m, a, b) =>
+  ['and', 'or', 'of', 'to', 'in', 'for', 'the', 'a'].includes(m) ? m : a.toUpperCase() + b)
+
 const H1_TEMPLATES = [
   (f: FeatureDef, s: SpecialtyDef) =>
-    `${f.name} for ${s.name}: Stop Losing ${s.volumeWord} to ${f.problemNoun}`,
+    `${f.name} for ${s.name}: Stop Losing ${titleCase(s.volumeWord)} to ${titleCase(f.problemNoun)}`,
   (f: FeatureDef, s: SpecialtyDef) =>
     `${s.name} ${f.name} That Actually Works`,
   (f: FeatureDef, s: SpecialtyDef) =>
-    `How ${s.name} Practices Use clinIQ ${f.name} to Fix ${f.problemNoun}`,
+    `How ${s.name} Practices Use clinIQ ${f.name} to Fix ${titleCase(f.problemNoun)}`,
   (f: FeatureDef, s: SpecialtyDef) =>
     `${f.name} Built for ${s.name} Clinics`,
   (f: FeatureDef, s: SpecialtyDef) =>
-    `End ${f.problemNoun} in Your ${s.name} Practice`,
+    `End ${titleCase(f.problemNoun)} in Your ${s.name} Practice`,
   (f: FeatureDef, s: SpecialtyDef) =>
-    `clinIQ ${f.name} for ${s.name} — ${f.tagline}`,
+    `clinIQ ${f.name} for ${s.name}: ${f.tagline}`,
   (f: FeatureDef, s: SpecialtyDef) =>
-    `${s.name} Practices: Fix ${f.problemNoun} with clinIQ`,
+    `${s.name} Practices: Fix ${titleCase(f.problemNoun)} with clinIQ`,
 ]
 
 const META_TEMPLATES = [
   (f: FeatureDef, s: SpecialtyDef) =>
     `clinIQ's ${f.name} module helps ${s.name} clinics eliminate ${f.problemNoun}. ${s.painA.split(',')[0]}. See it in action.`,
   (f: FeatureDef, s: SpecialtyDef) =>
-    `${s.name} practices trust clinIQ for ${f.solutionNoun}. ${f.tagline}. Built for the way you work — not a generic EHR.`,
+    `${s.name} practices trust clinIQ for ${f.solutionNoun}. ${f.tagline}. Built for the way you work, not a generic EHR.`,
   (f: FeatureDef, s: SpecialtyDef) =>
     `Stop losing revenue to ${f.problemNoun}. clinIQ gives ${s.name} teams ${f.solutionNoun} in real time. Request a demo.`,
   (f: FeatureDef, s: SpecialtyDef) =>
@@ -1298,14 +1301,13 @@ export function getPageData(featureSlug: string, specialtySlug: string): PageDat
 
   const problemStatement =
     `${specialty.painA}. ${specialty.painB}. ` +
-    `For ${specialty.name} practices, ${feature.problemNoun} isn't a minor inconvenience — ` +
-    `it compounds across every ${specialty.context}, eroding revenue and ${specialty.volumeWord} satisfaction.`
+    `For ${specialty.name} practices, the cost of ${feature.problemNoun} ` +
+    `compounds across ${specialty.context}, eating into revenue and patient satisfaction.`
 
   const solutionStatement =
-    `clinIQ's ${feature.name} module gives your ${specialty.name} team ${feature.solutionNoun} ` +
-    `purpose-built for ${specialty.context}. ` +
-    `You'll ${feature.solutionVerb} ${feature.solutionNoun} without adding staff or switching EHRs — ` +
-    `so your ${specialty.volumeWord} spend less time waiting and your team spends less time managing chaos.`
+    `clinIQ's ${feature.name} module gives your ${specialty.name} team ${feature.solutionNoun}, ` +
+    `built for ${specialty.context}, without adding staff or switching EHRs. ` +
+    `Your ${specialty.volumeWord} spend less time waiting, and your team spends less time chasing problems.`
 
   return {
     featureSlug,
@@ -1495,10 +1497,10 @@ function getModuleDesc(feature: FeatureDef, specialty: SpecialtyDef): string {
     return `${s} scheduling has patterns that generic templates can't handle — ${ctx} with variable durations, same-day demand, and no-show gaps that can't be filled manually. clinIQ Scheduling gives ${s} practices multi-provider calendar management with real-time fill logic, waitlist automation, and no-show backfill. The schedule adapts to the reality of ${ctx} — not the other way around.`
   }
   if (f === 'rtm') {
-    return `${s} practices eligible for RTM billing (CPT 98975–98981) are leaving significant revenue uncaptured because manual tracking fails at scale. clinIQ RTM automates the monitoring, qualifying, and billing of remote therapeutic monitoring — so your ${s} team captures revenue from ${vw} they're already monitoring. No new devices required. No additional staff workflows. The code gets billed because the data is being tracked and surfaced automatically.`
+    return `${s} practices eligible for RTM billing (CPT 98975–98986) are leaving significant revenue uncaptured because manual tracking fails at scale. clinIQ RTM automates the monitoring, qualifying, and billing of remote therapeutic monitoring — so your ${s} team captures revenue from ${vw} they're already monitoring. No new devices required. No additional staff workflows. The code gets billed because the data is being tracked and surfaced automatically.`
   }
   if (f === 'pre-auth') {
-    return `clinIQ Pre-Authorization tracks every pending PA in a single pipeline — with payer, status, expiration date, and required documentation visible in one place. Your ${s} team sees which ${ctx} are blocked, which authorisations are expiring, and which requests need follow-up today. No spreadsheets. No missed expirations. No delayed treatments because the PA fell through the cracks.`
+    return `clinIQ Pre-Authorization tracks every pending PA in a single pipeline — with payer, status, expiration date, and required documentation visible in one place. Your ${s} team sees which ${ctx} are blocked, which authorizations are expiring, and which requests need follow-up today. No spreadsheets. No missed expirations. No delayed treatments because the PA fell through the cracks.`
   }
   if (f === 'analytics') {
     return `${s} operational data lives in the EHR — but it doesn't tell you why your schedule runs late on Tuesdays, which provider has the longest rooming times, or where ${vw} are waiting longest. clinIQ Analytics surfaces the metrics that matter for ${s} operations: average time per visit stage, ${ctx} throughput by day and provider, no-show patterns, and recovery opportunities. The data is already there. clinIQ just shows you what it means.`

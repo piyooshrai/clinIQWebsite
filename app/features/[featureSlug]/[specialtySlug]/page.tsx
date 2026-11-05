@@ -5,6 +5,9 @@ import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
 import { getAllParams, getPageData } from '@/lib/feature-specialty-data'
 import { isIndexedFeatureSpecialty } from '@/lib/indexed-feature-pages'
+import { getFeatureSpecialtyContent } from '@/lib/feature-specialty-content'
+import { renderInline } from '@/lib/renderContent'
+import FAQSection from '@/components/FAQSection'
 import styles from './page.module.css'
 
 // ─── Static generation — all 840 pages built at Vercel deploy time ────────────
@@ -19,9 +22,10 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const data = getPageData(params.featureSlug, params.specialtySlug)
   if (!data) return {}
+  const extra = getFeatureSpecialtyContent(params.featureSlug, params.specialtySlug)
   return {
-    title: data.metaTitle,
-    description: data.metaDescription,
+    title: extra?.metaTitle ?? data.metaTitle,
+    description: extra?.metaDescription ?? data.metaDescription,
     alternates: {
       canonical: `/features/${params.featureSlug}/${params.specialtySlug}`,
     },
@@ -37,8 +41,20 @@ export default function FeatureSpecialtyPage({
 }: {
   params: { featureSlug: string; specialtySlug: string }
 }) {
-  const data = getPageData(params.featureSlug, params.specialtySlug)
-  if (!data) notFound()
+  const base = getPageData(params.featureSlug, params.specialtySlug)
+  if (!base) notFound()
+  const extra = getFeatureSpecialtyContent(params.featureSlug, params.specialtySlug)
+  const data = extra
+    ? {
+        ...base,
+        h1: extra.h1,
+        metaDescription: extra.metaDescription,
+        problemHeading: extra.problemHeading,
+        problemStatement: extra.problemStatement,
+        solutionHeading: extra.solutionHeading,
+        solutionStatement: extra.solutionStatement,
+      }
+    : base
 
   const schemaOrg = {
     '@context': 'https://schema.org',
@@ -110,7 +126,7 @@ export default function FeatureSpecialtyPage({
             </div>
 
             <h1 className={styles.h1}>{data.h1}</h1>
-            <p className={styles.subtitle}>{data.metaDescription}</p>
+            <p className={styles.subtitle}>{extra?.subtitle ?? data.metaDescription}</p>
 
             <div className={styles.heroCta}>
               <Link href="/demo" className={styles.btnPrimary}>Request Demo</Link>
@@ -127,15 +143,80 @@ export default function FeatureSpecialtyPage({
             <div className={styles.col}>
               <div className={styles.colLabel}>The Problem</div>
               <h2 className={styles.colHeading}>{data.problemHeading}</h2>
-              <p className={styles.colBody}>{data.problemStatement}</p>
+              <p className={styles.colBody}>{renderInline(data.problemStatement, styles.inlineLink)}</p>
             </div>
             <div className={`${styles.col} ${styles.colSolution}`}>
               <div className={`${styles.colLabel} ${styles.colLabelTeal}`}>The Solution</div>
               <h2 className={styles.colHeading}>{data.solutionHeading}</h2>
-              <p className={styles.colBody}>{data.solutionStatement}</p>
+              <p className={styles.colBody}>{renderInline(data.solutionStatement, styles.inlineLink)}</p>
             </div>
           </div>
         </section>
+
+        {extra && (
+          <>
+            <section className={styles.detail}>
+              <div className={styles.detailInner}>
+                <h2 className={styles.detailH2}>{extra.workflow.h2}</h2>
+                <p className={styles.detailIntro}>{renderInline(extra.workflow.intro, styles.inlineLink)}</p>
+                <ol className={styles.steps}>
+                  {extra.workflow.steps.map((step, i) => (
+                    <li key={step.title} className={styles.step}>
+                      <span className={styles.stepNum} aria-hidden="true">{i + 1}</span>
+                      <div>
+                        <h3 className={styles.stepTitle}>{step.title}</h3>
+                        <p className={styles.stepBody}>{renderInline(step.body, styles.inlineLink)}</p>
+                      </div>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            </section>
+
+            <section className={`${styles.detail} ${styles.detailAlt}`}>
+              <div className={styles.detailInner}>
+                <h2 className={styles.detailH2}>{extra.capabilities.h2}</h2>
+                <div className={styles.capGrid}>
+                  {extra.capabilities.items.map((item) => (
+                    <div key={item.title} className={styles.capCard}>
+                      <h3 className={styles.capTitle}>{item.title}</h3>
+                      <p className={styles.capBody}>{renderInline(item.body, styles.inlineLink)}</p>
+                    </div>
+                  ))}
+                </div>
+                <div className={styles.midCta}>
+                  <Link
+                    href="/demo"
+                    className={styles.btnPrimary}
+                    data-cta-location={`feature_specialty:${params.featureSlug}/${params.specialtySlug}`}
+                  >
+                    See it for {data.specialtyName}
+                  </Link>
+                </div>
+              </div>
+            </section>
+
+            <FAQSection
+              headline={`${data.featureName} for ${data.specialtyName}: FAQs`}
+              items={extra.faqs.map((f) => ({ question: f.q, answer: f.a }))}
+            />
+
+            {extra.related.length > 0 && (
+              <section className={styles.detail}>
+                <div className={styles.detailInner}>
+                  <h2 className={styles.detailH2}>Related guides</h2>
+                  <ul className={styles.relatedList}>
+                    {extra.related.map((r) => (
+                      <li key={r.href}>
+                        <Link href={r.href} className={styles.relatedLink}>{r.title} →</Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </section>
+            )}
+          </>
+        )}
 
         {/* ── CTA ── */}
         <section className={styles.ctaSection}>
