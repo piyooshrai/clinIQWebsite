@@ -87,9 +87,9 @@
     }
   },
   "heroImage": {
-    "src": "/people/clinician-reviewing-tablet-with-patient.jpg",
-    "alt": "Clinician reviewing a tablet with a patient in a clinic waiting area",
-    "width": 1400,
-    "height": 933
+    "src": "/editorial/medical-assistant-talking-with-patient.jpg",
+    "alt": "Clinician with a tablet explaining a monitoring program to an older patient seated in a clinic",
+    "width": 1200,
+    "height": 900
   }
 }

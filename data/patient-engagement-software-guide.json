@@ -108,9 +108,9 @@
     }
   },
   "heroImage": {
-    "src": "/people/clinician-reviewing-tablet-with-patient.jpg",
-    "alt": "Clinician reviewing a tablet with a patient in a clinic waiting area",
-    "width": 1400,
-    "height": 933
+    "src": "/editorial/medical-assistant-talking-with-patient.jpg",
+    "alt": "Medical assistant in scrubs holding a tablet and talking with an older patient in a waiting area",
+    "width": 1200,
+    "height": 900
   }
 }

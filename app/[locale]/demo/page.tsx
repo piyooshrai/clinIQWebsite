@@ -87,7 +87,7 @@ export default async function DemoPage() {
             <div className={styles.twoCol}>
               {/* Left panel — dark */}
               <div className={styles.leftPanel}>
-                <Image src="/people/clinician-reviewing-tablet-with-patient.jpg" alt={t('imageAlt')} width={1400} height={933} sizes="(max-width: 900px) 100vw, 400px" style={{ width: '100%', height: 'auto', borderRadius: '12px', marginBottom: '1.5rem' }} />
+                <Image src="/editorial/medical-assistant-talking-with-patient.jpg" alt={t('imageAlt')} width={1200} height={900} sizes="(max-width: 900px) 100vw, 400px" style={{ width: '100%', height: 'auto', borderRadius: '12px', marginBottom: '1.5rem' }} />
                 <h2 className={styles.leftTitle}>{t('whatYoullSee')}</h2>
                 <ul className={styles.featureList}>
                   {demoFeatures.map((feat) => (

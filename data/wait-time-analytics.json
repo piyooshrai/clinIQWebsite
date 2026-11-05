@@ -87,9 +87,9 @@
     }
   },
   "heroImage": {
-    "src": "/people/clinic-front-desk-patient-check-in.jpg",
-    "alt": "Patient completing paperwork with a staff member at a clinic front desk",
-    "width": 1400,
-    "height": 935
+    "src": "/editorial/patient-checking-watch-in-waiting-room.jpg",
+    "alt": "Man checking his watch in a clinic waiting room while other patients wait beside him",
+    "width": 1600,
+    "height": 900
   }
 }

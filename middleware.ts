@@ -55,6 +55,15 @@ export default function middleware(request: NextRequest) {
     return new NextResponse('Not found', { status: 404 })
   }
 
+  // Collapse doubled locale prefixes (/ar/ar/x, /ar/es/x) that crawlers request.
+  const doubled = pathname.match(/^\/(ar|es|en)\/(?:(?:ar|es|en)\/)+(.*)$|^\/(ar|es|en)\/(?:ar|es|en)$/)
+  if (doubled) {
+    const locale = doubled[1] ?? doubled[3]
+    const rest = doubled[2] ?? ''
+    const target = locale === 'en' ? `/${rest}` : `/${locale}${rest ? `/${rest}` : ''}`
+    return NextResponse.redirect(new URL(target, request.url), 308)
+  }
+
   // Redirect /ar/blog/* and /ar/resources/* to English equivalents
   if (pathname.startsWith('/ar/blog') || pathname.startsWith('/ar/resources')) {
     const enPath = pathname.replace(/^\/ar/, '')
