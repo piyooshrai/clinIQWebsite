@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 import { deliverInquiry, isValidEmail, missingFields } from '@/lib/inquiry-delivery'
-import { normalizeIntakeContext } from '@/lib/intake-context'
+import { attributionLines, normalizeIntakeContext } from '@/lib/intake-context'
 
 const REQUIRED = {
   demo: ['firstName', 'practice', 'specialty'],
@@ -20,6 +20,7 @@ export async function POST(request: Request) {
     const missing = missingFields(body, formType === 'demo' ? REQUIRED.demo : REQUIRED.contact)
     if (missing.length) return NextResponse.json({ error: 'Missing required fields', fields: missing }, { status: 400 })
 
+    const context = normalizeIntakeContext(body.intakeContext, request)
     let emailSubject = ''
     let emailBody = ''
 
@@ -36,6 +37,7 @@ export async function POST(request: Request) {
         `Providers: ${providers || 'Not asked'}`,
         `Interests: ${Array.isArray(interests) && interests.length ? interests.join(', ') : 'Not asked'}`,
         `Notes: ${message || 'None'}`,
+        ...attributionLines(context),
       ].join('\n')
     } else {
       emailSubject = `Contact Form: ${subject}`
@@ -46,6 +48,7 @@ export async function POST(request: Request) {
         `Email: ${email}`,
         `Subject: ${subject}`,
         `Message:\n${message}`,
+        ...attributionLines(context),
       ].join('\n')
     }
 
@@ -56,7 +59,7 @@ export async function POST(request: Request) {
         company: String(practice || '').slice(0, 200),
         phone: String(phone || '').slice(0, 80),
         message: emailBody.slice(0, 8000),
-        ...normalizeIntakeContext(body.intakeContext, request),
+        ...context,
         formId: String(formType || 'contact').slice(0, 128),
       },
       { subject: emailSubject, body: emailBody },

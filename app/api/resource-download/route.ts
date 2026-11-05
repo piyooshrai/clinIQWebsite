@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { deliverInquiry, isValidEmail } from '@/lib/inquiry-delivery'
-import { normalizeIntakeContext } from '@/lib/intake-context'
+import { attributionLines, normalizeIntakeContext } from '@/lib/intake-context'
 
 export async function POST(request: NextRequest) {
   try {
@@ -9,11 +9,13 @@ export async function POST(request: NextRequest) {
     if (!isValidEmail(fields.email)) return NextResponse.json({ error: 'A valid email is required' }, { status: 400 })
 
     const title = String(resourceTitle || resourceSlug || 'Resource').slice(0, 200)
+    const context = normalizeIntakeContext(intakeContext, request)
     const message = [
       'New Resource Download',
       '',
       `Resource: ${title}`,
       ...Object.entries(fields).map(([key, value]) => `${key}: ${String(value).slice(0, 500)}`),
+      ...attributionLines(context),
     ].join('\n').slice(0, 8000)
     const pick = (...keys: string[]) => keys.map((k) => fields[k]).find((v) => typeof v === 'string' && v.trim()) as string | undefined
 
@@ -24,7 +26,7 @@ export async function POST(request: NextRequest) {
         company: (pick('practice', 'practiceName', 'company', 'organization') || '').slice(0, 200),
         phone: (pick('phone') || '').slice(0, 80),
         message,
-        ...normalizeIntakeContext(intakeContext, request),
+        ...context,
         formId: `resource:${String(resourceSlug || 'unknown')}`.slice(0, 128),
       },
       { subject: `Resource Download: ${title}`, body: message },
