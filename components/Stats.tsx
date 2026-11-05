@@ -7,12 +7,13 @@ import styles from './Stats.module.css'
 const STAT_CONFIGS = [
   { key: 'waitTime',    prefix: '',  value: 22,  suffix: '%' },
   { key: 'rtmRevenue',  prefix: '$', value: 140, suffix: ''  },
-  { key: 'checkIn',     prefix: '',  value: 3,   suffix: ' min' },
+  { key: 'rtmPatients', prefix: '',  value: 2800, suffix: '+' },
   { key: 'preAuth',     prefix: '',  value: 80,  suffix: '%' },
 ] as const
 
 function useCountUp(target: number, active: boolean, duration = 1500) {
-  const [count, setCount] = useState(0)
+  // Start at the real value so server-rendered HTML shows it to crawlers and LLMs.
+  const [count, setCount] = useState(target)
 
   useEffect(() => {
     if (!active) return
@@ -65,7 +66,7 @@ function StatItem({
     <div className={styles.item} ref={ref}>
       <div className={styles.number}>
         {prefix && <span className={styles.accent}>{prefix}</span>}
-        {count}
+        {count.toLocaleString('en-US')}
         {suffix && <span className={styles.accent}>{suffix}</span>}
       </div>
       <div className={styles.label}>{label}</div>

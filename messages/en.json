@@ -312,9 +312,9 @@
         "value": "$140",
         "label": "avg monthly RTM revenue per patient"
       },
-      "checkIn": {
-        "value": "3 min",
-        "label": "average digital check-in time"
+      "rtmPatients": {
+        "value": "2,800+",
+        "label": "RTM patients on clinIQ"
       },
       "preAuth": {
         "value": "80%",

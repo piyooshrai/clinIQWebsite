@@ -312,9 +312,9 @@
         "value": "140$",
         "label": "متوسط إيراد RTM الشهري لكل مريض"
       },
-      "checkIn": {
-        "value": "3 دقائق",
-        "label": "متوسط وقت تسجيل الوصول الرقمي"
+      "rtmPatients": {
+        "value": "2,800+",
+        "label": "مريض RTM على clinIQ"
       },
       "preAuth": {
         "value": "80%",

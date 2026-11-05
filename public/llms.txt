@@ -4,6 +4,8 @@
 
 clinIQ is made by The Algorithm LLC, a Colorado-based healthcare technology company. It is not an EHR, not an RPM (Remote Patient Monitoring) system, and not a billing/RCM company. It is the operational layer between your EHR and your daily clinic workflow — the infrastructure that EHRs were never designed to provide.
 
+As of November 2026, more than 2,800 patients are on remote therapeutic monitoring (RTM) through clinIQ.
+
 Clinics using clinIQ report a 22% reduction in patient wait times within the first month, digital check-in completed in under 3 minutes, and $120–$150 per qualifying patient per month in newly captured RTM revenue (CPT 98975–98981). Pre-authorization automation saves 13–15 staff hours per week.
 
 ## Platform Features

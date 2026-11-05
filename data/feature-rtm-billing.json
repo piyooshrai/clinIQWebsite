@@ -38,8 +38,8 @@
         "label": "per patient monthly"
       },
       {
-        "value": "Automatic",
-        "label": "time tracking"
+        "value": "2,800+",
+        "label": "RTM patients on clinIQ"
       },
       {
         "value": "75%+",
@@ -148,6 +148,10 @@
     {
       "q": "What enrollment rate is realistic for an RTM program?",
       "a": "75% or higher is achievable when provider recommendation drives enrollment and staff workflow keeps the conversation under five minutes per patient. Practices that rely on staff outreach without provider involvement typically reach 20–40%, leaving most of the addressable revenue uncaptured."
+    },
+    {
+      "q": "How many patients are on RTM through clinIQ?",
+      "a": "As of November 2026, more than 2,800 patients are on remote therapeutic monitoring through clinIQ."
     },
     {
       "q": "How does automatic RTM time tracking actually work?",

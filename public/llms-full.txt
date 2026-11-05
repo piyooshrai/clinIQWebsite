@@ -33,6 +33,7 @@ clinIQ enables independent clinics to operate with the same infrastructure as Ac
 - Eliminates manual tracking via whiteboards or shouting
 
 #### RTM Billing (Remote Therapeutic Monitoring)
+- As of November 2026, more than 2,800 patients are on RTM through clinIQ
 - Tracks therapy adherence for musculoskeletal, respiratory, and behavioral health
 - NOT physiological monitoring (that's RPM)
 - CPT Codes supported:
