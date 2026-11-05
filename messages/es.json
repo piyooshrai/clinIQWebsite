@@ -1,16 +1,474 @@
 {
-  "_note": "Spanish translations — placeholder, to be completed in Phase 2",
   "nav": {
     "features": "Funciones",
     "whoWeServe": "A quién servimos",
     "compare": "Comparar",
     "locations": "Ubicaciones",
     "resources": "Recursos",
-    "requestDemo": "Solicitar demo"
+    "requestDemo": "Solicitar demo",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "sections": {
+      "visitOperations": "Operaciones de la visita",
+      "revenueCompliance": "Ingresos y cumplimiento",
+      "patientEngagement": "Participación del paciente",
+      "remoteCare": "Atención remota",
+      "careSettings": "Tipos de centro",
+      "behavioralHealth": "Salud conductual",
+      "painRehab": "Dolor y rehabilitación",
+      "surgeryProcedures": "Cirugía y procedimientos",
+      "primarySpecialty": "Atención primaria y especializada",
+      "patientIntake": "Admisión de pacientes",
+      "ehr": "EHR",
+      "practiceManagement": "Gestión de la consulta",
+      "queueManagement": "Gestión de filas",
+      "scheduling": "Programación de citas",
+      "alternatives": "Alternativas",
+      "middleEast": "Medio Oriente",
+      "northAmerica": "América del Norte",
+      "uk": "Reino Unido"
+    },
+    "links": {
+      "patientFlow": "Flujo de pacientes",
+      "patientFlowDesc": "Seguimiento de filas en tiempo real",
+      "checkIn": "Registro de pacientes",
+      "checkInDesc": "Admisión y verificación digitales",
+      "schedulingLink": "Programación de citas",
+      "schedulingDesc": "Calendario para varios profesionales",
+      "analytics": "Analítica",
+      "analyticsDesc": "Detección de cuellos de botella",
+      "allFeatures": "Todas las funciones →",
+      "rtm": "Facturación de RTM",
+      "rtmDesc": "Automatización de CPT 98975–98981",
+      "preAuth": "Preautorización",
+      "preAuthDesc": "Flujos de aprobación de aseguradoras",
+      "telehealth": "Telesalud",
+      "telehealthDesc": "Flujos de trabajo para visitas virtuales",
+      "patientSatisfaction": "Satisfacción del paciente",
+      "patientSatisfactionDesc": "Comentarios y puntajes de experiencia",
+      "secureMessaging": "Mensajería segura",
+      "secureMessagingDesc": "Mensajería conforme a HIPAA",
+      "patientApp": "App para pacientes",
+      "patientAppDesc": "Portal móvil para pacientes",
+      "wearable": "Integración con dispositivos portátiles",
+      "wearableDesc": "Sincronización remota de datos de dispositivos",
+      "secureFile": "Intercambio seguro de archivos",
+      "secureFileDesc": "Documentos compartidos con cifrado",
+      "fqhc": "FQHC y salud comunitaria",
+      "fqhcDesc": "Escala móvil y facturación de RTM",
+      "rural": "Clínicas de salud rural",
+      "ruralDesc": "Equipo pequeño, alto volumen",
+      "concierge": "Concierge y DPC",
+      "conciergeDesc": "Operaciones para modelos de membresía",
+      "surgery": "Centros quirúrgicos",
+      "surgeryDesc": "Flujo preoperatorio y posoperatorio",
+      "allPracticeTypes": "Todos los tipos de consulta →",
+      "addictionMedicine": "Medicina de adicciones",
+      "addictionMedicineDesc": "Flujos de trabajo con protocolos de MAT",
+      "psychiatry": "Psiquiatría",
+      "psychiatryDesc": "Menos inasistencias y RTM",
+      "behavioralHealthLink": "Salud conductual",
+      "behavioralHealthDesc": "Gestión del flujo terapéutico",
+      "allSpecialties": "Todas las especialidades →",
+      "painManagement": "Manejo del dolor",
+      "painManagementDesc": "Flujo de procedimientos de alto volumen",
+      "physicalTherapy": "Fisioterapia",
+      "physicalTherapyDesc": "Seguimiento de salas con varios pacientes",
+      "chiropractic": "Quiropráctica",
+      "chiropracticDesc": "Admisión de alto volumen",
+      "orthopedic": "Cirugía ortopédica",
+      "orthopedicDesc": "Flujo preoperatorio y posoperatorio",
+      "spineSurgery": "Cirugía de columna",
+      "spineSurgeryDesc": "Seguimiento del tratamiento conservador",
+      "generalSurgery": "Cirugía general",
+      "generalSurgeryDesc": "Coordinación entre quirófano y clínica",
+      "primaryCare": "Atención primaria",
+      "primaryCareDesc": "Gestión de la demanda del mismo día",
+      "cardiology": "Cardiología",
+      "cardiologyDesc": "Coordinación de ecocardiogramas y dispositivos",
+      "urgentCare": "Atención de urgencia",
+      "urgentCareDesc": "Menos abandonos, esperas mucho más cortas",
+      "vsPhreesia": "vs Phreesia",
+      "vsPhreesiaDesc": "Más allá de la admisión: operaciones completas",
+      "vsClearwave": "vs Clearwave",
+      "vsClearwaveDesc": "Del quiosco al flujo en tiempo real",
+      "vsAthena": "vs athenahealth",
+      "vsAthenaDesc": "Capa operativa para athenaOne",
+      "vsEcw": "vs eClinicalWorks",
+      "vsEcwDesc": "Capa operativa para eCW",
+      "vsNextgen": "vs NextGen",
+      "vsNextgenDesc": "Capa operativa para NextGen",
+      "vsAdvancedMd": "vs AdvancedMD",
+      "vsAdvancedMdDesc": "Complemento de capa operativa",
+      "vsTebra": "vs Tebra",
+      "vsTebraDesc": "Enfoque en operaciones frente a marketing",
+      "vsSimplePractice": "vs SimplePractice",
+      "vsSimplePracticeDesc": "Operaciones para varios profesionales y RTM",
+      "allComparisons": "Ver todas las comparaciones →",
+      "vsQless": "vs QLess",
+      "vsQlessDesc": "Flujo específico para el sector salud",
+      "uae": "EAU",
+      "uaeDesc": "Dubái, Abu Dabi, Sharjah",
+      "saudiArabia": "Arabia Saudita",
+      "saudiArabiaDesc": "Riad, Yeda, Dammam",
+      "kuwait": "Kuwait",
+      "kuwaitDesc": "Clínicas en la Ciudad de Kuwait",
+      "qatar": "Catar",
+      "qatarDesc": "Clínicas en Doha",
+      "bahrain": "Baréin",
+      "bahrainDesc": "Clínicas en Manama",
+      "unitedStates": "Estados Unidos",
+      "unitedStatesDesc": "Los 50 estados",
+      "canada": "Canadá",
+      "canadaDesc": "Toronto, Vancouver, Montreal",
+      "unitedKingdom": "Reino Unido",
+      "unitedKingdomDesc": "Londres, Mánchester, Birmingham",
+      "allLocations": "Todas las ubicaciones →"
+    }
+  },
+  "footer": {
+    "tagline": "Operaciones clínicas que simplemente funcionan.",
+    "product": "Producto",
+    "specialties": "Especialidades",
+    "compare": "Comparar",
+    "locations": "Ubicaciones",
+    "company": "Empresa",
+    "resources": "Recursos",
+    "blog": "Blog",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "pricing": "Precios",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "copyright": "© 2026 The Algorithm LLC. Todos los derechos reservados.",
+    "hipaa": "Desarrollado siguiendo las directrices de HIPAA."
   },
   "common": {
     "requestDemo": "Solicitar demo",
-    "requestDemoArrow": "Solicitar demo →"
+    "requestDemoArrow": "Solicitar demo →",
+    "learnMore": "Más información",
+    "seeHowItWorks": "Vea cómo funciona",
+    "bookDemo": "Reservar una demo",
+    "getStarted": "Comenzar",
+    "viewAll": "Ver todo",
+    "sending": "Enviando…",
+    "submit": "Enviar",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "practiceName": "Nombre de la consulta",
+    "specialty": "Especialidad",
+    "numberOfProviders": "Número de profesionales",
+    "message": "Mensaje / Notas",
+    "interests": "Intereses",
+    "required": "*",
+    "errorGeneric": "Algo salió mal. Inténtelo de nuevo.",
+    "successTitle": "Ya está en la lista.",
+    "successBody": "Nos pondremos en contacto en un plazo de 24 horas."
+  },
+  "hero": {
+    "badge": "Software de operaciones clínicas",
+    "title1": "Software de flujo de pacientes",
+    "title2": "Creado para",
+    "titleEm": "clínicas reales.",
+    "description": "clinIQ es la plataforma de operaciones clínicas que reúne la gestión de filas de pacientes en tiempo real, el registro digital de pacientes, la facturación de RTM y la automatización de preautorizaciones, todo sobre su EHR actual. Capture $120–$150 por paciente de RTM al mes. Reduzca los tiempos de espera un 22% en el primer mes.",
+    "requestDemo": "Solicitar demo",
+    "seeHowItWorks": "Vea cómo funciona",
+    "quickFormEmail": "Correo de trabajo",
+    "quickFormPractice": "Nombre de la consulta",
+    "quickFormCta": "Recibir una demostración de 15 min",
+    "quickFormNote": "Sin presentaciones. Revisamos su flujo de trabajo exacto.",
+    "quickFormSent": "Gracias. Nos comunicaremos en un plazo de un día hábil.",
+    "quickFormError": "Algo salió mal. Inténtelo de nuevo, escriba a info@cliniqhealthcare.com o llame al 720.334.7249."
+  },
+  "features": {
+    "badge": "Flujo de trabajo principal",
+    "heading": "Todo lo que hace funcionar su clínica.",
+    "subheading": "Una sola plataforma. Flujo de pacientes en tiempo real, registro digital, facturación de RTM y preautorización: todo conectado, todo visible.",
+    "revenueBadge": "Ingresos y participación",
+    "revenueHeading": "Capture los ingresos que ya está generando.",
+    "revenueSubheading": "Herramientas de facturación de RTM, preautorización y participación del paciente que funcionan junto a su flujo de trabajo clínico, sin nuevos inicios de sesión ni nuevos procesos.",
+    "cards": {
+      "patientFlow": {
+        "title": "Flujo de pacientes en tiempo real",
+        "desc": "Panel de filas en vivo para cada sala, profesional y estado. Sin pizarras. Sin suposiciones."
+      },
+      "checkIn": {
+        "title": "Registro digital de pacientes",
+        "desc": "Los pacientes se registran desde su teléfono antes de llegar. Formularios, seguro y consentimiento: listos antes de entrar."
+      },
+      "scheduling": {
+        "title": "Programación inteligente",
+        "desc": "Calendario para varios profesionales con previsión de la demanda. Cubra las cancelaciones automáticamente."
+      },
+      "analytics": {
+        "title": "Analítica clínica",
+        "desc": "Detección de cuellos de botella, utilización de profesionales y tendencias de tiempos de espera, actualizadas en tiempo real."
+      },
+      "rtm": {
+        "title": "Automatización de la facturación de RTM",
+        "desc": "Capture automáticamente los ingresos de CPT 98975–98981. Inscripción, seguimiento del cumplimiento y facturación: todo resuelto."
+      },
+      "preAuth": {
+        "title": "Preautorización",
+        "desc": "Envíe solicitudes de autorización previa en segundos. Haga seguimiento de aprobaciones, denegaciones y apelaciones en un solo lugar."
+      }
+    }
+  },
+  "howItWorks": {
+    "badge": "Cómo funciona",
+    "heading": "Del primer día a la operación completa en cuestión de días.",
+    "steps": {
+      "connect": {
+        "num": "01",
+        "title": "Conecte su EHR",
+        "desc": "clinIQ funciona sobre su EHR actual, sin reemplazos ni migración de datos. Nos conectamos en horas."
+      },
+      "configure": {
+        "num": "02",
+        "title": "Configúrelo para su especialidad",
+        "desc": "Definimos sus reglas de flujo de pacientes, las asignaciones de salas, los criterios de elegibilidad para RTM y la lista de aseguradoras para preautorización."
+      },
+      "checkin": {
+        "num": "03",
+        "title": "Los pacientes se registran digitalmente",
+        "desc": "Los pacientes reciben un mensaje de texto antes de llegar. Completan la admisión, el seguro y el consentimiento en su teléfono."
+      },
+      "flow": {
+        "num": "04",
+        "title": "El personal ve el flujo de pacientes en vivo",
+        "desc": "Cada profesional, sala y estado de paciente es visible en tiempo real. Sin necesidad de radios."
+      },
+      "revenue": {
+        "num": "05",
+        "title": "RTM y facturación funcionan automáticamente",
+        "desc": "clinIQ identifica a los pacientes elegibles para RTM, registra los minutos de cumplimiento y dirige los códigos de facturación, sin intervención manual."
+      }
+    }
+  },
+  "problem": {
+    "badge": "El problema",
+    "heading": "Su EHR registra la atención. No dirige su clínica.",
+    "subheading": "Los EHR están hechos para la documentación y la facturación. Nunca se diseñaron para gestionar el flujo de pacientes, coordinar el estado de las salas en tiempo real ni automatizar el cumplimiento de RTM. clinIQ cubre esa brecha.",
+    "pains": {
+      "whiteboards": {
+        "title": "Pizarras que todavía controlan el seguimiento de pacientes",
+        "desc": "Se borran y nadie fuera de la sala puede verlas. Basta con que falte una enfermera para que todo el sistema falle."
+      },
+      "checkin": {
+        "title": "Filas de registro acumuladas a las 9 a. m.",
+        "desc": "Formularios en papel, cuellos de botella en la recepción y una verificación de seguro que toma 7 minutos por paciente."
+      },
+      "rtm": {
+        "title": "Ingresos de RTM sin cobrar",
+        "desc": "Es probable que ya sea elegible para facturar CPT 98975–98981. Sin automatización, no los está capturando."
+      },
+      "preauth": {
+        "title": "Denegaciones de preautorización que llegan después de la cita",
+        "desc": "La autorización previa manual hace que las aprobaciones lleguen después de la visita, lo que deja ingresos sin cobrar y pacientes frustrados."
+      },
+      "reporting": {
+        "title": "Sin visibilidad de lo que realmente le retrasa",
+        "desc": "Sabe que todo parece lento, pero no puede ver qué profesional, sala o paso es el verdadero cuello de botella."
+      }
+    },
+    "cta": "Vea cómo clinIQ lo resuelve"
+  },
+  "opsLayer": {
+    "badge": "Integración con EHR",
+    "heading": "Funciona sobre su EHR. No lo reemplaza.",
+    "subheading": "clinIQ se conecta a su sistema actual. Su personal conserva su flujo de trabajo en el EHR. clinIQ agrega la capa operativa que les faltaba.",
+    "works": "Compatible con",
+    "andMore": "y más"
+  },
+  "specialtiesSection": {
+    "badge": "Creado para su especialidad",
+    "heading": "No es software de salud genérico.",
+    "cards": {
+      "behavioral": {
+        "title": "Salud conductual",
+        "desc": "Reducción de inasistencias, seguimiento de protocolos de MAT y facturación de RTM creados para clínicas de salud conductual y medicina de adicciones."
+      },
+      "orthopedic": {
+        "title": "Ortopedia y cirugía",
+        "desc": "Flujo de pacientes del preoperatorio al posoperatorio, programación quirúrgica y automatización de autorizaciones previas para procedimientos de alto volumen."
+      },
+      "physical": {
+        "title": "Fisioterapia",
+        "desc": "Gestión de salas con varios pacientes, seguimiento de límites de visitas y cumplimiento de RTM para clínicas de fisioterapia con más de 20 pacientes al día."
+      }
+    },
+    "viewAll": "Ver todas las especialidades"
+  },
+  "stats": {
+    "heading": "Cifras que importan a quienes dirigen clínicas.",
+    "items": {
+      "waitTime": {
+        "value": "22%",
+        "label": "de reducción en el tiempo de espera del paciente"
+      },
+      "rtmRevenue": {
+        "value": "$140",
+        "label": "de ingreso mensual promedio de RTM por paciente"
+      },
+      "rtmPatients": {
+        "value": "2,800+",
+        "label": "pacientes de RTM en clinIQ"
+      },
+      "preAuth": {
+        "value": "80%",
+        "label": "menos denegaciones de preautorización"
+      }
+    }
+  },
+  "faq": {
+    "heading": "Preguntas frecuentes.",
+    "items": {
+      "q1": "¿Qué es clinIQ?",
+      "a1": "clinIQ es una plataforma de operaciones clínicas que agrega gestión del flujo de pacientes en tiempo real, registro digital, automatización de la facturación de RTM y seguimiento de preautorizaciones sobre su EHR actual. No reemplaza su EHR: es la capa operativa para la que su EHR nunca fue creado.",
+      "q2": "¿Cuánto tiempo toma ponerlo en marcha?",
+      "a2": "La mayoría de las clínicas están en pleno funcionamiento en 3–5 días hábiles. La conexión con el EHR se realiza el mismo día en los sistemas compatibles. La capacitación del personal toma menos de dos horas.",
+      "q3": "¿Funcionará con mi EHR?",
+      "a3": "clinIQ se integra con los principales sistemas de EHR, incluidos Epic, athenahealth, eClinicalWorks, Cerner, NextGen, AdvancedMD y Tebra. Si el suyo no está en la lista, consúltenos: es probable que tengamos un conector o podamos crear uno.",
+      "q4": "¿Qué es la facturación de RTM y cómo la automatiza clinIQ?",
+      "a4": "El monitoreo terapéutico remoto (RTM) es un conjunto de códigos CPT (98975–98981) de Medicare y aseguradoras comerciales que permite a las clínicas facturar el seguimiento de pacientes entre visitas mediante dispositivos conectados o aplicaciones. clinIQ identifica a los pacientes elegibles, registra automáticamente los minutos de cumplimiento y dirige los códigos de facturación a su equipo de facturación o a su cámara de compensación.",
+      "q5": "¿Cuánto paga la facturación de RTM por paciente?",
+      "a5": "La mayoría de las clínicas obtienen en promedio $120–$150 por paciente inscrito en RTM al mes. Un panel de RTM de 50 pacientes genera aproximadamente $6,000–$7,500 en ingresos mensuales adicionales, con una carga mínima adicional para el personal.",
+      "q6": "¿Cómo funciona el registro digital?",
+      "a6": "Los pacientes reciben un SMS o correo electrónico antes de su cita. Completan los formularios de admisión, la verificación del seguro y el consentimiento en su teléfono antes de llegar. Cuando entran, el registro en la recepción toma menos de 60 segundos.",
+      "q7": "¿Cómo funciona la automatización de preautorizaciones?",
+      "a7": "clinIQ obtiene los datos de procedimientos y aseguradoras de su agenda, envía electrónicamente las solicitudes de autorización previa y hace seguimiento del estado de aprobación en un solo panel. Las denegaciones activan flujos de apelación automáticos. Ya no tendrá que perseguir aprobaciones.",
+      "q8": "¿clinIQ cumple con HIPAA?",
+      "a8": "Sí. clinIQ está desarrollado según los estándares de HIPAA, con cifrado de extremo a extremo, controles de acceso basados en roles y un BAA firmado para cada clínica. Todos los datos se almacenan y transmiten dentro de una infraestructura conforme a HIPAA.",
+      "q9": "¿En qué se diferencia clinIQ de nuestro EHR?",
+      "a9": "Su EHR es un sistema de historias clínicas y facturación. clinIQ es una plataforma de operaciones. Los EHR registran lo que ocurrió; clinIQ gestiona lo que está ocurriendo ahora mismo: quién está esperando, quién está con un profesional, qué pacientes de RTM cumplen este mes y qué autorizaciones previas están pendientes. Son funciones distintas.",
+      "q10": "¿Cuánto cuesta clinIQ?",
+      "a10": "El precio depende del tamaño de la clínica y de los módulos seleccionados. La mayoría de las clínicas recuperan el costo total durante el primer mes solo con la facturación de RTM. Solicite una demo y prepararemos una proyección de retorno de la inversión específica para su volumen de pacientes."
+    }
+  },
+  "cta": {
+    "heading": "¿Listo para ver clinIQ en acción?",
+    "subheading": "15 minutos. Lo configuramos para su especialidad. Sin presentaciones.",
+    "primary": "Solicitar demo",
+    "secondary": "Vea cómo funciona"
+  },
+  "demo": {
+    "badge": "Programe una demo",
+    "title1": "Vea clinIQ",
+    "titleEm": "en acción.",
+    "subtitle": "15 minutos. Configurado para su especialidad. Sin una presentación de 47 diapositivas.",
+    "whatYoullSee": "Lo que verá",
+    "features": {
+      "f1": "Panel de flujo de pacientes en tiempo real configurado para su especialidad",
+      "f2": "Flujo de registro digital: de la llegada del paciente a la asignación de sala en menos de 3 minutos",
+      "f3": "Flujo de facturación de RTM: inscripción en CPT 98975–98981 y seguimiento del cumplimiento",
+      "f4": "Automatización de preautorizaciones: demostración en vivo del envío a aseguradoras",
+      "f5": "Panel de analítica: cumplimiento de RTM, capacidad de atención e ingresos por profesional"
+    },
+    "stats": {
+      "demo": "15 min",
+      "demoLabel": "Demo promedio",
+      "response": "<24 h",
+      "responseLabel": "Tiempo de respuesta",
+      "live": "Días",
+      "liveLabel": "Para ponerlo en marcha"
+    },
+    "formTitle": "Solicite su demo",
+    "formCta": "Solicitar demo →",
+    "formSending": "Enviando…",
+    "interests": {
+      "checkIn": "Registro de pacientes",
+      "flow": "Flujo de pacientes en tiempo real",
+      "rtm": "Facturación de RTM",
+      "preAuth": "Preautorización",
+      "scheduling": "Programación de citas",
+      "messaging": "Mensajería segura",
+      "analytics": "Analítica"
+    },
+    "specialties": {
+      "pt": "Fisioterapia",
+      "ortho": "Cirugía ortopédica",
+      "pain": "Manejo del dolor",
+      "behavioral": "Salud conductual / Psiquiatría",
+      "primary": "Atención primaria",
+      "urgent": "Atención de urgencia",
+      "neuro": "Neurología",
+      "cardio": "Cardiología",
+      "derm": "Dermatología",
+      "onco": "Oncología",
+      "other": "Otra"
+    },
+    "providers": {
+      "p1": "1–2",
+      "p2": "3–5",
+      "p3": "6–10",
+      "p4": "11–25",
+      "p5": "26–50",
+      "p6": "50+"
+    }
+  },
+  "contact": {
+    "badge": "Contáctenos",
+    "title": "Estamos aquí para ayudarle.",
+    "subtitle": "Tanto si está listo para una demo como si tiene una pregunta rápida o quiere explorar cómo se adapta clinIQ a su flujo de trabajo, respondemos con rapidez.",
+    "methods": {
+      "demo": {
+        "title": "Solicitar una demo",
+        "desc": "Vea clinIQ configurado para su especialidad en 15 minutos.",
+        "cta": "Reservar demo"
+      },
+      "sales": {
+        "title": "Hablar con ventas",
+        "desc": "Obtenga precios, proyecciones de retorno de la inversión y respuestas sobre integraciones.",
+        "cta": "Escribir a ventas"
+      },
+      "support": {
+        "title": "Soporte",
+        "desc": "¿Ya es cliente? Nuestro equipo de soporte responde en menos de 2 horas.",
+        "cta": "Escribir a soporte"
+      },
+      "phone": {
+        "title": "Llámenos",
+        "desc": "¿Prefiere hablar? Nuestro equipo está disponible en horario laboral.",
+        "cta": "720.334.7249"
+      }
+    },
+    "formTitle": "Enviar un mensaje",
+    "formSubject": "Asunto",
+    "formMessage": "Su mensaje",
+    "formCta": "Enviar mensaje",
+    "successTitle": "Mensaje enviado.",
+    "successBody": "Responderemos en un plazo de un día hábil."
+  },
+  "about": {
+    "badge": "Acerca de clinIQ",
+    "title": "Una ACO lista para usar, creada para clínicas independientes.",
+    "subtitle": "clinIQ lleva la infraestructura operativa de una Organización de Atención Responsable (ACO) a las consultas independientes que no pueden costear software de salud empresarial.",
+    "mission": {
+      "heading": "Nuestra misión",
+      "body": "Las clínicas independientes brindan la mayor parte de la atención en Estados Unidos, y reciben presión por todos lados. Los reembolsos de los seguros bajan. La carga administrativa sube. El agotamiento del personal se acelera. clinIQ existe para nivelar el terreno de juego. Damos a las consultas independientes la misma capacidad operativa que tienen los grandes sistemas hospitalarios, sin obligarlas a reemplazar su EHR, contratar a un equipo de consultores ni dedicar 18 meses a la implementación."
+    },
+    "vision": {
+      "heading": "La visión",
+      "body": "Una ACO lista para usar significa que cada clínica, sin importar su tamaño, cuenta de forma integrada con visibilidad del flujo de pacientes en tiempo real, captura automatizada de ingresos y cumplimiento de preautorizaciones. No añadidos después. No vendidos como diez herramientas separadas. Una sola plataforma, configurada para su especialidad, en funcionamiento en días."
+    },
+    "cta": {
+      "demo": "Solicitar demo",
+      "team": "Conozca al equipo"
+    }
+  },
+  "pricing": {
+    "badge": "Precios",
+    "title": "Precios transparentes. Sin sorpresas.",
+    "subtitle": "La mayoría de las clínicas recuperan el costo total de la plataforma durante el primer mes solo con la facturación de RTM.",
+    "cta": "Solicite una demo para conocer los precios",
+    "note": "Todos los planes incluyen integración con el EHR, incorporación y soporte. El precio depende del tamaño de la clínica y de los módulos seleccionados."
+  },
+  "solutions": {
+    "badge": "Soluciones",
+    "title": "Creado para su tipo de consulta.",
+    "subtitle": "clinIQ se configura de forma diferente para cada tipo de consulta. No es una plataforma genérica, sino una capa operativa específica para cada especialidad."
   },
   "languageSwitcher": {
     "switchToArabic": "Cambiar a árabe",
@@ -18,21 +476,21 @@
     "switchToSpanish": "Cambiar a español"
   },
   "homePeople": {
-    "title": "Built around the people running your clinic",
-    "subtitle": "Every delay lands on someone: a front desk answering the same question, a provider running behind, a patient wondering if they were forgotten. clinIQ gives each of them what they need to keep the day moving.",
+    "title": "Pensado para las personas que hacen funcionar su clínica",
+    "subtitle": "Cada retraso recae en alguien: una recepción que responde siempre la misma pregunta, un profesional que va con retraso, un paciente que se pregunta si lo olvidaron. clinIQ les da a todos lo que necesitan para que el día siga avanzando.",
     "frontDesk": {
-      "title": "Front desk teams",
-      "body": "Fewer clipboards, fewer repeat questions, and a clear view of who has arrived.",
+      "title": "Equipos de recepción",
+      "body": "Menos formularios en papel, menos preguntas repetidas y una visión clara de quién ha llegado.",
       "alt": "Recepcionista sonriendo mientras un paciente se registra en una tableta en la recepción de la clínica"
     },
     "careTeam": {
-      "title": "Care teams and patients",
-      "body": "Patients know what happens next, and staff can see where every visit stands.",
+      "title": "Equipos de atención y pacientes",
+      "body": "Los pacientes saben qué sigue y el personal puede ver cómo va cada visita.",
       "alt": "Asistente médico con uniforme clínico agachado para hablar con una paciente mayor en la sala de espera de la clínica"
     },
     "provider": {
-      "title": "Providers",
-      "body": "See the day as it's actually running, not as it was scheduled.",
+      "title": "Profesionales de la salud",
+      "body": "Vea el día como realmente transcurre, no como se programó.",
       "alt": "Médica con bata blanca revisando una tableta en un pasillo de la clínica"
     }
   }
