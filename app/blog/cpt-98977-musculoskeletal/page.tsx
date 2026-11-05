@@ -85,7 +85,7 @@ export default function Cpt98977MusculoskeletalPage() {
             and transmitted on at least 16 of the 30 days in the billing period for the device
             supply code to be billable. This threshold exists to ensure the monitoring is actually
             ongoing rather than a one-time data collection. Practices that bill 98977 without
-            confirming the 16-day threshold has been met are a common audit finding.
+            confirming the 16-day threshold has been met are a common audit finding. Since January 1, 2026, a period with only 2 to 15 days of data is not billable under 98977 but can be billed under the short-duration code 98985; the two codes cannot be reported for the same period.
           </p>
 
           <h2>Documentation Requirements</h2>
@@ -170,8 +170,8 @@ export default function Cpt98977MusculoskeletalPage() {
           </p>
           <p>
             At the end of each billing period, generate claims for 98977 (confirming 16-day data
-            threshold), 98980 (confirming at least 20 minutes of treatment management time is
-            documented), and 98981 for any additional 20-minute increments. Attach the supporting
+            threshold, or 98985 for 2 to 15 days), 98980 (confirming at least 20 minutes of treatment management time is
+            documented, or 98979 for 10 to 19 minutes with a real-time interaction), and 98981 for any additional 20-minute increments. Attach the supporting
             documentation &mdash; data receipt records, review notes, time log &mdash; to the
             claim or retain it in the record for audit purposes.
           </p>
@@ -242,7 +242,7 @@ export default function Cpt98977MusculoskeletalPage() {
             circumstances:
           </p>
           <ul>
-            <li><strong>Patient enrolled but not using the device:</strong> A patient who consented to RTM but has not transmitted data on at least 16 days in the billing period does not meet the data threshold. The device supply code is not billable for that month, regardless of enrollment status.</li>
+            <li><strong>Patient enrolled but not using the device:</strong> A patient who consented to RTM but has not transmitted data on at least 16 days in the billing period does not meet the data threshold. 98977 is not billable for that month, regardless of enrollment status; since 2026, a month with 2 to 15 days of data can be billed under 98985 instead.</li>
             <li><strong>Data collected but not reviewed:</strong> If monitoring data was transmitted but there is no documentation that clinical staff reviewed it, the claim lacks the review element required to support 98977 billing.</li>
             <li><strong>Diagnosis not supported in the record:</strong> A musculoskeletal diagnosis must be actively documented as a current diagnosis under treatment. Billing 98977 for a patient whose musculoskeletal condition resolved but who remains enrolled in the monitoring program is not supported.</li>
             <li><strong>Program paused due to acute illness or hospitalization:</strong> A patient who is hospitalized during a monitoring period and unable to use the device may not generate sufficient data days for that billing month. Billing should reflect actual compliance, not projected compliance.</li>

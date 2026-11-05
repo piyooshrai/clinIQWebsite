@@ -95,7 +95,7 @@ export default function RtmBehavioralHealthPage() {
             health RTM implementations use validated questionnaire platforms or smartphone apps
             that prompt patients to complete brief daily or weekly check-ins. The key requirements
             are that the tool captures and transmits data in a way that the practice can review,
-            that the patient uses it consistently enough to meet the 16-day threshold, and that the
+            that the patient uses it consistently enough to meet the 16-day threshold for 98978 (or at least the 2-day minimum for the 2026 short-duration code 98986), and that the
             data collected is clinically meaningful to the treating provider.
           </p>
           <p>
@@ -110,7 +110,7 @@ export default function RtmBehavioralHealthPage() {
           <h2>The Documentation Requirement</h2>
           <p>
             Documentation for behavioral health RTM follows the same framework as other RTM
-            specialties: enrollment consent and plan, evidence of 16-day data collection, clinical
+            specialties: enrollment consent and plan, evidence of data collection days, clinical
             review notes, and time tracking for treatment management services. The clinical review
             note for behavioral health RTM should reflect that the practitioner or clinical staff
             reviewed the monitoring data, interpreted it in the context of the patient&rsquo;s

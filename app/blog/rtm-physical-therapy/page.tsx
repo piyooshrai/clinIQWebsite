@@ -81,20 +81,20 @@ export default function RtmPhysicalTherapyPage() {
             addressable before they compound.
           </p>
           <p>
-            For billing purposes, the monitoring must be active for at least 16 of the 30 days in
+            For the full-month device supply code (98977), the monitoring must be active for at least 16 of the 30 days in
             the billing period. This means the patient needs to engage with the monitoring platform
             on at least 16 days &mdash; which, for a home exercise program where patients are
             exercising 5 to 6 days per week, is typically achievable without significant additional
-            burden.
+            burden. Since January 1, 2026, a month with only 2 to 15 days of data is still billable under the short-duration code 98985 rather than 98977.
           </p>
 
           <h2>The 20-Minute Interaction Requirement</h2>
           <p>
-            The core billing threshold for RTM treatment management is 20 minutes of time spent by
+            The core billing threshold for the primary RTM treatment management code (98980) is 20 minutes of time spent by
             clinical staff or the practitioner on RTM services for a given patient in a calendar
             month. This 20-minute threshold covers data review, clinical decision-making about the
             monitored data, and communication with the patient or their caregiver about the monitoring
-            findings.
+            findings. Since January 1, 2026, a month with 10 to 19 minutes and at least one real-time interaction can be billed under CPT 98979 instead.
           </p>
           <p>
             For a PT practice with an active patient panel, 20 minutes per patient per month is
@@ -122,10 +122,10 @@ export default function RtmPhysicalTherapyPage() {
           <p>
             RTM documentation for PT practices needs to establish four things in the medical record.
             First, enrollment: the patient consent, the diagnosis, and the monitoring plan. Second,
-            data receipt: evidence that the patient transmitted data on at least 16 days during the
+            data receipt: evidence of the days the patient transmitted data (16 or more for 98977, 2 to 15 for 98985) during the
             billing period. Third, clinical review: notes reflecting that the transmitted data was
             reviewed and clinically interpreted. Fourth, interaction time: a log of the time spent
-            on RTM services during the billing period, supporting the 20-minute minimum.
+            on RTM services during the billing period, supporting the 20-minute minimum for 98980 (or 10 to 19 minutes for 98979).
           </p>
           <p>
             The clinical review note does not need to be extensive. A brief notation &mdash; &ldquo;Reviewed

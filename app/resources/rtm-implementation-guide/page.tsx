@@ -95,7 +95,7 @@ const content = (
             <tr>
               <td>16-day data threshold tracking</td>
               <td>Does the platform alert you when patients hit 16 days of data?</td>
-              <td>CPT 98977/98978 requires 16 days of data per 30-day period</td>
+              <td>CPT 98977/98978 requires 16 days of data per 30-day period; 2–15 days bills 98985/98986 (2026)</td>
             </tr>
             <tr>
               <td>EHR integration</td>
@@ -151,7 +151,7 @@ const content = (
           <div className={s.stepBody}>
             <p className={s.stepTitle}>16-Day Compliance Evidence</p>
             <p className={s.stepDesc}>
-              The platform must generate a data log showing the patient transmitted data on at least 16 of the 30 days in the billing period. This log — with timestamps — is your primary audit defense. Do not bill CPT 98977 or 98978 unless this log confirms 16 days. Your platform should auto-generate this report.
+              The platform must generate a data log showing the patient transmitted data on at least 16 of the 30 days in the billing period. This log — with timestamps — is your primary audit defense. Do not bill CPT 98977 or 98978 unless this log confirms 16 days. Your platform should auto-generate this report. Since January 1, 2026, a log showing 2–15 days supports the short-duration codes 98985 or 98986 instead.
             </p>
           </div>
         </li>

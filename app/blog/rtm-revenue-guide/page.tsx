@@ -52,8 +52,8 @@ export default function RTMRevenuePage() {
           <ul>
             <li><strong>CPT 98975</strong> — Remote therapeutic monitoring setup and patient education. Billed once per episode of care. This covers onboarding the patient to the monitoring program.</li>
             <li><strong>CPT 98976</strong> — Device supply with scheduled (e.g., daily) recording for respiratory system. Monthly supply code.</li>
-            <li><strong>CPT 98977</strong> — Device supply with scheduled recording for musculoskeletal system. Monthly supply code. This is the most commonly applicable code for PT, ortho, and pain management practices.</li>
-            <li><strong>CPT 98980</strong> — Treatment management services, first 20 minutes of clinical staff time per calendar month. This is the primary ongoing billing code — requires 20 minutes documented per month per patient.</li>
+            <li><strong>CPT 98977</strong> — Device supply with scheduled recording for musculoskeletal system. Monthly supply code. This is the most commonly applicable code for PT, ortho, and pain management practices. Requires 16–30 days of data; since January 1, 2026, a period with 2–15 days is billed under CPT 98984 (respiratory) or 98985 (musculoskeletal) instead.</li>
+            <li><strong>CPT 98980</strong> — Treatment management services, first 20 minutes of clinical staff time per calendar month. This is the primary ongoing billing code — requires 20 minutes documented per month per patient. Since January 1, 2026, a month with 10–19 minutes and at least one real-time interaction is billed under CPT 98979 instead.</li>
             <li><strong>CPT 98981</strong> — Treatment management services, each additional 20 minutes per calendar month. Can be billed in addition to 98980 when time is documented.</li>
           </ul>
           <p>
@@ -111,8 +111,8 @@ export default function RTMRevenuePage() {
             <li>Identify eligible patients in your current panel — start with musculoskeletal and respiratory if you have them.</li>
             <li>Enroll patients with documented consent and bill 98975 for setup. One per episode.</li>
             <li>Establish a monthly monitoring workflow — who touches the patient record, what they document, how time is recorded.</li>
-            <li>Bill 98977 (or 98976) monthly for the supply component.</li>
-            <li>Bill 98980 when 20 minutes of clinical staff time is documented. Add 98981 if you reach the second 20 minutes.</li>
+            <li>Bill 98977 (or 98976) monthly for the supply component when the patient has 16+ days of data; bill 98985 (or 98984) for 2–15 days.</li>
+            <li>Bill 98980 when 20 minutes of clinical staff time is documented. Add 98981 if you reach the second 20 minutes. For 10–19 minutes with a real-time interaction, bill 98979 instead.</li>
             <li>Audit quarterly — review documentation, confirm billing accuracy, check denial rates by payer.</li>
           </ol>
           <p>
@@ -181,7 +181,7 @@ export default function RTMRevenuePage() {
             week or two, tapering in weeks three and four as the novelty wears off. A patient who
             logs daily in week one and every other day in week two may reach day 20 with only 11
             to 12 days of data logged &mdash; well short of the 16-day threshold. Without an
-            active re-engagement effort, that patient does not generate billable 98977 revenue for
+            active re-engagement effort, that patient falls to the 2026 short-duration code 98985 (2 to 15 days) instead of 98977 for
             the month.
           </p>
           <p>
@@ -189,8 +189,8 @@ export default function RTMRevenuePage() {
             patient falls behind on logging, a brief reminder call when a patient is on track to
             miss the threshold &mdash; maintain 16-day compliance rates of 85 to 90 percent across
             their enrolled panels. Practices that do not typically see compliance rates of 60 to 70
-            percent, losing 30 to 40 percent of potential device supply revenue to patients who were
-            enrolled but not meeting the threshold.
+            percent, giving up full-month device supply revenue on the 30 to 40 percent of patients who were
+            enrolled but not meeting the threshold. Since January 1, 2026, those patients can still be billed under 98984, 98985, or 98986 if they logged 2 to 15 days, but only for the short-duration code, not the full-month one.
           </p>
 
           <h2>RTM as a Clinical Quality Improvement Tool</h2>

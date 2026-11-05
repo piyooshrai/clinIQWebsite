@@ -93,7 +93,7 @@ export default function RtmImplementationMistakesPage() {
             is enrolled and the monitoring is active, data is being transmitted. In reality, patients
             miss days, forget to log, or disengage from the monitoring tool for stretches of time
             without the practice knowing. Claims for 98977 submitted without confirming the 16-day
-            threshold are improperly billed and may require repayment with interest in an audit.
+            threshold are improperly billed and may require repayment with interest in an audit. Since January 1, 2026, a patient with 2 to 15 days of data is billed under the short-duration codes 98985 or 98986 instead, so the day count decides which code applies, not just whether to bill.
           </p>
           <p>
             The fix is a real-time compliance dashboard. Every RTM patient should have a visible
@@ -124,7 +124,7 @@ export default function RtmImplementationMistakesPage() {
             The fix is a billing checklist that runs at the start of each patient&rsquo;s first
             RTM billing month and at the start of each subsequent month. The checklist confirms:
             Is this the enrollment month? Bill 98975. Is 16-day data threshold met? Bill 98977
-            or 98978. Is 20 minutes of treatment management documented? Bill 98980. Is more than
+            or 98978 (2 to 15 days: bill 98985 or 98986 instead). Is 20 minutes of treatment management documented? Bill 98980 (10 to 19 minutes with a real-time interaction: bill 98979 instead). Is more than
             20 minutes documented? Bill 98981 for each additional increment. Systematic use of the
             checklist eliminates the revenue leakage from missed codes.
           </p>
@@ -216,7 +216,7 @@ export default function RtmImplementationMistakesPage() {
             participating in RTM &mdash; they simply stop logging data as consistently as they did
             initially. The practice that is not actively monitoring per-patient data transmission will
             not notice the dropout until the end of the month, when the 16-day threshold has already
-            been missed and the device supply code cannot be billed.
+            been missed and the full-month device supply code cannot be billed.
           </p>
           <p>
             Re-engagement is far more effective than replacement. A patient who was engaged and drifted

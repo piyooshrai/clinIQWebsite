@@ -87,7 +87,7 @@ const content = (
 
     <div className={s.section}>
       <h2 className={s.sectionH2}>16-Day Data Transmission Rule</h2>
-      <p className={s.p}>Device supply codes (98976, 98977, 98978) require that the patient transmit data on at least 16 separate days within the calendar month. This does not mean 16 consecutive days — it is 16 separate calendar days. Data submitted twice in one day counts as one day.</p>
+      <p className={s.p}>Device supply codes (98976, 98977, 98978) require that the patient transmit data on at least 16 separate days within the calendar month. This does not mean 16 consecutive days — it is 16 separate calendar days. Data submitted twice in one day counts as one day. Since January 1, 2026, a period with 2–15 days of data is billed under the short-duration codes 98984 (respiratory), 98985 (musculoskeletal), or 98986 (cognitive behavioral therapy); fewer than 2 days is not billable. These cannot be reported with their full-month counterparts (98984 with 98976, 98985 with 98977, 98986 with 98978). Also new for 2026: CPT 98979 covers 10–19 minutes of treatment management in a calendar month with at least one real-time interaction, and is not reported with 98980 or 98981.</p>
       <div className={s.infoBox}>
         <p className={s.infoBoxText}><strong>What counts as a day of transmission:</strong> Any structured data entry through the RTM platform — pain scores, mood ratings, exercise logs, symptom reports, medication adherence logs. Passive wearable data (steps, heart rate) counts when collected through the RTM app as a scheduled recording. Unsolicited patient messages do not count unless they contain structured health data through the RTM system.</p>
       </div>

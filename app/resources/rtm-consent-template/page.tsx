@@ -171,7 +171,7 @@ const content = (
         </table>
       </div>
       <p className={s.p}>
-        <strong>16-Day Threshold:</strong> RTM management codes (98980/98981) require that you submit monitoring data on at least 16 of 30 days in a billing period. If you submit fewer than 16 days of data, [CLINIC NAME] will not bill for management services for that period.
+        <strong>16-Day Threshold:</strong> RTM device supply is billed under a full-month code when you submit monitoring data on at least 16 of 30 days in a billing period, and under a short-duration code when you submit data on 2 to 15 days. If you submit data on fewer than 2 days, [CLINIC NAME] will not bill for device supply for that period.
       </p>
       <p className={s.p}>
         <strong>Cost-Sharing:</strong> Like other medical services, RTM may be subject to your deductible, copayment, or coinsurance. Your estimated out-of-pocket cost per month is approximately [ESTIMATED AMOUNT], subject to your specific plan benefits. Contact [BILLING CONTACT NAME] at [PHONE NUMBER] with billing questions.

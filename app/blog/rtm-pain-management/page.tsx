@@ -138,7 +138,7 @@ export default function RtmPainManagementPage() {
             Pain management RTM documentation must establish that a qualifying musculoskeletal
             condition is under active management, that the patient was enrolled in RTM with informed
             consent, that a monitoring device or software was supplied, that data was collected for
-            at least 16 days in the billing period, and that clinical staff spent at least 20 minutes
+            at least 16 days in the billing period (2 to 15 days for the 2026 short-duration code 98985), and that clinical staff spent at least 20 minutes (10 to 19 minutes for 98979)
             reviewing data and managing the patient&rsquo;s care based on that data.
           </p>
           <p>

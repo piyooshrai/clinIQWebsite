@@ -16,7 +16,7 @@
     ]
   },
   "publishDate": "2025-10-22",
-  "updatedDate": "2025-10-22",
+  "updatedDate": "2026-11-05",
   "author": "clinIQ Team",
   "hero": {
     "h1": "Respiratory RTM for Pulmonology: COPD and Asthma",
@@ -37,11 +37,11 @@
     },
     {
       "h2": "RTM Code Selection and Billing for Pulmonology",
-      "body": "Pulmonology RTM billing uses the same **CPT 98975-98981** code set as other RTM specialties, but the specific codes appropriate for respiratory monitoring require careful selection based on what type of data is being monitored.\n\n**CPT 98975** — Initial device supply and patient education. Billed once per episode of care when the patient is onboarded to the RTM platform. ~$19 reimbursement.\n\n**CPT 98977** — Remote therapeutic monitoring of musculoskeletal system, 16+ days of data. Despite the \"musculoskeletal\" label in CMS coding language, 98977 covers **non-physiologic data monitoring** including functional status, pain, and medication adherence — which encompasses COPD and asthma symptom monitoring and inhaler adherence tracking. Confirm with your compliance team and MAC that 98977 is appropriate for your specific monitoring program. ~$48/month.\n\n**Important distinction**: **SpO2 (oxygen saturation) monitoring** is a physiologic measure and is not billable under RTM codes — it falls under remote patient monitoring (RPM) codes 99453-99458. Practices that monitor SpO2 alongside symptom data should bill 99454 (device supply/transmission, RPM) and 99457 (RPM management) for the SpO2 component, and 98977 for the symptom/adherence component. Consult your compliance team on billing both code families for the same patient in the same month.\n\n**CPT 98980** — Treatment management, first 20 minutes of physician or QHP time reviewing RTM data and making clinical decisions. ~$50/month. This is the most critical billing code — it represents the physician's clinical work of reviewing symptom trends, responding to alerts, and making treatment decisions based on the data.\n\n**CPT 98981** — Additional 20 minutes of treatment management. ~$41/month. Applicable when a patient's complex exacerbation trajectory or medication management requires extended provider review time in the month.\n\n**Billing requirements recap:** 16+ days of patient data transmission (for 98977); at least 20 minutes of documented QHP or physician review and management time per month (for 98980); physician order preceding enrollment; consent documented; device or app supplied to patient. The 16-day threshold is the most common compliance failure — track transmission days per patient monthly and reach out to non-transmitting patients before the month ends."
+      "body": "Pulmonology RTM billing uses the same **CPT 98975-98981** code set as other RTM specialties, but the specific codes appropriate for respiratory monitoring require careful selection based on what type of data is being monitored.\n\n**CPT 98975** — Initial device supply and patient education. Billed once per episode of care when the patient is onboarded to the RTM platform. ~$19 reimbursement.\n\n**CPT 98976** — Remote therapeutic monitoring of the respiratory system, 16+ days of data in a 30-day period. This is the device-supply code for COPD and asthma programs: symptom tracking, inhaler and medication adherence, and functional status. ~$52/month (approximate 2026 national average; confirm with your MAC).\n\n**Important distinction**: **SpO2 (oxygen saturation) monitoring** is a physiologic measure and is not billable under RTM codes — it falls under remote patient monitoring (RPM) codes 99453-99458. Practices that monitor SpO2 alongside symptom data should bill 99454 (device supply/transmission, RPM) and 99457 (RPM management) for the SpO2 component, and 98976 for the symptom/adherence component. Consult your compliance team on billing both code families for the same patient in the same month.\n\n**CPT 98980** — Treatment management, first 20 minutes of physician or QHP time reviewing RTM data and making clinical decisions. ~$50/month. This is the most critical billing code — it represents the physician's clinical work of reviewing symptom trends, responding to alerts, and making treatment decisions based on the data.\n\n**CPT 98981** — Additional 20 minutes of treatment management. ~$41/month. Applicable when a patient's complex exacerbation trajectory or medication management requires extended provider review time in the month.\n\n**Billing requirements recap:** 16+ days of patient data transmission (for 98976); at least 20 minutes of documented QHP or physician review and management time per month (for 98980); physician order preceding enrollment; consent documented; device or app supplied to patient. The 16-day threshold is the most common compliance failure — track transmission days per patient monthly and reach out to non-transmitting patients before the month ends. Since January 1, 2026, months that fall short are still billable at a reduced level: 2–15 days of data under the short-duration respiratory code 98984 instead of 98976, and 10–19 minutes of management time under CPT 98979."
     },
     {
       "h2": "Revenue Math: COPD and Asthma RTM for a Pulmonology Practice",
-      "body": "Building the revenue model for a **pulmonology practice with 100 patients enrolled in a COPD/asthma RTM program** (mix: 65 COPD, 35 asthma), using 2025 Medicare national non-facility rates:\n\n**Monthly RTM Revenue (100 patients):**\n- CPT 98977 (16+ days symptom/adherence monitoring): $48.00 × 100 = **$4,800/month**\n- CPT 98980 (first 20 min QHP review): $50.00 × 100 = **$5,000/month**\n- CPT 98981 (additional 20 min, 30% of patients — complex exacerbation trajectories): $41.00 × 30 = **$1,230/month**\n- CPT 98975 (device setup, ~4 new enrollees/month): $19.00 × 4 = **$76/month**\n\n**Monthly RTM subtotal: $11,106 / Annual: $133,272**\n\nFor practices also enrolling eligible patients in **CCM** (patients with COPD + one or more other chronic conditions = most COPD patients):\n- CPT 99490 (CCM, 20+ min clinical staff time): $62.00 × 70 dual-eligible patients = **$4,340/month**\n- CPT 99439 (add-on, 40% of dual patients reaching 40+ min): $47.00 × 28 = **$1,316/month**\n\n**CCM additional monthly: $5,656 / Annual: $67,872**\n\n**Combined RTM + CCM annual gross revenue: $201,144** for 100 RTM patients + 70 CCM dual-enrolled.\n\nProgram costs: RTM platform ($10-13/patient/month × 100 = $12,000-$15,600/year) + respiratory nurse coordinator (0.4 FTE at $70,000 salary = $28,000/year). Net contribution: **$157,544-$161,144/year**.\n\nNon-financial value: a COPD patient whose exacerbation is detected via RTM and treated with a prednisone burst + antibiotic outpatient ($85 medication cost) instead of an ER visit + hospitalization ($39,200 average) represents enormous value to the payer and to the patient. Practices in value-based arrangements with shared savings components should quantify this prevention value explicitly in their payer negotiations."
+      "body": "Building the revenue model for a **pulmonology practice with 100 patients enrolled in a COPD/asthma RTM program** (mix: 65 COPD, 35 asthma), using approximate Medicare national non-facility rates (confirm current rates with your MAC):\n\n**Monthly RTM Revenue (100 patients):**\n- CPT 98976 (16+ days symptom/adherence monitoring): $52.00 × 100 = **$5,200/month**\n- CPT 98980 (first 20 min QHP review): $50.00 × 100 = **$5,000/month**\n- CPT 98981 (additional 20 min, 30% of patients — complex exacerbation trajectories): $41.00 × 30 = **$1,230/month**\n- CPT 98975 (device setup, ~4 new enrollees/month): $19.00 × 4 = **$76/month**\n\n**Monthly RTM subtotal: $11,506 / Annual: $138,072**\n\nFor practices also enrolling eligible patients in **CCM** (patients with COPD + one or more other chronic conditions = most COPD patients):\n- CPT 99490 (CCM, 20+ min clinical staff time): $62.00 × 70 dual-eligible patients = **$4,340/month**\n- CPT 99439 (add-on, 40% of dual patients reaching 40+ min): $47.00 × 28 = **$1,316/month**\n\n**CCM additional monthly: $5,656 / Annual: $67,872**\n\n**Combined RTM + CCM annual gross revenue: $205,944** for 100 RTM patients + 70 CCM dual-enrolled.\n\nProgram costs: RTM platform ($10-13/patient/month × 100 = $12,000-$15,600/year) + respiratory nurse coordinator (0.4 FTE at $70,000 salary = $28,000/year). Net contribution: **$162,344-$165,944/year**.\n\nNon-financial value: a COPD patient whose exacerbation is detected via RTM and treated with a prednisone burst + antibiotic outpatient ($85 medication cost) instead of an ER visit + hospitalization ($39,200 average) represents enormous value to the payer and to the patient. Practices in value-based arrangements with shared savings components should quantify this prevention value explicitly in their payer negotiations."
     },
     {
       "h2": "Exacerbation Early Detection: Clinical Response Protocols",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Pulmonary Function Testing Scheduling", "href": "/blog/pulmonary-function-testing-scheduling" },
-    { "title": "Pulmonology Patient Flow Management", "href": "/blog/pulmonology-patient-flow-management" }
+    {
+      "title": "Pulmonary Function Testing Scheduling",
+      "href": "/blog/pulmonary-function-testing-scheduling"
+    },
+    {
+      "title": "Pulmonology Patient Flow Management",
+      "href": "/blog/pulmonology-patient-flow-management"
+    }
   ],
   "pillarLink": {
     "title": "Pulmonology Practice Software",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Detect COPD Exacerbations Before the ER Visit",
     "subhead": "clinIQ's respiratory RTM program can be live for your highest-risk COPD and asthma patients within 30 days.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

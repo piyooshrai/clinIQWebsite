@@ -44,7 +44,7 @@ clinIQ enables independent clinics to operate with the same infrastructure as Ac
   - 98980: Treatment management, first 20 minutes
   - 98981: Treatment management, each additional 20 minutes
 - Revenue potential: $100-164 per patient per month
-- 16-day minimum data collection requirement for device codes
+- 16-day minimum data collection requirement for the full-month device codes (98976-98978); since January 1, 2026, 2-15 days is billable under 98984/98985/98986 and 10-19 minutes of management under 98979
 - Interactive communication required for 98980/98981
 
 #### Pre-Authorization

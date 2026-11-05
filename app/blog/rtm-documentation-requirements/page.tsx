@@ -42,9 +42,9 @@ export default function RtmDocumentationRequirementsPage() {
             RTM denials cluster around four documentation gaps. First, missing or incomplete patient
             consent. The payer has no evidence that the patient agreed to the monitoring program
             before services began. Second, insufficient data collection evidence. The claim cannot
-            demonstrate that the patient transmitted data on at least 16 days in the billing period.
+            demonstrate how many days the patient transmitted data in the billing period (16 or more for the full-month device codes, 2 to 15 for the 2026 short-duration codes).
             Third, missing treatment management documentation. There is no record showing that
-            clinical staff spent 20 minutes or more on RTM services in the billing period. Fourth,
+            clinical staff spent the required time on RTM services in the billing period (20 minutes for 98980, or 10 to 19 minutes for 98979). Fourth,
             inadequate clinical review notes. Data was collected but there is no evidence anyone
             reviewed it meaningfully.
           </p>
@@ -69,13 +69,13 @@ export default function RtmDocumentationRequirementsPage() {
             software tool was supplied, that the patient transmitted data on at least 16 days
             during the billing period, and the dates of that transmission. The 16-day threshold
             is the single most critical documentation element for these codes. Without evidence
-            of 16-day compliance, the claim is not properly supported.
+            of 16-day compliance, the claim is not properly supported. Since January 1, 2026, periods with 2 to 15 days of data are billed under the short-duration codes 98984, 98985, and 98986 instead, and need the same transmission-date evidence.
           </p>
           <p>
             CPT 98980 (first 20 minutes of treatment management) requires documentation of the
             clinical staff member or practitioner who performed the service, the date and duration
             of each RTM service activity, and a description of the clinical activity performed.
-            The total time documented must meet or exceed 20 minutes in the billing period. Time
+            The total time documented must meet or exceed 20 minutes in the billing period. Since January 1, 2026, a month with 10 to 19 minutes and at least one real-time interaction is billed under CPT 98979 instead; 98979 is not reported with 98980 or 98981. Time
             recorded in round numbers (&ldquo;30 minutes&rdquo; with no further detail) is a
             common audit flag &mdash; time documentation should reflect what actually happened,
             including start and end times where possible.
