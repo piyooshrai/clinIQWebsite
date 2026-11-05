@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   padding: 9rem 48px var(--space-hero-bottom);
-  background: var(--black);
+  background: #011d2a;
   position: relative;
   overflow: hidden;
 }
@@ -25,49 +25,6 @@
 .content {
   flex: 0 0 50%;
   min-width: 0;
-}
-
-/* Gradient orbs */
-.orb {
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(120px);
-  opacity: 0.5;
-  animation: float 20s ease-in-out infinite;
-}
-
-.orb1 {
-  width: 600px;
-  height: 600px;
-  background: linear-gradient(135deg, #0d9488 0%, #0891b2 100%);
-  top: -200px;
-  right: -100px;
-  animation-delay: 0s;
-}
-
-.orb2 {
-  width: 400px;
-  height: 400px;
-  background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
-  bottom: -100px;
-  left: 10%;
-  animation-delay: -5s;
-}
-
-.orb3 {
-  width: 300px;
-  height: 300px;
-  background: linear-gradient(135deg, #14b8a6 0%, #06b6d4 100%);
-  top: 40%;
-  left: -100px;
-  animation-delay: -10s;
-}
-
-@keyframes float {
-  0%, 100% { transform: translate(0, 0) scale(1); }
-  25%       { transform: translate(30px, -30px) scale(1.05); }
-  50%       { transform: translate(-20px, 20px) scale(0.95); }
-  75%       { transform: translate(20px, 10px) scale(1.02); }
 }
 
 /* .container kept for reference — replaced by .layout + .content */
@@ -189,185 +146,6 @@
   background: rgba(255, 255, 255, 0.05);
 }
 
-/* Quick inquiry form */
-/* Dashboard visual — right column, in-flow */
-.visual {
-  flex: 1 1 0;
-  min-width: 0;
-  opacity: 0;
-  animation: fadeInUp 1.2s 0.4s both;
-}
-
-.dashboard {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 24px;
-  padding: 24px;
-  backdrop-filter: blur(40px);
-  box-shadow:
-    0 32px 64px rgba(0, 0, 0, 0.4),
-    inset 0 1px 0 rgba(255, 255, 255, 0.05);
-}
-
-.dashHeader {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 20px;
-  padding-bottom: 16px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-}
-
-.dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-}
-
-.dotRed    { background: #ef4444; }
-.dotYellow { background: #f59e0b; }
-.dotGreen  { background: #22c55e; }
-
-.dashStats {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
-  margin-bottom: 20px;
-}
-
-.statCard {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  border-radius: 12px;
-  padding: 16px;
-}
-
-.statValue {
-  font-family: var(--font-serif), Georgia, serif;
-  font-size: 28px;
-  color: var(--white);
-  margin-bottom: 4px;
-}
-
-.statValue.teal { color: var(--teal-light); }
-.statValue.blue { color: #60a5fa; }
-
-.statLabel {
-  font-size: 11px;
-  color: var(--gray-400);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.queue {
-  background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  border-radius: 16px;
-  padding: 16px;
-}
-
-.queueHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 16px;
-}
-
-.queueTitle {
-  font-size: 13px;
-  font-weight: 500;
-  color: var(--white);
-}
-
-.queueLive {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 11px;
-  color: var(--teal-light);
-}
-
-.liveDot {
-  width: 6px;
-  height: 6px;
-  background: var(--teal-light);
-  border-radius: 50%;
-  animation: blink 2s infinite;
-}
-
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50%       { opacity: 0.4; }
-}
-
-.queueItems {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.queueItem {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 12px 16px;
-  background: rgba(255, 255, 255, 0.02);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.04);
-}
-
-.queuePatient {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.avatar {
-  width: 32px;
-  height: 32px;
-  background: linear-gradient(135deg, var(--teal) 0%, var(--blue) 100%);
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--white);
-}
-
-.patientName {
-  font-size: 13px;
-  font-weight: 500;
-  color: var(--white);
-}
-
-.patientDept {
-  font-size: 11px;
-  color: var(--gray-400);
-}
-
-.statusBadge {
-  padding: 6px 12px;
-  border-radius: 100px;
-  font-size: 11px;
-  font-weight: 500;
-}
-
-.statusProvider {
-  background: rgba(34, 197, 94, 0.15);
-  color: #4ade80;
-}
-
-.statusIntake {
-  background: rgba(96, 165, 250, 0.15);
-  color: #60a5fa;
-}
-
-.statusWaiting {
-  background: rgba(245, 158, 11, 0.15);
-  color: #fbbf24;
-}
-
 /* Scroll indicator */
 .scrollIndicator {
   position: absolute;
@@ -412,9 +190,38 @@
   0%   { top: 0;    opacity: 1; }
   100% { top: 100%; opacity: 0; }
 }
+/* Photo: a panel on the right that fades in behind the text column */
+.media {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 56%;
+  z-index: 0;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 38%);
+  mask-image: linear-gradient(90deg, transparent 0%, #000 38%);
+}
+
+.mediaImage {
+  object-fit: cover;
+  /* Keeps her in the middle of the panel at any hero height */
+  object-position: 66.5% center;
+}
+
+/* Arabic reads right to left: the panel moves left and the photo mirrors */
+:global(html[dir='rtl']) .media {
+  right: auto;
+  left: 0;
+  -webkit-mask-image: linear-gradient(270deg, transparent 0%, #000 38%);
+  mask-image: linear-gradient(270deg, transparent 0%, #000 38%);
+}
+
+:global(html[dir='rtl']) .mediaImage {
+  transform: scaleX(-1);
+}
 
 /* Responsive */
-@media (max-width: 1200px) {
+@media (max-width: 1279px) {
   .layout { gap: 2.5rem; }
   .content { flex: 0 0 55%; }
 }
@@ -422,18 +229,51 @@
 @media (max-width: 900px) {
   .layout  { flex-direction: column; align-items: flex-start; }
   .content { flex: none; width: 100%; }
-  .visual  { width: 100%; max-width: 560px; }
   .title   { max-width: 100%; }
+
+  /* Photo becomes its own block under the buttons */
+  .media,
+  :global(html[dir='rtl']) .media {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    max-width: 640px;
+    aspect-ratio: 4 / 3;
+    order: 2;
+    margin-top: 2.5rem;
+    border-radius: 16px;
+    overflow: hidden;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  /* Zoom in on her: the left of the photo is empty dark space */
+  /* Anchors centre her in a 4:3 frame (worked out from where she sits in the photo) */
+  .mediaImage {
+    object-position: center;
+    transform: scale(1.7);
+    transform-origin: 95% 46%;
+  }
+
+  :global(html[dir='rtl']) .mediaImage {
+    transform: scale(-1.7, 1.7);
+    transform-origin: 61.7% 46%;
+  }
 }
 
 @media (max-width: 768px) {
   .hero   { padding: 8rem 24px var(--space-hero-bottom); }
   .ctaRow { flex-direction: column; align-items: flex-start; }
-  .visual { display: none; }
+  .scrollIndicator { display: none; }
 }
 
-@media (max-width: 768px) {
-  .scrollIndicator {
-    display: none;
+@media (max-width: 600px) {
+  .media,
+  :global(html[dir='rtl']) .media {
+    aspect-ratio: 1 / 1;
   }
+
+  /* Same centring for the square frame */
+  .mediaImage { transform-origin: 110% 46%; }
+  :global(html[dir='rtl']) .mediaImage { transform-origin: 65.6% 46%; }
 }

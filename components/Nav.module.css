@@ -632,3 +632,10 @@
     display: none;
   }
 }
+
+/* Longer menus (Spanish) need the room: the phone link returns at 1280px */
+@media (max-width: 1279px) {
+  .contactLink[href^="tel:"] {
+    display: none;
+  }
+}

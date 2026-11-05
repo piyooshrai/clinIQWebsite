@@ -206,19 +206,7 @@
     "requestDemo": "Request Demo",
     "seeHowItWorks": "See How It Works",
     "scroll": "Scroll",
-    "dashboard": {
-      "inClinic": "In Clinic",
-      "waiting": "Waiting",
-      "completed": "Completed",
-      "avgWait": "Avg Wait",
-      "queue": "Patient Queue",
-      "live": "Live",
-      "general": "General",
-      "addiction": "Addiction",
-      "urology": "Urology",
-      "withProvider": "With Provider",
-      "intake": "Intake"
-    }
+    "imageAlt": "Nurse smiling at a tablet in a clinic reception area"
   },
   "features": {
     "badge": "Core Workflow",

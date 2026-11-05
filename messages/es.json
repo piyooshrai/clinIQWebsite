@@ -206,19 +206,7 @@
     "requestDemo": "Solicitar demo",
     "seeHowItWorks": "Vea cómo funciona",
     "scroll": "Desplazar",
-    "dashboard": {
-      "inClinic": "En la clínica",
-      "waiting": "En espera",
-      "completed": "Completadas",
-      "avgWait": "Espera prom.",
-      "queue": "Fila de pacientes",
-      "live": "En vivo",
-      "general": "General",
-      "addiction": "Adicciones",
-      "urology": "Urología",
-      "withProvider": "Con profesional",
-      "intake": "Admisión"
-    }
+    "imageAlt": "Enfermera sonriendo mientras usa una tableta en la recepción de una clínica"
   },
   "features": {
     "badge": "Flujo de trabajo principal",

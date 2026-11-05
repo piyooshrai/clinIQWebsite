@@ -43,7 +43,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   const tc = await getTranslations('common')
 
   return (
-    <html lang={locale} className={instrumentSerif.variable} suppressHydrationWarning>
+    <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} className={instrumentSerif.variable} suppressHydrationWarning>
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <GoogleAnalytics />
