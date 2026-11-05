@@ -5,8 +5,8 @@
   "wordCount": 3300,
   "publishDate": "2025-06-11",
   "meta": {
-    "title": "Patient Satisfaction Survey Software | NPS, CAHPS",
-    "description": "Complete guide to patient satisfaction measurement. Automated post-visit surveys. NPS and CAHPS tracking. Real-time score dashboards. Provider-level feedback. Identify detractors before they leave.",
+    "title": "Patient Satisfaction Survey Software for Clinics",
+    "description": "Automated post-visit patient satisfaction surveys with NPS and CAHPS-style scoring, provider-level feedback and real-time dashboards to improve scores.",
     "keywords": [
       "patient satisfaction software",
       "patient satisfaction survey",
@@ -119,6 +119,10 @@
     }
   ],
   "faqs": [
+    {
+      "q": "How can a clinic improve its patient satisfaction scores?",
+      "a": "Measure after every visit, not once a year; break scores down by provider, location and visit step; and close the loop with detractors within a day. Most low scores trace back to wait times and communication, so pairing survey data with patient flow data shows exactly which step to fix."
+    },
     {
       "q": "What response rate should we expect?",
       "a": "Practices using automated delivery through the [clinIQ app](/features/patient-app) and text messaging typically achieve thirty to forty percent response rates. Push notification through the app achieves the highest rates, often exceeding forty percent. The combination of automated timing, frictionless access, and brief surveys maximizes response."

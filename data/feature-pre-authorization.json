@@ -5,8 +5,8 @@
   "wordCount": 4100,
   "publishDate": "2025-04-09",
   "meta": {
-    "title": "AI Automated Prior Authorization Software - clinIQ",
-    "description": "Automate prior authorization with AI. Generate LOMN in 5 min, reduce denials 90%+, track authorizations real-time. Achieve first-submission approval rates.",
+    "title": "Prior Authorization Software & Expiration Tracking",
+    "description": "Automate prior authorizations and never miss an expiration. clinIQ tracks every auth, alerts staff before it lapses, queues renewals and flags denials.",
     "keywords": [
       "prior authorization software",
       "automated prior authorization software",
@@ -26,24 +26,60 @@
     ]
   },
   "hero": {
-    "h1": "Prior Authorization Software",
+    "h1": "Prior Authorization Software That Never Lets an Auth Lapse",
     "subhead": "Generate LOMN in five minutes instead of thirty. Track every prior authorization from submission through approval and expiration. Prevent denials through pre-submission verification. Manage appeals systematically when denials occur. Achieve 90%+ first-submission approval rates with automated prior authorization software.",
     "stats": [
-      { "value": "5 min", "label": "LOMN generation" },
-      { "value": "90%+", "label": "first-submission approval" },
-      { "value": "Zero", "label": "lost or expired authorizations" }
+      {
+        "value": "5 min",
+        "label": "LOMN generation"
+      },
+      {
+        "value": "90%+",
+        "label": "first-submission approval"
+      },
+      {
+        "value": "Zero",
+        "label": "lost or expired authorizations"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "auth-problem", "title": "The Authorization Problem" },
-    { "id": "lomn-generation", "title": "LOMN Generation in 5 Minutes" },
-    { "id": "auth-tracking", "title": "Automated Authorization Tracking" },
-    { "id": "denial-prevention", "title": "Denial Prevention" },
-    { "id": "appeal-management", "title": "Appeal Management" },
-    { "id": "expiration-management", "title": "Expiration Management" },
-    { "id": "staff-workflow", "title": "Staff Workflow That Scales" },
-    { "id": "implementation-roi", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "auth-problem",
+      "title": "The Authorization Problem"
+    },
+    {
+      "id": "lomn-generation",
+      "title": "LOMN Generation in 5 Minutes"
+    },
+    {
+      "id": "auth-tracking",
+      "title": "Automated Authorization Tracking"
+    },
+    {
+      "id": "denial-prevention",
+      "title": "Denial Prevention"
+    },
+    {
+      "id": "appeal-management",
+      "title": "Appeal Management"
+    },
+    {
+      "id": "expiration-management",
+      "title": "Expiration Management"
+    },
+    {
+      "id": "staff-workflow",
+      "title": "Staff Workflow That Scales"
+    },
+    {
+      "id": "implementation-roi",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -89,6 +125,26 @@
   ],
   "faqs": [
     {
+      "q": "Is there prior authorization software that reminds my practice before a prior auth expires?",
+      "a": "Yes. clinIQ tracks the expiration date and the approved visits or units for every authorization, then alerts your team on a schedule you set, for example 30, 14 and 7 days before it lapses or when only a few approved visits remain. The renewal is queued with the documentation from the original request, so staff start from a draft, not a blank form."
+    },
+    {
+      "q": "How do I automate prior authorization renewals for patients on ongoing therapy?",
+      "a": "For stable, ongoing therapy such as biologics, infusions or immunotherapy, clinIQ creates the renewal request automatically ahead of the expiration date, pre-fills it from the previous approval and the latest clinical notes, and routes it for review and submission. Patients keep getting treated without a gap in coverage."
+    },
+    {
+      "q": "How can I track prior authorization expirations across my whole patient panel?",
+      "a": "clinIQ gives you one dashboard of every active authorization across providers and payers, sorted by expiration date and remaining units. Instead of a spreadsheet, your team sees what expires this week, what is pending with the payer and what was denied, and can filter by provider, payer or therapy."
+    },
+    {
+      "q": "Can clinIQ track authorization limits such as approved visits or units?",
+      "a": "Yes. Each authorization records its approved visits, units or doses, and clinIQ counts them down as visits are scheduled and completed. Staff are alerted before the limit is reached, so a new request goes in before the patient arrives for a visit that would not be covered."
+    },
+    {
+      "q": "What prior authorization metrics should a practice track?",
+      "a": "The core metrics are approval rate on first submission, denial rate and top denial reasons by payer, turnaround time from request to decision, the number of authorizations expiring in the next 30 days, and visits delivered without a valid authorization. clinIQ reports all of them by payer, provider and procedure."
+    },
+    {
       "q": "How does automated prior authorization software reduce LOMN writing time?",
       "a": "Template-based LOMN generation auto-populates patient demographics, diagnosis codes, conservative care history, and imaging findings already documented in the system. Staff edits the populated content rather than writing from scratch, reducing LOMN preparation from thirty minutes to about five minutes per authorization."
     },
@@ -124,14 +180,29 @@
   "cta": {
     "headline": "See Automated Prior Authorization Software Live",
     "subhead": "Fifteen-minute demo showing LOMN generation, denial prevention checks, expiration alerts, and appeal management. See exactly how 90% first-submission approval rates are achievable.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Your Pre-Auth ROI", "href": "/resources/roi-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Your Pre-Auth ROI",
+      "href": "/resources/roi-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "90%+", "label": "first-submission approval" },
-      { "value": "5 min", "label": "LOMN generation time" },
-      { "value": "$100K+", "label": "annual revenue recovered" }
+      {
+        "value": "90%+",
+        "label": "first-submission approval"
+      },
+      {
+        "value": "5 min",
+        "label": "LOMN generation time"
+      },
+      {
+        "value": "$100K+",
+        "label": "annual revenue recovered"
+      }
     ],
     "testimonial": {
       "quote": "We dropped first-submission denials from 28% to under 10% in the first quarter. LOMN preparation went from thirty minutes to five. The expiration alerts alone have prevented four retro-denials that would have cost us thousands. The system pays for itself many times over.",

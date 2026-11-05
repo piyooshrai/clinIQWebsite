@@ -5,8 +5,8 @@
   "wordCount": 3100,
   "publishDate": "2025-07-23",
   "meta": {
-    "title": "Secure Messaging for Healthcare | HIPAA Compliant",
-    "description": "Complete guide to secure patient-provider messaging. HIPAA compliant chat through clinIQ app. Documented in patient record. Reduces phone tag. Enables asynchronous care communication.",
+    "title": "HIPAA Secure Patient Messaging Software",
+    "description": "HIPAA-compliant secure patient messaging for clinics: two-way texting, appointment requests, triage routing and encrypted chat, linked to your schedule.",
     "keywords": [
       "secure messaging healthcare",
       "HIPAA compliant messaging",
@@ -21,7 +21,7 @@
     ]
   },
   "hero": {
-    "h1": "Secure Messaging",
+    "h1": "HIPAA Secure Patient Messaging for Clinics",
     "subhead": "HIPAA compliant messaging between patients and care team through the clinIQ app. Patients ask questions and share updates without phone tag. Staff responds when able rather than interrupting clinical work for calls. Every message documents in the patient record automatically.",
     "stats": [
       {
@@ -119,6 +119,22 @@
     }
   ],
   "faqs": [
+    {
+      "q": "What features support appointment requests and triage workflows in HIPAA-compliant patient messaging?",
+      "a": "clinIQ turns patient messages into work items. Appointment requests can be booked or rescheduled straight from the conversation against your real schedule. Clinical questions are routed by topic and urgency to the right nurse, provider or team queue, with response-time targets and escalation if a message sits too long. Urgent keywords trigger instructions to call or seek emergency care."
+    },
+    {
+      "q": "Is clinIQ secure messaging encrypted?",
+      "a": "Yes. Messages and attachments are encrypted in transit and at rest, access is controlled by role, and every message is logged in an audit trail. clinIQ signs a Business Associate Agreement with every clinic."
+    },
+    {
+      "q": "How is clinIQ different from a standalone secure messaging app?",
+      "a": "Standalone messaging apps stop at the conversation. clinIQ connects messaging to scheduling, check-in, patient flow and RTM, so a message can book a visit, update intake, or count toward remote monitoring, and your staff work from one system instead of several."
+    },
+    {
+      "q": "Can patients message us by text without downloading an app?",
+      "a": "Yes. Patients can use two-way text messaging from their phone, or the clinIQ patient app if they prefer. Both go to the same team inbox."
+    },
     {
       "q": "Is secure messaging HIPAA compliant?",
       "a": "Yes. Messaging is encrypted in transit and at rest, access is authenticated and role-controlled, and audit logging tracks all activity. The infrastructure is designed to meet HIPAA requirements for protected health information."
