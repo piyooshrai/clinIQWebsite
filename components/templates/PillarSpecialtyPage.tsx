@@ -1,4 +1,4 @@
-import type React from 'react'
+import { Fragment, type ReactNode } from 'react'
 import Image from 'next/image'
 import { isHrefPublished } from '@/lib/blog-schedule'
 import { renderInline, renderContent } from '@/lib/renderContent'
@@ -6,6 +6,8 @@ import { buildFAQSchema } from '@/lib/schema'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
 import FaqAccordion from '@/components/FaqAccordion'
+import PillarMidCta from '@/components/PillarMidCta'
+import PillarMobileToc from '@/components/PillarMobileToc'
 import s from '@/app/specialties/specialty-full.module.css'
 import css from './PillarSpecialtyPage.module.css'
 
@@ -49,6 +51,14 @@ export interface PillarData {
     stats: readonly { value: string; label: string }[]
   }
   tableOfContents: readonly TocItem[]
+  mobileToc?: boolean
+  midCta?: {
+    afterSectionId: string
+    headline: string
+    subhead: string
+    buttonLabel: string
+    href: string
+  }
   sections: readonly PillarSection[]
   faqs: readonly { q: string; a: string }[]
   cta: {
@@ -66,7 +76,7 @@ export interface PillarData {
 
 // ── Component ─────────────────────────────────────────────────────────────────
 
-export default function PillarSpecialtyPage({ data, beforeCta }: { data: PillarData; beforeCta?: React.ReactNode }) {
+export default function PillarSpecialtyPage({ data, beforeCta }: { data: PillarData; beforeCta?: ReactNode }) {
   const faqSchema = buildFAQSchema(data.faqs)
 
   const softwareSchema = data as unknown as {
@@ -172,10 +182,11 @@ export default function PillarSpecialtyPage({ data, beforeCta }: { data: PillarD
 
         {/* ── CONTENT (TOC + SECTIONS) ── */}
         <div className={css.contentOuter}>
+          {data.mobileToc && <PillarMobileToc items={data.tableOfContents} />}
           <div className={css.contentWrapper}>
 
             {/* Left: sticky TOC */}
-            <nav aria-label="Page contents">
+            <nav aria-label="Page contents" className={`${css.tocNav} ${data.mobileToc ? css.tocNavDesktopOnly : ''}`}>
               <div className={css.toc}>
                 <span className={css.tocLabel}>In this guide</span>
                 <ul className={css.tocList}>
@@ -193,7 +204,8 @@ export default function PillarSpecialtyPage({ data, beforeCta }: { data: PillarD
             {/* Right: content sections */}
             <div className={css.sections}>
               {data.sections.map((section) => (
-                <section key={section.id} id={section.id} className={css.section}>
+                <Fragment key={section.id}>
+                <section id={section.id} className={css.section}>
                   <h2 className={css.sectionH2}>{section.h2}</h2>
                   {section.image && (
                     <figure className={css.sectionFigure}>
@@ -221,6 +233,16 @@ export default function PillarSpecialtyPage({ data, beforeCta }: { data: PillarD
                     inlineLink: css.inlineLink,
                   })}</div>
                 </section>
+                {data.midCta?.afterSectionId === section.id && (
+                  <PillarMidCta
+                    headline={data.midCta.headline}
+                    subhead={data.midCta.subhead}
+                    buttonLabel={data.midCta.buttonLabel}
+                    href={data.midCta.href}
+                    pageSlug={data.slug}
+                  />
+                )}
+                </Fragment>
               ))}
             </div>
 

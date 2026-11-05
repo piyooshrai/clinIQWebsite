@@ -280,5 +280,13 @@
       "price": "499",
       "priceCurrency": "USD"
     }
+  },
+  "mobileToc": true,
+  "midCta": {
+    "afterSectionId": "patient-queues",
+    "headline": "See this running in a clinic like yours",
+    "subhead": "A 15-minute walkthrough, configured for your specialty and EHR.",
+    "buttonLabel": "Request Demo",
+    "href": "/demo"
   }
 }
