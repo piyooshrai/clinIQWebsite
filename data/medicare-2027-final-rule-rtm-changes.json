@@ -1,0 +1,117 @@
+{
+  "slug": "medicare-2027-final-rule-rtm-changes",
+  "type": "blog",
+  "category": "RTM Billing",
+  "specialty": "feature",
+  "wordCount": 1329,
+  "meta": {
+    "title": "2027 Medicare Final Rule: What Changes for RTM Billing",
+    "description": "CMS finalized the 2027 Physician Fee Schedule on November 4. RTM is now limited to established patients, needs an initiating visit, and outsourced staff face a 2029 deadline.",
+    "keywords": [
+      "2027 physician fee schedule final rule rtm",
+      "rtm established patients 2027",
+      "rtm initiating visit",
+      "remote therapeutic monitoring 2027 changes",
+      "rpm rtm outsourcing 2029",
+      "cms 2027 final rule remote monitoring"
+    ]
+  },
+  "publishDate": "2026-11-05",
+  "updatedDate": "2026-11-05",
+  "author": "clinIQ Team",
+  "hero": {
+    "h1": "The 2027 Medicare Final Rule: What Changes for RTM",
+    "subhead": "CMS released the CY 2027 Physician Fee Schedule final rule on November 4, 2026. Three remote monitoring policies take effect January 1, and a fourth, the end of outsourced monitoring staff, now arrives in 2029. Here's what each one means for your RTM program."
+  },
+  "content": [
+    {
+      "h2": "The Short Version",
+      "body": "For calendar year 2027, CMS finalized three of its four proposed remote monitoring policies:\n\n• **RTM only for established patients.** A practice can no longer start remote therapeutic monitoring for someone it has not already been treating.\n• **A separately reportable initiating visit** is required before RPM or RTM services begin.\n• **Revalued remote monitoring codes**, which lower payment for some device-supply codes.\n\nThe fourth policy, paying for RPM and RTM only when the work is done by **clinical staff employed by the practice**, was delayed two years to **January 1, 2029**.\n\nA proposal to bundle the RPM and RTM CPT codes into four new HCPCS G-codes was not finalized. CMS said it may revisit it in future rulemaking.\n\nSource: [CMS CY 2027 Physician Fee Schedule final rule fact sheet](https://www.cms.gov/newsroom/fact-sheets/calendar-year-cy-2027-medicare-physician-fee-schedule-final-rule) and the [AHA summary](https://www.aha.org/news/headline/2026-11-04-cms-issues-cy-2027-physician-fee-schedule-final-rule)."
+    },
+    {
+      "h2": "1. RTM Is Limited to Established Patients",
+      "body": "From January 1, 2027, RTM services may be furnished only to established patients. CMS proposed this after federal oversight findings that some remote monitoring was billed for patients who had no prior relationship with the billing practice.\n\nFor most physical therapy, orthopedic, pain, behavioral health and pulmonary practices this changes little, because RTM already starts after an evaluation or an office visit. It does close off one model: enrolling patients you have never seen, often through a third-party program that recruits them.\n\nWhat to check now:\n\n• Your enrollment workflow starts after a visit, not before.\n• Any outside program that refers patients into your RTM panel only refers patients you already treat.\n• Your records show the prior visit clearly for every enrolled patient."
+    },
+    {
+      "h2": "2. An Initiating Visit Before Monitoring Begins",
+      "body": "Practitioners reporting RPM or RTM must now furnish a separately reportable initiating visit when starting these services. In practice, remote monitoring has to be discussed with the patient at a visit before billing begins.\n\nAnalyses of the final rule, such as [Prevounce's breakdown for RPM](https://blog.prevounce.com/2027-physician-fee-schedule-final-rule-whats-changing-for-rpm-what-isnt-and-what-could-still-change), describe the details: the visit can be in person or virtual, it doesn't have to be only about monitoring, and patients already enrolled before January 1, 2027 are grandfathered. Confirm how these details apply to RTM against the rule text and your Medicare Administrative Contractor's guidance.\n\nThe operational risk is simple: a patient enrolled without a documented initiating visit is a month of RTM you may not be able to bill. Make the visit part of the enrollment step itself rather than something staff remember afterward. Because clinIQ [scheduling](/features/scheduling), [check-in](/features/check-in) and [RTM billing](/features/rtm) run on one platform, the visit and the enrollment sit in the same system instead of two."
+    },
+    {
+      "h2": "3. Revalued Codes and a Lower Conversion Factor",
+      "body": "CMS also finalized changes to how remote monitoring services are valued. Two things will move your RTM revenue in 2027.\n\n**The conversion factor.** The 2027 conversion factor is $32.95 for qualifying APM participants and $32.63 for everyone else, a cut of 1.83% and 2.31% from 2026. Every RTM code is multiplied by it.\n\n**Device-supply codes.** On the RPM side, the device-supply codes 99454 (16 to 30 days) and 99445 (2 to 15 days) fall about 21%, from $52.11 to $41.11, according to [Prevounce's analysis](https://blog.prevounce.com/2027-physician-fee-schedule-final-rule-whats-changing-for-rpm-what-isnt-and-what-could-still-change). Treatment-management codes held roughly steady, moving only with the conversion factor.\n\nCheck the final RTM rates for 98975 through 98986 in the rule's Addendum B and with your MAC before you rebuild your 2027 projections. The direction is clear: device supply pays less, and the clinical time your staff spend with patients holds more of the value."
+    },
+    {
+      "h2": "4. The Employed-Staff Requirement Is Coming in 2029",
+      "body": "The policy with the biggest long-term effect was delayed, not dropped. Starting January 1, 2029, Medicare will pay for RPM and RTM services only when they are performed by clinical staff employed by the billing practice. CMS said the delay gives practices time to adapt, and it plans further guidance before then.\n\nUntil then, contracted clinical staff remain permitted under existing incident-to rules. After that date, the common arrangement where an outside company's nurses or therapists do the monitoring and the practice bills for it stops working for Medicare patients.\n\nIf your RTM program depends on a vendor's staff, you have two years to bring it in house. That means three things your own team needs: a way to see which patients are transmitting data and which have gone quiet, a record of the minutes each staff member spends, and code selection that matches the days and minutes each month. Those are exactly the parts that make in-house RTM feel too heavy to run without a vendor, and they are what clinIQ [RTM billing](/features/rtm) automates."
+    },
+    {
+      "h2": "What Did Not Change",
+      "body": "The 2026 RTM code set carries into 2027. The 2-to-15-day device-supply codes (98984, 98985, 98986) and the 10-to-19-minute treatment-management code 98979 are still available, and the 16-day threshold still applies only to the full-period codes. If you haven't adapted to those yet, read [RTM billing in 2026: the new 2-15 day codes](/blog/rtm-billing-2026-short-duration-codes).\n\nThe bundling of RPM and RTM into four new G-codes was not finalized, so you don't need to rebuild your charge master around new codes for January."
+    },
+    {
+      "h2": "Your Checklist Before January 1, 2027",
+      "body": "1. **Audit enrollment.** Confirm every RTM patient started after a visit with your practice, and that new enrollments will too.\n2. **Build the initiating visit into intake.** Decide which visit types count, and document monitoring at that visit.\n3. **Re-run your 2027 RTM projections** with the new conversion factor and the final device-supply rates.\n4. **Capture partial months.** With device supply paying less, the 2-15 day codes and the 10-minute management code matter more to the total.\n5. **Plan for 2029 now.** If a vendor's staff do your monitoring, map what moving it in house takes: who does the work, how minutes get logged, and what software tracks it.\n6. **Check commercial payers.** Many follow Medicare's RTM policy with a lag; confirm theirs.\n\nFor the codes themselves, see [RTM CPT codes explained](/blog/rtm-cpt-codes-explained). This article is general information, not legal or billing advice; confirm details with the final rule text and your MAC."
+    }
+  ],
+  "callout": {
+    "title": "Bringing RTM In House Before 2029?",
+    "description": "Bring your current RTM panel to a 15-minute demo. We'll show you how your own staff can run it in clinIQ, with days, minutes and codes tracked automatically.",
+    "href": "/demo",
+    "buttonLabel": "Request a Demo"
+  },
+  "faqs": [
+    {
+      "question": "When was the CY 2027 Physician Fee Schedule final rule released?",
+      "answer": "CMS released the CY 2027 Medicare Physician Fee Schedule final rule on November 4, 2026. Most provisions take effect January 1, 2027."
+    },
+    {
+      "question": "Can RTM be billed for new patients in 2027?",
+      "answer": "No. The final rule limits RTM services to established patients starting January 1, 2027. A practice must already be treating the patient before starting remote therapeutic monitoring."
+    },
+    {
+      "question": "Does RTM need an initiating visit in 2027?",
+      "answer": "Yes. Practitioners reporting RPM or RTM must furnish a separately reportable initiating visit when starting these services. Remote monitoring should be discussed with the patient at that visit before billing begins."
+    },
+    {
+      "question": "Can practices still outsource RTM to a vendor's clinical staff?",
+      "answer": "Through 2028, yes, under existing incident-to rules. CMS finalized a requirement that RPM and RTM be performed by clinical staff employed by the practice, but delayed it to January 1, 2029."
+    },
+    {
+      "question": "Are the 2-15 day RTM codes still valid in 2027?",
+      "answer": "Yes. The 2026 RTM codes, including the 2-15 day device-supply codes 98984, 98985 and 98986 and treatment-management code 98979, carry into 2027. The proposal to bundle RPM and RTM into new G-codes was not finalized."
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "RTM Billing in 2026: The New 2-15 Day Codes",
+      "href": "/blog/rtm-billing-2026-short-duration-codes"
+    },
+    {
+      "title": "RTM CPT Codes Explained",
+      "href": "/blog/rtm-cpt-codes-explained"
+    },
+    {
+      "title": "CPT 98977 for Musculoskeletal RTM",
+      "href": "/blog/cpt-98977-musculoskeletal"
+    }
+  ],
+  "pillarLink": {
+    "title": "RTM Billing Software",
+    "href": "/features/rtm",
+    "description": "Run RTM with your own staff: enrollment, day and minute tracking, and code selection for the 2027 rules."
+  },
+  "cta": {
+    "headline": "Run RTM In House, Without the Spreadsheet",
+    "subhead": "clinIQ tracks days and minutes for every patient and picks the right code automatically, so your own staff can run RTM before the 2029 deadline.",
+    "primaryButton": {
+      "label": "Request a Demo",
+      "href": "/demo"
+    }
+  },
+  "heroImage": {
+    "src": "/editorial/practice-manager-meeting-with-clinical-staff.jpg",
+    "alt": "Practice manager, physician and nurse planning around a laptop in a small meeting room",
+    "width": 1600,
+    "height": 900
+  }
+}

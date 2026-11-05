@@ -138,6 +138,10 @@
   ],
   "faqs": [
     {
+      "q": "What changes for RTM billing in 2027?",
+      "a": "Under the CY 2027 Medicare Physician Fee Schedule final rule, RTM is limited to established patients and requires a separately reportable initiating visit before services begin. Paying only for RTM performed by clinical staff employed by the practice was finalized but delayed to January 1, 2029."
+    },
+    {
       "q": "How does RTM billing software differ from RPM?",
       "a": "RPM uses physiological devices (blood pressure cuffs, glucose monitors, pulse oximeters) that transmit measurements automatically. RTM uses patient-reported data submitted through the clinIQ app. RTM works without device distribution logistics and is broadly applicable across pain management, behavioral health, pulmonology, and other specialties."
     },
@@ -209,6 +213,12 @@
     }
   },
   "relatedContent": [
+    {
+      "type": "blog",
+      "title": "The 2027 Medicare Final Rule: What Changes for RTM",
+      "href": "/blog/medicare-2027-final-rule-rtm-changes",
+      "description": "Established patients only, an initiating visit, and the 2029 employed-staff deadline."
+    },
     {
       "type": "feature",
       "title": "Patient App",

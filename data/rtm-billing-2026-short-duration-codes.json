@@ -28,7 +28,7 @@
   "content": [
     {
       "h2": "The Short Version",
-      "body": "Until 2026, a remote therapeutic monitoring (RTM) device-supply code could only be billed when a patient sent data on at least 16 days in a 30-day period. A patient who logged 12 days earned the practice nothing for that month, even though staff had done the work.\n\nFrom January 1, 2026, that cliff is gone. New device-supply codes cover **2 to 15 days** of data, and a new treatment-management code covers **10 to 19 minutes** of clinical time. Practices that set their workflows around the old rule are leaving partial months unbilled."
+      "body": "Until 2026, a remote therapeutic monitoring (RTM) device-supply code could only be billed when a patient sent data on at least 16 days in a 30-day period. A patient who logged 12 days earned the practice nothing for that month, even though staff had done the work.\n\nFrom January 1, 2026, that cliff is gone. New device-supply codes cover **2 to 15 days** of data, and a new treatment-management code covers **10 to 19 minutes** of clinical time. Practices that set their workflows around the old rule are leaving partial months unbilled.\n\nLooking ahead: the 2027 final rule keeps these codes but limits RTM to established patients and adds an initiating visit. See [what changes for RTM in 2027](/blog/medicare-2027-final-rule-rtm-changes)."
     },
     {
       "h2": "The 2026 RTM Codes at a Glance",
@@ -84,9 +84,22 @@
     }
   ],
   "relatedPosts": [
-    { "title": "RTM CPT Codes Explained", "href": "/blog/rtm-cpt-codes-explained" },
-    { "title": "CPT 98977 for Musculoskeletal RTM", "href": "/blog/cpt-98977-musculoskeletal" },
-    { "title": "Musculoskeletal RTM for Physical Therapy", "href": "/blog/musculoskeletal-rtm-physical-therapy" }
+    {
+      "title": "The 2027 Medicare Final Rule: What Changes for RTM",
+      "href": "/blog/medicare-2027-final-rule-rtm-changes"
+    },
+    {
+      "title": "RTM CPT Codes Explained",
+      "href": "/blog/rtm-cpt-codes-explained"
+    },
+    {
+      "title": "CPT 98977 for Musculoskeletal RTM",
+      "href": "/blog/cpt-98977-musculoskeletal"
+    },
+    {
+      "title": "Musculoskeletal RTM for Physical Therapy",
+      "href": "/blog/musculoskeletal-rtm-physical-therapy"
+    }
   ],
   "pillarLink": {
     "title": "RTM Billing Software",
@@ -96,7 +109,10 @@
   "cta": {
     "headline": "Bill Every RTM Month You've Earned",
     "subhead": "clinIQ tracks days and minutes for every patient and picks the right 2026 code automatically, on top of your existing EHR.",
-    "primaryButton": { "label": "Request a Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request a Demo",
+      "href": "/demo"
+    }
   },
   "heroImage": {
     "src": "/editorial/nurse-and-physician-reviewing-tablet-in-hallway.jpg",

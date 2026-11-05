@@ -17,6 +17,15 @@ export const metadata: Metadata = {
 
 const posts: BlogPost[] = [
   {
+    slug: "medicare-2027-final-rule-rtm-changes",
+    category: "RTM Billing",
+    title: "The 2027 Medicare Final Rule: What Changes for RTM",
+    date: "November 2026",
+    readTime: "7 min",
+    excerpt:
+      "CMS finalized the 2027 fee schedule on November 4. RTM is limited to established patients, needs an initiating visit, and outsourced monitoring staff face a 2029 deadline.",
+  },
+  {
     slug: "track-prior-authorization-expirations",
     category: "Prior Authorization",
     title: "How to Track Prior Authorization Expirations",
