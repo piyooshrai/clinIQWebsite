@@ -46,6 +46,7 @@ export default function FooterInner() {
                 <li><Link href="/features/secure-messaging">{l('secureMessaging')}</Link></li>
                 <li><Link href="/features/secure-file-exchange">{l('secureFile')}</Link></li>
                 <li><Link href="/features/patient-app">{l('patientApp')}</Link></li>
+                <li><Link href="/features/lobbyview">{l('lobbyview')}</Link></li>
               </ul>
             </div>
 

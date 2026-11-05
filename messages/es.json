@@ -151,7 +151,9 @@
       "rtmGuideDesc": "Configuración de RTM paso a paso",
       "allResources": "Todos los recursos →",
       "callAria": "Llamar a clinIQ",
-      "emailAria": "Escribir a clinIQ"
+      "emailAria": "Escribir a clinIQ",
+      "lobbyview": "LobbyView",
+      "lobbyviewDesc": "Pantalla para la sala de espera"
     }
   },
   "footer": {

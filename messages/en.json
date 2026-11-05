@@ -151,7 +151,9 @@
       "emailAria": "Email clinIQ",
       "blogDesc": "Insights & best practices",
       "roiCalculatorDesc": "See your savings",
-      "rtmGuideDesc": "Step-by-step RTM setup"
+      "rtmGuideDesc": "Step-by-step RTM setup",
+      "lobbyview": "LobbyView",
+      "lobbyviewDesc": "Waiting room display"
     }
   },
   "footer": {

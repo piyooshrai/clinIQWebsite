@@ -123,7 +123,9 @@
       "canadaDesc": "تورنتو، فانكوفر، مونتريال",
       "unitedKingdom": "المملكة المتحدة",
       "unitedKingdomDesc": "لندن، مانشستر، برمنغهام",
-      "allLocations": "جميع المواقع ←"
+      "allLocations": "جميع المواقع ←",
+      "lobbyview": "LobbyView",
+      "lobbyviewDesc": "شاشة غرفة الانتظار"
     }
   },
   "footer": {

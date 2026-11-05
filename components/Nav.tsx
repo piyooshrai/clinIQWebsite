@@ -188,6 +188,7 @@ export default function Nav() {
             { label: l('checkIn'),        href: '/features/check-in',      desc: l('checkInDesc') },
             { label: l('schedulingLink'), href: '/features/scheduling',    desc: l('schedulingDesc') },
             { label: l('analytics'),      href: '/features/analytics',     desc: l('analyticsDesc') },
+            { label: l('lobbyview'),      href: '/features/lobbyview',     desc: l('lobbyviewDesc') },
           ],
           viewAll: { label: l('allFeatures'), href: '/features' },
         },

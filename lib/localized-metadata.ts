@@ -4,7 +4,7 @@ const BASE_URL = 'https://www.cliniqhealthcare.com'
 
 const SPANISH_METADATA = {
   '/': {
-    title: 'Software de flujo de pacientes | Plataforma de operaciones clínicas',
+    title: 'Software de flujo de pacientes para clínicas',
     description:
       '¿Problemas con el flujo de pacientes y la facturación perdida? clinIQ es el software de operaciones clínicas que automatiza el registro, la facturación de RTM y las preautorizaciones.',
     ogDescription:
