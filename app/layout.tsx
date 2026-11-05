@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next'
-import { Instrument_Serif } from 'next/font/google'
+import { Inter, Instrument_Serif } from 'next/font/google'
 import { NextIntlClientProvider } from 'next-intl'
 import { getLocale, getMessages, getTranslations } from 'next-intl/server'
 import GoogleAnalytics from '@/components/GoogleAnalytics'
@@ -13,6 +13,12 @@ const instrumentSerif = Instrument_Serif({
   weight: '400',
   style: ['normal', 'italic'],
   variable: '--font-display',
+  display: 'swap',
+})
+
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-sans',
   display: 'swap',
 })
 
@@ -51,7 +57,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   )
 
   return (
-    <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} className={instrumentSerif.variable} suppressHydrationWarning>
+    <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} className={`${inter.variable} ${instrumentSerif.variable}`} suppressHydrationWarning>
       <body>
         <NextIntlClientProvider locale={locale} messages={clientMessages}>
           <GoogleAnalytics />

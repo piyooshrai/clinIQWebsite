@@ -85,7 +85,7 @@
   align-items: center;
   gap: 0.3rem;
   padding: 0.5rem 0.875rem;
-  font-family: var(--font-body);
+  font-family: var(--font-sans);
   font-size: 0.875rem;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.72);
@@ -291,7 +291,7 @@
   justify-content: space-between;
   width: 100%;
   padding: 1rem 0;
-  font-family: var(--font-body);
+  font-family: var(--font-sans);
   font-size: 1rem;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.85);

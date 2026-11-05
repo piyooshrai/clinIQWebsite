@@ -184,6 +184,20 @@ function validateEmail(email: string): boolean {
    MAIN COMPONENT
    ──────────────────────────────────────────────────────────────────────────── */
 
+/** Renders [label](/path) links and email addresses in bot replies. */
+function renderChatText(text: string) {
+  return text.split(/(\[[^\]]+\]\(\/[a-z0-9/-]*\)|[\w.+-]+@[\w-]+\.[a-z]{2,})/g).map((part, i) => {
+    const link = part.match(/^\[([^\]]+)\]\((\/[a-z0-9/-]*)\)$/)
+    if (link) {
+      return <a key={i} href={link[2]} className={styles.messageLink} data-cta="chat">{link[1]}</a>
+    }
+    if (/^[\w.+-]+@[\w-]+\.[a-z]{2,}$/.test(part)) {
+      return <a key={i} href={`mailto:${part}`} className={styles.messageLink}>{part}</a>
+    }
+    return part
+  })
+}
+
 export default function ChatWidget() {
   const pathname = usePathname()
   const [isOpen, setIsOpen] = useState(false)
@@ -230,16 +244,28 @@ export default function ChatWidget() {
 
     // PHASE: NAME CAPTURE
     if (phase === 'name') {
-      const firstName = userMessage.split(' ')[0]
+      // "I'm Sam", "my name is Sam", "Sam here" all become "Sam".
+      const cleaned = userMessage
+        .replace(/^(hi|hello|hey)[\s,!.]+/i, '')
+        .replace(/^(my name is|my name's|name is|i am|i'm|im|it's|its|this is)\s+/i, '')
+        .trim()
+      const title = cleaned.match(/^(dr|mr|mrs|ms)\.?\s+/i)
+      const rest = (title ? cleaned.slice(title[0].length) : cleaned).replace(/[^A-Za-zÀ-ɏ\s'-]/g, ' ').trim()
+      const word = rest.split(/\s+/)[0] || ''
+      const capitalized = word ? word.charAt(0).toUpperCase() + word.slice(1) : ''
+      const firstName = title && capitalized ? `${title[1].charAt(0).toUpperCase()}${title[1].slice(1).toLowerCase()}. ${capitalized}` : capitalized
       setVisitorName(firstName)
+      // The name is not a question, so greet locally instead of asking the intent matcher.
       setMessages([
         { role: 'user', content: userMessage },
+        {
+          role: 'assistant',
+          content: firstName
+            ? `Nice to meet you, ${firstName}. What is going on at your clinic? I can help with patient flow, check-in, scheduling, RTM billing, pre-auth and pricing.`
+            : 'Nice to meet you. What is going on at your clinic? I can help with patient flow, check-in, scheduling, RTM billing, pre-auth and pricing.',
+        },
       ])
       setPhase('chat')
-      // Immediately fetch greeting response
-      await streamResponse([
-        { role: 'user', content: userMessage },
-      ])
       return
     }
 
@@ -606,7 +632,7 @@ export default function ChatWidget() {
                   : styles.messageBubbleAssistant
               }`}
             >
-              {msg.content}
+              {msg.role === 'assistant' ? renderChatText(msg.content) : msg.content}
             </div>
           </div>
         ))}
@@ -640,7 +666,7 @@ export default function ChatWidget() {
               />
             </div>
             <div className={styles.messageBubble + ' ' + styles.messageBubbleAssistant}>
-              {typingMessage}
+              {renderChatText(typingMessage)}
               <span className={styles.streamingCursor} />
             </div>
           </div>

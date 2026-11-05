@@ -26,7 +26,7 @@ const labelStyle: React.CSSProperties = {
 const inputStyle: React.CSSProperties = {
   width: '100%',
   padding: '0.5rem 0',
-  fontFamily: 'var(--font-body)',
+  fontFamily: 'var(--font-sans)',
   fontSize: '0.9375rem',
   color: 'var(--text-primary)',
   background: 'transparent',
@@ -206,7 +206,7 @@ export default function DemoForm() {
           display: 'block',
           width: '100%',
           padding: '1rem 2rem',
-          fontFamily: 'var(--font-body)',
+          fontFamily: 'var(--font-sans)',
           fontSize: '0.9375rem',
           fontWeight: 600,
           textAlign: 'center',

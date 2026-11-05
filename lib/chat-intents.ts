@@ -149,7 +149,7 @@ const INTENTS: Intent[] = [
     priority: 82,
     match: (t) => hasAny(t, ['price', 'pricing', 'cost', 'pay', 'plans', 'plan', 'expensive', 'cheap', 'monthly', 'annual', 'subscription', 'quote', 'budget']) || hasPhrase(t, ['how much']),
     reply: () =>
-      "For pricing and a walkthrough built around your workflow, shoot a note to info@the-algo.com and the team will get you set up.",
+      "Starter is $249 a month and Professional is $499 a month, plus a one-time $750 setup. See the [full pricing](/pricing), or [book a 15 minute demo](/demo) and we will price it for your clinic.",
   },
 
   // ── Demo / walkthrough ──────────────────────────────────────────────────
@@ -158,7 +158,7 @@ const INTENTS: Intent[] = [
     priority: 80,
     match: (t) => hasAny(t, ['demo', 'walkthrough', 'walk-through', 'trial', 'tour', 'sandbox']) || hasPhrase(t, ['see it', 'try it', 'try out', 'show me']),
     reply: () =>
-      "Email info@the-algo.com and the team will set up a 15 minute walkthrough tailored to your specialty and EHR.",
+      "[Book a 15 minute walkthrough](/demo) tailored to your specialty and EHR. The form takes about 30 seconds.",
   },
 
   // ── Core product: RTM ───────────────────────────────────────────────────
@@ -354,7 +354,7 @@ const INTENTS: Intent[] = [
     priority: 30,
     match: (t) => /^(bye|goodbye|cya|see you|see ya|ttyl|talk later|gotta go|gtg)[\s!.,]*$/.test(t),
     reply: () =>
-      "Take care. When you are ready, info@the-algo.com is the fastest way to reach the team.",
+      "Take care. When you are ready, [booking a demo](/demo) is the fastest way to see clinIQ for your clinic.",
   },
 
   // ── Vague / single-word filler ──────────────────────────────────────────
@@ -451,14 +451,14 @@ export function matchIntent(rawText: string, ctx: IntentContext): MatchResult {
   if (prior === 1) {
     return {
       reply:
-        "Easiest way to get this answered is info@the-algo.com, the team will get back same day.",
+        "The team can answer that directly. [Book a 15 minute call](/demo), or email info@the-algo.com.",
       intentId: 'fallback-2',
       isFallback: true,
     }
   }
   return {
     reply:
-      "Take your time. When you are ready, info@the-algo.com is the fastest way to reach the team.",
+      "Take your time. When you are ready, [book a 15 minute demo](/demo).",
     intentId: 'fallback-3',
     isFallback: true,
   }

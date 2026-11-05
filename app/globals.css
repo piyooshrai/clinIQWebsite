@@ -29,8 +29,6 @@
   --text-inverse-secondary: rgba(255, 255, 255, 0.7);
   --border-light: rgba(0, 0, 0, 0.08);
   --border-dark: rgba(255, 255, 255, 0.1);
-  --font-display: 'Instrument Serif', Georgia, serif;
-  --font-body: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
 /* ===== BASE ===== */
@@ -71,9 +69,9 @@ html {
   outline-offset: 2px;
 }
 
-/* Homepage body — dark background, Söhne font */
+/* Body: Inter (next/font), system fallbacks cover Arabic glyphs */
 body {
-  font-family: var(--font-sans), 'SF Pro Display', 'Inter', -apple-system, sans-serif;
+  font-family: var(--font-sans), system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   color: var(--gray-900);
   background: var(--black);
   line-height: 1.6;
@@ -253,7 +251,7 @@ body::before {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  font-family: var(--font-body);
+  font-family: var(--font-sans);
   font-weight: 600;
   text-decoration: none;
   border-radius: 100px;

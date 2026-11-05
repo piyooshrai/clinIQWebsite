@@ -81,7 +81,7 @@
 
 .toggleLocation {
   color: #6B7590;
-  font-family: 'Courier New', monospace;
+  font-family: var(--font-sans);
   font-size: 8px;
   font-weight: 500;
   text-transform: uppercase;
@@ -169,7 +169,7 @@
 
 .headerRole {
   color: #6B7590;
-  font-family: 'Courier New', monospace;
+  font-family: var(--font-sans);
   font-size: 8px;
   font-weight: 500;
   text-transform: uppercase;
@@ -183,7 +183,7 @@
   display: flex;
   align-items: center;
   gap: 4px;
-  font-family: 'Courier New', monospace;
+  font-family: var(--font-sans);
   font-size: 7px;
   font-weight: 600;
   text-transform: uppercase;
@@ -232,7 +232,7 @@
 
 .followSunLabel {
   color: #C4922A;
-  font-family: 'Courier New', monospace;
+  font-family: var(--font-sans);
   font-size: 7px;
   font-weight: 600;
   text-transform: uppercase;
@@ -248,7 +248,7 @@
 .shiftBadge {
   padding: 2px 6px;
   border-radius: 3px;
-  font-family: 'Courier New', monospace;
+  font-family: var(--font-sans);
   font-size: 7px;
   font-weight: 600;
   text-transform: uppercase;
@@ -318,7 +318,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Courier New', monospace;
+  font-family: var(--font-sans);
   font-size: 9px;
   color: #6B7590;
   background-color: #131A2E;
@@ -334,7 +334,7 @@
   max-width: 78%;
   padding: 9px 12px;
   border-radius: 4px;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-sans);
   font-size: 13px;
   font-weight: 300;
   line-height: 1.6;
@@ -350,6 +350,13 @@
   background-color: #0D1220;
   border: 1px solid rgba(255, 255, 255, 0.07);
   color: #E8EDF5;
+}
+
+.messageLink {
+  color: #7FB2FF;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 /* ─── TYPING INDICATOR ───────────────────────────────────────────────────────*/
@@ -418,7 +425,7 @@
   border: 1px solid rgba(255, 255, 255, 0.07);
   border-radius: 4px;
   padding: 8px 11px;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-sans);
   font-size: 13px;
   font-weight: 300;
   color: #E8EDF5;
@@ -474,7 +481,7 @@
   background: none;
   border: none;
   color: #3D4560;
-  font-family: 'Courier New', monospace;
+  font-family: var(--font-sans);
   font-size: 7px;
   font-weight: 600;
   text-transform: uppercase;
@@ -496,7 +503,7 @@
   padding: 12px 16px;
   background-color: #0A0E19;
   text-align: center;
-  font-family: 'Courier New', monospace;
+  font-family: var(--font-sans);
   font-size: 8px;
   font-weight: 600;
   text-transform: uppercase;
@@ -511,7 +518,7 @@
   background-color: #080B12;
   border-top: 1px solid rgba(255, 255, 255, 0.07);
   text-align: center;
-  font-family: 'Courier New', monospace;
+  font-family: var(--font-sans);
   font-size: 7px;
   font-weight: 600;
   text-transform: uppercase;
