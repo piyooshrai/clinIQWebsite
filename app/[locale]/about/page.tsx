@@ -4,8 +4,9 @@ import Link from 'next/link'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
 import s from '@/app/specialties/specialty-full.module.css'
+import { localizeMetadata } from '@/lib/localized-metadata'
 
-export const metadata: Metadata = {
+const baseMetadata: Metadata = {
   title: 'About clinIQ — The Operating System for Modern Clinics',
   description:
     'clinIQ is the operational layer between your EHR and daily clinic operations. Patient flow, check-in, RTM billing, pre-authorization, scheduling, messaging, and analytics — unified.',
@@ -18,6 +19,11 @@ export const metadata: Metadata = {
     url: 'https://www.cliniqhealthcare.com/about',
     images: [{ url: '/og-about.png', width: 1200, height: 630, alt: 'About clinIQ' }],
   },
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params
+  return localizeMetadata(baseMetadata, locale, '/about')
 }
 
 export default async function AboutPage() {
@@ -53,35 +59,29 @@ export default async function AboutPage() {
           <div className={s.container}>
             <div className={s.realityGrid}>
               <div className={s.realityLeft}>
-                <span className={s.sectionLabel}>The Problem</span>
+                <span className={s.sectionLabel}>{t('page.problemLabel')}</span>
                 <h2 className={s.sectionTitle}>
-                  Clinic operations are<br /><em>fragmented by design.</em>
+                  {t('page.problemTitle1')}<br /><em>{t('page.problemTitleEm')}</em>
                 </h2>
                 <div className={s.realityNarrative}>
-                  <p>
-                    Most clinics run on five or six disconnected tools. One system for check-in, another for scheduling, spreadsheets for tracking patient flow, paper clipboards for intake forms, and whatever workaround the front desk invented to keep things moving. Each tool solves one problem and creates three more.
-                  </p>
-                  <p>
-                    Revenue leaks through the gaps. RTM codes go unbilled because nobody has time to track compliance. Pre-authorization requests sit in purgatory while surgical revenue evaporates. Staff spend 13 to 15 hours per week on prior auth paperwork alone — time that should go to patients.
-                  </p>
-                  <p>
-                    Patient experience suffers too. Check-in takes eight minutes instead of three. Wait times stretch because nobody knows who&rsquo;s actually in the lobby. Patients leave without scheduling follow-ups because the process is too painful. And everyone — staff and patients — feels the friction.
-                  </p>
+                  <p>{t('page.problemP1')}</p>
+                  <p>{t('page.problemP2')}</p>
+                  <p>{t('page.problemP3')}</p>
                 </div>
               </div>
               <div className={s.realityRight}>
                 <ul className={s.painList}>
                   <li className={s.painItem}>
                     <span className={s.painDot} />
-                    <span className={s.painText}>13–15 hrs/week lost to prior auth paperwork at the average specialty practice.</span>
+                    <span className={s.painText}>{t('page.pain1')}</span>
                   </li>
                   <li className={s.painItem}>
                     <span className={s.painDot} />
-                    <span className={s.painText}>$144K/year in RTM revenue most practices are not billing.</span>
+                    <span className={s.painText}>{t('page.pain2')}</span>
                   </li>
                   <li className={s.painItem}>
                     <span className={s.painDot} />
-                    <span className={s.painText}>8 minutes average check-in time. clinIQ cuts it to under 3.</span>
+                    <span className={s.painText}>{t('page.pain3')}</span>
                   </li>
                 </ul>
               </div>
@@ -95,7 +95,7 @@ export default async function AboutPage() {
             <div className={s.modulesHeader}>
               <span className={s.sectionLabel}>{t('mission.heading')}</span>
               <h2 className={s.sectionTitle} style={{ color: 'var(--white)' }}>
-                ACO in a<br /><em>Box.</em>
+                {t('page.acoTitle1')}<br /><em>{t('page.acoTitleEm')}</em>
               </h2>
             </div>
             <div style={{ maxWidth: '720px' }}>
@@ -113,23 +113,16 @@ export default async function AboutPage() {
         <section className={s.modules} style={{ background: 'var(--black)', paddingTop: '0' }}>
           <div className={s.container}>
             <div className={s.modulesHeader}>
-              <span className={s.sectionLabel}>The Platform</span>
+              <span className={s.sectionLabel}>{t('page.platformLabel')}</span>
               <h2 className={s.sectionTitle} style={{ color: 'var(--white)' }}>
-                Six tools. One platform.<br /><em>Every patient, start to finish.</em>
+                {t('page.platformTitle1')}<br /><em>{t('page.platformTitleEm')}</em>
               </h2>
             </div>
             <div className={`${s.modulesGrid} ${s.threeCol}`} style={{ gridTemplateColumns: undefined }}>
-              {[
-                { title: 'Patient Check-In', desc: 'Kiosk and mobile check-in that cuts intake time from eight minutes to under three. Digital consent, insurance verification, and intake forms — complete before patients walk in.' },
-                { title: 'Real-Time Patient Flow', desc: "Live visibility into who's in your lobby, who's in rooms, and where the bottlenecks are. No more verbal status checks. No more guessing." },
-                { title: 'RTM Billing', desc: 'Therapy adherence tracking under CPT codes 98975–98981. $100–164 per patient per month. Automated compliance logging and billing code generation.' },
-                { title: 'Pre-Authorization', desc: 'Automated payer submission and tracking. Saves 13–15 hours per week. Catches documentation gaps before submission. Real-time status across all pending cases.' },
-                { title: 'Secure Messaging', desc: 'HIPAA-compliant patient communication between visits. Reduces no-shows. Supports RTM engagement. Replaces informal email and text workflows.' },
-                { title: 'Analytics', desc: 'Operational dashboards: RTM compliance rates, patient flow throughput, revenue per provider, pre-auth approval timelines. Powered by Vizier.' },
-              ].map((m) => (
-                <div key={m.title} className={s.moduleCard} style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.08)' }}>
-                  <h3 className={s.moduleTitle} style={{ color: 'var(--white)' }}>{m.title}</h3>
-                  <p className={s.moduleDesc} style={{ color: 'rgba(255,255,255,0.6)' }}>{m.desc}</p>
+              {(['checkIn', 'flow', 'rtm', 'preAuth', 'messaging', 'analytics'] as const).map((key) => (
+                <div key={key} className={s.moduleCard} style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.08)' }}>
+                  <h3 className={s.moduleTitle} style={{ color: 'var(--white)' }}>{t(`page.modules.${key}.title`)}</h3>
+                  <p className={s.moduleDesc} style={{ color: 'rgba(255,255,255,0.6)' }}>{t(`page.modules.${key}.desc`)}</p>
                 </div>
               ))}
             </div>
@@ -144,14 +137,12 @@ export default async function AboutPage() {
           <div className={s.container}>
             <div className={s.ctaContent}>
               <h2 className={s.ctaTitle}>
-                See clinIQ in action.<br /><em>Live in days.</em>
+                {t('page.ctaTitle1')}<br /><em>{t('page.ctaTitleEm')}</em>
               </h2>
-              <p className={s.ctaDesc}>
-                No rip-and-replace. No enterprise contract. Works with your existing EHR and goes live in days, not months.
-              </p>
+              <p className={s.ctaDesc}>{t('page.ctaDesc')}</p>
               <div className={s.ctaActions}>
                 <Link href="/demo" className={s.btnPrimary}>{t('cta.demo')}</Link>
-                <Link href="/pricing" className={s.btnGhost}>See Pricing</Link>
+                <Link href="/pricing" className={s.btnGhost}>{t('page.ctaPricing')}</Link>
               </div>
             </div>
           </div>

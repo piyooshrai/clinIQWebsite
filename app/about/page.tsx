@@ -8,7 +8,10 @@ export const metadata: Metadata = {
   title: 'About clinIQ — The Operating System for Modern Clinics',
   description:
     'clinIQ is the operational layer between your EHR and daily clinic operations. Patient flow, check-in, RTM billing, pre-authorization, scheduling, messaging, and analytics — unified.',
-  alternates: { canonical: 'https://www.cliniqhealthcare.com/about' },
+  alternates: {
+    canonical: 'https://www.cliniqhealthcare.com/about',
+    languages: { en: 'https://www.cliniqhealthcare.com/about', es: 'https://www.cliniqhealthcare.com/es/about', 'x-default': 'https://www.cliniqhealthcare.com/about' },
+  },
   openGraph: {
     title: 'About clinIQ — The Operating System for Modern Clinics',
     description:

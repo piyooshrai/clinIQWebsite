@@ -13,8 +13,9 @@ import Stats from '@/components/Stats'
 import HomeFAQ from '@/components/HomeFAQ'
 import CTA from '@/components/CTA'
 import FooterInner from '@/components/FooterInner'
+import { localizeMetadata } from '@/lib/localized-metadata'
 
-export const metadata: Metadata = {
+const baseMetadata: Metadata = {
   title: 'Patient Flow Software | Clinic Operations Platform',
   description:
     "Struggling with patient flow & missed billing? clinIQ is the clinic operations software that automates check-in, RTM billing & pre-auth. Book a free demo.",
@@ -88,6 +89,11 @@ const baseJsonLd = [
     offers: { '@type': 'Offer', url: 'https://www.cliniqhealthcare.com/demo' },
   },
 ]
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params
+  return localizeMetadata(baseMetadata, locale, '/')
+}
 
 export default async function Home() {
   const t = await getTranslations('faq')

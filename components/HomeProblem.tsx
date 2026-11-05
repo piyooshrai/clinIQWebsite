@@ -6,6 +6,7 @@ const PAIN_KEYS = ['whiteboards', 'checkin', 'rtm', 'preauth', 'reporting'] as c
 
 export default async function HomeProblem() {
   const t = await getTranslations('problem')
+  const tc = await getTranslations('common')
 
   const pains = PAIN_KEYS.map((key) => ({
     h3: t(`pains.${key}.title`),
@@ -34,7 +35,7 @@ export default async function HomeProblem() {
         <div className={s.midCta}>
           <div className={s.midCtaActions}>
             <Link href="/demo" className={s.btnPrimary}>{t('cta')}</Link>
-            <Link href="/features" className={s.btnGhost}>See How It Works</Link>
+            <Link href="/features" className={s.btnGhost}>{tc('seeHowItWorks')}</Link>
           </div>
         </div>
       </div>

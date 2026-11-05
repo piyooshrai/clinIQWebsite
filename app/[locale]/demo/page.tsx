@@ -6,8 +6,9 @@ import DemoForm from '@/components/DemoForm'
 import Image from 'next/image'
 import s from '@/app/specialties/specialty-full.module.css'
 import styles from '@/app/demo/demo.module.css'
+import { localizeMetadata } from '@/lib/localized-metadata'
 
-export const metadata: Metadata = {
+const baseMetadata: Metadata = {
   title: 'Request a Demo — clinIQ Clinic Operations Platform',
   description:
     "See clinIQ in 15 minutes. We'll configure it for your specialty. Patient flow, RTM billing, pre-authorization, digital check-in — live in your workflow.",
@@ -41,6 +42,11 @@ const CHECK_ICON = (
     />
   </svg>
 )
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params
+  return localizeMetadata(baseMetadata, locale, '/demo')
+}
 
 export default async function DemoPage() {
   const t = await getTranslations('demo')
@@ -81,7 +87,7 @@ export default async function DemoPage() {
             <div className={styles.twoCol}>
               {/* Left panel — dark */}
               <div className={styles.leftPanel}>
-                <Image src="/people/clinician-reviewing-tablet-with-patient.jpg" alt="Clinician reviewing a tablet with a patient in a clinic waiting area" width={1400} height={933} sizes="(max-width: 900px) 100vw, 400px" style={{ width: '100%', height: 'auto', borderRadius: '12px', marginBottom: '1.5rem' }} />
+                <Image src="/people/clinician-reviewing-tablet-with-patient.jpg" alt={t('imageAlt')} width={1400} height={933} sizes="(max-width: 900px) 100vw, 400px" style={{ width: '100%', height: 'auto', borderRadius: '12px', marginBottom: '1.5rem' }} />
                 <h2 className={styles.leftTitle}>{t('whatYoullSee')}</h2>
                 <ul className={styles.featureList}>
                   {demoFeatures.map((feat) => (

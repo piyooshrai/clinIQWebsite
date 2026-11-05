@@ -1,3 +1,4 @@
+import { SPANISH_PATHS } from '@/lib/es-pages'
 import { MetadataRoute } from 'next'
 import fs from 'fs'
 import path from 'path'
@@ -163,14 +164,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }))
 
+  // Fully translated Spanish pages only. See lib/es-pages.ts.
+  const spanish = SPANISH_PATHS.map((path) => ({
+    url: path === '/' ? `${BASE_URL}/es` : `${BASE_URL}/es${path}`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.5,
+  }))
+
   // Arabic locale entries are intentionally NOT emitted here while ar/es content
-  // is still partial. Listing them would pair them as translation alternates of
+  // is still partial on most pages. Listing them would pair them as translation alternates of
   // their English equivalents (`<xhtml:link rel="alternate" hreflang="ar">`) even
   // though the body content is mostly English, which fails Semrush / Google's
   // hreflang validation. Re-add per-page once translations are complete.
 
   return [
     ...staticPages,
+    ...spanish,
     ...features,
     ...featureSpecialty,
     ...specialties,

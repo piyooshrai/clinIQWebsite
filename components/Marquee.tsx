@@ -1,31 +1,16 @@
 import { Fragment } from 'react'
+import { useTranslations } from 'next-intl'
 import styles from './Marquee.module.css'
 
-const SPECIALTIES = [
-  'Addiction Medicine',
-  'Psychiatry',
-  'Pain Management',
-  'Orthopedic Surgery',
-  'Physical Therapy',
-  'Urgent Care',
-  'Behavioral Health',
-  'Cardiology',
-  'Dermatology',
-  'Primary Care',
-  'Chiropractic',
-  'Neurology',
-  'Pediatrics',
-  'Ophthalmology',
-  'Spine Surgery',
-  'OB-GYN',
-]
+const SPECIALTIES = ['addiction', 'psychiatry', 'pain', 'ortho', 'pt', 'urgent', 'behavioral', 'cardiology', 'dermatology', 'primary', 'chiropractic', 'neurology', 'pediatrics', 'ophthalmology', 'spine', 'obgyn'] as const
 
 function MarqueeContent() {
+  const t = useTranslations('marquee')
   return (
     <div className={styles.content} aria-hidden="true">
-      {SPECIALTIES.map((name, i) => (
+      {SPECIALTIES.map((key, i) => (
         <Fragment key={i}>
-          <span className={styles.item}>{name}</span>
+          <span className={styles.item}>{t(`items.${key}`)}</span>
           <span className={styles.divider} />
         </Fragment>
       ))}
@@ -34,8 +19,9 @@ function MarqueeContent() {
 }
 
 export default function Marquee() {
+  const t = useTranslations('marquee')
   return (
-    <section className={styles.section} aria-label="Specialties served">
+    <section className={styles.section} aria-label={t('label')}>
       <div className={styles.track}>
         {/* Duplicated for seamless loop */}
         <MarqueeContent />

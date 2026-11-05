@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { useTranslations } from 'next-intl'
 import styles from './PricingTable.module.css'
 
 interface PricingTier {
@@ -13,54 +14,6 @@ interface PricingTier {
   ctaHref: string
 }
 
-const TIERS: PricingTier[] = [
-  {
-    name: 'Starter',
-    price: '$249',
-    priceNote: '/month',
-    patients: 'Up to 500 patients/month',
-    features: [
-      'Check-In + Patient Flow',
-      'LobbyView display',
-      'Email support',
-    ],
-    cta: 'Get Started',
-    ctaHref: '/demo',
-  },
-  {
-    name: 'Professional',
-    price: '$499',
-    priceNote: '/month',
-    badge: 'Most Popular',
-    featured: true,
-    patients: 'Up to 2,000 patients/month',
-    features: [
-      'Everything in Starter',
-      'RTM Billing',
-      'Scheduling',
-      'Analytics dashboard',
-      'Priority support',
-    ],
-    cta: 'Get Started',
-    ctaHref: '/demo',
-  },
-  {
-    name: 'Enterprise',
-    price: 'Custom',
-    priceNote: 'pricing',
-    patients: 'Unlimited patients',
-    features: [
-      'Everything in Professional',
-      'Pre-Authorization',
-      'Custom integrations',
-      'Dedicated success manager',
-      'SLA guarantee',
-    ],
-    cta: 'Contact Sales',
-    ctaHref: '/contact',
-  },
-]
-
 function CheckIcon() {
   return (
     <svg className={styles.checkIcon} viewBox="0 0 16 16" fill="none" aria-hidden="true">
@@ -70,12 +23,45 @@ function CheckIcon() {
 }
 
 export default function PricingTable() {
+  const t = useTranslations('pricingTable')
+  const tiers: PricingTier[] = [
+    {
+      name: 'Starter',
+      price: '$249',
+      priceNote: t('month'),
+      patients: t('starter.patients'),
+      features: [t('starter.f1'), t('starter.f2'), t('starter.f3')],
+      cta: t('getStarted'),
+      ctaHref: '/demo',
+    },
+    {
+      name: 'Professional',
+      price: '$499',
+      priceNote: t('month'),
+      badge: t('mostPopular'),
+      featured: true,
+      patients: t('professional.patients'),
+      features: [t('professional.f1'), t('professional.f2'), t('professional.f3'), t('professional.f4'), t('professional.f5')],
+      cta: t('getStarted'),
+      ctaHref: '/demo',
+    },
+    {
+      name: 'Enterprise',
+      price: t('custom'),
+      priceNote: t('pricingNote'),
+      patients: t('enterprise.patients'),
+      features: [t('enterprise.f1'), t('enterprise.f2'), t('enterprise.f3'), t('enterprise.f4'), t('enterprise.f5')],
+      cta: t('contactSales'),
+      ctaHref: '/contact',
+    },
+  ]
+
   return (
     <section className={styles.section}>
       <div className="container">
         {/* Tier cards */}
         <div className={styles.grid}>
-          {TIERS.map((tier) => (
+          {tiers.map((tier) => (
             <div
               key={tier.name}
               className={`${styles.card} ${tier.featured ? styles.cardFeatured : ''}`}
@@ -117,18 +103,18 @@ export default function PricingTable() {
         {/* Addons + all-inclusive notes */}
         <div className={styles.notes}>
           <div className={styles.noteItem}>
-            <span className={styles.noteLabel}>Implementation</span>
-            <span className={styles.noteValue}>$750 one-time setup</span>
+            <span className={styles.noteLabel}>{t('implementationLabel')}</span>
+            <span className={styles.noteValue}>{t('implementationValue')}</span>
           </div>
           <div className={styles.noteDivider} />
           <div className={styles.noteItem}>
-            <span className={styles.noteLabel}>EHR Integrations</span>
-            <span className={styles.noteValue}>Custom quote based on EHR</span>
+            <span className={styles.noteLabel}>{t('ehrLabel')}</span>
+            <span className={styles.noteValue}>{t('ehrValue')}</span>
           </div>
           <div className={styles.noteDivider} />
           <div className={styles.noteItem}>
-            <span className={styles.noteLabel}>All plans include</span>
-            <span className={styles.noteValue}>HIPAA-compliant infrastructure &middot; 99.9% uptime &middot; Free onboarding</span>
+            <span className={styles.noteLabel}>{t('allPlansLabel')}</span>
+            <span className={styles.noteValue}>{t('allPlansValue')}</span>
           </div>
         </div>
       </div>

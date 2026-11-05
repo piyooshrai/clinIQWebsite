@@ -297,31 +297,31 @@ export default function Nav() {
           heading: s('queueManagement'),
           links: [
             { label: l('vsQless'),    href: '/compare/qless',    desc: l('vsQlessDesc') },
-            { label: 'vs Waitwhile', href: '/compare/waitwhile', desc: 'Full visit tracking' },
+            { label: 'vs Waitwhile', href: '/compare/waitwhile', desc: l('vsWaitwhileDesc') },
           ],
         },
         {
-          heading: 'Workflow Type',
+          heading: s('workflowType'),
           links: [
-            { label: 'vs EHR-Only',          href: '/compare/ehr-only',           desc: 'Add operations to any EHR' },
-            { label: 'vs Generic Scheduling', href: '/compare/generic-scheduling', desc: 'Beyond the calendar' },
+            { label: l('vsEhrOnly'), href: '/compare/ehr-only', desc: l('vsEhrOnlyDesc') },
+            { label: l('vsGenericScheduling'), href: '/compare/generic-scheduling', desc: l('vsGenericSchedulingDesc') },
           ],
         },
         {
-          heading: 'Manual / Legacy',
+          heading: s('manualLegacy'),
           links: [
-            { label: 'vs Whiteboards',  href: '/compare/whiteboards',  desc: 'Real-time digital tracking' },
-            { label: 'vs Spreadsheets', href: '/compare/spreadsheets', desc: 'Automatic vs manual' },
-            { label: 'vs Paper Sign-In',href: '/compare/paper-signin', desc: 'Digital workflow' },
+            { label: l('vsWhiteboards'), href: '/compare/whiteboards', desc: l('vsWhiteboardsDesc') },
+            { label: l('vsSpreadsheets'), href: '/compare/spreadsheets', desc: l('vsSpreadsheetsDesc') },
+            { label: l('vsPaperSignIn'), href: '/compare/paper-signin', desc: l('vsPaperSignInDesc') },
           ],
         },
         {
-          heading: 'RTM / RPM',
+          heading: s('rtmRpm'),
           links: [
-            { label: 'vs Prevounce',       href: '/compare/prevounce',       desc: 'RTM + full clinic ops' },
-            { label: 'vs TimeDoc',         href: '/compare/timedoc',         desc: 'Ops layer vs CCM focus' },
-            { label: 'vs Optimize Health', href: '/compare/optimize-health', desc: 'Broader than RPM' },
-            { label: 'vs ChronicCareIQ',   href: '/compare/chroniccareiq',  desc: 'RTM + visit workflow' },
+            { label: 'vs Prevounce', href: '/compare/prevounce', desc: l('vsPrevounceDesc') },
+            { label: 'vs TimeDoc', href: '/compare/timedoc', desc: l('vsTimeDocDesc') },
+            { label: 'vs Optimize Health', href: '/compare/optimize-health', desc: l('vsOptimizeHealthDesc') },
+            { label: 'vs ChronicCareIQ', href: '/compare/chroniccareiq', desc: l('vsChronicCareIqDesc') },
           ],
         },
       ],
@@ -357,13 +357,13 @@ export default function Nav() {
       label: t('resources'),
       grouped: [
         {
-          heading: 'Learn',
+          heading: s('learn'),
           links: [
-            { label: 'Blog',                     href: '/blog',                                 desc: 'Insights & best practices' },
-            { label: 'ROI Calculator',            href: '/resources/roi-calculator',            desc: 'See your savings' },
-            { label: 'RTM Implementation Guide',  href: '/resources/rtm-implementation-guide', desc: 'Step-by-step RTM setup' },
+            { label: l('blog'), href: '/blog', desc: l('blogDesc') },
+            { label: l('roiCalculator'), href: '/resources/roi-calculator', desc: l('roiCalculatorDesc') },
+            { label: l('rtmGuide'), href: '/resources/rtm-implementation-guide', desc: l('rtmGuideDesc') },
           ],
-          viewAll: { label: 'All Resources →', href: '/resources' },
+          viewAll: { label: l('allResources'), href: '/resources' },
         },
       ],
     },
@@ -501,13 +501,13 @@ export default function Nav() {
           </div>
 
           <div className={styles.cta}>
-            <a href="tel:+17203347249" className={styles.contactLink} aria-label="Call clinIQ">
+            <a href="tel:+17203347249" className={styles.contactLink} aria-label={l('callAria')}>
               <svg viewBox="0 0 16 16" fill="none" aria-hidden="true">
                 <path d="M3 3h3l1.5 4-2 1a8 8 0 0 0 4.5 4.5l1-2 4 1.5v3a1 1 0 0 1-1 1A12 12 0 0 1 2 4a1 1 0 0 1 1-1z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
               720.334.7249
             </a>
-            <a href="mailto:info@cliniqhealthcare.com" className={styles.contactLink} aria-label="Email clinIQ">
+            <a href="mailto:info@cliniqhealthcare.com" className={styles.contactLink} aria-label={l('emailAria')}>
               <svg viewBox="0 0 16 16" fill="none" aria-hidden="true">
                 <path d="M2 4l6 4 6-4M2 4h12v8H2V4z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>

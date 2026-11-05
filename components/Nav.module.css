@@ -625,3 +625,10 @@
     max-height: calc(100dvh - 120px);
   }
 }
+
+/* Keep Request Demo on screen: the email link returns on wide screens only */
+@media (max-width: 1439px) {
+  .contactLink[href^="mailto:"] {
+    display: none;
+  }
+}

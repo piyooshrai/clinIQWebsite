@@ -5,6 +5,7 @@ import styles from './FooterInner.module.css'
 
 export default function FooterInner() {
   const t = useTranslations('footer')
+  const l = useTranslations('nav.links')
 
   return (
     <footer className={styles.footer}>
@@ -33,47 +34,47 @@ export default function FooterInner() {
             <div className={styles.footerCol}>
               <h4 className={styles.footerHeading}>{t('product')}</h4>
               <ul>
-                <li><Link href="/features/patient-flow">Patient Flow</Link></li>
-                <li><Link href="/features/check-in">Check-In</Link></li>
-                <li><Link href="/features/rtm">RTM Billing</Link></li>
-                <li><Link href="/features/pre-auth">Pre-Auth</Link></li>
-                <li><Link href="/features/scheduling">Scheduling</Link></li>
-                <li><Link href="/features/analytics">Analytics</Link></li>
-                <li><Link href="/features/telehealth">Telehealth</Link></li>
-                <li><Link href="/features/patient-satisfaction">Patient Satisfaction</Link></li>
-                <li><Link href="/features/wearable-integration">Wearable Integration</Link></li>
-                <li><Link href="/features/secure-messaging">Secure Messaging</Link></li>
-                <li><Link href="/features/secure-file-exchange">Secure File Exchange</Link></li>
-                <li><Link href="/features/patient-app">Patient App</Link></li>
+                <li><Link href="/features/patient-flow">{l('patientFlow')}</Link></li>
+                <li><Link href="/features/check-in">{l('checkIn')}</Link></li>
+                <li><Link href="/features/rtm">{l('rtm')}</Link></li>
+                <li><Link href="/features/pre-auth">{t('preAuthShort')}</Link></li>
+                <li><Link href="/features/scheduling">{l('schedulingLink')}</Link></li>
+                <li><Link href="/features/analytics">{l('analytics')}</Link></li>
+                <li><Link href="/features/telehealth">{l('telehealth')}</Link></li>
+                <li><Link href="/features/patient-satisfaction">{l('patientSatisfaction')}</Link></li>
+                <li><Link href="/features/wearable-integration">{l('wearable')}</Link></li>
+                <li><Link href="/features/secure-messaging">{l('secureMessaging')}</Link></li>
+                <li><Link href="/features/secure-file-exchange">{l('secureFile')}</Link></li>
+                <li><Link href="/features/patient-app">{l('patientApp')}</Link></li>
               </ul>
             </div>
 
             <div className={styles.footerCol}>
               <h4 className={styles.footerHeading}>{t('specialties')}</h4>
               <ul>
-                <li><Link href="/specialties/urgent-care">Urgent Care</Link></li>
-                <li><Link href="/specialties/addiction-medicine">Addiction Medicine</Link></li>
-                <li><Link href="/specialties/psychiatry">Psychiatry</Link></li>
-                <li><Link href="/specialties/behavioral-health">Behavioral Health</Link></li>
+                <li><Link href="/specialties/urgent-care">{l('urgentCare')}</Link></li>
+                <li><Link href="/specialties/addiction-medicine">{l('addictionMedicine')}</Link></li>
+                <li><Link href="/specialties/psychiatry">{l('psychiatry')}</Link></li>
+                <li><Link href="/specialties/behavioral-health">{l('behavioralHealthLink')}</Link></li>
               </ul>
             </div>
 
             <div className={styles.footerCol}>
               <h4 className={styles.footerHeading}>{t('compare')}</h4>
               <ul>
-                <li><Link href="/compare/phreesia">vs Phreesia</Link></li>
-                <li><Link href="/compare/clearwave">vs Clearwave</Link></li>
-                <li><Link href="/compare/spreadsheets">vs Spreadsheets</Link></li>
+                <li><Link href="/compare/phreesia">{l('vsPhreesia')}</Link></li>
+                <li><Link href="/compare/clearwave">{l('vsClearwave')}</Link></li>
+                <li><Link href="/compare/spreadsheets">{l('vsSpreadsheets')}</Link></li>
               </ul>
             </div>
 
             <div className={styles.footerCol}>
               <h4 className={styles.footerHeading}>{t('locations')}</h4>
               <ul>
-                <li><Link href="/locations/united-states">United States</Link></li>
-                <li><Link href="/locations/uae">UAE</Link></li>
-                <li><Link href="/locations/united-kingdom">United Kingdom</Link></li>
-                <li><Link href="/locations/saudi-arabia">Saudi Arabia</Link></li>
+                <li><Link href="/locations/united-states">{l('unitedStates')}</Link></li>
+                <li><Link href="/locations/uae">{l('uae')}</Link></li>
+                <li><Link href="/locations/united-kingdom">{l('unitedKingdom')}</Link></li>
+                <li><Link href="/locations/saudi-arabia">{l('saudiArabia')}</Link></li>
               </ul>
             </div>
 

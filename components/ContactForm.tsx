@@ -2,17 +2,18 @@
 
 import { useState } from 'react'
 import { captureIntakeContext } from '@/lib/intake-context'
+import { useTranslations } from 'next-intl'
 import styles from './ContactForm.module.css'
 import { trackContactSubmit } from '@/lib/analytics'
 
 const SUBJECTS = [
-  'General Question',
-  'Demo Request',
-  'Support',
-  'Partnership',
-  'Press / Media',
-  'Other',
-]
+  { key: 'general', value: 'General Question' },
+  { key: 'demo', value: 'Demo Request' },
+  { key: 'support', value: 'Support' },
+  { key: 'partnership', value: 'Partnership' },
+  { key: 'press', value: 'Press / Media' },
+  { key: 'other', value: 'Other' },
+] as const
 
 const labelStyle: React.CSSProperties = {
   fontSize: '0.75rem',
@@ -61,6 +62,7 @@ const fieldStyle: React.CSSProperties = {
 }
 
 export default function ContactForm() {
+  const t = useTranslations('contactForm')
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [subject, setSubject] = useState('')
@@ -90,7 +92,7 @@ export default function ContactForm() {
       trackContactSubmit(subject)
       setSubmitted(true)
     } catch {
-      setError('Something went wrong. Please try again.')
+      setError(t('error'))
     } finally {
       setSubmitting(false)
     }
@@ -112,7 +114,7 @@ export default function ContactForm() {
           </svg>
         </div>
         <p className={styles.successText}>
-          Message sent — we&apos;ll be in touch within 24 hours.
+          {t('success')}
         </p>
       </div>
     )
@@ -123,7 +125,7 @@ export default function ContactForm() {
       {/* Name */}
       <div style={fieldStyle}>
         <label style={labelStyle} htmlFor="contactName">
-          Name <span style={{ color: 'var(--teal)' }} aria-hidden="true">*</span>
+          {t('name')} <span style={{ color: 'var(--teal)' }} aria-hidden="true">*</span>
         </label>
         <input
           id="contactName"
@@ -132,14 +134,14 @@ export default function ContactForm() {
           value={name}
           onChange={(e) => setName(e.target.value)}
           required
-          placeholder="Your name"
+          placeholder={t('namePlaceholder')}
         />
       </div>
 
       {/* Email */}
       <div style={fieldStyle}>
         <label style={labelStyle} htmlFor="contactEmail">
-          Email <span style={{ color: 'var(--teal)' }} aria-hidden="true">*</span>
+          {t('email')} <span style={{ color: 'var(--teal)' }} aria-hidden="true">*</span>
         </label>
         <input
           id="contactEmail"
@@ -148,14 +150,14 @@ export default function ContactForm() {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
-          placeholder="you@yourclinic.com"
+          placeholder={t('emailPlaceholder')}
         />
       </div>
 
       {/* Subject */}
       <div style={fieldStyle}>
         <label style={labelStyle} htmlFor="contactSubject">
-          Subject <span style={{ color: 'var(--teal)' }} aria-hidden="true">*</span>
+          {t('subject')} <span style={{ color: 'var(--teal)' }} aria-hidden="true">*</span>
         </label>
         <select
           id="contactSubject"
@@ -165,11 +167,11 @@ export default function ContactForm() {
           required
         >
           <option value="" disabled>
-            Select…
+            {t('select')}
           </option>
           {SUBJECTS.map((s) => (
-            <option key={s} value={s}>
-              {s}
+            <option key={s.key} value={s.value}>
+              {t(`subjects.${s.key}`)}
             </option>
           ))}
         </select>
@@ -178,7 +180,7 @@ export default function ContactForm() {
       {/* Message */}
       <div style={fieldStyle}>
         <label style={labelStyle} htmlFor="contactMessage">
-          Message <span style={{ color: 'var(--teal)' }} aria-hidden="true">*</span>
+          {t('message')} <span style={{ color: 'var(--teal)' }} aria-hidden="true">*</span>
         </label>
         <textarea
           id="contactMessage"
@@ -186,7 +188,7 @@ export default function ContactForm() {
           value={message}
           onChange={(e) => setMessage(e.target.value)}
           required
-          placeholder="How can we help?"
+          placeholder={t('messagePlaceholder')}
           rows={5}
         />
       </div>
@@ -228,7 +230,7 @@ export default function ContactForm() {
           transition: 'all 0.25s',
         }}
       >
-        {submitting ? 'Sending…' : 'Send Message →'}
+        {submitting ? t('sending') : t('submit')}
       </button>
     </form>
   )

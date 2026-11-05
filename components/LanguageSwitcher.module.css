@@ -36,3 +36,31 @@
 .btn:hover .globe {
   opacity: 1;
 }
+
+.group {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+}
+
+/* Two languages share one compact pill */
+.group {
+  gap: 0;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 6px;
+}
+
+.group .btn {
+  border: 0;
+  border-radius: 0;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.group .btn + .btn {
+  border-left: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.group .btn .globe {
+  display: none;
+}

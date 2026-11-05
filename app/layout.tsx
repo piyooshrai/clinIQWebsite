@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Instrument_Serif } from 'next/font/google'
 import { NextIntlClientProvider } from 'next-intl'
-import { getLocale, getMessages } from 'next-intl/server'
+import { getLocale, getMessages, getTranslations } from 'next-intl/server'
 import GoogleAnalytics from '@/components/GoogleAnalytics'
 import ChatWidget from '@/components/ChatWidget'
 import IntakeContext from '@/components/IntakeContext'
@@ -40,6 +40,7 @@ export const viewport: Viewport = {
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const locale = await getLocale()
   const messages = await getMessages()
+  const tc = await getTranslations('common')
 
   return (
     <html lang={locale} className={instrumentSerif.variable} suppressHydrationWarning>
@@ -48,7 +49,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           <GoogleAnalytics />
           <IntakeContext />
           <ChatWidget />
-          <a href="#main-content" className="skip-link">Skip to main content</a>
+          <a href="#main-content" className="skip-link">{tc('skipToContent')}</a>
           {children}
         </NextIntlClientProvider>
       </body>

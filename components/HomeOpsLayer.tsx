@@ -9,7 +9,6 @@ const EHRS = [
   'Tebra',
   'SimplePractice',
   'Epic',
-  'Any EHR',
 ]
 
 export default async function HomeOpsLayer() {

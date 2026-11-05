@@ -8,7 +8,10 @@ export const metadata: Metadata = {
   title: 'Who We Serve — clinIQ',
   description:
     'clinIQ adapts to the operational realities of FQHCs, rural health clinics, concierge practices, surgery centers, and 30+ clinical specialties. Find your practice type.',
-  alternates: { canonical: 'https://www.cliniqhealthcare.com/solutions' },
+  alternates: {
+    canonical: 'https://www.cliniqhealthcare.com/solutions',
+    languages: { en: 'https://www.cliniqhealthcare.com/solutions', es: 'https://www.cliniqhealthcare.com/es/solutions', 'x-default': 'https://www.cliniqhealthcare.com/solutions' },
+  },
   openGraph: {
     title: 'Who We Serve — clinIQ',
     description:

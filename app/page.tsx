@@ -43,6 +43,7 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://www.cliniqhealthcare.com',
+    languages: { en: 'https://www.cliniqhealthcare.com', es: 'https://www.cliniqhealthcare.com/es', 'x-default': 'https://www.cliniqhealthcare.com' },
   },
 }
 

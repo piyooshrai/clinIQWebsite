@@ -1,39 +1,9 @@
-'use client'
-
-import { useState } from 'react'
-import { captureIntakeContext } from '@/lib/intake-context'
 import Link from 'next/link'
 import { useTranslations } from 'next-intl'
 import styles from './Hero.module.css'
 
 export default function Hero() {
   const t = useTranslations('hero')
-  const [email, setEmail] = useState('')
-  const [practice, setPractice] = useState('')
-  const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle')
-
-  async function onSubmit(e: React.FormEvent) {
-    e.preventDefault()
-    if (!email) return
-    setStatus('sending')
-    try {
-      const res = await fetch('/api/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          intakeContext: captureIntakeContext(),
-          email,
-          practice,
-          subject: 'Hero quick inquiry',
-          message: `Quick inquiry from homepage hero. Practice: ${practice || 'not provided'}`,
-          formType: 'contact',
-        }),
-      })
-      setStatus(res.ok ? 'sent' : 'error')
-    } catch {
-      setStatus('error')
-    }
-  }
 
   return (
     <section className={styles.hero}>
@@ -69,46 +39,6 @@ export default function Hero() {
               {t('seeHowItWorks')}
             </Link>
           </div>
-
-          <form className={styles.quickForm} onSubmit={onSubmit} aria-label="Quick inquiry">
-            <div className={styles.quickFormRow}>
-              <input
-                type="email"
-                required
-                placeholder={t('quickFormEmail')}
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className={styles.quickFormInput}
-                aria-label={t('quickFormEmail')}
-                disabled={status === 'sending' || status === 'sent'}
-              />
-              <input
-                type="text"
-                placeholder={t('quickFormPractice')}
-                value={practice}
-                onChange={(e) => setPractice(e.target.value)}
-                className={styles.quickFormInput}
-                aria-label={t('quickFormPractice')}
-                disabled={status === 'sending' || status === 'sent'}
-              />
-              <button
-                type="submit"
-                className={styles.quickFormBtn}
-                disabled={status === 'sending' || status === 'sent'}
-              >
-                {status === 'sending' ? '…' : status === 'sent' ? '✓' : t('quickFormCta')}
-              </button>
-            </div>
-            {status === 'sent' && (
-              <p className={styles.quickFormNote}>{t('quickFormSent')}</p>
-            )}
-            {status === 'error' && (
-              <p className={styles.quickFormNoteError}>{t('quickFormError')}</p>
-            )}
-            {status === 'idle' && (
-              <p className={styles.quickFormNote}>{t('quickFormNote')}</p>
-            )}
-          </form>
         </div>
 
         <div className={styles.visual} aria-hidden="true">
@@ -122,28 +52,28 @@ export default function Hero() {
             <div className={styles.dashStats}>
               <div className={styles.statCard}>
                 <div className={`${styles.statValue} ${styles.teal}`}>12</div>
-                <div className={styles.statLabel}>In Clinic</div>
+                <div className={styles.statLabel}>{t('dashboard.inClinic')}</div>
               </div>
               <div className={styles.statCard}>
                 <div className={styles.statValue}>4</div>
-                <div className={styles.statLabel}>Waiting</div>
+                <div className={styles.statLabel}>{t('dashboard.waiting')}</div>
               </div>
               <div className={styles.statCard}>
                 <div className={`${styles.statValue} ${styles.blue}`}>8</div>
-                <div className={styles.statLabel}>Completed</div>
+                <div className={styles.statLabel}>{t('dashboard.completed')}</div>
               </div>
               <div className={styles.statCard}>
                 <div className={styles.statValue}>11m</div>
-                <div className={styles.statLabel}>Avg Wait</div>
+                <div className={styles.statLabel}>{t('dashboard.avgWait')}</div>
               </div>
             </div>
 
             <div className={styles.queue}>
               <div className={styles.queueHeader}>
-                <span className={styles.queueTitle}>Patient Queue</span>
+                <span className={styles.queueTitle}>{t('dashboard.queue')}</span>
                 <span className={styles.queueLive}>
                   <span className={styles.liveDot} />
-                  Live
+                  {t('dashboard.live')}
                 </span>
               </div>
 
@@ -153,11 +83,11 @@ export default function Hero() {
                     <div className={styles.avatar}>ET</div>
                     <div>
                       <div className={styles.patientName}>E. Til</div>
-                      <div className={styles.patientDept}>General</div>
+                      <div className={styles.patientDept}>{t('dashboard.general')}</div>
                     </div>
                   </div>
                   <span className={`${styles.statusBadge} ${styles.statusProvider}`}>
-                    With Provider
+                    {t('dashboard.withProvider')}
                   </span>
                 </div>
 
@@ -166,11 +96,11 @@ export default function Hero() {
                     <div className={styles.avatar}>KJ</div>
                     <div>
                       <div className={styles.patientName}>K. Joh</div>
-                      <div className={styles.patientDept}>Addiction</div>
+                      <div className={styles.patientDept}>{t('dashboard.addiction')}</div>
                     </div>
                   </div>
                   <span className={`${styles.statusBadge} ${styles.statusIntake}`}>
-                    Intake
+                    {t('dashboard.intake')}
                   </span>
                 </div>
 
@@ -179,11 +109,11 @@ export default function Hero() {
                     <div className={styles.avatar}>RG</div>
                     <div>
                       <div className={styles.patientName}>R. Gar</div>
-                      <div className={styles.patientDept}>Urine</div>
+                      <div className={styles.patientDept}>{t('dashboard.urology')}</div>
                     </div>
                   </div>
                   <span className={`${styles.statusBadge} ${styles.statusWaiting}`}>
-                    Waiting
+                    {t('dashboard.waiting')}
                   </span>
                 </div>
               </div>
@@ -193,7 +123,7 @@ export default function Hero() {
       </div>
 
       <div className={styles.scrollIndicator} aria-hidden="true">
-        <span className={styles.scrollText}>Scroll</span>
+        <span className={styles.scrollText}>{t('scroll')}</span>
         <div className={styles.scrollLine} />
       </div>
     </section>

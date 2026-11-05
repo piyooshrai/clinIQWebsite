@@ -5,8 +5,9 @@ import FooterInner from '@/components/FooterInner'
 import ContactForm from '@/components/ContactForm'
 import s from '@/app/specialties/specialty-full.module.css'
 import styles from '@/app/contact/contact.module.css'
+import { localizeMetadata } from '@/lib/localized-metadata'
 
-export const metadata: Metadata = {
+const baseMetadata: Metadata = {
   title: 'Contact clinIQ — Get in Touch',
   description:
     'Reach clinIQ for general questions, sales, support, or partnership inquiries. info@cliniqhealthcare.com | sales@cliniqhealthcare.com | support@cliniqhealthcare.com',
@@ -50,6 +51,11 @@ const ICONS = {
       <path d="M6.5 3.5c0 0 1 2 1 3s-1.5 1.5-1.5 3c0 2.5 4 6.5 6.5 6.5 1.5 0 1.5-1.5 3-1.5s3 1 3 1v2c0 .5-.5 1-1.5 1C13 19 1 7 1 3.5 1 2.5 1.5 2 2 2h2c.5 0 1.5.5 2.5 1.5z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
     </svg>
   ),
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params
+  return localizeMetadata(baseMetadata, locale, '/contact')
 }
 
 export default async function ContactPage() {

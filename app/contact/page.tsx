@@ -9,7 +9,10 @@ export const metadata: Metadata = {
   title: 'Contact clinIQ — Get in Touch',
   description:
     'Reach clinIQ for general questions, sales, support, or partnership inquiries. info@cliniqhealthcare.com | sales@cliniqhealthcare.com | support@cliniqhealthcare.com',
-  alternates: { canonical: 'https://www.cliniqhealthcare.com/contact' },
+  alternates: {
+    canonical: 'https://www.cliniqhealthcare.com/contact',
+    languages: { en: 'https://www.cliniqhealthcare.com/contact', es: 'https://www.cliniqhealthcare.com/es/contact', 'x-default': 'https://www.cliniqhealthcare.com/contact' },
+  },
   openGraph: {
     title: 'Contact clinIQ — Get in Touch',
     description:

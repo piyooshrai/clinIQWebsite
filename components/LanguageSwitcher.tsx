@@ -1,8 +1,9 @@
 'use client'
 
 import { useLocale, useTranslations } from 'next-intl'
-import { usePathname, useRouter } from '@/i18n/navigation'
+import { usePathname } from '@/i18n/navigation'
 import { useTransition } from 'react'
+import { hasSpanishVersion } from '@/lib/es-pages'
 import styles from './LanguageSwitcher.module.css'
 
 function GlobeIcon() {
@@ -23,41 +24,39 @@ interface Props {
 export default function LanguageSwitcher({ variant = 'nav' }: Props) {
   const locale = useLocale()
   const t = useTranslations('languageSwitcher')
-  const router = useRouter()
   const pathname = usePathname()
   const [isPending, startTransition] = useTransition()
 
-  function switchLocale(nextLocale: string) {
+  // A full page load, so menus and forms re-render in the new language too.
+  function switchLocale(nextLocale: 'en' | 'ar' | 'es') {
+    const path = nextLocale === 'es' && !hasSpanishVersion(pathname) ? '/' : pathname
+    const target = nextLocale === 'en' ? path : `/${nextLocale}${path === '/' ? '' : path}`
+    document.cookie = `NEXT_LOCALE=${nextLocale}; path=/; max-age=31536000; samesite=lax`
     startTransition(() => {
-      router.replace(pathname, { locale: nextLocale })
+      window.location.assign(target + window.location.search)
     })
   }
 
   const btnClass = `${styles.btn} ${variant === 'inner' ? styles.btnInner : ''} ${isPending ? styles.pending : ''}`
-
-  if (locale === 'ar') {
-    return (
-      <button
-        onClick={() => switchLocale('en')}
-        className={btnClass}
-        title={t('switchToEnglish')}
-        lang="en"
-      >
-        <GlobeIcon />
-        <span>EN</span>
-      </button>
-    )
-  }
+  const options = (['en', 'es', 'ar'] as const).filter((option) => option !== locale)
+  const titles = { en: t('switchToEnglish'), es: t('switchToSpanish'), ar: t('switchToArabic') }
 
   return (
-    <button
-      onClick={() => switchLocale('ar')}
-      className={btnClass}
-      title={t('switchToArabic')}
-      lang="ar"
-    >
-      <GlobeIcon />
-      <span>AR</span>
-    </button>
+    <div className={styles.group}>
+      {options.map((option) => (
+        <button
+          key={option}
+          type="button"
+          onClick={() => switchLocale(option)}
+          className={btnClass}
+          title={titles[option]}
+          aria-label={titles[option]}
+          lang={option}
+        >
+          <GlobeIcon />
+          <span>{option.toUpperCase()}</span>
+        </button>
+      ))}
+    </div>
   )
 }

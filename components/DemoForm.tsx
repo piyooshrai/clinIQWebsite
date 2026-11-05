@@ -148,7 +148,7 @@ export default function DemoForm() {
             value={firstName}
             onChange={(e) => setFirstName(e.target.value)}
             required
-            placeholder="Jane"
+            placeholder={t('form.firstNamePlaceholder')}
           />
         </div>
         <div style={fieldStyle}>
@@ -162,7 +162,7 @@ export default function DemoForm() {
             value={lastName}
             onChange={(e) => setLastName(e.target.value)}
             required
-            placeholder="Smith"
+            placeholder={t('form.lastNamePlaceholder')}
           />
         </div>
       </div>
@@ -179,7 +179,7 @@ export default function DemoForm() {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
-          placeholder="you@yourclinic.com"
+          placeholder={t('form.emailPlaceholder')}
         />
       </div>
 
@@ -194,7 +194,7 @@ export default function DemoForm() {
           style={inputStyle}
           value={phone}
           onChange={(e) => setPhone(e.target.value)}
-          placeholder="(555) 000-0000"
+          placeholder={t('form.phonePlaceholder')}
         />
       </div>
 
@@ -210,7 +210,7 @@ export default function DemoForm() {
           value={practice}
           onChange={(e) => setPractice(e.target.value)}
           required
-          placeholder="Your clinic or practice"
+          placeholder={t('form.practicePlaceholder')}
         />
       </div>
 
@@ -226,7 +226,7 @@ export default function DemoForm() {
           onChange={(e) => setSpecialty(e.target.value)}
           required
         >
-          <option value="" disabled>Select…</option>
+          <option value="" disabled>{t('form.select')}</option>
           {SPECIALTY_KEYS.map((key) => (
             <option key={key} value={t(`specialties.${key}`)}>
               {t(`specialties.${key}`)}
@@ -247,7 +247,7 @@ export default function DemoForm() {
           onChange={(e) => setProviders(e.target.value)}
           required
         >
-          <option value="" disabled>Select…</option>
+          <option value="" disabled>{t('form.select')}</option>
           {PROVIDER_KEYS.map((key) => (
             <option key={key} value={t(`providers.${key}`)}>
               {t(`providers.${key}`)}
@@ -298,7 +298,7 @@ export default function DemoForm() {
           style={textareaStyle}
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          placeholder="Anything specific you'd like to see?"
+          placeholder={t('form.messagePlaceholder')}
           rows={4}
         />
       </div>

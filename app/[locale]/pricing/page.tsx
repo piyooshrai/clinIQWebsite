@@ -4,8 +4,9 @@ import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
 import PricingHero from '@/components/PricingHero'
 import PricingTable from '@/components/PricingTable'
+import { localizeMetadata } from '@/lib/localized-metadata'
 
-export const metadata: Metadata = {
+const baseMetadata: Metadata = {
   title: 'Pricing — clinIQ',
   description:
     'Transparent pricing for clinIQ. Starter $249/mo, Professional $499/mo, Enterprise custom. No per-transaction fees.',
@@ -18,6 +19,11 @@ export const metadata: Metadata = {
     url: 'https://www.cliniqhealthcare.com/pricing',
     images: [{ url: '/og-pricing.png', width: 1200, height: 630, alt: 'Pricing — clinIQ' }],
   },
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params
+  return localizeMetadata(baseMetadata, locale, '/pricing')
 }
 
 export default async function PricingPage() {

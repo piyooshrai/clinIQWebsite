@@ -2,6 +2,7 @@ import createMiddleware from 'next-intl/middleware'
 import { routing } from './i18n/routing'
 import { NextRequest, NextResponse } from 'next/server'
 import { isHrefPublished } from './lib/blog-schedule'
+import { hasSpanishVersion } from './lib/es-pages'
 
 // The alternate-Link header behavior is now disabled at the routing config
 // level (i18n/routing.ts). See that file for the reasoning.
@@ -60,10 +61,31 @@ export default function middleware(request: NextRequest) {
     return NextResponse.redirect(new URL(enPath, request.url))
   }
 
+  // Spanish covers only translated pages for now. Others go to English, temporarily.
+  if (pathname === '/es' || pathname.startsWith('/es/')) {
+    const englishPath = pathname.slice(3) || '/'
+    if (!hasSpanishVersion(englishPath)) {
+      return NextResponse.redirect(new URL(englishPath, request.url), 307)
+    }
+  }
+
   // Skip intl middleware for English-only paths and static assets
   const isEnglishOnly = ENGLISH_ONLY.some((p) => pathname.startsWith(p)) || STATIC_LOCATION_PAGES.has(pathname)
   if (isEnglishOnly || pathname.match(/\.(png|jpg|jpeg|svg|ico|webp|woff2?|txt|xml|webmanifest)$/)) {
     return NextResponse.next()
+  }
+
+  // A Spanish cookie or browser must not send an untranslated page back to /es.
+  const hasLocalePrefix = /^\/(en|ar|es)(\/|$)/.test(pathname)
+  if (!hasLocalePrefix && !hasSpanishVersion(pathname)) {
+    const cookieLocale = request.cookies.get('NEXT_LOCALE')?.value
+    const browserPrefersSpanish = /^\s*es\b/i.test(request.headers.get('accept-language') ?? '')
+    if (cookieLocale === 'es' || (!cookieLocale && browserPrefersSpanish)) {
+      const headers = new Headers(request.headers)
+      headers.delete('cookie')
+      headers.set('accept-language', 'en')
+      return intlMiddleware(new NextRequest(request.url, { headers }))
+    }
   }
 
   return intlMiddleware(request)
