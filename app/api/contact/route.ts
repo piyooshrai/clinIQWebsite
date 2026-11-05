@@ -3,7 +3,7 @@ import { deliverInquiry, isValidEmail, missingFields } from '@/lib/inquiry-deliv
 import { normalizeIntakeContext } from '@/lib/intake-context'
 
 const REQUIRED = {
-  demo: ['firstName', 'lastName', 'practice', 'specialty', 'providers'],
+  demo: ['firstName', 'practice', 'specialty'],
   contact: ['firstName', 'subject', 'message'],
 } as const
 
@@ -28,13 +28,13 @@ export async function POST(request: Request) {
       emailBody = [
         'New Demo Request',
         '',
-        `Name: ${firstName} ${lastName}`,
+        `Name: ${[firstName, lastName].filter(Boolean).join(' ')}`,
         `Email: ${email}`,
         `Phone: ${phone || 'Not provided'}`,
         `Practice: ${practice}`,
         `Specialty: ${specialty}`,
-        `Providers: ${providers}`,
-        `Interests: ${Array.isArray(interests) ? interests.join(', ') : interests}`,
+        `Providers: ${providers || 'Not asked'}`,
+        `Interests: ${Array.isArray(interests) && interests.length ? interests.join(', ') : 'Not asked'}`,
         `Notes: ${message || 'None'}`,
       ].join('\n')
     } else {

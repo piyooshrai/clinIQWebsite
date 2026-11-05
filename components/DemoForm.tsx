@@ -7,8 +7,6 @@ import styles from './DemoForm.module.css'
 import { trackDemoRequest } from '@/lib/analytics'
 
 const SPECIALTY_KEYS = ['pt', 'ortho', 'pain', 'behavioral', 'primary', 'urgent', 'neuro', 'cardio', 'derm', 'onco', 'other'] as const
-const PROVIDER_KEYS = ['p1', 'p2', 'p3', 'p4', 'p5', 'p6'] as const
-const INTEREST_KEYS = ['checkIn', 'flow', 'rtm', 'preAuth', 'scheduling', 'messaging', 'analytics'] as const
 
 const fieldStyle: React.CSSProperties = {
   display: 'flex',
@@ -51,39 +49,24 @@ const selectStyle: React.CSSProperties = {
   paddingRight: '1.5rem',
 }
 
-const textareaStyle: React.CSSProperties = {
-  ...inputStyle,
-  resize: 'none',
-  borderBottom: '2px solid rgba(0,0,0,0.15)',
-}
-
+// Four fields only: every extra question costs demo requests.
 export default function DemoForm() {
   const t = useTranslations('demo')
   const tc = useTranslations('common')
 
-  const [firstName, setFirstName] = useState('')
-  const [lastName, setLastName] = useState('')
+  const [fullName, setFullName] = useState('')
   const [email, setEmail] = useState('')
-  const [phone, setPhone] = useState('')
   const [practice, setPractice] = useState('')
   const [specialty, setSpecialty] = useState('')
-  const [providers, setProviders] = useState('')
-  const [interests, setInterests] = useState<string[]>([])
-  const [message, setMessage] = useState('')
   const [submitting, setSubmitting] = useState(false)
   const [submitted, setSubmitted] = useState(false)
   const [error, setError] = useState('')
-
-  function toggleInterest(key: string) {
-    setInterests((prev) =>
-      prev.includes(key) ? prev.filter((i) => i !== key) : [...prev, key]
-    )
-  }
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
     setSubmitting(true)
     setError('')
+    const [firstName, ...rest] = fullName.trim().split(/\s+/)
     try {
       const response = await fetch('/api/contact', {
         method: 'POST',
@@ -92,18 +75,14 @@ export default function DemoForm() {
           intakeContext: captureIntakeContext(),
           formType: 'demo',
           firstName,
-          lastName,
+          lastName: rest.join(' '),
           email,
-          phone,
           practice,
           specialty,
-          providers,
-          interests,
-          message,
         }),
       })
       if (!response.ok) throw new Error('Inquiry was not accepted')
-      trackDemoRequest(specialty, providers)
+      trackDemoRequest(specialty)
       setSubmitted(true)
     } catch {
       setError(tc('errorGeneric'))
@@ -134,47 +113,31 @@ export default function DemoForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
-      {/* First + Last Name */}
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.25rem' }}>
-        <div style={fieldStyle}>
-          <label style={labelStyle} htmlFor="demoFirstName">
-            {tc('firstName')} <span style={{ color: 'var(--teal)' }} aria-hidden="true">{tc('required')}</span>
-          </label>
-          <input
-            id="demoFirstName"
-            type="text"
-            style={inputStyle}
-            value={firstName}
-            onChange={(e) => setFirstName(e.target.value)}
-            required
-            placeholder={t('form.firstNamePlaceholder')}
-          />
-        </div>
-        <div style={fieldStyle}>
-          <label style={labelStyle} htmlFor="demoLastName">
-            {tc('lastName')} <span style={{ color: 'var(--teal)' }} aria-hidden="true">{tc('required')}</span>
-          </label>
-          <input
-            id="demoLastName"
-            type="text"
-            style={inputStyle}
-            value={lastName}
-            onChange={(e) => setLastName(e.target.value)}
-            required
-            placeholder={t('form.lastNamePlaceholder')}
-          />
-        </div>
+    <form onSubmit={handleSubmit} data-form="demo">
+      <div style={fieldStyle}>
+        <label style={labelStyle} htmlFor="demoFullName">
+          {tc('fullName')} <span style={{ color: 'var(--teal)' }} aria-hidden="true">{tc('required')}</span>
+        </label>
+        <input
+          id="demoFullName"
+          type="text"
+          autoComplete="name"
+          style={inputStyle}
+          value={fullName}
+          onChange={(e) => setFullName(e.target.value)}
+          required
+          placeholder={t('form.fullNamePlaceholder')}
+        />
       </div>
 
-      {/* Email */}
       <div style={fieldStyle}>
         <label style={labelStyle} htmlFor="demoEmail">
-          {tc('email')} <span style={{ color: 'var(--teal)' }} aria-hidden="true">{tc('required')}</span>
+          {tc('workEmail')} <span style={{ color: 'var(--teal)' }} aria-hidden="true">{tc('required')}</span>
         </label>
         <input
           id="demoEmail"
           type="email"
+          autoComplete="email"
           style={inputStyle}
           value={email}
           onChange={(e) => setEmail(e.target.value)}
@@ -183,22 +146,6 @@ export default function DemoForm() {
         />
       </div>
 
-      {/* Phone */}
-      <div style={fieldStyle}>
-        <label style={labelStyle} htmlFor="demoPhone">
-          {tc('phone')}
-        </label>
-        <input
-          id="demoPhone"
-          type="tel"
-          style={inputStyle}
-          value={phone}
-          onChange={(e) => setPhone(e.target.value)}
-          placeholder={t('form.phonePlaceholder')}
-        />
-      </div>
-
-      {/* Practice Name */}
       <div style={fieldStyle}>
         <label style={labelStyle} htmlFor="demoPractice">
           {tc('practiceName')} <span style={{ color: 'var(--teal)' }} aria-hidden="true">{tc('required')}</span>
@@ -206,6 +153,7 @@ export default function DemoForm() {
         <input
           id="demoPractice"
           type="text"
+          autoComplete="organization"
           style={inputStyle}
           value={practice}
           onChange={(e) => setPractice(e.target.value)}
@@ -214,7 +162,6 @@ export default function DemoForm() {
         />
       </div>
 
-      {/* Specialty */}
       <div style={fieldStyle}>
         <label style={labelStyle} htmlFor="demoSpecialty">
           {tc('specialty')} <span style={{ color: 'var(--teal)' }} aria-hidden="true">{tc('required')}</span>
@@ -233,74 +180,6 @@ export default function DemoForm() {
             </option>
           ))}
         </select>
-      </div>
-
-      {/* Number of Providers */}
-      <div style={fieldStyle}>
-        <label style={labelStyle} htmlFor="demoProviders">
-          {tc('numberOfProviders')} <span style={{ color: 'var(--teal)' }} aria-hidden="true">{tc('required')}</span>
-        </label>
-        <select
-          id="demoProviders"
-          style={selectStyle}
-          value={providers}
-          onChange={(e) => setProviders(e.target.value)}
-          required
-        >
-          <option value="" disabled>{t('form.select')}</option>
-          {PROVIDER_KEYS.map((key) => (
-            <option key={key} value={t(`providers.${key}`)}>
-              {t(`providers.${key}`)}
-            </option>
-          ))}
-        </select>
-      </div>
-
-      {/* Interests */}
-      <div style={{ ...fieldStyle, marginBottom: '1.5rem' }}>
-        <span style={labelStyle}>{tc('interests')}</span>
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.625rem', marginTop: '0.5rem' }}>
-          {INTEREST_KEYS.map((key) => {
-            const label = t(`interests.${key}`)
-            const checked = interests.includes(key)
-            return (
-              <button
-                key={key}
-                type="button"
-                onClick={() => toggleInterest(key)}
-                style={{
-                  padding: '0.375rem 0.875rem',
-                  fontSize: '0.8125rem',
-                  fontWeight: 500,
-                  borderRadius: '100px',
-                  border: checked ? '1px solid var(--teal)' : '1px solid rgba(0,0,0,0.15)',
-                  background: checked ? 'rgba(13,148,136,0.08)' : 'transparent',
-                  color: checked ? 'var(--teal)' : 'var(--text-secondary)',
-                  cursor: 'pointer',
-                  transition: 'all 0.15s',
-                }}
-                aria-pressed={checked}
-              >
-                {label}
-              </button>
-            )
-          })}
-        </div>
-      </div>
-
-      {/* Message */}
-      <div style={fieldStyle}>
-        <label style={labelStyle} htmlFor="demoMessage">
-          {tc('message')}
-        </label>
-        <textarea
-          id="demoMessage"
-          style={textareaStyle}
-          value={message}
-          onChange={(e) => setMessage(e.target.value)}
-          placeholder={t('form.messagePlaceholder')}
-          rows={4}
-        />
       </div>
 
       {error && (

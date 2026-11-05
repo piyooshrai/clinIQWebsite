@@ -56,15 +56,18 @@ export function trackResourceView(slug: string) {
  */
 export function trackResourceUnlock(slug: string, extra?: EventParams) {
   trackEvent('resource_unlock', { resource_slug: slug, ...extra })
+  trackEvent('generate_lead', { form_name: 'resource', resource_slug: slug })
 }
 
 /**
  * Demo request submitted.
  * Shows up in GA4 as event: demo_request
- * Dimensions: specialty, providers
+ * Also sends GA4's standard generate_lead event, the one to mark as a key event.
+ * Dimension: specialty
  */
-export function trackDemoRequest(specialty: string, providers: string) {
-  trackEvent('demo_request', { specialty, providers })
+export function trackDemoRequest(specialty: string) {
+  trackEvent('demo_request', { specialty })
+  trackEvent('generate_lead', { form_name: 'demo', specialty })
 }
 
 /**
@@ -74,4 +77,5 @@ export function trackDemoRequest(specialty: string, providers: string) {
  */
 export function trackContactSubmit(subject: string) {
   trackEvent('contact_submit', { subject })
+  trackEvent('generate_lead', { form_name: 'contact', subject })
 }

@@ -1,7 +1,4 @@
-'use client'
-
 import Link from 'next/link'
-import { trackCTA } from '@/lib/analytics'
 import s from '@/app/specialties/specialty-full.module.css'
 import css from './templates/PillarSpecialtyPage.module.css'
 
@@ -15,16 +12,12 @@ interface Props {
 
 export default function PillarMidCta({ headline, subhead, buttonLabel, href, pageSlug }: Props) {
   return (
-    <aside className={css.midCta} aria-label={headline}>
+    <aside className={css.midCta} aria-label={headline} data-cta-location={`mid_article:${pageSlug}`}>
       <div className={css.midCtaText}>
         <p className={css.midCtaHeadline}>{headline}</p>
         <p className={css.midCtaSubhead}>{subhead}</p>
       </div>
-      <Link
-        href={href}
-        className={s.btnPrimary}
-        onClick={() => trackCTA(buttonLabel, `mid_article:${pageSlug}`)}
-      >
+      <Link href={href} className={s.btnPrimary}>
         {buttonLabel}
       </Link>
     </aside>

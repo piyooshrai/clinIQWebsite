@@ -195,7 +195,9 @@
     "errorGeneric": "Algo salió mal. Inténtelo de nuevo.",
     "successTitle": "Ya está en la lista.",
     "successBody": "Nos pondremos en contacto en un plazo de 24 horas.",
-    "skipToContent": "Saltar al contenido principal"
+    "skipToContent": "Saltar al contenido principal",
+    "fullName": "Nombre completo",
+    "workEmail": "Correo de trabajo"
   },
   "hero": {
     "badge": "Software de operaciones clínicas",
@@ -442,7 +444,8 @@
       "emailPlaceholder": "usted@suclinica.com",
       "phonePlaceholder": "(555) 000-0000",
       "practicePlaceholder": "Su clínica o consulta",
-      "messagePlaceholder": "¿Hay algo específico que le gustaría ver?"
+      "messagePlaceholder": "¿Hay algo específico que le gustaría ver?",
+      "fullNamePlaceholder": "Ana García"
     }
   },
   "contact": {

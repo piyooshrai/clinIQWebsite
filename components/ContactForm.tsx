@@ -121,7 +121,7 @@ export default function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} data-form="contact">
       {/* Name */}
       <div style={fieldStyle}>
         <label style={labelStyle} htmlFor="contactName">

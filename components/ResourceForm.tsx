@@ -138,7 +138,7 @@ export default function ResourceForm({
               Fill in your details and the full resource appears instantly below.
             </p>
 
-            <form onSubmit={handleSubmit} className={styles.form}>
+            <form onSubmit={handleSubmit} className={styles.form} data-form="resource">
               {fields.map((field) => (
                 <div key={field.name} className={styles.fieldGroup}>
                   <label className={styles.fieldLabel} htmlFor={field.name}>

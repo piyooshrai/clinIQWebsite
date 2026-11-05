@@ -195,7 +195,9 @@
     "errorGeneric": "Something went wrong. Please try again.",
     "successTitle": "You're on the list.",
     "successBody": "We'll be in touch within 24 hours.",
-    "skipToContent": "Skip to main content"
+    "skipToContent": "Skip to main content",
+    "fullName": "Full name",
+    "workEmail": "Work email"
   },
   "hero": {
     "badge": "Clinic Operations Software",
@@ -442,7 +444,8 @@
       "emailPlaceholder": "you@yourclinic.com",
       "phonePlaceholder": "(555) 000-0000",
       "practicePlaceholder": "Your clinic or practice",
-      "messagePlaceholder": "Anything specific you'd like to see?"
+      "messagePlaceholder": "Anything specific you'd like to see?",
+      "fullNamePlaceholder": "Jane Smith"
     }
   },
   "contact": {

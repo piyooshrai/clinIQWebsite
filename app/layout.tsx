@@ -3,6 +3,7 @@ import { Instrument_Serif } from 'next/font/google'
 import { NextIntlClientProvider } from 'next-intl'
 import { getLocale, getMessages, getTranslations } from 'next-intl/server'
 import GoogleAnalytics from '@/components/GoogleAnalytics'
+import ClickTracking from '@/components/ClickTracking'
 import ChatWidget from '@/components/ChatWidget'
 import IntakeContext from '@/components/IntakeContext'
 import './globals.css'
@@ -49,6 +50,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           <GoogleAnalytics />
           <IntakeContext />
           <ChatWidget />
+          <ClickTracking />
           <a href="#main-content" className="skip-link">{tc('skipToContent')}</a>
           {children}
         </NextIntlClientProvider>
