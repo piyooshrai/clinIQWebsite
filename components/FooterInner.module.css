@@ -1,14 +1,14 @@
 /* Inner page footer — from cliniq-page-template.html */
 
 .footer {
-  padding: 5rem 0 3rem;
+  padding: 3.5rem 0 2rem;
   background: var(--black);
 }
 
 .footerGrid {
   display: grid;
   gap: 3rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
 }
 
 @media (min-width: 768px) {

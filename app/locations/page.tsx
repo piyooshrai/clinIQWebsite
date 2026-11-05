@@ -197,8 +197,8 @@ export default function LocationsPage() {
         {/* ── REGIONS ── */}
         <section className={s.modules} style={{ background: 'var(--cream, #f5f3ef)' }}>
           <div className={s.container}>
-            {REGIONS.map((region) => (
-              <div key={region.name} style={{ marginBottom: '72px' }}>
+            {REGIONS.map((region, regionIndex) => (
+              <div key={region.name} style={{ marginBottom: regionIndex === REGIONS.length - 1 ? 0 : '40px' }}>
                 <div
                   style={{
                     display: 'flex',

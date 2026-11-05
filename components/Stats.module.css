@@ -1,5 +1,5 @@
 .section {
-  padding: 160px 48px;
+  padding: var(--space-section) 48px;
   background: var(--black);
   position: relative;
   overflow: hidden;
@@ -31,7 +31,7 @@
   letter-spacing: -0.025em;
   line-height: 1.1;
   text-align: center;
-  margin: 0 auto 72px;
+  margin: 0 auto 2.5rem;
   max-width: 800px;
 }
 
@@ -81,6 +81,6 @@
 }
 
 @media (max-width: 768px) {
-  .section { padding: 100px 24px; }
+  .section { padding: var(--space-section) 24px; }
   .grid    { grid-template-columns: 1fr 1fr; gap: 48px; }
 }

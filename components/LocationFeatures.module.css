@@ -1,11 +1,11 @@
 .section {
-  padding: 6rem 0;
+  padding: var(--space-section) 0;
   background: var(--white);
 }
 
 .header {
   max-width: 600px;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .sectionLabel {

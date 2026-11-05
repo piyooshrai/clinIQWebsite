@@ -1,6 +1,6 @@
 /* ── PROOF / STATS STRIP ─────────────────────── */
 .proof {
-  padding: 5rem 0;
+  padding: var(--space-section) 0;
   background: var(--black);
 }
 
@@ -9,7 +9,7 @@
   justify-content: center;
   gap: 4rem;
   flex-wrap: wrap;
-  margin-bottom: 3.5rem;
+  margin-bottom: 2.25rem;
 }
 
 .proofStat {
@@ -65,7 +65,7 @@
 
 /* ── CONTENT SECTIONS ────────────────────────── */
 .contentSection {
-  padding: 5.5rem 0;
+  padding: var(--space-section) 0;
   background: var(--white);
 }
 
@@ -160,13 +160,13 @@
 
 /* ── PRICING ─────────────────────────────────── */
 .pricing {
-  padding: 7rem 0;
+  padding: var(--space-section) 0;
   background: var(--white);
 }
 
 .pricingHeader {
   max-width: 640px;
-  margin-bottom: 3.5rem;
+  margin-bottom: 2.25rem;
 }
 
 .pricingGrid {
@@ -230,7 +230,7 @@
 
 /* ── RESOURCE CARD ───────────────────────────── */
 .resourceSection {
-  padding: 5rem 0;
+  padding: var(--space-section) 0;
   background: var(--cream, #f5f3ef);
 }
 
@@ -276,6 +276,6 @@
 
 /* ── FAQ SECTION ─────────────────────────────── */
 .faqSection {
-  padding: 7rem 0;
+  padding: var(--space-section) 0;
   background: var(--white);
 }

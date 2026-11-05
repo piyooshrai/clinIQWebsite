@@ -2,7 +2,7 @@
    Styled to match template .stats dark section tonality */
 
 .section {
-  padding: 6rem 0;
+  padding: var(--space-section) 0;
   background: var(--black);
   position: relative;
   overflow: hidden;
@@ -27,7 +27,7 @@
 }
 
 .header {
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
 }
 
 /* Section label — matches template .section-label */

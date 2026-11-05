@@ -2,7 +2,7 @@
    White background, centered, teal primary button */
 
 .section {
-  padding: 8rem 0;
+  padding: var(--space-cta) 0;
   background: var(--white);
 }
 

@@ -1,6 +1,6 @@
 /* ── Revealed content wrapper ──────────────────────────────────────── */
 .revealSection {
-  padding: 4rem 0 6rem;
+  padding: var(--space-section) 0;
   background: var(--cream);
 }
 

@@ -1,7 +1,7 @@
 /* Specialty CTA — cream background, centered, specialty-specific label */
 
 .section {
-  padding: 8rem 0;
+  padding: var(--space-cta) 0;
   background: var(--cream);
 }
 

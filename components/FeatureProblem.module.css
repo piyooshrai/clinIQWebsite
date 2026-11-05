@@ -1,12 +1,12 @@
 /* Feature problem section — from cliniq-page-template.html .problem */
 
 .section {
-  padding: 6rem 0;
+  padding: var(--space-section) 0;
   background: var(--white);
 }
 
 .header {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .sectionLabel {

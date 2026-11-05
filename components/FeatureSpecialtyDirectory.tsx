@@ -6,7 +6,7 @@ export default function FeatureSpecialtyDirectory({ featureSlug }: { featureSlug
   if (!feature) return null
   const categories = Array.from(new Set(SPECIALTIES.map((s) => s.category)))
   return (
-    <section aria-labelledby="by-specialty" style={{ padding: '4rem 0', background: 'var(--bg-primary, #fafaf8)' }}>
+    <section aria-labelledby="by-specialty" style={{ padding: 'var(--space-section) 0', background: 'var(--bg-primary, #fafaf8)' }}>
       <div className="container">
         <h2 id="by-specialty" style={{ fontFamily: 'var(--font-display)', fontSize: '1.75rem', marginBottom: '0.5rem' }}>
           {feature.name} by specialty

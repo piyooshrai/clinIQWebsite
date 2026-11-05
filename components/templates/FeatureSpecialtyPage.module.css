@@ -36,7 +36,7 @@
 .hero {
   position: relative;
   background: var(--black);
-  padding: 100px 0 80px;
+  padding: 100px 0 var(--space-hero-bottom);
   overflow: hidden;
 }
 
@@ -159,13 +159,13 @@
 
 /* ── Problem / Solution ── */
 .problem {
-  padding: 72px 0;
+  padding: var(--space-section) 0;
   background: var(--black);
   border-top: 1px solid rgba(255,255,255,0.06);
 }
 
 .solution {
-  padding: 72px 0;
+  padding: var(--space-section) 0;
   background: var(--cream);
 }
 
@@ -206,7 +206,7 @@
 
 /* ── CTA ── */
 .cta {
-  padding: 96px 0;
+  padding: var(--space-cta) 0;
   background: var(--black);
 }
 

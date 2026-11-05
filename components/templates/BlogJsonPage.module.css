@@ -27,7 +27,7 @@
 
 /* ── TWO-COLUMN LAYOUT ───────────────────────────── */
 .layout {
-  padding: 4rem 0 6rem;
+  padding: var(--space-section) 0;
   background: var(--white);
 }
 
@@ -206,7 +206,7 @@
 
 /* ── CALLOUT BOX ─────────────────────────────────── */
 .callout {
-  margin-top: 3rem;
+  margin-top: 2rem;
   padding: 1.75rem 2rem;
   background: rgba(13, 148, 136, 0.05);
   border: 1px solid rgba(13, 148, 136, 0.2);

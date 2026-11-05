@@ -1,5 +1,5 @@
 .section {
-  padding: 7rem 0;
+  padding: var(--space-cta) 0;
   background: var(--black);
   position: relative;
   overflow: hidden;

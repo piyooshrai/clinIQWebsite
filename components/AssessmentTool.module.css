@@ -1,5 +1,5 @@
 .section {
-  padding: 4rem 0 7rem;
+  padding: var(--space-section) 0;
   background: var(--cream);
 }
 
@@ -27,11 +27,11 @@
 .progressLabel {
   font-size: 0.8125rem;
   color: var(--text-tertiary);
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .domainSection {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .domainTitle {

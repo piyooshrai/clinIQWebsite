@@ -1,6 +1,6 @@
 /* ─── Hero ─────────────────────────────────────────────────────────────────── */
 .hero {
-  padding: 10rem 3rem 6rem;
+  padding: 9rem 3rem var(--space-hero-bottom);
   background: var(--black);
   position: relative;
   overflow: hidden;
@@ -160,7 +160,7 @@
 
 /* ─── Two-column Problem / Solution ─────────────────────────────────────────── */
 .twoCols {
-  padding: 6rem 3rem;
+  padding: var(--space-section) 3rem;
   background: rgba(255, 255, 255, 0.015);
   border-top: 1px solid rgba(255, 255, 255, 0.06);
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
@@ -232,7 +232,7 @@
 
 /* ─── CTA Section ────────────────────────────────────────────────────────────── */
 .ctaSection {
-  padding: 7rem 3rem;
+  padding: var(--space-cta) 3rem;
   background: var(--black);
 }
 
@@ -281,14 +281,14 @@
 
 @media (max-width: 768px) {
   .hero {
-    padding: 8rem 1.5rem 4rem;
+    padding: 9rem 1.5rem var(--space-hero-bottom);
   }
 
   .twoCols {
-    padding: 4rem 1.5rem;
+    padding: var(--space-section) 1.5rem;
   }
 
   .ctaSection {
-    padding: 5rem 1.5rem;
+    padding: var(--space-cta) 1.5rem;
   }
 }

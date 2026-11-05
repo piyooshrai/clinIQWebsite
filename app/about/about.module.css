@@ -1,5 +1,5 @@
 .content {
-  padding: 5rem 0 8rem;
+  padding: var(--space-section) 0;
   background: var(--cream);
 }
 
@@ -8,7 +8,7 @@
 }
 
 .section {
-  margin-bottom: 3.5rem;
+  margin-bottom: 2.25rem;
 }
 
 .h2 {

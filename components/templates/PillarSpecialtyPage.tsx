@@ -1,3 +1,4 @@
+import type React from 'react'
 import { isHrefPublished } from '@/lib/blog-schedule'
 import { renderInline, renderContent } from '@/lib/renderContent'
 import { buildFAQSchema } from '@/lib/schema'
@@ -55,7 +56,7 @@ export interface PillarData {
 
 // ── Component ─────────────────────────────────────────────────────────────────
 
-export default function PillarSpecialtyPage({ data }: { data: PillarData }) {
+export default function PillarSpecialtyPage({ data, beforeCta }: { data: PillarData; beforeCta?: React.ReactNode }) {
   const faqSchema = buildFAQSchema(data.faqs)
 
   const softwareSchema = data as unknown as {
@@ -262,6 +263,8 @@ export default function PillarSpecialtyPage({ data }: { data: PillarData }) {
             <FaqAccordion faqs={data.faqs} />
           </div>
         </section>
+
+        {beforeCta}
 
         {/* ── CTA ── */}
         <section className={s.cta}>

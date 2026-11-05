@@ -96,6 +96,22 @@ body::before {
   z-index: 10000;
 }
 
+/* ==================== SECTION SPACING ==================== */
+/* One scale for vertical rhythm across every page. Tune here, not per section. */
+:root {
+  --space-section: 3.5rem;
+  --space-cta: 4.5rem;
+  --space-hero-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --space-section: 2.5rem;
+    --space-cta: 3rem;
+    --space-hero-bottom: 2rem;
+  }
+}
+
 /* ==================== CONTAINER UTILITIES ==================== */
 /* Homepage: 1440px max-width, 48px padding */
 .container-home {

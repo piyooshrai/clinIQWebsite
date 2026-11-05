@@ -315,7 +315,7 @@ export default function EhrVsClinicOperationsPage() {
           </p>
         </BlogContent>
 
-        <section style={{ padding: '4rem 0 5rem', background: 'var(--white)' }}>
+        <section style={{ padding: 'var(--space-section) 0', background: 'var(--white)' }}>
           <div className="container">
             <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(1.4rem, 2.5vw, 1.875rem)', fontWeight: 400, color: 'var(--text-primary)', marginBottom: '2.5rem', textAlign: 'center' }}>
               Frequently Asked Questions

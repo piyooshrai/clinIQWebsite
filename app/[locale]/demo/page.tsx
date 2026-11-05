@@ -58,7 +58,7 @@ export default async function DemoPage() {
       <NavInner />
       <main>
         {/* ── Hero ── */}
-        <section className={s.hero} style={{ minHeight: 'auto', padding: '7rem 0 5rem' }}>
+        <section className={s.hero} style={{ minHeight: 'auto', padding: '8.5rem 0 var(--space-hero-bottom)' }}>
           <div className={s.heroBg}>
             <div className={`${s.heroOrb} ${s.heroOrbTeal}`} />
             <div className={`${s.heroOrb} ${s.heroOrbBlue}`} />

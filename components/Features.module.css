@@ -1,5 +1,5 @@
 .section {
-  padding: 160px 48px;
+  padding: var(--space-section) 48px;
   background: var(--cream);
   position: relative;
 }
@@ -11,7 +11,7 @@
 
 /* Section header */
 .header {
-  margin-bottom: 96px;
+  margin-bottom: 3rem;
 }
 
 .label {
@@ -127,7 +127,7 @@
 }
 
 @media (max-width: 768px) {
-  .section { padding: 100px 24px; }
+  .section { padding: var(--space-section) 24px; }
   .grid    { grid-template-columns: 1fr; }
-  .header  { margin-bottom: 64px; }
+  .header  { margin-bottom: 2.5rem; }
 }

@@ -29,7 +29,7 @@
 /* ── TWO-COLUMN LAYOUT (TOC + CONTENT) ──────────── */
 .contentOuter {
   background: var(--white);
-  padding: 5rem 0;
+  padding: var(--space-section) 0;
 }
 
 .contentWrapper {
@@ -264,7 +264,7 @@
 
 /* ── PROOF / STATS STRIP ─────────────────────────── */
 .proof {
-  padding: 5rem 0;
+  padding: var(--space-section) 0;
   background: var(--black);
 }
 
@@ -273,7 +273,7 @@
   justify-content: center;
   gap: 4rem;
   flex-wrap: wrap;
-  margin-bottom: 3.5rem;
+  margin-bottom: 2.25rem;
 }
 
 .proofStat {
@@ -333,7 +333,7 @@
 
 /* ── RELATED CONTENT ─────────────────────────────── */
 .relatedSection {
-  padding: 6rem 0;
+  padding: var(--space-section) 0;
   background: var(--cream, #f5f3ef);
 }
 
@@ -408,6 +408,6 @@
 
 /* ── FAQ SECTION ─────────────────────────────────── */
 .faqSection {
-  padding: 7rem 0;
+  padding: var(--space-section) 0;
   background: var(--white);
 }

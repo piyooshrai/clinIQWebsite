@@ -1,13 +1,13 @@
 /* The Reality section — cream background, narrative + bullet points */
 
 .section {
-  padding: 6rem 0;
+  padding: var(--space-section) 0;
   background: var(--cream);
 }
 
 .header {
   max-width: 720px;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .sectionLabel {

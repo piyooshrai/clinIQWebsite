@@ -75,9 +75,9 @@ export default function FeaturePillarSlugPage({ params }: { params: { featureSlu
   const data = featurePillars[params.featureSlug]
   if (!data) notFound()
   return (
-    <>
-      <PillarSpecialtyPage data={data} />
-      <FeatureSpecialtyDirectory featureSlug={params.featureSlug} />
-    </>
+    <PillarSpecialtyPage
+      data={data}
+      beforeCta={<FeatureSpecialtyDirectory featureSlug={params.featureSlug} />}
+    />
   )
 }

@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  padding: 9rem 0 5rem;
+  padding: 9rem 0 var(--space-hero-bottom);
   background: var(--black);
   overflow: hidden;
 }

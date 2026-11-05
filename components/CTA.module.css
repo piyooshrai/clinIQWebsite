@@ -1,5 +1,5 @@
 .section {
-  padding: 200px 48px;
+  padding: var(--space-cta) 48px;
   background: linear-gradient(180deg, var(--gray-900) 0%, var(--black) 100%);
   position: relative;
   overflow: hidden;
@@ -63,7 +63,7 @@
 .description {
   font-size: 20px;
   color: var(--gray-400);
-  margin-bottom: 48px;
+  margin-bottom: 2rem;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -111,6 +111,6 @@
 }
 
 @media (max-width: 768px) {
-  .section  { padding: 120px 24px; }
+  .section  { padding: var(--space-cta) 24px; }
   .buttons  { flex-direction: column; align-items: center; }
 }

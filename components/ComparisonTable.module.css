@@ -1,10 +1,10 @@
 .section {
-  padding: 6rem 0;
+  padding: var(--space-section) 0;
   background: var(--white);
 }
 
 .header {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .sectionLabel {

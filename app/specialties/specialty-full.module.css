@@ -7,10 +7,10 @@
 /* ── HERO ──────────────────────────────────── */
 .hero {
   position: relative;
-  min-height: 90vh;
+  min-height: auto;
   display: flex;
   align-items: center;
-  padding: 9rem 0 7rem;
+  padding: 9rem 0 var(--space-hero-bottom);
   background: var(--black);
   overflow: hidden;
 }
@@ -243,7 +243,7 @@
 
 /* ── THE REALITY (SECTION 2) ───────────────── */
 .reality {
-  padding: 7rem 0;
+  padding: var(--space-section) 0;
   background: var(--white);
 }
 
@@ -314,13 +314,13 @@
 
 /* ── WHAT CHANGES (BEFORE / AFTER) ─────────── */
 .changes {
-  padding: 7rem 0;
+  padding: var(--space-section) 0;
   background: var(--cream);
 }
 
 .changesHeader {
   max-width: 640px;
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
 }
 
 .changesGrid {
@@ -382,13 +382,13 @@
 
 /* ── MODULES THAT MATTER ────────────────────── */
 .modules {
-  padding: 7rem 0;
+  padding: var(--space-section) 0;
   background: var(--white);
 }
 
 .modulesHeader {
   max-width: 640px;
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
 }
 
 .modulesGrid {
@@ -484,13 +484,13 @@
 
 /* ── WORKFLOW ────────────────────────────────── */
 .workflow {
-  padding: 7rem 0;
+  padding: var(--space-section) 0;
   background: var(--cream);
 }
 
 .workflowHeader {
   max-width: 680px;
-  margin: 0 auto 4rem;
+  margin: 0 auto 2.5rem;
   text-align: center;
 }
 
@@ -552,14 +552,14 @@
 
 /* ── ROI STATS (dark bg) ────────────────────── */
 .stats {
-  padding: 6rem 0;
+  padding: var(--space-section) 0;
   background: var(--black);
 }
 
 .statsHeader {
   text-align: center;
   max-width: 600px;
-  margin: 0 auto 4rem;
+  margin: 0 auto 2.5rem;
 }
 
 .statsHeaderTitle {
@@ -611,7 +611,7 @@
 
 /* ── TESTIMONIAL ─────────────────────────────── */
 .testimonial {
-  padding: 7rem 0;
+  padding: var(--space-section) 0;
   background: var(--cream);
 }
 
@@ -644,13 +644,13 @@
 
 /* ── FAQ ─────────────────────────────────────── */
 .faq {
-  padding: 7rem 0;
+  padding: var(--space-section) 0;
   background: var(--white);
 }
 
 .faqHeader {
   max-width: 600px;
-  margin-bottom: 3.5rem;
+  margin-bottom: 2.25rem;
 }
 
 .faqList {
@@ -689,7 +689,7 @@
 
 /* ── CTA ─────────────────────────────────────── */
 .cta {
-  padding: 9rem 0;
+  padding: var(--space-cta) 0;
   background: var(--black);
   position: relative;
   overflow: hidden;
@@ -759,7 +759,7 @@
 /* ── SPECIALTIES INDEX GRID ──────────────────── */
 .specialtiesSection {
   background: var(--cream);
-  padding: 5rem 0 6rem;
+  padding: var(--space-section) 0;
 }
 
 .specialtiesCount {
@@ -828,7 +828,7 @@
 
 /* ── RELATED LINKS ───────────────────────────── */
 .related {
-  padding: 5rem 0;
+  padding: var(--space-section) 0;
   background: var(--cream);
   border-top: 1px solid var(--border-light);
 }
@@ -871,6 +871,6 @@
 @media (max-width: 767px) {
   .hero {
     min-height: auto;
-    padding: 4rem 0;
+    padding: 7.5rem 0 var(--space-hero-bottom);
   }
 }
