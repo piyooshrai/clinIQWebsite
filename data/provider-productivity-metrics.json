@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Wait Time Analytics: What to Measure and Why", "href": "/blog/wait-time-analytics" },
-    { "title": "No-Show Analytics: Understanding the Patterns", "href": "/blog/no-show-analytics-patterns" }
+    {
+      "title": "Wait Time Analytics: What to Measure and Why",
+      "href": "/blog/wait-time-analytics"
+    },
+    {
+      "title": "No-Show Analytics: Understanding the Patterns",
+      "href": "/blog/no-show-analytics-patterns"
+    }
   ],
   "pillarLink": {
     "title": "Analytics",
@@ -75,6 +81,15 @@
   "cta": {
     "headline": "Know Which Productivity Metrics Actually Drive Revenue",
     "subhead": "clinIQ turns provider performance data into specific, actionable insights your team can act on this week.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
+  },
+  "heroImage": {
+    "src": "/people/clinic-staff-using-tablet-at-reception.jpg",
+    "alt": "Clinic staff member in scrubs using a tablet at a reception desk",
+    "width": 1400,
+    "height": 933
   }
 }

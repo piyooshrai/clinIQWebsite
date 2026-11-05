@@ -7,7 +7,13 @@
   "meta": {
     "title": "Patient Scheduling Software: A Clinic Buyer's Guide",
     "description": "How to choose patient scheduling software for a specialty clinic: the features that matter, the questions to ask vendors, and how to measure results.",
-    "keywords": ["patient scheduling software", "medical scheduling software", "healthcare scheduling software", "clinic scheduling software", "medical appointment scheduling software"]
+    "keywords": [
+      "patient scheduling software",
+      "medical scheduling software",
+      "healthcare scheduling software",
+      "clinic scheduling software",
+      "medical appointment scheduling software"
+    ]
   },
   "publishDate": "2026-12-08",
   "updatedDate": "2026-12-08",
@@ -75,9 +81,18 @@
     }
   ],
   "relatedPosts": [
-    { "title": "Reducing No-Shows With Better Scheduling", "href": "/blog/no-show-reduction-scheduling" },
-    { "title": "Appointment Templates and Visit Duration", "href": "/blog/appointment-templates-duration" },
-    { "title": "Same-Day Access Scheduling", "href": "/blog/same-day-access-scheduling" }
+    {
+      "title": "Reducing No-Shows With Better Scheduling",
+      "href": "/blog/no-show-reduction-scheduling"
+    },
+    {
+      "title": "Appointment Templates and Visit Duration",
+      "href": "/blog/appointment-templates-duration"
+    },
+    {
+      "title": "Same-Day Access Scheduling",
+      "href": "/blog/same-day-access-scheduling"
+    }
   ],
   "pillarLink": {
     "title": "Scheduling",
@@ -87,6 +102,15 @@
   "cta": {
     "headline": "Plan the Day You Actually Run",
     "subhead": "See clinIQ scheduling configured for your specialty in 15 minutes.",
-    "primaryButton": { "label": "Request a Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request a Demo",
+      "href": "/demo"
+    }
+  },
+  "heroImage": {
+    "src": "/people/clinic-staff-using-tablet-at-reception.jpg",
+    "alt": "Clinic staff member in scrubs using a tablet at a reception desk",
+    "width": 1400,
+    "height": 933
   }
 }

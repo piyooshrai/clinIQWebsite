@@ -7,7 +7,13 @@
   "meta": {
     "title": "No-Show Reduction Through Smarter Scheduling",
     "description": "Scheduling-side no-show reduction strategies: overbooking math, reminder timing, waitlist management, and appointment lead time optimization to cut no-show rates.",
-    "keywords": ["no-show reduction scheduling", "medical practice no-show rate", "appointment reminder best practices", "overbooking strategy medical practice", "scheduling no-show prevention"]
+    "keywords": [
+      "no-show reduction scheduling",
+      "medical practice no-show rate",
+      "appointment reminder best practices",
+      "overbooking strategy medical practice",
+      "scheduling no-show prevention"
+    ]
   },
   "publishDate": "2025-10-18",
   "updatedDate": "2025-10-18",
@@ -54,8 +60,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Same-Day Access: Making It Actually Work", "href": "/blog/same-day-access-scheduling" },
-    { "title": "Appointment Templates: Getting Duration Right", "href": "/blog/appointment-templates-duration" }
+    {
+      "title": "Same-Day Access: Making It Actually Work",
+      "href": "/blog/same-day-access-scheduling"
+    },
+    {
+      "title": "Appointment Templates: Getting Duration Right",
+      "href": "/blog/appointment-templates-duration"
+    }
   ],
   "pillarLink": {
     "title": "Scheduling Features",
@@ -65,6 +77,15 @@
   "cta": {
     "headline": "Reduce no-shows with smarter scheduling",
     "subhead": "See how clinIQ's risk-stratified reminders and active waitlist management cut no-show rates in a 15-minute demo.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
+  },
+  "heroImage": {
+    "src": "/people/clinic-staff-using-tablet-at-reception.jpg",
+    "alt": "Clinic staff member in scrubs using a tablet at a reception desk",
+    "width": 1400,
+    "height": 933
   }
 }

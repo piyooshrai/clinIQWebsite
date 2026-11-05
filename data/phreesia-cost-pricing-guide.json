@@ -7,7 +7,13 @@
   "meta": {
     "title": "How Much Does Phreesia Cost? 2026 Pricing Guide",
     "description": "Phreesia doesn't publish list prices. Here's what its pricing page says, what its free Intake offer means, and the questions to ask before you sign.",
-    "keywords": ["phreesia cost", "phreesia pricing", "how much does phreesia cost", "how much does phreesia cost per month", "phreesia alternative"]
+    "keywords": [
+      "phreesia cost",
+      "phreesia pricing",
+      "how much does phreesia cost",
+      "how much does phreesia cost per month",
+      "phreesia alternative"
+    ]
   },
   "publishDate": "2026-11-04",
   "updatedDate": "2026-11-04",
@@ -75,9 +81,18 @@
     }
   ],
   "relatedPosts": [
-    { "title": "Phone vs Kiosk Check-In", "href": "/blog/phone-vs-kiosk-check-in" },
-    { "title": "Check-In Completion Rates", "href": "/blog/check-in-completion-rates" },
-    { "title": "Why Your EHR Can't Run Clinic Operations", "href": "/blog/ehr-vs-clinic-operations" }
+    {
+      "title": "Phone vs Kiosk Check-In",
+      "href": "/blog/phone-vs-kiosk-check-in"
+    },
+    {
+      "title": "Check-In Completion Rates",
+      "href": "/blog/check-in-completion-rates"
+    },
+    {
+      "title": "Why Your EHR Can't Run Clinic Operations",
+      "href": "/blog/ehr-vs-clinic-operations"
+    }
   ],
   "pillarLink": {
     "title": "Phreesia Alternative",
@@ -87,6 +102,15 @@
   "cta": {
     "headline": "See What Comes After Check-In",
     "subhead": "Intake, patient flow, pre-authorization, and RTM billing in one platform, with published pricing.",
-    "primaryButton": { "label": "Request a Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request a Demo",
+      "href": "/demo"
+    }
+  },
+  "heroImage": {
+    "src": "/people/clinic-front-desk-patient-check-in.jpg",
+    "alt": "Patient completing paperwork with a staff member at a clinic front desk",
+    "width": 1400,
+    "height": 935
   }
 }

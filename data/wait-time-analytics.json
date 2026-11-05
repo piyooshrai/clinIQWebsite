@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Provider Productivity: Metrics That Matter", "href": "/blog/provider-productivity-metrics" },
-    { "title": "No-Show Analytics: Understanding the Patterns", "href": "/blog/no-show-analytics-patterns" }
+    {
+      "title": "Provider Productivity: Metrics That Matter",
+      "href": "/blog/provider-productivity-metrics"
+    },
+    {
+      "title": "No-Show Analytics: Understanding the Patterns",
+      "href": "/blog/no-show-analytics-patterns"
+    }
   ],
   "pillarLink": {
     "title": "Analytics",
@@ -75,6 +81,15 @@
   "cta": {
     "headline": "See Every Minute of Your Patient's Visit — Not Just the Total",
     "subhead": "clinIQ's four-segment wait time analytics tell you exactly where your flow is breaking down and when.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
+  },
+  "heroImage": {
+    "src": "/people/clinic-front-desk-patient-check-in.jpg",
+    "alt": "Patient completing paperwork with a staff member at a clinic front desk",
+    "width": 1400,
+    "height": 935
   }
 }

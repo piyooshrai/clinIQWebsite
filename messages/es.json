@@ -16,5 +16,24 @@
     "switchToArabic": "Cambiar a árabe",
     "switchToEnglish": "Switch to English",
     "switchToSpanish": "Cambiar a español"
+  },
+  "homePeople": {
+    "title": "Built around the people running your clinic",
+    "subtitle": "Every delay lands on someone: a front desk answering the same question, a provider running behind, a patient wondering if they were forgotten. clinIQ gives each of them what they need to keep the day moving.",
+    "frontDesk": {
+      "title": "Front desk teams",
+      "body": "Fewer clipboards, fewer repeat questions, and a clear view of who has arrived.",
+      "alt": "Patient reviewing paperwork with a staff member at a clinic front desk"
+    },
+    "careTeam": {
+      "title": "Care teams and patients",
+      "body": "Patients know what happens next, and staff can see where every visit stands.",
+      "alt": "Clinician in scrubs reviewing a tablet with a patient in a clinic waiting area"
+    },
+    "provider": {
+      "title": "Providers",
+      "body": "See the day as it's actually running, not as it was scheduled.",
+      "alt": "Provider in a white coat using a tablet"
+    }
   }
 }

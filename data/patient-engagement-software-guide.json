@@ -7,7 +7,13 @@
   "meta": {
     "title": "Patient Engagement Software: What It Does and Why",
     "description": "What patient engagement software does, which features drive results, how it differs from a patient portal, and how to choose a platform for your clinic.",
-    "keywords": ["patient engagement software", "patient engagement platform", "digital patient engagement platform", "patient communication platform", "patient engagement software solutions"]
+    "keywords": [
+      "patient engagement software",
+      "patient engagement platform",
+      "digital patient engagement platform",
+      "patient communication platform",
+      "patient engagement software solutions"
+    ]
   },
   "publishDate": "2027-01-12",
   "updatedDate": "2027-01-12",
@@ -75,9 +81,18 @@
     }
   ],
   "relatedPosts": [
-    { "title": "Check-In Completion Rates", "href": "/blog/check-in-completion-rates" },
-    { "title": "RTM Enrollment and Participation", "href": "/blog/rtm-enrollment-participation" },
-    { "title": "Self-Service Check-In for Elderly Patients", "href": "/blog/self-service-check-in-elderly-patients" }
+    {
+      "title": "Check-In Completion Rates",
+      "href": "/blog/check-in-completion-rates"
+    },
+    {
+      "title": "RTM Enrollment and Participation",
+      "href": "/blog/rtm-enrollment-participation"
+    },
+    {
+      "title": "Self-Service Check-In for Elderly Patients",
+      "href": "/blog/self-service-check-in-elderly-patients"
+    }
   ],
   "pillarLink": {
     "title": "Patient App",
@@ -87,6 +102,15 @@
   "cta": {
     "headline": "Give Patients One Place to Do It All",
     "subhead": "See the clinIQ patient app configured for your specialty in 15 minutes.",
-    "primaryButton": { "label": "Request a Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request a Demo",
+      "href": "/demo"
+    }
+  },
+  "heroImage": {
+    "src": "/people/clinician-reviewing-tablet-with-patient.jpg",
+    "alt": "Clinician reviewing a tablet with a patient in a clinic waiting area",
+    "width": 1400,
+    "height": 933
   }
 }

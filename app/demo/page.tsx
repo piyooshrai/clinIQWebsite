@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
 import DemoForm from '@/components/DemoForm'
+import Image from 'next/image'
 import s from '@/app/specialties/specialty-full.module.css'
 import styles from './demo.module.css'
 
@@ -79,7 +80,8 @@ export default function DemoPage() {
             <div className={styles.twoCol}>
               {/* Left panel — dark */}
               <div className={styles.leftPanel}>
-                <h2 className={styles.leftTitle}>What you&apos;ll see</h2>
+                <Image src="/people/clinician-reviewing-tablet-with-patient.jpg" alt="Clinician reviewing a tablet with a patient in a clinic waiting area" width={1400} height={933} sizes="(max-width: 900px) 100vw, 400px" style={{ width: '100%', height: 'auto', borderRadius: '12px', marginBottom: '1.5rem' }} />
+                <h2 className={styles.leftTitle}>What you&apos;ll see</h2>
                 <ul className={styles.featureList}>
                   {DEMO_FEATURES.map((feat) => (
                     <li key={feat} className={styles.featureItem}>

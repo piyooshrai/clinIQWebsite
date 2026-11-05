@@ -4,6 +4,7 @@ import Nav from '@/components/Nav'
 import Hero from '@/components/Hero'
 import Marquee from '@/components/Marquee'
 import Features from '@/components/Features'
+import HomePeople from '@/components/HomePeople'
 import HomeProblem from '@/components/HomeProblem'
 import HomeHowItWorks from '@/components/HomeHowItWorks'
 import HomeOpsLayer from '@/components/HomeOpsLayer'
@@ -113,6 +114,7 @@ export default async function Home() {
         <Hero />
         <Marquee />
         <Features />
+        <HomePeople />
         <HomeHowItWorks />
         <HomeProblem />
         <HomeOpsLayer />

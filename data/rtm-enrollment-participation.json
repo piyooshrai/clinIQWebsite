@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "RTM CPT Codes Explained: 98975-98981", "href": "/blog/rtm-cpt-codes-explained" },
-    { "title": "RTM vs RPM: Which Is Right for Your Practice?", "href": "/blog/rtm-vs-rpm-comparison" }
+    {
+      "title": "RTM CPT Codes Explained: 98975-98981",
+      "href": "/blog/rtm-cpt-codes-explained"
+    },
+    {
+      "title": "RTM vs RPM: Which Is Right for Your Practice?",
+      "href": "/blog/rtm-vs-rpm-comparison"
+    }
   ],
   "pillarLink": {
     "title": "RTM Billing",
@@ -75,6 +81,15 @@
   "cta": {
     "headline": "Ready to Hit 75% RTM Enrollment?",
     "subhead": "clinIQ gives your practice the workflow tools and tracking dashboards to get there — and stay there.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
+  },
+  "heroImage": {
+    "src": "/people/clinician-reviewing-tablet-with-patient.jpg",
+    "alt": "Clinician reviewing a tablet with a patient in a clinic waiting area",
+    "width": 1400,
+    "height": 933
   }
 }

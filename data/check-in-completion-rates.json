@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Phone vs Kiosk Check-In: Which Is Right for Your Practice?", "href": "/blog/phone-vs-kiosk-check-in" },
-    { "title": "Self-Service Check-In for Elderly Patients", "href": "/blog/self-service-check-in-elderly-patients" }
+    {
+      "title": "Phone vs Kiosk Check-In: Which Is Right for Your Practice?",
+      "href": "/blog/phone-vs-kiosk-check-in"
+    },
+    {
+      "title": "Self-Service Check-In for Elderly Patients",
+      "href": "/blog/self-service-check-in-elderly-patients"
+    }
   ],
   "pillarLink": {
     "title": "Patient Check-In",
@@ -75,6 +81,15 @@
   "cta": {
     "headline": "Get to 85% Check-In Completion",
     "subhead": "clinIQ's check-in optimization tools help practices identify and eliminate the friction that keeps completion rates below benchmark.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
+  },
+  "heroImage": {
+    "src": "/people/clinic-front-desk-patient-check-in.jpg",
+    "alt": "Patient completing paperwork with a staff member at a clinic front desk",
+    "width": 1400,
+    "height": 935
   }
 }

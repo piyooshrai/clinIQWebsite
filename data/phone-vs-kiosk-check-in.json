@@ -85,5 +85,11 @@
       "label": "Request Demo",
       "href": "/demo"
     }
+  },
+  "heroImage": {
+    "src": "/people/clinic-staff-using-tablet-at-reception.jpg",
+    "alt": "Clinic staff member in scrubs using a tablet at a reception desk",
+    "width": 1400,
+    "height": 933
   }
 }
