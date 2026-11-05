@@ -2,6 +2,9 @@ import { MetadataRoute } from 'next'
 import fs from 'fs'
 import path from 'path'
 import { getAllParams, getAllSpecialtyParams } from '@/lib/feature-specialty-data'
+import { isBlogSlugPublished } from '@/lib/blog-schedule'
+
+export const revalidate = 3600
 
 const BASE_URL = 'https://www.cliniqhealthcare.com'
 
@@ -138,7 +141,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }))
 
-  const blog = slugsFromDirs(path.join(cwd, 'app', 'blog')).map(slug => ({
+  const blog = slugsFromDirs(path.join(cwd, 'app', 'blog')).filter(slug => isBlogSlugPublished(slug)).map(slug => ({
     url: `${BASE_URL}/blog/${slug}`,
     lastModified: now,
     changeFrequency: 'monthly' as const,

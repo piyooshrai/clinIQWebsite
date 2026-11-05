@@ -1,0 +1,92 @@
+{
+  "slug": "phreesia-cost-pricing-guide",
+  "type": "blog",
+  "category": "Comparisons",
+  "specialty": "feature",
+  "wordCount": 1500,
+  "meta": {
+    "title": "How Much Does Phreesia Cost? 2026 Pricing Guide",
+    "description": "Phreesia doesn't publish list prices. Here's what its pricing page says, what its free Intake offer means, and the questions to ask before you sign.",
+    "keywords": ["phreesia cost", "phreesia pricing", "how much does phreesia cost", "how much does phreesia cost per month", "phreesia alternative"]
+  },
+  "publishDate": "2026-11-04",
+  "updatedDate": "2026-11-04",
+  "author": "clinIQ Team",
+  "hero": {
+    "h1": "How Much Does Phreesia Cost? What Clinics Should Know Before Signing",
+    "subhead": "Phreesia doesn't publish a price list, and its free Intake offer changes the math for now. This guide separates what Phreesia actually says from what's only estimated, and shows you how to compare a quote."
+  },
+  "content": [
+    {
+      "h2": "The Short Answer: Phreesia Doesn't Publish a Price",
+      "body": "There is no public Phreesia price per month or per provider. According to [Phreesia's pricing page](https://www.phreesia.com/pricing/), pricing is customized based on your organization's size, workflows, and the products you use, and you receive a tailored quote.\n\nThat means any exact number you see online is an estimate. Third-party figures vary widely, and many come from vendors selling a competing product, including us. Treat them as a starting point for questions, not as a quote.\n\nThe only reliable way to get your number is to request a written quote that names every product, fee, and term. The rest of this guide helps you make that quote comparable."
+    },
+    {
+      "h2": "Phreesia's Free Intake Offer, and What Happens When It Ends",
+      "body": "As of November 2026, Phreesia's pricing page advertises full access to its Intake platform at no cost through spring 2027. It says the offer includes every Intake product and is not a limited trial, and that standard, quote-based pricing follows.\n\nThe page gives more than one date in different places, so ask Phreesia to put the exact end date in writing. It also doesn't list eligibility requirements, so confirm that your practice qualifies.\n\nA free period is a real benefit, but it isn't the same as a low long-term cost. Before you move your intake workflow, get answers to these questions:\n\n• What will we pay, in dollars, on the first day after the free period ends?\n• Does the free period require a contract, and what is its length?\n• Which products fall outside the offer?\n• What notice do we have to give to leave without paying?\n• Can we export our forms, patient data, and configuration if we go?"
+    },
+    {
+      "h2": "What Drives the Cost of a Patient Intake Platform",
+      "body": "Whichever vendor you evaluate, the same variables tend to move the final number. Ask about each one so you can compare quotes on equal terms.\n\n**Practice size and pricing unit**\nFind out whether you're billed per provider, per location, per visit, or on a platform fee. A price that looks low per provider can grow quickly as you add part-time clinicians or a second site.\n\n**Product modules**\nIntake, payments, appointment tools, and patient outreach may be packaged differently. Confirm which capabilities you need are in the quote, and which are add-ons.\n\n**Payment processing**\nIf the platform collects copays and balances, ask for the processing rate and any per-transaction fees. These costs scale with your volume, so they belong in your annual estimate.\n\n**Hardware and implementation**\nAsk whether tablets or kiosks are required, who supplies them, and what setup, EHR integration, and training cost. Ask for a realistic go-live date too, since staff time during rollout is a real expense.\n\n**Term and renewal**\nContract length, price increases at renewal, and exit terms can matter as much as the opening price."
+    },
+    {
+      "h2": "A Simple Way to Compare Quotes",
+      "body": "Monthly price alone won't tell you which option costs less. Build a three-year estimate for each vendor using the same assumptions:\n\n1. Add up subscription fees for your current provider and location count.\n2. Add payment processing costs, based on the patient payments you actually collect.\n3. Add one-time costs for implementation, integration, hardware, and training.\n4. Add the value of staff hours spent on rollout and on any work the platform doesn't cover.\n5. Include any free months, then apply the post-offer price to every remaining month.\n\nThen ask the question most comparisons skip: what problem does this solve after the patient checks in? A platform that speeds up intake doesn't fix rooming delays, prior authorization denials, or uncaptured monitoring revenue. If those problems cost you more than check-in does, the cheapest intake tool may not be the best value."
+    },
+    {
+      "h2": "When Phreesia May Be the Right Choice",
+      "body": "Phreesia is an established intake platform, and it can be a strong fit when digital registration, consent, and payment collection are your main problems. Larger organizations that need a mature intake product and already have other operations tools may find that it covers what they need.\n\nThe free offer also makes it reasonable to evaluate if you have no intake tool today, as long as you understand the terms that follow it."
+    },
+    {
+      "h2": "When to Look at an Alternative",
+      "body": "Consider a broader platform if your biggest losses happen after check-in. Common signs include:\n\n• Staff can't see in real time where patients are, or which rooms are ready\n• Providers routinely run behind and nobody knows why until the end of the day\n• Prior authorization is tracked in spreadsheets and denials are costing you procedures\n• You have chronic care patients who could qualify for remote therapeutic monitoring, but no program to bill for it\n\nclinIQ covers those areas alongside intake. It adds [real-time patient flow](/features/patient-flow), [prior authorization](/features/pre-auth), and [RTM billing](/features/rtm) to [digital check-in](/features/check-in). You can read a full side-by-side in our [Phreesia alternative comparison](/compare/phreesia)."
+    },
+    {
+      "h2": "What clinIQ Costs",
+      "body": "We publish our prices. clinIQ Starter is $249 per month and Professional, which includes RTM billing and pre-authorization, is $499 per month, with custom Enterprise pricing for larger groups. See what's included on our [pricing page](/pricing).\n\nIf you want to estimate the revenue side as well, our [ROI calculator](/resources/roi-calculator) can help you model what a monitoring program could add. For a wider view of the intake market, see [phone versus kiosk check-in](/blog/phone-vs-kiosk-check-in) and our guide to [check-in completion rates](/blog/check-in-completion-rates)."
+    }
+  ],
+  "callout": {
+    "title": "Comparing a Phreesia Quote?",
+    "description": "Bring it to a 15-minute demo. We'll show you what clinIQ covers, what it costs, and where intake ends and clinic operations begin.",
+    "href": "/demo",
+    "buttonLabel": "Request a Demo"
+  },
+  "faqs": [
+    {
+      "question": "How much does Phreesia cost per month?",
+      "answer": "Phreesia doesn't publish a monthly price. Its pricing page says quotes depend on your size, workflows, and the products you use. Online figures are estimates, so request a written quote for your practice."
+    },
+    {
+      "question": "Is Phreesia free?",
+      "answer": "As of November 2026, Phreesia advertises free access to its Intake platform through spring 2027, followed by standard quote-based pricing. Confirm the exact end date, eligibility, and post-offer price in writing."
+    },
+    {
+      "question": "Does Phreesia charge per provider?",
+      "answer": "Phreesia doesn't publish its pricing unit. Ask whether your quote is based on providers, locations, or visits, and how it changes as your practice grows."
+    },
+    {
+      "question": "What should I ask before signing with an intake vendor?",
+      "answer": "Ask for the total annual cost, payment processing rates, implementation and hardware costs, contract length, renewal increases, and how you can export your data if you leave."
+    },
+    {
+      "question": "What is a good Phreesia alternative?",
+      "answer": "It depends on your problem. If you need operations after check-in as well as intake, clinIQ adds real-time patient flow, prior authorization, and RTM billing, with published pricing from $249 per month."
+    }
+  ],
+  "relatedPosts": [
+    { "title": "Phone vs Kiosk Check-In", "href": "/blog/phone-vs-kiosk-check-in" },
+    { "title": "Check-In Completion Rates", "href": "/blog/check-in-completion-rates" },
+    { "title": "Why Your EHR Can't Run Clinic Operations", "href": "/blog/ehr-vs-clinic-operations" }
+  ],
+  "pillarLink": {
+    "title": "Phreesia Alternative",
+    "href": "/compare/phreesia",
+    "description": "See how clinIQ and Phreesia compare, feature by feature."
+  },
+  "cta": {
+    "headline": "See What Comes After Check-In",
+    "subhead": "Intake, patient flow, pre-authorization, and RTM billing in one platform, with published pricing.",
+    "primaryButton": { "label": "Request a Demo", "href": "/demo" }
+  }
+}

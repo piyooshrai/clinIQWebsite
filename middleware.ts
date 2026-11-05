@@ -1,6 +1,7 @@
 import createMiddleware from 'next-intl/middleware'
 import { routing } from './i18n/routing'
 import { NextRequest, NextResponse } from 'next/server'
+import { isHrefPublished } from './lib/blog-schedule'
 
 // The alternate-Link header behavior is now disabled at the routing config
 // level (i18n/routing.ts). See that file for the reasoning.
@@ -47,6 +48,11 @@ const STATIC_LOCATION_PAGES = new Set([
 
 export default function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
+
+  // Scheduled posts stay hidden until their publish date, with no redeploy needed.
+  if (!isHrefPublished(pathname)) {
+    return new NextResponse('Not found', { status: 404 })
+  }
 
   // Redirect /ar/blog/* and /ar/resources/* to English equivalents
   if (pathname.startsWith('/ar/blog') || pathname.startsWith('/ar/resources')) {

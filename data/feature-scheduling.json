@@ -188,6 +188,12 @@
   },
   "relatedContent": [
     {
+      "type": "blog",
+      "title": "Patient Scheduling Software: A Clinic Buyer's Guide",
+      "href": "/blog/patient-scheduling-software-buyers-guide",
+      "description": "The features and vendor questions that matter for specialty clinics."
+    },
+    {
       "type": "feature",
       "title": "Patient Flow Management",
       "href": "/features/patient-flow",

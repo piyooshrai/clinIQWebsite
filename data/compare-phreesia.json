@@ -130,7 +130,7 @@
     },
     {
       "q": "How does Phreesia pricing compare to clinIQ?",
-      "a": "Phreesia typically starts around two hundred fifty dollars monthly with costs reaching eight hundred dollars or higher with additional features, plus per-transaction fees and device costs. clinIQ Starter is two hundred forty-nine dollars monthly and Professional is four hundred ninety-nine dollars monthly with no transaction fees and no required hardware. Total cost of ownership is typically lower for clinIQ while providing substantially more capability."
+      "a": "Phreesia doesn't publish its pricing, and quotes depend on your size, workflows, and products. It currently advertises free Intake access through spring 2027, followed by quote-based pricing. clinIQ Starter is $249/month with no transaction fees, and clinIQ Professional is $499/month with RTM billing and pre-authorization included."
     },
     {
       "q": "How long does it take to implement clinIQ versus Phreesia?",
@@ -200,5 +200,6 @@
         "title": "clinIQ vs athenahealth"
       }
     ]
-  }
+  },
+  "updatedDate": "2026-11-04"
 }

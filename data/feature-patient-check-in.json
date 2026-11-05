@@ -28,21 +28,57 @@
     "h1": "Patient Intake Software",
     "subhead": "Patients complete digital patient intake through the clinIQ mobile app, a patient kiosk software in your waiting room, or the web portal. Average check-in time drops from eight minutes to three. Your front desk handles exceptions and complex situations instead of repetitive data entry. Every staff member sees who has arrived without walking to the waiting room to check.",
     "stats": [
-      { "value": "3 min", "label": "average check-in time" },
-      { "value": "85%", "label": "self-service completion rate" },
-      { "value": "Integrated", "label": "with forms, chat, and scheduling" }
+      {
+        "value": "3 min",
+        "label": "average check-in time"
+      },
+      {
+        "value": "85%",
+        "label": "self-service completion rate"
+      },
+      {
+        "value": "Integrated",
+        "label": "with forms, chat, and scheduling"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "check-in-problem", "title": "The Patient Intake Problem" },
-    { "id": "app-check-in", "title": "clinIQ App Patient Check-In" },
-    { "id": "kiosk-check-in", "title": "Patient Kiosk Software" },
-    { "id": "web-check-in", "title": "Web Portal Check-In" },
-    { "id": "what-patients-complete", "title": "What Patients Complete" },
-    { "id": "front-desk-workflow", "title": "Front Desk Workflow Transformation" },
-    { "id": "ehr-integration", "title": "EHR Integration Software" },
-    { "id": "implementation-roi", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "check-in-problem",
+      "title": "The Patient Intake Problem"
+    },
+    {
+      "id": "app-check-in",
+      "title": "clinIQ App Patient Check-In"
+    },
+    {
+      "id": "kiosk-check-in",
+      "title": "Patient Kiosk Software"
+    },
+    {
+      "id": "web-check-in",
+      "title": "Web Portal Check-In"
+    },
+    {
+      "id": "what-patients-complete",
+      "title": "What Patients Complete"
+    },
+    {
+      "id": "front-desk-workflow",
+      "title": "Front Desk Workflow Transformation"
+    },
+    {
+      "id": "ehr-integration",
+      "title": "EHR Integration Software"
+    },
+    {
+      "id": "implementation-roi",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
@@ -127,14 +163,29 @@
   "cta": {
     "headline": "See Patient Intake Software Working in Your Practice",
     "subhead": "Fifteen-minute demo showing clinIQ app check-in, patient kiosk software deployment, EHR integration software, and payment collection. See how eighty-five percent of patients complete digital patient intake without staff involvement.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Your Check-In ROI", "href": "/resources/roi-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Your Check-In ROI",
+      "href": "/resources/roi-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "85%", "label": "self-service completion" },
-      { "value": "3 min", "label": "average check-in time" },
-      { "value": "$67K", "label": "annual savings and collections improvement" }
+      {
+        "value": "85%",
+        "label": "self-service completion"
+      },
+      {
+        "value": "3 min",
+        "label": "average check-in time"
+      },
+      {
+        "value": "$67K",
+        "label": "annual savings and collections improvement"
+      }
     ],
     "testimonial": {
       "quote": "We eliminated the check-in line completely. Patients use the app before they arrive or the kiosk when they walk in. Our front desk handles real problems now instead of typing the same information fifty times a day. Patient satisfaction scores jumped twenty-two points in the first quarter.",
@@ -144,6 +195,12 @@
     }
   },
   "relatedContent": [
+    {
+      "type": "blog",
+      "title": "How Much Does Phreesia Cost?",
+      "href": "/blog/phreesia-cost-pricing-guide",
+      "description": "How to compare intake platform quotes on equal terms."
+    },
     {
       "type": "feature",
       "title": "Patient Flow Management",

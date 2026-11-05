@@ -196,6 +196,12 @@
   },
   "relatedContent": [
     {
+      "type": "blog",
+      "title": "Patient Engagement Software: What It Does and How to Choose",
+      "href": "/blog/patient-engagement-software-guide",
+      "description": "How to evaluate a platform and measure real engagement."
+    },
+    {
       "type": "feature",
       "title": "Patient Check-In",
       "href": "/features/check-in",

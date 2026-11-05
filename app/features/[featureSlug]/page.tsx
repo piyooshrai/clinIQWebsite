@@ -33,6 +33,9 @@ const featurePillars: Record<string, PillarData> = {
   lobbyview: lobbyViewData as unknown as PillarData,
 }
 
+// Refreshes daily so scheduled blog posts appear in related links on their publish date.
+export const revalidate = 86400
+
 export function generateStaticParams() {
   return Object.keys(featurePillars).map((slug) => ({ featureSlug: slug }))
 }

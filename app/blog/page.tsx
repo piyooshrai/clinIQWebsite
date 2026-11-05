@@ -3,7 +3,10 @@ import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
 import BlogIndex from '@/components/BlogIndex'
 import type { BlogPost } from '@/components/BlogIndex'
+import { isBlogSlugPublished } from '@/lib/blog-schedule'
 import styles from './blog.module.css'
+
+export const revalidate = 3600
 
 export const metadata: Metadata = {
   alternates: { canonical: '/blog' },
@@ -13,6 +16,33 @@ export const metadata: Metadata = {
 }
 
 const posts: BlogPost[] = [
+  {
+    slug: "patient-engagement-software-guide",
+    category: "Patient Engagement",
+    title: "Patient Engagement Software: What It Does and How to Choose a Platform",
+    date: "January 2027",
+    readTime: "7 min",
+    excerpt:
+      "What patient engagement software does, which features drive results, how it differs from a patient portal, and how to choose a platform for your clinic.",
+  },
+  {
+    slug: "patient-scheduling-software-buyers-guide",
+    category: "Scheduling",
+    title: "Patient Scheduling Software: How to Choose the Right System for Your Clinic",
+    date: "December 2026",
+    readTime: "8 min",
+    excerpt:
+      "How to choose patient scheduling software for a specialty clinic: the features that matter, the questions to ask vendors, and how to measure results.",
+  },
+  {
+    slug: "phreesia-cost-pricing-guide",
+    category: "Comparisons",
+    title: "How Much Does Phreesia Cost? What Clinics Should Know Before Signing",
+    date: "November 2026",
+    readTime: "7 min",
+    excerpt:
+      "Phreesia doesn't publish list prices. Here's what its pricing page says, what its free Intake offer means, and the questions to ask before you sign.",
+  },
   {
     slug: "cpt-98977-musculoskeletal",
     category: "RTM Billing",
@@ -1294,7 +1324,7 @@ export default function BlogPage() {
             </div>
           </div>
         </section>
-        <BlogIndex posts={posts} />
+        <BlogIndex posts={posts.filter((post) => isBlogSlugPublished(post.slug))} />
       </main>
       <FooterInner />
     </>

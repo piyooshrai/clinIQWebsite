@@ -33,27 +33,72 @@
     "h1": "RTM Billing Software",
     "subhead": "Your chronic disease patients are already reporting symptoms between visits. Remote therapeutic monitoring billing turns that clinical work into $100–$150 per patient monthly — automatically. clinIQ handles enrollment, automatic RTM time tracking, and billing so your team captures every dollar without adding a single staff member.",
     "stats": [
-      { "value": "$100-150", "label": "per patient monthly" },
-      { "value": "Automatic", "label": "time tracking" },
-      { "value": "75%+", "label": "enrollment achievable" }
+      {
+        "value": "$100-150",
+        "label": "per patient monthly"
+      },
+      {
+        "value": "Automatic",
+        "label": "time tracking"
+      },
+      {
+        "value": "75%+",
+        "label": "enrollment achievable"
+      }
     ]
   },
   "tableOfContents": [
-    { "id": "rtm-overview", "title": "What Is RTM" },
-    { "id": "rtm-codes", "title": "RTM CPT Codes Explained" },
-    { "id": "eligible-conditions", "title": "Eligible Conditions" },
-    { "id": "patient-enrollment", "title": "Patient Enrollment" },
-    { "id": "data-collection", "title": "Data Collection Through the App" },
-    { "id": "time-tracking", "title": "Automatic RTM Time Tracking" },
-    { "id": "billing-automation", "title": "RTM Billing Automation" },
-    { "id": "implementation-roi", "title": "Implementation and ROI" },
-    { "id": "faqs", "title": "FAQs" }
+    {
+      "id": "rtm-overview",
+      "title": "What Is RTM"
+    },
+    {
+      "id": "rtm-2026-changes",
+      "title": "RTM Code Changes for 2026"
+    },
+    {
+      "id": "rtm-codes",
+      "title": "RTM CPT Codes Explained"
+    },
+    {
+      "id": "eligible-conditions",
+      "title": "Eligible Conditions"
+    },
+    {
+      "id": "patient-enrollment",
+      "title": "Patient Enrollment"
+    },
+    {
+      "id": "data-collection",
+      "title": "Data Collection Through the App"
+    },
+    {
+      "id": "time-tracking",
+      "title": "Automatic RTM Time Tracking"
+    },
+    {
+      "id": "billing-automation",
+      "title": "RTM Billing Automation"
+    },
+    {
+      "id": "implementation-roi",
+      "title": "Implementation and ROI"
+    },
+    {
+      "id": "faqs",
+      "title": "FAQs"
+    }
   ],
   "sections": [
     {
       "id": "rtm-overview",
       "h2": "What Is Remote Therapeutic Monitoring",
       "content": "Remote Therapeutic Monitoring is a Medicare billing pathway for the systematic collection and clinical review of patient-reported health data between office visits. RTM captures revenue for work that chronic disease management already requires but that historically went uncompensated.\n\n### Chronic Disease Monitoring Across Specialties\n\nChronic disease patients need ongoing patient monitoring to optimize their treatment. Pain management patients should track pain levels and medication response. Pulmonology patients should track breathing difficulty and rescue inhaler use. Behavioral health patients should track mood and symptom severity. Physical therapy patients should track function and activity tolerance. This monitoring data informs treatment adjustments and catches problems before they escalate into emergencies or hospitalizations.\n\n### From Informal Monitoring to Billable Revenue\n\nBefore RTM codes existed, this monitoring happened informally. Patients mentioned symptoms at quarterly visits, recalling weeks or months of experience imperfectly. Providers made treatment decisions based on incomplete information. The actual work of monitoring between visits went uncompensated because no billing mechanism existed to capture it.\n\nCMS introduced RTM codes in 2022 and expanded coverage in subsequent years to create a reimbursement pathway for this work. Practices that systematize their between-visit monitoring can now bill for patient enrollment, data collection platform supply, and clinical time spent reviewing data and managing treatment based on findings. The revenue represents payment for work that should already be happening in quality chronic disease management.\n\n### RTM vs RPM: Patient Data Collection Differences\n\nRTM differs from Remote Patient Monitoring in the type of data collected. Remote Patient Monitoring uses physiological devices such as blood pressure cuffs, glucose monitors, and pulse oximeters that transmit measurements automatically. RPM requires distributing devices to patients and managing device logistics. RTM uses patient-reported data entered by patients themselves through the [clinIQ app](/features/patient-app) or web portal. RTM works with any smartphone or computer without requiring device distribution. Wearable device integration can supplement RTM data with continuous metrics from Apple Health, Oura Ring, and Android Health Connect. Many patients qualify for both RTM and RPM, and practices can bill both when clinical circumstances support it.\n\n### RTM Revenue Potential and Practice Analytics\n\nThe revenue opportunity from RTM is substantial for practices with chronic disease patients. One hundred patients enrolled at one hundred twenty dollars monthly average reimbursement generates twelve thousand dollars monthly or one hundred forty-four thousand dollars annually. This revenue comes with minimal incremental cost because it compensates for monitoring work that quality practices already perform. Practice analytics track RTM program performance and identify optimization opportunities."
+    },
+    {
+      "id": "rtm-2026-changes",
+      "h2": "RTM Code Changes for 2026",
+      "content": "Effective January 1, 2026, CMS recognized new RTM codes that lower the thresholds for billing. CPT 98984 (respiratory) and CPT 98985 (musculoskeletal) cover device supply for 2–15 days in a 30-day period, while CPT 98976 and 98977 now apply to 16–30 days. CPT 98979 covers the first 10 minutes of treatment management in a calendar month, with at least one real-time interactive communication. CPT 98980 continues to cover the first 20 minutes.\n\nThese changes make more patients billable, which puts more weight on accurate day counts and time tracking. See the [CMS therapy code list update](https://www.cms.gov/files/document/mm14250-therapy-code-list-2026-annual-update.pdf) and our guide to [RTM CPT codes for 2026](/blog/rtm-cpt-codes-explained). Confirm payer-specific rules before billing."
     },
     {
       "id": "rtm-codes",
@@ -128,14 +173,29 @@
   "cta": {
     "headline": "See RTM Billing Software Run End-to-End",
     "subhead": "Fifteen-minute demo showing enrollment workflow, automatic RTM time tracking, and month-end claim generation. See how clinics achieve 75%+ enrollment and capture every CPT 98975–98981 dollar.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" },
-    "secondaryButton": { "label": "Calculate Your RTM Revenue", "href": "/resources/roi-calculator" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    },
+    "secondaryButton": {
+      "label": "Calculate Your RTM Revenue",
+      "href": "/resources/roi-calculator"
+    }
   },
   "proof": {
     "stats": [
-      { "value": "75%+", "label": "RTM enrollment rate" },
-      { "value": "$120-150", "label": "per patient monthly" },
-      { "value": "$144K", "label": "annual revenue at 100 patients" }
+      {
+        "value": "75%+",
+        "label": "RTM enrollment rate"
+      },
+      {
+        "value": "$120-150",
+        "label": "per patient monthly"
+      },
+      {
+        "value": "$144K",
+        "label": "annual revenue at 100 patients"
+      }
     ],
     "testimonial": {
       "quote": "We enrolled one hundred forty patients in the first ninety days. The automatic time tracking takes the manual logging out of the equation entirely. Month-end billing went from a weekend project to a thirty-minute review. We added six figures of recurring annual revenue without hiring anyone.",

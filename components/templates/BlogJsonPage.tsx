@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import { renderBody } from '@/lib/renderContent'
+import { isHrefPublished } from '@/lib/blog-schedule'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
 import BlogHero from '@/components/BlogHero'
@@ -16,6 +17,7 @@ export interface BlogPostData {
   wordCount: number
   author: string
   publishDate: string // "YYYY-MM-DD"
+  updatedDate?: string
   meta: { title: string; description: string }
   hero: { h1: string; subhead: string }
   heroImage?: { src: string; alt: string; width: number; height: number }
@@ -81,7 +83,7 @@ export default function BlogJsonPage({ data }: { data: BlogPostData }) {
     headline: data.hero.h1,
     description: data.meta.description,
     datePublished: data.publishDate,
-    dateModified: data.publishDate,
+    dateModified: data.updatedDate ?? data.publishDate,
     image: [articleImage],
     author: {
       '@type': 'Organization',
@@ -200,7 +202,7 @@ export default function BlogJsonPage({ data }: { data: BlogPostData }) {
                 <div className={css.relatedPosts}>
                   <span className={css.relatedPostsLabel}>Related Articles</span>
                   <ul className={css.relatedPostList}>
-                    {data.relatedPosts.map(({ title, href }) => (
+                    {data.relatedPosts.filter(({ href }) => isHrefPublished(href)).map(({ title, href }) => (
                       <li key={href}>
                         <a href={href} className={css.relatedPostLink}>{title}</a>
                       </li>

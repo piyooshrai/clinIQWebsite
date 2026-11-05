@@ -1,0 +1,92 @@
+{
+  "slug": "patient-engagement-software-guide",
+  "type": "blog",
+  "category": "Patient Engagement",
+  "specialty": "feature",
+  "wordCount": 1500,
+  "meta": {
+    "title": "Patient Engagement Software: What It Does and Why",
+    "description": "What patient engagement software does, which features drive results, how it differs from a patient portal, and how to choose a platform for your clinic.",
+    "keywords": ["patient engagement software", "patient engagement platform", "digital patient engagement platform", "patient communication platform", "patient engagement software solutions"]
+  },
+  "publishDate": "2027-01-12",
+  "updatedDate": "2027-01-12",
+  "author": "clinIQ Team",
+  "hero": {
+    "h1": "Patient Engagement Software: What It Does and How to Choose a Platform",
+    "subhead": "A patient portal gives people a place to log in. Engagement software gives them a reason to act. Here's what separates the two, and how to evaluate a platform for your clinic."
+  },
+  "content": [
+    {
+      "h2": "What Is Patient Engagement Software?",
+      "body": "Patient engagement software helps a clinic communicate with patients and get them to take the next step in their care, before, during, and after a visit. That includes completing intake, confirming appointments, messaging the care team, reporting symptoms, and answering surveys.\n\nThe term covers a wide range of products, from a simple text reminder tool to a full [patient app](/features/patient-app). So before comparing vendors, get specific about which actions you want patients to take more often, and what each one is worth to your practice."
+    },
+    {
+      "h2": "Patient Engagement Software vs a Patient Portal",
+      "body": "A portal is largely passive. It holds records and messages, and it works when a patient remembers to log in, finds their password, and knows what to look for.\n\nEngagement software is active. It reaches out at the right moment, usually with a link or a push notification, and asks for one clear action. The practical differences show up in a few places:\n\n• **Who starts the interaction:** Portals wait for the patient. Engagement tools prompt them.\n• **How much effort it takes:** Good engagement flows take a tap or two, with no login hurdle at every step.\n• **What happens next:** A response should update your workflow automatically, rather than sit in an inbox.\n\nMany clinics need both. The real question is whether patients are completing the actions your clinic depends on."
+    },
+    {
+      "h2": "The Features That Drive Results",
+      "body": "**Pre-visit intake and check-in**\nThis is often the quickest win. When patients finish forms and consent before they arrive, [digital check-in](/features/check-in) shortens the front desk line and improves data quality. Completion rate is the number to watch, as we explain in our guide to [check-in completion rates](/blog/check-in-completion-rates).\n\n**Two-way reminders and rescheduling**\nA reminder should let the patient confirm or change the appointment on the spot. Otherwise, it often turns into a phone call or a [no-show](/blog/no-show-reduction-scheduling).\n\n**Secure messaging**\n[HIPAA-compliant messaging](/features/secure-messaging) can take routine questions off the phones and give patients a direct line to the care team. Find out how messages are routed, and what the rules are for responding.\n\n**Real-time updates during the visit**\nLong, unexplained waits are one of the most common sources of frustration. Showing patients where they stand, through tools like [LobbyView](/features/lobbyview), helps set expectations.\n\n**Between-visit monitoring**\nFor chronic conditions, patients can report symptoms and adherence between appointments. In some cases, this can support [remote therapeutic monitoring](/features/rtm), a billable service. Our guide to [RTM enrollment](/blog/rtm-enrollment-participation) covers how to get patients to participate.\n\n**Feedback collection**\n[Post-visit surveys](/features/patient-satisfaction) give you timely feedback and a chance to reach an unhappy patient before they leave a public review."
+    },
+    {
+      "h2": "How to Evaluate a Patient Engagement Platform",
+      "body": "Run every vendor through the same questions:\n\n1. **Does it integrate with our EHR?** Ask what data flows in each direction. If staff have to re-enter patient responses, you've added work.\n2. **What does the patient have to do?** Try the flow yourself on your phone, from the first text message to the finished task. Count the taps, and note every login and download.\n3. **Does it work for all our patients?** Check languages, accessibility, and options for patients who don't use smartphones. If you serve many older adults, see our article on [self-service check-in for elderly patients](/blog/self-service-check-in-elderly-patients).\n4. **What happens to the response?** Each action should trigger something: an updated chart, a staff task, or a change in status.\n5. **Is it secure?** Ask for the business associate agreement and details about how patient data is protected.\n6. **What does it really cost?** Ask about per-message fees, add-on modules, and implementation.\n\nAsk each vendor for adoption and completion figures from clinics like yours, and how those numbers were measured."
+    },
+    {
+      "h2": "How to Measure Engagement",
+      "body": "Logins and downloads are easy to count, but they don't tell you much. Measure the actions tied to your operations:\n\n• Intake completion before arrival\n• Appointment confirmation rate\n• No-show rate, by visit type\n• Inbound phone calls per visit\n• Message response time\n• Survey response rate\n• Monitoring participation, if you run an RTM program\n\nSet a baseline before rollout, and review the results with your front desk team. They'll often know why a number moved before the report does."
+    },
+    {
+      "h2": "Why Adoption Usually Comes Down to Workflow",
+      "body": "A strong platform can still fail if patients never hear about it. Adoption often depends on small operational choices: who introduces the tool, when the first message goes out, and whether staff can help patients finish a task on the spot.\n\nStart with one workflow, usually pre-visit intake, and make it work well before you add another. Give your front desk a short script. Track completion by location and provider, and find out what the best-performing teams are doing differently. Our article on [front desk burnout](/blog/front-desk-burnout) explains why this work pays off for staff as well as patients."
+    },
+    {
+      "h2": "Where clinIQ Fits",
+      "body": "clinIQ brings check-in, messaging, appointments, forms, file exchange, telehealth, and wearable integration together in one [patient app](/features/patient-app), connected to the [patient flow](/features/patient-flow) view your staff use all day. A patient's action can update the clinic's workflow without anyone having to re-enter it.\n\nYou can compare clinIQ's published [pricing](/pricing) with your current tools, or see the whole platform in a demo."
+    }
+  ],
+  "callout": {
+    "title": "Try the Patient Experience Yourself",
+    "description": "See the clinIQ patient app from your patient's point of view in a 15-minute demo, configured for your specialty.",
+    "href": "/demo",
+    "buttonLabel": "Request a Demo"
+  },
+  "faqs": [
+    {
+      "question": "What is patient engagement software?",
+      "answer": "It's software that helps clinics communicate with patients and prompt them to take actions like completing intake, confirming appointments, messaging the care team, and reporting symptoms."
+    },
+    {
+      "question": "What's the difference between a patient portal and patient engagement software?",
+      "answer": "A portal mainly waits for patients to log in and find information. Engagement software reaches out at the right moment and asks for a specific action, then feeds the response into the clinic's workflow."
+    },
+    {
+      "question": "What features should a patient engagement platform have?",
+      "answer": "Look for pre-visit intake, two-way reminders, secure messaging, real-time visit updates, between-visit monitoring, feedback surveys, and EHR integration."
+    },
+    {
+      "question": "How do you measure patient engagement?",
+      "answer": "Measure actions tied to operations, such as intake completion, appointment confirmations, no-show rates, call volume, and survey response rates, rather than logins or downloads alone."
+    },
+    {
+      "question": "Is patient engagement software HIPAA compliant?",
+      "answer": "It depends on the vendor and how the product is used. Ask for a business associate agreement and details on how patient data is secured."
+    }
+  ],
+  "relatedPosts": [
+    { "title": "Check-In Completion Rates", "href": "/blog/check-in-completion-rates" },
+    { "title": "RTM Enrollment and Participation", "href": "/blog/rtm-enrollment-participation" },
+    { "title": "Self-Service Check-In for Elderly Patients", "href": "/blog/self-service-check-in-elderly-patients" }
+  ],
+  "pillarLink": {
+    "title": "Patient App",
+    "href": "/features/patient-app",
+    "description": "One app for check-in, messaging, appointments, forms, and telehealth."
+  },
+  "cta": {
+    "headline": "Give Patients One Place to Do It All",
+    "subhead": "See the clinIQ patient app configured for your specialty in 15 minutes.",
+    "primaryButton": { "label": "Request a Demo", "href": "/demo" }
+  }
+}

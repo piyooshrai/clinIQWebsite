@@ -1,3 +1,4 @@
+import { isHrefPublished } from '@/lib/blog-schedule'
 import { renderInline, renderContent } from '@/lib/renderContent'
 import { buildFAQSchema } from '@/lib/schema'
 import NavInner from '@/components/NavInner'
@@ -238,7 +239,7 @@ export default function PillarSpecialtyPage({ data }: { data: PillarData }) {
                 <h2 className={s.sectionTitle}>Related guides &amp; tools</h2>
               </div>
               <div className={css.relatedGrid}>
-                {data.relatedContent.map(({ type, title, href, description }) => (
+                {data.relatedContent.filter(({ href }) => isHrefPublished(href)).map(({ type, title, href, description }) => (
                   <a key={href} href={href} className={css.relatedCard}>
                     <span className={css.relatedCardType}>{type}</span>
                     <span className={css.relatedCardTitle}>{title}</span>
