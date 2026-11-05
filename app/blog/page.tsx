@@ -17,6 +17,15 @@ export const metadata: Metadata = {
 
 const posts: BlogPost[] = [
   {
+    slug: "track-prior-authorization-expirations",
+    category: "Prior Authorization",
+    title: "How to Track Prior Authorization Expirations",
+    date: "November 2026",
+    readTime: "7 min",
+    excerpt:
+      "Getting the approval is half the job. A practical system for tracking expiration dates and approved visits, renewing on time and keeping ongoing therapy covered.",
+  },
+  {
     slug: "phreesia-alternatives",
     category: "Comparisons",
     title: "The Best Phreesia Alternatives in 2026",

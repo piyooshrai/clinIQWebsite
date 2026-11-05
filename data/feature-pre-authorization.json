@@ -213,6 +213,12 @@
   },
   "relatedContent": [
     {
+      "type": "blog",
+      "title": "How to Track Prior Authorization Expirations",
+      "href": "/blog/track-prior-authorization-expirations",
+      "description": "A step-by-step system for tracking end dates and visit limits and renewing before an auth lapses."
+    },
+    {
       "type": "feature",
       "title": "Patient Check-In",
       "href": "/features/check-in",

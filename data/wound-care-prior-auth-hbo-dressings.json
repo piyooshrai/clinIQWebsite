@@ -64,8 +64,18 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Wound Care RTM: Between-Visit Monitoring", "href": "/blog/wound-care-rtm-between-visit-monitoring" },
-    { "title": "Wound Care Center Patient Flow", "href": "/blog/wound-care-center-patient-flow" }
+    {
+      "title": "How to Track Prior Authorization Expirations",
+      "href": "/blog/track-prior-authorization-expirations"
+    },
+    {
+      "title": "Wound Care RTM: Between-Visit Monitoring",
+      "href": "/blog/wound-care-rtm-between-visit-monitoring"
+    },
+    {
+      "title": "Wound Care Center Patient Flow",
+      "href": "/blog/wound-care-center-patient-flow"
+    }
   ],
   "pillarLink": {
     "title": "Wound Care Practice Management",
@@ -75,6 +85,9 @@
   "cta": {
     "headline": "Stop Losing HBO and BSS Authorizations to Documentation Gaps",
     "subhead": "clinIQ's wound care authorization tools ensure every submission is complete, compliant, and submitted on time.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

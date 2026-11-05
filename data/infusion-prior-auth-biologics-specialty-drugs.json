@@ -64,8 +64,18 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Infusion Center Scheduling: Chair Utilization Optimization", "href": "/blog/infusion-center-scheduling-chair-utilization" },
-    { "title": "Infusion Center Patient Flow Management", "href": "/blog/infusion-center-patient-flow" }
+    {
+      "title": "How to Track Prior Authorization Expirations",
+      "href": "/blog/track-prior-authorization-expirations"
+    },
+    {
+      "title": "Infusion Center Scheduling: Chair Utilization Optimization",
+      "href": "/blog/infusion-center-scheduling-chair-utilization"
+    },
+    {
+      "title": "Infusion Center Patient Flow Management",
+      "href": "/blog/infusion-center-patient-flow"
+    }
   ],
   "pillarLink": {
     "title": "Infusion Centers Practice Software",
@@ -75,6 +85,9 @@
   "cta": {
     "headline": "Eliminate Infusion Chair Waste From Expired Authorizations",
     "subhead": "clinIQ tracks every biologic authorization expiration date and submits renewals 90 days in advance — so your chairs are never empty due to auth gaps.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

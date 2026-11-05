@@ -1,0 +1,114 @@
+{
+  "slug": "track-prior-authorization-expirations",
+  "type": "blog",
+  "category": "Prior Authorization",
+  "specialty": "feature",
+  "wordCount": 1700,
+  "meta": {
+    "title": "How to Track Prior Authorization Expirations",
+    "description": "How to track prior authorization expirations and visit limits, set renewal alerts, and stop treating patients on lapsed auths. A step-by-step system.",
+    "keywords": [
+      "track prior authorization expirations",
+      "prior authorization expiration tracking",
+      "prior authorization renewal",
+      "prior auth expiration reminder",
+      "authorization tracking software",
+      "prior authorization tracking spreadsheet",
+      "prior authorization visit limits"
+    ]
+  },
+  "publishDate": "2026-11-05",
+  "updatedDate": "2026-11-05",
+  "author": "clinIQ Team",
+  "hero": {
+    "h1": "How to Track Prior Authorization Expirations (and Never Treat on a Lapsed Auth)",
+    "subhead": "Getting the approval is only half the job. Here is a practical system for tracking expiration dates and approved visits, renewing on time, and keeping ongoing therapy covered."
+  },
+  "heroImage": {
+    "src": "/editorial/front-desk-staff-reviewing-patient-status.jpg",
+    "alt": "Front desk staff reviewing patient authorization status on a screen",
+    "width": 1200,
+    "height": 900
+  },
+  "content": [
+    {
+      "h2": "Why Expired Authorizations Cost More Than Denials",
+      "body": "Most practices measure prior authorization by the front end: how many requests go out and how many get approved. The expensive failures often happen later, when an approved authorization quietly runs out.\n\nAn authorization can lapse in two ways:\n\n• **The date passes.** Most approvals carry a valid-through date. Procedure authorizations are often short, and drug or therapy authorizations commonly need renewal every six to twelve months, depending on the payer and the plan.\n• **The units run out.** Many approvals cover a set number of visits, units or doses. A physical therapy course, an infusion series or allergy immunotherapy can exhaust its approved units well before the end date.\n\nWhen either happens and nobody notices, the patient gets treated, the claim goes out, and the payer denies it for no valid authorization. Retro-authorization is often refused, so the service is written off or the practice spends hours on an appeal. For ongoing therapy, a missed renewal can also mean a gap in treatment while the new request is pending.\n\nThe fix is not working harder. It is a tracking system where every authorization has an owner, a countdown and an alert."
+    },
+    {
+      "h2": "What to Record for Every Authorization",
+      "body": "A tracking system is only as good as what goes into it. For every approved authorization, capture:\n\n• **Patient, payer and plan**, including the member ID used on the request.\n• **Authorization number** exactly as the payer issued it.\n• **Service and codes approved** (CPT, HCPCS or drug and NDC), and the diagnosis codes the approval is tied to.\n• **Start date and end date.**\n• **Approved quantity**: visits, units, doses or sessions, and how many have been used.\n• **Rendering provider and site of service**, because some approvals are only valid for the provider or location on the request.\n• **Renewal requirements**: what the payer needs to extend it, such as updated clinical notes, scores or labs.\n• **Owner**: the staff member responsible for the renewal.\n\nThe last two fields are the ones most practices skip, and they are the ones that make renewals fast. If you already know a payer wants a new PASI score or a functional status update, you can collect it at the visit before the renewal is due."
+    },
+    {
+      "h2": "Set Alerts on Both Dates and Units",
+      "body": "Date-only reminders miss half the problem. Set two kinds of alerts:\n\n**Date alerts.** A practical default is 30, 14 and 7 days before the end date. Use longer lead times for payers that are slow to respond and for therapies where a gap in treatment is clinically risky.\n\n**Unit alerts.** Trigger an alert when a set number of approved visits remain, for example three visits left on a therapy course or one dose left on a drug authorization. Count scheduled visits, not just completed ones: if all remaining units are already booked, the renewal is due now.\n\nEach alert should go to a named person with a due date, not to a shared inbox. An alert nobody owns is the same as no alert."
+    },
+    {
+      "h2": "Check Authorization Status When the Visit Is Booked",
+      "body": "The cheapest place to catch a lapsed authorization is the schedule, before the patient arrives.\n\n• **At booking**, check that the visit falls inside the authorization's dates and that units remain.\n• **Two to three days before the visit**, re-check, because earlier visits may have used up units.\n• **At check-in**, flag any patient whose authorization expires before their next scheduled visit.\n\nIf the authorization will not cover the visit, staff have options: move the visit, start the renewal, or have the financial conversation with the patient before the service, not after the denial."
+    },
+    {
+      "h2": "Build a Renewal Workflow, Not a Reminder",
+      "body": "A reminder tells someone a renewal is due. A workflow gets it done.\n\n**1. Start from the last approval.** Pre-fill the renewal with the original request: codes, diagnosis, provider and the clinical rationale that worked last time.\n\n**2. Attach what changed.** Add the latest visit notes and the measures the payer asks for at renewal, such as response to therapy, scores or labs.\n\n**3. Submit early.** Payer turnaround varies. Since January 2026, the CMS Interoperability and Prior Authorization Final Rule (CMS-0057-F) requires Medicare Advantage, Medicaid, CHIP and ACA marketplace plans to decide standard requests within seven calendar days and expedited requests within 72 hours. Commercial plans may take longer, so submit with a buffer.\n\n**4. Track pending renewals.** Follow up on any request that has not been decided within the payer's normal turnaround.\n\n**5. Record the new approval.** Update the dates and units the day the approval arrives, and reset the alerts.\n\nIf a renewal is denied, move straight to the appeal or [peer-to-peer review](/blog/peer-to-peer-reviews-winning-appeal) while the patient is still on schedule."
+    },
+    {
+      "h2": "Spreadsheet vs Authorization Tracking Software",
+      "body": "Many practices start with a spreadsheet. It works for a few dozen authorizations and one person who keeps it current. It breaks when:\n\n• More than one person updates it, and versions drift.\n• Units have to be counted by hand against the schedule.\n• Nobody is alerted unless they remember to open the file.\n• You need to know which authorizations expire this week across every provider and payer.\n\nAuthorization tracking software solves those problems by tying each authorization to the schedule. clinIQ's [pre-authorization tracking](/features/pre-auth) records dates and approved units for every authorization, counts units down as visits are booked and completed, alerts the owner on the schedule you set, and queues the renewal pre-filled from the last approval. Staff see one list of what expires this week, what is pending with the payer and what was denied, filterable by provider, payer or therapy.\n\nWhichever tool you use, the rules are the same: every authorization has an end date, a unit count, an owner and an alert."
+    },
+    {
+      "h2": "Where Expirations Hurt Most, by Specialty",
+      "body": "Some services are especially prone to lapsed authorizations:\n\n• **Infusion and specialty drugs.** Biologics and infusions need regular renewals with evidence of response. See [infusion prior authorization](/blog/infusion-prior-auth-biologics-specialty-drugs).\n• **Allergy and asthma biologics.** Renewals often require updated symptom control and exacerbation history. See [asthma biologic prior auth](/blog/allergy-prior-auth-biologics-asthma).\n• **Dermatology biologics.** Renewals commonly ask for updated PASI or body-surface-area scores. See [psoriasis biologic prior auth](/blog/dermatology-prior-auth-biologics-psoriasis).\n• **Physical, occupational and speech therapy.** Visit limits run out mid-course, so unit tracking matters more than dates.\n• **Wound care.** Hyperbaric oxygen and advanced dressings are approved for set numbers of treatments. See [wound care prior auth](/blog/wound-care-prior-auth-hbo-dressings).\n• **Oncology.** Treatment plans change, and an approval may not cover a new regimen. See [oncology prior auth](/blog/oncology-prior-auth-chemotherapy-imaging)."
+    },
+    {
+      "h2": "The Metrics to Watch",
+      "body": "Track a handful of numbers each month:\n\n• **Authorizations expiring in the next 30 days**, and how many have a renewal in progress.\n• **Visits delivered without a valid authorization.** The target is zero.\n• **Denials for missing or expired authorization**, by payer.\n• **Renewal turnaround**: days from submission to decision, by payer.\n• **Treatment gaps**: patients whose therapy was delayed waiting on a renewal.\n\nThese numbers show whether the system works and which payers need longer lead times. For the wider picture, see the [prior authorization denial prevention guide](/blog/prior-auth-denial-prevention-guide)."
+    }
+  ],
+  "callout": {
+    "title": "Stop Treating on Expired Auths",
+    "description": "See how clinIQ tracks every authorization's dates and visits, alerts staff before it lapses and queues the renewal, in a 15-minute demo.",
+    "href": "/demo",
+    "buttonLabel": "Request a Demo"
+  },
+  "faqs": [
+    {
+      "question": "How do I track prior authorization expirations?",
+      "answer": "Record the start date, end date, approved units and an owner for every authorization, then set alerts before the end date (for example 30, 14 and 7 days) and when only a few approved visits remain. Check authorization status when visits are booked and again before the patient arrives. Authorization tracking software such as clinIQ does this automatically by linking each authorization to the schedule."
+    },
+    {
+      "question": "How long is a prior authorization good for?",
+      "answer": "It depends on the payer, the plan and the service. Procedure approvals are often valid for a short window, while drug and ongoing therapy approvals commonly need renewal every six to twelve months. Many approvals also cap the number of visits or units. Always use the dates and quantities on the approval itself."
+    },
+    {
+      "question": "When should I start a prior authorization renewal?",
+      "answer": "Start at least two to four weeks before the end date, or sooner for slow payers and therapies where a gap in treatment is risky. Also start a renewal when the remaining approved visits are already scheduled, even if the end date is far away."
+    },
+    {
+      "question": "What happens if a patient is treated after the authorization expires?",
+      "answer": "The payer will usually deny the claim for no valid authorization. Some payers allow retro-authorization in limited cases, but many do not, so the service may be written off or require an appeal."
+    },
+    {
+      "question": "Can a spreadsheet work for prior authorization tracking?",
+      "answer": "For a small number of authorizations and one owner, yes. Spreadsheets break down when several people update them, when units must be counted against the schedule, and when nobody is alerted automatically. That is when practices move to authorization tracking software."
+    },
+    {
+      "question": "Does clinIQ track authorization visit limits as well as dates?",
+      "answer": "Yes. clinIQ records the approved visits, units or doses for each authorization and counts them down as visits are scheduled and completed, alerting staff before the limit is reached so the renewal goes in before an uncovered visit."
+    }
+  ],
+  "relatedPosts": [
+    { "title": "Prior Authorization Denial Prevention Guide", "href": "/blog/prior-auth-denial-prevention-guide" },
+    { "title": "Peer-to-Peer Review: Win a Denied Prior Auth", "href": "/blog/peer-to-peer-reviews-winning-appeal" },
+    { "title": "Infusion Prior Auth for Biologics and Specialty Drugs", "href": "/blog/infusion-prior-auth-biologics-specialty-drugs" }
+  ],
+  "pillarLink": {
+    "title": "Pre-Authorization",
+    "href": "/features/pre-auth",
+    "description": "See how clinIQ tracks every authorization, alerts staff before it lapses and queues renewals automatically."
+  },
+  "cta": {
+    "headline": "Never Miss a Prior Auth Renewal",
+    "subhead": "clinIQ tracks expiration dates and approved visits for every authorization and queues renewals before they lapse.",
+    "primaryButton": { "label": "Request a Demo", "href": "/demo" }
+  }
+}

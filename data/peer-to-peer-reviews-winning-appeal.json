@@ -65,6 +65,10 @@
   },
   "relatedPosts": [
     {
+      "title": "How to Track Prior Authorization Expirations",
+      "href": "/blog/track-prior-authorization-expirations"
+    },
+    {
       "title": "Prior Auth Denial Prevention: A Complete Guide",
       "href": "/blog/prior-auth-denial-prevention-guide"
     },
