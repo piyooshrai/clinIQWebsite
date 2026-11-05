@@ -42,11 +42,18 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   const locale = await getLocale()
   const messages = await getMessages()
   const tc = await getTranslations('common')
+  // Only interactive components translate in the browser. Sending just their text
+  // keeps the full translation file (35KB+) out of every page's HTML.
+  const clientMessages = Object.fromEntries(
+    ['nav', 'languageSwitcher', 'common', 'demo', 'contactForm', 'stats']
+      .filter((key) => key in messages)
+      .map((key) => [key, messages[key]]),
+  )
 
   return (
     <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} className={instrumentSerif.variable} suppressHydrationWarning>
       <body>
-        <NextIntlClientProvider locale={locale} messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={clientMessages}>
           <GoogleAnalytics />
           <IntakeContext />
           <ChatWidget />
