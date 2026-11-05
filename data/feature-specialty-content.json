@@ -1,1 +1,2008 @@
-{}
+{
+  "scheduling/obstetrics-gynecology": {
+    "metaTitle": "OB/GYN Scheduling Software for Prenatal Care",
+    "metaDescription": "OB/GYN scheduling that books the whole prenatal series, pairs ultrasounds with provider visits and keeps procedure slots open. See it on your templates.",
+    "h1": "OB/GYN Scheduling Software Built Around the Prenatal Calendar",
+    "subtitle": "clinIQ books prenatal visits by gestational week, pairs ultrasound and lab appointments with provider time, and protects slots for gynecology procedures and urgent pregnancy concerns.",
+    "problemHeading": "Why OB/GYN Schedules Break Down",
+    "problemStatement": "An OB/GYN schedule mixes two very different practices. Obstetric patients follow a calendar set by gestational age: visits every four weeks early on, every two weeks in the third trimester, then weekly near term, with the anatomy ultrasound and glucose screening landing in narrow windows. Gynecology adds annual exams, colposcopy, IUD insertions and endometrial biopsies that need a procedure room and an assistant. Add on-call physicians pulled to labor and delivery, and a generic slot grid cannot keep up.",
+    "solutionHeading": "Templates That Know Prenatal and Procedure Timing",
+    "solutionStatement": "clinIQ sizes each visit type to its real length and requirements. A new OB intake gets a long block with the nurse. A routine return visit gets a short one. Colposcopy and IUD templates reserve the procedure room and the assistant. Schedulers book a pregnancy's visits as a series tied to the due date, so key screenings land inside their windows. When a physician is called to labor and delivery, staff see which patients to move and which can stay with another provider.",
+    "workflow": {
+      "h2": "How a Pregnancy Moves Through clinIQ Scheduling",
+      "intro": "From the confirmation visit to the postpartum check, the schedule follows the pregnancy instead of the front desk's memory.",
+      "steps": [
+        {
+          "title": "New OB intake",
+          "body": "The scheduler selects the new OB template. clinIQ blocks a longer visit with the nurse for history, education and labs, then the provider visit. The estimated due date anchors every later appointment, so staff never count weeks by hand on a paper wheel or a desk calendar."
+        },
+        {
+          "title": "Series booked by week",
+          "body": "Return visits book out on the standard cadence for the patient's gestational age. The anatomy ultrasound and glucose screening are paired with a provider visit on the same day where the rooms allow it. Patients leave knowing their next several dates instead of calling back each month."
+        },
+        {
+          "title": "Changes absorbed",
+          "body": "If a high-risk patient needs added visits or testing, staff add them to the series without rebuilding it. When a patient cancels, the [waitlist](/features/scheduling) offers the slot by text to another patient whose visit window fits, and a yes reply books it without a phone call."
+        },
+        {
+          "title": "Postpartum and back to gynecology",
+          "body": "After delivery, the postpartum visit is booked on its own template with the time it needs for recovery, feeding and mood screening, and contraception planning. The patient then moves into annual well-woman scheduling, so the relationship continues past the pregnancy and routine gynecology care stays with the practice."
+        }
+      ]
+    },
+    "capabilities": {
+      "h2": "Built for OB/GYN Scheduling",
+      "items": [
+        {
+          "title": "Procedure room rules",
+          "body": "Colposcopy, LEEP, IUD insertion and endometrial biopsy templates reserve the procedure room, the equipment and a medical assistant. Two procedures cannot be booked into the same room at the same time."
+        },
+        {
+          "title": "Provider type matching",
+          "body": "Templates specify who can see each visit: physicians, certified nurse midwives or nurse practitioners. Routine prenatal returns can go to any qualified provider with open time, while new consults and high-risk follow-ups stay with physicians."
+        },
+        {
+          "title": "On-call disruption handling",
+          "body": "When a physician leaves for a delivery, the provider view shows the rest of the affected session. Staff move short return visits to a colleague with open time and contact the remaining patients before they leave home."
+        },
+        {
+          "title": "Protected urgent slots",
+          "body": "Same-day capacity for bleeding, decreased fetal movement or pain concerns is held and released on rules, so urgent pregnancy calls get seen in the office instead of being sent elsewhere."
+        },
+        {
+          "title": "Visit length feedback",
+          "body": "Analytics compare scheduled and actual durations by visit type and provider, so leadership can see when new OB intakes or annual exams run long and adjust the template before the delay spreads to the rest of the day."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "How should an OB/GYN practice schedule prenatal visits?",
+        "a": "Most practices follow a cadence based on gestational age: roughly every four weeks until about 28 weeks, every two weeks until about 36 weeks, then weekly until delivery. High-risk patients often need more. clinIQ books the series from the due date and keeps testing such as the anatomy ultrasound and glucose screening inside its window, so nothing depends on staff counting weeks. Read more in our guide to [prenatal visit scheduling](/blog/prenatal-visit-scheduling-optimization)."
+      },
+      {
+        "q": "Can obstetric and gynecology visits share one schedule?",
+        "a": "Yes. clinIQ uses separate templates for each visit type on the same provider schedule. Prenatal returns, annual exams and office procedures each carry their own length, room and staff requirements. Practices can also set aside sessions for procedures only, so a colposcopy clinic is not broken up by routine visits."
+      },
+      {
+        "q": "What happens to the schedule when the OB is called to a delivery?",
+        "a": "Staff see every remaining appointment for that physician in the provider view. They can move short visits to a midwife or partner physician who has open time and contact patients who need the same physician. Patients are told before they arrive, which keeps the waiting room from filling with people who will not be seen."
+      },
+      {
+        "q": "Does clinIQ replace our EHR scheduling?",
+        "a": "It can work alongside it or replace it, depending on your EHR and preferences. Many OB/GYN practices use clinIQ for templates, prenatal series, waitlists and scheduling rules while appointments sync to the EHR for clinical documentation. Integration keeps both systems consistent, so staff do not enter the same appointment twice."
+      }
+    ],
+    "related": [
+      {
+        "title": "clinIQ for Obstetrics and Gynecology",
+        "href": "/specialties/obstetrics-gynecology"
+      },
+      {
+        "title": "Medical Scheduling Software",
+        "href": "/features/scheduling"
+      },
+      {
+        "title": "Prenatal Visit Scheduling Optimization",
+        "href": "/blog/prenatal-visit-scheduling-optimization"
+      },
+      {
+        "title": "OB/GYN Patient Flow for Prenatal and Gyn Procedures",
+        "href": "/blog/obgyn-patient-flow-prenatal-gyn-procedures"
+      }
+    ]
+  },
+  "check-in/preventive-cardiology": {
+    "metaTitle": "Patient Check-In for Preventive Cardiology",
+    "metaDescription": "Preventive cardiology check-in that collects family history, medications, home blood pressure readings and lab status before the visit. See how it works.",
+    "h1": "Digital Check-In for Preventive Cardiology Clinics",
+    "subtitle": "clinIQ check-in gathers the history, medication list and risk factor details a prevention visit depends on before the patient arrives, so the visit starts with the data in hand.",
+    "problemHeading": "Why Prevention Visits Start Without the Data",
+    "problemStatement": "Preventive cardiology runs on information the patient brings. Family history of early heart disease, smoking status, current statins and other lipid drugs, supplements, home blood pressure readings and whether recent labs were drawn all shape risk assessment and treatment. On paper, that history is incomplete or illegible, the medication list is out of date and home readings stay on the patient's phone. Staff spend rooming time collecting it, and physicians make decisions with gaps they only find mid-visit.",
+    "solutionHeading": "Risk Factor Intake Before the Patient Arrives",
+    "solutionStatement": "clinIQ sends check-in by app, text or email ahead of the visit. Patients confirm demographics and insurance, photograph a new insurance card, update their medication list and complete the practice's prevention questionnaires, including family history, lifestyle and recent home blood pressure readings. They confirm whether ordered labs were drawn. Responses flow to the chart. When something is missing, such as labs not done, staff see an alert in time to act.",
+    "workflow": {
+      "h2": "How a Prevention Visit Check-In Works in clinIQ",
+      "intro": "Most of the intake work happens at home, and the front desk only handles the exceptions.",
+      "steps": [
+        {
+          "title": "Check-in sent ahead",
+          "body": "A day before the appointment, the patient gets a push notification or a text or email link. They confirm the visit or reschedule from their phone. Patients who need fasting labs or other prep can get those instructions in the same message, as set by the practice."
+        },
+        {
+          "title": "History and risk factors collected",
+          "body": "The patient completes the practice's questionnaires: family history of premature heart disease, smoking and activity, diet and current symptoms. Returning patients see prior answers pre-filled and only update what changed. That keeps completion high on repeat visits, which prevention patients have many of."
+        },
+        {
+          "title": "Medications and readings captured",
+          "body": "Patients review their medication list, including statins, other lipid therapies, blood pressure drugs and supplements. They enter recent home blood pressure readings in the practice's form. Staff start the visit with an up-to-date list rather than reading pill bottles in the exam room."
+        },
+        {
+          "title": "Exceptions flagged",
+          "body": "When the patient arrives, the [patient flow dashboard](/features/patient-flow) shows them as checked in. If labs were not drawn, insurance could not be verified or a consent is unsigned, staff see a specific alert and resolve it before rooming, not after the physician walks in."
+        }
+      ]
+    },
+    "capabilities": {
+      "h2": "Built for Preventive Cardiology Check-In",
+      "items": [
+        {
+          "title": "Configurable risk questionnaires",
+          "body": "Practices build their own family history, lifestyle and symptom forms. Answers land in the provider's view of the chart before the encounter, so risk discussions start from complete information instead of a rushed verbal history."
+        },
+        {
+          "title": "Medication reconciliation at home",
+          "body": "Patients confirm or edit their medication list at home, including supplements and lipid therapies. Rooming staff verify the list rather than rebuild it, and changes since the last visit are easy to spot."
+        },
+        {
+          "title": "Lab status confirmation",
+          "body": "A check-in question asks whether ordered labs were completed. A no triggers an alert, so staff can arrange a draw or adjust the visit before the physician is waiting on results that do not exist."
+        },
+        {
+          "title": "Three ways to check in",
+          "body": "Patients use the clinIQ app, a web link or the waiting room kiosk. All three channels update the same record, and staff can step in to help older patients at the kiosk when needed."
+        },
+        {
+          "title": "Copay and insurance capture",
+          "body": "Insurance card photos and copay payment happen during check-in. This reduces front desk work and keeps private details, such as date of birth and balances, from being discussed out loud at the counter."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "What should patients complete before a preventive cardiology visit?",
+        "a": "Usually demographics and insurance, a current medication list including supplements, family history of heart disease, smoking and lifestyle questions, symptom screening and any home blood pressure readings. Confirming whether ordered labs were drawn also helps. clinIQ lets the practice build these forms and send them ahead of the visit so the data is in the chart before rooming."
+      },
+      {
+        "q": "Can patients enter home blood pressure readings during check-in?",
+        "a": "Yes. Practices can add a form where patients enter recent home readings before the visit. The responses appear for the provider alongside the rest of the intake, so the physician sees out-of-office numbers next to the reading taken in clinic. For ongoing monitoring between visits, practices can also look at [remote therapeutic monitoring](/features/rtm)."
+      },
+      {
+        "q": "What if a patient arrives without completing check-in?",
+        "a": "They can check in at the waiting room kiosk by name and date of birth or by scanning a driver's license. The kiosk runs the same forms as the app. Staff see on the dashboard who has arrived, who is still in progress and who needs help, so no one is missed."
+      },
+      {
+        "q": "How do digital check-in completion rates hold up with older patients?",
+        "a": "Many older patients use smartphones every day and complete check-in without help. Pre-filled answers for returning patients and short forms keep completion high. Staff remain available at the kiosk for those who need assistance, and they see on the dashboard who is stuck. Our article on [check-in completion rates](/blog/check-in-completion-rates) covers what moves the number."
+      }
+    ],
+    "related": [
+      {
+        "title": "clinIQ for Preventive Cardiology",
+        "href": "/specialties/preventive-cardiology"
+      },
+      {
+        "title": "Patient Check-In Software",
+        "href": "/features/check-in"
+      },
+      {
+        "title": "Improving Check-In Completion Rates",
+        "href": "/blog/check-in-completion-rates"
+      },
+      {
+        "title": "Cardiology Practice Workflow Optimization",
+        "href": "/blog/cardiology-practice-workflow-optimization"
+      }
+    ]
+  },
+  "patient-flow/wound-care": {
+    "metaTitle": "Wound Care Center Patient Flow Software",
+    "metaDescription": "Track debridement rooms, hyperbaric chambers and dressing changes on one live board, so a wound care center stays on schedule. Book a demo for your center.",
+    "h1": "Patient Flow Software for Wound Care Centers",
+    "subtitle": "See every exam room, every hyperbaric chamber and every patient waiting on a dressing change in one live view, so a long debridement doesn't quietly push back the afternoon dive schedule.",
+    "problemHeading": "Why Wound Care Flow Breaks Down",
+    "problemStatement": "A wound care center runs several schedules at once. Weekly debridement visits range from a quick compression re-wrap to a long sharp debridement with photos and measurements. Hyperbaric sessions run a fixed length and can't be shortened, so a late or unprepared patient delays the chamber. New consults may need a same-day ABI. Nurses move between rooms with supply carts while providers wait for wounds to be undressed and measured. Without a shared view, the coordinator learns about a backup only when patients start asking.",
+    "solutionHeading": "One Board for Rooms, Chambers and Patients",
+    "solutionStatement": "clinIQ shows every patient's status from arrival through checkout, and every room's state: available, occupied, in turnover or blocked. Chambers appear alongside exam rooms, so the coordinator sees the HBO, debridement and consult tracks on one screen. Nurses tap a status when a wound is undressed and ready, and the provider's queue shows the next patient and room. Wait times are color-coded, and stale statuses raise an alert, so a forgotten update or an overrun is visible within minutes.",
+    "workflow": {
+      "h2": "How a Wound Care Visit Moves Through clinIQ",
+      "intro": "A typical weekly visit for a diabetic foot ulcer patient who is also in a course of hyperbaric oxygen.",
+      "steps": [
+        {
+          "title": "Arrival and pre-treatment prep",
+          "body": "The patient checks in and appears in the waiting queue with visit type and track. For an HBO patient, staff can see the chamber time they need to make, so the nurse starts pre-treatment checks, such as vitals and a blood glucose check for diabetic patients, early enough to protect it."
+        },
+        {
+          "title": "Rooming and wound prep",
+          "body": "The nurse rooms the patient, removes the dressing and any offloading device, and takes photos and measurements. One tap marks the patient ready, and the room shows as occupied with the assigned provider. Nobody has to walk the hall to say the wound is ready to look at."
+        },
+        {
+          "title": "Provider debridement",
+          "body": "The provider sees the patient at the top of their queue with the room number. Room wait is tracked from the moment the patient was marked ready, so a provider held up by a long sharp debridement is visible to the coordinator, who can move a simpler follow-up to another provider."
+        },
+        {
+          "title": "Dressing, chamber and turnover",
+          "body": "After debridement, the nurse applies the dressing or compression wrap, and the patient moves to the chamber queue or to checkout. The exam room flips to turnover for cleaning and restocking, and the turnover timer shows when a room has sat unready too long."
+        }
+      ]
+    },
+    "capabilities": {
+      "h2": "Built for Wound Care Patient Flow",
+      "items": [
+        {
+          "title": "Chambers tracked like rooms",
+          "body": "Hyperbaric chambers carry the same available, occupied, turnover and blocked states as exam rooms. Coordinators see chamber status next to the clinic and can tell right away whether a late arrival will affect the next session."
+        },
+        {
+          "title": "Visit types on the board",
+          "body": "Debridements, total contact cast changes, skin substitute applications and new consults are labeled on the board, so a long procedure isn't mistaken for a quick re-wrap. Patients whose status hasn't changed in too long raise an alert."
+        },
+        {
+          "title": "Nurse-to-provider handoff",
+          "body": "A single tap tells the provider the wound is exposed, measured and ready. Providers stop knocking on doors to check, and patients spend less time sitting with an open wound waiting for someone to come in."
+        },
+        {
+          "title": "Turnover visibility",
+          "body": "Wound care rooms need more cleaning and restocking than a standard exam room. Turnover timers show where rooms are stuck, a common source of lost capacity. Our guide to [room status visibility](/blog/room-status-visibility) explains why it matters."
+        },
+        {
+          "title": "Wait time by segment",
+          "body": "Waits are split into lobby time and time in the room before the provider arrives, by provider and visit type. That shows whether delays come from rooming, provider time or turnover, so template changes rest on what happened."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "How do wound care centers schedule hyperbaric chamber time and clinic visits together?",
+        "a": "Most run separate tracks: one grid for chambers, one for debridement rooms and one for consults, with a coordinator watching all three. clinIQ's patient flow board shows every chamber and exam room in real time, so when a debridement runs long or an HBO patient arrives late, the coordinator sees the conflict and adjusts before it spreads through the day."
+      },
+      {
+        "q": "How long does a wound care visit take?",
+        "a": "It depends on the visit type. A compression re-wrap for a venous ulcer can be brief, while a sharp debridement with photos, measurements and a new dressing takes much longer, and a new consult with vascular testing longer still. Tracking actual times by visit type, rather than using one default slot length, is how centers build a schedule that holds."
+      },
+      {
+        "q": "What causes delays in a wound care center?",
+        "a": "The usual causes are waiting for wounds to be undressed and measured before the provider can see them, a provider held up by a complex debridement, rooms left in turnover after messy dressing changes, and chamber sessions that can't start on time. Real-time status makes each one visible as it happens. Our [wound care center patient flow guide](/blog/wound-care-center-patient-flow) covers each in detail."
+      },
+      {
+        "q": "Do we need wall displays to use patient flow in a wound clinic?",
+        "a": "No. The board runs on existing desktops, tablets and phones. Many centers add a wall display at the nurse station or near the chambers, because nurses moving between rooms in gloves can glance at it without logging in to a computer. Status updates take a single tap on any device."
+      }
+    ],
+    "related": [
+      {
+        "title": "Wound Care Center Software",
+        "href": "/specialties/wound-care"
+      },
+      {
+        "title": "Patient Flow Management",
+        "href": "/features/patient-flow"
+      },
+      {
+        "title": "Wound Care Center Patient Flow",
+        "href": "/blog/wound-care-center-patient-flow"
+      },
+      {
+        "title": "Wound Care Prior Auth: HBO and Advanced Dressings",
+        "href": "/blog/wound-care-prior-auth-hbo-dressings"
+      }
+    ]
+  },
+  "scheduling/neurology": {
+    "metaTitle": "Neurology Scheduling Software for EEG and EMG",
+    "metaDescription": "Neurology scheduling that sizes new patient visits correctly, books EEG and EMG on the right equipment and keeps Botox and infusion intervals on time.",
+    "h1": "Neurology Scheduling Software for Long Visits and Testing",
+    "subtitle": "clinIQ gives neurology practices templates for long new patient visits, equipment-aware booking for EEG and EMG, and recurring series for treatments that run on fixed intervals.",
+    "problemHeading": "Why Neurology Access Is So Hard to Manage",
+    "problemStatement": "Neurology has long new patient waits in many markets, and the schedule is part of the cause. A new headache, seizure or neuropathy evaluation takes far longer than a follow-up, yet many templates give them the same slot. EEG and EMG with nerve conduction studies need specific rooms, machines and technologists. Botox for chronic migraine runs on a 12-week cycle, and MS infusions follow their own interval. Urgent referrals, such as a new seizure, compete for the same scarce openings.",
+    "solutionHeading": "A Schedule That Matches Neurology Work",
+    "solutionStatement": "clinIQ sizes each neurology visit type to its real length and attaches the rooms, equipment and staff it needs. An EMG template reserves the EMG machine and the provider. An EEG template reserves the EEG room and a technologist, with prep time for electrode placement. Recurring treatments book as a series on their interval. Rules hold a small amount of capacity for urgent new referrals, and the waitlist fills cancellations from the long new patient queue.",
+    "workflow": {
+      "h2": "How a Neurology Referral Moves Through clinIQ",
+      "intro": "A referral becomes a correctly sized visit, the right test slot and, where needed, a treatment series.",
+      "steps": [
+        {
+          "title": "Referral triaged",
+          "body": "The scheduler picks the template that matches the referral reason. A new seizure or rapidly progressing symptom goes into held urgent capacity. A routine new headache evaluation goes into a long new patient slot. Neither one is squeezed into a short follow-up block that would put the clinic behind."
+        },
+        {
+          "title": "Testing booked to equipment",
+          "body": "If the provider orders an EEG or EMG with nerve conduction studies, the scheduler books it on the template that reserves the right room, machine and staff. clinIQ blocks only the times when those resources are free, so two studies never collide on one machine."
+        },
+        {
+          "title": "Treatment series set",
+          "body": "Patients on Botox for chronic migraine are booked as a recurring series on the 12-week cycle, so they are not under-treated or seen too early for coverage. Infusion patients get a series that matches their drug's schedule. Staff manage the whole series as a group."
+        },
+        {
+          "title": "Openings filled from the queue",
+          "body": "When a new patient cancels, the [waitlist](/features/scheduling) offers the opening by text to the next matching patient, ranked by how long they have waited. A yes reply books it. Long new patient slots rarely go empty, which matters most where the wait is longest."
+        }
+      ]
+    },
+    "capabilities": {
+      "h2": "Built for Neurology Scheduling",
+      "items": [
+        {
+          "title": "Long visit templates",
+          "body": "New patient, follow-up, procedure and testing visits each carry their own length. Analytics show where new evaluations run past their template, by provider and by referral type, so leadership can resize them with data."
+        },
+        {
+          "title": "Equipment and technologist rules",
+          "body": "EEG, EMG and other testing templates reserve the machine, the room and the technologist together. Prep and cleanup time, such as electrode placement and removal, is built in, so the next study starts on time."
+        },
+        {
+          "title": "Interval-based series",
+          "body": "Botox for migraine, infusions and routine MS or epilepsy follow-ups book as recurring series. Staff can see when a patient falls off their interval before it becomes a gap in care."
+        },
+        {
+          "title": "Overbooking limits by visit type",
+          "body": "Rules allow short follow-ups to double up in time slots where no-shows are likely, and block overbooking of long new patient visits entirely. The worst-case delay for the neurologist stays small even when everyone arrives."
+        },
+        {
+          "title": "Provider preparation view",
+          "body": "Neurologists see tomorrow's schedule with visit types and flags, such as an interpreter need or a pending study result. They can request blocked time for procedures, and the request routes to scheduling staff."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "How long should a new neurology patient appointment be?",
+        "a": "New neurology evaluations usually need much more time than follow-ups because they involve a detailed history and a full neurological exam. The right length depends on your providers and referral mix. clinIQ lets you set a template per visit type and then compares scheduled and actual times, so you can resize templates based on your own data rather than guesses."
+      },
+      {
+        "q": "How do neurology practices reduce new patient wait times?",
+        "a": "Most of the gain comes from using capacity that already exists. Correctly sized templates stop the day from running over. Waitlist automation fills cancellations within hours instead of losing them. Overbooking rules for short follow-ups recover no-show slots. Held urgent capacity keeps critical referrals from waiting behind routine ones. clinIQ handles each of these on the schedule your staff already use."
+      },
+      {
+        "q": "Can clinIQ schedule Botox for chronic migraine every 12 weeks?",
+        "a": "Yes. Staff book the injections as a recurring series on a 12-week interval with a consistent day and time. The full series is visible and can be moved as a group. Payer authorization for each cycle is tracked separately in the [pre-authorization module](/features/pre-auth), so the visit and the approval stay in step."
+      },
+      {
+        "q": "Can EEG and EMG be booked without double-booking equipment?",
+        "a": "Yes. Each testing template specifies the room, equipment and staff it requires. clinIQ shows only times when all of them are free. If a practice has one EMG machine shared by two neurologists, the schedule reflects that limit automatically, and an EEG cannot be booked when no technologist is on shift."
+      }
+    ],
+    "related": [
+      {
+        "title": "clinIQ for Neurology",
+        "href": "/specialties/neurology"
+      },
+      {
+        "title": "Medical Scheduling Software",
+        "href": "/features/scheduling"
+      },
+      {
+        "title": "Neurology Patient Flow",
+        "href": "/blog/neurology-patient-flow"
+      },
+      {
+        "title": "Neurology Prior Auth for Imaging and Biologics",
+        "href": "/blog/neurology-prior-auth-imaging-biologics"
+      }
+    ]
+  },
+  "lobbyview/primary-care": {
+    "metaTitle": "Waiting Room Display for Primary Care Practices",
+    "metaDescription": "Show primary care patients their place in line on a lobby screen without names, even with same-day sick visits and several providers. See it in a demo.",
+    "h1": "A Waiting Room Display Built for Busy Primary Care Lobbies",
+    "subtitle": "LobbyView shows patients where they stand on a lobby screen without names, so a physical patient isn't left wondering why someone who arrived later went back first.",
+    "problemHeading": "Why Primary Care Lobbies Feel Unfair",
+    "problemStatement": "A primary care lobby holds patients for several providers at once, plus same-day sick visits added to the schedule, lab-only draws and patients in for a quick vaccine. From a waiting chair, the order looks random. Someone who arrived at 9:40 for a physical watches three people go back ahead of them and decides they've been forgotten. They ask at the desk, which interrupts check-in for the next patient. In flu season the lobby fills faster, the questions multiply, and some patients leave and call back to reschedule.",
+    "solutionHeading": "Wait Status Patients Can See Without Asking",
+    "solutionStatement": "LobbyView puts the queue on a lobby screen without using names. It draws on clinIQ [patient flow](/features/patient-flow) and check-in, so it reflects what is actually happening: who has arrived, who has been roomed and where each waiting patient stands. Patients can see that the line is moving and that they are in it. The front desk stops answering the same question all morning, and the staff rooming patients work from the same live data that drives the screen.",
+    "workflow": {
+      "h2": "How LobbyView Works in a Primary Care Office",
+      "intro": "The screen updates from the same check-in and rooming events your staff already record.",
+      "steps": [
+        {
+          "title": "Patient checks in",
+          "body": "The patient checks in on their phone before arriving or at a kiosk in the lobby. As soon as check-in is complete, they join the queue and appear on the lobby screen without their name, so nobody else in the room learns who is there or why."
+        },
+        {
+          "title": "The screen shows position",
+          "body": "Patients see where they stand. Because the order follows live patient flow, a same-day sick visit or a lab draw going back first no longer looks like someone cutting the line. Patients can judge whether there is time to step out for a call."
+        },
+        {
+          "title": "The MA rooms the patient",
+          "body": "When a medical assistant rooms the patient for vitals, the status changes on the flow board and the lobby display at the same moment. Nothing extra is entered for the screen, so it stays current through the 8 AM rush and the late-afternoon catch-up."
+        },
+        {
+          "title": "The manager reviews the day",
+          "body": "Lobby wait time is recorded for every visit. With [practice analytics](/features/analytics), the manager can see which providers, visit types and hours produce the longest waits and adjust the template, for example by holding more same-day slots on Monday mornings. Those changes show up on the lobby screen the next week."
+        }
+      ]
+    },
+    "capabilities": {
+      "h2": "Built for Primary Care Waiting Rooms",
+      "items": [
+        {
+          "title": "No names on screen",
+          "body": "The display shows wait status without using names. That protects privacy in a lobby where neighbors, coworkers and relatives often see the same practice. Nothing on the screen reveals the reason for anyone's visit, so a lab draw and a mental health follow-up look the same."
+        },
+        {
+          "title": "Live from patient flow",
+          "body": "LobbyView reads from check-in and rooming status, not a separate list. When the front desk or an MA updates the board, the screen reflects it with no double entry. It stays accurate through a full day of add-ons and walk-ins."
+        },
+        {
+          "title": "Fewer interruptions at the desk",
+          "body": "When patients can see where they stand, the \"how much longer\" questions drop. Front desk staff can stay focused on insurance problems, phone lines and same-day scheduling requests. Patients who do come to the desk usually have a real need."
+        },
+        {
+          "title": "One queue for mixed visit types",
+          "body": "Physicals, chronic care follow-ups, same-day sick visits and nurse visits move through one live queue, so the order on screen matches what patients see happening around them. No one reads a nurse visit going first as being skipped."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Should a primary care office display wait times in the waiting room?",
+        "a": "For most practices, yes. Patients tolerate a wait far better when they can see where they stand than when they hear nothing. A display that shows queue position without names reduces walkouts and front desk interruptions. It must update from live data, because an out-of-date screen does more harm than no screen. Our post on [waiting room complaints](/blog/waiting-room-complaints) explains why."
+      },
+      {
+        "q": "Does LobbyView show patient names?",
+        "a": "No. LobbyView displays wait status on the lobby screen without using names, and it doesn't show the reason for the visit. Patients can see where they stand without anyone else in the room learning who they are, which matters in a community practice where people often know each other. Staff can still call patients back the way they do today."
+      },
+      {
+        "q": "How does a waiting room display handle multiple providers?",
+        "a": "Patients in a primary care lobby are waiting for different providers, so a single first-come list would be misleading. LobbyView draws on clinIQ patient flow, which tracks each provider's queue, so the display reflects the order patients are actually being roomed. A patient whose provider is running behind sees that, instead of watching others go back and assuming they were skipped."
+      },
+      {
+        "q": "How do I stop patients asking how much longer at the front desk?",
+        "a": "Answer the question before it is asked. Patients ask because they can't see progress. A lobby screen showing their place in line, updated as patients are roomed, removes most of those trips to the desk. The questions that remain are usually about a real delay, such as a provider running behind, which staff can address directly."
+      }
+    ],
+    "related": [
+      {
+        "title": "Primary Care Practice Software",
+        "href": "/specialties/primary-care"
+      },
+      {
+        "title": "LobbyView Waiting Room Display",
+        "href": "/features/lobbyview"
+      },
+      {
+        "title": "Fixing Common Waiting Room Complaints",
+        "href": "/blog/waiting-room-complaints"
+      },
+      {
+        "title": "Primary Care Patient Flow at High Volume",
+        "href": "/blog/primary-care-patient-flow-high-volume"
+      }
+    ]
+  },
+  "pre-auth/wound-care": {
+    "metaTitle": "Wound Care Prior Authorization Software",
+    "metaDescription": "Track HBO, skin substitute and NPWT authorizations, count down approved treatments and get alerts before coverage lapses. See clinIQ for your wound center.",
+    "h1": "Prior Authorization Software for Wound Care Centers",
+    "subtitle": "clinIQ tracks every authorization for hyperbaric oxygen, skin substitutes and negative pressure wound therapy, counts down approved treatments and alerts staff before a course runs out of coverage.",
+    "problemHeading": "Why Wound Care Authorizations Go Wrong",
+    "problemStatement": "Wound care's most effective therapies are the ones payers scrutinize most. Hyperbaric oxygen for a diabetic foot ulcer requires documented wound severity and a failed course of standard care. Skin substitutes require serial measurements showing the wound hasn't responded. NPWT has its own documentation rules. Then the approval covers a set number of treatments or applications, which get used up in a busy weekly schedule. When no one counts them, a patient arrives for a session that is no longer covered, and the claim is denied after the fact.",
+    "solutionHeading": "Every Wound Care Auth, Tracked to the Last Treatment",
+    "solutionStatement": "clinIQ keeps each authorization on one dashboard with its status, authorization number, valid dates and approved units. Templates for HBO, skin substitutes and NPWT pull in diagnosis codes, wound measurements and prior treatment history, and pre-submission checks flag gaps such as missing conservative care documentation before the request goes out. As treatments are scheduled and completed, clinIQ counts them down and alerts staff before the count or the date runs out, with the renewal queued from the original request.",
+    "workflow": {
+      "h2": "How a Wound Care Authorization Moves Through clinIQ",
+      "intro": "An example: a Wagner grade 3 diabetic foot ulcer referred for hyperbaric oxygen therapy.",
+      "steps": [
+        {
+          "title": "Build the request",
+          "body": "Staff select the patient and the HBO template. clinIQ fills in demographics, diagnosis codes, wound grade, measurements over time and the standard care already delivered, such as offloading, debridement and infection management. A physician reviews and signs the letter of medical necessity before it is submitted."
+        },
+        {
+          "title": "Check before submitting",
+          "body": "Pre-submission verification looks for the gaps behind most wound care denials: no documented duration of standard care, no vascular assessment on file, or measurements that don't show the non-healing period. Staff fix the gap before the payer sees it, not after a denial letter arrives."
+        },
+        {
+          "title": "Track the approval",
+          "body": "Once approved, the authorization number, valid dates and number of approved treatments are recorded. Each completed session counts down against the total, so staff can see how many remain before the patient's next week of treatments is confirmed on the schedule."
+        },
+        {
+          "title": "Renew or stop on time",
+          "body": "When remaining treatments or the end date reach the thresholds you set, the responsible staff member gets an alert. If the wound needs more sessions, the renewal is queued with the original documentation and the latest measurements, ready for review well before coverage ends."
+        }
+      ]
+    },
+    "capabilities": {
+      "h2": "Built for Wound Care Prior Authorization",
+      "items": [
+        {
+          "title": "Therapy-specific templates",
+          "body": "Separate letter templates for hyperbaric oxygen, skin substitutes and negative pressure wound therapy reflect what each payer review looks for, and they populate from wound data already documented. Staff edit a populated draft instead of writing from a blank page."
+        },
+        {
+          "title": "Treatment and application countdown",
+          "body": "Each authorization records its approved sessions, applications or units. clinIQ counts them down as visits happen, so a patient doesn't receive a treatment the payer never approved. Coordinators see remaining sessions next to the schedule."
+        },
+        {
+          "title": "Expiration alerts",
+          "body": "Alerts reach the right person on a schedule you set before an authorization lapses. Our guide to [tracking prior authorization expirations](/blog/track-prior-authorization-expirations) shows how practices choose their thresholds. Medication and therapy auths can carry earlier alerts."
+        },
+        {
+          "title": "Denial and appeal tracking",
+          "body": "Denial reasons are recorded, appeal templates match the reason, and appeal deadlines are tracked. Peer-to-peer reviews are scheduled when a written appeal isn't enough to overturn the decision. Outcomes feed back into which requests need more work before submission."
+        },
+        {
+          "title": "One view across payers",
+          "body": "A single dashboard shows every active wound care authorization by payer, provider and therapy, sorted by expiration date and remaining units. It replaces the spreadsheet that only one coordinator understands."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Does hyperbaric oxygen therapy for a diabetic foot ulcer need prior authorization?",
+        "a": "Many commercial and Medicare Advantage plans require it, and Medicare has specific coverage criteria. Under Medicare's national coverage determination for HBO (NCD 20.29), the diabetic lower-extremity wound generally must be Wagner grade 3 or higher and must have failed an adequate course of standard wound therapy, meaning no measurable healing over at least 30 days. Documenting both clearly is the core of an approvable request."
+      },
+      {
+        "q": "What documentation do payers want for skin substitutes?",
+        "a": "Payers generally want evidence that the wound has not responded to standard care, shown through serial measurements of length, width and depth over several weeks. They also look for documented offloading or compression, infection control and adequate blood flow. Each application usually counts against a limit, so tracking applications used matters as much as the initial approval."
+      },
+      {
+        "q": "How do I keep track of how many HBO treatments are left on an authorization?",
+        "a": "Record the number of approved treatments with the authorization and count down each completed session. clinIQ does this automatically as visits are completed and alerts staff when only a few treatments remain or the end date is near. That way a renewal goes in before the patient arrives for a session that wouldn't be covered."
+      },
+      {
+        "q": "What are common reasons wound care prior authorizations are denied?",
+        "a": "The most common are missing documentation of the standard care already tried and how long it lasted, wound grade or measurements that don't meet the payer's criteria, no vascular assessment, and requests that exceed frequency or application limits. Our [wound care prior auth guide](/blog/wound-care-prior-auth-hbo-dressings) walks through the criteria for each therapy."
+      }
+    ],
+    "related": [
+      {
+        "title": "Wound Care Center Software",
+        "href": "/specialties/wound-care"
+      },
+      {
+        "title": "Prior Authorization Software",
+        "href": "/features/pre-auth"
+      },
+      {
+        "title": "Wound Care Prior Auth: HBO and Advanced Dressings",
+        "href": "/blog/wound-care-prior-auth-hbo-dressings"
+      },
+      {
+        "title": "How to Track Prior Authorization Expirations",
+        "href": "/blog/track-prior-authorization-expirations"
+      }
+    ]
+  },
+  "scheduling/gastroenterology": {
+    "metaTitle": "GI Scheduling Software for Colonoscopy and EGD",
+    "metaDescription": "GI scheduling that books colonoscopy and EGD by room and sedation time, sends prep reminders and refills late cancellations. See it on your procedure day.",
+    "h1": "Gastroenterology Scheduling for Clinic and Endoscopy Days",
+    "subtitle": "clinIQ books office visits and endoscopy cases on templates that know procedure rooms, sedation, prep timing and recovery, so a GI day runs to plan.",
+    "problemHeading": "Where GI Procedure Days Lose Time",
+    "problemStatement": "A gastroenterology schedule splits between clinic visits and endoscopy, and the endoscopy side is fragile. Colonoscopy, EGD and combined cases need different lengths, a room, nursing and often anesthesia. Patients must follow bowel prep, adjust certain medications and bring an escort if sedated. When prep fails or a driver falls through, the case cancels late and the room sits empty. Surveillance colonoscopies are due years after the last one, and those recalls are easy to lose.",
+    "solutionHeading": "Procedure-Aware GI Scheduling",
+    "solutionStatement": "clinIQ gives each GI case its own template with length, room, staff and turnover time. Combined EGD and colonoscopy cases get a longer block than either alone. Reminders go out ahead of the procedure, and staff confirm the escort before the day. When a case cancels late, the waitlist offers the slot to patients who are already cleared and willing to come on short notice. Surveillance patients are booked from recall so they come back when due.",
+    "workflow": {
+      "h2": "How a Colonoscopy Moves Through clinIQ Scheduling",
+      "intro": "From the referral to the recall, each step is booked with the rooms and time the case actually needs.",
+      "steps": [
+        {
+          "title": "Referral routed",
+          "body": "Staff decide whether the patient needs an office consult first or qualifies for direct-access screening under your criteria. clinIQ books the matching template: a consult visit on the clinic schedule or a screening colonoscopy on the endoscopy schedule, with sedation type noted."
+        },
+        {
+          "title": "Case booked to the room",
+          "body": "The colonoscopy template reserves the procedure room, the endoscopist, nursing and anesthesia time where used, plus turnover. clinIQ prevents the room from being double-booked and places longer cases, such as combined EGD and colonoscopy, where the day can absorb them."
+        },
+        {
+          "title": "Prep and escort confirmed",
+          "body": "Reminders reach the patient ahead of the procedure date with enough time to start prep, review medication instructions and arrange a ride. Patients confirm or reschedule from their phone. Staff see unconfirmed cases days ahead instead of discovering a missing driver at check-in."
+        },
+        {
+          "title": "Late openings refilled",
+          "body": "If a case cancels, the [waitlist](/features/scheduling) texts matching patients who can be ready on short notice. A yes reply books the slot. Staff then confirm prep instructions with the new patient, so the room is used instead of sitting idle."
+        },
+        {
+          "title": "Recall set",
+          "body": "After the procedure, the patient's next surveillance or follow-up date is set from the physician's recommendation. When the date approaches, the patient is invited to schedule, and staff can work a list of those who do not respond, so surveillance patients do not quietly drop out of care."
+        }
+      ]
+    },
+    "capabilities": {
+      "h2": "Built for Gastroenterology Scheduling",
+      "items": [
+        {
+          "title": "Case-specific templates",
+          "body": "Screening colonoscopy, diagnostic colonoscopy, EGD, combined cases and office visits each have their own length, room, sedation and staff rules. Turnover time is part of the template, so the schedule reflects the real pace of the endoscopy suite."
+        },
+        {
+          "title": "Separate clinic and endoscopy schedules",
+          "body": "A physician's office sessions and endoscopy blocks sit on one view. Schedulers can book a consult and the procedure that follows without switching systems, and the physician sees both parts of the week together."
+        },
+        {
+          "title": "Short-notice waitlist",
+          "body": "Patients who can come in quickly are flagged on the waitlist. Late cancellations go to them first, which matters when a slot needs a patient who has time to prep."
+        },
+        {
+          "title": "Utilization analytics",
+          "body": "Leadership sees room use, late cancellations and no-shows by procedure type, day and endoscopist, then adjusts blocks and overbooking rules. Our guide to [colonoscopy and EGD scheduling](/blog/gi-procedure-scheduling-colonoscopy-egd) covers the patterns."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "How do GI practices reduce last-minute colonoscopy cancellations?",
+        "a": "Most late cancellations come from prep problems, missing escorts or patients who forgot. Timed reminders with clear prep instructions, a confirmation step a few days ahead and an easy reschedule option address all three. clinIQ adds a short-notice waitlist so the cancellations that still happen get refilled instead of leaving the room idle."
+      },
+      {
+        "q": "How long should a colonoscopy slot be?",
+        "a": "It depends on the endoscopist, sedation type, room setup and case mix. Combined EGD and colonoscopy cases need more time than either alone, and turnover must be included. clinIQ lets you set a template for each case type and compares scheduled to actual times, so the template can be adjusted from real data."
+      },
+      {
+        "q": "Can clinIQ handle direct-access screening colonoscopy?",
+        "a": "Yes. Practices that book screening colonoscopy without a prior office visit can create a template for it and route eligible referrals straight to the endoscopy schedule. Patients who do not meet your direct-access criteria are booked for a consult first. The criteria are your practice's; clinIQ applies the template you choose."
+      },
+      {
+        "q": "Does clinIQ track surveillance colonoscopy recalls?",
+        "a": "Yes. Staff set the follow-up date the physician recommends after each procedure. As it approaches, the patient is invited to schedule, and patients who do not respond can be worked from a list by phone. This keeps surveillance patients from being lost between visits that may be years apart. Recall lists also show leadership how many patients are overdue."
+      }
+    ],
+    "related": [
+      {
+        "title": "clinIQ for Gastroenterology",
+        "href": "/specialties/gastroenterology"
+      },
+      {
+        "title": "Medical Scheduling Software",
+        "href": "/features/scheduling"
+      },
+      {
+        "title": "GI Procedure Scheduling for Colonoscopy and EGD",
+        "href": "/blog/gi-procedure-scheduling-colonoscopy-egd"
+      },
+      {
+        "title": "GI Patient Flow Optimization",
+        "href": "/blog/gi-patient-flow-optimization"
+      }
+    ]
+  },
+  "check-in/behavioral-health": {
+    "metaTitle": "Behavioral Health Patient Check-In Software",
+    "metaDescription": "Private digital check-in for therapy and psychiatry: PHQ-9 and GAD-7 before the session, no sign-in sheet, telehealth arrivals. See it in a demo.",
+    "h1": "Private, Pre-Session Check-In for Behavioral Health Practices",
+    "subtitle": "Patients confirm their session, complete screeners and update insurance on their own phone before they arrive or log on. Nobody says their name across a waiting room, and the clinician starts the session with scores already in hand.",
+    "problemHeading": "Why Check-In Is Hard in Behavioral Health",
+    "problemStatement": "Behavioral health sessions run on the hour, often back to back, so a ten-minute delay at the desk comes out of a 45- or 60-minute session that can't run into the next patient's time. Patients are handed PHQ-9 or GAD-7 screeners on a clipboard in a shared lobby, which feels exposed. Many sessions are telehealth, so the front desk has no reliable signal that a patient is ready. And a sign-in sheet with names on it is the last thing a person seeking care for depression, trauma or substance use wants to see.",
+    "solutionHeading": "Check-In That Happens Before the Session Starts",
+    "solutionStatement": "clinIQ sends a check-in link or app reminder 24 hours before each appointment. Patients confirm attendance, verify demographics and insurance, sign consents and complete the screeners your practice assigns to that visit type. Responses flow into the chart, so the clinician sees this week's PHQ-9 next to last month's before the patient sits down. In-office arrivals check in on their phone or a kiosk without speaking to anyone. Telehealth patients show as ready on the [patient flow board](/features/patient-flow), so clinicians aren't left waiting in an empty video room.",
+    "workflow": {
+      "h2": "How a Therapy Session Check-In Moves Through clinIQ",
+      "intro": "The same steps work for in-office and video sessions. Only the arrival step changes.",
+      "steps": [
+        {
+          "title": "Reminder and confirmation",
+          "body": "The day before, the patient gets a push notification, text or email with their session time and clinician. They confirm or reschedule in a tap. A reschedule frees the hour early enough for the practice to offer it to someone on the waitlist, instead of absorbing a no-show."
+        },
+        {
+          "title": "Screeners and paperwork",
+          "body": "The patient completes the measures assigned to their visit type, such as the PHQ-9 or GAD-7, along with any consent, release of information or telehealth agreement that is due. Returning patients see their details pre-filled and confirm only what changed. Insurance card photos upload from the phone."
+        },
+        {
+          "title": "Arrival without a sign-in sheet",
+          "body": "In the office, the patient checks in on their phone or the kiosk by the door and takes a seat. No name is written on a sheet or called across the room. The front desk sees a green status on its dashboard and steps in only when something is flagged."
+        },
+        {
+          "title": "Clinician sees readiness and scores",
+          "body": "The clinician's queue shows the patient as arrived or, for video sessions, checked in and waiting. Screener responses are already in the chart, so a rising score or a positive answer on PHQ-9 item 9 is seen before the session begins, not discovered forty minutes in."
+        }
+      ]
+    },
+    "capabilities": {
+      "h2": "Built for Behavioral Health Check-In",
+      "items": [
+        {
+          "title": "Measurement-based care at check-in",
+          "body": "Assign the PHQ-9, GAD-7 or other standardized screeners by visit type and interval. Patients complete them before the session, and scores land in the chart, so trends are visible across visits without hand scoring."
+        },
+        {
+          "title": "No names in the lobby",
+          "body": "Self-service check-in on phone, kiosk or web removes the clipboard and the sign-in sheet. Pair it with [LobbyView](/features/lobbyview), which shows wait status on a lobby screen without using names. Patients sit down and wait without being announced."
+        },
+        {
+          "title": "Telehealth arrival status",
+          "body": "Patients check in for video sessions the same way they do for office visits. The clinician sees who is ready, and the front desk can reach out to anyone who hasn't checked in as the hour approaches."
+        },
+        {
+          "title": "Consents and releases on schedule",
+          "body": "Annual consents, telehealth agreements and releases of information appear in check-in when they are due. Patients sign electronically, the documents attach to the record, and staff stop chasing signatures at the desk."
+        },
+        {
+          "title": "Coverage and copay before the session",
+          "body": "Eligibility checks and copay collection happen during check-in, so money and coverage questions don't spill into therapy time. Problems show up as specific alerts for front desk or billing staff."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Can patients complete the PHQ-9 before a therapy appointment?",
+        "a": "Yes. clinIQ can include the PHQ-9, GAD-7 or other screeners your practice uses in pre-visit check-in, sent the day before the appointment. Patients answer on their phone or computer, and responses pass into the clinical record. The clinician reviews them before the session instead of spending the first minutes on forms. You choose which visit types get each measure and how often."
+      },
+      {
+        "q": "How do I protect patient privacy at check-in in a mental health practice?",
+        "a": "Remove anything in the lobby that exposes names or reasons for visit. That means no sign-in sheet, no reading dates of birth aloud and no forms filled out on a clipboard in view of others. Digital check-in lets patients confirm identity, insurance and paperwork on their own device, and a name-free lobby display answers the \"how much longer\" question."
+      },
+      {
+        "q": "Does digital check-in work for telehealth therapy sessions?",
+        "a": "Yes. Telehealth patients get the same reminder and check-in flow as in-office patients, including screeners and consents. When they finish, their status updates on the clinician's dashboard, so the clinician knows the patient is ready before opening the video visit. Staff can also see who hasn't checked in as the session time approaches and contact them."
+      },
+      {
+        "q": "Can digital check-in help reduce no-shows in behavioral health?",
+        "a": "It helps by making cancelling easy and early. Each check-in reminder asks the patient to confirm or reschedule, and a reschedule frees the slot while there is still time to offer it to a waitlisted patient. It does not replace outreach to patients who disengage, but it gives staff an early, clear signal. Our guide to [behavioral health no-shows](/blog/behavioral-health-no-shows) covers the rest."
+      }
+    ],
+    "related": [
+      {
+        "title": "Behavioral Health Practice Software",
+        "href": "/specialties/behavioral-health"
+      },
+      {
+        "title": "Digital Patient Check-In",
+        "href": "/features/check-in"
+      },
+      {
+        "title": "Reducing No-Shows in Behavioral Health",
+        "href": "/blog/behavioral-health-no-shows"
+      },
+      {
+        "title": "Improving Check-In Completion Rates",
+        "href": "/blog/check-in-completion-rates"
+      }
+    ]
+  },
+  "analytics/medical-oncology": {
+    "metaTitle": "Oncology Analytics: Chair Utilization Reports",
+    "metaDescription": "Track infusion chair utilization, lab-to-chair time and pharmacy turnaround in one oncology dashboard. See the reports your clinic runs on.",
+    "h1": "Oncology Analytics for Chair Utilization and Infusion Turnaround",
+    "subtitle": "clinIQ measures every step between lab draw and chair so medical oncology practices can see where treatment days lose time and fill chairs they already have.",
+    "problemHeading": "Infusion Delays Hide Between Departments",
+    "problemStatement": "A medical oncology treatment day runs through lab draw, results, provider visit, treatment approval, pharmacy mixing and finally the chair. Each handoff adds minutes, and nobody owns the total. Chairs sit empty in the morning while patients wait on pharmacy, then the afternoon runs late. Regimen lengths vary from a short injection to a full-day infusion, so a chair calendar that looks full can still have hours of idle time. Without timestamps at each step, managers argue about causes instead of fixing them.",
+    "solutionHeading": "Timestamps at Every Handoff, Reported by Chair",
+    "solutionStatement": "clinIQ records when each patient checks in, finishes labs, sees the provider, gets cleared for treatment and sits down in a chair. Analytics turns those timestamps into lab-to-chair time, provider-to-chair time and chair idle time, broken out by day, regimen length and provider. The live dashboard shows which chairs are open now and which patients are waiting on pharmacy. Historical reports show whether the 10 a.m. bottleneck is a staffing problem or a scheduling template problem, so changes target the real cause.",
+    "workflow": {
+      "h2": "How an Infusion Day Is Measured in clinIQ",
+      "intro": "Each status change becomes a data point. Here is how a typical treatment visit turns into reports.",
+      "steps": [
+        {
+          "title": "Check-in and lab draw",
+          "body": "The patient checks in and moves to the lab queue. clinIQ starts the visit clock and logs when the draw finishes. The waiting-for-labs segment shows up in reports by hour, so managers can see whether early arrivals pile up before the lab is fully staffed."
+        },
+        {
+          "title": "Provider visit and treatment clearance",
+          "body": "When the oncologist or APP sees the patient and clears treatment, staff mark the status change. Analytics separates time spent waiting for results from time spent waiting for the provider. Those are different problems with different owners, and the report keeps them apart."
+        },
+        {
+          "title": "Pharmacy and chair assignment",
+          "body": "The patient waits while the drug is prepared. clinIQ tracks the gap between clearance and chair seating, which is where many infusion days lose the most time. The live view flags patients past your threshold so the charge nurse can call pharmacy before the delay spreads."
+        },
+        {
+          "title": "Treatment and chair turnover",
+          "body": "Chair start and end times feed chair utilization reports. clinIQ compares actual chair time with the scheduled slot for each regimen length and shows how long chairs sit empty between patients. Read more in our guide to [infusion chair utilization and scheduling](/blog/infusion-center-scheduling-chair-utilization)."
+        }
+      ]
+    },
+    "capabilities": {
+      "h2": "Reports Built for Medical Oncology Operations",
+      "items": [
+        {
+          "title": "Chair utilization by hour",
+          "body": "See what share of available chair hours had a patient in them, hour by hour and chair by chair. Morning gaps and late-afternoon overruns become visible, which helps when rebuilding templates around long and short regimens."
+        },
+        {
+          "title": "Lab-to-chair and clearance-to-chair time",
+          "body": "Track the two intervals that drive most infusion delays. Trend them weekly to confirm whether a change in lab staffing, result review or pharmacy workflow actually moved the number, instead of assuming it did."
+        },
+        {
+          "title": "Scheduled versus actual regimen time",
+          "body": "Compare how long treatments are booked for against how long they actually take in the chair. Regimens that consistently run over get flagged, so schedulers can adjust slot length based on evidence instead of guessing."
+        },
+        {
+          "title": "Scheduled and exported reports",
+          "body": "Send a daily chair summary to the infusion nurse manager and a monthly trend report to practice leadership automatically. Export any report to Excel, CSV or PDF for service line reviews and capacity planning meetings."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "How do you measure infusion chair utilization?",
+        "a": "Divide the hours chairs were occupied by the hours chairs were available during operating time. clinIQ calculates this from actual seat and release timestamps, not from the schedule, so it reflects what happened. Reports break utilization out by hour, day of week and chair, which shows where idle time concentrates and whether it comes from late starts, early finishes or gaps between patients."
+      },
+      {
+        "q": "What causes long waits before chemotherapy starts?",
+        "a": "Most waits come from a chain of dependencies: lab results, the provider visit, treatment approval and drug preparation. Any one can stall the day. clinIQ times each segment separately, so you can see whether patients mostly wait on results, on the provider or on pharmacy. That tells you which team and which process to change first."
+      },
+      {
+        "q": "Does clinIQ analytics replace our EHR's oncology reports?",
+        "a": "No. Your EHR holds the clinical record, regimens and orders. clinIQ adds the operational layer the EHR does not capture well: where the patient is, how long each step took and how chairs and rooms are used. Many practices use both, with clinIQ answering the throughput and capacity questions that clinical reports leave open."
+      },
+      {
+        "q": "Can we compare infusion performance across locations?",
+        "a": "Yes. Multi-site oncology groups can view chair utilization, lab-to-chair time and wait times by location, compare sites side by side and roll results up to the whole organization. This helps leadership decide where to add chairs, nursing staff or pharmacy capacity, and which site's workflow the other sites should consider copying."
+      }
+    ],
+    "related": [
+      {
+        "title": "Medical Oncology Practice Software",
+        "href": "/specialties/medical-oncology"
+      },
+      {
+        "title": "Clinical Analytics and Reporting",
+        "href": "/features/analytics"
+      },
+      {
+        "title": "Oncology Patient Flow in the Infusion Clinic",
+        "href": "/blog/oncology-patient-flow-infusion-clinic"
+      },
+      {
+        "title": "Infusion Scheduling and Chair Utilization",
+        "href": "/blog/infusion-center-scheduling-chair-utilization"
+      }
+    ]
+  },
+  "lobbyview/neurology": {
+    "metaTitle": "Waiting Room Display for Neurology Clinics",
+    "metaDescription": "Neurology visits range from short follow-ups to long new evaluations, so lobby order looks random. Show patients their place, without names. See a demo.",
+    "h1": "Waiting Room Display Software for Neurology Practices",
+    "subtitle": "Patients with long new evaluations, EEG appointments and Botox visits share one lobby. LobbyView shows each of them, and the caregivers with them, where they stand without displaying names.",
+    "problemHeading": "Why Neurology Waits Feel Longer",
+    "problemStatement": "A neurology lobby mixes very different visits. A new seizure or memory evaluation can take well over an hour, a stable MS follow-up is short, and a Botox injection for chronic migraine is a set procedure. When one new evaluation runs long, the next hour backs up. Many patients arrive with a caregiver, and many have fatigue, mobility limits or cognitive symptoms that make an unexplained wait harder. Caregivers go to the desk to ask, and staff lose time they need for scheduling EEGs and returning calls.",
+    "solutionHeading": "A Calm, Name-Free View of the Queue",
+    "solutionStatement": "LobbyView shows patients and caregivers their place in the queue on a lobby screen, without names. It draws on clinIQ [patient flow](/features/patient-flow), so when a new evaluation runs long, the screen reflects the real order instead of a printed schedule. A caregiver can see there is time to move the car or get a coffee. Patients with memory symptoms don't have to hold their place in their head. Front desk staff get back the time they spent answering the same question.",
+    "workflow": {
+      "h2": "How LobbyView Works in a Neurology Clinic",
+      "intro": "The display follows the same check-in and rooming events your team already records.",
+      "steps": [
+        {
+          "title": "Check-in for patient and caregiver",
+          "body": "The patient, or a caregiver on their behalf, checks in on a phone before the visit or at the lobby kiosk. Once check-in is complete, the patient joins the queue and appears on the lobby display without their name. Forms are done before arrival, not balanced on a lap in the lobby."
+        },
+        {
+          "title": "The queue reflects long visits",
+          "body": "If a 90-minute new evaluation is running over, patients waiting for that neurologist see their position hold instead of guessing. Patients waiting for a different provider or for an EEG tech keep moving. The order on screen matches what is actually happening in the clinic."
+        },
+        {
+          "title": "Rooming updates the screen",
+          "body": "When a medical assistant brings a patient back for vitals, or a tech takes them for an EEG, the status changes on the flow board and the lobby display together. Staff never update the screen separately, so it stays accurate even on the busiest clinic days."
+        },
+        {
+          "title": "Patterns reviewed after clinic",
+          "body": "Lobby wait time is recorded for every visit. With [practice analytics](/features/analytics), managers can see which visit types, providers and days create the longest waits, and use that to set realistic slot lengths for new evaluations and procedure visits. Changes are visible on the lobby screen the following week."
+        }
+      ]
+    },
+    "capabilities": {
+      "h2": "Built for Neurology Waiting Rooms",
+      "items": [
+        {
+          "title": "No names, no visit reasons",
+          "body": "The lobby screen shows wait status without using names. Nothing on the display tells other patients who is there for epilepsy, dementia or MS care. Patients and caregivers can watch their position without announcing anything about themselves."
+        },
+        {
+          "title": "Easier for patients with memory symptoms",
+          "body": "A visible place in line means a patient with memory or attention problems doesn't need to remember what the front desk said twenty minutes ago. Caregivers can check the screen instead of asking."
+        },
+        {
+          "title": "Reflects every queue",
+          "body": "Neurologist visits, EEG testing and Botox procedure visits move at different speeds. Because LobbyView follows live patient flow, the screen shows how each queue is really moving. A patient waiting for a tech isn't confused by a neurologist running late."
+        },
+        {
+          "title": "Fewer desk interruptions",
+          "body": "Neurology front desk staff also schedule EEGs, coordinate imaging and field medication calls. Fewer \"how much longer\" questions leaves them time for that work. Caregivers get answers from the screen, and the phones get answered."
+        },
+        {
+          "title": "Status, not entertainment",
+          "body": "LobbyView is a status display, not a video loop. When choosing anything else that runs on lobby screens, avoid flashing or strobing content, which can trigger seizures in patients with photosensitive epilepsy."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Why do neurology appointments run behind?",
+        "a": "Mostly because visit lengths vary so much. A new evaluation for seizures, neuropathy or memory loss takes far longer than an established follow-up, and actual times often run past the slot. One long new patient can delay the rest of the session. Separate slot types and real-time tracking help. Our [neurology patient flow guide](/blog/neurology-patient-flow) covers how to build them."
+      },
+      {
+        "q": "Is a waiting room display a good idea for a neurology practice?",
+        "a": "Yes, if it protects privacy and stays current. LobbyView shows queue position without names, so no one learns who is there or why. Updates come from live patient flow rather than manual entry. Practices should keep lobby screens free of flashing or rapidly changing graphics out of consideration for patients with photosensitive epilepsy."
+      },
+      {
+        "q": "How can a neurology clinic help caregivers during long waits?",
+        "a": "Give them information they can see without asking. Caregivers often manage transport, medications and the patient's comfort at the same time. A lobby display showing the patient's place in line lets them decide whether to step out, and digital check-in lets them complete forms on the patient's behalf before arrival instead of at the desk."
+      },
+      {
+        "q": "Does LobbyView work with EEG and testing schedules?",
+        "a": "LobbyView shows what clinIQ patient flow is tracking. When your EEG room or testing area is set up in patient flow, patients waiting for testing appear in the queue, and their status updates when a tech brings them back. That keeps the lobby view accurate for patients who are not waiting for a neurologist."
+      }
+    ],
+    "related": [
+      {
+        "title": "Neurology Practice Software",
+        "href": "/specialties/neurology"
+      },
+      {
+        "title": "LobbyView Waiting Room Display",
+        "href": "/features/lobbyview"
+      },
+      {
+        "title": "Neurology Practice Patient Flow",
+        "href": "/blog/neurology-patient-flow"
+      },
+      {
+        "title": "Fixing Common Waiting Room Complaints",
+        "href": "/blog/waiting-room-complaints"
+      }
+    ]
+  },
+  "analytics/nephrology": {
+    "metaTitle": "Nephrology Practice Analytics and Clinic Reports",
+    "metaDescription": "Nephrology analytics that account for dialysis schedules, rounding days and CKD follow-up volume. See the clinic metrics in a 15-minute demo.",
+    "h1": "Nephrology Analytics Built Around Dialysis Schedules and CKD Clinics",
+    "subtitle": "clinIQ shows how dialysis shifts, unit rounding and CKD follow-up volume shape your clinic days, so you can schedule against real patterns.",
+    "problemHeading": "Clinic Days Compete with Dialysis Days",
+    "problemStatement": "Nephrology clinics serve patients whose week is already booked. In-center hemodialysis patients are tied to a Monday-Wednesday-Friday or Tuesday-Thursday-Saturday shift, and an office visit on a dialysis day often turns into a cancellation. Nephrologists round at dialysis units, so clinic sessions on rounding days start late. Meanwhile CKD follow-ups, new referrals and transplant evaluations all need different visit lengths. Most practices know these pressures exist but cannot see how much each one costs them in access and missed visits.",
+    "solutionHeading": "Clinic Metrics That Reflect How Nephrology Works",
+    "solutionStatement": "clinIQ Analytics breaks no-shows, late starts and wait times out by day of week, session, provider and visit type. Practices can see whether missed visits cluster on certain weekdays, whether rounding mornings push first appointments back and which visit types run over their slots. Live dashboards show who is waiting and which rooms are open. Historical reports give the manager evidence for rebuilding templates around dialysis shifts and rounding schedules instead of relying on memory.",
+    "workflow": {
+      "h2": "How a Nephrology Clinic Session Becomes Data",
+      "intro": "clinIQ captures each step of the visit and rolls it into reports your team can act on.",
+      "steps": [
+        {
+          "title": "Arrival and vitals",
+          "body": "The patient checks in and moves to rooming, where staff take blood pressure and weight. clinIQ logs arrival and rooming times. Reports show waiting room time by session, which matters when patients who rely on medical transport arrive in clusters or well past their appointment time."
+        },
+        {
+          "title": "Provider start after rounding",
+          "body": "On rounding days the first patient often waits for the nephrologist to return from the dialysis unit. Analytics tracks first-patient on-time rate by provider and weekday, so the practice can see whether rounding mornings need a later template start or a lighter first hour."
+        },
+        {
+          "title": "Visit and checkout",
+          "body": "Exam room time is measured by visit type, so new CKD referrals, routine follow-ups and transplant evaluations each get their own average. Schedulers can match slot length to what visits actually take. Our post on [nephrology patient flow and dialysis coordination](/blog/nephrology-patient-flow-dialysis-coordination) covers the scheduling side."
+        },
+        {
+          "title": "Weekly review",
+          "body": "A scheduled report lands in the manager's inbox each Monday with last week's no-shows by weekday, late starts by provider and visit-type overruns. Trends over several months show whether template changes actually reduced missed visits or simply moved them to another day."
+        }
+      ]
+    },
+    "capabilities": {
+      "h2": "Reports Built for Nephrology Practices",
+      "items": [
+        {
+          "title": "No-shows by weekday and session",
+          "body": "See whether missed appointments concentrate on specific days or sessions. If they line up with common dialysis shifts, the practice has evidence to steer dialysis patients toward their off days when booking follow-ups."
+        },
+        {
+          "title": "First-patient on-time rate",
+          "body": "Track how often each nephrologist starts clinic on time, split by rounding and non-rounding days. Late starts carry through the whole session, so this one metric often explains why afternoon waits run long."
+        },
+        {
+          "title": "Visit length by visit type",
+          "body": "Compare scheduled and actual exam time for new referrals, CKD follow-ups and transplant visits. Consistent overruns show which slots need more time and which templates are packed tighter than the work allows."
+        },
+        {
+          "title": "RTM program tracking",
+          "body": "For practices running remote monitoring for blood pressure and weight, analytics reports enrollment and monitoring activity alongside clinic metrics in one place. See our guide to [CKD remote monitoring](/blog/ckd-rtm-chronic-kidney-disease-monitoring) for program setup."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "What metrics should a nephrology practice track?",
+        "a": "Start with no-show rate by weekday, first-patient on-time rate, waiting room time and actual visit length by visit type. Those four show how dialysis schedules, rounding and visit mix affect access. clinIQ reports all of them automatically from check-in and rooming timestamps, then trends them over time so you can measure the effect of schedule changes."
+      },
+      {
+        "q": "How can we reduce missed visits from dialysis patients?",
+        "a": "First confirm the pattern. clinIQ shows no-shows by weekday and session, so you can see whether missed visits line up with dialysis shift days. If they do, schedule those patients on their off days and add reminder outreach for the highest-risk bookings. Then compare the no-show trend before and after the change to confirm it worked."
+      },
+      {
+        "q": "Does clinIQ track time nephrologists spend rounding at dialysis units?",
+        "a": "clinIQ measures clinic operations: arrivals, rooming, provider start times and visit length. It shows the effect of rounding on clinic, such as late first appointments on rounding days, without tracking work done inside the dialysis unit. That effect on clinic is usually the question managers need answered when building or revising templates."
+      },
+      {
+        "q": "Can providers see their own clinic metrics?",
+        "a": "Yes. Each nephrologist can see their queue in real time and review their own visit length, schedule adherence and on-time starts over any period. Data framed this way supports practical conversations about templates and session design, because everyone is looking at the same numbers rather than competing impressions of a hard day."
+      }
+    ],
+    "related": [
+      {
+        "title": "Nephrology Practice Software",
+        "href": "/specialties/nephrology"
+      },
+      {
+        "title": "Clinical Analytics and Reporting",
+        "href": "/features/analytics"
+      },
+      {
+        "title": "Nephrology Patient Flow and Dialysis Coordination",
+        "href": "/blog/nephrology-patient-flow-dialysis-coordination"
+      },
+      {
+        "title": "No-Show Analytics: Finding the Patterns",
+        "href": "/blog/no-show-analytics-patterns"
+      }
+    ]
+  },
+  "analytics/ophthalmology": {
+    "metaTitle": "Ophthalmology Analytics for Clinic Flow",
+    "metaDescription": "See tech workup, dilation, imaging and doctor time for every eye clinic visit. Find where patients wait and fix it. Book a 15-minute demo.",
+    "h1": "Ophthalmology Analytics for Workup, Dilation and Imaging Time",
+    "subtitle": "clinIQ breaks each eye visit into its real segments so you can see whether patients wait on technicians, drops, testing or the doctor.",
+    "problemHeading": "Long Eye Visits With No Clear Cause",
+    "problemStatement": "An ophthalmology visit is several visits in one. The patient checks in, goes through technician workup, gets dilated, waits for the drops to work, moves to OCT or visual fields, then sees the doctor. Retina injection days and post-op cataract checks add their own queues. Patients complain about being in the building for hours, but the practice cannot tell which segment is the problem. Adding a technician, a scribe or an imaging slot is a guess without that breakdown.",
+    "solutionHeading": "Segment-Level Reporting for Every Eye Visit",
+    "solutionStatement": "clinIQ records a timestamp at each status change: checked in, in workup, dilating, in testing, ready for doctor, with doctor, checkout. Analytics reports the time spent in each segment by day, doctor, technician and visit type. The live dashboard shows which patients are dilated and ready, so the doctor's next patient is never a mystery. Over weeks, reports reveal whether imaging, workup capacity or doctor pacing drives total visit time, and changes can be measured against a baseline.",
+    "workflow": {
+      "h2": "How an Eye Clinic Visit Is Measured in clinIQ",
+      "intro": "Each handoff becomes a measured segment, so total visit time can be explained step by step.",
+      "steps": [
+        {
+          "title": "Check-in to workup",
+          "body": "clinIQ logs arrival and the moment a technician takes the patient back. Waiting room time by hour shows when workup capacity falls behind arrivals, which is common in the first hour of a busy clinic and again right after lunch when afternoon patients arrive together."
+        },
+        {
+          "title": "Workup and dilation",
+          "body": "Technician workup time is measured per technician and visit type. Dilation status is visible on the live board with a running timer, and reports show how long dilated patients wait beyond the time drops need to take effect before anyone moves them forward."
+        },
+        {
+          "title": "Diagnostic testing",
+          "body": "OCT, visual fields and photography are tracked as their own segment. Reports show testing queue time by device and hour, so you know when imaging is the bottleneck. Our post on the [ophthalmology diagnostic testing workflow](/blog/ophthalmology-diagnostic-testing-workflow) goes deeper into ordering and sequencing."
+        },
+        {
+          "title": "Doctor exam and checkout",
+          "body": "Time from ready-for-doctor to doctor entry measures doctor pacing. Doctor time per visit type and patients seen per session roll into provider reports. Checkout time closes the visit, completes the total and shows whether the front desk adds a final wait."
+        }
+      ]
+    },
+    "capabilities": {
+      "h2": "Reports Built for Ophthalmology Practices",
+      "items": [
+        {
+          "title": "Visit segment breakdown",
+          "body": "One report shows waiting, workup, dilation, testing and doctor time stacked for each visit type. It answers where the hours go without a manual time study, and it updates every day the clinic runs."
+        },
+        {
+          "title": "Technician productivity",
+          "body": "See workups completed per technician per session and average workup time by visit type. Comparing like with like supports fair staffing decisions and shows where newer technicians need more training."
+        },
+        {
+          "title": "Imaging queue reports",
+          "body": "Track waits for OCT, visual fields and other testing by hour of day. When testing backs up, the data shows whether to add a device slot, move a technician to imaging or change visit ordering."
+        },
+        {
+          "title": "Injection and post-op day reporting",
+          "body": "Filter reports to retina injection clinics or post-op cataract days, which run on different rhythms than comprehensive exams. Each clinic type gets measured on its own terms instead of being averaged together."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Why do eye exams take so long?",
+        "a": "A full ophthalmology visit includes check-in, technician workup, dilation, diagnostic testing and the doctor exam. Waits can build at any of those steps, and drops alone need time to work. clinIQ measures each segment separately, so a practice can see whether patients mostly wait for workup, imaging or the doctor, then fix the step that adds the most time."
+      },
+      {
+        "q": "What KPIs should an ophthalmology practice track?",
+        "a": "Useful operational KPIs include total visit time, waiting room time, workup time per technician, imaging queue time, ready-for-doctor wait and patients per doctor session. No-show rate by visit type also matters for high-volume clinics. clinIQ reports these from status timestamps, so they reflect what happened in the building rather than what was scheduled."
+      },
+      {
+        "q": "Can clinIQ show which patients are dilated and ready?",
+        "a": "Yes. The live dashboard shows each patient's status, including dilating and ready for doctor, along with how long they have been in that status. Doctors and scribes can see the next ready patient from any screen without walking the hallway or asking the technicians. Patients who have waited too long are highlighted so someone can step in."
+      },
+      {
+        "q": "Can we track technician performance fairly?",
+        "a": "Yes. Reports show workups per session and average time by visit type, so a technician handling complex retina workups is compared with similar work, not with quick post-op checks. The goal is staffing and training decisions backed by data. Managers use it to balance assignments and spot where support is needed, not to rank people."
+      }
+    ],
+    "related": [
+      {
+        "title": "Ophthalmology Practice Software",
+        "href": "/specialties/ophthalmology"
+      },
+      {
+        "title": "Clinical Analytics and Reporting",
+        "href": "/features/analytics"
+      },
+      {
+        "title": "High-Volume Ophthalmology Patient Flow",
+        "href": "/blog/ophthalmology-patient-flow-high-volume"
+      },
+      {
+        "title": "Ophthalmology Diagnostic Testing Workflow",
+        "href": "/blog/ophthalmology-diagnostic-testing-workflow"
+      }
+    ]
+  },
+  "check-in/urgent-care": {
+    "metaTitle": "Urgent Care Online Check-In and Kiosk Software",
+    "metaDescription": "Online check-in that holds a walk-in's place in line, kiosk check-in with license and insurance card capture, and copay at arrival. See it for your center.",
+    "h1": "Urgent Care Check-In Built for Walk-In Volume",
+    "subtitle": "Patients start check-in from home or at a kiosk by the door, so registration, chief complaint and insurance are done before they reach the desk. Staff spend the surge on triage, not data entry.",
+    "problemHeading": "The Urgent Care Front Desk at 6 PM",
+    "problemStatement": "Urgent care volume arrives in surges: Monday mornings, the after-work rush, weekends and respiratory season. Every walk-in needs identity, insurance, history and chief complaint captured from scratch. When three people arrive at once, a line forms at the desk while rooms sit empty. Patients standing in that line can't tell how long the wait will be, and some leave before they're seen. Paper registration also slows triage, because the nurse can't see who has chest pain or trouble breathing until the clipboard comes back.",
+    "solutionHeading": "Move Registration Off the Desk and Ahead of Arrival",
+    "solutionStatement": "With clinIQ, patients check in online before they leave home and hold their place in the queue while they travel. Walk-ins use a kiosk near the entrance that scans a driver's license, photographs the insurance card, collects the reason for visit and takes the copay. Each completed check-in appears on the [patient flow board](/features/patient-flow) with the chief complaint, so the triage nurse sees who needs attention first. Front desk staff handle only flagged exceptions, such as insurance that won't verify or a workers' comp visit that needs employer details.",
+    "workflow": {
+      "h2": "How a Walk-In Moves Through clinIQ Check-In",
+      "intro": "Whether the patient starts on a phone at home or at the kiosk in your lobby, the record they create is the same.",
+      "steps": [
+        {
+          "title": "Online check-in from home",
+          "body": "The patient picks your location and starts check-in on their phone. They enter demographics, reason for visit and insurance, then see their place in the queue. They arrive closer to their turn instead of spending the wait in your lobby, which keeps seats open during a surge."
+        },
+        {
+          "title": "Kiosk for walk-ins",
+          "body": "Patients who didn't check in online use the kiosk at the entrance. They scan a driver's license or type their name and date of birth, photograph the front and back of the insurance card, answer the intake questions and pay the copay by card. Then they sit down."
+        },
+        {
+          "title": "Triage sees the chief complaint",
+          "body": "Completed check-ins land on the board with arrival time and reason for visit. The triage nurse can pull a patient with shortness of breath ahead of a sprained ankle, and the queue reflects acuity instead of arrival order alone. Nobody waits on a clipboard to learn who is sick."
+        },
+        {
+          "title": "Front desk works exceptions",
+          "body": "Alerts tell staff exactly what needs a person: an insurance card that won't verify, a self-pay patient asking about price, a minor without a signed guardian consent, or a work injury that needs employer and claim details. Everyone else moves straight to rooming."
+        }
+      ]
+    },
+    "capabilities": {
+      "h2": "Built for Urgent Care Check-In",
+      "items": [
+        {
+          "title": "Place-in-line online check-in",
+          "body": "Patients join the queue from home and track their place on the way in. Arrivals spread out across the hour, and the lobby doesn't fill up the moment a surge starts."
+        },
+        {
+          "title": "License and insurance card capture",
+          "body": "Kiosk and phone check-in scan driver's licenses and photograph insurance cards, cutting the typing errors that turn into denied claims weeks later. Eligibility is checked during check-in, not after the visit."
+        },
+        {
+          "title": "Copay and self-pay at arrival",
+          "body": "Patients see their copay or self-pay amount and pay by card during check-in. Collection no longer depends on catching them at discharge, when they are in a hurry to reach the pharmacy."
+        },
+        {
+          "title": "Occupational medicine intake",
+          "body": "Workers' comp and employer-paid visits can use their own intake forms for employer, claim and injury details, so those visits are billed to the right party the first time. Employer billing questions are settled at the door."
+        },
+        {
+          "title": "Wait status in the lobby",
+          "body": "Pair check-in with [LobbyView](/features/lobbyview) so waiting patients see where they stand on a lobby screen without names, which cuts the \"how much longer\" questions at the desk. Patients who can see the line moving are less likely to walk out."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "How does online check-in work for urgent care?",
+        "a": "The patient starts check-in on their phone before leaving home, entering demographics, insurance and reason for visit. They get a place in the queue and arrive closer to when a room is likely to open. It isn't a fixed appointment, because acuity still decides the order, but it moves registration out of the lobby and spreads out arrivals during busy hours."
+      },
+      {
+        "q": "Should an urgent care use kiosk check-in or phone check-in?",
+        "a": "Most centers need both. Phone check-in from home serves patients who plan ahead and reduces lobby crowding. A kiosk near the entrance handles walk-ins who arrive without checking in, including patients who would rather not use their own phone. Staff stay available for anyone who struggles with either. Our comparison of [kiosk and phone check-in for urgent care](/blog/urgent-care-check-in-kiosk-phone) goes deeper."
+      },
+      {
+        "q": "Does online check-in reduce patients leaving without being seen?",
+        "a": "It addresses the main cause, which is uncertainty. Patients who check in from home spend less time in the lobby, and patients who can see their place in line are less likely to assume they were forgotten. Keeping walkouts down also depends on rooming and provider throughput, which is why check-in feeds directly into patient flow tracking."
+      },
+      {
+        "q": "Can patients pay their copay at an urgent care kiosk?",
+        "a": "Yes. After the patient confirms their information, the kiosk shows the copay or self-pay amount and accepts card payment. Phone and web check-in offer the same option. Collecting at check-in means payment doesn't depend on catching the patient at discharge, when they are often in a hurry to fill a prescription and get home."
+      }
+    ],
+    "related": [
+      {
+        "title": "Urgent Care Software",
+        "href": "/specialties/urgent-care"
+      },
+      {
+        "title": "Digital Patient Check-In",
+        "href": "/features/check-in"
+      },
+      {
+        "title": "Kiosk vs. Phone Check-In for Urgent Care",
+        "href": "/blog/urgent-care-check-in-kiosk-phone"
+      },
+      {
+        "title": "Reducing Left Without Being Seen in Urgent Care",
+        "href": "/blog/reduce-lwbs-urgent-care"
+      }
+    ]
+  },
+  "scheduling/occupational-therapy": {
+    "metaTitle": "Occupational Therapy Scheduling Software",
+    "metaDescription": "OT scheduling that books the plan of care as a recurring series, matches patients to therapists and fills cancellations by text. See it with your caseload.",
+    "h1": "Occupational Therapy Scheduling Around the Plan of Care",
+    "subtitle": "clinIQ books OT visits as a recurring series matched to the plan of care, keeps patients with the right therapist and fills open slots before they cost the day.",
+    "problemHeading": "Why OT Schedules Are So Hard to Keep Full",
+    "problemStatement": "Occupational therapy runs on recurring visits: two or three a week for several weeks under a plan of care. Each patient needs a therapist with the right skills, whether hand therapy and splint fabrication, neuro rehab or pediatric sensory work. Pediatric patients often can only come after school, so late afternoons overflow while mornings sit open. Missed visits slow progress, and payer visit limits and Medicare progress report and recertification timing add rules the front desk has to remember.",
+    "solutionHeading": "Recurring OT Scheduling That Follows the Plan",
+    "solutionStatement": "clinIQ books the plan of care as a series at the frequency the therapist sets, on consistent days and times. Templates separate evaluations, treatment visits and splint fabrication by length and therapist skill. Staff can see visits used against the plan, so re-evaluations and progress reports are booked before they are due. When a patient cancels, the waitlist offers the slot to another patient who wants more visits or a better time.",
+    "workflow": {
+      "h2": "How an OT Episode Moves Through clinIQ Scheduling",
+      "intro": "The evaluation sets the plan, and the schedule carries it through to discharge.",
+      "steps": [
+        {
+          "title": "Evaluation booked",
+          "body": "The scheduler books the evaluation template, which blocks a longer visit with a therapist whose skills match the referral. A hand therapy referral goes to a certified hand therapist if the clinic has one. A pediatric referral goes to a pediatric therapist in an after-school slot."
+        },
+        {
+          "title": "Series set from the plan",
+          "body": "After the evaluation, the plan of care frequency becomes a recurring series, such as twice a week for six weeks. Patients get consistent times, which helps attendance. The series is managed as a group, so a schedule change updates every remaining visit at once."
+        },
+        {
+          "title": "Milestones on the calendar",
+          "body": "Re-evaluations and progress visits are booked at the points your documentation rules require. Staff see visits used against the plan and any payer limit, and can work with our [visit cap tracking guide](/blog/pt-visit-cap-tracking) to keep authorization ahead of the schedule."
+        },
+        {
+          "title": "Gaps filled",
+          "body": "When a patient cancels, the waitlist texts matching patients who asked for more sessions or a different time. A yes reply books the slot, and no reply moves the offer to the next patient. Therapists keep a full day, and patients who want to progress faster can."
+        }
+      ]
+    },
+    "capabilities": {
+      "h2": "Built for Occupational Therapy Scheduling",
+      "items": [
+        {
+          "title": "Therapist skill matching",
+          "body": "Templates specify which therapists can see each visit type, such as hand therapy, splinting, neuro rehab or pediatrics. Schedulers see only qualified therapists with open time, so a patient is not booked with the wrong clinician."
+        },
+        {
+          "title": "Space and equipment rules",
+          "body": "Splint fabrication, sensory gym sessions and ADL kitchen training can reserve the room or equipment they need. Two sessions do not compete for the same space, and setup time is built into the template."
+        },
+        {
+          "title": "After-school demand",
+          "body": "Analytics show where pediatric demand stacks up after school, so leadership can shift therapist hours or add late sessions instead of letting a waitlist grow while morning slots stay open."
+        },
+        {
+          "title": "No-show patterns",
+          "body": "Attendance by patient, day and time shows who is drifting from the plan of care. Overbooking rules can cover short treatment visits in high-risk slots without overloading the therapist when everyone arrives."
+        },
+        {
+          "title": "Multi-location schedules",
+          "body": "Clinics with several sites keep location-specific rooms, therapists and rules. Therapists who travel between clinics see one combined schedule, and analytics can report by site or across the whole organization."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "What is the best way to schedule recurring occupational therapy visits?",
+        "a": "Book the plan of care as a series right after the evaluation, at the set frequency and on consistent days and times. Patients with a fixed routine attend more reliably than those booked one visit at a time. clinIQ creates the series in one step and lets staff move it as a group if the patient's availability changes."
+      },
+      {
+        "q": "How can an OT clinic reduce cancellations and no-shows?",
+        "a": "Use reminders, consistent visit times and an easy way to reschedule instead of skipping. Track attendance by patient so therapists can address drop-off early. clinIQ adds waitlist automation, which fills a canceled slot by text with a patient who wants it. Our article on [reducing no-shows through scheduling](/blog/no-show-reduction-scheduling) covers the tactics in more detail."
+      },
+      {
+        "q": "Can clinIQ help with Medicare progress report and recertification timing?",
+        "a": "Yes, on the scheduling side. Staff can book progress visits and re-evaluations at the points your documentation rules require and see visits used against the plan of care. clinIQ does not write the clinical documentation. It makes sure the visit where that work happens is on the calendar in time."
+      },
+      {
+        "q": "Can pediatric and adult OT share one schedule?",
+        "a": "Yes. Each visit type has its own template with length, therapist skill and space requirements. Pediatric sessions can be weighted toward after-school hours while adult and hand therapy visits fill the morning, all on one schedule. Analytics then show whether the split matches real demand at each hour. Staff can then adjust therapist hours."
+      }
+    ],
+    "related": [
+      {
+        "title": "clinIQ for Occupational Therapy",
+        "href": "/specialties/occupational-therapy"
+      },
+      {
+        "title": "Medical Scheduling Software",
+        "href": "/features/scheduling"
+      },
+      {
+        "title": "Therapy Visit Cap Tracking",
+        "href": "/blog/pt-visit-cap-tracking"
+      },
+      {
+        "title": "No-Show Reduction Through Scheduling",
+        "href": "/blog/no-show-reduction-scheduling"
+      }
+    ]
+  },
+  "analytics/radiology": {
+    "metaTitle": "Radiology Analytics for Scanner Utilization",
+    "metaDescription": "Report scanner utilization, check-in-to-scan time and no-shows by modality for outpatient imaging. See the radiology dashboards in a demo.",
+    "h1": "Radiology Analytics for Scanner Utilization and Check-In-to-Scan Time",
+    "subtitle": "clinIQ measures each outpatient imaging visit from arrival to exam completion, by modality, so you can protect scanner time and shorten patient waits.",
+    "problemHeading": "Expensive Scanners, Invisible Downtime",
+    "problemStatement": "An outpatient imaging center lives on scanner time. MRI, CT, ultrasound and mammography each run on different exam lengths and prep requirements. A patient who arrives without completed MRI safety screening, a missing kidney function result before contrast, or an authorization that is not approved can leave a slot empty. Walk-in X-ray patients stack up at the same hours as scheduled exams. Most centers can report exam volume, but not how long patients waited, how long rooms sat idle or why slots went unused.",
+    "solutionHeading": "Modality-Level Operational Reporting",
+    "solutionStatement": "clinIQ timestamps arrival, screening complete, prep complete, in room and exam complete. Analytics turns those into check-in-to-scan time, room utilization and exam duration by modality, protocol type and hour. No-shows and same-day cancellations are reported by modality and lead time. The live dashboard shows which rooms are open and which patients are waiting on prep. Leadership gets evidence for where to add a technologist shift, extend hours or tighten pre-visit screening.",
+    "workflow": {
+      "h2": "How an Imaging Visit Is Measured in clinIQ",
+      "intro": "Every step from the front desk to the scanner table is timed and reported by modality.",
+      "steps": [
+        {
+          "title": "Arrival and screening",
+          "body": "The patient checks in and completes screening forms, such as the MRI safety questionnaire, on their phone or at the desk. clinIQ logs when screening is done. Reports show how often screening delays the exam and at which hours and modalities it happens most."
+        },
+        {
+          "title": "Prep and changing",
+          "body": "Contrast prep, IV placement and changing are tracked as their own segment. Analytics shows prep time by modality and flags patients waiting past your threshold, so a technologist or nurse can step in before the scanner room goes idle and the schedule slips."
+        },
+        {
+          "title": "In room and exam complete",
+          "body": "Room-in and exam-complete times feed utilization and exam duration reports. Compare actual duration with the scheduled slot for each protocol type to see which exams are booked too short, which are booked too long and where the template is leaving time on the table."
+        },
+        {
+          "title": "Unused slots review",
+          "body": "No-shows, late arrivals and same-day cancellations are reported by modality, weekday and lead time. Slots lost to pending approvals point back to the authorization process, which [clinIQ pre-authorization tracking](/features/pre-auth) handles well before the patient is ever placed on the schedule."
+        }
+      ]
+    },
+    "capabilities": {
+      "h2": "Reports Built for Outpatient Imaging",
+      "items": [
+        {
+          "title": "Room utilization by modality",
+          "body": "See what share of operating hours each MRI, CT, ultrasound or mammography room had a patient on the table. Idle stretches show up by hour and weekday, which points to where extended hours or schedule changes would pay off."
+        },
+        {
+          "title": "Check-in-to-scan time",
+          "body": "Track the full wait from arrival to room entry, split into screening, prep and queue time. This is the number patients feel most, and the report shows exactly which part of it to fix first."
+        },
+        {
+          "title": "Exam duration versus slot",
+          "body": "Compare booked slot length with actual exam time by modality and protocol type. Templates can then match how long exams really take, which protects both throughput and technologist workload across the day."
+        },
+        {
+          "title": "No-show and lead time analysis",
+          "body": "Report no-shows by modality and by days between booking and exam. Long lead times often predict missed exams, so this report helps target reminder outreach and decide how far out each modality should book."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "How do you measure MRI or CT scanner utilization?",
+        "a": "Compare the time a patient is actually in the room against the hours the scanner is staffed and available. clinIQ uses room-in and exam-complete timestamps rather than the schedule, so the report reflects real use. Breaking it out by hour and weekday shows whether idle time comes from late starts, prep delays, no-shows or slots that were never booked."
+      },
+      {
+        "q": "What metrics matter most for an outpatient imaging center?",
+        "a": "Room utilization by modality, check-in-to-scan time, exam duration versus scheduled slot, no-show rate by modality and same-day cancellations are the core operational set. Walk-in wait time matters too if you offer X-ray without appointments. clinIQ reports each one automatically and trends them weekly or monthly so you can measure the effect of changes."
+      },
+      {
+        "q": "Can clinIQ show why imaging slots go unused?",
+        "a": "Yes. Unused slots are reported by cause where staff record it, such as no-show, late arrival, incomplete screening or authorization not ready. Seeing the causes side by side shows whether to focus on reminders, pre-visit screening or authorization follow-up first, and later reports confirm whether the fix reduced lost slots."
+      },
+      {
+        "q": "Does clinIQ replace our RIS reporting?",
+        "a": "No. Your RIS and PACS manage orders, images and reads. clinIQ covers the operational side of the visit: where patients are, how long they wait at each step and how rooms are used across the day. The two systems answer different questions, and imaging leaders typically need both views to manage capacity well."
+      }
+    ],
+    "related": [
+      {
+        "title": "Radiology Practice Software",
+        "href": "/specialties/radiology"
+      },
+      {
+        "title": "Clinical Analytics and Reporting",
+        "href": "/features/analytics"
+      },
+      {
+        "title": "No-Show Analytics: Finding the Patterns",
+        "href": "/blog/no-show-analytics-patterns"
+      },
+      {
+        "title": "Wait Time Analytics: What to Measure",
+        "href": "/blog/wait-time-analytics"
+      }
+    ]
+  },
+  "patient-flow/dentistry": {
+    "metaTitle": "Dental Patient Flow and Operatory Tracking",
+    "metaDescription": "See which operatories are seated, which hygiene patients need the doctor's exam and which rooms are in turnover. Keep a dental office on time. Book a demo.",
+    "h1": "Dental Patient Flow and Operatory Tracking Software",
+    "subtitle": "A live view of every operatory, hygiene chair and patient, so the dentist knows which hygiene exam is next and the front desk knows why the schedule is slipping.",
+    "problemHeading": "Where a Dental Schedule Loses Time",
+    "problemStatement": "A dental office runs the doctor's column and several hygiene columns at once, and they depend on each other. Hygienists wait for the dentist to come in for the periodic exam. The dentist moves between a crown prep, a filling where the anesthetic is still taking effect and two hygiene checks. Assistants turn over operatories while instruments cycle through sterilization. Emergency patients with tooth pain get squeezed in. When no one can see the whole floor, the doctor's next move is decided by whoever catches them in the hallway.",
+    "solutionHeading": "Every Operatory and Every Handoff on One Screen",
+    "solutionStatement": "clinIQ tracks each patient from check-in to checkout and each operatory as available, occupied, in turnover or blocked. Hygienists tap a status when a patient is ready for the doctor's exam, and that request appears in the dentist's queue with the operatory number and how long it has waited. Assistants mark rooms ready after turnover. The front desk sees arrivals, seated patients and who is running behind, and can give a waiting patient an honest answer about timing.",
+    "workflow": {
+      "h2": "How a Dental Visit Moves Through clinIQ",
+      "intro": "A recall hygiene visit and a restorative appointment, running side by side.",
+      "steps": [
+        {
+          "title": "Check-in and seating",
+          "body": "The patient checks in on their phone or at the desk and joins the queue for their hygienist or the doctor's column. When an assistant or hygienist seats them, the operatory flips to occupied with the provider attached, so the front desk can see the patient is in the chair."
+        },
+        {
+          "title": "Doctor's exam requested",
+          "body": "Near the end of the cleaning, the hygienist taps that the patient is ready for the exam. The dentist's queue shows the request, the operatory and the time waiting. Hygienists stop stepping into the hall or sending an assistant to find the doctor."
+        },
+        {
+          "title": "Doctor moves between operatories",
+          "body": "While anesthetic takes effect in one chair, the dentist checks the queue and goes to the hygiene exam that has waited longest. The board shows every patient's status, so the doctor's time goes where it is needed next instead of to whoever asked first."
+        },
+        {
+          "title": "Checkout and turnover",
+          "body": "When the patient heads to checkout and scheduling, the operatory moves to turnover. The assistant wipes down, sets up for the next procedure and marks the room ready. The turnover timer shows when a room is stuck, often because instruments are still in sterilization."
+        }
+      ]
+    },
+    "capabilities": {
+      "h2": "Built for Dental Practice Flow",
+      "items": [
+        {
+          "title": "Operatory status board",
+          "body": "Each operatory, including hygiene rooms and any dedicated imaging space, shows whether it is available, occupied, in turnover or blocked for an equipment problem. Staff stop walking the floor to find an open chair."
+        },
+        {
+          "title": "Hygiene exam queue",
+          "body": "The dentist sees every pending hygiene exam in one list, sorted by wait time. Hygienists aren't left holding a finished patient while the next one sits in reception and the schedule slides."
+        },
+        {
+          "title": "Every column in one view",
+          "body": "One view covers the doctor's column and every hygiene column, so the office manager sees where the day is slipping across all providers. See how this works in [multi-provider practices](/blog/patient-flow-multi-provider-practices)."
+        },
+        {
+          "title": "Emergency patient fit-ins",
+          "body": "When a patient with tooth pain walks in, the front desk can see which operatory opens next and which provider has a gap, instead of guessing and interrupting the doctor mid-procedure."
+        },
+        {
+          "title": "Wait time by segment",
+          "body": "Wait time is split into reception wait and chair wait before the provider arrives. That shows whether delays come from seating, turnover or the doctor's pace, by provider and by day."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "How do dentists keep hygiene exams from backing up?",
+        "a": "Give the dentist a single queue of pending exams. In clinIQ, the hygienist taps when the patient is ready, and the request shows in the dentist's queue with the operatory number and wait time. The dentist picks up the longest wait between procedures instead of relying on hallway signals, and the office can see how long hygienists typically wait."
+      },
+      {
+        "q": "What is operatory tracking software?",
+        "a": "It is a live view of every treatment room in a dental office, showing which operatories are seated, which are being turned over and which are free. clinIQ adds patient status to that view, so staff see who is waiting in reception, who is in the chair and who is ready for the doctor, without walking the floor."
+      },
+      {
+        "q": "Does patient flow software replace our dental practice management system?",
+        "a": "No. clinIQ sits on top of the system you already use for charting, scheduling and billing. It adds the real-time layer those systems usually lack: where each patient is right now, which rooms are ready and who is waiting on whom. Appointment data comes from your existing system, so staff don't enter it twice."
+      },
+      {
+        "q": "How do you reduce patient wait times in a dental office?",
+        "a": "Start by measuring where the wait happens. Time in reception points to seating or turnover delays. Time in the chair before the doctor arrives points to exam handoffs or an overbooked doctor column. clinIQ tracks both segments by provider and day, so changes to the template, such as more buffer for exams, are based on real data."
+      }
+    ],
+    "related": [
+      {
+        "title": "Dental Practice Software",
+        "href": "/specialties/dentistry"
+      },
+      {
+        "title": "Patient Flow Management",
+        "href": "/features/patient-flow"
+      },
+      {
+        "title": "Room Status Visibility",
+        "href": "/blog/room-status-visibility"
+      },
+      {
+        "title": "Patient Flow in Multi-Provider Practices",
+        "href": "/blog/patient-flow-multi-provider-practices"
+      }
+    ]
+  },
+  "analytics/gastroenterology": {
+    "metaTitle": "GI Analytics for Endoscopy Room Utilization",
+    "metaDescription": "Track endoscopy room turnover, first-case starts and prep-related cancellations alongside GI clinic flow. See the reports in a 15-minute demo.",
+    "h1": "Gastroenterology Analytics for Endoscopy Turnover and Clinic Flow",
+    "subtitle": "clinIQ measures procedure rooms, pre-op and recovery bays along with office visits, so GI practices can see where procedure days and clinic days lose time.",
+    "problemHeading": "Procedure Days Run on Tight Margins",
+    "problemStatement": "A GI endoscopy day depends on a chain: the patient arrives on time with a driver, pre-op is complete, the room is turned over, anesthesia is ready and recovery bays have space. When the first case starts late, every colonoscopy after it slides. Same-day cancellations for inadequate bowel prep or no ride leave holes that are hard to fill. Clinic days have their own pressures, with new consults and follow-ups competing for slots. Most practices sense these losses but do not measure them.",
+    "solutionHeading": "Measured Turnover, Starts and Cancellations",
+    "solutionStatement": "clinIQ timestamps arrival, pre-op complete, in room, procedure end, room ready and recovery discharge. Analytics reports first-case on-time starts, room turnover time, pre-op wait and recovery bay time by room, day and physician. Same-day cancellations are tracked by reason, so prep failures and missing drivers show up as patterns. The same module reports clinic wait times and visit length, giving GI leadership one view across the office and the endoscopy suite.",
+    "workflow": {
+      "h2": "How an Endoscopy Day Is Measured in clinIQ",
+      "intro": "Each status change in the procedure unit becomes part of a report.",
+      "steps": [
+        {
+          "title": "Arrival and pre-op",
+          "body": "The patient checks in and moves to a pre-op bay for history, consent and IV placement. clinIQ logs arrival and pre-op complete. Reports show pre-op wait by hour and flag the mornings where arrivals outpace nursing capacity and push the first case back."
+        },
+        {
+          "title": "First case and room time",
+          "body": "First-case start is compared with the scheduled time for each room and physician. In-room and procedure-end times feed room utilization reports. See our guide to [colonoscopy and EGD scheduling](/blog/gi-procedure-scheduling-colonoscopy-egd) for how to design room templates and case order around those numbers."
+        },
+        {
+          "title": "Turnover",
+          "body": "The gap between one patient leaving and the next entering is room turnover. clinIQ reports it by room, day and time of day, and live alerts flag rooms in turnover past your threshold so staff can respond while the delay is still small."
+        },
+        {
+          "title": "Recovery and discharge",
+          "body": "Recovery bay time is tracked through discharge to the driver. When bays fill, patients stay in procedure rooms and the next case waits. Reports show whether recovery capacity, not the procedure room, is the real limit on how many cases the unit can run."
+        }
+      ]
+    },
+    "capabilities": {
+      "h2": "Reports Built for GI Practices",
+      "items": [
+        {
+          "title": "First-case on-time rate",
+          "body": "Track how often the first procedure in each room starts on time, by physician and weekday. Late first cases are often the main reason the whole endoscopy day runs over, so this is usually the first metric to fix."
+        },
+        {
+          "title": "Room turnover time",
+          "body": "See average and outlier turnover by room and hour. Trend it weekly to confirm whether a new cleaning, scope handling or room setup routine actually shortened the gap between cases."
+        },
+        {
+          "title": "Same-day cancellation reasons",
+          "body": "Report cancellations by reason, such as inadequate prep, no driver or no-show, and by lead time. Patterns point to the right fix, whether clearer prep instructions, a confirmation call or a different booking window."
+        },
+        {
+          "title": "Clinic visit metrics",
+          "body": "Report waiting room time, visit length by type and no-shows for office days. Consult access and procedure capacity can then be planned together, since today's new consult is next month's colonoscopy."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "How do you measure endoscopy room turnover?",
+        "a": "Measure from the time one patient leaves the procedure room to the time the next patient enters. clinIQ records both events automatically and reports turnover by room, physician and time of day. Outliers are easy to spot, and trending the average over weeks shows whether process changes such as parallel setup or added techs actually worked."
+      },
+      {
+        "q": "What KPIs should a GI practice track?",
+        "a": "For procedure days: first-case on-time rate, room utilization, turnover time, pre-op wait, recovery time and same-day cancellations by reason. For clinic days: waiting room time, visit length by type and no-show rate. clinIQ reports all of these from status timestamps and lets you view the office and endoscopy unit separately or together."
+      },
+      {
+        "q": "Can clinIQ track colonoscopy cancellations from poor bowel prep?",
+        "a": "Yes, when staff record the cancellation reason. Analytics then reports prep-related cancellations by weekday, physician and lead time, and by prep instruction set if you track which one each patient received. That shows whether prep education, appointment timing, day-before calls or reminder outreach needs the most attention from your team."
+      },
+      {
+        "q": "Does clinIQ work for an endoscopy center and an office together?",
+        "a": "Yes. Reports can be filtered by location, so a GI group can see endoscopy unit metrics and office metrics separately or combined. Multi-site groups can compare units side by side to find which ones turn rooms fastest or start on time most often, and use that as the model for other sites."
+      }
+    ],
+    "related": [
+      {
+        "title": "Gastroenterology Practice Software",
+        "href": "/specialties/gastroenterology"
+      },
+      {
+        "title": "Clinical Analytics and Reporting",
+        "href": "/features/analytics"
+      },
+      {
+        "title": "GI Procedure Scheduling for Colonoscopy and EGD",
+        "href": "/blog/gi-procedure-scheduling-colonoscopy-egd"
+      },
+      {
+        "title": "GI Patient Flow Optimization",
+        "href": "/blog/gi-patient-flow-optimization"
+      }
+    ]
+  },
+  "analytics/orthodontics": {
+    "metaTitle": "Orthodontic Practice Analytics and Chair Reports",
+    "metaDescription": "Track chair utilization, doctor-check wait times and missed adjustment visits in your orthodontic practice. See the reports in a short demo.",
+    "h1": "Orthodontic Analytics for Chair Time, Doctor Checks and Missed Visits",
+    "subtitle": "clinIQ shows how your open bay actually runs, from the after-school rush to emergency visits, so you can schedule chairs and assistants with confidence.",
+    "problemHeading": "The After-School Rush Hides Lost Chair Time",
+    "problemStatement": "Orthodontic schedules are lopsided. Families want the late-afternoon slots, so chairs fill after school and sit lighter in the morning. Assistants finish adjustments and wait for the doctor check while the next patient waits in the reception area. Broken brackets and poking wires get squeezed in as emergency visits. Missed adjustment appointments can extend treatment and push debond dates. Most practices can count patients seen, but not how long chairs sit idle or how long assistants wait on the doctor.",
+    "solutionHeading": "Chair and Doctor-Check Metrics for the Open Bay",
+    "solutionStatement": "clinIQ records when each patient is seated, when the assistant is ready for the doctor, when the doctor check happens and when the chair is released. Analytics reports chair utilization by hour, doctor-check wait time, appointment length by type and missed visits by day and time. The live view shows which chairs are waiting for the doctor right now. Reports help you rebalance templates, assistant coverage and emergency slots based on what really happens in the bay.",
+    "workflow": {
+      "h2": "How an Adjustment Visit Is Measured in clinIQ",
+      "intro": "A routine visit becomes a set of timed steps that roll into chair and doctor reports.",
+      "steps": [
+        {
+          "title": "Check-in",
+          "body": "The patient or parent checks in on their phone or at the desk, and clinIQ starts the clock. Reception wait time is reported by hour, which shows how much the late-afternoon peak stretches waits compared with morning slots and where families are waiting longest."
+        },
+        {
+          "title": "Seated with assistant",
+          "body": "When an assistant seats the patient, clinIQ logs the chair and the time. Assistant time per appointment type, such as wire change, aligner check, bonding or debond, is reported over time so templates match the real work each visit takes."
+        },
+        {
+          "title": "Doctor check",
+          "body": "The assistant flags the patient as ready for the doctor. clinIQ measures the wait until the doctor arrives at the chair. This doctor-check queue is often the hidden reason the bay backs up, and the live board shows it as it builds."
+        },
+        {
+          "title": "Release and next visit",
+          "body": "Chair release time completes the visit and feeds utilization reports. Missed and rescheduled adjustment visits are reported by day, time and lead time, helping the treatment coordinator spot patients whose treatment may be slipping before planned debond dates have to move."
+        }
+      ]
+    },
+    "capabilities": {
+      "h2": "Reports Built for Orthodontic Practices",
+      "items": [
+        {
+          "title": "Chair utilization by hour",
+          "body": "See how full each chair is across the day. Morning gaps and after-school overload become clear, which supports decisions like offering morning slots for adults and aligner patients or shifting assistant hours later."
+        },
+        {
+          "title": "Doctor-check wait time",
+          "body": "Track the time between ready-for-doctor and the doctor check, by hour and day. It is a direct measure of whether the doctor's chair rotation keeps up with the number of assistants running chairs at once."
+        },
+        {
+          "title": "Missed visit tracking",
+          "body": "Report missed and late-canceled adjustment visits by weekday, time slot and lead time, with a patient-level list your coordinator can use for follow-up calls. Read about common patterns in our post on [no-show analytics](/blog/no-show-analytics-patterns)."
+        },
+        {
+          "title": "Emergency visit load",
+          "body": "See how many emergency visits for broken brackets or loose wires land each day and when. If they cluster at certain times, a dedicated emergency block may protect the regular schedule from constant squeeze-ins."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "What KPIs should an orthodontic practice track?",
+        "a": "For daily operations: chair utilization by hour, reception wait time, doctor-check wait, appointment length by type, missed visit rate and emergency visit volume. clinIQ reports each one from check-in and chair timestamps, then trends them so you can see whether template or staffing changes help. Multi-office groups can compare these numbers by location."
+      },
+      {
+        "q": "How do you reduce doctor-check wait times in an open bay?",
+        "a": "Measure it first. clinIQ shows how long assistants wait for the doctor by hour, so you can see whether waits spike at peak times. Common fixes include adjusting how many chairs run per doctor at peak, staggering appointment starts by a few minutes and adding a second doctor block on the heaviest afternoons."
+      },
+      {
+        "q": "Can clinIQ show which patients keep missing adjustments?",
+        "a": "Yes. Patient-level reports list repeated missed or rescheduled visits along with the time since the last completed adjustment. Because the list updates automatically, the treatment coordinator can work through it each week and reach out to families before treatment time stretches further and planned debond dates have to move later."
+      },
+      {
+        "q": "Does analytics help with the after-school rush?",
+        "a": "Yes. Reports show arrivals, waits and chair use by hour, so you can see exactly how the late-afternoon peak compares with the rest of the day. Practices use that data to move suitable visit types to mornings, set assistant schedules and decide how many chairs and assistants to run at peak."
+      }
+    ],
+    "related": [
+      {
+        "title": "Orthodontic Practice Software",
+        "href": "/specialties/orthodontics"
+      },
+      {
+        "title": "Clinical Analytics and Reporting",
+        "href": "/features/analytics"
+      },
+      {
+        "title": "Provider Productivity Metrics That Matter",
+        "href": "/blog/provider-productivity-metrics"
+      },
+      {
+        "title": "No-Show Analytics: Finding the Patterns",
+        "href": "/blog/no-show-analytics-patterns"
+      }
+    ]
+  },
+  "scheduling/vestibular-therapy": {
+    "metaTitle": "Vestibular Therapy Scheduling Software",
+    "metaDescription": "Vestibular rehab scheduling that sizes evaluations, books VNG testing with prep reminders and keeps BPPV patients seen quickly. See it with your clinic.",
+    "h1": "Vestibular Therapy Scheduling for Dizziness and Balance Care",
+    "subtitle": "clinIQ books vestibular evaluations, repositioning visits, VNG testing and rehab series on templates that fit how dizzy patients are actually seen.",
+    "problemHeading": "Why Vestibular Schedules Need Different Rules",
+    "problemStatement": "Vestibular patients do not fit a standard therapy grid. A full evaluation with positional testing takes longer than a routine visit. A patient with BPPV may need only a repositioning maneuver and a recheck, and a fast appointment matters because symptoms are disabling. VNG testing needs the equipment, a trained clinician and patients who have held vestibular suppressants as instructed. Many patients cannot drive while dizzy, so they depend on a ride and cancel when it falls through.",
+    "solutionHeading": "Scheduling Built for Vestibular Care",
+    "solutionStatement": "clinIQ gives each vestibular visit type its own length, clinician and equipment rules. Evaluations get a long block, repositioning rechecks a short one, and VNG testing reserves the testing room and system. Same-day capacity is held for acute dizziness referrals. Reminders reach patients early enough to follow testing prep and arrange a ride. When a visit cancels, the waitlist fills it with another patient who wants to be seen sooner.",
+    "workflow": {
+      "h2": "How a Dizziness Referral Moves Through clinIQ",
+      "intro": "Referrals from ENT, neurology, audiology or primary care become the right visit with the right clinician.",
+      "steps": [
+        {
+          "title": "Referral sorted",
+          "body": "The scheduler chooses the template that fits the referral. Suspected BPPV goes to a prompt evaluation with a vestibular-trained therapist. A complex case with suspected central or bilateral loss gets a longer evaluation, and the provider may add testing. Neither is booked into a generic therapy slot."
+        },
+        {
+          "title": "Testing booked",
+          "body": "VNG and related testing book on a template that reserves the testing room, the equipment and the clinician. Reminders go out ahead of the test with the practice's prep instructions, including any medication holds, so the test is not wasted on a patient who could not follow prep."
+        },
+        {
+          "title": "Treatment plan scheduled",
+          "body": "BPPV patients get a short recheck after repositioning to confirm the symptoms have resolved. Patients in vestibular rehab get a recurring series, often weekly, with home exercises between visits. The series is managed as a group, so a change in the plan takes one step."
+        },
+        {
+          "title": "Cancellations refilled",
+          "body": "When a patient cancels because they have no ride, the [waitlist](/features/scheduling) texts another patient who wants an earlier visit. A yes reply books it without a phone call. The therapist's time is used, and the next dizzy patient is seen sooner."
+        }
+      ]
+    },
+    "capabilities": {
+      "h2": "Built for Vestibular Therapy Scheduling",
+      "items": [
+        {
+          "title": "Clinician qualification rules",
+          "body": "Vestibular visits are limited to therapists trained in vestibular assessment and canalith repositioning. A patient is never booked with someone who cannot treat them, even when that therapist has open time."
+        },
+        {
+          "title": "Equipment reservation",
+          "body": "VNG, rotary chair or balance testing templates reserve the system, the room and the clinician who runs it. Setup and cleanup are built in, so testing does not run into the next patient's visit."
+        },
+        {
+          "title": "Held acute capacity",
+          "body": "A small amount of capacity is held each day for new acute dizziness and released on rules if it goes unused. Urgent referrals from the emergency department or primary care do not wait weeks."
+        },
+        {
+          "title": "Visit length analytics",
+          "body": "Scheduled and actual times are compared by visit type. If evaluations routinely run over, leadership sees it and resizes the template. Our guide to [appointment templates by visit duration](/blog/appointment-templates-duration) explains the method."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "How quickly should a BPPV patient be seen?",
+        "a": "As soon as practical. BPPV is usually treatable with repositioning maneuvers, and symptoms can stop patients from working or driving. Holding a small amount of capacity for acute dizziness referrals lets a clinic see them within days rather than adding them to a long queue. clinIQ holds that capacity on rules and releases it if it goes unused."
+      },
+      {
+        "q": "How long is a vestibular therapy evaluation?",
+        "a": "A full vestibular evaluation with history, oculomotor and positional testing and balance assessment usually takes longer than a routine therapy visit. The exact length depends on your clinicians and patient mix. clinIQ lets you set a template for it and compares scheduled time with actual time so you can adjust."
+      },
+      {
+        "q": "How do clinics help patients prepare for VNG testing?",
+        "a": "Patients often need to avoid certain medications, such as vestibular suppressants, and follow other prep before the test, as directed by the ordering clinician. Sending those instructions early enough matters. clinIQ sends reminders with your practice's prep instructions ahead of the test date and lets patients reschedule if they cannot comply."
+      },
+      {
+        "q": "Can clinIQ coordinate vestibular care with ENT or audiology?",
+        "a": "Yes. Multi-department clinics can keep vestibular therapy, ENT and audiology on separate schedules with their own rules while staff book related visits for the same patient in one place. That makes it easier to place testing and therapy on the same day, which matters when the patient needs a ride to every visit."
+      }
+    ],
+    "related": [
+      {
+        "title": "clinIQ for Vestibular Therapy",
+        "href": "/specialties/vestibular-therapy"
+      },
+      {
+        "title": "Medical Scheduling Software",
+        "href": "/features/scheduling"
+      },
+      {
+        "title": "Appointment Templates by Visit Duration",
+        "href": "/blog/appointment-templates-duration"
+      },
+      {
+        "title": "ENT and Audiology Scheduling Integration",
+        "href": "/blog/ent-audiology-integration-scheduling"
+      }
+    ]
+  },
+  "analytics/chiropractic": {
+    "metaTitle": "Chiropractic Practice Analytics and KPIs",
+    "metaDescription": "Track visits per hour, table turnover, care plan completion and visit caps in your chiropractic clinic. See the dashboards in a 15-minute demo.",
+    "h1": "Chiropractic Analytics for Visits per Hour and Care Plan Completion",
+    "subtitle": "clinIQ shows how a high-volume chiropractic day really runs and which patients are falling off their care plans, so you can act before visits are lost.",
+    "problemHeading": "High Volume, Little Visibility",
+    "problemStatement": "Chiropractic clinics run short visits at high volume, with peaks before work, at lunch and after work. A few minutes lost per table turn adds up fast across a busy day. New patient exams take much longer than adjustments and can stall the schedule if they land at peak. Patients drop off care plans quietly, and payer visit limits can run out before anyone notices. Most clinics track total visits, but not table turnover, peak-hour waits or plan completion.",
+    "solutionHeading": "Volume, Flow and Care Plan Metrics in One Place",
+    "solutionStatement": "clinIQ records check-in, room or table assignment, doctor in and checkout for every visit. Analytics reports visits per hour per chiropractor, table turnover, wait times by hour and visit length by type. Care plan reports show visits completed against visits prescribed, and visit cap tracking warns staff as patients near payer limits. Live dashboards show who is waiting and which tables are open, so the front desk can move patients during the rush.",
+    "workflow": {
+      "h2": "How a Chiropractic Visit Is Measured in clinIQ",
+      "intro": "Short visits still have steps, and each one feeds a report.",
+      "steps": [
+        {
+          "title": "Check-in",
+          "body": "The patient checks in by phone or at the desk, and clinIQ starts the visit clock. Waiting room time by hour shows how the early-morning, lunch and after-work peaks stretch waits, and which days of the week the rush is heaviest."
+        },
+        {
+          "title": "Table or room assignment",
+          "body": "When the patient is placed on a table or in a room, clinIQ logs it. Table turnover time, the gap between one patient leaving and the next arriving, is reported by room and hour, which shows where small delays add up across the day."
+        },
+        {
+          "title": "Adjustment and therapy",
+          "body": "Doctor-in and doctor-out times show adjustment length, and time in therapy or rehab areas is tracked too. You can see whether the bottleneck is the doctor or the therapy space. Our post on [high-volume chiropractic patient flow](/blog/high-volume-chiropractic-patient-flow) covers floor layout."
+        },
+        {
+          "title": "Checkout and plan tracking",
+          "body": "At checkout the visit counts toward the patient's care plan and any payer visit limit. Reports list patients who are behind their plan schedule and those nearing their cap, so staff can rebook the patient or request more visits from the payer in time."
+        }
+      ]
+    },
+    "capabilities": {
+      "h2": "Reports Built for Chiropractic Clinics",
+      "items": [
+        {
+          "title": "Visits per hour per chiropractor",
+          "body": "See throughput by doctor and hour of day. It shows how close each doctor runs to capacity at peak, where there is room to add visits and when an associate's schedule could absorb overflow."
+        },
+        {
+          "title": "Table turnover and utilization",
+          "body": "Track how often each table is occupied and how long it sits empty between patients. Small gains in turnover add real capacity during peak hours without adding space, tables or staff."
+        },
+        {
+          "title": "Care plan completion",
+          "body": "Compare visits completed with visits prescribed for each plan. Patients falling behind show up on a follow-up list, so staff can call before the gap turns into a dropped plan."
+        },
+        {
+          "title": "Visit cap tracking",
+          "body": "Track visits used against the limits you set for each payer or plan, and flag patients nearing the cap. Read our guide on [chiropractic visit cap tracking](/blog/chiropractic-visit-cap-tracking) for setup details."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "What KPIs should a chiropractic clinic track?",
+        "a": "Core operational KPIs are visits per hour per chiropractor, wait time by hour, table utilization, care plan completion rate, no-show rate and visits used against payer limits. New patient exam volume matters too. clinIQ reports these automatically from check-in and room timestamps and keeps trends over time, so you can see the effect of every schedule or staffing change."
+      },
+      {
+        "q": "How do I know when patients are dropping off care plans?",
+        "a": "clinIQ compares each patient's completed visits with the visits prescribed in their plan and the expected pace. Patients who fall behind appear on a follow-up list, so staff can reach out before the plan lapses rather than finding out months later when the patient finally returns with the same problem."
+      },
+      {
+        "q": "Can clinIQ warn us before a patient hits a visit limit?",
+        "a": "Yes. Visit cap tracking counts visits against the limit you set for each payer or plan and flags patients as they approach it. That gives staff time to request additional visits, update documentation or discuss self-pay options with the patient before a visit is denied after the fact and becomes a collections problem."
+      },
+      {
+        "q": "Does analytics help with peak-hour waits?",
+        "a": "Yes. Reports show arrivals and waits by hour, and the live board shows open tables in real time. Clinics use that data to adjust staffing for the before-work and after-work rush, move new patient exams to quieter hours and keep the busiest sessions moving without long lobby waits that frustrate regular patients."
+      }
+    ],
+    "related": [
+      {
+        "title": "Chiropractic Practice Software",
+        "href": "/specialties/chiropractic"
+      },
+      {
+        "title": "Clinical Analytics and Reporting",
+        "href": "/features/analytics"
+      },
+      {
+        "title": "Chiropractic Visit Cap Tracking",
+        "href": "/blog/chiropractic-visit-cap-tracking"
+      },
+      {
+        "title": "High-Volume Chiropractic Patient Flow",
+        "href": "/blog/high-volume-chiropractic-patient-flow"
+      }
+    ]
+  },
+  "scheduling/ophthalmology": {
+    "metaTitle": "Ophthalmology Scheduling Software",
+    "metaDescription": "Ophthalmology scheduling that accounts for workup, dilation and imaging, keeps anti-VEGF injections on interval and books cataract post-ops. See it live.",
+    "h1": "Ophthalmology Scheduling for Multi-Step Eye Visits",
+    "subtitle": "clinIQ books eye visits with the technician workup, dilation, imaging and physician time each one needs, and keeps injection and surgical follow-up intervals on track.",
+    "problemHeading": "Why Eye Clinic Schedules Run Behind",
+    "problemStatement": "An ophthalmology visit is several visits in one. A technician takes history, vision and pressure. Many patients are dilated and wait for the drops to work. OCT, visual fields or photos happen at separate stations before the physician sees them. Retina clinics add anti-VEGF injections on intervals of several weeks. Cataract surgery brings pre-op measurements and a set post-op schedule. When every visit gets the same physician slot, the tech and imaging steps back up and the physician waits on them.",
+    "solutionHeading": "Templates That Include Every Station",
+    "solutionStatement": "clinIQ builds ophthalmology templates around the whole visit, not just physician time. A dilated exam template accounts for workup and dilation. A glaucoma follow-up with visual fields reserves the field machine. An injection visit is short and books on the patient's interval. Cataract templates book biometry before surgery and the standard post-op visits after it. The schedule spreads imaging-heavy visits across the session so OCT and fields do not become the bottleneck.",
+    "workflow": {
+      "h2": "How an Ophthalmology Visit Moves Through clinIQ Scheduling",
+      "intro": "Each appointment carries the stations it needs, so the physician's time and the technicians' time both stay realistic.",
+      "steps": [
+        {
+          "title": "Visit type chosen",
+          "body": "The scheduler books the template that matches the visit: comprehensive dilated exam, glaucoma follow-up with fields, retina injection, cataract evaluation or post-op. Each one carries its workup time, dilation needs and imaging stations, so staff do not have to remember them."
+        },
+        {
+          "title": "Testing balanced",
+          "body": "clinIQ checks OCT, visual field and imaging capacity when booking. If too many testing-heavy visits land in one hour, staff see it and spread them across the session. This keeps the imaging room from holding up the physician's next patients and keeps technicians from falling behind."
+        },
+        {
+          "title": "Injection intervals kept",
+          "body": "Retina patients on anti-VEGF therapy are booked at the interval the physician sets, whether fixed or treat-and-extend. When the interval changes, staff update the series in one step. Each injection's payer approval can be tracked in the [pre-authorization module](/features/pre-auth) alongside the visit."
+        },
+        {
+          "title": "Surgical follow-up booked",
+          "body": "For cataract patients, pre-op biometry is booked before the surgery date, and post-op visits follow the practice's schedule, such as day one, week one and about a month out. Second-eye surgery can be scheduled once the first eye is cleared, so the episode stays on one timeline."
+        }
+      ]
+    },
+    "capabilities": {
+      "h2": "Built for Ophthalmology Scheduling",
+      "items": [
+        {
+          "title": "Station-aware templates",
+          "body": "Templates include technician workup, dilation, imaging and physician time. The schedule reflects the full visit rather than only the exam, so both technicians and physicians get a realistic day. Templates can be resized later."
+        },
+        {
+          "title": "Equipment limits",
+          "body": "OCT, visual field and photography stations are capacity-limited in booking. Testing does not pile up in the same hour, and the physician is not left waiting for results that are still in the queue."
+        },
+        {
+          "title": "Subspecialty schedules",
+          "body": "Retina, glaucoma, cornea and comprehensive providers keep their own templates and rules on one system. Practices with several locations keep site-specific rooms and equipment, while traveling physicians see one schedule."
+        },
+        {
+          "title": "Recall and interval tracking",
+          "body": "Glaucoma, diabetic eye and injection patients are booked on recall intervals. Staff can see patients who have fallen past their due date and reach out before a missed interval turns into a gap in care."
+        },
+        {
+          "title": "Overbooking by visit type",
+          "body": "Short pressure checks and post-op visits can be overbooked in high no-show slots, while long dilated exams cannot. Delays stay bounded, and the clinic still recovers time that no-shows would waste."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "How should an ophthalmology practice schedule dilated exams?",
+        "a": "Account for the whole visit, not just physician time. Dilated patients need technician workup and time for the drops to take effect, then imaging before the physician sees them. clinIQ uses templates that include each station and spreads testing-heavy visits across the session. Our guide to [ophthalmology diagnostic testing workflow](/blog/ophthalmology-diagnostic-testing-workflow) covers how testing fits in."
+      },
+      {
+        "q": "How do retina clinics keep anti-VEGF injections on schedule?",
+        "a": "Book each patient at the interval the physician sets and update it whenever it changes, whether the plan is fixed dosing or treat-and-extend. clinIQ manages injection visits as a series, flags patients who fall past their due date and lets staff see payer approval status alongside the appointment, so injections are not delayed by missed authorizations."
+      },
+      {
+        "q": "Can clinIQ schedule cataract pre-op and post-op visits?",
+        "a": "Yes. Cataract templates book the evaluation and biometry before surgery and the post-op visits after it, on the practice's standard timeline. Second-eye surgery can be booked once the first eye is cleared. Staff see the whole surgical episode for each patient in one place and can spot a missed post-op visit quickly."
+      },
+      {
+        "q": "Does clinIQ work with our EHR?",
+        "a": "clinIQ can work alongside your EHR scheduling or replace it, depending on your system and preferences. Many eye practices use clinIQ for templates, waitlists, recalls and scheduling rules while appointments sync to the EHR for clinical documentation. Integration keeps both systems consistent without double entry. Setup is scoped during implementation for your EHR."
+      }
+    ],
+    "related": [
+      {
+        "title": "clinIQ for Ophthalmology",
+        "href": "/specialties/ophthalmology"
+      },
+      {
+        "title": "Medical Scheduling Software",
+        "href": "/features/scheduling"
+      },
+      {
+        "title": "Ophthalmology Diagnostic Testing Workflow",
+        "href": "/blog/ophthalmology-diagnostic-testing-workflow"
+      },
+      {
+        "title": "High-Volume Ophthalmology Patient Flow",
+        "href": "/blog/ophthalmology-patient-flow-high-volume"
+      }
+    ]
+  },
+  "analytics/mental-health": {
+    "metaTitle": "Mental Health Practice Analytics and Reports",
+    "metaDescription": "Track no-shows, late cancels, clinician utilization and telehealth versus in-office sessions in your mental health practice. See a demo.",
+    "h1": "Mental Health Practice Analytics for No-Shows and Clinician Capacity",
+    "subtitle": "clinIQ shows where sessions are lost and how full each clinician's schedule really is, across in-office and telehealth care.",
+    "problemHeading": "Empty Hours Are Hard to See",
+    "problemStatement": "In a mental health practice, a missed session is a lost hour that cannot be backfilled on short notice. No-shows and late cancellations vary by clinician, day, time and whether the session is in office or by video. New clients may come to intake and never return for a second session. Clinicians carry different caseloads and session lengths, and waitlists grow while some calendars have gaps. Without clear reports, directors cannot tell where capacity is lost or which clients need extra outreach.",
+    "solutionHeading": "Session-Level Analytics for Behavioral Health",
+    "solutionStatement": "clinIQ reports attended, no-show and late-canceled sessions by clinician, day, time slot, modality and lead time. Utilization reports compare booked session hours with each clinician's available hours. Intake reports show how many new clients return for follow-up sessions. Session start and end times show whether sessions start on time, which matters for back-to-back schedules. Directors get a clear picture of capacity and attendance without building spreadsheets by hand.",
+    "workflow": {
+      "h2": "How Sessions Turn into Practice Reports",
+      "intro": "Each session's status is captured and rolled into attendance and capacity reports.",
+      "steps": [
+        {
+          "title": "Booking and reminders",
+          "body": "When a session is booked, clinIQ records the lead time, modality and clinician. Reports later show whether sessions booked far ahead are missed more often, which helps the practice target reminder outreach and decide how far out each clinician's calendar should open."
+        },
+        {
+          "title": "Check-in or video join",
+          "body": "In-office clients check in and telehealth clients join the video visit. clinIQ logs arrival or join time, so late starts are measured the same way for both modalities. Late arrivals that shorten sessions show up by clinician and time slot."
+        },
+        {
+          "title": "Session start and end",
+          "body": "Start and end times feed session length and on-time start reports. Directors can see whether back-to-back schedules leave clinicians enough time between clients for notes, and whether certain hours of the day consistently run behind. Patterns that repeat week after week usually point to a template problem, not a clinician problem."
+        },
+        {
+          "title": "Missed session follow-up",
+          "body": "No-shows and late cancels are reported daily, and clients with repeated missed sessions appear on a follow-up list for outreach. Our post on [behavioral health no-shows](/blog/behavioral-health-no-shows) covers practical outreach approaches that respect client privacy and keep the conversation supportive rather than punitive."
+        }
+      ]
+    },
+    "capabilities": {
+      "h2": "Reports Built for Mental Health Practices",
+      "items": [
+        {
+          "title": "No-show and late cancel rates",
+          "body": "See missed sessions by clinician, weekday, time slot, modality and lead time. The patterns point to where reminders, cancellation policy changes or schedule shifts will recover the most clinical hours each week."
+        },
+        {
+          "title": "Clinician utilization",
+          "body": "Compare attended session hours with available hours for each clinician. It shows who has openings for waitlisted clients, who is at capacity and where the practice has room to grow before hiring."
+        },
+        {
+          "title": "Intake to second session",
+          "body": "Track how many new clients return after intake, by clinician and referral period. A low return rate points to the first weeks of care as the place to focus engagement and scheduling follow-up."
+        },
+        {
+          "title": "Telehealth versus in-office",
+          "body": "Compare attendance, on-time starts and session volume by modality. The practice can then plan office space, video hours and clinician schedules based on real demand. For groups, see our guide to [group therapy scheduling](/blog/group-therapy-scheduling)."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "q": "What metrics should a mental health practice track?",
+        "a": "Start with no-show and late cancel rates, clinician utilization, intake-to-second-session return, on-time session starts and attendance by modality. Time from referral to first appointment matters too when a waitlist exists. clinIQ reports each from booking and session timestamps, broken out by clinician and day, and trends them over time so the practice can see real progress."
+      },
+      {
+        "q": "How can a therapy practice reduce no-shows?",
+        "a": "First find the pattern. clinIQ shows which clinicians, time slots, modalities and lead times have the most missed sessions. Practices then target reminders to high-risk bookings, shorten lead times where possible and follow up quickly with clients who miss. Trend reports show whether those changes worked or need adjusting for specific clinicians or times."
+      },
+      {
+        "q": "Can clinIQ compare telehealth and in-office attendance?",
+        "a": "Yes. Attendance, late starts and session volume are reported by modality, so you can see whether video sessions are kept more or less often than office visits for your clients and clinicians. That helps decide which clients and time slots suit telehealth and how much office space the practice really needs."
+      },
+      {
+        "q": "Can clinicians see their own numbers?",
+        "a": "Yes. Each clinician can view their own utilization, attendance and on-time starts for any period. Directors see the full practice and can compare locations if the group has several offices. Clinicians often use their own reports to adjust session timing and decide when to open more hours for new or waitlisted clients."
+      }
+    ],
+    "related": [
+      {
+        "title": "Mental Health Practice Software",
+        "href": "/specialties/mental-health"
+      },
+      {
+        "title": "Clinical Analytics and Reporting",
+        "href": "/features/analytics"
+      },
+      {
+        "title": "Reducing Behavioral Health No-Shows",
+        "href": "/blog/behavioral-health-no-shows"
+      },
+      {
+        "title": "Group Therapy Scheduling",
+        "href": "/blog/group-therapy-scheduling"
+      }
+    ]
+  }
+}
