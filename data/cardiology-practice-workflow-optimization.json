@@ -6,7 +6,7 @@
   "wordCount": 1900,
   "meta": {
     "title": "Cardiology Practice Workflow Optimization",
-    "description": "Optimize cardiology practice flow with echo lab integration, stress lab scheduling, device clinic, cath lab coordination, and multi-provider panel management strategies.",
+    "description": "Optimize cardiology workflow and patient flow: echo and stress lab scheduling, device clinic, cath lab coordination and provider templates that cut waits.",
     "keywords": [
       "cardiology practice workflow optimization echo stress lab",
       "cardiology device clinic management workflow",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Cardiac RTM: Heart Failure and Hypertension Monitoring", "href": "/blog/cardiac-rtm-heart-failure-hypertension" },
-    { "title": "Cardiology Prior Auth: Imaging and Procedures", "href": "/blog/cardiology-prior-auth-imaging-procedures" }
+    {
+      "title": "Cardiac RTM: Heart Failure and Hypertension Monitoring",
+      "href": "/blog/cardiac-rtm-heart-failure-hypertension"
+    },
+    {
+      "title": "Cardiology Prior Auth: Imaging and Procedures",
+      "href": "/blog/cardiology-prior-auth-imaging-procedures"
+    }
   ],
   "pillarLink": {
     "title": "Cardiology Practice Software",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Synchronize Your Cardiology Office and Ancillary Labs",
     "subhead": "clinIQ's scheduling and workflow tools connect your cardiology office with your echo lab, stress lab, and device clinic for seamless daily operations.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

@@ -6,7 +6,7 @@
   "wordCount": 1900,
   "meta": {
     "title": "Psychiatric Medication Monitoring Between Visits",
-    "description": "Systematic between-visit monitoring for lithium levels, clozapine ANC, antipsychotic metabolic effects, tardive dyskinesia screening, and AIMS in outpatient psychiatry.",
+    "description": "Between-visit monitoring for lithium levels, clozapine ANC, antipsychotic metabolic labs and tardive dyskinesia (AIMS) screening in outpatient psychiatry.",
     "keywords": [
       "psychiatric medication monitoring between visits lithium clozapine",
       "clozapine ANC monitoring REMS requirements psychiatry",
@@ -60,8 +60,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Behavioral Health RTM for Psychiatry Practices", "href": "/blog/behavioral-health-rtm-psychiatry" },
-    { "title": "Group Therapy Scheduling and Management", "href": "/blog/group-therapy-scheduling" }
+    {
+      "title": "Behavioral Health RTM for Psychiatry Practices",
+      "href": "/blog/behavioral-health-rtm-psychiatry"
+    },
+    {
+      "title": "Group Therapy Scheduling and Management",
+      "href": "/blog/group-therapy-scheduling"
+    }
   ],
   "pillarLink": {
     "title": "Psychiatry Practice Software",
@@ -71,6 +77,9 @@
   "cta": {
     "headline": "Never Miss a Psychiatric Medication Monitoring Deadline",
     "subhead": "See how clinIQ automates lithium, clozapine, and antipsychotic monitoring schedules across your entire patient panel.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

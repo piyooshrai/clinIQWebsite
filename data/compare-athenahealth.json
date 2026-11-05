@@ -5,8 +5,8 @@
   "wordCount": 2200,
   "publishDate": "2026-03-11",
   "meta": {
-    "title": "clinIQ vs athenahealth | EHR Operations Layer",
-    "description": "clinIQ is not an EHR replacement for athenahealth. It's the operations layer athenahealth doesn't provide. Real-time patient flow, RTM billing, pre-authorization tracking, and LobbyView displays that work alongside athenaOne.",
+    "title": "athenahealth Add-On for Patient Flow & RTM",
+    "description": "Add real-time patient flow, RTM billing and prior auth tracking to athenahealth without replacing your EHR. See how clinIQ works alongside athenaOne.",
     "keywords": [
       "athenahealth alternative",
       "athenahealth patient flow",

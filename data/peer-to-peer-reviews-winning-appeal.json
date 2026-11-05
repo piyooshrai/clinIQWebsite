@@ -5,8 +5,8 @@
   "specialty": "feature",
   "wordCount": 1900,
   "meta": {
-    "title": "Peer-to-Peer Reviews: Winning the Appeal",
-    "description": "How to win peer-to-peer prior auth appeals — when to request P2P, how to prepare, conversation tactics with the medical reviewer, escalation steps, and overturn rate benchmarks.",
+    "title": "Peer-to-Peer Review: Win a Denied Prior Auth",
+    "description": "When to request a peer-to-peer review instead of a formal appeal, how to prepare, what to tell the medical reviewer, and how to overturn denials.",
     "keywords": [
       "peer-to-peer prior authorization appeal strategy",
       "how to win peer-to-peer review with insurance medical director",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Prior Auth Denial Prevention: A Complete Guide", "href": "/blog/prior-auth-denial-prevention-guide" },
-    { "title": "LOMN Best Practices by Specialty", "href": "/blog/lomn-best-practices-specialty" }
+    {
+      "title": "Prior Auth Denial Prevention: A Complete Guide",
+      "href": "/blog/prior-auth-denial-prevention-guide"
+    },
+    {
+      "title": "LOMN Best Practices by Specialty",
+      "href": "/blog/lomn-best-practices-specialty"
+    }
   ],
   "pillarLink": {
     "title": "Pre-Authorization",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Win More Prior Auth Appeals with Less Effort",
     "subhead": "clinIQ keeps your team organized and on deadline so every denial gets the response it deserves.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

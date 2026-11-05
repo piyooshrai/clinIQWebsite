@@ -5,8 +5,8 @@
   "specialty": "feature",
   "wordCount": 1900,
   "meta": {
-    "title": "Prior Auth Denial Prevention: A Complete Guide",
-    "description": "The complete prior auth denial prevention framework: top 5 denial reasons, pre-submission checklists by specialty, denial audit systems, and appeal success benchmarks.",
+    "title": "Prior Authorization Denial Prevention Guide",
+    "description": "Prevent prior authorization denials: the top denial reasons, pre-submission checklists by specialty, denial audits, and when to appeal.",
     "keywords": [
       "prior authorization denial prevention strategies for medical practices",
       "top reasons prior auth requests get denied by payers",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "LOMN Best Practices by Specialty", "href": "/blog/lomn-best-practices-specialty" },
-    { "title": "Peer-to-Peer Reviews: Winning the Appeal", "href": "/blog/peer-to-peer-reviews-winning-appeal" }
+    {
+      "title": "LOMN Best Practices by Specialty",
+      "href": "/blog/lomn-best-practices-specialty"
+    },
+    {
+      "title": "Peer-to-Peer Reviews: Winning the Appeal",
+      "href": "/blog/peer-to-peer-reviews-winning-appeal"
+    }
   ],
   "pillarLink": {
     "title": "Pre-Authorization",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Cut Your Prior Auth Denial Rate in Half",
     "subhead": "clinIQ gives your team the tools to catch and fix authorization errors before they become denials.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

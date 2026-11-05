@@ -5,8 +5,8 @@
   "specialty": "podiatry",
   "wordCount": 1900,
   "meta": {
-    "title": "Podiatry Prior Auth: DME and Surgery",
-    "description": "A complete guide to podiatry prior authorization for diabetic shoes, custom orthotics, bunionectomy, hammertoe correction, and plantar fascia release with documentation requirements.",
+    "title": "Podiatry Prior Auth: Diabetic Shoes, DME & Surgery",
+    "description": "Prior authorization for podiatry: diabetic shoes, custom orthotics, bunionectomy, hammertoe and plantar fascia surgery, with documentation requirements.",
     "keywords": [
       "podiatry prior authorization diabetic shoes Medicare",
       "custom orthotics prior auth vs prefabricated",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Podiatry RTM: Diabetic Foot and Wound Monitoring", "href": "/blog/podiatry-rtm-diabetic-foot-wound-monitoring" },
-    { "title": "Podiatry Procedure Room Efficiency", "href": "/blog/podiatry-procedure-room-efficiency" }
+    {
+      "title": "Podiatry RTM: Diabetic Foot and Wound Monitoring",
+      "href": "/blog/podiatry-rtm-diabetic-foot-wound-monitoring"
+    },
+    {
+      "title": "Podiatry Procedure Room Efficiency",
+      "href": "/blog/podiatry-procedure-room-efficiency"
+    }
   ],
   "pillarLink": {
     "title": "Podiatry Practice Software",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Stop Losing Revenue to Prior Auth Denials",
     "subhead": "clinIQ gives podiatry practices automated prior auth tracking, payer-specific documentation templates, and denial pattern analysis to get approvals on first submission.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

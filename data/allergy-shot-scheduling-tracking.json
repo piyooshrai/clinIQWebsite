@@ -5,8 +5,8 @@
   "specialty": "allergy-immunology",
   "wordCount": 1900,
   "meta": {
-    "title": "Allergy Shot Scheduling and Tracking",
-    "description": "Master allergy immunotherapy shot tracking — vial lot numbers, dose escalation protocols, build-up vs. maintenance status, observation requirements, and missed-dose reduction protocols.",
+    "title": "Allergy Shot Scheduling & Immunotherapy Tracking",
+    "description": "Track allergy immunotherapy: vial lots, build-up vs maintenance dosing, observation time and missed doses, with scheduling that keeps patients on track.",
     "keywords": [
       "allergy shot scheduling tracking immunotherapy",
       "allergy immunotherapy dose escalation protocol tracking",
@@ -60,8 +60,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Allergy Practice Patient Flow: Testing and Immunotherapy", "href": "/blog/allergy-patient-flow-testing-immunotherapy" },
-    { "title": "Allergy Prior Auth: Biologics for Asthma and Allergies", "href": "/blog/allergy-prior-auth-biologics-asthma" }
+    {
+      "title": "Allergy Practice Patient Flow: Testing and Immunotherapy",
+      "href": "/blog/allergy-patient-flow-testing-immunotherapy"
+    },
+    {
+      "title": "Allergy Prior Auth: Biologics for Asthma and Allergies",
+      "href": "/blog/allergy-prior-auth-biologics-asthma"
+    }
   ],
   "pillarLink": {
     "title": "Allergy/Immunology Practice Software",
@@ -71,6 +77,9 @@
   "cta": {
     "headline": "Track Every Allergy Shot With Precision — Protect Patients and Revenue",
     "subhead": "clinIQ's allergy immunotherapy tracking system automates dose escalation, enforces missed-visit protocols, and captures every billable injection automatically.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

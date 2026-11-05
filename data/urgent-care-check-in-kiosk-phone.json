@@ -5,8 +5,8 @@
   "specialty": "urgent-care",
   "wordCount": 1900,
   "meta": {
-    "title": "Urgent Care Check-In: Kiosk vs Phone-Based",
-    "description": "Compare kiosk and phone-based check-in for urgent care. Completion rates, demographics, data accuracy, insurance capture, EMR integration, and when each wins.",
+    "title": "Urgent Care Check-In: Kiosk vs Mobile Phone",
+    "description": "Kiosk vs phone check-in for urgent care: completion rates, data accuracy, insurance capture, EHR integration, and when each one wins.",
     "keywords": [
       "urgent care kiosk check-in vs mobile phone comparison",
       "urgent care self check-in technology ROI",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Urgent Care Patient Flow: Managing Unpredictable Volume", "href": "/blog/urgent-care-patient-flow-volume" },
-    { "title": "Urgent Care Wait Time Reduction Strategies", "href": "/blog/urgent-care-wait-time-reduction" }
+    {
+      "title": "Urgent Care Patient Flow: Managing Unpredictable Volume",
+      "href": "/blog/urgent-care-patient-flow-volume"
+    },
+    {
+      "title": "Urgent Care Wait Time Reduction Strategies",
+      "href": "/blog/urgent-care-wait-time-reduction"
+    }
   ],
   "pillarLink": {
     "title": "Urgent Care Practice Software",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Implement Check-In That Actually Reduces Staff Burden",
     "subhead": "clinIQ's check-in solutions integrate directly with your EMR, verify insurance in real time, and reduce front desk registration time by up to 70%.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

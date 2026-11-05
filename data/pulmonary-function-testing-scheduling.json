@@ -5,8 +5,8 @@
   "specialty": "pulmonology",
   "wordCount": 1900,
   "meta": {
-    "title": "Pulmonary Function Testing Scheduling",
-    "description": "Optimize PFT lab scheduling for spirometry, DLCO, lung volumes, bronchoprovocation, and 6-minute walk. Tech workflows, bronchodilator holds, and CPAP coordination.",
+    "title": "Pulmonary Function Test Scheduling Guide",
+    "description": "Schedule pulmonary function tests efficiently: spirometry, DLCO, lung volumes and 6-minute walk, technician workflows and bronchodilator holds.",
     "keywords": [
       "pulmonary function testing scheduling optimization",
       "PFT lab spirometry DLCO lung volumes scheduling workflow",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Respiratory RTM for Pulmonology: COPD and Asthma", "href": "/blog/respiratory-rtm-copd-asthma" },
-    { "title": "Pulmonology Patient Flow Management", "href": "/blog/pulmonology-patient-flow-management" }
+    {
+      "title": "Respiratory RTM for Pulmonology: COPD and Asthma",
+      "href": "/blog/respiratory-rtm-copd-asthma"
+    },
+    {
+      "title": "Pulmonology Patient Flow Management",
+      "href": "/blog/pulmonology-patient-flow-management"
+    }
   ],
   "pillarLink": {
     "title": "Pulmonology Practice Software",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Run a PFT Lab That Never Double-Books or Under-Bills",
     "subhead": "clinIQ's PFT scheduling templates and billing integration ensure your pulmonology lab runs at capacity without preparation failures or missed codes.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

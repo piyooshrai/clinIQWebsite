@@ -5,8 +5,8 @@
   "specialty": "dermatology",
   "wordCount": 1900,
   "meta": {
-    "title": "Dermatology Prior Auth: Biologics for Psoriasis",
-    "description": "Navigate prior authorization for psoriasis biologics — IL-17, IL-23, and TNF inhibitors. PASI scoring, phototherapy step therapy, DLQI documentation, and approval strategies.",
+    "title": "Psoriasis Biologic Prior Auth: IL-17, IL-23, TNF",
+    "description": "Prior authorization for psoriasis biologics (IL-17, IL-23, TNF): PASI and DLQI documentation, phototherapy step therapy and approval strategies.",
     "keywords": [
       "dermatology psoriasis biologic prior authorization",
       "IL-17 inhibitor secukinumab ixekizumab prior auth",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Dermatology Practice Patient Flow: Balancing Medical and Cosmetic", "href": "/blog/dermatology-patient-flow-medical-cosmetic" },
-    { "title": "Dermatology Procedure Room Optimization", "href": "/blog/dermatology-procedure-room-optimization" }
+    {
+      "title": "Dermatology Practice Patient Flow: Balancing Medical and Cosmetic",
+      "href": "/blog/dermatology-patient-flow-medical-cosmetic"
+    },
+    {
+      "title": "Dermatology Procedure Room Optimization",
+      "href": "/blog/dermatology-procedure-room-optimization"
+    }
   ],
   "pillarLink": {
     "title": "Dermatology Practice Software",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Win More Psoriasis Biologic Approvals on the First Submission",
     "subhead": "clinIQ equips dermatology teams with the PASI documentation tools and payer criteria intelligence to achieve 80%+ first-pass approval rates.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

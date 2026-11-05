@@ -5,8 +5,8 @@
   "specialty": "obgyn",
   "wordCount": 1900,
   "meta": {
-    "title": "Prenatal Visit Scheduling Optimization",
-    "description": "How OB/GYN practices optimize prenatal visit scheduling with gestational age-appropriate templates, ultrasound timing windows, and high-risk vs. low-risk visit differentiation.",
+    "title": "Prenatal Visit Schedule & Templates for OB/GYN",
+    "description": "Build a prenatal visit schedule by gestational age: ultrasound timing windows, high-risk vs low-risk templates, and fewer missed appointments.",
     "keywords": [
       "prenatal visit scheduling optimization gestational age",
       "OB scheduling template monthly biweekly weekly prenatal",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "OB/GYN Patient Flow: Prenatal, GYN, and Procedures", "href": "/blog/obgyn-patient-flow-prenatal-gyn-procedures" },
-    { "title": "OB/GYN Prior Auth: Imaging and Surgery", "href": "/blog/obgyn-prior-auth-imaging-surgery" }
+    {
+      "title": "OB/GYN Patient Flow: Prenatal, GYN, and Procedures",
+      "href": "/blog/obgyn-patient-flow-prenatal-gyn-procedures"
+    },
+    {
+      "title": "OB/GYN Prior Auth: Imaging and Surgery",
+      "href": "/blog/obgyn-prior-auth-imaging-surgery"
+    }
   ],
   "pillarLink": {
     "title": "OB/GYN Practice Software",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Build a Prenatal Schedule That Matches Clinical Reality",
     "subhead": "clinIQ helps OB/GYN practices configure gestational age-aware scheduling templates with ultrasound timing alerts and high-risk visit differentiation.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

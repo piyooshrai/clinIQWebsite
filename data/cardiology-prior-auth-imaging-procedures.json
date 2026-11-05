@@ -5,8 +5,8 @@
   "specialty": "cardiology",
   "wordCount": 1900,
   "meta": {
-    "title": "Cardiology Prior Auth: Imaging and Procedures",
-    "description": "Navigate cardiology prior authorization for stress tests, cardiac cath, PCI, EP studies, ICD, pacemaker, CRT, and TAVR. AUC documentation and urgent pathways.",
+    "title": "Does a Stress Test or Echo Need Prior Auth?",
+    "description": "Which cardiology tests need prior authorization: stress tests, echo, Holter and event monitors, cath, PCI and devices, and the documentation that gets approval.",
     "keywords": [
       "cardiology prior authorization stress test nuclear echo",
       "cardiac catheterization prior auth AUC documentation",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Cardiac RTM: Heart Failure and Hypertension Monitoring", "href": "/blog/cardiac-rtm-heart-failure-hypertension" },
-    { "title": "Cardiology Practice Workflow Optimization", "href": "/blog/cardiology-practice-workflow-optimization" }
+    {
+      "title": "Cardiac RTM: Heart Failure and Hypertension Monitoring",
+      "href": "/blog/cardiac-rtm-heart-failure-hypertension"
+    },
+    {
+      "title": "Cardiology Practice Workflow Optimization",
+      "href": "/blog/cardiology-practice-workflow-optimization"
+    }
   ],
   "pillarLink": {
     "title": "Cardiology Practice Software",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Cut Your Cardiology Prior Auth Denial Rate in Half",
     "subhead": "clinIQ's authorization management tools and payer-specific templates help cardiology practices achieve 85%+ first-pass approval rates.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

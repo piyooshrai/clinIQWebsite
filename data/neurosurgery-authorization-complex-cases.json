@@ -5,8 +5,8 @@
   "specialty": "neurosurgery",
   "wordCount": 1900,
   "meta": {
-    "title": "Neurosurgery Authorization: Complex Case Approval",
-    "description": "Get craniotomy, spinal decompression, DBS, and tumor resection cases authorized with proven documentation strategies and peer-to-peer tactics for neurosurgery.",
+    "title": "Neurosurgery Prior Auth: Complex Case Approval",
+    "description": "Get craniotomy, spinal decompression, DBS and tumor resection cases authorized, with documentation strategies and peer-to-peer tactics that work.",
     "keywords": [
       "neurosurgery prior authorization complex cases",
       "craniotomy insurance approval documentation strategy",
@@ -60,8 +60,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Post-Op RTM for Neurosurgery Patients", "href": "/blog/post-op-rtm-neurosurgery" },
-    { "title": "Neurosurgery OR Efficiency", "href": "/blog/neurosurgery-or-efficiency" }
+    {
+      "title": "Post-Op RTM for Neurosurgery Patients",
+      "href": "/blog/post-op-rtm-neurosurgery"
+    },
+    {
+      "title": "Neurosurgery OR Efficiency",
+      "href": "/blog/neurosurgery-or-efficiency"
+    }
   ],
   "pillarLink": {
     "title": "Neurosurgery Practice Software",
@@ -71,6 +77,9 @@
   "cta": {
     "headline": "Get More Neurosurgical Cases Approved Faster",
     "subhead": "clinIQ gives your team the authorization workflow and documentation tools to win complex neurosurgery cases on first submission.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }

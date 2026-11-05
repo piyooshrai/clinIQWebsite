@@ -5,8 +5,8 @@
   "specialty": "urgent-care",
   "wordCount": 1900,
   "meta": {
-    "title": "Urgent Care Wait Time Reduction Strategies",
-    "description": "Reduce urgent care wait times with check-in optimization, provider-in-triage models, parallel processing, and discharge bottleneck elimination. Operational detail inside.",
+    "title": "How to Reduce Urgent Care Wait Times",
+    "description": "Proven ways to reduce urgent care wait times: faster check-in, provider-in-triage, parallel processing and fixing discharge bottlenecks.",
     "keywords": [
       "urgent care wait time reduction strategies 2025",
       "provider in triage urgent care model implementation",
@@ -64,8 +64,14 @@
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
-    { "title": "Urgent Care Patient Flow: Managing Unpredictable Volume", "href": "/blog/urgent-care-patient-flow-volume" },
-    { "title": "Urgent Care Check-In: Kiosk vs Phone-Based", "href": "/blog/urgent-care-check-in-kiosk-phone" }
+    {
+      "title": "Urgent Care Patient Flow: Managing Unpredictable Volume",
+      "href": "/blog/urgent-care-patient-flow-volume"
+    },
+    {
+      "title": "Urgent Care Check-In: Kiosk vs Phone-Based",
+      "href": "/blog/urgent-care-check-in-kiosk-phone"
+    }
   ],
   "pillarLink": {
     "title": "Urgent Care Practice Software",
@@ -75,6 +81,9 @@
   "cta": {
     "headline": "Cut Your Average LOS by 15 Minutes This Quarter",
     "subhead": "clinIQ's step-level LOS tracking and real-time bottleneck alerts give urgent care teams the operational insight to reduce wait times systematically.",
-    "primaryButton": { "label": "Request Demo", "href": "/demo" }
+    "primaryButton": {
+      "label": "Request Demo",
+      "href": "/demo"
+    }
   }
 }
