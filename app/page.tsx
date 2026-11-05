@@ -10,7 +10,6 @@ import HomeHowItWorks from '@/components/HomeHowItWorks'
 import HomeOpsLayer from '@/components/HomeOpsLayer'
 import HomeSpecialties from '@/components/HomeSpecialties'
 import Stats from '@/components/Stats'
-import Testimonial from '@/components/Testimonial'
 import HomeFAQ from '@/components/HomeFAQ'
 import CTA from '@/components/CTA'
 import FooterInner from '@/components/FooterInner'
@@ -120,7 +119,6 @@ export default async function Home() {
         <HomeOpsLayer />
         <HomeSpecialties />
         <Stats />
-        <Testimonial />
         <HomeFAQ />
         <CTA />
         <FooterInner />
