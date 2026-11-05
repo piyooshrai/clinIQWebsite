@@ -6,7 +6,7 @@ import styles from '../privacy/legal.module.css'
 
 export const metadata: Metadata = {
   alternates: { canonical: '/terms' },
-  title: 'Terms of Service — clinIQ',
+  title: 'Terms of Service',
   description: 'clinIQ Terms of Service. Governed by the laws of Colorado.',
 }
 

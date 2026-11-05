@@ -7,7 +7,7 @@ import PricingTable from '@/components/PricingTable'
 import { localizeMetadata } from '@/lib/localized-metadata'
 
 const baseMetadata: Metadata = {
-  title: 'Pricing — clinIQ',
+  title: 'Pricing',
   description:
     'Transparent pricing for clinIQ. Starter $249/mo, Professional $499/mo, Enterprise custom. No per-transaction fees.',
   alternates: { canonical: 'https://www.cliniqhealthcare.com/pricing' },

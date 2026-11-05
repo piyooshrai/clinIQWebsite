@@ -5,7 +5,7 @@ import PricingHero from '@/components/PricingHero'
 import PricingTable from '@/components/PricingTable'
 
 export const metadata: Metadata = {
-  title: 'Pricing — clinIQ',
+  title: 'Pricing',
   description:
     'Transparent pricing for clinIQ. Starter $249/mo, Professional $499/mo, Enterprise custom. No per-transaction fees.',
   alternates: {

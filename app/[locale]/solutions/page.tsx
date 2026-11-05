@@ -7,7 +7,7 @@ import s from '@/app/specialties/specialty-full.module.css'
 import { localizeMetadata } from '@/lib/localized-metadata'
 
 const baseMetadata: Metadata = {
-  title: 'Who We Serve — clinIQ',
+  title: 'Who We Serve',
   description:
     'clinIQ adapts to the operational realities of FQHCs, rural health clinics, concierge practices, surgery centers, and 30+ clinical specialties. Find your practice type.',
   alternates: { canonical: 'https://www.cliniqhealthcare.com/solutions' },
