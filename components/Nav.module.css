@@ -561,3 +561,67 @@
     font-size: 1.5rem;
   }
 }
+
+/* ---- Keep the demo button and menu button on screen on phones ---- */
+.barLanguage {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger {
+  flex-shrink: 0;
+}
+
+@media (max-width: 1023px) {
+  .navDemo {
+    min-height: 40px;
+    padding: 0.5rem 0.875rem;
+    font-size: 0.8125rem;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 480px) {
+  /* The mobile menu has its own language switcher */
+  .barLanguage {
+    display: none;
+  }
+
+  .container {
+    gap: 0.75rem;
+  }
+
+  .cta {
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .nav,
+  .scrolled {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Open the mobile menu below the bar, on a solid background */
+.mobileMenu {
+  top: 104px;
+  max-height: calc(100dvh - 104px);
+  background: var(--black);
+}
+
+.mobileScroll {
+  max-height: calc(100dvh - 104px);
+}
+
+@media (min-width: 769px) {
+  .mobileMenu {
+    top: 120px;
+    max-height: calc(100dvh - 120px);
+  }
+
+  .mobileScroll {
+    max-height: calc(100dvh - 120px);
+  }
+}

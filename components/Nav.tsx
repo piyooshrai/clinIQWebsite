@@ -513,8 +513,10 @@ export default function Nav() {
               </svg>
               info@cliniqhealthcare.com
             </a>
-            <LanguageSwitcher />
-            <Link href="/demo" className={`${styles.btnPrimary} ${styles.desktopOnly}`}>
+            <div className={styles.barLanguage}>
+              <LanguageSwitcher />
+            </div>
+            <Link href="/demo" className={`${styles.btnPrimary} ${styles.navDemo}`}>
               {t('requestDemo')}
             </Link>
             <button
