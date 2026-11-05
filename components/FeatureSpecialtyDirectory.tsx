@@ -1,33 +1,50 @@
 import Link from 'next/link'
 import { FEATURES, SPECIALTIES } from '@/lib/feature-specialty-data'
+import FeatureSpecialtySearch from './FeatureSpecialtySearch'
+import css from './FeatureSpecialtyDirectory.module.css'
 
 export default function FeatureSpecialtyDirectory({ featureSlug }: { featureSlug: string }) {
   const feature = FEATURES.find((f) => f.slug === featureSlug)
   if (!feature) return null
+
   const categories = Array.from(new Set(SPECIALTIES.map((s) => s.category)))
+  const midpoint = Math.ceil(categories.length / 2)
+  // Two fixed stacks, so opening a category never moves the other column.
+  const columns = [categories.slice(0, midpoint), categories.slice(midpoint)]
+  const items = SPECIALTIES.map(({ slug, name, category }) => ({ slug, name, category }))
+
   return (
-    <section aria-labelledby="by-specialty" style={{ padding: 'var(--space-section) 0', background: 'var(--bg-primary, #fafaf8)' }}>
+    <section aria-labelledby="by-specialty" className={css.section}>
       <div className="container">
-        <h2 id="by-specialty" style={{ fontFamily: 'var(--font-display)', fontSize: '1.75rem', marginBottom: '0.5rem' }}>
-          {feature.name} by specialty
-        </h2>
-        <p style={{ color: 'var(--text-secondary)', marginBottom: '2rem' }}>
-          See how {feature.name} works for your type of practice.
-        </p>
-        {categories.map((category) => (
-          <div key={category} style={{ marginBottom: '1.75rem' }}>
-            <h3 style={{ fontSize: '0.875rem', fontWeight: 700, color: 'var(--teal)', marginBottom: '0.625rem' }}>{category}</h3>
-            <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(190px, 1fr))', gap: '0.375rem 1.25rem' }}>
-              {SPECIALTIES.filter((s) => s.category === category).map((s) => (
-                <li key={s.slug}>
-                  <Link href={`/features/${feature.slug}/${s.slug}`} style={{ fontSize: '0.875rem', color: 'var(--text-primary)' }}>
-                    {feature.name} for {s.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+        <FeatureSpecialtySearch featureName={feature.name} featureSlug={feature.slug} items={items}>
+          <div className={css.columns}>
+            {columns.map((column, columnIndex) => (
+              <div key={columnIndex} className={css.column}>
+                {column.map((category) => {
+                  const specialties = SPECIALTIES.filter((s) => s.category === category)
+                  return (
+                    <details key={category} className={css.category}>
+                      <summary className={css.summary}>
+                        <h3 className={css.categoryName}>{category}</h3>
+                        <span className={css.count}>{specialties.length}</span>
+                      </summary>
+                      <ul className={css.links}>
+                        {specialties.map((s) => (
+                          <li key={s.slug}>
+                            <Link href={`/features/${feature.slug}/${s.slug}`} className={css.link}>
+                              <span className={css.srOnly}>{feature.name} for </span>
+                              {s.name}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </details>
+                  )
+                })}
+              </div>
+            ))}
           </div>
-        ))}
+        </FeatureSpecialtySearch>
       </div>
     </section>
   )
