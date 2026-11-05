@@ -1,3 +1,4 @@
+import { isIndexedFeatureSpecialty } from '@/lib/indexed-feature-pages'
 import { SPANISH_PATHS } from '@/lib/es-pages'
 import { MetadataRoute } from 'next'
 import fs from 'fs'
@@ -156,8 +157,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
-  // /features/[featureSlug]/[specialtySlug] — 7 features × 120 specialties = 840 pages
-  const featureSpecialty = getAllParams().map(({ featureSlug, specialtySlug }) => ({
+  // /features/[featureSlug]/[specialtySlug]: only the combinations kept in the index
+  const featureSpecialty = getAllParams().filter(({ featureSlug, specialtySlug }) => isIndexedFeatureSpecialty(featureSlug, specialtySlug)).map(({ featureSlug, specialtySlug }) => ({
     url: `${BASE_URL}/features/${featureSlug}/${specialtySlug}`,
     lastModified: now,
     changeFrequency: 'monthly' as const,

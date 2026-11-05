@@ -4,6 +4,7 @@ import Link from 'next/link'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
 import { getAllParams, getPageData } from '@/lib/feature-specialty-data'
+import { isIndexedFeatureSpecialty } from '@/lib/indexed-feature-pages'
 import styles from '@/app/features/[featureSlug]/[specialtySlug]/page.module.css'
 
 // ─── Static generation — all 840 pages built at Vercel deploy time ────────────
@@ -24,6 +25,10 @@ export async function generateMetadata({
     alternates: {
       canonical: `/features/${params.featureSlug}/${params.specialtySlug}`,
     },
+    // Thin combinations stay live for visitors but out of Google's index.
+    ...(isIndexedFeatureSpecialty(params.featureSlug, params.specialtySlug)
+      ? {}
+      : { robots: { index: false, follow: true } }),
   }
 }
 
