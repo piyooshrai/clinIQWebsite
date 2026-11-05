@@ -14,6 +14,7 @@ import HomeFAQ from '@/components/HomeFAQ'
 import CTA from '@/components/CTA'
 import FooterInner from '@/components/FooterInner'
 import { localizeMetadata } from '@/lib/localized-metadata'
+import { productSchema } from '@/lib/product-schema'
 
 const baseMetadata: Metadata = {
   title: 'Patient Flow Software | Clinic Operations Platform',
@@ -78,16 +79,13 @@ const baseJsonLd = [
       'query-input': 'required name=search_term_string',
     },
   },
-  {
-    '@context': 'https://schema.org',
-    '@type': 'SoftwareApplication',
+  productSchema({
     name: 'clinIQ',
-    applicationCategory: 'HealthApplication',
-    operatingSystem: 'Web',
     description:
       'Real-time clinic operations platform for patient flow management, automated check-in, RTM billing, pre-authorization, and scheduling.',
-    offers: { '@type': 'Offer', url: 'https://www.cliniqhealthcare.com/demo' },
-  },
+    url: 'https://www.cliniqhealthcare.com',
+    category: 'Clinic operations software',
+  }),
 ]
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {

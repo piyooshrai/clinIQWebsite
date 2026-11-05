@@ -6,6 +6,7 @@ import FeatureProblem from '@/components/FeatureProblem'
 import FeatureHowItWorks from '@/components/FeatureHowItWorks'
 import FeatureCTA from '@/components/FeatureCTA'
 import styles from './FeaturePage.module.css'
+import { productSchema as buildProductSchema } from '@/lib/product-schema'
 
 export interface FeaturePageProps {
   badge: string
@@ -50,20 +51,7 @@ export default function FeaturePage({
     : null
 
   const productSchema = schemaName
-    ? {
-        '@context': 'https://schema.org',
-        '@type': 'SoftwareApplication',
-        name: schemaName,
-        description: schemaDescription,
-        applicationCategory: 'HealthcareApplication',
-        operatingSystem: 'Web',
-        offers: {
-          '@type': 'Offer',
-          priceCurrency: 'USD',
-          price: '249',
-          priceSpecification: { '@type': 'UnitPriceSpecification', billingDuration: 'P1M' },
-        },
-      }
+    ? buildProductSchema({ name: schemaName, description: schemaDescription ?? schemaName, category: 'Clinic operations software' })
     : null
 
   return (

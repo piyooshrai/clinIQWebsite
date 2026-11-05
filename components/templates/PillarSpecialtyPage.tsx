@@ -10,6 +10,7 @@ import PillarMidCta from '@/components/PillarMidCta'
 import PillarMobileToc from '@/components/PillarMobileToc'
 import s from '@/app/specialties/specialty-full.module.css'
 import css from './PillarSpecialtyPage.module.css'
+import { productSchema } from '@/lib/product-schema'
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 
@@ -125,13 +126,21 @@ export default function PillarSpecialtyPage({ data, beforeCta }: { data: PillarD
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': softwareSchema.schema.type,
-              name: data.meta.title,
-              description: data.meta.description,
-              applicationCategory: softwareSchema.schema.applicationCategory,
-            }),
+            __html: JSON.stringify(
+              softwareSchema.schema.type === 'SoftwareApplication'
+                ? productSchema({
+                    name: data.meta.title,
+                    description: data.meta.description,
+                    category: softwareSchema.schema.applicationCategory,
+                  })
+                : {
+                    '@context': 'https://schema.org',
+                    '@type': softwareSchema.schema.type,
+                    name: data.meta.title,
+                    description: data.meta.description,
+                    applicationCategory: softwareSchema.schema.applicationCategory,
+                  },
+            ),
           }}
         />
       )}

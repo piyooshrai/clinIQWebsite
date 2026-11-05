@@ -7,6 +7,7 @@ import LocationCTA from '@/components/LocationCTA'
 import type { FeatureKey } from '@/components/LocationFeatures'
 import type { ContextPoint } from '@/components/LocationContext'
 import styles from './LocationPage.module.css'
+import { productSchema } from '@/lib/product-schema'
 
 export interface LocationPageProps {
   city: string
@@ -54,22 +55,21 @@ export default function LocationPage({
     ],
   }
 
-  const localBusinessSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'SoftwareApplication',
+  const baseProduct = productSchema({
     name: `clinIQ — ${city}, ${state}`,
     description: heroSubtitle,
-    applicationCategory: 'HealthcareApplication',
-    operatingSystem: 'Web',
-    areaServed: {
-      '@type': 'City',
-      name: city,
-      containedInPlace: { '@type': 'State', name: state },
-    },
+    category: 'Clinic operations software',
+  })
+  // Where clinIQ is offered belongs on the offer: Product has no areaServed field.
+  const localBusinessSchema = {
+    ...baseProduct,
     offers: {
-      '@type': 'Offer',
-      priceCurrency: 'USD',
-      price: '249',
+      ...baseProduct.offers,
+      areaServed: {
+        '@type': 'City',
+        name: city,
+        containedInPlace: { '@type': 'State', name: state },
+      },
     },
   }
 
