@@ -1,3 +1,4 @@
+import { Fragment } from 'react'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import { renderBody } from '@/lib/renderContent'
@@ -153,7 +154,8 @@ export default function BlogJsonPage({ data }: { data: BlogPostData }) {
                 </figure>
               )}
               {data.content.map((section, i) => (
-                <section key={i}>
+                <Fragment key={i}>
+                <section>
                   <h2 className={css.sectionH2}>{section.h2}</h2>
                   {renderBody(section.body, {
                     bodyList: css.bodyList,
@@ -165,10 +167,21 @@ export default function BlogJsonPage({ data }: { data: BlogPostData }) {
                     inlineLink: css.inlineLink,
                   })}
                 </section>
+                {/* Mid-article demo prompt: most readers never reach the end */}
+                {data.content.length >= 4 && i === Math.floor(data.content.length / 2) - 1 && (
+                  <div className={css.callout} data-cta-location={`blog_mid:${data.slug}`}>
+                    <h3 className={css.calloutTitle}>{data.callout.title}</h3>
+                    <p className={css.calloutDesc}>{data.callout.description}</p>
+                    <a href={data.callout.href} className={css.calloutBtn}>
+                      {data.callout.buttonLabel}
+                    </a>
+                  </div>
+                )}
+                </Fragment>
               ))}
 
               {/* Callout */}
-              <div className={css.callout}>
+              <div className={css.callout} data-cta-location={`blog_end:${data.slug}`}>
                 <h3 className={css.calloutTitle}>{data.callout.title}</h3>
                 <p className={css.calloutDesc}>{data.callout.description}</p>
                 <a href={data.callout.href} className={css.calloutBtn}>
