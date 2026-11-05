@@ -481,17 +481,17 @@
     "frontDesk": {
       "title": "Front desk teams",
       "body": "Fewer clipboards, fewer repeat questions, and a clear view of who has arrived.",
-      "alt": "Patient reviewing paperwork with a staff member at a clinic front desk"
+      "alt": "Receptionist smiling as a patient checks in on a tablet at a clinic front desk"
     },
     "careTeam": {
       "title": "Care teams and patients",
       "body": "Patients know what happens next, and staff can see where every visit stands.",
-      "alt": "Clinician in scrubs reviewing a tablet with a patient in a clinic waiting area"
+      "alt": "Medical assistant in scrubs crouching to talk with an older patient in a clinic waiting area"
     },
     "provider": {
       "title": "Providers",
       "body": "See the day as it's actually running, not as it was scheduled.",
-      "alt": "Provider in a white coat using a tablet"
+      "alt": "Physician in a white coat checking a tablet in a clinic hallway"
     }
   }
 }

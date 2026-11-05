@@ -23,17 +23,17 @@
     "frontDesk": {
       "title": "Front desk teams",
       "body": "Fewer clipboards, fewer repeat questions, and a clear view of who has arrived.",
-      "alt": "Patient reviewing paperwork with a staff member at a clinic front desk"
+      "alt": "Recepcionista sonriendo mientras un paciente se registra en una tableta en la recepción de la clínica"
     },
     "careTeam": {
       "title": "Care teams and patients",
       "body": "Patients know what happens next, and staff can see where every visit stands.",
-      "alt": "Clinician in scrubs reviewing a tablet with a patient in a clinic waiting area"
+      "alt": "Asistente médico con uniforme clínico agachado para hablar con una paciente mayor en la sala de espera de la clínica"
     },
     "provider": {
       "title": "Providers",
       "body": "See the day as it's actually running, not as it was scheduled.",
-      "alt": "Provider in a white coat using a tablet"
+      "alt": "Médica con bata blanca revisando una tableta en un pasillo de la clínica"
     }
   }
 }

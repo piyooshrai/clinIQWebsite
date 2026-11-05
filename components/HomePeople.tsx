@@ -3,9 +3,9 @@ import { useTranslations } from 'next-intl'
 import styles from './HomePeople.module.css'
 
 const CARDS = [
-  { key: 'frontDesk', src: '/people/clinic-front-desk-patient-check-in.jpg' },
-  { key: 'careTeam', src: '/people/clinician-reviewing-tablet-with-patient.jpg' },
-  { key: 'provider', src: '/people/provider-using-tablet.jpg' },
+  { key: 'frontDesk', src: '/editorial/receptionist-helping-patient-check-in.jpg' },
+  { key: 'careTeam', src: '/editorial/medical-assistant-talking-with-patient.jpg' },
+  { key: 'provider', src: '/editorial/physician-checking-tablet-in-hallway.jpg' },
 ] as const
 
 export default function HomePeople() {
