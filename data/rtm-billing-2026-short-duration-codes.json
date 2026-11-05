@@ -1,0 +1,107 @@
+{
+  "slug": "rtm-billing-2026-short-duration-codes",
+  "type": "blog",
+  "category": "RTM Billing",
+  "specialty": "feature",
+  "wordCount": 1450,
+  "meta": {
+    "title": "RTM Billing in 2026: The New 2–15 Day Codes Explained",
+    "description": "From January 2026, RTM is billable with as few as 2 days of data. The new codes 98984, 98985, 98986 and 98979, what they pay for, and how to capture partial months.",
+    "keywords": [
+      "rtm billing 2026",
+      "rtm 2 days",
+      "cpt 98985",
+      "cpt 98984",
+      "cpt 98986",
+      "cpt 98979",
+      "remote therapeutic monitoring 2026 changes",
+      "rtm 16 day rule"
+    ]
+  },
+  "publishDate": "2026-11-05",
+  "updatedDate": "2026-11-05",
+  "author": "clinIQ Team",
+  "hero": {
+    "h1": "RTM Billing in 2026: You No Longer Need 16 Days",
+    "subhead": "The 16-day rule used to decide whether a month of remote therapeutic monitoring paid anything at all. From January 2026, patients with 2 to 15 days of data are billable too. Here's what changed and how to capture it."
+  },
+  "content": [
+    {
+      "h2": "The Short Version",
+      "body": "Until 2026, a remote therapeutic monitoring (RTM) device-supply code could only be billed when a patient sent data on at least 16 days in a 30-day period. A patient who logged 12 days earned the practice nothing for that month, even though staff had done the work.\n\nFrom January 1, 2026, that cliff is gone. New device-supply codes cover **2 to 15 days** of data, and a new treatment-management code covers **10 to 19 minutes** of clinical time. Practices that set their workflows around the old rule are leaving partial months unbilled."
+    },
+    {
+      "h2": "The 2026 RTM Codes at a Glance",
+      "body": "**Device supply, 16 to 30 days** (the existing codes, now defined as 16–30 days):\n\n• **98976**: respiratory system\n• **98977**: musculoskeletal system\n• **98978**: cognitive behavioral therapy\n\n**Device supply, 2 to 15 days** (new for 2026):\n\n• **98984**: respiratory system\n• **98985**: musculoskeletal system\n• **98986**: cognitive behavioral therapy\n\n**Treatment management** (clinical time per calendar month):\n\n• **98979** (new): 10 to 19 minutes, with at least one real-time interaction with the patient or caregiver\n• **98980**: the first 20 minutes, with at least one interactive communication\n• **98981**: each additional 20 minutes, added to 98980\n\n**Setup:** 98975 for initial setup and patient education is unchanged.\n\nSources: [ASHA's summary of the 2026 code changes](https://www.asha.org/practice/reimbursement/coding/new_codes_slp/) and the [CMS 2026 therapy code list update](https://www.cms.gov/files/document/mm14250-therapy-code-list-2026-annual-update.pdf). Check your Medicare Administrative Contractor and commercial payers for their current rates and policies."
+    },
+    {
+      "h2": "The Pairing Rules That Trip Practices Up",
+      "body": "The new codes are alternatives to the old ones, not add-ons. In any one 30-day period, you bill either the short-duration code or the full code for that body system, never both:\n\n• 98984 is not reported with 98976\n• 98985 is not reported with 98977\n• 98986 is not reported with 98978\n• 98979 is not reported with 98980 or 98981\n\nThe new device codes also have a floor: they cannot be reported for fewer than 2 days of cumulative monitoring in the 30-day period.\n\nIn practice, that means the billing decision now happens at the end of each period, based on the actual day count and the actual minutes. A patient who reaches 16 days gets the full code. A patient who stops at 9 days gets the short-duration code. A patient with 1 day of data still gets nothing."
+    },
+    {
+      "h2": "Why This Matters More Than It Looks",
+      "body": "Under the old rule, every patient who fell short of 16 days was a total loss for the month. Engagement in RTM programs is rarely all-or-nothing: patients start strong, miss a week, travel, or finish their home program early. Those were exactly the months the old rule threw away.\n\nThe new codes change three things for a practice:\n\n• **Partial months now pay.** Every patient with at least 2 days of data is billable, so the revenue from a panel no longer depends on how many patients clear one threshold.\n• **Short management time now pays.** A month with a 12-minute check-in call used to fall below the 20-minute code. It now fits 98979.\n• **Enrollment risk falls.** Clinics hesitated to enroll patients who might not stay engaged for 16 days. Those patients are now worth enrolling.\n\nThe flip side is more complexity. Each patient, each month, now has a code choice to make, and the pairing rules mean a wrong choice gets denied."
+    },
+    {
+      "h2": "What to Change in Your RTM Workflow",
+      "body": "**1. Track days and minutes per patient, per period.** You need an accurate day count and minute total for every enrolled patient at the end of each 30-day period, not just a yes or no on 16 days.\n\n**2. Let the data pick the code.** At period close, patients with 16 or more days go to 98976, 98977 or 98978. Patients with 2 to 15 days go to 98984, 98985 or 98986. Management time of 10 to 19 minutes goes to 98979; 20 minutes or more goes to 98980, plus 98981 for each additional 20.\n\n**3. Re-check last year's \"non-billable\" patients.** Anyone your team has been dropping for missing 16 days is now a candidate to keep enrolled.\n\n**4. Document the interaction.** 98979, like 98980, needs a real-time interaction in the month. Make sure the call or video visit is recorded where your biller can see it.\n\n**5. Confirm payer coverage.** Medicare recognizes the new codes. Commercial payers adopt changes on their own schedules, so confirm before billing them."
+    },
+    {
+      "h2": "How clinIQ Handles the 2026 Codes",
+      "body": "[clinIQ's RTM billing module](/features/rtm) counts monitoring days and management minutes for every enrolled patient automatically, then selects the right code at the end of each period: 16-day codes when the patient qualifies, the new 2–15 day codes when they don't, and 98979 or 98980 based on actual minutes. It flags the pairings that would be denied before the claim goes out, and it tells your team which patients are close to the next threshold while there's still time to act.\n\nIt sits on top of your existing EHR, so there's no new system for clinicians to learn. If your RTM program was designed around the 16-day rule, a short review of your current panel usually shows how many partial months you've been leaving unbilled."
+    },
+    {
+      "h2": "Related Reading",
+      "body": "• [RTM CPT codes explained](/blog/rtm-cpt-codes-explained): the full code set and how each one is used\n• [CPT 98977 for musculoskeletal RTM](/blog/cpt-98977-musculoskeletal): the most common RTM code in physical therapy\n• [RTM billing software](/features/rtm): how clinIQ automates enrollment, tracking and claims\n• [ROI calculator](/resources/roi-calculator): estimate what your RTM panel is worth"
+    }
+  ],
+  "callout": {
+    "title": "Still Billing RTM by the 16-Day Rule?",
+    "description": "Bring your current RTM panel to a 15-minute demo. We'll show you how clinIQ picks the right 2026 code for every patient, every month.",
+    "href": "/demo",
+    "buttonLabel": "Request a Demo"
+  },
+  "faqs": [
+    {
+      "question": "Can you bill RTM with fewer than 16 days of data in 2026?",
+      "answer": "Yes. From January 1, 2026, the new device-supply codes 98984 (respiratory), 98985 (musculoskeletal) and 98986 (cognitive behavioral therapy) cover 2 to 15 days of data in a 30-day period. The 16-day minimum now applies only to the full-period codes 98976, 98977 and 98978."
+    },
+    {
+      "question": "What is CPT 98979?",
+      "answer": "CPT 98979 is a new 2026 RTM treatment-management code for 10 to 19 minutes of clinical time in a calendar month, with at least one real-time interaction with the patient or caregiver. It can't be reported with 98980 or 98981."
+    },
+    {
+      "question": "Can you bill 98985 and 98977 in the same month?",
+      "answer": "No. 98985 and 98977 both cover musculoskeletal device supply, for 2–15 days and 16–30 days respectively, so you bill one or the other for a 30-day period based on the actual number of days of data."
+    },
+    {
+      "question": "Is there a minimum number of days for the new RTM codes?",
+      "answer": "Yes. The 2–15 day codes can't be reported for fewer than 2 days of cumulative monitoring in the 30-day period. One day of data is still not billable."
+    },
+    {
+      "question": "Do commercial payers cover the new RTM codes?",
+      "answer": "Medicare recognizes the 2026 codes. Commercial payers adopt code changes on their own schedules, so confirm coverage and rates with each payer before billing."
+    }
+  ],
+  "relatedPosts": [
+    { "title": "RTM CPT Codes Explained", "href": "/blog/rtm-cpt-codes-explained" },
+    { "title": "CPT 98977 for Musculoskeletal RTM", "href": "/blog/cpt-98977-musculoskeletal" },
+    { "title": "Musculoskeletal RTM for Physical Therapy", "href": "/blog/musculoskeletal-rtm-physical-therapy" }
+  ],
+  "pillarLink": {
+    "title": "RTM Billing Software",
+    "href": "/features/rtm",
+    "description": "Automated RTM enrollment, day and minute tracking, and code selection for the 2026 rules."
+  },
+  "cta": {
+    "headline": "Bill Every RTM Month You've Earned",
+    "subhead": "clinIQ tracks days and minutes for every patient and picks the right 2026 code automatically, on top of your existing EHR.",
+    "primaryButton": { "label": "Request a Demo", "href": "/demo" }
+  },
+  "heroImage": {
+    "src": "/editorial/nurse-and-physician-reviewing-tablet-in-hallway.jpg",
+    "alt": "Nurse and physician reviewing a tablet together in a clinic hallway",
+    "width": 1600,
+    "height": 900
+  }
+}

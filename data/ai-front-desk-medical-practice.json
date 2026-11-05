@@ -1,0 +1,102 @@
+{
+  "slug": "ai-front-desk-medical-practice",
+  "type": "blog",
+  "category": "Front Desk",
+  "specialty": "feature",
+  "wordCount": 1500,
+  "meta": {
+    "title": "AI Front Desk for Medical Practices: Calls, Reminders and No-Shows",
+    "description": "Phone access is now a top patient-access priority. How an AI front desk answers calls, confirms and reschedules visits, recovers missed calls and cuts no-shows without adding staff.",
+    "keywords": [
+      "ai front desk medical practice",
+      "ai receptionist medical office",
+      "ai phone answering for clinics",
+      "ai appointment reminders",
+      "reduce no-shows ai",
+      "medical practice phone calls",
+      "after-hours answering clinic"
+    ]
+  },
+  "publishDate": "2026-11-08",
+  "updatedDate": "2026-11-08",
+  "author": "clinIQ Team",
+  "hero": {
+    "h1": "The AI Front Desk: Answer Every Call Without Hiring Another Receptionist",
+    "subhead": "Patients still call. Front desks are still short-staffed. An AI front desk picks up every call, confirms and reschedules visits, chases no-shows and hands the hard conversations to your team."
+  },
+  "content": [
+    {
+      "h2": "The Phone Is Still the Front Door",
+      "body": "Online scheduling was supposed to make the phone less important. It hasn't. Patients call to book, reschedule, ask about insurance, check on a referral, and confirm what to bring. When nobody answers, many don't leave a message. They call the next practice.\n\nPractice leaders know it. In a December 2025 MGMA Stat poll of practice leaders, phone access ranked among the top patient-access priorities for 2026, alongside online scheduling, wait times and no-show reduction ([summary](https://dev.to/sam_a205bad31b20552063c25/long-patient-wait-times-persist-in-2026-and-why-clinics-are-rethinking-intake-with-ai-256d)). At the same time, front-desk roles remain some of the hardest to fill and keep filled.\n\nThe result is a front desk doing three jobs at once: checking in the patient at the counter, answering a ringing phone, and working a pile of callbacks. Something gives, and it's usually the phone."
+    },
+    {
+      "h2": "What an AI Front Desk Actually Does",
+      "body": "An AI front desk is not a phone tree. It holds a natural conversation, by voice or text, and then does the work the conversation calls for, inside your rules:\n\n• **Answers every call**, including at lunch, during the morning rush and after hours\n• **Books, confirms, reschedules and cancels** appointments against your real availability and scheduling rules\n• **Sends reminders and confirmation calls** before visits, and works the patients who don't confirm\n• **Recovers missed calls** by calling or texting the patient back automatically\n• **Collects intake details** and pre-visit information before the patient arrives\n• **Checks insurance eligibility** and flags problems before the visit, not at the counter\n• **Routes referrals, refill requests and clinical questions** to the right person with a summary, so staff don't start from scratch\n• **Hands off to a person** whenever a call needs one\n\nThe last point matters most. A good AI front desk doesn't try to handle everything. It handles the repetitive majority of calls and gets the rest to your team faster, with the context already captured."
+    },
+    {
+      "h2": "Where No-Shows Fit",
+      "body": "No-shows are a phone problem as much as a scheduling problem. A text reminder that goes unanswered tells you very little. A confirmation call that reaches the patient, and offers to move the appointment on the spot, turns a likely no-show into a reschedule, and frees the slot for someone on the waitlist.\n\nAn AI front desk can make those calls for every appointment, every day, at the times patients actually answer. Patients who don't confirm get a second attempt and a rescheduling offer. Freed slots go back into the schedule while there's still time to fill them.\n\nFor the scheduling side of the problem, see our guides to [reducing no-shows through scheduling](/blog/no-show-reduction-scheduling) and [no-shows in behavioral health](/blog/behavioral-health-no-shows)."
+    },
+    {
+      "h2": "Why the Front Desk Alone Isn't the Whole Answer",
+      "body": "Most AI receptionist products stop at the phone call. The call ends, the appointment is booked, and the rest of the visit runs exactly as it did before: paper or tablet check-in, a whiteboard tracking who is in which room, and staff walking the hallway to find out who's next.\n\nThat's where clinIQ is different. The AI front desk is the first step of the visit, not a separate tool:\n\n• The call books the visit and starts [digital check-in](/features/check-in), so intake and insurance are done before arrival\n• The patient joins the live [patient flow](/features/patient-flow) queue the moment they arrive\n• Reminders, confirmations and rescheduling run from the same [schedule](/features/scheduling) your staff use\n• Follow-up, referrals and RTM outreach continue after the visit from the same system\n\nOne platform runs the visit from the first phone call to the last follow-up, on top of the EHR you already use, including Epic, athenahealth, eClinicalWorks and Cerner."
+    },
+    {
+      "h2": "What to Ask Before You Buy an AI Front Desk",
+      "body": "• **Can it act, or only talk?** Booking, rescheduling and cancelling against real availability is the difference between a chatbot and a front desk.\n• **How does it hand off?** Ask to hear a call transfer to staff, and see what context the staff member receives.\n• **What does it know about your rules?** Visit types, provider preferences, new-patient slots and insurance restrictions all matter.\n• **Does it work after hours?** Evenings and weekends are when many patients have time to call.\n• **Is it HIPAA-ready?** Ask for a Business Associate Agreement and how call data is stored and protected.\n• **What happens after the call?** If the answer is \"nothing, that's your EHR's job\", you've bought half a solution."
+    },
+    {
+      "h2": "How Fast You Can Be Live",
+      "body": "An AI front desk shouldn't take a year-long implementation. clinIQ is configured to your scheduling rules, visit types and phone workflow, and connects to your existing EHR and phone system. Most practices start with the highest-volume calls (scheduling, confirmations and missed-call recovery) and expand from there.\n\nIf your phones are ringing unanswered today, a 15-minute walkthrough will show you exactly how clinIQ would handle your call mix."
+    }
+  ],
+  "callout": {
+    "title": "How Many Calls Did You Miss Today?",
+    "description": "See clinIQ's AI front desk answer, book, confirm and hand off calls in a 15-minute demo configured for your practice.",
+    "href": "/demo",
+    "buttonLabel": "Request a Demo"
+  },
+  "faqs": [
+    {
+      "question": "What is an AI front desk for a medical practice?",
+      "answer": "An AI front desk answers patient calls and messages by voice or text, books, confirms and reschedules appointments against your real schedule, sends reminders, recovers missed calls, collects intake details and hands complex calls to staff with a summary."
+    },
+    {
+      "question": "Can an AI receptionist reduce no-shows?",
+      "answer": "It can make confirmation calls and send reminders for every appointment, work the patients who don't confirm, and offer rescheduling on the spot, which turns likely no-shows into reschedules and frees slots for the waitlist."
+    },
+    {
+      "question": "Does an AI front desk replace front desk staff?",
+      "answer": "It takes the repetitive majority of calls off your staff and hands them the conversations that need a person, with the context already captured. Most practices use it to cover phone volume and after-hours calls without adding headcount."
+    },
+    {
+      "question": "Does clinIQ's AI front desk work with my EHR?",
+      "answer": "Yes. clinIQ runs on top of your existing EHR, including Epic, athenahealth, eClinicalWorks and Cerner, so booked visits, intake and check-in flow into the systems your staff already use."
+    },
+    {
+      "question": "Can it answer calls after hours?",
+      "answer": "Yes. The AI front desk answers outside business hours using the same scheduling rules as during the day, and routes anything urgent according to your after-hours protocol."
+    }
+  ],
+  "relatedPosts": [
+    { "title": "Reducing No-Shows Through Scheduling", "href": "/blog/no-show-reduction-scheduling" },
+    { "title": "Front Desk Burnout", "href": "/blog/front-desk-burnout" },
+    { "title": "Check-In Is Your First Bottleneck", "href": "/blog/check-in-bottleneck" }
+  ],
+  "pillarLink": {
+    "title": "Patient Flow Software",
+    "href": "/features/patient-flow",
+    "description": "From the first phone call to checkout: real-time queue, rooms and status for every patient."
+  },
+  "cta": {
+    "headline": "Answer Every Call. Fill Every Slot.",
+    "subhead": "clinIQ's AI front desk books, confirms, reschedules and hands off calls, then runs the visit from check-in to follow-up.",
+    "primaryButton": { "label": "Request a Demo", "href": "/demo" }
+  },
+  "heroImage": {
+    "src": "/editorial/front-desk-staff-reviewing-patient-status.jpg",
+    "alt": "Receptionist and medical assistant reviewing a monitor at a clinic front desk while a patient signs in on a tablet",
+    "width": 1600,
+    "height": 900
+  }
+}

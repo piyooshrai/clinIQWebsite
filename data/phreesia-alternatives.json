@@ -1,0 +1,109 @@
+{
+  "slug": "phreesia-alternatives",
+  "type": "blog",
+  "category": "Comparisons",
+  "specialty": "feature",
+  "wordCount": 1500,
+  "meta": {
+    "title": "Best Phreesia Alternatives in 2026: 7 Options Compared",
+    "description": "Looking beyond Phreesia? Seven patient intake and front-desk platforms compared, from intake-only tools to full clinic operations, with the questions to ask before you switch.",
+    "keywords": [
+      "phreesia alternatives",
+      "phreesia competitors",
+      "alternatives to phreesia",
+      "clearwave alternatives",
+      "patient intake software",
+      "patient check-in software"
+    ]
+  },
+  "publishDate": "2026-11-12",
+  "updatedDate": "2026-11-12",
+  "author": "clinIQ Team",
+  "hero": {
+    "h1": "The Best Phreesia Alternatives in 2026",
+    "subhead": "Phreesia is built around patient intake. If you need more than intake, or a different price model, here are seven alternatives and how they differ."
+  },
+  "content": [
+    {
+      "h2": "Why Practices Look Beyond Phreesia",
+      "body": "Phreesia is one of the best-known patient intake platforms. Practices usually start looking at alternatives for one of three reasons:\n\n• **Price.** Phreesia doesn't publish list prices, and its free Intake offer has an end date. See our [Phreesia pricing guide](/blog/phreesia-cost-pricing-guide) for what to ask.\n• **Scope.** Intake ends when the patient is checked in. Many practices need help with what happens next: rooming, wait times, prior authorizations and billing.\n• **Phones.** Patients still call, and practices want AI to answer, confirm and reschedule, not just collect forms.\n\nThe right alternative depends on which of those problems you're actually solving."
+    },
+    {
+      "h2": "1. clinIQ: Intake Plus Full Clinic Operations",
+      "body": "clinIQ covers intake and then keeps going. [Digital check-in](/features/check-in) collects forms, insurance and consent before arrival. From there, clinIQ runs the rest of the visit: a real-time [patient flow](/features/patient-flow) queue for every room and provider, an [AI front desk](/blog/ai-front-desk-medical-practice) that answers calls, confirms and reschedules, [pre-authorization](/features/pre-auth) tracking, and [RTM billing](/features/rtm) updated for the 2026 codes.\n\nIt sits on top of your existing EHR rather than replacing it, and pricing is published on the [pricing page](/pricing).\n\n**Best for:** specialty and multi-provider practices that want one platform for the whole visit, not just check-in. See the [clinIQ vs Phreesia comparison](/compare/phreesia)."
+    },
+    {
+      "h2": "2. Clearwave",
+      "body": "Clearwave focuses on patient check-in, including kiosk and mobile check-in, insurance eligibility and self-scheduling, and has added voice AI agents for front-desk calls ([alternatives overview](https://www.stork.ai/alternatives/clearwave-voice-ai)).\n\n**Best for:** practices whose main problem is the check-in counter itself. See the [clinIQ vs Clearwave comparison](/compare/clearwave)."
+    },
+    {
+      "h2": "3. NexHealth",
+      "body": "NexHealth centers on online booking and patient communication, syncing with practice management systems. On G2's head-to-head comparison it scores well against Clearwave on patient intake ([G2](https://www.g2.com/compare/clearwave-vs-nexhealth)).\n\n**Best for:** practices whose priority is online scheduling and patient messaging."
+    },
+    {
+      "h2": "4. Luma Health",
+      "body": "Luma Health is a patient access and engagement platform covering reminders, scheduling and messaging, and offers an AI concierge for patient conversations.\n\n**Best for:** larger groups and health systems focused on patient access and outreach."
+    },
+    {
+      "h2": "5. Weave",
+      "body": "Weave is communications-first: practice phones, two-way texting, reminders and payments in one tool.\n\n**Best for:** practices whose biggest pain is the phone system and patient texting."
+    },
+    {
+      "h2": "6. Tebra",
+      "body": "Tebra combines EHR, practice management, billing and patient engagement for independent practices.\n\n**Best for:** smaller practices that want to replace their EHR and engagement tools with one vendor, rather than add an operations layer on top."
+    },
+    {
+      "h2": "7. Mend and Klara",
+      "body": "Mend focuses on telehealth and patient engagement; Klara on secure patient messaging. Both appear frequently on lists of Phreesia alternatives ([LeadSquared](https://www.leadsquared.com/us/healthcare/industries/phreesia-alternatives/)).\n\n**Best for:** practices replacing a single function, such as messaging or virtual visits, rather than intake as a whole."
+    },
+    {
+      "h2": "How to Choose: Five Questions",
+      "body": "**1. What breaks after check-in?** If rooms, wait times or the provider schedule are the real problem, an intake-only tool won't fix it.\n\n**2. Who answers the phone?** If calls go unanswered, look for an AI front desk that can book and reschedule, not just a form link.\n\n**3. What's the price after year one?** Ask for a written quote that covers the period after any promotional offer ends.\n\n**4. Does it replace your EHR or sit on top?** Replacing an EHR is a much bigger project than adding an operations layer.\n\n**5. How fast can you go live?** Ask for the typical time from contract to first patient, and talk to the team that will configure it."
+    }
+  ],
+  "callout": {
+    "title": "Comparing Phreesia Alternatives?",
+    "description": "See clinIQ configured for your specialty in 15 minutes: intake, AI front desk, patient flow, pre-auth and RTM in one platform.",
+    "href": "/demo",
+    "buttonLabel": "Request a Demo"
+  },
+  "faqs": [
+    {
+      "question": "What is the best alternative to Phreesia?",
+      "answer": "It depends on the problem you're solving. For intake plus everything after check-in (patient flow, an AI front desk, pre-authorization and RTM billing), clinIQ covers the whole visit. For check-in alone, Clearwave is a common choice; for online booking and messaging, NexHealth or Weave."
+    },
+    {
+      "question": "Is there a Phreesia alternative with published pricing?",
+      "answer": "Yes. clinIQ publishes its pricing on its website. Phreesia's pricing is quote-based, according to its pricing page."
+    },
+    {
+      "question": "Do Phreesia alternatives work with my EHR?",
+      "answer": "Most integrate with major EHRs. clinIQ runs on top of your existing EHR, including Epic, athenahealth, eClinicalWorks and Cerner, rather than replacing it."
+    },
+    {
+      "question": "Which Phreesia alternatives include AI phone answering?",
+      "answer": "clinIQ includes an AI front desk that answers calls, books, confirms and reschedules appointments and hands off to staff. Clearwave has also added voice AI agents."
+    }
+  ],
+  "relatedPosts": [
+    { "title": "How Much Does Phreesia Cost?", "href": "/blog/phreesia-cost-pricing-guide" },
+    { "title": "AI Front Desk for Medical Practices", "href": "/blog/ai-front-desk-medical-practice" },
+    { "title": "Phone vs Kiosk Check-In", "href": "/blog/phone-vs-kiosk-check-in" }
+  ],
+  "pillarLink": {
+    "title": "clinIQ vs Phreesia",
+    "href": "/compare/phreesia",
+    "description": "A feature-by-feature comparison of clinIQ and Phreesia."
+  },
+  "cta": {
+    "headline": "More Than Intake",
+    "subhead": "Check-in, AI front desk, patient flow, pre-authorization and RTM billing in one platform, on top of your EHR, with published pricing.",
+    "primaryButton": { "label": "Request a Demo", "href": "/demo" }
+  },
+  "heroImage": {
+    "src": "/editorial/receptionist-helping-patient-check-in.jpg",
+    "alt": "Receptionist smiling as a patient checks in on a tablet at a clinic front desk",
+    "width": 1200,
+    "height": 900
+  }
+}

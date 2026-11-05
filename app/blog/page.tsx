@@ -17,6 +17,33 @@ export const metadata: Metadata = {
 
 const posts: BlogPost[] = [
   {
+    slug: "phreesia-alternatives",
+    category: "Comparisons",
+    title: "The Best Phreesia Alternatives in 2026",
+    date: "November 2026",
+    readTime: "6 min",
+    excerpt:
+      "Looking beyond Phreesia? Seven patient intake and front-desk platforms compared, from intake-only tools to full clinic operations, with the questions to ask before you switch.",
+  },
+  {
+    slug: "ai-front-desk-medical-practice",
+    category: "Front Desk",
+    title: "The AI Front Desk: Answer Every Call Without Hiring Another Receptionist",
+    date: "November 2026",
+    readTime: "6 min",
+    excerpt:
+      "Phone access is now a top patient-access priority. How an AI front desk answers calls, confirms and reschedules visits, recovers missed calls and cuts no-shows without adding staff.",
+  },
+  {
+    slug: "rtm-billing-2026-short-duration-codes",
+    category: "RTM Billing",
+    title: "RTM Billing in 2026: You No Longer Need 16 Days",
+    date: "November 2026",
+    readTime: "6 min",
+    excerpt:
+      "From January 2026, RTM is billable with as few as 2 days of data. The new codes 98984, 98985, 98986 and 98979, what they pay for, and how to capture partial months.",
+  },
+  {
     slug: "patient-engagement-software-guide",
     category: "Patient Engagement",
     title: "Patient Engagement Software: What It Does and How to Choose a Platform",
