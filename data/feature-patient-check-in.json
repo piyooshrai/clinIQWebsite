@@ -26,7 +26,7 @@
   },
   "hero": {
     "h1": "Patient Intake Software",
-    "subhead": "Patients complete digital patient intake through the clinIQ mobile app, a patient kiosk software in your waiting room, or the web portal. Average check-in time drops from eight minutes to three. Your front desk handles exceptions and complex situations instead of repetitive data entry. Every staff member sees who has arrived without walking to the waiting room to check.",
+    "subhead": "Patients complete digital patient intake through the clinIQ mobile app, a patient kiosk software in your waiting room, or the web portal. Average check-in time drops from eight minutes to three. Your front desk handles exceptions and complex situations instead of repetitive data entry. Every staff member sees who has arrived without walking to the waiting room to check. Patients see their own place in line too, on a [waiting room display](/features/lobbyview) that shows no names.",
     "stats": [
       {
         "value": "3 min",

@@ -2,7 +2,7 @@
   "slug": "lobbyview",
   "name": "LobbyView",
   "pageType": "feature-pillar",
-  "wordCount": 650,
+  "wordCount": 1591,
   "publishDate": "2026-11-04",
   "meta": {
     "title": "Waiting Room Display Software | LobbyView",
@@ -42,8 +42,32 @@
       "title": "How LobbyView Works"
     },
     {
+      "id": "what-patients-see",
+      "title": "What Patients See on the Lobby Screen"
+    },
+    {
+      "id": "privacy",
+      "title": "Built for Privacy: No Names, No Visit Reasons"
+    },
+    {
+      "id": "hardware",
+      "title": "Hardware: Any TV With a Browser"
+    },
+    {
+      "id": "vs-alternatives",
+      "title": "Waiting Room Display vs. Whiteboards, Pagers and Verbal Updates"
+    },
+    {
+      "id": "specialties",
+      "title": "How Different Specialties Use LobbyView"
+    },
+    {
       "id": "front-desk",
       "title": "What Changes for the Front Desk"
+    },
+    {
+      "id": "measure",
+      "title": "Measuring the Impact of a Waiting Room Display"
     }
   ],
   "sections": [
@@ -58,23 +82,69 @@
       "content": "LobbyView gives patients a real-time view of their place in the queue, displayed on a lobby screen without using names. It works alongside [digital check-in](/features/check-in) and [patient flow](/features/patient-flow), so what patients see reflects what is actually happening in your clinic.\n\nThe display answers the question patients are already asking before they have to ask it. That matters in every specialty, and especially in practices where discretion counts, including [behavioral health](/specialties/behavioral-health) and [addiction medicine](/specialties/addiction-medicine).\n\nTo see how it would look in your waiting room, [book a 15-minute demo](/demo)."
     },
     {
+      "id": "what-patients-see",
+      "h2": "What Patients See on the Lobby Screen",
+      "content": "The screen answers three questions without anyone having to walk up to the desk: Am I still in line? How many people are ahead of me? Roughly how long is left?\n\nLobbyView shows queue position and an estimated wait for each provider or service line. Because it draws on clinIQ [patient flow](/features/patient-flow), which tracks each provider's queue separately, the order on the screen matches the order patients are actually roomed. When one provider is running behind and another is on time, the display shows both, instead of one blended number that is wrong for everyone.\n\nThe estimate moves as the day moves. When a visit runs long, a patient no-shows, or a provider catches up, the lobby screen updates with it. That is the difference from a whiteboard or a posted \"current wait\" sign: those are accurate only at the moment someone last updated them.\n\nFor practices with more than one waiting population, such as a clinic queue and a procedure queue, or patients and the family members waiting for them, the display can show each queue on its own. Family members in a surgical or procedure waiting area can follow status and expected completion without staff relaying updates and without the screen revealing protected health information."
+    },
+    {
+      "id": "privacy",
+      "h2": "Built for Privacy: No Names, No Visit Reasons",
+      "content": "A waiting room display is only acceptable if nobody in the room learns something they shouldn't. LobbyView displays wait status without using names, and it does not show the reason for the visit.\n\nThat matters most in specialties where simply being seen in a particular waiting room is sensitive: [behavioral health](/specialties/behavioral-health), [psychiatry](/specialties/psychiatry), [addiction medicine](/specialties/addiction-medicine) and similar practices. It also matters in any clinic where patients from the same town sit side by side. Calling names out loud, or posting them on a screen, discloses more than most practices intend to.\n\nLobbyView lets you give patients real information about their wait while keeping the room anonymous, so the front desk no longer has to choose between transparency and discretion."
+    },
+    {
+      "id": "hardware",
+      "h2": "Hardware: Any TV With a Browser",
+      "content": "LobbyView does not require a kiosk, a proprietary screen or an installation visit. It runs on any television with a web browser, or on any TV with an inexpensive media stick plugged in. Most practices already have a lobby TV playing cable news or a looping slideshow; that screen becomes the display.\n\nBecause the display is fed by your clinic's live flow data, there is nothing to update on the device itself. If a screen fails, any replacement TV and media stick puts it back in service the same day.\n\nCompare that with hardware-heavy check-in vendors, where screens and kiosks carry purchase, maintenance and replacement costs. See how this plays out in our [Clearwave comparison](/compare/clearwave) and the [kiosk vs. phone check-in](/blog/phone-vs-kiosk-check-in) guide."
+    },
+    {
+      "id": "vs-alternatives",
+      "h2": "Waiting Room Display vs. Whiteboards, Pagers and Verbal Updates",
+      "content": "Most clinics already try to keep waiting patients informed. The question is whether the method stays accurate without staff effort.\n\n| Method | Stays current automatically | Protects patient identity | Staff time required | Shows per-provider waits |\n|---|---|---|---|---|\n| Verbal updates from the desk | No | Depends on volume | High | Rarely |\n| Whiteboard or posted wait sign | No | Yes | Moderate | No |\n| Restaurant-style pagers | Only when paged | Yes | Moderate | No |\n| Calling names in the lobby | No | No | Low | No |\n| LobbyView display | Yes | Yes, no names or visit reasons | None after setup | Yes |\n\nPagers tell a patient when it is their turn, but not how long until then, so the \"how much longer?\" question still reaches the desk. Whiteboards need someone to update them, which is exactly the task that slips on a busy afternoon. A live display removes that dependency."
+    },
+    {
+      "id": "specialties",
+      "h2": "How Different Specialties Use LobbyView",
+      "content": "The value of a waiting room display depends on how your patients wait.\n\n**Urgent care**: walk-in volume makes waits unpredictable, and patients who cannot see progress are the ones who leave without being seen. A live display keeps them in the building. See [urgent care check-in](/features/check-in/urgent-care).\n\n**Neurology**: long new-patient evaluations and EEG appointments make a single posted wait time meaningless. See [LobbyView for neurology](/features/lobbyview/neurology).\n\n**Primary care**: several providers working from one lobby means some patients wait five minutes and others forty. Per-provider queues show both honestly. See [LobbyView for primary care](/features/lobbyview/primary-care).\n\n**Behavioral health and addiction medicine**: the no-names, no-visit-reason design is what makes a wait display possible at all.\n\n**Surgery and procedure centers**: family members can follow status and expected completion from the waiting area instead of asking at the desk.\n\nFor the full picture of what clinIQ does in your field, browse [specialties](/specialties)."
+    },
+    {
       "id": "front-desk",
       "h2": "What Changes for the Front Desk",
       "content": "Front desk staff spend a surprising share of the day answering versions of one question: how much longer? Every answer pulls them away from the patient in front of them and sends them looking for information that may already be out of date.\n\nWhen wait status is on the screen, those interruptions fall away. Staff can focus on check-in, insurance issues, and the patients who need real help.\n\nManagers can go further by pairing lobby visibility with [practice analytics](/features/analytics) to find where the schedule slips. For more on measuring this, read our guide to [wait time analytics](/blog/wait-time-analytics)."
+    },
+    {
+      "id": "measure",
+      "h2": "Measuring the Impact of a Waiting Room Display",
+      "content": "A lobby display should change numbers you can track. Before you turn it on, capture a baseline for a few weeks, then compare.\n\n**Left without being seen (LWBS)**: patients who check in and leave before being roomed. This is the most direct measure of whether visibility keeps people in the building.\n\n**Front desk interruptions**: a simple tally of wait-time questions at the desk for a week before and after is enough to see the change.\n\n**Wait-related complaints**: in surveys and online reviews. clinIQ [patient satisfaction](/features/patient-satisfaction) tracks feedback by theme, so you can see whether complaints about waiting fall.\n\n**Actual wait time**: a display does not shorten the wait by itself, but it shows you where the wait comes from. Pair it with [analytics](/features/analytics) and the [wait time analytics guide](/blog/wait-time-analytics) to find the providers, hours and visit types where the schedule slips, then fix them with [scheduling](/features/scheduling) templates that match real visit lengths."
     }
   ],
   "faqs": [
     {
       "q": "Does LobbyView show patient names?",
-      "a": "No. LobbyView displays wait status on the lobby screen without using names."
+      "a": "No. LobbyView displays wait status on the lobby screen without using names, and it does not show the reason for the visit."
     },
     {
-      "q": "What problem does LobbyView solve?",
-      "a": "It reduces waiting-room anxiety, walkouts, and repeated \"how much longer?\" questions at the front desk by showing patients where they stand."
+      "q": "What is waiting room display software?",
+      "a": "Waiting room display software shows patients their place in the queue and an estimated wait on a lobby screen, updated automatically from the clinic's live patient flow. It replaces whiteboards, posted wait signs and repeated questions at the front desk."
+    },
+    {
+      "q": "What hardware does LobbyView need?",
+      "a": "Any television with a web browser, or any TV with an inexpensive media stick. There is no kiosk or proprietary screen to buy."
+    },
+    {
+      "q": "Can LobbyView show separate waits for each provider?",
+      "a": "Yes. LobbyView draws on clinIQ patient flow, which tracks each provider's queue, so the display shows how each queue is really moving rather than a single average."
+    },
+    {
+      "q": "Is a waiting room display HIPAA compliant?",
+      "a": "A display is appropriate when it reveals no protected health information. LobbyView shows no names and no visit reasons, which is why behavioral health, psychiatry and addiction medicine practices can use it."
+    },
+    {
+      "q": "Does a waiting room display reduce walkouts?",
+      "a": "Uncertainty, not the wait itself, is what drives most patients to leave. Showing queue position and an estimated wait addresses that uncertainty directly. Track left-without-being-seen rates before and after to measure the effect in your clinic."
     },
     {
       "q": "What else does LobbyView work with?",
-      "a": "LobbyView is part of the clinIQ platform alongside check-in, patient flow, scheduling, and analytics."
+      "a": "LobbyView is part of the clinIQ platform alongside digital check-in, patient flow, scheduling, patient satisfaction and analytics."
     }
   ],
   "cta": {
@@ -109,6 +179,12 @@
       "description": "Measure where waits build up across your schedule."
     },
     {
+      "type": "feature",
+      "title": "Patient Satisfaction",
+      "href": "/features/patient-satisfaction",
+      "description": "Track whether wait-related complaints fall."
+    },
+    {
       "type": "blog",
       "title": "Wait Time Analytics: What to Measure and Why",
       "href": "/blog/wait-time-analytics",
@@ -135,5 +211,6 @@
         "label": "demo for your specialty"
       }
     ]
-  }
+  },
+  "updatedDate": "2026-11-05"
 }
