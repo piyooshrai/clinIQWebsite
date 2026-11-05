@@ -411,3 +411,25 @@
   padding: var(--space-section) 0;
   background: var(--white);
 }
+
+.sectionFigure {
+  margin: 0 0 1.75rem;
+}
+
+.sectionImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center 70%;
+  border-radius: 12px;
+  box-shadow: 0 0 0 1px var(--border-light);
+}
+
+.sectionCaption {
+  margin-top: 0.625rem;
+  font-size: 0.875rem;
+  line-height: 1.45;
+  color: var(--text-secondary);
+}

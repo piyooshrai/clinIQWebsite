@@ -1,4 +1,5 @@
 import type React from 'react'
+import Image from 'next/image'
 import { isHrefPublished } from '@/lib/blog-schedule'
 import { renderInline, renderContent } from '@/lib/renderContent'
 import { buildFAQSchema } from '@/lib/schema'
@@ -14,6 +15,15 @@ interface PillarSection {
   id: string
   h2: string
   content: string
+  image?: {
+    src: string
+    width: number
+    height: number
+    alt: string
+    caption?: string
+    credit?: string
+    sourceUrl?: string
+  }
 }
 
 interface TocItem {
@@ -185,6 +195,21 @@ export default function PillarSpecialtyPage({ data, beforeCta }: { data: PillarD
               {data.sections.map((section) => (
                 <section key={section.id} id={section.id} className={css.section}>
                   <h2 className={css.sectionH2}>{section.h2}</h2>
+                  {section.image && (
+                    <figure className={css.sectionFigure}>
+                      <Image
+                        src={section.image.src}
+                        width={section.image.width}
+                        height={section.image.height}
+                        alt={section.image.alt}
+                        sizes="(max-width: 1024px) 100vw, 860px"
+                        className={css.sectionImage}
+                      />
+                      {section.image.caption && (
+                        <figcaption className={css.sectionCaption}>{section.image.caption}</figcaption>
+                      )}
+                    </figure>
+                  )}
                   <div>{renderContent(section.content, {
                     contentBlock: css.contentBlock,
                     contentP: css.contentP,
