@@ -322,11 +322,6 @@
       }
     }
   },
-  "testimonial": {
-    "heading": "From clinics using clinIQ.",
-    "quote": "We went from a whiteboard and sticky notes to a real-time dashboard in four days. Our front desk team stopped getting yelled at. RTM billing is now on autopilot — we collected $18,400 in the first quarter we didn't even know we were eligible for.",
-    "author": "Operations Director, Multi-location PT group — Denver, CO"
-  },
   "faq": {
     "heading": "Frequently asked questions.",
     "items": {
