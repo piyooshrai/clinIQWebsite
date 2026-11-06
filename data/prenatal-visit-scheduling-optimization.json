@@ -60,7 +60,7 @@
     "type": "feature",
     "title": "clinIQ for OB/GYN",
     "description": "clinIQ gives OB/GYN practices gestational age-aware prenatal scheduling templates, ultrasound timing alerts, and high-risk vs. low-risk visit differentiation in a single platform.",
-    "href": "/specialties/obgyn",
+    "href": "/specialties/ob-gyn",
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
@@ -75,7 +75,7 @@
   ],
   "pillarLink": {
     "title": "OB/GYN Practice Software",
-    "href": "/specialties/obgyn",
+    "href": "/specialties/ob-gyn",
     "description": "The clinIQ OB/GYN pillar page covers prenatal scheduling, patient flow, prior authorization, and practice operations for full-scope obstetrics and gynecology."
   },
   "cta": {

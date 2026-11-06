@@ -56,7 +56,7 @@
     "type": "feature",
     "title": "clinIQ for OB/GYN",
     "description": "clinIQ gives OB/GYN practices prenatal scheduling templates, NST room management, and L&D disruption workflows to run high-volume mixed obstetric and GYN clinics efficiently.",
-    "href": "/specialties/obgyn",
+    "href": "/specialties/ob-gyn",
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
@@ -65,7 +65,7 @@
   ],
   "pillarLink": {
     "title": "OB/GYN Practice Software",
-    "href": "/specialties/obgyn",
+    "href": "/specialties/ob-gyn",
     "description": "The clinIQ OB/GYN pillar page covers patient flow, scheduling, prior authorization, and prenatal care management for full-scope obstetrics and gynecology practices."
   },
   "cta": {

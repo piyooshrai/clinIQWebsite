@@ -1,3 +1,4 @@
+import { SPECIALTY_ALIASES, specialtyHref } from '@/lib/specialty-aliases'
 // ─────────────────────────────────────────────────────────────────────────────
 // clinIQ feature × specialty page data
 // All 840 pages (7 features × 120 specialties) are pre-rendered via
@@ -1645,7 +1646,7 @@ export function getSpecialtyPageData(specialtySlug: string): SpecialtyPageData |
       const f = FEATURES.find(ff => ff.slug === slug)!
       return { label: `${f.name} Feature`, href: `/features/${f.slug}` }
     }),
-    ...sameCategory.map(s => ({ label: s.name, href: `/specialties/${s.slug}` })),
+    ...sameCategory.filter(s => !(s.slug in SPECIALTY_ALIASES)).map(s => ({ label: s.name, href: specialtyHref(s.slug) })),
     { label: 'All Specialties', href: '/specialties' },
   ]
 

@@ -60,7 +60,7 @@
     "type": "feature",
     "title": "clinIQ for Allergy/Immunology",
     "description": "clinIQ helps allergy/immunology practices navigate biologic prior authorization for severe asthma with biomarker tracking, criteria checklists, and denial appeal management tools.",
-    "href": "/specialties/allergy-immunology",
+    "href": "/specialties/allergy",
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
@@ -79,7 +79,7 @@
   ],
   "pillarLink": {
     "title": "Allergy/Immunology Practice Software",
-    "href": "/specialties/allergy-immunology",
+    "href": "/specialties/allergy",
     "description": "Explore clinIQ's full suite of tools built for allergy and immunology practice operations, immunotherapy tracking, and patient flow management."
   },
   "cta": {

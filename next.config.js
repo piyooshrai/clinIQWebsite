@@ -1,4 +1,5 @@
 const createNextIntlPlugin = require('next-intl/plugin')
+const { SPECIALTY_ALIASES } = require('./lib/specialty-aliases')
 const withNextIntl = createNextIntlPlugin('./i18n/request.ts')
 
 /** @type {import('next').NextConfig} */
@@ -9,6 +10,11 @@ const nextConfig = {
 
   async redirects() {
     return [
+      // Duplicate specialty pages merged November 2026
+      ...Object.entries(SPECIALTY_ALIASES).flatMap(([from, to]) => [
+        { source: `/specialties/${from}`, destination: `/specialties/${to}`, permanent: true },
+        { source: `/:locale(ar|es)/specialties/${from}`, destination: `/:locale/specialties/${to}`, permanent: true },
+      ]),
       // Dead internal URLs remapped November 2026
       { source: '/features/pre-authorization', destination: '/features/pre-auth', permanent: true },
       { source: '/features/rtm-billing', destination: '/features/rtm', permanent: true },

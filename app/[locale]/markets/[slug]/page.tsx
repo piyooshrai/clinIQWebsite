@@ -1,3 +1,4 @@
+import { specialtyHref } from '@/lib/specialty-aliases'
 import { notFound } from 'next/navigation'
 import { promises as fs } from 'fs'
 import path from 'path'
@@ -156,7 +157,7 @@ export default async function MarketSlugPage({
     ...(data.relatedContent.specialties ?? []).map((r) => ({
       type: 'Specialty',
       title: r.title,
-      href: `/specialties/${r.slug}`,
+      href: specialtyHref(r.slug),
     })),
     ...(data.relatedContent.marketSegments ?? []).map((r) => ({
       type: 'Market',

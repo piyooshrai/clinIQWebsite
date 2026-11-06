@@ -63,7 +63,7 @@
     {
       "id": "ent-operations",
       "h2": "The ENT Operations Model",
-      "content": "ENT practices manage diverse conditions across ear, nose, throat, head, and neck. Hearing loss, sinusitis, voice disorders, sleep apnea, and head and neck cancer all fall within scope. Procedures range from office-based to complex surgical cases. This diversity requires flexible [scheduling](/features/scheduling) and [patient flow](/features/patient-flow).\n\nClinic volume for common conditions like sinusitis and hearing problems can be high. Surgical cases for tonsillectomy, sinus surgery, and thyroidectomy require OR coordination. Office procedures for ear tubes, nasal endoscopy, and injections fit between.\n\nAudiology testing often occurs within ENT practices. Testing coordination with physician evaluation affects [patient flow](/features/patient-flow).\n\nCare coordination spans [allergy](/specialties/allergy-immunology) for allergic rhinitis, [oncology](/specialties/oncology) for head and neck cancer, sleep medicine for OSA, and speech therapy for voice disorders."
+      "content": "ENT practices manage diverse conditions across ear, nose, throat, head, and neck. Hearing loss, sinusitis, voice disorders, sleep apnea, and head and neck cancer all fall within scope. Procedures range from office-based to complex surgical cases. This diversity requires flexible [scheduling](/features/scheduling) and [patient flow](/features/patient-flow).\n\nClinic volume for common conditions like sinusitis and hearing problems can be high. Surgical cases for tonsillectomy, sinus surgery, and thyroidectomy require OR coordination. Office procedures for ear tubes, nasal endoscopy, and injections fit between.\n\nAudiology testing often occurs within ENT practices. Testing coordination with physician evaluation affects [patient flow](/features/patient-flow).\n\nCare coordination spans [allergy](/specialties/allergy) for allergic rhinitis, [oncology](/specialties/oncology) for head and neck cancer, sleep medicine for OSA, and speech therapy for voice disorders."
     },
     {
       "id": "scheduling",
@@ -78,7 +78,7 @@
     {
       "id": "care-coordination",
       "h2": "Care Coordination",
-      "content": "ENT coordinates with specialties managing related conditions.\n\n[Allergy immunology](/specialties/allergy-immunology) coordination for allergic rhinitis addresses both ENT surgical management and allergic component. [Secure messaging](/features/secure-messaging) supports communication.\n\n[Oncology](/specialties/oncology) coordination for head and neck cancer involves surgical oncology, medical oncology, radiation oncology, and supportive care. Complex treatment planning spans specialties. [File exchange](/features/secure-file-exchange) shares imaging and pathology.\n\n[Pulmonology](/specialties/pulmonology) and sleep medicine coordination for sleep apnea addresses both surgical and medical management options.\n\nSpeech therapy coordination for voice disorders and swallowing therapy.\n\n[Primary care](/specialties/primary-care) coordination for chronic conditions like sinusitis and hearing loss."
+      "content": "ENT coordinates with specialties managing related conditions.\n\n[Allergy immunology](/specialties/allergy) coordination for allergic rhinitis addresses both ENT surgical management and allergic component. [Secure messaging](/features/secure-messaging) supports communication.\n\n[Oncology](/specialties/oncology) coordination for head and neck cancer involves surgical oncology, medical oncology, radiation oncology, and supportive care. Complex treatment planning spans specialties. [File exchange](/features/secure-file-exchange) shares imaging and pathology.\n\n[Pulmonology](/specialties/pulmonology) and sleep medicine coordination for sleep apnea addresses both surgical and medical management options.\n\nSpeech therapy coordination for voice disorders and swallowing therapy.\n\n[Primary care](/specialties/primary-care) coordination for chronic conditions like sinusitis and hearing loss."
     },
     {
       "id": "implementation",
@@ -146,7 +146,7 @@
     {
       "type": "specialty",
       "title": "Allergy & Immunology",
-      "href": "/specialties/allergy-immunology",
+      "href": "/specialties/allergy",
       "description": "Coordinating allergic rhinitis care."
     },
     {

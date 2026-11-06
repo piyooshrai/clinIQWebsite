@@ -56,7 +56,7 @@
     "type": "feature",
     "title": "clinIQ for Allergy/Immunology",
     "description": "clinIQ provides allergy practices with integrated shot tracking, dose escalation management, missed-visit protocol enforcement, and observation timer integration for safe, scalable immunotherapy programs.",
-    "href": "/specialties/allergy-immunology",
+    "href": "/specialties/allergy",
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
@@ -71,7 +71,7 @@
   ],
   "pillarLink": {
     "title": "Allergy/Immunology Practice Software",
-    "href": "/specialties/allergy-immunology",
+    "href": "/specialties/allergy",
     "description": "Explore clinIQ's full suite of tools built for allergy and immunology practice operations, immunotherapy tracking, and patient flow management."
   },
   "cta": {

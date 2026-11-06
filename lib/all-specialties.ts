@@ -1,6 +1,7 @@
 import { SPECIALTIES as GENERATED } from '@/lib/feature-specialty-data'
 import specialtiesTen from '@/data/specialties.json'
 import specialtiesTwenty from '@/data/specialties-20-value-first.json'
+import { SPECIALTY_ALIASES } from '@/lib/specialty-aliases'
 
 // Specialty pillar slugs — must match pillarPages keys in app/specialties/[slug]/page.tsx
 export const PILLAR_SPECIALTY_SLUGS = [
@@ -39,7 +40,7 @@ export function getAllSpecialties(): SpecialtyLink[] {
   const seen = new Set<string>()
   const out: SpecialtyLink[] = []
   const add = (slug: string) => {
-    if (!slug || seen.has(slug)) return
+    if (!slug || seen.has(slug) || slug in SPECIALTY_ALIASES) return
     seen.add(slug)
     out.push({ slug, name: names.get(slug) ?? titleCase(slug) })
   }

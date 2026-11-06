@@ -60,7 +60,7 @@
     "type": "feature",
     "title": "clinIQ for OB/GYN",
     "description": "clinIQ gives OB/GYN practices payer-specific prior auth templates for hysterectomy, GYN surgery, and obstetric imaging to reduce denials and accelerate surgical scheduling.",
-    "href": "/specialties/obgyn",
+    "href": "/specialties/ob-gyn",
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
@@ -75,7 +75,7 @@
   ],
   "pillarLink": {
     "title": "OB/GYN Practice Software",
-    "href": "/specialties/obgyn",
+    "href": "/specialties/ob-gyn",
     "description": "The clinIQ OB/GYN pillar page covers prior authorization, surgical scheduling, prenatal care management, and revenue cycle for full-scope obstetrics and gynecology practices."
   },
   "cta": {

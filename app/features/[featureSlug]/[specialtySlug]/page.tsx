@@ -1,3 +1,4 @@
+import { specialtyHref } from '@/lib/specialty-aliases'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
@@ -120,7 +121,7 @@ export default function FeatureSpecialtyPage({
                 {data.featureName}
               </Link>
               <span className={styles.badgeSep}>×</span>
-              <Link href={`/specialties/${data.specialtySlug}`} className={styles.badge}>
+              <Link href={specialtyHref(data.specialtySlug)} className={styles.badge}>
                 {data.specialtyName}
               </Link>
             </div>

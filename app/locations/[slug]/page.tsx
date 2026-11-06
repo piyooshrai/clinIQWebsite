@@ -1,3 +1,4 @@
+import { specialtyHref } from '@/lib/specialty-aliases'
 import { notFound } from 'next/navigation'
 import { promises as fs } from 'fs'
 import path from 'path'
@@ -303,7 +304,7 @@ export default async function LocationSlugPage({
               {SPECIALTIES.map((spec) => (
                 <a
                   key={spec.slug}
-                  href={`/specialties/${spec.slug}`}
+                  href={specialtyHref(spec.slug)}
                   className={s.moduleCard}
                   style={{ textDecoration: 'none', color: 'inherit' }}
                 >

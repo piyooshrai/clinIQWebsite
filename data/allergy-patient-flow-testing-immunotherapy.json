@@ -60,7 +60,7 @@
     "type": "feature",
     "title": "clinIQ for Allergy/Immunology",
     "description": "clinIQ helps allergy practices manage immunotherapy schedules, track shot dose escalation, coordinate food challenges, and optimize testing room utilization.",
-    "href": "/specialties/allergy-immunology",
+    "href": "/specialties/allergy",
     "buttonLabel": "Learn More"
   },
   "relatedPosts": [
@@ -75,7 +75,7 @@
   ],
   "pillarLink": {
     "title": "Allergy/Immunology Practice Software",
-    "href": "/specialties/allergy-immunology",
+    "href": "/specialties/allergy",
     "description": "Explore clinIQ's full suite of tools built for allergy and immunology practice operations, immunotherapy tracking, and patient flow management."
   },
   "cta": {
