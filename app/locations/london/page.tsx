@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import LocationSchema from '@/components/LocationSchema'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
 import LocationFeatures from '@/components/LocationFeatures'
@@ -40,6 +41,7 @@ export default function LondonPage() {
     <>
       <NavInner />
       <main>
+        <LocationSchema slug="london" place="London, UK" description={String(metadata.description)} />
         <LocationHero
           badge="London, UK"
           title="London private practice. Harley Street standards. Operational reality."

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import LocationSchema from '@/components/LocationSchema'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
 import LocationFeatures from '@/components/LocationFeatures'
@@ -50,6 +51,7 @@ export default function AustraliaPage() {
     <>
       <NavInner />
       <main>
+        <LocationSchema slug="australia" place="Australia" description={String(metadata.description)} placeType="Country" />
         <LocationHero
           badge="Australia"
           title="Australia's dual-payer system. One workflow layer."

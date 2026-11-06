@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import LocationSchema from '@/components/LocationSchema'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
 import LocationFeatures from '@/components/LocationFeatures'
@@ -40,6 +41,7 @@ export default function TorontoPage() {
     <>
       <NavInner />
       <main>
+        <LocationSchema slug="toronto" place="Toronto, ON" description={String(metadata.description)} />
         <LocationHero
           badge="Toronto, ON"
           title="Toronto clinics. Ontario's health system complexity. Fixed."

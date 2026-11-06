@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import LocationSchema from '@/components/LocationSchema'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
 import LocationFeatures from '@/components/LocationFeatures'
@@ -40,6 +41,7 @@ export default function AbuDhabiPage() {
     <>
       <NavInner />
       <main>
+        <LocationSchema slug="abu-dhabi" place="Abu Dhabi, UAE" description={String(metadata.description)} />
         <LocationHero
           badge="Abu Dhabi, UAE"
           title="Abu Dhabi clinics. Malaffi compliance. Premium standards."

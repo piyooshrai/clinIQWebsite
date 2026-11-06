@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import LocationSchema from '@/components/LocationSchema'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
 import LocationFeatures from '@/components/LocationFeatures'
@@ -40,6 +41,7 @@ export default function PhoenixPage() {
     <>
       <NavInner />
       <main>
+        <LocationSchema slug="phoenix" place="Phoenix, AZ" description={String(metadata.description)} />
         <LocationHero
           badge="Phoenix, AZ"
           title="Phoenix clinics. Desert sun. Seasonal demand spikes."

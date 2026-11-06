@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import LocationSchema from '@/components/LocationSchema'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
 import LocationFeatures from '@/components/LocationFeatures'
@@ -40,6 +41,7 @@ export default function DenverPage() {
     <>
       <NavInner />
       <main>
+        <LocationSchema slug="denver" place="Denver, CO" description={String(metadata.description)} />
         <LocationHero
           badge="Denver, CO"
           title="Denver clinics. Active population. High care demands."
