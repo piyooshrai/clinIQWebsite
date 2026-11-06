@@ -169,13 +169,7 @@
         "value": "Automatic",
         "label": "record attachment"
       }
-    ],
-    "testimonial": {
-      "quote": "We used to mail lab results and wait days for patients to receive them. Now results go to their phone the moment we release them. Patients upload their insurance cards and outside records instead of bringing paper. Our fax machine is basically retired. Document exchange went from a constant hassle to something that just works.",
-      "attribution": "Practice Manager",
-      "practice": "Internal medicine practice with five providers",
-      "location": "Michigan"
-    }
+    ]
   },
   "relatedContent": [
     {

@@ -120,13 +120,7 @@
       { "value": "$130K", "label": "annual RTM revenue potential" },
       { "value": "75%+", "label": "symptom tracking compliance" },
       { "value": "Native", "label": "telehealth integration" }
-    ],
-    "testimonial": {
-      "quote": "Between-session symptom tracking changed how I practice. I see mood patterns over the week instead of relying on patient recall at session start. RTM billing captures revenue for support I was already providing through messages and calls. Telehealth through the same app patients use for everything else eliminated the awkward platform switching.",
-      "attribution": "Licensed Clinical Psychologist",
-      "practice": "Group therapy practice with five clinicians",
-      "location": "Colorado"
-    }
+    ]
   },
   "relatedContent": [
     {

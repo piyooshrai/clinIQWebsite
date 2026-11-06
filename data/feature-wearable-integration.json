@@ -194,13 +194,7 @@
         "value": "Continuous",
         "label": "health data streaming"
       }
-    ],
-    "testimonial": {
-      "quote": "Half our chronic pain patients wear Apple Watches or Oura Rings. Before, that data sat on their phones unused. Now we see their sleep patterns and activity levels alongside their symptom reports. We catch declining sleep before patients mention feeling worse. It makes our RTM program significantly more valuable clinically and the patients love that we use their data.",
-      "attribution": "Medical Director",
-      "practice": "Pain management practice with four providers",
-      "location": "Arizona"
-    }
+    ]
   },
   "relatedContent": [
     {

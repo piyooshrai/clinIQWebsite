@@ -185,13 +185,7 @@
         "value": "True",
         "label": "same-day access achieved"
       }
-    ],
-    "testimonial": {
-      "quote": "We stopped telling patients we have nothing available today. Schedulers can see actual capacity throughout the day and find same-day slots that did not exist before. Our waitlist fills cancellations within hours instead of days. Providers see more patients without feeling more rushed because templates actually match visit needs.",
-      "attribution": "Scheduling Manager",
-      "practice": "Internal medicine practice with six providers",
-      "location": "California"
-    }
+    ]
   },
   "relatedContent": [
     {

@@ -38,7 +38,7 @@ interface SpecialtyData {
   }
   proof: {
     stats: readonly { value: string; label: string }[]
-    testimonial: { quote: string; attribution: string; location: string }
+    testimonial?: { quote: string; attribution: string; location: string }
   }
   resource: { title: string; description: string; href: string }
 }
@@ -151,17 +151,19 @@ export default function JsonSpecialtyPage({ data }: { data: SpecialtyData }) {
                 </div>
               ))}
             </div>
-            <figure className={css.testimonial}>
-              <blockquote className={css.testimonialQuote}>
-                &ldquo;{data.proof.testimonial.quote}&rdquo;
-              </blockquote>
-              <figcaption className={css.testimonialAttr}>
-                {data.proof.testimonial.attribution}
-                <span className={css.testimonialLoc}>
-                  {' '}— {data.proof.testimonial.location}
-                </span>
-              </figcaption>
-            </figure>
+            {data.proof.testimonial && (
+              <figure className={css.testimonial}>
+                <blockquote className={css.testimonialQuote}>
+                  &ldquo;{data.proof.testimonial.quote}&rdquo;
+                </blockquote>
+                <figcaption className={css.testimonialAttr}>
+                  {data.proof.testimonial.attribution}
+                  <span className={css.testimonialLoc}>
+                    {' '}— {data.proof.testimonial.location}
+                  </span>
+                </figcaption>
+              </figure>
+            )}
           </div>
         </section>
 

@@ -175,13 +175,7 @@
         "value": "3 days",
         "label": "biologic auth turnaround"
       }
-    ],
-    "testimonial": {
-      "quote": "Biologic authorizations used to consume our staff. Now the templates auto-populate and we track status without calling payers. RTM captures revenue for monitoring we were already doing through portal messages. Infusion scheduling optimization added two more infusion slots per day. The platform paid for itself in the first month.",
-      "attribution": "Practice Administrator",
-      "practice": "Rheumatology practice with three physicians",
-      "location": "Texas"
-    }
+    ]
   },
   "relatedContent": [
     {

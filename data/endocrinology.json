@@ -148,13 +148,7 @@
         "value": "Wearable",
         "label": "activity data"
       }
-    ],
-    "testimonial": {
-      "quote": "Glucose data between visits changed diabetes management. We see patterns instead of isolated A1C snapshots. Activity tracking shows which patients are exercising. RTM generates significant revenue while improving care. Medication adjustments through messaging happen faster than waiting for visits.",
-      "attribution": "Endocrinologist",
-      "practice": "Endocrinology practice",
-      "location": "Wisconsin"
-    }
+    ]
   },
   "relatedContent": [
     {

@@ -122,12 +122,7 @@
           "value": "Days",
           "label": "to implement, not months"
         }
-      ],
-      "testimonial": {
-        "quote": "We added one procedure slot per day just from better turnover visibility. That's $6,000/week we were leaving on the table.",
-        "attribution": "Medical Director, Interventional Pain Practice",
-        "location": "Colorado"
-      }
+      ]
     },
     "resource": {
       "title": "RTM for Pain Management — Quick Start Kit",
@@ -269,12 +264,7 @@
           "value": "100%",
           "label": "observation window visibility"
         }
-      ],
-      "testimonial": {
-        "quote": "Our MAs were drowning. Now they can see their queue, work through it systematically, and actually finish on time. The chaos isn't gone — but it's visible now.",
-        "attribution": "Clinic Manager, MAT Program",
-        "location": "Ohio"
-      }
+      ]
     },
     "resource": {
       "title": "MAT Clinic Workflow Template",
@@ -416,12 +406,7 @@
           "value": "50%",
           "label": "fewer 'how much longer?' questions"
         }
-      ],
-      "testimonial": {
-        "quote": "We didn't know our LWBS rate until we could measure it. Turns out it was 8%. Now it's under 3%. That's real money.",
-        "attribution": "Operations Director, Multi-Site Urgent Care",
-        "location": "Texas"
-      }
+      ]
     },
     "resource": {
       "title": "Urgent Care Patient Flow Audit Checklist",
@@ -555,12 +540,7 @@
           "value": "90%",
           "label": "cancellation slots filled via waitlist"
         }
-      ],
-      "testimonial": {
-        "quote": "My therapists were managing 4 patients by memory and line-of-sight. Now they can see everyone. The clinic runs calmer and patients aren't waiting as long between zones.",
-        "attribution": "Clinic Owner, Outpatient PT Practice",
-        "location": "Oregon"
-      }
+      ]
     },
     "resource": {
       "title": "RTM for Physical Therapy — Implementation Guide",
@@ -699,12 +679,7 @@
           "value": "$7.2K",
           "label": "monthly RTM revenue per 60 patients"
         }
-      ],
-      "testimonial": {
-        "quote": "We were running at 71% chair utilization and thought we were maxed out. Turns out we had scheduling gaps we couldn't see. Now we're at 84%.",
-        "attribution": "Director of Operations, Oncology Infusion Center",
-        "location": "Florida"
-      }
+      ]
     },
     "resource": {
       "title": "Infusion Center Utilization Calculator",
@@ -840,12 +815,7 @@
           "value": "Zero",
           "label": "patients forgotten in waiting"
         }
-      ],
-      "testimonial": {
-        "quote": "My patients used to tense up just walking into the waiting room. Now they check in from their car and walk straight to my office. The session starts calmer.",
-        "attribution": "Psychiatrist, Private Practice",
-        "location": "California"
-      }
+      ]
     },
     "resource": {
       "title": "Private Check-In Implementation Guide for Mental Health",
@@ -980,12 +950,7 @@
           "value": "Zero",
           "label": "cases lost to pre-op bottlenecks"
         }
-      ],
-      "testimonial": {
-        "quote": "We thought our turnovers were 25 minutes. They were actually 38. Seeing the real number was painful, but now we're actually at 24.",
-        "attribution": "Director of Surgical Services",
-        "location": "ASC, Arizona"
-      }
+      ]
     },
     "resource": {
       "title": "OR Turnover Benchmark Calculator",
@@ -1119,12 +1084,7 @@
           "value": "25%",
           "label": "faster Mohs day turnover"
         }
-      ],
-      "testimonial": {
-        "quote": "We were running medical and cosmetic like two separate practices that happened to share a building. Now we can actually see everything.",
-        "attribution": "Practice Administrator, Dermatology Group",
-        "location": "New Jersey"
-      }
+      ]
     },
     "resource": {
       "title": "Dermatology Multi-Workflow Audit Template",
@@ -1258,12 +1218,7 @@
           "value": "5+",
           "label": "modalities tracked in one system"
         }
-      ],
-      "testimonial": {
-        "quote": "Our cardiologists were constantly interrupting to ask about stress results and echo status. Now they just look at their screen. The whole clinic runs smoother.",
-        "attribution": "Practice Manager, Cardiology Associates",
-        "location": "Ohio"
-      }
+      ]
     },
     "resource": {
       "title": "Cardiac Multi-Modality Workflow Audit",
@@ -1383,12 +1338,7 @@
           "value": "15%",
           "label": "improvement in same-day access"
         }
-      ],
-      "testimonial": {
-        "quote": "We thought we knew when we were running behind. We didn't. Now we see it at 10am instead of discovering it at 2pm.",
-        "attribution": "Medical Director, Family Medicine Practice",
-        "location": "Colorado"
-      }
+      ]
     },
     "resource": {
       "title": "Primary Care Flow Audit Template",

@@ -144,13 +144,7 @@
         "value": "Infusion",
         "label": "workflow"
       }
-    ],
-    "testimonial": {
-      "quote": "Chair scheduling optimization increased our capacity without adding chairs. Pre-authorization tracking prevents treatment delays. The infusion workflow board shows where every patient is. Post-infusion symptom monitoring catches reactions early.",
-      "attribution": "Center Director",
-      "practice": "Outpatient infusion center",
-      "location": "Maryland"
-    }
+    ]
   },
   "relatedContent": [
     {

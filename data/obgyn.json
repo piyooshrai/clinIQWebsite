@@ -144,13 +144,7 @@
         "value": "Patient",
         "label": "engagement"
       }
-    ],
-    "testimonial": {
-      "quote": "Prenatal visit scheduling follows the recommended pattern automatically. Patient messaging through the app cut our phone volume significantly. Postpartum monitoring through the app catches concerns early. The workflow fits how OB care should work.",
-      "attribution": "Practice Administrator",
-      "practice": "OB-GYN practice with four physicians",
-      "location": "Michigan"
-    }
+    ]
   },
   "relatedContent": [
     {

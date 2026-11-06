@@ -108,12 +108,7 @@ const specialties = [
           "value": "Zero",
           "label": "observation compliance failures"
         }
-      ],
-      "testimonial": {
-        "quote": "Immunotherapy documentation was our biggest liability exposure. Now every dose, every reaction, every observation is tracked. And we're billing $9K/month in asthma RTM.",
-        "attribution": "Allergist, Private Practice",
-        "location": "North Carolina"
-      }
+      ]
     },
     "resource": {
       "title": "Allergy Practice Optimization Guide",
@@ -236,12 +231,7 @@ const specialties = [
           "value": "Zero",
           "label": "time hunting through portals"
         }
-      ],
-      "testimonial": {
-        "quote": "I was spending 20 minutes per patient logging into different CGM portals. Now it's one dashboard. And we're billing $16K/month in RTM we were leaving on the table.",
-        "attribution": "Endocrinologist, Private Practice",
-        "location": "Minnesota"
-      }
+      ]
     },
     "resource": {
       "title": "Diabetes RTM & CGM Integration Guide",
@@ -365,12 +355,7 @@ const specialties = [
           "value": "$6K",
           "label": "monthly chronic ENT RTM"
         }
-      ],
-      "testimonial": {
-        "quote": "Our patients used to wait 20 minutes between audiology and ENT while everyone figured out if the audiogram was done. Now it's on the board. Zero wasted time.",
-        "attribution": "ENT Practice Administrator",
-        "location": "Maryland"
-      }
+      ]
     },
     "resource": {
       "title": "ENT Practice Optimization Guide",
@@ -494,12 +479,7 @@ const specialties = [
           "value": "Zero",
           "label": "polyp results lost to follow-up gaps"
         }
-      ],
-      "testimonial": {
-        "quote": "We were doing 8 scopes on a good day. Better turnover visibility got us to 10 consistently. That's $1,200/day we were leaving on the table.",
-        "attribution": "GI Practice Administrator",
-        "location": "Georgia"
-      }
+      ]
     },
     "resource": {
       "title": "GI Procedure Optimization Guide",
@@ -622,12 +602,7 @@ const specialties = [
           "value": "30%",
           "label": "faster transplant workup completion"
         }
-      ],
-      "testimonial": {
-        "quote": "Our CKD patients were calling constantly about fluid status and BP. Now they log it themselves, we review it weekly, and we're billing $14K/month in RTM.",
-        "attribution": "Nephrologist, Private Practice",
-        "location": "Illinois"
-      }
+      ]
     },
     "resource": {
       "title": "Nephrology RTM & Dialysis Operations Guide",
@@ -752,12 +727,7 @@ const specialties = [
           "value": "Zero",
           "label": "missed infusions from expired auths"
         }
-      ],
-      "testimonial": {
-        "quote": "My MS patients were already calling monthly to report symptoms. Now those calls are documented RTM and we're billing $15K/month we were leaving on the table.",
-        "attribution": "Neurologist, Private Practice",
-        "location": "Michigan"
-      }
+      ]
     },
     "resource": {
       "title": "Neurology RTM Setup Guide",
@@ -877,12 +847,7 @@ const specialties = [
           "value": "$12K",
           "label": "quarterly post-op RTM revenue"
         }
-      ],
-      "testimonial": {
-        "quote": "We canceled a craniotomy because neuromonitoring wasn't confirmed. That's $50,000 in revenue and a patient who waited another month. Never again.",
-        "attribution": "Neurosurgery Practice Administrator",
-        "location": "Massachusetts"
-      }
+      ]
     },
     "resource": {
       "title": "Neurosurgery Coordination Guide",
@@ -1006,12 +971,7 @@ const specialties = [
           "value": "Zero",
           "label": "missed prenatal screenings"
         }
-      ],
-      "testimonial": {
-        "quote": "Our high-risk OB patients were calling constantly between visits. Now they log BP and weight themselves, we review weekly, and we're billing $8K/month in RTM.",
-        "attribution": "OB/GYN Practice Administrator",
-        "location": "Virginia"
-      }
+      ]
     },
     "resource": {
       "title": "OB/GYN RTM & Procedure Guide",
@@ -1135,12 +1095,7 @@ const specialties = [
           "value": "$0",
           "label": "drug waste from no-shows"
         }
-      ],
-      "testimonial": {
-        "quote": "We saved one Keytruda dose the first week \u2014 $10,000. Then we found we were running at 68% utilization when we thought we were full. Now we're at 85%.",
-        "attribution": "Oncology Practice Administrator",
-        "location": "Florida"
-      }
+      ]
     },
     "resource": {
       "title": "Oncology Infusion Optimization Guide",
@@ -1265,12 +1220,7 @@ const specialties = [
           "value": "Zero",
           "label": "injection auths expired"
         }
-      ],
-      "testimonial": {
-        "quote": "Our patients were spending 90 minutes for a 15-minute exam because testing was chaos. Now everyone knows who's where. Average visit time down to 55 minutes.",
-        "attribution": "Ophthalmology Practice Administrator",
-        "location": "California"
-      }
+      ]
     },
     "resource": {
       "title": "Ophthalmology Testing Flow Guide",
@@ -1388,12 +1338,7 @@ const specialties = [
           "value": "Zero",
           "label": "implants lost to follow-up"
         }
-      ],
-      "testimonial": {
-        "quote": "We were doing 14 extractions on a good day. Better turnover visibility got us to 18. That's $1,200/day we were leaving behind.",
-        "attribution": "Oral Surgeon, Private Practice",
-        "location": "Texas"
-      }
+      ]
     },
     "resource": {
       "title": "Oral Surgery Operations Guide",
@@ -1517,12 +1462,7 @@ const specialties = [
           "value": "True",
           "label": "same-day sick access"
         }
-      ],
-      "testimonial": {
-        "quote": "We were skipping ASQ screenings when running behind because 'we'll do it next time.' Now screenings are done before patients arrive. 100% compliance.",
-        "attribution": "Pediatric Practice Manager",
-        "location": "Connecticut"
-      }
+      ]
     },
     "resource": {
       "title": "Pediatric Practice Efficiency Guide",
@@ -1642,12 +1582,7 @@ const specialties = [
           "value": "$10K",
           "label": "monthly post-op RTM revenue"
         }
-      ],
-      "testimonial": {
-        "quote": "We didn't know our consult conversion rate until we tracked it. Turns out 40% of consults never booked. Now we follow up systematically and conversion is 65%.",
-        "attribution": "Plastic Surgery Practice Manager",
-        "location": "California"
-      }
+      ]
     },
     "resource": {
       "title": "Plastic Surgery Practice Guide",
@@ -1770,12 +1705,7 @@ const specialties = [
           "value": "100%",
           "label": "wound measurement compliance"
         }
-      ],
-      "testimonial": {
-        "quote": "We're a high-volume practice \u2014 35 patients per day. Every minute of turnover matters. clinIQ got us 4 more procedures daily. That's $600/day we were losing.",
-        "attribution": "Podiatrist, Private Practice",
-        "location": "New York"
-      }
+      ]
     },
     "resource": {
       "title": "Podiatry High-Volume Guide",
@@ -1898,12 +1828,7 @@ const specialties = [
           "value": "Zero",
           "label": "sleep studies lost to follow-up gaps"
         }
-      ],
-      "testimonial": {
-        "quote": "We were losing CPAP patients at day 85 because we didn't see compliance dropping until it was too late. Now we intervene at day 60 and save the reimbursement.",
-        "attribution": "Sleep Medicine Director",
-        "location": "Arizona"
-      }
+      ]
     },
     "resource": {
       "title": "Respiratory RTM & PAP Compliance Guide",
@@ -2027,12 +1952,7 @@ const specialties = [
           "value": "100%",
           "label": "DMARD lab compliance tracking"
         }
-      ],
-      "testimonial": {
-        "quote": "We had 3 patients lose Humira access last year because auths expired while someone was on vacation. Never again. clinIQ alerts us 30 days before expiration.",
-        "attribution": "Rheumatology Practice Manager",
-        "location": "Pennsylvania"
-      }
+      ]
     },
     "resource": {
       "title": "Rheumatology Biologic Management Guide",
@@ -2156,12 +2076,7 @@ const specialties = [
           "value": "$10.8K",
           "label": "quarterly post-op RTM revenue"
         }
-      ],
-      "testimonial": {
-        "quote": "We were getting denied for 'insufficient conservative care documentation' on patients who had done everything. Now we document it from day one. Approvals went from 60% to 92%.",
-        "attribution": "Spine Surgery Coordinator",
-        "location": "Texas"
-      }
+      ]
     },
     "resource": {
       "title": "Spine Surgery Pre-Auth Toolkit",
@@ -2281,12 +2196,7 @@ const specialties = [
           "value": "3",
           "label": "additional injections per day"
         }
-      ],
-      "testimonial": {
-        "quote": "Concussion liability scared us. Now every symptom check, every progression decision is documented. And we're billing $8K/month in RTM for recovering athletes.",
-        "attribution": "Sports Medicine Physician",
-        "location": "Colorado"
-      }
+      ]
     },
     "resource": {
       "title": "Sports Medicine Practice Guide",
@@ -2407,12 +2317,7 @@ const specialties = [
           "value": "100%",
           "label": "surgical pre-op compliance"
         }
-      ],
-      "testimonial": {
-        "quote": "Our vein clinic was doing 8 procedures on a good day. Better turnover visibility got us to 11. That's $3,000/day we were leaving behind.",
-        "attribution": "Vascular Surgery Practice Manager",
-        "location": "Kansas"
-      }
+      ]
     },
     "resource": {
       "title": "Vascular Surgery Optimization Guide",
@@ -2531,12 +2436,7 @@ const specialties = [
           "value": "100%",
           "label": "wound measurement documentation"
         }
-      ],
-      "testimonial": {
-        "quote": "We couldn't prove wounds were healing or stalling until patients came back. Now we see it between visits. And we're billing $12K/month in RTM.",
-        "attribution": "Wound Care Center Director",
-        "location": "Tennessee"
-      }
+      ]
     },
     "resource": {
       "title": "Wound Care Operations Guide",

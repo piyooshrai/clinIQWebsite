@@ -117,12 +117,7 @@ const specialties = [
           "value": "5 min",
           "label": "LOMN generation vs 30 min manual"
         }
-      ],
-      "testimonial": {
-        "quote": "RTM paid for clinIQ in the first month. The prior auth tracking alone saved my MA 10 hours a week.",
-        "attribution": "Medical Director, Interventional Pain Practice",
-        "location": "Colorado"
-      }
+      ]
     },
     "resource": {
       "title": "RTM for Pain Management \u2014 Quick Start Kit",
@@ -249,12 +244,7 @@ const specialties = [
           "value": "100%",
           "label": "observation visibility"
         }
-      ],
-      "testimonial": {
-        "quote": "We were tracking Sublocade schedules in Excel. One missed injection is $2,000. clinIQ paid for itself the first month.",
-        "attribution": "Clinic Manager, MAT Program",
-        "location": "Ohio"
-      }
+      ]
     },
     "resource": {
       "title": "MAT Clinic Revenue Kit",
@@ -380,12 +370,7 @@ const specialties = [
           "value": "$18K+",
           "label": "monthly LWBS recovery potential"
         }
-      ],
-      "testimonial": {
-        "quote": "We didn't know our LWBS rate until we measured it. 8%. That's $24,000/month walking out the door. Now we're under 3%.",
-        "attribution": "Operations Director, Multi-Site Urgent Care",
-        "location": "Texas"
-      }
+      ]
     },
     "resource": {
       "title": "LWBS Reduction Playbook",
@@ -509,12 +494,7 @@ const specialties = [
           "value": "Zero",
           "label": "patients forgotten in warm-up"
         }
-      ],
-      "testimonial": {
-        "quote": "We were leaving $8K/month on the table in RTM. The waitlist alone recovered $2K/month in cancellations. ROI in week one.",
-        "attribution": "Clinic Owner, Outpatient PT",
-        "location": "Oregon"
-      }
+      ]
     },
     "resource": {
       "title": "RTM for Physical Therapy \u2014 Setup Guide",
@@ -638,12 +618,7 @@ const specialties = [
           "value": "$7.2K",
           "label": "monthly RTM revenue (60 patients)"
         }
-      ],
-      "testimonial": {
-        "quote": "We saved one Remicade from a no-show in week one. That's $4,000. Then we found the scheduling gaps costing us 2 chairs worth of utilization daily.",
-        "attribution": "Director of Operations, Oncology Infusion Center",
-        "location": "Florida"
-      }
+      ]
     },
     "resource": {
       "title": "Infusion Center Utilization Guide",
@@ -764,12 +739,7 @@ const specialties = [
           "value": "Zero",
           "label": "patients announcing why they're here"
         }
-      ],
-      "testimonial": {
-        "quote": "My patients check in from their car and walk straight to my office. The session starts calmer. And my no-show rate dropped from 22% to 14%.",
-        "attribution": "Psychiatrist, Private Practice",
-        "location": "California"
-      }
+      ]
     },
     "resource": {
       "title": "Private Check-In Guide for Mental Health",
@@ -894,12 +864,7 @@ const specialties = [
           "value": "Zero",
           "label": "cases lost to pre-op delays"
         }
-      ],
-      "testimonial": {
-        "quote": "We thought our turnovers were 25 minutes. They were 38. Painful to see, but now we're actually at 24. That's 2 extra cases per week.",
-        "attribution": "Director of Surgical Services, ASC",
-        "location": "Arizona"
-      }
+      ]
     },
     "resource": {
       "title": "OR Turnover Optimization Guide",
@@ -1023,12 +988,7 @@ const specialties = [
           "value": "3",
           "label": "workflows managed in one system"
         }
-      ],
-      "testimonial": {
-        "quote": "We were running medical and cosmetic like two separate practices. Mohs was its own chaos. Now we see everything in one dashboard.",
-        "attribution": "Practice Administrator, Dermatology Group",
-        "location": "New Jersey"
-      }
+      ]
     },
     "resource": {
       "title": "Dermatology Multi-Workflow Setup Guide",
@@ -1152,12 +1112,7 @@ const specialties = [
           "value": "5+",
           "label": "modalities tracked in one system"
         }
-      ],
-      "testimonial": {
-        "quote": "Our cardiologists were constantly interrupting about stress results and echo status. Now they look at their screen. Clinic runs 30 minutes faster.",
-        "attribution": "Practice Manager, Cardiology Associates",
-        "location": "Ohio"
-      }
+      ]
     },
     "resource": {
       "title": "Cardiac Multi-Modality Setup Guide",
@@ -1281,12 +1236,7 @@ const specialties = [
           "value": "18 min",
           "label": "average wait time reduction"
         }
-      ],
-      "testimonial": {
-        "quote": "We were leaving $8K/month on the table in CCM alone. Add RTM and it's over $12K. The software paid for itself in week one.",
-        "attribution": "Medical Director, Family Medicine",
-        "location": "Colorado"
-      }
+      ]
     },
     "resource": {
       "title": "CCM + RTM Revenue Guide for Primary Care",

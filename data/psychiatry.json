@@ -175,13 +175,7 @@
         "value": "Native",
         "label": "telehealth integration"
       }
-    ],
-    "testimonial": {
-      "quote": "Medication adherence tracking changed my practice. I know before the visit whether patients are taking their medications. RTM captures revenue for monitoring I was already doing. Telehealth through the same app patients use for tracking eliminated platform switching. Between-visit data makes medication decisions more informed.",
-      "attribution": "Psychiatrist",
-      "practice": "Outpatient psychiatry practice",
-      "location": "New York"
-    }
+    ]
   },
   "relatedContent": [
     {
