@@ -43,6 +43,7 @@ export default function DenverPage() {
       <main>
         <LocationSchema slug="denver" place="Denver, CO" description={String(metadata.description)} />
         <LocationHero
+          features={features}
           badge="Denver, CO"
           title="Denver clinics. Active population. High care demands."
           subtitle="Front Range practices serve one of the most health-conscious patient populations in the US — and are growing faster than clinic capacity can keep up."

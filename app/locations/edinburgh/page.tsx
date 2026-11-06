@@ -43,6 +43,7 @@ export default function EdinburghPage() {
       <main>
         <LocationSchema slug="edinburgh" place="Edinburgh, UK" description={String(metadata.description)} />
         <LocationHero
+          features={features}
           badge="Edinburgh, UK"
           title="Edinburgh private practice. Scotland's capital. Premium standards."
           subtitle="Edinburgh's private clinic market serves an affluent professional population, healthcare tourists from across Scotland, and seasonal Festival visitors — all with high expectations."

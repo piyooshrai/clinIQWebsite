@@ -50,6 +50,7 @@ export default function QatarPage() {
       <NavInner />
       <main>
         <LocationHero
+          features={features}
           badge="Qatar"
           title="Qatar's private healthcare ambitions need private-grade operations."
           subtitle="National Health Strategy targets, Sidra-level patient expectations, and an expat-majority population. Your operations need to match your ambition."

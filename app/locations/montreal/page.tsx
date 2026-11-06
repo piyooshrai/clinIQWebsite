@@ -43,6 +43,7 @@ export default function MontrealPage() {
       <main>
         <LocationSchema slug="montreal" place="Montréal, QC" description={String(metadata.description)} />
         <LocationHero
+          features={features}
           badge="Montréal, QC"
           title="Montréal private clinics. French. Fast. Efficient."
           subtitle="Montréal private practices navigate RAMQ alongside growing self-pay demand, Bill 96 French-first obligations, and the academic referral networks of McGill and UdeM."

@@ -43,6 +43,7 @@ export default function ChicagoPage() {
       <main>
         <LocationSchema slug="chicago" place="Chicago, IL" description={String(metadata.description)} />
         <LocationHero
+          features={features}
           badge="Chicago, IL"
           title="Chicago clinics. Midwest efficiency demands."
           subtitle="Chicagoland practices deal with serious payer complexity, strong academic referral networks, and a patient population that spans every socioeconomic tier."

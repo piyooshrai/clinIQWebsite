@@ -43,6 +43,7 @@ export default function AtlantaPage() {
       <main>
         <LocationSchema slug="atlanta" place="Atlanta, GA" description={String(metadata.description)} />
         <LocationHero
+          features={features}
           badge="Atlanta, GA"
           title="Atlanta clinics. Fast-growing market. Efficient operations."
           subtitle="Atlanta's rapid expansion is creating new clinic opportunities and new operational challenges simultaneously. The practices winning in this market are built to scale."

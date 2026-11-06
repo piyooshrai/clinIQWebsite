@@ -43,6 +43,7 @@ export default function VancouverPage() {
       <main>
         <LocationSchema slug="vancouver" place="Vancouver, BC" description={String(metadata.description)} />
         <LocationHero
+          features={features}
           badge="Vancouver, BC"
           title="Vancouver clinics. BC's most competitive healthcare market."
           subtitle="Vancouver private practices manage high operating costs, a sophisticated integrative medicine market, and a growing immigrant patient population — all in Canada's most expensive clinic market."

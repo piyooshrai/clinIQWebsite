@@ -43,6 +43,7 @@ export default function LondonPage() {
       <main>
         <LocationSchema slug="london" place="London, UK" description={String(metadata.description)} />
         <LocationHero
+          features={features}
           badge="London, UK"
           title="London private practice. Harley Street standards. Operational reality."
           subtitle="London's private clinics face the highest patient expectations in the UK, multiple insurer relationships, and overhead costs that make every wasted appointment slot expensive."

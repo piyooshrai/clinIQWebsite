@@ -53,6 +53,7 @@ export default function AustraliaPage() {
       <main>
         <LocationSchema slug="australia" place="Australia" description={String(metadata.description)} placeType="Country" />
         <LocationHero
+          features={features}
           badge="Australia"
           title="Australia's dual-payer system. One workflow layer."
           subtitle="Medicare bulk billing, private health funds, GP referral pathways, and telehealth — all running through the same clinic. Operations matter."

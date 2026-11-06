@@ -43,6 +43,7 @@ export default function BirminghamPage() {
       <main>
         <LocationSchema slug="birmingham" place="Birmingham, UK" description={String(metadata.description)} />
         <LocationHero
+          features={features}
           badge="Birmingham, UK"
           title="Birmingham private clinics. Midlands' largest healthcare market."
           subtitle="Birmingham's private sector is capturing NHS-to-private conversion across the Midlands, serving a diverse population and a growing cosmetic and aesthetic market."

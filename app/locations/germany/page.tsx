@@ -51,6 +51,7 @@ export default function GermanyPage() {
       <NavInner />
       <main>
         <LocationHero
+          features={features}
           badge="Germany"
           title="German private practice. Precision operations."
           subtitle="GOÄ billing complexity, KV system distinctions, GDPR compliance, and Privatpatient expectations. German healthcare demands operational exactness."

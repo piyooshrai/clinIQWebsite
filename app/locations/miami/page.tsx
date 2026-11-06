@@ -43,6 +43,7 @@ export default function MiamiPage() {
       <main>
         <LocationSchema slug="miami" place="Miami, FL" description={String(metadata.description)} />
         <LocationHero
+          features={features}
           badge="Miami, FL"
           title="Miami clinics. International patients. Diverse demand."
           subtitle="South Florida practices serve international medical tourists, one of the nation's highest Medicare Advantage populations, and a bilingual community with high expectations."

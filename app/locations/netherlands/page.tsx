@@ -51,6 +51,7 @@ export default function NetherlandsPage() {
       <NavInner />
       <main>
         <LocationHero
+          features={features}
           badge="Netherlands"
           title="Dutch private practice. Efficient by design."
           subtitle="Zvw eigen risico admin, DBC billing complexity, GP gatekeeping, and AVG compliance. Dutch healthcare rewards operational precision."

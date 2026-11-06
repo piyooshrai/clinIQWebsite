@@ -50,6 +50,7 @@ export default function KuwaitPage() {
       <NavInner />
       <main>
         <LocationHero
+          features={features}
           badge="Kuwait"
           title="Kuwait's private clinics. World-class operations."
           subtitle="MOH compliance, DHAMAN insurance workflows, Arabic-first patient experience, and a private sector that's growing fast. Operate accordingly."

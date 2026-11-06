@@ -43,6 +43,7 @@ export default function LosAngelesPage() {
       <main>
         <LocationSchema slug="los-angeles" place="Los Angeles, CA" description={String(metadata.description)} />
         <LocationHero
+          features={features}
           badge="Los Angeles, CA"
           title="LA clinics. Sprawl. Traffic. High expectations."
           subtitle="From Medi-Cal-heavy community health to concierge practices in the Westside, LA clinics need operations that flex across the whole market."

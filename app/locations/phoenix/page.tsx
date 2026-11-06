@@ -43,6 +43,7 @@ export default function PhoenixPage() {
       <main>
         <LocationSchema slug="phoenix" place="Phoenix, AZ" description={String(metadata.description)} />
         <LocationHero
+          features={features}
           badge="Phoenix, AZ"
           title="Phoenix clinics. Desert sun. Seasonal demand spikes."
           subtitle="Greater Phoenix practices manage one of the most predictable — and operationally demanding — seasonal demand patterns in American healthcare."

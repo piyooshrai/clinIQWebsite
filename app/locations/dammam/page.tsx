@@ -43,6 +43,7 @@ export default function DammamPage() {
       <main>
         <LocationSchema slug="dammam" place="Dammam, Saudi Arabia" description={String(metadata.description)} />
         <LocationHero
+          features={features}
           badge="Dammam, Saudi Arabia"
           title="Dammam clinics. Eastern Province energy. Healthcare demand."
           subtitle="The Eastern Province's energy economy drives a premium private healthcare market — and an industrial workforce with distinct occupational health needs."

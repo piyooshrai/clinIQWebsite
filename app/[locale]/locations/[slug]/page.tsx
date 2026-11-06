@@ -153,7 +153,8 @@ export default async function LocationSlugPage({
             <div className={s.heroGrain} />
           </div>
           <div className={s.container}>
-            <div className={s.heroContent}>
+            <div className={css.heroGrid}>
+            <div className={`${s.heroContent} ${css.heroMain}`}>
               <div className={s.badge}>
                 {data.abbr ? `${data.abbr} · Locations` : 'Locations'}
               </div>
@@ -162,7 +163,7 @@ export default async function LocationSlugPage({
 
               {/* City pills */}
               {data.hero.cities && data.hero.cities.length > 0 && (
-                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginTop: '1.5rem' }}>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginTop: '-1rem', marginBottom: '2.5rem' }}>
                   {data.hero.cities.map((city) => (
                     <span
                       key={city}
@@ -180,19 +181,6 @@ export default async function LocationSlugPage({
                   ))}
                 </div>
               )}
-
-              {/* Stats strip in hero */}
-              {hasStats && (
-                <div className={css.heroStats} style={{ marginTop: '2rem' }}>
-                  {data.stats!.map(({ value, label }) => (
-                    <div key={label} className={css.heroStat}>
-                      <span className={css.heroStatValue}>{value}</span>
-                      <span className={css.heroStatLabel}>{label}</span>
-                    </div>
-                  ))}
-                </div>
-              )}
-
               <div className={s.heroActions}>
                 <a href="/demo" className={s.btnPrimary}>
                   Schedule a Demo
@@ -202,6 +190,21 @@ export default async function LocationSlugPage({
                 </a>
                 <a href="/locations" className={s.btnGhost}>All Locations</a>
               </div>
+            </div>
+            {hasStats && (
+              <aside className={css.heroAside} aria-label="At a glance">
+                <span className={css.heroAsideLabel}>At a glance</span>
+                <dl className={css.heroStats}>
+                  {data.stats!.map(({ value, label }) => (
+                    <div key={label} className={css.heroStat}>
+                      <dt className={css.heroStatValue}>{value}</dt>
+                      <dd className={css.heroStatLabel}>{label}</dd>
+                    </div>
+                  ))}
+                </dl>
+                <p className={css.heroAsideNote}>15-minute demo, configured for your specialty.</p>
+              </aside>
+            )}
             </div>
           </div>
         </section>

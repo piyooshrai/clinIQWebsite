@@ -51,6 +51,7 @@ export default function FrancePage() {
       <NavInner />
       <main>
         <LocationHero
+          features={features}
           badge="France"
           title="La médecine privée française. Des opérations à la hauteur."
           subtitle="CPAM, complémentaires santé, CNIL compliance, and patient expectations shaped by Doctolib. French private practice deserves operations that match."

@@ -1,6 +1,5 @@
 import { Fragment } from 'react'
 import type { Metadata } from 'next'
-import Image from 'next/image'
 import { renderBody } from '@/lib/renderContent'
 import { isHrefPublished } from '@/lib/blog-schedule'
 import NavInner from '@/components/NavInner'
@@ -122,6 +121,8 @@ export default function BlogJsonPage({ data }: { data: BlogPostData }) {
           title={data.hero.h1}
           date={formatDate(data.publishDate)}
           readTime={readTime(data.wordCount)}
+          subhead={data.hero.subhead}
+          image={data.heroImage}
         />
 
         {/* Back link */}
@@ -140,19 +141,6 @@ export default function BlogJsonPage({ data }: { data: BlogPostData }) {
 
             {/* Main content */}
             <article className={css.prose}>
-              {data.heroImage && (
-                <figure className={css.heroImageFigure}>
-                  <Image
-                    src={data.heroImage.src}
-                    alt={data.heroImage.alt}
-                    width={data.heroImage.width}
-                    height={data.heroImage.height}
-                    sizes="(max-width: 1023px) 100vw, 720px"
-                    priority
-                    className={css.heroImageImg}
-                  />
-                </figure>
-              )}
               {data.content.map((section, i) => (
                 <Fragment key={i}>
                 <section>

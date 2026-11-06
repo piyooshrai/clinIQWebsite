@@ -51,6 +51,7 @@ export default function OmanPage() {
       <NavInner />
       <main>
         <LocationHero
+          features={features}
           badge="Oman"
           title="Oman's healthcare transformation. Operational readiness required."
           subtitle="Vision 2040 targets, MOH licensing standards, and a Muscat private sector that's accelerating. Your clinic operations need to move with it."

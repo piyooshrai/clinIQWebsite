@@ -43,6 +43,7 @@ export default function TorontoPage() {
       <main>
         <LocationSchema slug="toronto" place="Toronto, ON" description={String(metadata.description)} />
         <LocationHero
+          features={features}
           badge="Toronto, ON"
           title="Toronto clinics. Ontario's health system complexity. Fixed."
           subtitle="Toronto practices navigate OHIP alongside a growing private-pay market, multilingual patient populations, and patients who expect digital-first healthcare experiences."

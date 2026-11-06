@@ -209,18 +209,11 @@ export default async function CompareSlugPage({
             <div className={s.heroGrain} />
           </div>
           <div className={s.container}>
-            <div className={s.heroContent}>
+            <div className={css.heroGrid}>
+            <div className={`${s.heroContent} ${css.heroMain}`}>
               <div className={s.badge}>Comparison</div>
               <h1 className={s.heroTitle}>{data.hero.h1}</h1>
               <p className={s.heroSubtitle}>{data.hero.subhead}</p>
-              <div className={css.heroStats}>
-                {data.hero.stats.map(({ value, label }) => (
-                  <div key={label} className={css.heroStat}>
-                    <span className={css.heroStatValue}>{value}</span>
-                    <span className={css.heroStatLabel}>{label}</span>
-                  </div>
-                ))}
-              </div>
               <div className={s.heroActions}>
                 <a href="/demo" className={s.btnPrimary}>
                   See clinIQ Live
@@ -230,6 +223,21 @@ export default async function CompareSlugPage({
                 </a>
                 <a href="/compare" className={s.btnGhost}>All Comparisons</a>
               </div>
+            </div>
+            {data.hero.stats.length > 0 && (
+              <aside className={css.heroAside} aria-label="At a glance">
+                <span className={css.heroAsideLabel}>At a glance</span>
+                <dl className={css.heroStats}>
+                  {data.hero.stats.map(({ value, label }) => (
+                    <div key={label} className={css.heroStat}>
+                      <dt className={css.heroStatValue}>{value}</dt>
+                      <dd className={css.heroStatLabel}>{label}</dd>
+                    </div>
+                  ))}
+                </dl>
+                <p className={css.heroAsideNote}>15-minute demo, configured for your specialty.</p>
+              </aside>
+            )}
             </div>
           </div>
         </section>

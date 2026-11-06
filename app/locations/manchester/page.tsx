@@ -43,6 +43,7 @@ export default function ManchesterPage() {
       <main>
         <LocationSchema slug="manchester" place="Manchester, UK" description={String(metadata.description)} />
         <LocationHero
+          features={features}
           badge="Manchester, UK"
           title="Manchester private clinics. Northern England's healthcare hub."
           subtitle="Greater Manchester's growing private market is capturing NHS-to-private conversion across the North West — with patients travelling from Lancashire, Yorkshire, and Cheshire for specialist access."

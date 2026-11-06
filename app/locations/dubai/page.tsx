@@ -43,6 +43,7 @@ export default function DubaiPage() {
       <main>
         <LocationSchema slug="dubai" place="Dubai, UAE" description={String(metadata.description)} />
         <LocationHero
+          features={features}
           badge="Dubai, UAE"
           title="Dubai clinics. World-class city. World-class operations."
           subtitle="Dubai private clinics operate under DHA licensing, NABIDH compliance requirements, and the premium expectations of medical tourism patients. Operations have to match."

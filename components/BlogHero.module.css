@@ -72,3 +72,39 @@
   background: currentColor;
   flex-shrink: 0;
 }
+
+.heroSubhead {
+  font-size: clamp(1.0625rem, 1.8vw, 1.1875rem);
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 640px;
+  margin-bottom: 1.75rem;
+}
+
+.heroGrid {
+  position: relative;
+  display: grid;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.heroFigure {
+  margin: 0;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  box-shadow: 0 30px 60px -30px rgba(0, 0, 0, 0.7);
+}
+
+.heroImage {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1024px) {
+  .heroGrid {
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+    gap: 4rem;
+  }
+}

@@ -43,6 +43,7 @@ export default function HoustonPage() {
       <main>
         <LocationSchema slug="houston" place="Houston, TX" description={String(metadata.description)} />
         <LocationHero
+          features={features}
           badge="Houston, TX"
           title="Houston clinics. Texas Medical Center in your backyard."
           subtitle="Houston practices compete in the shadow of the world's largest medical complex — and serve one of the most economically diverse patient populations in the US."

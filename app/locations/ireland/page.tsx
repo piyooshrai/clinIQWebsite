@@ -51,6 +51,7 @@ export default function IrelandPage() {
       <NavInner />
       <main>
         <LocationHero
+          features={features}
           badge="Ireland"
           title="Private healthcare in Ireland. The HSE queue isn't your problem."
           subtitle="VHI and Laya insurance workflows, GP referral management, GDPR compliance, and demand growing faster than the public system can absorb. Operate accordingly."

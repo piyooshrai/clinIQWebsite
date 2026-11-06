@@ -50,6 +50,7 @@ export default function BahrainPage() {
       <NavInner />
       <main>
         <LocationHero
+          features={features}
           badge="Bahrain"
           title="Bahrain's healthcare is growing. Operate at the pace."
           subtitle="NHRA compliance, medical tourism expectations, and GCC cross-border referrals. Your operations need to scale as fast as the market."

@@ -43,6 +43,7 @@ export default function JeddahPage() {
       <main>
         <LocationSchema slug="jeddah" place="Jeddah, Saudi Arabia" description={String(metadata.description)} />
         <LocationHero
+          features={features}
           badge="Jeddah, Saudi Arabia"
           title="Jeddah clinics. Port city. Regional healthcare hub."
           subtitle="Jeddah serves pilgrims, international medical tourists, and a rapidly growing affluent population — each segment with distinct operational demands."

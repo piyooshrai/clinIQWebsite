@@ -43,6 +43,7 @@ export default function RiyadhPage() {
       <main>
         <LocationSchema slug="riyadh" place="Riyadh, Saudi Arabia" description={String(metadata.description)} />
         <LocationHero
+          features={features}
           badge="Riyadh, Saudi Arabia"
           title="Riyadh clinics. Capital city scale. Vision 2030 standards."
           subtitle="Riyadh's private clinic market is expanding rapidly under Vision 2030 — with CCHI payer complexity, Riayati integration requirements, and rising patient expectations setting the operational bar."

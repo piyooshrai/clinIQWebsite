@@ -40,6 +40,7 @@ export default function NewYorkPage() {
       <NavInner />
       <main>
         <LocationHero
+          features={features}
           badge="New York, NY"
           title="New York City clinics. High volume. High expectations."
           subtitle="NYC practices face the most complex mix of volume, payer rules, and patient diversity of any US market. clinIQ is built for that."

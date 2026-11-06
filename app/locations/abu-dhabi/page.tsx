@@ -43,6 +43,7 @@ export default function AbuDhabiPage() {
       <main>
         <LocationSchema slug="abu-dhabi" place="Abu Dhabi, UAE" description={String(metadata.description)} />
         <LocationHero
+          features={features}
           badge="Abu Dhabi, UAE"
           title="Abu Dhabi clinics. Malaffi compliance. Premium standards."
           subtitle="Abu Dhabi private clinics navigate Malaffi HIE requirements, DOH licensing, and a payer mix led by Thiqa and Daman — all while serving patients with high expectations."
