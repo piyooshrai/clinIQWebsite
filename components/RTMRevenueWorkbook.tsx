@@ -11,11 +11,13 @@ interface Inputs {
   billingMgmtOnly: boolean
 }
 
+// 2026 Medicare national non-facility amounts (CMS Physician Fee Schedule).
 const RATES = {
-  setup: 18,        // 98975 billed once at enrollment
-  deviceSupply: 47, // 98976/98977/98978 per month
-  mgmt20: 50,       // 98980 first 20 min
-  mgmtAddl: 40,     // 98981 each addl 20 min
+  setup: 21.71,        // 98975 billed once at enrollment
+  deviceSupply: 51.44, // 98976/98977/98978 (16–30 days) and 98984–98986 (2–15 days) per month
+  mgmt10: 26.39,       // 98979 10–19 min
+  mgmt20: 54.11,       // 98980 first 20 min
+  mgmtAddl: 41.42,     // 98981 each addl 20 min
 }
 
 const COMMERCIAL_MULTIPLIER = 0.85 // commercial typically 85% of Medicare
@@ -126,7 +128,7 @@ export default function RTMRevenueWorkbook() {
 
             <div className={styles.noteBox}>
               <p className={styles.noteText}>
-                Rates based on 2025 Medicare national averages. Commercial estimates use 85% of Medicare. Actual
+                Rates are 2026 Medicare national non-facility amounts from the CMS Physician Fee Schedule. Partial months still bill: 2–15 days of data (98984–98986) and 10–19 minutes of management (98979). Commercial estimates use 85% of Medicare. Actual
                 payments vary by geography and payer contract.
               </p>
             </div>
@@ -160,22 +162,32 @@ export default function RTMRevenueWorkbook() {
               <div className={styles.codeRow}>
                 <span className={styles.codeNum}>98975</span>
                 <span className={styles.codeName}>Initial setup</span>
-                <span className={styles.codeRate}>~$18 (one-time)</span>
+                <span className={styles.codeRate}>~$21.71 (one-time)</span>
               </div>
               <div className={styles.codeRow}>
                 <span className={styles.codeNum}>98976–98978</span>
-                <span className={styles.codeName}>Device supply (monthly)</span>
-                <span className={styles.codeRate}>~$47/mo</span>
+                <span className={styles.codeName}>Device supply, 16–30 days</span>
+                <span className={styles.codeRate}>~$51.44/mo</span>
+              </div>
+              <div className={styles.codeRow}>
+                <span className={styles.codeNum}>98984–98986</span>
+                <span className={styles.codeName}>Device supply, 2–15 days</span>
+                <span className={styles.codeRate}>~$51.44/mo</span>
+              </div>
+              <div className={styles.codeRow}>
+                <span className={styles.codeNum}>98979</span>
+                <span className={styles.codeName}>Treatment mgmt, 10–19 min</span>
+                <span className={styles.codeRate}>~$26.39/mo</span>
               </div>
               <div className={styles.codeRow}>
                 <span className={styles.codeNum}>98980</span>
                 <span className={styles.codeName}>Treatment mgmt, first 20 min</span>
-                <span className={styles.codeRate}>~$50/mo</span>
+                <span className={styles.codeRate}>~$54.11/mo</span>
               </div>
               <div className={styles.codeRow}>
                 <span className={styles.codeNum}>98981</span>
                 <span className={styles.codeName}>Treatment mgmt, addl 20 min</span>
-                <span className={styles.codeRate}>~$40/mo</span>
+                <span className={styles.codeRate}>~$41.42/mo</span>
               </div>
             </div>
 
