@@ -29,7 +29,7 @@ const SPANISH_METADATA = {
   '/pricing': {
     title: 'Precios de clinIQ',
     description:
-      'Precios transparentes de clinIQ. Starter $249/mes, Professional $499/mes, Enterprise personalizado. Sin comisiones por transacción.',
+      'Precios transparentes de clinIQ. Starter $449/mes, Professional $999/mes por ubicación, Enterprise personalizado. Sin cargos por paciente ni comisiones por transacción.',
   },
   '/solutions': {
     title: 'A quién servimos: clinIQ',

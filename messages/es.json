@@ -727,7 +727,7 @@
     }
   },
   "pricingTable": {
-    "month": "/mes",
+    "month": "/mes por ubicación",
     "pricingNote": "precio a medida",
     "custom": "Personalizado",
     "mostPopular": "Más popular",
@@ -740,27 +740,30 @@
       "f3": "Soporte por correo electrónico"
     },
     "professional": {
-      "patients": "Hasta 2,000 pacientes al mes",
-      "f1": "Todo lo incluido en Starter",
-      "f2": "Facturación de RTM",
-      "f3": "Programación de citas",
-      "f4": "Panel de analítica",
-      "f5": "Soporte prioritario"
+      "patients": "Hasta 2,000 pacientes/mes",
+      "f1": "Todo lo de Starter",
+      "f2": "Facturación RTM",
+      "f3": "Autorización previa",
+      "f4": "Agendamiento",
+      "f5": "Panel de análisis",
+      "f6": "Soporte prioritario"
     },
     "enterprise": {
       "patients": "Pacientes ilimitados",
-      "f1": "Todo lo incluido en Professional",
-      "f2": "Preautorización",
+      "f1": "Todo lo de Professional",
+      "f2": "Implementación en varias ubicaciones",
       "f3": "Integraciones personalizadas",
       "f4": "Gerente de éxito dedicado",
       "f5": "Garantía de SLA"
     },
     "implementationLabel": "Implementación",
-    "implementationValue": "$750 de configuración única",
+    "implementationValue": "$750 Starter · $1,500 Professional (pago único)",
     "ehrLabel": "Integraciones con EHR",
     "ehrValue": "Cotización personalizada según el EHR",
     "allPlansLabel": "Todos los planes incluyen",
-    "allPlansValue": "Infraestructura conforme a HIPAA · 99.9% de disponibilidad · Incorporación gratuita"
+    "allPlansValue": "Sin cargos por paciente ni por autorización · Firmamos un BAA con cada cliente · Infraestructura conforme a HIPAA · 99.9% de disponibilidad",
+    "addonLabel": "Complemento de recepción con IA",
+    "addonValue": "$699/mes por ubicación. Contesta cada llamada, confirma y reprograma citas y da seguimiento a las inasistencias."
   },
   "contactForm": {
     "name": "Nombre",

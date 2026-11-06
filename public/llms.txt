@@ -61,12 +61,15 @@ clinIQ connects to existing EHR systems via FHIR API and HL7 — no data migrati
 
 ## Pricing
 
-- Starter: $249/month — up to 5 providers, core patient flow and check-in
-- Professional: $499/month — unlimited providers, RTM billing, pre-auth, full analytics
-- Enterprise: Custom — multi-location, white-label, advanced integrations
-- RTM Add-on: $25/patient/month for Remote Therapeutic Monitoring billing automation
-- Implementation: $750 one-time onboarding fee
-- All plans include EHR integration, onboarding, and support
+All prices are flat, per location. No per-patient, per-authorization or per-transaction fees.
+
+- Starter: $449/month per location — up to 500 patients/month. Digital check-in, real-time patient flow, LobbyView waiting room display.
+- Professional: $999/month per location — up to 2,000 patients/month. Everything in Starter plus RTM billing, prior authorization, scheduling, and analytics.
+- Enterprise: Custom — unlimited patients, multi-location, custom integrations, dedicated success manager, SLA.
+- AI Front Desk add-on: $699/month per location — answers every call, confirms and reschedules visits, follows up on no-shows, and hands complex calls to staff.
+- Implementation: $750 one-time (Starter) or $1,500 (Professional).
+- EHR integration: quoted per EHR.
+- clinIQ signs a Business Associate Agreement (BAA) with every client.
 
 ## Company
 

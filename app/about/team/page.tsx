@@ -7,12 +7,12 @@ import s from '@/app/specialties/specialty-full.module.css'
 export const metadata: Metadata = {
   title: 'Team & Support — clinIQ Implementation & Integration',
   description:
-    'clinIQ implementation specialists, EHR integration engineers, and ongoing support. Standard implementation $750, 1–2 weeks. Works with Epic, athenahealth, NextGen, eClinicalWorks, and more.',
+    'clinIQ implementation specialists, EHR integration engineers, and ongoing support. Implementation $750 (Starter) or $1,500 (Professional), 1–2 weeks. Works with Epic, athenahealth, NextGen, eClinicalWorks, and more.',
   alternates: { canonical: 'https://www.cliniqhealthcare.com/about/team' },
   openGraph: {
     title: 'Team & Support — clinIQ Implementation & Integration',
     description:
-      'clinIQ implementation specialists, EHR integration engineers, and ongoing support. Standard implementation $750, 1–2 weeks. Works with Epic, athenahealth, NextGen, eClinicalWorks, and more.',
+      'clinIQ implementation specialists, EHR integration engineers, and ongoing support. Implementation $750 (Starter) or $1,500 (Professional), 1–2 weeks. Works with Epic, athenahealth, NextGen, eClinicalWorks, and more.',
     type: 'website',
     url: 'https://www.cliniqhealthcare.com/about/team',
   },
@@ -68,12 +68,12 @@ export default function TeamPage() {
                 Live in days.<br /><em>Not months.</em>
               </h2>
               <p className={s.sectionDesc} style={{ color: 'rgba(255,255,255,0.6)' }}>
-                Standard clinIQ implementation is a one-time $750 setup fee. Our team handles EHR integration configuration, staff training, and go-live support. Most practices are fully operational within one to two weeks of signing.
+                Standard clinIQ implementation is a one-time $750 setup fee for Starter and $1,500 for Professional. Our team handles EHR integration configuration, staff training, and go-live support. Most practices are fully operational within one to two weeks of signing.
               </p>
             </div>
             <div className={`${s.modulesGrid} ${s.threeCol}`} style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))' }}>
               <div className={s.moduleCard} style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.08)' }}>
-                <h3 className={s.moduleTitle} style={{ color: 'var(--white)' }}>Standard Implementation — $750</h3>
+                <h3 className={s.moduleTitle} style={{ color: 'var(--white)' }}>Implementation — $750 Starter · $1,500 Professional</h3>
                 <p className={s.moduleDesc} style={{ color: 'rgba(255,255,255,0.6)' }}>Includes: EHR integration setup, digital check-in configuration, patient flow dashboard setup, staff training (up to 4 sessions), 30-day go-live support, and RTM enrollment walkthrough.</p>
               </div>
               <div className={s.moduleCard} style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.08)' }}>

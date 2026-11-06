@@ -25,8 +25,8 @@ export function productSchema({ name, description, url, category }: {
     offers: {
       '@type': 'AggregateOffer',
       priceCurrency: 'USD',
-      lowPrice: '249',
-      highPrice: '499',
+      lowPrice: '449',
+      highPrice: '999',
       offerCount: 3,
       url: `${BASE_URL}/pricing`,
     },

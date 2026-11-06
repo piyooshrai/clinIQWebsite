@@ -59,9 +59,9 @@ const specialties = [
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month \u2014 Patient flow, basic tracking. One location.",
-      "professional": "$499/month \u2014 Everything. Asthma RTM, immunotherapy tracking, injection flow, testing management.",
-      "implementation": "$750 one-time \u2014 Allergy workflow mapping, configuration, training.",
+      "starter": "$449/month \u2014 Patient flow, basic tracking. One location.",
+      "professional": "$999/month \u2014 Everything. Asthma RTM, immunotherapy tracking, injection flow, testing management.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 Allergy workflow mapping, configuration, training.",
       "integration": "Custom quote \u2014 Allergy EHR integrations."
     },
     "faqs": [
@@ -178,9 +178,9 @@ const specialties = [
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month \u2014 Patient flow, basic tracking. One location.",
-      "professional": "$499/month \u2014 Everything. Diabetes RTM, CGM integration, pump management, thyroid tracking.",
-      "implementation": "$750 one-time \u2014 Endocrinology workflow mapping, device integration, training.",
+      "starter": "$449/month \u2014 Patient flow, basic tracking. One location.",
+      "professional": "$999/month \u2014 Everything. Diabetes RTM, CGM integration, pump management, thyroid tracking.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 Endocrinology workflow mapping, device integration, training.",
       "integration": "Custom quote \u2014 CGM platforms, pump systems, and EHR integrations."
     },
     "faqs": [
@@ -302,9 +302,9 @@ const specialties = [
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month \u2014 Patient flow, basic tracking. One location.",
-      "professional": "$499/month \u2014 Everything. Procedure optimization, audiology sync, chronic ENT RTM.",
-      "implementation": "$750 one-time \u2014 ENT workflow mapping, configuration, training.",
+      "starter": "$449/month \u2014 Patient flow, basic tracking. One location.",
+      "professional": "$999/month \u2014 Everything. Procedure optimization, audiology sync, chronic ENT RTM.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 ENT workflow mapping, configuration, training.",
       "integration": "Custom quote \u2014 ENT EHR and audiology system integrations."
     },
     "faqs": [
@@ -426,9 +426,9 @@ const specialties = [
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month \u2014 Basic patient flow and procedure tracking. One location.",
-      "professional": "$499/month \u2014 Everything. IBD RTM, procedure throughput, path tracking, prep compliance.",
-      "implementation": "$750 one-time \u2014 GI practice workflow mapping, configuration, training.",
+      "starter": "$449/month \u2014 Basic patient flow and procedure tracking. One location.",
+      "professional": "$999/month \u2014 Everything. IBD RTM, procedure throughput, path tracking, prep compliance.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 GI practice workflow mapping, configuration, training.",
       "integration": "Custom quote \u2014 Endoscopy reporting and EHR integrations."
     },
     "faqs": [
@@ -549,9 +549,9 @@ const specialties = [
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month \u2014 Clinic patient flow, basic tracking. One location.",
-      "professional": "$499/month \u2014 Everything. CKD RTM, dialysis visibility, transplant tracking, access management.",
-      "implementation": "$750 one-time \u2014 Nephrology/dialysis workflow mapping, configuration, training.",
+      "starter": "$449/month \u2014 Clinic patient flow, basic tracking. One location.",
+      "professional": "$999/month \u2014 Everything. CKD RTM, dialysis visibility, transplant tracking, access management.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 Nephrology/dialysis workflow mapping, configuration, training.",
       "integration": "Custom quote \u2014 Dialysis management system and EHR integrations."
     },
     "faqs": [
@@ -674,9 +674,9 @@ const specialties = [
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month \u2014 Patient flow, check-in, basic analytics. One location.",
-      "professional": "$499/month \u2014 Everything. RTM, testing coordination, infusion tracking, procedure management.",
-      "implementation": "$750 one-time \u2014 Neurology workflow mapping, configuration, training.",
+      "starter": "$449/month \u2014 Patient flow, check-in, basic analytics. One location.",
+      "professional": "$999/month \u2014 Everything. RTM, testing coordination, infusion tracking, procedure management.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 Neurology workflow mapping, configuration, training.",
       "integration": "Custom quote \u2014 Neurology EHR and testing system integrations."
     },
     "faqs": [
@@ -798,9 +798,9 @@ const specialties = [
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month \u2014 Clinic flow, basic tracking.",
-      "professional": "$499/month \u2014 Everything. Complex case coordination, OR visibility, LOMN, post-op RTM.",
-      "implementation": "$750 one-time \u2014 Neurosurgery workflow mapping, configuration, training.",
+      "starter": "$449/month \u2014 Clinic flow, basic tracking.",
+      "professional": "$999/month \u2014 Everything. Complex case coordination, OR visibility, LOMN, post-op RTM.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 Neurosurgery workflow mapping, configuration, training.",
       "integration": "Custom quote \u2014 OR scheduling, imaging, and EHR integrations."
     },
     "faqs": [
@@ -918,9 +918,9 @@ const specialties = [
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month \u2014 Patient flow, basic tracking. One location.",
-      "professional": "$499/month \u2014 Everything. Prenatal RTM, procedure throughput, testing timeline, high-risk monitoring.",
-      "implementation": "$750 one-time \u2014 OB/GYN workflow mapping, configuration, training.",
+      "starter": "$449/month \u2014 Patient flow, basic tracking. One location.",
+      "professional": "$999/month \u2014 Everything. Prenatal RTM, procedure throughput, testing timeline, high-risk monitoring.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 OB/GYN workflow mapping, configuration, training.",
       "integration": "Custom quote \u2014 OB/GYN EHR and ultrasound system integrations."
     },
     "faqs": [
@@ -1042,9 +1042,9 @@ const specialties = [
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month \u2014 Basic infusion tracking and patient flow. One location.",
-      "professional": "$499/month \u2014 Everything. Utilization optimization, RTM, drug prep sync, nursing load.",
-      "implementation": "$750 one-time \u2014 Oncology workflow mapping, configuration, training.",
+      "starter": "$449/month \u2014 Basic infusion tracking and patient flow. One location.",
+      "professional": "$999/month \u2014 Everything. Utilization optimization, RTM, drug prep sync, nursing load.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 Oncology workflow mapping, configuration, training.",
       "integration": "Custom quote \u2014 Oncology EHR and pharmacy system integrations."
     },
     "faqs": [
@@ -1167,9 +1167,9 @@ const specialties = [
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month \u2014 Patient flow, basic testing tracking. One location.",
-      "professional": "$499/month \u2014 Everything. Testing optimization, injection management, retina RTM, surgical tracking.",
-      "implementation": "$750 one-time \u2014 Ophthalmology workflow mapping, configuration, training.",
+      "starter": "$449/month \u2014 Patient flow, basic testing tracking. One location.",
+      "professional": "$999/month \u2014 Everything. Testing optimization, injection management, retina RTM, surgical tracking.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 Ophthalmology workflow mapping, configuration, training.",
       "integration": "Custom quote \u2014 EHR, imaging, and ASC integrations."
     },
     "faqs": [
@@ -1289,9 +1289,9 @@ const specialties = [
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month \u2014 Patient flow, procedure tracking. One location.",
-      "professional": "$499/month \u2014 Everything. Sedation coordination, implant tracking, referral management.",
-      "implementation": "$750 one-time \u2014 Oral surgery workflow mapping, configuration, training.",
+      "starter": "$449/month \u2014 Patient flow, procedure tracking. One location.",
+      "professional": "$999/month \u2014 Everything. Sedation coordination, implant tracking, referral management.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 Oral surgery workflow mapping, configuration, training.",
       "integration": "Custom quote \u2014 Practice management and imaging integrations."
     },
     "faqs": [
@@ -1409,9 +1409,9 @@ const specialties = [
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month \u2014 Patient flow, check-in, basic analytics. One location.",
-      "professional": "$499/month \u2014 Everything. Screening tracking, vaccine management, same-day visibility, multi-provider.",
-      "implementation": "$750 one-time \u2014 Pediatric workflow mapping, configuration, training.",
+      "starter": "$449/month \u2014 Patient flow, check-in, basic analytics. One location.",
+      "professional": "$999/month \u2014 Everything. Screening tracking, vaccine management, same-day visibility, multi-provider.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 Pediatric workflow mapping, configuration, training.",
       "integration": "Custom quote \u2014 Pediatric EHR and immunization registry integrations."
     },
     "faqs": [
@@ -1533,9 +1533,9 @@ const specialties = [
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month \u2014 Patient flow, basic tracking. One location.",
-      "professional": "$499/month \u2014 Everything. Conversion tracking, pre-auth, LOMN, post-op RTM.",
-      "implementation": "$750 one-time \u2014 Plastic surgery workflow mapping, configuration, training.",
+      "starter": "$449/month \u2014 Patient flow, basic tracking. One location.",
+      "professional": "$999/month \u2014 Everything. Conversion tracking, pre-auth, LOMN, post-op RTM.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 Plastic surgery workflow mapping, configuration, training.",
       "integration": "Custom quote \u2014 Practice management and EHR integrations."
     },
     "faqs": [
@@ -1652,9 +1652,9 @@ const specialties = [
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month \u2014 Patient flow, procedure tracking. One location.",
-      "professional": "$499/month \u2014 Everything. Diabetic foot RTM, wound tracking, orthotics management.",
-      "implementation": "$750 one-time \u2014 Podiatry workflow mapping, configuration, training.",
+      "starter": "$449/month \u2014 Patient flow, procedure tracking. One location.",
+      "professional": "$999/month \u2014 Everything. Diabetic foot RTM, wound tracking, orthotics management.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 Podiatry workflow mapping, configuration, training.",
       "integration": "Custom quote \u2014 Podiatry EHR integrations."
     },
     "faqs": [
@@ -1775,9 +1775,9 @@ const specialties = [
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month \u2014 Patient flow, basic tracking. One location.",
-      "professional": "$499/month \u2014 Everything. Respiratory RTM, PAP compliance, sleep study tracking, PFT coordination.",
-      "implementation": "$750 one-time \u2014 Pulmonology/sleep workflow mapping, configuration, training.",
+      "starter": "$449/month \u2014 Patient flow, basic tracking. One location.",
+      "professional": "$999/month \u2014 Everything. Respiratory RTM, PAP compliance, sleep study tracking, PFT coordination.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 Pulmonology/sleep workflow mapping, configuration, training.",
       "integration": "Custom quote \u2014 EHR, spirometry, and PAP data integrations."
     },
     "faqs": [
@@ -1899,9 +1899,9 @@ const specialties = [
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month \u2014 Patient flow, basic tracking. One location.",
-      "professional": "$499/month \u2014 Everything. RTM, biologic auth tracking, DMARD monitoring, infusion scheduling.",
-      "implementation": "$750 one-time \u2014 Rheumatology workflow mapping, configuration, training.",
+      "starter": "$449/month \u2014 Patient flow, basic tracking. One location.",
+      "professional": "$999/month \u2014 Everything. RTM, biologic auth tracking, DMARD monitoring, infusion scheduling.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 Rheumatology workflow mapping, configuration, training.",
       "integration": "Custom quote \u2014 Rheumatology EHR and specialty pharmacy integrations."
     },
     "faqs": [
@@ -2023,9 +2023,9 @@ const specialties = [
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month \u2014 Patient flow, basic tracking. One location.",
-      "professional": "$499/month \u2014 Everything. LOMN generation, conservative care tracking, RTM, OR visibility.",
-      "implementation": "$750 one-time \u2014 Spine surgery workflow mapping, configuration, training.",
+      "starter": "$449/month \u2014 Patient flow, basic tracking. One location.",
+      "professional": "$999/month \u2014 Everything. LOMN generation, conservative care tracking, RTM, OR visibility.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 Spine surgery workflow mapping, configuration, training.",
       "integration": "Custom quote \u2014 Surgical scheduling and EHR integrations."
     },
     "faqs": [
@@ -2147,9 +2147,9 @@ const specialties = [
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month \u2014 Patient flow, basic tracking. One location.",
-      "professional": "$499/month \u2014 Everything. Injury RTM, concussion protocols, injection throughput, team management.",
-      "implementation": "$750 one-time \u2014 Sports medicine workflow mapping, configuration, training.",
+      "starter": "$449/month \u2014 Patient flow, basic tracking. One location.",
+      "professional": "$999/month \u2014 Everything. Injury RTM, concussion protocols, injection throughput, team management.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 Sports medicine workflow mapping, configuration, training.",
       "integration": "Custom quote \u2014 Sports medicine EHR integrations."
     },
     "faqs": [
@@ -2268,9 +2268,9 @@ const specialties = [
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month \u2014 Patient flow, basic tracking. One location.",
-      "professional": "$499/month \u2014 Everything. PAD RTM, procedure throughput, surgical coordination, vascular lab.",
-      "implementation": "$750 one-time \u2014 Vascular surgery workflow mapping, configuration, training.",
+      "starter": "$449/month \u2014 Patient flow, basic tracking. One location.",
+      "professional": "$999/month \u2014 Everything. PAD RTM, procedure throughput, surgical coordination, vascular lab.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 Vascular surgery workflow mapping, configuration, training.",
       "integration": "Custom quote \u2014 EHR, OR scheduling, and vascular lab integrations."
     },
     "faqs": [
@@ -2387,9 +2387,9 @@ const specialties = [
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month \u2014 Patient flow, basic wound tracking. One location.",
-      "professional": "$499/month \u2014 Everything. Wound RTM, healing analytics, HBO scheduling, procedure throughput.",
-      "implementation": "$750 one-time \u2014 Wound care workflow mapping, configuration, training.",
+      "starter": "$449/month \u2014 Patient flow, basic wound tracking. One location.",
+      "professional": "$999/month \u2014 Everything. Wound RTM, healing analytics, HBO scheduling, procedure throughput.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 Wound care workflow mapping, configuration, training.",
       "integration": "Custom quote \u2014 Wound care documentation and HBO system integrations."
     },
     "faqs": [

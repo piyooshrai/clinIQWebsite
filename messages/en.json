@@ -727,7 +727,7 @@
     }
   },
   "pricingTable": {
-    "month": "/month",
+    "month": "/month per location",
     "pricingNote": "pricing",
     "custom": "Custom",
     "mostPopular": "Most Popular",
@@ -743,24 +743,27 @@
       "patients": "Up to 2,000 patients/month",
       "f1": "Everything in Starter",
       "f2": "RTM Billing",
-      "f3": "Scheduling",
-      "f4": "Analytics dashboard",
-      "f5": "Priority support"
+      "f3": "Prior Authorization",
+      "f4": "Scheduling",
+      "f5": "Analytics dashboard",
+      "f6": "Priority support"
     },
     "enterprise": {
       "patients": "Unlimited patients",
       "f1": "Everything in Professional",
-      "f2": "Pre-Authorization",
+      "f2": "Multi-location rollout",
       "f3": "Custom integrations",
       "f4": "Dedicated success manager",
       "f5": "SLA guarantee"
     },
     "implementationLabel": "Implementation",
-    "implementationValue": "$750 one-time setup",
+    "implementationValue": "$750 Starter · $1,500 Professional (one-time)",
     "ehrLabel": "EHR Integrations",
     "ehrValue": "Custom quote based on EHR",
     "allPlansLabel": "All plans include",
-    "allPlansValue": "HIPAA-compliant infrastructure · 99.9% uptime · Free onboarding"
+    "allPlansValue": "No per-patient or per-authorization fees · BAA signed with every client · HIPAA-compliant infrastructure · 99.9% uptime",
+    "addonLabel": "AI Front Desk add-on",
+    "addonValue": "$699/month per location. Answers every call, confirms and reschedules visits, follows up on no-shows."
   },
   "contactForm": {
     "name": "Name",

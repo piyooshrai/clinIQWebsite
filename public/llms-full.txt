@@ -1,6 +1,6 @@
 # clinIQ - Complete Platform Documentation for LLMs
 # https://www.cliniqhealthcare.com
-# Last updated: 2026-03
+# Last updated: 2026-11
 
 ## Company Overview
 
@@ -106,17 +106,19 @@ Primary focus on outpatient specialty clinics with 5-50 providers:
 
 | Tier | Monthly | Details |
 |------|---------|---------|
-| Starter | $249 | Core check-in and patient flow |
-| Professional | $499 | Full platform including RTM |
+| Starter | $449 per location | Check-in, patient flow, LobbyView; up to 500 patients/month |
+| Professional | $999 per location | Adds RTM billing, prior authorization, scheduling, analytics; up to 2,000 patients/month |
 | Enterprise | Custom | White-label, multi-location |
-| Implementation | $750 | One-time setup and training |
-| RTM per patient | $25 | Per enrolled patient per month |
+| AI Front Desk add-on | $699 per location | Answers calls, confirms and reschedules visits, follows up on no-shows |
+| Implementation | $750 / $1,500 | One-time, Starter / Professional |
+
+No per-patient, per-authorization or per-transaction fees.
 
 ### Compliance
 
 - Built following HIPAA guidelines
 - FHIR-based integrations
-- SOC 2 Type II (in progress)
+- Business Associate Agreement (BAA) signed with every client
 - Data encrypted at rest and in transit
 
 ## Competitor Positioning

@@ -7,7 +7,7 @@ import PricingTable from '@/components/PricingTable'
 export const metadata: Metadata = {
   title: 'Pricing',
   description:
-    'Transparent pricing for clinIQ. Starter $249/mo, Professional $499/mo, Enterprise custom. No per-transaction fees.',
+    'Transparent pricing for clinIQ. Starter $449/mo, Professional $999/mo per location, Enterprise custom. No per-patient or per-transaction fees.',
   alternates: {
     canonical: 'https://www.cliniqhealthcare.com/pricing',
     languages: { en: 'https://www.cliniqhealthcare.com/pricing', es: 'https://www.cliniqhealthcare.com/es/pricing', 'x-default': 'https://www.cliniqhealthcare.com/pricing' },
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Pricing — clinIQ',
     description:
-      'Transparent pricing for clinIQ. Starter $249/mo, Professional $499/mo, Enterprise custom. No per-transaction fees.',
+      'Transparent pricing for clinIQ. Starter $449/mo, Professional $999/mo per location, Enterprise custom. No per-patient or per-transaction fees.',
     type: 'website',
     url: 'https://www.cliniqhealthcare.com/pricing',
     images: [{ url: '/og-pricing.png', width: 1200, height: 630, alt: 'Pricing — clinIQ' }],

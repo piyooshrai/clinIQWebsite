@@ -69,9 +69,9 @@
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month — Check-in, patient flow, basic analytics. One location.",
-      "professional": "$499/month — Everything. RTM billing, pre-authorization tracking, multi-location, priority support.",
-      "implementation": "$750 one-time — Workflow mapping, configuration, training, go-live support.",
+      "starter": "$449/month — Check-in, patient flow, basic analytics. One location.",
+      "professional": "$999/month — Everything. RTM billing, pre-authorization tracking, multi-location, priority support.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) — Workflow mapping, configuration, training, go-live support.",
       "integration": "Custom quote — We integrate with eClinicalWorks, Athena, and others."
     },
     "faqs": [
@@ -211,9 +211,9 @@
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month — Check-in, patient flow, basic analytics. One location.",
-      "professional": "$499/month — Everything. RTM billing, scheduling, multi-location, priority support.",
-      "implementation": "$750 one-time — Workflow mapping, configuration, training, go-live support.",
+      "starter": "$449/month — Check-in, patient flow, basic analytics. One location.",
+      "professional": "$999/month — Everything. RTM billing, scheduling, multi-location, priority support.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) — Workflow mapping, configuration, training, go-live support.",
       "integration": "Custom quote — We integrate with major EHRs including those common in behavioral health."
     },
     "faqs": [
@@ -353,9 +353,9 @@
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month — Check-in, patient flow, basic analytics. One location.",
-      "professional": "$499/month — Everything including LobbyView, advanced analytics, multi-location, priority support.",
-      "implementation": "$750 one-time — Workflow mapping, configuration, training, go-live support.",
+      "starter": "$449/month — Check-in, patient flow, basic analytics. One location.",
+      "professional": "$999/month — Everything including LobbyView, advanced analytics, multi-location, priority support.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) — Workflow mapping, configuration, training, go-live support.",
       "integration": "Custom quote — We integrate with major urgent care EHRs and PM systems."
     },
     "faqs": [
@@ -487,9 +487,9 @@
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month — Check-in, patient flow, basic analytics. One location.",
-      "professional": "$499/month — Everything including RTM billing, waitlist management, multi-location, priority support.",
-      "implementation": "$750 one-time — Workflow mapping, configuration, training, go-live support.",
+      "starter": "$449/month — Check-in, patient flow, basic analytics. One location.",
+      "professional": "$999/month — Everything including RTM billing, waitlist management, multi-location, priority support.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) — Workflow mapping, configuration, training, go-live support.",
       "integration": "Custom quote — We integrate with PT-specific EHRs like WebPT, Clinicient, and others."
     },
     "faqs": [
@@ -626,9 +626,9 @@
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month — Basic chair tracking and patient flow. One location.",
-      "professional": "$499/month — Everything including RTM, advanced scheduling, multi-chair analytics, priority support.",
-      "implementation": "$750 one-time — Workflow mapping, configuration, training, go-live support.",
+      "starter": "$449/month — Basic chair tracking and patient flow. One location.",
+      "professional": "$999/month — Everything including RTM, advanced scheduling, multi-chair analytics, priority support.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) — Workflow mapping, configuration, training, go-live support.",
       "integration": "Custom quote — We integrate with oncology EHRs and pharmacy systems."
     },
     "faqs": [
@@ -762,9 +762,9 @@
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month — Private check-in, patient flow, basic analytics. One location.",
-      "professional": "$499/month — Everything including waitlist, no-show prediction, multi-location, priority support.",
-      "implementation": "$750 one-time — Workflow mapping, configuration, training, go-live support.",
+      "starter": "$449/month — Private check-in, patient flow, basic analytics. One location.",
+      "professional": "$999/month — Everything including waitlist, no-show prediction, multi-location, priority support.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) — Workflow mapping, configuration, training, go-live support.",
       "integration": "Custom quote — We integrate with behavioral health EHRs."
     },
     "faqs": [
@@ -897,9 +897,9 @@
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month — Basic surgical tracking. One facility.",
-      "professional": "$499/month — Everything including turnover analytics, prior auth tracking, multi-facility dashboard.",
-      "implementation": "$750 one-time — Workflow mapping, configuration, training, go-live support.",
+      "starter": "$449/month — Basic surgical tracking. One facility.",
+      "professional": "$999/month — Everything including turnover analytics, prior auth tracking, multi-facility dashboard.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) — Workflow mapping, configuration, training, go-live support.",
       "integration": "Custom quote — We integrate with surgical scheduling systems."
     },
     "faqs": [
@@ -1031,9 +1031,9 @@
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month — Basic patient flow, single workflow type.",
-      "professional": "$499/month — Multiple workflows (medical/cosmetic/Mohs), full analytics, multi-location.",
-      "implementation": "$750 one-time — Workflow mapping for all derm services, configuration, training.",
+      "starter": "$449/month — Basic patient flow, single workflow type.",
+      "professional": "$999/month — Multiple workflows (medical/cosmetic/Mohs), full analytics, multi-location.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) — Workflow mapping for all derm services, configuration, training.",
       "integration": "Custom quote — We integrate with derm-specific EHRs like Modernizing Medicine."
     },
     "faqs": [
@@ -1165,9 +1165,9 @@
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month — Clinic patient flow, basic analytics.",
-      "professional": "$499/month — Full multi-modality tracking, RTM, reading queues, device flags, multi-location.",
-      "implementation": "$750 one-time — Multi-modality workflow mapping, configuration, training.",
+      "starter": "$449/month — Clinic patient flow, basic analytics.",
+      "professional": "$999/month — Full multi-modality tracking, RTM, reading queues, device flags, multi-location.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) — Multi-modality workflow mapping, configuration, training.",
       "integration": "Custom quote — Integration with cardiac EHRs and device vendors."
     },
     "faqs": [
@@ -1289,9 +1289,9 @@
     ],
     "pricing": {
       "show": true,
-      "starter": "$249/month — Patient flow, check-in, basic analytics.",
-      "professional": "$499/month — Everything including RTM, CCM tracking support, multi-provider analytics.",
-      "implementation": "$750 one-time — Workflow mapping, configuration, training.",
+      "starter": "$449/month — Patient flow, check-in, basic analytics.",
+      "professional": "$999/month — Everything including RTM, CCM tracking support, multi-provider analytics.",
+      "implementation": "$750 one-time (Starter) or $1,500 (Professional) — Workflow mapping, configuration, training.",
       "integration": "Custom quote — Integration with primary care EHRs."
     },
     "faqs": [

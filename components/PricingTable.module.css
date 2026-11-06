@@ -187,9 +187,26 @@
 
 @media (min-width: 768px) {
   .notes {
-    flex-direction: row;
-    align-items: stretch;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 900px;
   }
+
+  .notes .noteItem + .noteItem {
+    border-top: none;
+  }
+
+  .notes .noteItem:nth-child(odd) {
+    border-right: 1px solid var(--border-light);
+  }
+
+  .notes .noteItem:nth-child(-n + 2) {
+    border-bottom: 1px solid var(--border-light);
+  }
+}
+
+.noteItem + .noteItem {
+  border-top: 1px solid var(--border-light);
 }
 
 .noteItem {

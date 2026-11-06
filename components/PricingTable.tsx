@@ -27,7 +27,7 @@ export default function PricingTable() {
   const tiers: PricingTier[] = [
     {
       name: 'Starter',
-      price: '$249',
+      price: '$449',
       priceNote: t('month'),
       patients: t('starter.patients'),
       features: [t('starter.f1'), t('starter.f2'), t('starter.f3')],
@@ -36,12 +36,12 @@ export default function PricingTable() {
     },
     {
       name: 'Professional',
-      price: '$499',
+      price: '$999',
       priceNote: t('month'),
       badge: t('mostPopular'),
       featured: true,
       patients: t('professional.patients'),
-      features: [t('professional.f1'), t('professional.f2'), t('professional.f3'), t('professional.f4'), t('professional.f5')],
+      features: [t('professional.f1'), t('professional.f2'), t('professional.f3'), t('professional.f4'), t('professional.f5'), t('professional.f6')],
       cta: t('getStarted'),
       ctaHref: '/demo',
     },
@@ -106,12 +106,14 @@ export default function PricingTable() {
             <span className={styles.noteLabel}>{t('implementationLabel')}</span>
             <span className={styles.noteValue}>{t('implementationValue')}</span>
           </div>
-          <div className={styles.noteDivider} />
+          <div className={styles.noteItem}>
+            <span className={styles.noteLabel}>{t('addonLabel')}</span>
+            <span className={styles.noteValue}>{t('addonValue')}</span>
+          </div>
           <div className={styles.noteItem}>
             <span className={styles.noteLabel}>{t('ehrLabel')}</span>
             <span className={styles.noteValue}>{t('ehrValue')}</span>
           </div>
-          <div className={styles.noteDivider} />
           <div className={styles.noteItem}>
             <span className={styles.noteLabel}>{t('allPlansLabel')}</span>
             <span className={styles.noteValue}>{t('allPlansValue')}</span>

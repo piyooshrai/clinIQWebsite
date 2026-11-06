@@ -149,7 +149,7 @@ const INTENTS: Intent[] = [
     priority: 82,
     match: (t) => hasAny(t, ['price', 'pricing', 'cost', 'pay', 'plans', 'plan', 'expensive', 'cheap', 'monthly', 'annual', 'subscription', 'quote', 'budget']) || hasPhrase(t, ['how much']),
     reply: () =>
-      "Starter is $249 a month and Professional is $499 a month, plus a one-time $750 setup. See the [full pricing](/pricing), or [book a 15 minute demo](/demo) and we will price it for your clinic.",
+      "Starter is $449 a month and Professional is $999 a month per location, with no per-patient fees. Setup is a one-time $750 for Starter or $1,500 for Professional. See the [full pricing](/pricing), or [book a 15 minute demo](/demo) and we will price it for your clinic.",
   },
 
   // ── Demo / walkthrough ──────────────────────────────────────────────────
