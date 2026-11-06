@@ -79,7 +79,14 @@
     {
       "id": "how-it-works",
       "h2": "How LobbyView Works",
-      "content": "LobbyView gives patients a real-time view of their place in the queue, displayed on a lobby screen without using names. It works alongside [digital check-in](/features/check-in) and [patient flow](/features/patient-flow), so what patients see reflects what is actually happening in your clinic.\n\nThe display answers the question patients are already asking before they have to ask it. That matters in every specialty, and especially in practices where discretion counts, including [behavioral health](/specialties/behavioral-health) and [addiction medicine](/specialties/addiction-medicine).\n\nTo see how it would look in your waiting room, [book a 15-minute demo](/demo)."
+      "content": "LobbyView gives patients a real-time view of their place in the queue, displayed on a lobby screen without using names. It works alongside [digital check-in](/features/check-in) and [patient flow](/features/patient-flow), so what patients see reflects what is actually happening in your clinic.\n\nThe display answers the question patients are already asking before they have to ask it. That matters in every specialty, and especially in practices where discretion counts, including [behavioral health](/specialties/behavioral-health) and [addiction medicine](/specialties/addiction-medicine).\n\nTo see how it would look in your waiting room, [book a 15-minute demo](/demo).",
+      "image": {
+        "src": "/editorial/lobby-wait-status-display.jpg",
+        "alt": "Clinic waiting room TV showing three provider queues, Dr. A 12 minutes, Dr. B on time, Dr. C 20 minutes, with no patient names, while two patients wait",
+        "width": 1600,
+        "height": 900,
+        "caption": "Illustrative example: each provider's queue and estimated wait on the lobby TV, with no patient names."
+      }
     },
     {
       "id": "what-patients-see",
