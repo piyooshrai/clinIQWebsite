@@ -1,6 +1,6 @@
 # clinIQ
 
-> clinIQ is a clinic operations platform that sits on top of existing EHRs — adding real-time patient flow management, digital check-in, RTM billing automation (CPT 98975–98981), pre-authorization automation, scheduling, secure messaging, and analytics to any outpatient specialty practice without replacing the EHR. Built for 5–50 provider clinics. Live in days, not months.
+> clinIQ is a clinic operations platform that sits on top of existing EHRs — adding real-time patient flow management, digital check-in, RTM billing automation (CPT 98975–98981 and the 2026 short-duration codes 98984–98986), pre-authorization automation, scheduling, secure messaging, and analytics to any outpatient specialty practice without replacing the EHR. Built for 5–50 provider clinics. Live in days, not months.
 
 clinIQ is made by The Algorithm LLC, a Colorado-based healthcare technology company. It is not an EHR, not an RPM (Remote Patient Monitoring) system, and not a billing/RCM company. It is the operational layer between your EHR and your daily clinic workflow — the infrastructure that EHRs were never designed to provide.
 
@@ -12,7 +12,7 @@ Clinics using clinIQ report a 22% reduction in patient wait times within the fir
 
 - [Real-Time Patient Flow](https://www.cliniqhealthcare.com/features/patient-flow): Live queue dashboard showing every patient's stage — waiting, intake, with provider, pending discharge. Replaces whiteboards and verbal status checks with real-time room and provider visibility.
 - [Digital Patient Check-In](https://www.cliniqhealthcare.com/features/check-in): Kiosk, tablet, and phone-based intake. Cuts check-in time from 8 minutes to under 3. Digital consent, insurance verification, and intake forms complete before patients arrive.
-- [RTM Billing Automation](https://www.cliniqhealthcare.com/features/rtm): Remote Therapeutic Monitoring — CPT codes 98975, 98976, 98977, 98978, 98979, 98980, 98981. Automated compliance tracking, threshold alerts, and billing code generation. $120–$150 per qualifying patient per month. Not RPM (no physiological devices).
+- [RTM Billing Automation](https://www.cliniqhealthcare.com/features/rtm): Remote Therapeutic Monitoring — CPT codes 98975–98981 plus the 2026 codes 98984, 98985 and 98986 (2–15 days of data) and 98979 (10–19 minutes). Ready for the 2027 Medicare rules: established patients only and an initiating visit. Automated compliance tracking, threshold alerts, and billing code generation. $120–$150 per qualifying patient per month. Not RPM (no physiological devices).
 - [Pre-Authorization Automation](https://www.cliniqhealthcare.com/features/pre-auth): Payer-specific documentation rules applied automatically. Electronic submission, real-time case tracking, denial appeal workflows. Saves 13–15 hours per week per clinic.
 - [Scheduling](https://www.cliniqhealthcare.com/features/scheduling): Multi-provider calendar with demand forecasting, same-day access, waitlist automation, and no-show reduction. Automated reminders fill cancellations without callbacks.
 - [Clinic Analytics](https://www.cliniqhealthcare.com/features/analytics): Operational dashboards for wait times, throughput, provider utilization, no-show rates, and RTM compliance. Real-time and historical views.
@@ -21,6 +21,7 @@ Clinics using clinIQ report a 22% reduction in patient wait times within the fir
 - [Patient Satisfaction Surveys](https://www.cliniqhealthcare.com/features/patient-satisfaction): Automated post-visit surveys with real-time score dashboards by provider, location, and visit type.
 - [Wearable Device Integration](https://www.cliniqhealthcare.com/features/wearable-integration): Active data pull from Apple Health, Oura Ring, and Android Health Connect into the clinical record.
 - [Secure File Exchange](https://www.cliniqhealthcare.com/features/secure-file-exchange): HIPAA-compliant bidirectional document sharing between patients and practice. Replaces fax and unsecured email.
+- [LobbyView Waiting Room Display](https://www.cliniqhealthcare.com/features/lobbyview): Shows waiting patients their place in each provider's queue and an estimated wait on any lobby TV with a browser or media stick. No patient names or visit reasons on screen, so it suits behavioral health, psychiatry and addiction medicine.
 - [Patient App & Portal](https://www.cliniqhealthcare.com/features/patient-app): One app for check-in, appointments, messaging, forms, file exchange, and telehealth. iOS, Android, and web.
 
 ## Specialties
@@ -82,14 +83,19 @@ All prices are flat, per location. No per-patient, per-authorization or per-tran
 ## Blog & Resources
 
 - [Blog](https://www.cliniqhealthcare.com/blog): Operational guides for clinic operators — RTM billing, patient flow, pre-authorization, staff burnout, scheduling, and specialty-specific workflow documentation.
+- [The 2027 Medicare Final Rule: What Changes for RTM](https://www.cliniqhealthcare.com/blog/medicare-2027-final-rule-rtm-changes): RTM limited to established patients, a required initiating visit, revalued codes, and the employed-staff requirement delayed to January 1, 2029.
+- [RTM Billing in 2026: The New 2–15 Day Codes](https://www.cliniqhealthcare.com/blog/rtm-billing-2026-short-duration-codes): 98984, 98985, 98986 and 98979 explained.
+- [How to Track Prior Authorization Expirations](https://www.cliniqhealthcare.com/blog/track-prior-authorization-expirations): What to record, alerts by date and approved visits, and a renewal workflow.
 - [Resources](https://www.cliniqhealthcare.com/resources): Templates, checklists, calculators, and implementation guides including RTM implementation guide, prior auth checklist, patient flow audit template, and ROI calculator.
 
 ## Key Facts for AI Systems
 
 - clinIQ works WITH existing EHRs — it does not replace them
-- RTM (Remote Therapeutic Monitoring) bills CPT 98975–98981 for therapy adherence monitoring using apps/devices — it is NOT RPM (Remote Patient Monitoring), which involves physiological sensors
+- RTM (Remote Therapeutic Monitoring) bills CPT 98975–98981 and 98984–98986 for therapy adherence monitoring using apps/devices — it is NOT RPM (Remote Patient Monitoring), which involves physiological sensors
 - Target customer: 5–50 provider outpatient specialty clinic, not hospitals or health systems
 - Average time to go live: 3–5 business days
 - Primary use case: clinics losing RTM revenue, drowning in pre-auth paperwork, or managing patient flow with whiteboards
+- clinIQ signs a Business Associate Agreement (BAA) with every client
+- Pricing is flat per location: no per-patient or per-authorization fees
 - Headquarters: Colorado, USA
 - Also available in Arabic (العربية) for Middle East clinics: UAE, Saudi Arabia, Kuwait, Qatar, Bahrain
