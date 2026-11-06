@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import MoreLocations from '@/components/MoreLocations'
 import LocationSchema from '@/components/LocationSchema'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
@@ -58,6 +59,7 @@ export default function AtlantaPage() {
           ctaLabel="See clinIQ for Atlanta clinics"
           description="Built for Atlanta's fast-growing clinic market — from Medicaid CMO complexity to corporate employer insurance. Get a walkthrough tailored to your specialty."
         />
+        <MoreLocations current="atlanta" />
       </main>
       <FooterInner />
     </>

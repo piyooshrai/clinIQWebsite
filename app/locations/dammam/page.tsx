@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import MoreLocations from '@/components/MoreLocations'
 import LocationSchema from '@/components/LocationSchema'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
@@ -58,6 +59,7 @@ export default function DammamPage() {
           ctaLabel="See clinIQ for Dammam clinics"
           description="Built for the Eastern Province's Aramco market, occupational health workflows, and regional expansion. Request a walkthrough for your facility."
         />
+        <MoreLocations current="dammam" />
       </main>
       <FooterInner />
     </>

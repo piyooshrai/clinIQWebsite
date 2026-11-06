@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import MoreLocations from '@/components/MoreLocations'
 import LocationSchema from '@/components/LocationSchema'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
@@ -58,6 +59,7 @@ export default function DenverPage() {
           ctaLabel="See clinIQ for Denver clinics"
           description="Built for high-growth Colorado practices managing complex payer mixes and high-volume musculoskeletal care. Get a demo today."
         />
+        <MoreLocations current="denver" />
       </main>
       <FooterInner />
     </>

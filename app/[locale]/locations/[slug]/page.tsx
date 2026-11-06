@@ -4,6 +4,7 @@ import path from 'path'
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import MoreLocations from '@/components/MoreLocations'
 import { renderContent } from '@/lib/renderContent'
 import s from '@/app/specialties/specialty-full.module.css'
 import css from '@/components/templates/PillarSpecialtyPage.module.css'
@@ -345,6 +346,7 @@ export default async function LocationSlugPage({
           </div>
         </section>
 
+        <MoreLocations current={params.slug} />
       </main>
       <FooterInner />
     </>

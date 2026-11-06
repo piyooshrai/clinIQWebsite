@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import MoreLocations from '@/components/MoreLocations'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
 import LocationFeatures from '@/components/LocationFeatures'
@@ -66,6 +67,7 @@ export default function GermanyPage() {
           ctaLabel="See clinIQ for German clinics"
           description="15-minute walkthrough. We'll show you scheduling, queue management, and analytics configured for German private practice."
         />
+        <MoreLocations current="germany" />
       </main>
       <FooterInner />
     </>

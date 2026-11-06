@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import MoreLocations from '@/components/MoreLocations'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
 import LocationFeatures from '@/components/LocationFeatures'
@@ -55,6 +56,7 @@ export default function NewYorkPage() {
           ctaLabel="See clinIQ for New York City clinics"
           description="Built for high-volume, high-complexity practices across all five boroughs. Get a walkthrough tailored to your specialty and payer mix."
         />
+        <MoreLocations current="new-york" />
       </main>
       <FooterInner />
     </>

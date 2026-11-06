@@ -236,6 +236,18 @@
       "title": "Pain Management Pre-Auth",
       "href": "/specialties/pain-management",
       "description": "Procedure-specific LOMN templates for injections, RFAs, and stimulators."
+    },
+    {
+      "type": "resource",
+      "title": "Prior Auth Denial Playbook",
+      "href": "/resources/pre-auth-denial-playbook",
+      "description": "Win more appeals with the right documentation."
+    },
+    {
+      "type": "resource",
+      "title": "Prior Authorization Workflow Checklist",
+      "href": "/resources/prior-auth-checklist",
+      "description": "A step-by-step checklist for every authorization."
     }
   ],
   "schema": {

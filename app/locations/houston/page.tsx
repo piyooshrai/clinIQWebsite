@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import MoreLocations from '@/components/MoreLocations'
 import LocationSchema from '@/components/LocationSchema'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
@@ -58,6 +59,7 @@ export default function HoustonPage() {
           ctaLabel="See clinIQ for Houston clinics"
           description="Designed for Houston's unique mix of high-acuity patients, payer complexity, and suburban growth. Request a walkthrough for your specialty."
         />
+        <MoreLocations current="houston" />
       </main>
       <FooterInner />
     </>

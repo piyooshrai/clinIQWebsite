@@ -140,7 +140,8 @@
       "title": "Psychiatry",
       "href": "/specialties/psychiatry",
       "description": "Coordinating therapy with psychiatric medication management."
-    }
+    },
+    { "type": "blog", "title": "RTM for Behavioral Health", "href": "/blog/rtm-behavioral-health", "description": "What qualifies and how to bill it." }
   ],
   "schema": {
     "type": "MedicalSpecialty",

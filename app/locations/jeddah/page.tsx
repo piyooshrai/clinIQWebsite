@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import MoreLocations from '@/components/MoreLocations'
 import LocationSchema from '@/components/LocationSchema'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
@@ -58,6 +59,7 @@ export default function JeddahPage() {
           ctaLabel="See clinIQ for Jeddah clinics"
           description="Built for Jeddah's pilgrimage season surges, international patient mix, and cosmetic medicine market. Request a walkthrough for your specialty."
         />
+        <MoreLocations current="jeddah" />
       </main>
       <FooterInner />
     </>

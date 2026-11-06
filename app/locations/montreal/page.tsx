@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import MoreLocations from '@/components/MoreLocations'
 import LocationSchema from '@/components/LocationSchema'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
@@ -58,6 +59,7 @@ export default function MontrealPage() {
           ctaLabel="See clinIQ for Montréal clinics"
           description="Built for Quebec's bilingual private market — RAMQ workflow separation, French-first patient communications, and academic referral coordination. Request a walkthrough."
         />
+        <MoreLocations current="montreal" />
       </main>
       <FooterInner />
     </>

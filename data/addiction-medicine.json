@@ -195,6 +195,18 @@
       "title": "Behavioral Health",
       "href": "/specialties/behavioral-health",
       "description": "Therapy coordination for comprehensive addiction treatment."
+    },
+    {
+      "type": "blog",
+      "title": "Cut Prior Authorization Denials 40%",
+      "href": "/blog/addiction-medicine-prior-auth-denial-reduction",
+      "description": "Prior authorization for addiction medicine."
+    },
+    {
+      "type": "resource",
+      "title": "MAT Clinic Workflow Template",
+      "href": "/resources/mat-clinic-workflow-template",
+      "description": "A ready-to-use MAT clinic workflow."
     }
   ],
   "schema": {

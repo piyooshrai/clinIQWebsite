@@ -195,6 +195,12 @@
       "title": "Addiction Medicine",
       "href": "/specialties/addiction-medicine",
       "description": "Managing co-occurring psychiatric and substance use disorders."
+    },
+    {
+      "type": "blog",
+      "title": "Why 25% of New Psych Patients No-Show",
+      "href": "/blog/psychiatry-no-shows",
+      "description": "What drives new-patient no-shows and how to cut them."
     }
   ],
   "schema": {

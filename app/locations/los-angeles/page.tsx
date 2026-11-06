@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import MoreLocations from '@/components/MoreLocations'
 import LocationSchema from '@/components/LocationSchema'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
@@ -58,6 +59,7 @@ export default function LosAngelesPage() {
           ctaLabel="See clinIQ for Los Angeles clinics"
           description="Purpose-built for the LA Basin market — whether you're a community health practice in the Valley or a specialist in Santa Monica. Request a walkthrough today."
         />
+        <MoreLocations current="los-angeles" />
       </main>
       <FooterInner />
     </>

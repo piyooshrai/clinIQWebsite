@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import MoreLocations from '@/components/MoreLocations'
 import LocationSchema from '@/components/LocationSchema'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
@@ -58,6 +59,7 @@ export default function MiamiPage() {
           ctaLabel="See clinIQ for Miami clinics"
           description="Purpose-built for South Florida's international patient mix, Medicare Advantage complexity, and bilingual intake requirements. Request a walkthrough."
         />
+        <MoreLocations current="miami" />
       </main>
       <FooterInner />
     </>

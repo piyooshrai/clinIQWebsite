@@ -212,6 +212,24 @@
       "title": "Urgent Care Patient Flow",
       "href": "/specialties/urgent-care",
       "description": "Check-in strategies for high-volume walk-in environments."
+    },
+    {
+      "type": "blog",
+      "title": "Check-In Is Your First Bottleneck",
+      "href": "/blog/check-in-bottleneck",
+      "description": "Why the first five minutes set the whole day."
+    },
+    {
+      "type": "blog",
+      "title": "Why Front Desk Staff Keep Quitting",
+      "href": "/blog/front-desk-burnout",
+      "description": "The workload behind front desk turnover."
+    },
+    {
+      "type": "resource",
+      "title": "Patient Check-In Solutions Comparison Guide",
+      "href": "/resources/check-in-comparison-guide",
+      "description": "Kiosk, tablet and phone check-in compared."
     }
   ],
   "schema": {

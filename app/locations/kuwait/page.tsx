@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import MoreLocations from '@/components/MoreLocations'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
 import LocationFeatures from '@/components/LocationFeatures'
@@ -65,6 +66,7 @@ export default function KuwaitPage() {
           ctaLabel="See clinIQ for Kuwait clinics"
           description="15-minute walkthrough. We'll show you patient flow, scheduling, and pre-authorisation configured for Kuwait's private clinic market."
         />
+        <MoreLocations current="kuwait" />
       </main>
       <FooterInner />
     </>

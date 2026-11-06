@@ -223,6 +223,24 @@
       "title": "Provider Productivity Metrics That Matter",
       "href": "/blog/provider-productivity-metrics",
       "description": "Measuring and improving provider efficiency through data-driven insights."
+    },
+    {
+      "type": "resource",
+      "title": "Clinic Analytics: The Metrics That Actually Matter",
+      "href": "/resources/analytics-metrics-guide",
+      "description": "The operational metrics worth tracking weekly."
+    },
+    {
+      "type": "blog",
+      "title": "7 Signs Your Patient Flow Process Is Costing You",
+      "href": "/blog/patient-flow-process-costing-money",
+      "description": "Where lost time turns into lost revenue."
+    },
+    {
+      "type": "resource",
+      "title": "Clinic Operations Maturity Model",
+      "href": "/resources/operations-maturity-model",
+      "description": "See where your clinic stands and what to fix next."
     }
   ],
   "schema": {

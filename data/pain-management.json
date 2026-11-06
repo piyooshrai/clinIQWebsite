@@ -195,6 +195,12 @@
       "title": "Spine Surgery",
       "href": "/specialties/spine-surgery",
       "description": "Surgical management for patients progressing beyond interventional pain treatment."
+    },
+    {
+      "type": "blog",
+      "title": "RTM for Pain Management",
+      "href": "/blog/rtm-pain-management",
+      "description": "Monitoring and billing between office visits."
     }
   ],
   "schema": {

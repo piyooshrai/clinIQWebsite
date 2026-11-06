@@ -237,6 +237,24 @@
       "title": "Behavioral Health RTM",
       "href": "/specialties/behavioral-health",
       "description": "How behavioral health practices run RTM programs under the 2024 expansion."
+    },
+    {
+      "type": "blog",
+      "title": "RTM Billing Guide 2026",
+      "href": "/blog/rtm-revenue-guide",
+      "description": "Codes, documentation and billing rules in one place."
+    },
+    {
+      "type": "blog",
+      "title": "RTM Documentation: What Payers Actually Need",
+      "href": "/blog/rtm-documentation-requirements",
+      "description": "What to record so RTM claims hold up."
+    },
+    {
+      "type": "blog",
+      "title": "5 RTM Implementation Mistakes That Kill Revenue",
+      "href": "/blog/rtm-implementation-mistakes",
+      "description": "The setup errors that leave billable months on the table."
     }
   ],
   "schema": {

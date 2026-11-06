@@ -264,6 +264,24 @@
       "title": "Analytics",
       "href": "/features/analytics",
       "description": "Surface wait time patterns, provider utilization gaps, and bottleneck trends."
+    },
+    {
+      "type": "blog",
+      "title": "Where Patient Flow Breaks Down",
+      "href": "/blog/patient-flow-bottlenecks",
+      "description": "How to spot bottlenecks before the lobby fills."
+    },
+    {
+      "type": "blog",
+      "title": "The 'Who's Next?' Problem",
+      "href": "/blog/who-is-next-problem",
+      "description": "What it costs when staff cannot see the queue."
+    },
+    {
+      "type": "resource",
+      "title": "Patient Flow Audit Template",
+      "href": "/resources/patient-flow-audit-template",
+      "description": "Measure each stage of the visit in a week."
     }
   ],
   "schema": {

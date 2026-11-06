@@ -163,6 +163,18 @@
       "title": "Primary Care",
       "href": "/specialties/primary-care",
       "description": "Follow-up coordination."
+    },
+    {
+      "type": "resource",
+      "title": "LWBS Reduction Playbook for Urgent Care",
+      "href": "/resources/lwbs-reduction-playbook",
+      "description": "Keep walk-in patients from leaving unseen."
+    },
+    {
+      "type": "blog",
+      "title": "Running a Multi-Department Clinic Without Losing Patients",
+      "href": "/blog/multi-department-clinic-flow",
+      "description": "Coordinating flow across departments."
     }
   ],
   "schema": {

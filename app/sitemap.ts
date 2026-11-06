@@ -3,7 +3,8 @@ import { SPANISH_PATHS } from '@/lib/es-pages'
 import { MetadataRoute } from 'next'
 import fs from 'fs'
 import path from 'path'
-import { getAllParams, getAllSpecialtyParams } from '@/lib/feature-specialty-data'
+import { getAllParams } from '@/lib/feature-specialty-data'
+import { getAllSpecialties } from '@/lib/all-specialties'
 import { isBlogSlugPublished } from '@/lib/blog-schedule'
 
 export const revalidate = 3600
@@ -44,40 +45,9 @@ function slugsFromDirs(dir: string): string[] {
   }
 }
 
-// Specialty pillar slugs — must match pillarPages keys in app/specialties/[slug]/page.tsx
-const PILLAR_SPECIALTY_SLUGS = [
-  'pain-management','spine-surgery','neurology','addiction-medicine','urgent-care',
-  'psychiatry','orthopedic-surgery','dermatology','cardiology','primary-care',
-  'pulmonology','gastroenterology','endocrinology','nephrology','oncology',
-  'ob-gyn','pediatrics','ent','ophthalmology','podiatry','oral-surgery',
-  'infusion-centers','allergy','neurosurgery','sports-medicine','physical-therapy',
-  'plastic-surgery','rheumatology','vascular-surgery','wound-care','general-surgery',
-  'chiropractic','behavioral-health','allergy-immunology',
-]
-
-/** Collect all specialty slugs from pillar pages + JSON arrays + generated specialties */
+/** All specialty slugs: pillar pages, JSON specialty files and generated specialties. */
 function getSpecialtySlugs(): string[] {
-  const seen = new Set<string>(PILLAR_SPECIALTY_SLUGS)
-  const result: string[] = [...PILLAR_SPECIALTY_SLUGS]
-  const cwd = process.cwd()
-
-  // JSON array specialty files
-  for (const file of ['data/specialties.json', 'data/specialties-20-value-first.json']) {
-    try {
-      const raw = JSON.parse(fs.readFileSync(path.join(cwd, file), 'utf8')) as Array<{ slug?: string } | string>
-      for (const item of raw) {
-        const slug = typeof item === 'string' ? item : item.slug
-        if (slug && !seen.has(slug)) { seen.add(slug); result.push(slug) }
-      }
-    } catch { /* skip */ }
-  }
-
-  // Generated specialties from feature-specialty-data (120 specialties)
-  for (const { specialtySlug } of getAllSpecialtyParams()) {
-    if (!seen.has(specialtySlug)) { seen.add(specialtySlug); result.push(specialtySlug) }
-  }
-
-  return result
+  return getAllSpecialties().map((s) => s.slug)
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -104,7 +74,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ]
 
   const featureSlugAliases: Record<string, string> = { 'patient-check-in': 'check-in', 'pre-authorization': 'pre-auth', 'rtm-billing': 'rtm' }
-  const features = slugsFromPrefixedFiles(path.join(cwd, 'data'), 'feature-').map(file => featureSlugAliases[file] ?? file).map(slug => ({
+  // feature-specialty-content.json holds per-specialty copy, not a feature page.
+  const features = slugsFromPrefixedFiles(path.join(cwd, 'data'), 'feature-').filter(file => file !== 'specialty-content').map(file => featureSlugAliases[file] ?? file).map(slug => ({
     url: `${BASE_URL}/features/${slug}`,
     lastModified: now,
     changeFrequency: 'monthly' as const,

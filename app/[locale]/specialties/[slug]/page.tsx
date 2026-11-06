@@ -38,6 +38,7 @@ import allergyImmunologyPillar from '@/data/allergy-immunology.json'
 import { getSpecialtyPageData, getAllSpecialtyParams } from '@/lib/feature-specialty-data'
 import JsonSpecialtyPage from '@/components/templates/JsonSpecialtyPage'
 import PillarSpecialtyPage, { type PillarData } from '@/components/templates/PillarSpecialtyPage'
+import SpecialtyFeatureLinks from '@/components/SpecialtyFeatureLinks'
 import SpecialtyPage from '@/components/templates/SpecialtyPage'
 
 // Pillar pages keyed by slug — checked before JSON specialties.
@@ -157,7 +158,12 @@ export async function generateMetadata({
 export default function SpecialtySlugPage({ params }: { params: { slug: string } }) {
   const pillar = pillarPages[params.slug]
   if (pillar) {
-    return <PillarSpecialtyPage data={pillar} />
+    return (
+      <PillarSpecialtyPage
+        data={pillar}
+        beforeCta={<SpecialtyFeatureLinks slug={params.slug} name={pillar.name} />}
+      />
+    )
   }
   const jsonData = specialtiesData.find((s) => s.slug === params.slug) as JsonSpecialty | undefined
   if (jsonData) {

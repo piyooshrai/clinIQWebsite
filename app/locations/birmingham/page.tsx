@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import MoreLocations from '@/components/MoreLocations'
 import LocationSchema from '@/components/LocationSchema'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
@@ -58,6 +59,7 @@ export default function BirminghamPage() {
           ctaLabel="See clinIQ for Birmingham clinics"
           description="Built for Birmingham's diverse patient mix, NHS conversion market, and Edgbaston private practice cluster. Request a walkthrough for your specialty."
         />
+        <MoreLocations current="birmingham" />
       </main>
       <FooterInner />
     </>

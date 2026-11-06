@@ -195,6 +195,12 @@
       "title": "Orthopedic Surgery",
       "href": "/specialties/orthopedic-surgery",
       "description": "Post-surgical rehabilitation coordination with orthopedic surgeons."
+    },
+    {
+      "type": "blog",
+      "title": "RTM for Physical Therapy",
+      "href": "/blog/rtm-physical-therapy",
+      "description": "Billing for home exercise programs."
     }
   ],
   "schema": {

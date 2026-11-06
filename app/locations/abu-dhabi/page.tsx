@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import MoreLocations from '@/components/MoreLocations'
 import LocationSchema from '@/components/LocationSchema'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
@@ -58,6 +59,7 @@ export default function AbuDhabiPage() {
           ctaLabel="See clinIQ for Abu Dhabi clinics"
           description="Configured for Abu Dhabi's Malaffi requirements and DOH standards. Request a walkthrough for your facility."
         />
+        <MoreLocations current="abu-dhabi" />
       </main>
       <FooterInner />
     </>

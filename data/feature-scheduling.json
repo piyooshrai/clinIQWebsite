@@ -211,6 +211,18 @@
       "title": "Appointment Templates: Getting Duration Right",
       "href": "/blog/appointment-templates-duration",
       "description": "Matching scheduled time to actual visit requirements for each appointment type."
+    },
+    {
+      "type": "blog",
+      "title": "Procedure Days Don't Have to Be Chaos Days",
+      "href": "/blog/procedure-day-chaos",
+      "description": "Scheduling procedure days that run on time."
+    },
+    {
+      "type": "blog",
+      "title": "You Can't Hire Your Way Out of Bad Workflow",
+      "href": "/blog/staff-shortage-workflow",
+      "description": "Fixing the schedule before adding staff."
     }
   ],
   "schema": {

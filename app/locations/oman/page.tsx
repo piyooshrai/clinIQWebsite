@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import MoreLocations from '@/components/MoreLocations'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
 import LocationFeatures from '@/components/LocationFeatures'
@@ -66,6 +67,7 @@ export default function OmanPage() {
           ctaLabel="See clinIQ for Oman clinics"
           description="15-minute walkthrough. We'll show you patient flow, check-in, and scheduling built for Muscat's growing private clinic market."
         />
+        <MoreLocations current="oman" />
       </main>
       <FooterInner />
     </>

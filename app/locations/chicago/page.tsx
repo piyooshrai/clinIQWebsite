@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import MoreLocations from '@/components/MoreLocations'
 import LocationSchema from '@/components/LocationSchema'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
@@ -58,6 +59,7 @@ export default function ChicagoPage() {
           ctaLabel="See clinIQ for Chicago clinics"
           description="Built for Chicagoland's complex payer environment and referral networks. Get a demo tailored to your practice's specialty and patient mix."
         />
+        <MoreLocations current="chicago" />
       </main>
       <FooterInner />
     </>

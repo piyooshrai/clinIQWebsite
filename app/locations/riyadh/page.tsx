@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import MoreLocations from '@/components/MoreLocations'
 import LocationSchema from '@/components/LocationSchema'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
@@ -58,6 +59,7 @@ export default function RiyadhPage() {
           ctaLabel="See clinIQ for Riyadh clinics"
           description="Built for Riyadh's CCHI payer environment and Vision 2030 operational standards. Request a walkthrough for your facility."
         />
+        <MoreLocations current="riyadh" />
       </main>
       <FooterInner />
     </>

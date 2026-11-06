@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import MoreLocations from '@/components/MoreLocations'
 import LocationSchema from '@/components/LocationSchema'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
@@ -58,6 +59,7 @@ export default function ManchesterPage() {
           ctaLabel="See clinIQ for Manchester clinics"
           description="Purpose-built for Northern England's private market — from NHS conversion to sports medicine. Request a walkthrough for your specialty."
         />
+        <MoreLocations current="manchester" />
       </main>
       <FooterInner />
     </>

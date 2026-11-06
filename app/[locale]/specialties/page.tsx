@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
 import s from '@/app/specialties/specialty-full.module.css'
+import SpecialtyDirectory from '@/components/SpecialtyDirectory'
 
 export const metadata: Metadata = {
   title: 'Specialties — clinIQ Clinic Operations by Specialty',
@@ -141,6 +142,8 @@ export default function SpecialtiesIndex() {
             </div>
           </div>
         </section>
+
+        <SpecialtyDirectory />
 
         {/* ── CTA ── */}
         <section className={s.cta}>

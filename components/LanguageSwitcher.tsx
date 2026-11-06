@@ -27,10 +27,14 @@ export default function LanguageSwitcher({ variant = 'nav' }: Props) {
   const pathname = usePathname()
   const [isPending, startTransition] = useTransition()
 
+  function targetFor(nextLocale: 'en' | 'ar' | 'es') {
+    const path = nextLocale === 'es' && !hasSpanishVersion(pathname) ? '/' : pathname
+    return nextLocale === 'en' ? path : `/${nextLocale}${path === '/' ? '' : path}`
+  }
+
   // A full page load, so menus and forms re-render in the new language too.
   function switchLocale(nextLocale: 'en' | 'ar' | 'es') {
-    const path = nextLocale === 'es' && !hasSpanishVersion(pathname) ? '/' : pathname
-    const target = nextLocale === 'en' ? path : `/${nextLocale}${path === '/' ? '' : path}`
+    const target = targetFor(nextLocale)
     document.cookie = `NEXT_LOCALE=${nextLocale}; path=/; max-age=31536000; samesite=lax`
     startTransition(() => {
       window.location.assign(target + window.location.search)
@@ -44,10 +48,14 @@ export default function LanguageSwitcher({ variant = 'nav' }: Props) {
   return (
     <div className={styles.group}>
       {options.map((option) => (
-        <button
+        <a
           key={option}
-          type="button"
-          onClick={() => switchLocale(option)}
+          href={targetFor(option)}
+          hrefLang={option}
+          onClick={(e) => {
+            e.preventDefault()
+            switchLocale(option)
+          }}
           className={btnClass}
           title={titles[option]}
           aria-label={titles[option]}
@@ -55,7 +63,7 @@ export default function LanguageSwitcher({ variant = 'nav' }: Props) {
         >
           <GlobeIcon />
           <span>{option.toUpperCase()}</span>
-        </button>
+        </a>
       ))}
     </div>
   )

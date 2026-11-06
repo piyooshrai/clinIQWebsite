@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import MoreLocations from '@/components/MoreLocations'
 import LocationSchema from '@/components/LocationSchema'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
@@ -68,6 +69,7 @@ export default function AustraliaPage() {
           ctaLabel="See clinIQ for Australian clinics"
           description="15-minute walkthrough. We'll show you patient flow, check-in, and scheduling built for the dual-payer Australian market."
         />
+        <MoreLocations current="australia" />
       </main>
       <FooterInner />
     </>

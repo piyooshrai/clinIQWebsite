@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import MoreLocations from '@/components/MoreLocations'
 import LocationSchema from '@/components/LocationSchema'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
@@ -58,6 +59,7 @@ export default function PhoenixPage() {
           ctaLabel="See clinIQ for Phoenix clinics"
           description="Purpose-built for Phoenix's seasonal demand patterns, Medicare Advantage complexity, and East Valley growth. Request a demo tailored to your specialty."
         />
+        <MoreLocations current="phoenix" />
       </main>
       <FooterInner />
     </>

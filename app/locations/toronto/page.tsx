@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import MoreLocations from '@/components/MoreLocations'
 import LocationSchema from '@/components/LocationSchema'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
@@ -58,6 +59,7 @@ export default function TorontoPage() {
           ctaLabel="See clinIQ for Toronto clinics"
           description="Built for Ontario's OHIP-plus-private billing environment and Toronto's multilingual patient population. Request a walkthrough for your specialty."
         />
+        <MoreLocations current="toronto" />
       </main>
       <FooterInner />
     </>

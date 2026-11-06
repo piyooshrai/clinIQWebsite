@@ -196,6 +196,12 @@
       "title": "Wait Time Analytics: What to Measure and Why",
       "href": "/blog/wait-time-analytics",
       "description": "The metrics behind a shorter wait."
+    },
+    {
+      "type": "blog",
+      "title": "Your Whiteboard Patient Tracker Is a Liability",
+      "href": "/blog/whiteboard-patient-tracking",
+      "description": "Why whiteboards fail on privacy and accuracy."
     }
   ],
   "schema": {

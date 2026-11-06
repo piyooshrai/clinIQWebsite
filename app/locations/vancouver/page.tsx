@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import NavInner from '@/components/NavInner'
 import FooterInner from '@/components/FooterInner'
+import MoreLocations from '@/components/MoreLocations'
 import LocationSchema from '@/components/LocationSchema'
 import LocationHero from '@/components/LocationHero'
 import LocationContext from '@/components/LocationContext'
@@ -58,6 +59,7 @@ export default function VancouverPage() {
           ctaLabel="See clinIQ for Vancouver clinics"
           description="Built for BC's high-overhead clinic market — from integrative medicine practices to specialist referral networks. Request a walkthrough today."
         />
+        <MoreLocations current="vancouver" />
       </main>
       <FooterInner />
     </>
