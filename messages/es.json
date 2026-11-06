@@ -742,8 +742,8 @@
     "professional": {
       "patients": "Hasta 2,000 pacientes/mes",
       "f1": "Todo lo de Starter",
-      "f2": "Facturación RTM",
-      "f3": "Autorización previa",
+      "f2": "Facturación RTM: $15 por paciente activo/mes",
+      "f3": "Autorización previa: $8 por autorización",
       "f4": "Agendamiento",
       "f5": "Panel de análisis",
       "f6": "Soporte prioritario"
@@ -761,7 +761,7 @@
     "ehrLabel": "Integraciones con EHR",
     "ehrValue": "Cotización personalizada según el EHR",
     "allPlansLabel": "Todos los planes incluyen",
-    "allPlansValue": "Sin cargos por paciente ni por autorización · Firmamos un BAA con cada cliente · Infraestructura conforme a HIPAA · 99.9% de disponibilidad",
+    "allPlansValue": "Sin comisiones por transacción ni cargos por excedente · Firmamos un BAA con cada cliente · Infraestructura conforme a HIPAA · 99.9% de disponibilidad",
     "addonLabel": "Complemento de recepción con IA",
     "addonValue": "$699/mes por ubicación. Contesta cada llamada, confirma y reprograma citas y da seguimiento a las inasistencias."
   },

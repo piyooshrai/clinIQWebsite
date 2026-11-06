@@ -65,7 +65,7 @@ const specialties = [
     "pricing": {
       "show": true,
       "starter": "$449/month \u2014 Check-in, patient flow, basic analytics. One location.",
-      "professional": "$999/month \u2014 Everything. RTM billing, prior auth tracking, multi-location, priority support.",
+      "professional": "$999/month \u2014 Everything. RTM billing, prior auth tracking, multi-location, priority support. RTM $15 per active patient; prior auth $8 per authorization.",
       "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 Workflow mapping, configuration, training, go-live support.",
       "integration": "Custom quote \u2014 eClinicalWorks, Athena, and other EHR integrations."
     },
@@ -192,7 +192,7 @@ const specialties = [
     "pricing": {
       "show": true,
       "starter": "$449/month \u2014 Check-in, patient flow, basic analytics. One location.",
-      "professional": "$999/month \u2014 Everything. RTM billing, injection scheduling, observation tracking, multi-location.",
+      "professional": "$999/month \u2014 Everything. RTM billing, injection scheduling, observation tracking, multi-location. RTM $15 per active patient; prior auth $8 per authorization.",
       "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 MAT workflow mapping, configuration, training, go-live support.",
       "integration": "Custom quote \u2014 Behavioral health EHR integrations available."
     },
@@ -318,7 +318,7 @@ const specialties = [
     "pricing": {
       "show": true,
       "starter": "$449/month \u2014 Patient flow, check-in, basic analytics. One location.",
-      "professional": "$999/month \u2014 Everything including LobbyView, LWBS tracking, multi-location dashboard.",
+      "professional": "$999/month \u2014 Everything including LobbyView, LWBS tracking, multi-location dashboard. RTM $15 per active patient; prior auth $8 per authorization.",
       "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 Workflow mapping, configuration, training, go-live support.",
       "integration": "Custom quote \u2014 Urgent care EHR integrations available."
     },
@@ -442,7 +442,7 @@ const specialties = [
     "pricing": {
       "show": true,
       "starter": "$449/month \u2014 Patient flow, check-in, basic analytics. One location.",
-      "professional": "$999/month \u2014 Everything. RTM billing, waitlist, cap tracking, multi-location.",
+      "professional": "$999/month \u2014 Everything. RTM billing, waitlist, cap tracking, multi-location. RTM $15 per active patient; prior auth $8 per authorization.",
       "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 Multi-patient workflow mapping, configuration, training.",
       "integration": "Custom quote \u2014 WebPT, Clinicient, and other PT EHR integrations."
     },
@@ -566,7 +566,7 @@ const specialties = [
     "pricing": {
       "show": true,
       "starter": "$449/month \u2014 Basic chair tracking and patient flow. One location.",
-      "professional": "$999/month \u2014 Everything. RTM, chair utilization analytics, pharmacy sync, multi-location.",
+      "professional": "$999/month \u2014 Everything. RTM, chair utilization analytics, pharmacy sync, multi-location. RTM $15 per active patient; prior auth $8 per authorization.",
       "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 Infusion workflow mapping, configuration, training.",
       "integration": "Custom quote \u2014 Oncology EHR and pharmacy system integrations."
     },
@@ -687,7 +687,7 @@ const specialties = [
     "pricing": {
       "show": true,
       "starter": "$449/month \u2014 Private check-in, patient flow, basic analytics. One location.",
-      "professional": "$999/month \u2014 Everything. Confirmation sequences, no-show prediction, waitlist, multi-location.",
+      "professional": "$999/month \u2014 Everything. Confirmation sequences, no-show prediction, waitlist, multi-location. RTM $15 per active patient; prior auth $8 per authorization.",
       "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 Mental health workflow mapping, configuration, training.",
       "integration": "Custom quote \u2014 Behavioral health EHR integrations available."
     },
@@ -812,7 +812,7 @@ const specialties = [
     "pricing": {
       "show": true,
       "starter": "$449/month \u2014 Basic surgical tracking. One facility.",
-      "professional": "$999/month \u2014 Everything. Turnover analytics, LOMN templates, PACU visibility, multi-facility.",
+      "professional": "$999/month \u2014 Everything. Turnover analytics, LOMN templates, PACU visibility, multi-facility. RTM $15 per active patient; prior auth $8 per authorization.",
       "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 Surgical workflow mapping, configuration, training.",
       "integration": "Custom quote \u2014 Surgical scheduling system integrations."
     },
@@ -936,7 +936,7 @@ const specialties = [
     "pricing": {
       "show": true,
       "starter": "$449/month \u2014 Single workflow type, basic patient flow.",
-      "professional": "$999/month \u2014 Multiple workflows (medical/cosmetic/Mohs), biopsy tracking, full analytics.",
+      "professional": "$999/month \u2014 Multiple workflows (medical/cosmetic/Mohs), biopsy tracking, full analytics. RTM $15 per active patient; prior auth $8 per authorization.",
       "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 Multi-workflow mapping, configuration, training.",
       "integration": "Custom quote \u2014 Modernizing Medicine and other derm EHR integrations."
     },
@@ -1060,7 +1060,7 @@ const specialties = [
     "pricing": {
       "show": true,
       "starter": "$449/month \u2014 Clinic patient flow, basic analytics.",
-      "professional": "$999/month \u2014 Full multi-modality tracking, RTM, reading queues, testing suite visibility.",
+      "professional": "$999/month \u2014 Full multi-modality tracking, RTM, reading queues, testing suite visibility. RTM $15 per active patient; prior auth $8 per authorization.",
       "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 Multi-modality workflow mapping, configuration, training.",
       "integration": "Custom quote \u2014 Cardiac EHR and device vendor integrations."
     },
@@ -1184,7 +1184,7 @@ const specialties = [
     "pricing": {
       "show": true,
       "starter": "$449/month \u2014 Patient flow, check-in, basic analytics.",
-      "professional": "$999/month \u2014 Everything. RTM, CCM tracking, AWV workflow, multi-provider analytics.",
+      "professional": "$999/month \u2014 Everything. RTM, CCM tracking, AWV workflow, multi-provider analytics. RTM $15 per active patient; prior auth $8 per authorization.",
       "implementation": "$750 one-time (Starter) or $1,500 (Professional) \u2014 Primary care workflow mapping, configuration, training.",
       "integration": "Custom quote \u2014 Primary care EHR integrations."
     },

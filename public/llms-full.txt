@@ -112,7 +112,10 @@ Primary focus on outpatient specialty clinics with 5-50 providers:
 | AI Front Desk add-on | $699 per location | Answers calls, confirms and reschedules visits, follows up on no-shows |
 | Implementation | $750 / $1,500 | One-time, Starter / Professional |
 
-No per-patient, per-authorization or per-transaction fees.
+| RTM usage | $15 per active patient/month | Professional plan |
+| Prior authorization usage | $8 per authorization | Professional plan |
+
+No per-transaction fees.
 
 ### Compliance
 

@@ -62,10 +62,10 @@ clinIQ connects to existing EHR systems via FHIR API and HL7 — no data migrati
 
 ## Pricing
 
-All prices are flat, per location. No per-patient, per-authorization or per-transaction fees.
+Platform prices are per location. Two modules are billed by use: RTM at $15 per active patient per month and prior authorization at $8 per authorization. No per-transaction fees.
 
 - Starter: $449/month per location — up to 500 patients/month. Digital check-in, real-time patient flow, LobbyView waiting room display.
-- Professional: $999/month per location — up to 2,000 patients/month. Everything in Starter plus RTM billing, prior authorization, scheduling, and analytics.
+- Professional: $999/month per location — up to 2,000 patients/month. Everything in Starter plus scheduling, analytics, RTM billing ($15 per active patient per month) and prior authorization ($8 per authorization).
 - Enterprise: Custom — unlimited patients, multi-location, custom integrations, dedicated success manager, SLA.
 - AI Front Desk add-on: $699/month per location — answers every call, confirms and reschedules visits, follows up on no-shows, and hands complex calls to staff.
 - Implementation: $750 one-time (Starter) or $1,500 (Professional).
@@ -96,6 +96,6 @@ All prices are flat, per location. No per-patient, per-authorization or per-tran
 - Average time to go live: 3–5 business days
 - Primary use case: clinics losing RTM revenue, drowning in pre-auth paperwork, or managing patient flow with whiteboards
 - clinIQ signs a Business Associate Agreement (BAA) with every client
-- Pricing is flat per location: no per-patient or per-authorization fees
+- Pricing: platform fee per location; RTM $15 per active patient per month; prior authorization $8 per authorization
 - Headquarters: Colorado, USA
 - Also available in Arabic (العربية) for Middle East clinics: UAE, Saudi Arabia, Kuwait, Qatar, Bahrain
